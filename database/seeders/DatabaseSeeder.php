@@ -34,7 +34,10 @@ class DatabaseSeeder extends Seeder
         $admin->email_verified_at ??= now();
         $admin->save();
 
-        if (! $admin->enrollment()->exists()) {
+        // Enrolling needs week 1 — on a fresh install content:import runs after the seeder
+        if (! \App\Models\Week::exists()) {
+            $this->command->warn('No content yet — run content:import, then db:seed again to enroll the admin.');
+        } elseif (! $admin->enrollment()->exists()) {
             app(ProgressService::class)->enroll($admin, 'A', 'Africa/Cairo');
         }
 
