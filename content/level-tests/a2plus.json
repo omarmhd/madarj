@@ -1,0 +1,981 @@
+{
+  "level": "A2+",
+  "after_week": 18,
+  "title_ar": "اختبار المستوى A2+",
+  "title_en": "A2+ Level Test",
+  "minutes": 50,
+  "pass_percent": 60,
+  "modeled_on": "Cambridge A2 Key / B1 Preliminary, CEFR A2–B1",
+  "tips_ar": [
+    "اقرأ السؤال قبل أن تستمع، لتعرف ما تبحث عنه.",
+    "تستطيع أن تستمع إلى كل حوار مرتين.",
+    "لا تقف طويلاً عند سؤال صعب. أكمل ثم ارجع إليه.",
+    "انتبه للكلمات الصغيرة: since وfor وago وyet.",
+    "النجاح من 60%. لا تحتاج إلى الكمال."
+  ],
+  "sections": [
+    {
+      "key": "listening",
+      "title_ar": "الاستماع",
+      "title_en": "Listening",
+      "instructions_ar": "استمع إلى كل حوار، ثم اختر الإجابة الصحيحة.",
+      "advice_ar": [
+        "استمع إلى حواري كل أسبوع مرة كل يوم دون أن تنظر إلى النص.",
+        "جرّب الشادوينج: كرّر الجملة بعد المتحدث مباشرة.",
+        "استمع إلى القصص بصوت الراوي ثم اقرأها."
+      ],
+      "parts": [
+        {
+          "instructions_ar": "حوار بين صديقين.",
+          "audio": [
+            {
+              "g": "f",
+              "text": "Hi Sam! Long time no see. What have you been up to?"
+            },
+            {
+              "g": "m",
+              "text": "I've just come back from Turkey. I was there for two weeks with my brother."
+            },
+            {
+              "g": "f",
+              "text": "Really? Have you ever been abroad before?"
+            },
+            {
+              "g": "m",
+              "text": "Only once. I visited Jordan in 2019."
+            },
+            {
+              "g": "f",
+              "text": "What was Turkey like?"
+            },
+            {
+              "g": "m",
+              "text": "It was amazing. We climbed a mountain and I was very tired."
+            }
+          ],
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "How long was Sam in Turkey?",
+              "payload": {
+                "options": [
+                  "One week",
+                  "Two weeks",
+                  "A month"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "How many times did Sam travel abroad before Turkey?",
+              "payload": {
+                "options": [
+                  "Never",
+                  "Once",
+                  "Twice"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "true_false",
+              "prompt": "Sam was very tired after the mountain.",
+              "payload": {},
+              "answer": {
+                "correct": true
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "إعلان في مطار.",
+          "audio": [
+            {
+              "g": "f",
+              "text": "Good morning, passengers. Flight 207 to Cairo is late."
+            },
+            {
+              "g": "f",
+              "text": "The new time is eleven thirty."
+            },
+            {
+              "g": "f",
+              "text": "Please go to gate twelve. Have your passport and ticket ready."
+            },
+            {
+              "g": "f",
+              "text": "Passengers must not leave bags alone. Thank you."
+            }
+          ],
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "What is the new time of the flight?",
+              "payload": {
+                "options": [
+                  "10:30",
+                  "11:00",
+                  "11:30"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "What must passengers have ready?",
+              "payload": {
+                "options": [
+                  "A passport and a ticket",
+                  "A visa and a form",
+                  "An identity card only"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Complete the note:",
+              "payload": {
+                "before": "Gate number:",
+                "after": ""
+              },
+              "answer": {
+                "accepted": [
+                  "12",
+                  "gate 12",
+                  "gate twelve",
+                  "twelve"
+                ]
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "حوار عن مشكلة في الهاتف.",
+          "audio": [
+            {
+              "g": "m",
+              "text": "My phone keeps freezing. I don't know what to do."
+            },
+            {
+              "g": "f",
+              "text": "Have you tried to restart it?"
+            },
+            {
+              "g": "m",
+              "text": "Yes, I've already tried that."
+            },
+            {
+              "g": "f",
+              "text": "Then you should update it. If you update it tonight, it will work better tomorrow."
+            },
+            {
+              "g": "m",
+              "text": "OK. But I'll back up my photos first, just in case."
+            }
+          ],
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "What does the woman advise?",
+              "payload": {
+                "options": [
+                  "Buy a new phone",
+                  "Update the phone",
+                  "Delete the photos"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "true_false",
+              "prompt": "The man has not restarted his phone yet.",
+              "payload": {},
+              "answer": {
+                "correct": false
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "نقاش عن العمل من البيت.",
+          "audio": [
+            {
+              "g": "f",
+              "text": "In my opinion, remote work is better. You don't have to sit in traffic."
+            },
+            {
+              "g": "m",
+              "text": "That's a good point, but I see it differently."
+            },
+            {
+              "g": "m",
+              "text": "I think people who work at home feel alone."
+            },
+            {
+              "g": "f",
+              "text": "Up to a point, yes. But I have more time for my family."
+            },
+            {
+              "g": "m",
+              "text": "Fair enough. Maybe two days at home is a good compromise."
+            }
+          ],
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "Why does the woman like remote work?",
+              "payload": {
+                "options": [
+                  "The salary is higher",
+                  "She has more time for her family",
+                  "She likes being alone"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "What does the man suggest at the end?",
+              "payload": {
+                "options": [
+                  "Working at home every day",
+                  "Never working at home",
+                  "Two days at home"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "title_ar": "القراءة",
+      "title_en": "Reading",
+      "instructions_ar": "اقرأ النص، ثم اختر الإجابة الصحيحة.",
+      "advice_ar": [
+        "اقرأ قصة قصيرة كل يوم من صفحة القصص على مستواك.",
+        "اقرأ السؤال أولاً، ثم ابحث في النص عن الجزء الذي يجيب عنه.",
+        "راجع قسم القراءة في كل أسبوع وأجب عن أسئلته مرة أخرى."
+      ],
+      "parts": [
+        {
+          "instructions_ar": "ماذا تقول كل لافتة أو رسالة؟",
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "STAFF ONLY — What does this sign say?",
+              "payload": {
+                "options": [
+                  "Only workers can go in here.",
+                  "Workers must wait here.",
+                  "Everyone is welcome here."
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "OUT OF ORDER — What does this sign on a machine say?",
+              "payload": {
+                "options": [
+                  "The machine is new.",
+                  "The machine does not work.",
+                  "You must ask before you use it."
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Message: \"Hi Lina, the meeting is at 3, not 2. If you're late, I'll start without you. — Sam\" What does Sam want?",
+              "payload": {
+                "options": [
+                  "He wants to cancel the meeting.",
+                  "He wants Lina to come at 2.",
+                  "He wants Lina to know the new time."
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "You don't have to book. Just come in! — What does this sign say?",
+              "payload": {
+                "options": [
+                  "You must book first.",
+                  "Booking is not necessary.",
+                  "You can't come in."
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "اقرأ النص الطويل ثم أجب.",
+          "passage": "Karim has worked in the same bakery for twelve years. He started there when he was nineteen. At that time, the bakery was very small and it only sold bread. Since then, a lot has changed. Three years ago, Karim's boss decided to sell cakes too, and the business grew quickly. Karim has learned to make more than thirty kinds of cake, and he has never been late for work. \"People often ask me if I am bored,\" he says. \"I'm not. Every day is different. In my opinion, you should love what you do, or you shouldn't do it.\" Last year, Karim won a prize for the best cake in the city. He hasn't opened his own bakery yet, but it's on his list. \"If I save enough money, I will open one in two years,\" he says. \"But I must be careful. It's a big risk.\"",
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "How old was Karim when he started at the bakery?",
+              "payload": {
+                "options": [
+                  "Twelve",
+                  "Nineteen",
+                  "Thirty"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "What happened three years ago?",
+              "payload": {
+                "options": [
+                  "The bakery started to sell cakes.",
+                  "Karim won a prize.",
+                  "The bakery closed."
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "What does Karim think?",
+              "payload": {
+                "options": [
+                  "His work is boring.",
+                  "You should love your work.",
+                  "Opening a bakery is easy."
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "true_false",
+              "prompt": "Karim has already opened his own bakery.",
+              "payload": {},
+              "answer": {
+                "correct": false
+              },
+              "points": 1
+            },
+            {
+              "type": "true_false",
+              "prompt": "Karim has never arrived late at work.",
+              "payload": {},
+              "answer": {
+                "correct": true
+              },
+              "points": 1
+            },
+            {
+              "type": "true_false",
+              "prompt": "Karim won the prize three years ago.",
+              "payload": {},
+              "answer": {
+                "correct": false
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "grammar",
+      "title_ar": "القواعد",
+      "title_en": "Grammar",
+      "instructions_ar": "اختر الكلمة الصحيحة أو أكمل الجملة.",
+      "advice_ar": [
+        "راجع قسم القواعد في الأسبوعين 13 و14: الفرق بين have done وdid.",
+        "العب صيد الغلط وركّز على أخطاء since وago وIf it will.",
+        "اكتب ثلاث جمل عن نفسك كل يوم بـ since وfor."
+      ],
+      "parts": [
+        {
+          "instructions_ar": "اختر الإجابة الصحيحة.",
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "I ___ in this city since 2018.",
+              "payload": {
+                "options": [
+                  "live",
+                  "have lived",
+                  "lived"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "We ___ the film two days ago.",
+              "payload": {
+                "options": [
+                  "saw",
+                  "have seen",
+                  "see"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "If it ___ tomorrow, we will stay at home.",
+              "payload": {
+                "options": [
+                  "will rain",
+                  "rains",
+                  "rained"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "You ___ wear a seatbelt. It's the law.",
+              "payload": {
+                "options": [
+                  "don't have to",
+                  "must",
+                  "could"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "The woman ___ lives next door is a doctor.",
+              "payload": {
+                "options": [
+                  "she",
+                  "which",
+                  "who"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "I ___ the answer now.",
+              "payload": {
+                "options": [
+                  "know",
+                  "am knowing",
+                  "knowing"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "اكتب كلمة واحدة في الفراغ.",
+          "items": [
+            {
+              "type": "fill_blank",
+              "prompt": "Complete:",
+              "payload": {
+                "before": "She has worked here ",
+                "after": " five years."
+              },
+              "answer": {
+                "accepted": [
+                  "for"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Complete with: ever / yet / since",
+              "payload": {
+                "before": "Have you ",
+                "after": " eaten sushi?"
+              },
+              "answer": {
+                "accepted": [
+                  "ever"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Complete with: ever / yet / since",
+              "payload": {
+                "before": "I haven't finished my homework ",
+                "after": "."
+              },
+              "answer": {
+                "accepted": [
+                  "yet"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Complete:",
+              "payload": {
+                "before": "My brother is taller ",
+                "after": " me."
+              },
+              "answer": {
+                "accepted": [
+                  "than"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Complete:",
+              "payload": {
+                "before": "He can ",
+                "after": " three languages. (speak)"
+              },
+              "answer": {
+                "accepted": [
+                  "speak"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Complete:",
+              "payload": {
+                "before": "If you ",
+                "after": " now, you'll catch the bus. (leave)"
+              },
+              "answer": {
+                "accepted": [
+                  "leave"
+                ]
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "vocabulary",
+      "title_ar": "المفردات",
+      "title_en": "Vocabulary",
+      "instructions_ar": "اختر الكلمة الإنجليزية الصحيحة.",
+      "advice_ar": [
+        "راجع بطاقات المفردات كل يوم، من العربية إلى الإنجليزية.",
+        "افتح المراجعة المتباعدة ولا تترك البطاقات تتراكم.",
+        "أضف إلى «كلماتك» كل كلمة تصادفها خارج الكتاب."
+      ],
+      "parts": [
+        {
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «فرصة»",
+              "payload": {
+                "options": [
+                  "opportunity",
+                  "obligation",
+                  "adventure",
+                  "memory"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «يندم»",
+              "payload": {
+                "options": [
+                  "succeed",
+                  "regret",
+                  "achieve",
+                  "decide"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «ممنوع»",
+              "payload": {
+                "options": [
+                  "allowed",
+                  "flexible",
+                  "forbidden",
+                  "strict"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «عيب / سلبية»",
+              "payload": {
+                "options": [
+                  "benefit",
+                  "advantage",
+                  "evidence",
+                  "disadvantage"
+                ]
+              },
+              "answer": {
+                "correct": 3
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «كلمة المرور»",
+              "payload": {
+                "options": [
+                  "account",
+                  "password",
+                  "signal"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «تلوّث»",
+              "payload": {
+                "options": [
+                  "pollution",
+                  "privacy",
+                  "tradition"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "My phone has run ___ of battery.",
+              "payload": {
+                "options": [
+                  "off",
+                  "out",
+                  "down"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "If you drive too fast, you will have to pay a ___.",
+              "payload": {
+                "options": [
+                  "fine",
+                  "fail",
+                  "form"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Complete:",
+              "payload": {
+                "before": "Prices have ",
+                "after": " this year. They are higher now. (increase)"
+              },
+              "answer": {
+                "accepted": [
+                  "increased"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Complete:",
+              "payload": {
+                "before": "You should ",
+                "after": " up your files before the update. (make a copy)"
+              },
+              "answer": {
+                "accepted": [
+                  "back"
+                ]
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "title_ar": "الكتابة",
+      "title_en": "Writing",
+      "instructions_ar": "صحّح الجملة أو رتّب الكلمات.",
+      "advice_ar": [
+        "افتح سجلّ الأخطاء وراجع الأخطاء التي تتكرر عندك.",
+        "العب صيد الغلط كل يوم عشر دقائق.",
+        "اكتب مهمة الكتابة في كل أسبوع ثم قارنها بنموذج الإجابة."
+      ],
+      "parts": [
+        {
+          "instructions_ar": "في كل جملة خطأ واحد. اكتب الجملة صحيحة.",
+          "items": [
+            {
+              "type": "correct_error",
+              "prompt": "Correct the sentence.",
+              "payload": {
+                "sentence": "I live here since 2020."
+              },
+              "answer": {
+                "accepted": [
+                  "I have lived here since 2020.",
+                  "I've lived here since 2020.",
+                  "I have been living here since 2020.",
+                  "I've been living here since 2020."
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "correct_error",
+              "prompt": "Correct the sentence.",
+              "payload": {
+                "sentence": "I have seen him two years ago."
+              },
+              "answer": {
+                "accepted": [
+                  "I saw him two years ago.",
+                  "I saw him 2 years ago."
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "correct_error",
+              "prompt": "Correct the sentence.",
+              "payload": {
+                "sentence": "If it will rain tomorrow, we will stay home."
+              },
+              "answer": {
+                "accepted": [
+                  "If it rains tomorrow, we will stay home.",
+                  "If it rains tomorrow we will stay home.",
+                  "If it rains tomorrow, we 'll stay home.",
+                  "If it rains tomorrow we 'll stay home.",
+                  "If it rains tomorrow, we will stay at home.",
+                  "If it rains tomorrow we will stay at home.",
+                  "If it rains tomorrow, we 'll stay at home.",
+                  "If it rains tomorrow we 'll stay at home."
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "correct_error",
+              "prompt": "Correct the sentence.",
+              "payload": {
+                "sentence": "The man who he called me is my uncle."
+              },
+              "answer": {
+                "accepted": [
+                  "The man who called me is my uncle.",
+                  "The man who called me is my uncle",
+                  "The man that called me is my uncle.",
+                  "The man that called me is my uncle"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "correct_error",
+              "prompt": "Correct the sentence.",
+              "payload": {
+                "sentence": "You must to show your passport."
+              },
+              "answer": {
+                "accepted": [
+                  "You must show your passport.",
+                  "You have to show your passport."
+                ]
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "رتّب الكلمات لتكوّن جملة صحيحة.",
+          "items": [
+            {
+              "type": "order_words",
+              "prompt": "Put the words in order.",
+              "payload": {
+                "words": [
+                  "been",
+                  "you",
+                  "Have",
+                  "Egypt?",
+                  "ever",
+                  "to"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "Have",
+                  "you",
+                  "ever",
+                  "been",
+                  "to",
+                  "Egypt?"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "order_words",
+              "prompt": "Put the words in order.",
+              "payload": {
+                "words": [
+                  "she",
+                  "think",
+                  "should",
+                  "doctor.",
+                  "I",
+                  "a",
+                  "see"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "I",
+                  "think",
+                  "she",
+                  "should",
+                  "see",
+                  "a",
+                  "doctor."
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "order_words",
+              "prompt": "Put the words in order.",
+              "payload": {
+                "words": [
+                  "finished",
+                  "She",
+                  "just",
+                  "has",
+                  "report.",
+                  "the"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "She",
+                  "has",
+                  "just",
+                  "finished",
+                  "the",
+                  "report."
+                ]
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3344 @@
+{
+  "number": 17,
+  "module": 3,
+  "title_en": "Opinions, Disagreement & Relative Clauses",
+  "title_ar": "الرأي والاعتراض وجمل الوصل",
+  "pron_section": 5,
+  "is_review": false,
+  "objectives": [
+    {
+      "en": "Give an opinion with a reason and an example",
+      "ar": "أعطي رأياً مع سبب ومثال"
+    },
+    {
+      "en": "Agree and disagree politely with someone",
+      "ar": "أوافق وأخالف بأدب"
+    },
+    {
+      "en": "Present both sides of an argument",
+      "ar": "أعرض وجهي الحجّة كليهما"
+    },
+    {
+      "en": "Use who, which, that, where and whose to join sentences",
+      "ar": "أستخدم who و which و that و where و whose لربط الجمل"
+    },
+    {
+      "en": "Build longer sentences instead of a series of short ones",
+      "ar": "أبني جملاً أطول بدل سلسلة جمل قصيرة"
+    },
+    {
+      "en": "Interrupt and return to the point politely",
+      "ar": "أقاطع وأعود إلى الموضوع بأدب"
+    },
+    {
+      "en": "Change the meaning of a sentence by moving the stress",
+      "ar": "أغيّر معنى الجملة بنقل النبر فيها"
+    },
+    {
+      "en": "Discuss a topic for 2 minutes with arguments on both sides",
+      "ar": "أناقش موضوعاً دقيقتين بحجج من الجانبين"
+    }
+  ],
+  "writing": {
+    "title_ar": null,
+    "title_en": "Writing — An Opinion Essay",
+    "task_ar": null,
+    "task_en": "Write 150–170 words giving your opinion on one topic. Structure: your position, two arguments with examples, one argument for the other side, and a conclusion. Include at least three relative clauses.",
+    "min_words": 150,
+    "max_words": 170,
+    "templates": [],
+    "checklist": [],
+    "model_answer": "In my opinion, working from home is better than working in an office, at least for people who do focused work.",
+    "model_words": 21
+  },
+  "days": [
+    {
+      "number": 1,
+      "focus": "إبداء الرأي · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "إبداء الرأي",
+          "minutes": 25,
+          "ref": "vocab:giving_an_opinion"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:1"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "focus": "القواعد · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القواعد",
+          "minutes": 25,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:2"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "focus": "الموافقة والمخالفة · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الموافقة والمخالفة",
+          "minutes": 25,
+          "ref": "vocab:agreeing_and_disagreeing"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:3"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "focus": "الحوار الأول · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "حوار: A Real Disagreement",
+          "minutes": 25,
+          "ref": "dialogue:1"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:4"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "focus": "بناء الحجّة · الحوار الثاني · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "بناء الحجّة · حوار: Presenting Both Sides",
+          "minutes": 25,
+          "ref": "vocab:structuring_an_argument|dialogue:2"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:5"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "focus": "الاستماع · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الاستماع",
+          "minutes": 25,
+          "ref": "section:listening"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:6"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "focus": "القراءة · الكتابة · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القراءة · الكتابة",
+          "minutes": 25,
+          "ref": "section:reading|writing:1|record"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:7"
+        },
+        {
+          "order": 5,
+          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record:baseline"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "group": "giving_an_opinion",
+      "word": "I think…",
+      "ipa": null,
+      "arabic": "أظن…",
+      "example": "Neutral, most common",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "I believe…",
+      "ipa": null,
+      "arabic": "أعتقد…",
+      "example": "Slightly stronger",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "In my opinion…",
+      "ipa": null,
+      "arabic": "برأيي…",
+      "example": "Slightly formal",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "In my view…",
+      "ipa": null,
+      "arabic": "من وجهة نظري…",
+      "example": "Formal",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "Personally, I…",
+      "ipa": null,
+      "arabic": "شخصياً، أنا…",
+      "example": "Marks it as your own view",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "If you ask me…",
+      "ipa": null,
+      "arabic": "إن سألتني…",
+      "example": "Informal",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "It seems to me that…",
+      "ipa": null,
+      "arabic": "يبدو لي أن…",
+      "example": "Careful, tentative",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "I'd say…",
+      "ipa": null,
+      "arabic": "أقول…",
+      "example": "Soft, conversational",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "As far as I'm concerned…",
+      "ipa": null,
+      "arabic": "فيما يخصني…",
+      "example": "Strong personal position",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "I'm convinced that…",
+      "ipa": null,
+      "arabic": "أنا مقتنع أن…",
+      "example": "Very strong",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "I have no doubt that…",
+      "ipa": null,
+      "arabic": "لا شك عندي أن…",
+      "example": "Very strong",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "I'm not sure, but…",
+      "ipa": null,
+      "arabic": "لست متأكداً، لكن…",
+      "example": "Weak, honest",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "I could be wrong, but…",
+      "ipa": null,
+      "arabic": "قد أكون مخطئاً، لكن…",
+      "example": "Very polite",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "It depends on…",
+      "ipa": null,
+      "arabic": "يعتمد على…",
+      "example": "Refusing a simple answer",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "The way I see it…",
+      "ipa": null,
+      "arabic": "كما أراها…",
+      "example": "Informal",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "To be honest…",
+      "ipa": null,
+      "arabic": "بصراحة…",
+      "example": "Introducing a blunt view",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "Frankly…",
+      "ipa": null,
+      "arabic": "بصراحة…",
+      "example": "Slightly stronger",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "Actually…",
+      "ipa": null,
+      "arabic": "في الواقع…",
+      "example": "Correcting a false assumption",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "The main reason is…",
+      "ipa": null,
+      "arabic": "السبب الرئيسي هو…",
+      "example": "Supporting",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "For example…",
+      "ipa": null,
+      "arabic": "على سبيل المثال…",
+      "example": "Supporting",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "For instance…",
+      "ipa": null,
+      "arabic": "مثلاً…",
+      "example": "Supporting",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "Such as…",
+      "ipa": null,
+      "arabic": "مثل…",
+      "example": "Supporting",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "That's why…",
+      "ipa": null,
+      "arabic": "لهذا…",
+      "example": "Concluding",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "In other words…",
+      "ipa": null,
+      "arabic": "بعبارة أخرى…",
+      "example": "Clarifying",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "giving_an_opinion",
+      "word": "What I mean is…",
+      "ipa": null,
+      "arabic": "ما أعنيه هو…",
+      "example": "Clarifying",
+      "group_label_ar": "إبداء الرأي",
+      "group_label_en": "Giving an Opinion"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "I agree.",
+      "ipa": null,
+      "arabic": "أوافق",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "I don't agree.",
+      "ipa": null,
+      "arabic": "لا أوافق",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "Exactly.",
+      "ipa": null,
+      "arabic": "بالضبط",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "I'm afraid I disagree.",
+      "ipa": null,
+      "arabic": "للأسف لا أوافق",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "That's true.",
+      "ipa": null,
+      "arabic": "هذا صحيح",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "I see it differently.",
+      "ipa": null,
+      "arabic": "أراها بشكل مختلف",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "Absolutely.",
+      "ipa": null,
+      "arabic": "تماماً",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "I'm not so sure.",
+      "ipa": null,
+      "arabic": "لست متأكداً",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "You're right.",
+      "ipa": null,
+      "arabic": "أنت محق",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "That's one way of looking at it.",
+      "ipa": null,
+      "arabic": "هذه طريقة للنظر إليها",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "I couldn't agree more.",
+      "ipa": null,
+      "arabic": "لا يمكنني أن أوافق أكثر",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "I take your point, but…",
+      "ipa": null,
+      "arabic": "أتفهّم وجهة نظرك، لكن…",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "That's a good point.",
+      "ipa": null,
+      "arabic": "نقطة جيدة",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "Yes, but on the other hand…",
+      "ipa": null,
+      "arabic": "نعم، لكن من ناحية أخرى…",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "I feel the same way.",
+      "ipa": null,
+      "arabic": "أشعر بنفس الشيء",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "I'm sorry, but I think…",
+      "ipa": null,
+      "arabic": "آسف، لكني أظن…",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "Fair enough.",
+      "ipa": null,
+      "arabic": "معقول",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "Do you really think so?",
+      "ipa": null,
+      "arabic": "هل تظن ذلك حقاً؟",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "I suppose so.",
+      "ipa": null,
+      "arabic": "أظن ذلك",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "That depends.",
+      "ipa": null,
+      "arabic": "ذلك يعتمد",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "Up to a point, yes.",
+      "ipa": null,
+      "arabic": "إلى حد ما، نعم",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "I'd have to disagree there.",
+      "ipa": null,
+      "arabic": "عليّ أن أخالفك هنا",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "That makes sense.",
+      "ipa": null,
+      "arabic": "هذا منطقي",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "I'm not convinced.",
+      "ipa": null,
+      "arabic": "لست مقتنعاً",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "Partly, yes.",
+      "ipa": null,
+      "arabic": "جزئياً، نعم",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "agreeing_and_disagreeing",
+      "word": "It's more complicated than that.",
+      "ipa": null,
+      "arabic": "الأمر أعقد من ذلك",
+      "example": null,
+      "group_label_ar": "الموافقة والمخالفة",
+      "group_label_en": "Agreeing and Disagreeing"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "advantage",
+      "ipa": "/ədˈvɑːntɪdʒ/",
+      "arabic": "ميزة",
+      "example": "The positive side",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "disadvantage",
+      "ipa": "/ˌdɪsədˈvɑːntɪdʒ/",
+      "arabic": "عيب",
+      "example": "The negative side",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "benefit",
+      "ipa": "/ˈbenɪfɪt/",
+      "arabic": "فائدة",
+      "example": "Positive",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "drawback",
+      "ipa": "/ˈdrɔːbæk/",
+      "arabic": "مساوئ",
+      "example": "Negative",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "however",
+      "ipa": "/haʊˈevə(r)/",
+      "arabic": "لكن",
+      "example": "Contrast, formal",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "although",
+      "ipa": "/ɔːlˈðəʊ/",
+      "arabic": "رغم أن",
+      "example": "Contrast",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "whereas",
+      "ipa": "/weərˈæz/",
+      "arabic": "بينما",
+      "example": "Contrast",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "on the one hand",
+      "ipa": "—",
+      "arabic": "من ناحية",
+      "example": "Opening side one",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "on the other hand",
+      "ipa": "—",
+      "arabic": "من ناحية أخرى",
+      "example": "Opening side two",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "nevertheless",
+      "ipa": "/ˌnevəðəˈles/",
+      "arabic": "ومع ذلك",
+      "example": "Strong contrast, formal",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "in addition",
+      "ipa": "/ɪn əˈdɪʃn/",
+      "arabic": "إضافة إلى ذلك",
+      "example": "Adding",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "besides",
+      "ipa": "/bɪˈsaɪdz/",
+      "arabic": "إلى جانب ذلك",
+      "example": "Adding, informal",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "furthermore",
+      "ipa": "/ˈfɜːðəmɔː(r)/",
+      "arabic": "علاوة على ذلك",
+      "example": "Adding, formal",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "firstly",
+      "ipa": "/ˈfɜːstli/",
+      "arabic": "أولاً",
+      "example": "Ordering",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "secondly",
+      "ipa": "/ˈsekəndli/",
+      "arabic": "ثانياً",
+      "example": "Ordering",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "finally",
+      "ipa": "/ˈfaɪnəli/",
+      "arabic": "أخيراً",
+      "example": "Ordering",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "overall",
+      "ipa": "/ˌəʊvərˈɔːl/",
+      "arabic": "إجمالاً",
+      "example": "Concluding",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "in conclusion",
+      "ipa": "—",
+      "arabic": "في الختام",
+      "example": "Concluding, formal",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "to sum up",
+      "ipa": "—",
+      "arabic": "خلاصة القول",
+      "example": "Concluding",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "evidence",
+      "ipa": "/ˈevɪdəns/",
+      "arabic": "دليل",
+      "example": "Supporting",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "fact",
+      "ipa": "/fækt/",
+      "arabic": "حقيقة",
+      "example": "Supporting",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "argument",
+      "ipa": "/ˈɑːɡjumənt/",
+      "arabic": "حجّة",
+      "example": "The case you make",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "issue",
+      "ipa": "/ˈɪʃuː/",
+      "arabic": "قضية",
+      "example": "The topic",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "point of view",
+      "ipa": "—",
+      "arabic": "وجهة نظر",
+      "example": "A position",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "structuring_an_argument",
+      "word": "compromise",
+      "ipa": "/ˈkɒmprəmaɪz/",
+      "arabic": "حل وسط",
+      "example": "The middle ground",
+      "group_label_ar": "بناء الحجّة",
+      "group_label_en": "Structuring an Argument"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "education",
+      "ipa": "/ˌedʒuˈkeɪʃn/",
+      "arabic": "تعليم",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "technology",
+      "ipa": "/tekˈnɒlədʒi/",
+      "arabic": "تكنولوجيا",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "environment",
+      "ipa": "/ɪnˈvaɪrənmənt/",
+      "arabic": "بيئة",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "pollution",
+      "ipa": "/pəˈluːʃn/",
+      "arabic": "تلوّث",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "traffic",
+      "ipa": "/ˈtræfɪk/",
+      "arabic": "مرور",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "transport",
+      "ipa": "/ˈtrænspɔːt/",
+      "arabic": "مواصلات",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "health",
+      "ipa": "/helθ/",
+      "arabic": "صحة",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "exercise",
+      "ipa": "/ˈeksəsaɪz/",
+      "arabic": "رياضة",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "social media",
+      "ipa": "—",
+      "arabic": "وسائل التواصل",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "privacy",
+      "ipa": "/ˈprɪvəsi/",
+      "arabic": "خصوصية",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "work-life balance",
+      "ipa": "—",
+      "arabic": "توازن العمل والحياة",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "remote work",
+      "ipa": "—",
+      "arabic": "عمل عن بعد",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "tradition",
+      "ipa": "/trəˈdɪʃn/",
+      "arabic": "تقليد",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "modern life",
+      "ipa": "—",
+      "arabic": "الحياة الحديثة",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "city life",
+      "ipa": "—",
+      "arabic": "حياة المدينة",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "village life",
+      "ipa": "—",
+      "arabic": "حياة القرية",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "cost of living",
+      "ipa": "—",
+      "arabic": "تكلفة المعيشة",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "salary",
+      "ipa": "/ˈsæləri/",
+      "arabic": "راتب",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "generation",
+      "ipa": "/ˌdʒenəˈreɪʃn/",
+      "arabic": "جيل",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "change",
+      "ipa": "/tʃeɪndʒ/",
+      "arabic": "تغيير",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "freedom",
+      "ipa": "/ˈfriːdəm/",
+      "arabic": "حرية",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "safety",
+      "ipa": "/ˈseɪfti/",
+      "arabic": "أمان",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "success",
+      "ipa": "/səkˈses/",
+      "arabic": "نجاح",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "failure",
+      "ipa": "/ˈfeɪljə(r)/",
+      "arabic": "فشل",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    },
+    {
+      "group": "topics_you_can_discuss",
+      "word": "opportunity",
+      "ipa": "/ˌɒpəˈtjuːnəti/",
+      "arabic": "فرصة",
+      "example": null,
+      "group_label_ar": "موضوعات للنقاش",
+      "group_label_en": "Topics You Can Discuss"
+    }
+  ],
+  "minimal_pairs": [],
+  "dialogues": [
+    {
+      "number": 1,
+      "title": "A Real Disagreement",
+      "situation_en": "Sami and Lina disagree about remote work. Notice that neither of them ever says \"you're wrong.\"",
+      "situation_ar": "سامي ولينا يختلفان حول العمل عن بُعد. لاحظ أن أحداً منهما لم يقل «أنت مخطئ».",
+      "speaker_genders": {
+        "LINA": "f",
+        "SAMI": "m"
+      },
+      "lines": [
+        {
+          "speaker": "LINA",
+          "en": "They want everyone back in the office five days a week.",
+          "ar": "يريدون الجميع في المكتب خمسة أيام أسبوعياً."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Good. Personally, I think it's the right decision.",
+          "ar": "جيد. شخصياً أظن أنه القرار الصحيح."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Really? I see it completely differently.",
+          "ar": "حقاً؟ أنا أراها بشكل مختلف تماماً."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Go on.",
+          "ar": "تفضّلي."
+        },
+        {
+          "speaker": "LINA",
+          "en": "The people who work from home are more productive. There's research on it.",
+          "ar": "الناس الذين يعملون من المنزل أكثر إنتاجية. هناك أبحاث في ذلك."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "That's a good point. But the research I've read measured tasks, not teams.",
+          "ar": "نقطة جيدة. لكن الأبحاث التي قرأتها قاست المهام لا الفرق."
+        },
+        {
+          "speaker": "LINA",
+          "en": "What do you mean?",
+          "ar": "ماذا تعني؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "People who work alone finish more. But teams that never meet stop trusting each other.",
+          "ar": "من يعمل وحده ينجز أكثر. لكن الفرق التي لا تلتقي أبداً تفقد الثقة."
+        },
+        {
+          "speaker": "LINA",
+          "en": "I take your point, but I'm not convinced that being in a room fixes trust.",
+          "ar": "أتفهّم وجهة نظرك، لكني لست مقتنعة أن وجودهم في غرفة يصلح الثقة."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Fair enough. It probably doesn't on its own.",
+          "ar": "معقول. ربما لا يصلحها وحده."
+        },
+        {
+          "speaker": "LINA",
+          "en": "And there's the commute. Two hours a day, which is ten hours a week.",
+          "ar": "وهناك التنقّل. ساعتان يومياً، أي عشر ساعات أسبوعياً."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "That's the strongest argument, honestly. I don't have an answer to that one.",
+          "ar": "هذه أقوى حجّة بصراحة. ليس لدي جواب عليها."
+        },
+        {
+          "speaker": "LINA",
+          "en": "So what would you do?",
+          "ar": "إذن ماذا كنت ستفعل؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Three days. Which is what everybody says, so it's probably right.",
+          "ar": "ثلاثة أيام. وهو ما يقوله الجميع، لذا فهو على الأرجح صحيح."
+        },
+        {
+          "speaker": "LINA",
+          "en": "On that, we agree.",
+          "ar": "في ذلك، نتفق."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Presenting Both Sides",
+      "situation_en": "Khaled has to present an argument in a meeting.",
+      "situation_ar": "خالد يعرض وجهي حجّة في اجتماع.",
+      "speaker_genders": {
+        "KHALED": "m",
+        "MANAGER": "m"
+      },
+      "lines": [
+        {
+          "speaker": "KHALED",
+          "en": "I've been asked to summarise both sides, so I'll try to be fair.",
+          "ar": "طُلب مني تلخيص الجانبين، فسأحاول أن أكون منصفاً."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "Go ahead.",
+          "ar": "تفضّل."
+        },
+        {
+          "speaker": "KHALED",
+          "en": "On the one hand, the new system is faster. That isn't in question.",
+          "ar": "من ناحية، النظام الجديد أسرع. هذا ليس محل جدل."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "How much faster?",
+          "ar": "أسرع بكم؟"
+        },
+        {
+          "speaker": "KHALED",
+          "en": "About forty per cent, according to the tests which we ran in March.",
+          "ar": "حوالي أربعين بالمئة، وفقاً للاختبارات التي أجريناها في مارس."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "And the other hand?",
+          "ar": "والناحية الأخرى؟"
+        },
+        {
+          "speaker": "KHALED",
+          "en": "It costs three times more, and the people who use it every day hate it.",
+          "ar": "يكلّف ثلاثة أضعاف، والناس الذين يستخدمونه يومياً يكرهونه."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "That's a strong objection.",
+          "ar": "اعتراض قوي."
+        },
+        {
+          "speaker": "KHALED",
+          "en": "It is. However, they hated the last system too, for about six months.",
+          "ar": "كذلك هو. لكنهم كرهوا النظام السابق أيضاً، لنحو ستة أشهر."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "So you think it's just resistance to change?",
+          "ar": "إذن تظن أنها مجرد مقاومة للتغيير؟"
+        },
+        {
+          "speaker": "KHALED",
+          "en": "Partly. I could be wrong, but I'd say half of it is, and half is real.",
+          "ar": "جزئياً. قد أكون مخطئاً، لكني أقول إن نصفها كذلك ونصفها حقيقي."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "What would you recommend?",
+          "ar": "بماذا توصي؟"
+        },
+        {
+          "speaker": "KHALED",
+          "en": "Overall, I'd wait six months. The cost is the problem, not the software.",
+          "ar": "إجمالاً، أنتظر ستة أشهر. التكلفة هي المشكلة لا البرنامج."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "That's a useful summary. Thank you.",
+          "ar": "ملخّص مفيد. شكراً لك."
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "kind": "grammar",
+      "day_number": 4,
+      "title_ar": "القواعد",
+      "title_en": "Grammar — Relative Clauses",
+      "payload": {
+        "rule_ar": "حتى الآن كانت جملك قصيرة. والجمل الوصلية هي ما يربطها في جمل أطول وأنضج — والانتقال من الجمل القصيرة إلى الموصولة أوضح علامة على بلوغ B1. وأشهر خطأ عربي: إعادة الضمير بعد الاسم الموصول (The man who **he** called me)، لأن العربية تفعل ذلك.",
+        "rule_en": "Until now your sentences have been short. Relative clauses are how English joins them into longer, more adult sentences — and moving from short sentences to connected ones is one of the clearest markers of B1.",
+        "common_errors": [
+          {
+            "error_no": 1,
+            "wrong": "The man who he called me",
+            "right": "The man who called me",
+            "arabic": "الرجل الذي اتصل بي",
+            "why_ar": "الضمير الموصول يقوم مقام الفاعل — لا فاعل مكرّر"
+          },
+          {
+            "error_no": 2,
+            "wrong": "The film which we saw it",
+            "right": "The film (which) we saw",
+            "arabic": "الفيلم الذي شاهدناه",
+            "why_ar": "لا it في النهاية"
+          },
+          {
+            "error_no": 3,
+            "wrong": "The café which we met in it",
+            "right": "The café where we met",
+            "arabic": "المقهى الذي التقينا فيه",
+            "why_ar": "where تقوم مقام in which"
+          },
+          {
+            "error_no": 4,
+            "wrong": "The man who his car was stolen",
+            "right": "The man whose car was stolen",
+            "arabic": "الشخص الذي سيارته سُرقت",
+            "why_ar": "whose للملكية"
+          },
+          {
+            "error_no": 5,
+            "wrong": "My brother that lives in Cairo, is",
+            "right": "My brother, who lives in Cairo, is…",
+            "arabic": "أخي، الذي يعيش في القاهرة",
+            "why_ar": "لا that في الجملة غير المحدّدة"
+          }
+        ],
+        "checklist_ar": [
+          "who للأشخاص · which للأشياء · that لكليهما",
+          "لا تُعِد الضمير: who called me لا who he called me",
+          "where للمكان · whose للملكية",
+          "أعطِ الرأي مع سبب ومثال",
+          "خالف بأدب: I see your point, but…"
+        ]
+      }
+    },
+    {
+      "kind": "listening",
+      "day_number": 6,
+      "title_ar": "الاستماع",
+      "title_en": "Listening — \"The Argument I Lost\"",
+      "payload": {
+        "method_ar": [
+          "استمع كاملاً بلا نصّ. عمّا يتحدّث؟ قلها في جملة واحدة.",
+          "استمع مرة أخرى واكتب أي كلمة لم تلتقطها.",
+          "افتح النصّ واقرأه وأنت تستمع.",
+          "أغلق النصّ واستمع مرة أخيرة، ولاحظ كم صار أوضح."
+        ],
+        "transcript": [
+          {
+            "en": "Two years ago I had an argument with my sister that I have thought about ever since, mainly because I lost it and she was right.",
+            "ar": "قبل سنتين جرى بيني وبين أختي جدال ما زلت أفكّر فيه منذ ذلك الحين، لأنني خسرته أساساً ولأنها كانت محقّة."
+          },
+          {
+            "en": "She said I should stop telling my son what to study. I said I wasn't telling him anything; I was advising him. She said advice that you repeat every week is not advice.",
+            "ar": "قالت إنه ينبغي أن أتوقّف عن إخبار ابني بماذا يدرس. فقلت إنني لا أخبره بشيء، بل أنصحه. فقالت إن النصيحة التي تعيدها كل أسبوع ليست نصيحة."
+          },
+          {
+            "en": "I said I had experience which he doesn't have. She agreed. Then she asked me a question I couldn't answer: \"Who advised you at eighteen?\"",
+            "ar": "قلت إن لي خبرة ليست له. فوافقتني. ثم سألتني سؤالاً لم أستطع الإجابة عنه: «ومن نصحك أنت في الثامنة عشرة؟»"
+          },
+          {
+            "en": "Nobody did. I chose engineering because my mother wanted it, and I spent eleven years in a job I didn't like before I found one I did. That was the whole point of my advice — I wanted to save him from what happened to me.",
+            "ar": "لم ينصحني أحد. اخترت الهندسة لأن أمّي أرادتها، وأنفقت أحد عشر عاماً في عمل لا أحبّه قبل أن أجد عملاً أحبّه. وكان ذلك كل مقصد نصيحتي — أردت أن أنجيه من الذي حدث لي."
+          },
+          {
+            "en": "She said, \"So the thing that damaged you was a parent who was certain. And your plan is to be a parent who is certain.\"",
+            "ar": "فقالت: «إذن الذي أضرّ بك أبٌ كان واثقاً. وخطّتك أن تكون أباً واثقاً»."
+          },
+          {
+            "en": "I remember being very annoyed, which is usually the sign that somebody has said something true.",
+            "ar": "أتذكّر أنني انزعجت كثيراً، وهذه عادةً علامة أن أحدهم قال شيئاً صحيحاً."
+          },
+          {
+            "en": "I still think experience is worth something. But I have changed how I use it. Now I tell him what happened to me and what I would do differently, and then I stop talking, which is by far the hardest part.",
+            "ar": "وما زلت أرى أن للخبرة قيمة. لكنني غيّرت طريقة استخدامها. أُخبره الآن بما حدث لي وبما كنت سأفعله بشكل مختلف، ثم أتوقّف عن الكلام — وهذا أصعب الأمر بكثير."
+          },
+          {
+            "en": "He chose something I would not have chosen. He seems happy. I am trying not to say anything, and my sister finds this extremely funny.",
+            "ar": "اختار شيئاً لم أكن سأختاره. ويبدو سعيداً. وأنا أحاول ألّا أقول شيئاً، وأختي تجد هذا مضحكاً للغاية."
+          }
+        ],
+        "questions": []
+      }
+    },
+    {
+      "kind": "reading",
+      "day_number": 7,
+      "title_ar": "القراءة",
+      "title_en": "Reading — \"The Two-Minute Rule of Arguments\"",
+      "payload": {
+        "method_ar": "اقرأ مرتين. الأولى بلا توقّف، والثانية مع المسرد.",
+        "story": [
+          {
+            "en": "A researcher who studies negotiation spent ten years recording arguments — in workplaces, in homes, in political debates. She was looking for the moment an argument goes wrong.",
+            "ar": "باحثة تدرس التفاوض أنفقت عشر سنوات تسجّل الجدالات — في أماكن العمل، وفي البيوت، وفي المناظرات السياسية. كانت تبحث عن اللحظة التي يسوء فيها الجدال."
+          },
+          {
+            "en": "She found that it is almost always in the first two minutes, and almost always the same mistake.",
+            "ar": "ووجدت أنها في الدقيقتين الأولى دائماً تقريباً، وأنها الخطأ نفسه دائماً تقريباً."
+          },
+          {
+            "en": "The mistake is this: one person states a position, and the other person immediately states the opposite. Nobody asks a question. From that moment, both sides spend the rest of the conversation defending something instead of thinking about it.",
+            "ar": "والخطأ هو هذا: يقول أحدهم موقفاً، فيقول الآخر عكسه في الحال. ولا يسأل أحد سؤالاً. ومن تلك اللحظة يقضي الطرفان بقية الحديث في الدفاع عن شيء بدل التفكير فيه."
+          },
+          {
+            "en": "The people who negotiated successfully did one thing differently. Before responding, they asked a question — usually a simple one. \"What makes you say that?\" \"How long have you thought this?\" \"What would change your mind?\"",
+            "ar": "أما من تفاوضوا بنجاح ففعلوا شيئاً واحداً مختلفاً: قبل أن يجيبوا سألوا سؤالاً، بسيطاً في الغالب. «ما الذي يجعلك تقول ذلك؟» «منذ متى تفكّر هكذا؟» «ما الذي يغيّر رأيك؟»"
+          },
+          {
+            "en": "This does two things. It gives you information you did not have. And, less obviously, it makes the other person explain their reasoning, which is the moment most people discover the weak part of their own argument themselves.",
+            "ar": "وهذا يفعل شيئين: يعطيك معلومة لم تكن عندك، ثم — وهذا أقلّ وضوحاً — يجعل الآخر يشرح استدلاله، وهي اللحظة التي يكتشف فيها معظم الناس الموضع الضعيف في حجّتهم بأنفسهم."
+          },
+          {
+            "en": "The researcher was asked whether this is a technique for winning. She said it is the opposite. \"People who use it win less often,\" she said. \"They change their minds more, which most people count as losing. I count it as the only thing worth doing in a conversation.\"",
+            "ar": "سُئلت الباحثة هل هذه تقنية للفوز، فقالت إنها العكس. وقالت: «من يستخدمها يفوز أقلّ. ويغيّرون رأيهم أكثر، وهذا ما يعدّه معظم الناس خسارة. أما أنا فأعدّه الشيء الوحيد الذي يستحقّ أن يُفعل في محادثة»."
+          },
+          {
+            "en": "Her advice, which she says works in every language she has studied, is one sentence: ask one question before you answer.",
+            "ar": "ونصيحتها، التي تقول إنها تعمل في كل لغة درستها، جملة واحدة: اسأل سؤالاً واحداً قبل أن تجيب."
+          }
+        ],
+        "glossary": [
+          {
+            "en": "negotiation",
+            "ipa": "/nɪˌɡəʊʃiˈeɪʃn/",
+            "ar": "تفاوض",
+            "note_ar": "Verb: negotiate"
+          },
+          {
+            "en": "record",
+            "ipa": "/rɪˈkɔːd/",
+            "ar": "يسجّل",
+            "note_ar": "Verb: rɪˈkɔːd · Noun: ˈrekɔːd"
+          },
+          {
+            "en": "debate",
+            "ipa": "/dɪˈbeɪt/",
+            "ar": "مناظرة",
+            "note_ar": "—"
+          },
+          {
+            "en": "position",
+            "ipa": "/pəˈzɪʃn/",
+            "ar": "موقف",
+            "note_ar": "Here: an opinion"
+          },
+          {
+            "en": "immediately",
+            "ipa": "/ɪˈmiːdiətli/",
+            "ar": "فوراً",
+            "note_ar": "Five syllables"
+          },
+          {
+            "en": "opposite",
+            "ipa": "/ˈɒpəzɪt/",
+            "ar": "العكس",
+            "note_ar": "Stress on the first"
+          },
+          {
+            "en": "defend",
+            "ipa": "/dɪˈfend/",
+            "ar": "يدافع",
+            "note_ar": "—"
+          },
+          {
+            "en": "reasoning",
+            "ipa": "/ˈriːzənɪŋ/",
+            "ar": "استدلال",
+            "note_ar": "From reason"
+          },
+          {
+            "en": "obviously",
+            "ipa": "/ˈɒbviəsli/",
+            "ar": "بوضوح",
+            "note_ar": "—"
+          },
+          {
+            "en": "discover",
+            "ipa": "/dɪˈskʌvə(r)/",
+            "ar": "يكتشف",
+            "note_ar": "—"
+          },
+          {
+            "en": "technique",
+            "ipa": "/tekˈniːk/",
+            "ar": "أسلوب",
+            "note_ar": "The ch = /k/"
+          },
+          {
+            "en": "count",
+            "ipa": "/kaʊnt/",
+            "ar": "يعتبر",
+            "note_ar": "Here: count as"
+          },
+          {
+            "en": "worth",
+            "ipa": "/wɜːθ/",
+            "ar": "يستحق",
+            "note_ar": "Contains /ɜː/ and /θ/"
+          }
+        ],
+        "questions": []
+      }
+    },
+    {
+      "kind": "selfcheck",
+      "day_number": 7,
+      "title_ar": "الاختبار الذاتي — نهاية الفصل",
+      "title_en": "End-of-Chapter Self-Check",
+      "payload": {
+        "intro_ar": "كن صادقاً. هذا يحدّد هل تنتقل أم تُعيد.",
+        "items": [
+          {
+            "can_ar": "أعطي رأياً مع سبب ومثال بلا أن يُطلب مني",
+            "can_en": "Give an opinion with a reason and an example, unprompted?",
+            "proof_ar": "تمارين اليوم 1"
+          },
+          {
+            "can_ar": "أخالف بأدب بخمس عبارات مختلفة",
+            "can_en": "Disagree politely using five different phrases?",
+            "proof_ar": "الحوار الأول"
+          },
+          {
+            "can_ar": "أعرض حجّة الخصم بإنصاف قبل أن أردّ عليها",
+            "can_en": "Present the opposing argument fairly before answering it?",
+            "proof_ar": "الحوار الثاني"
+          },
+          {
+            "can_ar": "أربط الجمل بـwho و which و where و whose",
+            "can_en": "Join sentences with who, which, where and whose?",
+            "proof_ar": "تمارين اليوم 2"
+          },
+          {
+            "can_ar": "أتجنّب الضمير المكرّر: the man who he…",
+            "can_en": "Avoid the double subject (the man who he…)?",
+            "proof_ar": "تمارين اليوم 3"
+          },
+          {
+            "can_ar": "أعرف متى يجوز حذف الضمير وأحذفه",
+            "can_en": "Say when the pronoun can be dropped, and drop it?",
+            "proof_ar": "تمارين اليوم 3"
+          },
+          {
+            "can_ar": "أقول جملة واحدة بسبع نبرات فأنتج سبعة معانٍ",
+            "can_en": "Say one sentence seven ways and produce seven meanings?",
+            "proof_ar": "قسم النطق"
+          },
+          {
+            "can_ar": "أتذكّر 80 من 100 كلمة من العربية",
+            "can_en": "Recall 80 of the 100 words from the Arabic?",
+            "proof_ar": "جلسة المراجعة المتباعدة — تقول لك الرقم"
+          },
+          {
+            "can_ar": "أناقش موضوعاً 100 ثانية من الجانبين",
+            "can_en": "Discuss a topic for 100 seconds covering both sides?",
+            "proof_ar": "تسجيل هذا الأسبوع"
+          }
+        ],
+        "pass_ar": "8–9 ✓ → اذهب إلى الأسبوع الثامن عشر — العرض التقديمي واختبار الوحدة.",
+        "partial_ar": "6–7 ✓ → اذهب إلى الأسبوع الثامن عشر، لكن اكتب نقاط ضعفك للمراجعة.",
+        "fail_ar": "أقل من 6 → أعد قسمي القواعد والمفردات. الأسبوع الثامن عشر يطلب منك التحدّث ثلاث دقائق باستخدامهما."
+      }
+    },
+    {
+      "kind": "phonics",
+      "day_number": 4,
+      "title_ar": "النطق — نبر الجملة والتوكيد",
+      "title_en": "Pronunciation — Sentence Stress and Emphasis",
+      "payload": {
+        "intro_ar": "في الجملة المحايدة تُنبر الكلمات المعنوية وتُضعَف الوظيفية. ونقل النبر من كلمة إلى أخرى يغيّر المعنى كلّه بلا تغيير حرف واحد — وهذه أداة أساسية في النقاش والمخالفة.",
+        "symbols": [
+          {
+            "ipa": "النمط الافتراضي",
+            "arabic_hint": "المعنوية قويّة (الأفعال والأسماء والصفات) والوظيفية ضعيفة (الضمائر وأدوات التعريف)",
+            "examples": [
+              "I didn’t say she stole the money."
+            ],
+            "note_ar": "تُنبر كل كلمة بالتساوي، فيضيع المعنى الذي يحمله النبر.",
+            "fix_ar": "انبر الكلمات المعنوية فقط واترك الوظيفية ضعيفة: I didn’t SAY she STOLE the MONEY."
+          },
+          {
+            "ipa": "I ← النبر",
+            "arabic_hint": "النبر على I يعني: شخص آخر قالها",
+            "examples": [
+              "I didn’t say she stole the money."
+            ]
+          },
+          {
+            "ipa": "say ← النبر",
+            "arabic_hint": "النبر على say يعني: لمّحت إليها ولم أقلها",
+            "examples": [
+              "I didn’t say she stole the money."
+            ]
+          },
+          {
+            "ipa": "she ← النبر",
+            "arabic_hint": "النبر على she يعني: شخص آخر سرقها",
+            "examples": [
+              "I didn’t say she stole the money."
+            ]
+          },
+          {
+            "ipa": "التقابل",
+            "arabic_hint": "في المخالفة والتصحيح: انبر الكلمة التي تحمل التقابل",
+            "examples": [
+              "It’s not too expensive, it’s too far.",
+              "I said Thursday."
+            ],
+            "note_ar": "في المخالفة يُنبر الفعل بدل الكلمة المقابلة، فلا يُفهَم التصحيح.",
+            "fix_ar": "انبر الكلمة التي تحمل الفرق: «It’s not too EXPENSIVE, it’s too FAR»."
+          },
+          {
+            "ipa": "كلمات الرأي",
+            "arabic_hint": "انبر كلمة الرأي نفسها ليُسمَع أنه رأيك لا خبر",
+            "examples": [
+              "I think",
+              "In my opinion",
+              "Personally"
+            ]
+          }
+        ],
+        "tip_ar": "خُذ الجملة الواحدة أعلاه وقلها سبع مرات، كل مرة بنبر كلمة مختلفة، واقرأ المعنى في كل مرة. سبعة معانٍ من جملة واحدة — وهذا ليس استعراضاً بل نصف ما تحمله الإنجليزية."
+      }
+    },
+    {
+      "kind": "breaktime",
+      "day_number": 7,
+      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
+      "title_en": "Break Time — English Outside the Book",
+      "payload": {
+        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
+        "compare": [
+          {
+            "aspect_ar": "الكمّ",
+            "intensive_ar": "دقائق من الصوت",
+            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
+          },
+          {
+            "aspect_ar": "الفهم",
+            "intensive_ar": "تستهدف 100%",
+            "extensive_ar": "50–70% تكفي"
+          },
+          {
+            "aspect_ar": "الجهد",
+            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
+            "extensive_ar": "منخفض — تسترخي وتستمتع"
+          },
+          {
+            "aspect_ar": "ما يبنيه",
+            "intensive_ar": "الدقّة والقواعد",
+            "extensive_ar": "السرعة والأذن والحدس والمفردات"
+          },
+          {
+            "aspect_ar": "لو أغفلته",
+            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
+            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
+          }
+        ],
+        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
+        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
+        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
+        "song": {
+          "pick": {
+            "title": "Imagine",
+            "artist": "John Lennon",
+            "why_en": "A whole argument, made gently, in very simple English.",
+            "search": "Imagine John Lennon"
+          },
+          "alternatives": [
+            {
+              "title": "Where Is the Love?",
+              "artist": "The Black Eyed Peas",
+              "why_en": "A song of questions and opinions. Faster — a stretch.",
+              "search": "Where Is the Love? The Black Eyed Peas"
+            },
+            {
+              "title": "Blowin’ in the Wind",
+              "artist": "Bob Dylan",
+              "why_en": "Nine questions and no answers. Slow and very clear.",
+              "search": "Blowin’ in the Wind Bob Dylan"
+            }
+          ],
+          "item": {
+            "key": "song",
+            "icon": "🎵",
+            "label_ar": "أغنية الأسبوع",
+            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
+            "minutes": 20,
+            "steps": [
+              "شغّلها مرة للمتعة فقط — بلا كلمات ولا تحليل.",
+              "شغّلها ثانية واكتب خمس كلمات سمعتها ولم تكن تعرفها.",
+              "شغّلها مع الكلمات المكتوبة أمامك.",
+              "غنِّ معها مرة. الغناء يضبط الإيقاع بلا أن تفكّر فيه."
+            ],
+            "why_ar": "الأغنية تُعاد خمسين مرة طوعاً، ولا تمرين يُعاد خمسين مرة.",
+            "prompt_ar": "الكلمات الخمس التي التقطتها"
+          }
+        },
+        "watch": {
+          "pick": {
+            "title": "Panel discussion shows",
+            "where": "YouTube — search \"BBC panel discussion\" or any talk show",
+            "why_en": "Four people disagreeing politely for thirty minutes. Every phrase from the grammar section appears, repeatedly.",
+            "search": "Panel discussion shows"
+          },
+          "alternatives": [
+            {
+              "title": "TED Talks with a controversial title",
+              "where": "ted.com",
+              "why_en": "One person building an argument for twelve minutes, with a transcript. The clearest model of the grammar section you will find.",
+              "url": "https://ted.com"
+            },
+            {
+              "title": "Easy English — street opinion videos",
+              "where": "YouTube — search Easy English opinions",
+              "why_en": "Ordinary people giving opinions in ordinary language, with double subtitles.",
+              "search": "Easy English — street opinion videos"
+            },
+            {
+              "title": "Friends — Episodes 15–17",
+              "where": "Any streaming service",
+              "why_en": "Sitcom arguments are short, clear and repetitive — ideal for noticing disagreement phrases.",
+              "search": "Friends — Episodes 15–17"
+            }
+          ],
+          "item": {
+            "key": "watch",
+            "icon": "📺",
+            "label_ar": "ما تشاهده",
+            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
+            "minutes": 25,
+            "steps": [
+              "شاهد حلقة نقاش أو برنامج حواري.",
+              "اجمع عشر عبارات للموافقة والمخالفة كما قيلت بالضبط.",
+              "استعمل ثلاثاً منها في محادثتك القادمة."
+            ],
+            "why_ar": "عبارات المخالفة تُحفظ ككتل كاملة لا كلمات — لأنك ستحتاجها في لحظة لا وقت فيها للتركيب.",
+            "prompt_ar": "العبارات العشر التي جمعتها"
+          }
+        },
+        "item_order": [
+          "song",
+          "watch"
+        ],
+        "plan": [
+          {
+            "day_ar": "السبت",
+            "activity_ar": "الأغنية + اختر موضوع عرضك",
+            "minutes": 20
+          },
+          {
+            "day_ar": "الأحد",
+            "activity_ar": "حلقة نقاش + اجمع عشر عبارات",
+            "minutes": 30
+          },
+          {
+            "day_ar": "الاثنين",
+            "activity_ar": "Friends الحلقة 15",
+            "minutes": 25
+          },
+          {
+            "day_ar": "الثلاثاء",
+            "activity_ar": "تمرّن على العرض بصوت عالٍ مرتين",
+            "minutes": 20
+          },
+          {
+            "day_ar": "الأربعاء",
+            "activity_ar": "محاضرة TED مع نصّها",
+            "minutes": 20
+          },
+          {
+            "day_ar": "الخميس",
+            "activity_ar": "Friends الحلقة 16 + الكتاب",
+            "minutes": 35
+          },
+          {
+            "day_ar": "الجمعة",
+            "activity_ar": "تمرّن مرة أخرى + Friends الحلقة 17",
+            "minutes": 40
+          }
+        ]
+      }
+    },
+    {
+      "kind": "speaking",
+      "title_ar": "التحدّث",
+      "title_en": "Discussing a Topic",
+      "payload": {
+        "task_ar": "ناقش موضوعاً دقيقتين: رأيك، ثم الرأي المخالف، ثم ردّك",
+        "target_seconds": 120,
+        "is_baseline": false,
+        "title_en": "Discussing a Topic",
+        "intro_ar": null,
+        "cover_ar": null,
+        "model_en": "I want to talk about working from home, and I'll try to give both sides. //\nPersonally, I think it's better — at least for people who do focused work. // The main reason is time. A colleague who lives near me spends two hours a day commuting. That's ten hours a week, which is more than a working day, and nobody pays for those hours. //\nIn addition, most offices are badly designed for the work people actually do. The open office my company uses is extremely noisy, and the tasks that need real concentration are the ones that suffer. //\nOn the other hand, I take the point that teams which never meet lose trust. New employees especially learn a lot from just sitting near people who have done the job for years. That's genuinely hard to replace. //\nSo overall — I'd say it isn't five days at home or five days in the office. Three days is probably right. // Which is what most companies have worked out already, so I'm not claiming this is an original opinion. //",
+        "outline": [
+          {
+            "part_en": "Frame and state your position",
+            "say_en": "I want to talk about… Personally, I think…",
+            "seconds": 20
+          },
+          {
+            "part_en": "First argument + example",
+            "say_en": "The main reason is… For example…",
+            "seconds": 30
+          },
+          {
+            "part_en": "Second argument",
+            "say_en": "In addition… Furthermore…",
+            "seconds": 25
+          },
+          {
+            "part_en": "The other side, fairly",
+            "say_en": "On the other hand… I take the point that…",
+            "seconds": 30
+          },
+          {
+            "part_en": "Conclusion",
+            "say_en": "So overall… To sum up…",
+            "seconds": 15
+          }
+        ],
+        "rubric": [
+          {
+            "label_en": "Opinion language",
+            "label_ar": null,
+            "levels": [
+              "Only I think",
+              "Two phrases used",
+              "Four+ used naturally"
+            ]
+          },
+          {
+            "label_en": "Reasons and examples",
+            "label_ar": null,
+            "levels": [
+              "Opinion with no support",
+              "One reason",
+              "Reasons and examples"
+            ]
+          },
+          {
+            "label_en": "The other side",
+            "label_ar": null,
+            "levels": [
+              "Not mentioned",
+              "Mentioned briefly",
+              "Presented fairly, then answered"
+            ]
+          },
+          {
+            "label_en": "Relative clauses",
+            "label_ar": null,
+            "levels": [
+              "None, or with double subjects",
+              "Two used",
+              "Four+, some with the pronoun dropped"
+            ]
+          },
+          {
+            "label_en": "Sentence stress",
+            "label_ar": null,
+            "levels": [
+              "Flat",
+              "Some emphasis",
+              "Contrastive stress used deliberately"
+            ]
+          },
+          {
+            "label_en": "Length",
+            "label_ar": "الطول",
+            "levels": [
+              "Under 60 sec",
+              "60–100 sec",
+              "100–120 sec"
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "title_ar": "اقرأ النموذج",
+            "title_en": "Study the Model",
+            "text_en": []
+          },
+          {
+            "title_ar": "ابنِ نصّك أنت",
+            "title_en": "Build Your Version",
+            "text_en": [
+              "Choose a topic from §2.4 or Exercise 5.",
+              "Section 4 is what makes this B1 rather than A2. Anyone can state an opinion. Stating the opposing argument fairly, and then explaining why you still disagree, is the specific skill the B1 descriptor asks for. Do not skip it, and do not present the other side weakly."
+            ]
+          },
+          {
+            "title_ar": "سجّل ثم قيّم نفسك",
+            "title_en": "Record and Score",
+            "text_en": [
+              "Record 2 minutes from memory. Save as Week17."
+            ]
+          }
+        ],
+        "save_as": "Week17"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "who أم which أم where أم whose؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The woman ______ lives next door is a teacher.",
+      "payload": {
+        "before": "The woman ",
+        "after": " lives next door is a teacher."
+      },
+      "answer": {
+        "accepted": [
+          "who"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "who أم which أم where أم whose؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The book ______ I bought yesterday is excellent.",
+      "payload": {
+        "before": "The book ",
+        "after": " I bought yesterday is excellent."
+      },
+      "answer": {
+        "accepted": [
+          "which/that"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "who أم which أم where أم whose؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "That's the café ______ we first met.",
+      "payload": {
+        "before": "That's the café ",
+        "after": " we first met."
+      },
+      "answer": {
+        "accepted": [
+          "where"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "who أم which أم where أم whose؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I know a man ______ brother works for the government.",
+      "payload": {
+        "before": "I know a man ",
+        "after": " brother works for the government."
+      },
+      "answer": {
+        "accepted": [
+          "whose"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "who أم which أم where أم whose؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The film ______ won the prize was very slow.",
+      "payload": {
+        "before": "The film ",
+        "after": " won the prize was very slow."
+      },
+      "answer": {
+        "accepted": [
+          "which/that"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "who أم which أم where أم whose؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Is that the colleague ______ you told me about?",
+      "payload": {
+        "before": "Is that the colleague ",
+        "after": " you told me about?"
+      },
+      "answer": {
+        "accepted": [
+          "who/that"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "who أم which أم where أم whose؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "This is the town ______ I grew up.",
+      "payload": {
+        "before": "This is the town ",
+        "after": " I grew up."
+      },
+      "answer": {
+        "accepted": [
+          "where"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "who أم which أم where أم whose؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The company ______ offered me the job is in Alexandria.",
+      "payload": {
+        "before": "The company ",
+        "after": " offered me the job is in Alexandria."
+      },
+      "answer": {
+        "accepted": [
+          "which/that"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "who أم which أم where أم whose؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I have a friend ______ father is a pilot.",
+      "payload": {
+        "before": "I have a friend ",
+        "after": " father is a pilot."
+      },
+      "answer": {
+        "accepted": [
+          "whose"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "who أم which أم where أم whose؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The email ______ she sent me was very rude.",
+      "payload": {
+        "before": "The email ",
+        "after": " she sent me was very rude."
+      },
+      "answer": {
+        "accepted": [
+          "which/that"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "who أم which أم where أم whose؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The people ______ live upstairs are very noisy.",
+      "payload": {
+        "before": "The people ",
+        "after": " live upstairs are very noisy."
+      },
+      "answer": {
+        "accepted": [
+          "who"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "who أم which أم where أم whose؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "That was the year ______ everything changed.",
+      "payload": {
+        "before": "That was the year ",
+        "after": " everything changed."
+      },
+      "answer": {
+        "accepted": [
+          "when"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "ربط الجملتين",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "ربط الجملتين",
+      "payload": {
+        "sentence": "I have a colleague. He works at night."
+      },
+      "answer": {
+        "accepted": [
+          "I have a colleague who works at night."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "ربط الجملتين",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "ربط الجملتين",
+      "payload": {
+        "sentence": "This is the flat. We saw it last week."
+      },
+      "answer": {
+        "accepted": [
+          "This is the flat (which) we saw last week."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "ربط الجملتين",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "ربط الجملتين",
+      "payload": {
+        "sentence": "That's the restaurant. We ate there."
+      },
+      "answer": {
+        "accepted": [
+          "That's the restaurant where we ate."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "ربط الجملتين",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "ربط الجملتين",
+      "payload": {
+        "sentence": "I met a woman. Her son studies with my daughter."
+      },
+      "answer": {
+        "accepted": [
+          "I met a woman whose son studies with my daughter."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "ربط الجملتين",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "ربط الجملتين",
+      "payload": {
+        "sentence": "The film was boring. I watched it last night."
+      },
+      "answer": {
+        "accepted": [
+          "The film (which) I watched last night was boring."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "ربط الجملتين",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "ربط الجملتين",
+      "payload": {
+        "sentence": "He gave me a book. It changed my mind completely."
+      },
+      "answer": {
+        "accepted": [
+          "He gave me a book which changed my mind completely."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "ربط الجملتين",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "ربط الجملتين",
+      "payload": {
+        "sentence": "I work with a man. He never says anything."
+      },
+      "answer": {
+        "accepted": [
+          "I work with a man who never says anything."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "ربط الجملتين",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "ربط الجملتين",
+      "payload": {
+        "sentence": "This is the hospital. My son was born there."
+      },
+      "answer": {
+        "accepted": [
+          "This is the hospital where my son was born."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "ربط الجملتين",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "ربط الجملتين",
+      "payload": {
+        "sentence": "The bag is very expensive. She bought it."
+      },
+      "answer": {
+        "accepted": [
+          "The bag (which) she bought is very expensive."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "ربط الجملتين",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "ربط الجملتين",
+      "payload": {
+        "sentence": "I remember the day. We arrived in this city then."
+      },
+      "answer": {
+        "accepted": [
+          "I remember the day when we arrived in this city."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "هل يجوز حذف الضمير؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The man who called me was angry. ______",
+      "payload": {
+        "before": "The man who called me was angry.  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "NO",
+          "no"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "هل يجوز حذف الضمير؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The man who I called was angry. ______",
+      "payload": {
+        "before": "The man who I called was angry.  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "YES — The man I called was angry.",
+          "YES — The man I called was angry",
+          "yes — the man i called was angry."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "هل يجوز حذف الضمير؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The book which is on the table is mine. ______",
+      "payload": {
+        "before": "The book which is on the table is mine.  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "NO",
+          "no"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "هل يجوز حذف الضمير؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The book which I lent you is mine. ______",
+      "payload": {
+        "before": "The book which I lent you is mine.  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "YES — The book I lent you is mine.",
+          "YES — The book I lent you is mine",
+          "yes — the book i lent you is mine."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "هل يجوز حذف الضمير؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The people who live here are friendly. ______",
+      "payload": {
+        "before": "The people who live here are friendly.  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "NO",
+          "no"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "هل يجوز حذف الضمير؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The people who we met are friendly. ______",
+      "payload": {
+        "before": "The people who we met are friendly.  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "YES — The people we met are friendly.",
+          "YES — The people we met are friendly",
+          "yes — the people we met are friendly."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "هل يجوز حذف الضمير؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The email which arrived this morning was strange. ______",
+      "payload": {
+        "before": "The email which arrived this morning was strange.  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "NO",
+          "no"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "هل يجوز حذف الضمير؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The email which she sent was strange. ______",
+      "payload": {
+        "before": "The email which she sent was strange.  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "YES — The email she sent was strange.",
+          "YES — The email she sent was strange",
+          "yes — the email she sent was strange."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "هل يجوز حذف الضمير؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The film that won the prize was long. ______",
+      "payload": {
+        "before": "The film that won the prize was long.  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "NO",
+          "no"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "هل يجوز حذف الضمير؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The film that we saw was long. ______",
+      "payload": {
+        "before": "The film that we saw was long.  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "YES — The film we saw was long.",
+          "YES — The film we saw was long",
+          "yes — the film we saw was long."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "The man who he called me was angry."
+      },
+      "answer": {
+        "accepted": [
+          "The man who called me was angry."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "The film which we saw it was boring."
+      },
+      "answer": {
+        "accepted": [
+          "The film (which) we saw was boring."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "The café which we met in it is closed."
+      },
+      "answer": {
+        "accepted": [
+          "The café where we met is closed."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "I know a man who his brother is a pilot."
+      },
+      "answer": {
+        "accepted": [
+          "I know a man whose brother is a pilot."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "My mother, that lives in Cairo, is a teacher."
+      },
+      "answer": {
+        "accepted": [
+          "My mother, who lives in Cairo, is a teacher."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "The woman which lives next door is nice."
+      },
+      "answer": {
+        "accepted": [
+          "The woman who lives next door is nice."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "This is the town where I grew up in."
+      },
+      "answer": {
+        "accepted": [
+          "This is the town where I grew up."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "The people who lives upstairs are noisy."
+      },
+      "answer": {
+        "accepted": [
+          "The people who live upstairs are noisy."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "That's the colleague who I told you about him."
+      },
+      "answer": {
+        "accepted": [
+          "That's the colleague (who) I told you about."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "The book who I read was excellent."
+      },
+      "answer": {
+        "accepted": [
+          "The book (which) I read was excellent."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "العثور على الجمل الوصلية",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "There are six relative clauses in this dialogue. Find them, and say for each one whether the pronoun could be dropped.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: the people who work from home (cannot drop)"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "توازن العمل والحياة",
+      "payload": {
+        "options": [
+          "transport",
+          "work-life balance",
+          "health",
+          "change"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "تلوّث",
+      "payload": {
+        "options": [
+          "generation",
+          "pollution",
+          "environment",
+          "traffic"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "وسائل التواصل",
+      "payload": {
+        "options": [
+          "technology",
+          "city life",
+          "failure",
+          "social media"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "حياة المدينة",
+      "payload": {
+        "options": [
+          "safety",
+          "freedom",
+          "city life",
+          "technology"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "عمل عن بعد",
+      "payload": {
+        "options": [
+          "technology",
+          "generation",
+          "remote work",
+          "opportunity"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "تغيير",
+      "payload": {
+        "options": [
+          "pollution",
+          "change",
+          "privacy",
+          "cost of living"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "بنية حجّة متوازنة",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Khaled follows a five-part structure. Identify each part in the dialogue:",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: I've been asked to summarise both sides, so I'll try to be fair."
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "إجمالاً",
+      "payload": {
+        "options": [
+          "benefit",
+          "overall",
+          "drawback",
+          "firstly"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "مثال: Concluding",
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "مساوئ",
+      "payload": {
+        "options": [
+          "benefit",
+          "drawback",
+          "disadvantage",
+          "whereas"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "مثال: Negative",
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "عيب",
+      "payload": {
+        "options": [
+          "evidence",
+          "disadvantage",
+          "compromise",
+          "benefit"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "مثال: The negative side",
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "من ناحية",
+      "payload": {
+        "options": [
+          "furthermore",
+          "to sum up",
+          "issue",
+          "on the one hand"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": "مثال: Opening side one",
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "في الختام",
+      "payload": {
+        "options": [
+          "furthermore",
+          "drawback",
+          "in conclusion",
+          "to sum up"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "مثال: Concluding, formal",
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "بينما",
+      "payload": {
+        "options": [
+          "disadvantage",
+          "whereas",
+          "compromise",
+          "in addition"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "مثال: Contrast",
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What was the argument about? ______",
+      "payload": {
+        "before": "What was the argument about?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Whether he should tell his son what to study.",
+          "Whether he should tell his son what to study",
+          "whether he should tell his son what to study."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What was his position? ______",
+      "payload": {
+        "before": "What was his position?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "That he was advising, not telling.",
+          "That he was advising, not telling",
+          "that he was advising, not telling."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What did his sister say about repeated advice? ______",
+      "payload": {
+        "before": "What did his sister say about repeated advice?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "That advice you repeat every week is not advice.",
+          "That advice you repeat every week is not advice",
+          "that advice you repeat every week is not advice."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What question could he not answer? ______",
+      "payload": {
+        "before": "What question could he not answer?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "\"Who advised you at eighteen?\"",
+          "\"who advised you at eighteen?\""
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why did he choose engineering? ______",
+      "payload": {
+        "before": "Why did he choose engineering?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Because his mother wanted it.",
+          "Because his mother wanted it",
+          "because his mother wanted it."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How long was he in a job he did not like? ______",
+      "payload": {
+        "before": "How long was he in a job he did not like?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Eleven years.",
+          "Eleven years",
+          "eleven years."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What was his sister's strongest point? ______",
+      "payload": {
+        "before": "What was his sister's strongest point?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "That the thing which damaged him was a certain parent — and his plan was to be a certain parent.",
+          "That the thing which damaged him was a certain parent — and his plan was to be a certain parent",
+          "that the thing which damaged him was a certain parent — and his plan was to be a certain parent."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How did he feel, and what does he say that means? ______",
+      "payload": {
+        "before": "How did he feel, and what does he say that means?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Very annoyed, which he says is usually the sign that somebody has said something true.",
+          "Very annoyed, which he says is usually the sign that somebody has said something true",
+          "very annoyed, which he says is usually the sign that somebody has said something true."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What does he do differently now? ______",
+      "payload": {
+        "before": "What does he do differently now?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "He tells his son what happened to him and what he would do differently, then stops talking.",
+          "He tells his son what happened to him and what he would do differently, then stops talking",
+          "he tells his son what happened to him and what he would do differently, then stops talking."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What is the hardest part? ______",
+      "payload": {
+        "before": "What is the hardest part?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Stopping talking.",
+          "Stopping talking",
+          "stopping talking."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "تعقّب الجمل الوصلية",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "This text contains nine relative clauses. Find them all, and mark which pronouns could be dropped.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: an argument that I have thought about (can drop)"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The researcher studied arguments for ten years.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Arguments usually go wrong at the end.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: in the first two minutes"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The common mistake is stating the opposite immediately.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Successful negotiators ask a question first.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Asking a question only helps you get information.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: it also makes the other person examine their own reasoning"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "People who use the technique win more often.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: they win less often"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "She counts changing your mind as losing.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: she counts it as the only thing worth doing"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Her advice works in more than one language.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    }
+  ]
+}

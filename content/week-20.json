@@ -1,0 +1,3324 @@
+{
+  "number": 20,
+  "module": 4,
+  "title_en": "Telling a Story — Narrative Tenses & Rhythm",
+  "title_ar": "سرد الحكاية — أزمنة السرد والإيقاع",
+  "pron_section": 5,
+  "is_review": false,
+  "objectives": [
+    {
+      "en": "Form the Past Continuous in all its forms",
+      "ar": "أصوغ الماضي المستمر بأشكاله كلها"
+    },
+    {
+      "en": "Combine the Past Continuous with the Past Simple to show interruption",
+      "ar": "أجمع الماضي المستمر مع الماضي البسيط لأُظهر المقاطعة"
+    },
+    {
+      "en": "Use while, when, as and during correctly",
+      "ar": "أستخدم while و when و as و during صحيحة"
+    },
+    {
+      "en": "Use the Past Perfect for an event before another past event",
+      "ar": "أستخدم الماضي التام لحدث سبق حدثاً ماضياً آخر"
+    },
+    {
+      "en": "Set the scene, build to an event, and end a story",
+      "ar": "أهيّئ المشهد، ثم أبني نحو الحدث، ثم أُنهي القصة"
+    },
+    {
+      "en": "Use six storytelling phrases that keep a listener engaged",
+      "ar": "أستخدم ستّ عبارات سرد تُبقي المستمع منتبهاً"
+    },
+    {
+      "en": "Use pausing and rhythm to make a story sound like a story",
+      "ar": "أستخدم الوقفات والإيقاع فيبدو كلامي قصةً لا تقريراً"
+    },
+    {
+      "en": "Tell a 2-minute story with background, event and ending",
+      "ar": "أحكي قصة دقيقتين فيها خلفية وحدث ونهاية"
+    }
+  ],
+  "writing": {
+    "title_ar": null,
+    "title_en": "Writing — A Story",
+    "task_ar": null,
+    "task_en": "Write 150–180 words telling a true story from your life. Include: a scene set in the Past Continuous, at least one Past Perfect explaining an earlier event, six connectors from §2.2, and an ending that says what you learned or how you felt.",
+    "min_words": 150,
+    "max_words": 180,
+    "templates": [],
+    "checklist": [],
+    "model_answer": "It was a Tuesday evening and I was working late, alone in the office. I had been there since seven in the morning and I was extremely tired. I was finishing a report that had to be sent that night.",
+    "model_words": 40
+  },
+  "days": [
+    {
+      "number": 1,
+      "focus": "القواعد · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القواعد",
+          "minutes": 25,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:1"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "focus": "الزمن في القصة · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الزمن في القصة",
+          "minutes": 25,
+          "ref": "vocab:time_in_a_story"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:2"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "focus": "القواعد · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القواعد",
+          "minutes": 25,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:3"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "focus": "روابط السرد · الحوار الأول · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "روابط السرد · حوار: Telling a Story to a Friend",
+          "minutes": 25,
+          "ref": "vocab:narrative_connectors|dialogue:1"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:4"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "focus": "النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "النطق",
+          "minutes": 25,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:5"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "focus": "الحوار الثاني · الاستماع · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "حوار: A Story at a Job Interview · الاستماع",
+          "minutes": 25,
+          "ref": "dialogue:2|section:listening"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:6"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "focus": "القراءة · الكتابة · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القراءة · الكتابة",
+          "minutes": 25,
+          "ref": "section:reading|writing:1|record"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:7"
+        },
+        {
+          "order": 5,
+          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record:baseline"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "group": "storytelling_verbs",
+      "word": "happen",
+      "ipa": "/ˈhæpən/",
+      "arabic": "يحدث",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "occur",
+      "ipa": "/əˈkɜː(r)/",
+      "arabic": "يقع",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "notice",
+      "ipa": "/ˈnəʊtɪs/",
+      "arabic": "يلاحظ",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "realise",
+      "ipa": "/ˈrɪəlaɪz/",
+      "arabic": "يدرك",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "discover",
+      "ipa": "/dɪˈskʌvə(r)/",
+      "arabic": "يكتشف",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "find out",
+      "ipa": "/faɪnd ˈaʊt/",
+      "arabic": "يعلم",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "decide",
+      "ipa": "/dɪˈsaɪd/",
+      "arabic": "يقرّر",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "refuse",
+      "ipa": "/rɪˈfjuːz/",
+      "arabic": "يرفض",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "shout",
+      "ipa": "/ʃaʊt/",
+      "arabic": "يصرخ",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "whisper",
+      "ipa": "/ˈwɪspə(r)/",
+      "arabic": "يهمس",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "reply",
+      "ipa": "/rɪˈplaɪ/",
+      "arabic": "يردّ",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "explain",
+      "ipa": "/ɪkˈspleɪn/",
+      "arabic": "يشرح",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "laugh",
+      "ipa": "/lɑːf/",
+      "arabic": "يضحك",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "cry",
+      "ipa": "/kraɪ/",
+      "arabic": "يبكي",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "run",
+      "ipa": "/rʌn/",
+      "arabic": "يجري",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "fall",
+      "ipa": "/fɔːl/",
+      "arabic": "يسقط",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "drop",
+      "ipa": "/drɒp/",
+      "arabic": "يُسقط",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "break",
+      "ipa": "/breɪk/",
+      "arabic": "يكسر",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "forget",
+      "ipa": "/fəˈɡet/",
+      "arabic": "ينسى",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "remember",
+      "ipa": "/rɪˈmembə(r)/",
+      "arabic": "يتذكّر",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "wait",
+      "ipa": "/weɪt/",
+      "arabic": "ينتظر",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "arrive",
+      "ipa": "/əˈraɪv/",
+      "arabic": "يصل",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "leave",
+      "ipa": "/liːv/",
+      "arabic": "يغادر",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "return",
+      "ipa": "/rɪˈtɜːn/",
+      "arabic": "يعود",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "knock",
+      "ipa": "/nɒk/",
+      "arabic": "يطرق",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "ring",
+      "ipa": "/rɪŋ/",
+      "arabic": "يرنّ",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "appear",
+      "ipa": "/əˈpɪə(r)/",
+      "arabic": "يظهر",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "disappear",
+      "ipa": "/ˌdɪsəˈpɪə(r)/",
+      "arabic": "يختفي",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "manage to",
+      "ipa": "/ˈmænɪdʒ tə/",
+      "arabic": "يتمكّن من",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "storytelling_verbs",
+      "word": "fail to",
+      "ipa": "/ˈfeɪl tə/",
+      "arabic": "يفشل في",
+      "example": null,
+      "group_label_ar": "أفعال السرد",
+      "group_label_en": "Storytelling Verbs"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "One day…",
+      "ipa": null,
+      "arabic": "ذات يوم…",
+      "example": "Opening",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "A few years ago…",
+      "ipa": null,
+      "arabic": "قبل بضع سنوات…",
+      "example": "Opening",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "It all started when…",
+      "ipa": null,
+      "arabic": "بدأ كل شيء عندما…",
+      "example": "Opening",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "At the time, I was…",
+      "ipa": null,
+      "arabic": "في ذلك الوقت كنت…",
+      "example": "Setting the scene",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "I was … when suddenly…",
+      "ipa": null,
+      "arabic": "كنت… وفجأة…",
+      "example": "The interruption",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "All of a sudden…",
+      "ipa": null,
+      "arabic": "فجأة…",
+      "example": "The interruption",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "Out of nowhere…",
+      "ipa": null,
+      "arabic": "من العدم…",
+      "example": "The interruption",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "Before I knew it…",
+      "ipa": null,
+      "arabic": "قبل أن أدرك…",
+      "example": "Speed",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "Meanwhile…",
+      "ipa": null,
+      "arabic": "في هذه الأثناء…",
+      "example": "A parallel event",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "At that moment…",
+      "ipa": null,
+      "arabic": "في تلك اللحظة…",
+      "example": "The turning point",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "That's when…",
+      "ipa": null,
+      "arabic": "حينها…",
+      "example": "The turning point",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "To make things worse…",
+      "ipa": null,
+      "arabic": "وليزداد الأمر سوءاً…",
+      "example": "Rising trouble",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "Luckily…",
+      "ipa": null,
+      "arabic": "لحسن الحظ…",
+      "example": "Relief",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "Unfortunately…",
+      "ipa": null,
+      "arabic": "لسوء الحظ…",
+      "example": "Trouble",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "In the end…",
+      "ipa": null,
+      "arabic": "في النهاية…",
+      "example": "Resolution",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "Eventually…",
+      "ipa": null,
+      "arabic": "في النهاية (بعد وقت)…",
+      "example": "Resolution",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "It turned out that…",
+      "ipa": null,
+      "arabic": "اتضح أن…",
+      "example": "The revelation",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "I found out later that…",
+      "ipa": null,
+      "arabic": "علمت لاحقاً أن…",
+      "example": "The revelation",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "Anyway…",
+      "ipa": null,
+      "arabic": "على أي حال…",
+      "example": "Returning to the point",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "The funny thing is…",
+      "ipa": null,
+      "arabic": "الطريف أن…",
+      "example": "Commentary",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "The worst part was…",
+      "ipa": null,
+      "arabic": "أسوأ جزء كان…",
+      "example": "Commentary",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "I still don't know why…",
+      "ipa": null,
+      "arabic": "ما زلت لا أعرف لماذا…",
+      "example": "Commentary",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "Looking back…",
+      "ipa": null,
+      "arabic": "بالنظر إلى الوراء…",
+      "example": "Reflection",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "I learned that…",
+      "ipa": null,
+      "arabic": "تعلّمت أن…",
+      "example": "Moral",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "narrative_connectors",
+      "word": "And that's why…",
+      "ipa": null,
+      "arabic": "ولهذا…",
+      "example": "Closing",
+      "group_label_ar": "روابط السرد",
+      "group_label_en": "Narrative Connectors"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "shocked",
+      "ipa": "/ʃɒkt/",
+      "arabic": "مصدوم",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "stunned",
+      "ipa": "/stʌnd/",
+      "arabic": "مذهول",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "terrified",
+      "ipa": "/ˈterɪfaɪd/",
+      "arabic": "مرعوب",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "nervous",
+      "ipa": "/ˈnɜːvəs/",
+      "arabic": "متوتر",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "embarrassed",
+      "ipa": "/ɪmˈbærəst/",
+      "arabic": "محرَج",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "ashamed",
+      "ipa": "/əˈʃeɪmd/",
+      "arabic": "خجل",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "relieved",
+      "ipa": "/rɪˈliːvd/",
+      "arabic": "مرتاح",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "grateful",
+      "ipa": "/ˈɡreɪtfl/",
+      "arabic": "ممتن",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "furious",
+      "ipa": "/ˈfjʊəriəs/",
+      "arabic": "غاضب جداً",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "annoyed",
+      "ipa": "/əˈnɔɪd/",
+      "arabic": "منزعج",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "confused",
+      "ipa": "/kənˈfjuːzd/",
+      "arabic": "مرتبك",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "suspicious",
+      "ipa": "/səˈspɪʃəs/",
+      "arabic": "مرتاب",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "excited",
+      "ipa": "/ɪkˈsaɪtɪd/",
+      "arabic": "متحمّس",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "disappointed",
+      "ipa": "/ˌdɪsəˈpɔɪntɪd/",
+      "arabic": "خائب الأمل",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "exhausted",
+      "ipa": "/ɪɡˈzɔːstɪd/",
+      "arabic": "منهك",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "desperate",
+      "ipa": "/ˈdespərət/",
+      "arabic": "يائس",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "calm",
+      "ipa": "/kɑːm/",
+      "arabic": "هادئ",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "panicked",
+      "ipa": "/ˈpænɪkt/",
+      "arabic": "مذعور",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "proud",
+      "ipa": "/praʊd/",
+      "arabic": "فخور",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "guilty",
+      "ipa": "/ˈɡɪlti/",
+      "arabic": "مذنب",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "speechless",
+      "ipa": "/ˈspiːtʃləs/",
+      "arabic": "عاجز عن الكلام",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "frozen",
+      "ipa": "/ˈfrəʊzn/",
+      "arabic": "متجمّد",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "awkward",
+      "ipa": "/ˈɔːkwəd/",
+      "arabic": "محرج",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "lucky",
+      "ipa": "/ˈlʌki/",
+      "arabic": "محظوظ",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "emotions_in_a_story",
+      "word": "certain",
+      "ipa": "/ˈsɜːtn/",
+      "arabic": "متيقن",
+      "example": null,
+      "group_label_ar": "المشاعر في القصة",
+      "group_label_en": "Emotions in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "while",
+      "ipa": null,
+      "arabic": "بينما",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "when",
+      "ipa": null,
+      "arabic": "عندما",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "as",
+      "ipa": null,
+      "arabic": "بينما / حين",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "during",
+      "ipa": null,
+      "arabic": "خلال",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "at the same time",
+      "ipa": null,
+      "arabic": "في نفس الوقت",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "just as",
+      "ipa": null,
+      "arabic": "في نفس اللحظة التي",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "by the time",
+      "ipa": null,
+      "arabic": "بحلول الوقت الذي",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "until",
+      "ipa": null,
+      "arabic": "حتى",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "as soon as",
+      "ipa": null,
+      "arabic": "حالما",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "the moment",
+      "ipa": null,
+      "arabic": "في اللحظة التي",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "a few minutes later",
+      "ipa": null,
+      "arabic": "بعد بضع دقائق",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "half an hour later",
+      "ipa": null,
+      "arabic": "بعد نصف ساعة",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "for about ten minutes",
+      "ipa": null,
+      "arabic": "لنحو عشر دقائق",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "all morning",
+      "ipa": null,
+      "arabic": "طوال الصباح",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "the whole time",
+      "ipa": null,
+      "arabic": "طوال الوقت",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "in the meantime",
+      "ipa": null,
+      "arabic": "في هذه الأثناء",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "already",
+      "ipa": null,
+      "arabic": "بالفعل",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "still",
+      "ipa": null,
+      "arabic": "ما زال",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "finally",
+      "ipa": null,
+      "arabic": "أخيراً",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    },
+    {
+      "group": "time_in_a_story",
+      "word": "at last",
+      "ipa": null,
+      "arabic": "أخيراً (بعد انتظار)",
+      "example": null,
+      "group_label_ar": "الزمن في القصة",
+      "group_label_en": "Time in a Story"
+    }
+  ],
+  "minimal_pairs": [],
+  "dialogues": [
+    {
+      "number": 1,
+      "title": "Telling a Story to a Friend",
+      "situation_en": "",
+      "situation_ar": "حكاية قصة لصديق — بخلفيّتها وحدثها ونهايتها.",
+      "speaker_genders": {
+        "LINA": "f",
+        "SAMI": "m"
+      },
+      "lines": [
+        {
+          "speaker": "LINA",
+          "en": "You look like you haven't slept.",
+          "ar": "تبدو وكأنك لم تنم."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "I haven't. Something happened last night.",
+          "ar": "لم أنم. حدث شيء الليلة الماضية."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Go on.",
+          "ar": "تفضّل."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "So, I was driving home at about eleven. Empty road, nothing unusual.",
+          "ar": "كنت أقود عائداً حوالي الحادية عشرة. طريق فارغ، لا شيء غريب."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Right.",
+          "ar": "حسناً."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "And I noticed a car behind me. It had been there since the petrol station.",
+          "ar": "ولاحظت سيارة خلفي. كانت هناك منذ محطة الوقود."
+        },
+        {
+          "speaker": "LINA",
+          "en": "How long is that?",
+          "ar": "كم المسافة؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Twenty minutes. So I turned left — a street I never take. It turned left too.",
+          "ar": "عشرون دقيقة. فانعطفت يساراً — شارع لا أسلكه أبداً. انعطفت هي أيضاً."
+        },
+        {
+          "speaker": "LINA",
+          "en": "You're joking.",
+          "ar": "أنت تمزح."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "By this point I was genuinely nervous. I was thinking about where to stop.",
+          "ar": "عند هذه النقطة كنت متوتراً فعلاً. كنت أفكّر أين أتوقّف."
+        },
+        {
+          "speaker": "LINA",
+          "en": "What did you do?",
+          "ar": "ماذا فعلت؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "I pulled into a petrol station. The car pulled in behind me.",
+          "ar": "دخلت محطة وقود. دخلت السيارة خلفي."
+        },
+        {
+          "speaker": "LINA",
+          "en": "And?",
+          "ar": "و؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "A man got out. He was holding something.",
+          "ar": "خرج رجل. كان يمسك شيئاً."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Sami.",
+          "ar": "سامي."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "It was my wallet. I'd left it on the roof of my car at the first petrol station.",
+          "ar": "كانت محفظتي. تركتها على سقف سيارتي في المحطة الأولى."
+        },
+        {
+          "speaker": "LINA",
+          "en": "He followed you for twenty minutes to give you your wallet?",
+          "ar": "تبعك عشرين دقيقة ليعطيك محفظتك؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "He said he'd been trying to flash his lights the whole time.",
+          "ar": "قال إنه كان يحاول أن يومض بأنواره طوال الوقت."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "A Story at a Job Interview",
+      "situation_en": "A very common interview question, answered well.",
+      "situation_ar": "سؤال متكرّر في مقابلات العمل، مُجاب عنه إجابة جيدة.",
+      "speaker_genders": {
+        "MANAGER": "m",
+        "KHALED": "m"
+      },
+      "lines": [
+        {
+          "speaker": "MANAGER",
+          "en": "Tell me about a time something went wrong at work.",
+          "ar": "حدّثني عن موقف ساءت فيه الأمور في العمل."
+        },
+        {
+          "speaker": "KHALED",
+          "en": "The clearest one was about two years ago. Can I tell it properly?",
+          "ar": "أوضحها كان قبل عامين تقريباً. هل أرويها كاملة؟"
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "Please.",
+          "ar": "تفضّل."
+        },
+        {
+          "speaker": "KHALED",
+          "en": "We were three days from launching a website. Everything had been tested.",
+          "ar": "كنا على بعد ثلاثة أيام من إطلاق موقع. كان كل شيء قد اختُبر."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "By whom?",
+          "ar": "من قبل من؟"
+        },
+        {
+          "speaker": "KHALED",
+          "en": "By me, mostly. That matters later.",
+          "ar": "من قبلي في الأغلب. هذا مهم لاحقاً."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "Go on.",
+          "ar": "تفضّل."
+        },
+        {
+          "speaker": "KHALED",
+          "en": "On the Tuesday, while I was doing a final check, I noticed the payment page was loading in English only.",
+          "ar": "يوم الثلاثاء، بينما كنت أجري فحصاً أخيراً، لاحظت أن صفحة الدفع تُحمَّل بالإنجليزية فقط."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "For an Arabic site.",
+          "ar": "لموقع عربي."
+        },
+        {
+          "speaker": "KHALED",
+          "en": "For an Arabic site. And it had been like that for six weeks. Nobody had checked that page because it was built last.",
+          "ar": "لموقع عربي. وكانت كذلك منذ ستة أسابيع. لم يفحص أحد تلك الصفحة لأنها بُنيت أخيراً."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "What did you do?",
+          "ar": "ماذا فعلت؟"
+        },
+        {
+          "speaker": "KHALED",
+          "en": "I told the manager immediately, which was the hardest part, because it was my mistake.",
+          "ar": "أخبرت المدير فوراً، وكان ذلك أصعب جزء، لأنه كان خطئي."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "And?",
+          "ar": "و؟"
+        },
+        {
+          "speaker": "KHALED",
+          "en": "We delayed the launch by four days. The client was angry for one day and grateful for the rest.",
+          "ar": "أجّلنا الإطلاق أربعة أيام. غضب العميل يوماً واحداً وكان ممتناً لبقية الوقت."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "What did you learn?",
+          "ar": "ماذا تعلّمت؟"
+        },
+        {
+          "speaker": "KHALED",
+          "en": "That the last thing built is the first thing forgotten. I now test in reverse order.",
+          "ar": "أن آخر ما يُبنى هو أول ما يُنسى. الآن أختبر بترتيب عكسي."
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "kind": "grammar",
+      "day_number": 4,
+      "title_ar": "القواعد",
+      "title_en": "Grammar — Narrative Tenses",
+      "payload": {
+        "rule_ar": "القصة تحتاج زمنين متعاونين: الماضي المستمر يرسم الخلفية الممتدّة، والماضي البسيط يقطعها بالحدث. «I was walking when I saw him» — المشي خلفية والرؤية حدث. والماضي التام لما وقع **قبل** ذلك كله.",
+        "rule_en": "was / were  +  VERB-ing",
+        "common_errors": [
+          {
+            "error_no": 1,
+            "wrong": "I walked when I saw him",
+            "right": "I was walking when I saw him.",
+            "arabic": "كنت أمشي عندما رأيته",
+            "why_ar": "الخلفية تحتاج المستمر"
+          },
+          {
+            "error_no": 2,
+            "wrong": "During I was cooking",
+            "right": "While I was cooking…",
+            "arabic": "بينما كنت أطبخ",
+            "why_ar": "during تأخذ اسماً"
+          },
+          {
+            "error_no": 3,
+            "wrong": "while the meeting",
+            "right": "During the meeting",
+            "arabic": "خلال الاجتماع",
+            "why_ar": "while تأخذ جملة"
+          },
+          {
+            "error_no": 4,
+            "wrong": "The train left when we arrived",
+            "right": "The train had left when we arrived.",
+            "arabic": "كان القطار قد غادر",
+            "why_ar": "الحدث الأسبق يحتاج had"
+          },
+          {
+            "error_no": 5,
+            "wrong": "They was waiting",
+            "right": "They were waiting.",
+            "arabic": "هم كانوا ينتظرون",
+            "why_ar": "they تأخذ were"
+          },
+          {
+            "error_no": 6,
+            "wrong": "I was sleep",
+            "right": "I was sleeping.",
+            "arabic": "كنت نائماً",
+            "why_ar": "صيغة -ing إجبارية"
+          }
+        ],
+        "checklist_ar": [
+          "was/were + -ing للخلفية الممتدّة",
+          "الماضي البسيط للحدث الذي يقطعها",
+          "while مع المستمر · when مع البسيط",
+          "الماضي التام (had + اسم المفعول) لما سبق",
+          "الوقفات والإيقاع جزء من السرد لا زينة"
+        ]
+      }
+    },
+    {
+      "kind": "listening",
+      "day_number": 6,
+      "title_ar": "الاستماع",
+      "title_en": "Listening — \"The Wrong Funeral\"",
+      "payload": {
+        "method_ar": [
+          "استمع كاملاً بلا نصّ. عمّا يتحدّث؟ قلها في جملة واحدة.",
+          "استمع مرة أخرى واكتب أي كلمة لم تلتقطها.",
+          "افتح النصّ واقرأه وأنت تستمع.",
+          "أغلق النصّ واستمع مرة أخيرة، ولاحظ كم صار أوضح."
+        ],
+        "transcript": [
+          {
+            "en": "A few years ago I went to a funeral I was not invited to, and I did not realise for forty minutes.",
+            "ar": "قبل سنوات قليلة حضرت عزاءً لم أكن مدعوّاً إليه، ولم أُدرك ذلك أربعين دقيقة."
+          },
+          {
+            "en": "My colleague's father had died, and the service was at eleven at a large mosque I had never been to before. I arrived early. Cars were arriving, people were walking towards a building, and I followed them.",
+            "ar": "كان والد زميلي قد توفّي، والصلاة في الحادية عشرة في مسجد كبير لم أذهب إليه من قبل. وصلت مبكّراً. كانت السيارات تصل والناس يمشون نحو مبنى، فتبعتهم."
+          },
+          {
+            "en": "I sat near the back. Everybody was very quiet. I recognised nobody, but I had only met my colleague's family once, so I was not worried.",
+            "ar": "جلست قريباً من الخلف. كان الجميع صامتين جداً. ولم أعرف أحداً، لكنني لم ألتقِ عائلة زميلي إلا مرة واحدة، فلم أقلق."
+          },
+          {
+            "en": "After about twenty minutes, a man stood up and began to speak about the person who had died. He said he had been a fisherman for fifty-one years. My colleague's father had been a schoolteacher.",
+            "ar": "وبعد نحو عشرين دقيقة وقف رجل وبدأ يتحدّث عن المتوفّى. قال إنه كان صيّاداً إحدى وخمسين سنة. أما والد زميلي فكان مدرّساً."
+          },
+          {
+            "en": "I told myself I had misheard. Then he mentioned the boat.",
+            "ar": "قلت لنفسي إنني أخطأت السمع. ثم ذكر القارب."
+          },
+          {
+            "en": "I was sitting in the middle of a row, in the third row from the front, at a funeral for a man I had never heard of. There was no way of leaving without walking past forty people.",
+            "ar": "كنت جالساً في وسط صفّ، في الصفّ الثالث من الأمام، في عزاء رجل لم أسمع به قطّ. ولم يكن هناك سبيل إلى الخروج بلا أن أمرّ بأربعين شخصاً."
+          },
+          {
+            "en": "So I stayed. I stayed for the whole thing, and afterwards an elderly woman took my hand and thanked me for coming, and I said I was very sorry for her loss, which was true.",
+            "ar": "فبقيت. بقيت حتى النهاية، وبعدها أخذت امرأة مسنّة يدي وشكرتني على الحضور، فقلت إنني آسف جداً لخسارتها — وكان ذلك صحيحاً."
+          },
+          {
+            "en": "I found the correct funeral in a smaller building two hundred metres away. It had finished. My colleague later told me he had not noticed I was missing, which I have decided to be grateful for.",
+            "ar": "ووجدت العزاء الصحيح في مبنى أصغر يبعد مئتي متر. كان قد انتهى. وأخبرني زميلي لاحقاً أنه لم يلاحظ غيابي، وقد قرّرت أن أكون شاكراً لذلك."
+          }
+        ],
+        "questions": []
+      }
+    },
+    {
+      "kind": "reading",
+      "day_number": 7,
+      "title_ar": "القراءة",
+      "title_en": "Reading — \"The Story That Was Told Backwards\"",
+      "payload": {
+        "method_ar": "اقرأ مرتين. الأولى بلا توقّف، والثانية مع المسرد.",
+        "story": [
+          {
+            "en": "In 1994 a psychologist ran an experiment that has been repeated many times since. Two groups were told the same story about a man who lost his job.",
+            "ar": "في سنة 1994 أجرى عالم نفس تجربة أُعيدت مرات كثيرة بعدها. أُخبرت مجموعتان القصة نفسها عن رجل فقد عمله."
+          },
+          {
+            "en": "The first group heard it in order: he was late repeatedly, he was warned, he was warned again, he was dismissed.",
+            "ar": "سمعتها المجموعة الأولى بترتيبها: تأخّر مراراً، فحُذّر، ثم حُذّر مرة أخرى، ثم فُصل."
+          },
+          {
+            "en": "The second group heard the ending first: he was dismissed. Then they heard the rest.",
+            "ar": "وسمعت المجموعة الثانية النهاية أولاً: فُصل. ثم سمعت البقية."
+          },
+          {
+            "en": "Both groups were asked whether the dismissal was fair. The first group mostly said yes. The second group mostly said no.",
+            "ar": "وسُئلت المجموعتان: هل كان الفصل عادلاً؟ فقالت الأولى «نعم» في معظمها، وقالت الثانية «لا» في معظمها."
+          },
+          {
+            "en": "Nothing in the facts had changed. Only the order had.",
+            "ar": "ولم يتغيّر شيء في الوقائع. تغيّر الترتيب وحده."
+          },
+          {
+            "en": "The researcher's explanation was that when we hear an outcome first, we begin looking for reasons to explain it, and we are more likely to find the ones that make the outcome look unjust. When we hear events in order, we build the conclusion ourselves and we trust it more, because we think we reached it independently.",
+            "ar": "وشرح الباحث ذلك بأننا حين نسمع النتيجة أولاً نبدأ نبحث عن أسباب تفسّرها، ونكون أميل إلى إيجاد الأسباب التي تجعل النتيجة تبدو ظالمة. أما حين نسمع الأحداث بترتيبها فنبني الخلاصة بأنفسنا ونثق بها أكثر، لأننا نظنّ أننا وصلنا إليها وحدنا."
+          },
+          {
+            "en": "This has been used to explain a great deal — why the order of evidence matters in court, why the first sentence of a news article changes how the rest is read, and why the same argument, presented in two orders, produces two audiences.",
+            "ar": "واستُخدم هذا في تفسير أمور كثيرة: لماذا يهمّ ترتيب الأدلّة في المحكمة، ولماذا تغيّر الجملة الأولى في خبر طريقةَ قراءة بقيته، ولماذا تُنتج الحجّة نفسها معروضة بترتيبين جمهورين مختلفين."
+          },
+          {
+            "en": "The uncomfortable implication is not that people are stupid. It is that the order in which you learned something is invisible to you afterwards, and it has already done its work.",
+            "ar": "واللازم المزعج ليس أن الناس أغبياء، بل أن الترتيب الذي تعلّمت به شيئاً يصير غير مرئيّ لك بعد ذلك — وقد أدّى عمله فعلاً."
+          }
+        ],
+        "glossary": [
+          {
+            "en": "psychologist",
+            "ipa": "/saɪˈkɒlədʒɪst/",
+            "ar": "عالم نفس",
+            "note_ar": "The p is silent"
+          },
+          {
+            "en": "dismiss",
+            "ipa": "/dɪsˈmɪs/",
+            "ar": "يفصل من العمل",
+            "note_ar": "Formal for fire"
+          },
+          {
+            "en": "warn",
+            "ipa": "/wɔːn/",
+            "ar": "يحذّر",
+            "note_ar": "Seen in Week 15"
+          },
+          {
+            "en": "fair",
+            "ipa": "/feə(r)/",
+            "ar": "عادل",
+            "note_ar": "Opposite: unfair"
+          },
+          {
+            "en": "outcome",
+            "ipa": "/ˈaʊtkʌm/",
+            "ar": "نتيجة",
+            "note_ar": "Stress on the first"
+          },
+          {
+            "en": "unjust",
+            "ipa": "/ʌnˈdʒʌst/",
+            "ar": "ظالم",
+            "note_ar": "Formal for unfair"
+          },
+          {
+            "en": "independently",
+            "ipa": "/ˌɪndɪˈpendəntli/",
+            "ar": "بشكل مستقل",
+            "note_ar": "Five syllables"
+          },
+          {
+            "en": "evidence",
+            "ipa": "/ˈevɪdəns/",
+            "ar": "أدلة",
+            "note_ar": "Uncountable"
+          },
+          {
+            "en": "court",
+            "ipa": "/kɔːt/",
+            "ar": "محكمة",
+            "note_ar": "—"
+          },
+          {
+            "en": "audience",
+            "ipa": "/ˈɔːdiəns/",
+            "ar": "جمهور",
+            "note_ar": "—"
+          },
+          {
+            "en": "implication",
+            "ipa": "/ˌɪmplɪˈkeɪʃn/",
+            "ar": "مغزى ضمني",
+            "note_ar": "From to imply"
+          },
+          {
+            "en": "invisible",
+            "ipa": "/ɪnˈvɪzəbl/",
+            "ar": "غير مرئي",
+            "note_ar": "—"
+          }
+        ],
+        "questions": []
+      }
+    },
+    {
+      "kind": "selfcheck",
+      "day_number": 7,
+      "title_ar": "الاختبار الذاتي — نهاية الفصل",
+      "title_en": "End-of-Chapter Self-Check",
+      "payload": {
+        "intro_ar": "كن صادقاً. هذا يحدّد هل تنتقل أم تُعيد.",
+        "items": [
+          {
+            "can_ar": "أحصل على 12 من 14 في تمييز الماضي البسيط من المستمر",
+            "can_en": "Score 12/14 on Exercise 1?",
+            "proof_ar": "تمارين اليوم 1"
+          },
+          {
+            "can_ar": "أستخدم الماضي المستمر للخلفية تلقائياً",
+            "can_en": "Use the Past Continuous for background automatically?",
+            "proof_ar": "تمارين اليوم 1"
+          },
+          {
+            "can_ar": "أستخدم while + جملة و during + اسم صحيحين",
+            "can_en": "Use while + clause and during + noun correctly?",
+            "proof_ar": "تمارين اليوم 2"
+          },
+          {
+            "can_ar": "أستخدم الماضي التام لأبيّن أي حدث سبق",
+            "can_en": "Use the Past Perfect to show which event came first?",
+            "proof_ar": "تمارين اليوم 3"
+          },
+          {
+            "can_ar": "أستخدم عشرة روابط سرد في قصة واحدة",
+            "can_en": "Use ten connectors from §2.2 in one story?",
+            "proof_ar": "جلسة المراجعة المتباعدة — تقول لك الرقم"
+          },
+          {
+            "can_ar": "أجيب «حدّثني عن موقف ساء فيه شيء» في تسعين ثانية",
+            "can_en": "Answer \"tell me about a time something went wrong\" in ninety seconds?",
+            "proof_ar": "الحوار الثاني"
+          },
+          {
+            "can_ar": "أقف وقفة مقصودة قبل الحدث المهمّ",
+            "can_en": "Pause deliberately before the key event?",
+            "proof_ar": "قسم النطق"
+          },
+          {
+            "can_ar": "أتذكّر 80 من 100 كلمة من العربية",
+            "can_en": "Recall 80 of the 100 words from the Arabic?",
+            "proof_ar": "جلسة المراجعة المتباعدة — تقول لك الرقم"
+          },
+          {
+            "can_ar": "أحكي قصة 100 ثانية فيها مشهد وحدث وتأمّل",
+            "can_en": "Tell a 100-second story with a scene, an event and a reflection?",
+            "proof_ar": "تسجيل هذا الأسبوع"
+          }
+        ],
+        "pass_ar": "8–9 ✓ → انتقل إلى الأسبوع الحادي والعشرين — الافتراض.",
+        "partial_ar": "6–7 ✓ → انتقل، لكن أعد سرد قصة واحدة كل يوم هذا الأسبوع.",
+        "fail_ar": "أقل من 6 → أعد قسم القواعد. سرد القصص يُختبر مباشرة في اختبار التحدّث في B1."
+      }
+    },
+    {
+      "kind": "phonics",
+      "day_number": 5,
+      "title_ar": "النطق — الإيقاع والوقفات",
+      "title_en": "Pronunciation — Rhythm and Pausing",
+      "payload": {
+        "intro_ar": "العربية إيقاعها مقطعيّ: كل مقطع يأخذ زمناً متقارباً. والإنجليزية إيقاعها نبريّ: المقاطع المنبورة تصل في أوقات منتظمة وما بينها يُسحق. هذا أعمق سبب يجعل الإنجليزية تبدو لك «سريعة».",
+        "symbols": [
+          {
+            "ipa": "نبريّ لا مقطعيّ",
+            "arabic_hint": "ثلاث جمل مختلفة الطول تأخذ الزمن نفسه لأن فيها ثلاث كلمات منبورة",
+            "examples": [
+              "Cats chase mice.",
+              "The cats chase the mice.",
+              "The cats will have chased the mice."
+            ],
+            "note_ar": "يُعطى كل مقطع الزمن نفسه كما في العربية، فيبدو الكلام مسطّحاً وبطيئاً.",
+            "fix_ar": "صفّق أربع صفقات منتظمة وضع الكلمات المنبورة عليها — والباقي يُضغط بينها."
+          },
+          {
+            "ipa": "وقفة نَفَس",
+            "arabic_hint": "نصف ثانية بين الجمل الفرعية — تُتيح للمستمع أن يستوعب",
+            "examples": [
+              "When I arrived, | the door was open."
+            ]
+          },
+          {
+            "ipa": "وقفة درامية",
+            "arabic_hint": "ثانية إلى ثانيتين قبل الحدث المهم — تصنع التوقّع",
+            "examples": [
+              "And then | I saw it."
+            ]
+          },
+          {
+            "ipa": "وقفة تفكير",
+            "arabic_hint": "تشتري لك وقتاً وتبدو طبيعية إن ملأتها بعبارة لا بصمت",
+            "examples": [
+              "Well…",
+              "Let me think…",
+              "You know…"
+            ]
+          },
+          {
+            "ipa": "تغيير السرعة",
+            "arabic_hint": "أسرع في الخلفية وأبطأ عند الحدث — الرواة يفعلون هذا بلا وعي",
+            "examples": [
+              "So I was walking home,",
+              "and suddenly",
+              "the lights went out."
+            ]
+          }
+        ],
+        "tip_ar": "التدريب: صفّق أربع صفقات منتظمة، ثم قل الجمل الثلاث أعلاه بحيث تقع الكلمات المنبورة على الصفقات. انسخ الإيقاع لا المقاطع، فيصير كلامك أسرع وأوضح معاً."
+      }
+    },
+    {
+      "kind": "breaktime",
+      "day_number": 7,
+      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
+      "title_en": "Break Time — English Outside the Book",
+      "payload": {
+        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
+        "compare": [
+          {
+            "aspect_ar": "الكمّ",
+            "intensive_ar": "دقائق من الصوت",
+            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
+          },
+          {
+            "aspect_ar": "الفهم",
+            "intensive_ar": "تستهدف 100%",
+            "extensive_ar": "50–70% تكفي"
+          },
+          {
+            "aspect_ar": "الجهد",
+            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
+            "extensive_ar": "منخفض — تسترخي وتستمتع"
+          },
+          {
+            "aspect_ar": "ما يبنيه",
+            "intensive_ar": "الدقّة والقواعد",
+            "extensive_ar": "السرعة والأذن والحدس والمفردات"
+          },
+          {
+            "aspect_ar": "لو أغفلته",
+            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
+            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
+          }
+        ],
+        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
+        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
+        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
+        "watch": {
+          "pick": {
+            "title": "Stand-up comedy",
+            "where": "YouTube — any clean comedian, with subtitles",
+            "why_en": "Comedians are professional storytellers. Watch how long they hold a pause before a punchline.",
+            "search": "Stand-up comedy"
+          },
+          "alternatives": [
+            {
+              "title": "TED Talks that open with a story",
+              "where": "ted.com",
+              "why_en": "Most good talks begin with a personal story in exactly the six-part shape from the grammar section.",
+              "url": "https://ted.com"
+            },
+            {
+              "title": "Friends — Episodes 21–23",
+              "where": "Any streaming service",
+              "why_en": "One episode with no subtitles this week.",
+              "search": "Friends — Episodes 21–23"
+            }
+          ],
+          "item": {
+            "key": "watch",
+            "icon": "📺",
+            "label_ar": "ما تشاهده",
+            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
+            "minutes": 25,
+            "steps": [
+              "شاهد حلقة كاملة بلا توقّف.",
+              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
+              "اكتب ثلاث عبارات علقت في ذهنك."
+            ],
+            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
+            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
+          }
+        },
+        "story": {
+          "pick": {
+            "title": "The Moth",
+            "why_en": "Ten to fifteen minutes each. The single best model of the grammar section you will find anywhere.",
+            "search": "The Moth"
+          },
+          "alternatives": [
+            {
+              "title": "This American Life",
+              "why_en": "Slower and more produced. Excellent for hearing scene-setting.",
+              "search": "This American Life"
+            },
+            {
+              "title": "Snap Judgment",
+              "why_en": "Strong use of pausing and pace changes.",
+              "search": "Snap Judgment"
+            }
+          ],
+          "item": {
+            "key": "story",
+            "icon": "📖",
+            "label_ar": "ما تقرأه",
+            "task_ar": "خمس عشرة دقيقة قراءة أو استماع، ولا تبحث عن أكثر من ثلاث كلمات",
+            "minutes": 15,
+            "steps": [
+              "استمع إلى قصة واحدة كاملة.",
+              "اسمعها ثانية وحدّد: أين المشهد؟ وأين الحدث؟ وأين النهاية؟",
+              "لاحظ أين وقف الراوي، وكم استغرقت الوقفة.",
+              "اسرد القصة نفسها بكلماتك في دقيقتين."
+            ],
+            "why_ar": "الوقفة في السرد ليست فراغاً بل علامة ترقيم — وهي ما يفصل الراوي الجيد عن غيره.",
+            "prompt_ar": "اكتب مشهد القصة وحدثها ونهايتها في ثلاثة أسطر"
+          }
+        },
+        "item_order": [
+          "watch",
+          "story"
+        ],
+        "plan": [
+          {
+            "day_ar": "السبت",
+            "activity_ar": "قصة واحدة من The Moth",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الأحد",
+            "activity_ar": "القصة نفسها — مهمة التحليل",
+            "minutes": 25
+          },
+          {
+            "day_ar": "الاثنين",
+            "activity_ar": "مقطع كوميديا واقفة مع الترجمة",
+            "minutes": 20
+          },
+          {
+            "day_ar": "الثلاثاء",
+            "activity_ar": "تمرّن على سرد قصتك بصوت عالٍ ثلاث مرات",
+            "minutes": 20
+          },
+          {
+            "day_ar": "الأربعاء",
+            "activity_ar": "درس — احكِ قصتك",
+            "minutes": 35
+          },
+          {
+            "day_ar": "الخميس",
+            "activity_ar": "قصّتان أخريان من The Moth",
+            "minutes": 30
+          },
+          {
+            "day_ar": "الجمعة",
+            "activity_ar": "Friends الحلقة 21 — بلا ترجمة + قراءة",
+            "minutes": 40
+          }
+        ]
+      }
+    },
+    {
+      "kind": "speaking",
+      "title_ar": "التحدّث",
+      "title_en": "Tell a Story",
+      "payload": {
+        "task_ar": "احكِ قصة دقيقتين: المشهد، ثم الحدث، ثم النهاية",
+        "target_seconds": 120,
+        "is_baseline": false,
+        "title_en": "Tell a Story",
+        "intro_ar": null,
+        "cover_ar": null,
+        "model_en": "A few years ago I made a mistake I still think about. //\nIt was a Tuesday evening. I was working late, alone in the office — I'd been there since seven that morning and I was completely exhausted. I was finishing a report that had to go out that night. //\nAt about nine, I attached the file and sent it. // And about five seconds later, I realised I'd attached the wrong version. An early draft. With all my private notes in it. //\nAnd to make things worse — I'd sent it to twelve people. Including the client. //\nI sat there for a full minute doing absolutely nothing. // Then I wrote a short email saying exactly what had happened and asking everybody to delete it. //\nIn the end, only two people had even opened it. And one of them told me the notes were the most useful part of the document. //\nLooking back, what I remember isn't the mistake. // It's that the email I was most afraid to write took ninety seconds. //",
+        "outline": [
+          {
+            "part_en": "Frame",
+            "say_en": "A few years ago… / Something happened…",
+            "seconds": 10
+          },
+          {
+            "part_en": "Scene",
+            "say_en": "Past Continuous + Past Perfect for background",
+            "seconds": 30
+          },
+          {
+            "part_en": "Event",
+            "say_en": "Past Simple + and then / when suddenly",
+            "seconds": 25
+          },
+          {
+            "part_en": "Complication",
+            "say_en": "To make things worse…",
+            "seconds": 20
+          },
+          {
+            "part_en": "Resolution",
+            "say_en": "In the end… It turned out that…",
+            "seconds": 20
+          },
+          {
+            "part_en": "Reflection",
+            "say_en": "Looking back… What I remember is…",
+            "seconds": 15
+          }
+        ],
+        "rubric": [
+          {
+            "label_en": "Past Continuous",
+            "label_ar": null,
+            "levels": [
+              "Not used, or wrong form",
+              "Used once",
+              "Used to set every scene"
+            ]
+          },
+          {
+            "label_en": "Past Perfect",
+            "label_ar": null,
+            "levels": [
+              "Not used",
+              "Used once",
+              "Used to explain causes"
+            ]
+          },
+          {
+            "label_en": "Connectors",
+            "label_ar": "أدوات الربط",
+            "levels": [
+              "None or and then only",
+              "Three used",
+              "Six or more, varied"
+            ]
+          },
+          {
+            "label_en": "Story shape",
+            "label_ar": null,
+            "levels": [
+              "A list of events",
+              "Beginning and end",
+              "All six parts, with a reflection"
+            ]
+          },
+          {
+            "label_en": "Pausing",
+            "label_ar": "الوقفات",
+            "levels": [
+              "No pauses, or random ones",
+              "Some pauses",
+              "A deliberate pause before the peak"
+            ]
+          },
+          {
+            "label_en": "Length",
+            "label_ar": "الطول",
+            "levels": [
+              "Under 60 sec",
+              "60–100 sec",
+              "100–120 sec"
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "title_ar": "اقرأ النموذج",
+            "title_en": "Study the Model",
+            "text_en": []
+          },
+          {
+            "title_ar": "ابنِ نصّك أنت",
+            "title_en": "Build Your Version",
+            "text_en": [
+              "Choose a real story. It does not need to be dramatic — a small one told well beats a big one told badly.",
+              "Three things that make the difference. Pause for one full second before the event in part 3. Slow down at the peak. And end on the reflection, not the event — a story that stops at \"and then I went home\" has no ending."
+            ]
+          },
+          {
+            "title_ar": "سجّل ثم قيّم نفسك",
+            "title_en": "Record and Score",
+            "text_en": [
+              "Record 2 minutes from memory. Save as Week20."
+            ]
+          }
+        ],
+        "save_as": "Week20"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الماضي البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I ______ (walk) home when I ______ (see) the accident.",
+      "payload": {
+        "before": "I ",
+        "after": " (walk) home when I ______ (see) the accident."
+      },
+      "answer": {
+        "accepted": [
+          "was walking / saw"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الماضي البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She ______ (cook) when the phone ______ (ring).",
+      "payload": {
+        "before": "She ",
+        "after": " (cook) when the phone ______ (ring)."
+      },
+      "answer": {
+        "accepted": [
+          "was cooking / rang"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الماضي البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "We ______ (wait) at the station for an hour.",
+      "payload": {
+        "before": "We ",
+        "after": " (wait) at the station for an hour."
+      },
+      "answer": {
+        "accepted": [
+          "waited (or) were waiting"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الماضي البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "While I ______ (read), my brother ______ (watch) television.",
+      "payload": {
+        "before": "While I ",
+        "after": " (read), my brother ______ (watch) television."
+      },
+      "answer": {
+        "accepted": [
+          "was reading / was watching"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الماضي البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "He ______ (fall) while he ______ (run).",
+      "payload": {
+        "before": "He ",
+        "after": " (fall) while he ______ (run)."
+      },
+      "answer": {
+        "accepted": [
+          "fell / was running"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الماضي البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What ______ you ______ (do) at eight o'clock last night?",
+      "payload": {
+        "before": "What ",
+        "after": " you ______ (do) at eight o'clock last night?"
+      },
+      "answer": {
+        "accepted": [
+          "were / doing"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الماضي البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I ______ (not / listen), so I ______ (miss) the announcement.",
+      "payload": {
+        "before": "I ",
+        "after": " (not / listen), so I ______ (miss) the announcement."
+      },
+      "answer": {
+        "accepted": [
+          "wasn't listening / missed"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الماضي البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The sun ______ (shine) when we ______ (arrive).",
+      "payload": {
+        "before": "The sun ",
+        "after": " (shine) when we ______ (arrive)."
+      },
+      "answer": {
+        "accepted": [
+          "was shining / arrived"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الماضي البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She ______ (leave) at six and ______ (get) home at seven.",
+      "payload": {
+        "before": "She ",
+        "after": " (leave) at six and ______ (get) home at seven."
+      },
+      "answer": {
+        "accepted": [
+          "left / got"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الماضي البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "As I ______ (open) the door, the cat ______ (run) out.",
+      "payload": {
+        "before": "As I ",
+        "after": " (open) the door, the cat ______ (run) out."
+      },
+      "answer": {
+        "accepted": [
+          "was opening / ran"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الماضي البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "They ______ (argue) the whole time we ______ (be) there.",
+      "payload": {
+        "before": "They ",
+        "after": " (argue) the whole time we ______ (be) there."
+      },
+      "answer": {
+        "accepted": [
+          "were arguing / were"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الماضي البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I ______ (drop) my phone while I ______ (get) off the bus.",
+      "payload": {
+        "before": "I ",
+        "after": " (drop) my phone while I ______ (get) off the bus."
+      },
+      "answer": {
+        "accepted": [
+          "dropped / was getting"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الماضي البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "It ______ (rain) heavily, so we ______ (stay) inside.",
+      "payload": {
+        "before": "It ",
+        "after": " (rain) heavily, so we ______ (stay) inside."
+      },
+      "answer": {
+        "accepted": [
+          "was raining / stayed"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الماضي البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "When the manager ______ (come) in, everybody ______ (work) very hard.",
+      "payload": {
+        "before": "When the manager ",
+        "after": " (come) in, everybody ______ (work) very hard."
+      },
+      "answer": {
+        "accepted": [
+          "came / was working"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "while أم when أم as أم during؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ I was cooking, the phone rang.",
+      "payload": {
+        "before": "",
+        "after": " I was cooking, the phone rang."
+      },
+      "answer": {
+        "accepted": [
+          "While",
+          "while"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "while أم when أم as أم during؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The phone rang ______ I was cooking.",
+      "payload": {
+        "before": "The phone rang ",
+        "after": " I was cooking."
+      },
+      "answer": {
+        "accepted": [
+          "while"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "while أم when أم as أم during؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "It happened ______ the meeting.",
+      "payload": {
+        "before": "It happened ",
+        "after": " the meeting."
+      },
+      "answer": {
+        "accepted": [
+          "during"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "while أم when أم as أم during؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ I was leaving, I noticed the door was open.",
+      "payload": {
+        "before": "",
+        "after": " I was leaving, I noticed the door was open."
+      },
+      "answer": {
+        "accepted": [
+          "As",
+          "as"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "while أم when أم as أم during؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "He fell asleep ______ the film.",
+      "payload": {
+        "before": "He fell asleep ",
+        "after": " the film."
+      },
+      "answer": {
+        "accepted": [
+          "during"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "while أم when أم as أم during؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ we were waiting, it started to rain.",
+      "payload": {
+        "before": "",
+        "after": " we were waiting, it started to rain."
+      },
+      "answer": {
+        "accepted": [
+          "While",
+          "while"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "while أم when أم as أم during؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I met her ______ my first year at university.",
+      "payload": {
+        "before": "I met her ",
+        "after": " my first year at university."
+      },
+      "answer": {
+        "accepted": [
+          "during"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "while أم when أم as أم during؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She called me ______ I was in the shower.",
+      "payload": {
+        "before": "She called me ",
+        "after": " I was in the shower."
+      },
+      "answer": {
+        "accepted": [
+          "while"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "while أم when أم as أم during؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Nothing happened ______ the whole journey.",
+      "payload": {
+        "before": "Nothing happened ",
+        "after": " the whole journey."
+      },
+      "answer": {
+        "accepted": [
+          "during"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "while أم when أم as أم during؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ soon as I sat down, the phone rang.",
+      "payload": {
+        "before": "",
+        "after": " soon as I sat down, the phone rang."
+      },
+      "answer": {
+        "accepted": [
+          "As",
+          "as"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الماضي البسيط أم التام؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "When we arrived, the film ______ (already / start).",
+      "payload": {
+        "before": "When we arrived, the film ",
+        "after": " (already / start)."
+      },
+      "answer": {
+        "accepted": [
+          "had already started"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الماضي البسيط أم التام؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I ______ (get) home and ______ (make) dinner.",
+      "payload": {
+        "before": "I ",
+        "after": " (get) home and ______ (make) dinner."
+      },
+      "answer": {
+        "accepted": [
+          "got / made"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الماضي البسيط أم التام؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I couldn't get in because I ______ (forget) my key.",
+      "payload": {
+        "before": "I couldn't get in because I ",
+        "after": " (forget) my key."
+      },
+      "answer": {
+        "accepted": [
+          "had forgotten"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الماضي البسيط أم التام؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She ______ (be) very tired because she ______ (not / sleep).",
+      "payload": {
+        "before": "She ",
+        "after": " (be) very tired because she ______ (not / sleep)."
+      },
+      "answer": {
+        "accepted": [
+          "was / hadn't slept"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الماضي البسيط أم التام؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "By the time we got to the station, the train ______ (leave).",
+      "payload": {
+        "before": "By the time we got to the station, the train ",
+        "after": " (leave)."
+      },
+      "answer": {
+        "accepted": [
+          "had left"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الماضي البسيط أم التام؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "He told me he ______ (see) that film before.",
+      "payload": {
+        "before": "He told me he ",
+        "after": " (see) that film before."
+      },
+      "answer": {
+        "accepted": [
+          "had seen"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الماضي البسيط أم التام؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "First I ______ (finish) work, then I ______ (go) home.",
+      "payload": {
+        "before": "First I ",
+        "after": " (finish) work, then I ______ (go) home."
+      },
+      "answer": {
+        "accepted": [
+          "finished / went"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الماضي البسيط أم التام؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "When I got home, my brother ______ (eat) everything.",
+      "payload": {
+        "before": "When I got home, my brother ",
+        "after": " (eat) everything."
+      },
+      "answer": {
+        "accepted": [
+          "had eaten"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الماضي البسيط أم التام؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I didn't recognise her because she ______ (change) so much.",
+      "payload": {
+        "before": "I didn't recognise her because she ",
+        "after": " (change) so much."
+      },
+      "answer": {
+        "accepted": [
+          "had changed"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الماضي البسيط أم التام؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "We ______ (wait) for an hour before the bus finally ______ (come).",
+      "payload": {
+        "before": "We ",
+        "after": " (wait) for an hour before the bus finally ______ (come)."
+      },
+      "answer": {
+        "accepted": [
+          "had waited / came"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "I walked home when I saw him."
+      },
+      "answer": {
+        "accepted": [
+          "I was walking home when I saw him."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "During I was cooking, the phone rang."
+      },
+      "answer": {
+        "accepted": [
+          "While I was cooking…"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "While the meeting, my phone rang."
+      },
+      "answer": {
+        "accepted": [
+          "During the meeting…"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "They was waiting outside."
+      },
+      "answer": {
+        "accepted": [
+          "They were waiting outside."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "I was sleep when you called."
+      },
+      "answer": {
+        "accepted": [
+          "I was sleeping when you called."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "The train left when we arrived, so we missed it."
+      },
+      "answer": {
+        "accepted": [
+          "The train had left when we arrived…"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "She was cook dinner."
+      },
+      "answer": {
+        "accepted": [
+          "She was cooking dinner."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "I couldn't enter because I forget my key."
+      },
+      "answer": {
+        "accepted": [
+          "…because I had forgotten my key."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "What you were doing at eight o'clock?"
+      },
+      "answer": {
+        "accepted": [
+          "What were you doing at eight o'clock?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "While I read, my brother was watch TV."
+      },
+      "answer": {
+        "accepted": [
+          "While I was reading, my brother was watching TV."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "تعقّب الأزمنة في النصّ",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Four Past Continuous verbs — what does each one do?",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: Past Continuous: I was driving (scene)"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "تعقّب الأزمنة في النصّ",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Two Past Perfect verbs — what earlier event does each show?",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: I was genuinely nervous (state)"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "تعقّب الأزمنة في النصّ",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "The Past Simple events that drive the story forward",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: I was thinking about where to stop (ongoing mental background)"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "تعقّب الأزمنة في النصّ",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Notice that Lina says almost nothing. \"Go on.\" \"Right.\" \"And?\" Real storytelling is not a monologue — the listener's small responses are what keep it moving. Learn those three.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: He was holding something (background at the peak).  Past Perfect: It had been there since the petrol station (earlier than the noticing)"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يختفي",
+      "payload": {
+        "options": [
+          "cry",
+          "realise",
+          "notice",
+          "disappear"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يقرّر",
+      "payload": {
+        "options": [
+          "run",
+          "realise",
+          "decide",
+          "notice"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يبكي",
+      "payload": {
+        "options": [
+          "reply",
+          "cry",
+          "knock",
+          "remember"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يعلم",
+      "payload": {
+        "options": [
+          "cry",
+          "explain",
+          "find out",
+          "disappear"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "ينسى",
+      "payload": {
+        "options": [
+          "return",
+          "run",
+          "drop",
+          "forget"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يضحك",
+      "payload": {
+        "options": [
+          "decide",
+          "laugh",
+          "return",
+          "notice"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Whose funeral was he supposed to attend? ______",
+      "payload": {
+        "before": "Whose funeral was he supposed to attend?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "His colleague's father's.",
+          "His colleague's father's",
+          "his colleague's father's."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why did he follow the crowd? ______",
+      "payload": {
+        "before": "Why did he follow the crowd?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Cars were arriving and people were walking towards a building.",
+          "Cars were arriving and people were walking towards a building",
+          "cars were arriving and people were walking towards a building."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why was he not worried about recognising nobody? ______",
+      "payload": {
+        "before": "Why was he not worried about recognising nobody?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "He had only met the family once.",
+          "He had only met the family once",
+          "he had only met the family once."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What was the first sign something was wrong? ______",
+      "payload": {
+        "before": "What was the first sign something was wrong?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "The speaker said the man had been a fisherman for fifty-one years.",
+          "The speaker said the man had been a fisherman for fifty-one years",
+          "the speaker said the man had been a fisherman for fifty-one years."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What had his colleague's father been? ______",
+      "payload": {
+        "before": "What had his colleague's father been?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "A schoolteacher.",
+          "A schoolteacher",
+          "a schoolteacher."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What confirmed the mistake? ______",
+      "payload": {
+        "before": "What confirmed the mistake?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "The mention of the boat.",
+          "The mention of the boat",
+          "the mention of the boat."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why couldn't he leave? ______",
+      "payload": {
+        "before": "Why couldn't he leave?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "He was in the middle of a row, third from the front — he would have had to walk past forty people.",
+          "He was in the middle of a row, third from the front — he would have had to walk past forty people",
+          "he was in the middle of a row, third from the front — he would have had to walk past forty people."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What did the elderly woman do? ______",
+      "payload": {
+        "before": "What did the elderly woman do?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "She took his hand and thanked him for coming.",
+          "She took his hand and thanked him for coming",
+          "she took his hand and thanked him for coming."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Where was the correct funeral? ______",
+      "payload": {
+        "before": "Where was the correct funeral?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "In a smaller building two hundred metres away.",
+          "In a smaller building two hundred metres away",
+          "in a smaller building two hundred metres away."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What did his colleague say afterwards? ______",
+      "payload": {
+        "before": "What did his colleague say afterwards?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "That he had not noticed he was missing.",
+          "That he had not noticed he was missing",
+          "that he had not noticed he was missing."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "تعقّب الأزمنة الثلاثة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Past Continuous (background) : ______",
+      "payload": {
+        "before": "Past Continuous (background) : ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Almost every clue in the story is something that happened before the narrator understood it: had died, had never been, had only met, had died (the fisherman), had been a fisherman, had been a schoolteacher, had misheard, had never heard of, had finished, had not noticed. Without the Past Perfect the reader cannot tell which events came first, and the whole structure of the misunderstanding collapses.",
+          "Almost every clue in the story is something that happened before the narrator understood it: had died, had never been, had only met, had died (the fisherman), had been a fisherman, had been a schoolteacher, had misheard, had never heard of, had finished, had not noticed. Without the Past Perfect the reader cannot tell which events came first, and the whole structure of the misunderstanding collapses",
+          "almost every clue in the story is something that happened before the narrator understood it: had died, had never been, had only met, had died (the fisherman), had been a fisherman, had been a schoolteacher, had misheard, had never heard of, had finished, had not noticed. without the past perfect the reader cannot tell which events came first, and the whole structure of the misunderstanding collapses."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "تعقّب الأزمنة الثلاثة",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Past Simple (events)         : ……",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "تعقّب الأزمنة الثلاثة",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Past Perfect (earlier still) : ……",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The experiment was run in 1994.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The two groups heard different facts.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: the same facts, different order"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The first group heard the events in order.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Both groups reached the same conclusion.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: opposite conclusions"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The second group was more likely to call it unfair.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The researcher said people are stupid.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: he said the opposite"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The finding has been used to explain how evidence works in court.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "We are usually aware of the order in which we learned something.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: it is invisible to us afterwards"
+    }
+  ]
+}

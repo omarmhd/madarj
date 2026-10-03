@@ -1,0 +1,3987 @@
+{
+  "number": 8,
+  "module": 2,
+  "title_en": "Irregular Verbs, Questions & Travel",
+  "title_ar": "الأفعال الشاذة والأسئلة والسفر",
+  "pron_section": 5,
+  "is_review": false,
+  "objectives": [
+    {
+      "en": "Produce the past form of the 80 most common irregular verbs",
+      "ar": "أنتج الصيغة الماضية للأفعال الشاذة الثمانين الأكثر شيوعاً"
+    },
+    {
+      "en": "Make past negatives with didn't + base verb",
+      "ar": "أنفي في الماضي بـ didn’t + الفعل المجرّد"
+    },
+    {
+      "en": "Ask past questions with did, and answer them short",
+      "ar": "أسأل في الماضي بـ did، وأجيب جواباً قصيراً"
+    },
+    {
+      "en": "Use all eight question words in the past",
+      "ar": "أستخدم أدوات الاستفهام الثماني كلها في الماضي"
+    },
+    {
+      "en": "Talk about a journey from beginning to end",
+      "ar": "أتحدّث عن رحلة من بدايتها إلى نهايتها"
+    },
+    {
+      "en": "Handle an airport or station conversation",
+      "ar": "أدير محادثة في مطار أو محطّة"
+    },
+    {
+      "en": "Tell the story of a holiday in 8–10 connected sentences",
+      "ar": "أحكي قصة عطلة في 8–10 جمل متّصلة"
+    },
+    {
+      "en": "Speak for 2 minutes about a trip I took",
+      "ar": "أتحدّث دقيقتين عن رحلة قمت بها"
+    }
+  ],
+  "writing": {
+    "title_ar": null,
+    "title_en": "Writing — A Journey",
+    "task_ar": null,
+    "task_en": "Write 110–130 words about a journey or holiday you took. Include: when and where, who with, how you travelled, how long it took, what you did, one problem, and how you felt.",
+    "min_words": 110,
+    "max_words": 130,
+    "templates": [
+      {
+        "en": "Last ____________ I went to ____________ with ____________ .",
+        "ar": null
+      },
+      {
+        "en": "We travelled by ____________ and the journey took ____________ .",
+        "ar": null
+      },
+      {
+        "en": "When we arrived, ____________ .",
+        "ar": null
+      },
+      {
+        "en": "We stayed in ____________ . It was ____________ .",
+        "ar": null
+      },
+      {
+        "en": "Every day we ____________ .",
+        "ar": null
+      },
+      {
+        "en": "One day ____________ . / Unfortunately, ____________ .",
+        "ar": null
+      },
+      {
+        "en": "The best part was ____________ .",
+        "ar": null
+      },
+      {
+        "en": "It was ____________ and I would like to ____________ again.",
+        "ar": null
+      }
+    ],
+    "checklist": [],
+    "model_answer": "Last August I went to the north coast with my wife and our two children. We travelled by car and the journey took five hours because of the traffic.",
+    "model_words": 29
+  },
+  "days": [
+    {
+      "number": 1,
+      "focus": "الأفعال الشاذة الثمانون · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الأفعال الشاذة الثمانون",
+          "minutes": 25,
+          "ref": "vocab:the_80_irregular_verbs"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:1"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "focus": "الأفعال الشاذة الثمانون · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الأفعال الشاذة الثمانون",
+          "minutes": 25,
+          "ref": "vocab:the_80_irregular_verbs"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:2"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "focus": "الأفعال الشاذة الثمانون · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الأفعال الشاذة الثمانون",
+          "minutes": 25,
+          "ref": "vocab:the_80_irregular_verbs"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:3"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "focus": "الأفعال الشاذة الثمانون · السفر والمواصلات · الحوار الأول · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الأفعال الشاذة الثمانون · السفر والمواصلات · حوار: At the Station",
+          "minutes": 25,
+          "ref": "vocab:the_80_irregular_verbs,travel_and_transport|dialogue:1"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:4"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "focus": "الأفعال الشاذة الثمانون · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الأفعال الشاذة الثمانون",
+          "minutes": 25,
+          "ref": "vocab:the_80_irregular_verbs"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:5"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "focus": "الحوار الثاني · الاستماع · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "حوار: How Was Your Holiday? · الاستماع",
+          "minutes": 25,
+          "ref": "dialogue:2|section:listening"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:6"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "focus": "القراءة · الكتابة · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القراءة · الكتابة",
+          "minutes": 25,
+          "ref": "section:reading|writing:1|record"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:7"
+        },
+        {
+          "order": 5,
+          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record:baseline"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "cut → cut",
+      "ipa": null,
+      "arabic": "قطع",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "put → put",
+      "ipa": null,
+      "arabic": "وضع",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "let → let",
+      "ipa": null,
+      "arabic": "سمح",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "shut → shut",
+      "ipa": null,
+      "arabic": "أغلق",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "cost → cost",
+      "ipa": null,
+      "arabic": "كلّف",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "hit → hit",
+      "ipa": null,
+      "arabic": "ضرب",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "hurt → hurt",
+      "ipa": null,
+      "arabic": "آذى",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "read → read /red/",
+      "ipa": null,
+      "arabic": "قرأ",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "buy → bought",
+      "ipa": null,
+      "arabic": "اشترى",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "bring → brought",
+      "ipa": null,
+      "arabic": "أحضر",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "think → thought",
+      "ipa": null,
+      "arabic": "ظنّ / فكّر",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "fight → fought",
+      "ipa": null,
+      "arabic": "قاتل",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "catch → caught",
+      "ipa": null,
+      "arabic": "أمسك",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "teach → taught",
+      "ipa": null,
+      "arabic": "علّم",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "see → saw",
+      "ipa": null,
+      "arabic": "رأى",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "draw → drew",
+      "ipa": null,
+      "arabic": "رسم",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "wear → wore",
+      "ipa": null,
+      "arabic": "ارتدى",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "break → broke",
+      "ipa": null,
+      "arabic": "كسر",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "speak → spoke",
+      "ipa": null,
+      "arabic": "تحدّث",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "choose → chose",
+      "ipa": null,
+      "arabic": "اختار",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "say → said /sed/",
+      "ipa": null,
+      "arabic": "قال",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "pay → paid",
+      "ipa": null,
+      "arabic": "دفع",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "meet → met",
+      "ipa": null,
+      "arabic": "قابل",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "feel → felt",
+      "ipa": null,
+      "arabic": "شعر",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "keep → kept",
+      "ipa": null,
+      "arabic": "احتفظ",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "sleep → slept",
+      "ipa": null,
+      "arabic": "نام",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "leave → left",
+      "ipa": null,
+      "arabic": "غادر",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "lose → lost",
+      "ipa": null,
+      "arabic": "فقد",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "sell → sold",
+      "ipa": null,
+      "arabic": "باع",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "tell → told",
+      "ipa": null,
+      "arabic": "أخبر",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "send → sent",
+      "ipa": null,
+      "arabic": "أرسل",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "spend → spent",
+      "ipa": null,
+      "arabic": "أنفق / قضى",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "begin → began",
+      "ipa": null,
+      "arabic": "بدأ",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "drink → drank",
+      "ipa": null,
+      "arabic": "شرب",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "sing → sang",
+      "ipa": null,
+      "arabic": "غنّى",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "swim → swam",
+      "ipa": null,
+      "arabic": "سبح",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "sit → sat",
+      "ipa": null,
+      "arabic": "جلس",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "give → gave",
+      "ipa": null,
+      "arabic": "أعطى",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "ring → rang",
+      "ipa": null,
+      "arabic": "رنّ",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "run → ran",
+      "ipa": null,
+      "arabic": "جرى",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "drive → drove",
+      "ipa": null,
+      "arabic": "قاد",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "ride → rode",
+      "ipa": null,
+      "arabic": "ركب",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "write → wrote",
+      "ipa": null,
+      "arabic": "كتب",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "rise → rose",
+      "ipa": null,
+      "arabic": "ارتفع",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "go → went",
+      "ipa": null,
+      "arabic": "ذهب",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "come → came",
+      "ipa": null,
+      "arabic": "أتى",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "have → had",
+      "ipa": null,
+      "arabic": "كان لديه",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "do → did",
+      "ipa": null,
+      "arabic": "فعل",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "make → made",
+      "ipa": null,
+      "arabic": "صنع",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "take → took",
+      "ipa": null,
+      "arabic": "أخذ",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "get → got",
+      "ipa": null,
+      "arabic": "حصل على",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "give → gave",
+      "ipa": null,
+      "arabic": "أعطى",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "know → knew",
+      "ipa": null,
+      "arabic": "عرف",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "grow → grew",
+      "ipa": null,
+      "arabic": "نما",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "find → found",
+      "ipa": null,
+      "arabic": "وجد",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "become → became",
+      "ipa": null,
+      "arabic": "أصبح",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "eat → ate",
+      "ipa": null,
+      "arabic": "أكل",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "fall → fell",
+      "ipa": null,
+      "arabic": "سقط",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "forget → forgot",
+      "ipa": null,
+      "arabic": "نسي",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "understand → understood",
+      "ipa": null,
+      "arabic": "فهم",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "stand → stood",
+      "ipa": null,
+      "arabic": "وقف",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "win → won",
+      "ipa": null,
+      "arabic": "فاز",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "hear → heard /hɜːd/",
+      "ipa": null,
+      "arabic": "سمع",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "hold → held",
+      "ipa": null,
+      "arabic": "أمسك",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "build → built",
+      "ipa": null,
+      "arabic": "بنى",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "learn → learnt / learned",
+      "ipa": null,
+      "arabic": "تعلّم",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "lend → lent",
+      "ipa": null,
+      "arabic": "أقرض",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "mean → meant /ment/",
+      "ipa": null,
+      "arabic": "قصد",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "wake → woke",
+      "ipa": null,
+      "arabic": "استيقظ",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "wear → wore",
+      "ipa": null,
+      "arabic": "ارتدى",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "throw → threw",
+      "ipa": null,
+      "arabic": "رمى",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "fly → flew",
+      "ipa": null,
+      "arabic": "طار",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "steal → stole",
+      "ipa": null,
+      "arabic": "سرق",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "shine → shone",
+      "ipa": null,
+      "arabic": "أشرق",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "bear → bore",
+      "ipa": null,
+      "arabic": "تحمّل",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "beat → beat",
+      "ipa": null,
+      "arabic": "هزم",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "feed → fed",
+      "ipa": null,
+      "arabic": "أطعم",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "lead → led",
+      "ipa": null,
+      "arabic": "قاد",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "light → lit",
+      "ipa": null,
+      "arabic": "أضاء",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "the_80_irregular_verbs",
+      "word": "lie → lay",
+      "ipa": null,
+      "arabic": "استلقى",
+      "example": null,
+      "group_label_ar": "الأفعال الشاذة الثمانون",
+      "group_label_en": "The 80 Irregular Verbs"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "journey",
+      "ipa": "/ˈdʒɜːni/",
+      "arabic": "رحلة (الطريق)",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "trip",
+      "ipa": "/trɪp/",
+      "arabic": "رحلة قصيرة",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "flight",
+      "ipa": "/flaɪt/",
+      "arabic": "رحلة جوية",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "plane",
+      "ipa": "/pleɪn/",
+      "arabic": "طائرة",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "airport",
+      "ipa": "/ˈeəpɔːt/",
+      "arabic": "مطار",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "gate",
+      "ipa": "/ɡeɪt/",
+      "arabic": "بوابة",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "ticket",
+      "ipa": "/ˈtɪkɪt/",
+      "arabic": "تذكرة",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "passport",
+      "ipa": "/ˈpɑːspɔːt/",
+      "arabic": "جواز سفر",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "luggage",
+      "ipa": "/ˈlʌɡɪdʒ/",
+      "arabic": "أمتعة",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "suitcase",
+      "ipa": "/ˈsuːtkeɪs/",
+      "arabic": "حقيبة سفر",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "platform",
+      "ipa": "/ˈplætfɔːm/",
+      "arabic": "رصيف القطار",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "train",
+      "ipa": "/treɪn/",
+      "arabic": "قطار",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "delay",
+      "ipa": "/dɪˈleɪ/",
+      "arabic": "تأخير",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "on time",
+      "ipa": "/ɒn ˈtaɪm/",
+      "arabic": "في الموعد",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "arrive",
+      "ipa": "/əˈraɪv/",
+      "arabic": "يصل",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "depart",
+      "ipa": "/dɪˈpɑːt/",
+      "arabic": "يغادر",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "book",
+      "ipa": "/bʊk/",
+      "arabic": "يحجز",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "cancel",
+      "ipa": "/ˈkænsl/",
+      "arabic": "يلغي",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "abroad",
+      "ipa": "/əˈbrɔːd/",
+      "arabic": "في الخارج",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_and_transport",
+      "word": "border",
+      "ipa": "/ˈbɔːdə(r)/",
+      "arabic": "حدود",
+      "example": null,
+      "group_label_ar": "السفر والمواصلات",
+      "group_label_en": "Travel and Transport"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "I'd like to book a ticket.",
+      "ipa": null,
+      "arabic": "أود حجز تذكرة",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "What time does it leave?",
+      "ipa": null,
+      "arabic": "متى تغادر؟",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "A single, please.",
+      "ipa": null,
+      "arabic": "ذهاب فقط من فضلك",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "What time does it arrive?",
+      "ipa": null,
+      "arabic": "متى تصل؟",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "A return, please.",
+      "ipa": null,
+      "arabic": "ذهاب وعودة من فضلك",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "Which platform?",
+      "ipa": null,
+      "arabic": "أي رصيف؟",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "How much is a ticket to…?",
+      "ipa": null,
+      "arabic": "كم سعر تذكرة إلى…؟",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "Is the flight on time?",
+      "ipa": null,
+      "arabic": "هل الرحلة في موعدها؟",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "Is there a direct train?",
+      "ipa": null,
+      "arabic": "هل يوجد قطار مباشر؟",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "The flight is delayed.",
+      "ipa": null,
+      "arabic": "الرحلة متأخرة",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "Where do I change?",
+      "ipa": null,
+      "arabic": "أين أغيّر؟",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "I missed my train.",
+      "ipa": null,
+      "arabic": "فاتني القطار",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "How long does it take?",
+      "ipa": null,
+      "arabic": "كم تستغرق؟",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "Where is the gate?",
+      "ipa": null,
+      "arabic": "أين البوابة؟",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "Is this seat free?",
+      "ipa": null,
+      "arabic": "هل هذا المقعد فارغ؟",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "Can I see your passport?",
+      "ipa": null,
+      "arabic": "هل يمكنني رؤية جوازك؟",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "I have one suitcase.",
+      "ipa": null,
+      "arabic": "لدي حقيبة واحدة",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "Have a good trip!",
+      "ipa": null,
+      "arabic": "رحلة سعيدة!",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "Where are you travelling to?",
+      "ipa": null,
+      "arabic": "إلى أين تسافر؟",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    },
+    {
+      "group": "travel_phrases",
+      "word": "How was your journey?",
+      "ipa": null,
+      "arabic": "كيف كانت رحلتك؟",
+      "example": null,
+      "group_label_ar": "عبارات السفر",
+      "group_label_en": "Travel Phrases"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "group_label": "Weak Forms and the /ɜː/ Sound",
+      "ipa": null,
+      "word_a": "work",
+      "word_b": "walk",
+      "group_label_ar": "الصيغ الضعيفة وصوت /ɜː/",
+      "hint_ar": "الكلمات الصغيرة (to · of · and · than) تُنطق ضعيفة حتى تكاد لا تُسمع، ومن ينطقها كاملة يُسمع متكلّفاً. و/ɜː/ في bird صوت وسط: لا «بيرد» ولا «بورد»."
+    },
+    {
+      "group_label": "Weak Forms and the /ɜː/ Sound",
+      "ipa": null,
+      "word_a": "word",
+      "word_b": "ward",
+      "group_label_ar": "الصيغ الضعيفة وصوت /ɜː/",
+      "hint_ar": "الكلمات الصغيرة (to · of · and · than) تُنطق ضعيفة حتى تكاد لا تُسمع، ومن ينطقها كاملة يُسمع متكلّفاً. و/ɜː/ في bird صوت وسط: لا «بيرد» ولا «بورد»."
+    },
+    {
+      "group_label": "Weak Forms and the /ɜː/ Sound",
+      "ipa": null,
+      "word_a": "bird",
+      "word_b": "bard",
+      "group_label_ar": "الصيغ الضعيفة وصوت /ɜː/",
+      "hint_ar": "الكلمات الصغيرة (to · of · and · than) تُنطق ضعيفة حتى تكاد لا تُسمع، ومن ينطقها كاملة يُسمع متكلّفاً. و/ɜː/ في bird صوت وسط: لا «بيرد» ولا «بورد»."
+    },
+    {
+      "group_label": "Weak Forms and the /ɜː/ Sound",
+      "ipa": null,
+      "word_a": "first",
+      "word_b": "fast",
+      "group_label_ar": "الصيغ الضعيفة وصوت /ɜː/",
+      "hint_ar": "الكلمات الصغيرة (to · of · and · than) تُنطق ضعيفة حتى تكاد لا تُسمع، ومن ينطقها كاملة يُسمع متكلّفاً. و/ɜː/ في bird صوت وسط: لا «بيرد» ولا «بورد»."
+    },
+    {
+      "group_label": "Weak Forms and the /ɜː/ Sound",
+      "ipa": null,
+      "word_a": "heard",
+      "word_b": "hard",
+      "group_label_ar": "الصيغ الضعيفة وصوت /ɜː/",
+      "hint_ar": "الكلمات الصغيرة (to · of · and · than) تُنطق ضعيفة حتى تكاد لا تُسمع، ومن ينطقها كاملة يُسمع متكلّفاً. و/ɜː/ في bird صوت وسط: لا «بيرد» ولا «بورد»."
+    },
+    {
+      "group_label": "Weak Forms and the /ɜː/ Sound",
+      "ipa": null,
+      "word_a": "turn",
+      "word_b": "torn",
+      "group_label_ar": "الصيغ الضعيفة وصوت /ɜː/",
+      "hint_ar": "الكلمات الصغيرة (to · of · and · than) تُنطق ضعيفة حتى تكاد لا تُسمع، ومن ينطقها كاملة يُسمع متكلّفاً. و/ɜː/ في bird صوت وسط: لا «بيرد» ولا «بورد»."
+    },
+    {
+      "group_label": "Weak Forms and the /ɜː/ Sound",
+      "ipa": null,
+      "word_a": "burn",
+      "word_b": "born",
+      "group_label_ar": "الصيغ الضعيفة وصوت /ɜː/",
+      "hint_ar": "الكلمات الصغيرة (to · of · and · than) تُنطق ضعيفة حتى تكاد لا تُسمع، ومن ينطقها كاملة يُسمع متكلّفاً. و/ɜː/ في bird صوت وسط: لا «بيرد» ولا «بورد»."
+    }
+  ],
+  "dialogues": [
+    {
+      "number": 1,
+      "title": "At the Station",
+      "situation_en": "Sami is buying a ticket and something has gone wrong.",
+      "situation_ar": "سامي يشتري تذكرة وقد حدث خطأ ما.",
+      "speaker_genders": {
+        "SAMI": "m",
+        "CLERK": "m"
+      },
+      "lines": [
+        {
+          "speaker": "SAMI",
+          "en": "Good morning. I'd like a ticket to Alexandria, please.",
+          "ar": "صباح الخير. أريد تذكرة إلى الإسكندرية من فضلك."
+        },
+        {
+          "speaker": "CLERK",
+          "en": "Single or return?",
+          "ar": "ذهاب فقط أم ذهاب وعودة؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Return, please. I'm coming back on Sunday.",
+          "ar": "ذهاب وعودة من فضلك. سأعود يوم الأحد."
+        },
+        {
+          "speaker": "CLERK",
+          "en": "That's two hundred and forty pounds.",
+          "ar": "المبلغ مئتان وأربعون جنيهاً."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Here you are. What time does the next train leave?",
+          "ar": "تفضل. متى يغادر القطار التالي؟"
+        },
+        {
+          "speaker": "CLERK",
+          "en": "It left ten minutes ago, I'm afraid.",
+          "ar": "غادر قبل عشر دقائق للأسف."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Oh no. I didn't know. When is the next one?",
+          "ar": "لا. لم أكن أعلم. متى القطار التالي؟"
+        },
+        {
+          "speaker": "CLERK",
+          "en": "At eleven forty. But it isn't direct — you change at Tanta.",
+          "ar": "الحادية عشرة وأربعون دقيقة. لكنه ليس مباشراً — تغيّر في طنطا."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "How long does the whole journey take?",
+          "ar": "كم تستغرق الرحلة كاملة؟"
+        },
+        {
+          "speaker": "CLERK",
+          "en": "About four hours. The direct train takes two and a half.",
+          "ar": "حوالي أربع ساعات. المباشر يستغرق ساعتين ونصف."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Was there a direct train this morning?",
+          "ar": "هل كان هناك قطار مباشر هذا الصباح؟"
+        },
+        {
+          "speaker": "CLERK",
+          "en": "Yes, that was the one you missed.",
+          "ar": "نعم، ذلك هو الذي فاتك."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Of course it was. Which platform for the eleven forty?",
+          "ar": "بالطبع. أي رصيف للقطار الحادية عشرة وأربعين؟"
+        },
+        {
+          "speaker": "CLERK",
+          "en": "Platform six. It's on time.",
+          "ar": "الرصيف السادس. وهو في موعده."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Thank you. At least something is on time today.",
+          "ar": "شكراً. على الأقل شيء واحد في موعده اليوم."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "How Was Your Holiday?",
+      "situation_en": "",
+      "situation_ar": "عودة من عطلة: كيف كانت؟ وماذا فعل فيها؟",
+      "speaker_genders": {
+        "LINA": "f",
+        "SAMI": "m"
+      },
+      "lines": [
+        {
+          "speaker": "LINA",
+          "en": "You look brown! Where did you go?",
+          "ar": "تبدو مسمرّاً! أين ذهبت؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "We went to the north coast for a week.",
+          "ar": "ذهبنا إلى الساحل الشمالي لمدة أسبوع."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Lovely. How did you travel?",
+          "ar": "جميل. كيف سافرتم؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "We drove. It took five hours because of the traffic.",
+          "ar": "قدنا السيارة. استغرقت خمس ساعات بسبب الزحام."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Five hours with two children? How was that?",
+          "ar": "خمس ساعات مع طفلين؟ كيف كان ذلك؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Terrible. They didn't sleep and they asked \"are we there yet\" about ninety times.",
+          "ar": "فظيع. لم يناما وسألا \"هل وصلنا؟\" حوالي تسعين مرة."
+        },
+        {
+          "speaker": "LINA",
+          "en": "And when you arrived?",
+          "ar": "وعندما وصلتم؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "It was worth it. The flat was small but it was right on the beach.",
+          "ar": "كان يستحق. الشقة كانت صغيرة لكنها على الشاطئ مباشرة."
+        },
+        {
+          "speaker": "LINA",
+          "en": "What did you do all week?",
+          "ar": "ماذا فعلتم طوال الأسبوع؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Nothing! We swam, we ate, we slept. I didn't open my laptop once.",
+          "ar": "لا شيء! سبحنا، أكلنا، نمنا. لم أفتح حاسوبي ولا مرة."
+        },
+        {
+          "speaker": "LINA",
+          "en": "That's a real holiday. Did you take photos?",
+          "ar": "هذه عطلة حقيقية. هل التقطتم صوراً؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Hundreds. My wife took most of them.",
+          "ar": "المئات. زوجتي التقطت معظمها."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Would you go again?",
+          "ar": "هل ستعودون مرة أخرى؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Definitely. But next time we'll leave at five in the morning.",
+          "ar": "بالتأكيد. لكن في المرة القادمة سنغادر في الخامسة صباحاً."
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "kind": "grammar",
+      "day_number": 4,
+      "title_ar": "القواعد",
+      "title_en": "Grammar — Past Negatives and Questions",
+      "payload": {
+        "rule_ar": "الأفعال الشاذة لا قاعدة لها — تُحفظ. لكن السؤال والنفي في الماضي لهما قاعدة واحدة تُريحك: مع did و didn’t يعود الفعل **مجرّداً** دائماً، لأن الزمن انتقل إلى did. فمن يقول I didn’t went يضع الماضي مرتين.",
+        "rule_en": "EVERY subject:   SUBJECT + didn't + BASE VERB",
+        "common_errors": [
+          {
+            "error_no": 1,
+            "wrong": "I didn't went",
+            "right": "I didn't go.",
+            "arabic": "لم أذهب",
+            "why_ar": "فعل مجرّد بعد didn’t"
+          },
+          {
+            "error_no": 2,
+            "wrong": "Did you went?",
+            "right": "Did you go?",
+            "arabic": "هل ذهبت؟",
+            "why_ar": "فعل مجرّد بعد did"
+          },
+          {
+            "error_no": 3,
+            "wrong": "Where you went?",
+            "right": "Where did you go?",
+            "arabic": "أين ذهبت؟",
+            "why_ar": "السؤال يحتاج did"
+          },
+          {
+            "error_no": 4,
+            "wrong": "I didn't be tired",
+            "right": "I wasn't tired.",
+            "arabic": "لم أكن متعباً",
+            "why_ar": "فعل be لا يستخدم did"
+          },
+          {
+            "error_no": 5,
+            "wrong": "Did you be there?",
+            "right": "Were you there?",
+            "arabic": "هل كنت هناك؟",
+            "why_ar": "السبب نفسه"
+          },
+          {
+            "error_no": 6,
+            "wrong": "Yes, I went. (as a short answer)",
+            "right": "Yes, I did.",
+            "arabic": "نعم، ذهبت",
+            "why_ar": "الجواب القصير بـdid"
+          },
+          {
+            "error_no": 7,
+            "wrong": "He buyed a car",
+            "right": "He bought a car.",
+            "arabic": "هو اشترى سيارة",
+            "why_ar": "buy فعل شاذّ"
+          }
+        ],
+        "checklist_ar": [
+          "بعد didn’t فعل مجرّد: didn’t go لا didn’t went",
+          "السؤال: Did + فاعل + فعل مجرّد",
+          "الجواب القصير: Yes, I did · No, I didn’t",
+          "أدوات الاستفهام الثماني تعمل كلها مع did",
+          "الأفعال الشاذة تُحفظ بالنطق لا بالإملاء"
+        ]
+      }
+    },
+    {
+      "kind": "phonics",
+      "day_number": 1,
+      "title_ar": "النطق",
+      "title_en": "Pronunciation — Weak Forms and the /ɜː/ Sound",
+      "payload": {
+        "intro_ar": "الكلمات الوظيفية في الإنجليزية تُسحق: was و were و did و to تصير شوا. وهذا ما يجعل الكلام السريع يبدو مبهماً — لا لأنه سريع بل لأن نصفه مضغوط.",
+        "symbols": [],
+        "tip_ar": "و/ɜː/ حركة طويلة وسطى لا مقابل عربي لها: work و bird و learn. اللسان في وسط الفم، والشفتان مسترخيتان."
+      }
+    },
+    {
+      "kind": "listening",
+      "day_number": 6,
+      "title_ar": "الاستماع",
+      "title_en": "Listening — \"The Wrong Train\"",
+      "payload": {
+        "method_ar": [
+          "استمع كاملاً بلا نصّ. عمّا يتحدّث؟ قلها في جملة واحدة.",
+          "استمع مرة أخرى واكتب أي كلمة لم تلتقطها.",
+          "افتح النصّ واقرأه وأنت تستمع.",
+          "أغلق النصّ واستمع مرة أخيرة، ولاحظ كم صار أوضح."
+        ],
+        "transcript": [
+          {
+            "en": "Two years ago I made the most stupid mistake of my life, and it became the best day of that year.",
+            "ar": "قبل سنتين ارتكبت أغبى خطأ في حياتي، فصار أفضل يوم في تلك السنة."
+          },
+          {
+            "en": "I was in Germany for work. On Saturday I decided to visit a small town about an hour from the city. I bought a ticket, I found the platform, and I got on the train. I sat down, I put my bag on the seat, and I fell asleep immediately.",
+            "ar": "كنت في ألمانيا للعمل. وفي يوم السبت قرّرت أن أزور بلدة صغيرة تبعد ساعة عن المدينة. اشتريت تذكرة، ووجدت الرصيف، وركبت القطار. جلست، ووضعت حقيبتي على المقعد، ونمت في الحال."
+          },
+          {
+            "en": "When I woke up, I looked out of the window. There were mountains. There weren't any mountains near that town. I asked the woman next to me where we were, and she told me the name of a city three hundred kilometres in the wrong direction.",
+            "ar": "حين استيقظت نظرت من النافذة. كانت هناك جبال. ولم تكن هناك جبال قرب تلك البلدة. سألت المرأة التي بجانبي أين نحن، فأخبرتني باسم مدينة تبعد ثلاثمئة كيلومتر في الاتجاه الخطأ."
+          },
+          {
+            "en": "I didn't panic. I had no plan, no hotel and no idea where I was, but the sun was shining and I thought: why not?",
+            "ar": "لم أُصَب بالذعر. لم تكن لديّ خطة ولا فندق ولا فكرة أين أنا، لكن الشمس كانت مشرقة ففكّرت: ولمَ لا؟"
+          },
+          {
+            "en": "So I got off, and I spent the day there. I walked around the old town. I ate in a small restaurant where nobody spoke English and I ordered by pointing. I found a bookshop and I bought a book I couldn't read. In the evening I sat by a river and watched the boats.",
+            "ar": "فنزلت، وقضيت اليوم هناك. تجوّلت في البلدة القديمة. وأكلت في مطعم صغير لا أحد فيه يتكلّم الإنجليزية فطلبت بالإشارة. ووجدت مكتبة فاشتريت كتاباً لا أستطيع قراءته. وفي المساء جلست عند نهر أراقب القوارب."
+          },
+          {
+            "en": "I took the last train back and I arrived at midnight. It cost me a lot of money and I saw nothing that I planned to see. But when people ask me about that year, I always tell them about the day I got on the wrong train.",
+            "ar": "أخذت آخر قطار عائداً ووصلت منتصف الليل. كلّفني ذلك مالاً كثيراً ولم أرَ شيئاً ممّا خطّطت لرؤيته. لكن حين يسألني الناس عن تلك السنة أحدّثهم دائماً عن اليوم الذي ركبت فيه القطار الخطأ."
+          }
+        ],
+        "questions": []
+      }
+    },
+    {
+      "kind": "reading",
+      "day_number": 7,
+      "title_ar": "القراءة",
+      "title_en": "Reading — \"She Walked Home\"",
+      "payload": {
+        "method_ar": "اقرأ مرتين. الأولى بلا توقّف، والثانية مع المسرد.",
+        "story": [
+          {
+            "en": "In 1955, a woman called Emma Gatewood told her family that she was going for a walk. She was sixty-seven years old and she had eleven children and twenty-three grandchildren.",
+            "ar": "في سنة 1955 أخبرت امرأة اسمها إيما غيتوود عائلتها أنها ذاهبة في نزهة مشي. كانت في السابعة والستين، ولها أحد عشر ولداً وثلاثة وعشرون حفيداً."
+          },
+          {
+            "en": "She didn't take a tent. She didn't take a sleeping bag or a map. She wore ordinary shoes and carried a small cloth bag with a blanket, a plastic sheet and some food.",
+            "ar": "لم تأخذ خيمة. ولم تأخذ كيس نوم ولا خريطة. لبست حذاءً عادياً وحملت كيس قماش صغيراً فيه بطّانية ولوح بلاستيك وبعض الطعام."
+          },
+          {
+            "en": "Then she walked three thousand five hundred kilometres, alone, from Georgia to Maine.",
+            "ar": "ثم مشت ثلاثة آلاف وخمسمئة كيلومتر، وحدها، من جورجيا إلى مين."
+          },
+          {
+            "en": "The path is called the Appalachian Trail. At that time, no woman ever finished it alone. Many strong young men started it and gave up after a few weeks.",
+            "ar": "يُسمّى الدرب «درب الأبالاش». وفي ذلك الوقت لم تكن امرأة قد أنهته وحدها قطّ. وكثير من الشباب الأقوياء بدأوه ثم استسلموا بعد أسابيع."
+          },
+          {
+            "en": "It took her one hundred and forty-six days. She slept on the ground and under picnic tables. She ate what she found and what strangers gave her. She wore out seven pairs of shoes. She fell, she got lost, and she broke her glasses.",
+            "ar": "استغرقها ذلك مئة وستّة وأربعين يوماً. نامت على الأرض وتحت طاولات النزهات. وأكلت ما وجدته وما أعطاها الغرباء. وأبلت سبعة أزواج من الأحذية. وسقطت، وتاهت، وانكسرت نظّارتها."
+          },
+          {
+            "en": "When journalists asked her why she did it, she gave a very short answer: \"I thought it would be a nice lark.\"",
+            "ar": "حين سألها الصحفيون لماذا فعلت ذلك، أعطت جواباً قصيراً جداً: «ظننتها ستكون نزهة لطيفة»."
+          },
+          {
+            "en": "She walked the whole trail again two years later. Then she walked it a third time. Today the shelters along the path carry her name, and every year thousands of walkers pass a small sign that says: \"Grandma Gatewood was here first.\"",
+            "ar": "مشت الدرب كلّه مرة ثانية بعد سنتين. ثم مشته مرة ثالثة. واليوم تحمل الملاجئ على طول الدرب اسمها، وفي كل سنة يمرّ آلاف المشّائين بلوحة صغيرة مكتوب عليها: «الجدّة غيتوود كانت هنا أولاً»."
+          }
+        ],
+        "glossary": [
+          {
+            "en": "tent",
+            "ipa": "/tent/",
+            "ar": "خيمة",
+            "note_ar": "—"
+          },
+          {
+            "en": "sleeping bag",
+            "ipa": "/ˈsliːpɪŋ bæɡ/",
+            "ar": "كيس نوم",
+            "note_ar": "Compound noun"
+          },
+          {
+            "en": "ordinary",
+            "ipa": "/ˈɔːdnri/",
+            "ar": "عادي",
+            "note_ar": "Stress on the first"
+          },
+          {
+            "en": "cloth",
+            "ipa": "/klɒθ/",
+            "ar": "قماش",
+            "note_ar": "Contains /θ/"
+          },
+          {
+            "en": "blanket",
+            "ipa": "/ˈblæŋkɪt/",
+            "ar": "بطانية",
+            "note_ar": "—"
+          },
+          {
+            "en": "path / trail",
+            "ipa": "/pɑːθ/  /treɪl/",
+            "ar": "مسار",
+            "note_ar": "—"
+          },
+          {
+            "en": "give up",
+            "ipa": "/ɡɪv ˈʌp/",
+            "ar": "يستسلم",
+            "note_ar": "Past: gave up"
+          },
+          {
+            "en": "ground",
+            "ipa": "/ɡraʊnd/",
+            "ar": "الأرض",
+            "note_ar": "—"
+          },
+          {
+            "en": "stranger",
+            "ipa": "/ˈstreɪndʒə(r)/",
+            "ar": "غريب / شخص لا تعرفه",
+            "note_ar": "Not the same as strange"
+          },
+          {
+            "en": "wear out",
+            "ipa": "/weər ˈaʊt/",
+            "ar": "يُبلي",
+            "note_ar": "Past: wore out"
+          },
+          {
+            "en": "get lost",
+            "ipa": "/ɡet ˈlɒst/",
+            "ar": "يضلّ الطريق",
+            "note_ar": "Past: got lost"
+          },
+          {
+            "en": "journalist",
+            "ipa": "/ˈdʒɜːnəlɪst/",
+            "ar": "صحفي",
+            "note_ar": "Contains /ɜː/"
+          },
+          {
+            "en": "lark",
+            "ipa": "/lɑːk/",
+            "ar": "نزهة / مغامرة خفيفة",
+            "note_ar": "Old-fashioned and understated"
+          },
+          {
+            "en": "shelter",
+            "ipa": "/ˈʃeltə(r)/",
+            "ar": "مأوى",
+            "note_ar": "—"
+          }
+        ],
+        "questions": []
+      }
+    },
+    {
+      "kind": "selfcheck",
+      "day_number": 7,
+      "title_ar": "الاختبار الذاتي — نهاية الفصل",
+      "title_en": "End-of-Chapter Self-Check",
+      "payload": {
+        "intro_ar": "كن صادقاً. هذا يحدّد هل تنتقل أم تُعيد.",
+        "items": [
+          {
+            "can_ar": "أنتج ماضي 65 من 80 فعلاً شاذاً",
+            "can_en": "Produce the past of 65 of the 80 irregular verbs?",
+            "proof_ar": "جلسة المراجعة المتباعدة — تقول لك الرقم"
+          },
+          {
+            "can_ar": "أقول عشر جمل نفي بـdidn’t + فعل مجرّد بلا خطأ",
+            "can_en": "Say ten negatives with didn't + base verb, no errors?",
+            "proof_ar": "تمارين اليوم 2"
+          },
+          {
+            "can_ar": "أسأل عشرة أسئلة ماضية بترتيب كلمات صحيح",
+            "can_en": "Ask ten past questions with correct word order?",
+            "proof_ar": "تمارين اليوم 3"
+          },
+          {
+            "can_ar": "أستخدم was/were بدل did مع فعل الكون",
+            "can_en": "Use was/were instead of did with the verb be?",
+            "proof_ar": "قسم القواعد"
+          },
+          {
+            "can_ar": "أعطي أجوبة قصيرة صحيحة: Yes, I did · Yes, I was",
+            "can_en": "Give correct short answers (Yes, I did / Yes, I was)?",
+            "proof_ar": "تمارين اليوم 3"
+          },
+          {
+            "can_ar": "أسمع الفرق بين work و walk",
+            "can_en": "Hear the difference between work and walk?",
+            "proof_ar": "لعبة التمييز الصوتي"
+          },
+          {
+            "can_ar": "أحكي قصة رحلة في ثماني جمل متّصلة",
+            "can_en": "Tell the story of a trip in eight connected sentences?",
+            "proof_ar": "الحوار الثاني"
+          },
+          {
+            "can_ar": "أتذكّر 80 من 100 كلمة من العربية",
+            "can_en": "Recall 80 of the 100 words from the Arabic?",
+            "proof_ar": "جلسة المراجعة المتباعدة — تقول لك الرقم"
+          },
+          {
+            "can_ar": "أتحدّث 100 ثانية عن رحلة، وأذكر مشكلة وقعت فيها",
+            "can_en": "Speak for 100 seconds about a journey, including a problem?",
+            "proof_ar": "تسجيل هذا الأسبوع"
+          }
+        ],
+        "pass_ar": "8–9 ✓ → انتقل إلى الأسبوع التاسع — المضارع المستمر.",
+        "partial_ar": "6–7 ✓ → انتقل، لكن أعد اختبار مجموعات الأفعال الشاذة يومياً لأسبوعين.",
+        "fail_ar": "أقل من 6 → أنفق ثلاثة أيام إضافية على المفردات والقواعد. كل ما بعد هنا يستخدم الماضي باستمرار."
+      }
+    },
+    {
+      "kind": "breaktime",
+      "day_number": 7,
+      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
+      "title_en": "Break Time — English Outside the Book",
+      "payload": {
+        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
+        "compare": [
+          {
+            "aspect_ar": "الكمّ",
+            "intensive_ar": "دقائق من الصوت",
+            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
+          },
+          {
+            "aspect_ar": "الفهم",
+            "intensive_ar": "تستهدف 100%",
+            "extensive_ar": "50–70% تكفي"
+          },
+          {
+            "aspect_ar": "الجهد",
+            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
+            "extensive_ar": "منخفض — تسترخي وتستمتع"
+          },
+          {
+            "aspect_ar": "ما يبنيه",
+            "intensive_ar": "الدقّة والقواعد",
+            "extensive_ar": "السرعة والأذن والحدس والمفردات"
+          },
+          {
+            "aspect_ar": "لو أغفلته",
+            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
+            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
+          }
+        ],
+        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
+        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
+        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
+        "song": {
+          "pick": {
+            "title": "I Saw Her Standing There",
+            "artist": "The Beatles",
+            "why_en": "Fast but simple, and built on irregular past forms.",
+            "search": "I Saw Her Standing There The Beatles"
+          },
+          "alternatives": [
+            {
+              "title": "Hallelujah",
+              "artist": "Leonard Cohen / Jeff Buckley",
+              "why_en": "Very slow, and full of irregular verbs: heard, was, saw, broke, drew.",
+              "search": "Hallelujah Leonard Cohen / Jeff Buckley"
+            },
+            {
+              "title": "Let It Be",
+              "artist": "The Beatles",
+              "why_en": "Slow and repetitive. Good for singing along without stumbling.",
+              "search": "Let It Be The Beatles"
+            }
+          ],
+          "item": {
+            "key": "song",
+            "icon": "🎵",
+            "label_ar": "أغنية الأسبوع",
+            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
+            "minutes": 20,
+            "steps": [
+              "شغّلها مرة للمتعة فقط — بلا كلمات ولا تحليل.",
+              "شغّلها ثانية واكتب خمس كلمات سمعتها ولم تكن تعرفها.",
+              "شغّلها مع الكلمات المكتوبة أمامك.",
+              "غنِّ معها مرة. الغناء يضبط الإيقاع بلا أن تفكّر فيه."
+            ],
+            "why_ar": "الأغنية تُعاد خمسين مرة طوعاً، ولا تمرين يُعاد خمسين مرة.",
+            "prompt_ar": "الكلمات الخمس التي التقطتها"
+          }
+        },
+        "watch": {
+          "pick": {
+            "title": "Extra English — Episodes 11–12",
+            "where": "YouTube",
+            "why_en": "Keep the series going.",
+            "search": "Extra English — Episodes 11–12"
+          },
+          "alternatives": [
+            {
+              "title": "Travel vlogs",
+              "where": "YouTube — search \"[a city] travel vlog\"",
+              "why_en": "This chapter’s vocabulary in real use: airports, tickets, platforms, hotels. Choose a city you would actually like to visit.",
+              "search": "Travel vlogs"
+            },
+            {
+              "title": "Easy English — \"Tell me about a trip\"",
+              "where": "YouTube — search it",
+              "why_en": "Real people telling short travel stories, with double subtitles.",
+              "search": "Easy English — \"Tell me about a trip\""
+            }
+          ],
+          "item": {
+            "key": "watch",
+            "icon": "📺",
+            "label_ar": "ما تشاهده",
+            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
+            "minutes": 25,
+            "steps": [
+              "شاهد حلقة كاملة بلا توقّف.",
+              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
+              "اكتب ثلاث عبارات علقت في ذهنك."
+            ],
+            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
+            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
+          }
+        },
+        "item_order": [
+          "song",
+          "watch"
+        ],
+        "plan": [
+          {
+            "day_ar": "السبت",
+            "activity_ar": "الأغنية + فيديو إيقاع الأفعال الشاذة",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الأحد",
+            "activity_ar": "Extra English الحلقة 11",
+            "minutes": 25
+          },
+          {
+            "day_ar": "الاثنين",
+            "activity_ar": "فيديو رحلة إلى مدينة تحبّها",
+            "minutes": 20
+          },
+          {
+            "day_ar": "الثلاثاء",
+            "activity_ar": "Extra English الحلقة 12",
+            "minutes": 25
+          },
+          {
+            "day_ar": "الأربعاء",
+            "activity_ar": "أنهِ الكتاب المتدرّج",
+            "minutes": 20
+          },
+          {
+            "day_ar": "الخميس",
+            "activity_ar": "اكتب ثلاث جمل عن القصة من الذاكرة",
+            "minutes": 10
+          },
+          {
+            "day_ar": "الجمعة",
+            "activity_ar": "ليلة فيلم — Forrest Gump وإعادة مشهد",
+            "minutes": 150
+          }
+        ]
+      }
+    },
+    {
+      "kind": "speaking",
+      "title_ar": "التحدّث",
+      "title_en": "Tell the Story of a Trip",
+      "payload": {
+        "task_ar": "احكِ رحلة قمت بها — أين ومتى وماذا حدث",
+        "target_seconds": 120,
+        "is_baseline": false,
+        "title_en": "Tell the Story of a Trip",
+        "intro_ar": null,
+        "cover_ar": null,
+        "model_en": "Last August we went to the north coast for a week. // We drove, and the journey took five hours because the traffic was terrible. The children didn't sleep and they asked \"are we there yet\" about ninety times. //\nWhen we arrived, I was exhausted. But the flat was right on the beach, so it was worth it. // It was small — one bedroom, a tiny kitchen — but we heard the sea every night. //\nWe didn't do very much. We swam in the morning, we ate too much in the evening, we slept in the afternoon. I didn't open my laptop once in seven days. //\nOne morning the car didn't start and we waited three hours for a mechanic. My wife was angry, but I wasn't — I sat in the shade and read a book. //\nIt was the best week of the year. Next time we'll leave at five in the morning. //",
+        "outline": [
+          {
+            "part_en": "Where and when",
+            "say_en": "Last… we went to… for…",
+            "seconds": 20
+          },
+          {
+            "part_en": "The journey",
+            "say_en": "We travelled by… it took… because…",
+            "seconds": 25
+          },
+          {
+            "part_en": "Arriving and staying",
+            "say_en": "When we arrived… We stayed in…",
+            "seconds": 25
+          },
+          {
+            "part_en": "What you did",
+            "say_en": "Every day we… I didn't…",
+            "seconds": 25
+          },
+          {
+            "part_en": "A problem",
+            "say_en": "One day… but…",
+            "seconds": 25
+          }
+        ],
+        "rubric": [
+          {
+            "label_en": "Irregular verbs",
+            "label_ar": null,
+            "levels": [
+              "Regularised (goed, buyed)",
+              "Mostly correct",
+              "All correct"
+            ]
+          },
+          {
+            "label_en": "didn't + base",
+            "label_ar": null,
+            "levels": [
+              "didn't went errors",
+              "Mostly correct",
+              "Always correct"
+            ]
+          },
+          {
+            "label_en": "was/were vs did",
+            "label_ar": null,
+            "levels": [
+              "Mixed up",
+              "Mostly right",
+              "Always right"
+            ]
+          },
+          {
+            "label_en": "Weak forms",
+            "label_ar": null,
+            "levels": [
+              "Every word equally stressed",
+              "Some squeezing",
+              "Natural rhythm"
+            ]
+          },
+          {
+            "label_en": "Story shape",
+            "label_ar": null,
+            "levels": [
+              "A list of facts",
+              "Some sequence",
+              "Setting, events, problem, ending"
+            ]
+          },
+          {
+            "label_en": "Length",
+            "label_ar": "الطول",
+            "levels": [
+              "Under 60 sec",
+              "60–100 sec",
+              "100–120 sec"
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "title_ar": "اقرأ النموذج",
+            "title_en": "Study the Model",
+            "text_en": []
+          },
+          {
+            "title_ar": "ابنِ نصّك أنت",
+            "title_en": "Build Your Version",
+            "text_en": [
+              "The story test. A real story has a problem in it. Section 5 is the one that turns a list of facts into something a listener actually wants to hear. Do not skip it, even if the problem was small."
+            ]
+          },
+          {
+            "title_ar": "سجّل ثم قيّم نفسك",
+            "title_en": "Record and Score",
+            "text_en": [
+              "Record 2 minutes from memory. Save as Week08. Remember: three recordings a week now, not one."
+            ]
+          }
+        ],
+        "save_as": "Week08"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "نام",
+      "payload": {
+        "options": [
+          "draw → drew",
+          "take → took",
+          "see → saw",
+          "sleep → slept"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "ضرب",
+      "payload": {
+        "options": [
+          "speak → spoke",
+          "pay → paid",
+          "hit → hit",
+          "rise → rose"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "أطعم",
+      "payload": {
+        "options": [
+          "put → put",
+          "feed → fed",
+          "bring → brought",
+          "shut → shut"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "قرأ",
+      "payload": {
+        "options": [
+          "hit → hit",
+          "read → read /red/",
+          "put → put",
+          "think → thought"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "أحضر",
+      "payload": {
+        "options": [
+          "put → put",
+          "spend → spent",
+          "steal → stole",
+          "bring → brought"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "فقد",
+      "payload": {
+        "options": [
+          "learn → learnt / learned",
+          "lose → lost",
+          "bring → brought",
+          "teach → taught"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "من الإثبات إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "من الإثبات إلى النفي",
+      "payload": {
+        "sentence": "I went to the market."
+      },
+      "answer": {
+        "accepted": [
+          "I didn't go to the market."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "من الإثبات إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "من الإثبات إلى النفي",
+      "payload": {
+        "sentence": "She bought a new phone."
+      },
+      "answer": {
+        "accepted": [
+          "She didn't buy a new phone."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "من الإثبات إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "من الإثبات إلى النفي",
+      "payload": {
+        "sentence": "They saw the film."
+      },
+      "answer": {
+        "accepted": [
+          "They didn't see the film."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "من الإثبات إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "من الإثبات إلى النفي",
+      "payload": {
+        "sentence": "He understood the question."
+      },
+      "answer": {
+        "accepted": [
+          "He didn't understand the question."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "من الإثبات إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "من الإثبات إلى النفي",
+      "payload": {
+        "sentence": "We had breakfast at seven."
+      },
+      "answer": {
+        "accepted": [
+          "We didn't have breakfast at seven."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "من الإثبات إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "من الإثبات إلى النفي",
+      "payload": {
+        "sentence": "I was at home."
+      },
+      "answer": {
+        "accepted": [
+          "I wasn't at home."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "من الإثبات إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "من الإثبات إلى النفي",
+      "payload": {
+        "sentence": "You told me the truth."
+      },
+      "answer": {
+        "accepted": [
+          "You didn't tell me the truth."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "من الإثبات إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "من الإثبات إلى النفي",
+      "payload": {
+        "sentence": "The train arrived on time."
+      },
+      "answer": {
+        "accepted": [
+          "The train didn't arrive on time."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "من الإثبات إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "من الإثبات إلى النفي",
+      "payload": {
+        "sentence": "They were happy."
+      },
+      "answer": {
+        "accepted": [
+          "They weren't happy."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "من الإثبات إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "من الإثبات إلى النفي",
+      "payload": {
+        "sentence": "She wrote the letter."
+      },
+      "answer": {
+        "accepted": [
+          "She didn't write the letter."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "صياغة سؤال",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "صياغة سؤال",
+      "payload": {
+        "sentence": "You went to Spain."
+      },
+      "answer": {
+        "accepted": [
+          "Did you go to Spain?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "صياغة سؤال",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "صياغة سؤال",
+      "payload": {
+        "sentence": "She bought a ticket."
+      },
+      "answer": {
+        "accepted": [
+          "Did she buy a ticket?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "صياغة سؤال",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "صياغة سؤال",
+      "payload": {
+        "sentence": "They arrived late."
+      },
+      "answer": {
+        "accepted": [
+          "Did they arrive late?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "صياغة سؤال",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "صياغة سؤال",
+      "payload": {
+        "sentence": "He was tired."
+      },
+      "answer": {
+        "accepted": [
+          "Was he tired?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "صياغة سؤال",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "صياغة سؤال",
+      "payload": {
+        "sentence": "You saw my brother."
+      },
+      "answer": {
+        "accepted": [
+          "Did you see my brother?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "صياغة سؤال",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "صياغة سؤال",
+      "payload": {
+        "sentence": "The flight was delayed."
+      },
+      "answer": {
+        "accepted": [
+          "Was the flight delayed?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "صياغة سؤال",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "صياغة سؤال",
+      "payload": {
+        "sentence": "We paid for the tickets."
+      },
+      "answer": {
+        "accepted": [
+          "Did we pay for the tickets?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "صياغة سؤال",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "صياغة سؤال",
+      "payload": {
+        "sentence": "You enjoyed the trip."
+      },
+      "answer": {
+        "accepted": [
+          "Did you enjoy the trip?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "صياغة سؤال",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "صياغة سؤال",
+      "payload": {
+        "sentence": "She met your parents."
+      },
+      "answer": {
+        "accepted": [
+          "Did she meet your parents?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "صياغة سؤال",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "صياغة سؤال",
+      "payload": {
+        "sentence": "They were at the airport."
+      },
+      "answer": {
+        "accepted": [
+          "Were they at the airport?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة أداة الاستفهام",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ did you go last summer? — To Turkey.",
+      "payload": {
+        "before": "",
+        "after": " did you go last summer?  — To Turkey."
+      },
+      "answer": {
+        "accepted": [
+          "Where",
+          "where"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة أداة الاستفهام",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ did you travel? — By plane.",
+      "payload": {
+        "before": "",
+        "after": " did you travel?  — By plane."
+      },
+      "answer": {
+        "accepted": [
+          "How",
+          "how"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة أداة الاستفهام",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ did the flight cost? — Three hundred dollars.",
+      "payload": {
+        "before": "",
+        "after": " did the flight cost?  — Three hundred dollars."
+      },
+      "answer": {
+        "accepted": [
+          "How much",
+          "how much"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة أداة الاستفهام",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ did you go with? — My brother.",
+      "payload": {
+        "before": "",
+        "after": " did you go with?  — My brother."
+      },
+      "answer": {
+        "accepted": [
+          "Who",
+          "who"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة أداة الاستفهام",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ did the journey take? — About five hours.",
+      "payload": {
+        "before": "",
+        "after": " did the journey take?  — About five hours."
+      },
+      "answer": {
+        "accepted": [
+          "How long",
+          "how long"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة أداة الاستفهام",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ did you arrive? — On Saturday morning.",
+      "payload": {
+        "before": "",
+        "after": " did you arrive?  — On Saturday morning."
+      },
+      "answer": {
+        "accepted": [
+          "When",
+          "when"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة أداة الاستفهام",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ did you do there? — We visited the old city.",
+      "payload": {
+        "before": "",
+        "after": " did you do there?  — We visited the old city."
+      },
+      "answer": {
+        "accepted": [
+          "What",
+          "what"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة أداة الاستفهام",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ did you leave early? — Because I was ill.",
+      "payload": {
+        "before": "",
+        "after": " did you leave early?  — Because I was ill."
+      },
+      "answer": {
+        "accepted": [
+          "Why",
+          "why"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة أداة الاستفهام",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ did you stay? — In a small hotel near the sea.",
+      "payload": {
+        "before": "",
+        "after": " did you stay?  — In a small hotel near the sea."
+      },
+      "answer": {
+        "accepted": [
+          "Where",
+          "where"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة أداة الاستفهام",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ nights did you stay? — Six.",
+      "payload": {
+        "before": "",
+        "after": " nights did you stay?  — Six."
+      },
+      "answer": {
+        "accepted": [
+          "How many",
+          "how many"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What kind of ticket did Sami buy? ______",
+      "payload": {
+        "before": "What kind of ticket did Sami buy?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "A return ticket to Alexandria.",
+          "A return ticket to Alexandria",
+          "a return ticket to alexandria."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How much did it cost? ______",
+      "payload": {
+        "before": "How much did it cost?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Two hundred and forty pounds.",
+          "Two hundred and forty pounds",
+          "two hundred and forty pounds."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why couldn't he take the first train? ______",
+      "payload": {
+        "before": "Why couldn't he take the first train?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "It left ten minutes before he arrived.",
+          "It left ten minutes before he arrived",
+          "it left ten minutes before he arrived."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Where does he change? ______",
+      "payload": {
+        "before": "Where does he change?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "At Tanta.",
+          "At Tanta",
+          "at tanta."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How much longer is the journey with a change? ______",
+      "payload": {
+        "before": "How much longer is the journey with a change?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "About an hour and a half longer.",
+          "About an hour and a half longer",
+          "about an hour and a half longer."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Which platform does he need? ______",
+      "payload": {
+        "before": "Which platform does he need?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Platform six.",
+          "Platform six",
+          "platform six."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "go"
+      },
+      "answer": {
+        "accepted": [
+          "went"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "see"
+      },
+      "answer": {
+        "accepted": [
+          "saw"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "buy"
+      },
+      "answer": {
+        "accepted": [
+          "bought"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "have"
+      },
+      "answer": {
+        "accepted": [
+          "had"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "take"
+      },
+      "answer": {
+        "accepted": [
+          "took"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "come"
+      },
+      "answer": {
+        "accepted": [
+          "came"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "make"
+      },
+      "answer": {
+        "accepted": [
+          "made"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "give"
+      },
+      "answer": {
+        "accepted": [
+          "gave"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "know"
+      },
+      "answer": {
+        "accepted": [
+          "knew"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "say"
+      },
+      "answer": {
+        "accepted": [
+          "said"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "think"
+      },
+      "answer": {
+        "accepted": [
+          "thought"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "find"
+      },
+      "answer": {
+        "accepted": [
+          "found"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "eat"
+      },
+      "answer": {
+        "accepted": [
+          "ate"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "drink"
+      },
+      "answer": {
+        "accepted": [
+          "drank"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "write"
+      },
+      "answer": {
+        "accepted": [
+          "wrote"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "sleep"
+      },
+      "answer": {
+        "accepted": [
+          "slept"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "leave"
+      },
+      "answer": {
+        "accepted": [
+          "left"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "meet"
+      },
+      "answer": {
+        "accepted": [
+          "met"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "pay"
+      },
+      "answer": {
+        "accepted": [
+          "paid"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "read"
+      },
+      "answer": {
+        "accepted": [
+          "read /red/"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "إكمال القصة",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Put each verb into the correct past form.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: went"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "إكمال القصة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Last August we (1) ______ (go) to Turkey. We (2) ______ (fly)",
+      "payload": {
+        "before": "Last August we (1) ",
+        "after": " (go) to Turkey. We (2) ______ (fly)"
+      },
+      "answer": {
+        "accepted": [
+          "flew"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "إكمال القصة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "from Cairo and the flight (3) ______ (take) two hours. When we",
+      "payload": {
+        "before": "from Cairo and the flight (3) ",
+        "after": " (take) two hours. When we"
+      },
+      "answer": {
+        "accepted": [
+          "took"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "إكمال القصة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "(4) ______ (arrive), it (5) ______ (be) very hot. We (6) ______",
+      "payload": {
+        "before": "(4) ",
+        "after": " (arrive), it (5) ______ (be) very hot. We (6) ______"
+      },
+      "answer": {
+        "accepted": [
+          "arrived"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "إكمال القصة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "(take) a taxi to the hotel, but the driver (7) ______ (not know)",
+      "payload": {
+        "before": "(take) a taxi to the hotel, but the driver (7) ",
+        "after": " (not know)"
+      },
+      "answer": {
+        "accepted": [
+          "was"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "إكمال القصة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "the address, so we (8) ______ (spend) an hour in the car.",
+      "payload": {
+        "before": "the address, so we (8) ",
+        "after": " (spend) an hour in the car."
+      },
+      "answer": {
+        "accepted": [
+          "took"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "إكمال القصة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "In the end we (9) ______ (find) it. The hotel (10) ______ (be)",
+      "payload": {
+        "before": "In the end we (9) ",
+        "after": " (find) it. The hotel (10) ______ (be)"
+      },
+      "answer": {
+        "accepted": [
+          "didn't know"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "إكمال القصة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "beautiful. We (11) ______ (swim) every day and I (12) ______",
+      "payload": {
+        "before": "beautiful. We (11) ",
+        "after": " (swim) every day and I (12) ______"
+      },
+      "answer": {
+        "accepted": [
+          "spent"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why was he in Germany? ______",
+      "payload": {
+        "before": "Why was he in Germany?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "For work.",
+          "For work",
+          "for work."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What did he decide to do on Saturday? ______",
+      "payload": {
+        "before": "What did he decide to do on Saturday?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "To visit a small town about an hour away.",
+          "To visit a small town about an hour away",
+          "to visit a small town about an hour away."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What happened after he sat down? ______",
+      "payload": {
+        "before": "What happened after he sat down?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "He fell asleep immediately.",
+          "He fell asleep immediately",
+          "he fell asleep immediately."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How did he realise something was wrong? ______",
+      "payload": {
+        "before": "How did he realise something was wrong?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "He saw mountains, and there weren't any near that town.",
+          "He saw mountains, and there weren't any near that town",
+          "he saw mountains, and there weren't any near that town."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How far in the wrong direction was he? ______",
+      "payload": {
+        "before": "How far in the wrong direction was he?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Three hundred kilometres.",
+          "Three hundred kilometres",
+          "three hundred kilometres."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Did he panic? ______",
+      "payload": {
+        "before": "Did he panic?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "No — he decided to enjoy the day.",
+          "No — he decided to enjoy the day",
+          "no — he decided to enjoy the day."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How did he order food? ______",
+      "payload": {
+        "before": "How did he order food?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "By pointing.",
+          "By pointing",
+          "by pointing."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What did he buy? ______",
+      "payload": {
+        "before": "What did he buy?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "A book he couldn't read.",
+          "A book he couldn't read",
+          "a book he couldn't read."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What time did he get home? ______",
+      "payload": {
+        "before": "What time did he get home?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Midnight.",
+          "Midnight",
+          "midnight."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why does he tell this story? ______",
+      "payload": {
+        "before": "Why does he tell this story?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Because it became the best day of that year.",
+          "Because it became the best day of that year",
+          "because it became the best day of that year."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "تعقّب الأفعال",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "The text contains more than twenty past verbs. Find and list:",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: Regular: decided, asked, walked, ordered, pointed, watched, arrived, planned, cost.  Irregular: made, became, was, bought, found, got, sat, put, fell, woke, looked (regular), told, had, thought, spent, ate, spoke, took, saw."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "تعقّب الأفعال",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Regular (-ed) : ……",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "تعقّب الأفعال",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Irregular     : ……",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "I didn't went to work yesterday."
+      },
+      "answer": {
+        "accepted": [
+          "I didn't go to work yesterday."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "Did you saw my keys?"
+      },
+      "answer": {
+        "accepted": [
+          "Did you see my keys?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "Where you went last night?"
+      },
+      "answer": {
+        "accepted": [
+          "Where did you go last night?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "He buyed a new car."
+      },
+      "answer": {
+        "accepted": [
+          "He bought a new car."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "I didn't be at home."
+      },
+      "answer": {
+        "accepted": [
+          "I wasn't at home."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "Did they were happy?"
+      },
+      "answer": {
+        "accepted": [
+          "Were they happy?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "She goed to the market."
+      },
+      "answer": {
+        "accepted": [
+          "She went to the market."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "Did you like it? Yes, I liked."
+      },
+      "answer": {
+        "accepted": [
+          "Yes, I did."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "We didn't saw anything."
+      },
+      "answer": {
+        "accepted": [
+          "We didn't see anything."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "How much did cost the ticket?"
+      },
+      "answer": {
+        "accepted": [
+          "How much did the ticket cost?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Emma Gatewood was sixty-seven when she started.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "She took a tent and a map.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: she took neither"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "She walked about three thousand five hundred kilometres.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Other women finished the trail alone before her.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: no woman finished it alone before her"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The walk took her about five months.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "في النصّ: 146 days"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "She used two pairs of shoes.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: seven pairs"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "She gave a long explanation to journalists.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: a very short answer"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "She walked the trail three times in total.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    }
+  ]
+}

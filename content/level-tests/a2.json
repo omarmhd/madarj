@@ -1,0 +1,1022 @@
+{
+  "level": "A2",
+  "after_week": 12,
+  "title_ar": "اختبار المستوى A2",
+  "title_en": "A2 Level Test",
+  "minutes": 45,
+  "pass_percent": 60,
+  "modeled_on": "Cambridge A2 Key (KET) task styles, CEFR A2 can-do descriptors",
+  "tips_ar": [
+    "اقرأ السؤال قبل أن تسمع أو تقرأ النصّ.",
+    "استمع إلى كل تسجيل مرّتين فقط، كما في الاختبار الحقيقيّ.",
+    "لا تقف طويلاً عند سؤال صعب. انتقل ثم ارجع إليه.",
+    "لا تترك سؤالاً بلا إجابة. التخمين أفضل من الفراغ.",
+    "لا تفتح الكتاب ولا القاموس. الاختبار يخبرك أين أنت، فلا تخدع نفسك."
+  ],
+  "sections": [
+    {
+      "key": "listening",
+      "title_ar": "الاستماع",
+      "title_en": "Listening",
+      "instructions_ar": "استمع إلى كل حوار أو إعلان، ثم أجب عن الأسئلة.",
+      "advice_ar": [
+        "استمع إلى حوارات الأسابيع 7–11 وكرّرها جملةً جملة.",
+        "انتبه لأفعال الماضي وأنت تسمع، مثل went وate وvisited.",
+        "اسمع الأوقات والأيام والأرقام في البطاقات واكتبها."
+      ],
+      "parts": [
+        {
+          "instructions_ar": "صديقان يتكلّمان عن عطلة الأسبوع.",
+          "audio": [
+            {
+              "g": "f",
+              "text": "Hi Ahmed. How was your weekend?"
+            },
+            {
+              "g": "m",
+              "text": "Great, thanks. I went to Alexandria with my family."
+            },
+            {
+              "g": "f",
+              "text": "Did you swim in the sea?"
+            },
+            {
+              "g": "m",
+              "text": "No, the weather was cold and windy. We visited a museum and ate fish in a restaurant."
+            },
+            {
+              "g": "f",
+              "text": "That sounds nice. When did you come back?"
+            },
+            {
+              "g": "m",
+              "text": "On Sunday evening, by train."
+            }
+          ],
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "Where did Ahmed go?",
+              "payload": {
+                "options": [
+                  "To Aswan",
+                  "To Alexandria",
+                  "To Luxor"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "What was the weather like?",
+              "payload": {
+                "options": [
+                  "Hot and sunny",
+                  "Cold and windy",
+                  "Rainy"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "How did they come back?",
+              "payload": {
+                "options": [
+                  "By car",
+                  "By plane",
+                  "By train"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "إعلان في محطة القطار.",
+          "audio": [
+            {
+              "g": "f",
+              "text": "Attention, please. The ten fifteen train to Aswan is delayed."
+            },
+            {
+              "g": "f",
+              "text": "It will leave at eleven o'clock from platform four."
+            },
+            {
+              "g": "f",
+              "text": "We are sorry for the delay."
+            }
+          ],
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "What time will the train leave?",
+              "payload": {
+                "options": [
+                  "At ten fifteen",
+                  "At eleven o'clock",
+                  "At four o'clock"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Which platform?",
+              "payload": {
+                "options": [
+                  "Platform two",
+                  "Platform ten",
+                  "Platform four"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "امرأة تحجز موعداً.",
+          "audio": [
+            {
+              "g": "f",
+              "text": "Hello. I'd like to make an appointment with the dentist."
+            },
+            {
+              "g": "m",
+              "text": "Is Thursday convenient?"
+            },
+            {
+              "g": "f",
+              "text": "Sorry, I'm busy then. How about Tuesday?"
+            },
+            {
+              "g": "m",
+              "text": "Tuesday at five?"
+            },
+            {
+              "g": "f",
+              "text": "That works for me. Thank you."
+            }
+          ],
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "When is the appointment?",
+              "payload": {
+                "options": [
+                  "Thursday",
+                  "Tuesday",
+                  "Monday"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Complete the note:",
+              "payload": {
+                "before": "Dentist: Tuesday at",
+                "after": "."
+              },
+              "answer": {
+                "accepted": [
+                  "5",
+                  "five",
+                  "5:00",
+                  "5.00",
+                  "5 o'clock",
+                  "five o'clock",
+                  "5 pm",
+                  "5 p.m.",
+                  "5pm",
+                  "five pm",
+                  "five p.m."
+                ]
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "صديقان يقارنان بين مقهيَين.",
+          "audio": [
+            {
+              "g": "f",
+              "text": "Let's go to the new café. It's bigger than the old one."
+            },
+            {
+              "g": "m",
+              "text": "Yes, but it's more expensive."
+            },
+            {
+              "g": "f",
+              "text": "I know, but the coffee is better."
+            },
+            {
+              "g": "m",
+              "text": "OK. I'm going to have tea, not coffee, anyway!"
+            }
+          ],
+          "items": [
+            {
+              "type": "true_false",
+              "prompt": "The new café is cheaper than the old one.",
+              "payload": {},
+              "answer": {
+                "correct": false
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "What is the man going to drink?",
+              "payload": {
+                "options": [
+                  "Coffee",
+                  "Juice",
+                  "Tea"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "What is better at the new café?",
+              "payload": {
+                "options": [
+                  "The coffee",
+                  "The music",
+                  "The tables"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "title_ar": "القراءة",
+      "title_en": "Reading",
+      "instructions_ar": "اقرأ النصّ أو اللافتة، ثم أجب.",
+      "advice_ar": [
+        "اقرأ قصص مستوى A2 في صفحة القصص، قصّة كل يومين.",
+        "بعد كل قصّة، احكِها في ثلاث جمل بالماضي.",
+        "ابحث في النصّ عن الكلمة التي في السؤال، ثم اقرأ الجملة كلّها."
+      ],
+      "parts": [
+        {
+          "instructions_ar": "ماذا تقول هذه اللافتة؟",
+          "passage": "MUSEUM\nThe museum will be closed next Monday.\nTickets for Tuesday are available online.",
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "What does this notice say?",
+              "payload": {
+                "options": [
+                  "You can visit the museum next Monday.",
+                  "You can't visit the museum next Monday.",
+                  "There are no tickets for Tuesday.",
+                  "The museum is always closed on Tuesday."
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "ماذا تقول هذه الرسالة؟",
+          "passage": "Mona,\nI'm going to be late. My meeting finished late. Please don't wait for me. Have dinner.\nHassan",
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "Why did Hassan write this message?",
+              "payload": {
+                "options": [
+                  "He wants dinner early.",
+                  "He forgot the meeting.",
+                  "He will arrive late."
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "ماذا تقول هذه اللافتة؟",
+          "passage": "AIRPORT\nFlight 207 to Dubai: DELAYED\nNew time: 16:30, Gate 12",
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "What does this notice say?",
+              "payload": {
+                "options": [
+                  "The flight is cancelled.",
+                  "The flight is on time.",
+                  "The flight will leave later.",
+                  "The gate is closed."
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "اقرأ عن ليلى، ثم أجب.",
+          "passage": "Laila grew up in a small village near Minya. When she was a child, there wasn't a school in her village, so she walked to the next town every day. It took an hour. She was a hard-working student, and in 2015 she moved to Cairo and studied at university. Life in Cairo was more difficult than life in the village: it was noisier and more expensive. But she made many friends and found a good job as an accountant. Now she is thirty. Next year she is going to open her own small company. She thinks it will be the most important year of her life.",
+          "items": [
+            {
+              "type": "true_false",
+              "prompt": "There was a school in Laila's village.",
+              "payload": {},
+              "answer": {
+                "correct": false
+              },
+              "points": 1
+            },
+            {
+              "type": "true_false",
+              "prompt": "Laila walked to the next town every day.",
+              "payload": {},
+              "answer": {
+                "correct": true
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "When did Laila move to Cairo?",
+              "payload": {
+                "options": [
+                  "When she was a child",
+                  "In 2015",
+                  "Last year",
+                  "Next year"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "What was life in Cairo like?",
+              "payload": {
+                "options": [
+                  "It was cheaper than the village.",
+                  "It was quieter than the village.",
+                  "It was more expensive than the village.",
+                  "It was the same as the village."
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "What is Laila's job?",
+              "payload": {
+                "options": [
+                  "Teacher",
+                  "Accountant",
+                  "Doctor",
+                  "Engineer"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "What is she going to do next year?",
+              "payload": {
+                "options": [
+                  "Move to the village",
+                  "Study at university",
+                  "Start a company",
+                  "Find a new job"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "true_false",
+              "prompt": "Laila had no friends in Cairo.",
+              "payload": {},
+              "answer": {
+                "correct": false
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "grammar",
+      "title_ar": "القواعد",
+      "title_en": "Grammar",
+      "instructions_ar": "اختر الإجابة الصحيحة، أو صحّح الجملة.",
+      "advice_ar": [
+        "احفظ الأفعال الشاذّة في الأسبوع 8 بالبطاقات.",
+        "العب لعبة صيد الغلط، وافتح سجلّ الأخطاء العشرين لترى أين تخطئ.",
+        "راجع قسم القواعد في الأسابيع 7 و10 و11 وأعد تمارينها."
+      ],
+      "parts": [
+        {
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "They ___ very happy at the party yesterday.",
+              "payload": {
+                "options": [
+                  "was",
+                  "were",
+                  "are",
+                  "be"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "I didn't ___ to work last Monday.",
+              "payload": {
+                "options": [
+                  "went",
+                  "goes",
+                  "go",
+                  "going"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "She ___ a new phone last week.",
+              "payload": {
+                "options": [
+                  "buyed",
+                  "bought",
+                  "buys",
+                  "buy"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "My brother is taller ___ me.",
+              "payload": {
+                "options": [
+                  "from",
+                  "that",
+                  "as",
+                  "than"
+                ]
+              },
+              "answer": {
+                "correct": 3
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "This is the ___ hotel in the city.",
+              "payload": {
+                "options": [
+                  "most expensive",
+                  "more expensive",
+                  "expensivest",
+                  "expensive"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Look at those clouds! It ___ rain.",
+              "payload": {
+                "options": [
+                  "is going to",
+                  "go to",
+                  "will to",
+                  "rains"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "___ you see the film last night?",
+              "payload": {
+                "options": [
+                  "Do",
+                  "Were",
+                  "Did",
+                  "Was"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "correct_error",
+              "prompt": "Correct the sentence.",
+              "payload": {
+                "sentence": "He buyed a car."
+              },
+              "answer": {
+                "accepted": [
+                  "He bought a car.",
+                  "He bought a car"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "correct_error",
+              "prompt": "Correct the sentence.",
+              "payload": {
+                "sentence": "I didn't went to school."
+              },
+              "answer": {
+                "accepted": [
+                  "I didn't go to school.",
+                  "I didn't go to school",
+                  "I did not go to school.",
+                  "I did not go to school",
+                  "I didn't go to the school.",
+                  "I did not go to the school."
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "correct_error",
+              "prompt": "Correct the sentence.",
+              "payload": {
+                "sentence": "They was in the garden."
+              },
+              "answer": {
+                "accepted": [
+                  "They were in the garden.",
+                  "They were in the garden"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "correct_error",
+              "prompt": "Correct the sentence.",
+              "payload": {
+                "sentence": "My flat is bigger from your flat."
+              },
+              "answer": {
+                "accepted": [
+                  "My flat is bigger than your flat.",
+                  "My flat is bigger than your flat",
+                  "My flat is bigger than yours.",
+                  "My flat is bigger than yours"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "correct_error",
+              "prompt": "Correct the sentence.",
+              "payload": {
+                "sentence": "I am knowing the answer."
+              },
+              "answer": {
+                "accepted": [
+                  "I know the answer.",
+                  "I know the answer"
+                ]
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "vocabulary",
+      "title_ar": "المفردات",
+      "title_en": "Vocabulary",
+      "instructions_ar": "اختر الكلمة الإنجليزية الصحيحة.",
+      "advice_ar": [
+        "راجع بطاقات المفردات كل يوم، من العربيّ إلى الإنجليزيّ.",
+        "احفظ الفعل مع ماضيه معاً، مثل go وwent.",
+        "اكتب الكلمات التي تصادفك في «كلماتك» وراجعها."
+      ],
+      "parts": [
+        {
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «جواز سفر»",
+              "payload": {
+                "options": [
+                  "ticket",
+                  "passport",
+                  "luggage",
+                  "platform"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «يلغي»",
+              "payload": {
+                "options": [
+                  "cancel",
+                  "confirm",
+                  "postpone",
+                  "arrange"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «كسول»",
+              "payload": {
+                "options": [
+                  "lazy",
+                  "shy",
+                  "rude",
+                  "calm"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «مزدحم»",
+              "payload": {
+                "options": [
+                  "comfortable",
+                  "crowded",
+                  "modern",
+                  "dirty"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «محاسب»",
+              "payload": {
+                "options": [
+                  "lawyer",
+                  "pilot",
+                  "accountant",
+                  "plumber"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «غائم»",
+              "payload": {
+                "options": [
+                  "sunny",
+                  "windy",
+                  "rainy",
+                  "cloudy"
+                ]
+              },
+              "answer": {
+                "correct": 3
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Complete:",
+              "payload": {
+                "before": "The past of \"see\" is ",
+                "after": "."
+              },
+              "answer": {
+                "accepted": [
+                  "saw"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Complete:",
+              "payload": {
+                "before": "The past of \"think\" is ",
+                "after": "."
+              },
+              "answer": {
+                "accepted": [
+                  "thought"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "The opposite of \"polite\" is:",
+              "payload": {
+                "options": [
+                  "friendly",
+                  "rude",
+                  "patient",
+                  "funny"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Which word does NOT belong?",
+              "payload": {
+                "options": [
+                  "flight",
+                  "gate",
+                  "passport",
+                  "beard"
+                ]
+              },
+              "answer": {
+                "correct": 3
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "title_ar": "الكتابة",
+      "title_en": "Writing",
+      "instructions_ar": "رتّب الكلمات، أو أكمل الرسالة.",
+      "advice_ar": [
+        "اكتب كل مساء ثلاث جمل بالماضي عن يومك.",
+        "اكتب رسالة قصيرة لصديق عن خطّتك للأسبوع القادم.",
+        "اقرأ نموذج الإجابة في مهمّة الكتابة، ثم اكتب مثله."
+      ],
+      "parts": [
+        {
+          "instructions_ar": "رتّب الكلمات لتصنع جملة.",
+          "items": [
+            {
+              "type": "order_words",
+              "prompt": "Put the words in order.",
+              "payload": {
+                "words": [
+                  "go",
+                  "you",
+                  "yesterday?",
+                  "Where",
+                  "did"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "Where",
+                  "did",
+                  "you",
+                  "go",
+                  "yesterday?"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "order_words",
+              "prompt": "Put the words in order.",
+              "payload": {
+                "words": [
+                  "visit",
+                  "I",
+                  "aunt.",
+                  "going",
+                  "my",
+                  "am",
+                  "to"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "I",
+                  "am",
+                  "going",
+                  "to",
+                  "visit",
+                  "my",
+                  "aunt."
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "order_words",
+              "prompt": "Put the words in order.",
+              "payload": {
+                "words": [
+                  "than",
+                  "Alexandria.",
+                  "Cairo",
+                  "bigger",
+                  "is"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "Cairo",
+                  "is",
+                  "bigger",
+                  "than",
+                  "Alexandria."
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "order_words",
+              "prompt": "Put the words in order.",
+              "payload": {
+                "words": [
+                  "coffee",
+                  "She",
+                  "night.",
+                  "drinks",
+                  "at",
+                  "never"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "She",
+                  "never",
+                  "drinks",
+                  "coffee",
+                  "at",
+                  "night."
+                ]
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "أكمل رسالة يوسف بكلمة واحدة في كل فراغ.",
+          "passage": "Hi Tarek,\nLast week I (1) ___ to Luxor with my wife. We (2) ___ in a beautiful hotel near the river. It was very hot! The weather was (3) ___ than in Cairo, where it was cool. Next month we (4) ___ going to visit Aswan.\nYoussef",
+          "items": [
+            {
+              "type": "fill_blank",
+              "prompt": "Gap 1",
+              "payload": {
+                "before": "Last week I ",
+                "after": " to Luxor."
+              },
+              "answer": {
+                "accepted": [
+                  "went",
+                  "travelled",
+                  "traveled",
+                  "drove",
+                  "flew"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Gap 2",
+              "payload": {
+                "before": "We ",
+                "after": " in a beautiful hotel."
+              },
+              "answer": {
+                "accepted": [
+                  "stayed",
+                  "slept",
+                  "were"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Gap 3",
+              "payload": {
+                "before": "The weather was ",
+                "after": " than in Cairo, where it was cool."
+              },
+              "answer": {
+                "accepted": [
+                  "hotter",
+                  "warmer"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Gap 4",
+              "payload": {
+                "before": "Next month we ",
+                "after": " going to visit Aswan."
+              },
+              "answer": {
+                "accepted": [
+                  "are"
+                ]
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

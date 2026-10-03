@@ -1,0 +1,3270 @@
+{
+  "number": 10,
+  "module": 2,
+  "title_en": "Comparison, Description & the Schwa",
+  "title_ar": "المقارنة والوصف وصوت الschwa",
+  "pron_section": 5,
+  "is_review": false,
+  "objectives": [
+    {
+      "en": "Form the comparative of any adjective, short or long",
+      "ar": "أصوغ اسم التفضيل المقارن لأي صفة، قصيرة أو طويلة"
+    },
+    {
+      "en": "Form the superlative of any adjective",
+      "ar": "أصوغ صيغة التفضيل المطلق لأي صفة"
+    },
+    {
+      "en": "Use the six irregular comparatives correctly",
+      "ar": "أستخدم صيغ المقارنة الشاذة الستّ صحيحة"
+    },
+    {
+      "en": "Use as … as and not as … as to say things are equal or unequal",
+      "ar": "أستخدم as … as و not as … as للتساوي وعدمه"
+    },
+    {
+      "en": "Make a comparison stronger or weaker with much, a bit, far",
+      "ar": "أقوّي المقارنة أو أضعّفها بـ much و a bit و far"
+    },
+    {
+      "en": "Describe a person's appearance and personality in detail",
+      "ar": "أصف هيئة شخص وشخصيته بتفصيل"
+    },
+    {
+      "en": "Recognise and produce the schwa /ə/ in unstressed syllables",
+      "ar": "أميّز الشوا /ə/ في المقاطع غير المنبورة وأنطقها"
+    },
+    {
+      "en": "Speak for 2 minutes comparing two places, people or periods of my life",
+      "ar": "أتحدّث دقيقتين مقارناً بين مكانين أو شخصين أو مرحلتين من حياتي"
+    }
+  ],
+  "writing": {
+    "title_ar": null,
+    "title_en": "Writing — A Comparison",
+    "task_ar": null,
+    "task_en": "Write 110–130 words comparing two places you know — two cities, two neighbourhoods, or where you live now and where you lived before. Use at least four comparatives, one superlative, and one as … as.",
+    "min_words": 110,
+    "max_words": 130,
+    "templates": [
+      {
+        "en": "I lived in ____________ for ______ years, and now I live in ____________ .",
+        "ar": null
+      },
+      {
+        "en": "____________ is much ____________ than ____________ .",
+        "ar": null
+      },
+      {
+        "en": "On the other hand, ____________ isn't as ____________ as ____________ .",
+        "ar": null
+      },
+      {
+        "en": "The biggest difference is ____________ .",
+        "ar": null
+      },
+      {
+        "en": "The best thing about ____________ is ____________ .",
+        "ar": null
+      },
+      {
+        "en": "The worst thing is ____________ .",
+        "ar": null
+      },
+      {
+        "en": "In my opinion, ____________ is better, because ____________ .",
+        "ar": null
+      }
+    ],
+    "checklist": [],
+    "model_answer": "I lived in a small village until I was seventeen, and now I live in Cairo. The two places are completely different.",
+    "model_words": 22
+  },
+  "days": [
+    {
+      "number": 1,
+      "focus": "صفات المقارنة · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "صفات المقارنة",
+          "minutes": 25,
+          "ref": "vocab:adjectives_for_comparing"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:1"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "focus": "النطق · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "النطق",
+          "minutes": 25,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:2"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "focus": "القواعد · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القواعد",
+          "minutes": 25,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:3"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "focus": "وصف الهيئة · الحوار الثاني · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "وصف الهيئة · حوار: Describing Someone",
+          "minutes": 25,
+          "ref": "vocab:describing_appearance|dialogue:2"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:4"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "focus": "وصف الشخصية · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "وصف الشخصية",
+          "minutes": 25,
+          "ref": "vocab:describing_personality"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:5"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "focus": "الحوار الأول · الاستماع · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "حوار: Choosing a Flat · الاستماع",
+          "minutes": 25,
+          "ref": "dialogue:1|section:listening"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:6"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "focus": "عبارات المقارنة · القراءة · الكتابة · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "عبارات المقارنة · القراءة · الكتابة",
+          "minutes": 25,
+          "ref": "vocab:comparison_phrases|section:reading|writing:1|record"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:7"
+        },
+        {
+          "order": 5,
+          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record:baseline"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "group": "describing_appearance",
+      "word": "tall",
+      "ipa": "/tɔːl/",
+      "arabic": "طويل القامة",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "short",
+      "ipa": "/ʃɔːt/",
+      "arabic": "قصير",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "thin",
+      "ipa": "/θɪn/",
+      "arabic": "نحيف",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "slim",
+      "ipa": "/slɪm/",
+      "arabic": "رشيق",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "heavy",
+      "ipa": "/ˈhevi/",
+      "arabic": "ثقيل الوزن",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "strong",
+      "ipa": "/strɒŋ/",
+      "arabic": "قوي",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "young",
+      "ipa": "/jʌŋ/",
+      "arabic": "صغير السن",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "old",
+      "ipa": "/əʊld/",
+      "arabic": "كبير السن",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "middle-aged",
+      "ipa": "/ˌmɪdl ˈeɪdʒd/",
+      "arabic": "في منتصف العمر",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "elderly",
+      "ipa": "/ˈeldəli/",
+      "arabic": "مسنّ",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "hair",
+      "ipa": "/heə(r)/",
+      "arabic": "شعر",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "beard",
+      "ipa": "/bɪəd/",
+      "arabic": "لحية",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "straight",
+      "ipa": "/streɪt/",
+      "arabic": "مسترسل",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "curly",
+      "ipa": "/ˈkɜːli/",
+      "arabic": "مجعّد",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "dark",
+      "ipa": "/dɑːk/",
+      "arabic": "داكن",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "fair",
+      "ipa": "/feə(r)/",
+      "arabic": "فاتح",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "eyes",
+      "ipa": "/aɪz/",
+      "arabic": "عيون",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "glasses",
+      "ipa": "/ˈɡlɑːsɪz/",
+      "arabic": "نظارة",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "handsome",
+      "ipa": "/ˈhænsəm/",
+      "arabic": "وسيم",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "beautiful",
+      "ipa": "/ˈbjuːtɪfl/",
+      "arabic": "جميلة",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "pretty",
+      "ipa": "/ˈprɪti/",
+      "arabic": "حلوة",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "good-looking",
+      "ipa": "/ˌɡʊd ˈlʊkɪŋ/",
+      "arabic": "حسن المظهر",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "smart",
+      "ipa": "/smɑːt/",
+      "arabic": "أنيق",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "casual",
+      "ipa": "/ˈkæʒuəl/",
+      "arabic": "غير رسمي",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_appearance",
+      "word": "look like",
+      "ipa": "/lʊk laɪk/",
+      "arabic": "يشبه",
+      "example": null,
+      "group_label_ar": "وصف الهيئة",
+      "group_label_en": "Describing Appearance"
+    },
+    {
+      "group": "describing_personality",
+      "word": "kind",
+      "ipa": "/kaɪnd/",
+      "arabic": "لطيف",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "unkind",
+      "ipa": "/ʌnˈkaɪnd/",
+      "arabic": "قاسٍ",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "friendly",
+      "ipa": "/ˈfrendli/",
+      "arabic": "ودود",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "unfriendly",
+      "ipa": "/ʌnˈfrendli/",
+      "arabic": "غير ودود",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "polite",
+      "ipa": "/pəˈlaɪt/",
+      "arabic": "مؤدب",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "rude",
+      "ipa": "/ruːd/",
+      "arabic": "وقح",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "patient",
+      "ipa": "/ˈpeɪʃnt/",
+      "arabic": "صبور",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "impatient",
+      "ipa": "/ɪmˈpeɪʃnt/",
+      "arabic": "نافد الصبر",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "honest",
+      "ipa": "/ˈɒnɪst/",
+      "arabic": "صادق (silent h)",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "generous",
+      "ipa": "/ˈdʒenərəs/",
+      "arabic": "كريم",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "quiet",
+      "ipa": "/ˈkwaɪət/",
+      "arabic": "هادئ",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "talkative",
+      "ipa": "/ˈtɔːkətɪv/",
+      "arabic": "كثير الكلام",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "serious",
+      "ipa": "/ˈsɪəriəs/",
+      "arabic": "جاد",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "funny",
+      "ipa": "/ˈfʌni/",
+      "arabic": "مضحك",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "confident",
+      "ipa": "/ˈkɒnfɪdənt/",
+      "arabic": "واثق",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "shy",
+      "ipa": "/ʃaɪ/",
+      "arabic": "خجول",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "clever",
+      "ipa": "/ˈklevə(r)/",
+      "arabic": "ذكي",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "hard-working",
+      "ipa": "/ˌhɑːd ˈwɜːkɪŋ/",
+      "arabic": "مجتهد",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "lazy",
+      "ipa": "/ˈleɪzi/",
+      "arabic": "كسول",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "reliable",
+      "ipa": "/rɪˈlaɪəbl/",
+      "arabic": "يُعتمد عليه",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "calm",
+      "ipa": "/kɑːm/",
+      "arabic": "هادئ الطباع (silent l)",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "nervous",
+      "ipa": "/ˈnɜːvəs/",
+      "arabic": "متوتر",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "selfish",
+      "ipa": "/ˈselfɪʃ/",
+      "arabic": "أناني",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "helpful",
+      "ipa": "/ˈhelpfl/",
+      "arabic": "مساعد",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "describing_personality",
+      "word": "strict",
+      "ipa": "/strɪkt/",
+      "arabic": "صارم",
+      "example": null,
+      "group_label_ar": "وصف الشخصية",
+      "group_label_en": "Describing Personality"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "big",
+      "ipa": null,
+      "arabic": "كبير",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "small",
+      "ipa": null,
+      "arabic": "صغير",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "old",
+      "ipa": null,
+      "arabic": "قديم / كبير",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "new",
+      "ipa": null,
+      "arabic": "جديد",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "cheap",
+      "ipa": null,
+      "arabic": "رخيص",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "expensive",
+      "ipa": null,
+      "arabic": "غالٍ",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "fast",
+      "ipa": null,
+      "arabic": "سريع",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "slow",
+      "ipa": null,
+      "arabic": "بطيء",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "easy",
+      "ipa": null,
+      "arabic": "سهل",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "difficult",
+      "ipa": null,
+      "arabic": "صعب",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "safe",
+      "ipa": null,
+      "arabic": "آمن",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "dangerous",
+      "ipa": null,
+      "arabic": "خطير",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "clean",
+      "ipa": null,
+      "arabic": "نظيف",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "dirty",
+      "ipa": null,
+      "arabic": "متسخ",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "quiet",
+      "ipa": null,
+      "arabic": "هادئ",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "noisy",
+      "ipa": null,
+      "arabic": "صاخب",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "crowded",
+      "ipa": null,
+      "arabic": "مزدحم",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "comfortable",
+      "ipa": null,
+      "arabic": "مريح",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "interesting",
+      "ipa": null,
+      "arabic": "ممتع",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "boring",
+      "ipa": null,
+      "arabic": "ممل",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "important",
+      "ipa": null,
+      "arabic": "مهم",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "popular",
+      "ipa": null,
+      "arabic": "شائع",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "healthy",
+      "ipa": null,
+      "arabic": "صحي",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "modern",
+      "ipa": null,
+      "arabic": "حديث",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "traditional",
+      "ipa": null,
+      "arabic": "تقليدي",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "good",
+      "ipa": null,
+      "arabic": "جيد",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "bad",
+      "ipa": null,
+      "arabic": "سيء",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "far",
+      "ipa": null,
+      "arabic": "بعيد",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "many / much",
+      "ipa": null,
+      "arabic": "كثير",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "adjectives_for_comparing",
+      "word": "little",
+      "ipa": null,
+      "arabic": "قليل",
+      "example": null,
+      "group_label_ar": "صفات المقارنة",
+      "group_label_en": "Adjectives for Comparing"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "… than …",
+      "ipa": null,
+      "arabic": "من / عن",
+      "example": "Cairo is bigger than Alexandria.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "as … as",
+      "ipa": null,
+      "arabic": "بقدر / مثل",
+      "example": "It isn't as expensive as London.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "much / far",
+      "ipa": null,
+      "arabic": "بكثير",
+      "example": "It is much cheaper.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "a bit / a little",
+      "ipa": null,
+      "arabic": "قليلاً",
+      "example": "It is a bit colder today.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "slightly",
+      "ipa": null,
+      "arabic": "قليلاً جداً",
+      "example": "The new one is slightly better.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "almost",
+      "ipa": null,
+      "arabic": "تقريباً",
+      "example": "It is almost the same.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "exactly the same",
+      "ipa": null,
+      "arabic": "نفس الشيء تماماً",
+      "example": "They are exactly the same.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "completely different",
+      "ipa": null,
+      "arabic": "مختلف تماماً",
+      "example": "They are completely different.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "similar to",
+      "ipa": null,
+      "arabic": "شبيه بـ",
+      "example": "It is similar to my old job.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "different from",
+      "ipa": null,
+      "arabic": "مختلف عن",
+      "example": "It is different from what I expected.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "the same as",
+      "ipa": null,
+      "arabic": "مثل",
+      "example": "It costs the same as before.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "better than",
+      "ipa": null,
+      "arabic": "أفضل من",
+      "example": "This one is better than that one.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "worse than",
+      "ipa": null,
+      "arabic": "أسوأ من",
+      "example": "The traffic is worse than last year.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "by far",
+      "ipa": null,
+      "arabic": "بفارق كبير",
+      "example": "It is by far the best.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "one of the …est",
+      "ipa": null,
+      "arabic": "من أكثر …",
+      "example": "It is one of the biggest cities.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "I prefer … to …",
+      "ipa": null,
+      "arabic": "أفضّل … على …",
+      "example": "I prefer tea to coffee.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "I'd rather …",
+      "ipa": null,
+      "arabic": "أفضّل أن …",
+      "example": "I'd rather walk.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "in my opinion",
+      "ipa": null,
+      "arabic": "برأيي",
+      "example": "In my opinion, the old one was better.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "it depends",
+      "ipa": null,
+      "arabic": "يعتمد",
+      "example": "Which is better? It depends.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    },
+    {
+      "group": "comparison_phrases",
+      "word": "on the other hand",
+      "ipa": null,
+      "arabic": "من ناحية أخرى",
+      "example": "It is cheap. On the other hand, it is slow.",
+      "group_label_ar": "عبارات المقارنة",
+      "group_label_en": "Comparison Phrases"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "group_label": "The Schwa /ə/",
+      "ipa": null,
+      "word_a": "bigger",
+      "word_b": "cheaper",
+      "group_label_ar": "الشوا — الحركة المسترخية",
+      "hint_ar": "أكثر أصوات الإنجليزية شيوعاً، وهو حركة بلا لون في المقطع غير المنبور: banana ليست «با-نا-نا» بل ‎bə-NA-nə‎. أرخِ المقطع تماماً ولا تعطه حركة واضحة."
+    },
+    {
+      "group_label": "The Schwa /ə/",
+      "ipa": null,
+      "word_a": "better",
+      "word_b": "faster",
+      "group_label_ar": "الشوا — الحركة المسترخية",
+      "hint_ar": "أكثر أصوات الإنجليزية شيوعاً، وهو حركة بلا لون في المقطع غير المنبور: banana ليست «با-نا-نا» بل ‎bə-NA-nə‎. أرخِ المقطع تماماً ولا تعطه حركة واضحة."
+    },
+    {
+      "group_label": "The Schwa /ə/",
+      "ipa": null,
+      "word_a": "closer",
+      "word_b": "smaller",
+      "group_label_ar": "الشوا — الحركة المسترخية",
+      "hint_ar": "أكثر أصوات الإنجليزية شيوعاً، وهو حركة بلا لون في المقطع غير المنبور: banana ليست «با-نا-نا» بل ‎bə-NA-nə‎. أرخِ المقطع تماماً ولا تعطه حركة واضحة."
+    }
+  ],
+  "dialogues": [
+    {
+      "number": 1,
+      "title": "Choosing a Flat",
+      "situation_en": "Lina is helping a colleague decide between two flats.",
+      "situation_ar": "لينا تساعد زميلاً في المفاضلة بين شقّتين.",
+      "speaker_genders": {
+        "LINA": "f",
+        "KHALED": "m"
+      },
+      "lines": [
+        {
+          "speaker": "LINA",
+          "en": "So, which one do you prefer?",
+          "ar": "إذن، أيهما تفضّل؟"
+        },
+        {
+          "speaker": "KHALED",
+          "en": "I don't know. The first one is bigger, but it's much more expensive.",
+          "ar": "لا أعرف. الأولى أكبر، لكنها أغلى بكثير."
+        },
+        {
+          "speaker": "LINA",
+          "en": "How much bigger?",
+          "ar": "أكبر بكم؟"
+        },
+        {
+          "speaker": "KHALED",
+          "en": "Two rooms instead of one. And the kitchen is twice as big.",
+          "ar": "غرفتان بدل واحدة. والمطبخ ضعف الحجم."
+        },
+        {
+          "speaker": "LINA",
+          "en": "And the second one?",
+          "ar": "والثانية؟"
+        },
+        {
+          "speaker": "KHALED",
+          "en": "Smaller, older, but it's in a much better area. And it's closer to work.",
+          "ar": "أصغر، أقدم، لكنها في منطقة أفضل بكثير. وأقرب للعمل."
+        },
+        {
+          "speaker": "LINA",
+          "en": "How much closer?",
+          "ar": "أقرب بكم؟"
+        },
+        {
+          "speaker": "KHALED",
+          "en": "Fifteen minutes on foot. The first one is nearly an hour by bus.",
+          "ar": "خمس عشرة دقيقة مشياً. الأولى حوالي ساعة بالحافلة."
+        },
+        {
+          "speaker": "LINA",
+          "en": "That's two hours a day. Is the big flat really worth two hours?",
+          "ar": "هذا ساعتان يومياً. هل الشقة الكبيرة تستحق ساعتين؟"
+        },
+        {
+          "speaker": "KHALED",
+          "en": "When you say it like that, no.",
+          "ar": "حين تقولينها هكذا، لا."
+        },
+        {
+          "speaker": "LINA",
+          "en": "And is the second area as safe?",
+          "ar": "وهل المنطقة الثانية آمنة بنفس القدر؟"
+        },
+        {
+          "speaker": "KHALED",
+          "en": "Safer, actually. It's quieter and there are more families.",
+          "ar": "أكثر أماناً في الواقع. أهدأ وفيها عائلات أكثر."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Then it isn't a difficult decision.",
+          "ar": "إذن ليس قراراً صعباً."
+        },
+        {
+          "speaker": "KHALED",
+          "en": "It isn't. It just felt difficult until you asked the right question.",
+          "ar": "ليس كذلك. بدا صعباً فقط حتى سألتِ السؤال الصحيح."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Describing Someone",
+      "situation_en": "Sami is meeting a client he has never seen at the airport.",
+      "situation_ar": "سامي ينتظر في المطار عميلاً لم يره من قبل، فيسأل عن وصفه.",
+      "speaker_genders": {
+        "SAMI": "m",
+        "LINA": "f"
+      },
+      "lines": [
+        {
+          "speaker": "SAMI",
+          "en": "I'm at the airport. How will I recognise him?",
+          "ar": "أنا في المطار. كيف سأتعرّف عليه؟"
+        },
+        {
+          "speaker": "LINA",
+          "en": "He's quite tall — taller than you. About fifty years old.",
+          "ar": "إنه طويل نوعاً ما — أطول منك. حوالي خمسين عاماً."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "What does he look like?",
+          "ar": "كيف يبدو؟"
+        },
+        {
+          "speaker": "LINA",
+          "en": "Dark hair, going grey. He wears glasses and he has a short beard.",
+          "ar": "شعر داكن يميل للرمادي. يرتدي نظارة وله لحية قصيرة."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Smart or casual?",
+          "ar": "أنيق أم غير رسمي؟"
+        },
+        {
+          "speaker": "LINA",
+          "en": "Always very smart. He's the most formal person in that company.",
+          "ar": "أنيق جداً دائماً. إنه أكثر شخص رسمي في تلك الشركة."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "And what's he like? As a person, I mean.",
+          "ar": "وكيف هو؟ كشخص، أقصد."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Quiet. Not unfriendly, just quiet. He listens more than he talks.",
+          "ar": "هادئ. ليس غير ودود، فقط هادئ. يستمع أكثر مما يتحدث."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "That's better than the last client.",
+          "ar": "هذا أفضل من العميل السابق."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Much better. But he's stricter about details. Check your numbers twice.",
+          "ar": "أفضل بكثير. لكنه أكثر صرامة في التفاصيل. راجع أرقامك مرتين."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Understood. Anything else?",
+          "ar": "مفهوم. أي شيء آخر؟"
+        },
+        {
+          "speaker": "LINA",
+          "en": "He's more patient than most people, so don't rush. And he hates small talk.",
+          "ar": "إنه أكثر صبراً من معظم الناس، فلا تستعجل. ويكره الحديث الجانبي."
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "kind": "grammar",
+      "day_number": 4,
+      "title_ar": "القواعد",
+      "title_en": "Grammar — Comparatives and Superlatives",
+      "payload": {
+        "rule_ar": "المقارنة بين **اثنين** تحتاج صيغة المقارنة و than. والصفة القصيرة تأخذ -er، والطويلة تسبقها more. والتفضيل بين ثلاثة فأكثر يأخذ the + -est أو the most. والخطأ العربي الثابت: bigger **from** بدل bigger **than**، لأن العربية تقول «أكبر من».",
+        "rule_en": "COMPARATIVE  =  comparing TWO things       ->  A is bigger THAN B.",
+        "common_errors": [
+          {
+            "error_no": 1,
+            "wrong": "bigger from",
+            "right": "bigger than",
+            "arabic": "أكبر من",
+            "why_ar": "المقارنة بـthan"
+          },
+          {
+            "error_no": 2,
+            "wrong": "very better",
+            "right": "much better",
+            "arabic": "أفضل بكثير",
+            "why_ar": "very لا تصلح مع صيغة المقارنة"
+          },
+          {
+            "error_no": 3,
+            "wrong": "more beautifuller",
+            "right": "more beautiful",
+            "arabic": "هذا أجمل",
+            "why_ar": "لا تجمع more مع -er"
+          },
+          {
+            "error_no": 4,
+            "wrong": "He is best",
+            "right": "He is the best.",
+            "arabic": "هو الأفضل",
+            "why_ar": "صيغة التفضيل تحتاج the"
+          },
+          {
+            "error_no": 5,
+            "wrong": "isn't as bigger as Cairo",
+            "right": "isn't as big as Cairo",
+            "arabic": "ليست كبيرة مثل القاهرة",
+            "why_ar": "الصفة مجرّدة داخل as … as"
+          },
+          {
+            "error_no": 6,
+            "wrong": "I prefer tea than coffee",
+            "right": "I prefer tea to coffee.",
+            "arabic": "أفضّل الشاي على القهوة",
+            "why_ar": "prefer X to Y"
+          },
+          {
+            "error_no": 7,
+            "wrong": "worser than",
+            "right": "worse than",
+            "arabic": "أسوأ من",
+            "why_ar": "worse صيغة مقارنة أصلاً"
+          }
+        ],
+        "checklist_ar": [
+          "than لا from بعد صيغة المقارنة",
+          "الصفة القصيرة -er · الطويلة more",
+          "التفضيل يسبقه the دائماً",
+          "الشاذة: good → better → the best",
+          "as … as للتساوي · not as … as لنفيه"
+        ]
+      }
+    },
+    {
+      "kind": "phonics",
+      "day_number": 1,
+      "title_ar": "النطق",
+      "title_en": "Pronunciation — The Schwa /ə/",
+      "payload": {
+        "intro_ar": "الشوا /ə/ أكثر أصوات الإنجليزية شيوعاً على الإطلاق، وهو الصوت الذي تنهار إليه كل الحركات غير المنبورة. من ينطق كل مقطع كاملاً يبدو كلامه آلياً بطيئاً.",
+        "symbols": [],
+        "tip_ar": "القاعدة العملية: انطق المقطع المنبور كاملاً، واسحق ما عداه. banana ليست «با-نا-نا» بل bə-NA-nə."
+      }
+    },
+    {
+      "kind": "listening",
+      "day_number": 6,
+      "title_ar": "الاستماع",
+      "title_en": "Listening — \"The Two Brothers\"",
+      "payload": {
+        "method_ar": [
+          "استمع كاملاً بلا نصّ. عمّا يتحدّث؟ قلها في جملة واحدة.",
+          "استمع مرة أخرى واكتب أي كلمة لم تلتقطها.",
+          "افتح النصّ واقرأه وأنت تستمع.",
+          "أغلق النصّ واستمع مرة أخيرة، ولاحظ كم صار أوضح."
+        ],
+        "transcript": [
+          {
+            "en": "My brother and I are two years apart, but people say we are completely different. They are right.",
+            "ar": "بيني وبين أخي سنتان، لكن الناس يقولون إننا مختلفان تماماً. وهم محقّون."
+          },
+          {
+            "en": "Youssef is taller than me, stronger than me, and much more confident. At school he was the most popular boy in his year. He talked to everybody. I was the quiet one at the back with a book.",
+            "ar": "يوسف أطول منّي وأقوى منّي وأكثر ثقة بكثير. في المدرسة كان أشهر ولد في دفعته. كان يتكلّم مع الجميع. وأنا كنت الهادئ في الخلف ومعي كتاب."
+          },
+          {
+            "en": "He is also braver. When we were children, he climbed the highest tree in the village. I stood underneath and told him it was dangerous. He fell and broke his arm, and he was laughing when my father carried him home.",
+            "ar": "وهو أشجع أيضاً. حين كنا صغاراً تسلّق أعلى شجرة في القرية. ووقفت أنا تحتها أقول له إن هذا خطر. فسقط وكسر ذراعه، وكان يضحك وأبي يحمله إلى البيت."
+          },
+          {
+            "en": "I was better at school than him — much better. But he was more interesting to talk to. My teachers liked me more; everybody else liked him more.",
+            "ar": "كنت أفضل منه في المدرسة — أفضل بكثير. لكنه كان أمتع منّي في الحديث. معلّموني أحبّوني أكثر، وكل من عداهم أحبّه هو أكثر."
+          },
+          {
+            "en": "Now he is a doctor and I am an engineer. His job is harder than mine and his hours are worse. He earns less money than I do, which we both think is strange.",
+            "ar": "والآن هو طبيب وأنا مهندس. عمله أصعب من عملي وساعاته أسوأ. ويكسب مالاً أقلّ ممّا أكسب، وكلانا يرى ذلك غريباً."
+          },
+          {
+            "en": "The funny thing is that we are closer now than we were as children. He is still the braver one and I am still the quieter one. But these days I call him more than he calls me, and when something goes wrong in my life, he is the first person I want to talk to.",
+            "ar": "والطريف أننا أقرب اليوم ممّا كنا في الطفولة. هو ما زال الأشجع وأنا ما زلت الأهدأ. لكنني هذه الأيام أتّصل به أكثر ممّا يتّصل بي، وحين يسوء شيء في حياتي فهو أول من أريد أن أحدّثه."
+          }
+        ],
+        "questions": []
+      }
+    },
+    {
+      "kind": "reading",
+      "day_number": 7,
+      "title_ar": "القراءة",
+      "title_en": "Reading — \"The Cheapest City and the Happiest City\"",
+      "payload": {
+        "method_ar": "اقرأ مرتين. الأولى بلا توقّف، والثانية مع المسرد.",
+        "story": [
+          {
+            "en": "Every year, researchers publish two very different lists. One measures the cost of living in the cities of the world. The other measures how happy the people in them are. The interesting part is how little the two lists have in common.",
+            "ar": "في كل سنة ينشر الباحثون قائمتين مختلفتين جداً. واحدة تقيس تكلفة المعيشة في مدن العالم، والأخرى تقيس مدى سعادة أهلها. والمثير أن ما تشترك فيه القائمتان قليل جداً."
+          },
+          {
+            "en": "The most expensive cities are usually the same every year: Singapore, Zurich, Hong Kong, New York. A cup of coffee in Zurich costs more than a full meal in many countries.",
+            "ar": "أغلى المدن هي نفسها عادةً كل سنة: سنغافورة وزيورخ وهونغ كونغ ونيويورك. فنجان قهوة في زيورخ يكلّف أكثر من وجبة كاملة في بلدان كثيرة."
+          },
+          {
+            "en": "The happiest countries are also usually the same: Finland, Denmark, Iceland, Switzerland. But these places are not cheap either. Finland is far more expensive than Spain, and yet Finnish people report much higher happiness.",
+            "ar": "وأسعد البلدان هي نفسها عادةً أيضاً: فنلندا والدنمارك وآيسلندا وسويسرا. لكن هذه الأماكن ليست رخيصة كذلك. فنلندا أغلى من إسبانيا بكثير، ومع ذلك يقول الفنلنديون إنهم أسعد بكثير."
+          },
+          {
+            "en": "So money is not the answer. But it is not irrelevant either. The unhappiest countries on the list are almost always the poorest, or the ones at war.",
+            "ar": "فالمال ليس الجواب إذن. لكنه ليس بلا صلة أيضاً. فأتعس البلدان في القائمة هي دائماً تقريباً أفقرها، أو تلك التي في حرب."
+          },
+          {
+            "en": "Researchers say the strongest factor is not income. It is trust. In the happiest countries, most people answer \"yes\" to a simple question: if you lost your wallet in the street, would a stranger return it?",
+            "ar": "يقول الباحثون إن أقوى عامل ليس الدخل، بل الثقة. ففي أسعد البلدان يجيب معظم الناس بـ«نعم» عن سؤال بسيط: لو ضاعت محفظتك في الشارع، هل يعيدها إليك غريب؟"
+          },
+          {
+            "en": "In one experiment, researchers dropped seventeen thousand wallets in forty countries. In Denmark and Switzerland, more than eighty per cent came back. In the countries at the bottom of the happiness list, fewer than fifteen per cent did.",
+            "ar": "في إحدى التجارب أسقط الباحثون سبعة عشر ألف محفظة في أربعين بلداً. في الدنمارك وسويسرا عاد أكثر من ثمانين في المئة منها. وفي البلدان الواقعة في ذيل قائمة السعادة عاد أقلّ من خمسة عشر في المئة."
+          },
+          {
+            "en": "The most expensive city in the world will not make you happy. But a city where a stranger runs after you with your wallet — that is a different kind of rich.",
+            "ar": "أغلى مدينة في العالم لن تجعلك سعيداً. أما مدينة يركض فيها غريب خلفك ومعه محفظتك، فذلك ثراء من نوع آخر."
+          }
+        ],
+        "glossary": [
+          {
+            "en": "researcher",
+            "ipa": "/rɪˈsɜːtʃə(r)/",
+            "ar": "باحث",
+            "note_ar": "Contains /ɜː/ and a schwa"
+          },
+          {
+            "en": "publish",
+            "ipa": "/ˈpʌblɪʃ/",
+            "ar": "ينشر",
+            "note_ar": "—"
+          },
+          {
+            "en": "measure",
+            "ipa": "/ˈmeʒə(r)/",
+            "ar": "يقيس",
+            "note_ar": "Contains /ʒ/"
+          },
+          {
+            "en": "cost of living",
+            "ipa": "/kɒst əv ˈlɪvɪŋ/",
+            "ar": "تكلفة المعيشة",
+            "note_ar": "A fixed phrase"
+          },
+          {
+            "en": "in common",
+            "ipa": "/ɪn ˈkɒmən/",
+            "ar": "مشترك",
+            "note_ar": "have X in common"
+          },
+          {
+            "en": "report",
+            "ipa": "/rɪˈpɔːt/",
+            "ar": "يفيد بـ",
+            "note_ar": "Here: say about themselves"
+          },
+          {
+            "en": "irrelevant",
+            "ipa": "/ɪˈreləvənt/",
+            "ar": "غير ذي صلة",
+            "note_ar": "Opposite of relevant"
+          },
+          {
+            "en": "income",
+            "ipa": "/ˈɪnkʌm/",
+            "ar": "دخل",
+            "note_ar": "Stress on the first"
+          },
+          {
+            "en": "trust",
+            "ipa": "/trʌst/",
+            "ar": "ثقة",
+            "note_ar": "Also a verb"
+          },
+          {
+            "en": "wallet",
+            "ipa": "/ˈwɒlɪt/",
+            "ar": "محفظة",
+            "note_ar": "—"
+          },
+          {
+            "en": "stranger",
+            "ipa": "/ˈstreɪndʒə(r)/",
+            "ar": "شخص غريب",
+            "note_ar": "Seen in Week 8"
+          },
+          {
+            "en": "experiment",
+            "ipa": "/ɪkˈsperɪmənt/",
+            "ar": "تجربة",
+            "note_ar": "Stress on the second"
+          },
+          {
+            "en": "per cent",
+            "ipa": "/pə ˈsent/",
+            "ar": "بالمئة",
+            "note_ar": "Two words in British English"
+          },
+          {
+            "en": "factor",
+            "ipa": "/ˈfæktə(r)/",
+            "ar": "عامل",
+            "note_ar": "—"
+          }
+        ],
+        "questions": []
+      }
+    },
+    {
+      "kind": "selfcheck",
+      "day_number": 7,
+      "title_ar": "الاختبار الذاتي — نهاية الفصل",
+      "title_en": "End-of-Chapter Self-Check",
+      "payload": {
+        "intro_ar": "كن صادقاً. هذا يحدّد هل تنتقل أم تُعيد.",
+        "items": [
+          {
+            "can_ar": "أصوغ المقارنة والتفضيل لـ13 من 15 صفة",
+            "can_en": "Form the comparative and superlative of 13 of the 15 adjectives in Exercise 1?",
+            "proof_ar": "تمارين اليوم 1"
+          },
+          {
+            "can_ar": "أقول الصيغ الشاذة الستّ من الذاكرة",
+            "can_en": "Say the six irregulars from memory (good, bad, far, many, little, old)?",
+            "proof_ar": "جلسة المراجعة المتباعدة — تقول لك الرقم"
+          },
+          {
+            "can_ar": "أقول bigger than عشرين مرة بلا أن أقول from مرة",
+            "can_en": "Say bigger than twenty times without once saying from?",
+            "proof_ar": "تمارين اليوم 1"
+          },
+          {
+            "can_ar": "أعيد صياغة المقارنة بـisn’t as … as",
+            "can_en": "Rewrite a comparative as isn't as … as?",
+            "proof_ar": "تمارين اليوم 3"
+          },
+          {
+            "can_ar": "أستخدم much و far و a bit بدل very مع المقارنة",
+            "can_en": "Use much / far / a bit instead of very with comparatives?",
+            "proof_ar": "تمارين اليوم 3"
+          },
+          {
+            "can_ar": "أفرّق بين look like و is he like و how is he و what does he like",
+            "can_en": "Answer the four questions in §6 correctly (look like / is he like / how is he / what does he like)?",
+            "proof_ar": "الحوار الثاني"
+          },
+          {
+            "can_ar": "أسمع الشوا في 7 من 9 كلمات",
+            "can_en": "Hear the schwa in 7 of the 9 words in §4.4?",
+            "proof_ar": "قسم النطق"
+          },
+          {
+            "can_ar": "أتذكّر 80 من 100 كلمة من العربية",
+            "can_en": "Recall 80 of the 100 words from the Arabic?",
+            "proof_ar": "جلسة المراجعة المتباعدة — تقول لك الرقم"
+          },
+          {
+            "can_ar": "أتحدّث 100 ثانية مقارناً شيئين، بأربع مقارنات فأكثر",
+            "can_en": "Speak for 100 seconds comparing two things, with four+ comparatives?",
+            "proof_ar": "تسجيل هذا الأسبوع"
+          }
+        ],
+        "pass_ar": "8–9 ✓ → انتقل إلى الأسبوع الحادي عشر — المستقبل.",
+        "partial_ar": "6–7 ✓ → انتقل، لكن درّب than والصفات الشاذة الستّ يومياً.",
+        "fail_ar": "أقل من 6 → أعد قسم القواعد. المقارنة تظهر في كل مهمة نقاش من هنا."
+      }
+    },
+    {
+      "kind": "breaktime",
+      "day_number": 7,
+      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
+      "title_en": "Break Time — English Outside the Book",
+      "payload": {
+        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
+        "compare": [
+          {
+            "aspect_ar": "الكمّ",
+            "intensive_ar": "دقائق من الصوت",
+            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
+          },
+          {
+            "aspect_ar": "الفهم",
+            "intensive_ar": "تستهدف 100%",
+            "extensive_ar": "50–70% تكفي"
+          },
+          {
+            "aspect_ar": "الجهد",
+            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
+            "extensive_ar": "منخفض — تسترخي وتستمتع"
+          },
+          {
+            "aspect_ar": "ما يبنيه",
+            "intensive_ar": "الدقّة والقواعد",
+            "extensive_ar": "السرعة والأذن والحدس والمفردات"
+          },
+          {
+            "aspect_ar": "لو أغفلته",
+            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
+            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
+          }
+        ],
+        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
+        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
+        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
+        "song": {
+          "pick": {
+            "title": "Better Together",
+            "artist": "Jack Johnson",
+            "why_en": "Slow, gentle, and built on comparison. Excellent for hearing weak -er endings.",
+            "search": "Better Together Jack Johnson"
+          },
+          "alternatives": [
+            {
+              "title": "The Best",
+              "artist": "Tina Turner",
+              "why_en": "A superlative in the title and the chorus, repeated dozens of times.",
+              "search": "The Best Tina Turner"
+            },
+            {
+              "title": "Anything Could Happen",
+              "artist": "Ellie Goulding",
+              "why_en": "Faster. Try it only if the first two feel comfortable.",
+              "search": "Anything Could Happen Ellie Goulding"
+            }
+          ],
+          "item": {
+            "key": "song",
+            "icon": "🎵",
+            "label_ar": "أغنية الأسبوع",
+            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
+            "minutes": 20,
+            "steps": [
+              "اختر أغنية بطيئة وشغّلها مرة للمتعة.",
+              "استمع للكلمات المنتهية بـ-er: better · longer · closer. لاحظ كم هي ضعيفة.",
+              "تصيّد كل than و to و of و and و a — ولاحظ أنها تكاد لا تُسمع.",
+              "غنِّ معها. قلّد الضعف لا الكلمات وحدها."
+            ],
+            "prompt_ar": "اكتب خمس كلمات سمعت فيها الشوا"
+          }
+        },
+        "watch": {
+          "pick": {
+            "title": "Extra English — Episodes 15–16",
+            "level": "A1–A2",
+            "where": "YouTube",
+            "why_en": "Keep going.",
+            "search": "Extra English — Episodes 15–16"
+          },
+          "alternatives": [
+            {
+              "title": "Product comparison videos",
+              "level": "A2–B1",
+              "where": "YouTube — search \"[two phones] comparison\"",
+              "why_en": "Comparatives and superlatives, non-stop, for ten minutes. The pictures carry the meaning, so the language load is low.",
+              "search": "Product comparison videos"
+            },
+            {
+              "title": "Paddington",
+              "level": "A2",
+              "where": "Any streaming service",
+              "why_en": "Film night. Beautifully clear British English, kind humour, and slow enough to follow with subtitles.",
+              "search": "Paddington"
+            },
+            {
+              "title": "Easy English — \"City or countryside?\"",
+              "level": "A2",
+              "where": "YouTube — search it",
+              "why_en": "Real people comparing two ways of living — the exact task in the grammar section.",
+              "search": "Easy English — \"City or countryside?\""
+            }
+          ],
+          "item": {
+            "key": "watch",
+            "icon": "📺",
+            "label_ar": "ما تشاهده",
+            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
+            "minutes": 25,
+            "steps": [
+              "شاهد حلقة كاملة بلا توقّف.",
+              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
+              "اكتب ثلاث عبارات علقت في ذهنك."
+            ],
+            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
+            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
+          }
+        },
+        "item_order": [
+          "song",
+          "watch"
+        ],
+        "plan": [
+          {
+            "day_ar": "السبت",
+            "activity_ar": "الأغنية + مهمة تعقّب الشوا",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الأحد",
+            "activity_ar": "Extra English الحلقة 15",
+            "minutes": 25
+          },
+          {
+            "day_ar": "الاثنين",
+            "activity_ar": "فيديو مقارنة بين منتجين",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الثلاثاء",
+            "activity_ar": "احجز درس الأسبوع الثاني عشر واكتب خمسة أسئلة",
+            "minutes": 20
+          },
+          {
+            "day_ar": "الأربعاء",
+            "activity_ar": "Extra English الحلقة 16",
+            "minutes": 25
+          },
+          {
+            "day_ar": "الخميس",
+            "activity_ar": "الكتاب المتدرّج",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الجمعة",
+            "activity_ar": "ليلة فيلم — Paddington",
+            "minutes": 95
+          }
+        ]
+      }
+    },
+    {
+      "kind": "speaking",
+      "title_ar": "التحدّث",
+      "title_en": "Comparing Two Things",
+      "payload": {
+        "task_ar": "قارن دقيقتين بين شيئين تعرفهما جيداً",
+        "target_seconds": 120,
+        "is_baseline": false,
+        "title_en": "Comparing Two Things",
+        "intro_ar": null,
+        "cover_ar": null,
+        "model_en": "I want to compare the two places I lived: my village and Cairo. // I lived in the village until I was seventeen, so I know both well. //\nCairo is much bigger — about twenty million people, and my village had two hundred. // It's also far noisier and much more crowded. The traffic here is the worst thing about the city. My journey to work takes an hour; in the village nothing was more than ten minutes away. //\nBut the village wasn't as interesting as the city. There was one shop, no cinema, no restaurants. Here there's something new every week, and the work is much better paid. //\nThe biggest difference is the people. The village was smaller but a lot friendlier. I knew everybody's name. In Cairo I know my neighbours' faces, not their names. //\nSo in my opinion the city is better for work and the village was better for living. // If I could choose, I'd take the village with a city salary. //",
+        "outline": [
+          {
+            "part_en": "Introduce the two things",
+            "say_en": "I want to compare… I know both because…",
+            "seconds": 20
+          },
+          {
+            "part_en": "The clearest difference",
+            "say_en": "X is much / far …er than Y",
+            "seconds": 30
+          },
+          {
+            "part_en": "The other side",
+            "say_en": "On the other hand, X isn't as … as Y",
+            "seconds": 25
+          },
+          {
+            "part_en": "The biggest difference",
+            "say_en": "The biggest difference is… The best / worst thing is…",
+            "seconds": 25
+          },
+          {
+            "part_en": "Your opinion",
+            "say_en": "In my opinion… because…",
+            "seconds": 20
+          }
+        ],
+        "rubric": [
+          {
+            "label_en": "Comparative forms",
+            "label_ar": null,
+            "levels": [
+              "Wrong or from used",
+              "Mostly correct",
+              "All correct, including irregulars"
+            ]
+          },
+          {
+            "label_en": "Superlatives",
+            "label_ar": null,
+            "levels": [
+              "None used, or missing the",
+              "One used",
+              "Two+ used correctly"
+            ]
+          },
+          {
+            "label_en": "as … as",
+            "label_ar": null,
+            "levels": [
+              "Not used",
+              "Used once",
+              "Used naturally"
+            ]
+          },
+          {
+            "label_en": "Modifiers",
+            "label_ar": null,
+            "levels": [
+              "None, or very + comparative",
+              "much used",
+              "much / far / a bit used well"
+            ]
+          },
+          {
+            "label_en": "Schwa in -er and than",
+            "label_ar": null,
+            "levels": [
+              "Full, heavy endings",
+              "Sometimes weak",
+              "Consistently weak and natural"
+            ]
+          },
+          {
+            "label_en": "Length",
+            "label_ar": "الطول",
+            "levels": [
+              "Under 60 sec",
+              "60–100 sec",
+              "100–120 sec"
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "title_ar": "اقرأ النموذج",
+            "title_en": "Study the Model",
+            "text_en": []
+          },
+          {
+            "title_ar": "ابنِ نصّك أنت",
+            "title_en": "Build Your Version",
+            "text_en": [
+              "Choose one of these three:",
+              "Two places you know well",
+              "Two people in your family",
+              "Your life now and your life five years ago"
+            ]
+          },
+          {
+            "title_ar": "سجّل ثم قيّم نفسك",
+            "title_en": "Record and Score",
+            "text_en": [
+              "Record 2 minutes from memory. Save as Week10."
+            ]
+          }
+        ],
+        "save_as": "Week10"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغتي المقارنة والتفضيل",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "ADJECTIVE      COMPARATIVE        SUPERLATIVE",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: cheaper / the cheapest"
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغتي المقارنة والتفضيل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغتي المقارنة والتفضيل",
+      "payload": {
+        "sentence": "cheap       -> ____________"
+      },
+      "answer": {
+        "accepted": [
+          "bigger / the biggest"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغتي المقارنة والتفضيل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغتي المقارنة والتفضيل",
+      "payload": {
+        "sentence": "big         -> ____________"
+      },
+      "answer": {
+        "accepted": [
+          "easier / the easiest"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغتي المقارنة والتفضيل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغتي المقارنة والتفضيل",
+      "payload": {
+        "sentence": "easy        -> ____________"
+      },
+      "answer": {
+        "accepted": [
+          "more expensive / the most expensive"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغتي المقارنة والتفضيل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغتي المقارنة والتفضيل",
+      "payload": {
+        "sentence": "expensive   -> ____________"
+      },
+      "answer": {
+        "accepted": [
+          "better / the best"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغتي المقارنة والتفضيل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغتي المقارنة والتفضيل",
+      "payload": {
+        "sentence": "good        -> ____________"
+      },
+      "answer": {
+        "accepted": [
+          "worse / the worst"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغتي المقارنة والتفضيل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغتي المقارنة والتفضيل",
+      "payload": {
+        "sentence": "bad         -> ____________"
+      },
+      "answer": {
+        "accepted": [
+          "safer / the safest"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغتي المقارنة والتفضيل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغتي المقارنة والتفضيل",
+      "payload": {
+        "sentence": "safe        -> ____________"
+      },
+      "answer": {
+        "accepted": [
+          "noisier / the noisiest"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغتي المقارنة والتفضيل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغتي المقارنة والتفضيل",
+      "payload": {
+        "sentence": "noisy       -> ____________"
+      },
+      "answer": {
+        "accepted": [
+          "more comfortable / the most comfortable"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغتي المقارنة والتفضيل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغتي المقارنة والتفضيل",
+      "payload": {
+        "sentence": "comfortable -> ____________"
+      },
+      "answer": {
+        "accepted": [
+          "hotter / the hottest"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغتي المقارنة والتفضيل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغتي المقارنة والتفضيل",
+      "payload": {
+        "sentence": "hot         -> ____________"
+      },
+      "answer": {
+        "accepted": [
+          "further / the furthest"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغتي المقارنة والتفضيل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغتي المقارنة والتفضيل",
+      "payload": {
+        "sentence": "far         -> ____________"
+      },
+      "answer": {
+        "accepted": [
+          "healthier / the healthiest"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغتي المقارنة والتفضيل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغتي المقارنة والتفضيل",
+      "payload": {
+        "sentence": "healthy     -> ____________"
+      },
+      "answer": {
+        "accepted": [
+          "more modern / the most modern"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغتي المقارنة والتفضيل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغتي المقارنة والتفضيل",
+      "payload": {
+        "sentence": "modern      -> ____________"
+      },
+      "answer": {
+        "accepted": [
+          "younger / the youngest"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغتي المقارنة والتفضيل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغتي المقارنة والتفضيل",
+      "payload": {
+        "sentence": "young       -> ____________"
+      },
+      "answer": {
+        "accepted": [
+          "more important / the most important"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغتي المقارنة والتفضيل",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "important   -> ……  ->  ……",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "إكمال الجملة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Cairo is ______ (big) than Alexandria.",
+      "payload": {
+        "before": "Cairo is ",
+        "after": " (big) than Alexandria."
+      },
+      "answer": {
+        "accepted": [
+          "bigger"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "إكمال الجملة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "This is ______ (good) restaurant in the city.",
+      "payload": {
+        "before": "This is ",
+        "after": " (good) restaurant in the city."
+      },
+      "answer": {
+        "accepted": [
+          "the best"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "إكمال الجملة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The train is ______ (fast) than the bus.",
+      "payload": {
+        "before": "The train is ",
+        "after": " (fast) than the bus."
+      },
+      "answer": {
+        "accepted": [
+          "faster"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "إكمال الجملة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "My new flat is ______ (comfortable) than the old one.",
+      "payload": {
+        "before": "My new flat is ",
+        "after": " (comfortable) than the old one."
+      },
+      "answer": {
+        "accepted": [
+          "more comfortable"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "إكمال الجملة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Yesterday was ______ (bad) day of the week.",
+      "payload": {
+        "before": "Yesterday was ",
+        "after": " (bad) day of the week."
+      },
+      "answer": {
+        "accepted": [
+          "the worst"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "إكمال الجملة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Learning English is ______ (easy) than learning Chinese.",
+      "payload": {
+        "before": "Learning English is ",
+        "after": " (easy) than learning Chinese."
+      },
+      "answer": {
+        "accepted": [
+          "easier"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "إكمال الجملة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "This is ______ (expensive) hotel I know.",
+      "payload": {
+        "before": "This is ",
+        "after": " (expensive) hotel I know."
+      },
+      "answer": {
+        "accepted": [
+          "the most expensive"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "إكمال الجملة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "My brother is ______ (young) than me.",
+      "payload": {
+        "before": "My brother is ",
+        "after": " (young) than me."
+      },
+      "answer": {
+        "accepted": [
+          "younger"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "إكمال الجملة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Walking is ______ (healthy) than driving.",
+      "payload": {
+        "before": "Walking is ",
+        "after": " (healthy) than driving."
+      },
+      "answer": {
+        "accepted": [
+          "healthier"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "إكمال الجملة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "That was ______ (interesting) film of the year.",
+      "payload": {
+        "before": "That was ",
+        "after": " (interesting) film of the year."
+      },
+      "answer": {
+        "accepted": [
+          "the most interesting"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "إكمال الجملة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The traffic is ______ (bad) than last year.",
+      "payload": {
+        "before": "The traffic is ",
+        "after": " (bad) than last year."
+      },
+      "answer": {
+        "accepted": [
+          "worse"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "إكمال الجملة",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "This road is ______ (dangerous) than the motorway.",
+      "payload": {
+        "before": "This road is ",
+        "after": " (dangerous) than the motorway."
+      },
+      "answer": {
+        "accepted": [
+          "more dangerous"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "إعادة الصياغة بـas … as",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Example: Alexandria is smaller than Cairo. → Alexandria isn't as big as Cairo.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: My flat isn't as big as yours."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "إعادة الصياغة بـas … as",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "إعادة الصياغة بـas … as",
+      "payload": {
+        "sentence": "My flat is smaller than yours."
+      },
+      "answer": {
+        "accepted": [
+          "The bus isn't as fast as the train."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "إعادة الصياغة بـas … as",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "إعادة الصياغة بـas … as",
+      "payload": {
+        "sentence": "The bus is slower than the train."
+      },
+      "answer": {
+        "accepted": [
+          "That restaurant isn't as cheap as this one."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "إعادة الصياغة بـas … as",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "إعادة الصياغة بـas … as",
+      "payload": {
+        "sentence": "This restaurant is cheaper than that one."
+      },
+      "answer": {
+        "accepted": [
+          "Chinese isn't as easy as English."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "إعادة الصياغة بـas … as",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "إعادة الصياغة بـas … as",
+      "payload": {
+        "sentence": "English is easier than Chinese."
+      },
+      "answer": {
+        "accepted": [
+          "This job isn't as bad as my old one."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "إعادة الصياغة بـas … as",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "إعادة الصياغة بـas … as",
+      "payload": {
+        "sentence": "My old job was worse than this one."
+      },
+      "answer": {
+        "accepted": [
+          "Yesterday wasn't as cold as today."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "إعادة الصياغة بـas … as",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "إعادة الصياغة بـas … as",
+      "payload": {
+        "sentence": "Today is colder than yesterday."
+      },
+      "answer": {
+        "accepted": [
+          "The new road isn't as dangerous as the old one."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "إعادة الصياغة بـas … as",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "إعادة الصياغة بـas … as",
+      "payload": {
+        "sentence": "The old road is more dangerous than the new one."
+      },
+      "answer": {
+        "accepted": [
+          "My English isn't as good as hers."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "إعادة الصياغة بـas … as",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Her English is better than mine.  →  ……",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "قصير",
+      "payload": {
+        "options": [
+          "thin",
+          "short",
+          "smart",
+          "elderly"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "مسنّ",
+      "payload": {
+        "options": [
+          "short",
+          "beard",
+          "dark",
+          "elderly"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "مجعّد",
+      "payload": {
+        "options": [
+          "fair",
+          "curly",
+          "look like",
+          "handsome"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "كبير السن",
+      "payload": {
+        "options": [
+          "short",
+          "handsome",
+          "old",
+          "strong"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "شعر",
+      "payload": {
+        "options": [
+          "curly",
+          "hair",
+          "look like",
+          "slim"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "نحيف",
+      "payload": {
+        "options": [
+          "dark",
+          "straight",
+          "heavy",
+          "thin"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "Cairo is bigger from Alexandria."
+      },
+      "answer": {
+        "accepted": [
+          "…bigger than Alexandria."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "This is more better."
+      },
+      "answer": {
+        "accepted": [
+          "This is better."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "He is the most tall in the class."
+      },
+      "answer": {
+        "accepted": [
+          "He is the tallest in the class."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "My car is very faster than yours."
+      },
+      "answer": {
+        "accepted": [
+          "My car is much faster than yours."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "It isn't as bigger as I expected."
+      },
+      "answer": {
+        "accepted": [
+          "It isn't as big as I expected."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "She is gooder at maths."
+      },
+      "answer": {
+        "accepted": [
+          "She is better at maths."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "This is worser than the last one."
+      },
+      "answer": {
+        "accepted": [
+          "This is worse than the last one."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "He is best student in the school."
+      },
+      "answer": {
+        "accepted": [
+          "He is the best student in the school."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "I prefer tea than coffee."
+      },
+      "answer": {
+        "accepted": [
+          "I prefer tea to coffee."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "This film is more boringer."
+      },
+      "answer": {
+        "accepted": [
+          "This film is more boring."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "My flat is different than yours."
+      },
+      "answer": {
+        "accepted": [
+          "My flat is different from yours."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "It is the most cheap hotel here."
+      },
+      "answer": {
+        "accepted": [
+          "It is the cheapest hotel here."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How old is the age gap between them? ______",
+      "payload": {
+        "before": "How old is the age gap between them?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Two years.",
+          "Two years",
+          "two years."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Name three ways Youssef is different in appearance or personality. ______",
+      "payload": {
+        "before": "Name three ways Youssef is different in appearance or personality.  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Taller, stronger, more confident, braver, more popular.",
+          "Taller, stronger, more confident, braver, more popular",
+          "taller, stronger, more confident, braver, more popular."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What kind of student was the narrator at school? ______",
+      "payload": {
+        "before": "What kind of student was the narrator at school?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Quiet, at the back with a book.",
+          "Quiet, at the back with a book",
+          "quiet, at the back with a book."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What did Youssef do in the tree, and what happened? ______",
+      "payload": {
+        "before": "What did Youssef do in the tree, and what happened?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "He climbed the highest tree, fell and broke his arm — and was laughing.",
+          "He climbed the highest tree, fell and broke his arm — and was laughing",
+          "he climbed the highest tree, fell and broke his arm — and was laughing."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Who was better at school? ______",
+      "payload": {
+        "before": "Who was better at school?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "The narrator.",
+          "The narrator",
+          "the narrator."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Who did the teachers prefer? ______",
+      "payload": {
+        "before": "Who did the teachers prefer?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "The teachers preferred the narrator; everybody else preferred Youssef.",
+          "The teachers preferred the narrator; everybody else preferred Youssef",
+          "the teachers preferred the narrator; everybody else preferred youssef."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What are their jobs now? ______",
+      "payload": {
+        "before": "What are their jobs now?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Youssef is a doctor, the narrator is an engineer.",
+          "Youssef is a doctor, the narrator is an engineer",
+          "youssef is a doctor, the narrator is an engineer."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Whose job is harder? ______",
+      "payload": {
+        "before": "Whose job is harder?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Youssef's.",
+          "Youssef's",
+          "youssef's."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Who earns more money? ______",
+      "payload": {
+        "before": "Who earns more money?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "The narrator (the engineer).",
+          "The narrator (the engineer)",
+          "the narrator (the engineer)."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How has their relationship changed? ______",
+      "payload": {
+        "before": "How has their relationship changed?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "They are closer now than as children, and the narrator calls him more.",
+          "They are closer now than as children, and the narrator calls him more",
+          "they are closer now than as children, and the narrator calls him more."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "تعقّب صيغ المقارنة",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "The text contains more than fifteen comparative and superlative forms. Find and list them, then mark which are irregular.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: taller, stronger, more confident, the most popular, braver, the highest, better, much better, more interesting, more, harder, worse, less, closer, the braver, the quieter, more. Irregular: better, worse, less, more."
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The two lists usually contain the same cities.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: they have little in common"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Zurich is one of the most expensive cities.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The happiest countries are all cheap.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: they are not cheap either"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Finland is more expensive than Spain.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The researchers say income is the strongest factor.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: they say trust is the strongest factor"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Seventeen thousand wallets were dropped in forty countries.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "In Denmark, more than eighty per cent were returned.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Money has no connection at all with happiness.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": null
+    }
+  ]
+}

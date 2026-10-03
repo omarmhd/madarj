@@ -1,0 +1,2600 @@
+{
+  "number": 12,
+  "module": 2,
+  "title_en": "Review, the A2 Test & Your First Conversation",
+  "title_ar": "مراجعة واختبار A2 ومحادثتك الأولى",
+  "pron_section": 5,
+  "is_review": true,
+  "objectives": [],
+  "writing": null,
+  "days": [
+    {
+      "number": 1,
+      "focus": "اليوم 1",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — الوحدة كلها",
+          "minutes": 25,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "ترسيخ المفردات — الألف كلمة كلها",
+          "minutes": 25,
+          "ref": "section:word_test"
+        },
+        {
+          "order": 3,
+          "label": "تمارين المراجعة",
+          "minutes": 5,
+          "ref": "exercises:1"
+        },
+        {
+          "order": 4,
+          "label": "سجّل 60–90 ثانية",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "focus": "القواعد",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — الوحدة كلها",
+          "minutes": 25,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "ترسيخ القواعد — الأزمنة الأربعة وشجرة القرار",
+          "minutes": 25,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
+          "label": "تمارين المراجعة",
+          "minutes": 5,
+          "ref": "exercises:2"
+        },
+        {
+          "order": 4,
+          "label": "سجّل 60–90 ثانية",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "focus": "القواعد",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — الوحدة كلها",
+          "minutes": 25,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "ترسيخ النطق — ملامح الوحدة الستّة",
+          "minutes": 25,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
+          "label": "تمارين المراجعة",
+          "minutes": 5,
+          "ref": "exercises:3"
+        },
+        {
+          "order": 4,
+          "label": "سجّل 60–90 ثانية",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "focus": "القواعد",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — الوحدة كلها",
+          "minutes": 25,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القواعد",
+          "minutes": 25,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
+          "label": "تمارين المراجعة",
+          "minutes": 5,
+          "ref": "exercises:4"
+        },
+        {
+          "order": 4,
+          "label": "سجّل 60–90 ثانية",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "focus": "القواعد",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — الوحدة كلها",
+          "minutes": 25,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القواعد",
+          "minutes": 25,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
+          "label": "تمارين المراجعة",
+          "minutes": 5,
+          "ref": "exercises:5"
+        },
+        {
+          "order": 4,
+          "label": "سجّل 60–90 ثانية",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "focus": "أوّل محادثة حقيقيّة",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — الوحدة كلها",
+          "minutes": 25,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "أوّل محادثة حقيقيّة — وما تكتبه بعدها",
+          "minutes": 25,
+          "ref": "section:conversation"
+        },
+        {
+          "order": 3,
+          "label": "تمارين المراجعة",
+          "minutes": 5,
+          "ref": "exercises:6"
+        },
+        {
+          "order": 4,
+          "label": "سجّل 60–90 ثانية",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "focus": "اليوم 7",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — الوحدة كلها",
+          "minutes": 25,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "المقارنة الكبرى + أول محادثة حقيقية",
+          "minutes": 25,
+          "ref": "section:comparison"
+        },
+        {
+          "order": 3,
+          "label": "تمارين المراجعة",
+          "minutes": 5,
+          "ref": "exercises:7"
+        },
+        {
+          "order": 4,
+          "label": "سجّل تسجيل نهاية الوحدة — وقارنه بتسجيلاتك السابقة",
+          "minutes": 5,
+          "ref": "record:baseline"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [],
+  "minimal_pairs": [],
+  "dialogues": [],
+  "sections": [
+    {
+      "kind": "grammar",
+      "day_number": 4,
+      "title_ar": "القواعد",
+      "title_en": "Grammar Consolidation",
+      "payload": {
+        "rule_ar": "أزمنة أربعة في صفحة واحدة: المضارع البسيط والمستمر والماضي البسيط والمستقبل. إن استطعت إنتاج الخلايا الإحدى والعشرين بلا تردّد فأنت تملك النواة القواعدية لمستوى A2.",
+        "rule_en": "Read this table aloud every day this week. Seven rows. If you can produce all twenty-one cells without hesitating, you have the grammatical core of English A2.",
+        "common_errors": [
+          {
+            "error_no": 1,
+            "wrong": "They was happy.",
+            "right": "They were happy.",
+            "why_ar": "they و we و you تأخذ were"
+          },
+          {
+            "error_no": 2,
+            "wrong": "He workeds here.",
+            "right": "He worked here.",
+            "why_ar": "لا -s في الماضي أبداً"
+          },
+          {
+            "error_no": 3,
+            "wrong": "I didn't went.",
+            "right": "I didn't go.",
+            "why_ar": "فعل مجرّد بعد didn’t"
+          },
+          {
+            "error_no": 4,
+            "wrong": "Where you went?",
+            "right": "Where did you go?",
+            "why_ar": "السؤال في الماضي يحتاج did"
+          },
+          {
+            "error_no": 5,
+            "wrong": "He buyed a car.",
+            "right": "He bought a car.",
+            "why_ar": "الأفعال الشاذة تُحفظ"
+          },
+          {
+            "error_no": 6,
+            "wrong": "I am knowing.",
+            "right": "I know.",
+            "why_ar": "أفعال الحالة بلا -ing"
+          },
+          {
+            "error_no": 7,
+            "wrong": "I work now.",
+            "right": "I am working now.",
+            "why_ar": "now تستدعي المستمر"
+          },
+          {
+            "error_no": 8,
+            "wrong": "bigger from",
+            "right": "bigger than",
+            "why_ar": "المقارنة بـthan"
+          },
+          {
+            "error_no": 9,
+            "wrong": "more better",
+            "right": "better",
+            "why_ar": "لا تجمع more مع -er"
+          },
+          {
+            "error_no": 10,
+            "wrong": "When I will finish…",
+            "right": "When I finish…",
+            "why_ar": "مضارع بعد when و if"
+          }
+        ],
+        "checklist_ar": [
+          "البسيط للعادة · المستمر للحظة",
+          "الماضي بـdid و‑ed والأفعال الشاذة",
+          "المستقبل: will · going to · المستمر",
+          "النفي والسؤال لكل زمن بفعله المساعد",
+          "العشرة أخطاء الممنوعة تُقرأ يومياً"
+        ]
+      }
+    },
+    {
+      "kind": "breaktime",
+      "day_number": 7,
+      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
+      "title_en": "Break Time — English Outside the Book",
+      "payload": {
+        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
+        "compare": [
+          {
+            "aspect_ar": "الكمّ",
+            "intensive_ar": "دقائق من الصوت",
+            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
+          },
+          {
+            "aspect_ar": "الفهم",
+            "intensive_ar": "تستهدف 100%",
+            "extensive_ar": "50–70% تكفي"
+          },
+          {
+            "aspect_ar": "الجهد",
+            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
+            "extensive_ar": "منخفض — تسترخي وتستمتع"
+          },
+          {
+            "aspect_ar": "ما يبنيه",
+            "intensive_ar": "الدقّة والقواعد",
+            "extensive_ar": "السرعة والأذن والحدس والمفردات"
+          },
+          {
+            "aspect_ar": "لو أغفلته",
+            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
+            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
+          }
+        ],
+        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
+        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
+        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
+        "story": {
+          "pick": {
+            "title": "Friends",
+            "level": "22 min",
+            "search": "Friends"
+          },
+          "alternatives": [
+            {
+              "title": "The Good Place",
+              "level": "22 min",
+              "search": "The Good Place"
+            },
+            {
+              "title": "Brooklyn Nine-Nine",
+              "level": "22 min",
+              "search": "Brooklyn Nine-Nine"
+            }
+          ],
+          "item": {
+            "key": "story",
+            "icon": "📖",
+            "label_ar": "ما تقرأه",
+            "task_ar": "خمس عشرة دقيقة قراءة أو استماع، ولا تبحث عن أكثر من ثلاث كلمات",
+            "minutes": 15,
+            "steps": [
+              "خمس عشرة دقيقة قراءة أو استماع — لا أكثر.",
+              "لا تبحث عن أكثر من ثلاث كلمات. خمّن الباقي من السياق.",
+              "اكتب جملة واحدة عمّا قرأته، من الذاكرة."
+            ],
+            "why_ar": "الحدس من السياق هو المهارة المقصودة — والبحث عن كل كلمة يقتلها.",
+            "prompt_ar": "جملة واحدة عمّا قرأته"
+          }
+        },
+        "channel": {
+          "pick": {
+            "title": "Forrest Gump",
+            "level": "142 min",
+            "why_en": "If you did not watch it in Week 8. The whole life story in the past tense, slowly.",
+            "search": "Forrest Gump"
+          },
+          "alternatives": [
+            {
+              "title": "The Intern",
+              "level": "121 min",
+              "why_en": "Office and work vocabulary, clear speech, everyday situations.",
+              "search": "The Intern"
+            },
+            {
+              "title": "Finding Nemo",
+              "level": "100 min",
+              "why_en": "If you want something easy after a testing week.",
+              "search": "Finding Nemo"
+            }
+          ],
+          "item": {
+            "key": "channel",
+            "icon": "📱",
+            "label_ar": "ما تتابعه",
+            "task_ar": "شاهد شيئاً واحداً منه على الأقل، وأعد ما أعجبك مرة ثانية",
+            "minutes": 15,
+            "steps": [
+              "شاهد شيئاً واحداً على الأقل من القناة.",
+              "أعد ما أعجبك مرة ثانية.",
+              "اكتب ما تعلّمته في سطر."
+            ],
+            "prompt_ar": "ماذا تعلّمت؟"
+          }
+        },
+        "item_order": [
+          "story",
+          "channel"
+        ],
+        "plan": [
+          {
+            "day_ar": "السبت",
+            "activity_ar": "اختبار إعادة المشاهدة الثاني",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الأحد",
+            "activity_ar": "Friends — الموسم 1 الحلقة 1",
+            "minutes": 25
+          },
+          {
+            "day_ar": "الاثنين",
+            "activity_ar": "مراجعة أغاني الأسابيع 7–11",
+            "minutes": 20
+          },
+          {
+            "day_ar": "الثلاثاء",
+            "activity_ar": "Friends — الحلقة 2",
+            "minutes": 25
+          },
+          {
+            "day_ar": "الأربعاء",
+            "activity_ar": "راحة — عندك اختبار ومحادثة هذا الأسبوع",
+            "minutes": 0
+          },
+          {
+            "day_ar": "الخميس",
+            "activity_ar": "الكتاب المتدرّج",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الجمعة",
+            "activity_ar": "ليلة فيلم — مكافأتك على بلوغ المنتصف",
+            "minutes": 130
+          }
+        ]
+      }
+    },
+    {
+      "kind": "phonics",
+      "day_number": 3,
+      "title_ar": "ترسيخ النطق — ملامح الوحدة الثانية الستّة",
+      "title_en": "Pronunciation Consolidation",
+      "payload": {
+        "intro_ar": "الوحدة الثانية لم تضف أصواتاً جديدة كثيرة، بل أضافت ما يحدث للأصوات حين تتصل: الصيغ الضعيفة والوصل والاختصارات. وهذه هي التي تجعل الكلام السريع مفهوماً أو غامضاً.",
+        "symbols": [
+          {
+            "ipa": "-ed ×3",
+            "arabic_hint": "ثلاثة أشكال: /t/ و/d/ و/ɪd/ — وإضافة مقطع حيث لا مقطع أوضح علامة مبتدئ",
+            "examples": [
+              "worked",
+              "played",
+              "wanted"
+            ]
+          },
+          {
+            "ipa": "/ɜː/",
+            "arabic_hint": "حركة طويلة وسطى لا مقابل لها",
+            "examples": [
+              "work",
+              "bird",
+              "learn",
+              "turn"
+            ]
+          },
+          {
+            "ipa": "/ŋ/",
+            "arabic_hint": "بلا /g/ في النهاية — working لا workingg",
+            "examples": [
+              "working",
+              "going",
+              "thing",
+              "sing"
+            ]
+          },
+          {
+            "ipa": "الشوا /ə/",
+            "arabic_hint": "أكثر أصوات الإنجليزية شيوعاً — كل مقطع غير منبور",
+            "examples": [
+              "about",
+              "teacher",
+              "banana",
+              "computer"
+            ]
+          },
+          {
+            "ipa": "الصيغ الضعيفة",
+            "arabic_hint": "was و were و did و to تُسحق إلى الشوا",
+            "examples": [
+              "was",
+              "were",
+              "to",
+              "for"
+            ]
+          },
+          {
+            "ipa": "’ll · won’t · gonna",
+            "arabic_hint": "اختصارات المستقبل كما تُنطق فعلاً",
+            "examples": [
+              "I’ll",
+              "won’t",
+              "gonna"
+            ]
+          }
+        ],
+        "tip_ar": "اختبار العشرين بنداً في الكتاب: 16 من 20 يعني أنك مستعدّ للوحدة الثالثة."
+      }
+    },
+    {
+      "kind": "selfcheck",
+      "day_number": 6,
+      "title_ar": "اختبار الوحدة — أين أنت الآن",
+      "title_en": "Module Test — Self-Check",
+      "payload": {
+        "intro_ar": "صحّح اختبارك أولاً، ثم أشّر هنا. كن صادقاً: هذا يحدّد هل تنتقل أم تعيد.",
+        "items": [
+          {
+            "can_ar": "أستخدم الماضي البسيط بأفعاله الشاذة",
+            "proof_ar": "تمارين اختبار هذا الأسبوع"
+          },
+          {
+            "can_ar": "أفرّق بين البسيط والمستمر",
+            "proof_ar": "تمارين اختبار هذا الأسبوع"
+          },
+          {
+            "can_ar": "أصوغ المقارنة والتفضيل لأي صفة",
+            "proof_ar": "تمارين اختبار هذا الأسبوع"
+          },
+          {
+            "can_ar": "أختار بين will و going to",
+            "proof_ar": "تمارين اختبار هذا الأسبوع"
+          },
+          {
+            "can_ar": "أنطق -ed بأشكالها الثلاثة",
+            "proof_ar": "تمارين اختبار هذا الأسبوع"
+          },
+          {
+            "can_ar": "أتذكّر 800 من 1000 كلمة من العربية",
+            "proof_ar": "تمارين اختبار هذا الأسبوع"
+          },
+          {
+            "can_ar": "أتحدّث دقيقتين عن ماضيي ومستقبلي",
+            "proof_ar": "تمارين اختبار هذا الأسبوع"
+          }
+        ],
+        "pass_ar": "6–7 ✓ → مستوى A2 مكتمل — انتقل إلى الوحدة الثالثة",
+        "partial_ar": "4–5 ✓ → A2 تقريباً — انتقل مع تدريب يومي على أضعف قسمين",
+        "fail_ar": "أقل من 4 → أعد الوحدة الثانية — الأزمنة الأربعة أساس كل ما بعدها"
+      }
+    },
+    {
+      "kind": "speaking",
+      "title_ar": "التحدّث",
+      "title_en": "Three Minutes — All Four Tenses",
+      "payload": {
+        "task_ar": "سجّل ثلاث دقائق متّصلة تستعمل فيها الأزمنة الأربعة",
+        "target_seconds": 180,
+        "is_baseline": false,
+        "title_en": "Three Minutes — All Four Tenses",
+        "intro_ar": "اختبار الوحدة الثانية شفهياً. المقصود ليس الطول بل التنوّع: أن تسمع نفسك تنتقل بين الأزمنة الأربعة بلا تعثّر.",
+        "cover_ar": [
+          "ماضٍ: شيء حدث لك",
+          "مضارع: ما تفعله هذه الأيام",
+          "مستقبل: خطّة قريبة",
+          "مقارنة: شيئان تفاضل بينهما"
+        ],
+        "model_en": null,
+        "outline": [],
+        "rubric": [],
+        "steps": [],
+        "save_as": "Week12"
+      }
+    },
+    {
+      "kind": "word_test",
+      "title_ar": "اختبار الكلمات",
+      "title_en": "Vocabulary Consolidation",
+      "payload": {
+        "span_ar": "الأسابيع 7–11",
+        "target_percent": 80,
+        "seconds_per_word": 3,
+        "method_ar": [
+          "افتح بطاقات مفردات الأسابيع 7–11.",
+          "اقرأ العربية وقُل الإنجليزية بصوت مسموع. لا تكتب — المطلوب أن تنطقها.",
+          "ضع علامة على كل كلمة لم تخرج منك في ثلاث ثوانٍ.",
+          "ارجع إلى المعلَّمة وحدها، وقُل كلّاً منها خمس مرّات في جملة كاملة.",
+          "في الغد أعِد اختبار المعلَّمة وحدها."
+        ],
+        "gate_ar": "الهدف 80%. إن كانت نتيجتك أقلّ فلا تنتقل إلى الوحدة التالية — خُذ أسبوعاً إضافياً على الكلمات المعلَّمة.",
+        "list": {
+          "title_ar": "الأفعال الشاذّة الثمانون",
+          "title_en": "The Eighty Irregular Verbs — Fast Test",
+          "task_ar": "يظهر الفعل، فقل ماضيه بصوت مسموع.",
+          "note_ar": "الهدف: الثمانون كلّها في أقلّ من ثلاث دقائق.",
+          "minutes": 3,
+          "ask": "past",
+          "words": [
+            {
+              "prompt": "go",
+              "answer": "went",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "come",
+              "answer": "came",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "see",
+              "answer": "saw",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "take",
+              "answer": "took",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "give",
+              "answer": "gave",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "have",
+              "answer": "had",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "do",
+              "answer": "did",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "make",
+              "answer": "made",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "get",
+              "answer": "got",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "know",
+              "answer": "knew",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "say",
+              "answer": "said /sed/",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "tell",
+              "answer": "told",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "think",
+              "answer": "thought",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "find",
+              "answer": "found",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "become",
+              "answer": "became",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "buy",
+              "answer": "bought",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "bring",
+              "answer": "brought",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "catch",
+              "answer": "caught",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "teach",
+              "answer": "taught",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "fight",
+              "answer": "fought",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "eat",
+              "answer": "ate",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "drink",
+              "answer": "drank",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "sleep",
+              "answer": "slept",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "leave",
+              "answer": "left",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "meet",
+              "answer": "met",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "write",
+              "answer": "wrote",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "read",
+              "answer": "read /red/",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "speak",
+              "answer": "spoke",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "break",
+              "answer": "broke",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "choose",
+              "answer": "chose",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "drive",
+              "answer": "drove",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "ride",
+              "answer": "rode",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "run",
+              "answer": "ran",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "swim",
+              "answer": "swam",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "sing",
+              "answer": "sang",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "begin",
+              "answer": "began",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "sit",
+              "answer": "sat",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "stand",
+              "answer": "stood",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "fall",
+              "answer": "fell",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "win",
+              "answer": "won",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "pay",
+              "answer": "paid",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "send",
+              "answer": "sent",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "spend",
+              "answer": "spent",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "lose",
+              "answer": "lost",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "sell",
+              "answer": "sold",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "keep",
+              "answer": "kept",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "feel",
+              "answer": "felt",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "hear",
+              "answer": "heard /hɜːd/",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "hold",
+              "answer": "held",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "build",
+              "answer": "built",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "wear",
+              "answer": "wore",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "wake",
+              "answer": "woke",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "throw",
+              "answer": "threw",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "fly",
+              "answer": "flew",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "steal",
+              "answer": "stole",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "cut",
+              "answer": "cut",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "put",
+              "answer": "put",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "let",
+              "answer": "let",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "hurt",
+              "answer": "hurt",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "cost",
+              "answer": "cost",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "forget",
+              "answer": "forgot",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "understand",
+              "answer": "understood",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "lend",
+              "answer": "lent",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "mean",
+              "answer": "meant /ment/",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "grow",
+              "answer": "grew",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "feed",
+              "answer": "fed",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "lead",
+              "answer": "led",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "light",
+              "answer": "lit",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "beat",
+              "answer": "beat",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "shine",
+              "answer": "shone",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "ring",
+              "answer": "rang",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "rise",
+              "answer": "rose",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "draw",
+              "answer": "drew",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "shut",
+              "answer": "shut",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "hit",
+              "answer": "hit",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "learn",
+              "answer": "learned",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "bear",
+              "answer": "bore",
+              "ipa": null,
+              "ours": false
+            },
+            {
+              "prompt": "lie",
+              "answer": "lay",
+              "ipa": null,
+              "ours": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "kind": "comparison",
+      "title_ar": "المقارنة الكبرى",
+      "title_en": "The Big Comparison",
+      "payload": {
+        "intro_ar": "ثلاثة تسجيلات على الموضوع نفسه. اسمعها كلّها بالترتيب وبلا توقّف.",
+        "weeks": [
+          1,
+          6,
+          12
+        ],
+        "listen_ar": "شغّل كل تسجيل كاملاً ولا توقفه، مهما كان سماعه صعباً.",
+        "metrics": [
+          {
+            "label_en": "Length",
+            "label_ar": "طول التسجيل",
+            "unit_ar": "ثانية",
+            "kind": "number"
+          },
+          {
+            "label_en": "Longest pause",
+            "label_ar": "أطول سكتة",
+            "unit_ar": "ثانية",
+            "kind": "number"
+          },
+          {
+            "label_en": "Number of tenses used",
+            "label_ar": "عدد الأزمنة المستخدمة",
+            "unit_ar": null,
+            "kind": "number"
+          },
+          {
+            "label_en": "Sentences over 10 words",
+            "label_ar": "جمل أطول من عشر كلمات",
+            "unit_ar": null,
+            "kind": "number"
+          },
+          {
+            "label_en": "Times I stopped completely",
+            "label_ar": "مرّات التوقّف التام",
+            "unit_ar": null,
+            "kind": "number"
+          }
+        ],
+        "stems_en": [
+          "Twelve weeks ago I could not …",
+          "Six weeks ago I could not …",
+          "Now I can …",
+          "By Week 24 I want to be able to …"
+        ],
+        "closing_ar": "نصف الدورة خلفك. الأسابيع 13–24 ليست أصعب ممّا فعلت، بل هي الطريقة نفسها على لغة أدقّ."
+      }
+    },
+    {
+      "kind": "conversation",
+      "title_ar": "أوّل محادثة حقيقيّة",
+      "title_en": "Your First Real Conversation",
+      "payload": {
+        "intro_ar": "أهمّ قسم في الكتاب حتى الآن. اقرأه كلّه قبل المحادثة.",
+        "choose": {
+          "lead_ar": "الكلام هو الشيء الوحيد الذي لا يعطيه كتاب. والمعلّم المدفوع ليس الطريق الوحيد، ولا هو أفضل بداية لكثيرين. أمامك أربعة طرق، وأكثر الناس يحتاجون اثنين أو ثلاثة منها معاً.",
+          "combo_ar": "الخلطة التي تنجح مع أكثر الناس: «ب» يوميّاً، و«ج» يوميّاً، و«أ» أسبوعيّاً، و«د» شهريّاً. عشر دقائق مع الذكاء الاصطناعي كل يوم مع إنسان حقيقيّ كل أسبوع أو أسبوعين، خيرٌ من درس واحد غالٍ في الشهر ولا شيء بينهما.",
+          "paths": [
+            {
+              "code_en": "A — Language exchange",
+              "code_ar": "أ — تبادل لغويّ",
+              "cost_ar": "مجّاني",
+              "best_ar": "ضغط حقيقيّ، ولهجات حقيقيّة، وصداقة أحياناً",
+              "weak_ar": "شركاء لا يُعتمد عليهم، ونصف الوقت ليس بلغتك"
+            },
+            {
+              "code_en": "B — AI conversation",
+              "code_ar": "ب — محادثة مع ذكاء اصطناعيّ",
+              "cost_ar": "مجّاني أو رخيص",
+              "best_ar": "كمّ يوميّ، وبلا حرج، ومتاح في الثانية فجراً",
+              "weak_ar": "صبور أكثر من اللازم، ولا يحتار، ولا نتائج حقيقيّة"
+            },
+            {
+              "code_en": "C — Solo training",
+              "code_ar": "ج — تدريب بلا شريك",
+              "cost_ar": "مجّاني",
+              "best_ar": "الطلاقة والنطق والثقة — بلا شريك",
+              "weak_ar": "لا أحد يصحّح لك ولا يفاجئك"
+            },
+            {
+              "code_en": "D — A paid teacher",
+              "code_ar": "د — معلّم مدفوع",
+              "cost_ar": "مدفوع",
+              "best_ar": "التصحيح، والتنظيم، والتحضير للامتحان",
+              "weak_ar": "يكلّف مالاً ويحتاج مواعيد"
+            }
+          ]
+        },
+        "paths": [
+          {
+            "code_ar": "أ — تبادل لغويّ",
+            "lead_ar": "تجد من يتعلّم العربية فتتبادلان: نصف ساعة بالإنجليزية ونصف ساعة بالعربية.",
+            "problem_ar": "والمشكلة الصريحة: أكثر هذه الشراكات تموت في أوّل أسبوع. غريبان بلا نظام ينفد كلامهما. وهذه الخمس تُصلح ذلك.",
+            "rules_ar": [
+              "اضبط مؤقّتاً: خمس عشرة دقيقة إنجليزيّة وخمس عشرة عربيّة، بصرامة. وبلا مؤقّت تغلب لغةٌ دائماً.",
+              "حضّر خمسة أسئلة قبل كل مكالمة. ولا تبدأ أبداً بـ«كيف حالك؟».",
+              "ابدأ برسائل صوتيّة لا مكالمات مباشرة. ترسل تسجيلاً من دقيقتين فيردّ عليك — ضغطٌ أقلّ بكثير، ويمكنك أن تعيد التسجيل.",
+              "ثبّت موعداً أسبوعيّاً: اليوم نفسه والساعة نفسها. والمواعيد العشوائيّة تتوقّف خلال شهر.",
+              "توقّع أن تجرّب ثلاثة أو أربعة شركاء قبل أن ينجح واحد. هذا طبيعيّ لا فشل."
+            ],
+            "closing_ar": "وما يعطيه التبادل ولا يعطيه غيره: إنسانٌ حقيقيّ يحتار، ويسيء فهمك، وله سببه هو ليكون هناك. هذا الضغط لا يصنعه ذكاء اصطناعيّ.",
+            "table": {
+              "head_ar": [
+                "التطبيق",
+                "الرابط",
+                "ملاحظة"
+              ],
+              "rows": [
+                [
+                  "Tandem",
+                  "tandem.net",
+                  "الأكبر. كتابة ورسائل صوتيّة ومكالمات. والمجّانيّ منه يكفي."
+                ],
+                [
+                  "HelloTalk",
+                  "hellotalk.com",
+                  "أدوات تصحيح قويّة — يصحّح شريكك نصّك مباشرةً."
+                ],
+                [
+                  "Speaky",
+                  "speaky.com",
+                  "أبسط وأصغر وأقلّ ضجيجاً."
+                ],
+                [
+                  "ConversationExchange",
+                  "conversationexchange.com",
+                  "قديم وبسيط، وجيّد لتجد أحداً في مدينتك تلقاه وجهاً لوجه."
+                ]
+              ]
+            }
+          },
+          {
+            "code_ar": "ب — محادثة مع ذكاء اصطناعيّ",
+            "lead_ar": "لم يكن هذا موجوداً حين كُتبت أكثر دورات الإنجليزية، وهو يغيّر الصورة لمن لا يستطيع معلّماً أو لا يجده: شريك كلام لا ينفد، صبور، متاح في أيّ وقت.",
+            "problem_ar": "وأكثر المتعلّمين يسيئون استعماله: يتحدّثون بلطف، فيُمدَحون، ولا يتعلّمون شيئاً. هذه التعليمات تُصلح ذلك — أعطها في أول المحادثة.",
+            "prompt": {
+              "start_label_ar": "قل هذا في البداية",
+              "start_en": [
+                "\"I am learning English at B1 level. Please:",
+                "- speak at natural speed, do not simplify for me",
+                "- do NOT correct me while I speak",
+                "- at the end, list my five most important mistakes",
+                "- ask me follow-up questions - do not just answer mine\""
+              ],
+              "roles_label_ar": "ثم أعطه دوراً",
+              "roles_en": [
+                "\"You are a hotel receptionist. My room is double-booked.\"",
+                "\"You are interviewing me for an engineering job. Be tough.\"",
+                "\"You disagree with me about remote work. Argue back.\""
+              ]
+            },
+            "key_ar": "وأهمّ تعليمة فيها: «لا تُبسّط لي». هذه الأنظمة تنزل إلى مستواك تلقائيّاً، وهذا مريح ولا يُعلّم شيئاً. وحين تطلب منها أن تتكلّم طبيعيّاً تتحوّل من راحة إلى تدريب.",
+            "exercises_lead_ar": "وثلاثة تمارين تنجح معه نجاحاً كبيراً:",
+            "exercises": [
+              {
+                "name_ar": "تمثيل الأدوار",
+                "say_en": "\"You are an airline agent. My flight is cancelled.\"",
+                "why_ar": "يُمرّن مواقف الأسبوع 23 بلا حدّ وبلا حرج"
+              },
+              {
+                "name_ar": "الأخطاء الخمسة",
+                "say_en": "\"We just spoke for ten minutes. List my five most important errors and explain each in one line.\"",
+                "why_ar": "تصحيح عند الطلب — وهو ما لا يعطيه التدريب وحدك"
+              },
+              {
+                "name_ar": "الاستجواب",
+                "say_en": "\"Ask me twenty questions about my job, one at a time, and do not accept short answers.\"",
+                "why_ar": "يُجبرك على إجابات طويلة، وهي بالضبط نقطة ضعف مستوى B1"
+              }
+            ],
+            "limits_ar": "كن صريحاً في هذا، فالاعتماد عليه وحده يصنع نوعاً معيّناً من المتعلّمين: طليق في غرفة وحده، متجمّد أمام إنسان.",
+            "limits": [
+              [
+                "لا يحتار حقّاً أبداً",
+                "فلا تتعلّم أن تُصلح سوء فهم، وهي المهارة الأساس في الأسبوع 23"
+              ],
+              [
+                "لا ينفد صبره ولا يقاطعك",
+                "المحادثة الحقيقيّة فيها ضغط، وهذا بلا ضغط"
+              ],
+              [
+                "لا نتائج لفشلك",
+                "لا تخسر شيئاً إن أخفقت. والخوف جزء ممّا يجعل المحادثة الحقيقيّة تثبت في ذهنك"
+              ],
+              [
+                "صوت واحد بلا لهجات",
+                "الإنجليزية الحقيقيّة فيها خمسون لهجة، وهذا فيه واحدة أو اثنتان"
+              ],
+              [
+                "لا يقول لك إنّ كلامك بدا وقحاً",
+                "ولا يتفاعل مع نبرتك إلا إنسان"
+              ]
+            ],
+            "closing_ar": "والصورة الصحيحة: الذكاء الاصطناعيّ هو التمرين في الصالة، والمحادثة الحقيقيّة هي المباراة. تحتاج الصالة أكثر بكثير — لكن من يتمرّن فيها عمره كلّه ولا يلعب مباراة لم يلعب قطّ.",
+            "table": {
+              "head_ar": [
+                "الأداة",
+                "ماذا تفعل",
+                "ملاحظة"
+              ],
+              "rows": [
+                [
+                  "General AI assistants with voice mode",
+                  "محادثة منطوقة كاملة في أيّ موضوع، وبالمستوى الذي تحدّده",
+                  "ChatGPT وClaude وGemini وغيرها كلّها فيها محادثة صوتيّة. وهذا أمرن الخيارات وأفضلها غالباً."
+                ],
+                [
+                  "TalkPal / Praktika / Loora",
+                  "شركاء لغة مصنوعون لهذا الغرض، فيهم تمثيل أدوار وتصحيح",
+                  "أكثر تنظيماً، ومدفوعة أحياناً"
+                ],
+                [
+                  "ELSA Speak",
+                  "للنطق وحده — يعطي درجةً لكل صوت",
+                  "أقوى أداة متاحة لأصوات قسم النطق في كل فصل"
+                ],
+                [
+                  "Speechling",
+                  "speechling.com",
+                  "تسجّل فيصحّح لك مدرّب بشريّ. وفيه خطّة مجّانيّة. وهو مزيج بين «ب» و«د»."
+                ]
+              ]
+            }
+          },
+          {
+            "code_ar": "ج — تدريب بلا شريك",
+            "lead_ar": "طريقٌ يُبخَس حقّه، وهو متاح للجميع الليلة: بلا حساب وبلا شريك. وكل أسلوب هنا يستعمله المترجمون المحترفون.",
+            "closing_ar": "الظلّ مع تسجيل نفسك أقوى خلطة مجّانيّة موجودة. الظلّ يبني الإيقاع والسرعة، والتسجيل يبني الدقّة لأنك تسمع أخطاءك سماعاً لا يتيسّر لك وأنت تتكلّم. عشرون دقيقة منهما يوميّاً تعطيك أكثر من درس أسبوعيّ وحده.",
+            "table": {
+              "head_ar": [
+                "الأسلوب",
+                "كيف",
+                "دقائق"
+              ],
+              "rows": [
+                [
+                  "الظلّ",
+                  "شغّل تسجيلاً وتكلّم مع المتحدّث في الوقت نفسه. لا تنتظره حتى ينتهي.",
+                  "10"
+                ],
+                [
+                  "اروِ ما تفعله",
+                  "صِف ما تفعله بصوت عالٍ وأنت تفعله: «I am making tea. I am looking for a cup.»",
+                  "5"
+                ],
+                [
+                  "اقرأ بصوت عالٍ",
+                  "صفحة من كتابك، بصوت عالٍ وبنغمة. لا في سرّك.",
+                  "10"
+                ],
+                [
+                  "محادثة الكرسيّين",
+                  "مثّل طرفَي الحوار — الزبون والموظّف. وغيّر صوتك بينهما.",
+                  "10"
+                ],
+                [
+                  "رسالة صوتيّة لنفسك",
+                  "دقيقتان في أيّ موضوع. واسمعها غداً لا اليوم.",
+                  "5"
+                ],
+                [
+                  "أعِد التسجيل",
+                  "أعِد الدقيقتين نفسهما بعد أن تسمع، ثم قارن.",
+                  "5"
+                ],
+                [
+                  "أجب عن سؤال",
+                  "خذ أيّ سؤال من قسم القراءة أو الاختبار الذاتي، وأجب عنه بصوت عالٍ تسعين ثانية.",
+                  "5"
+                ]
+              ]
+            },
+            "self_fix": {
+              "title_ar": "كيف تصحّح لنفسك بلا معلّم",
+              "steps_ar": [
+                "سجّل دقيقتين.",
+                "استمع والقلم في يدك، واكتب ما قلته فعلاً.",
+                "قارنه بقائمة الأخطاء العشرين.",
+                "الصق نصّك في Write & Improve، أو اطلب من ذكاء اصطناعيّ أن يعدّ لك أسوأ خمسة أخطاء.",
+                "أعِد التسجيل، وأصلح تلك الخمسة وحدها."
+              ],
+              "link": {
+                "name": "Write & Improve",
+                "note_en": "free instant correction with a CEFR level",
+                "url": "https://writeandimprove.com/"
+              }
+            }
+          },
+          {
+            "code_ar": "د — معلّم مدفوع",
+            "lead_ar": "ما زال أسرع طريق منفرد، ويستحقّ ثمنه ولو درساً واحداً في الشهر. والدرس التجريبيّ رخيص عادةً، ولا تحتاج متحدّثاً أصليّاً — فمعلّم عربيّ جيّد للإنجليزية كثيراً ما يشرح مشكلاتك أنت شرحاً أفضل.",
+            "closing_ar": "واستعمل الدرس المدفوع لما لا يفعله إلا إنسان: أن يصحّح لك، وأن يتفاعل مع نبرتك، وأن يكون غير متوقَّع. ولا تُنفق ساعةً غالية على حفظ مفردات يفعله تطبيق مجّاناً.",
+            "links": [
+              {
+                "name": "italki",
+                "note_en": "trial lessons, wide price range",
+                "url": "https://www.italki.com/"
+              },
+              {
+                "name": "Preply",
+                "note_en": "similar marketplace",
+                "url": "https://preply.com/"
+              }
+            ]
+          }
+        ],
+        "plan": {
+          "title_ar": "خطّتك الأسبوعيّة — اختر صفّاً واحداً",
+          "rows": [
+            {
+              "who_ar": "تستطيع الدفع",
+              "what_ar": "درس واحد مع معلّم + عشر دقائق ذكاء اصطناعيّ يوميّاً + عشر دقائق ظلّ يوميّاً",
+              "total_en": "~3.5 hrs"
+            },
+            {
+              "who_ar": "لا تستطيع الدفع",
+              "what_ar": "خمس عشرة دقيقة ذكاء اصطناعيّ يوميّاً + مكالمة تبادل واحدة + عشر دقائق ظلّ يوميّاً",
+              "total_en": "~3.5 hrs"
+            },
+            {
+              "who_ar": "بلا شريك وبلا ذكاء اصطناعيّ",
+              "what_ar": "عشرون دقيقة ظلّ + عشر دقائق سرد + ثلاثة تسجيلات في الأسبوع",
+              "total_en": "~3 hrs"
+            },
+            {
+              "who_ar": "عندك عشرون دقيقة في اليوم فقط",
+              "what_ar": "عشر دقائق تمثيل أدوار مع ذكاء اصطناعيّ + عشر دقائق ظلّ",
+              "total_en": "~2.5 hrs"
+            }
+          ],
+          "empty_ar": "كل صفٍّ في الأعلى ينجح. الذي لا ينجح هو الصفّ الفارغ: أن تقرأ هذا الكتاب وتحلّ تمارينه ولا تتكلّم بصوت عالٍ أبداً. وهذه أشهر طريقة يصل بها متعلّمٌ إلى الأسبوع الرابع والعشرين وهو لا يقدر أن يُجري محادثة."
+        },
+        "before": {
+          "title_ar": "قبل المحادثة — عشرون دقيقة",
+          "steps_ar": [
+            "اكتب ستّ جمل عن نفسك وقُلها بصوت عالٍ خمس مرّات: اسمك، وعملك، وأسرتك، ولماذا تتعلّم الإنجليزية، ومنذ متى، وشيء فعلته الأسبوع الماضي. هذه افتتاحيّتك.",
+            "اكتب خمسة أسئلة تسألها: من أين أنت؟ منذ متى تُدرّس؟ ماذا تفعل في وقت فراغك؟ أين تعلّمت العربية؟ ما أصعب شيء في الإنجليزية على العرب برأيك؟",
+            "اكتب عبارات النجاة وضعها أمام عينيك.",
+            "جرّب الميكروفون والكاميرا قبل الموعد بعشر دقائق. والذعر التقنيّ أسوأ بداية ممكنة.",
+            "اجلس في مكان هادئ وإضاءته جيّدة. ضع ماءً بجانبك، وأغلق كل نافذة أخرى على شاشتك."
+          ]
+        },
+        "phrases": {
+          "title_ar": "عبارات النجاة — ضعها أمامك",
+          "note_ar": "استعمال هذه العبارات ليس فشلاً — هو المهارة نفسها. من يقول «could you repeat that?» يبقى في المحادثة ثلاثين دقيقة، ومن يومئ صامتاً ينتهي في خمس. ومعلّمك سيُسَرّ لا ينزعج.",
+          "items": [
+            {
+              "when_ar": "لم تسمع",
+              "say_en": "Sorry, could you repeat that?"
+            },
+            {
+              "when_ar": "تريدها أبطأ",
+              "say_en": "Could you speak more slowly, please?"
+            },
+            {
+              "when_ar": "لم تفهم",
+              "say_en": "I don't understand. Can you explain?"
+            },
+            {
+              "when_ar": "تحتاج كلمة",
+              "say_en": "How do you say … in English?"
+            },
+            {
+              "when_ar": "سمعت كلمة جديدة",
+              "say_en": "What does … mean?"
+            },
+            {
+              "when_ar": "تحتاج وقتاً للتفكير",
+              "say_en": "Just a moment, let me think."
+            },
+            {
+              "when_ar": "تريد أن تتأكّد",
+              "say_en": "Is that right? / Did I say that correctly?"
+            },
+            {
+              "when_ar": "تريدها مكتوبة",
+              "say_en": "Can you write it in the chat?"
+            }
+          ]
+        },
+        "during": {
+          "title_ar": "أثناء المحادثة — خمس قواعد",
+          "rules_ar": [
+            "قل مستواك في الدقيقة الأولى: «My English is A2. Please speak slowly and correct my big mistakes». هذه الجملة وحدها تقلب الدرس.",
+            "لا تعتذر مراراً. مرّة أدب، وخمسٌ تأكل دقائق كلامك.",
+            "تكلّم بجمل كاملة ولو ببطء. الإجابة بكلمة واحدة لا تُعلّمك شيئاً.",
+            "وإذا وقفت فصِف بدل أن تسكت. نسيت كلمة wallet؟ قل «the small thing where I keep my money». هذه أنفع مهارة في المحادثة الحقيقيّة.",
+            "اكتب كل كلمة جديدة في نافذة الدردشة لحظة ظهورها. ولا تثق بذاكرتك."
+          ]
+        },
+        "fears": {
+          "title_ar": "ما سيحدث فعلاً",
+          "items": [
+            {
+              "fear_ar": "لن أفهم شيئاً.",
+              "truth_ar": "ستفهم 50–70%. والمعلّمون يضبطون سرعتهم تلقائيّاً خلال دقيقتين."
+            },
+            {
+              "fear_ar": "سأتجمّد تماماً.",
+              "truth_ar": "الدقائق الثلاث الأولى صعبة، ثم تنسى أن تتوتّر."
+            },
+            {
+              "fear_ar": "سيضحكون على أخطائي.",
+              "truth_ar": "درّسوا مئات المبتدئين. وأخطاؤك ليست جديدة عليهم."
+            },
+            {
+              "fear_ar": "ثلاثون دقيقة طويلة جدّاً.",
+              "truth_ar": "تمضي سريعاً جدّاً. وأكثر الناس يُفاجَؤون حين تنتهي."
+            },
+            {
+              "fear_ar": "لستُ جاهزاً بعد.",
+              "truth_ar": "عندك ألف كلمة وأربعة أزمنة. أنت أجهز من أكثر من يحجزون درسهم الأول."
+            }
+          ]
+        },
+        "debrief": {
+          "title_ar": "بعدها — المراجعة، خمس عشرة دقيقة",
+          "note_ar": "افعل هذا فور انتهائها وهي طريّة.",
+          "questions_ar": [
+            "كم دقيقة تكلّمتُ تقريباً؟",
+            "كم نسبة ما فهمتُه؟",
+            "أيّ عبارات النجاة استعملت؟",
+            "ما أصعب لحظة، ولماذا؟",
+            "ما الكلمات الثلاث الجديدة التي تعلّمتها؟",
+            "ما الشيء الواحد الذي سأفعله مختلفاً في المرّة القادمة؟",
+            "متى موعد درسي القادم؟"
+          ],
+          "closing_ar": "واحجز الدرس الثاني خلال أربع وعشرين ساعة. الثقة التي تعطيها أول محادثة تخبو في يومين وتعود الرهبة — فاحجز والثقة ما زالت فيك."
+        }
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "Where she lives?"
+      },
+      "answer": {
+        "accepted": [
+          "Where does she live?"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "I am knowing him well."
+      },
+      "answer": {
+        "accepted": [
+          "I know him well."
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "She goed to school."
+      },
+      "answer": {
+        "accepted": [
+          "She went to school."
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "Cairo is bigger from my town."
+      },
+      "answer": {
+        "accepted": [
+          "…bigger than my town."
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "This is the most cheap hotel."
+      },
+      "answer": {
+        "accepted": [
+          "This is the cheapest hotel."
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "He wills call you."
+      },
+      "answer": {
+        "accepted": [
+          "He will call you."
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "When I will arrive, I will phone."
+      },
+      "answer": {
+        "accepted": [
+          "When I arrive, I will phone."
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "I moved here ago three years."
+      },
+      "answer": {
+        "accepted": [
+          "I moved here three years ago."
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A3)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "write  -> ________    pay"
+      },
+      "answer": {
+        "accepted": [
+          "thought"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A3)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "leave  -> ________    sleep"
+      },
+      "answer": {
+        "accepted": [
+          "took"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A3)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "know   -> ________    read"
+      },
+      "answer": {
+        "accepted": [
+          "wrote"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "prompt": "طفولة       ______    9.  محفظة       ______",
+      "payload": {
+        "before": "طفولة       ",
+        "after": "    9.  محفظة       ________________"
+      },
+      "answer": {
+        "accepted": [
+          "childhood"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "prompt": "رحلة جوية   ______    10. مقابلة      ______",
+      "payload": {
+        "before": "رحلة جوية   ",
+        "after": "    10. مقابلة      ________________"
+      },
+      "answer": {
+        "accepted": [
+          "flight"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "prompt": "أمتعة       ______    11. راتب        ______",
+      "payload": {
+        "before": "أمتعة       ",
+        "after": "    11. راتب        ________________"
+      },
+      "answer": {
+        "accepted": [
+          "luggage"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "prompt": "موعد        ______    12. صبور        ______",
+      "payload": {
+        "before": "موعد        ",
+        "after": "    12. صبور        ________________"
+      },
+      "answer": {
+        "accepted": [
+          "appointment"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "prompt": "يؤجّل       ______    13. كريم        ______",
+      "payload": {
+        "before": "يؤجّل       ",
+        "after": "    13. كريم        ________________"
+      },
+      "answer": {
+        "accepted": [
+          "postpone"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "I ______ (be) very tired yesterday.",
+      "payload": {
+        "before": "I ",
+        "after": " (be) very tired yesterday."
+      },
+      "answer": {
+        "accepted": [
+          "was"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "She ______ (work) in a hospital. It's her job.",
+      "payload": {
+        "before": "She ",
+        "after": " (work) in a hospital. It's her job."
+      },
+      "answer": {
+        "accepted": [
+          "works"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "Look! It ______ (snow).",
+      "payload": {
+        "before": "Look! It ",
+        "after": " (snow)."
+      },
+      "answer": {
+        "accepted": [
+          "is snowing"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "We ______ (go) to Turkey last summer.",
+      "payload": {
+        "before": "We ",
+        "after": " (go) to Turkey last summer."
+      },
+      "answer": {
+        "accepted": [
+          "went"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "He ______ (not / like) coffee.",
+      "payload": {
+        "before": "He ",
+        "after": " (not / like) coffee."
+      },
+      "answer": {
+        "accepted": [
+          "doesn't like"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "They ______ (not / come) to the party last night.",
+      "payload": {
+        "before": "They ",
+        "after": " (not / come) to the party last night."
+      },
+      "answer": {
+        "accepted": [
+          "didn't come"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "______ you ______ (see) my keys?",
+      "payload": {
+        "before": "",
+        "after": " you ______ (see) my keys?"
+      },
+      "answer": {
+        "accepted": [
+          "Did / see",
+          "did / see"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "I ______ (study) English at the moment.",
+      "payload": {
+        "before": "I ",
+        "after": " (study) English at the moment."
+      },
+      "answer": {
+        "accepted": [
+          "am studying"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "My father ______ (buy) a car two months ago.",
+      "payload": {
+        "before": "My father ",
+        "after": " (buy) a car two months ago."
+      },
+      "answer": {
+        "accepted": [
+          "bought"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "Next Friday we ______ (fly) to Rome. It's booked.",
+      "payload": {
+        "before": "Next Friday we ",
+        "after": " (fly) to Rome. It's booked."
+      },
+      "answer": {
+        "accepted": [
+          "are flying"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "I think it ______ (rain) tomorrow.",
+      "payload": {
+        "before": "I think it ",
+        "after": " (rain) tomorrow."
+      },
+      "answer": {
+        "accepted": [
+          "will rain"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "When I ______ (finish) work, I ______ (call) you.",
+      "payload": {
+        "before": "When I ",
+        "after": " (finish) work, I ______ (call) you."
+      },
+      "answer": {
+        "accepted": [
+          "finish / 'll call"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "______ they ______ (be) at home last night?",
+      "payload": {
+        "before": "",
+        "after": " they ______ (be) at home last night?"
+      },
+      "answer": {
+        "accepted": [
+          "Were /",
+          "were /"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "She ______ (write) three books.",
+      "payload": {
+        "before": "She ",
+        "after": " (write) three books."
+      },
+      "answer": {
+        "accepted": [
+          "wrote / has written"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "I ______ (not / understand) the question yesterday.",
+      "payload": {
+        "before": "I ",
+        "after": " (not / understand) the question yesterday."
+      },
+      "answer": {
+        "accepted": [
+          "didn't understand"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "prompt": "What ______ he like? — He's quiet and patient.",
+      "payload": {
+        "before": "What ",
+        "after": " he like? — He's quiet and patient."
+      },
+      "answer": {
+        "accepted": [
+          "is"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "prompt": "I moved here two years ______ .",
+      "payload": {
+        "before": "I moved here two years ",
+        "after": " ."
+      },
+      "answer": {
+        "accepted": [
+          "ago"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "prompt": "It isn't ______ expensive ______ London.",
+      "payload": {
+        "before": "It isn't ",
+        "after": " expensive ______ London."
+      },
+      "answer": {
+        "accepted": [
+          "as / as"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "prompt": "I prefer tea ______ coffee.",
+      "payload": {
+        "before": "I prefer tea ",
+        "after": " coffee."
+      },
+      "answer": {
+        "accepted": [
+          "to"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "prompt": "Let me ______ my diary.",
+      "payload": {
+        "before": "Let me ",
+        "after": " my diary."
+      },
+      "answer": {
+        "accepted": [
+          "check"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — المفردات (B3)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "expensive  <->  ____________    generous  <"
+      },
+      "answer": {
+        "accepted": [
+          "expensive ↔ cheap"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — المفردات (B3)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "patient    <->  ____________    arrive    <"
+      },
+      "answer": {
+        "accepted": [
+          "patient ↔ impatient"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — المفردات (B3)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "confident  <"
+      },
+      "answer": {
+        "accepted": [
+          "confident ↔ shy / nervous"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "prompt": "توقعات الطقس ______   14. خجول        ______",
+      "payload": {
+        "before": "توقعات الطقس ",
+        "after": "   14. خجول        ________________"
+      },
+      "answer": {
+        "accepted": [
+          "weather forecast"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "prompt": "مصعد        ______    15. مزدحم       ______",
+      "payload": {
+        "before": "مصعد        ",
+        "after": "    15. مزدحم       ________________"
+      },
+      "answer": {
+        "accepted": [
+          "lift"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "prompt": "قرية        ______",
+      "payload": {
+        "before": "قرية        ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "village"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "prompt": "I'd like to ______ a ticket to Rome.",
+      "payload": {
+        "before": "I'd like to ",
+        "after": " a ticket to Rome."
+      },
+      "answer": {
+        "accepted": [
+          "book"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "prompt": "The flight is ______ by two hours.",
+      "payload": {
+        "before": "The flight is ",
+        "after": " by two hours."
+      },
+      "answer": {
+        "accepted": [
+          "delayed"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "prompt": "Are you ______ on Tuesday?",
+      "payload": {
+        "before": "Are you ",
+        "after": " on Tuesday?"
+      },
+      "answer": {
+        "accepted": [
+          "free"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "prompt": "Something has come ______ , I need to postpone.",
+      "payload": {
+        "before": "Something has come ",
+        "after": " , I need to postpone."
+      },
+      "answer": {
+        "accepted": [
+          "up"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "prompt": "What does he ______ like? — He's tall with dark hair.",
+      "payload": {
+        "before": "What does he ",
+        "after": " like? — He's tall with dark hair."
+      },
+      "answer": {
+        "accepted": [
+          "look"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "The children ______ (play) in the garden right now.",
+      "payload": {
+        "before": "The children ",
+        "after": " (play) in the garden right now."
+      },
+      "answer": {
+        "accepted": [
+          "are playing"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "He ______ (leave) at seven every morning.",
+      "payload": {
+        "before": "He ",
+        "after": " (leave) at seven every morning."
+      },
+      "answer": {
+        "accepted": [
+          "leaves"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "We ______ (going to / move) house next year. We decided already.",
+      "payload": {
+        "before": "We ",
+        "after": " (going to / move) house next year. We decided already."
+      },
+      "answer": {
+        "accepted": [
+          "are going to move"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "If it ______ (be) cold, we ______ (stay) at home.",
+      "payload": {
+        "before": "If it ",
+        "after": " (be) cold, we ______ (stay) at home."
+      },
+      "answer": {
+        "accepted": [
+          "is / 'll stay"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "fill_blank",
+      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "prompt": "What ______ you ______ (do) last weekend?",
+      "payload": {
+        "before": "What ",
+        "after": " you ______ (do) last weekend?"
+      },
+      "answer": {
+        "accepted": [
+          "did / do"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "They was at the market."
+      },
+      "answer": {
+        "accepted": [
+          "They were at the market."
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "He didn't went to work."
+      },
+      "answer": {
+        "accepted": [
+          "He didn't go to work."
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "Did you were tired?"
+      },
+      "answer": {
+        "accepted": [
+          "Were you tired?"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "I work now, call me later."
+      },
+      "answer": {
+        "accepted": [
+          "I am working now, call me later."
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "This is more better than that."
+      },
+      "answer": {
+        "accepted": [
+          "This is better than that."
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "He is good at drive."
+      },
+      "answer": {
+        "accepted": [
+          "He is good at driving."
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "I will to help you tomorrow."
+      },
+      "answer": {
+        "accepted": [
+          "I will help you tomorrow."
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A3)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "go     -> ________    buy"
+      },
+      "answer": {
+        "accepted": [
+          "went"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "type": "correct_error",
+      "focus_ar": "اختبار المراجعة — القواعد (A3)",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "think  -> ________    take"
+      },
+      "answer": {
+        "accepted": [
+          "bought"
+        ]
+      },
+      "explanation": null,
+      "points": 1
+    }
+  ]
+}

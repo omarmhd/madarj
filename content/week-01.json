@@ -1,0 +1,2998 @@
+{
+  "number": 1,
+  "module": 1,
+  "title_en": "Sounds, Greetings & Introducing Yourself",
+  "title_ar": "الأصوات والتحيات والتعريف بالنفس",
+  "pron_section": 8,
+  "is_review": false,
+  "objectives": [
+    {
+      "en": "Greet someone and respond appropriately at any time of day",
+      "ar": "تحيّي شخصاً وتردّ بشكل مناسب في أي وقت من اليوم"
+    },
+    {
+      "en": "Say my name, age, city, country and job in full sentences",
+      "ar": "تقول اسمك وعمرك ومدينتك وبلدك ووظيفتك بجمل كاملة"
+    },
+    {
+      "en": "Ask another person those same five questions",
+      "ar": "تسأل شخصاً آخر نفس الأسئلة الخمسة"
+    },
+    {
+      "en": "Name and describe the members of my family",
+      "ar": "تسمّي أفراد عائلتك وتصفهم"
+    },
+    {
+      "en": "Say and understand numbers 1–1000, days and months",
+      "ar": "تقول وتفهم الأرقام والأيام والشهور"
+    },
+    {
+      "en": "Use am / is / are correctly in positive, negative and question forms",
+      "ar": "تستخدم am/is/are في الإثبات والنفي والسؤال"
+    },
+    {
+      "en": "Hear the difference between ship and sheep, full and fool",
+      "ar": "تسمع الفرق بين ship و sheep"
+    },
+    {
+      "en": "Ask for help in English when I do not understand",
+      "ar": "تطلب المساعدة بالإنجليزية عندما لا تفهم"
+    },
+    {
+      "en": "Speak about myself for 90 seconds without stopping",
+      "ar": "تتحدث عن نفسك 90 ثانية بلا توقف"
+    },
+    {
+      "en": "Write a 60-word introduction of myself",
+      "ar": "تكتب تعريفاً بنفسك في 60 كلمة"
+    }
+  ],
+  "writing": {
+    "title_ar": "الكتابة — عرّف بنفسك",
+    "title_en": "Writing — Introduce Yourself",
+    "task_ar": "اكتب رسالة من 60 إلى 80 كلمة تعرّف فيها بنفسك إلى زميل جديد. اذكر: اسمك، عمرك، بلدك، مدينتك، مهنتك، وعائلتك.",
+    "task_en": "Write a message of 60–80 words introducing yourself to a new colleague. Include: your name, age, country, city, job, and your family.",
+    "min_words": 60,
+    "max_words": 80,
+    "templates": [
+      {
+        "en": "Hello / Hi, my name is ___.",
+        "ar": "مرحباً، اسمي ___."
+      },
+      {
+        "en": "I am ___ years old.",
+        "ar": "عمري ___ سنة.",
+        "note_ar": "ليس I have ___ years"
+      },
+      {
+        "en": "I am from ___. It is a ___ city.",
+        "ar": "أنا من ___. إنها مدينة ___."
+      },
+      {
+        "en": "I am a/an ___.",
+        "ar": "أنا ___.",
+        "note_ar": "an قبل صوت حركة: an engineer"
+      },
+      {
+        "en": "I am married / I am not married.",
+        "ar": "أنا متزوّج / غير متزوّج."
+      },
+      {
+        "en": "I have ___ brothers and ___ sisters.",
+        "ar": "لي ___ إخوة و___ أخوات."
+      },
+      {
+        "en": "My father is a/an ___ and my mother is a/an ___.",
+        "ar": "أبي ___ وأمّي ___."
+      },
+      {
+        "en": "I am very happy to meet you.",
+        "ar": "أنا سعيد جداً بلقائك."
+      }
+    ],
+    "target_errors": [
+      {
+        "wrong": "I engineer.",
+        "right": "I am an engineer."
+      },
+      {
+        "wrong": "I have 30 years.",
+        "right": "I am 30 years old."
+      },
+      {
+        "wrong": "She is teacher.",
+        "right": "She is a teacher."
+      }
+    ],
+    "checklist": [
+      {
+        "ar": "هل كل جملة فيها am أو is أو are؟"
+      },
+      {
+        "ar": "هل استخدمت a أو an قبل كل مهنة؟"
+      },
+      {
+        "ar": "هل استخدمت is مع he/she/it و are مع we/you/they؟"
+      },
+      {
+        "ar": "هل كل الأسماء والبلدان والمدن بحرف كبير؟"
+      },
+      {
+        "ar": "هل كل جملة بين 5 و12 كلمة؟"
+      },
+      {
+        "ar": "هل المجموع بين 60 و80 كلمة؟"
+      }
+    ],
+    "model_answer": "Hi! My name is Khaled Nasser. I am twenty-six years old and I am from Morocco. I am from Casablanca. It is a big city near the sea. I am a teacher at a small school. I am not married. My family is big — I have two brothers and one sister. My father is an engineer and my mother is a doctor. They are in Casablanca. I am very happy to meet you.",
+    "model_words": 72
+  },
+  "days": [
+    {
+      "number": 1,
+      "focus": "النطق · العبارات · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "رموز النطق + عبارات النجاة",
+          "minutes": 25,
+          "ref": "section:phonics|section:phrases"
+        },
+        {
+          "order": 2,
+          "label": "تدريب النطق",
+          "minutes": 15,
+          "ref": "pron:vowels"
+        },
+        {
+          "order": 3,
+          "label": "تمارين: رموز النطق وعبارات النجاة",
+          "minutes": 5,
+          "ref": "exercises:1"
+        },
+        {
+          "order": 4,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "focus": "العائلة · الأرقام · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "العائلة + الأرقام",
+          "minutes": 25,
+          "ref": "vocab:family,numbers"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين: معاني المفردات",
+          "minutes": 5,
+          "ref": "exercises:2"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "focus": "الأيام والشهور · الحوار الأول · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الأيام والشهور + الحوار الأول",
+          "minutes": 25,
+          "ref": "vocab:days_months|dialogue:1"
+        },
+        {
+          "order": 3,
+          "label": "تدريب النطق",
+          "minutes": 15,
+          "ref": "pron:vowels"
+        },
+        {
+          "order": 4,
+          "label": "تمارين: فهم الحوار الأول",
+          "minutes": 5,
+          "ref": "exercises:3"
+        },
+        {
+          "order": 5,
+          "label": "أعد أداء الحوار وسجّله",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "focus": "القواعد · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القواعد",
+          "minutes": 25,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
+          "label": "تدريب النطق",
+          "minutes": 15,
+          "ref": "pron:vowels"
+        },
+        {
+          "order": 4,
+          "label": "تمارين: فعل to be وتصحيح الأخطاء",
+          "minutes": 5,
+          "ref": "exercises:4"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن نفسك",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "focus": "كلمات أساسية · الحوار الثاني · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الكلمات الأساسية + الحوار الثاني",
+          "minutes": 25,
+          "ref": "vocab:core|dialogue:2"
+        },
+        {
+          "order": 3,
+          "label": "تدريب النطق",
+          "minutes": 15,
+          "ref": "pron:vowels"
+        },
+        {
+          "order": 4,
+          "label": "تمارين: الحوار الثاني والكلمات الأساسية",
+          "minutes": 5,
+          "ref": "exercises:5"
+        },
+        {
+          "order": 5,
+          "label": "صف عائلتك — سجّل",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "focus": "الاستماع · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الاستماع — الدورة الرباعية",
+          "minutes": 25,
+          "ref": "section:listening"
+        },
+        {
+          "order": 3,
+          "label": "إنتاج الحركات + الشادوينج",
+          "minutes": 15,
+          "ref": "pron:production"
+        },
+        {
+          "order": 4,
+          "label": "تمارين: فهم نص الاستماع",
+          "minutes": 5,
+          "ref": "exercises:6"
+        },
+        {
+          "order": 5,
+          "label": "شادوينج الفقرة الأولى — سجّل",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "focus": "القراءة · الكتابة · التمييز الصوتي · الاختبار الذاتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القراءة + الكتابة",
+          "minutes": 25,
+          "ref": "section:reading|writing:1"
+        },
+        {
+          "order": 3,
+          "label": "مراجعة كل الأصوات",
+          "minutes": 15,
+          "ref": "pron:vowels"
+        },
+        {
+          "order": 4,
+          "label": "الاختبار الذاتي لنهاية الأسبوع",
+          "minutes": 5,
+          "ref": "section:selfcheck"
+        },
+        {
+          "order": 5,
+          "label": "★ تسجيل خط الأساس — دقيقتان",
+          "minutes": 5,
+          "ref": "record:baseline"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "group": "family",
+      "word": "father",
+      "ipa": "/ˈfɑːðə(r)/",
+      "arabic": "أب",
+      "example": "My father is a teacher.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "family",
+      "word": "mother",
+      "ipa": "/ˈmʌðə(r)/",
+      "arabic": "أم",
+      "example": "My mother is from Cairo.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "family",
+      "word": "brother",
+      "ipa": "/ˈbrʌðə(r)/",
+      "arabic": "أخ",
+      "example": "I have two brothers.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "family",
+      "word": "sister",
+      "ipa": "/ˈsɪstə(r)/",
+      "arabic": "أخت",
+      "example": "My sister is a student.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "family",
+      "word": "son",
+      "ipa": "/sʌn/",
+      "arabic": "ابن",
+      "example": "Their son is five years old.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "family",
+      "word": "daughter",
+      "ipa": "/ˈdɔːtə(r)/",
+      "arabic": "ابنة",
+      "example": "His daughter is at school.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "family",
+      "word": "wife",
+      "ipa": "/waɪf/",
+      "arabic": "زوجة",
+      "example": "My wife is a doctor.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "family",
+      "word": "husband",
+      "ipa": "/ˈhʌzbənd/",
+      "arabic": "زوج",
+      "example": "Her husband works in a bank.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "family",
+      "word": "uncle",
+      "ipa": "/ˈʌŋkl/",
+      "arabic": "عم / خال",
+      "example": "My uncle lives in Dubai.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "family",
+      "word": "aunt",
+      "ipa": "/ɑːnt/",
+      "arabic": "عمة / خالة",
+      "example": "This is my aunt Lina.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "family",
+      "word": "cousin",
+      "ipa": "/ˈkʌzn/",
+      "arabic": "ابن/بنت العم أو الخال",
+      "example": "My cousin is an engineer.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "family",
+      "word": "grandfather",
+      "ipa": "/ˈɡrænfɑːðə(r)/",
+      "arabic": "جد",
+      "example": "My grandfather is 80.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "family",
+      "word": "grandmother",
+      "ipa": "/ˈɡrænmʌðə(r)/",
+      "arabic": "جدة",
+      "example": "My grandmother cooks very well.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "family",
+      "word": "parents",
+      "ipa": "/ˈpeərənts/",
+      "arabic": "الوالدان",
+      "example": "My parents are at home.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "family",
+      "word": "child",
+      "ipa": "/tʃaɪld/",
+      "arabic": "طفل",
+      "example": "She is a happy child.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "family",
+      "word": "children",
+      "ipa": "/ˈtʃɪldrən/",
+      "arabic": "أطفال",
+      "example": "They have three children.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "family",
+      "word": "family",
+      "ipa": "/ˈfæməli/",
+      "arabic": "عائلة",
+      "example": "My family is big.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "family",
+      "word": "friend",
+      "ipa": "/frend/",
+      "arabic": "صديق",
+      "example": "He is my best friend.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "family",
+      "word": "neighbour",
+      "ipa": "/ˈneɪbə(r)/",
+      "arabic": "جار",
+      "example": "Our neighbour is very kind.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "family",
+      "word": "colleague",
+      "ipa": "/ˈkɒliːɡ/",
+      "arabic": "زميل في العمل",
+      "example": "She is my colleague at work.",
+      "group_label_ar": "العائلة",
+      "group_label_en": "Family"
+    },
+    {
+      "group": "numbers",
+      "word": "one",
+      "ipa": "/wʌn/",
+      "arabic": "واحد",
+      "example": "One coffee, please.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "numbers",
+      "word": "two",
+      "ipa": "/tuː/",
+      "arabic": "اثنان",
+      "example": "I have two brothers.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "numbers",
+      "word": "three",
+      "ipa": "/θriː/",
+      "arabic": "ثلاثة",
+      "example": "Three children.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "numbers",
+      "word": "four",
+      "ipa": "/fɔː(r)/",
+      "arabic": "أربعة",
+      "example": "Four rooms.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "numbers",
+      "word": "five",
+      "ipa": "/faɪv/",
+      "arabic": "خمسة",
+      "example": "Five minutes.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "numbers",
+      "word": "six",
+      "ipa": "/sɪks/",
+      "arabic": "ستة",
+      "example": "He is six years old.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "numbers",
+      "word": "seven",
+      "ipa": "/ˈsevn/",
+      "arabic": "سبعة",
+      "example": "Seven o'clock.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "numbers",
+      "word": "eight",
+      "ipa": "/eɪt/",
+      "arabic": "ثمانية",
+      "example": "Eight hours.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "numbers",
+      "word": "nine",
+      "ipa": "/naɪn/",
+      "arabic": "تسعة",
+      "example": "Nine people.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "numbers",
+      "word": "ten",
+      "ipa": "/ten/",
+      "arabic": "عشرة",
+      "example": "Ten days.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "numbers",
+      "word": "eleven",
+      "ipa": "/ɪˈlevn/",
+      "arabic": "أحد عشر",
+      "example": "Eleven o'clock.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "numbers",
+      "word": "twelve",
+      "ipa": "/twelv/",
+      "arabic": "اثنا عشر",
+      "example": "Twelve months.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "numbers",
+      "word": "thirteen",
+      "ipa": "/ˌθɜːˈtiːn/",
+      "arabic": "ثلاثة عشر",
+      "example": "Thirteen, not thirty.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "numbers",
+      "word": "fourteen",
+      "ipa": "/ˌfɔːˈtiːn/",
+      "arabic": "أربعة عشر",
+      "example": "Fourteen years.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "numbers",
+      "word": "fifteen",
+      "ipa": "/ˌfɪfˈtiːn/",
+      "arabic": "خمسة عشر",
+      "example": "Fifteen minutes.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "numbers",
+      "word": "twenty",
+      "ipa": "/ˈtwenti/",
+      "arabic": "عشرون",
+      "example": "Twenty people.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "numbers",
+      "word": "thirty",
+      "ipa": "/ˈθɜːti/",
+      "arabic": "ثلاثون",
+      "example": "Thirty, not thirteen.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "numbers",
+      "word": "forty",
+      "ipa": "/ˈfɔːti/",
+      "arabic": "أربعون",
+      "example": "Forty minutes.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "numbers",
+      "word": "fifty",
+      "ipa": "/ˈfɪfti/",
+      "arabic": "خمسون",
+      "example": "Fifty pounds.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "numbers",
+      "word": "a hundred",
+      "ipa": "/ə ˈhʌndrəd/",
+      "arabic": "مئة",
+      "example": "A hundred people.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers"
+    },
+    {
+      "group": "days_months",
+      "word": "Monday",
+      "ipa": "/ˈmʌndeɪ/",
+      "arabic": "الاثنين",
+      "example": "See you on Monday.",
+      "group_label_ar": "الأيام والشهور",
+      "group_label_en": "Days and Months"
+    },
+    {
+      "group": "days_months",
+      "word": "Tuesday",
+      "ipa": "/ˈtʃuːzdeɪ/",
+      "arabic": "الثلاثاء",
+      "example": "The meeting is on Tuesday.",
+      "group_label_ar": "الأيام والشهور",
+      "group_label_en": "Days and Months"
+    },
+    {
+      "group": "days_months",
+      "word": "Wednesday",
+      "ipa": "/ˈwenzdeɪ/",
+      "arabic": "الأربعاء",
+      "example": "The d is silent.",
+      "group_label_ar": "الأيام والشهور",
+      "group_label_en": "Days and Months"
+    },
+    {
+      "group": "days_months",
+      "word": "Thursday",
+      "ipa": "/ˈθɜːzdeɪ/",
+      "arabic": "الخميس",
+      "example": "I work on Thursday.",
+      "group_label_ar": "الأيام والشهور",
+      "group_label_en": "Days and Months"
+    },
+    {
+      "group": "days_months",
+      "word": "Friday",
+      "ipa": "/ˈfraɪdeɪ/",
+      "arabic": "الجمعة",
+      "example": "Friday is my day off.",
+      "group_label_ar": "الأيام والشهور",
+      "group_label_en": "Days and Months"
+    },
+    {
+      "group": "days_months",
+      "word": "Saturday",
+      "ipa": "/ˈsætədeɪ/",
+      "arabic": "السبت",
+      "example": "On Saturday I rest.",
+      "group_label_ar": "الأيام والشهور",
+      "group_label_en": "Days and Months"
+    },
+    {
+      "group": "days_months",
+      "word": "Sunday",
+      "ipa": "/ˈsʌndeɪ/",
+      "arabic": "الأحد",
+      "example": "Sunday morning.",
+      "group_label_ar": "الأيام والشهور",
+      "group_label_en": "Days and Months"
+    },
+    {
+      "group": "days_months",
+      "word": "January",
+      "ipa": "/ˈdʒænjuəri/",
+      "arabic": "يناير",
+      "example": "In January.",
+      "group_label_ar": "الأيام والشهور",
+      "group_label_en": "Days and Months"
+    },
+    {
+      "group": "days_months",
+      "word": "February",
+      "ipa": "/ˈfebruəri/",
+      "arabic": "فبراير",
+      "example": "February is short.",
+      "group_label_ar": "الأيام والشهور",
+      "group_label_en": "Days and Months"
+    },
+    {
+      "group": "days_months",
+      "word": "March",
+      "ipa": "/mɑːtʃ/",
+      "arabic": "مارس",
+      "example": "In March.",
+      "group_label_ar": "الأيام والشهور",
+      "group_label_en": "Days and Months"
+    },
+    {
+      "group": "days_months",
+      "word": "April",
+      "ipa": "/ˈeɪprəl/",
+      "arabic": "أبريل",
+      "example": "April is warm.",
+      "group_label_ar": "الأيام والشهور",
+      "group_label_en": "Days and Months"
+    },
+    {
+      "group": "days_months",
+      "word": "May",
+      "ipa": "/meɪ/",
+      "arabic": "مايو",
+      "example": "My birthday is in May.",
+      "group_label_ar": "الأيام والشهور",
+      "group_label_en": "Days and Months"
+    },
+    {
+      "group": "days_months",
+      "word": "June",
+      "ipa": "/dʒuːn/",
+      "arabic": "يونيو",
+      "example": "In June.",
+      "group_label_ar": "الأيام والشهور",
+      "group_label_en": "Days and Months"
+    },
+    {
+      "group": "days_months",
+      "word": "July",
+      "ipa": "/dʒuˈlaɪ/",
+      "arabic": "يوليو",
+      "example": "The third of July.",
+      "group_label_ar": "الأيام والشهور",
+      "group_label_en": "Days and Months"
+    },
+    {
+      "group": "days_months",
+      "word": "August",
+      "ipa": "/ˈɔːɡəst/",
+      "arabic": "أغسطس",
+      "example": "Last August.",
+      "group_label_ar": "الأيام والشهور",
+      "group_label_en": "Days and Months"
+    },
+    {
+      "group": "days_months",
+      "word": "September",
+      "ipa": "/sepˈtembə(r)/",
+      "arabic": "سبتمبر",
+      "example": "School starts in September.",
+      "group_label_ar": "الأيام والشهور",
+      "group_label_en": "Days and Months"
+    },
+    {
+      "group": "days_months",
+      "word": "October",
+      "ipa": "/ɒkˈtəʊbə(r)/",
+      "arabic": "أكتوبر",
+      "example": "In October.",
+      "group_label_ar": "الأيام والشهور",
+      "group_label_en": "Days and Months"
+    },
+    {
+      "group": "days_months",
+      "word": "November",
+      "ipa": "/nəʊˈvembə(r)/",
+      "arabic": "نوفمبر",
+      "example": "November is cold.",
+      "group_label_ar": "الأيام والشهور",
+      "group_label_en": "Days and Months"
+    },
+    {
+      "group": "days_months",
+      "word": "December",
+      "ipa": "/dɪˈsembə(r)/",
+      "arabic": "ديسمبر",
+      "example": "In December.",
+      "group_label_ar": "الأيام والشهور",
+      "group_label_en": "Days and Months"
+    },
+    {
+      "group": "core",
+      "word": "name",
+      "ipa": "/neɪm/",
+      "arabic": "اسم",
+      "example": "My name is Sami.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "age",
+      "ipa": "/eɪdʒ/",
+      "arabic": "سامي",
+      "example": "What is your age?",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "city",
+      "ipa": "/ˈsɪti/",
+      "arabic": "مدينة",
+      "example": "I live in a big city.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "country",
+      "ipa": "/ˈkʌntri/",
+      "arabic": "دولة / بلد",
+      "example": "Egypt is a beautiful country.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "job",
+      "ipa": "/dʒɒb/",
+      "arabic": "وظيفة",
+      "example": "She has a good job.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "work",
+      "ipa": "/wɜːk/",
+      "arabic": "عمل / يعمل",
+      "example": "I work in an office.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "home",
+      "ipa": "/həʊm/",
+      "arabic": "منزل (المكان)",
+      "example": "I am at home now.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "house",
+      "ipa": "/haʊs/",
+      "arabic": "بيت (المبنى)",
+      "example": "Their house is new.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "school",
+      "ipa": "/skuːl/",
+      "arabic": "مدرسة",
+      "example": "The school is near my house.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "student",
+      "ipa": "/ˈstjuːdnt/",
+      "arabic": "طالب",
+      "example": "He is a student.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "teacher",
+      "ipa": "/ˈtiːtʃə(r)/",
+      "arabic": "معلّم",
+      "example": "My teacher is very good.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "doctor",
+      "ipa": "/ˈdɒktə(r)/",
+      "arabic": "طبيب",
+      "example": "She is a doctor.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "engineer",
+      "ipa": "/ˌendʒɪˈnɪə(r)/",
+      "arabic": "مهندس",
+      "example": "I am an engineer.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "big",
+      "ipa": "/bɪɡ/",
+      "arabic": "كبير",
+      "example": "This is a big room.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "small",
+      "ipa": "/smɔːl/",
+      "arabic": "صغير",
+      "example": "My car is small.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "good",
+      "ipa": "/ɡʊd/",
+      "arabic": "جيد",
+      "example": "The food is good.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "bad",
+      "ipa": "/bæd/",
+      "arabic": "سيء",
+      "example": "The weather is bad today.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "new",
+      "ipa": "/njuː/",
+      "arabic": "جديد",
+      "example": "I have a new phone.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "old",
+      "ipa": "/əʊld/",
+      "arabic": "قديم / كبير في السن",
+      "example": "My grandfather is old.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "happy",
+      "ipa": "/ˈhæpi/",
+      "arabic": "سعيد",
+      "example": "I am very happy.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "sad",
+      "ipa": "/sæd/",
+      "arabic": "حزين",
+      "example": "Why are you sad?",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "please",
+      "ipa": "/pliːz/",
+      "arabic": "من فضلك",
+      "example": "Two coffees, please.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "thank you",
+      "ipa": "/ˈθæŋk juː/",
+      "arabic": "شكراً لك",
+      "example": "Thank you very much.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "sorry",
+      "ipa": "/ˈsɒri/",
+      "arabic": "آسف",
+      "example": "Sorry, I am late.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "hello",
+      "ipa": "/həˈləʊ/",
+      "arabic": "مرحباً",
+      "example": "Hello, my name is Ali.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "goodbye",
+      "ipa": "/ˌɡʊdˈbaɪ/",
+      "arabic": "مع السلامة",
+      "example": "Goodbye, see you tomorrow.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "morning",
+      "ipa": "/ˈmɔːnɪŋ/",
+      "arabic": "صباح",
+      "example": "Good morning!",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "evening",
+      "ipa": "/ˈiːvnɪŋ/",
+      "arabic": "مساء",
+      "example": "Good evening, everyone.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "night",
+      "ipa": "/naɪt/",
+      "arabic": "ليل",
+      "example": "Good night.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "today",
+      "ipa": "/təˈdeɪ/",
+      "arabic": "اليوم",
+      "example": "Today is Monday.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "tomorrow",
+      "ipa": "/təˈmɒrəʊ/",
+      "arabic": "غداً",
+      "example": "See you tomorrow.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "yesterday",
+      "ipa": "/ˈjestədeɪ/",
+      "arabic": "أمس",
+      "example": "Yesterday was Sunday.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "here",
+      "ipa": "/hɪə(r)/",
+      "arabic": "هنا",
+      "example": "I am here.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "there",
+      "ipa": "/ðeə(r)/",
+      "arabic": "هناك",
+      "example": "My bag is over there.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "this",
+      "ipa": "/ðɪs/",
+      "arabic": "هذا (قريب)",
+      "example": "This is my brother.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "that",
+      "ipa": "/ðæt/",
+      "arabic": "ذلك (بعيد)",
+      "example": "That is my car.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "very",
+      "ipa": "/ˈveri/",
+      "arabic": "جداً",
+      "example": "She is very kind.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "and",
+      "ipa": "/ænd/",
+      "arabic": "و",
+      "example": "Ali and Lina are friends.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "but",
+      "ipa": "/bʌt/",
+      "arabic": "لكن",
+      "example": "It is small but nice.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "yes",
+      "ipa": "/jes/",
+      "arabic": "نعم",
+      "example": "Yes, I am.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    },
+    {
+      "group": "core",
+      "word": "no",
+      "ipa": "/nəʊ/",
+      "arabic": "لا",
+      "example": "No, I am not.",
+      "group_label_ar": "كلمات أساسية",
+      "group_label_en": "Core Words"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "group_label": "short i against long ee",
+      "ipa": "/ɪ/ vs /iː/",
+      "word_a": "ship",
+      "word_b": "sheep",
+      "group_label_ar": "الكسرة القصيرة والممدودة",
+      "hint_ar": "الكسرة الممدودة /iː/ موجودة في العربية (مِيل)، والقصيرة /ɪ/ ليست. فالجديد عليك هو ship لا sheep: أرخِ فمك وافتحه قليلاً وأقصِر الصوت."
+    },
+    {
+      "group_label": "short i against long ee",
+      "ipa": "/ɪ/ vs /iː/",
+      "word_a": "sit",
+      "word_b": "seat",
+      "group_label_ar": "الكسرة القصيرة والممدودة",
+      "hint_ar": "الكسرة الممدودة /iː/ موجودة في العربية (مِيل)، والقصيرة /ɪ/ ليست. فالجديد عليك هو ship لا sheep: أرخِ فمك وافتحه قليلاً وأقصِر الصوت."
+    },
+    {
+      "group_label": "short i against long ee",
+      "ipa": "/ɪ/ vs /iː/",
+      "word_a": "live",
+      "word_b": "leave",
+      "group_label_ar": "الكسرة القصيرة والممدودة",
+      "hint_ar": "الكسرة الممدودة /iː/ موجودة في العربية (مِيل)، والقصيرة /ɪ/ ليست. فالجديد عليك هو ship لا sheep: أرخِ فمك وافتحه قليلاً وأقصِر الصوت."
+    },
+    {
+      "group_label": "short i against long ee",
+      "ipa": "/ɪ/ vs /iː/",
+      "word_a": "fit",
+      "word_b": "feet",
+      "group_label_ar": "الكسرة القصيرة والممدودة",
+      "hint_ar": "الكسرة الممدودة /iː/ موجودة في العربية (مِيل)، والقصيرة /ɪ/ ليست. فالجديد عليك هو ship لا sheep: أرخِ فمك وافتحه قليلاً وأقصِر الصوت."
+    },
+    {
+      "group_label": "short i against long ee",
+      "ipa": "/ɪ/ vs /iː/",
+      "word_a": "bin",
+      "word_b": "bean",
+      "group_label_ar": "الكسرة القصيرة والممدودة",
+      "hint_ar": "الكسرة الممدودة /iː/ موجودة في العربية (مِيل)، والقصيرة /ɪ/ ليست. فالجديد عليك هو ship لا sheep: أرخِ فمك وافتحه قليلاً وأقصِر الصوت."
+    },
+    {
+      "group_label": "short i against long ee",
+      "ipa": "/ɪ/ vs /iː/",
+      "word_a": "chip",
+      "word_b": "cheap",
+      "group_label_ar": "الكسرة القصيرة والممدودة",
+      "hint_ar": "الكسرة الممدودة /iː/ موجودة في العربية (مِيل)، والقصيرة /ɪ/ ليست. فالجديد عليك هو ship لا sheep: أرخِ فمك وافتحه قليلاً وأقصِر الصوت."
+    },
+    {
+      "group_label": "short oo against long oo",
+      "ipa": "/ʊ/ vs /uː/",
+      "word_a": "full",
+      "word_b": "fool",
+      "group_label_ar": "الضمّة القصيرة والممدودة",
+      "hint_ar": "الحرفان oo نفسهما في الكتابة والنطق مختلف: full ضمّة قصيرة مسترخية، وfool ضمّة ممدودة مشدودة الشفتين. فلا تعتمد على الحروف — اعتمد على أذنك."
+    },
+    {
+      "group_label": "short oo against long oo",
+      "ipa": "/ʊ/ vs /uː/",
+      "word_a": "pull",
+      "word_b": "pool",
+      "group_label_ar": "الضمّة القصيرة والممدودة",
+      "hint_ar": "الحرفان oo نفسهما في الكتابة والنطق مختلف: full ضمّة قصيرة مسترخية، وfool ضمّة ممدودة مشدودة الشفتين. فلا تعتمد على الحروف — اعتمد على أذنك."
+    },
+    {
+      "group_label": "short oo against long oo",
+      "ipa": "/ʊ/ vs /uː/",
+      "word_a": "look",
+      "word_b": "Luke",
+      "group_label_ar": "الضمّة القصيرة والممدودة",
+      "hint_ar": "الحرفان oo نفسهما في الكتابة والنطق مختلف: full ضمّة قصيرة مسترخية، وfool ضمّة ممدودة مشدودة الشفتين. فلا تعتمد على الحروف — اعتمد على أذنك."
+    },
+    {
+      "group_label": "open a against long a",
+      "ipa": "/æ/ vs /ɑː/",
+      "word_a": "cat",
+      "word_b": "cart",
+      "group_label_ar": "الفتحة المفتوحة والممدودة",
+      "hint_ar": "صوت /æ/ في cat لا مقابل عربيّ له: افتح فمك أكثر ممّا تظنّ لازماً. و/ɑː/ في cart فتحة ممدودة من مؤخّر الفم. ومن قال «كات» فقد قال غيرهما."
+    },
+    {
+      "group_label": "open a against long a",
+      "ipa": "/æ/ vs /ɑː/",
+      "word_a": "hat",
+      "word_b": "heart",
+      "group_label_ar": "الفتحة المفتوحة والممدودة",
+      "hint_ar": "صوت /æ/ في cat لا مقابل عربيّ له: افتح فمك أكثر ممّا تظنّ لازماً. و/ɑː/ في cart فتحة ممدودة من مؤخّر الفم. ومن قال «كات» فقد قال غيرهما."
+    },
+    {
+      "group_label": "open a against long a",
+      "ipa": "/æ/ vs /ɑː/",
+      "word_a": "bad",
+      "word_b": "bard",
+      "group_label_ar": "الفتحة المفتوحة والممدودة",
+      "hint_ar": "صوت /æ/ في cat لا مقابل عربيّ له: افتح فمك أكثر ممّا تظنّ لازماً. و/ɑː/ في cart فتحة ممدودة من مؤخّر الفم. ومن قال «كات» فقد قال غيرهما."
+    }
+  ],
+  "dialogues": [
+    {
+      "number": 1,
+      "title": "Meeting Someone New",
+      "situation_en": "Sami has just started a new job. Lina works in the same office. They meet in the corridor.",
+      "situation_ar": "سامي بدأ وظيفة جديدة. لينا تعمل في نفس المكتب. يلتقيان في الممر.",
+      "speaker_genders": {
+        "LINA": "f",
+        "SAMI": "m"
+      },
+      "lines": [
+        {
+          "speaker": "LINA",
+          "en": "Good morning! Are you the new engineer?",
+          "ar": "صباح الخير! هل أنت المهندس الجديد؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Yes, I am. My name is Sami.",
+          "ar": "نعم، أنا هو. اسمي سامي."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Nice to meet you, Sami. I'm Lina.",
+          "ar": "سعيدة بلقائك يا سامي. أنا لينا."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Nice to meet you too. Sorry, how do you spell your name?",
+          "ar": "وأنا سعيد بلقائك أيضاً. عذراً، كيف تتهجين اسمك؟"
+        },
+        {
+          "speaker": "LINA",
+          "en": "S–A–R–A. And you? Where are you from?",
+          "ar": "س ا ر ا. وأنت؟ من أين أنت؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "I'm from Egypt. I'm from Alexandria.",
+          "ar": "أنا من مصر. أنا من الإسكندرية."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Oh, nice! Is Alexandria a big city?",
+          "ar": "رائع! هل الإسكندرية مدينة كبيرة؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Yes, it is. It's very big. Are you from here?",
+          "ar": "نعم. إنها كبيرة جداً. هل أنت من هنا؟"
+        },
+        {
+          "speaker": "LINA",
+          "en": "No, I'm not. I'm from Jordan.",
+          "ar": "لا، لست كذلك. أنا من الأردن."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Sorry, could you repeat that?",
+          "ar": "عذراً، هل يمكنك إعادة ذلك؟"
+        },
+        {
+          "speaker": "LINA",
+          "en": "Of course. I'm from Jordan.",
+          "ar": "بالطبع. أنا من الأردن."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Ah, I understand. Thank you!",
+          "ar": "آه، فهمت. شكراً لك!"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Talking About Family",
+      "situation_en": "Later, in the office kitchen. Lina asks Sami about his family.",
+      "situation_ar": "لاحقاً، في مطبخ المكتب. لينا تسأل سامي عن عائلته.",
+      "speaker_genders": {
+        "LINA": "f",
+        "SAMI": "m"
+      },
+      "lines": [
+        {
+          "speaker": "LINA",
+          "en": "Is this a photo of your family?",
+          "ar": "هل هذه صورة لعائلتك؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Yes, it is. This is my wife, Mona.",
+          "ar": "نعم. هذه زوجتي، منى."
+        },
+        {
+          "speaker": "LINA",
+          "en": "She's very beautiful. Is she a doctor?",
+          "ar": "إنها جميلة جداً. هل هي طبيبة؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "No, she isn't. She's a teacher.",
+          "ar": "لا، ليست كذلك. إنها معلّمة."
+        },
+        {
+          "speaker": "LINA",
+          "en": "And are these your children?",
+          "ar": "وهل هؤلاء أطفالك؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Yes, they are. This is my son, Adam. He's six.",
+          "ar": "نعم. هذا ابني آدم. عمره ست سنوات."
+        },
+        {
+          "speaker": "LINA",
+          "en": "He's lovely! And your daughter?",
+          "ar": "إنه لطيف! وابنتك؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Her name is Salma. She's three years old.",
+          "ar": "اسمها سلمى. عمرها ثلاث سنوات."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Are your parents here in the city too?",
+          "ar": "هل والداك هنا في المدينة أيضاً؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "No, they aren't. They're in Alexandria.",
+          "ar": "لا، ليسا كذلك. إنهما في الإسكندرية."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Do you miss them?",
+          "ar": "هل تشتاق إليهما؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Yes, very much. But we speak every day.",
+          "ar": "نعم، كثيراً جداً. لكننا نتحدث كل يوم."
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "kind": "phonics",
+      "day_number": 1,
+      "title_ar": "رموز النطق — الستة التي تهمّ",
+      "title_en": "Reading the Pronunciation Symbols (IPA)",
+      "payload": {
+        "intro_ar": "هذه الستة تهمّ لأن كل واحد منها يشير إلى شيء لا تستطيع أذنك تمييزه بعد. أما البقية فيمكنك تجاوزها بضمير مرتاح.",
+        "symbols": [
+          {
+            "ipa": "ˈ",
+            "arabic_hint": "علامة النبر",
+            "examples": [
+              "computer"
+            ],
+            "note_ar": "ينطق المتحدّث بالعربية مقاطع الكلمة متساوية، فلا يُسمع المقطع المنبور.",
+            "fix_ar": "اضغط على الكلمة واسمع أي مقطع يعلو، ثم صفّق عليه وأنت تنطقها."
+          },
+          {
+            "ipa": "/ə/",
+            "arabic_hint": "الصوت الأشيع في الإنجليزية",
+            "examples": [
+              "about"
+            ],
+            "note_ar": "يُنطق المقطع غير المنبور كاملاً واضحاً، فيبدو الكلام آلياً بطيئاً.",
+            "fix_ar": "كلما رأيت هذا الرمز أرخِ المقطع تماماً: banana ليست «با-نا-نا» بل bə-NA-nə."
+          },
+          {
+            "ipa": "/æ/",
+            "arabic_hint": "لا مقابل عربي له",
+            "examples": [
+              "cat"
+            ],
+            "note_ar": "يُخلط مع الفتحة في bed، فتصير bad و bed كلمة واحدة.",
+            "fix_ar": "افتح فمك أكثر ممّا تظنّ لازماً، واسمع cat بعد bed مباشرة لتُدرك الفرق."
+          },
+          {
+            "ipa": "/ɜː/",
+            "arabic_hint": "لا مقابل عربي له",
+            "examples": [
+              "bird",
+              "work",
+              "world",
+              "first",
+              "learn",
+              "person"
+            ],
+            "note_ar": "لا مقابل عربياً له، فيُبدَل بالضمّة أو الفتحة: work تصير «وورك» أو «وارك».",
+            "fix_ar": "اللسان في وسط الفم والشفتان مسترخيتان — كأنك تتردّد: «إمـمـم»."
+          },
+          {
+            "ipa": "/ɪ/ مقابل /iː/",
+            "arabic_hint": "قصيرة مقابل ممدودة",
+            "examples": [
+              "ship",
+              "sheep"
+            ],
+            "note_ar": "تُنطق الاثنتان كسرة عربية واحدة، فتصير ship و sheep متطابقتين.",
+            "fix_ar": "الفرق في الطول والتوتّر: /iː/ ممدودة مشدودة، و/ɪ/ قصيرة مسترخية. درّبهما في لعبة التمييز."
+          },
+          {
+            "ipa": "/əʊ/",
+            "arabic_hint": "صوتان متداخلان",
+            "examples": [
+              "go"
+            ],
+            "note_ar": "هذا صوتان متتاليان في نَفَس واحد، ويسطّحه المتحدّث بالعربية إلى «أو» ممدودة واحدة.",
+            "fix_ar": "انطقها متحرّكة: ابدأ بفتحة خفيفة وانزلق إلى ضمّة — go ليست «غو» بل «غَـوو»."
+          }
+        ],
+        "tip_ar": "اضغط على أي كلمة لتسمعها. وانتبه: النبر أولاً — فهو ما يجعل كلامك مفهوماً قبل أن تُتقن أي حركة."
+      }
+    },
+    {
+      "kind": "phrases",
+      "day_number": 1,
+      "title_ar": "عبارات النجاة — احفظها أولاً",
+      "title_en": "Survival Phrases — Learn These First",
+      "payload": {
+        "intro_ar": "هذه العبارات العشر تُبقي المحادثة حيّة عندما لا تفهم. احفظها اليوم قبل أي شيء آخر في هذا الفصل. قل كل واحدة بصوت عالٍ خمس عشرة مرة.",
+        "groups": [
+          {
+            "label_ar": "العشر كلها — لحظة عدم الفهم",
+            "items": [
+              {
+                "en": "Sorry, could you repeat that?",
+                "ipa": "/ˈsɒri kʊd ju rɪˈpiːt ðæt/",
+                "ar": "عذراً، هل يمكنك إعادة ذلك؟",
+                "when_ar": "لم تلتقط ما قيل"
+              },
+              {
+                "en": "Could you speak more slowly, please?",
+                "ipa": "/kʊd ju spiːk mɔː ˈsləʊli pliːz/",
+                "ar": "هل يمكنك التحدث ببطء أكثر من فضلك؟",
+                "when_ar": "المتحدث سريع جداً"
+              },
+              {
+                "en": "I don't understand.",
+                "ipa": "/aɪ dəʊnt ˌʌndəˈstænd/",
+                "ar": "أنا لا أفهم",
+                "when_ar": "تهت — قلها ولا تكتفِ بإيماءة الرأس"
+              },
+              {
+                "en": "How do you say … in English?",
+                "ipa": "/haʊ du ju seɪ … ɪn ˈɪŋɡlɪʃ/",
+                "ar": "كيف تقول … بالإنجليزية؟",
+                "when_ar": "تعرف المعنى ولا تعرف الكلمة"
+              },
+              {
+                "en": "What does … mean?",
+                "ipa": "/wɒt dʌz … miːn/",
+                "ar": "ماذا تعني …؟",
+                "when_ar": "سمعت كلمة جديدة"
+              },
+              {
+                "en": "How do you spell that?",
+                "ipa": "/haʊ du ju spel ðæt/",
+                "ar": "كيف تتهجى ذلك؟",
+                "when_ar": "تحتاج الحروف — الأسماء والأماكن"
+              },
+              {
+                "en": "Just a moment, please.",
+                "ipa": "/dʒʌst ə ˈməʊmənt pliːz/",
+                "ar": "لحظة من فضلك",
+                "when_ar": "تحتاج وقتاً للتفكير"
+              },
+              {
+                "en": "I'm sorry, my English isn't very good.",
+                "ipa": "/aɪm ˈsɒri maɪ ˈɪŋɡlɪʃ ˈɪznt ˈveri ɡʊd/",
+                "ar": "آسف، إنجليزيتي ليست جيدة جداً",
+                "when_ar": "تفتتح محادثة صعبة"
+              },
+              {
+                "en": "Can you write it down?",
+                "ipa": "/kæn ju raɪt ɪt daʊn/",
+                "ar": "هل يمكنك كتابتها؟",
+                "when_ar": "الكلام غير واضح والكتابة أسهل"
+              },
+              {
+                "en": "Is that right?",
+                "ipa": "/ɪz ðæt raɪt/",
+                "ar": "هل هذا صحيح؟",
+                "when_ar": "تتحقّق أنك قلتها صحيحة"
+              }
+            ]
+          }
+        ],
+        "why_first_ar": "المبتدئ الذي يستطيع قول Could you repeat that? يبقى في المحادثة. والذي لا يستطيع يصمت ويتوقّف عن التعلّم. هذه العبارات أثمن من خمسين كلمة مفردة."
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 4,
+      "title_ar": "القواعد — فعل to be (am / is / are)",
+      "title_en": "Grammar — The Verb to be",
+      "payload": {
+        "rule_ar": "كل جملة إنجليزية تحتاج فعلاً. وفعل to be هو ما تحتاجه لتقول من أنت، وكم عمرك، ومن أين أنت، وكيف حالك.",
+        "table": {
+          "columns_ar": [
+            "الضمير",
+            "الصورة",
+            "مثال",
+            "المختصر"
+          ],
+          "rows": [
+            [
+              "I",
+              "am",
+              "I am an engineer.",
+              "I'm"
+            ],
+            [
+              "You",
+              "are",
+              "You are my friend.",
+              "You're"
+            ],
+            [
+              "He",
+              "is",
+              "He is a doctor.",
+              "He's"
+            ],
+            [
+              "She",
+              "is",
+              "She is a teacher.",
+              "She's"
+            ],
+            [
+              "It",
+              "is",
+              "It is a big city.",
+              "It's"
+            ],
+            [
+              "We",
+              "are",
+              "We are colleagues.",
+              "We're"
+            ],
+            [
+              "They",
+              "are",
+              "They are at school.",
+              "They're"
+            ]
+          ]
+        },
+        "arabic_contrast_ar": "العربية تحذف الفعل، والإنجليزية لا تحذفه أبداً. هذا مصدر الأخطاء كلها في هذا الفصل.",
+        "contrast_table": [
+          {
+            "ar": "أنا مهندس",
+            "literal": "I engineer",
+            "right": "I am an engineer.",
+            "rule_ar": "العربية تحذف الفعل، والإنجليزية لا تفعل ذلك أبداً"
+          },
+          {
+            "ar": "عمري ثلاثون سنة",
+            "literal": "I have 30 years",
+            "right": "I am 30 years old.",
+            "rule_ar": "الإنجليزية تستخدم be للعمر لا have"
+          },
+          {
+            "ar": "أنا جائع",
+            "literal": "I have hunger",
+            "right": "I am hungry.",
+            "rule_ar": "الحالات تُبنى بـ be + صفة"
+          },
+          {
+            "ar": "هو طبيب",
+            "literal": "He doctor",
+            "right": "He is a doctor.",
+            "rule_ar": "المهن تحتاج أداة a / an"
+          },
+          {
+            "ar": "البيت كبير",
+            "literal": "The house big",
+            "right": "The house is big.",
+            "rule_ar": "الجملة تحتاج فعلاً"
+          }
+        ],
+        "article_rule_ar": "a أم an؟ استخدم an قبل صوت حركة: an engineer · an apple · an hour (الـ h صامتة). واستخدم a قبل صوت ساكن: a doctor · a teacher · a university (تبدأ بصوت /j/). المعيار هو الصوت لا الحرف.",
+        "common_errors": [
+          {
+            "error_no": 1,
+            "wrong": "I engineer.",
+            "right": "I am an engineer.",
+            "why_ar": "الفعل إجباري"
+          },
+          {
+            "error_no": 2,
+            "wrong": "I have 30 years.",
+            "right": "I am 30 years old.",
+            "why_ar": "العمر يستخدم be"
+          },
+          {
+            "error_no": 1,
+            "wrong": "She is teacher.",
+            "right": "She is a teacher.",
+            "why_ar": "المهن تأخذ أداة"
+          },
+          {
+            "error_no": 11,
+            "wrong": "You is my friend.",
+            "right": "You are my friend.",
+            "why_ar": "you تأخذ are دائماً"
+          },
+          {
+            "error_no": null,
+            "wrong": "Yes, I'm.",
+            "right": "Yes, I am.",
+            "why_ar": "لا اختصار في الجواب القصير الموجب"
+          }
+        ],
+        "negation_ar": "النفي: I am not · He is not (isn’t) · They are not (aren’t)",
+        "question_ar": "السؤال: قدّم الفعل — Are you an engineer? · Is she a teacher?",
+        "checklist_ar": [
+          "كل جملة فيها am أو is أو are",
+          "a أو an قبل كل مهنة",
+          "is مع he / she / it — و are مع we / you / they",
+          "العمر بـ be لا have",
+          "الجواب القصير الموجب بلا اختصار: Yes, I am"
+        ]
+      }
+    },
+    {
+      "kind": "listening",
+      "day_number": 6,
+      "title_ar": "الاستماع — الزميل الجديد",
+      "title_en": "Listening — \"The New Colleague\"",
+      "payload": {
+        "method_ar": [
+          "استمع مرة والكتاب مغلق. عمّا يتحدّث؟ قلها في جملة واحدة.",
+          "استمع مرة أخرى. اكتب أي كلمة لم تلتقطها.",
+          "افتح النص واقرأه وأنت تستمع.",
+          "أغلق الكتاب. استمع مرة أخيرة، ولاحظ كم صار أوضح."
+        ],
+        "warning_ar": "لا تقرأ النص قبل الخطوة الثالثة.",
+        "transcript": [
+          {
+            "en": "Hello. My name is Sami Hassan. I am thirty-two years old and I am an engineer. I am from Alexandria, in Egypt. Alexandria is a very big city and it is near the sea.",
+            "ar": "مرحباً. اسمي سامي حسن. عمري اثنان وثلاثون عاماً وأنا مهندس. أنا من الإسكندرية في مصر. الإسكندرية مدينة كبيرة جداً وهي قريبة من البحر."
+          },
+          {
+            "en": "I am married. My wife's name is Mona and she is a teacher at a small school. We have two children. My son is Adam. He is six years old and he is a student. My daughter is Salma. She is three. She is not at school yet.",
+            "ar": "أنا متزوّج. اسم زوجتي منى وهي مدرّسة في مدرسة صغيرة. لدينا طفلان. ابني آدم، عمره ست سنوات وهو طالب. ابنتي سلمى، عمرها ثلاث سنوات. هي ليست في المدرسة بعد."
+          },
+          {
+            "en": "My parents are not here. They are in Alexandria with my brother. My brother's name is Youssef and he is a doctor. I have one sister too. Her name is Nour and she is a student at university. She is twenty years old.",
+            "ar": "والداي ليسا هنا. هما في الإسكندرية مع أخي. اسم أخي يوسف وهو طبيب. ولي أخت واحدة أيضاً. اسمها نور وهي طالبة في الجامعة. عمرها عشرون عاماً."
+          },
+          {
+            "en": "I am happy in my new job. My colleagues are very kind. Lina is my colleague and she is from Jordan. Today is Monday and it is a good day.",
+            "ar": "أنا سعيد في عملي الجديد. زملائي طيّبون جداً. لينا زميلتي وهي من الأردن. اليوم الاثنين وهو يوم جيد."
+          }
+        ],
+        "questions": [
+          {
+            "q_ar": "كم عمر سامي؟",
+            "a_ar": "اثنان وثلاثون عاماً",
+            "hint_ar": "الفقرة الأولى"
+          },
+          {
+            "q_ar": "ما مهنته؟",
+            "a_ar": "مهندس",
+            "hint_ar": "الفقرة الأولى"
+          },
+          {
+            "q_ar": "أين تقع الإسكندرية؟",
+            "a_ar": "في مصر، قريبة من البحر",
+            "hint_ar": "الفقرة الأولى"
+          },
+          {
+            "q_ar": "ما مهنة زوجته؟",
+            "a_ar": "مدرّسة في مدرسة صغيرة",
+            "hint_ar": "الفقرة الثانية"
+          },
+          {
+            "q_ar": "كم طفلاً لسامي؟",
+            "a_ar": "طفلان: آدم وسلمى",
+            "hint_ar": "الفقرة الثانية"
+          },
+          {
+            "q_ar": "هل سلمى في المدرسة؟",
+            "a_ar": "لا — She is not at school yet",
+            "hint_ar": "انتبه للنفي"
+          },
+          {
+            "q_ar": "ما مهنة أخيه؟",
+            "a_ar": "طبيب",
+            "hint_ar": "الفقرة الثالثة"
+          },
+          {
+            "q_ar": "من أين لينا؟",
+            "a_ar": "من الأردن",
+            "hint_ar": "الفقرة الرابعة"
+          }
+        ],
+        "ages_task_ar": "استمع مرة أخرى واكتب عمر كل شخص: سامي · آدم · سلمى · نور",
+        "shadowing_ar": "خُذ الفقرة الأولى فقط. شغّل الصوت وتكلّم معه في الوقت نفسه — لا تنتظر أن ينتهي. قلّد الإيقاع ولو تعثّرت. كرّر الفقرة نفسها عشر مرات. هذا أكثر تمرين فعالية في هذا الفصل."
+      }
+    },
+    {
+      "kind": "reading",
+      "day_number": 7,
+      "title_ar": "القراءة — رسالة من صديق",
+      "title_en": "Reading — \"A Message From a Friend\"",
+      "payload": {
+        "method_ar": "اقرأ النص مرتين. في المرة الأولى لا تتوقّف عند كلمة مجهولة. وفي الثانية استعن بالمسرد أدناه.",
+        "story": [
+          {
+            "en": "Hi Sami,",
+            "ar": "مرحباً سامي،"
+          },
+          {
+            "en": "How are you? I am fine. I am in London now! It is a very big city and it is very old. The buildings are beautiful but the weather is not good. It is cold and grey today.",
+            "ar": "كيف حالك؟ أنا بخير. أنا في لندن الآن! إنها مدينة كبيرة جداً وقديمة جداً. المباني جميلة لكن الطقس ليس جيداً. الجو بارد ورمادي اليوم."
+          },
+          {
+            "en": "I am a student here. I am at a language school near the city centre. My teacher is called Mr Brown. He is from Scotland and he is very funny. My classmates are from many countries — Ali is from Morocco, Yuki is from Japan and Ana is from Brazil. We are good friends now.",
+            "ar": "أنا طالب هنا. أدرس في مدرسة لغات قريبة من وسط المدينة. مدرّسي يُدعى السيد براون. هو من اسكتلندا وطريف جداً. زملائي من بلدان كثيرة — علي من المغرب، ويوكي من اليابان، وآنا من البرازيل. صرنا أصدقاء جيدين."
+          },
+          {
+            "en": "My flat is small but it is comfortable. My neighbour is an old lady. She is very kind and she is always happy.",
+            "ar": "شقتي صغيرة لكنها مريحة. جارتي سيدة مسنّة. هي طيّبة جداً وسعيدة دائماً."
+          },
+          {
+            "en": "I am a little homesick. My family is far away and I miss them. But I am happy here.",
+            "ar": "أشتاق إلى وطني قليلاً. عائلتي بعيدة وأفتقدهم. لكنني سعيد هنا."
+          },
+          {
+            "en": "Write to me soon! How is your new job? Are your colleagues nice?",
+            "ar": "اكتب لي قريباً! كيف عملك الجديد؟ هل زملاؤك طيّبون؟"
+          },
+          {
+            "en": "Your friend,",
+            "ar": "صديقك،"
+          },
+          {
+            "en": "Khaled",
+            "ar": "خالد"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "fine",
+            "ipa": "/faɪn/",
+            "ar": "بخير",
+            "note_ar": "الرد المعتاد على How are you?"
+          },
+          {
+            "en": "weather",
+            "ipa": "/ˈweðə(r)/",
+            "ar": "طقس",
+            "note_ar": "مفردة دائماً"
+          },
+          {
+            "en": "grey",
+            "ipa": "/ɡreɪ/",
+            "ar": "رمادي",
+            "note_ar": "الإملاء الأمريكي: gray"
+          },
+          {
+            "en": "classmate",
+            "ipa": "/ˈklɑːsmeɪt/",
+            "ar": "زميل دراسة",
+            "note_ar": "قارنها بـ colleague (العمل)"
+          },
+          {
+            "en": "flat",
+            "ipa": "/flæt/",
+            "ar": "شقة",
+            "note_ar": "بريطانية؛ الأمريكية: apartment"
+          },
+          {
+            "en": "comfortable",
+            "ipa": "/ˈkʌmftəbl/",
+            "ar": "مريح",
+            "note_ar": "ثلاثة مقاطع فقط — KUMF-tuh-bl"
+          },
+          {
+            "en": "lady",
+            "ipa": "/ˈleɪdi/",
+            "ar": "سيدة",
+            "note_ar": "كلمة مؤدّبة للمرأة"
+          },
+          {
+            "en": "homesick",
+            "ipa": "/ˈhəʊmsɪk/",
+            "ar": "مشتاق للوطن",
+            "note_ar": "كلمة واحدة لا اثنتان"
+          },
+          {
+            "en": "far away",
+            "ipa": "/ˌfɑːr əˈweɪ/",
+            "ar": "بعيد"
+          }
+        ],
+        "questions": [
+          {
+            "q_ar": "خالد في لندن — صح أم خطأ؟",
+            "a_ar": "صح"
+          },
+          {
+            "q_ar": "الطقس في لندن جيد — صح أم خطأ؟",
+            "a_ar": "خطأ — الجو بارد ورمادي"
+          },
+          {
+            "q_ar": "السيد براون من إنجلترا — صح أم خطأ؟",
+            "a_ar": "خطأ — من اسكتلندا"
+          },
+          {
+            "q_ar": "يوكي من البرازيل — صح أم خطأ؟",
+            "a_ar": "خطأ — يوكي من اليابان، وآنا من البرازيل"
+          },
+          {
+            "q_ar": "شقة خالد كبيرة — صح أم خطأ؟",
+            "a_ar": "خطأ — صغيرة لكن مريحة"
+          },
+          {
+            "q_ar": "جارته غير ودودة — صح أم خطأ؟",
+            "a_ar": "خطأ — طيّبة جداً وسعيدة دائماً"
+          }
+        ],
+        "find_task_ar": "ابحث في النص وحدّد: ثلاث جمل بـ am · ثلاث جمل بـ is · جملتين بـ are · جملة منفية واحدة · سؤالين.",
+        "notice_ar": "لاحظ كم مرة تكرّر am و is و are. هذا ما درسته في اليوم الرابع، وهذه هي القراءة التي تُرسّخه."
+      }
+    },
+    {
+      "kind": "breaktime",
+      "day_number": null,
+      "title_ar": "وقت الاستراحة — الأصوات والتحيات",
+      "title_en": "Break Time — English Outside the Book",
+      "payload": {
+        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
+        "compare": [
+          {
+            "aspect_ar": "الكمّ",
+            "intensive_ar": "دقائق من الصوت",
+            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
+          },
+          {
+            "aspect_ar": "الفهم",
+            "intensive_ar": "تستهدف 100%",
+            "extensive_ar": "50–70% تكفي"
+          },
+          {
+            "aspect_ar": "الجهد",
+            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
+            "extensive_ar": "منخفض — تسترخي وتستمتع"
+          },
+          {
+            "aspect_ar": "ما يبنيه",
+            "intensive_ar": "الدقّة والقواعد",
+            "extensive_ar": "السرعة والأذن والحدس والمفردات"
+          },
+          {
+            "aspect_ar": "لو أغفلته",
+            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
+            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
+          }
+        ],
+        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
+        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
+        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
+        "song": {
+          "pick": {
+            "title": "Hello",
+            "artist": "Adele",
+            "why_ar": "بطيئة وواضحة ومبنية على التحيات وفعل to be. تغنّي «Hello, it’s me» — وهي البنية نفسها التي درستها في القواعد.",
+            "search": "Adele Hello lyrics"
+          },
+          "alternatives": [
+            {
+              "title": "You Are My Sunshine",
+              "artist": "Traditional / Johnny Cash",
+              "why_ar": "بسيطة للغاية. كل سطر تقريباً فيه you are أو I am."
+            },
+            {
+              "title": "Count on Me",
+              "artist": "Bruno Mars",
+              "why_ar": "نطق واضح وجمل قصيرة ومزاج إيجابي."
+            }
+          ],
+          "method_ar": [
+            "التشغيل الأول — استمتع فقط. لا تقرأ شيئاً. اتركها موسيقى.",
+            "التشغيل الثاني — تصيَّد الكلمات. استمع لهذه الخمس: hello · me · you · are · sorry. وأشّر كل واحدة تسمعها.",
+            "التشغيل الثالث — مع الكلمات على الشاشة. ابحث عن اسم الأغنية + lyrics.",
+            "التشغيل الرابع — غنِّ معها. بسوء لا بأس. الغناء يجبر فمك على إيقاع الإنجليزية أكثر من أي تمرين."
+          ],
+          "tool": {
+            "name": "LyricsTraining",
+            "url": "https://lyricstraining.com/",
+            "why_ar": "يحوّل أي أغنية إلى لعبة ملء فراغات بمستوى تختاره. ابدأ من Beginner."
+          },
+          "item": {
+            "key": "song",
+            "icon": "🎵",
+            "label_ar": "أغنية الأسبوع",
+            "task_ar": "أنجز التشغيلات الأربع: استمتع · تصيَّد خمس كلمات · مع الكلمات · غنِّ معها",
+            "minutes": 30,
+            "steps": [
+              "شغّلها مرة للمتعة فقط — بلا كلمات ولا تحليل.",
+              "شغّلها ثانية واكتب خمس كلمات سمعتها ولم تكن تعرفها.",
+              "شغّلها مع الكلمات المكتوبة أمامك.",
+              "غنِّ معها مرة. الغناء يضبط الإيقاع بلا أن تفكّر فيه."
+            ],
+            "why_ar": "الأغنية تُعاد خمسين مرة طوعاً، ولا تمرين يُعاد خمسين مرة.",
+            "prompt_ar": "الكلمات الخمس التي التقطتها"
+          }
+        },
+        "watch": {
+          "pick": {
+            "title": "Extra English — Episode 1",
+            "where": "YouTube — ابحث \"Extra English Episode 1\"",
+            "level": "A1–A2",
+            "why_ar": "مسلسل كوميدي صُنع خصيصاً لمتعلّمي الإنجليزية. بطيء وواضح ومترجَم. 30 حلقة، 25 دقيقة لكل واحدة. الكتاب يصفه بأنه أفضل مورد مشاهدة على مستواك.",
+            "url": "https://www.youtube.com/results?search_query=Extra+English+Episode+1"
+          },
+          "alternatives": [
+            {
+              "title": "Easy English — مقابلات الشارع",
+              "level": "A2+",
+              "why_ar": "أناس حقيقيون بسرعة حقيقية، لكن بترجمة مزدوجة. ابدأ بالفيديوهات المعنونة \"Basic\"."
+            },
+            {
+              "title": "Mr Bean",
+              "level": "أي مستوى",
+              "why_ar": "بلا كلام تقريباً. استخدمه بطريقة مختلفة: صِف بصوت عالٍ بالإنجليزية ما يفعله. تدريب ممتاز."
+            }
+          ],
+          "subtitle_rule_ar": "قاعدة الترجمة في A1: شاهد بترجمة **إنجليزية** لا عربية أبداً. الترجمة العربية تُطفئ دماغك عن الإنجليزية تماماً — تقرأ ولا تسمع شيئاً. أما الإنجليزية فتربط الصوت بالكلمة المكتوبة، وهو ما تحتاجه بالضبط.",
+          "item": {
+            "key": "watch",
+            "icon": "📺",
+            "label_ar": "ما تشاهده",
+            "task_ar": "شاهد الحلقة كاملة بترجمة إنجليزية (٢٥ دقيقة، على جزأين إن شئت)",
+            "minutes": 30,
+            "steps": [
+              "شاهد حلقة كاملة بلا توقّف.",
+              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
+              "اكتب ثلاث عبارات علقت في ذهنك."
+            ],
+            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
+            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
+          }
+        },
+        "story": {
+          "pick": {
+            "source": "British Council — Elementary Podcasts",
+            "url": "https://learnenglish.britishcouncil.org",
+            "what_ar": "برنامج إذاعي ودود مع النصّ الكامل. السلسلة 1 الحلقة 1 مناسبة تماماً للأسبوع الأول."
+          },
+          "alternatives": [
+            {
+              "source": "Storynory",
+              "url": "https://storynory.com",
+              "what_ar": "قصص صوتية مجانية مع النصّ على الصفحة. ابدأ بقسم Short Stories."
+            },
+            {
+              "source": "Lit2Go",
+              "url": "https://etc.usf.edu/lit2go",
+              "what_ar": "قصص كلاسيكية بصوت ونصّ، مرتّبة بمستوى القراءة. اختر الأدنى."
+            }
+          ],
+          "target_ar": [
+            "قصة قصيرة واحدة، تُسمع ثلاث مرات على مدى الأسبوع.",
+            "الأولى: صوت فقط. الثانية: صوت + نصّ. الثالثة: صوت فقط مرة أخرى.",
+            "لا تبحث عن أكثر من خمس كلمات في القصة كلها."
+          ],
+          "item": {
+            "key": "story",
+            "icon": "📖",
+            "label_ar": "قصة الأسبوع",
+            "task_ar": "قصة قصيرة واحدة ثلاث مرات: صوت · صوت + نصّ · صوت — ولا تبحث عن أكثر من خمس كلمات",
+            "minutes": 45,
+            "steps": [
+              "خمس عشرة دقيقة قراءة أو استماع — لا أكثر.",
+              "لا تبحث عن أكثر من ثلاث كلمات. خمّن الباقي من السياق.",
+              "اكتب جملة واحدة عمّا قرأته، من الذاكرة."
+            ],
+            "why_ar": "الحدس من السياق هو المهارة المقصودة — والبحث عن كل كلمة يقتلها.",
+            "prompt_ar": "جملة واحدة عمّا قرأته"
+          }
+        },
+        "channel": {
+          "pick": {
+            "name": "BBC Learning English",
+            "url": "https://www.youtube.com/@bbclearningenglish",
+            "why_ar": "فيديوهات يومية قصيرة لكل المستويات — أوثق مصدر موجود."
+          },
+          "alternatives": [
+            {
+              "name": "Easy English",
+              "url": "https://www.youtube.com/@EasyEnglishVideos",
+              "why_ar": "محادثات شارع حقيقية بترجمة مزدوجة."
+            },
+            {
+              "name": "Speak English With Vanessa",
+              "url": "https://www.youtube.com/@SpeakEnglishWithVanessa",
+              "why_ar": "إنجليزية أمريكية واضحة، ودودة جداً للمبتدئين."
+            }
+          ],
+          "note_ar": "اختر واحدة واشترك فيها. قناة واحدة تشاهدها فعلاً أفضل من عشر حفظتها ونسيتها.",
+          "item": {
+            "key": "channel",
+            "icon": "📱",
+            "label_ar": "قناة تتابعها",
+            "task_ar": "اشترك في قناة واحدة، وشاهد منها فيديو واحداً على الأقل",
+            "minutes": 15,
+            "steps": [
+              "شاهد شيئاً واحداً على الأقل من القناة.",
+              "أعد ما أعجبك مرة ثانية.",
+              "اكتب ما تعلّمته في سطر."
+            ],
+            "prompt_ar": "ماذا تعلّمت؟"
+          }
+        },
+        "plan": [
+          {
+            "day_ar": "السبت",
+            "activity_ar": "الأغنية — التشغيلان الأول والثاني",
+            "minutes": 10
+          },
+          {
+            "day_ar": "الأحد",
+            "activity_ar": "Extra English الحلقة 1 — النصف الأول",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الاثنين",
+            "activity_ar": "الأغنية — التشغيلان الثالث والرابع + LyricsTraining",
+            "minutes": 20
+          },
+          {
+            "day_ar": "الثلاثاء",
+            "activity_ar": "Extra English الحلقة 1 — النصف الثاني",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الأربعاء",
+            "activity_ar": "القصة — صوت فقط",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الخميس",
+            "activity_ar": "القصة — صوت + نصّ",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الجمعة",
+            "activity_ar": "حرّ. شاهد ما تحبّ بالإنجليزية.",
+            "minutes": 30
+          }
+        ],
+        "item_order": [
+          "song",
+          "watch",
+          "story",
+          "channel"
+        ]
+      }
+    },
+    {
+      "kind": "selfcheck",
+      "day_number": 7,
+      "title_ar": "الاختبار الذاتي — نهاية الفصل",
+      "title_en": "End-of-Chapter Self-Check",
+      "payload": {
+        "intro_ar": "كن صادقاً. هذا يحدّد هل تنتقل أم تُعيد.",
+        "items": [
+          {
+            "can_ar": "تقول عبارات النجاة العشر من الذاكرة بلا نظر",
+            "proof_ar": "قسم عبارات النجاة في اليوم الأول"
+          },
+          {
+            "can_ar": "تحصل على 11 من 12 أو أفضل في اختبار التمييز ship/sheep",
+            "proof_ar": "لعبة التمييز الصوتي"
+          },
+          {
+            "can_ar": "تنتج am/is/are صحيحة في تمارين اليوم الرابع بخطأين أو أقل",
+            "proof_ar": "تمارين اليوم الرابع"
+          },
+          {
+            "can_ar": "تؤدّي الحوار الأول بنفسك بلا الكتاب",
+            "proof_ar": "حوار 1 — Meeting Someone New"
+          },
+          {
+            "can_ar": "تتذكّر 80 من 100 كلمة عندما تُعرض عليك بالعربية",
+            "proof_ar": "جلسة المراجعة المتباعدة تقول لك الرقم"
+          },
+          {
+            "can_ar": "تجيب 6 من 8 أسئلة الاستماع صحيحة",
+            "proof_ar": "قسم الاستماع في اليوم السادس"
+          },
+          {
+            "can_ar": "تكتب 60 كلمة أو أكثر عن نفسك بلا خطأ في to be",
+            "proof_ar": "مهمة الكتابة"
+          },
+          {
+            "can_ar": "تتحدّث 75 ثانية بلا توقّف طويل",
+            "proof_ar": "تسجيل خط الأساس"
+          }
+        ],
+        "pass_ar": "7–8 ✓ → انتقل إلى الأسبوع الثاني. أنت على الوتيرة.",
+        "partial_ar": "5–6 ✓ → انتقل، لكن أعد أضعف قسمين خلال الأسبوع الثاني.",
+        "fail_ar": "أقل من 5 → أعد هذا الفصل. لا تنتقل — الأسبوع الثاني يبني مباشرة على to be.",
+        "keep_recording_ar": "احفظ تسجيل الأسبوع الأول في مكان لن تحذفه منه. بعد ستة أسابيع ستسمعه مرة أخرى، وتلك المقارنة هي ما سيُبقيك مستمراً حين تنفد الدافعية."
+      }
+    },
+    {
+      "kind": "speaking",
+      "title_ar": "التحدّث",
+      "title_en": "Your 90-Second Introduction",
+      "payload": {
+        "task_ar": "عرّف بنفسك في تسعين ثانية: اسمك وعمرك ومدينتك وعملك وأسرتك",
+        "target_seconds": 90,
+        "is_baseline": true,
+        "title_en": "Your 90-Second Introduction",
+        "intro_ar": null,
+        "cover_ar": null,
+        "model_en": "Read this aloud three times. Notice where the speaker pauses.\nHello. My name is Khaled. K–H–A–L–E–D. I am twenty-six years old. // I am from Morocco, from a city called Casablanca. // Casablanca is very big and it is near the sea. It is a beautiful city. // I am a teacher. I am a teacher at a small school and I am very happy in my job. // My family is not big. My father is an engineer and my mother is a doctor. I have one brother. His name is Ziad and he is a student. He is nineteen years old. // I am not married. // My English is not very good, but I am a student now and I am happy to practise. Thank you.\nThe // marks are natural pauses. English speakers pause between ideas, not between words. Copy this pattern — pausing correctly makes you sound far more fluent than speaking fast.",
+        "outline": [
+          {
+            "part_en": "Greeting and name",
+            "say_en": "Hello. My name is… (spell it)",
+            "seconds": 10
+          },
+          {
+            "part_en": "Age and origin",
+            "say_en": "I am … years old. I am from…",
+            "seconds": 15
+          },
+          {
+            "part_en": "Your city",
+            "say_en": "It is a … city. It is…",
+            "seconds": 15
+          },
+          {
+            "part_en": "Your job",
+            "say_en": "I am a/an… I am at… I am…",
+            "seconds": 20
+          },
+          {
+            "part_en": "Your family",
+            "say_en": "My father is… My mother is… I have…",
+            "seconds": 20
+          },
+          {
+            "part_en": "Closing",
+            "say_en": "My English is… Thank you.",
+            "seconds": 10
+          }
+        ],
+        "rubric": [
+          {
+            "label_en": "Length",
+            "label_ar": "الطول",
+            "levels": [
+              "Under 45 sec",
+              "45–75 sec",
+              "75–90 sec"
+            ]
+          },
+          {
+            "label_en": "Pausing",
+            "label_ar": "الوقفات",
+            "levels": [
+              "Long pauses inside sentences",
+              "Some hesitation",
+              "Pauses only between ideas"
+            ]
+          },
+          {
+            "label_en": "to be",
+            "label_ar": null,
+            "levels": [
+              "Often missing",
+              "A few errors",
+              "Correct throughout"
+            ]
+          },
+          {
+            "label_en": "Vowel length",
+            "label_ar": null,
+            "levels": [
+              "No difference audible",
+              "Sometimes clear",
+              "Clear on all long vowels"
+            ]
+          },
+          {
+            "label_en": "Confidence",
+            "label_ar": "الثقة",
+            "levels": [
+              "Very quiet, unsure",
+              "Acceptable",
+              "Clear and steady"
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "title_ar": "اقرأ النموذج",
+            "title_en": "Study the Model",
+            "text_en": []
+          },
+          {
+            "title_ar": "ابنِ نصّك أنت",
+            "title_en": "Build Your Own Version",
+            "text_en": [
+              "Fill in this outline with your real information. Write it out fully first."
+            ]
+          },
+          {
+            "title_ar": "سجّل",
+            "title_en": "Record",
+            "text_en": [
+              "Read your text aloud twice while looking at it.",
+              "Now put the paper away and record 90 seconds from memory. Stumbling is fine. Do not stop and restart.",
+              "Save the file as Week01. Keep it safe."
+            ]
+          },
+          {
+            "title_ar": "قيّم نفسك",
+            "title_en": "Score Yourself",
+            "text_en": [
+              "Do not worry about a low score. This is week one — the point is to have a number to beat. You will score yourself again in Week 6 on exactly this scale."
+            ]
+          }
+        ],
+        "save_as": "Week01"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "رموز النطق — تمييز الحركة القصيرة من الممدودة",
+      "prompt": "أي رمز يقابل الحركة في كلمة sheep؟",
+      "payload": {
+        "options": [
+          "/ɪ/",
+          "/iː/",
+          "/ʊ/",
+          "/æ/"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "sheep فيها كسرة ممدودة /iː/. أما ship فقصيرة /ɪ/ — والفرق يغيّر الكلمة.",
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "رموز النطق — تمييز الحركة القصيرة من الممدودة",
+      "prompt": "أي كلمة تحتوي الصوت /æ/؟",
+      "payload": {
+        "options": [
+          "car",
+          "cat",
+          "book",
+          "meet"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "cat فيها /æ/، وهو صوت لا مقابل عربي له. car فيها /ɑː/ الممدودة.",
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "true_false",
+      "focus_ar": "رموز النطق — الكتابة لا تدلّ على النطق",
+      "prompt": "الكلمتان full و fool تُنطقان بنفس الحركة.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "full فيها /ʊ/ القصيرة، وfool فيها /uː/ الممدودة. الحرفان oo نفسهما والنطق مختلف.",
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "focus_ar": "عبارات النجاة — ماذا تقول عندما لا تسمع",
+      "prompt": "لم تسمع ما قاله محدّثك. ماذا تقول؟",
+      "payload": {
+        "options": [
+          "What?",
+          "Sorry, could you repeat that?",
+          "I am fine, thank you.",
+          "See you tomorrow."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "Sorry, could you repeat that? مؤدّبة وواضحة. أما What? وحدها فتُعدّ جافّة.",
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "عبارات النجاة — طلب التمهّل",
+      "prompt": "Could you ______ more slowly, please?",
+      "payload": {
+        "before": "Could you",
+        "after": "more slowly, please?"
+      },
+      "answer": {
+        "accepted": [
+          "speak",
+          "talk"
+        ]
+      },
+      "explanation": "speak more slowly — تطلب بها التمهّل بلا إحراج.",
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 2,
+      "type": "true_false",
+      "focus_ar": "عبارات النجاة — متى تُستخدم كل عبارة",
+      "prompt": "تقول Nice to meet you في كل مرة تلتقي بالشخص نفسه.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "Nice to meet you للقاء الأول فقط. بعدها تقول Nice to see you again.",
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "prompt": "أي كلمة تعني «جار»؟",
+      "payload": {
+        "options": [
+          "colleague",
+          "neighbour",
+          "cousin",
+          "friend"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "neighbour /ˈneɪbə(r)/ = جار",
+      "points": 1,
+      "focus_ar": "معاني المفردات — العائلة والكلمات الأساسية"
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "prompt": "أي كلمة تعني «ابنة»؟",
+      "payload": {
+        "options": [
+          "sister",
+          "aunt",
+          "daughter",
+          "wife"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "daughter /ˈdɔːtə(r)/ = ابنة",
+      "points": 1,
+      "focus_ar": "معاني المفردات — العائلة والكلمات الأساسية"
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "prompt": "ما جمع كلمة child؟",
+      "payload": {
+        "options": [
+          "childs",
+          "childes",
+          "children",
+          "childrens"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "children جمع شاذ — لا يوجد childs",
+      "points": 1,
+      "focus_ar": "معاني المفردات — العائلة والكلمات الأساسية"
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "prompt": "أي رقم فيه النبرة على المقطع الأخير؟",
+      "payload": {
+        "options": [
+          "thirty",
+          "forty",
+          "thirteen",
+          "fifty"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "thirTEEN النبرة في الآخر · THIRty في الأول — بهذا يفرّق المتحدثون بين 13 و30",
+      "points": 1,
+      "focus_ar": "معاني المفردات — العائلة والكلمات الأساسية"
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 1,
+      "type": "true_false",
+      "prompt": "Sami is a teacher.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "هو مهندس — قالت لينا: Are you the new engineer?",
+      "points": 1,
+      "focus_ar": "فهم الحوار الأول — Meeting Someone New"
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 1,
+      "type": "true_false",
+      "prompt": "Lina is from Jordan.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "قالت: I'm from Jordan",
+      "points": 1,
+      "focus_ar": "فهم الحوار الأول — Meeting Someone New"
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 1,
+      "type": "true_false",
+      "prompt": "Alexandria is a small city.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "قال سامي: It's very big",
+      "points": 1,
+      "focus_ar": "فهم الحوار الأول — Meeting Someone New"
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 1,
+      "type": "true_false",
+      "prompt": "Sami asks Lina to repeat something.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "قال: Sorry, could you repeat that?",
+      "points": 1,
+      "focus_ar": "فهم الحوار الأول — Meeting Someone New"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "prompt": "She ______ a teacher.",
+      "payload": {
+        "before": "She",
+        "after": "a teacher."
+      },
+      "answer": {
+        "accepted": [
+          "is",
+          "'s"
+        ]
+      },
+      "explanation": "he/she/it تأخذ is",
+      "points": 1,
+      "focus_ar": "فعل to be مع الضمائر — am / is / are",
+      "error_no": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "prompt": "They ______ at school.",
+      "payload": {
+        "before": "They",
+        "after": "at school."
+      },
+      "answer": {
+        "accepted": [
+          "are",
+          "'re"
+        ]
+      },
+      "explanation": "they تأخذ are",
+      "points": 1,
+      "focus_ar": "فعل to be مع الضمائر — am / is / are",
+      "error_no": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "prompt": "I ______ from Egypt.",
+      "payload": {
+        "before": "I",
+        "after": "from Egypt."
+      },
+      "answer": {
+        "accepted": [
+          "am",
+          "'m"
+        ]
+      },
+      "explanation": "I تأخذ am دائماً",
+      "points": 1,
+      "focus_ar": "فعل to be مع الضمائر — am / is / are",
+      "error_no": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "prompt": "You ______ a good friend.",
+      "payload": {
+        "before": "You",
+        "after": "a good friend."
+      },
+      "answer": {
+        "accepted": [
+          "are",
+          "'re"
+        ]
+      },
+      "explanation": "you تأخذ are دائماً — حتى للمفرد",
+      "points": 1,
+      "focus_ar": "فعل to be مع الضمائر — am / is / are",
+      "error_no": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "prompt": "It ______ a small house.",
+      "payload": {
+        "before": "It",
+        "after": "a small house."
+      },
+      "answer": {
+        "accepted": [
+          "is",
+          "'s"
+        ]
+      },
+      "explanation": "it تأخذ is",
+      "points": 1,
+      "focus_ar": "فعل to be مع الضمائر — am / is / are",
+      "error_no": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "prompt": "We ______ engineers.",
+      "payload": {
+        "before": "We",
+        "after": "engineers."
+      },
+      "answer": {
+        "accepted": [
+          "are",
+          "'re"
+        ]
+      },
+      "explanation": "we تأخذ are",
+      "points": 1,
+      "focus_ar": "فعل to be مع الضمائر — am / is / are",
+      "error_no": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 8,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "I doctor."
+      },
+      "answer": {
+        "accepted": [
+          "I am a doctor.",
+          "I'm a doctor."
+        ]
+      },
+      "explanation": "الجملة الإنجليزية تحتاج فعلاً دائماً، والوظيفة تحتاج a/an",
+      "points": 2,
+      "focus_ar": "الجملة تحتاج فعلاً + a/an مع المهنة",
+      "error_no": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 8,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "He have 25 years."
+      },
+      "answer": {
+        "accepted": [
+          "He is 25 years old.",
+          "He's 25 years old."
+        ]
+      },
+      "explanation": "الإنجليزية تستخدم be للعمر لا have",
+      "points": 2,
+      "focus_ar": "العمر بـ be لا have",
+      "error_no": 2
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 8,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "She is teacher."
+      },
+      "answer": {
+        "accepted": [
+          "She is a teacher.",
+          "She's a teacher."
+        ]
+      },
+      "explanation": "الوظائف تحتاج a أو an",
+      "points": 2,
+      "focus_ar": "a / an قبل المهنة",
+      "error_no": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 8,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "You is my colleague."
+      },
+      "answer": {
+        "accepted": [
+          "You are my colleague.",
+          "You're my colleague."
+        ]
+      },
+      "explanation": "you تأخذ are دائماً",
+      "points": 2,
+      "focus_ar": "you تأخذ are دائماً",
+      "error_no": 11
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 3,
+      "type": "true_false",
+      "focus_ar": "فهم الحوار الثاني — Talking About Family",
+      "prompt": "Lina has two brothers.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "راجع الحوار الثاني — انتبه لعدد الأشخاص الذي ذكرته لينا.",
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 3,
+      "type": "correct_error",
+      "focus_ar": "العمر بـ be لا have",
+      "error_no": 2,
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "My sister have 19 years."
+      },
+      "answer": {
+        "accepted": [
+          "My sister is 19 years old.",
+          "My sister is nineteen years old."
+        ]
+      },
+      "explanation": "العربية تقول «عمرها ١٩ سنة»، والإنجليزية تستخدم be لا have.",
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 3,
+      "type": "correct_error",
+      "focus_ar": "الجملة تحتاج فعلاً + a/an مع المهنة",
+      "error_no": 1,
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "My mother doctor."
+      },
+      "answer": {
+        "accepted": [
+          "My mother is a doctor.",
+          "My mother's a doctor."
+        ]
+      },
+      "explanation": "الجملة الإنجليزية تحتاج فعلاً دائماً، والمهنة تحتاج a أو an.",
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 3,
+      "type": "multiple_choice",
+      "focus_ar": "معاني الكلمات الأساسية",
+      "prompt": "أي كلمة تعني «متزوّج»؟",
+      "payload": {
+        "options": [
+          "married",
+          "tired",
+          "friendly",
+          "busy"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "married /ˈmærid/ = متزوّج.",
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 4,
+      "type": "true_false",
+      "focus_ar": "فهم نص الاستماع",
+      "prompt": "Sami lives in Cairo.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "النص يقول He lives in Alexandria — الإسكندرية لا القاهرة.",
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "فهم نص الاستماع — التقاط التفاصيل",
+      "prompt": "ما مهنة والد سامي في النص؟",
+      "payload": {
+        "options": [
+          "engineer",
+          "doctor",
+          "teacher",
+          "student"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "His father is a teacher and his mother is a doctor.",
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 4,
+      "type": "fill_blank",
+      "focus_ar": "فعل to be مع he — من نص الاستماع",
+      "error_no": 1,
+      "prompt": "He ______ happy in his job.",
+      "payload": {
+        "before": "He",
+        "after": "happy in his job."
+      },
+      "answer": {
+        "accepted": [
+          "is",
+          "'s"
+        ]
+      },
+      "explanation": "he تأخذ is. والجملة تحتاج فعلاً — لا يصحّ He happy.",
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 4,
+      "type": "correct_error",
+      "focus_ar": "العمر بـ be لا have — من نص الاستماع",
+      "error_no": 2,
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "Sami have 28 years."
+      },
+      "answer": {
+        "accepted": [
+          "Sami is 28 years old.",
+          "Sami is twenty-eight years old."
+        ]
+      },
+      "explanation": "النص يقول He is twenty-eight years old — بـ is لا have.",
+      "points": 1
+    }
+  ]
+}

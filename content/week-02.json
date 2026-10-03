@@ -1,0 +1,2826 @@
+{
+  "number": 2,
+  "module": 1,
+  "title_en": "Daily Routine & the Present Simple",
+  "title_ar": "الروتين اليومي والمضارع البسيط",
+  "pron_section": 5,
+  "is_review": false,
+  "objectives": [
+    {
+      "en": "Describe my whole day from waking up to going to bed",
+      "ar": "أصف يومي كاملاً من الاستيقاظ إلى النوم"
+    },
+    {
+      "en": "Use the Present Simple correctly with all subjects, including the -s with he/she/it",
+      "ar": "أستخدم المضارع البسيط صحيحاً مع كل الضمائر، بما فيها s مع he/she/it"
+    },
+    {
+      "en": "Tell and understand the time in two different ways",
+      "ar": "أقول الوقت وأفهمه بطريقتين مختلفتين"
+    },
+    {
+      "en": "Use always, usually, often, sometimes, never in the right position",
+      "ar": "أستخدم always و usually و often و sometimes و never في موضعها الصحيح"
+    },
+    {
+      "en": "Use at, on and in correctly with times, days and months",
+      "ar": "أستخدم at و on و in صحيحة مع الأوقات والأيام والشهور"
+    },
+    {
+      "en": "Pronounce /p/ and /b/, /v/ and /f/ with a clear difference",
+      "ar": "أنطق /p/ و /b/ و /v/ و /f/ بفرق واضح"
+    },
+    {
+      "en": "Ask someone about their daily routine",
+      "ar": "أسأل شخصاً عن روتينه اليومي"
+    },
+    {
+      "en": "Write 80–100 words about my typical day",
+      "ar": "أكتب 80–100 كلمة عن يومي المعتاد"
+    },
+    {
+      "en": "Speak for 2 minutes about my routine without stopping",
+      "ar": "أتحدّث دقيقتين عن روتيني بلا توقّف"
+    }
+  ],
+  "days": [
+    {
+      "number": 1,
+      "focus": "أفعال الروتين اليومي · النطق · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "أفعال الروتين اليومي · النطق",
+          "minutes": 25,
+          "ref": "vocab:routine_verbs|section:phonics"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:1"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "focus": "الوقت والتكرار · قراءة الساعة · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الوقت والتكرار · قراءة الساعة",
+          "minutes": 25,
+          "ref": "vocab:time_and_frequency|vocab:telling_the_time"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:2"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "focus": "الحوار الأول · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "حوار: Asking About a Routine",
+          "minutes": 25,
+          "ref": "dialogue:1"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:3"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "focus": "القواعد · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القواعد",
+          "minutes": 25,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:4"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "focus": "أماكن يومك وأشياؤه · القواعد · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "أماكن يومك وأشياؤه · القواعد",
+          "minutes": 25,
+          "ref": "vocab:places_and_things_in_your_day|section:grammar"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:5"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "focus": "الحوار الثاني · الاستماع · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "حوار: A Different Kind of Day · الاستماع",
+          "minutes": 25,
+          "ref": "dialogue:2|section:listening"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:6"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "focus": "القراءة · الكتابة · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القراءة · الكتابة",
+          "minutes": 25,
+          "ref": "section:reading|writing:1|record"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:7"
+        },
+        {
+          "order": 5,
+          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record:baseline"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "group": "routine_verbs",
+      "word": "wake up",
+      "ipa": "/ˌweɪk ˈʌp/",
+      "arabic": "يستيقظ",
+      "example": "I wake up at six o'clock.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "get up",
+      "ipa": "/ˌɡet ˈʌp/",
+      "arabic": "ينهض من السرير",
+      "example": "I get up ten minutes later.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "pray",
+      "ipa": "/preɪ/",
+      "arabic": "يصلّي",
+      "example": "He prays before breakfast.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "brush",
+      "ipa": "/brʌʃ/",
+      "arabic": "يفرّش",
+      "example": "I brush my teeth twice a day.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "take a shower",
+      "ipa": "/teɪk ə ˈʃaʊə(r)/",
+      "arabic": "يستحم",
+      "example": "She takes a shower every morning.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "get dressed",
+      "ipa": "/ˌɡet ˈdrest/",
+      "arabic": "يرتدي ملابسه",
+      "example": "I get dressed quickly.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "have breakfast",
+      "ipa": "/hæv ˈbrekfəst/",
+      "arabic": "يتناول الفطور",
+      "example": "We have breakfast together.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "leave",
+      "ipa": "/liːv/",
+      "arabic": "يغادر",
+      "example": "He leaves the house at seven.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "drive",
+      "ipa": "/draɪv/",
+      "arabic": "يقود",
+      "example": "My father drives to work.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "walk",
+      "ipa": "/wɔːk/",
+      "arabic": "يمشي",
+      "example": "I walk to the office.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "take the bus",
+      "ipa": "/teɪk ðə bʌs/",
+      "arabic": "يستقل الحافلة",
+      "example": "She takes the bus every day.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "arrive",
+      "ipa": "/əˈraɪv/",
+      "arabic": "يصل",
+      "example": "I arrive at eight thirty.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "start",
+      "ipa": "/stɑːt/",
+      "arabic": "يبدأ",
+      "example": "Work starts at nine.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "work",
+      "ipa": "/wɜːk/",
+      "arabic": "يعمل",
+      "example": "I work in an office.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "study",
+      "ipa": "/ˈstʌdi/",
+      "arabic": "يدرس",
+      "example": "She studies English at night.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "check",
+      "ipa": "/tʃek/",
+      "arabic": "يتفقّد",
+      "example": "I check my email first.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "finish",
+      "ipa": "/ˈfɪnɪʃ/",
+      "arabic": "ينهي",
+      "example": "We finish at five.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "return",
+      "ipa": "/rɪˈtɜːn/",
+      "arabic": "يعود",
+      "example": "He returns home at six.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "cook",
+      "ipa": "/kʊk/",
+      "arabic": "يطبخ",
+      "example": "My wife cooks dinner.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "have dinner",
+      "ipa": "/hæv ˈdɪnə(r)/",
+      "arabic": "يتعشّى",
+      "example": "We have dinner at eight.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "clean",
+      "ipa": "/kliːn/",
+      "arabic": "ينظّف",
+      "example": "I clean the kitchen after dinner.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "wash",
+      "ipa": "/wɒʃ/",
+      "arabic": "يغسل",
+      "example": "She washes the dishes.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "watch",
+      "ipa": "/wɒtʃ/",
+      "arabic": "يشاهد",
+      "example": "They watch TV in the evening.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "read",
+      "ipa": "/riːd/",
+      "arabic": "يقرأ",
+      "example": "I read a book before bed.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "exercise",
+      "ipa": "/ˈeksəsaɪz/",
+      "arabic": "يتمرّن",
+      "example": "He exercises three times a week.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "rest",
+      "ipa": "/rest/",
+      "arabic": "يستريح",
+      "example": "I rest for an hour.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "call",
+      "ipa": "/kɔːl/",
+      "arabic": "يتصل بـ",
+      "example": "I call my parents every night.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "sleep",
+      "ipa": "/sliːp/",
+      "arabic": "ينام",
+      "example": "I sleep seven hours.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "go to bed",
+      "ipa": "/ɡəʊ tə ˈbed/",
+      "arabic": "يذهب للنوم",
+      "example": "She goes to bed at eleven.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "routine_verbs",
+      "word": "stay",
+      "ipa": "/steɪ/",
+      "arabic": "يبقى",
+      "example": "I stay at home on Fridays.",
+      "group_label_ar": "أفعال الروتين اليومي",
+      "group_label_en": "Routine Verbs"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "always",
+      "ipa": "/ˈɔːlweɪz/",
+      "arabic": "دائماً (100%)",
+      "example": "I always wake up early.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "usually",
+      "ipa": "/ˈjuːʒuəli/",
+      "arabic": "عادةً (80%)",
+      "example": "She usually walks to work.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "often",
+      "ipa": "/ˈɒfn/",
+      "arabic": "غالباً (60%)",
+      "example": "We often eat together.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "sometimes",
+      "ipa": "/ˈsʌmtaɪmz/",
+      "arabic": "أحياناً (40%)",
+      "example": "He sometimes works late.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "rarely",
+      "ipa": "/ˈreəli/",
+      "arabic": "نادراً (10%)",
+      "example": "I rarely watch TV.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "never",
+      "ipa": "/ˈnevə(r)/",
+      "arabic": "أبداً (0%)",
+      "example": "They never eat breakfast.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "every day",
+      "ipa": "/ˈevri deɪ/",
+      "arabic": "كل يوم",
+      "example": "I study every day.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "once a week",
+      "ipa": "/wʌns ə ˈwiːk/",
+      "arabic": "مرة في الأسبوع",
+      "example": "I call him once a week.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "twice a week",
+      "ipa": "/twaɪs ə ˈwiːk/",
+      "arabic": "مرتين في الأسبوع",
+      "example": "She swims twice a week.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "early",
+      "ipa": "/ˈɜːli/",
+      "arabic": "مبكراً",
+      "example": "He gets up early.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "late",
+      "ipa": "/leɪt/",
+      "arabic": "متأخراً",
+      "example": "I go to bed late.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "before",
+      "ipa": "/bɪˈfɔː(r)/",
+      "arabic": "قبل",
+      "example": "I pray before breakfast.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "after",
+      "ipa": "/ˈɑːftə(r)/",
+      "arabic": "بعد",
+      "example": "After work, I go home.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "then",
+      "ipa": "/ðen/",
+      "arabic": "ثم",
+      "example": "Then I take a shower.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "first",
+      "ipa": "/fɜːst/",
+      "arabic": "أولاً",
+      "example": "First, I check my email.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "finally",
+      "ipa": "/ˈfaɪnəli/",
+      "arabic": "أخيراً",
+      "example": "Finally, I go to bed.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "o'clock",
+      "ipa": "/əˈklɒk/",
+      "arabic": "تماماً (للساعة)",
+      "example": "It is seven o'clock.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "half past",
+      "ipa": "/ˌhɑːf ˈpɑːst/",
+      "arabic": "والنصف",
+      "example": "It is half past eight.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "quarter past",
+      "ipa": "/ˈkwɔːtə pɑːst/",
+      "arabic": "والربع",
+      "example": "It is a quarter past nine.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "quarter to",
+      "ipa": "/ˈkwɔːtə tə/",
+      "arabic": "إلا ربع",
+      "example": "It is a quarter to ten.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "hour",
+      "ipa": "/ˈaʊə(r)/",
+      "arabic": "ساعة",
+      "example": "I sleep for eight hours.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "minute",
+      "ipa": "/ˈmɪnɪt/",
+      "arabic": "دقيقة",
+      "example": "Wait five minutes.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "weekend",
+      "ipa": "/ˌwiːkˈend/",
+      "arabic": "عطلة نهاية الأسبوع",
+      "example": "I rest at the weekend.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "weekday",
+      "ipa": "/ˈwiːkdeɪ/",
+      "arabic": "يوم عمل",
+      "example": "On weekdays I start at nine.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "time_and_frequency",
+      "word": "holiday",
+      "ipa": "/ˈhɒlədeɪ/",
+      "arabic": "إجازة",
+      "example": "We are on holiday now.",
+      "group_label_ar": "الوقت والتكرار",
+      "group_label_en": "Time and Frequency"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "office",
+      "ipa": "/ˈɒfɪs/",
+      "arabic": "مكتب",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "kitchen",
+      "ipa": "/ˈkɪtʃɪn/",
+      "arabic": "مطبخ",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "desk",
+      "ipa": "/desk/",
+      "arabic": "مكتب (طاولة)",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "bedroom",
+      "ipa": "/ˈbedruːm/",
+      "arabic": "غرفة نوم",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "meeting",
+      "ipa": "/ˈmiːtɪŋ/",
+      "arabic": "اجتماع",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "bathroom",
+      "ipa": "/ˈbɑːθruːm/",
+      "arabic": "حمّام",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "email",
+      "ipa": "/ˈiːmeɪl/",
+      "arabic": "بريد إلكتروني",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "car",
+      "ipa": "/kɑː(r)/",
+      "arabic": "سيارة",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "phone",
+      "ipa": "/fəʊn/",
+      "arabic": "هاتف",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "bus",
+      "ipa": "/bʌs/",
+      "arabic": "حافلة",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "computer",
+      "ipa": "/kəmˈpjuːtə(r)/",
+      "arabic": "حاسوب",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "train",
+      "ipa": "/treɪn/",
+      "arabic": "قطار",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "project",
+      "ipa": "/ˈprɒdʒekt/",
+      "arabic": "مشروع",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "street",
+      "ipa": "/striːt/",
+      "arabic": "شارع",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "break",
+      "ipa": "/breɪk/",
+      "arabic": "استراحة",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "gym",
+      "ipa": "/dʒɪm/",
+      "arabic": "نادي رياضي",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "lunch",
+      "ipa": "/lʌntʃ/",
+      "arabic": "غداء",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "shop",
+      "ipa": "/ʃɒp/",
+      "arabic": "متجر",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "dinner",
+      "ipa": "/ˈdɪnə(r)/",
+      "arabic": "عشاء",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "mosque",
+      "ipa": "/mɒsk/",
+      "arabic": "مسجد",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "tea",
+      "ipa": "/tiː/",
+      "arabic": "شاي",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "bed",
+      "ipa": "/bed/",
+      "arabic": "سرير",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "coffee",
+      "ipa": "/ˈkɒfi/",
+      "arabic": "قهوة",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "book",
+      "ipa": "/bʊk/",
+      "arabic": "كتاب",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "tired",
+      "ipa": "/ˈtaɪəd/",
+      "arabic": "متعب",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "places_and_things_in_your_day",
+      "word": "busy",
+      "ipa": "/ˈbɪzi/",
+      "arabic": "مشغول",
+      "example": null,
+      "group_label_ar": "أماكن يومك وأشياؤه",
+      "group_label_en": "Places and Things in Your Day"
+    },
+    {
+      "group": "telling_the_time",
+      "word": "seven o'clock",
+      "ipa": null,
+      "arabic": "السابعة تماماً",
+      "example": "7:00 — أو بالصيغة الرقمية: seven",
+      "group_label_ar": "قراءة الساعة",
+      "group_label_en": "Telling the Time"
+    },
+    {
+      "group": "telling_the_time",
+      "word": "five past seven",
+      "ipa": null,
+      "arabic": "السابعة وخمس دقائق",
+      "example": "7:05 — أو بالصيغة الرقمية: seven oh five",
+      "group_label_ar": "قراءة الساعة",
+      "group_label_en": "Telling the Time"
+    },
+    {
+      "group": "telling_the_time",
+      "word": "a quarter past seven",
+      "ipa": null,
+      "arabic": "السابعة والربع",
+      "example": "7:15 — أو بالصيغة الرقمية: seven fifteen",
+      "group_label_ar": "قراءة الساعة",
+      "group_label_en": "Telling the Time"
+    },
+    {
+      "group": "telling_the_time",
+      "word": "twenty past seven",
+      "ipa": null,
+      "arabic": "السابعة وعشرون دقيقة",
+      "example": "7:20 — أو بالصيغة الرقمية: seven twenty",
+      "group_label_ar": "قراءة الساعة",
+      "group_label_en": "Telling the Time"
+    },
+    {
+      "group": "telling_the_time",
+      "word": "half past seven",
+      "ipa": null,
+      "arabic": "السابعة والنصف",
+      "example": "7:30 — أو بالصيغة الرقمية: seven thirty",
+      "group_label_ar": "قراءة الساعة",
+      "group_label_en": "Telling the Time"
+    },
+    {
+      "group": "telling_the_time",
+      "word": "twenty to eight",
+      "ipa": null,
+      "arabic": "الثامنة إلا عشرين دقيقة",
+      "example": "7:40 — أو بالصيغة الرقمية: seven forty",
+      "group_label_ar": "قراءة الساعة",
+      "group_label_en": "Telling the Time"
+    },
+    {
+      "group": "telling_the_time",
+      "word": "a quarter to eight",
+      "ipa": null,
+      "arabic": "الثامنة إلا ربعاً",
+      "example": "7:45 — أو بالصيغة الرقمية: seven forty-five",
+      "group_label_ar": "قراءة الساعة",
+      "group_label_en": "Telling the Time"
+    },
+    {
+      "group": "telling_the_time",
+      "word": "five to eight",
+      "ipa": null,
+      "arabic": "الثامنة إلا خمس دقائق",
+      "example": "7:55 — أو بالصيغة الرقمية: seven fifty-five",
+      "group_label_ar": "قراءة الساعة",
+      "group_label_en": "Telling the Time"
+    },
+    {
+      "group": "telling_the_time",
+      "word": "midday / noon",
+      "ipa": null,
+      "arabic": "منتصف النهار / الظهر",
+      "example": "12:00 — أو بالصيغة الرقمية: twelve",
+      "group_label_ar": "قراءة الساعة",
+      "group_label_en": "Telling the Time"
+    },
+    {
+      "group": "telling_the_time",
+      "word": "midnight",
+      "ipa": null,
+      "arabic": "منتصف الليل",
+      "example": "00:00 — أو بالصيغة الرقمية: twelve",
+      "group_label_ar": "قراءة الساعة",
+      "group_label_en": "Telling the Time"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "group_label": "/p/ against /b/",
+      "ipa": "/p/ vs /b/",
+      "word_a": "pen",
+      "word_b": "Ben",
+      "group_label_ar": "الباء المهموسة والمجهورة",
+      "hint_ar": "العربية فيها باء واحدة، والإنجليزية فيها اثنتان: /p/ بلا صوت من الحلق ومعها دفعة هواء (pen)، و/b/ بصوت (Ben). ضع ورقة أمام فمك — /p/ تحرّكها و/b/ لا."
+    },
+    {
+      "group_label": "/p/ against /b/",
+      "ipa": "/p/ vs /b/",
+      "word_a": "pat",
+      "word_b": "bat",
+      "group_label_ar": "الباء المهموسة والمجهورة",
+      "hint_ar": "العربية فيها باء واحدة، والإنجليزية فيها اثنتان: /p/ بلا صوت من الحلق ومعها دفعة هواء (pen)، و/b/ بصوت (Ben). ضع ورقة أمام فمك — /p/ تحرّكها و/b/ لا."
+    },
+    {
+      "group_label": "/p/ against /b/",
+      "ipa": "/p/ vs /b/",
+      "word_a": "pig",
+      "word_b": "big",
+      "group_label_ar": "الباء المهموسة والمجهورة",
+      "hint_ar": "العربية فيها باء واحدة، والإنجليزية فيها اثنتان: /p/ بلا صوت من الحلق ومعها دفعة هواء (pen)، و/b/ بصوت (Ben). ضع ورقة أمام فمك — /p/ تحرّكها و/b/ لا."
+    },
+    {
+      "group_label": "/p/ against /b/",
+      "ipa": "/p/ vs /b/",
+      "word_a": "cap",
+      "word_b": "cab",
+      "group_label_ar": "الباء المهموسة والمجهورة",
+      "hint_ar": "العربية فيها باء واحدة، والإنجليزية فيها اثنتان: /p/ بلا صوت من الحلق ومعها دفعة هواء (pen)، و/b/ بصوت (Ben). ضع ورقة أمام فمك — /p/ تحرّكها و/b/ لا."
+    },
+    {
+      "group_label": "/p/ against /b/",
+      "ipa": "/p/ vs /b/",
+      "word_a": "rope",
+      "word_b": "robe",
+      "group_label_ar": "الباء المهموسة والمجهورة",
+      "hint_ar": "العربية فيها باء واحدة، والإنجليزية فيها اثنتان: /p/ بلا صوت من الحلق ومعها دفعة هواء (pen)، و/b/ بصوت (Ben). ضع ورقة أمام فمك — /p/ تحرّكها و/b/ لا."
+    },
+    {
+      "group_label": "/p/ against /b/",
+      "ipa": "/p/ vs /b/",
+      "word_a": "pull",
+      "word_b": "bull",
+      "group_label_ar": "الباء المهموسة والمجهورة",
+      "hint_ar": "العربية فيها باء واحدة، والإنجليزية فيها اثنتان: /p/ بلا صوت من الحلق ومعها دفعة هواء (pen)، و/b/ بصوت (Ben). ضع ورقة أمام فمك — /p/ تحرّكها و/b/ لا."
+    },
+    {
+      "group_label": "/f/ against /v/",
+      "ipa": "/f/ vs /v/",
+      "word_a": "fan",
+      "word_b": "van",
+      "group_label_ar": "الفاء المهموسة والمجهورة",
+      "hint_ar": "/f/ هي فاء العربية. و/v/ الموضع نفسه لكن مع صوت من الحلق: ضع إصبعك على حلقك تجده يرتجف. ولا تُبدلها فاءً — فـvan ليست fan."
+    },
+    {
+      "group_label": "/f/ against /v/",
+      "ipa": "/f/ vs /v/",
+      "word_a": "few",
+      "word_b": "view",
+      "group_label_ar": "الفاء المهموسة والمجهورة",
+      "hint_ar": "/f/ هي فاء العربية. و/v/ الموضع نفسه لكن مع صوت من الحلق: ضع إصبعك على حلقك تجده يرتجف. ولا تُبدلها فاءً — فـvan ليست fan."
+    },
+    {
+      "group_label": "/f/ against /v/",
+      "ipa": "/f/ vs /v/",
+      "word_a": "ferry",
+      "word_b": "very",
+      "group_label_ar": "الفاء المهموسة والمجهورة",
+      "hint_ar": "/f/ هي فاء العربية. و/v/ الموضع نفسه لكن مع صوت من الحلق: ضع إصبعك على حلقك تجده يرتجف. ولا تُبدلها فاءً — فـvan ليست fan."
+    },
+    {
+      "group_label": "/f/ against /v/",
+      "ipa": "/f/ vs /v/",
+      "word_a": "safe",
+      "word_b": "save",
+      "group_label_ar": "الفاء المهموسة والمجهورة",
+      "hint_ar": "/f/ هي فاء العربية. و/v/ الموضع نفسه لكن مع صوت من الحلق: ضع إصبعك على حلقك تجده يرتجف. ولا تُبدلها فاءً — فـvan ليست fan."
+    },
+    {
+      "group_label": "/f/ against /v/",
+      "ipa": "/f/ vs /v/",
+      "word_a": "leaf",
+      "word_b": "leave",
+      "group_label_ar": "الفاء المهموسة والمجهورة",
+      "hint_ar": "/f/ هي فاء العربية. و/v/ الموضع نفسه لكن مع صوت من الحلق: ضع إصبعك على حلقك تجده يرتجف. ولا تُبدلها فاءً — فـvan ليست fan."
+    },
+    {
+      "group_label": "/f/ against /v/",
+      "ipa": "/f/ vs /v/",
+      "word_a": "life",
+      "word_b": "live",
+      "group_label_ar": "الفاء المهموسة والمجهورة",
+      "hint_ar": "/f/ هي فاء العربية. و/v/ الموضع نفسه لكن مع صوت من الحلق: ضع إصبعك على حلقك تجده يرتجف. ولا تُبدلها فاءً — فـvan ليست fan."
+    }
+  ],
+  "dialogues": [
+    {
+      "number": 1,
+      "title": "Asking About a Routine",
+      "situation_en": "Lina and Sami are having tea during a break at work.",
+      "situation_ar": "لينا وسامي يشربان الشاي في فسحة من العمل.",
+      "speaker_genders": {
+        "LINA": "f",
+        "SAMI": "m"
+      },
+      "lines": [
+        {
+          "speaker": "LINA",
+          "en": "You always arrive early. What time do you wake up?",
+          "ar": "أنت تصل دائماً مبكراً. في أي وقت تستيقظ؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "I wake up at half past five.",
+          "ar": "أستيقظ في الخامسة والنصف."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Really? That's very early!",
+          "ar": "حقاً؟ هذا مبكر جداً!"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Yes, but I like it. I pray, then I have breakfast with my children.",
+          "ar": "نعم، لكني أحبه. أصلّي، ثم أتناول الفطور مع أطفالي."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Do you drive to work?",
+          "ar": "هل تقود سيارتك إلى العمل؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "No, I take the bus. It takes about forty minutes.",
+          "ar": "لا، أستقل الحافلة. تستغرق حوالي أربعين دقيقة."
+        },
+        {
+          "speaker": "LINA",
+          "en": "And what time do you finish?",
+          "ar": "وفي أي وقت تنتهي؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "I usually finish at five, but sometimes I work late.",
+          "ar": "عادةً أنتهي في الخامسة، لكن أحياناً أعمل لوقت متأخر."
+        },
+        {
+          "speaker": "LINA",
+          "en": "What do you do in the evening?",
+          "ar": "ماذا تفعل في المساء؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "I play with my children, then I study English. What about you?",
+          "ar": "ألعب مع أطفالي، ثم أدرس الإنجليزية. وماذا عنك؟"
+        },
+        {
+          "speaker": "LINA",
+          "en": "I go to the gym twice a week. And I never watch TV.",
+          "ar": "أذهب إلى النادي مرتين في الأسبوع. ولا أشاهد التلفاز أبداً."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Never? Why not?",
+          "ar": "أبداً؟ ولماذا؟"
+        },
+        {
+          "speaker": "LINA",
+          "en": "I don't have time! I go to bed at ten.",
+          "ar": "ليس لدي وقت! أنام في العاشرة."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "A Different Kind of Day",
+      "situation_en": "A conversation about a day that is not typical.",
+      "situation_ar": "محادثة عن يوم مختلف عن المعتاد.",
+      "speaker_genders": {
+        "SAMI": "m",
+        "PETER": "m"
+      },
+      "lines": [
+        {
+          "speaker": "SAMI",
+          "en": "Good afternoon, Peter. You look tired.",
+          "ar": "مساء الخير يا بيتر. تبدو متعباً."
+        },
+        {
+          "speaker": "PETER",
+          "en": "I am! I work at night, so I sleep in the day.",
+          "ar": "أنا كذلك! أعمل ليلاً، لذا أنام في النهار."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Really? What do you do?",
+          "ar": "حقاً؟ ماذا تعمل؟"
+        },
+        {
+          "speaker": "PETER",
+          "en": "I'm a nurse. I start at nine in the evening.",
+          "ar": "أنا ممرض. أبدأ في التاسعة مساءً."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "And when do you finish?",
+          "ar": "ومتى تنتهي؟"
+        },
+        {
+          "speaker": "PETER",
+          "en": "At seven in the morning. Then I have breakfast and go to bed.",
+          "ar": "في السابعة صباحاً. ثم أتناول الفطور وأذهب للنوم."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "That's very unusual. Do you like it?",
+          "ar": "هذا غير معتاد. هل تحبه؟"
+        },
+        {
+          "speaker": "PETER",
+          "en": "Yes, I do. The hospital is quiet at night.",
+          "ar": "نعم أحبه. المستشفى هادئ في الليل."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Does your family mind?",
+          "ar": "هل تمانع عائلتك؟"
+        },
+        {
+          "speaker": "PETER",
+          "en": "Sometimes. My wife works in the day, so we rarely eat together.",
+          "ar": "أحياناً. زوجتي تعمل في النهار، لذا نادراً ما نأكل معاً."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "But you have the weekend.",
+          "ar": "لكن لديكما عطلة نهاية الأسبوع."
+        },
+        {
+          "speaker": "PETER",
+          "en": "Yes! On Fridays and Saturdays we always spend the day together.",
+          "ar": "نعم! في الجمعة والسبت نقضي اليوم معاً دائماً."
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "kind": "phonics",
+      "day_number": 1,
+      "title_ar": "النطق — /p/ مقابل /b/ و /v/ مقابل /f/",
+      "title_en": "Pronunciation — /p/ vs /b/ and /v/ vs /f/",
+      "payload": {
+        "intro_ar": "لا تدرس هذا القسم صامتاً. استمع إلى كل كلمة ثلاث مرات على الأقل قبل أن تقرأ الشرح. الأصوات تُتعلَّم بالأذن لا بحفظ أوصاف اللسان.",
+        "symbols": [
+          {
+            "ipa": "/p/",
+            "arabic_hint": "شفوية بلا صوت — لا مقابل عربي",
+            "examples": [
+              "pen",
+              "pat",
+              "pig"
+            ],
+            "note_ar": "العربية لا تملك /p/ فيُبدَل بـ/b/: pen تصير Ben.",
+            "fix_ar": "ضع ورقة أمام فمك: /p/ تحرّكها بدفعة هواء، و/b/ لا تحرّكها."
+          },
+          {
+            "ipa": "/b/",
+            "arabic_hint": "باء عربية",
+            "examples": [
+              "Ben",
+              "bat",
+              "big"
+            ],
+            "note_ar": "لا خطأ هنا — الباء العربية تطابقها. المشكلة في تمييزها عن /p/.",
+            "fix_ar": "اختبار الورقة: امسك ورقة أمام فمك. /p/ تحرّكها بدفعة هواء، و/b/ لا تحرّكها."
+          },
+          {
+            "ipa": "/f/",
+            "arabic_hint": "فاء عربية",
+            "examples": [
+              "fan",
+              "few",
+              "ferry"
+            ],
+            "note_ar": "لا خطأ هنا — الفاء العربية تطابقها. المشكلة في تمييزها عن /v/.",
+            "fix_ar": "ضع يدك على حنجرتك: /f/ بلا اهتزاز، و/v/ تهتزّ."
+          },
+          {
+            "ipa": "/v/",
+            "arabic_hint": "لا مقابل عربي",
+            "examples": [
+              "van",
+              "view",
+              "very"
+            ],
+            "note_ar": "العربية لا تملك /v/ فيُبدَل بـ/f/: van تصير fan.",
+            "fix_ar": "الأسنان العليا على الشفة السفلى مع اهتزاز الحبال الصوتية — ضع يدك على حنجرتك لتشعر به."
+          }
+        ],
+        "tip_ar": "المتحدث بالعربية يخلط /p/ بـ/b/ و/v/ بـ/f/ لأن العربية لا تملك /p/ ولا /v/. بالغ في الفرق أولاً — يمكنك تهذيبه لاحقاً."
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 4,
+      "title_ar": "القواعد — المضارع البسيط",
+      "title_en": "Grammar — The Present Simple",
+      "payload": {
+        "rule_ar": "تستخدم المضارع البسيط للأمور المتكرّرة أو المعتادة أو الصحيحة دائماً. هو زمن الروتين والحقائق، وهو الزمن الذي ستستخدمه أكثر من غيره في المحادثة اليومية.",
+        "table": {
+          "columns_ar": [
+            "الضمير",
+            "الفعل",
+            "الجملة"
+          ],
+          "rows": [
+            [
+              "I",
+              "work",
+              "I work in an office."
+            ],
+            [
+              "You",
+              "work",
+              "You work very hard."
+            ],
+            [
+              "He",
+              "works",
+              "He works at a bank."
+            ],
+            [
+              "She",
+              "works",
+              "She works from home."
+            ],
+            [
+              "It",
+              "works",
+              "It works well."
+            ],
+            [
+              "We",
+              "work",
+              "We work together."
+            ],
+            [
+              "They",
+              "work",
+              "They work at night."
+            ]
+          ]
+        },
+        "arabic_contrast_ar": "أشيع خطأ في هذا الفصل: نسيان الـ s. «He work» خطأ، والمتحدث الأصلي يلاحظه فوراً. في كل جملة فيها he أو she أو it تحقّق من الـ s.",
+        "spelling_rules": [
+          {
+            "case_en": "Most verbs",
+            "rule_en": "add -s",
+            "examples": "work → works, read → reads, live → lives"
+          },
+          {
+            "case_en": "Ends in s, sh, ch, x, z",
+            "rule_en": "add -es",
+            "examples": "watch → watches, wash → washes, fix → fixes"
+          },
+          {
+            "case_en": "Ends in o",
+            "rule_en": "add -es",
+            "examples": "go → goes, do → does"
+          },
+          {
+            "case_en": "Consonant + y",
+            "rule_en": "y → ies",
+            "examples": "study → studies, fly → flies"
+          },
+          {
+            "case_en": "Vowel + y",
+            "rule_en": "just add -s",
+            "examples": "play → plays, buy → buys"
+          },
+          {
+            "case_en": "have",
+            "rule_en": "irregular",
+            "examples": "have → has"
+          }
+        ],
+        "s_sound_ar": [
+          "/s/ بعد صوت مهموس (p, t, k, f): stops · writes · works · laughs",
+          "/z/ بعد صوت مجهور أو حركة: plays · lives · goes · reads",
+          "/ɪz/ بعد s, sh, ch, x, z: watches · washes · fixes"
+        ],
+        "common_errors": [
+          {
+            "error_no": 3,
+            "wrong": "He work here.",
+            "right": "He works here.",
+            "why_ar": "he/she/it تأخذ s"
+          },
+          {
+            "error_no": 4,
+            "wrong": "He doesn't likes fish.",
+            "right": "He doesn't like fish.",
+            "why_ar": "بعد doesn’t يأتي الفعل مجرّداً"
+          },
+          {
+            "error_no": 5,
+            "wrong": "Where you work?",
+            "right": "Where do you work?",
+            "why_ar": "السؤال يحتاج do/does"
+          },
+          {
+            "error_no": 6,
+            "wrong": "I wake up always early.",
+            "right": "I always wake up early.",
+            "why_ar": "ظرف التكرار قبل الفعل الرئيسي"
+          }
+        ],
+        "negation_ar": "النفي: I don’t work · He doesn’t work — والفعل بعدها مجرّد",
+        "question_ar": "السؤال: Do you work? · Does he work? — والفعل بعدها مجرّد",
+        "checklist_ar": [
+          "الـ s مع he و she و it في كل جملة",
+          "بعد don’t و doesn’t يأتي الفعل مجرّداً",
+          "السؤال يبدأ بـ Do أو Does",
+          "ظرف التكرار (always · usually · never) قبل الفعل الرئيسي"
+        ]
+      }
+    },
+    {
+      "kind": "listening",
+      "day_number": 6,
+      "title_ar": "الاستماع — ثلاثاء معتاد",
+      "title_en": "Listening — \"A Typical Tuesday\"",
+      "payload": {
+        "method_ar": [
+          "استمع كاملاً بلا نص. عمّا يتحدّث؟ قلها في جملة واحدة.",
+          "استمع مرة أخرى واكتب أي كلمة لم تلتقطها.",
+          "افتح النص واقرأه وأنت تستمع.",
+          "أغلق النص واستمع مرة أخيرة، ولاحظ كم صار أوضح."
+        ],
+        "warning_ar": "لا تقرأ النص قبل الخطوة الثالثة.",
+        "transcript": [
+          {
+            "en": "My name is Mona and I am a teacher. My day starts very early. I wake up at half past five and I pray. Then I take a shower and get dressed. I always have breakfast with my husband Sami at a quarter past six. We drink tea and talk about the day.",
+            "ar": "اسمي منى وأنا مدرّسة. يومي يبدأ مبكراً جداً. أستيقظ في الخامسة والنصف وأصلّي. ثم أستحمّ وألبس. أتناول الفطور دائماً مع زوجي سامي في السادسة والربع. نشرب الشاي ونتحدّث عن اليوم."
+          },
+          {
+            "en": "I leave the house at seven. I don't drive — I walk to the school because it is near. It takes about fifteen minutes. School starts at half past seven. I teach five lessons every day. My students are ten years old and they are very noisy, but I love my job.",
+            "ar": "أخرج من البيت في السابعة. لا أقود — أمشي إلى المدرسة لأنها قريبة. يستغرق ذلك خمس عشرة دقيقة. المدرسة تبدأ في السابعة والنصف. أُعلّم خمس حصص كل يوم. طلابي في العاشرة من عمرهم وهم صاخبون جداً، لكني أحبّ عملي."
+          },
+          {
+            "en": "At twelve o'clock we have lunch. I usually eat with the other teachers in a small room. We often talk about our students. After lunch I teach two more lessons and I finish at two thirty.",
+            "ar": "في الثانية عشرة نتغدّى. آكل عادةً مع المدرّسات الأخريات في غرفة صغيرة. نتحدّث كثيراً عن طلابنا. بعد الغداء أُعلّم حصتين أخريين وأنتهي في الثانية والنصف."
+          },
+          {
+            "en": "In the afternoon I go home and I rest for an hour. Then I help my son Adam with his homework. He is six and he studies very hard. At six o'clock I cook dinner. We eat together at eight — this is my favourite time of the day.",
+            "ar": "بعد الظهر أعود إلى البيت وأرتاح ساعة. ثم أساعد ابني آدم في واجباته. عمره ست سنوات ويدرس بجدّ. في السادسة أطبخ العشاء. نأكل معاً في الثامنة — وهذا وقتي المفضّل في اليوم."
+          },
+          {
+            "en": "In the evening I sometimes watch a film, but I usually read a book. I never work in the evening. I go to bed at half past ten. On Fridays I don't work, so I get up late and we visit my parents.",
+            "ar": "في المساء أشاهد فيلماً أحياناً، لكني أقرأ كتاباً عادةً. لا أعمل في المساء أبداً. أنام في العاشرة والنصف. يوم الجمعة لا أعمل، فأستيقظ متأخّرة ونزور والديّ."
+          }
+        ],
+        "questions": [
+          {
+            "q_ar": "في أي وقت تستيقظ منى؟",
+            "a_ar": "الخامسة والنصف",
+            "hint_ar": "الفقرة الأولى"
+          },
+          {
+            "q_ar": "مع مَن تتناول الفطور؟",
+            "a_ar": "مع زوجها سامي",
+            "hint_ar": "الفقرة الأولى"
+          },
+          {
+            "q_ar": "كيف تذهب إلى المدرسة؟",
+            "a_ar": "مشياً",
+            "hint_ar": "الفقرة الثانية"
+          },
+          {
+            "q_ar": "لماذا تمشي؟",
+            "a_ar": "لأن المدرسة قريبة",
+            "hint_ar": "because it is near"
+          },
+          {
+            "q_ar": "كم حصة تُعلّم كل يوم؟",
+            "a_ar": "خمس حصص",
+            "hint_ar": "الفقرة الثانية"
+          },
+          {
+            "q_ar": "كم عمر طلابها؟",
+            "a_ar": "عشر سنوات",
+            "hint_ar": "الفقرة الثانية"
+          },
+          {
+            "q_ar": "أين تتغدّى؟",
+            "a_ar": "في غرفة صغيرة مع المدرّسات",
+            "hint_ar": "الفقرة الثالثة"
+          },
+          {
+            "q_ar": "ماذا تفعل بعد الغداء في البيت؟",
+            "a_ar": "ترتاح ساعة ثم تساعد ابنها",
+            "hint_ar": "الفقرة الرابعة"
+          },
+          {
+            "q_ar": "ما وقتها المفضّل؟",
+            "a_ar": "العشاء معاً في الثامنة",
+            "hint_ar": "الفقرة الرابعة"
+          },
+          {
+            "q_ar": "ماذا تفعل يوم الجمعة؟",
+            "a_ar": "لا تعمل، تستيقظ متأخّرة وتزور والديها",
+            "hint_ar": "الفقرة الأخيرة"
+          }
+        ],
+        "shadowing_ar": "خُذ الفقرة الأولى فقط. تكلّم مع الصوت في الوقت نفسه، عشر مرات. ركّز على شيئين: نهايات الـ s، والتوقّف بين الأفكار لا بين الكلمات."
+      }
+    },
+    {
+      "kind": "reading",
+      "day_number": 7,
+      "title_ar": "القراءة — الرجل الذي لا ينام",
+      "title_en": "Reading — \"The Man Who Never Sleeps\"",
+      "payload": {
+        "method_ar": "اقرأ مرتين. الأولى بلا توقّف، والثانية مع المسرد.",
+        "story": [
+          {
+            "en": "Paul Verdi lives in a small village in Italy and he has a very unusual life. He is a baker. His day begins when most people are asleep.",
+            "ar": "بول فيردي يسكن في قرية صغيرة في إيطاليا وحياته غير معتادة إطلاقاً. هو خبّاز. يومه يبدأ حين يكون معظم الناس نائمين."
+          },
+          {
+            "en": "Paul gets up at one o'clock in the morning. He doesn't use an alarm clock — after thirty years, his body wakes up alone. He drinks a strong coffee, puts on his white jacket and walks to the bakery. It is only two hundred metres from his house.",
+            "ar": "ينهض بول في الواحدة صباحاً. لا يستخدم منبّهاً — بعد ثلاثين عاماً، جسده يستيقظ وحده. يشرب قهوة قوية، ويلبس سترته البيضاء، ويمشي إلى المخبز. المخبز على مئتَي متر فقط من بيته."
+          },
+          {
+            "en": "He starts work at half past one. First he prepares the bread. Then he makes the pastries. The oven is very hot and the work is hard, but Paul is happy. \"I love the smell of fresh bread,\" he says. \"It is the best smell in the world.\"",
+            "ar": "يبدأ العمل في الواحدة والنصف. أولاً يُعدّ الخبز، ثم يصنع المعجّنات. الفرن حارّ جداً والعمل شاقّ، لكن بول سعيد. يقول: «أحبّ رائحة الخبز الطازج. إنها أفضل رائحة في العالم»."
+          },
+          {
+            "en": "The shop opens at six. In the morning, the village people come and buy their bread. Paul knows every customer by name. He often gives free biscuits to the children.",
+            "ar": "المتجر يفتح في السادسة. في الصباح يأتي أهل القرية ويشترون خبزهم. بول يعرف كل عميل باسمه. وكثيراً ما يعطي البسكويت مجاناً للأطفال."
+          },
+          {
+            "en": "He finishes at eleven o'clock and goes home for lunch. Then he sleeps from one until seven in the evening. He has dinner with his wife, watches a little television, and goes back to bed at nine.",
+            "ar": "ينتهي في الحادية عشرة ويعود إلى البيت للغداء. ثم ينام من الواحدة حتى السابعة مساءً. يتعشّى مع زوجته، ويشاهد قليلاً من التلفاز، ويعود إلى النوم في التاسعة."
+          },
+          {
+            "en": "\"People say I have a strange life,\" Paul says. \"But I don't agree. I have a beautiful village, a good wife and the best bread in Italy. I am a very lucky man.\"",
+            "ar": "يقول بول: «يقول الناس إن حياتي غريبة. لكني لا أوافق. لديّ قرية جميلة وزوجة طيبة وأفضل خبز في إيطاليا. أنا رجل محظوظ جداً»."
+          }
+        ],
+        "glossary": [
+          {
+            "en": "village",
+            "ipa": "/ˈvɪlɪdʒ/",
+            "ar": "قرية",
+            "note_ar": "Smaller than a town"
+          },
+          {
+            "en": "unusual",
+            "ipa": "/ʌnˈjuːʒuəl/",
+            "ar": "غير معتاد",
+            "note_ar": "Opposite of usual"
+          },
+          {
+            "en": "baker",
+            "ipa": "/ˈbeɪkə(r)/",
+            "ar": "خبّاز",
+            "note_ar": "A bakery is the shop"
+          },
+          {
+            "en": "asleep",
+            "ipa": "/əˈsliːp/",
+            "ar": "نائم",
+            "note_ar": "Adjective, used with be"
+          },
+          {
+            "en": "alarm clock",
+            "ipa": "/əˈlɑːm klɒk/",
+            "ar": "منبّه",
+            "note_ar": "Two words"
+          },
+          {
+            "en": "prepare",
+            "ipa": "/prɪˈpeə(r)/",
+            "ar": "يحضّر",
+            "note_ar": "Contains /p/ and /r/"
+          },
+          {
+            "en": "pastry",
+            "ipa": "/ˈpeɪstri/",
+            "ar": "معجنات",
+            "note_ar": "Plural: pastries"
+          },
+          {
+            "en": "oven",
+            "ipa": "/ˈʌvn/",
+            "ar": "فرن",
+            "note_ar": "Note the /v/"
+          },
+          {
+            "en": "smell",
+            "ipa": "/smel/",
+            "ar": "رائحة",
+            "note_ar": "Also a verb: it smells good"
+          },
+          {
+            "en": "fresh",
+            "ipa": "/freʃ/",
+            "ar": "طازج",
+            "note_ar": "Opposite: stale"
+          },
+          {
+            "en": "customer",
+            "ipa": "/ˈkʌstəmə(r)/",
+            "ar": "زبون",
+            "note_ar": "A person who buys"
+          },
+          {
+            "en": "free",
+            "ipa": "/friː/",
+            "ar": "مجاني",
+            "note_ar": "Also means not busy"
+          },
+          {
+            "en": "agree",
+            "ipa": "/əˈɡriː/",
+            "ar": "يوافق",
+            "note_ar": "Negative: I don't agree"
+          },
+          {
+            "en": "lucky",
+            "ipa": "/ˈlʌki/",
+            "ar": "محظوظ",
+            "note_ar": "Noun: luck"
+          }
+        ],
+        "questions": [
+          {
+            "q_ar": "ما مهنة بول وأين يسكن؟",
+            "a_ar": "خبّاز في قرية صغيرة في إيطاليا"
+          },
+          {
+            "q_ar": "لماذا لا يستخدم منبّهاً؟",
+            "a_ar": "بعد ثلاثين عاماً جسده يستيقظ وحده"
+          },
+          {
+            "q_ar": "كم يبعد المخبز عن بيته؟",
+            "a_ar": "مئتا متر"
+          },
+          {
+            "q_ar": "متى ينام في النهار؟",
+            "a_ar": "من الواحدة حتى السابعة مساءً"
+          },
+          {
+            "q_ar": "هل يرى بول حياته غريبة؟",
+            "a_ar": "لا — يقول إنه رجل محظوظ"
+          }
+        ],
+        "find_task_ar": "ابحث في النص عن: خمسة أفعال بـ s (he lives · he has …) · جملة منفية بـ doesn’t · ثلاثة تعبيرات وقت.",
+        "notice_ar": "لاحظ الـ s في كل فعل مع he. هذا ما درسته في اليوم الرابع، وهذه القراءة تُرسّخه."
+      }
+    },
+    {
+      "kind": "breaktime",
+      "day_number": null,
+      "title_ar": "وقت الاستراحة — المضارع البسيط",
+      "title_en": "Break Time — English Outside the Book",
+      "payload": {
+        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
+        "compare": [
+          {
+            "aspect_ar": "الكمّ",
+            "intensive_ar": "دقائق من الصوت",
+            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
+          },
+          {
+            "aspect_ar": "الفهم",
+            "intensive_ar": "تستهدف 100%",
+            "extensive_ar": "50–70% تكفي"
+          },
+          {
+            "aspect_ar": "الجهد",
+            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
+            "extensive_ar": "منخفض — تسترخي وتستمتع"
+          },
+          {
+            "aspect_ar": "ما يبنيه",
+            "intensive_ar": "الدقّة والقواعد",
+            "extensive_ar": "السرعة والأذن والحدس والمفردات"
+          },
+          {
+            "aspect_ar": "لو أغفلته",
+            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
+            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
+          }
+        ],
+        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
+        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
+        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
+        "song": {
+          "intro_ar": "هذه الأغاني مبنية كلها تقريباً على الزمن الذي درسته هذا الأسبوع. تصيَّد نهايات الـ s.",
+          "pick": {
+            "title": "What a Wonderful World",
+            "artist": "Louis Armstrong",
+            "why_ar": "بطيئة ودافئة، وكل سطر فيها مضارع بسيط: I see trees… I hear babies cry. مثالية لسماع الزمن في كلام طبيعي.",
+            "search": "Louis Armstrong What a Wonderful World lyrics"
+          },
+          "alternatives": [
+            {
+              "title": "Don't Worry, Be Happy",
+              "artist": "Bobby McFerrin",
+              "why_ar": "بسيطة جداً ومتكرّرة، ومليئة بالمضارع البسيط والنفي بـ don’t."
+            },
+            {
+              "title": "Yellow Submarine",
+              "artist": "The Beatles",
+              "why_ar": "إنجليزية بسيطة كأنها للأطفال، بنطق واضح ولازمة لا تُنسى."
+            }
+          ],
+          "method_ar": [
+            "اختر أغنية واحدة. شغّلها مرة للمتعة.",
+            "شغّلها مرة أخرى وأحصِ كم فعلاً سمعته بنهاية s.",
+            "افتحها على LyricsTraining بمستوى Beginner والعب لعبة الفراغات مرتين.",
+            "غنِّها مرة بصوت عالٍ، وحدك في غرفة."
+          ],
+          "tool": {
+            "name": "LyricsTraining",
+            "url": "https://lyricstraining.com/",
+            "why_ar": "لعبة ملء الفراغات على أي أغنية."
+          },
+          "item": {
+            "key": "song",
+            "icon": "🎵",
+            "label_ar": "أغنية الأسبوع",
+            "task_ar": "اسمعها للمتعة · أحصِ نهايات الـ s · العب LyricsTraining مرتين · غنِّها مرة",
+            "minutes": 30,
+            "steps": [
+              "شغّلها مرة للمتعة فقط — بلا كلمات ولا تحليل.",
+              "شغّلها ثانية واكتب خمس كلمات سمعتها ولم تكن تعرفها.",
+              "شغّلها مع الكلمات المكتوبة أمامك.",
+              "غنِّ معها مرة. الغناء يضبط الإيقاع بلا أن تفكّر فيه."
+            ],
+            "why_ar": "الأغنية تُعاد خمسين مرة طوعاً، ولا تمرين يُعاد خمسين مرة.",
+            "prompt_ar": "الكلمات الخمس التي التقطتها"
+          }
+        },
+        "watch": {
+          "pick": {
+            "title": "Peppa Pig — أي حلقة",
+            "where": "YouTube — القناة الرسمية",
+            "level": "A1",
+            "why_ar": "نعم هو للأطفال — ونعم هو من أنجع موارد A1 الموجودة. خمس دقائق للحلقة، كلها مضارع بسيط، ونطق واضح تماماً. ملايين المتعلّمين البالغين يستخدمونه.",
+            "url": "https://www.youtube.com/results?search_query=Peppa+Pig+official"
+          },
+          "alternatives": [
+            {
+              "title": "Extra English — الحلقتان 2 و3",
+              "level": "A1–A2",
+              "why_ar": "واصل المسلسل. عند الحلقة الثالثة ستلاحظ أنك تتابع أكثر من الأولى."
+            },
+            {
+              "title": "A Day in the Life of…",
+              "level": "A2",
+              "why_ar": "موضوع هذا الأسبوع ومفرداته بالضبط. ابحث عن مهنة تهمّك: طبيب، مبرمج، طاهٍ."
+            }
+          ],
+          "encouragement_ar": "لا تخجل من Peppa Pig. أذنك الإنجليزية الآن في الخامسة من عمرها — وهذه ليست إساءة بل حيث يبدأ كل متعلّم. أطعمها ما تستطيع هضمه، فتنمو سريعاً.",
+          "subtitle_rule_ar": "ترجمة إنجليزية لا عربية — القاعدة نفسها من الأسبوع الأول.",
+          "item": {
+            "key": "watch",
+            "icon": "📺",
+            "label_ar": "ما تشاهده",
+            "task_ar": "شاهد ثلاث حلقات على الأقل بترجمة إنجليزية",
+            "minutes": 25,
+            "steps": [
+              "شاهد حلقة كاملة بلا توقّف.",
+              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
+              "اكتب ثلاث عبارات علقت في ذهنك."
+            ],
+            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
+            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
+          }
+        },
+        "story": {
+          "pick": {
+            "source": "British Council — Elementary Podcasts",
+            "url": "https://learnenglish.britishcouncil.org",
+            "what_ar": "السلسلة 1 الحلقتان 2 و3. استمع والنصّ مفتوح أمامك."
+          },
+          "alternatives": [
+            {
+              "source": "Storynory",
+              "url": "https://storynory.com",
+              "what_ar": "أي قصة قصيرة تحت عشر دقائق."
+            },
+            {
+              "source": "VOA Learning English — Level 1",
+              "url": "https://learningenglish.voanews.com",
+              "what_ar": "أخبار بسرعة بطيئة، ثلاث دقائق لكل قصة، بالنصّ الكامل."
+            }
+          ],
+          "target_ar": [
+            "قصة واحدة، ثلاث مرات: صوت · صوت + نصّ · صوت."
+          ],
+          "item": {
+            "key": "story",
+            "icon": "📖",
+            "label_ar": "قصة الأسبوع",
+            "task_ar": "قصة واحدة ثلاث مرات: صوت · صوت + نصّ · صوت",
+            "minutes": 30,
+            "steps": [
+              "خمس عشرة دقيقة قراءة أو استماع — لا أكثر.",
+              "لا تبحث عن أكثر من ثلاث كلمات. خمّن الباقي من السياق.",
+              "اكتب جملة واحدة عمّا قرأته، من الذاكرة."
+            ],
+            "why_ar": "الحدس من السياق هو المهارة المقصودة — والبحث عن كل كلمة يقتلها.",
+            "prompt_ar": "جملة واحدة عمّا قرأته"
+          }
+        },
+        "channel": {
+          "heading_ar": "بودكاست تجرّبه",
+          "intro_ar": "البودكاست أفضل استخدام للوقت الميت — القيادة والمشي والانتظار. ابدأ بواحد مصنوع للمتعلّمين.",
+          "pick": {
+            "name": "BBC 6 Minute English",
+            "url": "https://www.bbc.co.uk/learningenglish/features/6-minute-english",
+            "why_ar": "ست دقائق، مُقدّمان، موضوع واحد، ونصّ كامل."
+          },
+          "alternatives": [
+            {
+              "name": "Culips ESL Podcast",
+              "url": "https://www.culips.com/",
+              "why_ar": "محادثة طبيعية تُشرح بعدها."
+            }
+          ],
+          "note_ar": "في A1–A2 توقّع أن تفهم 30–50% من البودكاست. هذا طبيعي ومفيد رغم ذلك. لا تتوقّف لأنه يبدو صعباً — النسبة ترتفع وحدها.",
+          "item": {
+            "key": "channel",
+            "icon": "🎧",
+            "label_ar": "بودكاست تجرّبه",
+            "task_ar": "حلقة واحدة كاملة مع النصّ — وتوقّع فهم 30–50% وهذا طبيعي",
+            "minutes": 15,
+            "steps": [
+              "شاهد شيئاً واحداً على الأقل من القناة.",
+              "أعد ما أعجبك مرة ثانية.",
+              "اكتب ما تعلّمته في سطر."
+            ],
+            "prompt_ar": "ماذا تعلّمت؟"
+          }
+        },
+        "plan": [
+          {
+            "day_ar": "السبت",
+            "activity_ar": "الأغنية — التشغيلان الأول والثاني",
+            "minutes": 10
+          },
+          {
+            "day_ar": "الأحد",
+            "activity_ar": "Peppa Pig — حلقتان",
+            "minutes": 10
+          },
+          {
+            "day_ar": "الاثنين",
+            "activity_ar": "الأغنية — عدّ نهايات الـ s + LyricsTraining",
+            "minutes": 20
+          },
+          {
+            "day_ar": "الثلاثاء",
+            "activity_ar": "Extra English الحلقة 2",
+            "minutes": 25
+          },
+          {
+            "day_ar": "الأربعاء",
+            "activity_ar": "البودكاست — 6 Minute English",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الخميس",
+            "activity_ar": "القصة — صوت + نصّ",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الجمعة",
+            "activity_ar": "حرّ. شاهد ما تحبّ بالإنجليزية.",
+            "minutes": 30
+          }
+        ],
+        "item_order": [
+          "song",
+          "watch",
+          "story",
+          "channel"
+        ]
+      }
+    },
+    {
+      "kind": "selfcheck",
+      "day_number": 7,
+      "title_ar": "الاختبار الذاتي — نهاية الفصل",
+      "title_en": "End-of-Chapter Self-Check",
+      "payload": {
+        "intro_ar": "كن صادقاً. هذا يحدّد هل تنتقل أم تُعيد.",
+        "items": [
+          {
+            "can_ar": "تصف يومك كاملاً من الاستيقاظ إلى النوم",
+            "proof_ar": "قلها بصوت عالٍ في دقيقتين"
+          },
+          {
+            "can_ar": "تضيف الـ s مع he و she و it بلا نسيان",
+            "proof_ar": "تمارين اليوم الرابع"
+          },
+          {
+            "can_ar": "تقول الوقت بطريقتين",
+            "proof_ar": "مجموعة «تعبيرات الوقت» — 20 تعبيراً"
+          },
+          {
+            "can_ar": "تضع ظرف التكرار في موضعه الصحيح",
+            "proof_ar": "always قبل الفعل لا بعده"
+          },
+          {
+            "can_ar": "تميّز سماعاً بين /p/ و/b/ و/f/ و/v/",
+            "proof_ar": "لعبة التمييز — الهدف 11 من 12"
+          },
+          {
+            "can_ar": "تتذكّر 80 من 100 كلمة عند عرض العربية",
+            "proof_ar": "جلسة المراجعة المتباعدة"
+          },
+          {
+            "can_ar": "تكتب 80–100 كلمة عن يومك بلا خطأ في الـ s",
+            "proof_ar": "مهمة الكتابة"
+          },
+          {
+            "can_ar": "تتحدّث دقيقتين عن روتينك بلا توقّف طويل",
+            "proof_ar": "التسجيل"
+          }
+        ],
+        "pass_ar": "7–8 ✓ → انتقل إلى الأسبوع الثالث.",
+        "partial_ar": "5–6 ✓ → انتقل، لكن أعد أضعف قسمين خلال الأسبوع الثالث.",
+        "fail_ar": "أقل من 5 → أعد هذا الفصل. الأسبوع الثالث يبني على المضارع البسيط.",
+        "keep_recording_ar": "احفظ تسجيل هذا الأسبوع. المقارنة بين تسجيلاتك هي أقوى دليل على تقدّمك."
+      }
+    },
+    {
+      "kind": "speaking",
+      "title_ar": "التحدّث",
+      "title_en": "Two Minutes About Your Day",
+      "payload": {
+        "task_ar": "تحدّث دقيقتين عن يومك — من استيقاظك إلى نومك",
+        "target_seconds": 120,
+        "is_baseline": false,
+        "title_en": "Two Minutes About Your Day",
+        "intro_ar": null,
+        "cover_ar": null,
+        "model_en": "My day begins early. // I wake up at half past five and I pray. // Then I take a shower and get dressed. // I always have breakfast with my wife at six. We drink tea and talk. //\nI leave the house at seven. I don't drive — I take the bus. It takes about forty minutes. // I start work at eight. I check my email first, then I go to my meetings. // I usually finish at five, but sometimes I work late. //\nIn the evening I play with my children. // After dinner I study English for one hour. I never watch television — I don't have time. // I go to bed at half past ten. //\nOn Fridays my day is very different. I get up late and we visit my parents. It is my favourite day. //",
+        "outline": [
+          {
+            "part_en": "Morning",
+            "say_en": "wake up, pray, shower, breakfast + times",
+            "seconds": 30
+          },
+          {
+            "part_en": "Journey",
+            "say_en": "leave, walk/drive/take the bus, it takes…",
+            "seconds": 20
+          },
+          {
+            "part_en": "Work or study",
+            "say_en": "start, finish, usually, sometimes",
+            "seconds": 30
+          },
+          {
+            "part_en": "Evening",
+            "say_en": "after, then, never, go to bed",
+            "seconds": 25
+          },
+          {
+            "part_en": "The weekend",
+            "say_en": "On Fridays… different… favourite",
+            "seconds": 15
+          }
+        ],
+        "rubric": [
+          {
+            "label_en": "Length",
+            "label_ar": "الطول",
+            "levels": [
+              "Under 60 sec",
+              "60–100 sec",
+              "100–120 sec"
+            ]
+          },
+          {
+            "label_en": "The -s ending",
+            "label_ar": null,
+            "levels": [
+              "Usually missing",
+              "Half correct",
+              "Correct nearly always"
+            ]
+          },
+          {
+            "label_en": "Frequency adverbs",
+            "label_ar": "ظروف التكرار",
+            "levels": [
+              "None used",
+              "1–2 used",
+              "3+ in the right position"
+            ]
+          },
+          {
+            "label_en": "Time expressions",
+            "label_ar": "عبارات الزمن",
+            "levels": [
+              "Vague or missing",
+              "Some times given",
+              "Specific times throughout"
+            ]
+          },
+          {
+            "label_en": "/p/ and /v/",
+            "label_ar": null,
+            "levels": [
+              "Replaced with ب and ف",
+              "Sometimes correct",
+              "Clear and consistent"
+            ]
+          },
+          {
+            "label_en": "Flow",
+            "label_ar": null,
+            "levels": [
+              "Long pauses inside sentences",
+              "Some hesitation",
+              "Pauses only between ideas"
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "title_ar": "اقرأ النموذج",
+            "title_en": "Study the Model",
+            "text_en": []
+          },
+          {
+            "title_ar": "ابنِ نصّك أنت",
+            "title_en": "Build Your Version",
+            "text_en": []
+          },
+          {
+            "title_ar": "سجّل ثم قيّم نفسك",
+            "title_en": "Record and Score",
+            "text_en": [
+              "Record 2 minutes from memory. Save as Week02.",
+              "Compare with Week01. Play both recordings back to back. You should hear more words, longer sentences, and fewer long pauses. That difference — after only two weeks — is what proves the method works."
+            ]
+          }
+        ],
+        "save_as": "Week02"
+      }
+    }
+  ],
+  "writing": {
+    "title_ar": "الكتابة — يومي المعتاد",
+    "title_en": "Writing — My Typical Day",
+    "task_ar": "اكتب 80–100 كلمة عن يومك المعتاد. اذكر أوقاتاً محدّدة، واستخدم ظروف التكرار (always · usually · often · sometimes · never)، ورتّب الأحداث من الصباح إلى الليل.",
+    "task_en": "Write 80–100 words about your typical day. Include specific times, use frequency adverbs, and order the events from morning to night.",
+    "min_words": 80,
+    "max_words": 100,
+    "templates": [
+      {
+        "en": "I wake up at ___.",
+        "ar": "أستيقظ في ___."
+      },
+      {
+        "en": "Then I ___ and I ___.",
+        "ar": "ثم ___ و___."
+      },
+      {
+        "en": "I always ___ before breakfast.",
+        "ar": "أفعل ___ دائماً قبل الفطور.",
+        "note_ar": "always قبل الفعل"
+      },
+      {
+        "en": "I leave the house at ___.",
+        "ar": "أخرج من البيت في ___."
+      },
+      {
+        "en": "I ___ to work. It takes ___ minutes.",
+        "ar": "أذهب إلى العمل بـ___. يستغرق ___ دقيقة."
+      },
+      {
+        "en": "I usually have lunch at ___.",
+        "ar": "أتغدّى عادةً في ___."
+      },
+      {
+        "en": "In the evening I sometimes ___, but I usually ___.",
+        "ar": "في المساء أحياناً ___، لكن عادةً ___."
+      },
+      {
+        "en": "I never ___ in the evening.",
+        "ar": "لا ___ في المساء أبداً."
+      },
+      {
+        "en": "I go to bed at ___.",
+        "ar": "أنام في ___."
+      }
+    ],
+    "target_errors": [
+      {
+        "wrong": "He work here.",
+        "right": "He works here."
+      },
+      {
+        "wrong": "I wake up always early.",
+        "right": "I always wake up early."
+      },
+      {
+        "wrong": "Where you work?",
+        "right": "Where do you work?"
+      }
+    ],
+    "checklist": [
+      {
+        "ar": "هل أضفت s لكل فعل مع he و she و it؟"
+      },
+      {
+        "ar": "هل ظرف التكرار قبل الفعل الرئيسي؟"
+      },
+      {
+        "ar": "هل ذكرت أوقاتاً محدّدة لا «مبكراً» و«متأخراً» فقط؟"
+      },
+      {
+        "ar": "هل الأحداث مرتّبة من الصباح إلى الليل؟"
+      },
+      {
+        "ar": "هل استخدمت don’t أو doesn’t صحيحة في النفي؟"
+      },
+      {
+        "ar": "هل المجموع بين 80 و100 كلمة؟"
+      }
+    ],
+    "model_answer": "My name is Ahmed and I am a student. I wake up at six o'clock every morning. I always pray first, then I take a shower and get dressed. I have breakfast with my family at half past six. I leave the house at seven and I take the bus to university. It takes about thirty minutes. My classes start at eight. I usually have lunch with my friends at one o'clock. In the afternoon I study in the library. I never work in the evening — I watch television or read. I go to bed at eleven.",
+    "model_words": 96
+  },
+  "exercises": [
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "أفعال الروتين — المعنى",
+      "prompt": "أي فعل يعني «يستيقظ»؟",
+      "payload": {
+        "options": [
+          "get up",
+          "wake up",
+          "stand up",
+          "grow up"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "wake up = يستيقظ (تفتح عينيك). أما get up = ينهض من السرير.",
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "true_false",
+      "focus_ar": "أفعال الروتين — الفرق بين المتقاربين",
+      "prompt": "wake up و get up لهما المعنى نفسه.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "wake up تفتح عينيك، و get up تنهض من السرير. الكتاب يفرّق بينهما.",
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "التمييز الصوتي — /p/ مقابل /b/",
+      "prompt": "أي كلمة تبدأ بصوت /p/؟",
+      "payload": {
+        "options": [
+          "Ben",
+          "pen",
+          "big",
+          "bat"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "pen تبدأ بـ/p/. واختبار الورقة يفرّق: /p/ تحرّك الورقة أمام فمك و/b/ لا.",
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "التمييز الصوتي — /f/ مقابل /v/",
+      "prompt": "أي كلمة فيها صوت /v/؟",
+      "payload": {
+        "options": [
+          "fan",
+          "few",
+          "van",
+          "ferry"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "van فيها /v/ — وهو مجهور، تهتزّ به حلقك. أما /f/ فمهموس.",
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "focus_ar": "قول الوقت — الطريقة الطبيعية",
+      "prompt": "كيف تقول 7:30 بالطريقة الطبيعية؟",
+      "payload": {
+        "options": [
+          "seven thirty",
+          "half past seven",
+          "thirty past seven",
+          "a quarter past seven"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "half past seven هي الطريقة الطبيعية، و seven thirty هي الرقمية. كلتاهما صحيحة.",
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "focus_ar": "قول الوقت — نقطة التحوّل عند 30",
+      "prompt": "كيف تقول 7:40؟",
+      "payload": {
+        "options": [
+          "forty past seven",
+          "twenty to eight",
+          "twenty past eight",
+          "forty to seven"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "بعد النصف تتحوّل إلى to وتنتقل للساعة التالية: twenty to eight لا forty past seven.",
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "correct_error",
+      "focus_ar": "موضع ظرف التكرار",
+      "error_no": 6,
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "I wake up always early."
+      },
+      "answer": {
+        "accepted": [
+          "I always wake up early."
+        ]
+      },
+      "explanation": "ظرف التكرار يأتي قبل الفعل الرئيسي: I always wake up.",
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "حروف الجرّ مع الوقت",
+      "prompt": "I wake up ______ six o'clock.",
+      "payload": {
+        "before": "I wake up",
+        "after": "six o'clock."
+      },
+      "answer": {
+        "accepted": [
+          "at"
+        ]
+      },
+      "explanation": "at مع الساعات · on مع الأيام · in مع الشهور والفصول.",
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "true_false",
+      "focus_ar": "فهم الحوار الأول — Asking About a Routine",
+      "prompt": "Sami wakes up at half past five.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "قال سامي: I wake up at half past five.",
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "true_false",
+      "focus_ar": "فهم الحوار الأول — Asking About a Routine",
+      "prompt": "Sami drives to work.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "قال: No, I take the bus — يستقلّ الحافلة لا يقود.",
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "السؤال بـ do في المضارع البسيط",
+      "error_no": 5,
+      "prompt": "What time ______ you wake up?",
+      "payload": {
+        "before": "What time",
+        "after": "you wake up?"
+      },
+      "answer": {
+        "accepted": [
+          "do"
+        ]
+      },
+      "explanation": "السؤال في المضارع البسيط يحتاج do — لا يصحّ What time you wake up?",
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "correct_error",
+      "focus_ar": "السؤال بـ do",
+      "error_no": 5,
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "Where you work?"
+      },
+      "answer": {
+        "accepted": [
+          "Where do you work?"
+        ]
+      },
+      "explanation": "كل سؤال في المضارع البسيط يحتاج do أو does.",
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "fill_blank",
+      "focus_ar": "الـ s مع he/she/it",
+      "error_no": 3,
+      "prompt": "He ______ at a bank. (work)",
+      "payload": {
+        "before": "He",
+        "after": "at a bank."
+      },
+      "answer": {
+        "accepted": [
+          "works"
+        ]
+      },
+      "explanation": "he تأخذ الفعل + s. وهذا أشيع خطأ في هذا الفصل.",
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "fill_blank",
+      "focus_ar": "إملاء الـ s — الفعل المنتهي بـ ch",
+      "prompt": "She ______ television every evening. (watch)",
+      "payload": {
+        "before": "She",
+        "after": "television every evening."
+      },
+      "answer": {
+        "accepted": [
+          "watches"
+        ]
+      },
+      "explanation": "الفعل المنتهي بـ s أو sh أو ch أو x يأخذ es: watches.",
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "fill_blank",
+      "focus_ar": "إملاء الـ s — ساكن + y",
+      "prompt": "He ______ medicine at university. (study)",
+      "payload": {
+        "before": "He",
+        "after": "medicine at university."
+      },
+      "answer": {
+        "accepted": [
+          "studies"
+        ]
+      },
+      "explanation": "ساكن + y تتحوّل إلى ies: study → studies. أما play فتصبح plays (حركة + y).",
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "fill_blank",
+      "focus_ar": "الفعل الشاذ have",
+      "prompt": "She ______ two children. (have)",
+      "payload": {
+        "before": "She",
+        "after": "two children."
+      },
+      "answer": {
+        "accepted": [
+          "has"
+        ]
+      },
+      "explanation": "have شاذّ: he/she/it → has لا haves.",
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "correct_error",
+      "focus_ar": "الفعل مجرّد بعد doesn’t",
+      "error_no": 4,
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "He doesn't likes fish."
+      },
+      "answer": {
+        "accepted": [
+          "He doesn't like fish.",
+          "He does not like fish."
+        ]
+      },
+      "explanation": "الـ s تنتقل إلى does، فيبقى الفعل مجرّداً: doesn’t like.",
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "correct_error",
+      "focus_ar": "الـ s مع he",
+      "error_no": 3,
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "He work here."
+      },
+      "answer": {
+        "accepted": [
+          "He works here."
+        ]
+      },
+      "explanation": "he تأخذ s. والمتحدث الأصلي يلاحظ غيابها فوراً.",
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "نطق الـ s الثلاثة",
+      "prompt": "كيف تُنطق الـ s في كلمة watches؟",
+      "payload": {
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/",
+          "لا تُنطق"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "بعد ch تُنطق /ɪz/ — WATCH-iz. وبعد المهموس /s/، وبعد المجهور /z/.",
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "أماكن اليوم — المعنى",
+      "prompt": "أي كلمة تعني «مكتب»؟",
+      "payload": {
+        "options": [
+          "kitchen",
+          "office",
+          "bakery",
+          "village"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "office /ˈɒfɪs/ = مكتب.",
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "focus_ar": "النفي بـ don’t",
+      "prompt": "I ______ work on Fridays. (not work)",
+      "payload": {
+        "before": "I",
+        "after": "work on Fridays."
+      },
+      "answer": {
+        "accepted": [
+          "don't",
+          "do not"
+        ]
+      },
+      "explanation": "I تأخذ don’t، و he/she/it تأخذ doesn’t.",
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "true_false",
+      "focus_ar": "ترتيب ظرف التكرار",
+      "error_no": 6,
+      "prompt": "الجملة صحيحة: She never works in the evening.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "صحيحة — never قبل الفعل الرئيسي works.",
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "حروف الجرّ مع الأيام والشهور",
+      "prompt": "أي جملة صحيحة؟",
+      "payload": {
+        "options": [
+          "I work in Monday.",
+          "I work at Monday.",
+          "I work on Monday.",
+          "I work Monday."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "on مع الأيام · at مع الساعات · in مع الشهور.",
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "true_false",
+      "focus_ar": "فهم نص الاستماع — A Typical Tuesday",
+      "prompt": "Mona drives to school.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "النص يقول: I don’t drive — I walk to the school because it is near.",
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "multiple_choice",
+      "focus_ar": "فهم نص الاستماع — التفاصيل",
+      "prompt": "كم حصة تُعلّم منى كل يوم؟",
+      "payload": {
+        "options": [
+          "ثلاث",
+          "أربع",
+          "خمس",
+          "سبع"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "I teach five lessons every day.",
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "fill_blank",
+      "focus_ar": "الـ s مع she — من نص الاستماع",
+      "error_no": 3,
+      "prompt": "Mona ______ five lessons every day. (teach)",
+      "payload": {
+        "before": "Mona",
+        "after": "five lessons every day."
+      },
+      "answer": {
+        "accepted": [
+          "teaches"
+        ]
+      },
+      "explanation": "she تأخذ es لأن teach تنتهي بـ ch: teaches.",
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "correct_error",
+      "focus_ar": "النفي مع he/she",
+      "error_no": 4,
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "She don't work on Fridays."
+      },
+      "answer": {
+        "accepted": [
+          "She doesn't work on Fridays.",
+          "She does not work on Fridays."
+        ]
+      },
+      "explanation": "she تأخذ doesn’t لا don’t.",
+      "points": 1
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "type": "true_false",
+      "focus_ar": "فهم القراءة — The Man Who Never Sleeps",
+      "prompt": "Paul uses an alarm clock.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "النص يقول: He doesn’t use an alarm clock — بعد ثلاثين عاماً جسده يستيقظ وحده.",
+      "points": 1
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "type": "multiple_choice",
+      "focus_ar": "فهم القراءة — التفاصيل",
+      "prompt": "في أي وقت ينهض بول؟",
+      "payload": {
+        "options": [
+          "الواحدة صباحاً",
+          "الخامسة صباحاً",
+          "السادسة صباحاً",
+          "الحادية عشرة"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "Paul gets up at one o'clock in the morning.",
+      "points": 1
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "type": "fill_blank",
+      "focus_ar": "الـ s مع he — من القراءة",
+      "error_no": 3,
+      "prompt": "Paul ______ every customer by name. (know)",
+      "payload": {
+        "before": "Paul",
+        "after": "every customer by name."
+      },
+      "answer": {
+        "accepted": [
+          "knows"
+        ]
+      },
+      "explanation": "he تأخذ s: knows.",
+      "points": 1
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "type": "correct_error",
+      "focus_ar": "السؤال والـ s معاً",
+      "error_no": 5,
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "What time he starts work?"
+      },
+      "answer": {
+        "accepted": [
+          "What time does he start work?"
+        ]
+      },
+      "explanation": "السؤال يحتاج does، والـ s تنتقل إليه فيبقى الفعل مجرّداً: does he start.",
+      "points": 1
+    }
+  ]
+}

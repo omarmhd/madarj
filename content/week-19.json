@@ -1,0 +1,3327 @@
+{
+  "number": 19,
+  "module": 4,
+  "title_en": "The Passive & Listening at Full Speed",
+  "title_ar": "المبني للمجهول والاستماع بالسرعة الكاملة",
+  "pron_section": 5,
+  "is_review": false,
+  "objectives": [
+    {
+      "en": "Form the passive in the present and the past",
+      "ar": "أصوغ المبني للمجهول في المضارع والماضي"
+    },
+    {
+      "en": "Explain why a speaker chose the passive rather than the active",
+      "ar": "أشرح لماذا اختار المتحدّث المجهول لا المعلوم"
+    },
+    {
+      "en": "Use by only when the agent matters",
+      "ar": "أستخدم by فقط حين يهمّ الفاعل"
+    },
+    {
+      "en": "Describe a process in the passive",
+      "ar": "أصف عملية بالمبني للمجهول"
+    },
+    {
+      "en": "Understand news, instructions and reports, which are full of passives",
+      "ar": "أفهم الأخبار والتعليمات والتقارير، وهي مملوءة بالمجهول"
+    },
+    {
+      "en": "Follow unedited native speech at 50–70%",
+      "ar": "أتابع كلام الناطقين الأصليين غير المحرّر بنسبة 50–70%"
+    },
+    {
+      "en": "Use three strategies for listening when I miss words",
+      "ar": "أستخدم ثلاث استراتيجيات للاستماع حين تفوتني كلمات"
+    },
+    {
+      "en": "Speak for 2 minutes explaining how something is made or done",
+      "ar": "أتحدّث دقيقتين شارحاً كيف يُصنع شيء أو كيف يُفعل"
+    }
+  ],
+  "writing": {
+    "title_ar": null,
+    "title_en": "Writing — How Something Is Made or Done",
+    "task_ar": null,
+    "task_en": "Write 150–170 words describing a process — how something is made, how something works, or how something is done in your job or country. Use at least eight passives and the sequencing phrases from §2.3.",
+    "min_words": 150,
+    "max_words": 170,
+    "templates": [],
+    "checklist": [],
+    "model_answer": "Bread is still made by hand in the small bakery near my house, and the process takes about six hours.",
+    "model_words": 20
+  },
+  "days": [
+    {
+      "number": 1,
+      "focus": "القواعد · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القواعد",
+          "minutes": 25,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:1"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "focus": "القواعد · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القواعد",
+          "minutes": 25,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:2"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "focus": "الاستماع · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الاستماع",
+          "minutes": 25,
+          "ref": "section:listening"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:3"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "focus": "العمليات والإنتاج · الحوار الأول · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "العمليات والإنتاج · حوار: How It's Made",
+          "minutes": 25,
+          "ref": "vocab:processes_and_production|dialogue:1"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:4"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "focus": "الحوار الثاني · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "حوار: Reporting a Problem",
+          "minutes": 25,
+          "ref": "dialogue:2"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:5"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "focus": "وصف عملية · الاستماع · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "وصف عملية · الاستماع",
+          "minutes": 25,
+          "ref": "vocab:describing_a_process|section:listening"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:6"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "focus": "القراءة · الكتابة · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القراءة · الكتابة",
+          "minutes": 25,
+          "ref": "section:reading|writing:1|record"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:7"
+        },
+        {
+          "order": 5,
+          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record:baseline"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "group": "processes_and_production",
+      "word": "produce",
+      "ipa": "/prəˈdjuːs/",
+      "arabic": "ينتج",
+      "example": "It is produced in Egypt.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "manufacture",
+      "ipa": "/ˌmænjuˈfæktʃə(r)/",
+      "arabic": "يصنّع",
+      "example": "They are manufactured abroad.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "build",
+      "ipa": "/bɪld/",
+      "arabic": "يبني",
+      "example": "It was built in 1890.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "design",
+      "ipa": "/dɪˈzaɪn/",
+      "arabic": "يصمّم",
+      "example": "It was designed by a woman.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "develop",
+      "ipa": "/dɪˈveləp/",
+      "arabic": "يطوّر",
+      "example": "It is being developed now.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "test",
+      "ipa": "/test/",
+      "arabic": "يختبر",
+      "example": "Every unit is tested.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "check",
+      "ipa": "/tʃek/",
+      "arabic": "يتفقّد",
+      "example": "The work is checked twice.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "deliver",
+      "ipa": "/dɪˈlɪvə(r)/",
+      "arabic": "يوصّل",
+      "example": "It will be delivered tomorrow.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "pack",
+      "ipa": "/pæk/",
+      "arabic": "يعبّئ",
+      "example": "They are packed by hand.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "store",
+      "ipa": "/stɔː(r)/",
+      "arabic": "يخزّن",
+      "example": "It must be stored cold.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "export",
+      "ipa": "/ɪkˈspɔːt/",
+      "arabic": "يصدّر",
+      "example": "Most of it is exported.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "import",
+      "ipa": "/ɪmˈpɔːt/",
+      "arabic": "يستورد",
+      "example": "The parts are imported.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "grow",
+      "ipa": "/ɡrəʊ/",
+      "arabic": "يزرع",
+      "example": "Rice is grown here.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "harvest",
+      "ipa": "/ˈhɑːvɪst/",
+      "arabic": "يحصد",
+      "example": "It is harvested in autumn.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "process",
+      "ipa": "/ˈprəʊses/",
+      "arabic": "يعالج",
+      "example": "It is processed in a factory.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "recycle",
+      "ipa": "/ˌriːˈsaɪkl/",
+      "arabic": "يعيد التدوير",
+      "example": "Paper can be recycled.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "repair",
+      "ipa": "/rɪˈpeə(r)/",
+      "arabic": "يصلّح",
+      "example": "It was repaired last week.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "replace",
+      "ipa": "/rɪˈpleɪs/",
+      "arabic": "يستبدل",
+      "example": "The part has been replaced.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "install",
+      "ipa": "/ɪnˈstɔːl/",
+      "arabic": "يركّب",
+      "example": "The software is installed already.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "discover",
+      "ipa": "/dɪˈskʌvə(r)/",
+      "arabic": "يكتشف",
+      "example": "It was discovered in 1928.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "invent",
+      "ipa": "/ɪnˈvent/",
+      "arabic": "يخترع",
+      "example": "It was invented by Bell.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "publish",
+      "ipa": "/ˈpʌblɪʃ/",
+      "arabic": "ينشر",
+      "example": "The book was published in 2019.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "translate",
+      "ipa": "/trænzˈleɪt/",
+      "arabic": "يترجم",
+      "example": "It has been translated into forty languages.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "sign",
+      "ipa": "/saɪn/",
+      "arabic": "يوقّع",
+      "example": "The contract was signed yesterday.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "cancel",
+      "ipa": "/ˈkænsl/",
+      "arabic": "يلغي",
+      "example": "The flight has been cancelled.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "damage",
+      "ipa": "/ˈdæmɪdʒ/",
+      "arabic": "يتلف",
+      "example": "The roof was damaged in the storm.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "destroy",
+      "ipa": "/dɪˈstrɔɪ/",
+      "arabic": "يدمّر",
+      "example": "The building was destroyed.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "protect",
+      "ipa": "/prəˈtekt/",
+      "arabic": "يحمي",
+      "example": "The area is protected by law.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "allow",
+      "ipa": "/əˈlaʊ/",
+      "arabic": "يسمح",
+      "example": "Smoking is not allowed.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "processes_and_production",
+      "word": "require",
+      "ipa": "/rɪˈkwaɪə(r)/",
+      "arabic": "يتطلّب",
+      "example": "A visa is required.",
+      "group_label_ar": "العمليات والإنتاج",
+      "group_label_en": "Processes and Production"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "material",
+      "ipa": "/məˈtɪəriəl/",
+      "arabic": "مادة",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "wood",
+      "ipa": "/wʊd/",
+      "arabic": "خشب",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "metal",
+      "ipa": "/ˈmetl/",
+      "arabic": "معدن",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "steel",
+      "ipa": "/stiːl/",
+      "arabic": "فولاذ",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "plastic",
+      "ipa": "/ˈplæstɪk/",
+      "arabic": "بلاستيك",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "glass",
+      "ipa": "/ɡlɑːs/",
+      "arabic": "زجاج",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "cotton",
+      "ipa": "/ˈkɒtn/",
+      "arabic": "قطن",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "leather",
+      "ipa": "/ˈleðə(r)/",
+      "arabic": "جلد",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "paper",
+      "ipa": "/ˈpeɪpə(r)/",
+      "arabic": "ورق",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "stone",
+      "ipa": "/stəʊn/",
+      "arabic": "حجر",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "weight",
+      "ipa": "/weɪt/",
+      "arabic": "وزن",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "length",
+      "ipa": "/leŋθ/",
+      "arabic": "طول",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "width",
+      "ipa": "/wɪdθ/",
+      "arabic": "عرض",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "height",
+      "ipa": "/haɪt/",
+      "arabic": "ارتفاع",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "size",
+      "ipa": "/saɪz/",
+      "arabic": "حجم",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "amount",
+      "ipa": "/əˈmaʊnt/",
+      "arabic": "كمية",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "quantity",
+      "ipa": "/ˈkwɒntəti/",
+      "arabic": "كمية",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "quality",
+      "ipa": "/ˈkwɒləti/",
+      "arabic": "جودة",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "layer",
+      "ipa": "/ˈleɪə(r)/",
+      "arabic": "طبقة",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "surface",
+      "ipa": "/ˈsɜːfɪs/",
+      "arabic": "سطح",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "machine",
+      "ipa": "/məˈʃiːn/",
+      "arabic": "آلة",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "tool",
+      "ipa": "/tuːl/",
+      "arabic": "أداة",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "factory",
+      "ipa": "/ˈfæktri/",
+      "arabic": "مصنع",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "workshop",
+      "ipa": "/ˈwɜːkʃɒp/",
+      "arabic": "ورشة",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "materials_and_measurements",
+      "word": "stage",
+      "ipa": "/steɪdʒ/",
+      "arabic": "مرحلة",
+      "example": null,
+      "group_label_ar": "الموادّ والمقاييس",
+      "group_label_en": "Materials and Measurements"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "First of all…",
+      "ipa": null,
+      "arabic": "أولاً وقبل كل شيء…",
+      "example": "Opening",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "To begin with…",
+      "ipa": null,
+      "arabic": "في البداية…",
+      "example": "Opening",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "The first stage is…",
+      "ipa": null,
+      "arabic": "المرحلة الأولى هي…",
+      "example": "Opening",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "Then…",
+      "ipa": null,
+      "arabic": "ثم…",
+      "example": "Middle",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "After that…",
+      "ipa": null,
+      "arabic": "بعد ذلك…",
+      "example": "Middle",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "Next…",
+      "ipa": null,
+      "arabic": "التالي…",
+      "example": "Middle",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "At this point…",
+      "ipa": null,
+      "arabic": "عند هذه النقطة…",
+      "example": "Middle",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "Meanwhile…",
+      "ipa": null,
+      "arabic": "في هذه الأثناء…",
+      "example": "Parallel step",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "Once … has been done",
+      "ipa": null,
+      "arabic": "بمجرد أن يتم…",
+      "example": "Sequencing",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "Before … is …",
+      "ipa": null,
+      "arabic": "قبل أن يتم…",
+      "example": "Sequencing",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "After … has been …",
+      "ipa": null,
+      "arabic": "بعد أن يتم…",
+      "example": "Sequencing",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "Finally…",
+      "ipa": null,
+      "arabic": "أخيراً…",
+      "example": "Closing",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "The last stage is…",
+      "ipa": null,
+      "arabic": "المرحلة الأخيرة هي…",
+      "example": "Closing",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "It is then …",
+      "ipa": null,
+      "arabic": "ثم يتم…",
+      "example": "Passive step",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "It has to be …",
+      "ipa": null,
+      "arabic": "يجب أن يتم…",
+      "example": "Obligation in a process",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "It can be …",
+      "ipa": null,
+      "arabic": "يمكن أن يتم…",
+      "example": "Possibility",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "It is usually …",
+      "ipa": null,
+      "arabic": "عادةً يتم…",
+      "example": "Frequency",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "This takes about…",
+      "ipa": null,
+      "arabic": "يستغرق هذا حوالي…",
+      "example": "Duration",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "The whole process takes…",
+      "ipa": null,
+      "arabic": "العملية كلها تستغرق…",
+      "example": "Duration",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "This is why…",
+      "ipa": null,
+      "arabic": "ولهذا…",
+      "example": "Explaining",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "As a result…",
+      "ipa": null,
+      "arabic": "ونتيجة لذلك…",
+      "example": "Explaining",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "The advantage is…",
+      "ipa": null,
+      "arabic": "الميزة هي…",
+      "example": "Evaluating",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "The problem is…",
+      "ipa": null,
+      "arabic": "المشكلة هي…",
+      "example": "Evaluating",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "In other words…",
+      "ipa": null,
+      "arabic": "بعبارة أخرى…",
+      "example": "Clarifying",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "describing_a_process",
+      "word": "To sum up…",
+      "ipa": null,
+      "arabic": "خلاصة…",
+      "example": "Closing",
+      "group_label_ar": "وصف عملية",
+      "group_label_en": "Describing a Process"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "Sorry, I missed that.",
+      "ipa": null,
+      "arabic": "عذراً، فاتني ذلك",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "Could you say that again?",
+      "ipa": null,
+      "arabic": "هل تعيد ذلك؟",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "A bit slower, please.",
+      "ipa": null,
+      "arabic": "أبطأ قليلاً من فضلك",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "What does … mean?",
+      "ipa": null,
+      "arabic": "ماذا تعني…؟",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "Did you say … or …?",
+      "ipa": null,
+      "arabic": "هل قلت… أم…؟",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "So you mean…?",
+      "ipa": null,
+      "arabic": "إذن تقصد…؟",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "Let me check I understood.",
+      "ipa": null,
+      "arabic": "دعني أتأكد أني فهمت",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "Is that right?",
+      "ipa": null,
+      "arabic": "هل هذا صحيح؟",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "I got most of that.",
+      "ipa": null,
+      "arabic": "فهمت معظم ذلك",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "I lost you at…",
+      "ipa": null,
+      "arabic": "ضِعت عند…",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "Can you spell that?",
+      "ipa": null,
+      "arabic": "هل تتهجاها؟",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "One more time?",
+      "ipa": null,
+      "arabic": "مرة أخرى؟",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "I think I follow.",
+      "ipa": null,
+      "arabic": "أظن أني أتابع",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "Sorry, go on.",
+      "ipa": null,
+      "arabic": "عذراً، تفضّل",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "In other words…?",
+      "ipa": null,
+      "arabic": "بعبارة أخرى…؟",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "Just to be clear…",
+      "ipa": null,
+      "arabic": "للتوضيح فقط…",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "That's new to me.",
+      "ipa": null,
+      "arabic": "هذا جديد عليّ",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "I've never heard that word.",
+      "ipa": null,
+      "arabic": "لم أسمع بهذه الكلمة",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "Roughly, yes.",
+      "ipa": null,
+      "arabic": "تقريباً، نعم",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    },
+    {
+      "group": "listening_strategy_words",
+      "word": "More or less.",
+      "ipa": null,
+      "arabic": "إلى حد ما",
+      "example": null,
+      "group_label_ar": "كلمات استراتيجية الاستماع",
+      "group_label_en": "Listening Strategy Words"
+    }
+  ],
+  "minimal_pairs": [],
+  "dialogues": [
+    {
+      "number": 1,
+      "title": "How It's Made",
+      "situation_en": "Sami is shown around a small factory.",
+      "situation_ar": "سامي في جولة داخل مصنع صغير، يشرحون له كيف يُصنع المنتج.",
+      "speaker_genders": {
+        "GUIDE": "m",
+        "SAMI": "m"
+      },
+      "lines": [
+        {
+          "speaker": "GUIDE",
+          "en": "So this is where everything starts. The cotton is delivered every Monday.",
+          "ar": "إذن هنا يبدأ كل شيء. يُسلَّم القطن كل اثنين."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Where is it grown?",
+          "ar": "أين يُزرع؟"
+        },
+        {
+          "speaker": "GUIDE",
+          "en": "Most of it is grown about forty kilometres from here.",
+          "ar": "معظمه يُزرع على بعد أربعين كيلومتراً من هنا."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "And then?",
+          "ar": "وبعد ذلك؟"
+        },
+        {
+          "speaker": "GUIDE",
+          "en": "It's cleaned first, then it's spun into thread in that room.",
+          "ar": "يُنظَّف أولاً، ثم يُغزل إلى خيط في تلك الغرفة."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "How long does that take?",
+          "ar": "كم يستغرق ذلك؟"
+        },
+        {
+          "speaker": "GUIDE",
+          "en": "About two days. Meanwhile the dye is prepared next door.",
+          "ar": "حوالي يومين. في هذه الأثناء يُحضَّر الصبغ في الغرفة المجاورة."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Is it dyed by machine?",
+          "ar": "هل يُصبغ بالآلة؟"
+        },
+        {
+          "speaker": "GUIDE",
+          "en": "The plain colours are. The patterns are still done by hand.",
+          "ar": "الألوان السادة نعم. الأنماط ما زالت تُصنع يدوياً."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Really? In 2026?",
+          "ar": "حقاً؟ في 2026؟"
+        },
+        {
+          "speaker": "GUIDE",
+          "en": "We tried machines twice. Both times the quality was worse and the customers noticed.",
+          "ar": "جرّبنا الآلات مرتين. في المرتين كانت الجودة أسوأ ولاحظ الزبائن."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "And once it's been dyed?",
+          "ar": "وبمجرد أن يُصبغ؟"
+        },
+        {
+          "speaker": "GUIDE",
+          "en": "It's dried, checked, and packed. Every piece is checked by a person, not a camera.",
+          "ar": "يُجفَّف ويُفحص ويُعبَّأ. كل قطعة تُفحص بواسطة شخص لا كاميرا."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "How much is exported?",
+          "ar": "كم يُصدَّر؟"
+        },
+        {
+          "speaker": "GUIDE",
+          "en": "About seventy per cent. The rest is sold here.",
+          "ar": "حوالي سبعين بالمئة. الباقي يُباع هنا."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Reporting a Problem",
+      "situation_en": "",
+      "situation_ar": "إبلاغ عن مشكلة: ما الذي حدث، ومن فعله؟",
+      "speaker_genders": {
+        "LINA": "f",
+        "SAMI": "m"
+      },
+      "lines": [
+        {
+          "speaker": "LINA",
+          "en": "Have you heard? The system was hacked last night.",
+          "ar": "هل سمعت؟ اختُرق النظام الليلة الماضية."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Hacked? By whom?",
+          "ar": "اختُرق؟ من قبل من؟"
+        },
+        {
+          "speaker": "LINA",
+          "en": "Nobody knows yet. It was discovered at six this morning.",
+          "ar": "لا أحد يعرف بعد. اكتُشف الأمر في السادسة صباحاً."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Was anything taken?",
+          "ar": "هل سُرق شيء؟"
+        },
+        {
+          "speaker": "LINA",
+          "en": "Some files were copied. No money was moved, apparently.",
+          "ar": "نُسخت بعض الملفات. لم تُحوَّل أموال على ما يبدو."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Have the clients been told?",
+          "ar": "هل أُبلغ العملاء؟"
+        },
+        {
+          "speaker": "LINA",
+          "en": "Not yet. A statement is being prepared.",
+          "ar": "ليس بعد. يجري إعداد بيان."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "That means it's serious. If it wasn't serious, it would have been mentioned in the morning email.",
+          "ar": "هذا يعني أنه جاد. لو لم يكن جاداً لذُكر في بريد الصباح."
+        },
+        {
+          "speaker": "LINA",
+          "en": "That's exactly what I thought.",
+          "ar": "هذا بالضبط ما فكّرت فيه."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "What are we supposed to do?",
+          "ar": "ماذا يُفترض بنا أن نفعل؟"
+        },
+        {
+          "speaker": "LINA",
+          "en": "All passwords have to be changed today. And nothing is to be discussed outside the building.",
+          "ar": "يجب تغيير كل كلمات المرور اليوم. ولا يُناقش شيء خارج المبنى."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "\"Nothing is to be discussed.\" They really did write that.",
+          "ar": "\"لا يُناقش شيء.\" كتبوا ذلك فعلاً."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Word for word.",
+          "ar": "حرفياً."
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "kind": "grammar",
+      "day_number": 4,
+      "title_ar": "القواعد",
+      "title_en": "Grammar — The Passive Voice",
+      "payload": {
+        "rule_ar": "المبني للمجهول (be + اسم المفعول) يُستعمل حين يكون **الحدث أهمّ من فاعله**، أو حين يكون الفاعل مجهولاً أو بديهياً. وهو زمن الأخبار والتعليمات ووصف العمليات، ويملأ كل ورقة قراءة في اختبار B1. وby لا تُذكر إلا إذا كان الفاعل يهمّ فعلاً.",
+        "rule_en": "be  +  PAST PARTICIPLE",
+        "common_errors": [
+          {
+            "error_no": 1,
+            "wrong": "The house built in 1890",
+            "right": "The house was built in 1890.",
+            "arabic": "بُني البيت عام 1890",
+            "why_ar": "فعل be إجباري"
+          },
+          {
+            "error_no": 2,
+            "wrong": "My car stole",
+            "right": "My car was stolen.",
+            "arabic": "سُرقت سيارتي",
+            "why_ar": "اسم المفعول لا صيغة الماضي"
+          },
+          {
+            "error_no": 3,
+            "wrong": "It make in Egypt",
+            "right": "It is made in Egypt.",
+            "arabic": "يُصنع في مصر",
+            "why_ar": "الجزءان مطلوبان"
+          },
+          {
+            "error_no": 4,
+            "wrong": "The flight has cancelled",
+            "right": "The flight has been cancelled.",
+            "arabic": "أُلغيت الرحلة",
+            "why_ar": "been مطلوبة في التام"
+          },
+          {
+            "error_no": 5,
+            "wrong": "The form must sign",
+            "right": "The form must be signed.",
+            "arabic": "يجب توقيع النموذج",
+            "why_ar": "be بعد الفعل الناقص"
+          },
+          {
+            "error_no": 6,
+            "wrong": "stolen by somebody",
+            "right": "My car was stolen.",
+            "arabic": "سُرقت سيارتي من قبل شخص ما",
+            "why_ar": "احذف by إن لم تعنِ شيئاً"
+          }
+        ],
+        "checklist_ar": [
+          "be + اسم المفعول — وbe هو ما يحمل الزمن",
+          "المضارع: is/are made · الماضي: was/were made",
+          "by فقط حين يهمّ الفاعل",
+          "لا تنسَ be: The house built ← was built",
+          "المفعول يصير فاعلاً في المجهول"
+        ]
+      }
+    },
+    {
+      "kind": "listening",
+      "day_number": 6,
+      "title_ar": "الاستماع",
+      "title_en": "Pronunciation — Listening at Full Speed",
+      "payload": {
+        "method_ar": [
+          "استمع كاملاً بلا نصّ. عمّا يتحدّث؟ قلها في جملة واحدة.",
+          "استمع مرة أخرى واكتب أي كلمة لم تلتقطها.",
+          "افتح النصّ واقرأه وأنت تستمع.",
+          "أغلق النصّ واستمع مرة أخيرة، ولاحظ كم صار أوضح."
+        ],
+        "transcript": [],
+        "questions": []
+      }
+    },
+    {
+      "kind": "reading",
+      "day_number": 7,
+      "title_ar": "القراءة",
+      "title_en": "Reading — \"Everything on This Page Was Made by Somebody\"",
+      "payload": {
+        "method_ar": "اقرأ مرتين. الأولى بلا توقّف، والثانية مع المسرد.",
+        "story": [
+          {
+            "en": "Look at the room you are sitting in. Almost nothing in it was made by a person you will ever meet, and almost everything in it was made by somebody.",
+            "ar": "انظر إلى الغرفة التي تجلس فيها. لا شيء فيها تقريباً صنعه شخص ستلقاه يوماً، وكل شيء فيها تقريباً صنعه شخص."
+          },
+          {
+            "en": "The chair was designed by a team, probably in one country, and manufactured in another. The wood was grown somewhere, cut somewhere else, and shipped by people whose names are not recorded anywhere.",
+            "ar": "الكرسي صمّمه فريق، في بلد على الأرجح، وصُنع في بلد آخر. والخشب نُمّي في مكان، وقُطع في مكان آخر، وشُحن على أيدي أناس لا تُسجَّل أسماؤهم في أي مكان."
+          },
+          {
+            "en": "This is described by economists as the division of labour, and it is usually presented as a triumph, which it largely is. A pencil, as a famous essay pointed out in 1958, cannot be made by any single person on earth. The wood, the graphite, the metal, the rubber and the paint are produced on four continents by people who do not know each other and could not do each other's jobs.",
+            "ar": "يسمّي الاقتصاديون هذا «تقسيم العمل»، ويُعرض عادةً كانتصار، وهو كذلك في معظمه. فالقلم — كما بيّنت مقالة مشهورة سنة 1958 — لا يستطيع أن يصنعه أي شخص واحد على الأرض. الخشب والغرافيت والمعدن والمطّاط والدهان تُنتَج في أربع قارّات على أيدي أناس لا يعرف بعضهم بعضاً ولا يستطيع أحدهم عمل الآخر."
+          },
+          {
+            "en": "The essay was written to make a political point, but the part that stays with people is smaller and stranger. Nobody knows how to make a pencil. Not one person. The knowledge exists, but it is distributed across thousands of people, none of whom holds more than a fragment.",
+            "ar": "كُتبت المقالة لتقول شيئاً سياسياً، لكن الجزء الذي يبقى في أذهان الناس أصغر وأغرب: لا أحد يعرف كيف يُصنع القلم. ولا شخص واحد. المعرفة موجودة، لكنها موزّعة على آلاف الناس، ولا يملك أحدهم أكثر من شظيّة."
+          },
+          {
+            "en": "The same is true of the device you are probably reading this on, of the electricity that powers it, and of the food you ate today.",
+            "ar": "والأمر نفسه صحيح في الجهاز الذي تقرأ عليه هذا على الأرجح، وفي الكهرباء التي تشغّله، وفي الطعام الذي أكلته اليوم."
+          },
+          {
+            "en": "The writer's conclusion was that this should make us humble. A less comfortable conclusion is also available: we are all completely dependent on systems that no individual understands.",
+            "ar": "وكان استنتاج الكاتب أن هذا ينبغي أن يجعلنا متواضعين. وهناك استنتاج آخر أقلّ راحة: نحن جميعاً معتمدون اعتماداً كاملاً على أنظمة لا يفهمها أي فرد."
+          }
+        ],
+        "glossary": [
+          {
+            "en": "manufacture",
+            "ipa": "/ˌmænjuˈfæktʃə(r)/",
+            "ar": "يصنّع",
+            "note_ar": "More formal than make"
+          },
+          {
+            "en": "ship",
+            "ipa": "/ʃɪp/",
+            "ar": "يشحن",
+            "note_ar": "Verb here, not the noun"
+          },
+          {
+            "en": "record",
+            "ipa": "/rɪˈkɔːd/",
+            "ar": "يسجّل",
+            "note_ar": "Verb: rɪˈkɔːd"
+          },
+          {
+            "en": "triumph",
+            "ipa": "/ˈtraɪʌmf/",
+            "ar": "انتصار",
+            "note_ar": "Stress on the first"
+          },
+          {
+            "en": "essay",
+            "ipa": "/ˈeseɪ/",
+            "ar": "مقال",
+            "note_ar": "Stress on the first"
+          },
+          {
+            "en": "point out",
+            "ipa": "/pɔɪnt ˈaʊt/",
+            "ar": "يشير إلى",
+            "note_ar": "A phrasal verb"
+          },
+          {
+            "en": "graphite",
+            "ipa": "/ˈɡræfaɪt/",
+            "ar": "جرافيت",
+            "note_ar": "—"
+          },
+          {
+            "en": "continent",
+            "ipa": "/ˈkɒntɪnənt/",
+            "ar": "قارة",
+            "note_ar": "—"
+          },
+          {
+            "en": "distribute",
+            "ipa": "/dɪˈstrɪbjuːt/",
+            "ar": "يوزّع",
+            "note_ar": "Stress on the second"
+          },
+          {
+            "en": "fragment",
+            "ipa": "/ˈfræɡmənt/",
+            "ar": "جزء صغير",
+            "note_ar": "—"
+          },
+          {
+            "en": "device",
+            "ipa": "/dɪˈvaɪs/",
+            "ar": "جهاز",
+            "note_ar": "Seen in Week 16"
+          },
+          {
+            "en": "humble",
+            "ipa": "/ˈhʌmbl/",
+            "ar": "متواضع",
+            "note_ar": "The b is silent"
+          },
+          {
+            "en": "dependent",
+            "ipa": "/dɪˈpendənt/",
+            "ar": "معتمد",
+            "note_ar": "dependent on"
+          }
+        ],
+        "questions": []
+      }
+    },
+    {
+      "kind": "selfcheck",
+      "day_number": 7,
+      "title_ar": "الاختبار الذاتي — نهاية الفصل",
+      "title_en": "End-of-Chapter Self-Check",
+      "payload": {
+        "intro_ar": "كن صادقاً. هذا يحدّد هل تنتقل أم تُعيد.",
+        "items": [
+          {
+            "can_ar": "أصوغ المجهول في خمسة أزمنة بلا تردّد",
+            "can_en": "Form the passive in five tenses without hesitating?",
+            "proof_ar": "تمارين اليوم 1"
+          },
+          {
+            "can_ar": "أحصل على 10 من 12 في تمارين المجهول",
+            "can_en": "Score 10/12 on Exercise 1?",
+            "proof_ar": "تمارين اليوم 1"
+          },
+          {
+            "can_ar": "أشرح أربعة أسباب لاختيار المتحدّث المجهول",
+            "can_en": "Explain four reasons a speaker chooses the passive?",
+            "proof_ar": "قسم القواعد"
+          },
+          {
+            "can_ar": "أحذف عبارة by غير الضرورية",
+            "can_en": "Delete an unnecessary by phrase?",
+            "proof_ar": "تمارين اليوم 3"
+          },
+          {
+            "can_ar": "أصف عملية بثمانية أفعال مجهولة وأربعة روابط",
+            "can_en": "Describe a process with eight passives and four connectors?",
+            "proof_ar": "الحوار الأول"
+          },
+          {
+            "can_ar": "أتابع بودكاست لناطقين أصليين 50% لعشر دقائق بلا إيقاف",
+            "can_en": "Follow a native podcast at 50% for ten minutes without pausing?",
+            "proof_ar": "قسم النطق"
+          },
+          {
+            "can_ar": "أميّز gonna و wanna و dunno و shoulda فوراً",
+            "can_en": "Recognise gonna, wanna, dunno, shoulda instantly?",
+            "proof_ar": "قسم النطق"
+          },
+          {
+            "can_ar": "أتذكّر 80 من 100 كلمة من العربية",
+            "can_en": "Recall 80 of the 100 words from the Arabic?",
+            "proof_ar": "جلسة المراجعة المتباعدة — تقول لك الرقم"
+          },
+          {
+            "can_ar": "أتحدّث 100 ثانية شارحاً كيف يُصنع شيء",
+            "can_en": "Speak for 100 seconds explaining how something is made?",
+            "proof_ar": "تسجيل هذا الأسبوع"
+          }
+        ],
+        "pass_ar": "8–9 ✓ → انتقل إلى الأسبوع العشرين — أزمنة السرد.",
+        "partial_ar": "6–7 ✓ → انتقل، لكن أبقِ عادة الاستماع اليومي بلا توقّف.",
+        "fail_ar": "أقل من 6 → أعد قسم القواعد. المبني للمجهول يظهر في كل ورقة قراءة في B1."
+      }
+    },
+    {
+      "kind": "phonics",
+      "day_number": 1,
+      "title_ar": "النطق — الاستماع بالسرعة الكاملة",
+      "title_en": "Pronunciation — Listening at Full Speed",
+      "payload": {
+        "intro_ar": "كلام الناطق الأصلي ليس سريعاً، بل غير متساوٍ. هو يقول 150 كلمة في الدقيقة — وهذا ليس سريعاً — لكن 40 منها منطوقة كاملة و110 مضغوطة. وأذنك تدرّبت على تسجيلات كل كلماتها واضحة.",
+        "symbols": [
+          {
+            "ipa": "الصيغ الضعيفة",
+            "arabic_hint": "was و were و did و to و of تُسحق إلى الشوا",
+            "examples": [
+              "was",
+              "were",
+              "to",
+              "of"
+            ]
+          },
+          {
+            "ipa": "الوصل",
+            "arabic_hint": "حدود الكلمات تختفي فتصير الكلمتان كلمة",
+            "examples": [
+              "not at all",
+              "pick it up",
+              "an hour"
+            ]
+          },
+          {
+            "ipa": "سقوط /t/ و/d/",
+            "arabic_hint": "الحرف الأخير يسقط بين ساكنين",
+            "examples": [
+              "last night",
+              "next week",
+              "used to"
+            ],
+            "note_ar": "يُنتظر سماع كل حرف، فتضيع الجملة كلها عند أول حرف ساقط.",
+            "fix_ar": "لا تنتظره: last night تصل إليك «لاس نايت»، وهذا هو النطق الصحيح لا الكسول."
+          },
+          {
+            "ipa": "الاختزال",
+            "arabic_hint": "have to → hafta · going to → gonna · I would have → I’d’ve",
+            "examples": [
+              "have to",
+              "going to",
+              "want to"
+            ]
+          },
+          {
+            "ipa": "استراتيجية 1",
+            "arabic_hint": "لا تحاول التقاط كل كلمة — التقط المنبورة فهي التي تحمل المعنى",
+            "examples": [
+              "went",
+              "shop",
+              "closed",
+              "walked",
+              "home"
+            ],
+            "note_ar": "يُحاوَل التقاط كل كلمة، فيتأخّر الذهن عن المتحدّث ويفقد الجملة.",
+            "fix_ar": "التقط المنبورة فقط: «WENT… SHOP… CLOSED… WALKED… HOME» تعطيك الجملة كاملة."
+          },
+          {
+            "ipa": "استراتيجية 2",
+            "arabic_hint": "توقّع ثم تحقّق — دماغك يجب أن يخمّن نهاية الجملة قبل أن تنتهي",
+            "examples": [
+              "but unfortunately it was…"
+            ]
+          }
+        ],
+        "tip_ar": "لا تُقس تقدّمك بعدد الكلمات التي فهمتها بل بعدد الجمل. من يفهم 60% من الجمل يستطيع متابعة محادثة، ومن يطلب 100% من الكلمات لا يبدأ أبداً."
+      }
+    },
+    {
+      "kind": "breaktime",
+      "day_number": 7,
+      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
+      "title_en": "Break Time — English Outside the Book",
+      "payload": {
+        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
+        "compare": [
+          {
+            "aspect_ar": "الكمّ",
+            "intensive_ar": "دقائق من الصوت",
+            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
+          },
+          {
+            "aspect_ar": "الفهم",
+            "intensive_ar": "تستهدف 100%",
+            "extensive_ar": "50–70% تكفي"
+          },
+          {
+            "aspect_ar": "الجهد",
+            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
+            "extensive_ar": "منخفض — تسترخي وتستمتع"
+          },
+          {
+            "aspect_ar": "ما يبنيه",
+            "intensive_ar": "الدقّة والقواعد",
+            "extensive_ar": "السرعة والأذن والحدس والمفردات"
+          },
+          {
+            "aspect_ar": "لو أغفلته",
+            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
+            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
+          }
+        ],
+        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
+        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
+        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
+        "watch": {
+          "pick": {
+            "title": "\"How It’s Made\"",
+            "where": "YouTube — search the title",
+            "why_en": "Every sentence is a passive. Five minutes per product, narrated slowly, with pictures carrying the meaning. It is almost a grammar lesson.",
+            "search": "\"How It’s Made\""
+          },
+          "alternatives": [
+            {
+              "title": "Documentaries with narration",
+              "where": "Netflix or YouTube",
+              "why_en": "Narration is the clearest full-speed English available.",
+              "search": "Documentaries with narration"
+            },
+            {
+              "title": "Friends — Episodes 18–20",
+              "where": "Any streaming service",
+              "why_en": "Keep going — and try one episode with no subtitles.",
+              "search": "Friends — Episodes 18–20"
+            }
+          ],
+          "item": {
+            "key": "watch",
+            "icon": "📺",
+            "label_ar": "ما تشاهده",
+            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
+            "minutes": 25,
+            "steps": [
+              "شاهد حلقة كاملة بلا توقّف.",
+              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
+              "اكتب ثلاث عبارات علقت في ذهنك."
+            ],
+            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
+            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
+          }
+        },
+        "story": {
+          "pick": {
+            "title": "Luke’s English Podcast",
+            "where": "teacherluke.co.uk",
+            "why_en": "Made by a teacher but spoken at full natural speed. The bridge between graded and native.",
+            "url": "https://teacherluke.co.uk"
+          },
+          "alternatives": [
+            {
+              "title": "All Ears English",
+              "where": "allearsenglish.com",
+              "why_en": "Two Americans talking normally. Fifteen minutes.",
+              "url": "https://allearsenglish.com"
+            },
+            {
+              "title": "Any podcast about your own hobby",
+              "where": "Search your interest + podcast",
+              "why_en": "You already know the subject, so only the language is new. This is the easiest native material there is.",
+              "search": "Any podcast about your own hobby"
+            },
+            {
+              "title": "BBC News — Global News Podcast",
+              "where": "Any podcast app",
+              "why_en": "Formal, clear, and full of passives — this chapter’s grammar in real use.",
+              "search": "BBC News — Global News Podcast"
+            }
+          ],
+          "item": {
+            "key": "story",
+            "icon": "📖",
+            "label_ar": "ما تقرأه",
+            "task_ar": "خمس عشرة دقيقة قراءة أو استماع، ولا تبحث عن أكثر من ثلاث كلمات",
+            "minutes": 15,
+            "steps": [
+              "خمس عشرة دقيقة قراءة أو استماع — لا أكثر.",
+              "لا تبحث عن أكثر من ثلاث كلمات. خمّن الباقي من السياق.",
+              "اكتب جملة واحدة عمّا قرأته، من الذاكرة."
+            ],
+            "why_ar": "الحدس من السياق هو المهارة المقصودة — والبحث عن كل كلمة يقتلها.",
+            "prompt_ar": "جملة واحدة عمّا قرأته"
+          }
+        },
+        "item_order": [
+          "watch",
+          "story"
+        ],
+        "plan": [
+          {
+            "day_ar": "السبت",
+            "activity_ar": "أول بودكاست لناطقين أصليين — بلا إيقاف",
+            "minutes": 20
+          },
+          {
+            "day_ar": "الأحد",
+            "activity_ar": "حلقتان من «How It’s Made»",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الاثنين",
+            "activity_ar": "بودكاست + قراءة",
+            "minutes": 30
+          },
+          {
+            "day_ar": "الثلاثاء",
+            "activity_ar": "درس مع معلّمك",
+            "minutes": 35
+          },
+          {
+            "day_ar": "الأربعاء",
+            "activity_ar": "Friends الحلقة 18 — بلا ترجمة",
+            "minutes": 25
+          },
+          {
+            "day_ar": "الخميس",
+            "activity_ar": "بودكاست + قراءة",
+            "minutes": 30
+          },
+          {
+            "day_ar": "الجمعة",
+            "activity_ar": "فيلم وثائقي من اختيارك",
+            "minutes": 50
+          }
+        ]
+      }
+    },
+    {
+      "kind": "speaking",
+      "title_ar": "التحدّث",
+      "title_en": "Explaining a Process",
+      "payload": {
+        "task_ar": "اشرح دقيقتين خطوات عملٍ تتقنه — بالمبني للمجهول",
+        "target_seconds": 120,
+        "is_baseline": false,
+        "title_en": "Explaining a Process",
+        "intro_ar": null,
+        "cover_ar": null,
+        "model_en": "I want to explain how bread is made in the small bakery near my house, because it's done completely by hand and it takes about six hours. //\nFirst of all, the flour is delivered every second day and stored in a cold room at the back. // It's mixed with water, salt and yeast in a big metal bowl, and then the dough is left for two hours. That's the stage that can't be hurried — they've tried, and it doesn't work. //\nAfter that it's divided by hand into equal pieces. Meanwhile the oven is heated, which takes about forty minutes and is done with wood, not gas. // That's the part that gives the bread its taste, or so I'm told. //\nOnce the dough has been shaped, it's left again for an hour, and then it's baked for twenty minutes. // Finally it's taken out and left to cool on wooden shelves. Nothing is packed, because everything is sold within two hours. //\nAnd the whole process is repeated three times a day, which I find slightly exhausting just to describe. //",
+        "outline": [
+          {
+            "part_en": "What and why",
+            "say_en": "I want to explain how… because…",
+            "seconds": 20
+          },
+          {
+            "part_en": "The first stages",
+            "say_en": "First of all… It is… Then it is…",
+            "seconds": 30
+          },
+          {
+            "part_en": "A parallel stage",
+            "say_en": "Meanwhile…",
+            "seconds": 20
+          },
+          {
+            "part_en": "The later stages",
+            "say_en": "Once … has been … , it is …",
+            "seconds": 30
+          },
+          {
+            "part_en": "The end and a comment",
+            "say_en": "Finally… The whole process…",
+            "seconds": 20
+          }
+        ],
+        "rubric": [
+          {
+            "label_en": "Passive form",
+            "label_ar": null,
+            "levels": [
+              "be or participle missing",
+              "A few errors",
+              "All correct"
+            ]
+          },
+          {
+            "label_en": "Passive count",
+            "label_ar": null,
+            "levels": [
+              "Fewer than three",
+              "Four to six",
+              "Eight or more, naturally"
+            ]
+          },
+          {
+            "label_en": "Sequencing",
+            "label_ar": null,
+            "levels": [
+              "No connectors",
+              "Two used",
+              "Four or more"
+            ]
+          },
+          {
+            "label_en": "by",
+            "label_ar": null,
+            "levels": [
+              "Used unnecessarily",
+              "Mostly right",
+              "Used only where it matters"
+            ]
+          },
+          {
+            "label_en": "Flow",
+            "label_ar": null,
+            "levels": [
+              "Word by word",
+              "Some linking",
+              "Contractions and linking natural"
+            ]
+          },
+          {
+            "label_en": "Length",
+            "label_ar": "الطول",
+            "levels": [
+              "Under 60 sec",
+              "60–100 sec",
+              "100–120 sec"
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "title_ar": "اقرأ النموذج",
+            "title_en": "Study the Model",
+            "text_en": []
+          },
+          {
+            "title_ar": "ابنِ نصّك أنت",
+            "title_en": "Build Your Version",
+            "text_en": []
+          },
+          {
+            "title_ar": "سجّل ثم قيّم نفسك",
+            "title_en": "Record and Score",
+            "text_en": [
+              "Record 2 minutes from memory. Save as Week19. Remember: from this module, record every second day."
+            ]
+          }
+        ],
+        "save_as": "Week19"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "التحويل إلى المجهول",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى المجهول",
+      "payload": {
+        "sentence": "They make these shoes in Turkey."
+      },
+      "answer": {
+        "accepted": [
+          "These shoes are made in Turkey."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "التحويل إلى المجهول",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى المجهول",
+      "payload": {
+        "sentence": "Somebody stole my bicycle."
+      },
+      "answer": {
+        "accepted": [
+          "My bicycle was stolen."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "التحويل إلى المجهول",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى المجهول",
+      "payload": {
+        "sentence": "They built this bridge in 1952."
+      },
+      "answer": {
+        "accepted": [
+          "This bridge was built in"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "التحويل إلى المجهول",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى المجهول",
+      "payload": {
+        "sentence": "They have cancelled the meeting."
+      },
+      "answer": {
+        "accepted": [
+          "4. The meeting has been cancelled."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "التحويل إلى المجهول",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى المجهول",
+      "payload": {
+        "sentence": "They will deliver the package tomorrow."
+      },
+      "answer": {
+        "accepted": [
+          "The package will be delivered tomorrow."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "التحويل إلى المجهول",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى المجهول",
+      "payload": {
+        "sentence": "You must sign this form."
+      },
+      "answer": {
+        "accepted": [
+          "This form must be signed."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "التحويل إلى المجهول",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى المجهول",
+      "payload": {
+        "sentence": "Alexander Fleming discovered penicillin."
+      },
+      "answer": {
+        "accepted": [
+          "Penicillin was discovered by Alexander Fleming."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "التحويل إلى المجهول",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى المجهول",
+      "payload": {
+        "sentence": "They grow rice in this region."
+      },
+      "answer": {
+        "accepted": [
+          "Rice is grown in this region."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "التحويل إلى المجهول",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى المجهول",
+      "payload": {
+        "sentence": "Somebody has broken the window."
+      },
+      "answer": {
+        "accepted": [
+          "The window has been broken."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "التحويل إلى المجهول",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى المجهول",
+      "payload": {
+        "sentence": "They don't allow smoking here."
+      },
+      "answer": {
+        "accepted": [
+          "Smoking isn't allowed here."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "التحويل إلى المجهول",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى المجهول",
+      "payload": {
+        "sentence": "They are repairing the road."
+      },
+      "answer": {
+        "accepted": [
+          "The road is being repaired."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "التحويل إلى المجهول",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى المجهول",
+      "payload": {
+        "sentence": "A fourteen-year-old wrote this book."
+      },
+      "answer": {
+        "accepted": [
+          "This book was written by a fourteen-year-old."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الإكمال بالمبني للمجهول",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "This car ______ (make) in Germany.",
+      "payload": {
+        "before": "This car ",
+        "after": " (make) in Germany."
+      },
+      "answer": {
+        "accepted": [
+          "is made"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الإكمال بالمبني للمجهول",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The letters ______ (deliver) every morning.",
+      "payload": {
+        "before": "The letters ",
+        "after": " (deliver) every morning."
+      },
+      "answer": {
+        "accepted": [
+          "are delivered"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الإكمال بالمبني للمجهول",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The house ______ (build) in 1890.",
+      "payload": {
+        "before": "The house ",
+        "after": " (build) in 1890."
+      },
+      "answer": {
+        "accepted": [
+          "was built"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الإكمال بالمبني للمجهول",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The results ______ (publish) last week.",
+      "payload": {
+        "before": "The results ",
+        "after": " (publish) last week."
+      },
+      "answer": {
+        "accepted": [
+          "were published"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الإكمال بالمبني للمجهول",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The report ______ (not / finish) yet.",
+      "payload": {
+        "before": "The report ",
+        "after": " (not / finish) yet."
+      },
+      "answer": {
+        "accepted": [
+          "hasn't been finished"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الإكمال بالمبني للمجهول",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Your order ______ (send) tomorrow.",
+      "payload": {
+        "before": "Your order ",
+        "after": " (send) tomorrow."
+      },
+      "answer": {
+        "accepted": [
+          "will be sent"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الإكمال بالمبني للمجهول",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Photographs ______ (not / allow) in the museum.",
+      "payload": {
+        "before": "Photographs ",
+        "after": " (not / allow) in the museum."
+      },
+      "answer": {
+        "accepted": [
+          "aren't allowed"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الإكمال بالمبني للمجهول",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The window ______ (break) during the storm.",
+      "payload": {
+        "before": "The window ",
+        "after": " (break) during the storm."
+      },
+      "answer": {
+        "accepted": [
+          "was broken"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الإكمال بالمبني للمجهول",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "These products ______ (export) all over the world.",
+      "payload": {
+        "before": "These products ",
+        "after": " (export) all over the world."
+      },
+      "answer": {
+        "accepted": [
+          "are exported"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الإكمال بالمبني للمجهول",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The contract ______ (must / sign) by Friday.",
+      "payload": {
+        "before": "The contract ",
+        "after": " (must / sign) by Friday."
+      },
+      "answer": {
+        "accepted": [
+          "must be signed"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الإكمال بالمبني للمجهول",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The road ______ (repair) at the moment.",
+      "payload": {
+        "before": "The road ",
+        "after": " (repair) at the moment."
+      },
+      "answer": {
+        "accepted": [
+          "is being repaired"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الإكمال بالمبني للمجهول",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The book ______ (translate) into forty languages.",
+      "payload": {
+        "before": "The book ",
+        "after": " (translate) into forty languages."
+      },
+      "answer": {
+        "accepted": [
+          "has been translated"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "مجهول أم معلوم؟",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Choose the more natural version and say why.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: (b) — the thief is unknown."
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "مجهول أم معلوم؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "(a) Somebody stole my car. (b) My car was stolen. ______",
+      "payload": {
+        "before": "(a) Somebody stole my car. (b) My car was stolen.  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "(a) — the doer is interesting, so the active is more natural.",
+          "(a) — the doer is interesting, so the active is more natural"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "مجهول أم معلوم؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "(a) My brother built this house. (b) This house was built by my brother. ______",
+      "payload": {
+        "before": "(a) My brother built this house. (b) This house was built by my brother.  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "(b) — they is vague; the passive is standard for languages.",
+          "(b) — they is vague; the passive is standard for languages"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "مجهول أم معلوم؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "(a) They speak English in Canada. (b) English is spoken in Canada. ______",
+      "payload": {
+        "before": "(a) They speak English in Canada. (b) English is spoken in Canada.  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Both are correct but they mean different things: (a) admits responsibility, (b) hides it.",
+          "Both are correct but they mean different things: (a) admits responsibility, (b) hides it",
+          "both are correct but they mean different things: (a) admits responsibility, (b) hides it."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "مجهول أم معلوم؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "(a) I made a mistake. (b) A mistake was made. ______",
+      "payload": {
+        "before": "(a) I made a mistake. (b) A mistake was made.  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "(b) — the airline is obvious and irrelevant.",
+          "(b) — the airline is obvious and irrelevant"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "مجهول أم معلوم؟",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "(a) They cancelled the flight. (b) The flight was cancelled.  ……",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "The house built in 1890."
+      },
+      "answer": {
+        "accepted": [
+          "The house was built in"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "My car was steal."
+      },
+      "answer": {
+        "accepted": [
+          "2. My car was stolen."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "It make in Egypt."
+      },
+      "answer": {
+        "accepted": [
+          "It is made in Egypt."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "The flight has cancelled."
+      },
+      "answer": {
+        "accepted": [
+          "The flight has been cancelled."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "The form must sign."
+      },
+      "answer": {
+        "accepted": [
+          "The form must be signed."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "My bag was stolen by somebody."
+      },
+      "answer": {
+        "accepted": [
+          "My bag was stolen."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "These shoes are make in Turkey."
+      },
+      "answer": {
+        "accepted": [
+          "These shoes are made in Turkey."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "The report was wrote by my colleague."
+      },
+      "answer": {
+        "accepted": [
+          "The report was written by my colleague."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "The road is repair at the moment."
+      },
+      "answer": {
+        "accepted": [
+          "The road is being repaired."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "English speaks in Canada."
+      },
+      "answer": {
+        "accepted": [
+          "English is spoken in Canada."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How long has the computer been running? ______",
+      "payload": {
+        "before": "How long has the computer been running?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Since",
+          "since"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Does anyone know what it does? ______",
+      "payload": {
+        "before": "Does anyone know what it does?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "2. No — nobody is entirely sure.",
+          "2. No — nobody is entirely sure",
+          "2. no — nobody is entirely sure."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Who installed it? ______",
+      "payload": {
+        "before": "Who installed it?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "A company that no longer exists.",
+          "A company that no longer exists",
+          "a company that no longer exists."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why was it left connected in 2004? ______",
+      "payload": {
+        "before": "Why was it left connected in 2004?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Because nobody could confirm that nothing depended on it.",
+          "Because nobody could confirm that nothing depended on it",
+          "because nobody could confirm that nothing depended on it."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How many times has a shutdown been planned? ______",
+      "payload": {
+        "before": "How many times has a shutdown been planned?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Three times.",
+          "Three times",
+          "three times."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What happened in 2011? ______",
+      "payload": {
+        "before": "What happened in 2011?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "The power was cut for maintenance and the machine went off for four hours.",
+          "The power was cut for maintenance and the machine went off for four hours",
+          "the power was cut for maintenance and the machine went off for four hours."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What was the consequence? ______",
+      "payload": {
+        "before": "What was the consequence?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Two unrelated systems failed in another city for a day and a half.",
+          "Two unrelated systems failed in another city for a day and a half",
+          "two unrelated systems failed in another city for a day and a half."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What does the sign say? ______",
+      "payload": {
+        "before": "What does the sign say?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "\"Do not switch off. We do not know why.\"",
+          "\"do not switch off. we do not know why.\""
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Who wrote it? ______",
+      "payload": {
+        "before": "Who wrote it?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "An engineer who retired eight years ago.",
+          "An engineer who retired eight years ago",
+          "an engineer who retired eight years ago."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What did the new manager say, and what happened? ______",
+      "payload": {
+        "before": "What did the new manager say, and what happened?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "She said it was unacceptable and would be resolved within a month — and the machine is still running.",
+          "She said it was unacceptable and would be resolved within a month — and the machine is still running",
+          "she said it was unacceptable and would be resolved within a month — and the machine is still running."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "عدّ جمل المجهول",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "This text contains more than fifteen passives. Find them all. Then answer: why is this text so passive-heavy? What does that tell you about the story?",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: Because nobody in the story is identifiable. The company no longer exists, the engineer has retired, no department will take responsibility, and the cause of the 2011 failure was never explained. The passive is the grammar of institutional anonymity — which is exactly what the story is about."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "رسم خطوات العملية",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The cotton ______ .",
+      "payload": {
+        "before": "The cotton ",
+        "after": " ."
+      },
+      "answer": {
+        "accepted": [
+          "is delivered every Monday",
+          "is delivered every monday"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "رسم خطوات العملية",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "It ______ .",
+      "payload": {
+        "before": "It ",
+        "after": " ."
+      },
+      "answer": {
+        "accepted": [
+          "is grown forty kilometres away"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "رسم خطوات العملية",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "It ______ .",
+      "payload": {
+        "before": "It ",
+        "after": " ."
+      },
+      "answer": {
+        "accepted": [
+          "is cleaned"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "رسم خطوات العملية",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Meanwhile the dye ______ .",
+      "payload": {
+        "before": "Meanwhile the dye ",
+        "after": " ."
+      },
+      "answer": {
+        "accepted": [
+          "is prepared next door"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "رسم خطوات العملية",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "It ______ .",
+      "payload": {
+        "before": "It ",
+        "after": " ."
+      },
+      "answer": {
+        "accepted": [
+          "is spun into thread"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "رسم خطوات العملية",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "It ______ , ____________________ and ____________________ .",
+      "payload": {
+        "before": "It ",
+        "after": " , ____________________ and ____________________ ."
+      },
+      "answer": {
+        "accepted": [
+          "is dried, checked and packed"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "رسم خطوات العملية",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Seventy per cent ______ .",
+      "payload": {
+        "before": "Seventy per cent ",
+        "after": " ."
+      },
+      "answer": {
+        "accepted": [
+          "is exported"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تعقّب المبني للمجهول",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "There are nine passives in this dialogue. Find them, and for each say why the doer is not named.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: was hacked (doer unknown)"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يحصد",
+      "payload": {
+        "options": [
+          "protect",
+          "harvest",
+          "store",
+          "discover"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "مثال: It is harvested in autumn.",
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يصمّم",
+      "payload": {
+        "options": [
+          "recycle",
+          "manufacture",
+          "install",
+          "design"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": "مثال: It was designed by a woman.",
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يدمّر",
+      "payload": {
+        "options": [
+          "design",
+          "repair",
+          "destroy",
+          "damage"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "مثال: The building was destroyed.",
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يلغي",
+      "payload": {
+        "options": [
+          "publish",
+          "cancel",
+          "import",
+          "design"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "مثال: The flight has been cancelled.",
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يسمح",
+      "payload": {
+        "options": [
+          "manufacture",
+          "replace",
+          "allow",
+          "test"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "مثال: Smoking is not allowed.",
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يخزّن",
+      "payload": {
+        "options": [
+          "manufacture",
+          "check",
+          "design",
+          "store"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": "مثال: It must be stored cold.",
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "صف عملية",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "First of all, the …… is …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "صف عملية",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Then it is …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "صف عملية",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "After that, …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "صف عملية",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Once …… has been …… , …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "صف عملية",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Meanwhile, …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "صف عملية",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "It has to be …… before …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "صف عملية",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Finally, …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "صف عملية",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "The whole process takes …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Almost everything in your room was made by somebody.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The chair was probably designed and manufactured in the same country.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: probably different countries"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The essay about the pencil was written in 1958.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "One skilled person can make a pencil alone.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: no single person can"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The knowledge of how to make a pencil is held by one company.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: it is distributed across thousands of people"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The writer intended a political point.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The writer concluded that we should be humble.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The text offers only one possible conclusion.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: a less comfortable conclusion is also offered"
+    }
+  ]
+}

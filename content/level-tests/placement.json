@@ -1,0 +1,821 @@
+{
+  "level": "PRE",
+  "after_week": 0,
+  "title_ar": "اختبار قبل البدء",
+  "title_en": "Placement Test",
+  "minutes": 30,
+  "pass_percent": 0,
+  "modeled_on": "Cambridge/Oxford placement test style, CEFR Pre-A1–B1",
+  "tips_ar": [
+    "هذا الاختبار لا يقرّر شيئاً، ولا يوجد فيه نجاح أو رسوب.",
+    "هو نقطة البداية. ستقارن نتيجتك به بعد أسابيع لترى تقدّمك.",
+    "أجب بصدق، فالنتيجة الصادقة تفيدك أنت.",
+    "الأسئلة تبدأ سهلة ثم تصعب. إذا لم تعرف الإجابة فاتركها ولا تخمّن عشوائياً.",
+    "لا تستخدم الترجمة أو أي أداة مساعدة."
+  ],
+  "sections": [
+    {
+      "key": "listening",
+      "title_ar": "الاستماع",
+      "title_en": "Listening",
+      "instructions_ar": "استمع إلى كل حوار، ثم اختر الإجابة الصحيحة.",
+      "advice_ar": [
+        "لا بأس إن لم تفهم كل كلمة. ابحث عن الفكرة.",
+        "تستطيع أن تستمع إلى كل حوار مرتين."
+      ],
+      "parts": [
+        {
+          "instructions_ar": "شخصان يتعارفان.",
+          "audio": [
+            {
+              "g": "f",
+              "text": "Hello! My name is Alex. What's your name?"
+            },
+            {
+              "g": "m",
+              "text": "Hi, I'm Sam. I'm from Egypt."
+            },
+            {
+              "g": "f",
+              "text": "Nice to meet you, Sam. Are you a student?"
+            },
+            {
+              "g": "m",
+              "text": "No, I'm not. I'm a teacher. I'm twenty-eight years old."
+            }
+          ],
+          "items": [
+            {
+              "type": "multiple_choice",
+              "band": "A1",
+              "prompt": "Where is Sam from?",
+              "payload": {
+                "options": [
+                  "Jordan",
+                  "Egypt",
+                  "Morocco"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "band": "A1",
+              "type": "fill_blank",
+              "prompt": "Complete the note:",
+              "payload": {
+                "before": "Sam's age:",
+                "after": " years old."
+              },
+              "answer": {
+                "accepted": [
+                  "28",
+                  "twenty-eight",
+                  "twenty eight"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "A1",
+              "prompt": "What is the woman's name?",
+              "payload": {
+                "options": [
+                  "Alex",
+                  "Sana",
+                  "Salma"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "حديث عن عطلة نهاية الأسبوع.",
+          "audio": [
+            {
+              "g": "m",
+              "text": "What did you do last weekend, Mona?"
+            },
+            {
+              "g": "f",
+              "text": "I visited my grandmother. We cooked fish together."
+            },
+            {
+              "g": "m",
+              "text": "That sounds nice. Are you going to visit her again?"
+            },
+            {
+              "g": "f",
+              "text": "Yes, next Friday. The bus takes two hours, so I'll leave early."
+            },
+            {
+              "g": "f",
+              "text": "I'll go by bus again."
+            }
+          ],
+          "items": [
+            {
+              "type": "multiple_choice",
+              "band": "A2",
+              "prompt": "Who did Mona visit?",
+              "payload": {
+                "options": [
+                  "Her sister",
+                  "Her friend",
+                  "Her grandmother"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "true_false",
+              "band": "A2",
+              "prompt": "Mona will go by bus next Friday.",
+              "payload": {},
+              "answer": {
+                "correct": true
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "A2",
+              "prompt": "How long does the bus take?",
+              "payload": {
+                "options": [
+                  "One hour",
+                  "Two hours",
+                  "Three hours"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "حديث عن عمل جديد.",
+          "audio": [
+            {
+              "g": "f",
+              "text": "Have you found a new job yet, Karim?"
+            },
+            {
+              "g": "m",
+              "text": "Yes! I've worked at a hotel since March."
+            },
+            {
+              "g": "f",
+              "text": "Do you like it?"
+            },
+            {
+              "g": "m",
+              "text": "Mostly. But if I had more free time, I would study English in the evenings."
+            }
+          ],
+          "items": [
+            {
+              "type": "multiple_choice",
+              "band": "B1",
+              "prompt": "When did Karim start his job?",
+              "payload": {
+                "options": [
+                  "In January",
+                  "In March",
+                  "Last week"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "true_false",
+              "band": "B1",
+              "prompt": "Karim studies English every evening now.",
+              "payload": {},
+              "answer": {
+                "correct": false
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "title_ar": "القراءة",
+      "title_en": "Reading",
+      "instructions_ar": "اقرأ النص، ثم أجب عن الأسئلة.",
+      "advice_ar": [
+        "اقرأ السؤال أولاً، ثم ابحث عن الإجابة في النص.",
+        "لا تترجم كل كلمة. افهم الجملة كاملة."
+      ],
+      "parts": [
+        {
+          "instructions_ar": "رسالة قصيرة.",
+          "passage": "Hi Ali, I am at home today. My brother is sick. There is a big party at Huda's house on Saturday. Can you come? It starts at seven. See you, Nour.",
+          "items": [
+            {
+              "type": "true_false",
+              "band": "A1",
+              "prompt": "Nour is at home today.",
+              "payload": {},
+              "answer": {
+                "correct": true
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "A1",
+              "prompt": "Who is sick?",
+              "payload": {
+                "options": [
+                  "Ali",
+                  "Huda",
+                  "Nour's brother"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "A1",
+              "prompt": "When is the party?",
+              "payload": {
+                "options": [
+                  "On Friday",
+                  "On Saturday",
+                  "On Sunday"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "قصة قصيرة.",
+          "passage": "Last year, Hassan moved to a new city. At first he didn't know anyone, and he felt lonely. Then he joined a football team. The players were friendly, and they invited him to dinner after every match. Now the city feels like home. Next summer, Hassan is going to bring his parents to visit. He has already booked a small flat for them near the sea. The flat was built in 1990, but it has been painted recently, so it looks new. Hassan says that moving was the best decision he has ever made.",
+          "items": [
+            {
+              "type": "true_false",
+              "band": "A2",
+              "prompt": "Hassan felt lonely when he arrived.",
+              "payload": {},
+              "answer": {
+                "correct": true
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "A2",
+              "prompt": "How did Hassan make friends?",
+              "payload": {
+                "options": [
+                  "At work",
+                  "In a football team",
+                  "At a language school"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "A2",
+              "prompt": "What will happen next summer?",
+              "payload": {
+                "options": [
+                  "His parents will visit",
+                  "He will move again",
+                  "He will buy a flat"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "true_false",
+              "band": "B1",
+              "prompt": "The flat looks old because nobody has painted it.",
+              "payload": {},
+              "answer": {
+                "correct": false
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "B1",
+              "prompt": "What does Hassan think about moving?",
+              "payload": {
+                "options": [
+                  "It was a mistake",
+                  "It was difficult but not important",
+                  "It was his best decision"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "grammar",
+      "title_ar": "القواعد",
+      "title_en": "Grammar",
+      "instructions_ar": "اختر الإجابة الصحيحة أو أكمل الجملة.",
+      "advice_ar": [
+        "الأسئلة تصعب تدريجياً. توقّف حين لا تعرف.",
+        "الكلمات الصغيرة مثل am وis وdo مهمة جداً."
+      ],
+      "parts": [
+        {
+          "items": [
+            {
+              "type": "multiple_choice",
+              "band": "A1",
+              "prompt": "I ___ an engineer.",
+              "payload": {
+                "options": [
+                  "is",
+                  "am",
+                  "are"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "band": "A1",
+              "prompt": "Write the correct form of “work”.",
+              "payload": {
+                "before": "He",
+                "after": "in a bank."
+              },
+              "answer": {
+                "accepted": [
+                  "works"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "A1",
+              "prompt": "___ you work?",
+              "payload": {
+                "options": [
+                  "Where do",
+                  "Where",
+                  "Where are"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "A1",
+              "prompt": "___ a park near my house.",
+              "payload": {
+                "options": [
+                  "Have",
+                  "It is",
+                  "There is"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "A2",
+              "prompt": "They ___ happy yesterday.",
+              "payload": {
+                "options": [
+                  "was",
+                  "were",
+                  "are"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "band": "A2",
+              "prompt": "Write the correct form of “go”.",
+              "payload": {
+                "before": "I didn't",
+                "after": "to school yesterday."
+              },
+              "answer": {
+                "accepted": [
+                  "go"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "A2",
+              "prompt": "My car is bigger ___ your car.",
+              "payload": {
+                "options": [
+                  "from",
+                  "then",
+                  "than"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "B1",
+              "prompt": "I ___ here since 2020.",
+              "payload": {
+                "options": [
+                  "have lived",
+                  "live",
+                  "am living"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "B1",
+              "prompt": "If it ___ tomorrow, we will stay at home.",
+              "payload": {
+                "options": [
+                  "will rain",
+                  "rains",
+                  "rained"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "B1",
+              "prompt": "This bridge ___ in 1950.",
+              "payload": {
+                "options": [
+                  "built",
+                  "is building",
+                  "was built"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "vocabulary",
+      "title_ar": "المفردات",
+      "title_en": "Vocabulary",
+      "instructions_ar": "اختر الكلمة المناسبة.",
+      "advice_ar": [
+        "إذا لم تعرف الكلمة فاتركها. لا تخمّن."
+      ],
+      "parts": [
+        {
+          "items": [
+            {
+              "type": "multiple_choice",
+              "band": "A1",
+              "prompt": "Your mother's mother is your ___.",
+              "payload": {
+                "options": [
+                  "aunt",
+                  "grandmother",
+                  "sister"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "A1",
+              "prompt": "I drink ___ in the morning.",
+              "payload": {
+                "options": [
+                  "coffee",
+                  "bread",
+                  "chair"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "A1",
+              "prompt": "The day after Tuesday is ___.",
+              "payload": {
+                "options": [
+                  "Friday",
+                  "Sunday",
+                  "Wednesday"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "A1",
+              "prompt": "The opposite of “hot” is ___.",
+              "payload": {
+                "options": [
+                  "cold",
+                  "big",
+                  "new"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "A2",
+              "prompt": "I always ___ my teeth before bed.",
+              "payload": {
+                "options": [
+                  "comb",
+                  "brush",
+                  "clean up"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "A2",
+              "prompt": "She sings very ___.",
+              "payload": {
+                "options": [
+                  "good",
+                  "beautiful",
+                  "well"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "A2",
+              "prompt": "You need a ___ to travel to another country.",
+              "payload": {
+                "options": [
+                  "passport",
+                  "menu",
+                  "receipt"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "B1",
+              "prompt": "Please ___ the lights when you leave.",
+              "payload": {
+                "options": [
+                  "take off",
+                  "turn off",
+                  "give up"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "title_ar": "الكتابة",
+      "title_en": "Writing",
+      "instructions_ar": "صحّح الخطأ أو رتّب الكلمات.",
+      "advice_ar": [
+        "اكتب الجملة كاملة صحيحة.",
+        "انتبه لترتيب الكلمات في الجملة الإنجليزية."
+      ],
+      "parts": [
+        {
+          "instructions_ar": "في كل جملة خطأ واحد. اكتب الجملة صحيحة.",
+          "items": [
+            {
+              "type": "correct_error",
+              "band": "A1",
+              "prompt": "Correct the sentence.",
+              "payload": {
+                "sentence": "I have 30 years."
+              },
+              "answer": {
+                "accepted": [
+                  "I am 30 years old.",
+                  "I'm 30 years old.",
+                  "I am thirty years old.",
+                  "I'm thirty years old.",
+                  "I am 30.",
+                  "I'm 30.",
+                  "I am thirty.",
+                  "I'm thirty."
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "correct_error",
+              "band": "A2",
+              "prompt": "Correct the sentence.",
+              "payload": {
+                "sentence": "He buyed a new car."
+              },
+              "answer": {
+                "accepted": [
+                  "He bought a new car."
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "correct_error",
+              "band": "B1",
+              "prompt": "Correct the sentence.",
+              "payload": {
+                "sentence": "He said me that he was tired."
+              },
+              "answer": {
+                "accepted": [
+                  "He told me that he was tired.",
+                  "He told me he was tired.",
+                  "He said that he was tired.",
+                  "He said he was tired.",
+                  "He said to me that he was tired.",
+                  "He said to me he was tired."
+                ]
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "رتّب الكلمات لتصنع جملة صحيحة.",
+          "items": [
+            {
+              "type": "order_words",
+              "band": "A1",
+              "prompt": "Make a sentence.",
+              "payload": {
+                "words": [
+                  "a",
+                  "is",
+                  "She",
+                  "doctor"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "She",
+                  "is",
+                  "a",
+                  "doctor"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "order_words",
+              "band": "A2",
+              "prompt": "Make a sentence.",
+              "payload": {
+                "words": [
+                  "wake",
+                  "early",
+                  "I",
+                  "up",
+                  "always"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "I",
+                  "always",
+                  "wake",
+                  "up",
+                  "early"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "order_words",
+              "band": "B1",
+              "prompt": "Make a sentence.",
+              "payload": {
+                "words": [
+                  "who",
+                  "man",
+                  "is",
+                  "me",
+                  "This",
+                  "called",
+                  "the"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "This",
+                  "is",
+                  "the",
+                  "man",
+                  "who",
+                  "called",
+                  "me"
+                ]
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

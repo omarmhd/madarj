@@ -1,0 +1,289 @@
+{
+  "number": 1,
+  "module": 1,
+  "title_en": "Sounds, Greetings & Introducing Yourself",
+  "title_ar": "الأصوات والتحيات والتعريف بالنفس",
+  "pron_section": 8,
+  "is_review": false,
+
+  "objectives": [
+    { "en": "Greet someone and respond appropriately at any time of day", "ar": "تحيّي شخصاً وتردّ بشكل مناسب في أي وقت من اليوم" },
+    { "en": "Say my name, age, city, country and job in full sentences", "ar": "تقول اسمك وعمرك ومدينتك وبلدك ووظيفتك بجمل كاملة" },
+    { "en": "Ask another person those same five questions", "ar": "تسأل شخصاً آخر نفس الأسئلة الخمسة" },
+    { "en": "Name and describe the members of my family", "ar": "تسمّي أفراد عائلتك وتصفهم" },
+    { "en": "Say and understand numbers 1–1000, days and months", "ar": "تقول وتفهم الأرقام والأيام والشهور" },
+    { "en": "Use am / is / are correctly in positive, negative and question forms", "ar": "تستخدم am/is/are في الإثبات والنفي والسؤال" },
+    { "en": "Hear the difference between ship and sheep, full and fool", "ar": "تسمع الفرق بين ship و sheep" },
+    { "en": "Ask for help in English when I do not understand", "ar": "تطلب المساعدة بالإنجليزية عندما لا تفهم" },
+    { "en": "Speak about myself for 90 seconds without stopping", "ar": "تتحدث عن نفسك 90 ثانية بلا توقف" },
+    { "en": "Write a 60-word introduction of myself", "ar": "تكتب تعريفاً بنفسك في 60 كلمة" }
+  ],
+
+  "days": [
+    {
+      "number": 1,
+      "focus": "§2 The pronunciation symbols + §3 Survival phrases",
+      "tasks": [
+        { "order": 1, "label": "مراجعة المفردات — Anki", "minutes": 10, "ref": null },
+        { "order": 2, "label": "§2 رموز النطق + §3 عبارات النجاة", "minutes": 25, "ref": "section:ipa,survival" },
+        { "order": 3, "label": "تدريب النطق — §8", "minutes": 15, "ref": "pron:vowels" },
+        { "order": 4, "label": "تمارين اليوم ثم مراجعة المفتاح", "minutes": 5, "ref": "exercises:1" },
+        { "order": 5, "label": "سجّل 60–90 ثانية عن موضوع اليوم", "minutes": 5, "ref": "record" }
+      ]
+    },
+    {
+      "number": 2,
+      "focus": "§4.1 Family + §4.2 Numbers + §8.2 Hearing the vowels",
+      "tasks": [
+        { "order": 1, "label": "مراجعة المفردات — Anki", "minutes": 10, "ref": null },
+        { "order": 2, "label": "§4.1 العائلة + §4.2 الأرقام", "minutes": 25, "ref": "vocab:family,numbers" },
+        { "order": 3, "label": "لعبة التمييز الصوتي — §8.2", "minutes": 15, "ref": "game:minimal_pairs" },
+        { "order": 4, "label": "تمارين اليوم", "minutes": 5, "ref": "exercises:2" },
+        { "order": 5, "label": "سجّل 60–90 ثانية", "minutes": 5, "ref": "record" }
+      ]
+    },
+    {
+      "number": 3,
+      "focus": "§4.3 Days and months + §5 Dialogue 1 + Exercises 1–2",
+      "tasks": [
+        { "order": 1, "label": "مراجعة المفردات — Anki", "minutes": 10, "ref": null },
+        { "order": 2, "label": "§4.3 الأيام والشهور + §5 الحوار الأول", "minutes": 25, "ref": "vocab:days_months|dialogue:1" },
+        { "order": 3, "label": "تدريب النطق", "minutes": 15, "ref": "pron:vowels" },
+        { "order": 4, "label": "تمارين 1–2", "minutes": 5, "ref": "exercises:3" },
+        { "order": 5, "label": "أعد أداء الحوار وسجّله", "minutes": 5, "ref": "record" }
+      ]
+    },
+    {
+      "number": 4,
+      "focus": "§7 Grammar: to be + Exercises 5–7",
+      "tasks": [
+        { "order": 1, "label": "مراجعة المفردات — Anki", "minutes": 10, "ref": null },
+        { "order": 2, "label": "§7 القواعد: فعل to be", "minutes": 25, "ref": "grammar:to_be" },
+        { "order": 3, "label": "تدريب النطق", "minutes": 15, "ref": "pron:vowels" },
+        { "order": 4, "label": "تمارين 5–7", "minutes": 5, "ref": "exercises:4" },
+        { "order": 5, "label": "سجّل 60–90 ثانية عن نفسك", "minutes": 5, "ref": "record" }
+      ]
+    },
+    {
+      "number": 5,
+      "focus": "§4.4 Core words + §6 Dialogue 2 + Exercises 3–4",
+      "tasks": [
+        { "order": 1, "label": "مراجعة المفردات — Anki", "minutes": 10, "ref": null },
+        { "order": 2, "label": "§4.4 الكلمات الأساسية + §6 الحوار الثاني", "minutes": 25, "ref": "vocab:core|dialogue:2" },
+        { "order": 3, "label": "تدريب النطق", "minutes": 15, "ref": "pron:vowels" },
+        { "order": 4, "label": "تمارين 3–4", "minutes": 5, "ref": "exercises:5" },
+        { "order": 5, "label": "صف عائلتك — سجّل", "minutes": 5, "ref": "record" }
+      ]
+    },
+    {
+      "number": 6,
+      "focus": "§8.3 Producing the vowels + §9 Listening",
+      "tasks": [
+        { "order": 1, "label": "مراجعة المفردات — Anki", "minutes": 10, "ref": null },
+        { "order": 2, "label": "§9 الاستماع — الدورة الرباعية", "minutes": 25, "ref": "listening:1" },
+        { "order": 3, "label": "§8.3 إنتاج الحركات + الشادوينج", "minutes": 15, "ref": "pron:production" },
+        { "order": 4, "label": "أسئلة الفهم", "minutes": 5, "ref": "exercises:6" },
+        { "order": 5, "label": "شادوينج الفقرة الأولى — سجّل", "minutes": 5, "ref": "record" }
+      ]
+    },
+    {
+      "number": 7,
+      "focus": "§10 Reading + §11 Writing + §12 Speaking — your baseline recording",
+      "tasks": [
+        { "order": 1, "label": "مراجعة المفردات — Anki", "minutes": 10, "ref": null },
+        { "order": 2, "label": "§10 القراءة + §11 الكتابة", "minutes": 25, "ref": "reading:1|writing:1" },
+        { "order": 3, "label": "مراجعة كل الأصوات", "minutes": 15, "ref": "pron:vowels" },
+        { "order": 4, "label": "الاختبار الذاتي لنهاية الأسبوع", "minutes": 5, "ref": "selfcheck" },
+        { "order": 5, "label": "★ تسجيل خط الأساس — دقيقتان", "minutes": 5, "ref": "record:baseline" }
+      ]
+    }
+  ],
+
+  "vocabulary": [
+    { "group": "family", "word": "father", "ipa": "/ˈfɑːðə(r)/", "arabic": "أب", "example": "My father is a teacher." },
+    { "group": "family", "word": "mother", "ipa": "/ˈmʌðə(r)/", "arabic": "أم", "example": "My mother is from Cairo." },
+    { "group": "family", "word": "brother", "ipa": "/ˈbrʌðə(r)/", "arabic": "أخ", "example": "I have two brothers." },
+    { "group": "family", "word": "sister", "ipa": "/ˈsɪstə(r)/", "arabic": "أخت", "example": "My sister is a student." },
+    { "group": "family", "word": "son", "ipa": "/sʌn/", "arabic": "ابن", "example": "Their son is five years old." },
+    { "group": "family", "word": "daughter", "ipa": "/ˈdɔːtə(r)/", "arabic": "ابنة", "example": "His daughter is at school." },
+    { "group": "family", "word": "wife", "ipa": "/waɪf/", "arabic": "زوجة", "example": "My wife is a doctor." },
+    { "group": "family", "word": "husband", "ipa": "/ˈhʌzbənd/", "arabic": "زوج", "example": "Her husband works in a bank." },
+    { "group": "family", "word": "uncle", "ipa": "/ˈʌŋkl/", "arabic": "عم / خال", "example": "My uncle lives in Dubai." },
+    { "group": "family", "word": "aunt", "ipa": "/ɑːnt/", "arabic": "عمة / خالة", "example": "This is my aunt Sara." },
+    { "group": "family", "word": "cousin", "ipa": "/ˈkʌzn/", "arabic": "ابن/بنت العم أو الخال", "example": "My cousin is an engineer." },
+    { "group": "family", "word": "grandfather", "ipa": "/ˈɡrænfɑːðə(r)/", "arabic": "جد", "example": "My grandfather is 80." },
+    { "group": "family", "word": "grandmother", "ipa": "/ˈɡrænmʌðə(r)/", "arabic": "جدة", "example": "My grandmother cooks very well." },
+    { "group": "family", "word": "parents", "ipa": "/ˈpeərənts/", "arabic": "الوالدان", "example": "My parents are at home." },
+    { "group": "family", "word": "child", "ipa": "/tʃaɪld/", "arabic": "طفل", "example": "She is a happy child." },
+    { "group": "family", "word": "children", "ipa": "/ˈtʃɪldrən/", "arabic": "أطفال", "example": "They have three children." },
+    { "group": "family", "word": "family", "ipa": "/ˈfæməli/", "arabic": "عائلة", "example": "My family is big." },
+    { "group": "family", "word": "friend", "ipa": "/frend/", "arabic": "صديق", "example": "He is my best friend." },
+    { "group": "family", "word": "neighbour", "ipa": "/ˈneɪbə(r)/", "arabic": "جار", "example": "Our neighbour is very kind." },
+    { "group": "family", "word": "colleague", "ipa": "/ˈkɒliːɡ/", "arabic": "زميل في العمل", "example": "She is my colleague at work." },
+
+    { "group": "numbers", "word": "one", "ipa": "/wʌn/", "arabic": "واحد", "example": "One coffee, please." },
+    { "group": "numbers", "word": "two", "ipa": "/tuː/", "arabic": "اثنان", "example": "I have two brothers." },
+    { "group": "numbers", "word": "three", "ipa": "/θriː/", "arabic": "ثلاثة", "example": "Three children." },
+    { "group": "numbers", "word": "four", "ipa": "/fɔː(r)/", "arabic": "أربعة", "example": "Four rooms." },
+    { "group": "numbers", "word": "five", "ipa": "/faɪv/", "arabic": "خمسة", "example": "Five minutes." },
+    { "group": "numbers", "word": "six", "ipa": "/sɪks/", "arabic": "ستة", "example": "He is six years old." },
+    { "group": "numbers", "word": "seven", "ipa": "/ˈsevn/", "arabic": "سبعة", "example": "Seven o'clock." },
+    { "group": "numbers", "word": "eight", "ipa": "/eɪt/", "arabic": "ثمانية", "example": "Eight hours." },
+    { "group": "numbers", "word": "nine", "ipa": "/naɪn/", "arabic": "تسعة", "example": "Nine people." },
+    { "group": "numbers", "word": "ten", "ipa": "/ten/", "arabic": "عشرة", "example": "Ten days." },
+    { "group": "numbers", "word": "eleven", "ipa": "/ɪˈlevn/", "arabic": "أحد عشر", "example": "Eleven o'clock." },
+    { "group": "numbers", "word": "twelve", "ipa": "/twelv/", "arabic": "اثنا عشر", "example": "Twelve months." },
+    { "group": "numbers", "word": "thirteen", "ipa": "/ˌθɜːˈtiːn/", "arabic": "ثلاثة عشر", "example": "Thirteen, not thirty." },
+    { "group": "numbers", "word": "fourteen", "ipa": "/ˌfɔːˈtiːn/", "arabic": "أربعة عشر", "example": "Fourteen years." },
+    { "group": "numbers", "word": "fifteen", "ipa": "/ˌfɪfˈtiːn/", "arabic": "خمسة عشر", "example": "Fifteen minutes." },
+    { "group": "numbers", "word": "twenty", "ipa": "/ˈtwenti/", "arabic": "عشرون", "example": "Twenty people." },
+    { "group": "numbers", "word": "thirty", "ipa": "/ˈθɜːti/", "arabic": "ثلاثون", "example": "Thirty, not thirteen." },
+    { "group": "numbers", "word": "forty", "ipa": "/ˈfɔːti/", "arabic": "أربعون", "example": "Forty minutes." },
+    { "group": "numbers", "word": "fifty", "ipa": "/ˈfɪfti/", "arabic": "خمسون", "example": "Fifty pounds." },
+    { "group": "numbers", "word": "a hundred", "ipa": "/ə ˈhʌndrəd/", "arabic": "مئة", "example": "A hundred people." },
+
+    { "group": "days_months", "word": "Monday", "ipa": "/ˈmʌndeɪ/", "arabic": "الاثنين", "example": "See you on Monday." },
+    { "group": "days_months", "word": "Tuesday", "ipa": "/ˈtʃuːzdeɪ/", "arabic": "الثلاثاء", "example": "The meeting is on Tuesday." },
+    { "group": "days_months", "word": "Wednesday", "ipa": "/ˈwenzdeɪ/", "arabic": "الأربعاء", "example": "The d is silent." },
+    { "group": "days_months", "word": "Thursday", "ipa": "/ˈθɜːzdeɪ/", "arabic": "الخميس", "example": "I work on Thursday." },
+    { "group": "days_months", "word": "Friday", "ipa": "/ˈfraɪdeɪ/", "arabic": "الجمعة", "example": "Friday is my day off." },
+    { "group": "days_months", "word": "Saturday", "ipa": "/ˈsætədeɪ/", "arabic": "السبت", "example": "On Saturday I rest." },
+    { "group": "days_months", "word": "Sunday", "ipa": "/ˈsʌndeɪ/", "arabic": "الأحد", "example": "Sunday morning." },
+    { "group": "days_months", "word": "January", "ipa": "/ˈdʒænjuəri/", "arabic": "يناير", "example": "In January." },
+    { "group": "days_months", "word": "February", "ipa": "/ˈfebruəri/", "arabic": "فبراير", "example": "February is short." },
+    { "group": "days_months", "word": "March", "ipa": "/mɑːtʃ/", "arabic": "مارس", "example": "In March." },
+    { "group": "days_months", "word": "April", "ipa": "/ˈeɪprəl/", "arabic": "أبريل", "example": "April is warm." },
+    { "group": "days_months", "word": "May", "ipa": "/meɪ/", "arabic": "مايو", "example": "My birthday is in May." },
+    { "group": "days_months", "word": "June", "ipa": "/dʒuːn/", "arabic": "يونيو", "example": "In June." },
+    { "group": "days_months", "word": "July", "ipa": "/dʒuˈlaɪ/", "arabic": "يوليو", "example": "The third of July." },
+    { "group": "days_months", "word": "August", "ipa": "/ˈɔːɡəst/", "arabic": "أغسطس", "example": "Last August." },
+    { "group": "days_months", "word": "September", "ipa": "/sepˈtembə(r)/", "arabic": "سبتمبر", "example": "School starts in September." },
+    { "group": "days_months", "word": "October", "ipa": "/ɒkˈtəʊbə(r)/", "arabic": "أكتوبر", "example": "In October." },
+    { "group": "days_months", "word": "November", "ipa": "/nəʊˈvembə(r)/", "arabic": "نوفمبر", "example": "November is cold." },
+    { "group": "days_months", "word": "December", "ipa": "/dɪˈsembə(r)/", "arabic": "ديسمبر", "example": "In December." },
+
+    { "group": "core", "word": "name", "ipa": "/neɪm/", "arabic": "اسم", "example": "My name is Omar." },
+    { "group": "core", "word": "age", "ipa": "/eɪdʒ/", "arabic": "عمر", "example": "What is your age?" },
+    { "group": "core", "word": "city", "ipa": "/ˈsɪti/", "arabic": "مدينة", "example": "I live in a big city." },
+    { "group": "core", "word": "country", "ipa": "/ˈkʌntri/", "arabic": "دولة / بلد", "example": "Egypt is a beautiful country." },
+    { "group": "core", "word": "job", "ipa": "/dʒɒb/", "arabic": "وظيفة", "example": "She has a good job." },
+    { "group": "core", "word": "work", "ipa": "/wɜːk/", "arabic": "عمل / يعمل", "example": "I work in an office." },
+    { "group": "core", "word": "home", "ipa": "/həʊm/", "arabic": "منزل (المكان)", "example": "I am at home now." },
+    { "group": "core", "word": "house", "ipa": "/haʊs/", "arabic": "بيت (المبنى)", "example": "Their house is new." },
+    { "group": "core", "word": "school", "ipa": "/skuːl/", "arabic": "مدرسة", "example": "The school is near my house." },
+    { "group": "core", "word": "student", "ipa": "/ˈstjuːdnt/", "arabic": "طالب", "example": "He is a student." },
+    { "group": "core", "word": "teacher", "ipa": "/ˈtiːtʃə(r)/", "arabic": "معلّم", "example": "My teacher is very good." },
+    { "group": "core", "word": "doctor", "ipa": "/ˈdɒktə(r)/", "arabic": "طبيب", "example": "She is a doctor." },
+    { "group": "core", "word": "engineer", "ipa": "/ˌendʒɪˈnɪə(r)/", "arabic": "مهندس", "example": "I am an engineer." },
+    { "group": "core", "word": "big", "ipa": "/bɪɡ/", "arabic": "كبير", "example": "This is a big room." },
+    { "group": "core", "word": "small", "ipa": "/smɔːl/", "arabic": "صغير", "example": "My car is small." },
+    { "group": "core", "word": "good", "ipa": "/ɡʊd/", "arabic": "جيد", "example": "The food is good." },
+    { "group": "core", "word": "bad", "ipa": "/bæd/", "arabic": "سيء", "example": "The weather is bad today." },
+    { "group": "core", "word": "new", "ipa": "/njuː/", "arabic": "جديد", "example": "I have a new phone." },
+    { "group": "core", "word": "old", "ipa": "/əʊld/", "arabic": "قديم / كبير في السن", "example": "My grandfather is old." },
+    { "group": "core", "word": "happy", "ipa": "/ˈhæpi/", "arabic": "سعيد", "example": "I am very happy." },
+    { "group": "core", "word": "sad", "ipa": "/sæd/", "arabic": "حزين", "example": "Why are you sad?" },
+    { "group": "core", "word": "please", "ipa": "/pliːz/", "arabic": "من فضلك", "example": "Two coffees, please." },
+    { "group": "core", "word": "thank you", "ipa": "/ˈθæŋk juː/", "arabic": "شكراً لك", "example": "Thank you very much." },
+    { "group": "core", "word": "sorry", "ipa": "/ˈsɒri/", "arabic": "آسف", "example": "Sorry, I am late." },
+    { "group": "core", "word": "hello", "ipa": "/həˈləʊ/", "arabic": "مرحباً", "example": "Hello, my name is Ali." },
+    { "group": "core", "word": "goodbye", "ipa": "/ˌɡʊdˈbaɪ/", "arabic": "مع السلامة", "example": "Goodbye, see you tomorrow." },
+    { "group": "core", "word": "morning", "ipa": "/ˈmɔːnɪŋ/", "arabic": "صباح", "example": "Good morning!" },
+    { "group": "core", "word": "evening", "ipa": "/ˈiːvnɪŋ/", "arabic": "مساء", "example": "Good evening, everyone." },
+    { "group": "core", "word": "night", "ipa": "/naɪt/", "arabic": "ليل", "example": "Good night." },
+    { "group": "core", "word": "today", "ipa": "/təˈdeɪ/", "arabic": "اليوم", "example": "Today is Monday." },
+    { "group": "core", "word": "tomorrow", "ipa": "/təˈmɒrəʊ/", "arabic": "غداً", "example": "See you tomorrow." },
+    { "group": "core", "word": "yesterday", "ipa": "/ˈjestədeɪ/", "arabic": "أمس", "example": "Yesterday was Sunday." },
+    { "group": "core", "word": "here", "ipa": "/hɪə(r)/", "arabic": "هنا", "example": "I am here." },
+    { "group": "core", "word": "there", "ipa": "/ðeə(r)/", "arabic": "هناك", "example": "My bag is over there." },
+    { "group": "core", "word": "this", "ipa": "/ðɪs/", "arabic": "هذا (قريب)", "example": "This is my brother." },
+    { "group": "core", "word": "that", "ipa": "/ðæt/", "arabic": "ذلك (بعيد)", "example": "That is my car." },
+    { "group": "core", "word": "very", "ipa": "/ˈveri/", "arabic": "جداً", "example": "She is very kind." },
+    { "group": "core", "word": "and", "ipa": "/ænd/", "arabic": "و", "example": "Ali and Sara are friends." },
+    { "group": "core", "word": "but", "ipa": "/bʌt/", "arabic": "لكن", "example": "It is small but nice." },
+    { "group": "core", "word": "yes", "ipa": "/jes/", "arabic": "نعم", "example": "Yes, I am." },
+    { "group": "core", "word": "no", "ipa": "/nəʊ/", "arabic": "لا", "example": "No, I am not." }
+  ],
+
+  "minimal_pairs": [
+    { "group_label": "short i against long ee", "ipa": "/ɪ/ vs /iː/", "word_a": "ship", "word_b": "sheep" },
+    { "group_label": "short i against long ee", "ipa": "/ɪ/ vs /iː/", "word_a": "sit", "word_b": "seat" },
+    { "group_label": "short i against long ee", "ipa": "/ɪ/ vs /iː/", "word_a": "live", "word_b": "leave" },
+    { "group_label": "short i against long ee", "ipa": "/ɪ/ vs /iː/", "word_a": "fit", "word_b": "feet" },
+    { "group_label": "short i against long ee", "ipa": "/ɪ/ vs /iː/", "word_a": "bin", "word_b": "bean" },
+    { "group_label": "short i against long ee", "ipa": "/ɪ/ vs /iː/", "word_a": "chip", "word_b": "cheap" },
+    { "group_label": "short oo against long oo", "ipa": "/ʊ/ vs /uː/", "word_a": "full", "word_b": "fool" },
+    { "group_label": "short oo against long oo", "ipa": "/ʊ/ vs /uː/", "word_a": "pull", "word_b": "pool" },
+    { "group_label": "short oo against long oo", "ipa": "/ʊ/ vs /uː/", "word_a": "look", "word_b": "Luke" },
+    { "group_label": "open a against long a", "ipa": "/æ/ vs /ɑː/", "word_a": "cat", "word_b": "cart" },
+    { "group_label": "open a against long a", "ipa": "/æ/ vs /ɑː/", "word_a": "hat", "word_b": "heart" },
+    { "group_label": "open a against long a", "ipa": "/æ/ vs /ɑː/", "word_a": "bad", "word_b": "bard" }
+  ],
+
+  "dialogues": [
+    {
+      "number": 1,
+      "title": "Meeting Someone New",
+      "situation_en": "Omar has just started a new job. Sara works in the same office. They meet in the corridor.",
+      "situation_ar": "عمر بدأ وظيفة جديدة. سارة تعمل في نفس المكتب. يلتقيان في الممر.",
+      "lines": [
+        { "speaker": "SARA", "en": "Good morning! Are you the new engineer?", "ar": "صباح الخير! هل أنت المهندس الجديد؟" },
+        { "speaker": "OMAR", "en": "Yes, I am. My name is Omar.", "ar": "نعم، أنا هو. اسمي عمر." },
+        { "speaker": "SARA", "en": "Nice to meet you, Omar. I'm Sara.", "ar": "سعيدة بلقائك يا عمر. أنا سارة." },
+        { "speaker": "OMAR", "en": "Nice to meet you too. Sorry, how do you spell your name?", "ar": "وأنا سعيد بلقائك أيضاً. عذراً، كيف تتهجين اسمك؟" },
+        { "speaker": "SARA", "en": "S–A–R–A. And you? Where are you from?", "ar": "س ا ر ا. وأنت؟ من أين أنت؟" },
+        { "speaker": "OMAR", "en": "I'm from Egypt. I'm from Alexandria.", "ar": "أنا من مصر. أنا من الإسكندرية." },
+        { "speaker": "SARA", "en": "Oh, nice! Is Alexandria a big city?", "ar": "رائع! هل الإسكندرية مدينة كبيرة؟" },
+        { "speaker": "OMAR", "en": "Yes, it is. It's very big. Are you from here?", "ar": "نعم. إنها كبيرة جداً. هل أنت من هنا؟" },
+        { "speaker": "SARA", "en": "No, I'm not. I'm from Jordan.", "ar": "لا، لست كذلك. أنا من الأردن." },
+        { "speaker": "OMAR", "en": "Sorry, could you repeat that?", "ar": "عذراً، هل يمكنك إعادة ذلك؟" },
+        { "speaker": "SARA", "en": "Of course. I'm from Jordan.", "ar": "بالطبع. أنا من الأردن." },
+        { "speaker": "OMAR", "en": "Ah, I understand. Thank you!", "ar": "آه، فهمت. شكراً لك!" }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Talking About Family",
+      "situation_en": "Later, in the office kitchen. Sara asks Omar about his family.",
+      "situation_ar": "لاحقاً، في مطبخ المكتب. سارة تسأل عمر عن عائلته.",
+      "lines": [
+        { "speaker": "SARA", "en": "Is this a photo of your family?", "ar": "هل هذه صورة لعائلتك؟" },
+        { "speaker": "OMAR", "en": "Yes, it is. This is my wife, Mona.", "ar": "نعم. هذه زوجتي، منى." },
+        { "speaker": "SARA", "en": "She's very beautiful. Is she a doctor?", "ar": "إنها جميلة جداً. هل هي طبيبة؟" },
+        { "speaker": "OMAR", "en": "No, she isn't. She's a teacher.", "ar": "لا، ليست كذلك. إنها معلّمة." },
+        { "speaker": "SARA", "en": "And are these your children?", "ar": "وهل هؤلاء أطفالك؟" },
+        { "speaker": "OMAR", "en": "Yes, they are. This is my son, Adam. He's six.", "ar": "نعم. هذا ابني آدم. عمره ست سنوات." },
+        { "speaker": "SARA", "en": "He's lovely! And your daughter?", "ar": "إنه لطيف! وابنتك؟" },
+        { "speaker": "OMAR", "en": "Her name is Lina. She's three years old.", "ar": "اسمها لينا. عمرها ثلاث سنوات." },
+        { "speaker": "SARA", "en": "Are your parents here in the city too?", "ar": "هل والداك هنا في المدينة أيضاً؟" },
+        { "speaker": "OMAR", "en": "No, they aren't. They're in Alexandria.", "ar": "لا، ليسا كذلك. إنهما في الإسكندرية." },
+        { "speaker": "SARA", "en": "Do you miss them?", "ar": "هل تشتاق إليهما؟" },
+        { "speaker": "OMAR", "en": "Yes, very much. But we speak every day.", "ar": "نعم، كثيراً جداً. لكننا نتحدث كل يوم." }
+      ]
+    }
+  ],
+
+  "exercises": [
+    { "day_number": 4, "exercise_no": 5, "type": "fill_blank", "prompt": "She ______ a teacher.", "payload": { "before": "She", "after": "a teacher." }, "answer": { "accepted": ["is", "'s"] }, "explanation": "he/she/it تأخذ is", "points": 1 },
+    { "day_number": 4, "exercise_no": 5, "type": "fill_blank", "prompt": "They ______ at school.", "payload": { "before": "They", "after": "at school." }, "answer": { "accepted": ["are", "'re"] }, "explanation": "they تأخذ are", "points": 1 },
+    { "day_number": 4, "exercise_no": 5, "type": "fill_blank", "prompt": "I ______ from Egypt.", "payload": { "before": "I", "after": "from Egypt." }, "answer": { "accepted": ["am", "'m"] }, "explanation": "I تأخذ am دائماً", "points": 1 },
+    { "day_number": 4, "exercise_no": 5, "type": "fill_blank", "prompt": "You ______ a good friend.", "payload": { "before": "You", "after": "a good friend." }, "answer": { "accepted": ["are", "'re"] }, "explanation": "you تأخذ are دائماً — حتى للمفرد", "points": 1 },
+    { "day_number": 4, "exercise_no": 5, "type": "fill_blank", "prompt": "It ______ a small house.", "payload": { "before": "It", "after": "a small house." }, "answer": { "accepted": ["is", "'s"] }, "explanation": "it تأخذ is", "points": 1 },
+    { "day_number": 4, "exercise_no": 5, "type": "fill_blank", "prompt": "We ______ engineers.", "payload": { "before": "We", "after": "engineers." }, "answer": { "accepted": ["are", "'re"] }, "explanation": "we تأخذ are", "points": 1 },
+
+    { "day_number": 4, "exercise_no": 8, "type": "correct_error", "prompt": "صحّح الخطأ في هذه الجملة", "payload": { "sentence": "I doctor." }, "answer": { "accepted": ["I am a doctor.", "I'm a doctor."] }, "explanation": "الجملة الإنجليزية تحتاج فعلاً دائماً، والوظيفة تحتاج a/an", "points": 2 },
+    { "day_number": 4, "exercise_no": 8, "type": "correct_error", "prompt": "صحّح الخطأ في هذه الجملة", "payload": { "sentence": "He have 25 years." }, "answer": { "accepted": ["He is 25 years old.", "He's 25 years old."] }, "explanation": "الإنجليزية تستخدم be للعمر لا have", "points": 2 },
+    { "day_number": 4, "exercise_no": 8, "type": "correct_error", "prompt": "صحّح الخطأ في هذه الجملة", "payload": { "sentence": "She is teacher." }, "answer": { "accepted": ["She is a teacher.", "She's a teacher."] }, "explanation": "الوظائف تحتاج a أو an", "points": 2 },
+    { "day_number": 4, "exercise_no": 8, "type": "correct_error", "prompt": "صحّح الخطأ في هذه الجملة", "payload": { "sentence": "You is my colleague." }, "answer": { "accepted": ["You are my colleague.", "You're my colleague."] }, "explanation": "you تأخذ are دائماً", "points": 2 },
+
+    { "day_number": 3, "exercise_no": 1, "type": "true_false", "prompt": "Omar is a teacher.", "payload": {}, "answer": { "correct": false }, "explanation": "هو مهندس — قالت سارة: Are you the new engineer?", "points": 1 },
+    { "day_number": 3, "exercise_no": 1, "type": "true_false", "prompt": "Sara is from Jordan.", "payload": {}, "answer": { "correct": true }, "explanation": "قالت: I'm from Jordan", "points": 1 },
+    { "day_number": 3, "exercise_no": 1, "type": "true_false", "prompt": "Alexandria is a small city.", "payload": {}, "answer": { "correct": false }, "explanation": "قال عمر: It's very big", "points": 1 },
+    { "day_number": 3, "exercise_no": 1, "type": "true_false", "prompt": "Omar asks Sara to repeat something.", "payload": {}, "answer": { "correct": true }, "explanation": "قال: Sorry, could you repeat that?", "points": 1 },
+
+    { "day_number": 2, "exercise_no": 2, "type": "multiple_choice", "prompt": "أي كلمة تعني «جار»؟", "payload": { "options": ["colleague", "neighbour", "cousin", "friend"] }, "answer": { "correct": 1 }, "explanation": "neighbour /ˈneɪbə(r)/ = جار", "points": 1 },
+    { "day_number": 2, "exercise_no": 2, "type": "multiple_choice", "prompt": "أي كلمة تعني «ابنة»؟", "payload": { "options": ["sister", "aunt", "daughter", "wife"] }, "answer": { "correct": 2 }, "explanation": "daughter /ˈdɔːtə(r)/ = ابنة", "points": 1 },
+    { "day_number": 2, "exercise_no": 2, "type": "multiple_choice", "prompt": "ما جمع كلمة child؟", "payload": { "options": ["childs", "childes", "children", "childrens"] }, "answer": { "correct": 2 }, "explanation": "children جمع شاذ — لا يوجد childs", "points": 1 },
+    { "day_number": 2, "exercise_no": 2, "type": "multiple_choice", "prompt": "أي رقم فيه النبرة على المقطع الأخير؟", "payload": { "options": ["thirty", "forty", "thirteen", "fifty"] }, "answer": { "correct": 2 }, "explanation": "thirTEEN النبرة في الآخر · THIRty في الأول — بهذا يفرّق المتحدثون بين 13 و30", "points": 1 }
+  ]
+}

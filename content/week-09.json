@@ -1,0 +1,3584 @@
+{
+  "number": 9,
+  "module": 2,
+  "title_en": "Right Now — the Present Continuous & Work",
+  "title_ar": "الآن — المضارع المستمر والعمل",
+  "pron_section": 5,
+  "is_review": false,
+  "objectives": [
+    {
+      "en": "Form the Present Continuous in positive, negative and question forms",
+      "ar": "أصوغ المضارع المستمر في الإثبات والنفي والسؤال"
+    },
+    {
+      "en": "Choose correctly between I work and I am working",
+      "ar": "أختار صحيحاً بين I work و I am working"
+    },
+    {
+      "en": "Name twenty-five jobs and describe what each one does",
+      "ar": "أسمّي خمساً وعشرين مهنة وأصف ما يفعله كل منها"
+    },
+    {
+      "en": "Describe what is happening in a picture or around me right now",
+      "ar": "أصف ما يحدث في صورة أو حولي في هذه اللحظة"
+    },
+    {
+      "en": "Talk about a temporary situation that is not permanent",
+      "ar": "أتحدّث عن حالة مؤقّتة ليست دائمة"
+    },
+    {
+      "en": "Avoid the -ing form with the twelve stative verbs",
+      "ar": "أتجنّب صيغة -ing مع أفعال الحالة الاثني عشر"
+    },
+    {
+      "en": "Pronounce /ŋ/ without adding a /g/ at the end",
+      "ar": "أنطق /ŋ/ بلا أن أُلحق بها /g/"
+    },
+    {
+      "en": "Speak for 2 minutes about my job and what I am working on now",
+      "ar": "أتحدّث دقيقتين عن عملي وما أعمل عليه الآن"
+    }
+  ],
+  "writing": {
+    "title_ar": null,
+    "title_en": "Writing — What I Am Doing These Days",
+    "task_ar": null,
+    "task_en": "Write 110–130 words to a friend you have not seen for a year. Include: what you do generally (Simple), what you are doing at the moment (Continuous), one temporary situation, one thing you are learning, and one question for them.",
+    "min_words": 110,
+    "max_words": 130,
+    "templates": [
+      {
+        "en": "Hi ____________ ,",
+        "ar": null
+      },
+      {
+        "en": "How are you? I ____________ (generally, your job / studies).",
+        "ar": null
+      },
+      {
+        "en": "At the moment I ____________ .",
+        "ar": null
+      },
+      {
+        "en": "This month we ____________ , so I ____________ .",
+        "ar": null
+      },
+      {
+        "en": "I usually ____________ , but these days I ____________ .",
+        "ar": null
+      },
+      {
+        "en": "I'm also learning ____________ . It ____________ .",
+        "ar": null
+      },
+      {
+        "en": "My family ____________ .",
+        "ar": null
+      },
+      {
+        "en": "What ____________ these days?",
+        "ar": null
+      }
+    ],
+    "checklist": [],
+    "model_answer": "How are you? I still work at the same company — I'm an engineer in the systems team.",
+    "model_words": 18
+  },
+  "days": [
+    {
+      "number": 1,
+      "focus": "المهن · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "المهن",
+          "minutes": 25,
+          "ref": "vocab:jobs"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:1"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "focus": "مكان العمل · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "مكان العمل",
+          "minutes": 25,
+          "ref": "vocab:the_workplace"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:2"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "focus": "النطق · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "النطق",
+          "minutes": 25,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:3"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "focus": "أفعال اللحظة الحاضرة · الحوار الأول · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "أفعال اللحظة الحاضرة · حوار: A Phone Call to the Office",
+          "minutes": 25,
+          "ref": "vocab:verbs_for_right_now|dialogue:1"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:4"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "focus": "الآن والمؤقّت · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الآن والمؤقّت",
+          "minutes": 25,
+          "ref": "vocab:now_and_temporary"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:5"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "focus": "الحوار الثاني · الاستماع · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "حوار: A Job Interview · الاستماع",
+          "minutes": 25,
+          "ref": "dialogue:2|section:listening"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:6"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "focus": "القراءة · الكتابة · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القراءة · الكتابة",
+          "minutes": 25,
+          "ref": "section:reading|writing:1|record"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:7"
+        },
+        {
+          "order": 5,
+          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record:baseline"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "group": "jobs",
+      "word": "engineer",
+      "ipa": "/ˌendʒɪˈnɪə(r)/",
+      "arabic": "مهندس",
+      "example": "designs and builds things",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "doctor",
+      "ipa": "/ˈdɒktə(r)/",
+      "arabic": "طبيب",
+      "example": "treats ill people",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "nurse",
+      "ipa": "/nɜːs/",
+      "arabic": "ممرض",
+      "example": "looks after patients",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "teacher",
+      "ipa": "/ˈtiːtʃə(r)/",
+      "arabic": "معلّم",
+      "example": "teaches students",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "lawyer",
+      "ipa": "/ˈlɔɪə(r)/",
+      "arabic": "محامٍ",
+      "example": "gives legal advice",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "accountant",
+      "ipa": "/əˈkaʊntənt/",
+      "arabic": "محاسب",
+      "example": "manages money and taxes",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "manager",
+      "ipa": "/ˈmænɪdʒə(r)/",
+      "arabic": "مدير",
+      "example": "leads a team",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "designer",
+      "ipa": "/dɪˈzaɪnə(r)/",
+      "arabic": "مصمم",
+      "example": "creates how things look",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "programmer",
+      "ipa": "/ˈprəʊɡræmə(r)/",
+      "arabic": "مبرمج",
+      "example": "writes software",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "journalist",
+      "ipa": "/ˈdʒɜːnəlɪst/",
+      "arabic": "صحفي",
+      "example": "writes news",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "driver",
+      "ipa": "/ˈdraɪvə(r)/",
+      "arabic": "سائق",
+      "example": "drives a vehicle",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "pilot",
+      "ipa": "/ˈpaɪlət/",
+      "arabic": "طيّار",
+      "example": "flies a plane",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "chef / cook",
+      "ipa": "/ʃef/",
+      "arabic": "طاهٍ",
+      "example": "cooks in a restaurant",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "waiter",
+      "ipa": "/ˈweɪtə(r)/",
+      "arabic": "نادل",
+      "example": "serves customers",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "shop assistant",
+      "ipa": "/ˈʃɒp əsɪstənt/",
+      "arabic": "بائع",
+      "example": "helps people in a shop",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "receptionist",
+      "ipa": "/rɪˈsepʃənɪst/",
+      "arabic": "موظف استقبال",
+      "example": "welcomes visitors",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "secretary",
+      "ipa": "/ˈsekrətri/",
+      "arabic": "سكرتير",
+      "example": "organises an office",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "electrician",
+      "ipa": "/ɪlekˈtrɪʃn/",
+      "arabic": "كهربائي",
+      "example": "repairs electrical systems",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "plumber",
+      "ipa": "/ˈplʌmə(r)/",
+      "arabic": "سبّاك",
+      "example": "repairs water pipes (silent b)",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "mechanic",
+      "ipa": "/məˈkænɪk/",
+      "arabic": "ميكانيكي",
+      "example": "repairs cars",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "builder",
+      "ipa": "/ˈbɪldə(r)/",
+      "arabic": "بنّاء",
+      "example": "builds houses",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "farmer",
+      "ipa": "/ˈfɑːmə(r)/",
+      "arabic": "مزارع",
+      "example": "grows food",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "soldier",
+      "ipa": "/ˈsəʊldʒə(r)/",
+      "arabic": "جندي",
+      "example": "serves in the army",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "police officer",
+      "ipa": "/pəˈliːs ɒfɪsə/",
+      "arabic": "ضابط شرطة",
+      "example": "keeps people safe",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "scientist",
+      "ipa": "/ˈsaɪəntɪst/",
+      "arabic": "عالِم",
+      "example": "does research",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "researcher",
+      "ipa": "/rɪˈsɜːtʃə(r)/",
+      "arabic": "باحث",
+      "example": "studies a subject deeply",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "translator",
+      "ipa": "/trænzˈleɪtə(r)/",
+      "arabic": "مترجم",
+      "example": "translates languages",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "photographer",
+      "ipa": "/fəˈtɒɡrəfə(r)/",
+      "arabic": "مصوّر",
+      "example": "takes photographs",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "dentist",
+      "ipa": "/ˈdentɪst/",
+      "arabic": "طبيب أسنان",
+      "example": "treats teeth",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "jobs",
+      "word": "pharmacist",
+      "ipa": "/ˈfɑːməsɪst/",
+      "arabic": "صيدلي",
+      "example": "prepares medicine",
+      "group_label_ar": "المهن",
+      "group_label_en": "Jobs"
+    },
+    {
+      "group": "the_workplace",
+      "word": "office",
+      "ipa": "/ˈɒfɪs/",
+      "arabic": "مكتب",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "meeting",
+      "ipa": "/ˈmiːtɪŋ/",
+      "arabic": "اجتماع",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "desk",
+      "ipa": "/desk/",
+      "arabic": "مكتب (طاولة)",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "deadline",
+      "ipa": "/ˈdedlaɪn/",
+      "arabic": "موعد نهائي",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "colleague",
+      "ipa": "/ˈkɒliːɡ/",
+      "arabic": "زميل",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "project",
+      "ipa": "/ˈprɒdʒekt/",
+      "arabic": "مشروع",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "boss",
+      "ipa": "/bɒs/",
+      "arabic": "رئيس",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "task",
+      "ipa": "/tɑːsk/",
+      "arabic": "مهمة",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "team",
+      "ipa": "/tiːm/",
+      "arabic": "فريق",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "report",
+      "ipa": "/rɪˈpɔːt/",
+      "arabic": "تقرير",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "company",
+      "ipa": "/ˈkʌmpəni/",
+      "arabic": "شركة",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "client",
+      "ipa": "/ˈklaɪənt/",
+      "arabic": "عميل",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "staff",
+      "ipa": "/stɑːf/",
+      "arabic": "الموظفون",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "salary",
+      "ipa": "/ˈsæləri/",
+      "arabic": "راتب",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "contract",
+      "ipa": "/ˈkɒntrækt/",
+      "arabic": "عقد",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "interview",
+      "ipa": "/ˈɪntəvjuː/",
+      "arabic": "مقابلة",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "experience",
+      "ipa": "/ɪkˈspɪəriəns/",
+      "arabic": "خبرة",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "skill",
+      "ipa": "/skɪl/",
+      "arabic": "مهارة",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "training",
+      "ipa": "/ˈtreɪnɪŋ/",
+      "arabic": "تدريب",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "promotion",
+      "ipa": "/prəˈməʊʃn/",
+      "arabic": "ترقية",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "overtime",
+      "ipa": "/ˈəʊvətaɪm/",
+      "arabic": "عمل إضافي",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "break",
+      "ipa": "/breɪk/",
+      "arabic": "استراحة",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "shift",
+      "ipa": "/ʃɪft/",
+      "arabic": "وردية",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "schedule",
+      "ipa": "/ˈʃedjuːl/",
+      "arabic": "جدول",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "the_workplace",
+      "word": "busy",
+      "ipa": "/ˈbɪzi/",
+      "arabic": "مشغول",
+      "example": null,
+      "group_label_ar": "مكان العمل",
+      "group_label_en": "The Workplace"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "work → working",
+      "ipa": null,
+      "arabic": "يعمل",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "wait → waiting",
+      "ipa": null,
+      "arabic": "ينتظر",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "write → writing",
+      "ipa": null,
+      "arabic": "يكتب",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "sit → sitting",
+      "ipa": null,
+      "arabic": "يجلس",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "read → reading",
+      "ipa": null,
+      "arabic": "يقرأ",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "stand → standing",
+      "ipa": null,
+      "arabic": "يقف",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "talk → talking",
+      "ipa": null,
+      "arabic": "يتحدث",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "walk → walking",
+      "ipa": null,
+      "arabic": "يمشي",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "listen → listening",
+      "ipa": null,
+      "arabic": "يستمع",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "run → running",
+      "ipa": null,
+      "arabic": "يجري",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "watch → watching",
+      "ipa": null,
+      "arabic": "يشاهد",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "drive → driving",
+      "ipa": null,
+      "arabic": "يقود",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "eat → eating",
+      "ipa": null,
+      "arabic": "يأكل",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "travel → travelling",
+      "ipa": null,
+      "arabic": "يسافر",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "drink → drinking",
+      "ipa": null,
+      "arabic": "يشرب",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "study → studying",
+      "ipa": null,
+      "arabic": "يدرس",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "cook → cooking",
+      "ipa": null,
+      "arabic": "يطبخ",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "learn → learning",
+      "ipa": null,
+      "arabic": "يتعلّم",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "clean → cleaning",
+      "ipa": null,
+      "arabic": "ينظّف",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "build → building",
+      "ipa": null,
+      "arabic": "يبني",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "prepare → preparing",
+      "ipa": null,
+      "arabic": "يحضّر",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "fix → fixing",
+      "ipa": null,
+      "arabic": "يصلّح",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "plan → planning",
+      "ipa": null,
+      "arabic": "يخطّط",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "try → trying",
+      "ipa": null,
+      "arabic": "يحاول",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "verbs_for_right_now",
+      "word": "look for → looking for",
+      "ipa": null,
+      "arabic": "يبحث عن",
+      "example": null,
+      "group_label_ar": "أفعال اللحظة الحاضرة",
+      "group_label_en": "Verbs for Right Now"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "now",
+      "ipa": null,
+      "arabic": "الآن",
+      "example": "I am working now.",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "right now",
+      "ipa": null,
+      "arabic": "في هذه اللحظة",
+      "example": "She is calling right now.",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "at the moment",
+      "ipa": null,
+      "arabic": "في الوقت الحالي",
+      "example": "He is studying at the moment.",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "currently",
+      "ipa": null,
+      "arabic": "حالياً",
+      "example": "We are looking for a new office.",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "today",
+      "ipa": null,
+      "arabic": "اليوم",
+      "example": "I am working from home today.",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "this week",
+      "ipa": null,
+      "arabic": "هذا الأسبوع",
+      "example": "They are training new staff this week.",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "this month",
+      "ipa": null,
+      "arabic": "هذا الشهر",
+      "example": "She is finishing a big project this month.",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "these days",
+      "ipa": null,
+      "arabic": "هذه الأيام",
+      "example": "I am learning English these days.",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "at present",
+      "ipa": null,
+      "arabic": "في الوقت الراهن",
+      "example": "The office is closed at present.",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "temporarily",
+      "ipa": null,
+      "arabic": "مؤقتاً",
+      "example": "I am staying with my brother temporarily.",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "for a few weeks",
+      "ipa": null,
+      "arabic": "لبضعة أسابيع",
+      "example": "He is working in Dubai for a few weeks.",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "until Friday",
+      "ipa": null,
+      "arabic": "حتى الجمعة",
+      "example": "She is covering for me until Friday.",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "Look!",
+      "ipa": null,
+      "arabic": "انظر!",
+      "example": "Look! It is raining.",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "Listen!",
+      "ipa": null,
+      "arabic": "استمع!",
+      "example": "Listen! Someone is singing.",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "Be quiet!",
+      "ipa": null,
+      "arabic": "اهدأ!",
+      "example": "Be quiet! The baby is sleeping.",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "always (complaining)",
+      "ipa": null,
+      "arabic": "دائماً (شكوى)",
+      "example": "He is always losing his keys!",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "more and more",
+      "ipa": null,
+      "arabic": "أكثر فأكثر",
+      "example": "Prices are getting more and more expensive.",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "nowadays",
+      "ipa": null,
+      "arabic": "في أيامنا",
+      "example": "People are working longer hours nowadays.",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "at the same time",
+      "ipa": null,
+      "arabic": "في نفس الوقت",
+      "example": "She is cooking and talking at the same time.",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    },
+    {
+      "group": "now_and_temporary",
+      "word": "still",
+      "ipa": null,
+      "arabic": "ما زال",
+      "example": "He is still waiting.",
+      "group_label_ar": "الآن والمؤقّت",
+      "group_label_en": "Now and Temporary"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "group_label": "/ŋ/ and Linking",
+      "ipa": null,
+      "word_a": "sin",
+      "word_b": "sing",
+      "group_label_ar": "النون الغُنّية والوصل",
+      "hint_ar": "/ŋ/ نون من مؤخّر الفم بلا إغلاق اللسان (sing) — ولا جيم بعدها، فـ«سينج» خطأ. والوصل أن ينتقل آخرُ كلمةٍ إلى أوّل التي بعدها: turn off تُسمع كلمة واحدة."
+    },
+    {
+      "group_label": "/ŋ/ and Linking",
+      "ipa": null,
+      "word_a": "thin",
+      "word_b": "thing",
+      "group_label_ar": "النون الغُنّية والوصل",
+      "hint_ar": "/ŋ/ نون من مؤخّر الفم بلا إغلاق اللسان (sing) — ولا جيم بعدها، فـ«سينج» خطأ. والوصل أن ينتقل آخرُ كلمةٍ إلى أوّل التي بعدها: turn off تُسمع كلمة واحدة."
+    },
+    {
+      "group_label": "/ŋ/ and Linking",
+      "ipa": null,
+      "word_a": "win",
+      "word_b": "wing",
+      "group_label_ar": "النون الغُنّية والوصل",
+      "hint_ar": "/ŋ/ نون من مؤخّر الفم بلا إغلاق اللسان (sing) — ولا جيم بعدها، فـ«سينج» خطأ. والوصل أن ينتقل آخرُ كلمةٍ إلى أوّل التي بعدها: turn off تُسمع كلمة واحدة."
+    },
+    {
+      "group_label": "/ŋ/ and Linking",
+      "ipa": null,
+      "word_a": "ban",
+      "word_b": "bang",
+      "group_label_ar": "النون الغُنّية والوصل",
+      "hint_ar": "/ŋ/ نون من مؤخّر الفم بلا إغلاق اللسان (sing) — ولا جيم بعدها، فـ«سينج» خطأ. والوصل أن ينتقل آخرُ كلمةٍ إلى أوّل التي بعدها: turn off تُسمع كلمة واحدة."
+    },
+    {
+      "group_label": "/ŋ/ and Linking",
+      "ipa": null,
+      "word_a": "run",
+      "word_b": "rung",
+      "group_label_ar": "النون الغُنّية والوصل",
+      "hint_ar": "/ŋ/ نون من مؤخّر الفم بلا إغلاق اللسان (sing) — ولا جيم بعدها، فـ«سينج» خطأ. والوصل أن ينتقل آخرُ كلمةٍ إلى أوّل التي بعدها: turn off تُسمع كلمة واحدة."
+    }
+  ],
+  "dialogues": [
+    {
+      "number": 1,
+      "title": "A Phone Call to the Office",
+      "situation_en": "Lina calls Sami, who is not at his desk.",
+      "situation_ar": "لينا تتّصل بالمكتب، وسامي ليس على مكتبه.",
+      "speaker_genders": {
+        "LINA": "f",
+        "SAMI": "m"
+      },
+      "lines": [
+        {
+          "speaker": "LINA",
+          "en": "Hi Sami, where are you? I'm standing outside your office.",
+          "ar": "مرحباً سامي، أين أنت؟ أنا واقفة خارج مكتبك."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Sorry! I'm working from home today.",
+          "ar": "آسف! أعمل من المنزل اليوم."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Ah, I didn't know. Is everything all right?",
+          "ar": "آه، لم أكن أعلم. هل كل شيء بخير؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Yes, fine. My son is ill, so I'm staying with him this week.",
+          "ar": "نعم، بخير. ابني مريض، فأبقى معه هذا الأسبوع."
+        },
+        {
+          "speaker": "LINA",
+          "en": "I hope he gets better soon. Are you busy right now?",
+          "ar": "أتمنى أن يتحسّن قريباً. هل أنت مشغول الآن؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "I'm preparing the report for Thursday. Why?",
+          "ar": "أحضّر التقرير ليوم الخميس. لماذا؟"
+        },
+        {
+          "speaker": "LINA",
+          "en": "The client is asking about the numbers. They want them today.",
+          "ar": "العميل يسأل عن الأرقام. يريدونها اليوم."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Today? But the deadline is Thursday!",
+          "ar": "اليوم؟ لكن الموعد النهائي هو الخميس!"
+        },
+        {
+          "speaker": "LINA",
+          "en": "I know. They're always changing their minds.",
+          "ar": "أعلم. إنهم يغيّرون رأيهم دائماً."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "All right. I'm looking at the file now. Give me two hours.",
+          "ar": "حسناً. أنظر في الملف الآن. أعطني ساعتين."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Perfect. And Sami — you're working too much.",
+          "ar": "ممتاز. وسامي — أنت تعمل كثيراً جداً."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "I know. My wife says the same thing every evening.",
+          "ar": "أعلم. زوجتي تقول نفس الشيء كل مساء."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "A Job Interview",
+      "situation_en": "",
+      "situation_ar": "مقابلة عمل: ماذا تفعل الآن؟ وعلى أي شيء تعمل؟",
+      "speaker_genders": {
+        "MANAGER": "m",
+        "KHALED": "m"
+      },
+      "lines": [
+        {
+          "speaker": "MANAGER",
+          "en": "Good morning. Please sit down. So, tell me about yourself.",
+          "ar": "صباح الخير. تفضّل بالجلوس. حدّثني عن نفسك."
+        },
+        {
+          "speaker": "KHALED",
+          "en": "My name is Khaled. I'm twenty-nine and I'm a designer.",
+          "ar": "اسمي خالد. عمري تسعة وعشرون وأنا مصمم."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "Where are you working at the moment?",
+          "ar": "أين تعمل حالياً؟"
+        },
+        {
+          "speaker": "KHALED",
+          "en": "I'm working at a small studio, but I'm looking for something bigger.",
+          "ar": "أعمل في استوديو صغير، لكني أبحث عن شيء أكبر."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "How long have you worked there?",
+          "ar": "منذ متى تعمل هناك؟"
+        },
+        {
+          "speaker": "KHALED",
+          "en": "Three years. I started in 2023.",
+          "ar": "ثلاث سنوات. بدأت في 2023."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "And what are you working on now?",
+          "ar": "وعلى ماذا تعمل الآن؟"
+        },
+        {
+          "speaker": "KHALED",
+          "en": "I'm designing a website for a restaurant chain. We're finishing it this month.",
+          "ar": "أصمّم موقعاً لسلسلة مطاعم. ننهيه هذا الشهر."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "Why do you want to leave?",
+          "ar": "لماذا تريد المغادرة؟"
+        },
+        {
+          "speaker": "KHALED",
+          "en": "I'm not learning any more. I do the same thing every week.",
+          "ar": "لم أعد أتعلّم. أفعل نفس الشيء كل أسبوع."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "That's a fair answer. Do you speak any other languages?",
+          "ar": "إجابة عادلة. هل تتحدث لغات أخرى؟"
+        },
+        {
+          "speaker": "KHALED",
+          "en": "Arabic and French. And I'm studying English at the moment.",
+          "ar": "العربية والفرنسية. وأدرس الإنجليزية حالياً."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "Your English sounds good.",
+          "ar": "إنجليزيتك تبدو جيدة."
+        },
+        {
+          "speaker": "KHALED",
+          "en": "Thank you. I'm practising every day. I still make a lot of mistakes.",
+          "ar": "شكراً. أتمرّن كل يوم. ما زلت أخطئ كثيراً."
+        },
+        {
+          "speaker": "MANAGER",
+          "en": "Everybody does. We'll call you next week.",
+          "ar": "الجميع يخطئ. سنتصل بك الأسبوع القادم."
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "kind": "grammar",
+      "day_number": 4,
+      "title_ar": "القواعد",
+      "title_en": "Grammar — The Present Continuous",
+      "payload": {
+        "rule_ar": "المضارع المستمر لما يحدث **الآن** أو لحالة مؤقّتة. وتركيبه: am/is/are + الفعل + -ing. والخلط بينه وبين المضارع البسيط أشهر أخطاء هذا المستوى: I work تعني مهنتي، وI am working تعني أنني أعمل في هذه اللحظة. وهناك اثنا عشر فعلاً لا تُستعمل معه أبداً — أفعال الحالة مثل know و want و like.",
+        "rule_en": "SUBJECT  +  am / is / are  +  VERB-ing",
+        "common_errors": [
+          {
+            "error_no": 1,
+            "wrong": "I work now",
+            "right": "I am working now.",
+            "arabic": "أنا أعمل الآن",
+            "why_ar": "now تستدعي المستمر"
+          },
+          {
+            "error_no": 2,
+            "wrong": "I am working in a bank (as a job)",
+            "right": "I work in a bank.",
+            "arabic": "أنا أعمل في بنك",
+            "why_ar": "العمل الدائم عادة لا لحظة"
+          },
+          {
+            "error_no": 3,
+            "wrong": "I am knowing the answer",
+            "right": "I know the answer.",
+            "arabic": "أنا أعرف الإجابة",
+            "why_ar": "know فعل حالة"
+          },
+          {
+            "error_no": 4,
+            "wrong": "I am wanting water",
+            "right": "I want water.",
+            "arabic": "أريد ماءً",
+            "why_ar": "want فعل حالة"
+          },
+          {
+            "error_no": 5,
+            "wrong": "She teaching now",
+            "right": "She is teaching now.",
+            "arabic": "هي تدرّس الآن",
+            "why_ar": "فعل be إجباري"
+          },
+          {
+            "error_no": 6,
+            "wrong": "They are live in Cairo",
+            "right": "They live in Cairo.",
+            "arabic": "هم يعيشون في القاهرة",
+            "why_ar": "إمّا live وإمّا are living — لا خلط بينهما"
+          },
+          {
+            "error_no": 7,
+            "wrong": "He is sleep",
+            "right": "He is sleeping.",
+            "arabic": "هو ينام",
+            "why_ar": "صيغة -ing إجبارية"
+          }
+        ],
+        "checklist_ar": [
+          "am/is/are + الفعل + -ing في كل جملة",
+          "البسيط للعادة · المستمر للحظة والمؤقّت",
+          "لا -ing مع know و want و like و need",
+          "النفي: am not / isn’t / aren’t + -ing",
+          "نطق /ŋ/ بلا /g/ في النهاية"
+        ]
+      }
+    },
+    {
+      "kind": "phonics",
+      "day_number": 1,
+      "title_ar": "النطق",
+      "title_en": "Pronunciation — /ŋ/ and Linking",
+      "payload": {
+        "intro_ar": "/ŋ/ صوت أنفي في نهاية -ing، وليس فيه /g/. من يقول «وركينغ» بجيم مسموعة يضيف صوتاً ليس موجوداً.",
+        "symbols": [],
+        "tip_ar": "والوصل هو ما يجعل الكلمتين كلمة: not at all تُسمع «نوتَتُول». تدرّب عليه بربط الساكن الأخير بالحركة التالية."
+      }
+    },
+    {
+      "kind": "listening",
+      "day_number": 6,
+      "title_ar": "الاستماع",
+      "title_en": "Listening — \"The Office at Midnight\"",
+      "payload": {
+        "method_ar": [
+          "استمع كاملاً بلا نصّ. عمّا يتحدّث؟ قلها في جملة واحدة.",
+          "استمع مرة أخرى واكتب أي كلمة لم تلتقطها.",
+          "افتح النصّ واقرأه وأنت تستمع.",
+          "أغلق النصّ واستمع مرة أخيرة، ولاحظ كم صار أوضح."
+        ],
+        "transcript": [
+          {
+            "en": "It is eleven o'clock at night and I am still sitting at my desk. Outside the window the city is quiet. Two floors below, a cleaner is emptying the bins and listening to music on her phone. I can hear it through the floor.",
+            "ar": "الساعة الحادية عشرة ليلاً وما زلت جالساً إلى مكتبي. خارج النافذة المدينة هادئة. وفي الطابقين تحتي عاملة نظافة تفرّغ سلال المهملات وتستمع إلى الموسيقى في هاتفها. أسمعها عبر الأرض."
+          },
+          {
+            "en": "I am not usually here at this hour. I normally leave at six. But we are launching a new product on Monday and nothing is ready. My colleague Ahmed is sleeping on the sofa in the meeting room. He is not lazy — he arrived at seven this morning.",
+            "ar": "لا أكون هنا في هذه الساعة عادةً. أخرج في السادسة في المعتاد. لكننا نطلق منتجاً جديداً يوم الاثنين ولا شيء جاهز. وزميلي أحمد نائم على أريكة غرفة الاجتماعات. ليس كسولاً — وصل السابعة صباح اليوم."
+          },
+          {
+            "en": "I am looking at a spreadsheet with four thousand rows. Somewhere in this file there is one wrong number, and it is changing every total on the report. I am checking them one by one. I found three mistakes already, but none of them was the mistake.",
+            "ar": "أنظر إلى جدول فيه أربعة آلاف صفّ. في مكان ما من هذا الملفّ رقم واحد خاطئ، وهو يغيّر كل مجموع في التقرير. أفحصها واحداً واحداً. وجدت ثلاثة أخطاء حتى الآن، ولم يكن أيٌّ منها الخطأ المقصود."
+          },
+          {
+            "en": "My wife is calling me. I am not answering, because I know what she is going to say, and she is right.",
+            "ar": "زوجتي تتّصل بي. ولا أجيب، لأنني أعرف ما ستقوله، وهي محقّة."
+          },
+          {
+            "en": "This is the third week like this. I am not complaining — I chose this job and I like it. But these days I am seeing my children for about twenty minutes a day, and something is wrong with that.",
+            "ar": "هذا هو الأسبوع الثالث على هذه الحال. ولا أشكو — أنا اخترت هذا العمل وأحبّه. لكنني هذه الأيام أرى أولادي نحو عشرين دقيقة في اليوم، وفي هذا شيء غير صحيح."
+          },
+          {
+            "en": "It is now half past eleven. I am closing the laptop. The wrong number is still in there somewhere, and tomorrow it will still be there. Tonight I am going home.",
+            "ar": "الساعة الآن الحادية عشرة والنصف. أُغلق الحاسوب. الرقم الخاطئ ما زال هناك في مكان ما، وغداً سيبقى هناك. أما الليلة فأنا ذاهب إلى البيت."
+          }
+        ],
+        "questions": []
+      }
+    },
+    {
+      "kind": "reading",
+      "day_number": 7,
+      "title_ar": "القراءة",
+      "title_en": "Reading — \"The Man Who Is Building a Cathedral\"",
+      "payload": {
+        "method_ar": "اقرأ مرتين. الأولى بلا توقّف، والثانية مع المسرد.",
+        "story": [
+          {
+            "en": "In a town near Madrid, a ninety-year-old man is building a cathedral. He is building it alone, by hand, and he has been building it since 1961.",
+            "ar": "في بلدة قرب مدريد، رجل في التسعين يبني كاتدرائية. يبنيها وحده بيديه، وهو يبنيها منذ سنة 1961."
+          },
+          {
+            "en": "His name is Justo Gallego. He is not an architect and he never studied engineering. He was a monk, but he became ill and had to leave the monastery. He made a promise: if he lived, he would build a church.",
+            "ar": "اسمه خوستو غاييغو. ليس مهندساً معمارياً ولم يدرس الهندسة قطّ. كان راهباً، لكنه مرض فاضطرّ إلى ترك الدير. وقطع على نفسه وعداً: إن عاش فسيبني كنيسة."
+          },
+          {
+            "en": "He lived. So every morning at six, for sixty years, he started work.",
+            "ar": "وعاش. فصار يبدأ العمل كل صباح في السادسة، ستّين سنة."
+          },
+          {
+            "en": "He is using materials that other people throw away: old bricks, broken tiles, plastic tubes, bicycle wheels. The columns are made from petrol drums. There are no plans on paper. \"I am keeping it all in my head,\" he says.",
+            "ar": "يستخدم موادّ يرميها الناس: طوباً قديماً، وبلاطاً مكسوراً، وأنابيب بلاستيك، وعجلات درّاجات. والأعمدة مصنوعة من براميل بنزين. ولا توجد مخطّطات على ورق. يقول: «أحتفظ بذلك كلّه في رأسي»."
+          },
+          {
+            "en": "The building is now forty metres high with a dome twelve metres wide. It has no permission from the town, no permission from the church and no safety certificate. Engineers who visit say they do not understand why it is still standing.",
+            "ar": "ارتفاع البناء الآن أربعون متراً، وله قبّة عرضها اثنا عشر متراً. ولا إذن له من البلدية، ولا إذن من الكنيسة، ولا شهادة سلامة. والمهندسون الذين يزورونه يقولون إنهم لا يفهمون كيف ما زال قائماً."
+          },
+          {
+            "en": "Tourists come every day and watch him working. Some of them help. He does not ask for money and he does not accept payment for entry.",
+            "ar": "يأتي السيّاح كل يوم ويشاهدونه وهو يعمل. وبعضهم يساعده. وهو لا يطلب مالاً ولا يقبل أجراً على الدخول."
+          },
+          {
+            "en": "\"People ask me when I am going to finish,\" he says. \"I tell them the same thing every time. I am not building this to finish it. I am building it because I am building it.\"",
+            "ar": "يقول: «يسألني الناس متى سأنتهي. وأقول لهم الشيء نفسه في كل مرة: أنا لا أبني هذا لأنتهي منه. أنا أبنيه لأنني أبنيه»."
+          }
+        ],
+        "glossary": [
+          {
+            "en": "cathedral",
+            "ipa": "/kəˈθiːdrəl/",
+            "ar": "كاتدرائية",
+            "note_ar": "Stress on the second"
+          },
+          {
+            "en": "monk",
+            "ipa": "/mʌŋk/",
+            "ar": "راهب",
+            "note_ar": "Contains /ŋ/"
+          },
+          {
+            "en": "monastery",
+            "ipa": "/ˈmɒnəstri/",
+            "ar": "دير",
+            "note_ar": "—"
+          },
+          {
+            "en": "promise",
+            "ipa": "/ˈprɒmɪs/",
+            "ar": "وعد",
+            "note_ar": "Also a verb"
+          },
+          {
+            "en": "material",
+            "ipa": "/məˈtɪəriəl/",
+            "ar": "مادة",
+            "note_ar": "Stress on the second"
+          },
+          {
+            "en": "throw away",
+            "ipa": "/θrəʊ əˈweɪ/",
+            "ar": "يرمي",
+            "note_ar": "Past: threw away"
+          },
+          {
+            "en": "brick",
+            "ipa": "/brɪk/",
+            "ar": "طوبة",
+            "note_ar": "—"
+          },
+          {
+            "en": "tile",
+            "ipa": "/taɪl/",
+            "ar": "بلاطة",
+            "note_ar": "—"
+          },
+          {
+            "en": "column",
+            "ipa": "/ˈkɒləm/",
+            "ar": "عمود",
+            "note_ar": "The n is silent"
+          },
+          {
+            "en": "drum",
+            "ipa": "/drʌm/",
+            "ar": "برميل",
+            "note_ar": "Also a musical instrument"
+          },
+          {
+            "en": "dome",
+            "ipa": "/dəʊm/",
+            "ar": "قبة",
+            "note_ar": "—"
+          },
+          {
+            "en": "permission",
+            "ipa": "/pəˈmɪʃn/",
+            "ar": "إذن",
+            "note_ar": "Stress on the second"
+          },
+          {
+            "en": "certificate",
+            "ipa": "/səˈtɪfɪkət/",
+            "ar": "شهادة",
+            "note_ar": "Stress on the second"
+          },
+          {
+            "en": "accept",
+            "ipa": "/əkˈsept/",
+            "ar": "يقبل",
+            "note_ar": "—"
+          },
+          {
+            "en": "payment",
+            "ipa": "/ˈpeɪmənt/",
+            "ar": "دفعة مالية",
+            "note_ar": "From to pay"
+          }
+        ],
+        "questions": []
+      }
+    },
+    {
+      "kind": "selfcheck",
+      "day_number": 7,
+      "title_ar": "الاختبار الذاتي — نهاية الفصل",
+      "title_en": "End-of-Chapter Self-Check",
+      "payload": {
+        "intro_ar": "كن صادقاً. هذا يحدّد هل تنتقل أم تُعيد.",
+        "items": [
+          {
+            "can_ar": "أصوغ المضارع المستمر بلا نسيان be ولا -ing",
+            "can_en": "Form the Present Continuous with no missing be and no missing -ing?",
+            "proof_ar": "تمارين اليوم 1"
+          },
+          {
+            "can_ar": "أحصل على 13 من 15 في تمييز البسيط من المستمر",
+            "can_en": "Score 13/15 on Exercise 3 (Simple vs Continuous)?",
+            "proof_ar": "تمارين اليوم 2"
+          },
+          {
+            "can_ar": "أسمّي أفعال الحالة الاثني عشر وأتجنّب -ing معها",
+            "can_en": "Name the twelve stative verbs and avoid -ing with them?",
+            "proof_ar": "قسم القواعد"
+          },
+          {
+            "can_ar": "أصف ثمانية أشياء تحدث حولي الآن",
+            "can_en": "Describe eight things happening around you right now?",
+            "proof_ar": "تمارين اليوم 5"
+          },
+          {
+            "can_ar": "أسمّي عشرين مهنة وأقول ماذا يفعل كل منها",
+            "can_en": "Name twenty jobs and say what each one does?",
+            "proof_ar": "جلسة المراجعة المتباعدة — تقول لك الرقم"
+          },
+          {
+            "can_ar": "أنطق working و thinking بـ/ŋ/ نظيفة بلا /g/",
+            "can_en": "Say working, thinking, singing with a clean /ŋ/, no hard g?",
+            "proof_ar": "قسم النطق"
+          },
+          {
+            "can_ar": "أجيب سبعة أسئلة مقابلة بلا تحضير",
+            "can_en": "Answer seven interview questions without preparing?",
+            "proof_ar": "الحوار الثاني"
+          },
+          {
+            "can_ar": "أتذكّر 80 من 100 كلمة من العربية",
+            "can_en": "Recall 80 of the 100 words from the Arabic?",
+            "proof_ar": "جلسة المراجعة المتباعدة — تقول لك الرقم"
+          },
+          {
+            "can_ar": "أتحدّث 100 ثانية مستخدماً الزمنين متقابلين",
+            "can_en": "Speak for 100 seconds using both tenses correctly in contrast?",
+            "proof_ar": "تسجيل هذا الأسبوع"
+          }
+        ],
+        "pass_ar": "8–9 ✓ → انتقل إلى الأسبوع العاشر — المقارنة.",
+        "partial_ar": "6–7 ✓ → انتقل، لكن أعد التمرين الثالث يومياً حتى تحصل على 14 من 15.",
+        "fail_ar": "أقل من 6 → أعد قسم القواعد. تقابل هذين الزمنين يظهر في كل فصل باقٍ."
+      }
+    },
+    {
+      "kind": "breaktime",
+      "day_number": 7,
+      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
+      "title_en": "Break Time — English Outside the Book",
+      "payload": {
+        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
+        "compare": [
+          {
+            "aspect_ar": "الكمّ",
+            "intensive_ar": "دقائق من الصوت",
+            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
+          },
+          {
+            "aspect_ar": "الفهم",
+            "intensive_ar": "تستهدف 100%",
+            "extensive_ar": "50–70% تكفي"
+          },
+          {
+            "aspect_ar": "الجهد",
+            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
+            "extensive_ar": "منخفض — تسترخي وتستمتع"
+          },
+          {
+            "aspect_ar": "ما يبنيه",
+            "intensive_ar": "الدقّة والقواعد",
+            "extensive_ar": "السرعة والأذن والحدس والمفردات"
+          },
+          {
+            "aspect_ar": "لو أغفلته",
+            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
+            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
+          }
+        ],
+        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
+        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
+        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
+        "song": {
+          "pick": {
+            "title": "Riptide",
+            "artist": "Vance Joy",
+            "why_en": "Full of Present Continuous. Fast in places, so a real stretch — and very catchy.",
+            "search": "Riptide Vance Joy"
+          },
+          "alternatives": [
+            {
+              "title": "Wonderwall",
+              "artist": "Oasis",
+              "why_en": "Clear, slow, and built on the continuous form throughout.",
+              "search": "Wonderwall Oasis"
+            },
+            {
+              "title": "Fast Car",
+              "artist": "Tracy Chapman",
+              "why_en": "A story told partly in the continuous. Very clear diction and a strong narrative.",
+              "search": "Fast Car Tracy Chapman"
+            }
+          ],
+          "item": {
+            "key": "song",
+            "icon": "🎵",
+            "label_ar": "أغنية الأسبوع",
+            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
+            "minutes": 20,
+            "steps": [
+              "استمع مرة للمتعة.",
+              "استمع ثانية وميّز: أيّها مضارع بسيط وأيّها مضارع مستمر؟",
+              "اكتب ثلاث جمل من كل زمن."
+            ],
+            "prompt_ar": "جملة بالبسيط وجملة بالمستمر ممّا سمعت"
+          }
+        },
+        "watch": {
+          "pick": {
+            "title": "Extra English — Episodes 13–14",
+            "level": "A1–A2",
+            "where": "YouTube",
+            "why_en": "Keep the series going. Two episodes a week.",
+            "search": "Extra English — Episodes 13–14"
+          },
+          "alternatives": [
+            {
+              "title": "Easy English — \"What are you doing today?\"",
+              "level": "A2",
+              "where": "YouTube — search it",
+              "why_en": "Exactly this chapter’s grammar, spoken by dozens of real people in one video.",
+              "search": "Easy English — \"What are you doing today?\""
+            },
+            {
+              "title": "A \"day in the life\" video of your own job",
+              "level": "A2–B1",
+              "where": "YouTube — search \"day in the life of a [your job]\"",
+              "why_en": "Your professional vocabulary, in English, narrated in the Present Continuous. This one is worth more to you than any general video.",
+              "search": "A \"day in the life\" video of your own job"
+            }
+          ],
+          "item": {
+            "key": "watch",
+            "icon": "📺",
+            "label_ar": "ما تشاهده",
+            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
+            "minutes": 25,
+            "steps": [
+              "شاهد حلقة كاملة بلا توقّف.",
+              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
+              "اكتب ثلاث عبارات علقت في ذهنك."
+            ],
+            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
+            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
+          }
+        },
+        "item_order": [
+          "song",
+          "watch"
+        ],
+        "plan": [
+          {
+            "day_ar": "السبت",
+            "activity_ar": "الأغنية + مهمة تمييز الأزمنة",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الأحد",
+            "activity_ar": "Extra English الحلقة 13",
+            "minutes": 25
+          },
+          {
+            "day_ar": "الاثنين",
+            "activity_ar": "فيديو «يوم في حياة» صاحب مهنتك",
+            "minutes": 20
+          },
+          {
+            "day_ar": "الثلاثاء",
+            "activity_ar": "Extra English الحلقة 14",
+            "minutes": 25
+          },
+          {
+            "day_ar": "الأربعاء",
+            "activity_ar": "الكتاب المتدرّج + اسرد مسيرة يومك بصوت عالٍ",
+            "minutes": 20
+          },
+          {
+            "day_ar": "الخميس",
+            "activity_ar": "6 Minute English — حلقة واحدة مرتين",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الجمعة",
+            "activity_ar": "الكتاب المتدرّج + اختيار حرّ",
+            "minutes": 30
+          }
+        ]
+      }
+    },
+    {
+      "kind": "speaking",
+      "title_ar": "التحدّث",
+      "title_en": "My Job and What I Am Doing Now",
+      "payload": {
+        "task_ar": "تحدّث دقيقتين عن عملك وما تفعله هذه الأيام",
+        "target_seconds": 120,
+        "is_baseline": false,
+        "title_en": "My Job and What I Am Doing Now",
+        "intro_ar": null,
+        "cover_ar": null,
+        "model_en": "I'm an engineer. I work for a software company in the city centre, and I've been there for four years. // Normally I start at eight and finish at five, and I take the bus because the traffic is terrible. //\nAt the moment things are different. We're launching a new product next month, so I'm working until eight or nine most evenings. // I'm also training two new colleagues, which takes a lot of time. //\nRight now I'm working on a report for a client. I'm checking about four thousand numbers, and I'm looking for one mistake. It isn't interesting work. //\nThis month I'm also studying English every morning before work. I'm reading my first English book — slowly. //\nSo generally I like my job. But these days I'm tired, and I'm seeing my children for about twenty minutes a day. That isn't good. //",
+        "outline": [
+          {
+            "part_en": "Your job or studies, generally",
+            "say_en": "Present Simple",
+            "seconds": 25
+          },
+          {
+            "part_en": "Your normal routine",
+            "say_en": "Present Simple",
+            "seconds": 20
+          },
+          {
+            "part_en": "What is different at the moment",
+            "say_en": "Present Continuous",
+            "seconds": 30
+          },
+          {
+            "part_en": "What you are working on right now",
+            "say_en": "Present Continuous",
+            "seconds": 25
+          },
+          {
+            "part_en": "What you are learning these days",
+            "say_en": "Present Continuous",
+            "seconds": 20
+          }
+        ],
+        "rubric": [
+          {
+            "label_en": "Tense choice",
+            "label_ar": null,
+            "levels": [
+              "One tense throughout",
+              "Some contrast",
+              "Clear, correct contrast"
+            ]
+          },
+          {
+            "label_en": "Continuous form",
+            "label_ar": null,
+            "levels": [
+              "be or -ing missing",
+              "Mostly complete",
+              "Always complete"
+            ]
+          },
+          {
+            "label_en": "Stative verbs",
+            "label_ar": null,
+            "levels": [
+              "I am knowing type errors",
+              "One or two",
+              "None"
+            ]
+          },
+          {
+            "label_en": "/ŋ/",
+            "label_ar": null,
+            "levels": [
+              "Hard g added, or /n/",
+              "Sometimes clear",
+              "Clean throughout"
+            ]
+          },
+          {
+            "label_en": "Linking",
+            "label_ar": "وصل الكلمات",
+            "levels": [
+              "Word-by-word",
+              "Some linking",
+              "Natural flow"
+            ]
+          },
+          {
+            "label_en": "Length",
+            "label_ar": "الطول",
+            "levels": [
+              "Under 60 sec",
+              "60–100 sec",
+              "100–120 sec"
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "title_ar": "اقرأ النموذج",
+            "title_en": "Study the Model",
+            "text_en": []
+          },
+          {
+            "title_ar": "ابنِ نصّك أنت",
+            "title_en": "Build Your Version",
+            "text_en": [
+              "This task is designed to force the contrast. Sections 1–2 must be Simple; sections 3–5 must be Continuous. If your recording uses the same tense throughout, you have not yet built the distinction — redo it."
+            ]
+          },
+          {
+            "title_ar": "سجّل ثم قيّم نفسك",
+            "title_en": "Record and Score",
+            "text_en": [
+              "Record 2 minutes from memory. Save as Week09. Three recordings a week."
+            ]
+          }
+        ],
+        "save_as": "Week09"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "work"
+      },
+      "answer": {
+        "accepted": [
+          "working"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "write"
+      },
+      "answer": {
+        "accepted": [
+          "writing"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "sit"
+      },
+      "answer": {
+        "accepted": [
+          "sitting"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "run"
+      },
+      "answer": {
+        "accepted": [
+          "running"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "study"
+      },
+      "answer": {
+        "accepted": [
+          "studying"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "drive"
+      },
+      "answer": {
+        "accepted": [
+          "driving"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "plan"
+      },
+      "answer": {
+        "accepted": [
+          "planning"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "listen"
+      },
+      "answer": {
+        "accepted": [
+          "listening"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "travel"
+      },
+      "answer": {
+        "accepted": [
+          "travelling"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "lie"
+      },
+      "answer": {
+        "accepted": [
+          "lying"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "prepare"
+      },
+      "answer": {
+        "accepted": [
+          "preparing"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "try"
+      },
+      "answer": {
+        "accepted": [
+          "trying"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "وضع الفعل في المضارع المستمر",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I ______ (work) from home today.",
+      "payload": {
+        "before": "I ",
+        "after": " (work) from home today."
+      },
+      "answer": {
+        "accepted": [
+          "am working"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "وضع الفعل في المضارع المستمر",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She ______ (talk) to a client right now.",
+      "payload": {
+        "before": "She ",
+        "after": " (talk) to a client right now."
+      },
+      "answer": {
+        "accepted": [
+          "is talking"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "وضع الفعل في المضارع المستمر",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "They ______ (not / listen) to me.",
+      "payload": {
+        "before": "They ",
+        "after": " (not / listen) to me."
+      },
+      "answer": {
+        "accepted": [
+          "aren't listening"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "وضع الفعل في المضارع المستمر",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ you ______ (wait) for someone?",
+      "payload": {
+        "before": "",
+        "after": " you ______ (wait) for someone?"
+      },
+      "answer": {
+        "accepted": [
+          "Are / waiting",
+          "are / waiting"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "وضع الفعل في المضارع المستمر",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The children ______ (play) in the garden.",
+      "payload": {
+        "before": "The children ",
+        "after": " (play) in the garden."
+      },
+      "answer": {
+        "accepted": [
+          "are playing"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "وضع الفعل في المضارع المستمر",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "He ______ (prepare) a report at the moment.",
+      "payload": {
+        "before": "He ",
+        "after": " (prepare) a report at the moment."
+      },
+      "answer": {
+        "accepted": [
+          "is preparing"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "وضع الفعل في المضارع المستمر",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "We ______ (not / travel) this month.",
+      "payload": {
+        "before": "We ",
+        "after": " (not / travel) this month."
+      },
+      "answer": {
+        "accepted": [
+          "aren't travelling"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "وضع الفعل في المضارع المستمر",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ it ______ (rain)?",
+      "payload": {
+        "before": "",
+        "after": " it ______ (rain)?"
+      },
+      "answer": {
+        "accepted": [
+          "Is / raining",
+          "is / raining"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "وضع الفعل في المضارع المستمر",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "My brother ______ (study) for an exam this week.",
+      "payload": {
+        "before": "My brother ",
+        "after": " (study) for an exam this week."
+      },
+      "answer": {
+        "accepted": [
+          "is studying"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "وضع الفعل في المضارع المستمر",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I ______ (sit) in a café.",
+      "payload": {
+        "before": "I ",
+        "after": " (sit) in a café."
+      },
+      "answer": {
+        "accepted": [
+          "am sitting"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "وضع الفعل في المضارع المستمر",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The company ______ (look) for a new manager.",
+      "payload": {
+        "before": "The company ",
+        "after": " (look) for a new manager."
+      },
+      "answer": {
+        "accepted": [
+          "is looking"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "وضع الفعل في المضارع المستمر",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why ______ you ______ (run)?",
+      "payload": {
+        "before": "Why ",
+        "after": " you ______ (run)?"
+      },
+      "answer": {
+        "accepted": [
+          "are / running"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I ______ (work) in a hospital. It's my job.",
+      "payload": {
+        "before": "I ",
+        "after": " (work) in a hospital. It's my job."
+      },
+      "answer": {
+        "accepted": [
+          "work"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Be quiet! The baby ______ (sleep).",
+      "payload": {
+        "before": "Be quiet! The baby ",
+        "after": " (sleep)."
+      },
+      "answer": {
+        "accepted": [
+          "is sleeping"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She usually ______ (drive) to work, but today she ______ (take) the bus.",
+      "payload": {
+        "before": "She usually ",
+        "after": " (drive) to work, but today she ______ (take) the bus."
+      },
+      "answer": {
+        "accepted": [
+          "drives / is taking"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Look! It ______ (snow)!",
+      "payload": {
+        "before": "Look! It ",
+        "after": " (snow)!"
+      },
+      "answer": {
+        "accepted": [
+          "is snowing"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "My father ______ (not / like) coffee.",
+      "payload": {
+        "before": "My father ",
+        "after": " (not / like) coffee."
+      },
+      "answer": {
+        "accepted": [
+          "doesn't like"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "We ______ (live) in this flat since 2018.",
+      "payload": {
+        "before": "We ",
+        "after": " (live) in this flat since 2018."
+      },
+      "answer": {
+        "accepted": [
+          "have lived (or) live"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I ______ (learn) English these days.",
+      "payload": {
+        "before": "I ",
+        "after": " (learn) English these days."
+      },
+      "answer": {
+        "accepted": [
+          "am learning"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "He ______ (speak) four languages.",
+      "payload": {
+        "before": "He ",
+        "after": " (speak) four languages."
+      },
+      "answer": {
+        "accepted": [
+          "speaks"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ you ______ (understand) the question?",
+      "payload": {
+        "before": "",
+        "after": " you ______ (understand) the question?"
+      },
+      "answer": {
+        "accepted": [
+          "Do / understand",
+          "do / understand"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The shop ______ (open) at eight every morning.",
+      "payload": {
+        "before": "The shop ",
+        "after": " (open) at eight every morning."
+      },
+      "answer": {
+        "accepted": [
+          "opens"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Where is Lina? — She ______ (talk) on the phone.",
+      "payload": {
+        "before": "Where is Lina? — She ",
+        "after": " (talk) on the phone."
+      },
+      "answer": {
+        "accepted": [
+          "is talking"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I ______ (want) some water, please.",
+      "payload": {
+        "before": "I ",
+        "after": " (want) some water, please."
+      },
+      "answer": {
+        "accepted": [
+          "want"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "They ______ (build) a new road near our house this year.",
+      "payload": {
+        "before": "They ",
+        "after": " (build) a new road near our house this year."
+      },
+      "answer": {
+        "accepted": [
+          "are building"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "My sister ______ (work) as a nurse.",
+      "payload": {
+        "before": "My sister ",
+        "after": " (work) as a nurse."
+      },
+      "answer": {
+        "accepted": [
+          "works"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "البسيط أم المستمر؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What ______ you ______ (do)? — I ______ (write) an email.",
+      "payload": {
+        "before": "What ",
+        "after": " you ______ (do)? — I ______ (write) an email."
+      },
+      "answer": {
+        "accepted": [
+          "are / doing / am writing"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "ينتظر",
+      "payload": {
+        "options": [
+          "clean → cleaning",
+          "watch → watching",
+          "wait → waiting",
+          "travel → travelling"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يبحث عن",
+      "payload": {
+        "options": [
+          "travel → travelling",
+          "plan → planning",
+          "fix → fixing",
+          "look for → looking for"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يشرب",
+      "payload": {
+        "options": [
+          "watch → watching",
+          "drink → drinking",
+          "talk → talking",
+          "look for → looking for"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يمشي",
+      "payload": {
+        "options": [
+          "sit → sitting",
+          "walk → walking",
+          "try → trying",
+          "drink → drinking"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يجلس",
+      "payload": {
+        "options": [
+          "try → trying",
+          "sit → sitting",
+          "clean → cleaning",
+          "wait → waiting"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يجري",
+      "payload": {
+        "options": [
+          "study → studying",
+          "stand → standing",
+          "sit → sitting",
+          "run → running"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Where is Sami today, and why? ______",
+      "payload": {
+        "before": "Where is Sami today, and why?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "At home, because his son is ill.",
+          "At home, because his son is ill",
+          "at home, because his son is ill."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What is he doing at that moment? ______",
+      "payload": {
+        "before": "What is he doing at that moment?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Preparing the report for Thursday.",
+          "Preparing the report for Thursday",
+          "preparing the report for thursday."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "When is the deadline? ______",
+      "payload": {
+        "before": "When is the deadline?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Thursday.",
+          "Thursday",
+          "thursday."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What does the client want? ______",
+      "payload": {
+        "before": "What does the client want?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "The numbers, today.",
+          "The numbers, today",
+          "the numbers, today."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why does Lina say \"They're always changing their minds\"? ______",
+      "payload": {
+        "before": "Why does Lina say \"They're always changing their minds\"?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Because they keep changing their requirements — it annoys her.",
+          "Because they keep changing their requirements — it annoys her",
+          "because they keep changing their requirements — it annoys her."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How long does Sami need? ______",
+      "payload": {
+        "before": "How long does Sami need?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Two hours.",
+          "Two hours",
+          "two hours."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "العثور على الأزمنة",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Eight Present Continuous verbs",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: Continuous: am standing, am working, am staying, Are you busy (be), am preparing, is asking, are always changing, am looking.  Simple: I hope, they want, my wife says — all are habits, states or general truths.  always + Continuous: They're always changing their minds.  Stative: know, want, hope."
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "I am knowing the answer."
+      },
+      "answer": {
+        "accepted": [
+          "I know the answer."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "She working in a bank now."
+      },
+      "answer": {
+        "accepted": [
+          "She is working in a bank now."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "He is sleep at the moment."
+      },
+      "answer": {
+        "accepted": [
+          "He is sleeping at the moment."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "I work now, please call later."
+      },
+      "answer": {
+        "accepted": [
+          "I am working now, please call later."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "They are live in Cairo."
+      },
+      "answer": {
+        "accepted": [
+          "They live in Cairo."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "I am wanting a coffee."
+      },
+      "answer": {
+        "accepted": [
+          "I want a coffee."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "What you are doing?"
+      },
+      "answer": {
+        "accepted": [
+          "What are you doing?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "She is haveing lunch."
+      },
+      "answer": {
+        "accepted": [
+          "She is having lunch."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "We are studing English."
+      },
+      "answer": {
+        "accepted": [
+          "We are studying English."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "He is teacher at a school."
+      },
+      "answer": {
+        "accepted": [
+          "He is a teacher at a school."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "صف ما يحدث الآن",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "I …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "صف ما يحدث الآن",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Somebody …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "صف ما يحدث الآن",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Outside, …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "صف ما يحدث الآن",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "My phone …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "صف ما يحدث الآن",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Nobody …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "صف ما يحدث الآن",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "The weather …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "صف ما يحدث الآن",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Right now I …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "صف ما يحدث الآن",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "This week I …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "لماذا هذا الزمن؟",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "For each pair below, explain why the speaker chose that tense:",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: Permanent identity → Simple."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What time does the story start? ______",
+      "payload": {
+        "before": "What time does the story start?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Eleven o'clock at night.",
+          "Eleven o'clock at night",
+          "eleven o'clock at night."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What is the cleaner doing? ______",
+      "payload": {
+        "before": "What is the cleaner doing?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Emptying the bins and listening to music.",
+          "Emptying the bins and listening to music",
+          "emptying the bins and listening to music."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What time does he normally leave? ______",
+      "payload": {
+        "before": "What time does he normally leave?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "At six.",
+          "At six",
+          "at six."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why is he working late? ______",
+      "payload": {
+        "before": "Why is he working late?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Because they are launching a new product on Monday and nothing is ready.",
+          "Because they are launching a new product on Monday and nothing is ready",
+          "because they are launching a new product on monday and nothing is ready."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Where is Ahmed, and why isn't he lazy? ______",
+      "payload": {
+        "before": "Where is Ahmed, and why isn't he lazy?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Sleeping on the sofa in the meeting room; he arrived at seven that morning.",
+          "Sleeping on the sofa in the meeting room; he arrived at seven that morning",
+          "sleeping on the sofa in the meeting room; he arrived at seven that morning."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What is he looking for in the spreadsheet? ______",
+      "payload": {
+        "before": "What is he looking for in the spreadsheet?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "One wrong number.",
+          "One wrong number",
+          "one wrong number."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How many mistakes has he found? ______",
+      "payload": {
+        "before": "How many mistakes has he found?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Three — but none was the one he needs.",
+          "Three — but none was the one he needs",
+          "three — but none was the one he needs."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why isn't he answering the phone? ______",
+      "payload": {
+        "before": "Why isn't he answering the phone?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Because he knows what his wife will say, and she is right.",
+          "Because he knows what his wife will say, and she is right",
+          "because he knows what his wife will say, and she is right."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How much does he see his children these days? ______",
+      "payload": {
+        "before": "How much does he see his children these days?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "About twenty minutes a day.",
+          "About twenty minutes a day",
+          "about twenty minutes a day."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What does he decide at the end? ______",
+      "payload": {
+        "before": "What does he decide at the end?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "To close the laptop and go home.",
+          "To close the laptop and go home",
+          "to close the laptop and go home."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "تعقّب الأزمنة في النصّ",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "The text mixes both present tenses deliberately. Find:",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: Continuous: am sitting, is emptying, is listening, are launching, is sleeping, am looking, is changing, am checking, is calling, am not answering, am seeing, am closing, am going.  Simple: I normally leave, I can hear, he is not lazy, I know, I chose (past), I like. The Continuous carries the events of this one night; the Simple carries what is always true."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "تعقّب الأزمنة في النصّ",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Present Continuous (happening now) : ……",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "تعقّب الأزمنة في النصّ",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Present Simple (habits / facts)    : ……",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Justo Gallego is an architect.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: he never studied engineering"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "He started building in 1961.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "He was a monk before.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "He is using new, expensive materials.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: materials others throw away"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "He has detailed plans on paper.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: he keeps it in his head"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The building has official permission.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: no permission"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Tourists pay to enter.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: he does not accept payment"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "He wants to finish it quickly.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: he says he is not building it to finish it"
+    }
+  ]
+}

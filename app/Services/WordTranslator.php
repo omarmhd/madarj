@@ -1,0 +1,113 @@
+<?php
+
+namespace App\Services;
+
+use App\Models\Vocabulary;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
+
+/**
+ * ترجمة كلمة واحدة — بأقلّ ثمن ممكن.
+ *
+ * ── الترتيب، والأول هو الأهمّ ───────────────────────────────
+ *
+ * ① **مفردات الكتاب.** في القاعدة ألف وثمانمئة كلمة مترجمة
+ *    أصلاً، وأكثر ما يكتبه مبتدئ في دفتره منها. فالبحث فيها
+ *    استعلامٌ واحد بفهرس: بلا شبكة، وبلا انتظار، وبلا حصّة
+ *    يومية — وبترجمة الكتاب نفسه لا ترجمة آلة.
+ *
+ * ② **ذاكرة مشتركة.** ترجمة «book» واحدة لكل المستخدمين، فتُحفظ
+ *    مرة وتُقرأ ألفاً. وهذا ما يبقي الاستدعاء الخارجي نادراً حتى
+ *    مع آلاف المتدرّبين.
+ *
+ * ③ **خدمة خارجية مجانية** — وهي آخر الحلول لا أولها.
+ *
+ * ── ولماذا يجوز أن تفشل ─────────────────────────────────────
+ * الترجمة الآلية **راحة لا شرط**. فإن تعذّرت رجعت `null` وكتب
+ * المتدرّب المعنى بيده — وهو أفضل لحفظه أصلاً. ولذلك لا استثناء
+ * يُرفع هنا، ولا انتظار يطول: ثانيتان ونصف ثم ينصرف.
+ */
+class WordTranslator
+{
+    /** أطول انتظار للخدمة الخارجية — الواجهة لا تنتظر أكثر */
+    protected const TIMEOUT = 2.5;
+
+    /**
+     * ترجمة كلمة إنجليزية إلى العربية.
+     *
+     * @return array{translation: ?string, source: string}
+     */
+    public function translate(string $term): array
+    {
+        $term = $this->normalise($term);
+
+        if ($term === '') {
+            return ['translation' => null, 'source' => 'manual'];
+        }
+
+        // ① مفردات الكتاب — الأدقّ والأسرع
+        $known = Vocabulary::whereRaw('LOWER(word) = ?', [$term])
+            ->value('arabic');
+
+        if ($known) {
+            return ['translation' => $known, 'source' => 'course'];
+        }
+
+        if (! config('memory.translate')) {
+            return ['translation' => null, 'source' => 'manual'];
+        }
+
+        // ② و③ — ذاكرة مشتركة تغلّف الاستدعاء الخارجي
+        $auto = Cache::rememberForever(
+            'memory:tr:'.sha1($term),
+            fn () => $this->remote($term) ?? '',
+        );
+
+        return $auto === ''
+            ? ['translation' => null, 'source' => 'manual']
+            : ['translation' => $auto, 'source' => 'auto'];
+    }
+
+    /**
+     * الخدمة الخارجية.
+     *
+     * MyMemory: مجانية بلا مفتاح ولا تسجيل — وهذا شرط اختيارها.
+     * أي خدمة تطلب مفتاحاً أو بطاقة تُخالف كون المنصة مجانية.
+     */
+    protected function remote(string $term): ?string
+    {
+        try {
+            $res = Http::timeout(self::TIMEOUT)
+                ->retry(1, 200)
+                ->get('https://api.mymemory.translated.net/get', [
+                    'q'        => $term,
+                    'langpair' => 'en|ar',
+                ]);
+
+            if (! $res->successful()) {
+                return null;
+            }
+
+            $text = trim((string) $res->json('responseData.translatedText', ''));
+
+            // الخدمة تُعيد رسالة خطأ في حقل الترجمة أحياناً
+            if ($text === '' || mb_strlen($text) > 120 || ! preg_match('/\p{Arabic}/u', $text)) {
+                return null;
+            }
+
+            return $text;
+        } catch (\Throwable $e) {
+            // الفشل متوقّع ومقبول — يكتبها المتدرّب بيده
+            Log::debug('memory: تعذّرت الترجمة الآلية', ['term' => $term, 'why' => $e->getMessage()]);
+
+            return null;
+        }
+    }
+
+    /** توحيد الكلمة: حروف صغيرة بلا فراغات زائدة */
+    public function normalise(string $term): string
+    {
+        return mb_strtolower(trim(preg_replace('/\s+/u', ' ', $term)));
+    }
+}

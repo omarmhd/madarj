@@ -1,0 +1,3686 @@
+{
+  "number": 5,
+  "module": 1,
+  "title_en": "Abilities, Hobbies & the TH Sounds",
+  "title_ar": "القدرات والهوايات وصوتا TH",
+  "pron_section": 5,
+  "is_review": false,
+  "objectives": [
+    {
+      "en": "Say what I can and cannot do, in full sentences",
+      "ar": "أقول ما أستطيع وما لا أستطيع، بجمل كاملة"
+    },
+    {
+      "en": "Use can for ability, requests and permission",
+      "ar": "أستخدم can للقدرة والطلب والإذن"
+    },
+    {
+      "en": "Talk about my hobbies using like / love / hate + -ing",
+      "ar": "أتحدّث عن هواياتي بـ like / love / hate + -ing"
+    },
+    {
+      "en": "Say how well I do something, using well, badly, quite and really",
+      "ar": "أقول إلى أي حدّ أُتقن شيئاً، بـ well و badly و quite و really"
+    },
+    {
+      "en": "Use good at + -ing correctly",
+      "ar": "أستخدم good at + -ing صحيحاً"
+    },
+    {
+      "en": "Give simple instructions with the imperative",
+      "ar": "أعطي تعليمات بسيطة بصيغة الأمر"
+    },
+    {
+      "en": "Pronounce /θ/ and /ð/ without replacing them with s, z or t",
+      "ar": "أنطق /θ/ و/ð/ بلا أن أبدلهما بـs أو z أو t"
+    },
+    {
+      "en": "Pronounce the -s ending in all three of its forms",
+      "ar": "أنطق نهاية -s بأشكالها الثلاثة"
+    },
+    {
+      "en": "Speak for 2 minutes about my free time",
+      "ar": "أتحدّث دقيقتين عن وقت فراغي"
+    }
+  ],
+  "writing": {
+    "title_ar": null,
+    "title_en": "Writing — My Free Time",
+    "task_ar": null,
+    "task_en": "Write 90–110 words about your free time. Include: two things you can do, one thing you cannot do, what you like and hate doing, how often you do your hobby, and one thing you would like to learn.",
+    "min_words": 90,
+    "max_words": 110,
+    "templates": [
+      {
+        "en": "In my free time I usually ____________ .",
+        "ar": null
+      },
+      {
+        "en": "I can ____________ and I can ____________ .",
+        "ar": null
+      },
+      {
+        "en": "I can't ____________ at all.",
+        "ar": null
+      },
+      {
+        "en": "I am quite good at ____________ , but I am not very good at ____________ .",
+        "ar": null
+      },
+      {
+        "en": "I love ____________ because ____________ .",
+        "ar": null
+      },
+      {
+        "en": "I don't like ____________ much, and I hate ____________ .",
+        "ar": null
+      },
+      {
+        "en": "I ____________ twice a week / every day / at the weekend.",
+        "ar": null
+      },
+      {
+        "en": "I would like to learn ____________ .",
+        "ar": null
+      }
+    ],
+    "checklist": [],
+    "model_answer": "In my free time I usually read and cook. I can cook quite well — my family says I make the best rice in the house. I can also play a little guitar, but only three songs.",
+    "model_words": 37
+  },
+  "days": [
+    {
+      "number": 1,
+      "focus": "أفعال الحركة · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "أفعال الحركة",
+          "minutes": 25,
+          "ref": "vocab:action_verbs"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:1"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "focus": "الهوايات والرياضة · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الهوايات والرياضة",
+          "minutes": 25,
+          "ref": "vocab:hobbies_and_sports"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:2"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "focus": "الحوار الأول · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "حوار: Talking About Free Time",
+          "minutes": 25,
+          "ref": "dialogue:1"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:3"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "focus": "القواعد · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القواعد",
+          "minutes": 25,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:4"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "focus": "إلى أي حدّ تُتقنه · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "إلى أي حدّ تُتقنه",
+          "minutes": 25,
+          "ref": "vocab:how_well_you_do_it"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:5"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "focus": "الحوار الثاني · الاستماع · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "حوار: Learning Something New · الاستماع",
+          "minutes": 25,
+          "ref": "dialogue:2|section:listening"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:6"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "focus": "القراءة · الكتابة · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القراءة · الكتابة",
+          "minutes": 25,
+          "ref": "section:reading|writing:1|record"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:7"
+        },
+        {
+          "order": 5,
+          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record:baseline"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "group": "action_verbs",
+      "word": "swim",
+      "ipa": "/swɪm/",
+      "arabic": "يسبح",
+      "example": "I can swim, but not very well.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "run",
+      "ipa": "/rʌn/",
+      "arabic": "يجري",
+      "example": "She runs every morning.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "jump",
+      "ipa": "/dʒʌmp/",
+      "arabic": "يقفز",
+      "example": "The children jump on the sofa.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "climb",
+      "ipa": "/klaɪm/",
+      "arabic": "يتسلّق",
+      "example": "He climbs mountains. (silent b)",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "ride",
+      "ipa": "/raɪd/",
+      "arabic": "يركب",
+      "example": "Can you ride a bicycle?",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "drive",
+      "ipa": "/draɪv/",
+      "arabic": "يقود",
+      "example": "I can't drive.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "dance",
+      "ipa": "/dɑːns/",
+      "arabic": "يرقص",
+      "example": "They dance very well.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "sing",
+      "ipa": "/sɪŋ/",
+      "arabic": "يغنّي",
+      "example": "I sing badly!",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "play",
+      "ipa": "/pleɪ/",
+      "arabic": "يلعب / يعزف",
+      "example": "He plays the guitar.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "draw",
+      "ipa": "/drɔː/",
+      "arabic": "يرسم بالقلم",
+      "example": "She draws beautifully.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "paint",
+      "ipa": "/peɪnt/",
+      "arabic": "يرسم بالألوان",
+      "example": "I paint at the weekend.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "cook",
+      "ipa": "/kʊk/",
+      "arabic": "يطبخ",
+      "example": "My father cooks very well.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "bake",
+      "ipa": "/beɪk/",
+      "arabic": "يخبز",
+      "example": "She bakes bread every Friday.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "fix / repair",
+      "ipa": "/fɪks/  /rɪˈpeə(r)/",
+      "arabic": "يصلّح",
+      "example": "Can you fix a computer?",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "build",
+      "ipa": "/bɪld/",
+      "arabic": "يبني",
+      "example": "They build houses.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "type",
+      "ipa": "/taɪp/",
+      "arabic": "يكتب على الكيبورد",
+      "example": "I can type very fast.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "code",
+      "ipa": "/kəʊd/",
+      "arabic": "يبرمج",
+      "example": "He codes in Python.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "translate",
+      "ipa": "/trænzˈleɪt/",
+      "arabic": "يترجم",
+      "example": "She translates from Arabic.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "throw",
+      "ipa": "/θrəʊ/",
+      "arabic": "يرمي",
+      "example": "Throw the ball to me.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "catch",
+      "ipa": "/kætʃ/",
+      "arabic": "يمسك",
+      "example": "I can't catch a ball.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "kick",
+      "ipa": "/kɪk/",
+      "arabic": "يركل",
+      "example": "He kicks the ball very hard.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "teach",
+      "ipa": "/tiːtʃ/",
+      "arabic": "يعلّم",
+      "example": "She teaches English.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "learn",
+      "ipa": "/lɜːn/",
+      "arabic": "يتعلّم",
+      "example": "I am learning English.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "practise",
+      "ipa": "/ˈpræktɪs/",
+      "arabic": "يتمرّن",
+      "example": "I practise every day.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "try",
+      "ipa": "/traɪ/",
+      "arabic": "يحاول",
+      "example": "Try again!",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "join",
+      "ipa": "/dʒɔɪn/",
+      "arabic": "ينضم",
+      "example": "I want to join a club.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "win",
+      "ipa": "/wɪn/",
+      "arabic": "يفوز",
+      "example": "They always win.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "lose",
+      "ipa": "/luːz/",
+      "arabic": "يخسر",
+      "example": "We never lose.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "start",
+      "ipa": "/stɑːt/",
+      "arabic": "يبدأ",
+      "example": "The match starts at six.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "action_verbs",
+      "word": "finish",
+      "ipa": "/ˈfɪnɪʃ/",
+      "arabic": "ينهي",
+      "example": "I finish at nine.",
+      "group_label_ar": "أفعال الحركة",
+      "group_label_en": "Action Verbs"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "football",
+      "ipa": "/ˈfʊtbɔːl/",
+      "arabic": "كرة قدم",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "photography",
+      "ipa": "/fəˈtɒɡrəfi/",
+      "arabic": "تصوير",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "basketball",
+      "ipa": "/ˈbɑːskɪtbɔːl/",
+      "arabic": "كرة سلة",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "camera",
+      "ipa": "/ˈkæmrə/",
+      "arabic": "كاميرا",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "tennis",
+      "ipa": "/ˈtenɪs/",
+      "arabic": "تنس",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "painting",
+      "ipa": "/ˈpeɪntɪŋ/",
+      "arabic": "رسم",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "volleyball",
+      "ipa": "/ˈvɒlibɔːl/",
+      "arabic": "كرة طائرة",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "drawing",
+      "ipa": "/ˈdrɔːɪŋ/",
+      "arabic": "رسم بالقلم",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "swimming",
+      "ipa": "/ˈswɪmɪŋ/",
+      "arabic": "سباحة",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "reading",
+      "ipa": "/ˈriːdɪŋ/",
+      "arabic": "قراءة",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "running",
+      "ipa": "/ˈrʌnɪŋ/",
+      "arabic": "جري",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "writing",
+      "ipa": "/ˈraɪtɪŋ/",
+      "arabic": "كتابة",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "cycling",
+      "ipa": "/ˈsaɪklɪŋ/",
+      "arabic": "ركوب دراجات",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "gardening",
+      "ipa": "/ˈɡɑːdnɪŋ/",
+      "arabic": "بستنة",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "walking",
+      "ipa": "/ˈwɔːkɪŋ/",
+      "arabic": "مشي",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "fishing",
+      "ipa": "/ˈfɪʃɪŋ/",
+      "arabic": "صيد سمك",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "chess",
+      "ipa": "/tʃes/",
+      "arabic": "شطرنج",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "cooking",
+      "ipa": "/ˈkʊkɪŋ/",
+      "arabic": "طبخ",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "music",
+      "ipa": "/ˈmjuːzɪk/",
+      "arabic": "موسيقى",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "travelling",
+      "ipa": "/ˈtrævlɪŋ/",
+      "arabic": "سفر",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "guitar",
+      "ipa": "/ɡɪˈtɑː(r)/",
+      "arabic": "جيتار",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "video game",
+      "ipa": "/ˈvɪdiəʊ ɡeɪm/",
+      "arabic": "لعبة فيديو",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "piano",
+      "ipa": "/piˈænəʊ/",
+      "arabic": "بيانو",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "film / movie",
+      "ipa": "/fɪlm/",
+      "arabic": "فيلم",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "drums",
+      "ipa": "/drʌmz/",
+      "arabic": "طبول",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "series",
+      "ipa": "/ˈsɪəriːz/",
+      "arabic": "مسلسل",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "team",
+      "ipa": "/tiːm/",
+      "arabic": "فريق",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "club",
+      "ipa": "/klʌb/",
+      "arabic": "نادٍ",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "match",
+      "ipa": "/mætʃ/",
+      "arabic": "مباراة",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "hobbies_and_sports",
+      "word": "hobby",
+      "ipa": "/ˈhɒbi/",
+      "arabic": "هواية",
+      "example": null,
+      "group_label_ar": "الهوايات والرياضة",
+      "group_label_en": "Hobbies and Sports"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "well",
+      "ipa": "/wel/",
+      "arabic": "بشكل جيد",
+      "example": "She sings very well.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "badly",
+      "ipa": "/ˈbædli/",
+      "arabic": "بشكل سيء",
+      "example": "I dance badly.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "fast / quickly",
+      "ipa": "/fɑːst/",
+      "arabic": "بسرعة",
+      "example": "He types very fast.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "slowly",
+      "ipa": "/ˈsləʊli/",
+      "arabic": "ببطء",
+      "example": "Please speak slowly.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "easily",
+      "ipa": "/ˈiːzəli/",
+      "arabic": "بسهولة",
+      "example": "I can do that easily.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "hard",
+      "ipa": "/hɑːd/",
+      "arabic": "بجد",
+      "example": "She works hard.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "carefully",
+      "ipa": "/ˈkeəfəli/",
+      "arabic": "بعناية",
+      "example": "Drive carefully.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "beautifully",
+      "ipa": "/ˈbjuːtɪfli/",
+      "arabic": "ببراعة / بجمال",
+      "example": "He draws beautifully.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "a little",
+      "ipa": "/ə ˈlɪtl/",
+      "arabic": "قليلاً",
+      "example": "I speak a little French.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "quite",
+      "ipa": "/kwaɪt/",
+      "arabic": "إلى حد ما",
+      "example": "I'm quite good at chess.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "really",
+      "ipa": "/ˈrɪəli/",
+      "arabic": "حقاً / جداً",
+      "example": "She's really good.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "not very",
+      "ipa": "/nɒt ˈveri/",
+      "arabic": "ليس جداً",
+      "example": "I'm not very good at it.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "at all",
+      "ipa": "/ət ˈɔːl/",
+      "arabic": "إطلاقاً",
+      "example": "I can't swim at all.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "good at",
+      "ipa": "/ˈɡʊd ət/",
+      "arabic": "بارع في",
+      "example": "He is good at football.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "bad at",
+      "ipa": "/ˈbæd ət/",
+      "arabic": "ضعيف في",
+      "example": "I am bad at drawing.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "beginner",
+      "ipa": "/bɪˈɡɪnə(r)/",
+      "arabic": "مبتدئ",
+      "example": "I'm a complete beginner.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "expert",
+      "ipa": "/ˈekspɜːt/",
+      "arabic": "خبير",
+      "example": "She is an expert.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "favourite",
+      "ipa": "/ˈfeɪvərɪt/",
+      "arabic": "مفضّل",
+      "example": "My favourite sport is tennis.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "interesting",
+      "ipa": "/ˈɪntrəstɪŋ/",
+      "arabic": "ممتع / مثير",
+      "example": "Chess is very interesting.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "how_well_you_do_it",
+      "word": "boring",
+      "ipa": "/ˈbɔːrɪŋ/",
+      "arabic": "ممل",
+      "example": "I think golf is boring.",
+      "group_label_ar": "إلى أي حدّ تُتقنه",
+      "group_label_en": "How Well You Do It"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "I can…",
+      "ipa": null,
+      "arabic": "أستطيع…",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "What can you do?",
+      "ipa": null,
+      "arabic": "ماذا تستطيع أن تفعل؟",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "I can't…",
+      "ipa": null,
+      "arabic": "لا أستطيع…",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "Can you…?",
+      "ipa": null,
+      "arabic": "هل تستطيع…؟",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "I'm good at…",
+      "ipa": null,
+      "arabic": "أنا بارع في…",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "Are you good at…?",
+      "ipa": null,
+      "arabic": "هل أنت بارع في…؟",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "I'm not very good at…",
+      "ipa": null,
+      "arabic": "لست بارعاً في…",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "What do you do in your free time?",
+      "ipa": null,
+      "arabic": "ماذا تفعل في وقت فراغك؟",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "I love…",
+      "ipa": null,
+      "arabic": "أحب كثيراً…",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "Do you like…?",
+      "ipa": null,
+      "arabic": "هل تحب…؟",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "I really enjoy…",
+      "ipa": null,
+      "arabic": "أستمتع حقاً بـ…",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "How often do you…?",
+      "ipa": null,
+      "arabic": "كم مرة…؟",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "I don't like… much",
+      "ipa": null,
+      "arabic": "لا أحب… كثيراً",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "Would you like to join?",
+      "ipa": null,
+      "arabic": "هل تود الانضمام؟",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "I hate…",
+      "ipa": null,
+      "arabic": "أكره…",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "Let's try it!",
+      "ipa": null,
+      "arabic": "لنجرّبها!",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "I'd like to learn…",
+      "ipa": null,
+      "arabic": "أود أن أتعلّم…",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "That sounds fun.",
+      "ipa": null,
+      "arabic": "يبدو ذلك ممتعاً",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "I'm learning…",
+      "ipa": null,
+      "arabic": "أنا أتعلّم…",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    },
+    {
+      "group": "useful_phrases",
+      "word": "Not really, no.",
+      "ipa": null,
+      "arabic": "ليس تماماً، لا",
+      "example": null,
+      "group_label_ar": "عبارات نافعة",
+      "group_label_en": "Useful Phrases"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "group_label": "/θ/, /ð/ and the Endings",
+      "ipa": null,
+      "word_a": "think",
+      "word_b": "sink",
+      "group_label_ar": "الثاء والذال ونهايات الكلمات",
+      "hint_ar": "/θ/ ثاء العربية (think) و/ð/ ذالها (this) — سهلتان عليك وصعبتان على غيرك. الصعب هو النهاية: لا تُسقط آخر الكلمة، فـmonths تنتهي بثلاثة أصوات متتابعة."
+    },
+    {
+      "group_label": "/θ/, /ð/ and the Endings",
+      "ipa": null,
+      "word_a": "thin",
+      "word_b": "sin",
+      "group_label_ar": "الثاء والذال ونهايات الكلمات",
+      "hint_ar": "/θ/ ثاء العربية (think) و/ð/ ذالها (this) — سهلتان عليك وصعبتان على غيرك. الصعب هو النهاية: لا تُسقط آخر الكلمة، فـmonths تنتهي بثلاثة أصوات متتابعة."
+    },
+    {
+      "group_label": "/θ/, /ð/ and the Endings",
+      "ipa": null,
+      "word_a": "three",
+      "word_b": "tree",
+      "group_label_ar": "الثاء والذال ونهايات الكلمات",
+      "hint_ar": "/θ/ ثاء العربية (think) و/ð/ ذالها (this) — سهلتان عليك وصعبتان على غيرك. الصعب هو النهاية: لا تُسقط آخر الكلمة، فـmonths تنتهي بثلاثة أصوات متتابعة."
+    },
+    {
+      "group_label": "/θ/, /ð/ and the Endings",
+      "ipa": null,
+      "word_a": "thought",
+      "word_b": "taught",
+      "group_label_ar": "الثاء والذال ونهايات الكلمات",
+      "hint_ar": "/θ/ ثاء العربية (think) و/ð/ ذالها (this) — سهلتان عليك وصعبتان على غيرك. الصعب هو النهاية: لا تُسقط آخر الكلمة، فـmonths تنتهي بثلاثة أصوات متتابعة."
+    },
+    {
+      "group_label": "/θ/, /ð/ and the Endings",
+      "ipa": null,
+      "word_a": "path",
+      "word_b": "pass",
+      "group_label_ar": "الثاء والذال ونهايات الكلمات",
+      "hint_ar": "/θ/ ثاء العربية (think) و/ð/ ذالها (this) — سهلتان عليك وصعبتان على غيرك. الصعب هو النهاية: لا تُسقط آخر الكلمة، فـmonths تنتهي بثلاثة أصوات متتابعة."
+    },
+    {
+      "group_label": "/θ/, /ð/ and the Endings",
+      "ipa": null,
+      "word_a": "they",
+      "word_b": "day",
+      "group_label_ar": "الثاء والذال ونهايات الكلمات",
+      "hint_ar": "/θ/ ثاء العربية (think) و/ð/ ذالها (this) — سهلتان عليك وصعبتان على غيرك. الصعب هو النهاية: لا تُسقط آخر الكلمة، فـmonths تنتهي بثلاثة أصوات متتابعة."
+    },
+    {
+      "group_label": "/θ/, /ð/ and the Endings",
+      "ipa": null,
+      "word_a": "then",
+      "word_b": "den",
+      "group_label_ar": "الثاء والذال ونهايات الكلمات",
+      "hint_ar": "/θ/ ثاء العربية (think) و/ð/ ذالها (this) — سهلتان عليك وصعبتان على غيرك. الصعب هو النهاية: لا تُسقط آخر الكلمة، فـmonths تنتهي بثلاثة أصوات متتابعة."
+    },
+    {
+      "group_label": "/θ/, /ð/ and the Endings",
+      "ipa": null,
+      "word_a": "there",
+      "word_b": "dare",
+      "group_label_ar": "الثاء والذال ونهايات الكلمات",
+      "hint_ar": "/θ/ ثاء العربية (think) و/ð/ ذالها (this) — سهلتان عليك وصعبتان على غيرك. الصعب هو النهاية: لا تُسقط آخر الكلمة، فـmonths تنتهي بثلاثة أصوات متتابعة."
+    },
+    {
+      "group_label": "/θ/, /ð/ and the Endings",
+      "ipa": null,
+      "word_a": "breathe",
+      "word_b": "breed",
+      "group_label_ar": "الثاء والذال ونهايات الكلمات",
+      "hint_ar": "/θ/ ثاء العربية (think) و/ð/ ذالها (this) — سهلتان عليك وصعبتان على غيرك. الصعب هو النهاية: لا تُسقط آخر الكلمة، فـmonths تنتهي بثلاثة أصوات متتابعة."
+    }
+  ],
+  "dialogues": [
+    {
+      "number": 1,
+      "title": "Talking About Free Time",
+      "situation_en": "Sami and Lina are on a lunch break.",
+      "situation_ar": "سامي ولينا في استراحة الغداء.",
+      "speaker_genders": {
+        "LINA": "f",
+        "SAMI": "m"
+      },
+      "lines": [
+        {
+          "speaker": "LINA",
+          "en": "What do you do in your free time?",
+          "ar": "ماذا تفعل في وقت فراغك؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Not much, honestly. I read and I play with my children.",
+          "ar": "ليس الكثير، بصراحة. أقرأ وألعب مع أطفالي."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Do you play any sport?",
+          "ar": "هل تمارس أي رياضة؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "I used to play football, but not now. Can you play anything?",
+          "ar": "كنت ألعب كرة القدم، لكن ليس الآن. هل تمارسين شيئاً؟"
+        },
+        {
+          "speaker": "LINA",
+          "en": "Yes, I play tennis. I'm not very good, but I really enjoy it.",
+          "ar": "نعم، ألعب التنس. لست بارعة جداً، لكني أستمتع بها حقاً."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "That sounds fun. How often do you play?",
+          "ar": "يبدو ذلك ممتعاً. كم مرة تلعبين؟"
+        },
+        {
+          "speaker": "LINA",
+          "en": "Twice a week. There's a club near my flat.",
+          "ar": "مرتين في الأسبوع. هناك نادٍ قرب شقتي."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Can anyone join?",
+          "ar": "هل يستطيع أي شخص الانضمام؟"
+        },
+        {
+          "speaker": "LINA",
+          "en": "Of course. Do you want to try?",
+          "ar": "بالطبع. هل تريد أن تجرّب؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "I can't play tennis at all!",
+          "ar": "لا أستطيع لعب التنس إطلاقاً!"
+        },
+        {
+          "speaker": "LINA",
+          "en": "Nobody can at the beginning. I was a complete beginner two years ago.",
+          "ar": "لا أحد يستطيع في البداية. كنت مبتدئة تماماً قبل عامين."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "All right, I'll think about it. What else do you like doing?",
+          "ar": "حسناً، سأفكر في الأمر. ماذا تحبين أن تفعلي أيضاً؟"
+        },
+        {
+          "speaker": "LINA",
+          "en": "I love photography. And I hate cooking!",
+          "ar": "أحب التصوير. وأكره الطبخ!"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Really? I love cooking. My wife says I'm quite good at it.",
+          "ar": "حقاً؟ أنا أحب الطبخ. زوجتي تقول إني بارع فيه نوعاً ما."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Learning Something New",
+      "situation_en": "Sami's son Adam wants to learn the guitar.",
+      "situation_ar": "آدم ابن سامي يريد تعلّم العزف على الجيتار.",
+      "speaker_genders": {
+        "ADAM": "m",
+        "SAMI": "m"
+      },
+      "lines": [
+        {
+          "speaker": "ADAM",
+          "en": "Dad, can you play the guitar?",
+          "ar": "أبي، هل تستطيع العزف على الجيتار؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "A little. Not very well. Why?",
+          "ar": "قليلاً. ليس جيداً جداً. لماذا؟"
+        },
+        {
+          "speaker": "ADAM",
+          "en": "I want to learn. Can you teach me?",
+          "ar": "أريد أن أتعلّم. هل يمكنك تعليمي؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "I can show you three things, but that's all I know!",
+          "ar": "أستطيع أن أريك ثلاثة أشياء، لكن هذا كل ما أعرفه!"
+        },
+        {
+          "speaker": "ADAM",
+          "en": "That's enough for today.",
+          "ar": "هذا يكفي لليوم."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "All right. Sit down. Hold it like this. Don't press too hard.",
+          "ar": "حسناً. اجلس. أمسكه هكذا. لا تضغط بقوة شديدة."
+        },
+        {
+          "speaker": "ADAM",
+          "en": "Like this?",
+          "ar": "هكذا؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Almost. Put this finger there. Now try again.",
+          "ar": "تقريباً. ضع هذا الإصبع هناك. الآن حاول مرة أخرى."
+        },
+        {
+          "speaker": "ADAM",
+          "en": "It sounds terrible!",
+          "ar": "الصوت فظيع!"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Everybody sounds terrible at the beginning. Practise every day.",
+          "ar": "الجميع يبدو فظيعاً في البداية. تمرّن كل يوم."
+        },
+        {
+          "speaker": "ADAM",
+          "en": "How long does it take?",
+          "ar": "كم من الوقت يستغرق؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Months. But if you practise ten minutes a day, you can play a song by the summer.",
+          "ar": "شهور. لكن إذا تمرّنت عشر دقائق يومياً، يمكنك عزف أغنية بحلول الصيف."
+        },
+        {
+          "speaker": "ADAM",
+          "en": "Ten minutes? That's easy!",
+          "ar": "عشر دقائق؟ هذا سهل!"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Ten minutes is easy. Ten minutes every day is the hard part.",
+          "ar": "عشر دقائق سهلة. عشر دقائق كل يوم هي الجزء الصعب."
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "kind": "grammar",
+      "day_number": 4,
+      "title_ar": "القواعد",
+      "title_en": "Grammar — Can, Liking, and the Imperative",
+      "payload": {
+        "rule_ar": "can فعل ناقص، وهو أسهل أفعال الإنجليزية لأنه يخالف كل القواعد لصالحك: صيغة واحدة لكل الضمائر، ولا s مع he و she و it، ولا to بعده، ولا do في السؤال والنفي. يفيد القدرة والطلب والإذن. وبعد like و love و hate وبعد أي حرف جرّ تأتي صيغة -ing لا المصدر.",
+        "rule_en": "ALL subjects use the same form. Nothing changes.",
+        "common_errors": [
+          {
+            "error_no": 1,
+            "wrong": "He can to swim",
+            "right": "He can swim.",
+            "why_ar": "لا تأتي to بعد can",
+            "arabic": "هو يستطيع السباحة"
+          },
+          {
+            "error_no": 2,
+            "wrong": "She cans drive",
+            "right": "She can drive.",
+            "why_ar": "can لا تأخذ -s أبداً",
+            "arabic": "هي تستطيع القيادة"
+          },
+          {
+            "error_no": 3,
+            "wrong": "I am good in chess",
+            "right": "I am good at chess.",
+            "why_ar": "حرف الجرّ هو at",
+            "arabic": "أنا بارع في الشطرنج"
+          },
+          {
+            "error_no": 4,
+            "wrong": "good at play",
+            "right": "good at playing",
+            "why_ar": "بعد حرف الجرّ تأتي صيغة -ing",
+            "arabic": "أنا بارع في اللعب"
+          },
+          {
+            "error_no": 5,
+            "wrong": "I like read",
+            "right": "I like reading.",
+            "why_ar": "بعد like و love و hate تأتي صيغة -ing",
+            "arabic": "أحب القراءة"
+          },
+          {
+            "error_no": 6,
+            "wrong": "She sings good",
+            "right": "She sings well.",
+            "why_ar": "well هي الحال، وgood صفة",
+            "arabic": "هي تغنّي جيداً"
+          },
+          {
+            "error_no": 7,
+            "wrong": "I play guitar",
+            "right": "I play the guitar.",
+            "why_ar": "الآلات الموسيقية تأخذ the",
+            "arabic": "أعزف الجيتار"
+          },
+          {
+            "error_no": 8,
+            "wrong": "I play the football",
+            "right": "I play football.",
+            "why_ar": "الرياضات بلا أداة تعريف",
+            "arabic": "ألعب كرة القدم"
+          }
+        ],
+        "checklist_ar": [
+          "can لكل الضمائر بلا تغيير — ولا can‑s أبداً",
+          "بعد can فعل مجرّد بلا to",
+          "السؤال بقلب can لا بـdo",
+          "well حال و good صفة: She sings well"
+        ]
+      }
+    },
+    {
+      "kind": "phonics",
+      "day_number": 1,
+      "title_ar": "النطق",
+      "title_en": "Pronunciation — /θ/, /ð/ and the Endings",
+      "payload": {
+        "intro_ar": "العربية لا تملك /θ/ ولا /ð/، فيُبدلهما المتحدّث بالعربية بـs وz وt: يقول sink بدل think و zis بدل this. والحلّ ميكانيكي بحت: طرف اللسان بين الأسنان، ثم انفخ.",
+        "symbols": [],
+        "tip_ar": "ابدأ مبالغاً: أخرج اللسان أكثر مما يلزم. تهذيبه لاحقاً أسهل من إضافته لاحقاً. ولا تنسَ نهايات -s الثلاث: books بـ/s/ و dogs بـ/z/ و watches بـ/ɪz/."
+      }
+    },
+    {
+      "kind": "listening",
+      "day_number": 6,
+      "title_ar": "الاستماع",
+      "title_en": "Listening — \"The Woman Who Learned to Swim at Sixty\"",
+      "payload": {
+        "method_ar": [
+          "استمع كاملاً بلا نصّ. عمّا يتحدّث؟ قلها في جملة واحدة.",
+          "استمع مرة أخرى واكتب أي كلمة لم تلتقطها.",
+          "افتح النصّ واقرأه وأنت تستمع.",
+          "أغلق النصّ واستمع مرة أخيرة، ولاحظ كم صار أوضح."
+        ],
+        "transcript": [
+          {
+            "en": "Mariam is sixty-three years old and she lives near the sea. But for sixty years she couldn't swim. She was afraid of the water. Her children can swim, her grandchildren can swim, and every summer she sat on the beach and watched them.",
+            "ar": "مريم في الثالثة والستين من عمرها، وتسكن قرب البحر. لكنها لم تكن تعرف السباحة ستّين سنة. كانت تخاف الماء. أولادها يسبحون، وأحفادها يسبحون، وكانت في كل صيف تجلس على الشاطئ وتنظر إليهم."
+          },
+          {
+            "en": "Three years ago, her granddaughter asked her a simple question: \"Grandma, why don't you learn?\" Mariam laughed. \"I'm too old,\" she said. But that night she couldn't sleep.",
+            "ar": "قبل ثلاث سنوات سألتها حفيدتها سؤالاً بسيطاً: «جدّتي، لماذا لا تتعلّمين؟» ضحكت مريم وقالت: «أنا كبيرة على ذلك». لكنها لم تنم تلك الليلة."
+          },
+          {
+            "en": "The next week she went to the swimming pool in her town. There is a class there for beginners. Everybody in the class was young — students, mothers with small children. Mariam was the oldest person in the water by thirty years.",
+            "ar": "في الأسبوع التالي ذهبت إلى المسبح في بلدتها. هناك صفّ للمبتدئين. كل من في الصفّ كانوا شباباً — طلبة وأمّهات معهنّ أطفال صغار. وكانت مريم أكبر من في الماء بثلاثين سنة."
+          },
+          {
+            "en": "The first month was terrible. She couldn't put her face in the water. She couldn't float. She wanted to stop. But the teacher said one thing every week: \"Don't think about last week. Just come back on Tuesday.\"",
+            "ar": "كان الشهر الأول فظيعاً. لم تستطع أن تضع وجهها في الماء. ولم تستطع أن تطفو. وأرادت أن تتوقّف. لكن المعلّمة كانت تقول لها كلاماً واحداً كل أسبوع: «لا تفكّري في الأسبوع الماضي. عودي يوم الثلاثاء فقط»."
+          },
+          {
+            "en": "After four months, she could swim ten metres. After a year, she could swim a hundred. Now she swims twice a week and she is quite good — much better than her son, she says.",
+            "ar": "بعد أربعة أشهر استطاعت أن تسبح عشرة أمتار. وبعد سنة استطاعت أن تسبح مئة. والآن تسبح مرّتين في الأسبوع وهي بارعة إلى حدّ بعيد — أفضل من ابنها بكثير، كما تقول."
+          },
+          {
+            "en": "Last summer, for the first time in her life, she swam in the sea with her grandchildren. \"People think you can't learn things when you are old,\" she says. \"That isn't true. You can't learn things when you don't start.\"",
+            "ar": "في الصيف الماضي، ولأول مرة في حياتها، سبحت في البحر مع أحفادها. تقول: «يظنّ الناس أنك لا تستطيع أن تتعلّم شيئاً وأنت كبير. هذا غير صحيح. أنت لا تستطيع أن تتعلّم شيئاً حين لا تبدأ»."
+          }
+        ],
+        "questions": []
+      }
+    },
+    {
+      "kind": "reading",
+      "day_number": 7,
+      "title_ar": "القراءة",
+      "title_en": "Reading — \"A Hobby That Became a Job\"",
+      "payload": {
+        "method_ar": "اقرأ مرتين. الأولى بلا توقّف، والثانية مع المسرد.",
+        "story": [
+          {
+            "en": "Karim is a taxi driver in Amman. He works ten hours a day, six days a week. It is a hard job and he doesn't love it. But Karim has a hobby, and that hobby is now changing his life.",
+            "ar": "كريم سائق تاكسي في عمّان. يعمل عشر ساعات في اليوم، ستّة أيام في الأسبوع. عمل شاقّ وهو لا يحبّه. لكن لكريم هواية، وهذه الهواية تغيّر حياته الآن."
+          },
+          {
+            "en": "He takes photographs. He can't afford an expensive camera, so he uses his phone. Between customers, while he waits, he photographs the city: the old streets, the markets, the light on the buildings in the evening.",
+            "ar": "يلتقط الصور. لا يقدر على شراء كاميرا غالية، فيستخدم هاتفه. بين زبون وآخر، وهو ينتظر، يصوّر المدينة: الشوارع القديمة، والأسواق، والضوء على البنايات في المساء."
+          },
+          {
+            "en": "\"I don't think I'm an artist,\" he says. \"I just like looking at things carefully.\"",
+            "ar": "يقول: «لا أظنّ نفسي فنّاناً. أنا فقط أحبّ أن أنظر إلى الأشياء بعناية»."
+          },
+          {
+            "en": "Two years ago his brother put some of the photographs online. People liked them. Then a newspaper in the city asked to use one. They paid him thirty dinars. \"It wasn't a lot of money,\" Karim says, \"but it was the first money in my life that came from something I love.\"",
+            "ar": "قبل سنتين نشر أخوه بعض الصور على الإنترنت. أعجبت الناس. ثم طلبت صحيفة في المدينة أن تستخدم واحدة منها. دفعوا له ثلاثين ديناراً. يقول كريم: «لم يكن مالاً كثيراً، لكنه أول مال في حياتي جاء من شيء أحبّه»."
+          },
+          {
+            "en": "Now he has fifty thousand followers, and small companies pay him to photograph their shops. He still drives the taxi, because the photography doesn't pay enough yet. But he works eight hours now, not ten.",
+            "ar": "والآن له خمسون ألف متابع، وشركات صغيرة تدفع له ليصوّر محلّاتها. وما زال يقود التاكسي لأن التصوير لا يكفي بعد. لكنه يعمل ثماني ساعات الآن لا عشراً."
+          },
+          {
+            "en": "\"People ask me for advice,\" he says. \"I always say the same thing. Don't wait until you are good. I wasn't good. Take a thousand bad photographs. That is how you learn.\"",
+            "ar": "يقول: «يسألني الناس النصيحة. وأقول الشيء نفسه دائماً: لا تنتظر حتى تصير بارعاً. أنا لم أكن بارعاً. التقط ألف صورة سيّئة. هكذا تتعلّم»."
+          }
+        ],
+        "glossary": [
+          {
+            "en": "afford",
+            "ipa": "/əˈfɔːd/",
+            "ar": "يقدر على شراء",
+            "note_ar": "I can't afford it = too expensive for me"
+          },
+          {
+            "en": "customer",
+            "ipa": "/ˈkʌstəmə(r)/",
+            "ar": "زبون",
+            "note_ar": "Seen in Week 3"
+          },
+          {
+            "en": "carefully",
+            "ipa": "/ˈkeəfəli/",
+            "ar": "بعناية",
+            "note_ar": "Adverb from careful"
+          },
+          {
+            "en": "artist",
+            "ipa": "/ˈɑːtɪst/",
+            "ar": "فنان",
+            "note_ar": "Stress on the first"
+          },
+          {
+            "en": "online",
+            "ipa": "/ˌɒnˈlaɪn/",
+            "ar": "على الإنترنت",
+            "note_ar": "One word"
+          },
+          {
+            "en": "newspaper",
+            "ipa": "/ˈnjuːzpeɪpə(r)/",
+            "ar": "صحيفة",
+            "note_ar": "Compound → stress the first part"
+          },
+          {
+            "en": "follower",
+            "ipa": "/ˈfɒləʊə(r)/",
+            "ar": "متابع",
+            "note_ar": "From to follow"
+          },
+          {
+            "en": "company",
+            "ipa": "/ˈkʌmpəni/",
+            "ar": "شركة",
+            "note_ar": "Plural: companies"
+          },
+          {
+            "en": "enough",
+            "ipa": "/ɪˈnʌf/",
+            "ar": "كافٍ",
+            "note_ar": "Pronounced ee-NUF"
+          },
+          {
+            "en": "advice",
+            "ipa": "/ədˈvaɪs/",
+            "ar": "نصيحة",
+            "note_ar": "Uncountable — never advices"
+          },
+          {
+            "en": "wait",
+            "ipa": "/weɪt/",
+            "ar": "ينتظر",
+            "note_ar": "wait until"
+          },
+          {
+            "en": "thousand",
+            "ipa": "/ˈθaʊznd/",
+            "ar": "ألف",
+            "note_ar": "Contains /θ/"
+          }
+        ],
+        "questions": []
+      }
+    },
+    {
+      "kind": "selfcheck",
+      "day_number": 7,
+      "title_ar": "الاختبار الذاتي — نهاية الفصل",
+      "title_en": "End-of-Chapter Self-Check",
+      "payload": {
+        "intro_ar": "كن صادقاً. هذا يحدّد هل تنتقل أم تُعيد.",
+        "items": [
+          {
+            "can_ar": "أقول عشر جمل بـcan و can’t بصيغة فعل صحيحة",
+            "can_en": "Say ten sentences with can and can't, all with the correct verb form?",
+            "proof_ar": "تمارين اليوم 3"
+          },
+          {
+            "can_ar": "أستخدم good at + -ing و like/love/hate + -ing بلا تفكير",
+            "can_en": "Use good at + -ing and like/love/hate + -ing without thinking?",
+            "proof_ar": "تمارين اليوم 4"
+          },
+          {
+            "can_ar": "أكتب صيغة -ing لعشرة من اثني عشر فعلاً",
+            "can_en": "Write the -ing form of 10 of the 12 verbs in Exercise 3?",
+            "proof_ar": "تمارين اليوم 4"
+          },
+          {
+            "can_ar": "أختار بين good و well صحيحاً",
+            "can_en": "Choose between good and well correctly?",
+            "proof_ar": "تمارين اليوم 5"
+          },
+          {
+            "can_ar": "أحصل على 18 من 20 في اختبار تمييز TH",
+            "can_en": "Score 18/20 on the TH discrimination test?",
+            "proof_ar": "لعبة التمييز الصوتي"
+          },
+          {
+            "can_ar": "أنطق books و dogs و watches بثلاثة أصوات -s مختلفة",
+            "can_en": "Say books, dogs, watches with three different -s sounds?",
+            "proof_ar": "قسم النطق"
+          },
+          {
+            "can_ar": "أعطي ثماني تعليمات بصيغة الأمر لتعليم شيء",
+            "can_en": "Give eight imperative instructions to teach something?",
+            "proof_ar": "الحوار الثاني"
+          },
+          {
+            "can_ar": "أتذكّر 80 من 100 كلمة من العربية",
+            "can_en": "Recall 80 of the 100 words from the Arabic?",
+            "proof_ar": "جلسة المراجعة المتباعدة — تقول لك الرقم"
+          },
+          {
+            "can_ar": "أتحدّث 100 ثانية عن وقت فراغي",
+            "can_en": "Speak for 100 seconds about your free time?",
+            "proof_ar": "تسجيل هذا الأسبوع"
+          }
+        ],
+        "pass_ar": "8–9 ✓ → اذهب إلى الأسبوع السادس — المراجعة واختبار الوحدة.",
+        "partial_ar": "6–7 ✓ → اذهب إلى الأسبوع السادس، لكن اكتب أضعف مجالين عندك واستهدفهما في المراجعة.",
+        "fail_ar": "أقل من 6 → أعد قسمي القواعد والنطق قبل أسبوع المراجعة. اختبار الوحدة يشمل الفصول الخمسة كلها."
+      }
+    },
+    {
+      "kind": "breaktime",
+      "day_number": 7,
+      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
+      "title_en": "Break Time — English Outside the Book",
+      "payload": {
+        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
+        "compare": [
+          {
+            "aspect_ar": "الكمّ",
+            "intensive_ar": "دقائق من الصوت",
+            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
+          },
+          {
+            "aspect_ar": "الفهم",
+            "intensive_ar": "تستهدف 100%",
+            "extensive_ar": "50–70% تكفي"
+          },
+          {
+            "aspect_ar": "الجهد",
+            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
+            "extensive_ar": "منخفض — تسترخي وتستمتع"
+          },
+          {
+            "aspect_ar": "ما يبنيه",
+            "intensive_ar": "الدقّة والقواعد",
+            "extensive_ar": "السرعة والأذن والحدس والمفردات"
+          },
+          {
+            "aspect_ar": "لو أغفلته",
+            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
+            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
+          }
+        ],
+        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
+        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
+        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
+        "song": {
+          "pick": {
+            "title": "I Can See Clearly Now",
+            "artist": "Johnny Nash",
+            "why_en": "Built on can, slow, and every word is clearly sung. The perfect match for the grammar section.",
+            "search": "I Can See Clearly Now Johnny Nash"
+          },
+          "alternatives": [
+            {
+              "title": "Can’t Help Falling in Love",
+              "artist": "Elvis Presley",
+              "why_en": "Very slow. Excellent for hearing the difference between can and can’t.",
+              "search": "Can’t Help Falling in Love Elvis Presley"
+            },
+            {
+              "title": "Roar",
+              "artist": "Katy Perry",
+              "why_en": "Faster, but full of ability language. A good stretch if the first two feel easy.",
+              "search": "Roar Katy Perry"
+            }
+          ],
+          "item": {
+            "key": "song",
+            "icon": "🎵",
+            "label_ar": "أغنية الأسبوع",
+            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
+            "minutes": 20,
+            "steps": [
+              "استمع مرة للمتعة.",
+              "استمع ثانية وتصيّد كل can و can’t واكتبها.",
+              "لاحظ أن can الموجبة قصيرة خفيفة، وcan’t طويلة ثقيلة. قلّد الفرق أسبوعاً كاملاً."
+            ],
+            "prompt_ar": "كم مرة سمعت can؟ وكم can’t؟"
+          }
+        },
+        "watch": {
+          "pick": {
+            "title": "Extra English — Episodes 7–8",
+            "level": "A1–A2",
+            "where": "YouTube",
+            "why_en": "Halfway through the first quarter of the series. Notice how much easier Episode 7 feels than Episode 1.",
+            "search": "Extra English — Episodes 7–8"
+          },
+          "alternatives": [
+            {
+              "title": "A beginner tutorial in your hobby",
+              "level": "A2–B1",
+              "where": "YouTube — search \"[your hobby] for beginners\"",
+              "why_en": "This is the best kind of input there is: a subject you already care about, in English, with pictures carrying the meaning. Guitar, cooking, chess, coding — whatever you actually like.",
+              "search": "A beginner tutorial in your hobby"
+            },
+            {
+              "title": "Shaun the Sheep",
+              "level": "Any",
+              "where": "YouTube — official channel",
+              "why_en": "No dialogue. Narrate the story aloud yourself using can, can’t and the imperative.",
+              "search": "Shaun the Sheep"
+            },
+            {
+              "title": "Easy English — \"What are your hobbies?\"",
+              "level": "A2",
+              "where": "YouTube — search it",
+              "why_en": "Real answers to this exact chapter’s question.",
+              "search": "Easy English — \"What are your hobbies?\""
+            }
+          ],
+          "item": {
+            "key": "watch",
+            "icon": "📺",
+            "label_ar": "ما تشاهده",
+            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
+            "minutes": 25,
+            "steps": [
+              "شاهد حلقة كاملة بلا توقّف.",
+              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
+              "اكتب ثلاث عبارات علقت في ذهنك."
+            ],
+            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
+            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
+          }
+        },
+        "story": {
+          "pick": {
+            "title": "Oxford Bookworms",
+            "where": "Bookshops and most e-book stores; many come with audio",
+            "search": "Oxford Bookworms"
+          },
+          "alternatives": [
+            {
+              "title": "Penguin Readers",
+              "where": "Same",
+              "search": "Penguin Readers"
+            },
+            {
+              "title": "Cambridge English Readers",
+              "where": "Original stories rather than adaptations",
+              "search": "Cambridge English Readers"
+            },
+            {
+              "title": "Free option",
+              "where": "YouTube — full stories read aloud with text on screen",
+              "search": "Free option"
+            }
+          ],
+          "item": {
+            "key": "story",
+            "icon": "📖",
+            "label_ar": "ما تقرأه",
+            "task_ar": "خمس عشرة دقيقة قراءة أو استماع، ولا تبحث عن أكثر من ثلاث كلمات",
+            "minutes": 15,
+            "steps": [
+              "خمس عشرة دقيقة قراءة أو استماع — لا أكثر.",
+              "لا تبحث عن أكثر من ثلاث كلمات. خمّن الباقي من السياق.",
+              "اكتب جملة واحدة عمّا قرأته، من الذاكرة."
+            ],
+            "why_ar": "الحدس من السياق هو المهارة المقصودة — والبحث عن كل كلمة يقتلها.",
+            "prompt_ar": "جملة واحدة عمّا قرأته"
+          }
+        },
+        "item_order": [
+          "song",
+          "watch",
+          "story"
+        ],
+        "plan": [
+          {
+            "day_ar": "السبت",
+            "activity_ar": "الأغنية + مهمة الاستماع إلى can و can’t",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الأحد",
+            "activity_ar": "Extra English الحلقة 7",
+            "minutes": 25
+          },
+          {
+            "day_ar": "الاثنين",
+            "activity_ar": "اختر كتابك المتدرّج الأول وابدأه",
+            "minutes": 20
+          },
+          {
+            "day_ar": "الثلاثاء",
+            "activity_ar": "Extra English الحلقة 8",
+            "minutes": 25
+          },
+          {
+            "day_ar": "الأربعاء",
+            "activity_ar": "درس للمبتدئين في هوايتك",
+            "minutes": 20
+          },
+          {
+            "day_ar": "الخميس",
+            "activity_ar": "الكتاب المتدرّج — 15 دقيقة",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الجمعة",
+            "activity_ar": "الكتاب المتدرّج + حلقة Shaun the Sheep تسردها بنفسك",
+            "minutes": 30
+          }
+        ]
+      }
+    },
+    {
+      "kind": "speaking",
+      "title_ar": "التحدّث",
+      "title_en": "Two Minutes About Your Free Time",
+      "payload": {
+        "task_ar": "تحدّث دقيقتين عن وقت فراغك وما تحبّ أن تفعله فيه",
+        "target_seconds": 120,
+        "is_baseline": false,
+        "title_en": "Two Minutes About Your Free Time",
+        "intro_ar": null,
+        "cover_ar": null,
+        "model_en": "In my free time I do two things: I read and I cook. // I can cook quite well. My family says I make the best rice in the house — I'm not sure they are being honest, but I like hearing it. //\nI can also play the guitar a little. I know three songs. // I can't swim at all. I'm afraid of deep water. My wife says it isn't too late to learn, and maybe she is right. //\nI love reading before I sleep. I read for about thirty minutes every night, usually history or a simple novel in English now. // I don't like watching television much, and I really hate waiting — in queues, in traffic, anywhere. //\nThis year I would like to learn photography. There is a class near my house on Saturdays, and I think I will join it. //",
+        "outline": [
+          {
+            "part_en": "What you do",
+            "say_en": "In my free time I usually…",
+            "seconds": 20
+          },
+          {
+            "part_en": "What you can do",
+            "say_en": "I can… quite well / a little",
+            "seconds": 25
+          },
+          {
+            "part_en": "What you can't do",
+            "say_en": "I can't… at all. Because…",
+            "seconds": 20
+          },
+          {
+            "part_en": "Likes and dislikes",
+            "say_en": "I love… I don't like… I hate… + -ing",
+            "seconds": 30
+          },
+          {
+            "part_en": "Future wish",
+            "say_en": "I would like to learn…",
+            "seconds": 25
+          }
+        ],
+        "rubric": [
+          {
+            "label_en": "can / can't",
+            "label_ar": null,
+            "levels": [
+              "Wrong form after can",
+              "Mostly correct",
+              "Always correct"
+            ]
+          },
+          {
+            "label_en": "-ing after like/good at",
+            "label_ar": null,
+            "levels": [
+              "Not used",
+              "Used sometimes",
+              "Used consistently"
+            ]
+          },
+          {
+            "label_en": "TH sounds",
+            "label_ar": null,
+            "levels": [
+              "Replaced with s / z / t",
+              "Sometimes clear",
+              "Clear and consistent"
+            ]
+          },
+          {
+            "label_en": "-s endings",
+            "label_ar": null,
+            "levels": [
+              "All said as /s/",
+              "Two of three sounds",
+              "All three used correctly"
+            ]
+          },
+          {
+            "label_en": "good vs well",
+            "label_ar": null,
+            "levels": [
+              "Confused",
+              "Mostly right",
+              "Always right"
+            ]
+          },
+          {
+            "label_en": "Length",
+            "label_ar": "الطول",
+            "levels": [
+              "Under 60 sec",
+              "60–100 sec",
+              "100–120 sec"
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "title_ar": "اقرأ النموذج",
+            "title_en": "Study the Model",
+            "text_en": []
+          },
+          {
+            "title_ar": "ابنِ نصّك أنت",
+            "title_en": "Build Your Version",
+            "text_en": []
+          },
+          {
+            "title_ar": "سجّل ثم قيّم نفسك",
+            "title_en": "Record and Score",
+            "text_en": [
+              "Record 2 minutes from memory. Save as Week05."
+            ]
+          }
+        ],
+        "save_as": "Week05"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يصلّح",
+      "payload": {
+        "options": [
+          "throw",
+          "fix / repair",
+          "climb",
+          "cook"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "مثال: Can you fix a computer?",
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يترجم",
+      "payload": {
+        "options": [
+          "cook",
+          "translate",
+          "run",
+          "practise"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "مثال: She translates from Arabic.",
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يجري",
+      "payload": {
+        "options": [
+          "climb",
+          "ride",
+          "run",
+          "jump"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "مثال: She runs every morning.",
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يقود",
+      "payload": {
+        "options": [
+          "lose",
+          "climb",
+          "cook",
+          "drive"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": "مثال: I can't drive.",
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يرسم بالقلم",
+      "payload": {
+        "options": [
+          "teach",
+          "draw",
+          "drive",
+          "lose"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "مثال: She draws beautifully.",
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "يحاول",
+      "payload": {
+        "options": [
+          "win",
+          "cook",
+          "try",
+          "teach"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "مثال: Try again!",
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "قراءة",
+      "payload": {
+        "options": [
+          "cycling",
+          "travelling",
+          "club",
+          "reading"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "كتابة",
+      "payload": {
+        "options": [
+          "cooking",
+          "writing",
+          "reading",
+          "running"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "فريق",
+      "payload": {
+        "options": [
+          "music",
+          "team",
+          "hobby",
+          "gardening"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "مشي",
+      "payload": {
+        "options": [
+          "photography",
+          "reading",
+          "walking",
+          "gardening"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "طبخ",
+      "payload": {
+        "options": [
+          "volleyball",
+          "photography",
+          "team",
+          "cooking"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "مسلسل",
+      "payload": {
+        "options": [
+          "gardening",
+          "series",
+          "painting",
+          "cycling"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الإكمال بـcan أو can’t",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I ______ swim. (yes)",
+      "payload": {
+        "before": "I ",
+        "after": " swim. (yes)"
+      },
+      "answer": {
+        "accepted": [
+          "can"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الإكمال بـcan أو can’t",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She ______ drive. (no)",
+      "payload": {
+        "before": "She ",
+        "after": " drive. (no)"
+      },
+      "answer": {
+        "accepted": [
+          "can't"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الإكمال بـcan أو can’t",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "They ______ speak three languages. (yes)",
+      "payload": {
+        "before": "They ",
+        "after": " speak three languages. (yes)"
+      },
+      "answer": {
+        "accepted": [
+          "can"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الإكمال بـcan أو can’t",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "He ______ play the piano. (no)",
+      "payload": {
+        "before": "He ",
+        "after": " play the piano. (no)"
+      },
+      "answer": {
+        "accepted": [
+          "can't"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الإكمال بـcan أو can’t",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ you help me, please?",
+      "payload": {
+        "before": "",
+        "after": " you help me, please?"
+      },
+      "answer": {
+        "accepted": [
+          "Can",
+          "can"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الإكمال بـcan أو can’t",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "My son ______ read yet — he is only four. (no)",
+      "payload": {
+        "before": "My son ",
+        "after": " read yet — he is only four. (no)"
+      },
+      "answer": {
+        "accepted": [
+          "can't"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الإكمال بـcan أو can’t",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "We ______ meet on Friday. (yes)",
+      "payload": {
+        "before": "We ",
+        "after": " meet on Friday. (yes)"
+      },
+      "answer": {
+        "accepted": [
+          "can"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الإكمال بـcan أو can’t",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ she cook?",
+      "payload": {
+        "before": "",
+        "after": " she cook?"
+      },
+      "answer": {
+        "accepted": [
+          "Can",
+          "can"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الإكمال بـcan أو can’t",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I ______ hear you. Please speak louder. (no)",
+      "payload": {
+        "before": "I ",
+        "after": " hear you. Please speak louder. (no)"
+      },
+      "answer": {
+        "accepted": [
+          "can't"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "الإكمال بـcan أو can’t",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "You ______ sit here if you like. (yes)",
+      "payload": {
+        "before": "You ",
+        "after": " sit here if you like. (yes)"
+      },
+      "answer": {
+        "accepted": [
+          "can"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح صيغة الفعل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح صيغة الفعل",
+      "payload": {
+        "sentence": "He can to play tennis."
+      },
+      "answer": {
+        "accepted": [
+          "He can play tennis."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح صيغة الفعل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح صيغة الفعل",
+      "payload": {
+        "sentence": "She cans speak English."
+      },
+      "answer": {
+        "accepted": [
+          "She can speak English."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح صيغة الفعل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح صيغة الفعل",
+      "payload": {
+        "sentence": "I can swimming very well."
+      },
+      "answer": {
+        "accepted": [
+          "I can swim very well."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح صيغة الفعل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح صيغة الفعل",
+      "payload": {
+        "sentence": "Can you to help me?"
+      },
+      "answer": {
+        "accepted": [
+          "Can you help me?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح صيغة الفعل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح صيغة الفعل",
+      "payload": {
+        "sentence": "They can't to come today."
+      },
+      "answer": {
+        "accepted": [
+          "They can't come today."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح صيغة الفعل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح صيغة الفعل",
+      "payload": {
+        "sentence": "He can drives a bus."
+      },
+      "answer": {
+        "accepted": [
+          "He can drive a bus."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح صيغة الفعل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح صيغة الفعل",
+      "payload": {
+        "sentence": "Do you can play chess?"
+      },
+      "answer": {
+        "accepted": [
+          "Can you play chess?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "تصحيح صيغة الفعل",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح صيغة الفعل",
+      "payload": {
+        "sentence": "I can't to find my keys."
+      },
+      "answer": {
+        "accepted": [
+          "I can't find my keys."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What does Sami do in his free time? ______",
+      "payload": {
+        "before": "What does Sami do in his free time?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "He reads and plays with his children.",
+          "He reads and plays with his children",
+          "he reads and plays with his children."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What sport does Lina play? ______",
+      "payload": {
+        "before": "What sport does Lina play?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Tennis.",
+          "Tennis",
+          "tennis."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Is she good at it? ______",
+      "payload": {
+        "before": "Is she good at it?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "No — she says she isn't very good, but she enjoys it.",
+          "No — she says she isn't very good, but she enjoys it",
+          "no — she says she isn't very good, but she enjoys it."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How often does she play? ______",
+      "payload": {
+        "before": "How often does she play?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Twice a week.",
+          "Twice a week",
+          "twice a week."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What does Lina hate? ______",
+      "payload": {
+        "before": "What does Lina hate?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Cooking.",
+          "Cooking",
+          "cooking."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What is Sami good at? ______",
+      "payload": {
+        "before": "What is Sami good at?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Cooking.",
+          "Cooking",
+          "cooking."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "play"
+      },
+      "answer": {
+        "accepted": [
+          "playing"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "write"
+      },
+      "answer": {
+        "accepted": [
+          "writing"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "run"
+      },
+      "answer": {
+        "accepted": [
+          "running"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "cook"
+      },
+      "answer": {
+        "accepted": [
+          "cooking"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "swim"
+      },
+      "answer": {
+        "accepted": [
+          "swimming"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "ride"
+      },
+      "answer": {
+        "accepted": [
+          "riding"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "read"
+      },
+      "answer": {
+        "accepted": [
+          "reading"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "get"
+      },
+      "answer": {
+        "accepted": [
+          "getting"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "dance"
+      },
+      "answer": {
+        "accepted": [
+          "dancing"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "lie"
+      },
+      "answer": {
+        "accepted": [
+          "lying"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "travel"
+      },
+      "answer": {
+        "accepted": [
+          "travelling"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "كتابة صيغة -ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة -ing",
+      "payload": {
+        "sentence": "study"
+      },
+      "answer": {
+        "accepted": [
+          "studying"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "good at و like و love و hate + -ing",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I am good ______ (play) football.",
+      "payload": {
+        "before": "I am good ",
+        "after": " (play) football."
+      },
+      "answer": {
+        "accepted": [
+          "at playing"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "good at و like و love و hate + -ing",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She loves ______ (read) books.",
+      "payload": {
+        "before": "She loves ",
+        "after": " (read) books."
+      },
+      "answer": {
+        "accepted": [
+          "reading"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "good at و like و love و hate + -ing",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "He hates ______ (wait) for the bus.",
+      "payload": {
+        "before": "He hates ",
+        "after": " (wait) for the bus."
+      },
+      "answer": {
+        "accepted": [
+          "waiting"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "good at و like و love و hate + -ing",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Are you good ______ (cook)?",
+      "payload": {
+        "before": "Are you good ",
+        "after": " (cook)?"
+      },
+      "answer": {
+        "accepted": [
+          "at cooking"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "good at و like و love و hate + -ing",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "They enjoy ______ (travel) in summer.",
+      "payload": {
+        "before": "They enjoy ",
+        "after": " (travel) in summer."
+      },
+      "answer": {
+        "accepted": [
+          "travelling"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "good at و like و love و hate + -ing",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I don't like ______ (get) up early.",
+      "payload": {
+        "before": "I don't like ",
+        "after": " (get) up early."
+      },
+      "answer": {
+        "accepted": [
+          "getting"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "good at و like و love و hate + -ing",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "My sister is bad ______ (draw).",
+      "payload": {
+        "before": "My sister is bad ",
+        "after": " (draw)."
+      },
+      "answer": {
+        "accepted": [
+          "at drawing"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "good at و like و love و hate + -ing",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "We love ______ (swim) in the sea.",
+      "payload": {
+        "before": "We love ",
+        "after": " (swim) in the sea."
+      },
+      "answer": {
+        "accepted": [
+          "swimming"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "good أم well؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She is a very ______ teacher.",
+      "payload": {
+        "before": "She is a very ",
+        "after": " teacher."
+      },
+      "answer": {
+        "accepted": [
+          "good"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "good أم well؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "He plays the guitar very ______ .",
+      "payload": {
+        "before": "He plays the guitar very ",
+        "after": "."
+      },
+      "answer": {
+        "accepted": [
+          "well"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "good أم well؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I am not ______ at maths.",
+      "payload": {
+        "before": "I am not ",
+        "after": " at maths."
+      },
+      "answer": {
+        "accepted": [
+          "good"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "good أم well؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "My father cooks ______ .",
+      "payload": {
+        "before": "My father cooks ",
+        "after": "."
+      },
+      "answer": {
+        "accepted": [
+          "well"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "good أم well؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "This is a ______ book.",
+      "payload": {
+        "before": "This is a ",
+        "after": " book."
+      },
+      "answer": {
+        "accepted": [
+          "good"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "good أم well؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "They speak English quite ______ .",
+      "payload": {
+        "before": "They speak English quite ",
+        "after": "."
+      },
+      "answer": {
+        "accepted": [
+          "well"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "good أم well؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Are you ______ at chess?",
+      "payload": {
+        "before": "Are you ",
+        "after": " at chess?"
+      },
+      "answer": {
+        "accepted": [
+          "good"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "good أم well؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She draws really ______ .",
+      "payload": {
+        "before": "She draws really ",
+        "after": "."
+      },
+      "answer": {
+        "accepted": [
+          "well"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "اكتب عن نفسك",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "I can …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "اكتب عن نفسك",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "I can't …… at all.",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "اكتب عن نفسك",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "I am quite good at …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "اكتب عن نفسك",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "I am not very good at …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "اكتب عن نفسك",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "I love …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "اكتب عن نفسك",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "I hate …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "اكتب عن نفسك",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "In my free time I usually …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "اكتب عن نفسك",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "I would like to learn …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "العثور على صيغ الأمر",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "There are six imperative sentences in this dialogue. Write them all, and mark which one is negative.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: Sit down."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How old is Mariam? ______",
+      "payload": {
+        "before": "How old is Mariam?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Sixty-three.",
+          "Sixty-three",
+          "sixty-three."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why couldn't she swim? ______",
+      "payload": {
+        "before": "Why couldn't she swim?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "She was afraid of the water.",
+          "She was afraid of the water",
+          "she was afraid of the water."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What did she do every summer? ______",
+      "payload": {
+        "before": "What did she do every summer?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "She sat on the beach and watched her family swim.",
+          "She sat on the beach and watched her family swim",
+          "she sat on the beach and watched her family swim."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Who asked her the question? ______",
+      "payload": {
+        "before": "Who asked her the question?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Her granddaughter.",
+          "Her granddaughter",
+          "her granddaughter."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Where did she go to learn? ______",
+      "payload": {
+        "before": "Where did she go to learn?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "The swimming pool in her town, to a beginners' class.",
+          "The swimming pool in her town, to a beginners' class",
+          "the swimming pool in her town, to a beginners' class."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Who else was in the class? ______",
+      "payload": {
+        "before": "Who else was in the class?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Young people — students and mothers with small children.",
+          "Young people — students and mothers with small children",
+          "young people — students and mothers with small children."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What two things couldn't she do at first? ______",
+      "payload": {
+        "before": "What two things couldn't she do at first?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "She couldn't put her face in the water and she couldn't float.",
+          "She couldn't put her face in the water and she couldn't float",
+          "she couldn't put her face in the water and she couldn't float."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What did the teacher say every week? ______",
+      "payload": {
+        "before": "What did the teacher say every week?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "\"Don't think about last week. Just come back on Tuesday.\"",
+          "\"don't think about last week. just come back on tuesday.\""
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How far could she swim after a year? ______",
+      "payload": {
+        "before": "How far could she swim after a year?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "A hundred metres.",
+          "A hundred metres",
+          "a hundred metres."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What is her message at the end? ______",
+      "payload": {
+        "before": "What is her message at the end?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "That you can learn at any age — what stops people is not starting.",
+          "That you can learn at any age — what stops people is not starting",
+          "that you can learn at any age — what stops people is not starting."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "عدّ الأصوات",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Find in the text:",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: /ð/: the, they, that, there, other, together.  /θ/: think, three, months, thirty, something.  /z/ plurals: years, children, grandchildren, metres.  /s/ plurals: students, months."
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Karim loves his job as a taxi driver.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: he doesn't love it"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "He uses an expensive camera.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: he uses his phone"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "He photographs the city while he waits for customers.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "His brother put the photographs online.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The newspaper paid him three hundred dinars.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: thirty dinars"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "He stopped driving the taxi.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: he still drives"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "He works fewer hours now.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "His advice is to wait until you are good.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: he says do not wait"
+    }
+  ]
+}

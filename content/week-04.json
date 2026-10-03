@@ -1,0 +1,3813 @@
+{
+  "number": 4,
+  "module": 1,
+  "title_en": "Home, Town & Word Stress",
+  "title_ar": "البيت والمدينة ونبر الكلمة",
+  "pron_section": 5,
+  "is_review": false,
+  "objectives": [
+    {
+      "en": "Describe my home room by room, and say what is in each room",
+      "ar": "أصف بيتي غرفة غرفة، وأقول ما في كل غرفة"
+    },
+    {
+      "en": "Use There is and There are correctly, including negatives and questions",
+      "ar": "أستخدم There is و There are صحيحة — في الإثبات والنفي والسؤال"
+    },
+    {
+      "en": "Use fifteen prepositions of place accurately",
+      "ar": "أستخدم خمسة عشر ظرف مكان بدقّة"
+    },
+    {
+      "en": "Ask for directions and understand the answer",
+      "ar": "أسأل عن الطريق وأفهم الجواب"
+    },
+    {
+      "en": "Give directions to someone else",
+      "ar": "أدلّ شخصاً آخر على الطريق"
+    },
+    {
+      "en": "Find the stressed syllable of any word in a dictionary and produce it",
+      "ar": "أعرف أين النبر في أي كلمة، وأنطقه صحيحاً"
+    },
+    {
+      "en": "Apply the four stress rules without a dictionary",
+      "ar": "أطبّق قواعد النبر الأربع بلا قاموس"
+    },
+    {
+      "en": "Write 90–110 words describing where I live",
+      "ar": "أكتب 90–110 كلمة أصف فيها المكان الذي أسكنه"
+    },
+    {
+      "en": "Speak for 2 minutes about my home and neighbourhood",
+      "ar": "أتحدّث دقيقتين عن بيتي وحيّي"
+    }
+  ],
+  "writing": {
+    "title_ar": null,
+    "title_en": "Writing — Where I Live",
+    "task_ar": null,
+    "task_en": "Write 90–110 words describing your home and your neighbourhood. Include: the type of home, how many rooms, one thing you like, one thing that is missing, and two places near you with their position.",
+    "min_words": 90,
+    "max_words": 110,
+    "templates": [
+      {
+        "en": "I live in a ____________ in ____________ .",
+        "ar": null
+      },
+      {
+        "en": "There are ______ rooms: ____________ .",
+        "ar": null
+      },
+      {
+        "en": "My favourite room is ____________ because ____________ .",
+        "ar": null
+      },
+      {
+        "en": "There is / There isn't ____________ .",
+        "ar": null
+      },
+      {
+        "en": "My neighbourhood is ____________ .",
+        "ar": null
+      },
+      {
+        "en": "Near my home there is ____________ . It is ____________ my building.",
+        "ar": null
+      },
+      {
+        "en": "At the end of the street there is ____________ .",
+        "ar": null
+      },
+      {
+        "en": "The only problem is that there aren't any ____________ .",
+        "ar": null
+      }
+    ],
+    "checklist": [],
+    "model_answer": "I live in a small flat on the third floor of an old building. There are four rooms: two bedrooms, a living room and a kitchen. There is one bathroom.",
+    "model_words": 30
+  },
+  "days": [
+    {
+      "number": 1,
+      "focus": "البيت · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "البيت",
+          "minutes": 25,
+          "ref": "vocab:the_home"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:1"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "focus": "المدينة · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "المدينة",
+          "minutes": 25,
+          "ref": "vocab:the_town"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:2"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "focus": "القواعد · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القواعد",
+          "minutes": 25,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:3"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "focus": "ظروف المكان · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "ظروف المكان",
+          "minutes": 25,
+          "ref": "vocab:prepositions_of_place"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:4"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "focus": "الحوار الأول · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "حوار: Showing Someone Your Flat",
+          "minutes": 25,
+          "ref": "dialogue:1"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:5"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "focus": "الدلالة على الطريق · الحوار الثاني · الاستماع · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الدلالة على الطريق · حوار: Asking for Directions · الاستماع",
+          "minutes": 25,
+          "ref": "vocab:giving_directions|dialogue:2|section:listening"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:6"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "focus": "القراءة · الكتابة · النطق",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القراءة · الكتابة",
+          "minutes": 25,
+          "ref": "section:reading|writing:1|record"
+        },
+        {
+          "order": 3,
+          "label": "النطق: تدريب النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:7"
+        },
+        {
+          "order": 5,
+          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record:baseline"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "group": "the_home",
+      "word": "flat / apartment",
+      "ipa": "/flæt/  /əˈpɑːtmənt/",
+      "arabic": "شقة",
+      "example": "I live in a small flat.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "house",
+      "ipa": "/haʊs/",
+      "arabic": "بيت",
+      "example": "Their house has a garden.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "building",
+      "ipa": "/ˈbɪldɪŋ/",
+      "arabic": "مبنى",
+      "example": "The building is very old.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "floor",
+      "ipa": "/flɔː(r)/",
+      "arabic": "طابق / أرضية",
+      "example": "We live on the third floor.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "room",
+      "ipa": "/ruːm/",
+      "arabic": "غرفة",
+      "example": "There are four rooms.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "living room",
+      "ipa": "/ˈlɪvɪŋ ruːm/",
+      "arabic": "غرفة معيشة",
+      "example": "We watch TV in the living room.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "bedroom",
+      "ipa": "/ˈbedruːm/",
+      "arabic": "غرفة نوم",
+      "example": "My bedroom is small but quiet.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "kitchen",
+      "ipa": "/ˈkɪtʃɪn/",
+      "arabic": "مطبخ",
+      "example": "The kitchen is next to the hall.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "bathroom",
+      "ipa": "/ˈbɑːθruːm/",
+      "arabic": "حمّام",
+      "example": "There is one bathroom.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "hall",
+      "ipa": "/hɔːl/",
+      "arabic": "صالة / ممر",
+      "example": "The hall is very narrow.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "balcony",
+      "ipa": "/ˈbælkəni/",
+      "arabic": "شرفة",
+      "example": "We have a balcony with a view.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "garden",
+      "ipa": "/ˈɡɑːdn/",
+      "arabic": "حديقة",
+      "example": "There isn't a garden.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "stairs",
+      "ipa": "/steəz/",
+      "arabic": "درج",
+      "example": "The stairs are on the left.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "lift / elevator",
+      "ipa": "/lɪft/",
+      "arabic": "مصعد",
+      "example": "The lift doesn't work today.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "door",
+      "ipa": "/dɔː(r)/",
+      "arabic": "باب",
+      "example": "Please close the door.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "window",
+      "ipa": "/ˈwɪndəʊ/",
+      "arabic": "نافذة",
+      "example": "There are two windows.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "wall",
+      "ipa": "/wɔːl/",
+      "arabic": "جدار",
+      "example": "There is a picture on the wall.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "ceiling",
+      "ipa": "/ˈsiːlɪŋ/",
+      "arabic": "سقف",
+      "example": "The ceiling is very high.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "roof",
+      "ipa": "/ruːf/",
+      "arabic": "سطح",
+      "example": "We sit on the roof in summer.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "furniture",
+      "ipa": "/ˈfɜːnɪtʃə(r)/",
+      "arabic": "أثاث",
+      "example": "The furniture is new.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "table",
+      "ipa": "/ˈteɪbl/",
+      "arabic": "طاولة",
+      "example": "The table is in the middle.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "chair",
+      "ipa": "/tʃeə(r)/",
+      "arabic": "كرسي",
+      "example": "There are six chairs.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "sofa",
+      "ipa": "/ˈsəʊfə/",
+      "arabic": "أريكة",
+      "example": "The sofa is very comfortable.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "bed",
+      "ipa": "/bed/",
+      "arabic": "سرير",
+      "example": "My bed is next to the window.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "wardrobe",
+      "ipa": "/ˈwɔːdrəʊb/",
+      "arabic": "خزانة ملابس",
+      "example": "The wardrobe is behind the door.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "fridge",
+      "ipa": "/frɪdʒ/",
+      "arabic": "ثلاجة",
+      "example": "There is milk in the fridge.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "cooker",
+      "ipa": "/ˈkʊkə(r)/",
+      "arabic": "موقد",
+      "example": "The cooker is old.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "lamp",
+      "ipa": "/læmp/",
+      "arabic": "مصباح",
+      "example": "There is a lamp on the table.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "mirror",
+      "ipa": "/ˈmɪrə(r)/",
+      "arabic": "مرآة",
+      "example": "The mirror is above the sink.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "carpet",
+      "ipa": "/ˈkɑːpɪt/",
+      "arabic": "سجادة",
+      "example": "There is a carpet on the floor.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "curtain",
+      "ipa": "/ˈkɜːtn/",
+      "arabic": "ستارة",
+      "example": "Please open the curtains.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "shelf",
+      "ipa": "/ʃelf/",
+      "arabic": "رف",
+      "example": "Plural: shelves.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "key",
+      "ipa": "/kiː/",
+      "arabic": "مفتاح",
+      "example": "Where are my keys?",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "quiet",
+      "ipa": "/ˈkwaɪət/",
+      "arabic": "هادئ",
+      "example": "My street is very quiet.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_home",
+      "word": "noisy",
+      "ipa": "/ˈnɔɪzi/",
+      "arabic": "صاخب",
+      "example": "The neighbours are noisy.",
+      "group_label_ar": "البيت",
+      "group_label_en": "The Home"
+    },
+    {
+      "group": "the_town",
+      "word": "street",
+      "ipa": "/striːt/",
+      "arabic": "شارع",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "hospital",
+      "ipa": "/ˈhɒspɪtl/",
+      "arabic": "مستشفى",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "road",
+      "ipa": "/rəʊd/",
+      "arabic": "طريق",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "pharmacy",
+      "ipa": "/ˈfɑːməsi/",
+      "arabic": "صيدلية",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "square",
+      "ipa": "/skweə(r)/",
+      "arabic": "ميدان",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "bank",
+      "ipa": "/bæŋk/",
+      "arabic": "بنك",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "corner",
+      "ipa": "/ˈkɔːnə(r)/",
+      "arabic": "زاوية / ناصية",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "post office",
+      "ipa": "/ˈpəʊst ɒfɪs/",
+      "arabic": "مكتب بريد",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "bridge",
+      "ipa": "/brɪdʒ/",
+      "arabic": "جسر",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "station",
+      "ipa": "/ˈsteɪʃn/",
+      "arabic": "محطة",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "crossing",
+      "ipa": "/ˈkrɒsɪŋ/",
+      "arabic": "معبر مشاة",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "airport",
+      "ipa": "/ˈeəpɔːt/",
+      "arabic": "مطار",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "traffic",
+      "ipa": "/ˈtræfɪk/",
+      "arabic": "زحام / مرور",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "bus stop",
+      "ipa": "/ˈbʌs stɒp/",
+      "arabic": "موقف حافلة",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "park",
+      "ipa": "/pɑːk/",
+      "arabic": "حديقة عامة",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "mosque",
+      "ipa": "/mɒsk/",
+      "arabic": "مسجد",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "library",
+      "ipa": "/ˈlaɪbrəri/",
+      "arabic": "مكتبة",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "church",
+      "ipa": "/tʃɜːtʃ/",
+      "arabic": "كنيسة",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "museum",
+      "ipa": "/mjuˈziːəm/",
+      "arabic": "متحف",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "university",
+      "ipa": "/ˌjuːnɪˈvɜːsəti/",
+      "arabic": "جامعة",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "cinema",
+      "ipa": "/ˈsɪnəmə/",
+      "arabic": "سينما",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "market",
+      "ipa": "/ˈmɑːkɪt/",
+      "arabic": "سوق",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "hotel",
+      "ipa": "/həʊˈtel/",
+      "arabic": "فندق",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "centre",
+      "ipa": "/ˈsentə(r)/",
+      "arabic": "وسط / مركز",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "the_town",
+      "word": "neighbourhood",
+      "ipa": "/ˈneɪbəhʊd/",
+      "arabic": "حي",
+      "example": null,
+      "group_label_ar": "المدينة",
+      "group_label_en": "The Town"
+    },
+    {
+      "group": "prepositions_of_place",
+      "word": "in",
+      "ipa": null,
+      "arabic": "في / داخل",
+      "example": "The milk is in the fridge.",
+      "group_label_ar": "ظروف المكان",
+      "group_label_en": "Prepositions of Place"
+    },
+    {
+      "group": "prepositions_of_place",
+      "word": "on",
+      "ipa": null,
+      "arabic": "على",
+      "example": "The lamp is on the table.",
+      "group_label_ar": "ظروف المكان",
+      "group_label_en": "Prepositions of Place"
+    },
+    {
+      "group": "prepositions_of_place",
+      "word": "under",
+      "ipa": null,
+      "arabic": "تحت",
+      "example": "The bag is under the bed.",
+      "group_label_ar": "ظروف المكان",
+      "group_label_en": "Prepositions of Place"
+    },
+    {
+      "group": "prepositions_of_place",
+      "word": "above",
+      "ipa": null,
+      "arabic": "فوق (بدون تلامس)",
+      "example": "The mirror is above the sink.",
+      "group_label_ar": "ظروف المكان",
+      "group_label_en": "Prepositions of Place"
+    },
+    {
+      "group": "prepositions_of_place",
+      "word": "below",
+      "ipa": null,
+      "arabic": "أسفل",
+      "example": "The shop is below my flat.",
+      "group_label_ar": "ظروف المكان",
+      "group_label_en": "Prepositions of Place"
+    },
+    {
+      "group": "prepositions_of_place",
+      "word": "next to",
+      "ipa": null,
+      "arabic": "بجانب",
+      "example": "The bank is next to the post office.",
+      "group_label_ar": "ظروف المكان",
+      "group_label_en": "Prepositions of Place"
+    },
+    {
+      "group": "prepositions_of_place",
+      "word": "beside",
+      "ipa": null,
+      "arabic": "بجانب (نفس المعنى)",
+      "example": "Sit beside me.",
+      "group_label_ar": "ظروف المكان",
+      "group_label_en": "Prepositions of Place"
+    },
+    {
+      "group": "prepositions_of_place",
+      "word": "between",
+      "ipa": null,
+      "arabic": "بين",
+      "example": "The park is between two schools.",
+      "group_label_ar": "ظروف المكان",
+      "group_label_en": "Prepositions of Place"
+    },
+    {
+      "group": "prepositions_of_place",
+      "word": "behind",
+      "ipa": null,
+      "arabic": "خلف",
+      "example": "The garden is behind the house.",
+      "group_label_ar": "ظروف المكان",
+      "group_label_en": "Prepositions of Place"
+    },
+    {
+      "group": "prepositions_of_place",
+      "word": "in front of",
+      "ipa": null,
+      "arabic": "أمام",
+      "example": "There is a car in front of the door.",
+      "group_label_ar": "ظروف المكان",
+      "group_label_en": "Prepositions of Place"
+    },
+    {
+      "group": "prepositions_of_place",
+      "word": "opposite",
+      "ipa": null,
+      "arabic": "مقابل",
+      "example": "The hotel is opposite the station.",
+      "group_label_ar": "ظروف المكان",
+      "group_label_en": "Prepositions of Place"
+    },
+    {
+      "group": "prepositions_of_place",
+      "word": "near",
+      "ipa": null,
+      "arabic": "قريب من",
+      "example": "I live near the market.",
+      "group_label_ar": "ظروف المكان",
+      "group_label_en": "Prepositions of Place"
+    },
+    {
+      "group": "prepositions_of_place",
+      "word": "far from",
+      "ipa": null,
+      "arabic": "بعيد عن",
+      "example": "The airport is far from here.",
+      "group_label_ar": "ظروف المكان",
+      "group_label_en": "Prepositions of Place"
+    },
+    {
+      "group": "prepositions_of_place",
+      "word": "inside",
+      "ipa": null,
+      "arabic": "داخل",
+      "example": "Wait inside the building.",
+      "group_label_ar": "ظروف المكان",
+      "group_label_en": "Prepositions of Place"
+    },
+    {
+      "group": "prepositions_of_place",
+      "word": "outside",
+      "ipa": null,
+      "arabic": "خارج",
+      "example": "The children are outside.",
+      "group_label_ar": "ظروف المكان",
+      "group_label_en": "Prepositions of Place"
+    },
+    {
+      "group": "prepositions_of_place",
+      "word": "around the corner",
+      "ipa": null,
+      "arabic": "عند الناصية",
+      "example": "The pharmacy is around the corner.",
+      "group_label_ar": "ظروف المكان",
+      "group_label_en": "Prepositions of Place"
+    },
+    {
+      "group": "prepositions_of_place",
+      "word": "at the end of",
+      "ipa": null,
+      "arabic": "في نهاية",
+      "example": "It is at the end of the street.",
+      "group_label_ar": "ظروف المكان",
+      "group_label_en": "Prepositions of Place"
+    },
+    {
+      "group": "prepositions_of_place",
+      "word": "on the left / right",
+      "ipa": null,
+      "arabic": "على اليسار / اليمين",
+      "example": "It is on the left.",
+      "group_label_ar": "ظروف المكان",
+      "group_label_en": "Prepositions of Place"
+    },
+    {
+      "group": "giving_directions",
+      "word": "Excuse me…",
+      "ipa": null,
+      "arabic": "لو سمحت",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "Go straight on.",
+      "ipa": null,
+      "arabic": "امشِ للأمام",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "How do I get to…?",
+      "ipa": null,
+      "arabic": "كيف أصل إلى…؟",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "Turn left.",
+      "ipa": null,
+      "arabic": "انعطف يساراً",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "Where is the…?",
+      "ipa": null,
+      "arabic": "أين…؟",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "Turn right.",
+      "ipa": null,
+      "arabic": "انعطف يميناً",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "Is it far?",
+      "ipa": null,
+      "arabic": "هل هو بعيد؟",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "Take the first left.",
+      "ipa": null,
+      "arabic": "خذ أول يسار",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "It's five minutes' walk.",
+      "ipa": null,
+      "arabic": "على بعد خمس دقائق مشياً",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "Take the second right.",
+      "ipa": null,
+      "arabic": "خذ ثاني يمين",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "Can you show me?",
+      "ipa": null,
+      "arabic": "هل يمكنك أن تريني؟",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "Cross the road.",
+      "ipa": null,
+      "arabic": "اعبر الطريق",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "I'm lost.",
+      "ipa": null,
+      "arabic": "أنا تائه",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "Go past the bank.",
+      "ipa": null,
+      "arabic": "تجاوز البنك",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "I'm looking for…",
+      "ipa": null,
+      "arabic": "أبحث عن…",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "It's on your left.",
+      "ipa": null,
+      "arabic": "إنه على يسارك",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "Thanks for your help.",
+      "ipa": null,
+      "arabic": "شكراً لمساعدتك",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "You can't miss it.",
+      "ipa": null,
+      "arabic": "لن تخطئه",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "Sorry, I don't know.",
+      "ipa": null,
+      "arabic": "آسف، لا أعرف",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "It's just around the corner.",
+      "ipa": null,
+      "arabic": "إنه عند الناصية مباشرة",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "I'm not from here.",
+      "ipa": null,
+      "arabic": "أنا لست من هنا",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    },
+    {
+      "group": "giving_directions",
+      "word": "Follow this street.",
+      "ipa": null,
+      "arabic": "اتبع هذا الشارع",
+      "example": null,
+      "group_label_ar": "الدلالة على الطريق",
+      "group_label_en": "Giving Directions"
+    }
+  ],
+  "minimal_pairs": [],
+  "dialogues": [
+    {
+      "number": 1,
+      "title": "Showing Someone Your Flat",
+      "situation_en": "Lina visits Sami's flat for the first time.",
+      "situation_ar": "لينا تزور شقّة سامي لأول مرة.",
+      "speaker_genders": {
+        "SAMI": "m",
+        "LINA": "f"
+      },
+      "lines": [
+        {
+          "speaker": "SAMI",
+          "en": "Come in, come in. Welcome!",
+          "ar": "تفضّلي، تفضّلي. أهلاً بك!"
+        },
+        {
+          "speaker": "LINA",
+          "en": "Thank you. What a nice flat!",
+          "ar": "شكراً. يا لها من شقة جميلة!"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "It's small, but it's comfortable. This is the living room.",
+          "ar": "إنها صغيرة، لكنها مريحة. هذه غرفة المعيشة."
+        },
+        {
+          "speaker": "LINA",
+          "en": "There's a lot of light in here.",
+          "ar": "يوجد الكثير من الإضاءة هنا."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Yes, there are three windows. And there's a balcony.",
+          "ar": "نعم، هناك ثلاث نوافذ. وهناك شرفة."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Is there a view?",
+          "ar": "هل يوجد إطلالة؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "A small one. You can see the park.",
+          "ar": "إطلالة صغيرة. يمكنك رؤية الحديقة."
+        },
+        {
+          "speaker": "LINA",
+          "en": "How many bedrooms are there?",
+          "ar": "كم عدد غرف النوم؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Two. This one is ours, and the children share the other one.",
+          "ar": "اثنتان. هذه لنا، والأطفال يتشاركان الأخرى."
+        },
+        {
+          "speaker": "LINA",
+          "en": "And is there a garden?",
+          "ar": "وهل يوجد حديقة؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "No, there isn't. But there's a big park opposite the building.",
+          "ar": "لا، لا يوجد. لكن هناك حديقة كبيرة مقابل المبنى."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Is the neighbourhood quiet?",
+          "ar": "هل الحي هادئ؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Very quiet at night. There's a lot of traffic in the morning, though.",
+          "ar": "هادئ جداً ليلاً. لكن هناك زحام كثير في الصباح."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Well, it's a lovely home.",
+          "ar": "حسناً، إنه منزل جميل."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Asking for Directions",
+      "situation_en": "Sami is in a new part of the city and cannot find the post office.",
+      "situation_ar": "سامي في حيّ جديد ولا يجد مكتب البريد.",
+      "speaker_genders": {
+        "SAMI": "m",
+        "WOMAN": "m"
+      },
+      "lines": [
+        {
+          "speaker": "SAMI",
+          "en": "Excuse me, can you help me? I'm lost.",
+          "ar": "لو سمحت، هل يمكنك مساعدتي؟ أنا تائه."
+        },
+        {
+          "speaker": "WOMAN",
+          "en": "Of course. Where are you looking for?",
+          "ar": "بالطبع. عن أي مكان تبحث؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "I'm looking for the post office. Is it far?",
+          "ar": "أبحث عن مكتب البريد. هل هو بعيد؟"
+        },
+        {
+          "speaker": "WOMAN",
+          "en": "No, it's about five minutes' walk.",
+          "ar": "لا، على بعد خمس دقائق مشياً تقريباً."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Great. How do I get there?",
+          "ar": "ممتاز. كيف أصل إليه؟"
+        },
+        {
+          "speaker": "WOMAN",
+          "en": "Go straight on to the end of this street.",
+          "ar": "امشِ للأمام حتى نهاية هذا الشارع."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "To the end. Then?",
+          "ar": "حتى النهاية. ثم؟"
+        },
+        {
+          "speaker": "WOMAN",
+          "en": "Then turn left and cross the road at the crossing.",
+          "ar": "ثم انعطف يساراً واعبر الطريق عند المعبر."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Turn left, cross the road. And after that?",
+          "ar": "أنعطف يساراً، أعبر الطريق. وبعد ذلك؟"
+        },
+        {
+          "speaker": "WOMAN",
+          "en": "Take the second right. Go past the pharmacy.",
+          "ar": "خذ ثاني يمين. تجاوز الصيدلية."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Past the pharmacy…",
+          "ar": "أتجاوز الصيدلية…"
+        },
+        {
+          "speaker": "WOMAN",
+          "en": "The post office is on your left, next to the bank. You can't miss it.",
+          "ar": "مكتب البريد على يسارك، بجانب البنك. لن تخطئه."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Sorry, could you repeat the last part?",
+          "ar": "عذراً، هل يمكنك إعادة الجزء الأخير؟"
+        },
+        {
+          "speaker": "WOMAN",
+          "en": "It's on your left, next to the bank.",
+          "ar": "إنه على يسارك، بجانب البنك."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Thank you very much for your help!",
+          "ar": "شكراً جزيلاً على مساعدتك!"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "kind": "grammar",
+      "day_number": 4,
+      "title_ar": "القواعد",
+      "title_en": "Grammar — There is / There are",
+      "payload": {
+        "rule_ar": "تقول There is و There are لتخبر أن شيئاً **موجود** في مكان. وهذا التركيب هو ما تحتاجه لوصف أي غرفة أو بيت أو شارع أو مدينة. والعربية تقول «يوجد» أو «هناك» بلا فعل كون ظاهر، فيميل المتحدّث بالعربية إلى قول Have a park بدل There is a park — وهذا أشهر خطأ في هذا الفصل.",
+        "rule_en": "You use There is and There are to say that something exists in a place. This is the structure you need for describing any room, house, street or town.",
+        "common_errors": [
+          {
+            "error_no": 1,
+            "wrong": "Have a park near my house",
+            "right": "There is a park near my house.",
+            "arabic": "يوجد حديقة قرب بيتي",
+            "why_ar": "الإنجليزية لا تستخدم have للوجود"
+          },
+          {
+            "error_no": 2,
+            "wrong": "There is four rooms",
+            "right": "There are four rooms.",
+            "arabic": "يوجد أربع غرف",
+            "why_ar": "الجمع يأخذ are"
+          },
+          {
+            "error_no": 3,
+            "wrong": "There is not lift",
+            "right": "There isn't a lift.",
+            "arabic": "لا يوجد مصعد",
+            "why_ar": "المفرد المعدود يحتاج a"
+          },
+          {
+            "error_no": 4,
+            "wrong": "Is have a bank here?",
+            "right": "Is there a bank here?",
+            "arabic": "هل يوجد بنك هنا؟",
+            "why_ar": "اقلب there is لتصنع السؤال"
+          },
+          {
+            "error_no": 5,
+            "wrong": "The house is front the school",
+            "right": "…is in front of the school.",
+            "arabic": "البيت أمام المدرسة",
+            "why_ar": "in front of ثلاث كلمات"
+          },
+          {
+            "error_no": 6,
+            "wrong": "opposite to the hotel",
+            "right": "…opposite the hotel.",
+            "arabic": "المطعم مقابل الفندق",
+            "why_ar": "opposite بلا to"
+          }
+        ],
+        "checklist_ar": [
+          "There is مع المفرد · There are مع الجمع",
+          "النفي: There isn’t · There aren’t",
+          "السؤال يبدأ بـIs there أو Are there",
+          "لا تقل Have a… للوجود — تلك ملكية لا وجود",
+          "It is للإشارة إلى شيء معروف · There is لإثبات وجوده"
+        ]
+      }
+    },
+    {
+      "kind": "listening",
+      "day_number": 6,
+      "title_ar": "الاستماع",
+      "title_en": "Listening — \"My Neighbourhood\"",
+      "payload": {
+        "method_ar": [
+          "استمع كاملاً بلا نصّ. عمّا يتحدّث؟ قلها في جملة واحدة.",
+          "استمع مرة أخرى واكتب أي كلمة لم تلتقطها.",
+          "افتح النصّ واقرأه وأنت تستمع.",
+          "أغلق النصّ واستمع مرة أخيرة، ولاحظ كم صار أوضح."
+        ],
+        "transcript": [
+          {
+            "en": "I live in a flat on the fourth floor of an old building in the centre of the city. There isn't a lift, so I walk up the stairs every day. My neighbours say it is good exercise. I am not sure I agree.",
+            "ar": "أسكن في شقّة في الطابق الرابع من بناية قديمة في وسط المدينة. لا يوجد مصعد، فأصعد الدرج كل يوم. يقول جيراني إن ذلك رياضة جيدة. ولست واثقاً أنني أوافقهم."
+          },
+          {
+            "en": "The flat is small. There are two bedrooms, a living room, a kitchen and one bathroom. There isn't a garden, but there is a balcony, and I love it. In the evening I sit outside with a cup of tea and watch the street.",
+            "ar": "الشقّة صغيرة. فيها غرفتا نوم وغرفة معيشة ومطبخ وحمّام واحد. ليس فيها حديقة، لكن فيها شرفة، وأنا أحبّها. في المساء أجلس فيها بفنجان شاي وأراقب الشارع."
+          },
+          {
+            "en": "My neighbourhood is very busy. There are a lot of small shops: a bakery, a pharmacy and two supermarkets. There is also a big market on Fridays. The market is opposite my building, so on Friday mornings there is a lot of noise — and a lot of traffic.",
+            "ar": "حيّي مزدحم جداً. فيه كثير من المحلّات الصغيرة: مخبز وصيدلية وسوقان مركزيان. وفيه أيضاً سوق كبير يوم الجمعة. السوق مقابل بنايتي، فصباح الجمعة فيه ضجيج كثير — وازدحام كثير."
+          },
+          {
+            "en": "At the end of my street there is a park. It isn't very big, but there are trees and a place for children to play. My son goes there every afternoon. Next to the park there is a library. I go there on Saturdays because it is the only quiet place in the neighbourhood.",
+            "ar": "في نهاية شارعي حديقة. ليست كبيرة، لكن فيها أشجار ومكان يلعب فيه الأطفال. ابني يذهب إليها كل بعد ظهر. وبجانب الحديقة مكتبة. أذهب إليها أيام السبت لأنها المكان الهادئ الوحيد في الحيّ."
+          },
+          {
+            "en": "There aren't any restaurants near here, and that is the only problem. If we want to eat outside, we take the bus to the city centre. But there is a very good café around the corner, and the coffee there is the best in the city.",
+            "ar": "لا توجد مطاعم قريبة من هنا، وهذه المشكلة الوحيدة. إن أردنا أن نأكل في الخارج نأخذ الحافلة إلى وسط المدينة. لكن هناك مقهى جيد جداً عند الناصية، وقهوته الأفضل في المدينة."
+          }
+        ],
+        "questions": []
+      }
+    },
+    {
+      "kind": "reading",
+      "day_number": 7,
+      "title_ar": "القراءة",
+      "title_en": "Reading — \"The House That Moved\"",
+      "payload": {
+        "method_ar": "اقرأ مرتين. الأولى بلا توقّف، والثانية مع المسرد.",
+        "story": [
+          {
+            "en": "In the small English city of Exeter there is a very unusual building. It is a house from the year 1430, and it is famous for one reason: in 1961, the whole house moved.",
+            "ar": "في مدينة إكستر الإنجليزية الصغيرة بناية غير عادية أبداً. بيت من سنة 1430، وهو مشهور لسبب واحد: في سنة 1961 تحرّك البيت كلّه."
+          },
+          {
+            "en": "The city wanted a new road, and the old house was in the wrong place. Normally the answer is simple — you destroy the building. But this house was more than five hundred years old, and people did not want to lose it.",
+            "ar": "أرادت المدينة طريقاً جديداً، وكان البيت القديم في المكان الخطأ. والحلّ المعتاد بسيط: تهدم البناية. لكن هذا البيت عمره أكثر من خمسمئة سنة، والناس لم يريدوا أن يفقدوه."
+          },
+          {
+            "en": "So the engineers had a strange idea. They put the house on wheels and moved it. The house travelled about seventy metres, very slowly, in front of thousands of people. It took several days.",
+            "ar": "فخطرت للمهندسين فكرة غريبة. وضعوا البيت على عجلات وحرّكوه. سافر البيت نحو سبعين متراً، ببطء شديد، أمام آلاف الناس. واستغرق ذلك أياماً عدّة."
+          },
+          {
+            "en": "Today the house is at the end of a quiet street, next to a church. There are still the original windows and the original wooden walls. Inside there is a small shop on the ground floor and there are two rooms above it.",
+            "ar": "واليوم يقف البيت في نهاية شارع هادئ، بجانب كنيسة. ما زالت فيه نوافذه الأصلية وجدرانه الخشبية الأصلية. وفي داخله محلّ صغير في الطابق الأرضي، وفوقه غرفتان."
+          },
+          {
+            "en": "Tourists come from many countries to see it. There is a sign outside with the story, and there are always people taking photographs. Local people are proud of it. \"Every city has old buildings,\" one woman says. \"But how many cities have a building that went for a walk?\"",
+            "ar": "يأتي السيّاح من بلدان كثيرة ليروه. في الخارج لوحة مكتوب عليها القصة، ودائماً هناك من يلتقط الصور. وأهل المدينة فخورون به. تقول إحدى النساء: «كل مدينة فيها بنايات قديمة. لكن كم مدينة فيها بناية خرجت تتمشّى؟»"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "unusual",
+            "ipa": "/ʌnˈjuːʒuəl/",
+            "ar": "غير معتاد",
+            "note_ar": "Stress on the second syllable"
+          },
+          {
+            "en": "famous",
+            "ipa": "/ˈfeɪməs/",
+            "ar": "مشهور",
+            "note_ar": "Stress on the first"
+          },
+          {
+            "en": "reason",
+            "ipa": "/ˈriːzn/",
+            "ar": "سبب",
+            "note_ar": "for one reason"
+          },
+          {
+            "en": "whole",
+            "ipa": "/həʊl/",
+            "ar": "كامل",
+            "note_ar": "The w is silent"
+          },
+          {
+            "en": "destroy",
+            "ipa": "/dɪˈstrɔɪ/",
+            "ar": "يهدم",
+            "note_ar": "Verb → stress on the second"
+          },
+          {
+            "en": "lose",
+            "ipa": "/luːz/",
+            "ar": "يفقد",
+            "note_ar": "Do not confuse with loose"
+          },
+          {
+            "en": "engineer",
+            "ipa": "/ˌendʒɪˈnɪə(r)/",
+            "ar": "مهندس",
+            "note_ar": "Stress on the third syllable"
+          },
+          {
+            "en": "wheel",
+            "ipa": "/wiːl/",
+            "ar": "عجلة",
+            "note_ar": "Plural: wheels"
+          },
+          {
+            "en": "travel",
+            "ipa": "/ˈtrævl/",
+            "ar": "يسافر / ينتقل",
+            "note_ar": "Stress on the first"
+          },
+          {
+            "en": "several",
+            "ipa": "/ˈsevrəl/",
+            "ar": "عدة",
+            "note_ar": "More than two, fewer than many"
+          },
+          {
+            "en": "original",
+            "ipa": "/əˈrɪdʒənl/",
+            "ar": "أصلي",
+            "note_ar": "Stress on the second"
+          },
+          {
+            "en": "wooden",
+            "ipa": "/ˈwʊdn/",
+            "ar": "خشبي",
+            "note_ar": "From wood"
+          },
+          {
+            "en": "ground floor",
+            "ipa": "/ˌɡraʊnd ˈflɔː/",
+            "ar": "الطابق الأرضي",
+            "note_ar": "British; American: first floor"
+          },
+          {
+            "en": "sign",
+            "ipa": "/saɪn/",
+            "ar": "لافتة",
+            "note_ar": "The g is silent"
+          },
+          {
+            "en": "proud",
+            "ipa": "/praʊd/",
+            "ar": "فخور",
+            "note_ar": "proud of something"
+          }
+        ],
+        "questions": []
+      }
+    },
+    {
+      "kind": "selfcheck",
+      "day_number": 7,
+      "title_ar": "الاختبار الذاتي — نهاية الفصل",
+      "title_en": "End-of-Chapter Self-Check",
+      "payload": {
+        "intro_ar": "كن صادقاً. هذا يحدّد هل تنتقل أم تُعيد.",
+        "items": [
+          {
+            "can_ar": "أصف غرفة بستّ جمل فيها There is و There are",
+            "can_en": "Describe a room using six sentences with There is / There are?",
+            "proof_ar": "تمارين اليوم 3"
+          },
+          {
+            "can_ar": "أصوغ النفي والسؤال بلا تردّد",
+            "can_en": "Make the negative and question forms without hesitating?",
+            "proof_ar": "تمارين اليوم 3"
+          },
+          {
+            "can_ar": "أستخدم عشرة ظروف مكان صحيحة",
+            "can_en": "Use ten prepositions of place correctly?",
+            "proof_ar": "تمارين اليوم 4"
+          },
+          {
+            "can_ar": "أختار بين there is و it is تلقائياً",
+            "can_en": "Choose between there is and it is automatically?",
+            "proof_ar": "قسم القواعد"
+          },
+          {
+            "can_ar": "أضع النبر صحيحاً في 10 من 12 كلمة",
+            "can_en": "Mark the stress on 10 of the 12 words in §4.4?",
+            "proof_ar": "قسم النطق"
+          },
+          {
+            "can_ar": "أطبّق قواعد النبر الأربع على كلمة جديدة",
+            "can_en": "Apply the four stress rules to a new word?",
+            "proof_ar": "قسم النطق"
+          },
+          {
+            "can_ar": "أدلّ على الطريق من بيتي إلى ثلاثة أماكن",
+            "can_en": "Give directions from your home to three places?",
+            "proof_ar": "الحوار الثاني"
+          },
+          {
+            "can_ar": "أتذكّر 80 من 100 كلمة من العربية",
+            "can_en": "Recall 80 of the 100 words from the Arabic?",
+            "proof_ar": "جلسة المراجعة المتباعدة — تقول لك الرقم"
+          },
+          {
+            "can_ar": "أتحدّث 100 ثانية عن المكان الذي أسكنه",
+            "can_en": "Speak for 100 seconds about where you live?",
+            "proof_ar": "تسجيل هذا الأسبوع"
+          }
+        ],
+        "pass_ar": "8–9 ✓ → انتقل إلى الأسبوع الخامس.",
+        "partial_ar": "6–7 ✓ → انتقل، لكن تابع تدريب نبر الكلمة يومياً خلال الأسبوع الخامس.",
+        "fail_ar": "أقل من 6 → أعد قسمي القواعد والنطق. نبر الكلمة تحديداً يؤثّر في كل فصل قادم."
+      }
+    },
+    {
+      "kind": "phonics",
+      "day_number": 1,
+      "title_ar": "النطق — نبر الكلمة",
+      "title_en": "Pronunciation — Word Stress",
+      "payload": {
+        "intro_ar": "هذا أهمّ درس نطق في الكتاب كلّه. الناطق الأصلي يعرف الكلمة من نمط نبرها قبل أن يعرفها من أصواتها؛ فلو نبرت المقطع الخطأ لم يتعرّف عليها أصلاً، حتى لو نطقت كل صوت فيها صحيحاً.",
+        "symbols": [
+          {
+            "ipa": "ˈ",
+            "arabic_hint": "العلامة توضع قبل المقطع المنبور مباشرة — وهي أهمّ رمز في القاموس",
+            "examples": [
+              "hotel",
+              "computer",
+              "important"
+            ],
+            "note_ar": "يُنطق المقطعان متساويين، فلا يعرف السامع أي كلمة قلت.",
+            "fix_ar": "hotel نبرها على الثاني: هو-TEL لا HO-تل. اضغط الكلمة واسمع أين يعلو الصوت."
+          },
+          {
+            "ipa": "Oo",
+            "arabic_hint": "النبر على المقطع الأول — معظم الأسماء ذات المقطعين",
+            "examples": [
+              "garden",
+              "window",
+              "bedroom",
+              "balcony"
+            ]
+          },
+          {
+            "ipa": "oO",
+            "arabic_hint": "النبر على المقطع الثاني — معظم الأفعال ذات المقطعين",
+            "examples": [
+              "decide",
+              "begin",
+              "forget"
+            ]
+          },
+          {
+            "ipa": "ooO",
+            "arabic_hint": "النهايات -ee و-eer و-ese تجذب النبر إليها",
+            "examples": [
+              "engineer",
+              "Chinese",
+              "employee"
+            ]
+          },
+          {
+            "ipa": "Oooo",
+            "arabic_hint": "زحزحة النبر تغيّر الكلمة — قارن الاسم بصاحب المهنة",
+            "examples": [
+              "photograph",
+              "photographer",
+              "photographic"
+            ],
+            "note_ar": "الجذر واحد والنبر ثلاثة، فيُنطق الثلاثة بنبر واحد.",
+            "fix_ar": "قلها الثلاث متتالية: PHOtograph · phoTOGrapher · photoGRAPHic — واسمع النبر ينتقل."
+          },
+          {
+            "ipa": "ə",
+            "arabic_hint": "المقاطع غير المنبورة تنهار إلى الشوا — لهذا تُسمع computer هكذا: kəm-PYOO-tə",
+            "examples": [
+              "opposite",
+              "library",
+              "pharmacy",
+              "museum"
+            ]
+          }
+        ],
+        "tip_ar": "اضغط على أي كلمة لتسمعها. والتدريب العملي: صفّق على المقطع المنبور وأنت تنطق الكلمة — اليد تُثبّت النمط أسرع من العين."
+      }
+    },
+    {
+      "kind": "breaktime",
+      "day_number": 7,
+      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
+      "title_en": "Break Time — English Outside the Book",
+      "payload": {
+        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
+        "compare": [
+          {
+            "aspect_ar": "الكمّ",
+            "intensive_ar": "دقائق من الصوت",
+            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
+          },
+          {
+            "aspect_ar": "الفهم",
+            "intensive_ar": "تستهدف 100%",
+            "extensive_ar": "50–70% تكفي"
+          },
+          {
+            "aspect_ar": "الجهد",
+            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
+            "extensive_ar": "منخفض — تسترخي وتستمتع"
+          },
+          {
+            "aspect_ar": "ما يبنيه",
+            "intensive_ar": "الدقّة والقواعد",
+            "extensive_ar": "السرعة والأذن والحدس والمفردات"
+          },
+          {
+            "aspect_ar": "لو أغفلته",
+            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
+            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
+          }
+        ],
+        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
+        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
+        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
+        "song": {
+          "pick": {
+            "title": "Our House",
+            "artist": "Madness",
+            "why_en": "Literally this week’s topic and grammar: rooms, family, and a house described line by line. Fast but very clear.",
+            "search": "Our House Madness"
+          },
+          "alternatives": [
+            {
+              "title": "Take Me Home, Country Roads",
+              "artist": "John Denver",
+              "why_en": "Slow, warm and simple. Excellent for singing along.",
+              "search": "Take Me Home, Country Roads John Denver"
+            },
+            {
+              "title": "Home",
+              "artist": "Michael Bublé",
+              "why_en": "Very clear diction. Good for hearing word stress in long words.",
+              "search": "Home Michael Bublé"
+            }
+          ],
+          "item": {
+            "key": "song",
+            "icon": "🎵",
+            "label_ar": "أغنية الأسبوع",
+            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
+            "minutes": 20,
+            "steps": [
+              "اختر أغنية واحدة وشغّلها مرة للمتعة فقط.",
+              "شغّلها ثانية. اختر خمس كلمات من مقطعين فأكثر، وحدّد أين يقع النبر في كل واحدة.",
+              "غنِّ معها مرة. اللحن يضع النبر في موضعه رغماً عنك."
+            ],
+            "why_ar": "إيقاع الإنجليزية وإيقاع الموسيقى يعملان بالطريقة نفسها: نبرة قوية ثم ضعيفة. فحين تغنّي يضع اللحن النبر عنك.",
+            "prompt_ar": "اكتب الكلمات الخمس وأين وقع النبر فيها"
+          }
+        },
+        "watch": {
+          "pick": {
+            "title": "Extra English — Episode 6",
+            "level": "A1–A2",
+            "where": "YouTube — search the title",
+            "why_en": "The whole series is set in a flat. This week you have the vocabulary for every room they walk through.",
+            "search": "Extra English — Episode 6"
+          },
+          "alternatives": [
+            {
+              "title": "House tour videos",
+              "level": "A2",
+              "where": "YouTube — search \"apartment tour\" or \"small house tour\"",
+              "why_en": "Exactly this chapter’s language: there is, there are, room names, prepositions. Pause and describe each room yourself before the presenter does.",
+              "search": "House tour videos"
+            },
+            {
+              "title": "Mr Bean",
+              "level": "Any",
+              "where": "YouTube — official channel",
+              "why_en": "Use it actively: narrate what he does using prepositions of place. He is behind the chair. There is a cup on the table.",
+              "search": "Mr Bean"
+            },
+            {
+              "title": "Easy English — \"Where do you live?\"",
+              "level": "A2",
+              "where": "YouTube — search it",
+              "why_en": "Real people describing their homes, with double subtitles.",
+              "search": "Easy English — \"Where do you live?\""
+            }
+          ],
+          "item": {
+            "key": "watch",
+            "icon": "📺",
+            "label_ar": "ما تشاهده",
+            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
+            "minutes": 25,
+            "steps": [
+              "شاهد حلقة كاملة بلا توقّف.",
+              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
+              "اكتب ثلاث عبارات علقت في ذهنك."
+            ],
+            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
+            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
+          }
+        },
+        "story": {
+          "pick": {
+            "title": "Storynory",
+            "where": "storynory.com",
+            "why_en": "Try a longer story this week — 12 to 15 minutes.",
+            "url": "https://storynory.com"
+          },
+          "alternatives": [
+            {
+              "title": "British Council — Elementary Podcasts",
+              "where": "learnenglish.britishcouncil.org",
+              "why_en": "Series 1, Episodes 6–7.",
+              "url": "https://learnenglish.britishcouncil.org"
+            },
+            {
+              "title": "Learn English Through Story",
+              "where": "YouTube — search the phrase plus \"level 1\"",
+              "why_en": "Graded stories read aloud with the text on screen.",
+              "search": "Learn English Through Story"
+            }
+          ],
+          "item": {
+            "key": "story",
+            "icon": "📖",
+            "label_ar": "ما تقرأه",
+            "task_ar": "خمس عشرة دقيقة قراءة أو استماع، ولا تبحث عن أكثر من ثلاث كلمات",
+            "minutes": 15,
+            "steps": [
+              "خمس عشرة دقيقة قراءة أو استماع — لا أكثر.",
+              "لا تبحث عن أكثر من ثلاث كلمات. خمّن الباقي من السياق.",
+              "اكتب جملة واحدة عمّا قرأته، من الذاكرة."
+            ],
+            "why_ar": "الحدس من السياق هو المهارة المقصودة — والبحث عن كل كلمة يقتلها.",
+            "prompt_ar": "جملة واحدة عمّا قرأته"
+          }
+        },
+        "item_order": [
+          "song",
+          "watch",
+          "story"
+        ],
+        "plan": [
+          {
+            "day_ar": "السبت",
+            "activity_ar": "الأغنية + مهمة تعقّب النبر",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الأحد",
+            "activity_ar": "Extra English الحلقة 6",
+            "minutes": 25
+          },
+          {
+            "day_ar": "الاثنين",
+            "activity_ar": "فيديوهان لجولة في بيت، تصف الغرف بصوت عالٍ",
+            "minutes": 20
+          },
+          {
+            "day_ar": "الثلاثاء",
+            "activity_ar": "حوّل لغة هاتفك إلى الإنجليزية",
+            "minutes": 5
+          },
+          {
+            "day_ar": "الأربعاء",
+            "activity_ar": "القصة — صوتاً فقط",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الخميس",
+            "activity_ar": "القصة — صوتاً مع النصّ",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الجمعة",
+            "activity_ar": "حلقة Mr Bean، تسردها بظروف المكان",
+            "minutes": 25
+          }
+        ]
+      }
+    },
+    {
+      "kind": "speaking",
+      "title_ar": "التحدّث",
+      "title_en": "Two Minutes About Where You Live",
+      "payload": {
+        "task_ar": "تحدّث دقيقتين عن المكان الذي تسكن فيه",
+        "target_seconds": 120,
+        "is_baseline": false,
+        "title_en": "Two Minutes About Where You Live",
+        "intro_ar": null,
+        "cover_ar": null,
+        "model_en": "I live in a flat in the centre of the city. // It's on the fourth floor and there isn't a lift, so I walk up the stairs every day. //\nThe flat is small but comfortable. There are two bedrooms, a living room, a kitchen and one bathroom. // My favourite place is the balcony. There isn't a garden, but from the balcony I can see the park. //\nMy neighbourhood is very busy. There are a lot of small shops — a bakery, a pharmacy, two supermarkets. // Opposite my building there is a market on Fridays, so Friday morning is very noisy. //\nAt the end of my street there is a park, and next to the park there is a library. I go there on Saturdays because it's quiet. //\nThe only problem is that there aren't any restaurants near here. But there is a very good café around the corner. //",
+        "outline": [
+          {
+            "part_en": "The building",
+            "say_en": "flat/house, floor, lift, stairs",
+            "seconds": 20
+          },
+          {
+            "part_en": "The rooms",
+            "say_en": "There are… There is… There isn't…",
+            "seconds": 30
+          },
+          {
+            "part_en": "Your favourite place",
+            "say_en": "My favourite … is … because …",
+            "seconds": 20
+          },
+          {
+            "part_en": "The neighbourhood",
+            "say_en": "busy/quiet, shops, opposite, next to",
+            "seconds": 30
+          },
+          {
+            "part_en": "What is missing",
+            "say_en": "The only problem is that there aren't any…",
+            "seconds": 20
+          }
+        ],
+        "rubric": [
+          {
+            "label_en": "There is / There are",
+            "label_ar": null,
+            "levels": [
+              "Often wrong or replaced by have",
+              "Mostly correct",
+              "Always correct, including negatives"
+            ]
+          },
+          {
+            "label_en": "Prepositions",
+            "label_ar": null,
+            "levels": [
+              "One or two used",
+              "Three or four used",
+              "Five+ used accurately"
+            ]
+          },
+          {
+            "label_en": "Word stress",
+            "label_ar": null,
+            "levels": [
+              "Flat — every syllable equal",
+              "Sometimes clear",
+              "Clearly marked on long words"
+            ]
+          },
+          {
+            "label_en": "Vocabulary range",
+            "label_ar": null,
+            "levels": [
+              "Only rooms named",
+              "Rooms plus some furniture",
+              "Rooms, furniture and town places"
+            ]
+          },
+          {
+            "label_en": "Flow",
+            "label_ar": null,
+            "levels": [
+              "Long pauses inside sentences",
+              "Some hesitation",
+              "Pauses only between ideas"
+            ]
+          },
+          {
+            "label_en": "Length",
+            "label_ar": "الطول",
+            "levels": [
+              "Under 60 sec",
+              "60–100 sec",
+              "100–120 sec"
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "title_ar": "اقرأ النموذج",
+            "title_en": "Study the Model",
+            "text_en": []
+          },
+          {
+            "title_ar": "ابنِ نصّك أنت",
+            "title_en": "Build Your Version",
+            "text_en": []
+          },
+          {
+            "title_ar": "سجّل ثم قيّم نفسك",
+            "title_en": "Record and Score",
+            "text_en": [
+              "Record 2 minutes from memory. Save as Week04."
+            ]
+          }
+        ],
+        "save_as": "Week04"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "سطح",
+      "payload": {
+        "options": [
+          "balcony",
+          "lift / elevator",
+          "hall",
+          "roof"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": "مثال: We sit on the roof in summer.",
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "سرير",
+      "payload": {
+        "options": [
+          "garden",
+          "building",
+          "bed",
+          "house"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "مثال: My bed is next to the window.",
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "موقد",
+      "payload": {
+        "options": [
+          "floor",
+          "cooker",
+          "noisy",
+          "bedroom"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "مثال: The cooker is old.",
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "مطبخ",
+      "payload": {
+        "options": [
+          "carpet",
+          "kitchen",
+          "window",
+          "bedroom"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "مثال: The kitchen is next to the hall.",
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "مرآة",
+      "payload": {
+        "options": [
+          "wardrobe",
+          "floor",
+          "building",
+          "mirror"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": "مثال: The mirror is above the sink.",
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "ثلاجة",
+      "payload": {
+        "options": [
+          "furniture",
+          "living room",
+          "fridge",
+          "noisy"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "مثال: There is milk in the fridge.",
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "مستشفى",
+      "payload": {
+        "options": [
+          "square",
+          "hospital",
+          "road",
+          "mosque"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "صيدلية",
+      "payload": {
+        "options": [
+          "crossing",
+          "square",
+          "post office",
+          "pharmacy"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "سوق",
+      "payload": {
+        "options": [
+          "station",
+          "road",
+          "market",
+          "bank"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "مكتب بريد",
+      "payload": {
+        "options": [
+          "market",
+          "post office",
+          "hospital",
+          "bank"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "بنك",
+      "payload": {
+        "options": [
+          "bus stop",
+          "bank",
+          "traffic",
+          "airport"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "حي",
+      "payload": {
+        "options": [
+          "hospital",
+          "bank",
+          "church",
+          "neighbourhood"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "There is أم There are؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ a big park near my house.",
+      "payload": {
+        "before": "",
+        "after": " a big park near my house."
+      },
+      "answer": {
+        "accepted": [
+          "There is",
+          "there is"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "There is أم There are؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ three bedrooms in our flat.",
+      "payload": {
+        "before": "",
+        "after": " three bedrooms in our flat."
+      },
+      "answer": {
+        "accepted": [
+          "There are",
+          "there are"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "There is أم There are؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ some milk in the fridge.",
+      "payload": {
+        "before": "",
+        "after": " some milk in the fridge."
+      },
+      "answer": {
+        "accepted": [
+          "There is",
+          "there is"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "There is أم There are؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ a lift in this building.",
+      "payload": {
+        "before": "",
+        "after": " a lift in this building."
+      },
+      "answer": {
+        "accepted": [
+          "There is",
+          "there is"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "There is أم There are؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ two hospitals in this city.",
+      "payload": {
+        "before": "",
+        "after": " two hospitals in this city."
+      },
+      "answer": {
+        "accepted": [
+          "There are",
+          "there are"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "There is أم There are؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ a lot of traffic in the morning.",
+      "payload": {
+        "before": "",
+        "after": " a lot of traffic in the morning."
+      },
+      "answer": {
+        "accepted": [
+          "There is",
+          "there is"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "There is أم There are؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ any chairs in the kitchen?",
+      "payload": {
+        "before": "",
+        "after": " any chairs in the kitchen?"
+      },
+      "answer": {
+        "accepted": [
+          "Are there",
+          "are there"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "There is أم There are؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ a mosque at the end of the street.",
+      "payload": {
+        "before": "",
+        "after": " a mosque at the end of the street."
+      },
+      "answer": {
+        "accepted": [
+          "There is",
+          "there is"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "There is أم There are؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ four windows in the living room.",
+      "payload": {
+        "before": "",
+        "after": " four windows in the living room."
+      },
+      "answer": {
+        "accepted": [
+          "There are",
+          "there are"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "There is أم There are؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ some furniture in the bedroom.",
+      "payload": {
+        "before": "",
+        "after": " some furniture in the bedroom."
+      },
+      "answer": {
+        "accepted": [
+          "There is",
+          "there is"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "There is أم There are؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ any shops near here?",
+      "payload": {
+        "before": "",
+        "after": " any shops near here?"
+      },
+      "answer": {
+        "accepted": [
+          "Are there",
+          "are there"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "There is أم There are؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ a mirror above the sink.",
+      "payload": {
+        "before": "",
+        "after": " a mirror above the sink."
+      },
+      "answer": {
+        "accepted": [
+          "There is",
+          "there is"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "التحويل إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى النفي",
+      "payload": {
+        "sentence": "There is a garden."
+      },
+      "answer": {
+        "accepted": [
+          "There isn't a garden."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "التحويل إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى النفي",
+      "payload": {
+        "sentence": "There are some shops near here."
+      },
+      "answer": {
+        "accepted": [
+          "There aren't any shops near here."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "التحويل إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى النفي",
+      "payload": {
+        "sentence": "There is a lift in the building."
+      },
+      "answer": {
+        "accepted": [
+          "There isn't a lift in the building."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "التحويل إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى النفي",
+      "payload": {
+        "sentence": "There are two bathrooms."
+      },
+      "answer": {
+        "accepted": [
+          "There aren't two bathrooms."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "التحويل إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى النفي",
+      "payload": {
+        "sentence": "There is some water in the bottle."
+      },
+      "answer": {
+        "accepted": [
+          "There isn't any water in the bottle."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "التحويل إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى النفي",
+      "payload": {
+        "sentence": "There are any children in the park."
+      },
+      "answer": {
+        "accepted": [
+          "There aren't any children in the park."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "التحويل إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى النفي",
+      "payload": {
+        "sentence": "There is a bank on the corner."
+      },
+      "answer": {
+        "accepted": [
+          "There isn't a bank on the corner."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "التحويل إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى النفي",
+      "payload": {
+        "sentence": "There are some books on the shelf."
+      },
+      "answer": {
+        "accepted": [
+          "There aren't any books on the shelf."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "التحويل إلى سؤال",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى سؤال",
+      "payload": {
+        "sentence": "There is a pharmacy near here."
+      },
+      "answer": {
+        "accepted": [
+          "Is there a pharmacy near here?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "التحويل إلى سؤال",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى سؤال",
+      "payload": {
+        "sentence": "There are some restaurants in this street."
+      },
+      "answer": {
+        "accepted": [
+          "Are there any restaurants in this street?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "التحويل إلى سؤال",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى سؤال",
+      "payload": {
+        "sentence": "There is a balcony."
+      },
+      "answer": {
+        "accepted": [
+          "Is there a balcony?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "التحويل إلى سؤال",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى سؤال",
+      "payload": {
+        "sentence": "There are three floors."
+      },
+      "answer": {
+        "accepted": [
+          "Are there three floors?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "التحويل إلى سؤال",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى سؤال",
+      "payload": {
+        "sentence": "There is any sugar in the kitchen."
+      },
+      "answer": {
+        "accepted": [
+          "Is there any sugar in the kitchen?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "التحويل إلى سؤال",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى سؤال",
+      "payload": {
+        "sentence": "There are some students in the library."
+      },
+      "answer": {
+        "accepted": [
+          "Are there any students in the library?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "التحويل إلى سؤال",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى سؤال",
+      "payload": {
+        "sentence": "There is a bus stop opposite the bank."
+      },
+      "answer": {
+        "accepted": [
+          "Is there a bus stop opposite the bank?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "اختيار ظرف المكان",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Choose from: in · on · under · above · next to · between · behind · in front of · opposite · near · at the end of · around the corner",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: on"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "اختيار ظرف المكان",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The lamp is ______ the table.",
+      "payload": {
+        "before": "The lamp is ",
+        "after": " the table."
+      },
+      "answer": {
+        "accepted": [
+          "under"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "اختيار ظرف المكان",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The bag is ______ the bed. (not visible)",
+      "payload": {
+        "before": "The bag is ",
+        "after": " the bed. (not visible)"
+      },
+      "answer": {
+        "accepted": [
+          "between"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "اختيار ظرف المكان",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The bank is ______ the post office and the pharmacy.",
+      "payload": {
+        "before": "The bank is ",
+        "after": " the post office and the pharmacy."
+      },
+      "answer": {
+        "accepted": [
+          "opposite"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "اختيار ظرف المكان",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The hotel is ______ the station, across the road.",
+      "payload": {
+        "before": "The hotel is ",
+        "after": " the station, across the road."
+      },
+      "answer": {
+        "accepted": [
+          "behind"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "اختيار ظرف المكان",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "There is a garden ______ the house, at the back.",
+      "payload": {
+        "before": "There is a garden ",
+        "after": " the house, at the back."
+      },
+      "answer": {
+        "accepted": [
+          "in"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "اختيار ظرف المكان",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The milk is ______ the fridge.",
+      "payload": {
+        "before": "The milk is ",
+        "after": " the fridge."
+      },
+      "answer": {
+        "accepted": [
+          "above"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "اختيار ظرف المكان",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The mirror is ______ the sink, on the wall.",
+      "payload": {
+        "before": "The mirror is ",
+        "after": " the sink, on the wall."
+      },
+      "answer": {
+        "accepted": [
+          "around the corner"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "اختيار ظرف المكان",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The pharmacy is just ______ — thirty seconds from here.",
+      "payload": {
+        "before": "The pharmacy is just ",
+        "after": " — thirty seconds from here."
+      },
+      "answer": {
+        "accepted": [
+          "near"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "اختيار ظرف المكان",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "My flat is ______ the market, only two minutes away.",
+      "payload": {
+        "before": "My flat is ",
+        "after": " the market, only two minutes away."
+      },
+      "answer": {
+        "accepted": [
+          "at the end of"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "اختيار ظرف المكان",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The mosque is ______ the street, on the right.",
+      "payload": {
+        "before": "The mosque is ",
+        "after": " the street, on the right."
+      },
+      "answer": {
+        "accepted": [
+          "in front of"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "اختيار ظرف المكان",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "There is a car ______ the door — I can't get out.",
+      "payload": {
+        "before": "There is a car ",
+        "after": " the door — I can't get out."
+      },
+      "answer": {
+        "accepted": [
+          "next to"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "اختيار ظرف المكان",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Come and sit …… me.",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "There is أم It is؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ a new restaurant in my street. ______ very good.",
+      "payload": {
+        "before": "",
+        "after": " a new restaurant in my street. ______ very good."
+      },
+      "answer": {
+        "accepted": [
+          "There is … It is",
+          "there is … it is"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "There is أم It is؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ a park near my house. ______ big and quiet.",
+      "payload": {
+        "before": "",
+        "after": " a park near my house. ______ big and quiet."
+      },
+      "answer": {
+        "accepted": [
+          "There is … It is",
+          "there is … it is"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "There is أم It is؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ a lift in the building, but ______ always broken.",
+      "payload": {
+        "before": "",
+        "after": " a lift in the building, but ______ always broken."
+      },
+      "answer": {
+        "accepted": [
+          "There is … it is",
+          "there is … it is"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "There is أم It is؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ a mosque on the corner. ______ very old.",
+      "payload": {
+        "before": "",
+        "after": " a mosque on the corner. ______ very old."
+      },
+      "answer": {
+        "accepted": [
+          "There is … It is",
+          "there is … it is"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "There is four rooms in my flat."
+      },
+      "answer": {
+        "accepted": [
+          "There are four rooms."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "Have a park near my house."
+      },
+      "answer": {
+        "accepted": [
+          "There is a park near my house."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "There isn't lift in this building."
+      },
+      "answer": {
+        "accepted": [
+          "There isn't a lift."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "Is have a bank here?"
+      },
+      "answer": {
+        "accepted": [
+          "Is there a bank here?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "There are some furnitures in the room."
+      },
+      "answer": {
+        "accepted": [
+          "There is some furniture in the room."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "The hotel is opposite to the station."
+      },
+      "answer": {
+        "accepted": [
+          "…opposite the station."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "It is a new hospital in my city."
+      },
+      "answer": {
+        "accepted": [
+          "There is a new hospital in my city."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "There aren't some shops near here."
+      },
+      "answer": {
+        "accepted": [
+          "There aren't any shops near here."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "The car is front the door."
+      },
+      "answer": {
+        "accepted": [
+          "The car is in front of the door."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "There is two bathrooms."
+      },
+      "answer": {
+        "accepted": [
+          "There are two bathrooms."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How many windows are in the living room? ______",
+      "payload": {
+        "before": "How many windows are in the living room?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Three.",
+          "Three",
+          "three."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What can you see from the balcony? ______",
+      "payload": {
+        "before": "What can you see from the balcony?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "The park.",
+          "The park",
+          "the park."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How many bedrooms are there? ______",
+      "payload": {
+        "before": "How many bedrooms are there?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Two.",
+          "Two",
+          "two."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Is there a garden? ______",
+      "payload": {
+        "before": "Is there a garden?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "No, there isn't.",
+          "No, there isn't",
+          "no, there isn't."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What is opposite the building? ______",
+      "payload": {
+        "before": "What is opposite the building?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "A big park.",
+          "A big park",
+          "a big park."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "When is the street noisy? ______",
+      "payload": {
+        "before": "When is the street noisy?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "In the morning, because of the traffic.",
+          "In the morning, because of the traffic",
+          "in the morning, because of the traffic."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Which floor does he live on? ______",
+      "payload": {
+        "before": "Which floor does he live on?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "The fourth floor.",
+          "The fourth floor",
+          "the fourth floor."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why does he walk up the stairs? ______",
+      "payload": {
+        "before": "Why does he walk up the stairs?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Because there isn't a lift.",
+          "Because there isn't a lift",
+          "because there isn't a lift."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How many bedrooms are there? ______",
+      "payload": {
+        "before": "How many bedrooms are there?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Two.",
+          "Two",
+          "two."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What does he do on the balcony? ______",
+      "payload": {
+        "before": "What does he do on the balcony?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "He sits with a cup of tea and watches the street.",
+          "He sits with a cup of tea and watches the street",
+          "he sits with a cup of tea and watches the street."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What shops are in his neighbourhood? ______",
+      "payload": {
+        "before": "What shops are in his neighbourhood?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "A bakery, a pharmacy and two supermarkets.",
+          "A bakery, a pharmacy and two supermarkets",
+          "a bakery, a pharmacy and two supermarkets."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "When is the market? ______",
+      "payload": {
+        "before": "When is the market?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "On Fridays.",
+          "On Fridays",
+          "on fridays."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Where is the market? ______",
+      "payload": {
+        "before": "Where is the market?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Opposite his building.",
+          "Opposite his building",
+          "opposite his building."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What is next to the park? ______",
+      "payload": {
+        "before": "What is next to the park?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "A library.",
+          "A library",
+          "a library."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why does he go to the library? ______",
+      "payload": {
+        "before": "Why does he go to the library?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Because it is the only quiet place.",
+          "Because it is the only quiet place",
+          "because it is the only quiet place."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What is the only problem with the area? ______",
+      "payload": {
+        "before": "What is the only problem with the area?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "There aren't any restaurants.",
+          "There aren't any restaurants",
+          "there aren't any restaurants."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "استمع وأكمل",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "There ______ a lift.",
+      "payload": {
+        "before": "There ",
+        "after": " a lift."
+      },
+      "answer": {
+        "accepted": [
+          "isn't"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "استمع وأكمل",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "There ______ a balcony.",
+      "payload": {
+        "before": "There ",
+        "after": " a balcony."
+      },
+      "answer": {
+        "accepted": [
+          "is"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "استمع وأكمل",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "There ______ two bedrooms.",
+      "payload": {
+        "before": "There ",
+        "after": " two bedrooms."
+      },
+      "answer": {
+        "accepted": [
+          "are"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "استمع وأكمل",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "There ______ any restaurants.",
+      "payload": {
+        "before": "There ",
+        "after": " any restaurants."
+      },
+      "answer": {
+        "accepted": [
+          "aren't"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "استمع وأكمل",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "There ______ a park.",
+      "payload": {
+        "before": "There ",
+        "after": " a park."
+      },
+      "answer": {
+        "accepted": [
+          "is"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "استمع وأكمل",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "There ______ a lot of small shops.",
+      "payload": {
+        "before": "There ",
+        "after": " a lot of small shops."
+      },
+      "answer": {
+        "accepted": [
+          "are"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The house is about 100 years old.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: from 1430"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The city wanted to build a new road.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The engineers destroyed the house.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: they moved it"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The house moved about seventy metres.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The move took a few hours.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: several days"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The house is now next to a church.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "There is a shop inside the house.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Local people do not like the house.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: they are proud of it"
+    }
+  ]
+}

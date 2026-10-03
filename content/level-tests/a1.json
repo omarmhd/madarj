@@ -1,0 +1,993 @@
+{
+  "level": "A1",
+  "after_week": 6,
+  "title_ar": "اختبار المستوى A1",
+  "title_en": "A1 Level Test",
+  "minutes": 35,
+  "pass_percent": 60,
+  "modeled_on": "Cambridge A1 Movers / Flyers task styles, CEFR A1 can-do descriptors",
+  "tips_ar": [
+    "اقرأ السؤال قبل أن تسمع أو تقرأ النصّ.",
+    "استمع إلى كل تسجيل مرّتين فقط، كما في الاختبار الحقيقيّ.",
+    "لا تقف طويلاً عند سؤال صعب. انتقل ثم ارجع إليه.",
+    "لا تترك سؤالاً بلا إجابة. التخمين أفضل من الفراغ.",
+    "لا تفتح الكتاب ولا القاموس. الاختبار يخبرك أين أنت، فلا تخدع نفسك."
+  ],
+  "sections": [
+    {
+      "key": "listening",
+      "title_ar": "الاستماع",
+      "title_en": "Listening",
+      "instructions_ar": "استمع إلى كل حوار، ثم أجب عن الأسئلة.",
+      "advice_ar": [
+        "استمع إلى حوارَي كل أسبوع مرّة كل يوم، ثم كرّر الجمل بصوت عالٍ.",
+        "العب لعبة التمييز الصوتيّ حتى تفرّق بين الأصوات المتشابهة.",
+        "اسمع الأرقام والأيام في البطاقات، واكتبها وأنت تسمع."
+      ],
+      "parts": [
+        {
+          "instructions_ar": "رجل وامرأة يتعارفان.",
+          "audio": [
+            {
+              "g": "m",
+              "text": "Hello. My name is Sam. What's your name?"
+            },
+            {
+              "g": "f",
+              "text": "Hi Sam. I'm Mona. Nice to meet you."
+            },
+            {
+              "g": "m",
+              "text": "Nice to meet you too. Where are you from, Mona?"
+            },
+            {
+              "g": "f",
+              "text": "I'm from Alexandria. And you?"
+            },
+            {
+              "g": "m",
+              "text": "I'm from Cairo. I'm an engineer."
+            },
+            {
+              "g": "f",
+              "text": "Oh! I'm a teacher. I am twenty-five years old."
+            }
+          ],
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "Where is Mona from?",
+              "payload": {
+                "options": [
+                  "Cairo",
+                  "Alexandria",
+                  "Amman"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "What is Sam's job?",
+              "payload": {
+                "options": [
+                  "An engineer",
+                  "A teacher",
+                  "A doctor"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "true_false",
+              "prompt": "Mona is thirty years old.",
+              "payload": {},
+              "answer": {
+                "correct": false
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "امرأة تتكلّم عن يومها.",
+          "audio": [
+            {
+              "g": "f",
+              "text": "I get up at six o'clock every day."
+            },
+            {
+              "g": "f",
+              "text": "I have breakfast at half past six."
+            },
+            {
+              "g": "f",
+              "text": "I take the bus to work. I start work at eight."
+            },
+            {
+              "g": "f",
+              "text": "I finish at four, and I never work on Friday or Saturday."
+            }
+          ],
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "What time does she get up?",
+              "payload": {
+                "options": [
+                  "At five o'clock",
+                  "At six o'clock",
+                  "At half past six"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "How does she go to work?",
+              "payload": {
+                "options": [
+                  "By car",
+                  "She walks",
+                  "By bus"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "true_false",
+              "prompt": "She works on Friday and Saturday.",
+              "payload": {},
+              "answer": {
+                "correct": false
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "رجل في مطعم.",
+          "audio": [
+            {
+              "g": "f",
+              "text": "Are you ready to order?"
+            },
+            {
+              "g": "m",
+              "text": "Yes. I'd like the chicken, please."
+            },
+            {
+              "g": "f",
+              "text": "Anything to drink?"
+            },
+            {
+              "g": "m",
+              "text": "Just water, please. Is the soup spicy?"
+            },
+            {
+              "g": "f",
+              "text": "No, it isn't."
+            },
+            {
+              "g": "m",
+              "text": "OK, a soup too, please."
+            }
+          ],
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "What does the man want to drink?",
+              "payload": {
+                "options": [
+                  "Juice",
+                  "Tea",
+                  "Water"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "true_false",
+              "prompt": "The soup is spicy.",
+              "payload": {},
+              "answer": {
+                "correct": false
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "امرأة تسأل عن الطريق.",
+          "audio": [
+            {
+              "g": "f",
+              "text": "Excuse me. Where is the pharmacy?"
+            },
+            {
+              "g": "m",
+              "text": "Go straight on and turn left."
+            },
+            {
+              "g": "m",
+              "text": "It's next to the bank, opposite the park."
+            },
+            {
+              "g": "f",
+              "text": "Is it far?"
+            },
+            {
+              "g": "m",
+              "text": "No. It's five minutes' walk."
+            }
+          ],
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "Where is the pharmacy?",
+              "payload": {
+                "options": [
+                  "Next to the bank",
+                  "Behind the school",
+                  "Behind the mosque"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Complete the note:",
+              "payload": {
+                "before": "Walk to the pharmacy:",
+                "after": " minutes."
+              },
+              "answer": {
+                "accepted": [
+                  "5",
+                  "five"
+                ]
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "title_ar": "القراءة",
+      "title_en": "Reading",
+      "instructions_ar": "اقرأ النصّ أو اللافتة، ثم أجب.",
+      "advice_ar": [
+        "اقرأ قصّة قصيرة من صفحة القصص كل يوم.",
+        "اقرأ حوارات الكتاب بصوت عالٍ، ثم غطِّ العربيّ وافهم الإنجليزيّ وحده.",
+        "ابحث في النصّ عن الكلمة التي في السؤال، ثم اقرأ الجملة كلّها."
+      ],
+      "parts": [
+        {
+          "instructions_ar": "ماذا تقول هذه اللافتة؟",
+          "passage": "BAKERY\nOpen: Monday – Friday, 7 a.m. – 2 p.m.\nClosed on Saturday and Sunday",
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "What does this notice say?",
+              "payload": {
+                "options": [
+                  "You can buy bread here on Sunday.",
+                  "You can buy bread here on Monday morning.",
+                  "The bakery is open in the evening."
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "ماذا تقول هذه اللافتة؟",
+          "passage": "LIBRARY\nPlease be quiet.\nNo food or drink inside.",
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "What does this notice say?",
+              "payload": {
+                "options": [
+                  "Don't eat in the library.",
+                  "You can have coffee in the library.",
+                  "The library is closed."
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "ماذا تقول هذه اللافتة؟",
+          "passage": "SUPERMARKET\nFresh fruit and vegetables!\nApples: 20 pounds a kilo\nWe take cards.",
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "What does this notice say?",
+              "payload": {
+                "options": [
+                  "You must pay cash.",
+                  "A kilo of apples costs twenty pounds.",
+                  "There are no vegetables today."
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "اقرأ عن خالد، ثم أجب.",
+          "passage": "My name is Khaled. I am thirty-two years old and I am a doctor. I live in a small flat in Giza with my wife, Huda, and our two children. Huda is a teacher at a school near our home. Our flat is on the third floor. There is a balcony, but there isn't a garden. I work at a big hospital. I usually drive to work, but on Friday I don't work. On Friday I play football with my brother in the park. I can swim, but I can't ride a bike. My son can ride a bike very well!",
+          "items": [
+            {
+              "type": "true_false",
+              "prompt": "Khaled is a doctor.",
+              "payload": {},
+              "answer": {
+                "correct": true
+              },
+              "points": 1
+            },
+            {
+              "type": "true_false",
+              "prompt": "Khaled has three children.",
+              "payload": {},
+              "answer": {
+                "correct": false
+              },
+              "points": 1
+            },
+            {
+              "type": "true_false",
+              "prompt": "There is a garden at their flat.",
+              "payload": {},
+              "answer": {
+                "correct": false
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Where does Huda work?",
+              "payload": {
+                "options": [
+                  "At a hospital",
+                  "At a school",
+                  "At a bank"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "What does Khaled do on Friday?",
+              "payload": {
+                "options": [
+                  "He works at the hospital.",
+                  "He plays football.",
+                  "He rides a bike."
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Who can ride a bike?",
+              "payload": {
+                "options": [
+                  "Khaled",
+                  "Huda",
+                  "Khaled's son"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "How does Khaled usually go to work?",
+              "payload": {
+                "options": [
+                  "By car",
+                  "By bus",
+                  "He walks"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "grammar",
+      "title_ar": "القواعد",
+      "title_en": "Grammar",
+      "instructions_ar": "اختر الإجابة الصحيحة، أو صحّح الجملة.",
+      "advice_ar": [
+        "راجع قسم القواعد في الأسابيع 1–5، خاصّة الأخطاء الشائعة في آخره.",
+        "العب لعبة صيد الغلط، وافتح سجلّ الأخطاء العشرين لترى أين تخطئ.",
+        "أعد تمارين الأيام التي أخطأت فيها حتى تنجح من المحاولة الأولى."
+      ],
+      "parts": [
+        {
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "I ___ an engineer.",
+              "payload": {
+                "options": [
+                  "am",
+                  "is",
+                  "are"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "They ___ from Egypt.",
+              "payload": {
+                "options": [
+                  "is",
+                  "am",
+                  "are"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "She ___ in a bank.",
+              "payload": {
+                "options": [
+                  "work",
+                  "works",
+                  "working"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "He doesn't ___ fish.",
+              "payload": {
+                "options": [
+                  "like",
+                  "likes",
+                  "liking"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "___ you work in Cairo?",
+              "payload": {
+                "options": [
+                  "Are",
+                  "Does",
+                  "Do"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "___ a park near my house.",
+              "payload": {
+                "options": [
+                  "There is",
+                  "Have",
+                  "It has"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "There ___ two chairs in the kitchen.",
+              "payload": {
+                "options": [
+                  "is",
+                  "are",
+                  "am"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "correct_error",
+              "prompt": "Correct the sentence.",
+              "payload": {
+                "sentence": "I teacher."
+              },
+              "answer": {
+                "accepted": [
+                  "I am a teacher.",
+                  "I am a teacher",
+                  "I'm a teacher.",
+                  "I'm a teacher"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "correct_error",
+              "prompt": "Correct the sentence.",
+              "payload": {
+                "sentence": "I have 30 years."
+              },
+              "answer": {
+                "accepted": [
+                  "I am 30 years old.",
+                  "I am 30 years old",
+                  "I'm 30 years old.",
+                  "I'm 30 years old",
+                  "I am thirty years old.",
+                  "I am thirty years old",
+                  "I'm thirty years old.",
+                  "I'm thirty years old",
+                  "I am 30.",
+                  "I'm 30.",
+                  "I am thirty.",
+                  "I'm thirty."
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "correct_error",
+              "prompt": "Correct the sentence.",
+              "payload": {
+                "sentence": "He can to swim."
+              },
+              "answer": {
+                "accepted": [
+                  "He can swim.",
+                  "He can swim"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "correct_error",
+              "prompt": "Correct the sentence.",
+              "payload": {
+                "sentence": "Where you live?"
+              },
+              "answer": {
+                "accepted": [
+                  "Where do you live?",
+                  "Where do you live"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "correct_error",
+              "prompt": "Correct the sentence.",
+              "payload": {
+                "sentence": "She sings good."
+              },
+              "answer": {
+                "accepted": [
+                  "She sings well.",
+                  "She sings well",
+                  "She sings nicely.",
+                  "She sings beautifully."
+                ]
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "vocabulary",
+      "title_ar": "المفردات",
+      "title_en": "Vocabulary",
+      "instructions_ar": "اختر الكلمة الإنجليزية الصحيحة.",
+      "advice_ar": [
+        "راجع بطاقات المفردات كل يوم، من العربيّ إلى الإنجليزيّ.",
+        "افتح المراجعة المتباعدة ولا تؤجّل البطاقات المستحقّة.",
+        "اكتب كل كلمة جديدة في جملة عن حياتك."
+      ],
+      "parts": [
+        {
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «مطبخ»",
+              "payload": {
+                "options": [
+                  "bedroom",
+                  "kitchen",
+                  "bathroom"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «جار»",
+              "payload": {
+                "options": [
+                  "neighbour",
+                  "colleague",
+                  "cousin"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «غالٍ»",
+              "payload": {
+                "options": [
+                  "cheap",
+                  "fresh",
+                  "expensive"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «صيدلية»",
+              "payload": {
+                "options": [
+                  "pharmacy",
+                  "library",
+                  "bakery"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «الخميس»",
+              "payload": {
+                "options": [
+                  "Tuesday",
+                  "Thursday",
+                  "Saturday"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «جائع»",
+              "payload": {
+                "options": [
+                  "thirsty",
+                  "tired",
+                  "hungry"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «بجانب»",
+              "payload": {
+                "options": [
+                  "next to",
+                  "behind",
+                  "under"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Complete:",
+              "payload": {
+                "before": "My father's sister is my ",
+                "after": "."
+              },
+              "answer": {
+                "accepted": [
+                  "aunt",
+                  "auntie"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Complete:",
+              "payload": {
+                "before": "nineteen, ",
+                "after": ", twenty-one"
+              },
+              "answer": {
+                "accepted": [
+                  "twenty",
+                  "20"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Which word does NOT belong?",
+              "payload": {
+                "options": [
+                  "tennis",
+                  "chess",
+                  "sofa"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "title_ar": "الكتابة",
+      "title_en": "Writing",
+      "instructions_ar": "رتّب الكلمات، أو أكمل الرسالة.",
+      "advice_ar": [
+        "اكتب كل يوم ثلاث جمل عن نفسك بقوالب جمل الكتاب.",
+        "اقرأ نموذج الإجابة في مهمّة الكتابة، ثم اكتب مثله عن حياتك.",
+        "ضع كلمات التكرار مثل always وnever قبل الفعل."
+      ],
+      "parts": [
+        {
+          "instructions_ar": "رتّب الكلمات لتصنع جملة.",
+          "items": [
+            {
+              "type": "order_words",
+              "prompt": "Put the words in order.",
+              "payload": {
+                "words": [
+                  "wake",
+                  "early.",
+                  "always",
+                  "I",
+                  "up"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "I",
+                  "always",
+                  "wake",
+                  "up",
+                  "early."
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "order_words",
+              "prompt": "Put the words in order.",
+              "payload": {
+                "words": [
+                  "work",
+                  "she",
+                  "here?",
+                  "Does"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "Does",
+                  "she",
+                  "work",
+                  "here?"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "order_words",
+              "prompt": "Put the words in order.",
+              "payload": {
+                "words": [
+                  "rooms",
+                  "my",
+                  "There",
+                  "in",
+                  "three",
+                  "flat.",
+                  "are"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "There",
+                  "are",
+                  "three",
+                  "rooms",
+                  "in",
+                  "my",
+                  "flat."
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "order_words",
+              "prompt": "Put the words in order.",
+              "payload": {
+                "words": [
+                  "cooking.",
+                  "at",
+                  "He",
+                  "good",
+                  "is"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "He",
+                  "is",
+                  "good",
+                  "at",
+                  "cooking."
+                ]
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "أكمل رسالة أليكس بكلمة واحدة في كل فراغ. الصيغة المختصرة مثل don't تُحسب كلمة واحدة.",
+          "passage": "Hi Lina,\nMy new flat is great! In my flat (1) ___ are two bedrooms and a big kitchen. My brother (2) ___ with me. He (3) ___ a student. We (4) ___ have a car, so we take the bus.\nAlex",
+          "items": [
+            {
+              "type": "fill_blank",
+              "prompt": "Gap 1",
+              "payload": {
+                "before": "In my flat ",
+                "after": " are two bedrooms and a big kitchen."
+              },
+              "answer": {
+                "accepted": [
+                  "There"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Gap 2",
+              "payload": {
+                "before": "My brother ",
+                "after": " with me."
+              },
+              "answer": {
+                "accepted": [
+                  "lives",
+                  "stays"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Gap 3",
+              "payload": {
+                "before": "He ",
+                "after": " a student."
+              },
+              "answer": {
+                "accepted": [
+                  "is"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Gap 4",
+              "payload": {
+                "before": "We ",
+                "after": " have a car."
+              },
+              "answer": {
+                "accepted": [
+                  "don't",
+                  "do not"
+                ]
+              },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

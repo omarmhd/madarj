@@ -1,0 +1,45 @@
+{
+    "$schema": "https://www.schemastore.org/package.json",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "node scripts/bidi-check.cjs && node scripts/slices-check.cjs && node scripts/review-sections-check.cjs && node scripts/sayit-check.cjs && node scripts/arabic-type-check.cjs && node scripts/speech-controls-check.cjs && node scripts/voice-rank-check.cjs && tsc && vite build",
+        "dev": "vite",
+        "check:bidi": "node scripts/bidi-check.cjs",
+        "check:slices": "node scripts/slices-check.cjs",
+        "check:sections": "node scripts/review-sections-check.cjs",
+        "check:sayit": "node scripts/sayit-check.cjs",
+        "check:arabic": "node scripts/arabic-type-check.cjs",
+        "check:speech": "node scripts/speech-controls-check.cjs",
+        "check:voice": "node scripts/voice-rank-check.cjs"
+    },
+    "devDependencies": {
+        "@headlessui/react": "^2.0.0",
+        "@inertiajs/react": "^2.0.0",
+        "@tailwindcss/forms": "^0.5.3",
+        "@tailwindcss/vite": "^4.0.0",
+        "@types/dom-speech-recognition": "^0.0.12",
+        "@types/node": "^22.12.0",
+        "@types/react": "^18.0.28",
+        "@types/react-dom": "^18.0.10",
+        "@vitejs/plugin-react": "^6.1.1",
+        "autoprefixer": "^10.4.12",
+        "axios": "^1.20.0",
+        "concurrently": "^10.0.3",
+        "dexie": "^4.4.5",
+        "laravel-vite-plugin": "^3.1",
+        "postcss": "^8.4.31",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "tailwindcss": "^3.2.1",
+        "ts-fsrs": "^5.4.2",
+        "typescript": "^5.0.2",
+        "vite": "^8.0.0"
+    },
+    "optionalDependencies": {
+        "@laravel/multiplex": "^0.4.1"
+    },
+    "dependencies": {
+        "lucide-react": "^1.50.0"
+    }
+}

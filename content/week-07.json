@@ -1,0 +1,3890 @@
+{
+  "number": 7,
+  "module": 2,
+  "title_en": "The Past — was, were & Regular Verbs",
+  "title_ar": "الماضي — was و were والأفعال المنتظمة",
+  "pron_section": 5,
+  "is_review": false,
+  "objectives": [
+    {
+      "en": "Use was and were correctly in positive, negative and question forms",
+      "ar": "أستخدم was و were صحيحة في الإثبات والنفي والسؤال"
+    },
+    {
+      "en": "Form the past of any regular verb, with correct spelling",
+      "ar": "أصوغ ماضي أي فعل قياسي بإملاء صحيح"
+    },
+    {
+      "en": "Pronounce the -ed ending in all three of its forms",
+      "ar": "أنطق نهاية -ed بأشكالها الثلاثة"
+    },
+    {
+      "en": "Use fifteen past time expressions, including ago",
+      "ar": "أستخدم خمسة عشر تعبيراً للزمن الماضي، منها ago"
+    },
+    {
+      "en": "Describe my childhood and where I lived before",
+      "ar": "أصف طفولتي وأين كنت أسكن قبلاً"
+    },
+    {
+      "en": "Tell someone what I did yesterday and last weekend",
+      "ar": "أخبر أحداً بما فعلته أمس ونهاية الأسبوع الماضية"
+    },
+    {
+      "en": "Write 100–120 words about a past experience",
+      "ar": "أكتب 100–120 كلمة عن تجربة ماضية"
+    },
+    {
+      "en": "Speak for 2 minutes about my life five years ago",
+      "ar": "أتحدّث دقيقتين عن حياتي قبل خمس سنوات"
+    }
+  ],
+  "writing": {
+    "title_ar": null,
+    "title_en": "Writing — A Memory",
+    "task_ar": null,
+    "task_en": "Write 100–120 words about a day or a period you remember clearly. Include: when it was, where you were, who was with you, what happened, and how you felt.",
+    "min_words": 100,
+    "max_words": 120,
+    "templates": [
+      {
+        "en": "I remember ____________ very clearly.",
+        "ar": null
+      },
+      {
+        "en": "It was ____________ / I was ____________ years old.",
+        "ar": null
+      },
+      {
+        "en": "At that time I lived in ____________ and I worked / studied ____________ .",
+        "ar": null
+      },
+      {
+        "en": "One day ____________ .",
+        "ar": null
+      },
+      {
+        "en": "First ____________ . Then ____________ . After that ____________ .",
+        "ar": null
+      },
+      {
+        "en": "I was ____________ because ____________ .",
+        "ar": null
+      },
+      {
+        "en": "Finally ____________ .",
+        "ar": null
+      },
+      {
+        "en": "When I remember it now, I feel ____________ .",
+        "ar": null
+      }
+    ],
+    "checklist": [],
+    "model_answer": "I remember my first day at university very clearly. It was in September 2014 and I was seventeen years old.",
+    "model_words": 20
+  },
+  "days": [
+    {
+      "number": 1,
+      "focus": "الأفعال القياسية · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الأفعال القياسية",
+          "minutes": 25,
+          "ref": "vocab:regular_verbs"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:1"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "focus": "تعبيرات الزمن الماضي · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "تعبيرات الزمن الماضي",
+          "minutes": 25,
+          "ref": "vocab:past_time_expressions"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:2"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "focus": "النطق · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "النطق",
+          "minutes": 25,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:3"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "focus": "الحياة والطفولة · الحوار الأول · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الحياة والطفولة · حوار: What Did You Do Yesterday?",
+          "minutes": 25,
+          "ref": "vocab:life_and_childhood|dialogue:1"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:4"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "focus": "النطق · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "النطق",
+          "minutes": 25,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:5"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "focus": "المشاعر وردود الفعل · الحوار الثاني · الاستماع · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "المشاعر وردود الفعل · حوار: Talking About Childhood · الاستماع",
+          "minutes": 25,
+          "ref": "vocab:feelings_and_reactions|dialogue:2|section:listening"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:6"
+        },
+        {
+          "order": 5,
+          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "focus": "القراءة · الكتابة · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "القراءة · الكتابة",
+          "minutes": 25,
+          "ref": "section:reading|writing:1|record"
+        },
+        {
+          "order": 3,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 15,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 4,
+          "label": "تمارين اليوم",
+          "minutes": 5,
+          "ref": "exercises:7"
+        },
+        {
+          "order": 5,
+          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record:baseline"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "group": "regular_verbs",
+      "word": "work → worked",
+      "ipa": "/wɜːkt/",
+      "arabic": "عمل",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "play → played",
+      "ipa": "/pleɪd/",
+      "arabic": "لعب",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "want → wanted",
+      "ipa": "/ˈwɒntɪd/",
+      "arabic": "أراد",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "need → needed",
+      "ipa": "/ˈniːdɪd/",
+      "arabic": "احتاج",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "start → started",
+      "ipa": "/ˈstɑːtɪd/",
+      "arabic": "بدأ",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "finish → finished",
+      "ipa": "/ˈfɪnɪʃt/",
+      "arabic": "أنهى",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "watch → watched",
+      "ipa": "/wɒtʃt/",
+      "arabic": "شاهد",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "cook → cooked",
+      "ipa": "/kʊkt/",
+      "arabic": "طبخ",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "clean → cleaned",
+      "ipa": "/kliːnd/",
+      "arabic": "نظّف",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "wash → washed",
+      "ipa": "/wɒʃt/",
+      "arabic": "غسل",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "walk → walked",
+      "ipa": "/wɔːkt/",
+      "arabic": "مشى",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "talk → talked",
+      "ipa": "/tɔːkt/",
+      "arabic": "تحدّث",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "listen → listened",
+      "ipa": "/ˈlɪsnd/",
+      "arabic": "استمع",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "open → opened",
+      "ipa": "/ˈəʊpənd/",
+      "arabic": "فتح",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "close → closed",
+      "ipa": "/kləʊzd/",
+      "arabic": "أغلق",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "live → lived",
+      "ipa": "/lɪvd/",
+      "arabic": "عاش",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "love → loved",
+      "ipa": "/lʌvd/",
+      "arabic": "أحبّ",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "like → liked",
+      "ipa": "/laɪkt/",
+      "arabic": "أعجبه",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "hate → hated",
+      "ipa": "/ˈheɪtɪd/",
+      "arabic": "كره",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "help → helped",
+      "ipa": "/helpt/",
+      "arabic": "ساعد",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "learn → learned",
+      "ipa": "/lɜːnd/",
+      "arabic": "تعلّم",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "study → studied",
+      "ipa": "/ˈstʌdid/",
+      "arabic": "درس",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "travel → travelled",
+      "ipa": "/ˈtrævld/",
+      "arabic": "سافر",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "visit → visited",
+      "ipa": "/ˈvɪzɪtɪd/",
+      "arabic": "زار",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "arrive → arrived",
+      "ipa": "/əˈraɪvd/",
+      "arabic": "وصل",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "stay → stayed",
+      "ipa": "/steɪd/",
+      "arabic": "بقي",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "call → called",
+      "ipa": "/kɔːld/",
+      "arabic": "اتصل",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "ask → asked",
+      "ipa": "/ɑːskt/",
+      "arabic": "سأل",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "answer → answered",
+      "ipa": "/ˈɑːnsəd/",
+      "arabic": "أجاب",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "decide → decided",
+      "ipa": "/dɪˈsaɪdɪd/",
+      "arabic": "قرّر",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "happen → happened",
+      "ipa": "/ˈhæpənd/",
+      "arabic": "حدث",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "move → moved",
+      "ipa": "/muːvd/",
+      "arabic": "انتقل",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "change → changed",
+      "ipa": "/tʃeɪndʒd/",
+      "arabic": "غيّر",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "remember → remembered",
+      "ipa": "/rɪˈmembəd/",
+      "arabic": "تذكّر",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "regular_verbs",
+      "word": "stop → stopped",
+      "ipa": "/stɒpt/",
+      "arabic": "توقّف",
+      "example": null,
+      "group_label_ar": "الأفعال القياسية",
+      "group_label_en": "Regular Verbs"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "yesterday",
+      "ipa": null,
+      "arabic": "أمس",
+      "example": "I worked late yesterday.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "the day before yesterday",
+      "ipa": null,
+      "arabic": "أول أمس",
+      "example": "We arrived the day before yesterday.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "last night",
+      "ipa": null,
+      "arabic": "الليلة الماضية",
+      "example": "I called my mother last night.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "last week / month / year",
+      "ipa": null,
+      "arabic": "الأسبوع/الشهر/العام الماضي",
+      "example": "She travelled to Spain last year.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "last Friday",
+      "ipa": null,
+      "arabic": "الجمعة الماضية",
+      "example": "We visited them last Friday.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "… ago",
+      "ipa": null,
+      "arabic": "منذ …",
+      "example": "I moved here two years ago.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "in 2019",
+      "ipa": null,
+      "arabic": "في 2019",
+      "example": "He finished university in 2019.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "when I was a child",
+      "ipa": null,
+      "arabic": "عندما كنت طفلاً",
+      "example": "When I was a child, I lived in a village.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "at that time",
+      "ipa": null,
+      "arabic": "في ذلك الوقت",
+      "example": "At that time I didn't speak English.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "in the past",
+      "ipa": null,
+      "arabic": "في الماضي",
+      "example": "People walked more in the past.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "then",
+      "ipa": null,
+      "arabic": "ثم",
+      "example": "I washed the car, then I cleaned the house.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "after that",
+      "ipa": null,
+      "arabic": "بعد ذلك",
+      "example": "After that we watched a film.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "later",
+      "ipa": null,
+      "arabic": "لاحقاً",
+      "example": "She called me later.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "finally",
+      "ipa": null,
+      "arabic": "أخيراً",
+      "example": "Finally, we arrived at ten.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "one day",
+      "ipa": null,
+      "arabic": "ذات يوم",
+      "example": "One day he decided to change his life.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "once",
+      "ipa": null,
+      "arabic": "مرة",
+      "example": "I visited London once.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "for two years",
+      "ipa": null,
+      "arabic": "لمدة سنتين",
+      "example": "I lived there for two years.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "from 2015 to 2020",
+      "ipa": null,
+      "arabic": "من 2015 إلى 2020",
+      "example": "He worked there from 2015 to 2020.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "during",
+      "ipa": null,
+      "arabic": "خلال",
+      "example": "It rained during the night.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "past_time_expressions",
+      "word": "recently",
+      "ipa": null,
+      "arabic": "مؤخراً",
+      "example": "They moved house recently.",
+      "group_label_ar": "تعبيرات الزمن الماضي",
+      "group_label_en": "Past Time Expressions"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "childhood",
+      "ipa": "/ˈtʃaɪldhʊd/",
+      "arabic": "طفولة",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "village",
+      "ipa": "/ˈvɪlɪdʒ/",
+      "arabic": "قرية",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "born",
+      "ipa": "/bɔːn/",
+      "arabic": "وُلد",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "town",
+      "ipa": "/taʊn/",
+      "arabic": "بلدة",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "grow up",
+      "ipa": "/ɡrəʊ ˈʌp/",
+      "arabic": "نشأ",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "countryside",
+      "ipa": "/ˈkʌntrisaɪd/",
+      "arabic": "الريف",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "young",
+      "ipa": "/jʌŋ/",
+      "arabic": "صغير السن",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "abroad",
+      "ipa": "/əˈbrɔːd/",
+      "arabic": "في الخارج",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "school",
+      "ipa": "/skuːl/",
+      "arabic": "مدرسة",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "memory",
+      "ipa": "/ˈmeməri/",
+      "arabic": "ذكرى",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "classmate",
+      "ipa": "/ˈklɑːsmeɪt/",
+      "arabic": "زميل دراسة",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "photo",
+      "ipa": "/ˈfəʊtəʊ/",
+      "arabic": "صورة",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "university",
+      "ipa": "/ˌjuːnɪˈvɜːsəti/",
+      "arabic": "جامعة",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "first",
+      "ipa": "/fɜːst/",
+      "arabic": "أول",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "degree",
+      "ipa": "/dɪˈɡriː/",
+      "arabic": "شهادة جامعية",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "last",
+      "ipa": "/lɑːst/",
+      "arabic": "آخر",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "job",
+      "ipa": "/dʒɒb/",
+      "arabic": "وظيفة",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "difficult",
+      "ipa": "/ˈdɪfɪkəlt/",
+      "arabic": "صعب",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "company",
+      "ipa": "/ˈkʌmpəni/",
+      "arabic": "شركة",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "easy",
+      "ipa": "/ˈiːzi/",
+      "arabic": "سهل",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "salary",
+      "ipa": "/ˈsæləri/",
+      "arabic": "راتب",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "important",
+      "ipa": "/ɪmˈpɔːtnt/",
+      "arabic": "مهم",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "married",
+      "ipa": "/ˈmærid/",
+      "arabic": "متزوج",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "strange",
+      "ipa": "/streɪndʒ/",
+      "arabic": "غريب",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "life_and_childhood",
+      "word": "single",
+      "ipa": "/ˈsɪŋɡl/",
+      "arabic": "أعزب",
+      "example": null,
+      "group_label_ar": "الحياة والطفولة",
+      "group_label_en": "Life and Childhood"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "happy",
+      "ipa": "/ˈhæpi/",
+      "arabic": "سعيد",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "excited",
+      "ipa": "/ɪkˈsaɪtɪd/",
+      "arabic": "متحمّس",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "sad",
+      "ipa": "/sæd/",
+      "arabic": "حزين",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "nervous",
+      "ipa": "/ˈnɜːvəs/",
+      "arabic": "متوتر",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "tired",
+      "ipa": "/ˈtaɪəd/",
+      "arabic": "متعب",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "afraid",
+      "ipa": "/əˈfreɪd/",
+      "arabic": "خائف",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "angry",
+      "ipa": "/ˈæŋɡri/",
+      "arabic": "غاضب",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "proud",
+      "ipa": "/praʊd/",
+      "arabic": "فخور",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "worried",
+      "ipa": "/ˈwʌrid/",
+      "arabic": "قلق",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "lucky",
+      "ipa": "/ˈlʌki/",
+      "arabic": "محظوظ",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "surprised",
+      "ipa": "/səˈpraɪzd/",
+      "arabic": "متفاجئ",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "lonely",
+      "ipa": "/ˈləʊnli/",
+      "arabic": "وحيد",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "bored",
+      "ipa": "/bɔːd/",
+      "arabic": "ملول",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "relaxed",
+      "ipa": "/rɪˈlækst/",
+      "arabic": "مرتاح",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "interested",
+      "ipa": "/ˈɪntrəstɪd/",
+      "arabic": "مهتم",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "disappointed",
+      "ipa": "/ˌdɪsəˈpɔɪntɪd/",
+      "arabic": "خائب الأمل",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "glad",
+      "ipa": "/ɡlæd/",
+      "arabic": "مسرور",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "confident",
+      "ipa": "/ˈkɒnfɪdənt/",
+      "arabic": "واثق",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "difficult time",
+      "ipa": "/ˈdɪfɪkəlt taɪm/",
+      "arabic": "وقت صعب",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    },
+    {
+      "group": "feelings_and_reactions",
+      "word": "good time",
+      "ipa": "/ɡʊd taɪm/",
+      "arabic": "وقت جميل",
+      "example": null,
+      "group_label_ar": "المشاعر وردود الفعل",
+      "group_label_en": "Feelings and Reactions"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "group_label": "The Three -ed Sounds",
+      "ipa": null,
+      "word_a": "worked",
+      "word_b": "wanted",
+      "group_label_ar": "نهاية ‎-ed‎ الثلاثة",
+      "hint_ar": "تُكتب ed وتُنطق ثلاثاً: /t/ بعد الصوت المهموس (worked)، و/d/ بعد المجهور (played)، و/ɪd/ بعد t وd وحدهما (wanted). ولا تقل «إد» في كل مرة."
+    },
+    {
+      "group_label": "The Three -ed Sounds",
+      "ipa": null,
+      "word_a": "played",
+      "word_b": "needed",
+      "group_label_ar": "نهاية ‎-ed‎ الثلاثة",
+      "hint_ar": "تُكتب ed وتُنطق ثلاثاً: /t/ بعد الصوت المهموس (worked)، و/d/ بعد المجهور (played)، و/ɪd/ بعد t وd وحدهما (wanted). ولا تقل «إد» في كل مرة."
+    },
+    {
+      "group_label": "The Three -ed Sounds",
+      "ipa": null,
+      "word_a": "washed",
+      "word_b": "started",
+      "group_label_ar": "نهاية ‎-ed‎ الثلاثة",
+      "hint_ar": "تُكتب ed وتُنطق ثلاثاً: /t/ بعد الصوت المهموس (worked)، و/d/ بعد المجهور (played)، و/ɪd/ بعد t وd وحدهما (wanted). ولا تقل «إد» في كل مرة."
+    }
+  ],
+  "dialogues": [
+    {
+      "number": 1,
+      "title": "What Did You Do Yesterday?",
+      "situation_en": "Monday morning at work. Lina and Sami catch up.",
+      "situation_ar": "صباح الاثنين في العمل. لينا وسامي يتبادلان أخبار نهاية الأسبوع.",
+      "speaker_genders": {
+        "LINA": "f",
+        "SAMI": "m"
+      },
+      "lines": [
+        {
+          "speaker": "LINA",
+          "en": "Good morning! You look tired.",
+          "ar": "صباح الخير! تبدو متعباً."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "I am. I worked until nine o'clock last night.",
+          "ar": "أنا كذلك. عملت حتى التاسعة الليلة الماضية."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Nine? That's very late. Was it an emergency?",
+          "ar": "التاسعة؟ هذا متأخر جداً. هل كانت حالة طارئة؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Yes. There was a problem with the system.",
+          "ar": "نعم. كانت هناك مشكلة في النظام."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Was anyone else there?",
+          "ar": "هل كان أحد آخر هناك؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Two colleagues. We stayed together until we finished.",
+          "ar": "زميلان. بقينا معاً حتى أنهينا."
+        },
+        {
+          "speaker": "LINA",
+          "en": "And your weekend? Was it good?",
+          "ar": "وعطلتك؟ هل كانت جيدة؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "It was lovely, actually. We visited my parents.",
+          "ar": "كانت جميلة في الواقع. زرنا والديّ."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Where do they live?",
+          "ar": "أين يسكنان؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "In a small village. I lived there when I was a child.",
+          "ar": "في قرية صغيرة. عشت هناك عندما كنت طفلاً."
+        },
+        {
+          "speaker": "LINA",
+          "en": "That sounds nice. What did you do there?",
+          "ar": "يبدو ذلك جميلاً. ماذا فعلتم هناك؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Not much. We talked, we walked, my mother cooked too much food.",
+          "ar": "ليس الكثير. تحدثنا، مشينا، وأمي طبخت طعاماً كثيراً جداً."
+        },
+        {
+          "speaker": "LINA",
+          "en": "The best kind of weekend.",
+          "ar": "أفضل نوع من العطل."
+        },
+        {
+          "speaker": "SAMI",
+          "en": "It was. And you? What about your weekend?",
+          "ar": "كانت كذلك. وأنت؟ ماذا عن عطلتك؟"
+        },
+        {
+          "speaker": "LINA",
+          "en": "I stayed at home. I was ill, so I watched films and slept.",
+          "ar": "بقيت في البيت. كنت مريضة، فشاهدت أفلاماً ونمت."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Talking About Childhood",
+      "situation_en": "",
+      "situation_ar": "حديث عن الطفولة: أين كان يسكن، وكيف كانت أيامه.",
+      "speaker_genders": {
+        "LINA": "f",
+        "SAMI": "m"
+      },
+      "lines": [
+        {
+          "speaker": "LINA",
+          "en": "So you grew up in a village? What was it like?",
+          "ar": "إذن نشأت في قرية؟ كيف كانت؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Very quiet. There were about two hundred people.",
+          "ar": "هادئة جداً. كان هناك حوالي مئتي شخص."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Two hundred! Was there a school?",
+          "ar": "مئتان! هل كانت هناك مدرسة؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "One school, one shop, one mosque. That was everything.",
+          "ar": "مدرسة واحدة، متجر واحد، مسجد واحد. كان ذلك كل شيء."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Were you happy there?",
+          "ar": "هل كنت سعيداً هناك؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Very. We played outside all day. There weren't any phones.",
+          "ar": "جداً. كنا نلعب في الخارج طوال اليوم. لم تكن هناك هواتف."
+        },
+        {
+          "speaker": "LINA",
+          "en": "And school? Did you like it?",
+          "ar": "والمدرسة؟ هل أحببتها؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "I hated it at first. My teacher was very strict.",
+          "ar": "كرهتها في البداية. كان معلمي صارماً جداً."
+        },
+        {
+          "speaker": "LINA",
+          "en": "What changed?",
+          "ar": "ما الذي تغيّر؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "In my third year we moved to a new school. It was much better.",
+          "ar": "في سنتي الثالثة انتقلنا إلى مدرسة جديدة. كانت أفضل بكثير."
+        },
+        {
+          "speaker": "LINA",
+          "en": "When did you leave the village?",
+          "ar": "متى غادرت القرية؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "When I was seventeen. I moved to the city for university.",
+          "ar": "عندما كنت في السابعة عشرة. انتقلت إلى المدينة للجامعة."
+        },
+        {
+          "speaker": "LINA",
+          "en": "Was that difficult?",
+          "ar": "هل كان ذلك صعباً؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "The first year was terrible. I was lonely and everything was expensive.",
+          "ar": "السنة الأولى كانت فظيعة. كنت وحيداً وكل شيء كان غالياً."
+        },
+        {
+          "speaker": "LINA",
+          "en": "And now?",
+          "ar": "والآن؟"
+        },
+        {
+          "speaker": "SAMI",
+          "en": "Now I love the city. But I visit the village every month.",
+          "ar": "الآن أحب المدينة. لكني أزور القرية كل شهر."
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "kind": "grammar",
+      "day_number": 4,
+      "title_ar": "القواعد",
+      "title_en": "Grammar — The Past Simple (Part One)",
+      "payload": {
+        "rule_ar": "الماضي البسيط زمن الحدث المنتهي في وقت معلوم. وفعل الكون له صيغتان فقط: was مع I و he و she و it، و were مع you و we و they. أما الأفعال القياسية فتأخذ -ed، وتُنطق نهايتها ثلاثة أشكال بحسب الصوت الذي قبلها — وإضافة مقطع حيث لا مقطع أوضح علامة مبتدئ.",
+        "rule_en": "I / He / She / It   ->  was     I was tired.   She was at home.",
+        "common_errors": [
+          {
+            "error_no": 1,
+            "wrong": "I was tired yesterday ✓",
+            "right": "I was tired yesterday.",
+            "arabic": "كنت متعباً",
+            "why_ar": "هذه صحيحة — be يعمل بالطريقة نفسها"
+          },
+          {
+            "error_no": 2,
+            "wrong": "They was at home",
+            "right": "They were at home.",
+            "arabic": "هم كانوا في البيت",
+            "why_ar": "they تأخذ were"
+          },
+          {
+            "error_no": 3,
+            "wrong": "He worked**s** here",
+            "right": "He worked here.",
+            "arabic": "هو عمل هنا",
+            "why_ar": "لا -s في الماضي أبداً"
+          },
+          {
+            "error_no": 4,
+            "wrong": "ago two years",
+            "right": "two years ago",
+            "arabic": "منذ سنتين",
+            "why_ar": "ago تأتي بعد المدّة"
+          },
+          {
+            "error_no": 5,
+            "wrong": "I studyed English",
+            "right": "I studied English.",
+            "arabic": "درست الإنجليزية",
+            "why_ar": "ساكن + y ← ied"
+          },
+          {
+            "error_no": 6,
+            "wrong": "The car stoped",
+            "right": "The car stopped.",
+            "arabic": "توقفت السيارة",
+            "why_ar": "ضاعف الساكن الأخير"
+          },
+          {
+            "error_no": 7,
+            "wrong": "I lived there since 3 years",
+            "right": "I lived there for three years.",
+            "arabic": "عشت هناك ٣ سنوات",
+            "why_ar": "for + مدّة زمنية"
+          }
+        ],
+        "checklist_ar": [
+          "was مع المفرد · were مع الجمع و you",
+          "النفي بـwasn’t و weren’t — وبـdidn’t مع بقية الأفعال",
+          "بعد didn’t فعل مجرّد لا ماضٍ",
+          "إملاء -ed: study → studied · stop → stopped",
+          "نطق -ed ثلاثة: /t/ · /d/ · /ɪd/"
+        ]
+      }
+    },
+    {
+      "kind": "phonics",
+      "day_number": 1,
+      "title_ar": "النطق",
+      "title_en": "Pronunciation — The Three -ed Sounds",
+      "payload": {
+        "intro_ar": "نهاية -ed تُكتب شكلاً واحداً وتُنطق ثلاثة. وأكبر خطأ إضافة مقطع حيث لا مقطع: worked مقطع واحد /wɜːkt/، ومن يقول «وور-كِد» يُسمَع مبتدئاً فوراً.",
+        "symbols": [],
+        "tip_ar": "اختبار الثانيتين: انظر إلى الحرف قبل -ed. إن كان t أو d فقل /ɪd/ وأضف مقطعاً. وإلا فلا مقطع إضافي أبداً."
+      }
+    },
+    {
+      "kind": "listening",
+      "day_number": 6,
+      "title_ar": "الاستماع",
+      "title_en": "Listening — \"The Year Everything Changed\"",
+      "payload": {
+        "method_ar": [
+          "استمع كاملاً بلا نصّ. عمّا يتحدّث؟ قلها في جملة واحدة.",
+          "استمع مرة أخرى واكتب أي كلمة لم تلتقطها.",
+          "افتح النصّ واقرأه وأنت تستمع.",
+          "أغلق النصّ واستمع مرة أخيرة، ولاحظ كم صار أوضح."
+        ],
+        "transcript": [
+          {
+            "en": "Ten years ago my life was completely different. I was twenty-four, I lived with my parents, and I worked in a small shop near my house. The salary was very low but the work was easy, and I was comfortable. Maybe too comfortable.",
+            "ar": "قبل عشر سنوات كانت حياتي مختلفة تماماً. كنت في الرابعة والعشرين، أسكن مع والديّ، وأعمل في محلّ صغير قرب بيتي. كان الراتب منخفضاً جداً لكن العمل سهل، وكنت مرتاحاً. ربما مرتاحاً أكثر من اللازم."
+          },
+          {
+            "en": "One day in March, the owner closed the shop. He was old and he wanted to stop working. Suddenly I needed a job, and I wasn't ready. I remember that week very clearly. I was worried and I was angry.",
+            "ar": "في يوم من أيام مارس أغلق صاحب المحلّ محلّه. كان كبيراً في السنّ وأراد أن يتوقّف عن العمل. وفجأة صرت أحتاج عملاً ولم أكن مستعدّاً. أتذكّر ذلك الأسبوع بوضوح شديد. كنت قلقاً وكنت غاضباً."
+          },
+          {
+            "en": "I asked in twenty different places. Nobody answered. Finally a friend called me and told me about a company in the city. They needed someone with computer skills. I wasn't good with computers, but I was desperate, so I studied every night for a month. Then I applied.",
+            "ar": "سألت في عشرين مكاناً مختلفاً. لم يجبني أحد. وأخيراً اتّصل بي صديق وأخبرني عن شركة في المدينة. كانوا يحتاجون شخصاً يجيد الحاسوب. لم أكن جيداً في الحاسوب، لكنني كنت يائساً، فدرست كل ليلة شهراً كاملاً. ثم قدّمت طلبي."
+          },
+          {
+            "en": "The interview was terrible. I was nervous and I answered badly. But the manager was kind. She asked me one question: \"Why do you want this job?\" I answered honestly. I said I studied for a month because I needed to change my life.",
+            "ar": "كانت المقابلة فظيعة. كنت متوتّراً وأجبت إجابات سيّئة. لكن المديرة كانت لطيفة. سألتني سؤالاً واحداً: «لماذا تريد هذا العمل؟» فأجبت بصدق. قلت إنني درست شهراً لأنني أحتاج أن أغيّر حياتي."
+          },
+          {
+            "en": "She called me two days later. I started on a Monday. That was nine years ago, and I still work there.",
+            "ar": "اتّصلت بي بعد يومين. وبدأت العمل يوم الاثنين. كان ذلك قبل تسع سنوات، وما زلت أعمل هناك."
+          },
+          {
+            "en": "Sometimes I think about that shop. If the owner didn't close it, maybe I was still there today, comfortable and going nowhere. It was the worst month of my life, and it was the best thing that happened to me.",
+            "ar": "أفكّر أحياناً في ذلك المحلّ. لو لم يغلقه صاحبه لكنت ربما ما زلت فيه اليوم، مرتاحاً ولا أمضي إلى شيء. كان أسوأ شهر في حياتي، وكان أفضل ما حدث لي."
+          }
+        ],
+        "questions": []
+      }
+    },
+    {
+      "kind": "reading",
+      "day_number": 7,
+      "title_ar": "القراءة",
+      "title_en": "Reading — \"The Postman Who Built a Palace\"",
+      "payload": {
+        "method_ar": "اقرأ مرتين. الأولى بلا توقّف، والثانية مع المسرد.",
+        "story": [
+          {
+            "en": "In 1879, a French postman called Ferdinand Cheval walked twenty-five kilometres every day to deliver letters. He walked the same road for years. It was quiet, boring work.",
+            "ar": "في سنة 1879 كان ساعي بريد فرنسي اسمه فرديناند شوفال يمشي خمسة وعشرين كيلومتراً كل يوم ليوصل الرسائل. مشى الطريق نفسه سنوات. كان عملاً هادئاً مملّاً."
+          },
+          {
+            "en": "One April morning he tripped on a stone. He picked it up and looked at it. The shape was very strange — like nothing he saw before. He put it in his pocket and carried it home.",
+            "ar": "في صباح يوم من أبريل تعثّر بحجر. التقطه ونظر إليه. كان شكله غريباً جداً — لا يشبه شيئاً رآه من قبل. وضعه في جيبه وحمله إلى البيت."
+          },
+          {
+            "en": "The next day he looked for more stones. And the next day. Soon he carried stones home every evening, first in his pockets, then in a basket, then in a wheelbarrow. His neighbours laughed at him. They called him \"the crazy postman\".",
+            "ar": "في اليوم التالي بحث عن حجارة أخرى. وفي اليوم الذي يليه أيضاً. وسرعان ما صار يحمل الحجارة إلى بيته كل مساء، في جيوبه أولاً، ثم في سلّة، ثم في عربة يد. وكان جيرانه يضحكون عليه ويسمّونه «ساعي البريد المجنون»."
+          },
+          {
+            "en": "He wanted to build a palace. He wasn't an architect. He wasn't a builder. He never studied art. He simply started, alone, in his garden, at night, after twenty-five kilometres of walking.",
+            "ar": "كان يريد أن يبني قصراً. لم يكن مهندساً معمارياً. ولم يكن بنّاءً. ولم يدرس الفنّ يوماً. لكنه بدأ ببساطة، وحده، في حديقته، ليلاً، بعد خمسة وعشرين كيلومتراً من المشي."
+          },
+          {
+            "en": "He worked on it for thirty-three years. He finished in 1912, when he was seventy-six. The result is a building fifteen metres high, covered in animals, towers and faces, and it is unlike any other building in the world.",
+            "ar": "عمل فيه ثلاثاً وثلاثين سنة. وأنهاه سنة 1912 وعمره ستّ وسبعون. والنتيجة بناء ارتفاعه خمسة عشر متراً، مغطّى بالحيوانات والأبراج والوجوه، ولا يشبه أي بناء آخر في العالم."
+          },
+          {
+            "en": "Today it is a protected national monument and thousands of tourists visit it every year. On one wall Cheval carved a sentence: \"The work of one man.\"",
+            "ar": "واليوم هو معلَم وطني محميّ يزوره آلاف السيّاح كل سنة. وعلى أحد جدرانه نقش شوفال جملة واحدة: «عمل رجل واحد»."
+          }
+        ],
+        "glossary": [
+          {
+            "en": "postman",
+            "ipa": "/ˈpəʊstmən/",
+            "ar": "ساعي بريد",
+            "note_ar": "Compound → stress the first part"
+          },
+          {
+            "en": "deliver",
+            "ipa": "/dɪˈlɪvə(r)/",
+            "ar": "يوصّل",
+            "note_ar": "Stress on the second"
+          },
+          {
+            "en": "trip on",
+            "ipa": "/trɪp ɒn/",
+            "ar": "يتعثّر بـ",
+            "note_ar": "Past: tripped"
+          },
+          {
+            "en": "stone",
+            "ipa": "/stəʊn/",
+            "ar": "حجر",
+            "note_ar": "—"
+          },
+          {
+            "en": "pick up",
+            "ipa": "/pɪk ˈʌp/",
+            "ar": "يلتقط",
+            "note_ar": "Past: picked up"
+          },
+          {
+            "en": "shape",
+            "ipa": "/ʃeɪp/",
+            "ar": "شكل",
+            "note_ar": "—"
+          },
+          {
+            "en": "pocket",
+            "ipa": "/ˈpɒkɪt/",
+            "ar": "جيب",
+            "note_ar": "—"
+          },
+          {
+            "en": "basket",
+            "ipa": "/ˈbɑːskɪt/",
+            "ar": "سلة",
+            "note_ar": "—"
+          },
+          {
+            "en": "wheelbarrow",
+            "ipa": "/ˈwiːlbærəʊ/",
+            "ar": "عربة يد",
+            "note_ar": "—"
+          },
+          {
+            "en": "laugh at",
+            "ipa": "/lɑːf ət/",
+            "ar": "يسخر من",
+            "note_ar": "The gh = /f/"
+          },
+          {
+            "en": "crazy",
+            "ipa": "/ˈkreɪzi/",
+            "ar": "مجنون",
+            "note_ar": "—"
+          },
+          {
+            "en": "palace",
+            "ipa": "/ˈpæləs/",
+            "ar": "قصر",
+            "note_ar": "—"
+          },
+          {
+            "en": "architect",
+            "ipa": "/ˈɑːkɪtekt/",
+            "ar": "مهندس معماري",
+            "note_ar": "The ch = /k/"
+          },
+          {
+            "en": "tower",
+            "ipa": "/ˈtaʊə(r)/",
+            "ar": "برج",
+            "note_ar": "—"
+          },
+          {
+            "en": "carve",
+            "ipa": "/kɑːv/",
+            "ar": "ينحت",
+            "note_ar": "Past: carved"
+          },
+          {
+            "en": "monument",
+            "ipa": "/ˈmɒnjumənt/",
+            "ar": "نصب تذكاري",
+            "note_ar": "—"
+          }
+        ],
+        "questions": []
+      }
+    },
+    {
+      "kind": "selfcheck",
+      "day_number": 7,
+      "title_ar": "الاختبار الذاتي — نهاية الفصل",
+      "title_en": "End-of-Chapter Self-Check",
+      "payload": {
+        "intro_ar": "كن صادقاً. هذا يحدّد هل تنتقل أم تُعيد.",
+        "items": [
+          {
+            "can_ar": "أستخدم was و were صحيحة في عشر جمل بلا تردّد",
+            "can_en": "Use was and were correctly in 10 sentences without hesitating?",
+            "proof_ar": "تمارين اليوم 2"
+          },
+          {
+            "can_ar": "أكتب ماضي 13 من 15 فعلاً",
+            "can_en": "Write the past of 13 of the 15 verbs in Exercise 3?",
+            "proof_ar": "تمارين اليوم 3"
+          },
+          {
+            "can_ar": "أقول عشر جمل ماضية بلا -s على أي فعل",
+            "can_en": "Say ten past sentences with no -s on any verb?",
+            "proof_ar": "تمارين اليوم 3"
+          },
+          {
+            "can_ar": "أحصل على 14 من 16 في اختبار تمييز -ed",
+            "can_en": "Score 14/16 on the -ed discrimination test?",
+            "proof_ar": "لعبة التمييز الصوتي"
+          },
+          {
+            "can_ar": "أنطق worked و wanted بعدد المقاطع الصحيح",
+            "can_en": "Say worked and wanted with the right number of syllables?",
+            "proof_ar": "قسم النطق"
+          },
+          {
+            "can_ar": "أستخدم ago صحيحاً في ثلاث جمل",
+            "can_en": "Use ago correctly in three sentences?",
+            "proof_ar": "تمارين اليوم 5"
+          },
+          {
+            "can_ar": "أصف طفولتي في 60 ثانية",
+            "can_en": "Describe your childhood for 60 seconds?",
+            "proof_ar": "الحوار الثاني"
+          },
+          {
+            "can_ar": "أتذكّر 80 من 100 كلمة من العربية",
+            "can_en": "Recall 80 of the 100 words from the Arabic?",
+            "proof_ar": "جلسة المراجعة المتباعدة — تقول لك الرقم"
+          },
+          {
+            "can_ar": "أتحدّث 100 ثانية عن حياتي قبل خمس سنوات",
+            "can_en": "Speak for 100 seconds about your life five years ago?",
+            "proof_ar": "تسجيل هذا الأسبوع"
+          }
+        ],
+        "pass_ar": "8–9 ✓ → انتقل إلى الأسبوع الثامن — الأفعال الشاذة.",
+        "partial_ar": "6–7 ✓ → انتقل، لكن تابع تدريب أصوات النهاية -ed يومياً.",
+        "fail_ar": "أقل من 6 → أعد قسمي القواعد والنطق. الأسبوع الثامن يضيف 100 فعل شاذّ فوق هذا."
+      }
+    },
+    {
+      "kind": "breaktime",
+      "day_number": 7,
+      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
+      "title_en": "Break Time — English Outside the Book",
+      "payload": {
+        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
+        "compare": [
+          {
+            "aspect_ar": "الكمّ",
+            "intensive_ar": "دقائق من الصوت",
+            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
+          },
+          {
+            "aspect_ar": "الفهم",
+            "intensive_ar": "تستهدف 100%",
+            "extensive_ar": "50–70% تكفي"
+          },
+          {
+            "aspect_ar": "الجهد",
+            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
+            "extensive_ar": "منخفض — تسترخي وتستمتع"
+          },
+          {
+            "aspect_ar": "ما يبنيه",
+            "intensive_ar": "الدقّة والقواعد",
+            "extensive_ar": "السرعة والأذن والحدس والمفردات"
+          },
+          {
+            "aspect_ar": "لو أغفلته",
+            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
+            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
+          }
+        ],
+        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
+        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
+        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
+        "song": {
+          "pick": {
+            "title": "Yesterday",
+            "artist": "The Beatles",
+            "why_en": "The most famous past-tense song in English. Slow, short, and the whole lyric sits in the Past Simple.",
+            "search": "Yesterday The Beatles"
+          },
+          "alternatives": [
+            {
+              "title": "Someone Like You",
+              "artist": "Adele",
+              "why_en": "Very clear diction and a story told entirely in the past. Longer, so a good stretch.",
+              "search": "Someone Like You Adele"
+            },
+            {
+              "title": "The Night We Met",
+              "artist": "Lord Huron",
+              "why_en": "Slow and simple. Excellent for hearing the -ed endings clearly.",
+              "search": "The Night We Met Lord Huron"
+            }
+          ],
+          "item": {
+            "key": "song",
+            "icon": "🎵",
+            "label_ar": "أغنية الأسبوع",
+            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
+            "minutes": 20,
+            "steps": [
+              "استمع مرة للمتعة.",
+              "استمع ثانية واكتب كل فعل ماضٍ سمعته.",
+              "صنّفها في ثلاث مجموعات: /t/ و/d/ و/ɪd/.",
+              "غنِّ معها مرة — الغناء يمدّ النهايات فتُسمع أوضح من الكلام."
+            ],
+            "prompt_ar": "اكتب الأفعال التي سمعتها ومجموعة كل واحد"
+          }
+        },
+        "watch": {
+          "pick": {
+            "title": "Extra English — Episodes 9–10",
+            "level": "A1–A2",
+            "where": "YouTube",
+            "why_en": "You are a third of the way through the series.",
+            "search": "Extra English — Episodes 9–10"
+          },
+          "alternatives": [
+            {
+              "title": "Easy English — \"What did you do last weekend?\"",
+              "level": "A2",
+              "where": "YouTube — search it",
+              "why_en": "Dozens of real people using exactly this chapter’s grammar in one video. The single most relevant thing you can watch this week.",
+              "search": "Easy English — \"What did you do last weekend?\""
+            },
+            {
+              "title": "Forrest Gump",
+              "level": "A2–B1",
+              "where": "Any streaming service",
+              "why_en": "Slow, deliberate speech throughout and the entire film is a story told in the past. Save it for Week 8 film night if you prefer.",
+              "search": "Forrest Gump"
+            }
+          ],
+          "item": {
+            "key": "watch",
+            "icon": "📺",
+            "label_ar": "ما تشاهده",
+            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
+            "minutes": 25,
+            "steps": [
+              "شاهد حلقة كاملة بلا توقّف.",
+              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
+              "اكتب ثلاث عبارات علقت في ذهنك."
+            ],
+            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
+            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
+          }
+        },
+        "item_order": [
+          "song",
+          "watch"
+        ],
+        "plan": [
+          {
+            "day_ar": "السبت",
+            "activity_ar": "الأغنية + مهمة تعقّب نهاية -ed",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الأحد",
+            "activity_ar": "Extra English الحلقة 9",
+            "minutes": 25
+          },
+          {
+            "day_ar": "الاثنين",
+            "activity_ar": "Easy English — «ماذا فعلت نهاية الأسبوع الماضية؟»",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الثلاثاء",
+            "activity_ar": "Extra English الحلقة 10",
+            "minutes": 25
+          },
+          {
+            "day_ar": "الأربعاء",
+            "activity_ar": "الكتاب المتدرّج",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الخميس",
+            "activity_ar": "6 Minute English — حلقة واحدة مرتين",
+            "minutes": 15
+          },
+          {
+            "day_ar": "الجمعة",
+            "activity_ar": "الكتاب المتدرّج + اختيار حرّ",
+            "minutes": 30
+          }
+        ]
+      }
+    },
+    {
+      "kind": "speaking",
+      "title_ar": "التحدّث",
+      "title_en": "My Life Five Years Ago",
+      "payload": {
+        "task_ar": "تحدّث دقيقتين عن حياتك قبل خمس سنوات",
+        "target_seconds": 120,
+        "is_baseline": false,
+        "title_en": "My Life Five Years Ago",
+        "intro_ar": null,
+        "cover_ar": null,
+        "model_en": "Five years ago my life was very different. // I was twenty-seven and I lived in a small flat with two friends. It wasn't comfortable, but it was cheap. //\nI worked in a shop near the station. The salary was low and the hours were long, but the people were kind. I started at eight and I finished at seven. // Every evening I studied for two hours because I wanted a better job. //\nAt the weekend I played football with my friends. We played every Friday morning for three years. // I was fitter then! //\nI wasn't married and I didn't have children. I travelled a lot — I visited four countries in one year. //\nIt was a difficult time and I was often worried about money. But when I remember it now, I think I was happy. //",
+        "outline": [
+          {
+            "part_en": "The situation",
+            "say_en": "Five years ago… I was… I lived…",
+            "seconds": 25
+          },
+          {
+            "part_en": "Work or study",
+            "say_en": "I worked / studied… I started… I finished…",
+            "seconds": 30
+          },
+          {
+            "part_en": "Free time",
+            "say_en": "At the weekend I… We played… for … years",
+            "seconds": 25
+          },
+          {
+            "part_en": "What was different",
+            "say_en": "I wasn't… There weren't…",
+            "seconds": 20
+          },
+          {
+            "part_en": "How you feel now",
+            "say_en": "It was… but when I remember it now…",
+            "seconds": 20
+          }
+        ],
+        "rubric": [
+          {
+            "label_en": "was / were",
+            "label_ar": null,
+            "levels": [
+              "Often mixed up",
+              "Mostly correct",
+              "Always correct"
+            ]
+          },
+          {
+            "label_en": "-ed forms",
+            "label_ar": null,
+            "levels": [
+              "Often missing or with -s",
+              "Mostly correct",
+              "Correct throughout"
+            ]
+          },
+          {
+            "label_en": "-ed pronunciation",
+            "label_ar": null,
+            "levels": [
+              "All the same, or extra syllables",
+              "Two of three sounds",
+              "All three correct"
+            ]
+          },
+          {
+            "label_en": "Time expressions",
+            "label_ar": "عبارات الزمن",
+            "levels": [
+              "None or vague",
+              "Two used",
+              "Four+ used, ago in the right place"
+            ]
+          },
+          {
+            "label_en": "Connectors",
+            "label_ar": "أدوات الربط",
+            "levels": [
+              "No linking words",
+              "then used",
+              "then, after that, finally used"
+            ]
+          },
+          {
+            "label_en": "Length",
+            "label_ar": "الطول",
+            "levels": [
+              "Under 60 sec",
+              "60–100 sec",
+              "100–120 sec"
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "title_ar": "اقرأ النموذج",
+            "title_en": "Study the Model",
+            "text_en": []
+          },
+          {
+            "title_ar": "ابنِ نصّك أنت",
+            "title_en": "Build Your Version",
+            "text_en": []
+          },
+          {
+            "title_ar": "سجّل ثم قيّم نفسك",
+            "title_en": "Record and Score",
+            "text_en": [
+              "Record 2 minutes from memory. Save as Week07.",
+              "From Module 2 onwards, record three times a week, not once. The past tense needs far more repetition than the present, because the forms are irregular and the pronunciation shifts."
+            ]
+          }
+        ],
+        "save_as": "Week07"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "لعب",
+      "payload": {
+        "options": [
+          "need → needed",
+          "play → played",
+          "study → studied",
+          "ask → asked"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "ساعد",
+      "payload": {
+        "options": [
+          "play → played",
+          "call → called",
+          "hate → hated",
+          "help → helped"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "توقّف",
+      "payload": {
+        "options": [
+          "happen → happened",
+          "walk → walked",
+          "stop → stopped",
+          "change → changed"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "أجاب",
+      "payload": {
+        "options": [
+          "play → played",
+          "answer → answered",
+          "walk → walked",
+          "study → studied"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "احتاج",
+      "payload": {
+        "options": [
+          "start → started",
+          "need → needed",
+          "visit → visited",
+          "listen → listened"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "prompt": "فتح",
+      "payload": {
+        "options": [
+          "call → called",
+          "need → needed",
+          "finish → finished",
+          "open → opened"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "was أم were؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I ______ very tired last night.",
+      "payload": {
+        "before": "I ",
+        "after": " very tired last night."
+      },
+      "answer": {
+        "accepted": [
+          "was"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "was أم were؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "They ______ at the market yesterday.",
+      "payload": {
+        "before": "They ",
+        "after": " at the market yesterday."
+      },
+      "answer": {
+        "accepted": [
+          "were"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "was أم were؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She ______ a student in 2019.",
+      "payload": {
+        "before": "She ",
+        "after": " a student in 2019."
+      },
+      "answer": {
+        "accepted": [
+          "was"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "was أم were؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "We ______ very happy.",
+      "payload": {
+        "before": "We ",
+        "after": " very happy."
+      },
+      "answer": {
+        "accepted": [
+          "were"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "was أم were؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "There ______ four people in the room.",
+      "payload": {
+        "before": "There ",
+        "after": " four people in the room."
+      },
+      "answer": {
+        "accepted": [
+          "were"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "was أم were؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "There ______ a big park near our old house.",
+      "payload": {
+        "before": "There ",
+        "after": " a big park near our old house."
+      },
+      "answer": {
+        "accepted": [
+          "was"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "was أم were؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "My parents ______ born in a village.",
+      "payload": {
+        "before": "My parents ",
+        "after": " born in a village."
+      },
+      "answer": {
+        "accepted": [
+          "were"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "was أم were؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "It ______ a difficult year.",
+      "payload": {
+        "before": "It ",
+        "after": " a difficult year."
+      },
+      "answer": {
+        "accepted": [
+          "was"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "was أم were؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "You ______ right!",
+      "payload": {
+        "before": "You ",
+        "after": " right!"
+      },
+      "answer": {
+        "accepted": [
+          "were"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "was أم were؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The children ______ excited.",
+      "payload": {
+        "before": "The children ",
+        "after": " excited."
+      },
+      "answer": {
+        "accepted": [
+          "were"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "was أم were؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ he at work yesterday?",
+      "payload": {
+        "before": "",
+        "after": " he at work yesterday?"
+      },
+      "answer": {
+        "accepted": [
+          "Was",
+          "was"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "was أم were؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ you nervous before the exam?",
+      "payload": {
+        "before": "",
+        "after": " you nervous before the exam?"
+      },
+      "answer": {
+        "accepted": [
+          "Were",
+          "were"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "التحويل إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى النفي",
+      "payload": {
+        "sentence": "I was at home."
+      },
+      "answer": {
+        "accepted": [
+          "I wasn't at home."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "التحويل إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى النفي",
+      "payload": {
+        "sentence": "They were happy."
+      },
+      "answer": {
+        "accepted": [
+          "They weren't happy."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "التحويل إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى النفي",
+      "payload": {
+        "sentence": "She was a teacher."
+      },
+      "answer": {
+        "accepted": [
+          "She wasn't a teacher."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "التحويل إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى النفي",
+      "payload": {
+        "sentence": "We were late."
+      },
+      "answer": {
+        "accepted": [
+          "We weren't late."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "التحويل إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى النفي",
+      "payload": {
+        "sentence": "There was a garden."
+      },
+      "answer": {
+        "accepted": [
+          "There wasn't a garden."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "التحويل إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى النفي",
+      "payload": {
+        "sentence": "There were any shops."
+      },
+      "answer": {
+        "accepted": [
+          "There weren't any shops."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "التحويل إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى النفي",
+      "payload": {
+        "sentence": "It was easy."
+      },
+      "answer": {
+        "accepted": [
+          "It wasn't easy."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "التحويل إلى النفي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "التحويل إلى النفي",
+      "payload": {
+        "sentence": "You were tired."
+      },
+      "answer": {
+        "accepted": [
+          "You weren't tired."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "work"
+      },
+      "answer": {
+        "accepted": [
+          "worked"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "study"
+      },
+      "answer": {
+        "accepted": [
+          "studied"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "live"
+      },
+      "answer": {
+        "accepted": [
+          "lived"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "stop"
+      },
+      "answer": {
+        "accepted": [
+          "stopped"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "play"
+      },
+      "answer": {
+        "accepted": [
+          "played"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "travel"
+      },
+      "answer": {
+        "accepted": [
+          "travelled"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "watch"
+      },
+      "answer": {
+        "accepted": [
+          "watched"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "carry"
+      },
+      "answer": {
+        "accepted": [
+          "carried"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "decide"
+      },
+      "answer": {
+        "accepted": [
+          "decided"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "plan"
+      },
+      "answer": {
+        "accepted": [
+          "planned"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "listen"
+      },
+      "answer": {
+        "accepted": [
+          "listened"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "try"
+      },
+      "answer": {
+        "accepted": [
+          "tried"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "arrive"
+      },
+      "answer": {
+        "accepted": [
+          "arrived"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "enjoy"
+      },
+      "answer": {
+        "accepted": [
+          "enjoyed"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "كتابة صيغة الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "كتابة صيغة الماضي",
+      "payload": {
+        "sentence": "wash"
+      },
+      "answer": {
+        "accepted": [
+          "washed"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "وضع الفعل في الماضي",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I ______ (work) until nine o'clock yesterday.",
+      "payload": {
+        "before": "I ",
+        "after": " (work) until nine o'clock yesterday."
+      },
+      "answer": {
+        "accepted": [
+          "worked"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "وضع الفعل في الماضي",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She ______ (study) English for three years.",
+      "payload": {
+        "before": "She ",
+        "after": " (study) English for three years."
+      },
+      "answer": {
+        "accepted": [
+          "studied"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "وضع الفعل في الماضي",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "We ______ (travel) to Turkey last summer.",
+      "payload": {
+        "before": "We ",
+        "after": " (travel) to Turkey last summer."
+      },
+      "answer": {
+        "accepted": [
+          "travelled"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "وضع الفعل في الماضي",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "They ______ (arrive) at ten o'clock.",
+      "payload": {
+        "before": "They ",
+        "after": " (arrive) at ten o'clock."
+      },
+      "answer": {
+        "accepted": [
+          "arrived"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "وضع الفعل في الماضي",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "He ______ (stop) the car near the bank.",
+      "payload": {
+        "before": "He ",
+        "after": " (stop) the car near the bank."
+      },
+      "answer": {
+        "accepted": [
+          "stopped"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "وضع الفعل في الماضي",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "My mother ______ (cook) a big dinner.",
+      "payload": {
+        "before": "My mother ",
+        "after": " (cook) a big dinner."
+      },
+      "answer": {
+        "accepted": [
+          "cooked"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "وضع الفعل في الماضي",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I ______ (listen) to music all evening.",
+      "payload": {
+        "before": "I ",
+        "after": " (listen) to music all evening."
+      },
+      "answer": {
+        "accepted": [
+          "listened"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "وضع الفعل في الماضي",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The children ______ (play) in the park.",
+      "payload": {
+        "before": "The children ",
+        "after": " (play) in the park."
+      },
+      "answer": {
+        "accepted": [
+          "played"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "وضع الفعل في الماضي",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She ______ (decide) to change her job.",
+      "payload": {
+        "before": "She ",
+        "after": " (decide) to change her job."
+      },
+      "answer": {
+        "accepted": [
+          "decided"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "وضع الفعل في الماضي",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "We ______ (live) in that flat for five years.",
+      "payload": {
+        "before": "We ",
+        "after": " (live) in that flat for five years."
+      },
+      "answer": {
+        "accepted": [
+          "lived"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "وضع الفعل في الماضي",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "He ______ (call) me last night.",
+      "payload": {
+        "before": "He ",
+        "after": " (call) me last night."
+      },
+      "answer": {
+        "accepted": [
+          "called"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "وضع الفعل في الماضي",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "They ______ (move) house two months ago.",
+      "payload": {
+        "before": "They ",
+        "after": " (move) house two months ago."
+      },
+      "answer": {
+        "accepted": [
+          "moved"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why is Sami tired? ______",
+      "payload": {
+        "before": "Why is Sami tired?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "He worked until nine o'clock last night.",
+          "He worked until nine o'clock last night",
+          "he worked until nine o'clock last night."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What was the problem? ______",
+      "payload": {
+        "before": "What was the problem?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "There was a problem with the system.",
+          "There was a problem with the system",
+          "there was a problem with the system."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Who was with him? ______",
+      "payload": {
+        "before": "Who was with him?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Two colleagues.",
+          "Two colleagues",
+          "two colleagues."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Where did he go at the weekend? ______",
+      "payload": {
+        "before": "Where did he go at the weekend?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "To a small village, to visit his parents.",
+          "To a small village, to visit his parents",
+          "to a small village, to visit his parents."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What is his connection to that village? ______",
+      "payload": {
+        "before": "What is his connection to that village?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "He lived there as a child.",
+          "He lived there as a child",
+          "he lived there as a child."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why did Lina stay at home? ______",
+      "payload": {
+        "before": "Why did Lina stay at home?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "She was ill.",
+          "She was ill",
+          "she was ill."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "العثور على صيغ الماضي",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Find in the dialogue:",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: was/were: Was it an emergency?"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "العثور على صيغ الماضي",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Five uses of was or were",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: There was a problem"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "العثور على صيغ الماضي",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Eight regular past verbs ending in -ed",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: Was anyone else there?"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "العثور على صيغ الماضي",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "One verb with the /ɪd/ ending",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: Was it good?"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "العثور على صيغ الماضي",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Three past time expressions",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: It was lovely.  -ed verbs: worked, stayed, finished, visited, lived, talked, walked, cooked, watched.  /ɪd/: visited.  Time expressions: last night, yesterday, when I was a child."
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "من المضارع إلى الماضي",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Rewrite each sentence in the past, using the time expression given.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: I worked in a bank last year."
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "من المضارع إلى الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "من المضارع إلى الماضي",
+      "payload": {
+        "sentence": "I work in a bank. (last year)"
+      },
+      "answer": {
+        "accepted": [
+          "She was a student in"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "من المضارع إلى الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "من المضارع إلى الماضي",
+      "payload": {
+        "sentence": "She is a student. (in 2018)"
+      },
+      "answer": {
+        "accepted": [
+          "3. We watched TV yesterday."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "من المضارع إلى الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "من المضارع إلى الماضي",
+      "payload": {
+        "sentence": "We watch TV every evening. (yesterday)"
+      },
+      "answer": {
+        "accepted": [
+          "They were at home last night."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "من المضارع إلى الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "من المضارع إلى الماضي",
+      "payload": {
+        "sentence": "They are at home. (last night)"
+      },
+      "answer": {
+        "accepted": [
+          "He lived in Cairo five years ago."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "من المضارع إلى الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "من المضارع إلى الماضي",
+      "payload": {
+        "sentence": "He lives in Cairo. (five years ago)"
+      },
+      "answer": {
+        "accepted": [
+          "There was a shop here before."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "من المضارع إلى الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "من المضارع إلى الماضي",
+      "payload": {
+        "sentence": "There is a shop here. (before)"
+      },
+      "answer": {
+        "accepted": [
+          "I was very tired yesterday."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "من المضارع إلى الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "من المضارع إلى الماضي",
+      "payload": {
+        "sentence": "I am very tired. (yesterday)"
+      },
+      "answer": {
+        "accepted": [
+          "My father worked in a hospital from 2010 to"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "من المضارع إلى الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "من المضارع إلى الماضي",
+      "payload": {
+        "sentence": "My father works in a hospital. (from 2010 to 2020)"
+      },
+      "answer": {
+        "accepted": [
+          "9. The children played football last Friday."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "من المضارع إلى الماضي",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "من المضارع إلى الماضي",
+      "payload": {
+        "sentence": "The children play football. (last Friday)"
+      },
+      "answer": {
+        "accepted": [
+          "There were two cinemas in my town when I was a child."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "من المضارع إلى الماضي",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "There are two cinemas in my town. (when I was a child)  →  ……",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "اكتب عن ماضيك",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "I was born in …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "اكتب عن ماضيك",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "When I was a child, I lived in …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "اكتب عن ماضيك",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "I studied …… at school.",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "اكتب عن ماضيك",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "My first job was …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "اكتب عن ماضيك",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Yesterday I …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "اكتب عن ماضيك",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Last weekend I …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "اكتب عن ماضيك",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "…… years ago I …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "اكتب عن ماضيك",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "At that time I was …… .",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإجابة عن الحوار",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How many people lived in the village? ______",
+      "payload": {
+        "before": "How many people lived in the village?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "About two hundred.",
+          "About two hundred",
+          "about two hundred."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإجابة عن الحوار",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What three buildings were there? ______",
+      "payload": {
+        "before": "What three buildings were there?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "A school, a shop and a mosque.",
+          "A school, a shop and a mosque",
+          "a school, a shop and a mosque."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإجابة عن الحوار",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why did the children play outside all day? ______",
+      "payload": {
+        "before": "Why did the children play outside all day?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Because there weren't any phones.",
+          "Because there weren't any phones",
+          "because there weren't any phones."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإجابة عن الحوار",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why did Sami hate school at first? ______",
+      "payload": {
+        "before": "Why did Sami hate school at first?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "His teacher was very strict.",
+          "His teacher was very strict",
+          "his teacher was very strict."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإجابة عن الحوار",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How old was he when he left? ______",
+      "payload": {
+        "before": "How old was he when he left?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Seventeen.",
+          "Seventeen",
+          "seventeen."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإجابة عن الحوار",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How was his first year in the city? ______",
+      "payload": {
+        "before": "How was his first year in the city?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Terrible — he was lonely and everything was expensive.",
+          "Terrible — he was lonely and everything was expensive",
+          "terrible — he was lonely and everything was expensive."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How old was he ten years ago? ______",
+      "payload": {
+        "before": "How old was he ten years ago?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Twenty-four.",
+          "Twenty-four",
+          "twenty-four."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Where did he live? ______",
+      "payload": {
+        "before": "Where did he live?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "With his parents.",
+          "With his parents",
+          "with his parents."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Where did he work? ______",
+      "payload": {
+        "before": "Where did he work?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "In a small shop near his house.",
+          "In a small shop near his house",
+          "in a small shop near his house."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Why did the owner close the shop? ______",
+      "payload": {
+        "before": "Why did the owner close the shop?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "He was old and wanted to stop working.",
+          "He was old and wanted to stop working",
+          "he was old and wanted to stop working."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How did he feel that week? ______",
+      "payload": {
+        "before": "How did he feel that week?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Worried and angry.",
+          "Worried and angry",
+          "worried and angry."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How many places did he ask? ______",
+      "payload": {
+        "before": "How many places did he ask?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Twenty.",
+          "Twenty",
+          "twenty."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Who told him about the company? ______",
+      "payload": {
+        "before": "Who told him about the company?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "A friend.",
+          "A friend",
+          "a friend."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What did he do for a month? ______",
+      "payload": {
+        "before": "What did he do for a month?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "He studied computers every night.",
+          "He studied computers every night",
+          "he studied computers every night."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What question did the manager ask? ______",
+      "payload": {
+        "before": "What question did the manager ask?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "\"Why do you want this job?\"",
+          "\"why do you want this job?\""
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How does he feel about that month now? ______",
+      "payload": {
+        "before": "How does he feel about that month now?  ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "He calls it the worst month of his life and the best thing that happened to him.",
+          "He calls it the worst month of his life and the best thing that happened to him",
+          "he calls it the worst month of his life and the best thing that happened to him."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "تعقّب الأصوات",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Find in the text and sort by ending sound:",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: /t/: worked, asked, stopped, helped.  /d/: lived, closed, called, answered, remembered, studied, applied, changed.  /ɪd/: wanted, needed, started, decided."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "تعقّب الأصوات",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "/t/  : ……",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "تعقّب الأصوات",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "/d/  : ……",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "تعقّب الأصوات",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "/id/ : ……",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Cheval was an architect.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: he was a postman"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "He walked twenty-five kilometres a day.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "He found the first stone in April.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "His neighbours helped him.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: they laughed at him"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "He worked on the palace for thirteen years.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: thirty-three years"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "He finished when he was seventy-six.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The building is fifteen metres high.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "صحّ أم خطأ",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Nobody visits it today.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: thousands visit every year"
+    }
+  ]
+}
