@@ -3,23 +3,41 @@
 namespace Database\Seeders;
 
 use App\Models\User;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Services\ProgressService;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
 {
-    use WithoutModelEvents;
-
     /**
-     * Seed the application's database.
+     * Creates the admin account from .env (ADMIN_NAME, ADMIN_EMAIL,
+     * ADMIN_PASSWORD). Safe to run again: an existing account keeps its
+     * password and is only re-flagged as admin.
      */
     public function run(): void
     {
-        // User::factory(10)->create();
+        $email = env('ADMIN_EMAIL');
+        $password = env('ADMIN_PASSWORD');
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-        ]);
+        if (! $email || ! $password) {
+            $this->command->warn('ADMIN_EMAIL / ADMIN_PASSWORD missing from .env — no admin created.');
+
+            return;
+        }
+
+        $admin = User::firstOrCreate(
+            ['email' => $email],
+            ['name' => env('ADMIN_NAME', 'Admin'), 'password' => $password],
+        );
+
+        // Not fillable on purpose — set directly
+        $admin->is_admin = true;
+        $admin->email_verified_at ??= now();
+        $admin->save();
+
+        if (! $admin->enrollment()->exists()) {
+            app(ProgressService::class)->enroll($admin, 'A', 'Africa/Cairo');
+        }
+
+        $this->command->info("Admin ready: {$email}");
     }
 }
