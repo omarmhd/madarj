@@ -10,12 +10,14 @@ use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rule;
 use Illuminate\Validation\Rules;
 use Illuminate\Validation\ValidationException;
 use Inertia\Inertia;
 use Inertia\Response;
+use Throwable;
 
 /**
  * Registration.
@@ -92,8 +94,29 @@ class RegisteredUserController extends Controller
 
             'country'  => ['required', Rule::in(Countries::codes())],
             'track'    => ['required', Rule::in(['A', 'B'])],
-        ]);
+        ], $this->messages());
 
+        // One transaction: a failed enrolment must not leave behind an
+        // account whose email then blocks the retry as "already taken".
+        try {
+            $user = DB::transaction(fn () => $this->createAndEnroll($data, $progress));
+        } catch (Throwable $e) {
+            report($e);
+
+            throw ValidationException::withMessages([
+                'form' => 'تعذّر إنشاء الحساب بسبب خطأ في الخادم، وليس في بياناتك. حاول مرّة أخرى بعد قليل، وإن تكرّر فراسلنا.',
+            ]);
+        }
+
+        event(new Registered($user));
+
+        Auth::login($user);
+
+        return redirect(route('dashboard', absolute: false));
+    }
+
+    protected function createAndEnroll(array $data, ProgressService $progress): User
+    {
         $user = User::create([
             'name'     => $data['name'],
             'email'    => $data['email'],
@@ -108,11 +131,34 @@ class RegisteredUserController extends Controller
         // The timezone comes from the country, never from a question.
         $progress->enroll($user, $data['track'], Countries::timezone($data['country']));
 
-        event(new Registered($user));
+        return $user;
+    }
 
-        Auth::login($user);
-
-        return redirect(route('dashboard', absolute: false));
+    /**
+     * Arabic messages, one per rule — the app ships no Arabic lang
+     * files, so without these the learner reads Laravel's English.
+     */
+    protected function messages(): array
+    {
+        return [
+            'name.required'      => 'اكتب اسمك.',
+            'name.max'           => 'الاسم طويل جداً — 120 حرفاً على الأكثر.',
+            'email.required'     => 'اكتب بريدك الإلكتروني.',
+            'email.email'        => 'هذا ليس بريداً إلكترونياً صحيحاً — مثال: name@gmail.com',
+            'email.lowercase'    => 'اكتب البريد بأحرف صغيرة.',
+            'email.max'          => 'البريد طويل جداً.',
+            'email.unique'       => 'هذا البريد مسجّل من قبل. سجّل الدخول، أو استعمل «نسيت كلمة المرور».',
+            'password.required'  => 'اختر كلمة مرور.',
+            'password.confirmed' => 'تأكيد كلمة المرور لا يطابقها.',
+            'password.min'       => 'كلمة المرور قصيرة — 8 أحرف على الأقل.',
+            'phone.required'     => 'اكتب رقم الواتساب.',
+            'phone.max'          => 'الرقم طويل جداً.',
+            'phone.regex'        => 'الرقم غير صحيح — أرقام فقط، ويجوز + ومسافات. مثال: +20 100 123 4567',
+            'country.required'   => 'اختر بلدك.',
+            'country.in'         => 'اختر بلدك من القائمة.',
+            'track.required'     => 'اختر مسار الدراسة.',
+            'track.in'           => 'اختر مسار الدراسة: ساعة أو ساعتان.',
+        ];
     }
 
     /**

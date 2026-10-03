@@ -41,7 +41,7 @@ const TRACKS = [
 export default function Register({ countries }: { countries: Option[] }) {
   const tr = useT();
 
-  const { data, setData, post, processing, errors, reset } = useForm({
+  const { data, setData, post, processing, errors, reset, clearErrors } = useForm({
     name: '',
     email: '',
     phone: '',
@@ -54,10 +54,16 @@ export default function Register({ countries }: { countries: Option[] }) {
   const submit: FormEventHandler = (e) => {
     e.preventDefault();
 
+    clearErrors();
+
     post(route('register'), {
       onFinish: () => reset('password', 'password_confirmation'),
     });
   };
+
+  const allErrors = errors as Record<string, string | undefined>;
+  const formError = allErrors.form;
+  const fieldErrors = Object.keys(allErrors).filter((k) => k !== 'form' && allErrors[k]).length;
 
   return (
     <GuestLayout>
@@ -68,6 +74,18 @@ export default function Register({ countries }: { countries: Option[] }) {
         hint={tr('خمس خانات فقط، وبعدها يُفتح يومك الأول.')}
       >
         <form onSubmit={submit} className="mt-5 space-y-4">
+          {formError && (
+            <div role="alert" className="rounded-lg border border-rose-200 bg-rose-50 px-3 py-2.5 text-sm text-rose-800">
+              {formError}
+            </div>
+          )}
+
+          {!formError && fieldErrors > 0 && (
+            <div role="alert" className="rounded-lg border border-rose-200 bg-rose-50 px-3 py-2.5 text-sm text-rose-800">
+              {tr('لم يُنشأ الحساب — صحّح الخانات المعلّمة بالأحمر بالأسفل.')}
+            </div>
+          )}
+
           <AuthField
             id="name"
             label={tr('اسمك')}
