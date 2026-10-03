@@ -23,8 +23,9 @@ use Illuminate\Support\Facades\Schema;
  * written by hand — and the three engines spell it differently:
  *
  *   Postgres / SQLite  CREATE INDEX IF NOT EXISTS … (LOWER(word))
- *   MySQL / MariaDB    no IF NOT EXISTS, and the expression needs its
+ *   MySQL 8            no IF NOT EXISTS, and the expression needs its
  *                      own parentheses: ((LOWER(word)))
+ *   MariaDB            no functional indexes at all — skipped
  *
  * The first MySQL run of this project died here. The comment above
  * used to claim the statement was portable; it was portable across the
@@ -42,6 +43,10 @@ return new class extends Migration
 
         if ($driver === 'sqlsrv') {
             return;   // no expression indexes — a scan of 2k rows is acceptable
+        }
+
+        if ($this->isMariaDb()) {
+            return;   // no functional indexes in MariaDB — a scan of 2k rows is acceptable
         }
 
         if (in_array($driver, ['mysql', 'mariadb'], true)) {
@@ -72,6 +77,10 @@ return new class extends Migration
             return;
         }
 
+        if ($this->isMariaDb()) {
+            return;
+        }
+
         if (in_array($driver, ['mysql', 'mariadb'], true)) {
             // DROP INDEX … IF EXISTS does not exist in MySQL either
             Schema::table('vocabulary', function ($table) {
@@ -82,5 +91,21 @@ return new class extends Migration
         }
 
         DB::statement('DROP INDEX IF EXISTS vocabulary_lower_word_index');
+    }
+
+    /**
+     * MariaDB often sits behind the `mysql` driver (shared hosting), so the
+     * driver name alone can't tell them apart — the server version can.
+     */
+    private function isMariaDb(): bool
+    {
+        $driver = Schema::getConnection()->getDriverName();
+
+        if ($driver === 'mariadb') {
+            return true;
+        }
+
+        return $driver === 'mysql'
+            && str_contains(strtolower(DB::selectOne('SELECT VERSION() AS v')->v), 'mariadb');
     }
 };
