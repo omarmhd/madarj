@@ -83,6 +83,12 @@ export default function Flashcards({ words, groupLabel, onFinish, onProgress}: P
     setIsRetry(false);
   };
 
+  // Reports position to the parent's single progress bar. Must stay above
+  // the early return below, or the result screen crashes React.
+  useEffect(() => {
+    onProgress?.(index, queue.length);
+  }, [index, queue.length, onProgress]);
+
   /* ---------- النتيجة ---------- */
   if (done) {
     const total = queue.length;
@@ -134,11 +140,6 @@ export default function Flashcards({ words, groupLabel, onFinish, onProgress}: P
   }
 
   /* ---------- البطاقة ---------- */
-  // يُبلَّغ الأعلى بالموضع، فيعرضه في شريطه الواحد بدل شريط ثانٍ
-  useEffect(() => {
-    onProgress?.(index, queue.length);
-  }, [index, queue.length, onProgress]);
-
   return (
     <div className="rounded-xl border bg-white p-6 shadow-sm">
       {/* الرأس */}

@@ -109,6 +109,13 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
     setResult(null);
   };
 
+  // Reports position to the parent's single progress bar. Must stay above
+  // the early return below: a hook skipped on the result screen crashes
+  // React ("rendered fewer hooks") and blanks the whole page.
+  useEffect(() => {
+    onProgress?.(index, total);
+  }, [index, total, onProgress]);
+
   /* ---------- النتيجة ---------- */
   if (done) {
     const percent = Math.round((score / total) * 100);
@@ -164,11 +171,6 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
   const answered = result !== null;
   const locked = answered && result.correct;
   const linkedError = commonError(current.error_no);
-
-  // يُبلَّغ الأعلى بالموضع، فيعرضه في شريطه الواحد بدل شريط ثانٍ
-  useEffect(() => {
-    onProgress?.(index, total);
-  }, [index, total, onProgress]);
 
   return (
     <div className="rounded-xl border bg-white p-6 shadow-sm">

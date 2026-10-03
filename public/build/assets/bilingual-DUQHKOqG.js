@@ -1,0 +1,1 @@
+import{s as e}from"./app-BJaLT9PM.js";function t(){let{props:t}=e();return(t.prefs?.locale??`ar`)===`en`?`en`:`ar`}function n(e){return e===`en`?`ltr`:`rtl`}function r(e,t,n){let r=(t??``).trim(),i=(n??``).trim(),a=e===`en`?i||r:r||i;return{primary:a,secondary:e===`en`?r&&r!==a?r:null:i&&i!==a?i:null}}function i(e){return/[؀-ۿ]/.test(e??``)?`rtl`:`ltr`}export{t as i,n,r,i as t};
