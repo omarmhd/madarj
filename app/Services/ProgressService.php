@@ -200,6 +200,15 @@ class ProgressService
             ->where('number', $dayNumber)
             ->firstOrFail();
 
+        // The task must exist in this day's plan. This replaced a fixed
+        // `between:1,5` in the request, which rejected the sixth and
+        // seventh tasks once days grew past five.
+        abort_unless(
+            collect($day->tasks)->contains(fn ($t) => (int) ($t['order'] ?? 0) === $taskOrder),
+            422,
+            'هذه المهمة ليست في خطة اليوم.'
+        );
+
         /*
          * ترتيب المهام داخل اليوم — الطبقة الثانية.
          *
@@ -227,6 +236,21 @@ class ProgressService
                     abort(422, 'أنهِ المهام التي قبلها أولاً.');
                 }
             }
+        }
+
+        /*
+         * Homework counts only with its proof. The form asks for a line
+         * on what was done; a request that skips the form must not mark
+         * the task — the server does not trust the interface (§4.6).
+         */
+        $task = collect($day->tasks)->first(fn ($t) => (int) ($t['order'] ?? 0) === $taskOrder);
+        if ($done && ($task['ref'] ?? null) === 'homework') {
+            $proof = \App\Models\WeekNote::where('user_id', $user->id)
+                ->where('week_id', $week->id)
+                ->where('kind', 'homework')
+                ->first()?->answers['day'.$day->number] ?? '';
+
+            abort_if(mb_strlen(trim((string) $proof)) < 3, 422, 'اكتب ما فعلته في الواجب أولاً، ثم أنجز المهمة.');
         }
 
         return DB::transaction(function () use ($user, $week, $day, $taskOrder, $done) {

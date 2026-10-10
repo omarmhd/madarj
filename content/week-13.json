@@ -90,22 +90,40 @@
           "ref": "vocab:past_participles"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:past_participles",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -128,20 +146,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -162,22 +198,40 @@
           "ref": "vocab:experience_questions_and_answers"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:experience_questions_and_answers",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -200,20 +254,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -234,22 +306,40 @@
           "ref": "vocab:life_experiences|dialogue:1"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:life_experiences",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -272,20 +362,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -312,16 +420,28 @@
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     }
@@ -1741,160 +1861,6 @@
       }
     },
     {
-      "kind": "breaktime",
-      "day_number": 7,
-      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
-      "title_en": "Break Time — English Outside the Book",
-      "payload": {
-        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
-        "compare": [
-          {
-            "aspect_ar": "الكمّ",
-            "intensive_ar": "دقائق من الصوت",
-            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
-          },
-          {
-            "aspect_ar": "الفهم",
-            "intensive_ar": "تستهدف 100%",
-            "extensive_ar": "50–70% تكفي"
-          },
-          {
-            "aspect_ar": "الجهد",
-            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
-            "extensive_ar": "منخفض — تسترخي وتستمتع"
-          },
-          {
-            "aspect_ar": "ما يبنيه",
-            "intensive_ar": "الدقّة والقواعد",
-            "extensive_ar": "السرعة والأذن والحدس والمفردات"
-          },
-          {
-            "aspect_ar": "لو أغفلته",
-            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
-            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
-          }
-        ],
-        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
-        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
-        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
-        "song": {
-          "pick": {
-            "title": "I Still Haven’t Found What I’m Looking For",
-            "artist": "U2",
-            "why_en": "The title alone is this chapter’s grammar, and the whole song is built on the Present Perfect: I have climbed, I have run, I have kissed.",
-            "search": "I Still Haven’t Found What I’m Looking For U2"
-          },
-          "alternatives": [
-            {
-              "title": "The Sound of Silence",
-              "artist": "Simon & Garfunkel / Disturbed",
-              "why_en": "Slow and extremely clear. Good for hearing linking between words.",
-              "search": "The Sound of Silence Simon & Garfunkel / Disturbed"
-            },
-            {
-              "title": "Fix You",
-              "artist": "Coldplay",
-              "why_en": "Slow, and full of contractions to catch.",
-              "search": "Fix You Coldplay"
-            }
-          ],
-          "item": {
-            "key": "song",
-            "icon": "🎵",
-            "label_ar": "أغنية الأسبوع",
-            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
-            "minutes": 20,
-            "steps": [
-              "استمع مرة للمتعة.",
-              "تصيّد كل have و ’ve و has — وهي شبه مختفية.",
-              "أعد السطر الذي فيه أوضحها حتى تسمعها بلا جهد."
-            ],
-            "prompt_ar": "اكتب السطر الذي سمعت فيه have بوضوح"
-          }
-        },
-        "watch": {
-          "pick": {
-            "title": "Friends — Episodes 3–5",
-            "level": "A2–B1",
-            "where": "Any streaming service",
-            "why_en": "Keep going. By episode five the rhythm of the show becomes familiar and comprehension jumps.",
-            "search": "Friends — Episodes 3–5"
-          },
-          "alternatives": [
-            {
-              "title": "Easy English — \"Have you ever…?\"",
-              "level": "A2–B1",
-              "where": "YouTube — search it",
-              "why_en": "Dozens of real answers using this exact structure.",
-              "search": "Easy English — \"Have you ever…?\""
-            },
-            {
-              "title": "Travel and experience vlogs",
-              "level": "B1",
-              "where": "YouTube — search \"my first time in [a country]\"",
-              "why_en": "Full of I’ve never, I’ve always wanted to, and switches into the past for details.",
-              "search": "Travel and experience vlogs"
-            }
-          ],
-          "item": {
-            "key": "watch",
-            "icon": "📺",
-            "label_ar": "ما تشاهده",
-            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
-            "minutes": 25,
-            "steps": [
-              "شاهد حلقة كاملة بلا توقّف.",
-              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
-              "اكتب ثلاث عبارات علقت في ذهنك."
-            ],
-            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
-            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
-          }
-        },
-        "item_order": [
-          "song",
-          "watch"
-        ],
-        "plan": [
-          {
-            "day_ar": "السبت",
-            "activity_ar": "الأغنية + مهمة تعقّب I have",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الأحد",
-            "activity_ar": "Friends الحلقة 3",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الاثنين",
-            "activity_ar": "ابدأ كتابك المتدرّج من المستوى الثاني",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الثلاثاء",
-            "activity_ar": "Friends الحلقة 4",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الأربعاء",
-            "activity_ar": "درسك الثاني — أو احجزه",
-            "minutes": 35
-          },
-          {
-            "day_ar": "الخميس",
-            "activity_ar": "الكتاب + Easy English «Have you ever»",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الجمعة",
-            "activity_ar": "Friends الحلقة 5 + اختيار حرّ",
-            "minutes": 35
-          }
-        ]
-      }
-    },
-    {
       "kind": "speaking",
       "title_ar": "التحدّث",
       "title_en": "The Most Interesting Things I Have Done",
@@ -2011,6 +1977,301 @@
           }
         ],
         "save_as": "Week13"
+      }
+    },
+    {
+      "kind": "practice",
+      "title_ar": "اكتب مثله",
+      "title_en": "Write One Like It",
+      "payload": {
+        "items": [
+          {
+            "day": 1,
+            "title_ar": "ما تغيّر عندك مؤخراً",
+            "model": [
+              {
+                "en": "I have bought a new phone.",
+                "ar": "اشتريت هاتفاً جديداً."
+              },
+              {
+                "en": "I have made two new friends this year.",
+                "ar": "صار عندي صديقان جديدان هذه السنة."
+              },
+              {
+                "en": "My sister has found a good job.",
+                "ar": "وجدت أختي عملاً جيداً."
+              },
+              {
+                "en": "We have met our new neighbours.",
+                "ar": "تعرّفنا إلى جيراننا الجدد."
+              }
+            ],
+            "pattern_en": "I have ___. He / She has ___.",
+            "prompt_ar": "اكتب 4 جمل عن أشياء حدثت لك أو لعائلتك مؤخراً وأثرها باقٍ الآن: شيء اشتريته، وشخص تعرّفت إليه، وشيء وجده أحد من عائلتك.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "have",
+                "ar": "have + اسم المفعول: حدث في الماضي وأثره باقٍ الآن. I have bought = اشتريت، والهاتف معي."
+              },
+              {
+                "word": "has",
+                "ar": "مع he وshe وit نقول has: She has found. «She have found» خطأ."
+              },
+              {
+                "word": "bought",
+                "ar": "أفعال كثيرة اسم مفعولها مثل ماضيها: bought · made · found · met."
+              },
+              {
+                "word": "this year",
+                "ar": "وقت لم ينتهِ بعد، فيناسب have. أما last year فتأخذ الماضي البسيط."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت has مع he وshe، وhave مع الباقي؟",
+              "هل تجنّبت ذكر وقت منتهٍ مثل yesterday أو last year؟"
+            ]
+          },
+          {
+            "day": 2,
+            "title_ar": "الشكل الثالث للفعل",
+            "model": [
+              {
+                "en": "I have seen this film three times.",
+                "ar": "شاهدت هذا الفيلم ثلاث مرات."
+              },
+              {
+                "en": "I have written an email in English.",
+                "ar": "كتبت رسالة بريد إلكتروني بالإنجليزية."
+              },
+              {
+                "en": "My father has spoken to my teacher.",
+                "ar": "تكلّم أبي مع معلّمي."
+              },
+              {
+                "en": "I haven't finished my book yet.",
+                "ar": "لم أُنهِ كتابي بعد."
+              }
+            ],
+            "pattern_en": "I have ___n ___. I haven't ___ yet.",
+            "prompt_ar": "اكتب 4 جمل: 3 أشياء فعلتها أنت أو أحد تعرفه بأفعال من قائمة اليوم، وشيء لم تفعله بعد.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "seen",
+                "ar": "بعد have يأتي اسم المفعول لا الماضي: have seen. «I have saw» خطأ."
+              },
+              {
+                "word": "written",
+                "ar": "write ← wrote ← written، وتتضاعف t في الشكل الثالث."
+              },
+              {
+                "word": "haven't",
+                "ar": "اختصار have not، وبعدها اسم المفعول أيضاً: haven't finished."
+              },
+              {
+                "word": "yet",
+                "ar": "معناها «بعد» في النفي، وتأتي في آخر الجملة: I haven't finished yet."
+              }
+            ],
+            "check_ar": [
+              "هل جاء بعد have وhas اسم المفعول لا الماضي؟",
+              "هل جاءت yet في آخر الجملة المنفية؟"
+            ]
+          },
+          {
+            "day": 3,
+            "title_ar": "هل سبق أن…؟",
+            "model": [
+              {
+                "en": "Have you ever flown in a plane? Yes, I have. Only once.",
+                "ar": "هل سبق أن ركبت طائرة؟ نعم، مرة واحدة فقط."
+              },
+              {
+                "en": "What was it like? It was amazing.",
+                "ar": "كيف كانت؟ كانت رائعة."
+              },
+              {
+                "en": "Have you ever lost your phone? No, I haven't.",
+                "ar": "هل سبق أن أضعت هاتفك؟ لا."
+              },
+              {
+                "en": "Have you ever cooked for ten people? No, never.",
+                "ar": "هل سبق أن طبخت لعشرة أشخاص؟ لا، أبداً."
+              }
+            ],
+            "pattern_en": "Have you ever ___? Yes, I have. / No, I haven't.",
+            "prompt_ar": "اكتب 3 أسئلة بـ Have you ever عن تجارب تهمّك، وأجب عنها عن نفسك. وبعد جواب «نعم» اسأل: What was it like?",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "ever",
+                "ar": "معناها «في أي وقت من حياتك». تأتي في السؤال قبل اسم المفعول: Have you ever flown?"
+              },
+              {
+                "word": "Yes, I have",
+                "ar": "الجواب القصير يكرّر have: Yes, I have. لا تقل Yes, I flew."
+              },
+              {
+                "word": "What was it like?",
+                "ar": "لتفاصيل التجربة ننتقل إلى الماضي البسيط: was."
+              },
+              {
+                "word": "flown",
+                "ar": "fly ← flew ← flown. وبعد have نقول flown."
+              }
+            ],
+            "check_ar": [
+              "هل بدأ كل سؤال بـ Have you ever؟",
+              "هل كرّرت have أو haven't في الجواب القصير؟"
+            ]
+          },
+          {
+            "day": 4,
+            "title_ar": "ذهبتَ وعدت؟",
+            "model": [
+              {
+                "en": "I've been to Jordan twice.",
+                "ar": "ذهبت إلى الأردن مرتين."
+              },
+              {
+                "en": "I've never been to Europe.",
+                "ar": "لم أذهب إلى أوروبا أبداً."
+              },
+              {
+                "en": "My brother has gone to Dubai.",
+                "ar": "ذهب أخي إلى دبي."
+              },
+              {
+                "en": "He's working there now.",
+                "ar": "هو يعمل هناك الآن."
+              }
+            ],
+            "pattern_en": "I've been to ___. ___ has gone to ___.",
+            "prompt_ar": "اكتب 4 جمل: مكانان ذهبت إليهما ورجعت، ومكان لم تذهب إليه أبداً، وشخص ذهب إلى مكان وما زال هناك. ثم اقرأها بصوت عالٍ وصِل الكلمات.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "I've",
+                "ar": "اختصار I have، وتُقال مع ما بعدها كتلة واحدة: I've been."
+              },
+              {
+                "word": "been to",
+                "ar": "ذهبت إلى المكان ورجعت منه: I've been to Jordan."
+              },
+              {
+                "word": "gone to",
+                "ar": "ذهب ولم يرجع بعد، فهو هناك الآن: He has gone to Dubai."
+              },
+              {
+                "word": "never",
+                "ar": "نفي وحدها: I've never been. «I haven't never been» خطأ."
+              }
+            ],
+            "check_ar": [
+              "هل استعملت been لمن رجع، وgone لمن لم يرجع؟",
+              "هل كتبت never بلا haven't؟"
+            ]
+          },
+          {
+            "day": 5,
+            "title_ar": "تجارب تفخر بها",
+            "model": [
+              {
+                "en": "I have travelled abroad once.",
+                "ar": "سافرت إلى الخارج مرة واحدة."
+              },
+              {
+                "en": "I have climbed a mountain with my friends.",
+                "ar": "تسلّقت جبلاً مع أصدقائي."
+              },
+              {
+                "en": "I have made many mistakes, but I have learned a lot.",
+                "ar": "أخطأت كثيراً، لكني تعلّمت كثيراً."
+              },
+              {
+                "en": "I have never won a prize.",
+                "ar": "لم أفز بجائزة أبداً."
+              }
+            ],
+            "pattern_en": "I have ___ once / twice. I have never ___.",
+            "prompt_ar": "اكتب 4 جمل عن تجارب في حياتك: ثلاث تجارب عشتها، وواحدة لم تعشها أبداً.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "abroad",
+                "ar": "معناها «في الخارج»، وتأتي بلا to: travel abroad، لا travel to abroad."
+              },
+              {
+                "word": "once",
+                "ar": "معناها «مرة واحدة»، وtwice «مرتين». تأتي في آخر الجملة."
+              },
+              {
+                "word": "travelled",
+                "ar": "تُكتب بـ ll في الإملاء البريطاني: travelled."
+              },
+              {
+                "word": "made",
+                "ar": "اسم مفعول make هو made. ونقول make a mistake لا do a mistake."
+              }
+            ],
+            "check_ar": [
+              "هل جاء بعد have اسم المفعول في كل جملة؟",
+              "هل كتبت جملة بـ never؟"
+            ]
+          },
+          {
+            "day": 6,
+            "title_ar": "ما فعلته وما لم أفعله",
+            "model": [
+              {
+                "en": "I have visited two countries and I have changed jobs once.",
+                "ar": "زرت بلدين، وغيّرت عملي مرة واحدة."
+              },
+              {
+                "en": "The best trip was to Turkey.",
+                "ar": "أفضل رحلة كانت إلى تركيا."
+              },
+              {
+                "en": "I went there in 2019 with my brother.",
+                "ar": "ذهبت إليها سنة 2019 مع أخي."
+              },
+              {
+                "en": "I have never learned to swim.",
+                "ar": "لم أتعلّم السباحة أبداً."
+              },
+              {
+                "en": "I have always wanted to live abroad for a year.",
+                "ar": "كنت أتمنّى دائماً أن أعيش في الخارج سنة."
+              }
+            ],
+            "pattern_en": "I have ___. I went ___ in ___. I have never ___.",
+            "prompt_ar": "اكتب 5 جمل عن تجاربك: شيئان فعلتهما، وتفصيل عن واحد منهما مع سنته، وشيء لم تفعله أبداً، وشيء تتمنّاه دائماً. هذا تمرين لكتابة الغد (120 إلى 140 كلمة).",
+            "min_sentences": 5,
+            "notes": [
+              {
+                "word": "went … in 2019",
+                "ar": "مع وقت محدّد نعود إلى الماضي البسيط: I went in 2019. «I have gone there in 2019» خطأ."
+              },
+              {
+                "word": "the best",
+                "ar": "التفضيل يحتاج the: the best trip."
+              },
+              {
+                "word": "never learned",
+                "ar": "never بين have واسم المفعول: I have never learned."
+              },
+              {
+                "word": "always wanted",
+                "ar": "I have always wanted to = كنت أتمنّى دائماً، وما زلت."
+              }
+            ],
+            "check_ar": [
+              "هل استعملت الماضي البسيط حين ذكرت السنة؟",
+              "هل كتبت جملة بـ never وجملة بـ always wanted؟"
+            ]
+          }
+        ]
       }
     }
   ],

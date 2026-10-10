@@ -102,22 +102,40 @@
           "ref": "vocab:the_80_irregular_verbs"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:the_80_irregular_verbs",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -140,20 +158,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -176,20 +212,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -210,22 +264,40 @@
           "ref": "vocab:the_80_irregular_verbs,travel_and_transport|dialogue:1"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:travel_and_transport",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -248,20 +320,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -284,20 +374,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -324,16 +432,28 @@
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     }
@@ -1956,159 +2076,6 @@
       }
     },
     {
-      "kind": "breaktime",
-      "day_number": 7,
-      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
-      "title_en": "Break Time — English Outside the Book",
-      "payload": {
-        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
-        "compare": [
-          {
-            "aspect_ar": "الكمّ",
-            "intensive_ar": "دقائق من الصوت",
-            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
-          },
-          {
-            "aspect_ar": "الفهم",
-            "intensive_ar": "تستهدف 100%",
-            "extensive_ar": "50–70% تكفي"
-          },
-          {
-            "aspect_ar": "الجهد",
-            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
-            "extensive_ar": "منخفض — تسترخي وتستمتع"
-          },
-          {
-            "aspect_ar": "ما يبنيه",
-            "intensive_ar": "الدقّة والقواعد",
-            "extensive_ar": "السرعة والأذن والحدس والمفردات"
-          },
-          {
-            "aspect_ar": "لو أغفلته",
-            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
-            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
-          }
-        ],
-        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
-        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
-        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
-        "song": {
-          "pick": {
-            "title": "I Saw Her Standing There",
-            "artist": "The Beatles",
-            "why_en": "Fast but simple, and built on irregular past forms.",
-            "search": "I Saw Her Standing There The Beatles"
-          },
-          "alternatives": [
-            {
-              "title": "Hallelujah",
-              "artist": "Leonard Cohen / Jeff Buckley",
-              "why_en": "Very slow, and full of irregular verbs: heard, was, saw, broke, drew.",
-              "search": "Hallelujah Leonard Cohen / Jeff Buckley"
-            },
-            {
-              "title": "Let It Be",
-              "artist": "The Beatles",
-              "why_en": "Slow and repetitive. Good for singing along without stumbling.",
-              "search": "Let It Be The Beatles"
-            }
-          ],
-          "item": {
-            "key": "song",
-            "icon": "🎵",
-            "label_ar": "أغنية الأسبوع",
-            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
-            "minutes": 20,
-            "steps": [
-              "شغّلها مرة للمتعة فقط — بلا كلمات ولا تحليل.",
-              "شغّلها ثانية واكتب خمس كلمات سمعتها ولم تكن تعرفها.",
-              "شغّلها مع الكلمات المكتوبة أمامك.",
-              "غنِّ معها مرة. الغناء يضبط الإيقاع بلا أن تفكّر فيه."
-            ],
-            "why_ar": "الأغنية تُعاد خمسين مرة طوعاً، ولا تمرين يُعاد خمسين مرة.",
-            "prompt_ar": "الكلمات الخمس التي التقطتها"
-          }
-        },
-        "watch": {
-          "pick": {
-            "title": "Extra English — Episodes 11–12",
-            "where": "YouTube",
-            "why_en": "Keep the series going.",
-            "search": "Extra English — Episodes 11–12"
-          },
-          "alternatives": [
-            {
-              "title": "Travel vlogs",
-              "where": "YouTube — search \"[a city] travel vlog\"",
-              "why_en": "This chapter’s vocabulary in real use: airports, tickets, platforms, hotels. Choose a city you would actually like to visit.",
-              "search": "Travel vlogs"
-            },
-            {
-              "title": "Easy English — \"Tell me about a trip\"",
-              "where": "YouTube — search it",
-              "why_en": "Real people telling short travel stories, with double subtitles.",
-              "search": "Easy English — \"Tell me about a trip\""
-            }
-          ],
-          "item": {
-            "key": "watch",
-            "icon": "📺",
-            "label_ar": "ما تشاهده",
-            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
-            "minutes": 25,
-            "steps": [
-              "شاهد حلقة كاملة بلا توقّف.",
-              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
-              "اكتب ثلاث عبارات علقت في ذهنك."
-            ],
-            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
-            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
-          }
-        },
-        "item_order": [
-          "song",
-          "watch"
-        ],
-        "plan": [
-          {
-            "day_ar": "السبت",
-            "activity_ar": "الأغنية + فيديو إيقاع الأفعال الشاذة",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الأحد",
-            "activity_ar": "Extra English الحلقة 11",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الاثنين",
-            "activity_ar": "فيديو رحلة إلى مدينة تحبّها",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الثلاثاء",
-            "activity_ar": "Extra English الحلقة 12",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الأربعاء",
-            "activity_ar": "أنهِ الكتاب المتدرّج",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الخميس",
-            "activity_ar": "اكتب ثلاث جمل عن القصة من الذاكرة",
-            "minutes": 10
-          },
-          {
-            "day_ar": "الجمعة",
-            "activity_ar": "ليلة فيلم — Forrest Gump وإعادة مشهد",
-            "minutes": 150
-          }
-        ]
-      }
-    },
-    {
       "kind": "speaking",
       "title_ar": "التحدّث",
       "title_en": "Tell the Story of a Trip",
@@ -2225,6 +2192,302 @@
           }
         ],
         "save_as": "Week08"
+      }
+    },
+    {
+      "kind": "practice",
+      "title_ar": "اكتب مثله",
+      "title_en": "Write One Like It",
+      "payload": {
+        "items": [
+          {
+            "day": 1,
+            "title_ar": "عطلتك الماضية",
+            "model": [
+              {
+                "en": "Last Friday, I went to the market.",
+                "ar": "يوم الجمعة الماضي ذهبت إلى السوق."
+              },
+              {
+                "en": "I bought some fruit and bread.",
+                "ar": "اشتريت بعض الفاكهة والخبز."
+              },
+              {
+                "en": "Then I met my friend at a café.",
+                "ar": "ثم قابلت صديقي في مقهى."
+              },
+              {
+                "en": "We had lunch together.",
+                "ar": "تغدّينا معاً."
+              }
+            ],
+            "pattern_en": "Last ___, I went to ___. I bought ___.",
+            "prompt_ar": "اكتب 4 جمل عن عطلة نهاية الأسبوع الماضية. استعمل 4 أفعال شاذّة مختلفة.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "went",
+                "ar": "ماضي go. فعل شاذّ لا يأخذ ed: «goed» خطأ."
+              },
+              {
+                "word": "bought",
+                "ar": "ماضي buy. «He buyed a car» خطأ، والصواب He bought a car."
+              },
+              {
+                "word": "met",
+                "ar": "ماضي meet. معناها «قابلت» أو «التقيت»."
+              },
+              {
+                "word": "had lunch",
+                "ar": "had ماضي have وhas: had lunch = تغدّيت."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت 4 أفعال شاذّة مختلفة؟",
+              "هل تجنّبت ed مع الأفعال الشاذّة؟"
+            ]
+          },
+          {
+            "day": 2,
+            "title_ar": "ما لم تفعله",
+            "model": [
+              {
+                "en": "I didn't go to work yesterday.",
+                "ar": "لم أذهب إلى العمل أمس."
+              },
+              {
+                "en": "I stayed at home and read a book.",
+                "ar": "بقيت في البيت وقرأت كتاباً."
+              },
+              {
+                "en": "I didn't cook, so I bought a sandwich.",
+                "ar": "لم أطبخ، لذلك اشتريت شطيرة."
+              },
+              {
+                "en": "I wasn't bored at all.",
+                "ar": "لم أشعر بالملل أبداً."
+              }
+            ],
+            "pattern_en": "I didn't ___. I ___ instead.",
+            "prompt_ar": "اكتب 4 جمل عن يوم قريب: شيئان لم تفعلهما، وشيئان فعلتهما.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "didn't go",
+                "ar": "بعد didn't يعود الفعل إلى أصله: didn't go. «I didn't went» خطأ."
+              },
+              {
+                "word": "read",
+                "ar": "ماضيها read بالإملاء نفسه، لكنها تُنطق /red/ مثل red."
+              },
+              {
+                "word": "so",
+                "ar": "معناها «لذلك». تأتي بعد فاصلة قبل النتيجة: I didn't cook, so I bought…"
+              },
+              {
+                "word": "wasn't",
+                "ar": "النفي مع was بلا did: I wasn't bored. «I didn't be bored» خطأ."
+              }
+            ],
+            "check_ar": [
+              "هل جاء الفعل في أصله بعد didn't؟",
+              "هل استعملت wasn't لا didn't be؟"
+            ]
+          },
+          {
+            "day": 3,
+            "title_ar": "اسأل عن رحلة",
+            "model": [
+              {
+                "en": "Where did you go last summer? I went to Alexandria.",
+                "ar": "أين ذهبت في الصيف الماضي؟ ذهبت إلى الإسكندرية."
+              },
+              {
+                "en": "Who did you go with? My cousins.",
+                "ar": "مع من ذهبت؟ مع أبناء عمّي."
+              },
+              {
+                "en": "How did you travel? By bus.",
+                "ar": "كيف سافرت؟ بالحافلة."
+              },
+              {
+                "en": "Did you like it? Yes, I did.",
+                "ar": "هل أعجبتك؟ نعم."
+              }
+            ],
+            "pattern_en": "Where / Who / How did you ___? Did you ___? Yes, I did.",
+            "prompt_ar": "اكتب 3 أسئلة بـ did عن رحلة، وسؤالاً بـ Did you…؟ ثم أجب عنها كلها عن رحلة قمت بها أنت.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "did",
+                "ar": "السؤال في الماضي يحتاج did: Where did you go? «Where you went?» خطأ."
+              },
+              {
+                "word": "go",
+                "ar": "بعد did الفعل في أصله: Did you go? «Did you went?» خطأ."
+              },
+              {
+                "word": "Yes, I did",
+                "ar": "الجواب القصير يكرّر did: Yes, I did · No, I didn't. لا تقل Yes, I went."
+              },
+              {
+                "word": "by bus",
+                "ar": "مع وسائل النقل نقول by بلا the: by bus · by car · by plane."
+              }
+            ],
+            "check_ar": [
+              "هل جاء الفعل في أصله بعد did؟",
+              "هل أجبت عن سؤال Did you بـ Yes, I did أو No, I didn't؟"
+            ]
+          },
+          {
+            "day": 4,
+            "title_ar": "رحلة بالقطار",
+            "model": [
+              {
+                "en": "Last month, I took the train to Luxor.",
+                "ar": "في الشهر الماضي ركبت القطار إلى الأقصر."
+              },
+              {
+                "en": "I booked a return ticket online.",
+                "ar": "حجزت تذكرة ذهاب وعودة عبر الإنترنت."
+              },
+              {
+                "en": "The train left on time.",
+                "ar": "انطلق القطار في موعده."
+              },
+              {
+                "en": "The journey took four hours.",
+                "ar": "استغرقت الرحلة 4 ساعات."
+              }
+            ],
+            "pattern_en": "I took the ___ to ___. The journey took ___.",
+            "prompt_ar": "اكتب 4 جمل عن رحلة قمت بها بالقطار أو الحافلة أو الطائرة: إلى أين، والتذكرة، والموعد، وكم استغرقت.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "took",
+                "ar": "ماضي take. took the train = ركبت القطار، وthe journey took = استغرقت الرحلة."
+              },
+              {
+                "word": "return",
+                "ar": "تذكرة return للذهاب والعودة، وتذكرة single للذهاب فقط."
+              },
+              {
+                "word": "left",
+                "ar": "ماضي leave. معناها هنا «انطلق» أو «غادر»."
+              },
+              {
+                "word": "on time",
+                "ar": "معناها «في الموعد»، لا متأخّراً ولا مبكّراً."
+              }
+            ],
+            "check_ar": [
+              "هل ذكرت كم استغرقت الرحلة بـ took؟",
+              "هل كتبت ماضي take وleave صحيحاً؟"
+            ]
+          },
+          {
+            "day": 5,
+            "title_ar": "يوم سيّئ",
+            "model": [
+              {
+                "en": "Last Monday was a bad day.",
+                "ar": "كان يوم الاثنين الماضي يوماً سيّئاً."
+              },
+              {
+                "en": "I woke up late and missed the bus.",
+                "ar": "استيقظت متأخّراً وفاتتني الحافلة."
+              },
+              {
+                "en": "I forgot my phone at home.",
+                "ar": "نسيت هاتفي في البيت."
+              },
+              {
+                "en": "Then I lost my keys!",
+                "ar": "ثم أضعت مفاتيحي!"
+              }
+            ],
+            "pattern_en": "I woke up ___. I forgot ___. I lost ___.",
+            "prompt_ar": "اكتب 4 جمل عن يوم سيّئ مرّ بك. استعمل 3 أفعال شاذّة على الأقل.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "woke up",
+                "ar": "ماضي wake up. معناها «استيقظت»."
+              },
+              {
+                "word": "missed",
+                "ar": "فعل منتظم: miss ← missed. وتُنطق ed هنا /t/ بلا مقطع جديد."
+              },
+              {
+                "word": "forgot",
+                "ar": "ماضي forget. معناها «نسيت»."
+              },
+              {
+                "word": "lost",
+                "ar": "ماضي lose. معناها «أضعت» أو «فقدت»."
+              }
+            ],
+            "check_ar": [
+              "هل استعملت 3 أفعال شاذّة على الأقل؟",
+              "هل فرّقت بين الأفعال المنتظمة (ed) والشاذّة؟"
+            ]
+          },
+          {
+            "day": 6,
+            "title_ar": "عطلة لا تنساها",
+            "model": [
+              {
+                "en": "Last summer, I went to the coast with my family.",
+                "ar": "في الصيف الماضي ذهبت إلى الساحل مع عائلتي."
+              },
+              {
+                "en": "We travelled by car, and the journey took five hours.",
+                "ar": "سافرنا بالسيارة، واستغرقت الرحلة 5 ساعات."
+              },
+              {
+                "en": "We swam and ate fish every day.",
+                "ar": "سبحنا وأكلنا السمك كل يوم."
+              },
+              {
+                "en": "Unfortunately, my brother lost his phone on the beach.",
+                "ar": "للأسف أضاع أخي هاتفه على الشاطئ."
+              },
+              {
+                "en": "It was a great holiday.",
+                "ar": "كانت عطلة رائعة."
+              }
+            ],
+            "pattern_en": "Last ___, I went to ___ with ___. We travelled by ___.",
+            "prompt_ar": "اكتب 5 جمل عن رحلة أو عطلة: متى ومع من، وكيف سافرت، وماذا فعلت، ومشكلة واحدة، وبماذا شعرت. هذا تمرين لكتابة الغد (110 إلى 130 كلمة).",
+            "min_sentences": 5,
+            "notes": [
+              {
+                "word": "travelled",
+                "ar": "ماضي travel. نضاعف l في الإملاء البريطاني: travelled."
+              },
+              {
+                "word": "swam · ate",
+                "ar": "swam ماضي swim، وate ماضي eat. فعلان شاذّان."
+              },
+              {
+                "word": "unfortunately",
+                "ar": "معناها «للأسف». تأتي في أول الجملة قبل المشكلة، ثم فاصلة."
+              },
+              {
+                "word": "on the beach",
+                "ar": "نقول on the beach: «على الشاطئ»."
+              }
+            ],
+            "check_ar": [
+              "هل ذكرت مشكلة واحدة بـ Unfortunately؟",
+              "هل كتبت ماضي الأفعال الشاذّة صحيحاً؟",
+              "هل ذكرت كيف سافرت بـ by؟"
+            ]
+          }
+        ]
       }
     }
   ],

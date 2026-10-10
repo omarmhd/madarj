@@ -102,22 +102,40 @@
           "ref": "vocab:up"
         },
         {
-          "order": 3,
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:up",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -138,22 +156,40 @@
           "ref": "vocab:out_and_off"
         },
         {
-          "order": 3,
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:out_and_off",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -174,22 +210,40 @@
           "ref": "vocab:on_in_down_back_over_into"
         },
         {
-          "order": 3,
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:on_in_down_back_over_into",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -216,16 +270,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -252,16 +324,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -288,16 +378,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -324,16 +432,28 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     }
@@ -1464,159 +1584,6 @@
       }
     },
     {
-      "kind": "breaktime",
-      "day_number": 7,
-      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
-      "title_en": "Break Time — English Outside the Book",
-      "payload": {
-        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
-        "compare": [
-          {
-            "aspect_ar": "الكمّ",
-            "intensive_ar": "دقائق من الصوت",
-            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
-          },
-          {
-            "aspect_ar": "الفهم",
-            "intensive_ar": "تستهدف 100%",
-            "extensive_ar": "50–70% تكفي"
-          },
-          {
-            "aspect_ar": "الجهد",
-            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
-            "extensive_ar": "منخفض — تسترخي وتستمتع"
-          },
-          {
-            "aspect_ar": "ما يبنيه",
-            "intensive_ar": "الدقّة والقواعد",
-            "extensive_ar": "السرعة والأذن والحدس والمفردات"
-          },
-          {
-            "aspect_ar": "لو أغفلته",
-            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
-            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
-          }
-        ],
-        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
-        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
-        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
-        "song": {
-          "pick": {
-            "title": "Don’t Give Up",
-            "artist": "Peter Gabriel & Kate Bush",
-            "why_en": "A phrasal verb repeated forty times, slowly.",
-            "search": "Don’t Give Up Peter Gabriel & Kate Bush"
-          },
-          "alternatives": [
-            {
-              "title": "Hold On",
-              "artist": "Wilson Phillips",
-              "why_en": "Another one, equally repetitive and equally clear.",
-              "search": "Hold On Wilson Phillips"
-            },
-            {
-              "title": "Let It Be",
-              "artist": "The Beatles",
-              "why_en": "Revisit it — now notice that the title is a structure, not three words.",
-              "search": "Let It Be The Beatles"
-            }
-          ],
-          "item": {
-            "key": "song",
-            "icon": "🎵",
-            "label_ar": "أغنية الأسبوع",
-            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
-            "minutes": 20,
-            "steps": [
-              "شغّلها مرة للمتعة فقط — بلا كلمات ولا تحليل.",
-              "شغّلها ثانية واكتب خمس كلمات سمعتها ولم تكن تعرفها.",
-              "شغّلها مع الكلمات المكتوبة أمامك.",
-              "غنِّ معها مرة. الغناء يضبط الإيقاع بلا أن تفكّر فيه."
-            ],
-            "why_ar": "الأغنية تُعاد خمسين مرة طوعاً، ولا تمرين يُعاد خمسين مرة.",
-            "prompt_ar": "الكلمات الخمس التي التقطتها"
-          }
-        },
-        "watch": {
-          "pick": {
-            "title": "Friends — Episodes 1–2 of Season 2",
-            "where": "Any streaming service",
-            "why_en": "Sitcom dialogue is the densest source of phrasal verbs there is.",
-            "search": "Friends — Episodes 1–2 of Season 2"
-          },
-          "alternatives": [
-            {
-              "title": "Any workplace drama or comedy",
-              "where": "Your choice",
-              "why_en": "Office English is built on take on, put off, sort out, follow up, get back to.",
-              "search": "Any workplace drama or comedy"
-            },
-            {
-              "title": "Podcast interviews",
-              "where": "Any podcast app",
-              "why_en": "Listen for how the host reports what the guest said — that is the grammar section in real use.",
-              "search": "Podcast interviews"
-            }
-          ],
-          "item": {
-            "key": "watch",
-            "icon": "📺",
-            "label_ar": "ما تشاهده",
-            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
-            "minutes": 25,
-            "steps": [
-              "شاهد حلقة كاملة بلا توقّف.",
-              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
-              "اكتب ثلاث عبارات علقت في ذهنك."
-            ],
-            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
-            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
-          }
-        },
-        "item_order": [
-          "song",
-          "watch"
-        ],
-        "plan": [
-          {
-            "day_ar": "السبت",
-            "activity_ar": "الأغنية + ابدأ تعقّب الأفعال المركّبة",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الأحد",
-            "activity_ar": "تعقّب الأفعال المركّبة — حلقة كاملة",
-            "minutes": 40
-          },
-          {
-            "day_ar": "الاثنين",
-            "activity_ar": "أضف عشرة منها إلى المراجعة المتباعدة — كجمل كاملة لا كلمات",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الثلاثاء",
-            "activity_ar": "بودكاست + انقل ما سمعته بصوت عالٍ بعده",
-            "minutes": 30
-          },
-          {
-            "day_ar": "الأربعاء",
-            "activity_ar": "درس مع معلّمك",
-            "minutes": 35
-          },
-          {
-            "day_ar": "الخميس",
-            "activity_ar": "قراءة + انقل محادثة بصوت عالٍ",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الجمعة",
-            "activity_ar": "Friends الموسم 2 الحلقة 1 + اختيار حرّ",
-            "minutes": 40
-          }
-        ]
-      }
-    },
-    {
       "kind": "speaking",
       "title_ar": "التحدّث",
       "title_en": "Report a Conversation",
@@ -1731,6 +1698,307 @@
           }
         ],
         "save_as": "Week22"
+      }
+    },
+    {
+      "kind": "practice",
+      "title_ar": "اكتب مثله",
+      "title_en": "Write One Like It",
+      "payload": {
+        "items": [
+          {
+            "day": 1,
+            "title_ar": "أفعال مع up",
+            "model": [
+              {
+                "en": "I wake up at six, but I get up at half past six.",
+                "ar": "أستيقظ في السادسة، لكني أقوم من السرير في السادسة والنصف."
+              },
+              {
+                "en": "I grew up in a small town.",
+                "ar": "نشأتُ في بلدة صغيرة."
+              },
+              {
+                "en": "Last year, I gave up sugar.",
+                "ar": "في السنة الماضية تركتُ السكّر."
+              },
+              {
+                "en": "My brother picks me up after work.",
+                "ar": "أخي يأخذني بسيارته بعد العمل."
+              }
+            ],
+            "pattern_en": "I ___ up ___.",
+            "prompt_ar": "اكتب 4 جمل عن حياتك، وفي كل جملة فعل مختلف مع up: صباحك، والمكان الذي نشأت فيه، وشيء تركته، وشخص يساعدك.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "up",
+                "ar": "حرف صغير يغيّر معنى الفعل: give = يعطي، أما give up = يترك أو يستسلم. احفظ الفعل مع حرفه."
+              },
+              {
+                "word": "wake up · get up",
+                "ar": "wake up = تفتح عينيك. get up = تقوم من السرير. وقد يكون بينهما وقت."
+              },
+              {
+                "word": "grew up",
+                "ar": "ماضي grow up. الفعل وحده يتغيّر: grow ← grew، وup تبقى كما هي."
+              },
+              {
+                "word": "picks me up",
+                "ar": "me تأتي بين الفعل وup: picks me up، لا picks up me. ستعرف القاعدة يوم 4."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت up بعد كل فعل؟",
+              "هل وضعت me أو him أو her بين الفعل وup؟"
+            ]
+          },
+          {
+            "day": 2,
+            "title_ar": "أفعال مع out وoff",
+            "model": [
+              {
+                "en": "Last Friday, we went out for dinner.",
+                "ar": "يوم الجمعة الماضي خرجنا لتناول العشاء."
+              },
+              {
+                "en": "On the way home, the car ran out of petrol.",
+                "ar": "في طريق العودة نفد البنزين من السيارة."
+              },
+              {
+                "en": "My alarm went off at six this morning.",
+                "ar": "رنّ منبّهي في السادسة صباح اليوم."
+              },
+              {
+                "en": "I always turn off my phone at night.",
+                "ar": "أطفئ هاتفي دائماً في الليل."
+              }
+            ],
+            "pattern_en": "I ___ out / off ___.",
+            "prompt_ar": "اكتب 4 جمل عن أسبوعك الماضي أو عاداتك. استعمل 4 أفعال مختلفة مع out أو off.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "out",
+                "ar": "غالباً معناها «إلى الخارج» أو «حتى النهاية»: go out = يخرج · run out = ينفد."
+              },
+              {
+                "word": "off",
+                "ar": "غالباً معناها «توقّف» أو «ابتعاد»: turn off = يطفئ · set off = ينطلق."
+              },
+              {
+                "word": "ran out of",
+                "ar": "نحتاج of قبل الشيء الذي نفد: ran out of petrol. لا تحذف of."
+              },
+              {
+                "word": "went off",
+                "ar": "مع المنبّه معناها «رنّ». الفعل نفسه له معانٍ أخرى، فاحفظه مع مثاله."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت of بعد run out؟",
+              "هل استعملت الماضي (went · ran) للأسبوع الماضي؟"
+            ]
+          },
+          {
+            "day": 3,
+            "title_ar": "أفعال مع on وdown وinto",
+            "model": [
+              {
+                "en": "I get on well with my colleagues.",
+                "ar": "أنسجم جيداً مع زملائي."
+              },
+              {
+                "en": "When I feel angry, I try to calm down.",
+                "ar": "حين أغضب أحاول أن أهدأ."
+              },
+              {
+                "en": "I write down new words in a small notebook.",
+                "ar": "أكتب الكلمات الجديدة في دفتر صغير."
+              },
+              {
+                "en": "Yesterday, I ran into an old friend at the bank.",
+                "ar": "أمس صادفتُ صديقاً قديماً في البنك."
+              }
+            ],
+            "pattern_en": "I ___ on / down / into ___.",
+            "prompt_ar": "اكتب 4 جمل عن حياتك بـ 4 أفعال مختلفة من مجموعة اليوم: on · in · down · back · over · into.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "get on well with",
+                "ar": "get on with معناها «ينسجم مع»، وwell تأتي في وسطها: get on well with."
+              },
+              {
+                "word": "down",
+                "ar": "غالباً معناها «إلى أسفل» أو «أقلّ»: calm down = يهدأ. وwrite down = يكتب على الورق."
+              },
+              {
+                "word": "ran into",
+                "ar": "معناها «صادف». لا يُفصل أبداً: I ran into him، لا I ran him into."
+              },
+              {
+                "word": "try to",
+                "ar": "بعد try نضع to ثم الفعل: try to calm down."
+              }
+            ],
+            "check_ar": [
+              "هل استعملت 4 أفعال مختلفة من مجموعة اليوم؟",
+              "هل جاء him أو her بعد ran into، لا في وسطه؟"
+            ]
+          },
+          {
+            "day": 4,
+            "title_ar": "ماذا قالوا لك؟",
+            "model": [
+              {
+                "en": "My friend said that he was tired.",
+                "ar": "قال صديقي إنه متعب."
+              },
+              {
+                "en": "My mother told me that dinner was ready.",
+                "ar": "أخبرتني أمّي أن العشاء جاهز."
+              },
+              {
+                "en": "My manager said that the meeting would start at ten.",
+                "ar": "قال مديري إن الاجتماع سيبدأ في العاشرة."
+              },
+              {
+                "en": "My brother told me that he couldn't come.",
+                "ar": "أخبرني أخي أنه لا يستطيع المجيء."
+              }
+            ],
+            "pattern_en": "He told me that ___. She said that ___.",
+            "prompt_ar": "اكتب 4 جمل تنقل فيها كلاماً سمعته هذا الأسبوع من أشخاص حقيقيين: من عائلتك، أو عملك، أو أصدقائك.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "said that",
+                "ar": "say لا يأتي بعدها شخص: He said that… . «He said me» خطأ."
+              },
+              {
+                "word": "told me",
+                "ar": "tell يأتي بعدها شخص دائماً: told me · told him."
+              },
+              {
+                "word": "was",
+                "ar": "في نقل الكلام يرجع الزمن خطوة: قال «I am tired» فتنقلها he was tired."
+              },
+              {
+                "word": "would · couldn't",
+                "ar": "will تصير would، وcan تصير could: he couldn't come."
+              }
+            ],
+            "check_ar": [
+              "هل جاء شخص بعد told، ولا شخص بعد said؟",
+              "هل رجع الزمن خطوة: is ← was، وwill ← would؟"
+            ]
+          },
+          {
+            "day": 5,
+            "title_ar": "سألني وطلب مني",
+            "model": [
+              {
+                "en": "My manager asked me if I was happy at work.",
+                "ar": "سألني مديري هل أنا سعيد في العمل."
+              },
+              {
+                "en": "Then he asked me what I wanted.",
+                "ar": "ثم سألني ماذا أريد."
+              },
+              {
+                "en": "I explained to him that I wanted to take on more work.",
+                "ar": "شرحتُ له أني أريد أن أتولّى عملاً أكثر."
+              },
+              {
+                "en": "He asked me to write it down and send it by Friday.",
+                "ar": "طلب مني أن أكتبه وأرسله حتى يوم الجمعة."
+              }
+            ],
+            "pattern_en": "He asked me if ___. She asked me to ___.",
+            "prompt_ar": "اكتب 4 جمل تنقل فيها محادثة جرت لك: سؤال بـ if، وسؤال بـ what أو where، وجوابك، وطلب بـ asked me to.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "if",
+                "ar": "لسؤال جوابه نعم أو لا: asked me if I was happy. «asked me am I happy» خطأ."
+              },
+              {
+                "word": "what I wanted",
+                "ar": "بعد asked يأتي ترتيب الجملة العادي بلا do: what I wanted، لا what did I want."
+              },
+              {
+                "word": "explained to him",
+                "ar": "explain تحتاج to قبل الشخص: explained to him. «explained him» خطأ."
+              },
+              {
+                "word": "asked me to",
+                "ar": "لنقل طلب: asked me to + الفعل. وللنهي نقول told me not to."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت if في سؤال جوابه نعم أو لا؟",
+              "هل حذفت do وdid من السؤال المنقول؟",
+              "هل جاءت to بعد explain وقبل الشخص؟"
+            ]
+          },
+          {
+            "day": 6,
+            "title_ar": "انقل محادثة كاملة",
+            "model": [
+              {
+                "en": "Last week, I ran into my neighbour on the stairs.",
+                "ar": "في الأسبوع الماضي صادفتُ جاري على الدرج."
+              },
+              {
+                "en": "He told me that he was going away for a week.",
+                "ar": "أخبرني أنه مسافر لمدة أسبوع."
+              },
+              {
+                "en": "I asked him where he was going.",
+                "ar": "سألته إلى أين هو ذاهب."
+              },
+              {
+                "en": "He said that he was visiting his family.",
+                "ar": "قال إنه سيزور عائلته."
+              },
+              {
+                "en": "He asked me to look after his cat.",
+                "ar": "طلب مني أن أعتني بقطّته."
+              },
+              {
+                "en": "He said that he would come back on Sunday.",
+                "ar": "قال إنه سيعود يوم الأحد."
+              }
+            ],
+            "pattern_en": "He told me that ___. I asked him ___. He asked me to ___.",
+            "prompt_ar": "اكتب 5 جمل تنقل فيها محادثة حقيقية جرت لك مؤخراً: مع من كانت، وماذا قال، وماذا سألت، وماذا طلب منك. استعمل فعلين مركّبين على الأقل. هذا تمرين لكتابة الغد (150 إلى 170 كلمة).",
+            "min_sentences": 5,
+            "notes": [
+              {
+                "word": "where he was going",
+                "ar": "السؤال المنقول بترتيب الجملة العادي: where he was going، لا where was he going."
+              },
+              {
+                "word": "look after",
+                "ar": "معناها «يعتني بـ»، والشخص أو الشيء بعدها: look after his cat."
+              },
+              {
+                "word": "come back",
+                "ar": "back معناها «الرجوع»: come back = يعود · call back = يعاود الاتصال."
+              },
+              {
+                "word": "would",
+                "ar": "قال «I will come back»، فتنقلها he would come back."
+              }
+            ],
+            "check_ar": [
+              "هل استعملت told مع شخص، وsaid بلا شخص؟",
+              "هل رجع الزمن خطوة في كل جملة منقولة؟",
+              "هل استعملت فعلين مركّبين على الأقل؟"
+            ]
+          }
+        ]
       }
     }
   ],

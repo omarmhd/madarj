@@ -1,5 +1,5 @@
-import { Check, Sprout } from 'lucide-react';
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { Check, Sprout, X } from 'lucide-react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import axios from 'axios';
 import {
   createEmptyCard,
@@ -12,7 +12,9 @@ import {
   type Grade,
 } from 'ts-fsrs';
 import Listen from '@/Components/Listen';
-import { useSpeech } from '@/hooks/useSpeech';
+import SpellInput, { SpellMarks } from '@/Components/Game/SpellInput';
+import { useMySpeech } from '@/hooks/useSpeech';
+import { checkSpelling, type SpellResult } from '@/lib/spelling';
 import { useT } from '@/lib/i18n';
 
 /**
@@ -122,7 +124,21 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
   const [graded, setGraded] = useState(0);
   const [again, setAgain] = useState(0);
 
-  const { speak, supported } = useSpeech();
+  const { say } = useMySpeech();
+
+  /*
+   * A typed answer grades itself.
+   *
+   * Two buttons ask the learner to judge their own recall, and a
+   * beginner judges generously. Typed letters are evidence: right is
+   * Good, one slip is Hard (the word was there, the spelling was not),
+   * anything else is Again. The buttons stay for a reveal without typing.
+   */
+  const [typed, setTyped] = useState('');
+  const [result, setResult] = useState<SpellResult | null>(null);
+  const field = useRef<HTMLInputElement>(null);
+  const nextBtn = useRef<HTMLButtonElement>(null);
+  const touched = useRef(false);
 
   // مُجدول FSRS واحد للجلسة — الضبط الافتراضي مناسب تماماً
   const scheduler = useMemo(() => fsrs(generatorParameters({ enable_fuzz: true })), []);
@@ -148,6 +164,21 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
   }, [weekNumber, dayNumber]);
 
   const current = cards[index] ?? null;
+
+  useEffect(() => {
+    if (!touched.current) return;
+    if (revealed) nextBtn.current?.focus();
+    else field.current?.focus({ preventScroll: true });
+  }, [revealed, index]);
+
+  /** Reveal — always spoken, so the written form arrives with its sound */
+  const reveal = () => {
+    if (!current) return;
+    touched.current = true;
+    setRevealed(true);
+    say(current.word);
+    if (typed.trim()) setResult(checkSpelling(typed, current.word));
+  };
 
   /** بناء بطاقة ts-fsrs من حالة الخادم */
   const toFsrsCard = useCallback((c: ServerCard): FsrsCard => {
@@ -178,6 +209,8 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
 
     // ننتقل فوراً ولا ننتظر الشبكة — المراجعة يجب أن تكون سريعة
     setRevealed(false);
+    setTyped('');
+    setResult(null);
     setIndex((i) => i + 1);
 
     try {
@@ -311,26 +344,29 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
 
         {!revealed ? (
           <>
-            <p className="mt-2 text-sm text-slate-500">{tr('ما هي بالإنجليزية؟')}</p>
-            {/* قُلها قبل الكشف — من يكشف أولاً يتعرّف ولا ينتج */}
-            <p className="mx-auto mt-1 max-w-xs text-xs leading-relaxed text-slate-400">
-              {tr('قلها في نفسك أولاً ثم اكشف')}
-            </p>
-            <button
-              onClick={() => setRevealed(true)}
-              className="mt-6 w-full rounded-xl bg-slate-900 py-3 font-semibold text-white
-                         transition hover:bg-slate-800"
-            >
-              {tr('اكشف الإجابة')}
-            </button>
+            <p className="mt-2 text-sm text-slate-600">{tr('اكتبها بالإنجليزية')}</p>
+            <div className="mt-4 space-y-3">
+              <SpellInput ref={field} value={typed} onChange={setTyped} onSubmit={reveal} />
+              <button
+                onClick={reveal}
+                className="w-full rounded-xl bg-slate-900 py-3 font-semibold text-white
+                           transition hover:bg-slate-800"
+              >
+                {typed.trim() ? tr('تحقّق') : tr('لا أذكرها — اكشف')}
+              </button>
+            </div>
           </>
         ) : (
           <div className="mt-5 space-y-3">
             <div className="rounded-xl bg-slate-50 p-4">
               <div className="flex items-center justify-center gap-2">
-                <p className="text-xl font-bold text-violet-700" dir="ltr">
-                  {current.word}
-                </p>
+                {result && result.verdict !== 'right' ? (
+                  <SpellMarks marks={result.marks} size="md" />
+                ) : (
+                  <p className="text-xl font-bold text-violet-700" dir="ltr">
+                    {current.word}
+                  </p>
+                )}
                 <Listen text={current.word} size="sm" />
               </div>
 
@@ -347,19 +383,60 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
               )}
             </div>
 
-            {/* زرّان لا أكثر — نفس حركة بطاقات المفردات */}
-            <div className="grid grid-cols-2 gap-3">
-              {GRADES.map((g) => (
-                <button
-                  key={g.rating}
-                  onClick={() => grade(g.rating)}
-                  className={`rounded-lg border-2 py-3 font-medium transition
-                              active:scale-[.99] ${g.tone}`}
+            {result ? (
+              <>
+                <div
+                  className={`rounded-xl p-3 text-sm leading-relaxed ${
+                    result.verdict === 'right'
+                      ? 'bg-emerald-50 text-emerald-800'
+                      : result.verdict === 'close'
+                        ? 'bg-amber-50 text-amber-900'
+                        : 'bg-rose-50 text-rose-800'
+                  }`}
                 >
-                  {tr(g.label)}
+                  <p className="flex items-center justify-center gap-1.5 font-semibold">
+                    {result.verdict === 'right' ? <Check aria-hidden size={16} /> : <X aria-hidden size={16} />}
+                    {result.verdict === 'right'
+                      ? tr('صحيحة')
+                      : result.verdict === 'close'
+                        ? tr('قريبة جداً — حرف واحد')
+                        : tr('ليست هي')}
+                  </p>
+                  {(result.note || result.hint) && <p className="mt-1">{result.note ?? result.hint}</p>}
+                </div>
+
+                <button
+                  ref={nextBtn}
+                  onClick={() =>
+                    grade(
+                      result.verdict === 'right'
+                        ? Rating.Good
+                        : result.verdict === 'close'
+                          ? Rating.Hard
+                          : Rating.Again,
+                    )
+                  }
+                  className="min-h-12 w-full rounded-xl bg-slate-900 font-semibold text-white
+                             transition hover:bg-slate-800"
+                >
+                  {tr('التالي')}
                 </button>
-              ))}
-            </div>
+              </>
+            ) : (
+              /* زرّان لا أكثر — نفس حركة بطاقات المفردات */
+              <div className="grid grid-cols-2 gap-3">
+                {GRADES.map((g) => (
+                  <button
+                    key={g.rating}
+                    onClick={() => grade(g.rating)}
+                    className={`rounded-lg border-2 py-3 font-medium transition
+                                active:scale-[.99] ${g.tone}`}
+                  >
+                    {tr(g.label)}
+                  </button>
+                ))}
+              </div>
+            )}
 
             <p className="text-xs leading-relaxed text-slate-400">
               {tr('«لم أعرفها» ليست فشلاً — هي ما يجعل الكلمة تعود إليك في الوقت المناسب.')}

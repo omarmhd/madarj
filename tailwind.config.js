@@ -1,19 +1,22 @@
 import defaultTheme from 'tailwindcss/defaultTheme';
 import forms from '@tailwindcss/forms';
 
-/** Terracotta — the accent ink (replaces violet) */
-const ACCENT = {
-    50: '#fbf3ef', 100: '#f6e2d9', 200: '#edc3b2', 300: '#e19d84',
-    400: '#d4775a', 500: '#c65a3b', 600: '#b8432a', 700: '#983524',
-    800: '#7c2d22', 900: '#66281f', 950: '#37120d',
-};
+/**
+ * The identity colour and the neutrals are CSS variables, not hex.
+ *
+ * The admin chooses the identity (Settings → هوية المنصة), and the
+ * server prints the values into <head> — see `app/Support/Theme.php`.
+ * Each shade is space-separated RGB so `bg-violet-600/40` still works.
+ */
+const SHADES = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950];
+const fromVar = (name) =>
+    Object.fromEntries(SHADES.map((s) => [s, `rgb(var(--${name}-${s}) / <alpha-value>)`]));
 
-/** Warm greys — paper at the light end, ink at the dark end */
-const INK = {
-    50: '#f5f0e6', 100: '#ece5d7', 200: '#ddd4c3', 300: '#c6bca9',
-    400: '#9d9587', 500: '#767068', 600: '#5d5953', 700: '#45433f',
-    800: '#2e2e2c', 900: '#1d2729', 950: '#121618',
-};
+/** The identity colour — terracotta by default (replaced violet), chosen in the admin */
+const ACCENT = fromVar('accent');
+
+/** Neutrals — warm paper-and-ink by default, or cool slate */
+const INK = fromVar('neutral');
 
 /** Done / correct — a sage green that sits on paper, not a neon */
 const DONE = {
@@ -59,7 +62,7 @@ export default {
             // without knowing it exists. Keep in sync with `.folio`
             // variables in app.css.
             colors: {
-                white: '#fffcf5',
+                white: 'rgb(var(--white) / <alpha-value>)',
                 violet: ACCENT,
                 indigo: ACCENT,
                 slate: INK,
@@ -81,11 +84,13 @@ export default {
                 amber: CAUTION,
             },
             // Paper has corners: softer than square, far from pills
+            // Variables so the classic style (the first look) can restore
+            // Tailwind's own rounder corners — see `html[data-style]` in app.css
             borderRadius: {
-                lg: '0.3125rem',
-                xl: '0.4375rem',
-                '2xl': '0.5625rem',
-                '3xl': '0.75rem',
+                lg: 'var(--r-lg, 0.3125rem)',
+                xl: 'var(--r-xl, 0.4375rem)',
+                '2xl': 'var(--r-2xl, 0.5625rem)',
+                '3xl': 'var(--r-3xl, 0.75rem)',
             },
             fontFamily: {
                 // الترتيب مقصود: Figtree أولاً للإنجليزية،

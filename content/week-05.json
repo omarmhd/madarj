@@ -106,22 +106,40 @@
           "ref": "vocab:action_verbs"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:action_verbs",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -142,22 +160,40 @@
           "ref": "vocab:hobbies_and_sports"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:hobbies_and_sports",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -180,20 +216,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -216,20 +270,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -250,22 +322,40 @@
           "ref": "vocab:how_well_you_do_it"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:how_well_you_do_it",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -288,20 +378,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -328,16 +436,28 @@
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     }
@@ -1781,206 +1901,6 @@
       }
     },
     {
-      "kind": "breaktime",
-      "day_number": 7,
-      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
-      "title_en": "Break Time — English Outside the Book",
-      "payload": {
-        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
-        "compare": [
-          {
-            "aspect_ar": "الكمّ",
-            "intensive_ar": "دقائق من الصوت",
-            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
-          },
-          {
-            "aspect_ar": "الفهم",
-            "intensive_ar": "تستهدف 100%",
-            "extensive_ar": "50–70% تكفي"
-          },
-          {
-            "aspect_ar": "الجهد",
-            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
-            "extensive_ar": "منخفض — تسترخي وتستمتع"
-          },
-          {
-            "aspect_ar": "ما يبنيه",
-            "intensive_ar": "الدقّة والقواعد",
-            "extensive_ar": "السرعة والأذن والحدس والمفردات"
-          },
-          {
-            "aspect_ar": "لو أغفلته",
-            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
-            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
-          }
-        ],
-        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
-        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
-        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
-        "song": {
-          "pick": {
-            "title": "I Can See Clearly Now",
-            "artist": "Johnny Nash",
-            "why_en": "Built on can, slow, and every word is clearly sung. The perfect match for the grammar section.",
-            "search": "I Can See Clearly Now Johnny Nash"
-          },
-          "alternatives": [
-            {
-              "title": "Can’t Help Falling in Love",
-              "artist": "Elvis Presley",
-              "why_en": "Very slow. Excellent for hearing the difference between can and can’t.",
-              "search": "Can’t Help Falling in Love Elvis Presley"
-            },
-            {
-              "title": "Roar",
-              "artist": "Katy Perry",
-              "why_en": "Faster, but full of ability language. A good stretch if the first two feel easy.",
-              "search": "Roar Katy Perry"
-            }
-          ],
-          "item": {
-            "key": "song",
-            "icon": "🎵",
-            "label_ar": "أغنية الأسبوع",
-            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
-            "minutes": 20,
-            "steps": [
-              "استمع مرة للمتعة.",
-              "استمع ثانية وتصيّد كل can و can’t واكتبها.",
-              "لاحظ أن can الموجبة قصيرة خفيفة، وcan’t طويلة ثقيلة. قلّد الفرق أسبوعاً كاملاً."
-            ],
-            "prompt_ar": "كم مرة سمعت can؟ وكم can’t؟"
-          }
-        },
-        "watch": {
-          "pick": {
-            "title": "Extra English — Episodes 7–8",
-            "level": "A1–A2",
-            "where": "YouTube",
-            "why_en": "Halfway through the first quarter of the series. Notice how much easier Episode 7 feels than Episode 1.",
-            "search": "Extra English — Episodes 7–8"
-          },
-          "alternatives": [
-            {
-              "title": "A beginner tutorial in your hobby",
-              "level": "A2–B1",
-              "where": "YouTube — search \"[your hobby] for beginners\"",
-              "why_en": "This is the best kind of input there is: a subject you already care about, in English, with pictures carrying the meaning. Guitar, cooking, chess, coding — whatever you actually like.",
-              "search": "A beginner tutorial in your hobby"
-            },
-            {
-              "title": "Shaun the Sheep",
-              "level": "Any",
-              "where": "YouTube — official channel",
-              "why_en": "No dialogue. Narrate the story aloud yourself using can, can’t and the imperative.",
-              "search": "Shaun the Sheep"
-            },
-            {
-              "title": "Easy English — \"What are your hobbies?\"",
-              "level": "A2",
-              "where": "YouTube — search it",
-              "why_en": "Real answers to this exact chapter’s question.",
-              "search": "Easy English — \"What are your hobbies?\""
-            }
-          ],
-          "item": {
-            "key": "watch",
-            "icon": "📺",
-            "label_ar": "ما تشاهده",
-            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
-            "minutes": 25,
-            "steps": [
-              "شاهد حلقة كاملة بلا توقّف.",
-              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
-              "اكتب ثلاث عبارات علقت في ذهنك."
-            ],
-            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
-            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
-          }
-        },
-        "story": {
-          "pick": {
-            "title": "Oxford Bookworms",
-            "where": "Bookshops and most e-book stores; many come with audio",
-            "search": "Oxford Bookworms"
-          },
-          "alternatives": [
-            {
-              "title": "Penguin Readers",
-              "where": "Same",
-              "search": "Penguin Readers"
-            },
-            {
-              "title": "Cambridge English Readers",
-              "where": "Original stories rather than adaptations",
-              "search": "Cambridge English Readers"
-            },
-            {
-              "title": "Free option",
-              "where": "YouTube — full stories read aloud with text on screen",
-              "search": "Free option"
-            }
-          ],
-          "item": {
-            "key": "story",
-            "icon": "📖",
-            "label_ar": "ما تقرأه",
-            "task_ar": "خمس عشرة دقيقة قراءة أو استماع، ولا تبحث عن أكثر من ثلاث كلمات",
-            "minutes": 15,
-            "steps": [
-              "خمس عشرة دقيقة قراءة أو استماع — لا أكثر.",
-              "لا تبحث عن أكثر من ثلاث كلمات. خمّن الباقي من السياق.",
-              "اكتب جملة واحدة عمّا قرأته، من الذاكرة."
-            ],
-            "why_ar": "الحدس من السياق هو المهارة المقصودة — والبحث عن كل كلمة يقتلها.",
-            "prompt_ar": "جملة واحدة عمّا قرأته"
-          }
-        },
-        "item_order": [
-          "song",
-          "watch",
-          "story"
-        ],
-        "plan": [
-          {
-            "day_ar": "السبت",
-            "activity_ar": "الأغنية + مهمة الاستماع إلى can و can’t",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الأحد",
-            "activity_ar": "Extra English الحلقة 7",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الاثنين",
-            "activity_ar": "اختر كتابك المتدرّج الأول وابدأه",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الثلاثاء",
-            "activity_ar": "Extra English الحلقة 8",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الأربعاء",
-            "activity_ar": "درس للمبتدئين في هوايتك",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الخميس",
-            "activity_ar": "الكتاب المتدرّج — 15 دقيقة",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الجمعة",
-            "activity_ar": "الكتاب المتدرّج + حلقة Shaun the Sheep تسردها بنفسك",
-            "minutes": 30
-          }
-        ]
-      }
-    },
-    {
       "kind": "speaking",
       "title_ar": "التحدّث",
       "title_en": "Two Minutes About Your Free Time",
@@ -2095,6 +2015,281 @@
           }
         ],
         "save_as": "Week05"
+      }
+    },
+    {
+      "kind": "practice",
+      "title_ar": "اكتب مثله",
+      "title_en": "Write One Like It",
+      "payload": {
+        "items": [
+          {
+            "day": 1,
+            "title_ar": "ما تستطيعه وما لا تستطيعه",
+            "model": [
+              {
+                "en": "I can swim.",
+                "ar": "أستطيع السباحة."
+              },
+              {
+                "en": "I can cook rice.",
+                "ar": "أستطيع طبخ الأرز."
+              },
+              {
+                "en": "I can't drive.",
+                "ar": "لا أستطيع القيادة."
+              },
+              {
+                "en": "My sister can draw.",
+                "ar": "أختي تستطيع الرسم."
+              }
+            ],
+            "pattern_en": "I can ___. I can't ___.",
+            "prompt_ar": "اكتب 4 جمل: شيئان تستطيعهما، وشيء لا تستطيعه، وشيء يستطيعه شخص تعرفه.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "can",
+                "ar": "بعد can يأتي الفعل مباشرة بلا to: I can swim. «He can to swim» خطأ."
+              },
+              {
+                "word": "can't",
+                "ar": "اختصار cannot، ومعناها «لا أستطيع»."
+              },
+              {
+                "word": "she can",
+                "ar": "can لا تأخذ s أبداً: She can draw، لا She cans."
+              }
+            ],
+            "check_ar": [
+              "هل جاء الفعل بعد can مباشرة بلا to؟",
+              "هل كتبت can بلا s مع he وshe؟"
+            ]
+          },
+          {
+            "day": 2,
+            "title_ar": "هواياتك",
+            "model": [
+              {
+                "en": "I like football.",
+                "ar": "أحبّ كرة القدم."
+              },
+              {
+                "en": "I love reading.",
+                "ar": "أحبّ القراءة كثيراً."
+              },
+              {
+                "en": "I play chess with my friend.",
+                "ar": "ألعب الشطرنج مع صديقي."
+              },
+              {
+                "en": "I don't like swimming.",
+                "ar": "لا أحبّ السباحة."
+              }
+            ],
+            "pattern_en": "I love / like ___ing. I don't like ___ing.",
+            "prompt_ar": "اكتب 4 جمل عن هواياتك: ما تحبّه، وما لا تحبّه، ومع من تمارسها.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "-ing",
+                "ar": "بعد like وlove نضيف ing للفعل: I love reading. لا تقل I like read."
+              },
+              {
+                "word": "play",
+                "ar": "مع الرياضة والألعاب: play football · play chess، بلا the."
+              },
+              {
+                "word": "with",
+                "ar": "معناها «مع»: with my friend."
+              }
+            ],
+            "check_ar": [
+              "هل أضفت ing للفعل بعد like وlove؟",
+              "هل كتبت play football بلا the؟"
+            ]
+          },
+          {
+            "day": 3,
+            "title_ar": "هل تستطيع؟",
+            "model": [
+              {
+                "en": "Can you swim? Yes, I can.",
+                "ar": "هل تستطيع السباحة؟ نعم."
+              },
+              {
+                "en": "Can your brother play the guitar? No, he can't.",
+                "ar": "هل يستطيع أخوك العزف على الغيتار؟ لا."
+              },
+              {
+                "en": "What can you cook?",
+                "ar": "ماذا تستطيع أن تطبخ؟"
+              },
+              {
+                "en": "I can cook eggs.",
+                "ar": "أستطيع طبخ البيض."
+              }
+            ],
+            "pattern_en": "Can you ___? Yes, I can. / No, I can't.",
+            "prompt_ar": "اكتب 3 أسئلة بـ Can، وأجب عن كل سؤال.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "Can you…?",
+                "ar": "السؤال يبدأ بـ Can مباشرة، بلا do: Can you swim?"
+              },
+              {
+                "word": "Yes, I can",
+                "ar": "الجواب القصير يكرّر can: Yes, I can · No, he can't."
+              },
+              {
+                "word": "the guitar",
+                "ar": "مع الآلات الموسيقية نقول the: play the guitar · play the piano."
+              }
+            ],
+            "check_ar": [
+              "هل بدأ كل سؤال بـ Can أو بكلمة سؤال ثم can؟",
+              "هل انتهى كل سؤال بعلامة ?؟"
+            ]
+          },
+          {
+            "day": 4,
+            "title_ar": "بارع في…",
+            "model": [
+              {
+                "en": "I am good at cooking.",
+                "ar": "أنا بارع في الطبخ."
+              },
+              {
+                "en": "I am not good at singing.",
+                "ar": "لست بارعاً في الغناء."
+              },
+              {
+                "en": "I hate running.",
+                "ar": "أكره الجري."
+              },
+              {
+                "en": "Try it! It's fun.",
+                "ar": "جرّبه! إنه ممتع."
+              }
+            ],
+            "pattern_en": "I am good at ___ing.",
+            "prompt_ar": "اكتب 4 جمل: شيء تبرع فيه، وشيء لا تبرع فيه، وشيء تكرهه، ونصيحة لصديق بفعل أمر.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "good at",
+                "ar": "نقول good at لا good in. وبعدها ing: good at playing، لا good at play."
+              },
+              {
+                "word": "hate",
+                "ar": "مثل like وlove: بعدها ing: I hate running."
+              },
+              {
+                "word": "Try it!",
+                "ar": "الأمر يبدأ بالفعل بلا you: Try · Go · Listen."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت at بعد good؟",
+              "هل جاء الفعل بـ ing بعد good at وhate؟"
+            ]
+          },
+          {
+            "day": 5,
+            "title_ar": "كيف تفعلها؟",
+            "model": [
+              {
+                "en": "I swim well, but I run slowly.",
+                "ar": "أسبح جيداً، لكني أجري ببطء."
+              },
+              {
+                "en": "My brother plays football really well.",
+                "ar": "أخي يلعب كرة القدم جيداً جداً."
+              },
+              {
+                "en": "I can't dance at all.",
+                "ar": "لا أستطيع الرقص أبداً."
+              },
+              {
+                "en": "I speak English a little.",
+                "ar": "أتكلّم الإنجليزية قليلاً."
+              }
+            ],
+            "pattern_en": "I ___ well / slowly / a little.",
+            "prompt_ar": "اكتب 4 جمل عن مستواك في أشياء تفعلها: ما تفعله جيداً، وما تفعله ببطء، وما لا تستطيعه أبداً.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "well",
+                "ar": "«جيداً» بعد الفعل هي well لا good: She sings well. وgood تأتي مع is: She is good."
+              },
+              {
+                "word": "slowly",
+                "ar": "كلمات «كيف» تأتي بعد الفعل أو بعد المفعول: plays football well."
+              },
+              {
+                "word": "at all",
+                "ar": "معناها «أبداً»، وتأتي في آخر الجملة المنفية: I can't dance at all."
+              },
+              {
+                "word": "really",
+                "ar": "تقوّي الكلمة بعدها: really well = جيداً جداً."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت well بعد الفعل لا good؟",
+              "هل جاءت at all في آخر جملة منفية؟"
+            ]
+          },
+          {
+            "day": 6,
+            "title_ar": "وقت فراغك",
+            "model": [
+              {
+                "en": "In my free time, I usually read or play chess.",
+                "ar": "في وقت فراغي أقرأ عادةً أو ألعب الشطرنج."
+              },
+              {
+                "en": "I play chess twice a week with my neighbour.",
+                "ar": "ألعب الشطرنج مرتين في الأسبوع مع جاري."
+              },
+              {
+                "en": "I am quite good at it.",
+                "ar": "أنا جيد فيه إلى حدّ ما."
+              },
+              {
+                "en": "I would like to learn the guitar.",
+                "ar": "أودّ أن أتعلّم الغيتار."
+              }
+            ],
+            "pattern_en": "In my free time, I ___. I would like to learn ___.",
+            "prompt_ar": "اكتب 5 جمل عن وقت فراغك: ماذا تفعل، وكم مرة، وهل أنت بارع فيه، وماذا تودّ أن تتعلّم. هذا تمرين لكتابة الغد.",
+            "min_sentences": 5,
+            "notes": [
+              {
+                "word": "twice a week",
+                "ar": "«مرتين في الأسبوع» وتأتي في آخر الجملة: once a week · twice a week."
+              },
+              {
+                "word": "quite",
+                "ar": "معناها «إلى حدّ ما». أضعف من very: quite good."
+              },
+              {
+                "word": "would like to",
+                "ar": "«أودّ أن»، وبعدها to والفعل: I would like to learn. وقصيرها I'd like to."
+              },
+              {
+                "word": "or",
+                "ar": "معناها «أو»: read or play chess."
+              }
+            ],
+            "check_ar": [
+              "هل ذكرت كم مرة تمارس هوايتك؟",
+              "هل جاءت to بعد would like؟"
+            ]
+          }
+        ]
       }
     }
   ],

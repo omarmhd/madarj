@@ -25,6 +25,19 @@ class LoginRequest extends FormRequest
      *
      * @return array<string, ValidationRule|array<mixed>|string>
      */
+    /**
+     * Compare the address the way it was registered: lowercase, no spaces.
+     *
+     * Registration only accepts lowercase, but sign-in took the address
+     * as typed — and a phone keyboard capitalises the first letter. On
+     * SQLite `=` is case-sensitive, so `Admin@…` never matched `admin@…`
+     * and the learner was told the password was wrong.
+     */
+    protected function prepareForValidation(): void
+    {
+        $this->merge(['email' => Str::lower(trim((string) $this->input('email')))]);
+    }
+
     public function rules(): array
     {
         return [

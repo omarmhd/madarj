@@ -26,7 +26,9 @@ class ProgressController extends Controller
         $data = $request->validate([
             'week'  => ['required', 'integer', 'between:1,24'],
             'day'   => ['required', 'integer', 'between:1,7'],
-            'task'  => ['required', 'integer', 'between:1,5'],
+            // Not a fixed ceiling: days have five to seven tasks, and the
+            // service checks the order against the day's actual plan
+            'task'  => ['required', 'integer', 'min:1'],
             'done'  => ['required', 'boolean'],
         ]);
 

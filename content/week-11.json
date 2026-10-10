@@ -98,22 +98,40 @@
           "ref": "vocab:future_time_expressions"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:future_time_expressions",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -136,20 +154,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -170,22 +206,40 @@
           "ref": "vocab:plans_and_appointments"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:plans_and_appointments",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -208,20 +262,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -242,22 +314,40 @@
           "ref": "vocab:weather_and_predictions"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:weather_and_predictions",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -280,20 +370,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -314,22 +422,34 @@
           "ref": "vocab:making_arrangements|section:reading|writing:1|record"
         },
         {
-          "order": 3,
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:making_arrangements",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 15,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     }
@@ -1789,161 +1909,6 @@
       }
     },
     {
-      "kind": "breaktime",
-      "day_number": 7,
-      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
-      "title_en": "Break Time — English Outside the Book",
-      "payload": {
-        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
-        "compare": [
-          {
-            "aspect_ar": "الكمّ",
-            "intensive_ar": "دقائق من الصوت",
-            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
-          },
-          {
-            "aspect_ar": "الفهم",
-            "intensive_ar": "تستهدف 100%",
-            "extensive_ar": "50–70% تكفي"
-          },
-          {
-            "aspect_ar": "الجهد",
-            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
-            "extensive_ar": "منخفض — تسترخي وتستمتع"
-          },
-          {
-            "aspect_ar": "ما يبنيه",
-            "intensive_ar": "الدقّة والقواعد",
-            "extensive_ar": "السرعة والأذن والحدس والمفردات"
-          },
-          {
-            "aspect_ar": "لو أغفلته",
-            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
-            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
-          }
-        ],
-        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
-        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
-        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
-        "song": {
-          "pick": {
-            "title": "I Will Survive",
-            "artist": "Gloria Gaynor",
-            "why_en": "Built entirely on will. Slow enough to follow, and the title repeats forty times.",
-            "search": "I Will Survive Gloria Gaynor"
-          },
-          "alternatives": [
-            {
-              "title": "I Will Always Love You",
-              "artist": "Whitney Houston",
-              "why_en": "Very slow and very clear. Excellent for hearing will in full and contracted form.",
-              "search": "I Will Always Love You Whitney Houston"
-            },
-            {
-              "title": "Don’t Stop Me Now",
-              "artist": "Queen",
-              "why_en": "Faster. Full of gonna — a good test of whether your ear catches it.",
-              "search": "Don’t Stop Me Now Queen"
-            }
-          ],
-          "item": {
-            "key": "song",
-            "icon": "🎵",
-            "label_ar": "أغنية الأسبوع",
-            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
-            "minutes": 20,
-            "steps": [
-              "استمع مرة للمتعة.",
-              "تصيّد كل gonna و ’ll و won’t.",
-              "أعد المقطع الذي فيه أكثرها خمس مرات."
-            ],
-            "why_ar": "هذه الاختصارات هي ما تسمعه فعلاً في الكلام الطبيعي، ولن تجدها مكتوبة في أي كتاب قواعد.",
-            "prompt_ar": "ما العبارات المختصرة التي التقطتها؟"
-          }
-        },
-        "watch": {
-          "pick": {
-            "title": "Extra English — Episodes 17–18",
-            "level": "A1–A2",
-            "where": "YouTube",
-            "why_en": "Keep going.",
-            "search": "Extra English — Episodes 17–18"
-          },
-          "alternatives": [
-            {
-              "title": "Easy English — \"What are your plans?\"",
-              "level": "A2",
-              "where": "YouTube — search it",
-              "why_en": "Real people using going to, will and arrangements in one video.",
-              "search": "Easy English — \"What are your plans?\""
-            },
-            {
-              "title": "Language lesson videos on italki or YouTube",
-              "level": "A2",
-              "where": "Search \"italki trial lesson\"",
-              "why_en": "Watch a real beginner lesson from start to finish. Seeing exactly what happens removes most of the fear.",
-              "search": "Language lesson videos on italki or YouTube"
-            }
-          ],
-          "item": {
-            "key": "watch",
-            "icon": "📺",
-            "label_ar": "ما تشاهده",
-            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
-            "minutes": 25,
-            "steps": [
-              "شاهد حلقة كاملة بلا توقّف.",
-              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
-              "اكتب ثلاث عبارات علقت في ذهنك."
-            ],
-            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
-            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
-          }
-        },
-        "item_order": [
-          "song",
-          "watch"
-        ],
-        "plan": [
-          {
-            "day_ar": "السبت",
-            "activity_ar": "الأغنية + التقاط gonna",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الأحد",
-            "activity_ar": "Extra English الحلقة 17",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الاثنين",
-            "activity_ar": "شاهد درساً تجريبياً حقيقياً على يوتيوب",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الثلاثاء",
-            "activity_ar": "تمرّن على المحادثة — الخطوات 1–3",
-            "minutes": 30
-          },
-          {
-            "day_ar": "الأربعاء",
-            "activity_ar": "Extra English الحلقة 18",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الخميس",
-            "activity_ar": "تمرّن — الخطوتان 4–5",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الجمعة",
-            "activity_ar": "الكتاب المتدرّج + اختيار حرّ",
-            "minutes": 30
-          }
-        ]
-      }
-    },
-    {
       "kind": "speaking",
       "title_ar": "التحدّث",
       "title_en": "My Plans for the Next Year",
@@ -2060,6 +2025,302 @@
           }
         ],
         "save_as": "Week11"
+      }
+    },
+    {
+      "kind": "practice",
+      "title_ar": "اكتب مثله",
+      "title_en": "Write One Like It",
+      "payload": {
+        "items": [
+          {
+            "day": 1,
+            "title_ar": "خططك القريبة",
+            "model": [
+              {
+                "en": "Tonight I'm going to study for an hour.",
+                "ar": "الليلة سأدرس ساعة."
+              },
+              {
+                "en": "Tomorrow I'm going to visit my grandmother.",
+                "ar": "غداً سأزور جدّتي."
+              },
+              {
+                "en": "At the weekend we're going to clean the flat.",
+                "ar": "في عطلة نهاية الأسبوع سننظّف الشقّة."
+              },
+              {
+                "en": "Next month my brother is going to start a new job.",
+                "ar": "الشهر القادم سيبدأ أخي عملاً جديداً."
+              }
+            ],
+            "pattern_en": "Tomorrow / Next ___ I'm going to ___.",
+            "prompt_ar": "اكتب 4 جمل عن خطط قرّرتها: الليلة، وغداً، وعطلة نهاية الأسبوع، والشهر القادم. ابدأ كل جملة بكلمة الوقت.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "I'm going to",
+                "ar": "لخطة قرّرتها من قبل. لا تحذف am: I going to خطأ."
+              },
+              {
+                "word": "is going to",
+                "ar": "مع he وshe نقول is going to، والفعل بعدها بلا s: is going to start."
+              },
+              {
+                "word": "at the weekend",
+                "ar": "معناها «في عطلة نهاية الأسبوع». نقولها بـ at في الإنجليزية البريطانية."
+              },
+              {
+                "word": "next month",
+                "ar": "بلا the وبلا in: next month · next week. لا تقل in the next month."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت am أو is أو are قبل going to؟",
+              "هل جاء الفعل بعد going to بلا s؟"
+            ]
+          },
+          {
+            "day": 2,
+            "title_ar": "وعود وعروض",
+            "model": [
+              {
+                "en": "Don't worry, I'll help you.",
+                "ar": "لا تقلق، سأساعدك."
+              },
+              {
+                "en": "I'll call you tonight.",
+                "ar": "سأتصل بك الليلة."
+              },
+              {
+                "en": "I won't be late, I promise.",
+                "ar": "لن أتأخّر، أعدك."
+              },
+              {
+                "en": "I think the test will be easy.",
+                "ar": "أظنّ أن الاختبار سيكون سهلاً."
+              }
+            ],
+            "pattern_en": "I'll ___. I won't ___. I think ___ will ___.",
+            "prompt_ar": "اكتب 4 جمل: عرض مساعدة لشخص، ووعد، وشيء لن تفعله، ورأيك في شيء سيحدث غداً.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "I'll",
+                "ar": "اختصار I will، وبعدها الفعل بلا to: I'll help. «I will to help» خطأ."
+              },
+              {
+                "word": "won't",
+                "ar": "اختصار will not. لا تخلطها بـ want: صوت won't أطول."
+              },
+              {
+                "word": "I promise",
+                "ar": "معناها «أعدك». والوعد يأتي مع will: I won't be late."
+              },
+              {
+                "word": "I think … will",
+                "ar": "لرأيك عن المستقبل: I think it will be easy. وwill لا تأخذ s أبداً."
+              }
+            ],
+            "check_ar": [
+              "هل جاء الفعل بعد will وI'll بلا to؟",
+              "هل كتبت won't لا will not to؟"
+            ]
+          },
+          {
+            "day": 3,
+            "title_ar": "مواعيد أسبوعك",
+            "model": [
+              {
+                "en": "On Monday I'm seeing the doctor at ten.",
+                "ar": "يوم الاثنين عندي موعد مع الطبيب في العاشرة."
+              },
+              {
+                "en": "On Tuesday I'm meeting a client after work.",
+                "ar": "يوم الثلاثاء سألتقي عميلاً بعد العمل."
+              },
+              {
+                "en": "I'm free on Wednesday evening.",
+                "ar": "أنا متفرّغ مساء الأربعاء."
+              },
+              {
+                "en": "I'm going to book a table for Friday.",
+                "ar": "سأحجز طاولة ليوم الجمعة."
+              }
+            ],
+            "pattern_en": "On ___ I'm ___ing ___ at ___.",
+            "prompt_ar": "اكتب 4 جمل عن أسبوعك القادم: موعدان ثابتان مع يومهما، ويوم أنت فيه متفرّغ، وشيء ستحجزه.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "I'm seeing",
+                "ar": "المضارع المستمر مع يوم محدّد = موعد ثابت: I'm seeing the doctor on Monday."
+              },
+              {
+                "word": "on Monday",
+                "ar": "مع الأيام نقول on: on Monday · on Wednesday evening."
+              },
+              {
+                "word": "free",
+                "ar": "هنا معناها «متفرّغ»، وعكسها busy: I'm free on Wednesday."
+              },
+              {
+                "word": "book",
+                "ar": "هنا فعل معناه «يحجز»: book a table · book a ticket."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت am مع الفعل بـ ing في المواعيد؟",
+              "هل ذكرت اليوم مع on في كل موعد؟"
+            ]
+          },
+          {
+            "day": 4,
+            "title_ar": "حدّد موعداً وغيّره",
+            "model": [
+              {
+                "en": "I'd like to make an appointment, please.",
+                "ar": "أريد أن أحدّد موعداً من فضلك."
+              },
+              {
+                "en": "Are you free on Tuesday? Let me check my diary.",
+                "ar": "هل أنت متفرّغ يوم الثلاثاء؟ دعني أنظر في دفتر مواعيدي."
+              },
+              {
+                "en": "Sorry, I can't come on Tuesday. Can we postpone it?",
+                "ar": "آسف، لا أستطيع الحضور يوم الثلاثاء. هل نؤجّله؟"
+              },
+              {
+                "en": "Thursday works for me. I'll confirm by email.",
+                "ar": "الخميس يناسبني. سأؤكّد بالبريد الإلكتروني."
+              }
+            ],
+            "pattern_en": "Are you free on ___? Can we postpone it to ___?",
+            "prompt_ar": "اكتب مكالمة قصيرة من 4 جمل أو أكثر: تحدّد موعداً مع طبيب أو زميل أو صديق، ثم تطلب تغييره ليوم آخر.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "make an appointment",
+                "ar": "نقول make an appointment لتحديد موعد، وبـ an لأن appointment تبدأ بحرف علّة."
+              },
+              {
+                "word": "let me",
+                "ar": "معناها «دعني»، وبعدها الفعل مباشرة: Let me check."
+              },
+              {
+                "word": "postpone",
+                "ar": "معناها «يؤجّل» إلى وقت آخر. أما cancel فمعناها «يلغي» تماماً."
+              },
+              {
+                "word": "by email",
+                "ar": "نقول by لوسيلة التواصل: by email · by phone، بلا the."
+              }
+            ],
+            "check_ar": [
+              "هل فيها سؤال عن يوم بـ Are you free on…؟",
+              "هل طلبت التغيير بأدب، بـ Sorry أو Can we…؟"
+            ]
+          },
+          {
+            "day": 5,
+            "title_ar": "الطقس وتوقّعاتك",
+            "model": [
+              {
+                "en": "Look at those clouds! It's going to rain.",
+                "ar": "انظر إلى تلك الغيوم! ستمطر."
+              },
+              {
+                "en": "The forecast says it will be cold tomorrow.",
+                "ar": "النشرة الجوية تقول إن الجوّ سيكون بارداً غداً."
+              },
+              {
+                "en": "If it rains, we'll stay at home.",
+                "ar": "إذا أمطرت، سنبقى في البيت."
+              },
+              {
+                "en": "When the sun comes out, I'll go for a walk.",
+                "ar": "حين تطلع الشمس، سأخرج لأتمشّى."
+              }
+            ],
+            "pattern_en": "If it ___s, I'll ___. When ___, I'll ___.",
+            "prompt_ar": "اكتب 4 جمل عن الطقس عندك: توقّع تراه أمامك، وما تقوله النشرة، وما ستفعله إذا تغيّر الجوّ.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "It's going to",
+                "ar": "للتوقّع حين ترى الدليل أمامك: Look at those clouds! It's going to rain."
+              },
+              {
+                "word": "If it rains",
+                "ar": "بعد if يأتي المضارع لا will: If it rains. «If it will rain» خطأ شائع."
+              },
+              {
+                "word": "when",
+                "ar": "مثل if: بعدها المضارع، وwill في الجزء الآخر: When the sun comes out, I'll go."
+              },
+              {
+                "word": "the forecast",
+                "ar": "معناها «النشرة الجوية»، وتأتي مع the."
+              }
+            ],
+            "check_ar": [
+              "هل جاء المضارع بعد if وwhen، بلا will؟",
+              "هل استعملت going to لتوقّع تراه أمامك؟"
+            ]
+          },
+          {
+            "day": 6,
+            "title_ar": "خططك لهذه السنة",
+            "model": [
+              {
+                "en": "This year I'm going to finish my English course.",
+                "ar": "هذه السنة سأُنهي دورة الإنجليزية."
+              },
+              {
+                "en": "I'm also going to look for a new job.",
+                "ar": "وسأبحث أيضاً عن عمل جديد."
+              },
+              {
+                "en": "Next Friday we're visiting my uncle in Amman.",
+                "ar": "يوم الجمعة القادم سنزور عمّي في عمّان."
+              },
+              {
+                "en": "I'm not going to buy a car this year.",
+                "ar": "لن أشتري سيارة هذه السنة."
+              },
+              {
+                "en": "When I finish the course, I'll take a test.",
+                "ar": "حين أُنهي الدورة، سأتقدّم لاختبار."
+              }
+            ],
+            "pattern_en": "I'm going to ___. I'm not going to ___. When I ___, I'll ___.",
+            "prompt_ar": "اكتب 5 جمل عن خططك لهذه السنة: خطّتان، وموعد ثابت، وشيء لن تفعله، وجملة بـ when أو if. هذا تمرين لكتابة الغد (110 إلى 130 كلمة).",
+            "min_sentences": 5,
+            "notes": [
+              {
+                "word": "also",
+                "ar": "معناها «أيضاً». تأتي بعد am أو is وقبل going to: I'm also going to."
+              },
+              {
+                "word": "we're visiting",
+                "ar": "موعد ثابت مع وقت محدّد، فنستعمل المضارع المستمر لا will."
+              },
+              {
+                "word": "not going to",
+                "ar": "للخطة المنفية نضع not بعد am: I'm not going to buy."
+              },
+              {
+                "word": "When I finish",
+                "ar": "بعد when المضارع لا will: When I finish. «When I will finish» خطأ."
+              }
+            ],
+            "check_ar": [
+              "هل استعملت going to للخطط، والمضارع المستمر للموعد الثابت؟",
+              "هل جاء المضارع بعد when أو if؟",
+              "هل كتبت شيئاً لن تفعله؟"
+            ]
+          }
+        ]
       }
     }
   ],

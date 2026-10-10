@@ -75,16 +75,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -111,16 +129,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -147,16 +183,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -177,22 +231,40 @@
           "ref": "vocab:processes_and_production|dialogue:1"
         },
         {
-          "order": 3,
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:processes_and_production",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -219,16 +291,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -249,22 +339,40 @@
           "ref": "vocab:describing_a_process|section:listening"
         },
         {
-          "order": 3,
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:describing_a_process",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -291,16 +399,28 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     }
@@ -1699,164 +1819,6 @@
       }
     },
     {
-      "kind": "breaktime",
-      "day_number": 7,
-      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
-      "title_en": "Break Time — English Outside the Book",
-      "payload": {
-        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
-        "compare": [
-          {
-            "aspect_ar": "الكمّ",
-            "intensive_ar": "دقائق من الصوت",
-            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
-          },
-          {
-            "aspect_ar": "الفهم",
-            "intensive_ar": "تستهدف 100%",
-            "extensive_ar": "50–70% تكفي"
-          },
-          {
-            "aspect_ar": "الجهد",
-            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
-            "extensive_ar": "منخفض — تسترخي وتستمتع"
-          },
-          {
-            "aspect_ar": "ما يبنيه",
-            "intensive_ar": "الدقّة والقواعد",
-            "extensive_ar": "السرعة والأذن والحدس والمفردات"
-          },
-          {
-            "aspect_ar": "لو أغفلته",
-            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
-            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
-          }
-        ],
-        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
-        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
-        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
-        "watch": {
-          "pick": {
-            "title": "\"How It’s Made\"",
-            "where": "YouTube — search the title",
-            "why_en": "Every sentence is a passive. Five minutes per product, narrated slowly, with pictures carrying the meaning. It is almost a grammar lesson.",
-            "search": "\"How It’s Made\""
-          },
-          "alternatives": [
-            {
-              "title": "Documentaries with narration",
-              "where": "Netflix or YouTube",
-              "why_en": "Narration is the clearest full-speed English available.",
-              "search": "Documentaries with narration"
-            },
-            {
-              "title": "Friends — Episodes 18–20",
-              "where": "Any streaming service",
-              "why_en": "Keep going — and try one episode with no subtitles.",
-              "search": "Friends — Episodes 18–20"
-            }
-          ],
-          "item": {
-            "key": "watch",
-            "icon": "📺",
-            "label_ar": "ما تشاهده",
-            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
-            "minutes": 25,
-            "steps": [
-              "شاهد حلقة كاملة بلا توقّف.",
-              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
-              "اكتب ثلاث عبارات علقت في ذهنك."
-            ],
-            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
-            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
-          }
-        },
-        "story": {
-          "pick": {
-            "title": "Luke’s English Podcast",
-            "where": "teacherluke.co.uk",
-            "why_en": "Made by a teacher but spoken at full natural speed. The bridge between graded and native.",
-            "url": "https://teacherluke.co.uk"
-          },
-          "alternatives": [
-            {
-              "title": "All Ears English",
-              "where": "allearsenglish.com",
-              "why_en": "Two Americans talking normally. Fifteen minutes.",
-              "url": "https://allearsenglish.com"
-            },
-            {
-              "title": "Any podcast about your own hobby",
-              "where": "Search your interest + podcast",
-              "why_en": "You already know the subject, so only the language is new. This is the easiest native material there is.",
-              "search": "Any podcast about your own hobby"
-            },
-            {
-              "title": "BBC News — Global News Podcast",
-              "where": "Any podcast app",
-              "why_en": "Formal, clear, and full of passives — this chapter’s grammar in real use.",
-              "search": "BBC News — Global News Podcast"
-            }
-          ],
-          "item": {
-            "key": "story",
-            "icon": "📖",
-            "label_ar": "ما تقرأه",
-            "task_ar": "خمس عشرة دقيقة قراءة أو استماع، ولا تبحث عن أكثر من ثلاث كلمات",
-            "minutes": 15,
-            "steps": [
-              "خمس عشرة دقيقة قراءة أو استماع — لا أكثر.",
-              "لا تبحث عن أكثر من ثلاث كلمات. خمّن الباقي من السياق.",
-              "اكتب جملة واحدة عمّا قرأته، من الذاكرة."
-            ],
-            "why_ar": "الحدس من السياق هو المهارة المقصودة — والبحث عن كل كلمة يقتلها.",
-            "prompt_ar": "جملة واحدة عمّا قرأته"
-          }
-        },
-        "item_order": [
-          "watch",
-          "story"
-        ],
-        "plan": [
-          {
-            "day_ar": "السبت",
-            "activity_ar": "أول بودكاست لناطقين أصليين — بلا إيقاف",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الأحد",
-            "activity_ar": "حلقتان من «How It’s Made»",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الاثنين",
-            "activity_ar": "بودكاست + قراءة",
-            "minutes": 30
-          },
-          {
-            "day_ar": "الثلاثاء",
-            "activity_ar": "درس مع معلّمك",
-            "minutes": 35
-          },
-          {
-            "day_ar": "الأربعاء",
-            "activity_ar": "Friends الحلقة 18 — بلا ترجمة",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الخميس",
-            "activity_ar": "بودكاست + قراءة",
-            "minutes": 30
-          },
-          {
-            "day_ar": "الجمعة",
-            "activity_ar": "فيلم وثائقي من اختيارك",
-            "minutes": 50
-          }
-        ]
-      }
-    },
-    {
       "kind": "speaking",
       "title_ar": "التحدّث",
       "title_en": "Explaining a Process",
@@ -1971,6 +1933,302 @@
           }
         ],
         "save_as": "Week19"
+      }
+    },
+    {
+      "kind": "practice",
+      "title_ar": "اكتب مثله",
+      "title_en": "Write One Like It",
+      "payload": {
+        "items": [
+          {
+            "day": 1,
+            "title_ar": "ما يُصنع في بلدك",
+            "model": [
+              {
+                "en": "Rice is grown in the north of my country.",
+                "ar": "يُزرع الأرز في شمال بلدي."
+              },
+              {
+                "en": "Most of our cars are imported from Asia.",
+                "ar": "معظم سياراتنا تُستورد من آسيا."
+              },
+              {
+                "en": "English is spoken in many hotels.",
+                "ar": "يُتكلَّم بالإنجليزية في فنادق كثيرة."
+              },
+              {
+                "en": "Tea is drunk at every meal.",
+                "ar": "يُشرب الشاي مع كل وجبة."
+              }
+            ],
+            "pattern_en": "___ is / are ___ed in my country.",
+            "prompt_ar": "اكتب 4 جمل عن بلدك: ما يُزرع فيه، وما يُصنع، وما يُستورد، وما يُشرب أو يُؤكل كثيراً. ابدأ كل جملة بالشيء لا بالناس.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "is grown",
+                "ar": "المجهول = is أو are + التصريف الثالث. لا تحذف is: «It make in Egypt» خطأ، والصواب It is made."
+              },
+              {
+                "word": "are imported",
+                "ar": "مع الجمع نقول are: cars are imported. وimport معناها «يستورد»."
+              },
+              {
+                "word": "spoken",
+                "ar": "بعد is نضع التصريف الثالث spoken، لا الماضي spoke."
+              },
+              {
+                "word": "drunk",
+                "ar": "التصريف الثالث من drink. وهنا معناها «يُشرب»."
+              }
+            ],
+            "check_ar": [
+              "هل وضعت is أو are قبل كل تصريف ثالث؟",
+              "هل استعملت are مع الجمع؟"
+            ]
+          },
+          {
+            "day": 2,
+            "title_ar": "ماذا حدث، ومن فعله؟",
+            "model": [
+              {
+                "en": "My house was built in 1998.",
+                "ar": "بُني بيتي سنة 1998."
+              },
+              {
+                "en": "It was built by my grandfather.",
+                "ar": "بناه جدّي."
+              },
+              {
+                "en": "My phone was stolen last year.",
+                "ar": "سُرق هاتفي في السنة الماضية."
+              },
+              {
+                "en": "The thief was never found.",
+                "ar": "لم يُعثر على اللصّ أبداً."
+              }
+            ],
+            "pattern_en": "My ___ was ___ in / last ___.",
+            "prompt_ar": "اكتب 4 جمل بالمجهول عن أشياء حدثت لك أو لعائلتك: متى بُني بيتك، أو شيء ضاع أو سُرق أو أُصلح. استعمل by مرة واحدة فقط، حين يهمّ من فعل.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "was built",
+                "ar": "في الماضي نقول was أو were + التصريف الثالث: was built · were made."
+              },
+              {
+                "word": "by",
+                "ar": "نذكر by والفاعل فقط حين يهمّ: by my grandfather. ولا نقول stolen by somebody."
+              },
+              {
+                "word": "stolen",
+                "ar": "التصريف الثالث من steal. «My car stole» خطأ، والصواب My car was stolen."
+              },
+              {
+                "word": "never",
+                "ar": "تأتي بين was والتصريف الثالث: was never found."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت was أو were قبل كل تصريف ثالث؟",
+              "هل استعملت by مرة واحدة فقط، حين يهمّ الفاعل؟"
+            ]
+          },
+          {
+            "day": 3,
+            "title_ar": "خبر من مدينتك",
+            "model": [
+              {
+                "en": "A new hospital was opened in my town last month.",
+                "ar": "افتُتح مستشفى جديد في بلدتي الشهر الماضي."
+              },
+              {
+                "en": "It was built in only two years.",
+                "ar": "بُني خلال سنتين فقط."
+              },
+              {
+                "en": "The old road has been closed for repairs.",
+                "ar": "أُغلق الطريق القديم للإصلاح."
+              },
+              {
+                "en": "Visitors are asked to use the new car park.",
+                "ar": "يُطلب من الزوّار استعمال الموقف الجديد."
+              }
+            ],
+            "pattern_en": "A new ___ was ___ last ___. The ___ has been ___.",
+            "prompt_ar": "اكتب 4 جمل مثل نشرة أخبار عن مدينتك أو حيّك أو عملك: شيء جديد بُني، أو شيء أُغلق، أو شيء تغيّر.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "was opened",
+                "ar": "الأخبار تحبّ المجهول: الحدث أهمّ ممّن فعله، فلا نذكر من افتتحه."
+              },
+              {
+                "word": "in only two years",
+                "ar": "in مع مدّة معناها «خلال»: in two years = خلال سنتين."
+              },
+              {
+                "word": "has been closed",
+                "ar": "في المضارع التام لا تنسَ been: has been closed، لا has closed."
+              },
+              {
+                "word": "are asked to",
+                "ar": "معناها «يُطلب منهم أن». وبعدها to والفعل: are asked to use."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت been بعد has أو have؟",
+              "هل بدأت كل جملة بالحدث أو المكان لا بالناس؟"
+            ]
+          },
+          {
+            "day": 4,
+            "title_ar": "كيف يُصنع؟",
+            "model": [
+              {
+                "en": "Olives are grown in the hills around my village.",
+                "ar": "يُزرع الزيتون في التلال حول قريتي."
+              },
+              {
+                "en": "They are harvested in November.",
+                "ar": "يُقطف في نوفمبر."
+              },
+              {
+                "en": "Then they are washed and processed in a small factory.",
+                "ar": "ثم يُغسل ويُعالج في مصنع صغير."
+              },
+              {
+                "en": "The oil is stored in metal tanks, and most of it is exported.",
+                "ar": "يُحفظ الزيت في خزّانات معدنية، ويُصدَّر معظمه."
+              }
+            ],
+            "pattern_en": "___ are ___ed in ___. Then they are ___ed.",
+            "prompt_ar": "اكتب 4 جمل عن شيء يُنتج في منطقتك أو بلدك: أين يُزرع أو يُصنع، ثم خطوتان، ثم أين يذهب.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "harvested",
+                "ar": "معناها «يُحصد» أو «يُقطف». ومع الشهر نقول in: in November."
+              },
+              {
+                "word": "washed and processed",
+                "ar": "حين يأتي فعلان بالمجهول نكتب are مرة واحدة: are washed and processed."
+              },
+              {
+                "word": "metal",
+                "ar": "المادة تأتي قبل الاسم كأنها صفة: metal tanks · plastic bags · glass bottles."
+              },
+              {
+                "word": "most of it",
+                "ar": "معناها «معظمه»، للشيء الذي لا يُعدّ. وللمعدود نقول most of them."
+              }
+            ],
+            "check_ar": [
+              "هل جاءت خطواتك بترتيبها، مع then؟",
+              "هل كتبت is أو are قبل كل تصريف ثالث؟"
+            ]
+          },
+          {
+            "day": 5,
+            "title_ar": "بلّغ عن مشكلة",
+            "model": [
+              {
+                "en": "The lift in my building was damaged last week.",
+                "ar": "تعطّل المصعد في مبناي الأسبوع الماضي."
+              },
+              {
+                "en": "It hasn't been repaired yet.",
+                "ar": "لم يُصلَح بعد."
+              },
+              {
+                "en": "A notice was put on the door.",
+                "ar": "وُضعت ورقة على الباب."
+              },
+              {
+                "en": "We were told to use the stairs.",
+                "ar": "قيل لنا أن نستعمل الدرج."
+              }
+            ],
+            "pattern_en": "The ___ was ___ed. It hasn't been ___ed yet.",
+            "prompt_ar": "اكتب 4 جمل عن مشكلة حقيقية في بيتك أو عملك أو حيّك: ماذا تعطّل أو انكسر، وهل أُصلح، وماذا قيل لكم أن تفعلوا.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "hasn't been",
+                "ar": "النفي في المضارع التام بالمجهول: hasn't been + التصريف الثالث: hasn't been repaired."
+              },
+              {
+                "word": "yet",
+                "ar": "معناها «بعد» في النفي، وتأتي في آخر الجملة: It hasn't been repaired yet."
+              },
+              {
+                "word": "put",
+                "ar": "التصريف الثالث من put هو put نفسه: put · put · put."
+              },
+              {
+                "word": "were told",
+                "ar": "مع we نقول were. وtell تحتاج الشخص بعدها: told us. «He said me» خطأ."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت been في جملة المضارع التام؟",
+              "هل جاءت yet في آخر الجملة المنفية؟"
+            ]
+          },
+          {
+            "day": 6,
+            "title_ar": "خطوة بعد خطوة",
+            "model": [
+              {
+                "en": "First of all, the coffee beans are roasted in a pan.",
+                "ar": "أولاً، تُحمَّص حبوب القهوة في مقلاة."
+              },
+              {
+                "en": "Then they are ground into a fine powder.",
+                "ar": "ثم تُطحن حتى تصير مسحوقاً ناعماً."
+              },
+              {
+                "en": "After that, the coffee is boiled with water and cardamom.",
+                "ar": "بعد ذلك تُغلى القهوة مع الماء والهيل."
+              },
+              {
+                "en": "Once it has been boiled, it is left for two minutes.",
+                "ar": "وبعد أن تغلي تُترك دقيقتين."
+              },
+              {
+                "en": "Finally, it is served with dates.",
+                "ar": "وأخيراً تُقدَّم مع التمر."
+              }
+            ],
+            "pattern_en": "First of all, the ___ is ___ed. Then ___. Finally, ___.",
+            "prompt_ar": "اكتب 5 جمل تشرح خطوات شيء يُصنع أو يُفعل في بيتك أو عملك أو بلدك. ابدأ كل خطوة بكلمة ترتيب. هذا تمرين لكتابة الغد (150 إلى 170 كلمة).",
+            "min_sentences": 5,
+            "notes": [
+              {
+                "word": "First of all",
+                "ar": "معناها «أولاً». ثم تأتي Then وAfter that وFinally لترتيب الخطوات."
+              },
+              {
+                "word": "ground",
+                "ar": "التصريف الثالث من grind (يطحن): are ground."
+              },
+              {
+                "word": "Once it has been",
+                "ar": "معناها «بعد أن يكون قد…»: Once it has been boiled = بعد أن تغلي."
+              },
+              {
+                "word": "served with",
+                "ar": "معناها «تُقدَّم مع»: served with dates · served with bread."
+              }
+            ],
+            "check_ar": [
+              "هل بدأت كل خطوة بكلمة ترتيب مختلفة؟",
+              "هل كتبت is أو are قبل كل تصريف ثالث؟",
+              "هل تجنّبت by حين لا يهمّ من فعل؟"
+            ]
+          }
+        ]
       }
     }
   ],

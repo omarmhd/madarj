@@ -4,6 +4,7 @@ namespace App\Filament\Resources\Users\Tables;
 
 use App\Models\Plan;
 use App\Models\Subscription;
+use App\Support\Countries;
 use Filament\Actions\Action;
 use Filament\Actions\EditAction;
 use Filament\Forms\Components\DatePicker;
@@ -58,6 +59,7 @@ class UsersTable
                 TextColumn::make('country')
                     ->label('الدولة')
                     ->badge()
+                    ->formatStateUsing(fn (?string $state) => Countries::options()[$state] ?? $state)
                     ->placeholder('—'),
 
                 /*
@@ -91,6 +93,17 @@ class UsersTable
                     ->alignCenter()
                     ->placeholder('—'),
 
+                /*
+                 * Relative ("3 days ago") because the question is "who
+                 * stopped coming back"; the exact time is in the tooltip.
+                 */
+                TextColumn::make('last_login_at')
+                    ->label('آخر دخول')
+                    ->since()
+                    ->dateTimeTooltip('Y-m-d H:i')
+                    ->placeholder('لم يدخل بعد')
+                    ->sortable(),
+
                 TextColumn::make('created_at')
                     ->label('سجّل في')
                     ->date('Y-m-d')
@@ -113,7 +126,8 @@ class UsersTable
 
                 SelectFilter::make('country')
                     ->label('الدولة')
-                    ->options(fn () => \App\Support\Countries::forSelect()),
+                    ->options(Countries::options())
+                    ->searchable(),
             ])
             ->recordActions([
                 /*

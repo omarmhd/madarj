@@ -4,7 +4,7 @@ import AppNav from '@/Components/AppNav';
 import { useLocale, dirOf } from '@/lib/bilingual';
 import { useT } from '@/lib/i18n';
 import LevelCard, { type LevelData } from '@/Components/LevelCard';
-import { ArrowLeft, BookOpen, CalendarCheck, Check, ChevronDown, ChevronLeft, ClipboardCheck, Flame, Gamepad2, Headphones, Lock, Mountain, Target } from 'lucide-react';
+import { ArrowLeft, BookOpen, CalendarCheck, Check, ChevronDown, ChevronLeft, ClipboardCheck, Flame, Gamepad2, Headphones, Lock, Mountain, Target, Trophy } from 'lucide-react';
 
 /** One tile style for everything optional, so the group reads as one */
 const TILE =
@@ -61,20 +61,6 @@ interface Stats {
   started_on: string;
 }
 
-/** نشاط وقت الاستراحة المقرّر لليوم — تذكير لا مهمة */
-interface BreakToday {
-  week_number: number;
-  day_number: number;
-  book_day_ar: string | null;
-  activity_ar: string;
-  minutes: number;
-  total: number;
-  link: { label: string; url: string | null; note_ar: string | null; note_en: string | null } | null;
-  item_key: string | null;
-  item_done: boolean;
-  item_label_ar: string | null;
-}
-
 /**
  * The end of the entitlement, named by the server.
  *
@@ -95,7 +81,6 @@ interface Props {
   weeks: WeekRow[];
   modules: Module[];
   milestones: Record<string, string>;
-  breakToday: BreakToday | null;
   wall?: Wall | null;
 }
 
@@ -137,7 +122,6 @@ export default function Dashboard({
   weeks,
   modules,
   milestones,
-  breakToday,
   wall = null,
   dueTest = null,
 }: Props & { dueTest?: { slug: string; level: string; placement: boolean; minutes: number } | null }) {
@@ -251,26 +235,31 @@ export default function Dashboard({
                 v: stats.streak,
                 l: tr('سلسلة'),
                 extra: stats.streak_at_risk ? tr('في خطر') : null,
-                icon: <Flame size={14} />,
+                icon: <Flame size={18} />,
               },
-              { v: `${stats.current_week}/24`, l: tr('الأسبوع'), icon: <BookOpen size={14} /> },
-              { v: `${stats.days_done}/${stats.days_total}`, l: tr('أيام منجزة'), icon: <CalendarCheck size={14} /> },
-              { v: stats.longest_streak, l: tr('أطول سلسلة'), icon: <Mountain size={14} /> },
+              { v: `${stats.current_week}/24`, l: tr('الأسبوع'), icon: <BookOpen size={18} /> },
+              { v: `${stats.days_done}/${stats.days_total}`, l: tr('أيام منجزة'), icon: <CalendarCheck size={18} /> },
+              { v: stats.longest_streak, l: tr('أطول سلسلة'), icon: <Trophy size={18} /> },
             ].map((x, i) => (
+              // The icon in its own tile beside the number and label — it sat
+              // on the number's baseline before, floating above or below it
               <div
                 key={i}
-                className="rounded-xl bg-white/15 px-3 py-2.5 ring-1 ring-white/20 backdrop-blur"
+                className="flex items-center gap-3 rounded-xl bg-white/15 px-3 py-2.5 ring-1 ring-white/20 backdrop-blur"
               >
-                <p className="flex items-baseline gap-1.5">
-                  <span aria-hidden className="opacity-70">
-                    {x.icon}
-                  </span>
-                  <span className="text-lg font-bold text-white sm:text-xl">{x.v}</span>
-                </p>
-                <p className="mt-0.5 text-xs text-violet-100/80">{x.l}</p>
-                {x.extra && (
-                  <p className="mt-0.5 text-xs font-medium text-amber-200">{x.extra}</p>
-                )}
+                <span
+                  aria-hidden
+                  className="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-white/20 text-white ring-1 ring-white/25"
+                >
+                  {x.icon}
+                </span>
+                <div className="min-w-0">
+                  <p className="text-lg font-bold leading-tight text-white sm:text-xl" dir="ltr">{x.v}</p>
+                  <p className="text-xs text-violet-100/80">{x.l}</p>
+                  {x.extra && (
+                    <p className="text-xs font-medium text-amber-200">{x.extra}</p>
+                  )}
+                </div>
               </div>
             ))}
           </div>
@@ -452,25 +441,6 @@ export default function Dashboard({
           </div>
 
           <div className="grid gap-3 sm:grid-cols-2">
-            {breakToday && (
-              <Link href={`/week/${breakToday.week_number}#library`} className={`${TILE} sm:col-span-2`}>
-                <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-fuchsia-50 text-fuchsia-600">
-                  <Headphones aria-hidden size={20} />
-                </span>
-                <span className="min-w-0 flex-1">
-                  <span className="block text-sm font-semibold text-fuchsia-700">
-                    {tr('وقت الاستراحة اليوم')}
-                  </span>
-                  <span className="mt-0.5 block truncate font-semibold text-slate-900">
-                    {breakToday.item_label_ar ?? breakToday.activity_ar}
-                  </span>
-                  <span className="mt-0.5 block text-sm text-slate-500">
-                    {tr(':n دقيقة', { n: breakToday.minutes })}
-                  </span>
-                </span>
-                <ChevronLeft aria-hidden size={18} className="shrink-0 text-slate-400" />
-              </Link>
-            )}
 
             <Link href="/play" className={TILE}>
               <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-violet-50 text-violet-600">

@@ -69,22 +69,40 @@
           "ref": "vocab:giving_an_opinion"
         },
         {
-          "order": 3,
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:giving_an_opinion",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -111,16 +129,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -141,22 +177,40 @@
           "ref": "vocab:agreeing_and_disagreeing"
         },
         {
-          "order": 3,
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:agreeing_and_disagreeing",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -183,16 +237,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -213,22 +285,40 @@
           "ref": "vocab:structuring_an_argument|dialogue:2"
         },
         {
-          "order": 3,
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:structuring_an_argument",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -255,16 +345,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -291,16 +399,28 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     }
@@ -1733,165 +1853,6 @@
       }
     },
     {
-      "kind": "breaktime",
-      "day_number": 7,
-      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
-      "title_en": "Break Time — English Outside the Book",
-      "payload": {
-        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
-        "compare": [
-          {
-            "aspect_ar": "الكمّ",
-            "intensive_ar": "دقائق من الصوت",
-            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
-          },
-          {
-            "aspect_ar": "الفهم",
-            "intensive_ar": "تستهدف 100%",
-            "extensive_ar": "50–70% تكفي"
-          },
-          {
-            "aspect_ar": "الجهد",
-            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
-            "extensive_ar": "منخفض — تسترخي وتستمتع"
-          },
-          {
-            "aspect_ar": "ما يبنيه",
-            "intensive_ar": "الدقّة والقواعد",
-            "extensive_ar": "السرعة والأذن والحدس والمفردات"
-          },
-          {
-            "aspect_ar": "لو أغفلته",
-            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
-            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
-          }
-        ],
-        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
-        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
-        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
-        "song": {
-          "pick": {
-            "title": "Imagine",
-            "artist": "John Lennon",
-            "why_en": "A whole argument, made gently, in very simple English.",
-            "search": "Imagine John Lennon"
-          },
-          "alternatives": [
-            {
-              "title": "Where Is the Love?",
-              "artist": "The Black Eyed Peas",
-              "why_en": "A song of questions and opinions. Faster — a stretch.",
-              "search": "Where Is the Love? The Black Eyed Peas"
-            },
-            {
-              "title": "Blowin’ in the Wind",
-              "artist": "Bob Dylan",
-              "why_en": "Nine questions and no answers. Slow and very clear.",
-              "search": "Blowin’ in the Wind Bob Dylan"
-            }
-          ],
-          "item": {
-            "key": "song",
-            "icon": "🎵",
-            "label_ar": "أغنية الأسبوع",
-            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
-            "minutes": 20,
-            "steps": [
-              "شغّلها مرة للمتعة فقط — بلا كلمات ولا تحليل.",
-              "شغّلها ثانية واكتب خمس كلمات سمعتها ولم تكن تعرفها.",
-              "شغّلها مع الكلمات المكتوبة أمامك.",
-              "غنِّ معها مرة. الغناء يضبط الإيقاع بلا أن تفكّر فيه."
-            ],
-            "why_ar": "الأغنية تُعاد خمسين مرة طوعاً، ولا تمرين يُعاد خمسين مرة.",
-            "prompt_ar": "الكلمات الخمس التي التقطتها"
-          }
-        },
-        "watch": {
-          "pick": {
-            "title": "Panel discussion shows",
-            "where": "YouTube — search \"BBC panel discussion\" or any talk show",
-            "why_en": "Four people disagreeing politely for thirty minutes. Every phrase from the grammar section appears, repeatedly.",
-            "search": "Panel discussion shows"
-          },
-          "alternatives": [
-            {
-              "title": "TED Talks with a controversial title",
-              "where": "ted.com",
-              "why_en": "One person building an argument for twelve minutes, with a transcript. The clearest model of the grammar section you will find.",
-              "url": "https://ted.com"
-            },
-            {
-              "title": "Easy English — street opinion videos",
-              "where": "YouTube — search Easy English opinions",
-              "why_en": "Ordinary people giving opinions in ordinary language, with double subtitles.",
-              "search": "Easy English — street opinion videos"
-            },
-            {
-              "title": "Friends — Episodes 15–17",
-              "where": "Any streaming service",
-              "why_en": "Sitcom arguments are short, clear and repetitive — ideal for noticing disagreement phrases.",
-              "search": "Friends — Episodes 15–17"
-            }
-          ],
-          "item": {
-            "key": "watch",
-            "icon": "📺",
-            "label_ar": "ما تشاهده",
-            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
-            "minutes": 25,
-            "steps": [
-              "شاهد حلقة نقاش أو برنامج حواري.",
-              "اجمع عشر عبارات للموافقة والمخالفة كما قيلت بالضبط.",
-              "استعمل ثلاثاً منها في محادثتك القادمة."
-            ],
-            "why_ar": "عبارات المخالفة تُحفظ ككتل كاملة لا كلمات — لأنك ستحتاجها في لحظة لا وقت فيها للتركيب.",
-            "prompt_ar": "العبارات العشر التي جمعتها"
-          }
-        },
-        "item_order": [
-          "song",
-          "watch"
-        ],
-        "plan": [
-          {
-            "day_ar": "السبت",
-            "activity_ar": "الأغنية + اختر موضوع عرضك",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الأحد",
-            "activity_ar": "حلقة نقاش + اجمع عشر عبارات",
-            "minutes": 30
-          },
-          {
-            "day_ar": "الاثنين",
-            "activity_ar": "Friends الحلقة 15",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الثلاثاء",
-            "activity_ar": "تمرّن على العرض بصوت عالٍ مرتين",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الأربعاء",
-            "activity_ar": "محاضرة TED مع نصّها",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الخميس",
-            "activity_ar": "Friends الحلقة 16 + الكتاب",
-            "minutes": 35
-          },
-          {
-            "day_ar": "الجمعة",
-            "activity_ar": "تمرّن مرة أخرى + Friends الحلقة 17",
-            "minutes": 40
-          }
-        ]
-      }
-    },
-    {
       "kind": "speaking",
       "title_ar": "التحدّث",
       "title_en": "Discussing a Topic",
@@ -2009,6 +1970,302 @@
           }
         ],
         "save_as": "Week17"
+      }
+    },
+    {
+      "kind": "practice",
+      "title_ar": "اكتب مثله",
+      "title_en": "Write One Like It",
+      "payload": {
+        "items": [
+          {
+            "day": 1,
+            "title_ar": "رأيك وسببه",
+            "model": [
+              {
+                "en": "In my opinion, mornings are the best time to study.",
+                "ar": "برأيي الصباح أفضل وقت للدراسة."
+              },
+              {
+                "en": "The main reason is that the house is quiet.",
+                "ar": "السبب الرئيسي أن البيت هادئ."
+              },
+              {
+                "en": "For example, I read for twenty minutes before breakfast.",
+                "ar": "مثلاً، أقرأ عشرين دقيقة قبل الفطور."
+              },
+              {
+                "en": "That's why I get up at six.",
+                "ar": "لهذا أنهض في السادسة."
+              }
+            ],
+            "pattern_en": "In my opinion, ___. The main reason is that ___. For example, ___.",
+            "prompt_ar": "اكتب 4 جمل عن رأيك في موضوع بسيط من حياتك: أفضل وقت للدراسة، أو المدينة والقرية، أو الهاتف. اذكر الرأي، ثم السبب، ثم مثالاً.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "In my opinion",
+                "ar": "معناها «برأيي». لا تضف بعدها I think: يكفي واحد منهما."
+              },
+              {
+                "word": "the main reason is that",
+                "ar": "معناها «السبب الرئيسي أن». بعد that جملة كاملة: the house is quiet."
+              },
+              {
+                "word": "for example",
+                "ar": "معناها «مثلاً». تأتي في أول الجملة وبعدها فاصلة."
+              },
+              {
+                "word": "That's why",
+                "ar": "معناها «لهذا». تربط النتيجة بالسبب الذي قبلها."
+              }
+            ],
+            "check_ar": [
+              "هل ذكرت سبباً بعد رأيك؟",
+              "هل أعطيت مثالاً من حياتك؟"
+            ]
+          },
+          {
+            "day": 2,
+            "title_ar": "الذي والتي",
+            "model": [
+              {
+                "en": "I have a friend who works in a hospital.",
+                "ar": "لي صديق يعمل في مستشفى."
+              },
+              {
+                "en": "He drives a car which is older than me.",
+                "ar": "يقود سيارة أقدم منّي."
+              },
+              {
+                "en": "This is the café where we meet every Friday.",
+                "ar": "هذا هو المقهى الذي نلتقي فيه كل جمعة."
+              },
+              {
+                "en": "I have a neighbour whose son plays football well.",
+                "ar": "لي جار يلعب ابنه كرة القدم جيداً."
+              }
+            ],
+            "pattern_en": "I have a ___ who / which / whose ___. This is the ___ where ___.",
+            "prompt_ar": "اكتب 4 جمل عن أشخاص وأشياء وأماكن في حياتك. استعمل في كل جملة واحدة من who · which · where · whose.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "who",
+                "ar": "للأشخاص. لا تكرّر الضمير بعدها: a friend who works، لا who he works."
+              },
+              {
+                "word": "which",
+                "ar": "للأشياء: a car which is old. ونقول that للاثنين."
+              },
+              {
+                "word": "where",
+                "ar": "للمكان، ولا تضف in it في الآخر: the café where we meet، لا which we meet in it."
+              },
+              {
+                "word": "whose",
+                "ar": "للملكية، ومعناها «الذي … ـه»: a neighbour whose son = جار ابنه…"
+              }
+            ],
+            "check_ar": [
+              "هل تجنّبت إعادة he أو she أو it بعد who وwhich؟",
+              "هل استعملت who للأشخاص وwhich للأشياء؟"
+            ]
+          },
+          {
+            "day": 3,
+            "title_ar": "أوافق ولا أوافق",
+            "model": [
+              {
+                "en": "My brother says that children shouldn't have phones.",
+                "ar": "يقول أخي إن الأطفال لا ينبغي أن يملكوا هواتف."
+              },
+              {
+                "en": "I agree that phones can waste a lot of time.",
+                "ar": "أوافق أن الهواتف قد تضيّع وقتاً كثيراً."
+              },
+              {
+                "en": "But I see it differently.",
+                "ar": "لكني أرى الأمر بشكل مختلف."
+              },
+              {
+                "en": "Children who have phones can call their parents.",
+                "ar": "الأطفال الذين يملكون هواتف يستطيعون الاتصال بأهلهم."
+              }
+            ],
+            "pattern_en": "___ says that ___. I agree that ___, but ___.",
+            "prompt_ar": "اكتب 4 جمل عن رأي يقوله شخص تعرفه: ما رأيه، وما توافق عليه، وما تخالفه، ولماذا. استعمل who أو which مرة واحدة.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "says that",
+                "ar": "نقول says that أو tells me. «He said me» خطأ، والصواب He told me أو He said that."
+              },
+              {
+                "word": "I agree",
+                "ar": "agree فعل وحده بلا am. «I am agree» خطأ."
+              },
+              {
+                "word": "I see it differently",
+                "ar": "طريقة مهذّبة لتقول «لا أوافق» بلا أن تقول «أنت مخطئ»."
+              },
+              {
+                "word": "who have phones",
+                "ar": "لا ضمير بعد who: children who have، لا who they have."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت I agree بلا am؟",
+              "هل خالفت بأدب، بلا You're wrong؟"
+            ]
+          },
+          {
+            "day": 4,
+            "title_ar": "اختلاف مهذّب",
+            "model": [
+              {
+                "en": "Personally, I think working from home is better.",
+                "ar": "شخصياً، أظنّ أن العمل من البيت أفضل."
+              },
+              {
+                "en": "People who work from home don't lose two hours in traffic.",
+                "ar": "من يعملون من البيت لا يضيّعون ساعتين في الزحام."
+              },
+              {
+                "en": "Good point, but teams which never meet lose trust.",
+                "ar": "نقطة جيدة، لكن الفرق التي لا تلتقي أبداً تفقد الثقة."
+              },
+              {
+                "en": "Fair enough. Three days at home is probably right.",
+                "ar": "معقول. ثلاثة أيام في البيت هي الصواب على الأرجح."
+              }
+            ],
+            "pattern_en": "Personally, I think ___. — Good point, but ___.",
+            "prompt_ar": "اكتب حواراً من 4 جمل بينك وبين صديق أو زميل يخالفك في موضوع تعرفه: العمل من البيت، أو الهاتف في المدرسة. خالفه بأدب، ثم اتّفقا على شيء.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "personally",
+                "ar": "معناها «شخصياً». تأتي في أول الجملة وبعدها فاصلة."
+              },
+              {
+                "word": "working from home",
+                "ar": "الفعل بـ ing يصير اسماً ويكون فاعلاً: working from home is better."
+              },
+              {
+                "word": "good point, but",
+                "ar": "تقبل فكرة الآخر أولاً، ثم تخالفه بـ but. أهدأ من I don't agree."
+              },
+              {
+                "word": "Fair enough",
+                "ar": "معناها «معقول» أو «لك حقّ في هذا». تقبل بها نقطة الآخر."
+              }
+            ],
+            "check_ar": [
+              "هل قبلت نقطة الآخر قبل أن تخالفه؟",
+              "هل تجنّبت إعادة الضمير بعد who وwhich؟"
+            ]
+          },
+          {
+            "day": 5,
+            "title_ar": "الميزة والعيب",
+            "model": [
+              {
+                "en": "On the one hand, the city has more jobs.",
+                "ar": "من ناحية، في المدينة وظائف أكثر."
+              },
+              {
+                "en": "In addition, the hospitals are better.",
+                "ar": "إضافة إلى ذلك، المستشفيات أفضل."
+              },
+              {
+                "en": "On the other hand, life in the city is expensive.",
+                "ar": "من ناحية أخرى، الحياة في المدينة غالية."
+              },
+              {
+                "en": "Overall, I prefer the city, although I miss my village.",
+                "ar": "إجمالاً، أفضّل المدينة رغم أنني أشتاق إلى قريتي."
+              }
+            ],
+            "pattern_en": "On the one hand, ___. On the other hand, ___. Overall, ___.",
+            "prompt_ar": "اكتب 4 جمل عن ميزات وعيوب شيء في حياتك: مدينتك، أو عملك، أو هاتفك. ميزتان، وعيب، ثم رأيك الأخير.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "on the one hand",
+                "ar": "تأتي مع on the other hand: الأولى للجانب الأول، والثانية للجانب المقابل."
+              },
+              {
+                "word": "in addition",
+                "ar": "معناها «إضافة إلى ذلك». تضيف نقطة في الجانب نفسه."
+              },
+              {
+                "word": "although",
+                "ar": "معناها «رغم أن». لا تضع معها but كما في العربية: «Although…, but» خطأ."
+              },
+              {
+                "word": "overall",
+                "ar": "معناها «إجمالاً». تبدأ بها رأيك الأخير."
+              }
+            ],
+            "check_ar": [
+              "هل ذكرت الجانبين: الميزة والعيب؟",
+              "هل كتبت although بلا but في الجملة نفسها؟"
+            ]
+          },
+          {
+            "day": 6,
+            "title_ar": "مقال رأي قصير",
+            "model": [
+              {
+                "en": "In my opinion, every child should learn to cook.",
+                "ar": "برأيي ينبغي أن يتعلّم كل طفل الطبخ."
+              },
+              {
+                "en": "Firstly, it is a skill which they will use every day.",
+                "ar": "أولاً، هي مهارة سيستعملونها كل يوم."
+              },
+              {
+                "en": "Secondly, children who cook usually eat better food.",
+                "ar": "ثانياً، الأطفال الذين يطبخون يأكلون طعاماً أفضل عادةً."
+              },
+              {
+                "en": "However, parents who work long hours have little time.",
+                "ar": "لكنّ الآباء الذين يعملون ساعات طويلة وقتهم قليل."
+              },
+              {
+                "en": "In conclusion, I think it is worth the time.",
+                "ar": "في الختام، أظنّ أنه يستحقّ الوقت."
+              }
+            ],
+            "pattern_en": "In my opinion, ___. Firstly, ___. Secondly, ___. In conclusion, ___.",
+            "prompt_ar": "اختر موضوعاً يهمّك واكتب 5 جمل: رأيك، وسببان، ورأي الطرف الآخر، ثم الخلاصة. استعمل who أو which مرتين. هذا تمرين لكتابة الغد (150 إلى 170 كلمة).",
+            "min_sentences": 5,
+            "notes": [
+              {
+                "word": "firstly · secondly",
+                "ar": "معناها «أولاً · ثانياً». ترتّب بها أسبابك، وبعدها فاصلة."
+              },
+              {
+                "word": "which they will use",
+                "ar": "لا تضف it في الآخر: a skill which they will use، لا which they will use it."
+              },
+              {
+                "word": "children who cook",
+                "ar": "who تقوم مقام الفاعل، فلا تضف they: children who cook، لا who they cook."
+              },
+              {
+                "word": "in conclusion",
+                "ar": "معناها «في الختام». تبدأ بها آخر جملة في المقال."
+              }
+            ],
+            "check_ar": [
+              "هل ذكرت رأي الطرف الآخر بعدل؟",
+              "هل كتبت جملتين بـ who أو which بلا ضمير مكرّر؟",
+              "هل بدأت آخر جملة بـ In conclusion أو To sum up؟"
+            ]
+          }
+        ]
       }
     }
   ],

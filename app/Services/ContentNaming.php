@@ -32,7 +32,6 @@ class ContentNaming
         'listening' => ['ar' => 'الاستماع', 'en' => 'Listening'],
         'reading'   => ['ar' => 'القراءة', 'en' => 'Reading'],
         'selfcheck' => ['ar' => 'الاختبار الذاتي', 'en' => 'Self-Check'],
-        'breaktime' => ['ar' => 'وقت الاستراحة', 'en' => 'Break Time'],
         'writing'   => ['ar' => 'الكتابة', 'en' => 'Writing'],
     ];
 
@@ -42,8 +41,13 @@ class ContentNaming
         'produce'  => ['ar' => 'النطق — قُلها ولنرَ', 'en' => 'Say It'],
         'review'   => ['ar' => 'مراجعة المفردات', 'en' => 'Vocabulary Review'],
         'exercises' => ['ar' => 'تمارين اليوم', 'en' => 'Today’s Exercises'],
-        'record'   => ['ar' => 'التسجيل', 'en' => 'Recording'],
+        'record'   => ['ar' => 'التحدّث', 'en' => 'Speaking'],
         'baseline' => ['ar' => 'تسجيل خط الأساس', 'en' => 'Baseline Recording'],
+        'spell'    => ['ar' => 'كتابة الكلمات', 'en' => 'Spelling'],
+        'spell_review' => ['ar' => 'مراجعة الإملاء', 'en' => 'Spelling Review'],
+        'shadow'   => ['ar' => 'الشادوينج — تكلّم مع الصوت', 'en' => 'Shadowing'],
+        'imitate'  => ['ar' => 'اكتب مثله', 'en' => 'Write One Like It'],
+        'homework' => ['ar' => 'الواجب المنزلي', 'en' => 'Homework'],
     ];
 
     /** ترتيب عربي للحوارات — «الحوار الأول» أطبع من «الحوار 1» */
@@ -132,7 +136,11 @@ class ContentNaming
     {
         return str_starts_with($token, 'review')
             || str_starts_with($token, 'exercises:')
-            || str_starts_with($token, 'record');
+            || str_starts_with($token, 'record')
+            || str_starts_with($token, 'spell:')
+            || $token === 'shadow'
+            || $token === 'imitate'
+            || $token === 'homework';
     }
 
     /** اسم مرجع واحد */
@@ -188,6 +196,22 @@ class ContentNaming
 
         if (str_starts_with($token, 'record')) {
             return str_contains($token, 'baseline') ? self::FIXED['baseline'] : self::FIXED['record'];
+        }
+
+        if (str_starts_with($token, 'spell:')) {
+            return $token === 'spell:review' ? self::FIXED['spell_review'] : self::FIXED['spell'];
+        }
+
+        if ($token === 'shadow') {
+            return self::FIXED['shadow'];
+        }
+
+        if ($token === 'imitate') {
+            return self::FIXED['imitate'];
+        }
+
+        if ($token === 'homework') {
+            return self::FIXED['homework'];
         }
 
         return null;

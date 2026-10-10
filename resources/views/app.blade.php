@@ -9,7 +9,7 @@
 @php
     $locale = auth()->user()?->enrollment?->locale ?? 'ar';
 @endphp
-<html lang="{{ $locale }}" dir="{{ $locale === 'en' ? 'ltr' : 'rtl' }}">
+<html lang="{{ $locale }}" dir="{{ $locale === 'en' ? 'ltr' : 'rtl' }}" data-style="{{ \App\Support\Theme::style() }}">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,6 +21,12 @@
              فيسقط المتصفح على الخط التالي لكل حرف عربي. --}}
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600,700|ibm-plex-sans-arabic:400,500,600,700|fraunces:400,400i&display=swap" rel="stylesheet" />
+
+        {{-- The identity colour the admin chose, as CSS variables. Before the
+             stylesheets, so dark mode (in app.css, later) can still override
+             the surfaces; and in the HTML, so no page flashes the old colour. --}}
+        <style id="brand">{!! \App\Support\Theme::css() !!}</style>
+        <meta name="theme-color" content="{{ \App\Support\Theme::accentHex() }}">
 
         <!-- Scripts -->
         @routes

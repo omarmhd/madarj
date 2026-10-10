@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\BreakTimeController;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\ComparisonController;
 use App\Http\Controllers\StoryController;
@@ -85,9 +84,6 @@ Route::middleware(['auth', 'verified', \App\Http\Middleware\RequireSetup::class,
     Route::get('/dashboard', [WeekController::class, 'dashboard'])
         ->name('dashboard');
 
-    // تأشير أنشطة وقت الاستراحة — يُحتسب ولا يُلزم
-    Route::post('/week/{week}/break-time', [BreakTimeController::class, 'toggle'])
-        ->name('breaktime.toggle');
 
     /**
      * ملفّ المتدرّب.

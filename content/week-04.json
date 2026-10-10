@@ -106,22 +106,40 @@
           "ref": "vocab:the_home"
         },
         {
-          "order": 3,
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:the_home",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -142,22 +160,40 @@
           "ref": "vocab:the_town"
         },
         {
-          "order": 3,
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:the_town",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -184,16 +220,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -214,22 +268,40 @@
           "ref": "vocab:prepositions_of_place"
         },
         {
-          "order": 3,
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:prepositions_of_place",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -256,16 +328,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -286,22 +376,40 @@
           "ref": "vocab:giving_directions|dialogue:2|section:listening"
         },
         {
-          "order": 3,
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:giving_directions",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -328,16 +436,28 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     }
@@ -1771,205 +1891,6 @@
       }
     },
     {
-      "kind": "breaktime",
-      "day_number": 7,
-      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
-      "title_en": "Break Time — English Outside the Book",
-      "payload": {
-        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
-        "compare": [
-          {
-            "aspect_ar": "الكمّ",
-            "intensive_ar": "دقائق من الصوت",
-            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
-          },
-          {
-            "aspect_ar": "الفهم",
-            "intensive_ar": "تستهدف 100%",
-            "extensive_ar": "50–70% تكفي"
-          },
-          {
-            "aspect_ar": "الجهد",
-            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
-            "extensive_ar": "منخفض — تسترخي وتستمتع"
-          },
-          {
-            "aspect_ar": "ما يبنيه",
-            "intensive_ar": "الدقّة والقواعد",
-            "extensive_ar": "السرعة والأذن والحدس والمفردات"
-          },
-          {
-            "aspect_ar": "لو أغفلته",
-            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
-            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
-          }
-        ],
-        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
-        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
-        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
-        "song": {
-          "pick": {
-            "title": "Our House",
-            "artist": "Madness",
-            "why_en": "Literally this week’s topic and grammar: rooms, family, and a house described line by line. Fast but very clear.",
-            "search": "Our House Madness"
-          },
-          "alternatives": [
-            {
-              "title": "Take Me Home, Country Roads",
-              "artist": "John Denver",
-              "why_en": "Slow, warm and simple. Excellent for singing along.",
-              "search": "Take Me Home, Country Roads John Denver"
-            },
-            {
-              "title": "Home",
-              "artist": "Michael Bublé",
-              "why_en": "Very clear diction. Good for hearing word stress in long words.",
-              "search": "Home Michael Bublé"
-            }
-          ],
-          "item": {
-            "key": "song",
-            "icon": "🎵",
-            "label_ar": "أغنية الأسبوع",
-            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
-            "minutes": 20,
-            "steps": [
-              "اختر أغنية واحدة وشغّلها مرة للمتعة فقط.",
-              "شغّلها ثانية. اختر خمس كلمات من مقطعين فأكثر، وحدّد أين يقع النبر في كل واحدة.",
-              "غنِّ معها مرة. اللحن يضع النبر في موضعه رغماً عنك."
-            ],
-            "why_ar": "إيقاع الإنجليزية وإيقاع الموسيقى يعملان بالطريقة نفسها: نبرة قوية ثم ضعيفة. فحين تغنّي يضع اللحن النبر عنك.",
-            "prompt_ar": "اكتب الكلمات الخمس وأين وقع النبر فيها"
-          }
-        },
-        "watch": {
-          "pick": {
-            "title": "Extra English — Episode 6",
-            "level": "A1–A2",
-            "where": "YouTube — search the title",
-            "why_en": "The whole series is set in a flat. This week you have the vocabulary for every room they walk through.",
-            "search": "Extra English — Episode 6"
-          },
-          "alternatives": [
-            {
-              "title": "House tour videos",
-              "level": "A2",
-              "where": "YouTube — search \"apartment tour\" or \"small house tour\"",
-              "why_en": "Exactly this chapter’s language: there is, there are, room names, prepositions. Pause and describe each room yourself before the presenter does.",
-              "search": "House tour videos"
-            },
-            {
-              "title": "Mr Bean",
-              "level": "Any",
-              "where": "YouTube — official channel",
-              "why_en": "Use it actively: narrate what he does using prepositions of place. He is behind the chair. There is a cup on the table.",
-              "search": "Mr Bean"
-            },
-            {
-              "title": "Easy English — \"Where do you live?\"",
-              "level": "A2",
-              "where": "YouTube — search it",
-              "why_en": "Real people describing their homes, with double subtitles.",
-              "search": "Easy English — \"Where do you live?\""
-            }
-          ],
-          "item": {
-            "key": "watch",
-            "icon": "📺",
-            "label_ar": "ما تشاهده",
-            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
-            "minutes": 25,
-            "steps": [
-              "شاهد حلقة كاملة بلا توقّف.",
-              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
-              "اكتب ثلاث عبارات علقت في ذهنك."
-            ],
-            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
-            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
-          }
-        },
-        "story": {
-          "pick": {
-            "title": "Storynory",
-            "where": "storynory.com",
-            "why_en": "Try a longer story this week — 12 to 15 minutes.",
-            "url": "https://storynory.com"
-          },
-          "alternatives": [
-            {
-              "title": "British Council — Elementary Podcasts",
-              "where": "learnenglish.britishcouncil.org",
-              "why_en": "Series 1, Episodes 6–7.",
-              "url": "https://learnenglish.britishcouncil.org"
-            },
-            {
-              "title": "Learn English Through Story",
-              "where": "YouTube — search the phrase plus \"level 1\"",
-              "why_en": "Graded stories read aloud with the text on screen.",
-              "search": "Learn English Through Story"
-            }
-          ],
-          "item": {
-            "key": "story",
-            "icon": "📖",
-            "label_ar": "ما تقرأه",
-            "task_ar": "خمس عشرة دقيقة قراءة أو استماع، ولا تبحث عن أكثر من ثلاث كلمات",
-            "minutes": 15,
-            "steps": [
-              "خمس عشرة دقيقة قراءة أو استماع — لا أكثر.",
-              "لا تبحث عن أكثر من ثلاث كلمات. خمّن الباقي من السياق.",
-              "اكتب جملة واحدة عمّا قرأته، من الذاكرة."
-            ],
-            "why_ar": "الحدس من السياق هو المهارة المقصودة — والبحث عن كل كلمة يقتلها.",
-            "prompt_ar": "جملة واحدة عمّا قرأته"
-          }
-        },
-        "item_order": [
-          "song",
-          "watch",
-          "story"
-        ],
-        "plan": [
-          {
-            "day_ar": "السبت",
-            "activity_ar": "الأغنية + مهمة تعقّب النبر",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الأحد",
-            "activity_ar": "Extra English الحلقة 6",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الاثنين",
-            "activity_ar": "فيديوهان لجولة في بيت، تصف الغرف بصوت عالٍ",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الثلاثاء",
-            "activity_ar": "حوّل لغة هاتفك إلى الإنجليزية",
-            "minutes": 5
-          },
-          {
-            "day_ar": "الأربعاء",
-            "activity_ar": "القصة — صوتاً فقط",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الخميس",
-            "activity_ar": "القصة — صوتاً مع النصّ",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الجمعة",
-            "activity_ar": "حلقة Mr Bean، تسردها بظروف المكان",
-            "minutes": 25
-          }
-        ]
-      }
-    },
-    {
       "kind": "speaking",
       "title_ar": "التحدّث",
       "title_en": "Two Minutes About Where You Live",
@@ -2084,6 +2005,295 @@
           }
         ],
         "save_as": "Week04"
+      }
+    },
+    {
+      "kind": "practice",
+      "title_ar": "اكتب مثله",
+      "title_en": "Write One Like It",
+      "payload": {
+        "items": [
+          {
+            "day": 1,
+            "title_ar": "بيتك",
+            "model": [
+              {
+                "en": "I live in a flat.",
+                "ar": "أسكن في شقّة."
+              },
+              {
+                "en": "It is on the second floor.",
+                "ar": "هي في الطابق الثاني."
+              },
+              {
+                "en": "My flat is small but quiet.",
+                "ar": "شقّتي صغيرة لكنها هادئة."
+              },
+              {
+                "en": "I love my balcony.",
+                "ar": "أحبّ شرفتي."
+              }
+            ],
+            "pattern_en": "I live in a ___. It is on the ___ floor.",
+            "prompt_ar": "اكتب 4 جمل عن بيتك: نوعه، وطابقه، وصفته، وشيء تحبّه فيه.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "live in",
+                "ar": "نقول live in للمكان الذي تسكنه: live in a flat · live in Cairo."
+              },
+              {
+                "word": "on",
+                "ar": "مع الطوابق نقول on: on the second floor. ستدرس كلمات المكان كلها يوم 4."
+              },
+              {
+                "word": "second",
+                "ar": "الطابق بالرقم الترتيبي: first · second · third · fourth."
+              },
+              {
+                "word": "but",
+                "ar": "تربط صفتين متعاكستين: small but quiet."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت on قبل the ... floor؟",
+              "هل وصفت بيتك بصفة واحدة على الأقل؟"
+            ]
+          },
+          {
+            "day": 2,
+            "title_ar": "قريب وبعيد",
+            "model": [
+              {
+                "en": "My street is busy.",
+                "ar": "شارعي مزدحم."
+              },
+              {
+                "en": "The bank is near my house.",
+                "ar": "البنك قريب من بيتي."
+              },
+              {
+                "en": "The hospital is far from my street.",
+                "ar": "المستشفى بعيد عن شارعي."
+              },
+              {
+                "en": "The park is very big.",
+                "ar": "الحديقة كبيرة جداً."
+              }
+            ],
+            "pattern_en": "The ___ is near / far from my ___.",
+            "prompt_ar": "اكتب 4 جمل عن أماكن في مدينتك: ما القريب منك وما البعيد.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "near",
+                "ar": "معناها «قريب من». تأتي وحدها بلا from: near my house."
+              },
+              {
+                "word": "far from",
+                "ar": "معناها «بعيد عن»، وتحتاج from دائماً."
+              },
+              {
+                "word": "the",
+                "ar": "نقول the bank لأنه بنك معروف في حيّك. أما a bank فأيّ بنك."
+              },
+              {
+                "word": "very",
+                "ar": "تأتي قبل الصفة: very big."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت near بلا from، وfar مع from؟"
+            ]
+          },
+          {
+            "day": 3,
+            "title_ar": "يوجد ولا يوجد",
+            "model": [
+              {
+                "en": "There is a big kitchen in my flat.",
+                "ar": "يوجد مطبخ كبير في شقّتي."
+              },
+              {
+                "en": "There are three bedrooms.",
+                "ar": "توجد ثلاث غرف نوم."
+              },
+              {
+                "en": "There isn't a lift in my building.",
+                "ar": "لا يوجد مصعد في مبناي."
+              },
+              {
+                "en": "Is there a park near you?",
+                "ar": "هل توجد حديقة قربك؟"
+              }
+            ],
+            "pattern_en": "There is a ___. There are ___ ___s.",
+            "prompt_ar": "اكتب 4 جمل عن بيتك أو مبناك بـ There is وThere are. واحدة منها منفية.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "there is",
+                "ar": "معناها «يوجد». لا تقل Have a park — الإنجليزية لا تستعمل have للوجود."
+              },
+              {
+                "word": "there are",
+                "ar": "مع الجمع: There are three bedrooms. لا There is three."
+              },
+              {
+                "word": "isn't a",
+                "ar": "في النفي تبقى a: There isn't a lift. لا There is not lift."
+              },
+              {
+                "word": "Is there…?",
+                "ar": "للسؤال نقدّم is: Is there a park?"
+              }
+            ],
+            "check_ar": [
+              "هل استعملت There are مع الجمع؟",
+              "هل كتبت جملة منفية بـ There isn't a؟"
+            ]
+          },
+          {
+            "day": 4,
+            "title_ar": "أين الأشياء في غرفتك؟",
+            "model": [
+              {
+                "en": "The sofa is in front of the window.",
+                "ar": "الأريكة أمام النافذة."
+              },
+              {
+                "en": "There is a lamp next to the sofa.",
+                "ar": "يوجد مصباح بجانب الأريكة."
+              },
+              {
+                "en": "The mirror is on the wall.",
+                "ar": "المرآة على الحائط."
+              },
+              {
+                "en": "My bag is under the table.",
+                "ar": "حقيبتي تحت الطاولة."
+              }
+            ],
+            "pattern_en": "The ___ is next to / on / under the ___.",
+            "prompt_ar": "صف 4 أشياء في غرفتك. استعمل كلمة مكان مختلفة في كل جملة.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "in front of",
+                "ar": "معناها «أمام». ثلاث كلمات معاً: in front of."
+              },
+              {
+                "word": "next to",
+                "ar": "معناها «بجانب»: next to the sofa."
+              },
+              {
+                "word": "on",
+                "ar": "«على» سطح أو حائط: on the table · on the wall."
+              },
+              {
+                "word": "under",
+                "ar": "معناها «تحت». وعكسها above (فوق، بلا لمس)."
+              }
+            ],
+            "check_ar": [
+              "هل استعملت 4 كلمات مكان مختلفة؟",
+              "هل جاءت the قبل الأشياء التي في غرفتك؟"
+            ]
+          },
+          {
+            "day": 5,
+            "title_ar": "دُلّ شخصاً على الطريق",
+            "model": [
+              {
+                "en": "Excuse me, where is the bank?",
+                "ar": "عفواً، أين البنك؟"
+              },
+              {
+                "en": "Go straight on and turn left.",
+                "ar": "امشِ إلى الأمام ثم انعطف يساراً."
+              },
+              {
+                "en": "It's next to the pharmacy.",
+                "ar": "إنه بجانب الصيدلية."
+              },
+              {
+                "en": "Thank you very much!",
+                "ar": "شكراً جزيلاً!"
+              }
+            ],
+            "pattern_en": "Go straight on and turn ___. It's next to the ___.",
+            "prompt_ar": "اكتب طريقاً من بيتك إلى مكان قريب في 4 جمل: سؤال، ثم اتجاهان، ثم أين المكان بالضبط.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "excuse me",
+                "ar": "لتلفت انتباه شخص لا تعرفه، قبل أن تسأله."
+              },
+              {
+                "word": "go · turn",
+                "ar": "الأمر يبدأ بالفعل مباشرة بلا you: Turn left. ستدرس الأمر في الأسبوع 5."
+              },
+              {
+                "word": "straight on",
+                "ar": "معناها «إلى الأمام مباشرة»."
+              },
+              {
+                "word": "It's",
+                "ar": "اختصار It is: It's next to the pharmacy."
+              }
+            ],
+            "check_ar": [
+              "هل بدأت كل اتجاه بالفعل (Go · Turn) بلا you؟"
+            ]
+          },
+          {
+            "day": 6,
+            "title_ar": "حيّك",
+            "model": [
+              {
+                "en": "My neighbourhood is quiet.",
+                "ar": "حيّي هادئ."
+              },
+              {
+                "en": "There is a small park opposite my building.",
+                "ar": "توجد حديقة صغيرة مقابل مبناي."
+              },
+              {
+                "en": "The supermarket is around the corner.",
+                "ar": "السوبرماركت عند الزاوية."
+              },
+              {
+                "en": "I like my neighbourhood, but there isn't a cinema.",
+                "ar": "أحبّ حيّي، لكن لا توجد فيه سينما."
+              }
+            ],
+            "pattern_en": "There is a ___ opposite / near my ___.",
+            "prompt_ar": "اكتب 5 جمل عن حيّك: شيء تحبّه، وشيء ناقص، ومكانان مع موضعهما. هذا تمرين لكتابة الغد.",
+            "min_sentences": 5,
+            "notes": [
+              {
+                "word": "opposite",
+                "ar": "معناها «مقابل» أو «في الجهة المقابلة»: opposite my building."
+              },
+              {
+                "word": "around the corner",
+                "ar": "معناها «عند الزاوية»، أي قريب جداً."
+              },
+              {
+                "word": "neighbourhood",
+                "ar": "معناها «الحيّ». تُكتب ou بالإملاء البريطاني."
+              },
+              {
+                "word": "there isn't a",
+                "ar": "لما ينقص الحيّ: there isn't a cinema."
+              }
+            ],
+            "check_ar": [
+              "هل ذكرت شيئاً ناقصاً بـ there isn't a؟",
+              "هل ذكرت مكانين مع موضعهما؟"
+            ]
+          }
+        ]
       }
     }
   ],

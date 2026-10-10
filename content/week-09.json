@@ -102,22 +102,40 @@
           "ref": "vocab:jobs"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:jobs",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -138,22 +156,40 @@
           "ref": "vocab:the_workplace"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:the_workplace",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -176,20 +212,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -210,22 +264,40 @@
           "ref": "vocab:verbs_for_right_now|dialogue:1"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:verbs_for_right_now",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -246,22 +318,40 @@
           "ref": "vocab:now_and_temporary"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:now_and_temporary",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -284,20 +374,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -324,16 +432,28 @@
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     }
@@ -1756,160 +1876,6 @@
       }
     },
     {
-      "kind": "breaktime",
-      "day_number": 7,
-      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
-      "title_en": "Break Time — English Outside the Book",
-      "payload": {
-        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
-        "compare": [
-          {
-            "aspect_ar": "الكمّ",
-            "intensive_ar": "دقائق من الصوت",
-            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
-          },
-          {
-            "aspect_ar": "الفهم",
-            "intensive_ar": "تستهدف 100%",
-            "extensive_ar": "50–70% تكفي"
-          },
-          {
-            "aspect_ar": "الجهد",
-            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
-            "extensive_ar": "منخفض — تسترخي وتستمتع"
-          },
-          {
-            "aspect_ar": "ما يبنيه",
-            "intensive_ar": "الدقّة والقواعد",
-            "extensive_ar": "السرعة والأذن والحدس والمفردات"
-          },
-          {
-            "aspect_ar": "لو أغفلته",
-            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
-            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
-          }
-        ],
-        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
-        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
-        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
-        "song": {
-          "pick": {
-            "title": "Riptide",
-            "artist": "Vance Joy",
-            "why_en": "Full of Present Continuous. Fast in places, so a real stretch — and very catchy.",
-            "search": "Riptide Vance Joy"
-          },
-          "alternatives": [
-            {
-              "title": "Wonderwall",
-              "artist": "Oasis",
-              "why_en": "Clear, slow, and built on the continuous form throughout.",
-              "search": "Wonderwall Oasis"
-            },
-            {
-              "title": "Fast Car",
-              "artist": "Tracy Chapman",
-              "why_en": "A story told partly in the continuous. Very clear diction and a strong narrative.",
-              "search": "Fast Car Tracy Chapman"
-            }
-          ],
-          "item": {
-            "key": "song",
-            "icon": "🎵",
-            "label_ar": "أغنية الأسبوع",
-            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
-            "minutes": 20,
-            "steps": [
-              "استمع مرة للمتعة.",
-              "استمع ثانية وميّز: أيّها مضارع بسيط وأيّها مضارع مستمر؟",
-              "اكتب ثلاث جمل من كل زمن."
-            ],
-            "prompt_ar": "جملة بالبسيط وجملة بالمستمر ممّا سمعت"
-          }
-        },
-        "watch": {
-          "pick": {
-            "title": "Extra English — Episodes 13–14",
-            "level": "A1–A2",
-            "where": "YouTube",
-            "why_en": "Keep the series going. Two episodes a week.",
-            "search": "Extra English — Episodes 13–14"
-          },
-          "alternatives": [
-            {
-              "title": "Easy English — \"What are you doing today?\"",
-              "level": "A2",
-              "where": "YouTube — search it",
-              "why_en": "Exactly this chapter’s grammar, spoken by dozens of real people in one video.",
-              "search": "Easy English — \"What are you doing today?\""
-            },
-            {
-              "title": "A \"day in the life\" video of your own job",
-              "level": "A2–B1",
-              "where": "YouTube — search \"day in the life of a [your job]\"",
-              "why_en": "Your professional vocabulary, in English, narrated in the Present Continuous. This one is worth more to you than any general video.",
-              "search": "A \"day in the life\" video of your own job"
-            }
-          ],
-          "item": {
-            "key": "watch",
-            "icon": "📺",
-            "label_ar": "ما تشاهده",
-            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
-            "minutes": 25,
-            "steps": [
-              "شاهد حلقة كاملة بلا توقّف.",
-              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
-              "اكتب ثلاث عبارات علقت في ذهنك."
-            ],
-            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
-            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
-          }
-        },
-        "item_order": [
-          "song",
-          "watch"
-        ],
-        "plan": [
-          {
-            "day_ar": "السبت",
-            "activity_ar": "الأغنية + مهمة تمييز الأزمنة",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الأحد",
-            "activity_ar": "Extra English الحلقة 13",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الاثنين",
-            "activity_ar": "فيديو «يوم في حياة» صاحب مهنتك",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الثلاثاء",
-            "activity_ar": "Extra English الحلقة 14",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الأربعاء",
-            "activity_ar": "الكتاب المتدرّج + اسرد مسيرة يومك بصوت عالٍ",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الخميس",
-            "activity_ar": "6 Minute English — حلقة واحدة مرتين",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الجمعة",
-            "activity_ar": "الكتاب المتدرّج + اختيار حرّ",
-            "minutes": 30
-          }
-        ]
-      }
-    },
-    {
       "kind": "speaking",
       "title_ar": "التحدّث",
       "title_en": "My Job and What I Am Doing Now",
@@ -2026,6 +1992,301 @@
           }
         ],
         "save_as": "Week09"
+      }
+    },
+    {
+      "kind": "practice",
+      "title_ar": "اكتب مثله",
+      "title_en": "Write One Like It",
+      "payload": {
+        "items": [
+          {
+            "day": 1,
+            "title_ar": "مهن من حولك",
+            "model": [
+              {
+                "en": "My brother is a mechanic.",
+                "ar": "أخي ميكانيكي."
+              },
+              {
+                "en": "He fixes cars in a small garage.",
+                "ar": "يصلح السيارات في ورشة صغيرة."
+              },
+              {
+                "en": "My aunt is an accountant.",
+                "ar": "عمّتي محاسبة."
+              },
+              {
+                "en": "She works for a big company.",
+                "ar": "تعمل لدى شركة كبيرة."
+              }
+            ],
+            "pattern_en": "My ___ is a / an ___. He / She ___s ___.",
+            "prompt_ar": "اكتب 4 جمل عن شخصين تعرفهما: ما مهنة كل منهما، وماذا يفعل في عمله.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "a mechanic",
+                "ar": "المهنة تحتاج a: He is a mechanic. «He mechanic» خطأ."
+              },
+              {
+                "word": "an accountant",
+                "ar": "نقول an قبل صوت حرف علّة: an accountant · an engineer."
+              },
+              {
+                "word": "fixes",
+                "ar": "مع he وshe نضيف es بعد x وsh وch: fix ← fixes."
+              },
+              {
+                "word": "works for",
+                "ar": "نقول work for مع الشركة، وwork in مع المكان: works in a hospital."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت a أو an قبل كل مهنة؟",
+              "هل أضفت s أو es للفعل بعد he وshe؟"
+            ]
+          },
+          {
+            "day": 2,
+            "title_ar": "عادةً واليوم",
+            "model": [
+              {
+                "en": "I usually work in the office.",
+                "ar": "عادةً أعمل في المكتب."
+              },
+              {
+                "en": "Today, I'm working from home.",
+                "ar": "اليوم أعمل من البيت."
+              },
+              {
+                "en": "My colleagues are preparing a report.",
+                "ar": "زملائي يُعِدّون تقريراً."
+              },
+              {
+                "en": "The deadline is on Thursday.",
+                "ar": "آخر موعد للتسليم يوم الخميس."
+              }
+            ],
+            "pattern_en": "I usually ___. Today, I'm ___ing.",
+            "prompt_ar": "اكتب 4 جمل: جملتان عمّا تفعله عادةً في عملك أو دراستك، وجملتان عمّا يحدث اليوم.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "usually · today",
+                "ar": "usually للعادة: I work. وtoday لما يحدث الآن: I'm working."
+              },
+              {
+                "word": "I'm",
+                "ar": "اختصار I am. وبعدها الفعل مع ing: I'm working. لا تحذف am."
+              },
+              {
+                "word": "are preparing",
+                "ar": "مع الجمع are ثم ing. وإن انتهى الفعل بـ e نحذفها: prepare ← preparing."
+              },
+              {
+                "word": "from home",
+                "ar": "نقول work from home بلا the: أعمل من البيت."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت am أو is أو are قبل كل فعل بـ ing؟",
+              "هل استعملت الفعل البسيط للعادة، وفعل ing لليوم؟"
+            ]
+          },
+          {
+            "day": 3,
+            "title_ar": "في هذه اللحظة",
+            "model": [
+              {
+                "en": "It's a busy morning.",
+                "ar": "إنه صباح مزدحم."
+              },
+              {
+                "en": "I'm sitting at my desk.",
+                "ar": "أنا جالس إلى مكتبي."
+              },
+              {
+                "en": "I'm writing an email to a client.",
+                "ar": "أكتب رسالة إلى عميل."
+              },
+              {
+                "en": "My colleague is talking on the phone.",
+                "ar": "زميلي يتكلّم في الهاتف."
+              }
+            ],
+            "pattern_en": "I'm ___ing ___. My ___ is ___ing ___.",
+            "prompt_ar": "اكتب 4 جمل عمّا يحدث حولك الآن. ثم اقرأها بصوت عالٍ.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "sitting",
+                "ar": "نضاعف t في sit: sitting. ومثلها run ← running، لأن الفعل قصير وآخره حرف علّة ثم ساكن."
+              },
+              {
+                "word": "writing",
+                "ar": "إن انتهى الفعل بـ e نحذفها ثم نضيف ing: write ← writing."
+              },
+              {
+                "word": "-ing",
+                "ar": "تُنطق صوتاً أنفيّاً /ŋ/ بلا g في آخرها: working لا «وركينغ»."
+              },
+              {
+                "word": "an email",
+                "ar": "an قبل صوت حرف علّة. وصِل n بما بعدها فتُسمع الكلمتان كلمة واحدة."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت am أو is قبل كل فعل بـ ing؟",
+              "هل نطقت ing بلا g في آخرها؟"
+            ]
+          },
+          {
+            "day": 4,
+            "title_ar": "مكالمة سريعة",
+            "model": [
+              {
+                "en": "Where are you? I'm waiting at the bus stop.",
+                "ar": "أين أنت؟ أنتظر في موقف الحافلة."
+              },
+              {
+                "en": "Are you driving? No, I'm not.",
+                "ar": "هل تقود السيارة؟ لا."
+              },
+              {
+                "en": "What are you doing now? I'm cooking dinner.",
+                "ar": "ماذا تفعل الآن؟ أطبخ العشاء."
+              },
+              {
+                "en": "I'm not working today.",
+                "ar": "لا أعمل اليوم."
+              }
+            ],
+            "pattern_en": "What are you doing? I'm ___ing. I'm not ___ing.",
+            "prompt_ar": "اكتب مكالمة قصيرة من 4 أسطر: اسأل صديقك أين هو وماذا يفعل، وأجب عن نفسك الآن.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "Are you…?",
+                "ar": "السؤال يبدأ بـ are بلا do: Are you driving? «Do you driving?» خطأ."
+              },
+              {
+                "word": "No, I'm not",
+                "ar": "الجواب القصير بـ am: Yes, I am · No, I'm not."
+              },
+              {
+                "word": "I'm not",
+                "ar": "النفي: not بعد am ثم الفعل بـ ing: I'm not working."
+              },
+              {
+                "word": "at the bus stop",
+                "ar": "نقول at مع نقطة محدّدة: at the bus stop · at the door."
+              }
+            ],
+            "check_ar": [
+              "هل بدأ كل سؤال بـ are أو بكلمة سؤال ثم are؟",
+              "هل كتبت جملة منفية بـ I'm not؟"
+            ]
+          },
+          {
+            "day": 5,
+            "title_ar": "هذه الأيام",
+            "model": [
+              {
+                "en": "These days, I'm learning English online.",
+                "ar": "هذه الأيام أتعلّم الإنجليزية عبر الإنترنت."
+              },
+              {
+                "en": "This month, I'm staying with my uncle.",
+                "ar": "هذا الشهر أسكن عند عمّي."
+              },
+              {
+                "en": "I know a lot of new words now.",
+                "ar": "أعرف الآن كثيراً من الكلمات الجديدة."
+              },
+              {
+                "en": "I want to speak English well.",
+                "ar": "أريد أن أتكلّم الإنجليزية جيداً."
+              }
+            ],
+            "pattern_en": "These days, I'm ___ing. I know / want ___.",
+            "prompt_ar": "اكتب 4 جمل: جملتان عن أشياء مؤقّتة في حياتك هذه الأيام، وجملتان فيهما know أو want.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "these days",
+                "ar": "معناها «هذه الأيام». تأتي مع ing لحالة مؤقّتة لن تدوم."
+              },
+              {
+                "word": "I'm staying",
+                "ar": "مؤقّت لا دائم، لذلك ing. ولو كان دائماً لقلت I live."
+              },
+              {
+                "word": "know",
+                "ar": "فعل حالة لا يأخذ ing: I know. «I am knowing» خطأ."
+              },
+              {
+                "word": "want",
+                "ar": "فعل حالة مثل know: I want، لا I am wanting."
+              }
+            ],
+            "check_ar": [
+              "هل استعملت ing لما هو مؤقّت؟",
+              "هل كتبت know وwant بلا ing؟"
+            ]
+          },
+          {
+            "day": 6,
+            "title_ar": "أخبار عملك",
+            "model": [
+              {
+                "en": "I work as a designer in a small company.",
+                "ar": "أعمل مصمّماً في شركة صغيرة."
+              },
+              {
+                "en": "At the moment, I'm designing a website.",
+                "ar": "في هذه الفترة أصمّم موقعاً إلكترونياً."
+              },
+              {
+                "en": "I usually finish at four, but this month I'm working late.",
+                "ar": "عادةً أنتهي في الرابعة، لكني هذا الشهر أعمل حتى وقت متأخّر."
+              },
+              {
+                "en": "I'm also studying English in the evening.",
+                "ar": "وأدرس الإنجليزية أيضاً في المساء."
+              },
+              {
+                "en": "What are you doing these days?",
+                "ar": "ماذا تفعل أنت هذه الأيام؟"
+              }
+            ],
+            "pattern_en": "I work as ___. At the moment, I'm ___ing.",
+            "prompt_ar": "اكتب 5 جمل لصديق لم تره منذ مدة: عملك عادةً، وما تفعله في هذه الفترة، وشيء مؤقّت، وشيء تتعلّمه، وسؤالاً له. هذا تمرين لكتابة الغد (110 إلى 130 كلمة).",
+            "min_sentences": 5,
+            "notes": [
+              {
+                "word": "as",
+                "ar": "work as معناها «أعمل بوظيفة»: I work as a designer."
+              },
+              {
+                "word": "at the moment",
+                "ar": "معناها «في هذه الفترة» أو «الآن». تأتي مع ing."
+              },
+              {
+                "word": "but",
+                "ar": "تربط العادة بالمؤقّت: I usually finish at four, but this month I'm working late."
+              },
+              {
+                "word": "also",
+                "ar": "معناها «أيضاً». تأتي بعد am وis وare: I'm also studying."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت جملة بالفعل البسيط وجملة بـ ing؟",
+              "هل ختمت بسؤال ينتهي بعلامة ?؟"
+            ]
+          }
+        ]
       }
     }
   ],

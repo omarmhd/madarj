@@ -1,6 +1,9 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import { Check, X } from 'lucide-react';
 import Listen from '@/Components/Listen';
+import SpellInput, { SpellMarks } from '@/Components/Game/SpellInput';
 import { useMySpeech } from '@/hooks/useSpeech';
+import { checkSpelling, type SpellResult } from '@/lib/spelling';
 import { useT } from '@/lib/i18n';
 
 /**
@@ -13,6 +16,11 @@ import { useT } from '@/lib/i18n';
  *   - الكلمات المتعثّرة تُعاد في نهاية الجولة
  *
  * التقييم الذاتي هنا يغذّي لاحقاً خوارزمية FSRS.
+ *
+ * Typing the word is the main path: a card answered in the head is
+ * graded by the learner's honesty, a typed one by its letters — and
+ * the letters are what a sentence is built from. Self-grading stays
+ * for a learner who reveals without typing.
  */
 
 export interface Word {
@@ -43,14 +51,20 @@ export default function Flashcards({ words, groupLabel, onFinish, onProgress}: P
   const [unknown, setUnknown] = useState<number[]>([]);
   /** هل نحن في جولة إعادة الكلمات المتعثّرة؟ */
   const [isRetry, setIsRetry] = useState(false);
+  const [typed, setTyped] = useState('');
+  const [result, setResult] = useState<SpellResult | null>(null);
+  const field = useRef<HTMLInputElement>(null);
+  const nextBtn = useRef<HTMLButtonElement>(null);
 
   const current = queue[index];
   const done = index >= queue.length;
 
   const reveal = () => {
+    touched.current = true;
     setRevealed(true);
     // ننطق الكلمة تلقائياً عند الكشف — الربط بين الشكل والصوت
     say(current.word);
+    if (typed.trim()) setResult(checkSpelling(typed, current.word));
   };
 
   const rate = (didKnow: boolean) => {
@@ -61,6 +75,8 @@ export default function Flashcards({ words, groupLabel, onFinish, onProgress}: P
     }
 
     setRevealed(false);
+    setTyped('');
+    setResult(null);
     setIndex((i) => i + 1);
   };
 
@@ -71,6 +87,8 @@ export default function Flashcards({ words, groupLabel, onFinish, onProgress}: P
     setIndex(0);
     setUnknown([]);
     setRevealed(false);
+    setTyped('');
+    setResult(null);
     setIsRetry(true);
   };
 
@@ -80,6 +98,8 @@ export default function Flashcards({ words, groupLabel, onFinish, onProgress}: P
     setKnown([]);
     setUnknown([]);
     setRevealed(false);
+    setTyped('');
+    setResult(null);
     setIsRetry(false);
   };
 
@@ -88,6 +108,16 @@ export default function Flashcards({ words, groupLabel, onFinish, onProgress}: P
   useEffect(() => {
     onProgress?.(index, queue.length);
   }, [index, queue.length, onProgress]);
+
+  // Keyboard flow: type, Enter to check, Enter for the next card.
+  // Not on mount: focusing there opens the phone keyboard over a card
+  // the learner has not looked at yet.
+  const touched = useRef(false);
+  useEffect(() => {
+    if (!touched.current) return;
+    if (revealed) nextBtn.current?.focus();
+    else field.current?.focus({ preventScroll: true });
+  }, [revealed, index]);
 
   /* ---------- النتيجة ---------- */
   if (done) {
@@ -174,24 +204,29 @@ export default function Flashcards({ words, groupLabel, onFinish, onProgress}: P
         <p className="text-2xl font-bold text-slate-900">{current.arabic}</p>
 
         {!revealed ? (
-          <div className="mt-10">
-            <p className="text-sm text-slate-500">
-              {tr('قل الكلمة بالإنجليزية بصوت عالٍ')}
+          <div className="mt-6 space-y-3">
+            <p className="text-sm text-slate-600">
+              {tr('قلها بصوت عالٍ، ثم اكتبها بالإنجليزية')}
             </p>
+            <SpellInput ref={field} value={typed} onChange={setTyped} onSubmit={reveal} />
             <button
               onClick={reveal}
-              className="mt-4 rounded-lg bg-slate-900 px-8 py-2.5 font-medium
-                         text-white hover:bg-slate-800"
+              className="w-full rounded-xl bg-slate-900 py-3 font-medium text-white
+                         transition hover:bg-slate-800"
             >
-              {tr('اكشف')}
+              {typed.trim() ? tr('تحقّق') : tr('لا أعرفها — اكشف')}
             </button>
           </div>
         ) : (
-          <div className="mt-6" dir="ltr">
-            <p className="text-3xl font-bold text-violet-700">{current.word}</p>
+          <div className="mt-5" dir="ltr">
+            {result && result.verdict !== 'right' ? (
+              <SpellMarks marks={result.marks} />
+            ) : (
+              <p className="text-3xl font-bold text-violet-700">{current.word}</p>
+            )}
 
             {current.ipa && (
-              <p className="mt-2 font-mono text-lg tracking-wide text-violet-600">
+              <p className="mt-2 font-mono text-lg text-violet-600">
                 {current.ipa}
               </p>
             )}
@@ -210,8 +245,42 @@ export default function Flashcards({ words, groupLabel, onFinish, onProgress}: P
         )}
       </div>
 
-      {/* التقييم الذاتي */}
-      {revealed && (
+      {/* Typed: the letters decide, and say why */}
+      {revealed && result && (
+        <div
+          className={`mt-4 rounded-xl p-4 text-sm leading-relaxed ${
+            result.verdict === 'right'
+              ? 'bg-emerald-50 text-emerald-800'
+              : result.verdict === 'close'
+                ? 'bg-amber-50 text-amber-900'
+                : 'bg-rose-50 text-rose-800'
+          }`}
+        >
+          <p className="flex items-center gap-1.5 font-semibold">
+            {result.verdict === 'right' ? <Check aria-hidden size={16} /> : <X aria-hidden size={16} />}
+            {result.verdict === 'right'
+              ? tr('صحيحة')
+              : result.verdict === 'close'
+                ? tr('قريبة جداً — انظر إلى الحروف الملوّنة')
+                : tr('ليست هي — انظر إلى الحروف الملوّنة')}
+          </p>
+          {(result.note || result.hint) && <p className="mt-1">{result.note ?? result.hint}</p>}
+        </div>
+      )}
+
+      {revealed && result && (
+        <button
+          ref={nextBtn}
+          onClick={() => rate(result.verdict === 'right')}
+          className="mt-4 min-h-12 w-full rounded-xl bg-slate-900 font-semibold text-white
+                     transition hover:bg-slate-800"
+        >
+          {tr('التالي')}
+        </button>
+      )}
+
+      {/* التقييم الذاتي — لمن كشف بلا كتابة */}
+      {revealed && !result && (
         <div className="mt-5 grid grid-cols-2 gap-3">
           <button
             onClick={() => rate(false)}

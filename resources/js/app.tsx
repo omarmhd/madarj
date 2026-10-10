@@ -71,10 +71,10 @@ createInertiaApp({
 
         root.render(<App {...props} />);
     },
-    // The accent ink (violet-600 in the remapped palette), with a
-    // short delay so fast visits do not flash a bar at all
+    // The identity colour the admin chose (printed into <head> as
+    // --accent), with a short delay so fast visits do not flash a bar
     progress: {
-        color: '#b8432a',
+        color: getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#b8432a',
         delay: 150,
     },
 });

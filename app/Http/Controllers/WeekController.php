@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\BreakTimeCompletion;
 use App\Models\Comparison;
 use App\Models\DayCompletion;
 use App\Models\ReviewCard;
@@ -263,193 +262,8 @@ class WeekController extends Controller
             'modules'    => self::MODULES,
             'milestones' => self::MILESTONES,
 
-            // نشاط وقت الاستراحة لهذا اليوم — تذكير لا إلزام
-            'breakToday' => function () use ($user, $statsOf, $weeksOf) {
-                $stats = $statsOf();
-
-                return $this->breakTimeForDay(
-                    $user,
-                    $weeksOf()->get($stats['current_week'] ?? 1),
-                    $stats['current_day'] ?? null,
-                );
-            },
 
         ]);
-    }
-
-    /**
-     * نشاط وقت الاستراحة المقرّر ليوم دراسي معيّن (1..7).
-     *
-     * الفهرسة بيوم الأسبوع الدراسي لا بيوم التقويم. الكتاب يكتب
-     * خطته «السبت… الجمعة» على افتراض أن المتدرّب يبدأ السبت، ومن
-     * يبدأ الأربعاء يجد نشاط السبت في يومه الأول فيرتبك. أما ترتيب
-     * الأنشطة السبعة فصحيح دائماً: النشاط الثالث لليوم الثالث.
-     *
-     * وقسمٌ لا يُذكَّر به لا يُفتَح — وهو ما يخالف غرضه بأن يكون
-     * العادة اليومية السهلة. لذلك نُخرج صفّ اليوم إلى اللوحة وإلى
-     * صفحة اليوم معاً.
-     */
-    protected function breakTimeForDay(User $user, ?Week $week, ?int $dayNumber): ?array
-    {
-        $section = $week?->sections()->where('kind', 'breaktime')->first();
-        $plan = $section?->payload['plan'] ?? null;
-
-        if (! $plan || ! $dayNumber) {
-            return null;
-        }
-
-        $row = $plan[$dayNumber - 1] ?? null;
-
-        if (! $row) {
-            return null;
-        }
-
-        $itemKey = $this->breakTimeItemKey($row['activity_ar'], $section->payload);
-        $item = $itemKey === null ? [] : ($section->payload[$itemKey]['item'] ?? []);
-
-        // صفّ الإنجاز — يُقرأ مرة واحدة، منه الحالة وما كُتب فيه
-        $done = $itemKey === null ? null : BreakTimeCompletion::forUser($user->id)
-            ->where('week_id', $week->id)
-            ->where('item_key', $itemKey)
-            ->first();
-
-        return [
-            'week_number' => $week->number,
-            'day_number'  => $dayNumber,
-            // اسم اليوم من الكتاب — سياقاً لا تعريفاً
-            'book_day_ar' => $row['day_ar'] ?? null,
-            'activity_ar' => $row['activity_ar'],
-            'minutes'     => $row['minutes'],
-            'link'        => $this->breakTimeLink($section->payload, $itemKey),
-            'total'       => collect($plan)->sum('minutes'),
-            // النشاط الذي يقابله في العدّاد — ليؤشّره من هنا
-            'item_key'    => $itemKey,
-            'item_done'   => $done !== null,
-            /**
-             * تفصيل النشاط — وبدونه لا يعرف المتدرّب ماذا يفعل.
-             *
-             * صفّ الخطة عبارةٌ من الكتاب: «الأغنية + مهمّة تعقّب النبر».
-             * وهي عنوانٌ لا تعليمة — فما «تعقّب النبر»؟ الجواب مخزَّنٌ
-             * في خطوات البند نفسه ولم يكن يصل إلى الشاشة، فيقرأ
-             * المتدرّب عنواناً لا يفهمه ثم يتخطّاه.
-             *
-             * والخطوات تُرسَل مع صفّ اليوم لا في صفحة أخرى: النشاط
-             * خمس عشرة دقيقة، ومن يُضطرّ إلى مغادرة شاشته ليعرف
-             * المطلوب لا يعود.
-             */
-            'item_label_ar'  => $item['label_ar'] ?? null,
-            'item_steps'     => $item['steps'] ?? [],
-            'item_why_ar'    => $item['why_ar'] ?? null,
-            // مهمّة الملاحظة وما كتبه فيها — تُنجَز من هنا بلا مغادرة اليوم
-            'item_prompt_ar' => $item['prompt_ar'] ?? null,
-            'item_note'      => $done?->note,
-        ];
-    }
-
-    /**
-     * مفتاح البند الذي يخصّه صفّ اليوم — أو `null` إن لم يخصّ بنداً.
-     *
-     * ── لماذا لا سقوط افتراضيّ ─────────────────────────────
-     * كانت القاعدة: الأغنية والقصة والبودكاست بكلماتها، **وكل ما
-     * عداها مشاهدة**. فصفّ «حوّل لغة هاتفك إلى الإنجليزية» كان يُنسَب
-     * إلى بند المشاهدة، فتُعرض تحته خطواته: «شاهد حلقة كاملة بلا
-     * توقّف» — تعليمةٌ لا علاقة لها بما طُلب. وتعليمةٌ خاطئة أسوأ من
-     * لا تعليمة.
-     *
-     * ── والقاعدة الآن من البيانات لا من الحدس ──────────────
-     * يُبحَث عن اسم المصدر نفسه في نصّ الصفّ — «Extra English» و
-     * «Storynory» وأسماء البدائل كلّها موجودة في المحتوى. فإن لم
-     * يُذكر مصدرٌ ولا كلمةٌ دالّة فالصفّ **قائم بذاته**: نصّه هو
-     * التعليمة كاملةً، ولا تُلصَق به خطوات بندٍ آخر.
-     */
-    protected function breakTimeItemKey(string $activity, array $payload = []): ?string
-    {
-        if (str_starts_with($activity, 'حرّ')) {
-            return null;
-        }
-
-        // ① الكلمات الدالّة — يكتبها الكتاب بالعربية في كل أسبوع
-        $keywords = [
-            'song'    => ['الأغنية', 'الأغاني'],
-            // «المتدرّج» تلتقط «الكتاب المتدرّج» و«كتابك المتدرّج» معاً
-            'story'   => ['القصة', 'القصص', 'المتدرّج'],
-            'channel' => ['البودكاست', 'القناة'],
-            'watch'   => ['حلقة', 'مسلسل', 'فيلم'],
-        ];
-
-        foreach ($keywords as $key => $words) {
-            if (! isset($payload[$key])) {
-                continue;
-            }
-
-            foreach ($words as $word) {
-                if (str_contains($activity, $word)) {
-                    return $key;
-                }
-            }
-        }
-
-        // ② اسم المصدر نفسه — من المحتوى لا من قائمة مكتوبة هنا
-        foreach (array_keys($keywords) as $key) {
-            foreach ($this->breakTimeNames($payload[$key] ?? []) as $name) {
-                if (mb_strlen($name) >= 4 && mb_stripos($activity, $name) !== false) {
-                    return $key;
-                }
-            }
-        }
-
-        return null;
-    }
-
-    /** أسماء مصادر فئةٍ: المختار وبدائله */
-    protected function breakTimeNames(array $group): array
-    {
-        $names = [];
-
-        foreach ([$group['pick'] ?? null, ...($group['alts'] ?? [])] as $o) {
-            if (! is_array($o)) {
-                continue;
-            }
-
-            foreach (['title', 'name', 'source'] as $f) {
-                if (! empty($o[$f])) {
-                    // «Extra English — Episode 6» يُطابَق باسم المسلسل وحده
-                    $names[] = trim(preg_split('/\s+[—–-]\s+/u', $o[$f])[0]);
-                }
-            }
-        }
-
-        return array_unique($names);
-    }
-
-    /**
-     * ربط نصّ النشاط بالمصدر المناسب.
-     *
-     * الخطة تقول «الأغنية — التشغيلان الأول والثاني»، والمتدرّب يحتاج
-     * رابط الأغنية لا شرحاً. المطابقة بالكلمة المفتاحية.
-     */
-    protected function breakTimeLink(array $payload, ?string $itemKey): ?array
-    {
-        // صفٌّ قائم بذاته أو يومٌ حرّ — لا مصدر يُفرَض عليه
-        if ($itemKey === null) {
-            return null;
-        }
-
-        $pick = $payload[$itemKey]['pick'] ?? null;
-
-        if (! $pick) {
-            return null;
-        }
-
-        return [
-            'label'   => $pick['title'] ?? $pick['name'] ?? $pick['source'] ?? 'افتح',
-            'url'     => $pick['url'] ?? (isset($pick['search'])
-                ? 'https://www.youtube.com/results?search_query='.urlencode($pick['search'])
-                : null),
-            // ما هذا المصدر أصلاً — الاسم وحده لا يعرّف به
-            'note_ar' => $pick['why_ar'] ?? $pick['what_ar'] ?? null,
-            'note_en' => $pick['why_en'] ?? $pick['what_en'] ?? null,
-        ];
     }
 
     /** صفحة أسبوع واحد بكل محتواه */
@@ -579,22 +393,9 @@ class WeekController extends Controller
                 ->groupBy('day_number')
                 ->map(fn ($group) => $group->map->toClientArray()->values()),
 
-            // أقسام الشرح مرجعاً في المكتبة. تشمل Break Time الذي
-            // لا تصل إليه مهمة بالتصميم — الكتاب يضعه خارج ساعة الدراسة.
+            // أقسام الشرح مرجعاً في المكتبة
             'sections' => $week->sections->map->toClientArray()->values(),
 
-            // ما أُنجز من أنشطة الاستراحة — يُحتسب ولا يُلزم
-            'breakDone' => BreakTimeCompletion::forUser($user->id)
-                ->where('week_id', $week->id)
-                ->pluck('item_key')
-                ->all(),
-
-            // ما لاحظه في كل نشاط — يُعرض في حقله فيرى ما كتبه
-            'breakNotes' => BreakTimeCompletion::forUser($user->id)
-                ->where('week_id', $week->id)
-                ->pluck('note', 'item_key')
-                ->filter()
-                ->all(),
         ]);
     }
 
@@ -649,7 +450,7 @@ class WeekController extends Controller
         $week->load(['vocabulary', 'minimalPairs', 'dialogues.lines', 'exercises', 'sections']);
 
         // كل مهمة تُرفق بمحتواها — الواجهة لا تبحث ولا تخمّن
-        $tasks = collect($dayModel->tasks)->map(function (array $task) use ($week) {
+        $tasks = collect($dayModel->tasks)->map(function (array $task) use ($week, $day) {
             // الاسم يُشتقّ من المرجع لحظة الطلب — لا نصّ مخزّن لكل أسبوع
             $name = $this->naming->label($week, $task['ref'] ?? null);
 
@@ -657,7 +458,7 @@ class WeekController extends Controller
                 ...$task,
                 'label_ar' => $name['ar'] ?: ($task['label'] ?? ''),
                 'label_en' => $name['en'] ?: ($task['label'] ?? ''),
-                'blocks'   => $this->resolveTaskContent($week, $task['ref'] ?? null),
+                'blocks'   => $this->resolveTaskContent($week, $task['ref'] ?? null, $day),
             ];
         })->values()->all();
 
@@ -705,8 +506,6 @@ class WeekController extends Controller
                 ->where('week_id', $week->id)
                 ->pluck('answers', 'kind'),
 
-            // نشاط الاستراحة المقرّر لهذا اليوم — يُذكَّر به هنا لا يُلزم
-            'breakToday' => $this->breakTimeForDay($user, $week, $day),
         ]);
     }
 
@@ -716,7 +515,7 @@ class WeekController extends Controller
      * المرجع قد يحمل نشاطين مفصولين بـ `|` مثل `vocab:core|dialogue:2`،
      * فنرجع قائمة لا كتلة واحدة.
      */
-    protected function resolveTaskContent(Week $week, ?string $ref): array
+    protected function resolveTaskContent(Week $week, ?string $ref, int $day = 0): array
     {
         if ($ref === null || $ref === '') {
             return [];
@@ -784,11 +583,50 @@ class WeekController extends Controller
             }
 
             if (str_starts_with($token, 'game:minimal_pairs') || str_starts_with($token, 'pron:')) {
+                $production = str_contains($token, 'production');
+
                 $blocks[] = [
                     'type'   => 'minimal_pairs',
-                    'groups' => $week->pairsByGroup(),
-                    'production' => str_contains($token, 'production'),
+                    'groups' => $production ? $week->pairsByGroup() : $this->pairsForDay($week, $day),
+                    'production' => $production,
                 ];
+
+                continue;
+            }
+
+            if (str_starts_with($token, 'spell:')) {
+                $block = $this->spellingBlock($week, substr($token, 6), $day);
+                if ($block) {
+                    $blocks[] = $block;
+                }
+
+                continue;
+            }
+
+            if ($token === 'shadow') {
+                // No material at all: fall back to the week's speaking task
+                $blocks[] = $this->shadowFor($week, $day) ?? [
+                    'type'     => 'record',
+                    'baseline' => false,
+                    'speaking' => $week->sections->firstWhere('kind', 'speaking')?->payload,
+                ];
+
+                continue;
+            }
+
+            if ($token === 'homework') {
+                $blocks[] = $this->homeworkFor($week, $day);
+
+                continue;
+            }
+
+            if ($token === 'imitate') {
+                $item = collect($week->sections->firstWhere('kind', 'practice')?->payload['items'] ?? [])
+                    ->firstWhere('day', $day);
+
+                if ($item) {
+                    $blocks[] = ['type' => 'imitate', 'item' => $item];
+                }
 
                 continue;
             }
@@ -862,6 +700,357 @@ class WeekController extends Controller
         }
 
         return $blocks;
+    }
+
+    /**
+     * The sound contrast for this day — one group, not the whole week.
+     *
+     * Every day used to receive every pair of the week, so a learner
+     * played the same twelve questions six days running. The groups now
+     * rotate, one a day, and the last day of the week takes them all as
+     * a review. One group a day is also what §2.4 asks for: contrasts
+     * practised apart, never mixed.
+     */
+    protected function pairsForDay(Week $week, int $day)
+    {
+        $groups = $week->pairsByGroup();
+        $lastDay = (int) $week->days()->max('number');
+
+        if ($day < 1 || $groups->count() <= 1 || $day >= $lastDay) {
+            return $groups;
+        }
+
+        return collect([$groups[($day - 1) % $groups->count()]]);
+    }
+
+    /**
+     * The day each vocabulary group, dialogue and section first appears
+     * in the week's plan.
+     *
+     * @return array<string, int>  e.g. ['vocab:family' => 2, 'dialogue:1' => 3]
+     */
+    protected function introductions(Week $week): array
+    {
+        $seen = [];
+
+        foreach ($week->days()->orderBy('number')->get() as $d) {
+            foreach ($d->tasks ?? [] as $task) {
+                foreach (explode('|', (string) ($task['ref'] ?? '')) as $token) {
+                    $token = trim($token);
+
+                    if (str_starts_with($token, 'vocab:')) {
+                        foreach (explode(',', substr($token, 6)) as $g) {
+                            $seen['vocab:'.trim($g)] ??= $d->number;
+                        }
+                    } elseif (str_starts_with($token, 'dialogue:') || str_starts_with($token, 'section:')) {
+                        $seen[$token] ??= $d->number;
+                    }
+                }
+            }
+        }
+
+        return $seen;
+    }
+
+    /**
+     * A spelling drill.
+     *
+     * `spell:family,numbers` drills named groups with support first
+     * (vowel gaps), then from memory. `spell:review` takes a dozen words
+     * from groups introduced on earlier days — a spelling recalled after
+     * a night's gap sticks better than one copied straight after
+     * learning — and drills them by ear, then from memory.
+     */
+    protected function spellingBlock(Week $week, string $arg, int $day): ?array
+    {
+        $review = $arg === 'review';
+
+        // Spelling is for words. A six-word phrase typed from memory is a
+        // test of patience, and the phrase groups have their own drills.
+        $spellable = fn ($v) => str_word_count($v->word) <= 3;
+
+        if ($review) {
+            $groups = collect($this->introductions($week))
+                ->filter(fn ($d, $k) => str_starts_with($k, 'vocab:') && $d < $day)
+                ->keys()->map(fn ($k) => substr($k, 6));
+
+            $words = $week->vocabulary->whereIn('group', $groups->all())
+                ->filter($spellable)->shuffle()->take(12)->values();
+
+            /*
+             * Nothing learned earlier this week — the first days of a week,
+             * or a week whose plan teaches no word groups. Then the review
+             * reaches back: a normal week to the week before, a review week
+             * to its whole unit. Spelling recalled after days, not hours, is
+             * the review that sticks, so this is the better material anyway.
+             */
+            if ($words->isEmpty() && $week->number > 1) {
+                $pool = fn (array $numbers) => \App\Models\Vocabulary::query()
+                    ->whereIn('week_id', Week::whereIn('number', $numbers)->pluck('id'))
+                    ->get()
+                    ->filter($spellable);
+
+                $unit = range(max(1, $week->number - 5), $week->number - 1);
+
+                // The week before can itself hold nothing to spell (a review
+                // week's lists are phrases) — then the unit behind it
+                $words = ($week->is_review ? collect() : $pool([$week->number - 1]))
+                    ->whenEmpty(fn () => $pool($unit))
+                    ->shuffle()->take(12)->values();
+            }
+        } else {
+            $groups = collect(explode(',', $arg))->map(fn ($g) => trim($g))->filter();
+            $words = $week->vocabulary->whereIn('group', $groups->all())->filter($spellable)->values();
+
+            // Twenty at most — week 8 has a group of eighty. The rest come
+            // back through `spell:review` on the following days.
+            if ($words->count() > 20) {
+                $words = $words->shuffle()->take(20)->values();
+            }
+        }
+
+        if ($words->isEmpty()) {
+            return null;
+        }
+
+        return [
+            'type'   => 'spelling',
+            'review' => $review,
+            'rounds' => $review ? ['dictation', 'recall'] : ['gaps', 'recall'],
+            'words'  => $words->map(fn ($v) => [
+                'id'     => $v->id,
+                'word'   => $v->word,
+                'arabic' => $v->arabic,
+                'ipa'    => $v->ipa,
+            ])->all(),
+        ];
+    }
+
+    /**
+     * Today's shadowing paragraph.
+     *
+     * Drawn from what the learner has already met this week — a dialogue
+     * or listening text introduced on or before today — so it never
+     * shows the listening transcript before the day whose method says
+     * "do not read the text before step three". Before any of those
+     * appear, it falls back to the survival phrases, then to the example
+     * sentences of words already learned.
+     */
+    protected function shadowFor(Week $week, int $day): ?array
+    {
+        $intro = $this->introductions($week);
+        $introducedBy = fn (string $key) => ($intro[$key] ?? 99) <= $day;
+
+        $dialogueParts = function (bool $onlyIntroduced) use ($week, $introducedBy): array {
+            $parts = [];
+
+            foreach ($week->dialogues->sortBy('number') as $d) {
+                if ($onlyIntroduced && ! $introducedBy('dialogue:'.$d->number)) {
+                    continue;
+                }
+
+                $spoken = $d->lines->filter(fn ($l) => $l->speaker)->values()->all();
+                $genders = $d->speaker_genders ?? [];
+
+                foreach ($this->balancedChunks($spoken, 4) as $chunk) {
+                    $chunk = collect($chunk);
+                    $parts[] = [
+                        'source_ar' => 'من الحوار '.$d->number,
+                        'title_en'  => $d->title,
+                        'lines'     => $chunk->map(fn ($l) => [
+                            'en'      => $l->en,
+                            'speaker' => $l->speaker,
+                            'gender'  => $genders[$l->speaker] ?? $genders[strtoupper($l->speaker)] ?? null,
+                        ])->values()->all(),
+                        'ar' => $chunk->pluck('ar')->filter()->implode(' '),
+                    ];
+                }
+            }
+
+            return $parts;
+        };
+
+        $pool = $dialogueParts(true);
+
+        $listening = $week->sections->firstWhere('kind', 'listening');
+        if ($listening && $introducedBy('section:listening')) {
+            foreach ($listening->payload['transcript'] ?? [] as $para) {
+                $sentences = preg_split('/(?<=[.!?])\s+/u', trim($para['en'] ?? ''), -1, PREG_SPLIT_NO_EMPTY);
+
+                // A long paragraph becomes short ones; a part has no matching translation
+                $parts = $this->balancedChunks($sentences, 5);
+                foreach ($parts as $part) {
+                    $pool[] = [
+                        'source_ar' => 'من نص الاستماع',
+                        'title_en'  => $listening->title_en,
+                        'lines'     => array_map(fn ($en) => ['en' => $en], $part),
+                        'ar'        => count($parts) === 1 ? ($para['ar'] ?? null) : null,
+                    ];
+                }
+            }
+        }
+
+        if ($pool === []) {
+            $phrases = $week->sections->firstWhere('kind', 'phrases');
+            $items = collect($phrases?->payload['groups'] ?? [])->flatMap(fn ($g) => $g['items'] ?? []);
+
+            if ($phrases && $introducedBy('section:phrases')) {
+                foreach ($items->chunk(5) as $chunk) {
+                    $pool[] = [
+                        'source_ar' => 'من عبارات النجاة',
+                        'title_en'  => null,
+                        'lines'     => $chunk->map(fn ($i) => ['en' => $i['en']])->values()->all(),
+                        'ar'        => $chunk->pluck('ar')->implode(' · '),
+                    ];
+                }
+            }
+        }
+
+        if ($pool === []) {
+            $groups = collect($intro)
+                ->filter(fn ($d, $k) => str_starts_with($k, 'vocab:') && $d <= $day)
+                ->keys()->map(fn ($k) => substr($k, 6));
+
+            $examples = $week->vocabulary->whereIn('group', $groups->all())
+                ->pluck('example')->filter()->unique()->values();
+
+            if ($examples->isNotEmpty()) {
+                $pool[] = [
+                    'source_ar' => 'جمل من كلمات هذا الأسبوع',
+                    'title_en'  => null,
+                    'lines'     => $examples->take(5)->map(fn ($e) => ['en' => $e])->values()->all(),
+                    'ar'        => null,
+                ];
+            }
+        }
+
+        // Nothing met yet: a dialogue ahead of its day still beats no shadowing
+        if ($pool === []) {
+            $pool = $dialogueParts(false);
+        }
+
+        /*
+         * A week with no dialogues of its own — the review weeks, and the
+         * situations week. Its unit's earlier dialogues, then: shadowing
+         * a conversation already studied is exactly what review is for.
+         */
+        if ($pool === [] && $week->number > 1) {
+            $earlier = \App\Models\Dialogue::with('lines')
+                ->whereIn('week_id', Week::whereBetween('number', [max(1, $week->number - 5), $week->number - 1])->pluck('id'))
+                ->get();
+
+            foreach ($earlier as $d) {
+                $spoken = $d->lines->filter(fn ($l) => $l->speaker)->values()->all();
+                $genders = $d->speaker_genders ?? [];
+
+                foreach ($this->balancedChunks($spoken, 4) as $chunk) {
+                    $chunk = collect($chunk);
+                    $pool[] = [
+                        'source_ar' => 'من حوار سابق في هذه الوحدة',
+                        'title_en'  => $d->title,
+                        'lines'     => $chunk->map(fn ($l) => [
+                            'en'      => $l->en,
+                            'speaker' => $l->speaker,
+                            'gender'  => $genders[$l->speaker] ?? $genders[strtoupper($l->speaker)] ?? null,
+                        ])->values()->all(),
+                        'ar' => $chunk->pluck('ar')->filter()->implode(' '),
+                    ];
+                }
+            }
+
+            // Spread the days across the unit, not the first dialogue's four parts
+            $step = max(1, intdiv(count($pool), 6));
+            $pool = array_values(array_filter($pool, fn ($_, $i) => $i % $step === 0, ARRAY_FILTER_USE_BOTH));
+        }
+
+        if ($pool === []) {
+            return null;
+        }
+
+        return [
+            'type'   => 'shadow',
+            'shadow' => [
+                ...$pool[max(0, $day - 1) % count($pool)],
+                'save_as' => sprintf('Week%02d-Day%d', $week->number, $day),
+            ],
+        ];
+    }
+
+    /**
+     * The day's homework — one task away from the screen, from a weekly
+     * cycle of seven, filled with that day's material.
+     *
+     * The cycle replaced Break Time. Each kind is built from what the
+     * server already knows about the day (its words, its dialogue), so
+     * 168 days need no authored homework. The learner writes a short
+     * proof; the day does not complete without it (ProgressService).
+     */
+    protected function homeworkFor(Week $week, int $day): array
+    {
+        $kinds = [1 => 'label', 2 => 'teach', 3 => 'dialogue', 4 => 'sentences', 5 => 'hunt', 6 => 'speak', 7 => 'message'];
+        $kind = $kinds[(($day - 1) % 7) + 1];
+
+        // Today's words, else the week's so far, else the week before
+        $intro = $this->introductions($week);
+        $groupsBy = fn ($cmp) => collect($intro)->filter(fn ($d, $k) => str_starts_with($k, 'vocab:') && $cmp($d))->keys()->map(fn ($k) => substr($k, 6))->all();
+        $words = $week->vocabulary->whereIn('group', $groupsBy(fn ($d) => $d === $day));
+        if ($words->isEmpty()) {
+            $words = $week->vocabulary->whereIn('group', $groupsBy(fn ($d) => $d <= $day));
+        }
+        if ($words->isEmpty() && $week->number > 1) {
+            $words = \App\Models\Vocabulary::whereIn('week_id', Week::where('number', $week->number - 1)->pluck('id'))->get();
+        }
+        $words = $words->filter(fn ($v) => str_word_count($v->word) <= 3)->shuffle()->take($kind === 'teach' ? 3 : 5)->values();
+
+        // The latest dialogue met by today, else the first one
+        $dialogue = $week->dialogues->sortByDesc('number')
+            ->first(fn ($d) => ($intro['dialogue:'.$d->number] ?? 99) <= $day) ?? $week->dialogues->sortBy('number')->first();
+
+        // A dialogue day with no dialogue becomes a sentences day
+        if ($kind === 'dialogue' && ! $dialogue) {
+            $kind = 'sentences';
+        }
+
+        return [
+            'type'     => 'homework',
+            'kind'     => $kind,
+            'day'      => $day,
+            'words'    => $words->map(fn ($v) => ['word' => $v->word, 'arabic' => $v->arabic])->all(),
+            'dialogue' => $kind === 'dialogue' ? [
+                'title' => $dialogue->title,
+                'lines' => $dialogue->lines->filter(fn ($l) => $l->speaker)->take(8)
+                    ->map(fn ($l) => ['speaker' => $l->speaker, 'en' => $l->en])->values()->all(),
+            ] : null,
+        ];
+    }
+
+    /**
+     * Split into parts of at most `$max`, as even as possible.
+     *
+     * `array_chunk` leaves the remainder alone at the end: thirteen
+     * dialogue lines in fours gave a fourth "paragraph" of one line.
+     * Thirteen now splits 4 · 3 · 3 · 3.
+     */
+    protected function balancedChunks(array $items, int $max): array
+    {
+        $n = count($items);
+        if ($n === 0) {
+            return [];
+        }
+
+        $parts = (int) ceil($n / $max);
+        $base = intdiv($n, $parts);
+        $extra = $n % $parts;
+        $out = [];
+        $at = 0;
+
+        for ($i = 0; $i < $parts; $i++) {
+            $size = $base + ($i < $extra ? 1 : 0);
+            $out[] = array_slice($items, $at, $size);
+            $at += $size;
+        }
+
+        return $out;
     }
 
     /** The level test the learner should sit now, or null */

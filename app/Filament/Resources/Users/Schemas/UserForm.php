@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources\Users\Schemas;
 
+use App\Support\Countries;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
@@ -9,17 +10,18 @@ use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 
 /**
- * تعديل متدرّب — وما لا يُعدَّل أهمّ ممّا يُعدَّل.
+ * Editing a learner — what is left out matters as much as what is in.
  *
- * ── لماذا لا كلمة مرور هنا ─────────────────────────────────
- * المولّد وضعها حقلاً مطلوباً. وموظّفٌ يضبط كلمة مرور متدرّب يملك
- * حسابه — وهي مسؤوليّة لا يحتاجها أحد: من نسيها يستعيدها بنفسه.
- * وأسوأ من ذلك أنّ الحقل المطلوب يمنع حفظ أيّ تعديل آخر بدونه.
+ * ── The password ────────────────────────────────────────────
+ * Required when the admin creates an account (there is no other way
+ * to hand it over), optional when editing. An empty field is never
+ * saved, so editing a name does not wipe the password, and the
+ * model's `hashed` cast hashes it — hashing here too would hash twice.
  *
- * ── وما حُذف كذلك ──────────────────────────────────────────
- * `age_band` و`goal` و`source` و`start_level` يكتبها المتدرّب عن
- * نفسه في التهيئة، وتعديلها من هنا يفسد بياناته لا يصلحها.
- * تُقرأ في صفحته ولا تُكتب.
+ * ── What is left out ────────────────────────────────────────
+ * `age_band`, `goal`, `source` and `start_level` are written by the
+ * learner during setup. Editing them here corrupts their data rather
+ * than fixing it.
  */
 class UserForm
 {
@@ -48,8 +50,25 @@ class UserForm
 
                         Select::make('country')
                             ->label('الدولة')
-                            ->options(fn () => \App\Support\Countries::forSelect())
-                            ->searchable(),
+                            ->options(Countries::options())
+                            ->searchable()
+                            ->native(false)
+                            ->placeholder('اختر الدولة')
+                            ->searchPrompt('اكتب اسم الدولة للبحث')
+                            ->noSearchResultsMessage('لا توجد دولة بهذا الاسم'),
+
+                        TextInput::make('password')
+                            ->label('كلمة المرور')
+                            ->password()
+                            ->revealable()
+                            ->minLength(8)
+                            ->maxLength(255)
+                            ->autocomplete('new-password')
+                            ->required(fn (string $operation) => $operation === 'create')
+                            ->dehydrated(fn (?string $state) => filled($state))
+                            ->helperText(fn (string $operation) => $operation === 'edit'
+                                ? 'اتركها فارغة لتبقى كلمة المرور الحالية.'
+                                : '8 أحرف على الأقل.'),
                     ]),
 
                 Section::make('الوصول')
@@ -57,9 +76,9 @@ class UserForm
                     ->columns(2)
                     ->schema([
                         /*
-                         * الفراغ يعني «اتبع الإعداد العامّ»، والصفر
-                         * يعني «أوقف تجربته». وهما مختلفان، فالفرق
-                         * مكتوبٌ تحت الحقل لا في رأس الموظّف.
+                         * Empty means "follow the global setting", zero
+                         * means "stop their trial". They differ, so the
+                         * difference is written under the field.
                          */
                         TextInput::make('free_weeks')
                             ->label('أسابيع مجّانيّة لهذا المتدرّب')

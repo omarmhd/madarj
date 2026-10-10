@@ -14,7 +14,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class WeekNote extends Model
 {
     /** الاستمارات المعروفة — لئلا يمتلئ الجدول بنوع مكتوب خطأً */
-    public const KINDS = ['conversation'];
+    public const KINDS = ['conversation', 'imitate', 'homework'];
 
     protected $fillable = ['user_id', 'week_id', 'kind', 'answers'];
 

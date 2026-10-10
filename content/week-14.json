@@ -102,22 +102,40 @@
           "ref": "vocab:time_words"
         },
         {
-          "order": 3,
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:time_words",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -144,16 +162,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -180,16 +216,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -216,16 +270,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -252,16 +324,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -288,16 +378,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -324,16 +432,28 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     }
@@ -1755,195 +1875,6 @@
       }
     },
     {
-      "kind": "breaktime",
-      "day_number": 7,
-      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
-      "title_en": "Break Time — English Outside the Book",
-      "payload": {
-        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
-        "compare": [
-          {
-            "aspect_ar": "الكمّ",
-            "intensive_ar": "دقائق من الصوت",
-            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
-          },
-          {
-            "aspect_ar": "الفهم",
-            "intensive_ar": "تستهدف 100%",
-            "extensive_ar": "50–70% تكفي"
-          },
-          {
-            "aspect_ar": "الجهد",
-            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
-            "extensive_ar": "منخفض — تسترخي وتستمتع"
-          },
-          {
-            "aspect_ar": "ما يبنيه",
-            "intensive_ar": "الدقّة والقواعد",
-            "extensive_ar": "السرعة والأذن والحدس والمفردات"
-          },
-          {
-            "aspect_ar": "لو أغفلته",
-            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
-            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
-          }
-        ],
-        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
-        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
-        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
-        "song": {
-          "pick": {
-            "title": "Nothing Else Matters",
-            "artist": "Metallica",
-            "why_en": "Slow, clear, and full of I have.",
-            "search": "Nothing Else Matters Metallica"
-          },
-          "alternatives": [
-            {
-              "title": "Yesterday",
-              "artist": "The Beatles",
-              "why_en": "Revisit it from Week 7 — now notice which lines are Past Simple and why.",
-              "search": "Yesterday The Beatles"
-            },
-            {
-              "title": "Someone You Loved",
-              "artist": "Lewis Capaldi",
-              "why_en": "Modern, slow, and mixes both tenses.",
-              "search": "Someone You Loved Lewis Capaldi"
-            }
-          ],
-          "item": {
-            "key": "song",
-            "icon": "🎵",
-            "label_ar": "أغنية الأسبوع",
-            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
-            "minutes": 20,
-            "steps": [
-              "شغّلها مرة للمتعة فقط — بلا كلمات ولا تحليل.",
-              "شغّلها ثانية واكتب خمس كلمات سمعتها ولم تكن تعرفها.",
-              "شغّلها مع الكلمات المكتوبة أمامك.",
-              "غنِّ معها مرة. الغناء يضبط الإيقاع بلا أن تفكّر فيه."
-            ],
-            "why_ar": "الأغنية تُعاد خمسين مرة طوعاً، ولا تمرين يُعاد خمسين مرة.",
-            "prompt_ar": "الكلمات الخمس التي التقطتها"
-          }
-        },
-        "watch": {
-          "pick": {
-            "title": "Friends — Episodes 6–8",
-            "where": "Any streaming service",
-            "why_en": "Sitcom dialogue is full of \"Have you…?\" followed immediately by \"When did you…?\"",
-            "search": "Friends — Episodes 6–8"
-          },
-          "alternatives": [
-            {
-              "title": "Any documentary with narration",
-              "where": "Netflix or YouTube",
-              "why_en": "Narrated documentaries use slow, clear, formal English and switch tenses constantly. Much easier than drama.",
-              "search": "Any documentary with narration"
-            },
-            {
-              "title": "Job interview videos",
-              "where": "YouTube — search \"English job interview questions\"",
-              "why_en": "The Present Perfect is the tense of interviews. Direct professional value.",
-              "search": "Job interview videos"
-            }
-          ],
-          "item": {
-            "key": "watch",
-            "icon": "📺",
-            "label_ar": "ما تشاهده",
-            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
-            "minutes": 25,
-            "steps": [
-              "شاهد حلقة كاملة بلا توقّف.",
-              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
-              "اكتب ثلاث عبارات علقت في ذهنك."
-            ],
-            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
-            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
-          }
-        },
-        "story": {
-          "pick": {
-            "title": "BBC Learning English — News Review",
-            "where": "bbc.co.uk/learningenglish",
-            "why_en": "One real news story, explained slowly, with the key language broken down. Around six minutes.",
-            "url": "https://bbc.co.uk/learningenglish"
-          },
-          "alternatives": [
-            {
-              "title": "News in Levels",
-              "where": "newsinlevels.com",
-              "why_en": "The same story at three difficulty levels. Read Level 2, then Level 3 to see how the language grows.",
-              "url": "https://newsinlevels.com"
-            },
-            {
-              "title": "VOA Learning English",
-              "where": "learningenglish.voanews.com",
-              "why_en": "Slow-speed news with full transcripts.",
-              "url": "https://learningenglish.voanews.com"
-            }
-          ],
-          "item": {
-            "key": "story",
-            "icon": "📖",
-            "label_ar": "ما تقرأه",
-            "task_ar": "خمس عشرة دقيقة قراءة أو استماع، ولا تبحث عن أكثر من ثلاث كلمات",
-            "minutes": 15,
-            "steps": [
-              "اقرأ خبراً واحداً كل يوم — خمس دقائق لا أكثر.",
-              "حدّد جملة بالمضارع التام وجملة بالماضي البسيط، واسأل نفسك: لماذا هذا الزمن هنا؟"
-            ],
-            "why_ar": "الأخبار مملوءة بالتقابل بين الزمنين: العنوان بالمضارع التام والتفصيل بالماضي البسيط.",
-            "prompt_ar": "الجملتان اللتان وجدتهما ولماذا"
-          }
-        },
-        "item_order": [
-          "song",
-          "watch",
-          "story"
-        ],
-        "plan": [
-          {
-            "day_ar": "السبت",
-            "activity_ar": "الأغنية + أول خبر",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الأحد",
-            "activity_ar": "Friends الحلقة 6 + خبر",
-            "minutes": 30
-          },
-          {
-            "day_ar": "الاثنين",
-            "activity_ar": "خبر + الكتاب المتدرّج",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الثلاثاء",
-            "activity_ar": "Friends الحلقة 7 + خبر",
-            "minutes": 30
-          },
-          {
-            "day_ar": "الأربعاء",
-            "activity_ar": "حلقة News Review من BBC",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الخميس",
-            "activity_ar": "خبر + الكتاب",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الجمعة",
-            "activity_ar": "Friends الحلقة 8 + فيلم وثائقي",
-            "minutes": 60
-          }
-        ]
-      }
-    },
-    {
       "kind": "speaking",
       "title_ar": "التحدّث",
       "title_en": "How My Life Has Changed",
@@ -2060,6 +1991,302 @@
           }
         ],
         "save_as": "Week14"
+      }
+    },
+    {
+      "kind": "practice",
+      "title_ar": "اكتب مثله",
+      "title_en": "Write One Like It",
+      "payload": {
+        "items": [
+          {
+            "day": 1,
+            "title_ar": "متى حدث؟",
+            "model": [
+              {
+                "en": "I called my mother yesterday.",
+                "ar": "اتصلت بأمّي أمس."
+              },
+              {
+                "en": "I visited my uncle last week.",
+                "ar": "زرت عمّي الأسبوع الماضي."
+              },
+              {
+                "en": "I started this course two months ago.",
+                "ar": "بدأت هذه الدورة قبل شهرين."
+              },
+              {
+                "en": "I have never been to London.",
+                "ar": "لم أذهب إلى لندن قطّ."
+              }
+            ],
+            "pattern_en": "I ___ yesterday / last ___ / ___ ago.",
+            "prompt_ar": "اكتب 4 جمل عنك: 3 أشياء فعلتها في وقت تذكره (yesterday · last week · ago)، وشيء لم تفعله قطّ.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "yesterday",
+                "ar": "معناها «أمس». تأتي بلا the وبلا in: I called yesterday."
+              },
+              {
+                "word": "last week",
+                "ar": "معناها «الأسبوع الماضي». بلا in وبلا the: last week لا in the last week."
+              },
+              {
+                "word": "ago",
+                "ar": "معناها «قبل»، وتأتي بعد المدّة لا قبلها: two months ago."
+              },
+              {
+                "word": "never",
+                "ar": "مع have للتجربة في عمرك كله: I have never been. لا تضف معها not."
+              }
+            ],
+            "check_ar": [
+              "هل جاء الفعل في الماضي البسيط مع yesterday وlast وago؟",
+              "هل كتبت ago بعد المدّة لا قبلها؟"
+            ]
+          },
+          {
+            "day": 2,
+            "title_ar": "تجربة أم تاريخ؟",
+            "model": [
+              {
+                "en": "I have visited Alexandria twice.",
+                "ar": "زرت الإسكندرية مرّتين."
+              },
+              {
+                "en": "My first visit was in 2019.",
+                "ar": "كانت زيارتي الأولى سنة 2019."
+              },
+              {
+                "en": "Have you ever tried fish soup?",
+                "ar": "هل سبق أن جرّبت حساء السمك؟"
+              },
+              {
+                "en": "Yes, I tried it two years ago.",
+                "ar": "نعم، جرّبته قبل سنتين."
+              }
+            ],
+            "pattern_en": "I have ___ twice. I ___ it in ___ / ___ ago.",
+            "prompt_ar": "اكتب 4 جمل عن تجاربك: شيء فعلته (بلا تاريخ)، ثم متى فعلته (بتاريخ). وسؤال بـ ever وجوابه.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "have visited",
+                "ar": "بلا تاريخ نستعمل have مع اسم المفعول: I have visited. المهمّ أنها حدثت، لا متى."
+              },
+              {
+                "word": "in 2019",
+                "ar": "مع السنة نقول in. والتاريخ المحدّد يفرض الماضي البسيط: was · tried."
+              },
+              {
+                "word": "ever",
+                "ar": "معناها «في أيّ وقت». تأتي في السؤال بعد you: Have you ever tried…?"
+              },
+              {
+                "word": "two years ago",
+                "ar": "ago تمنع have. «I have tried it two years ago» خطأ، والصواب I tried it two years ago."
+              }
+            ],
+            "check_ar": [
+              "هل استعملت have أو has في الجملة التي بلا تاريخ؟",
+              "هل جاء الماضي البسيط مع كل تاريخ أو ago؟"
+            ]
+          },
+          {
+            "day": 3,
+            "title_ar": "منذ متى؟",
+            "model": [
+              {
+                "en": "I have lived in this flat since 2020.",
+                "ar": "أسكن في هذه الشقّة منذ 2020."
+              },
+              {
+                "en": "My brother has worked in a bank for six years.",
+                "ar": "يعمل أخي في بنك منذ ست سنوات."
+              },
+              {
+                "en": "I have known my best friend since we were at school.",
+                "ar": "أعرف صديقي المقرّب منذ كنّا في المدرسة."
+              },
+              {
+                "en": "How long have you studied English?",
+                "ar": "منذ متى تدرس الإنجليزية؟"
+              }
+            ],
+            "pattern_en": "I have ___ since ___. He / She has ___ for ___.",
+            "prompt_ar": "اكتب 4 جمل عن أشياء بدأت في الماضي وما زالت الآن: بيتك، أو عملك، أو صديق تعرفه. استعمل since مرة وfor مرة على الأقل.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "since",
+                "ar": "قبل نقطة البداية: since 2020 · since Monday · since we were at school."
+              },
+              {
+                "word": "for",
+                "ar": "قبل المدّة: for six years · for two weeks. والعربية تقول «منذ» للاثنين."
+              },
+              {
+                "word": "have lived",
+                "ar": "مع since وfor نستعمل have. «I live here since 2020» خطأ، والصواب I have lived here since 2020."
+              },
+              {
+                "word": "how long",
+                "ar": "معناها «منذ متى» أو «كم مدّة». بعدها have أو has: How long have you…?"
+              }
+            ],
+            "check_ar": [
+              "هل كتبت since قبل البداية وfor قبل المدّة؟",
+              "هل استعملت have أو has مع since وfor، لا المضارع البسيط؟"
+            ]
+          },
+          {
+            "day": 4,
+            "title_ar": "ما أنهيته اليوم",
+            "model": [
+              {
+                "en": "I've just had breakfast.",
+                "ar": "تناولت الفطور للتوّ."
+              },
+              {
+                "en": "I have already done my exercises.",
+                "ar": "أنهيت تماريني بالفعل."
+              },
+              {
+                "en": "I haven't called my mother yet.",
+                "ar": "لم أتصل بأمّي بعد."
+              },
+              {
+                "en": "My friend still hasn't replied to my message.",
+                "ar": "صديقي لم يردّ على رسالتي حتى الآن."
+              }
+            ],
+            "pattern_en": "I have already ___. I haven't ___ yet.",
+            "prompt_ar": "اكتب 4 جمل عن يومك اليوم: شيء فعلته للتوّ، وشيء أنهيته، وشيء لم تفعله بعد، وشيء ما زال ينتظر.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "just",
+                "ar": "معناها «للتوّ». تأتي بين have واسم المفعول: I've just had."
+              },
+              {
+                "word": "already",
+                "ar": "معناها «بالفعل». موضعها بعد have: I have already done. «I already have done» خطأ."
+              },
+              {
+                "word": "yet",
+                "ar": "معناها «بعد». تأتي في آخر الجملة المنفية أو السؤال: I haven't called yet."
+              },
+              {
+                "word": "still",
+                "ar": "معناها «ما زال». تأتي قبل hasn't: He still hasn't replied."
+              }
+            ],
+            "check_ar": [
+              "هل جاءت just وalready بعد have مباشرة؟",
+              "هل جاءت yet في آخر الجملة؟"
+            ]
+          },
+          {
+            "day": 5,
+            "title_ar": "لم أرك منذ زمن",
+            "model": [
+              {
+                "en": "It's been a while! How are you?",
+                "ar": "مرّ وقت طويل! كيف حالك؟"
+              },
+              {
+                "en": "I'm fine. I've changed jobs.",
+                "ar": "أنا بخير. غيّرت عملي."
+              },
+              {
+                "en": "Really? When did you leave the old one?",
+                "ar": "حقاً؟ متى تركت العمل القديم؟"
+              },
+              {
+                "en": "I left in March, and I've been happier since then.",
+                "ar": "تركته في مارس، وأنا أسعد منذ ذلك الحين."
+              }
+            ],
+            "pattern_en": "I've ___. — When did you ___? — I ___ in ___.",
+            "prompt_ar": "تخيّل أنك قابلت صديقاً لم تره منذ سنة. اكتب حواراً من 4 جمل: خبر تغيّر في حياتك، ثم سؤال بـ When، ثم جوابه بتاريخ.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "It's been",
+                "ar": "هنا 's اختصار has لا is: It has been a while."
+              },
+              {
+                "word": "I've",
+                "ar": "اختصار I have. في الكلام السريع تكاد لا تُسمع، فانتبه لها."
+              },
+              {
+                "word": "When did",
+                "ar": "مع When نسأل بـ did لا have: When did you leave? «When have you left?» خطأ."
+              },
+              {
+                "word": "since then",
+                "ar": "معناها «منذ ذلك الحين». تأتي في آخر الجملة، ومعها have أو has."
+              }
+            ],
+            "check_ar": [
+              "هل جاء خبرك الأول بـ have أو has؟",
+              "هل سألت بـ When did وأجبت بالماضي البسيط؟"
+            ]
+          },
+          {
+            "day": 6,
+            "title_ar": "كيف تغيّرت حياتك",
+            "model": [
+              {
+                "en": "My life has changed a lot in the last three years.",
+                "ar": "تغيّرت حياتي كثيراً في السنوات الثلاث الأخيرة."
+              },
+              {
+                "en": "I have moved to a new city.",
+                "ar": "انتقلت إلى مدينة جديدة."
+              },
+              {
+                "en": "I started a new job in 2023.",
+                "ar": "بدأت عملاً جديداً سنة 2023."
+              },
+              {
+                "en": "I have worked there for two years.",
+                "ar": "أعمل هناك منذ سنتين."
+              },
+              {
+                "en": "One thing hasn't changed: I still call my mother every evening.",
+                "ar": "شيء واحد لم يتغيّر: ما زلت أتصل بأمّي كل مساء."
+              }
+            ],
+            "pattern_en": "My life has changed ___. I have ___. I ___ in ___.",
+            "prompt_ar": "اكتب 5 جمل عن كيف تغيّرت حياتك: تغييران، وحدث واحد بتاريخه، وشيء لم يتغيّر. هذا تمرين لكتابة الغد (130 إلى 150 كلمة).",
+            "min_sentences": 5,
+            "notes": [
+              {
+                "word": "in the last three years",
+                "ar": "معناها «في السنوات الثلاث الأخيرة». هي مدّة لم تنتهِ، فمعها has changed."
+              },
+              {
+                "word": "in 2023",
+                "ar": "التاريخ يحوّلك إلى الماضي البسيط: I started in 2023، لا I have started in 2023."
+              },
+              {
+                "word": "hasn't",
+                "ar": "اختصار has not: One thing hasn't changed."
+              },
+              {
+                "word": "every evening",
+                "ar": "مع every لا نضع in ولا on: every evening · every Friday."
+              }
+            ],
+            "check_ar": [
+              "هل غيّرت إلى الماضي البسيط حين ذكرت تاريخاً؟",
+              "هل ذكرت شيئاً لم يتغيّر بـ hasn't أو haven't؟",
+              "هل استعملت since أو for مرة واحدة على الأقل؟"
+            ]
+          }
+        ]
       }
     }
   ],

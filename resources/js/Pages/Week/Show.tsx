@@ -14,7 +14,6 @@ import WritingTask, {
   type WritingContent,
   type MyWriting,
 } from '@/Components/Game/WritingTask';
-import Recorder from '@/Components/Recorder';
 import SpeakingBrief, { type SpeakingPayload } from '@/Components/Game/SpeakingBrief';
 import ReviewSession from '@/Components/Game/ReviewSession';
 import SectionView, { type SectionData } from '@/Components/Game/SectionView';
@@ -25,7 +24,7 @@ import { cleanLabel } from '@/lib/labels';
 import { useLocale, dirOf, pick, dirFor } from '@/lib/bilingual';
 import { type Prefs, DEFAULT_PREFS } from '@/lib/prefs';
 import { useT } from '@/lib/i18n';
-import { CalendarCheck, CalendarDays, ChevronDown, ChevronLeft, ChevronUp, Construction, Flame, Headphones, Library, MessageCircle, Pin, Play, Square, Timer } from 'lucide-react';
+import { CalendarCheck, CalendarDays, ChevronDown, ChevronLeft, ChevronUp, Construction, Flame, Library, MessageCircle, Pin, Play, Square, Timer } from 'lucide-react';
 
 /**
  * صفحة الأسبوع — الشاشة الرئيسية.
@@ -104,6 +103,12 @@ type Activity =
   | { kind: 'writing' }
   | { kind: 'dialogue'; number: number }
   | { kind: 'review' }
+  /**
+   * Drills the server builds for one day — today's spelling words,
+   * today's shadowing paragraph, today's writing model. They have no
+   * week-wide version, so this page points to the day instead.
+   */
+  | { kind: 'inday'; what: 'spell' | 'spell_review' | 'shadow' | 'imitate' | 'homework' }
   /** قسم شرح: القواعد · النطق · الاستماع · القراءة · العبارات */
   | { kind: 'section'; sectionKind: string }
   | { kind: 'unbuilt'; ref: string };
@@ -157,7 +162,6 @@ const groupName = (g: string, labels?: Record<string, string | null>) =>
 const SECTIONS = [
   { id: 'today', label: 'ابدأ من هنا', icon: <Play size={15} />, hint: 'مهمّة اليوم' },
   { id: 'plan', label: 'الأيام السبعة', icon: <CalendarDays size={15} />, hint: 'خطة الأسبوع كلها' },
-  { id: 'breaktime', label: 'وقت الاستراحة', icon: <Headphones size={15} />, hint: 'خارج ساعة الدراسة' },
   { id: 'library', label: 'كل محتوى الأسبوع', icon: <Library size={15} />, hint: 'مفردات وقواعد ونطق وحوارات' },
 ];
 
@@ -167,7 +171,7 @@ const UNBUILT_LABELS: Record<string, string> = {
   reading: 'القراءة',
   grammar: 'القواعد',
   selfcheck: 'الاختبار الذاتي',
-  section: 'قسم من الكتاب',
+  section: 'قسم من الدرس',
 };
 
 /**
@@ -219,6 +223,12 @@ function parseRef(ref: string): Activity[] {
       if (token.startsWith('review')) {
         return { kind: 'review' };
       }
+      if (token.startsWith('spell:')) {
+        return { kind: 'inday', what: token === 'spell:review' ? 'spell_review' : 'spell' };
+      }
+      if (token === 'shadow' || token === 'imitate' || token === 'homework') {
+        return { kind: 'inday', what: token };
+      }
       return { kind: 'unbuilt', ref: token };
     });
 }
@@ -231,12 +241,19 @@ const SECTION_NAMES: Record<string, string> = {
   listening: 'الاستماع',
   reading: 'القراءة',
   selfcheck: 'الاختبار الذاتي',
-  breaktime: 'وقت الاستراحة',
   speaking: 'التحدّث والتسجيل',
   situations: 'المواقف السبعة',
   conversation: 'أوّل محادثة حقيقيّة',
   word_test: 'اختبار الكلمات',
   comparison: 'المقارنة الكبرى',
+};
+
+const INDAY_NAMES: Record<string, string> = {
+  spell: 'كتابة الكلمات',
+  spell_review: 'مراجعة الإملاء',
+  shadow: 'الشادوينج — تكلّم مع الصوت',
+  imitate: 'اكتب مثله',
+  homework: 'الواجب المنزلي',
 };
 
 /** عنوان النشاط في رأس النافذة */
@@ -253,7 +270,9 @@ function activityTitle(
     case 'exercises':
       return `تمارين اليوم ${a.day}`;
     case 'record':
-      return a.baseline ? 'تسجيل خط الأساس' : 'تسجيل';
+      return a.baseline ? 'تسجيل خط الأساس' : 'التحدّث';
+    case 'inday':
+      return tr(INDAY_NAMES[a.what]);
     case 'writing':
       return tr('الكتابة');
     case 'review':
@@ -306,7 +325,7 @@ function ProgressRing({ percent }: { percent: number }) {
 
 export default function WeekShow({
   week, days, vocabulary, vocabularyLabels, minimalPairs, dialogues, exercises, stats,
-  writing, myWriting, myComparison, myNotes, speakingPlan, sections, breakDone, breakNotes = {}, prefs = DEFAULT_PREFS,
+  writing, myWriting, myComparison, myNotes, speakingPlan, sections, prefs = DEFAULT_PREFS,
 }: Props) {
   const tr = useT();
   const locale = useLocale();
@@ -351,7 +370,6 @@ export default function WeekShow({
    * week's plan off the screen. Folded, it is one line that says
    * how many activities wait and how many are done.
    */
-  const [breakOpen, setBreakOpen] = useState(false);
 
   /**
    * القسم الظاهر الآن — يضيء تبويبه في الشريط.
@@ -405,31 +423,7 @@ export default function WeekShow({
     return () => io.disconnect();
   }, [libraryOpen]);
 
-  /** وقت الاستراحة قسم ظاهر، وبقية الأقسام مرجع في المكتبة */
-  const breakSection = sections.find((s) => s.kind === 'breaktime') ?? null;
-  const studySections = sections.filter((s) => s.kind !== 'breaktime');
-
-  /** أنشطة الاستراحة المُنجزة — تحديث متفائل ثم حفظ */
-  const [breakItems, setBreakItems] = useState<string[]>(breakDone);
-  const [notes, setNotes] = useState<Record<string, string>>(breakNotes);
-
-  const toggleBreak = (item: string, done: boolean, note?: string) => {
-    setBreakItems((prev) =>
-      done ? (prev.includes(item) ? prev : [...prev, item]) : prev.filter((x) => x !== item),
-    );
-    // الملاحظة تظهر فوراً، والخادم يؤكّدها بعد لحظة
-    if (note !== undefined) setNotes((prev) => ({ ...prev, [item]: note }));
-
-    axios
-      .post(`/week/${week.number}/break-time`, { item, done, note })
-      .then(({ data }) => {
-        setBreakItems(data.done);
-        setNotes(data.notes ?? {});
-      })
-      .catch(() =>
-        setBreakItems((prev) => (done ? prev.filter((x) => x !== item) : [...prev, item])),
-      );
-  };
+  const studySections = sections;
 
   const doneDays = dayStates.filter((d) => d.completed).length;
   const weekPercent = (doneDays / (dayStates.length || 7)) * 100;
@@ -556,6 +550,8 @@ export default function WeekShow({
           }
           case 'review':
             return tr('تكرار متباعد — البطاقات المستحقة اليوم');
+          case 'inday':
+            return tr('تمرين خاص بيومه — يُفتح من صفحة اليوم');
           case 'section': {
             const sec = sections.find((x) => x.kind === a.sectionKind);
             if (!sec) return null;
@@ -578,7 +574,7 @@ export default function WeekShow({
             return (n as string) || sec.title_ar || null;
           }
           case 'unbuilt':
-            return tr('من الكتاب — لم تُبنَ واجهته بعد');
+            return tr('قيد التجهيز');
         }
       })
       .filter((x): x is string => Boolean(x));
@@ -672,7 +668,7 @@ export default function WeekShow({
   const renderActivity = (a: Activity) => {
     switch (a.kind) {
       case 'pairs':
-        return <MinimalPairGame groups={minimalPairs} target={11} />;
+        return <MinimalPairGame groups={minimalPairs} />;
 
       case 'flashcards':
         return (
@@ -693,11 +689,10 @@ export default function WeekShow({
           <div className="space-y-4">
             {brief && <SpeakingBrief speaking={brief} />}
 
-            <Recorder
-              weekNumber={week.number}
-              isBaseline={a.baseline}
-              targetSeconds={brief?.target_seconds ?? (a.baseline ? 120 : 90)}
-            />
+            {/* No recorder: the recording lives on the learner's phone (§4.2) */}
+            <p className="rounded-xl bg-violet-50 p-4 text-sm leading-relaxed text-violet-900">
+              {tr('سجّل على جوالك بمسجّل الصوت، ثم اسمع تسجيلك مرة وقيّم نفسك بالجدول أعلاه.')}
+            </p>
           </div>
         );
       }
@@ -746,6 +741,25 @@ export default function WeekShow({
                     weekNumber={week.number} myComparison={myComparison} myNotes={myNotes} />;
       }
 
+      case 'inday':
+        return (
+          <div className="p-6 text-center">
+            <p className="font-semibold text-slate-800">{activityTitle(a, vocabularyLabels, tr)}</p>
+            <p className="mx-auto mt-2 max-w-sm text-sm leading-relaxed text-slate-600">
+              {tr('هذا التمرين يتغيّر كل يوم: كلمات اليوم وفقرة اليوم. افتحه من صفحة اليوم.')}
+            </p>
+            {todayDay && (
+              <Link
+                href={`/week/${week.number}/day/${todayDay.number}`}
+                className="mt-4 inline-block rounded-xl bg-violet-600 px-5 py-2.5 text-sm font-medium text-white
+                           transition hover:bg-violet-700"
+              >
+                {tr('افتح اليوم')} {todayDay.number}
+              </Link>
+            )}
+          </div>
+        );
+
       case 'unbuilt':
         return (
           <div className="p-6 text-center">
@@ -754,7 +768,7 @@ export default function WeekShow({
               {activityTitle(a, vocabularyLabels, tr)} — لم يُبنَ بعد
             </p>
             <p className="mx-auto mt-2 max-w-sm text-sm leading-relaxed text-slate-500">
-              {tr('محتوى هذا القسم موجود في الكتاب، لكن واجهته التفاعلية لم تُنفَّذ. أشّر المهمة يدوياً بعد إنجازها من الكتاب.')}
+              {tr('هذا القسم قيد التجهيز في المنصة. أشّر المهمة حين تنجزها.')}
             </p>
             <p className="mt-3 font-mono text-xs text-slate-400" dir="ltr">
               {a.ref}
@@ -870,7 +884,6 @@ export default function WeekShow({
                   e.preventDefault();
                   // «كل المحتوى» يُفتح أيضاً — التمرير إلى زرّ مغلق لا يفيد
                   if (sec.id === 'library') setLibraryOpen(true);
-                  if (sec.id === 'breaktime') setBreakOpen(true);
                   // بعد الفتح لأن ارتفاع الصفحة يتغيّر بفتحه
                   requestAnimationFrame(() => scrollToSection(sec.id));
                 }}
@@ -1013,54 +1026,6 @@ export default function WeekShow({
           </div>
         </section>
 
-        {/* ============ وقت الاستراحة ============
-             قسم ظاهر لا مطويّ. كان داخل المكتبة المغلقة فلم يجده
-             أحد — وقسمٌ لا يُرى لا يُنجَز، وهو أصلاً الجزء الذي
-             يُفترض أن يكون أسهل ما في اليوم. */}
-        {breakSection && (
-          <section id="breaktime" className="scroll-mt-32 sm:scroll-mt-36">
-            <button
-              type="button"
-              onClick={() => setBreakOpen((v) => !v)}
-              aria-expanded={breakOpen}
-              className="flex w-full items-center justify-between gap-3 rounded-2xl bg-white p-5
-                         text-start ring-1 ring-slate-200 transition hover:ring-slate-300"
-            >
-              <div className="min-w-0">
-                <h2 className="flex flex-wrap items-center gap-2 text-lg font-bold text-slate-900">
-                  <Headphones aria-hidden size={18} className="text-violet-600" />
-                  {tr('وقت الاستراحة')}
-                  <span className="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-600">
-                    {tr('خارج ساعة الدراسة')}
-                  </span>
-                </h2>
-                <p className="mt-1 text-sm text-slate-500">
-                  {breakItems.length} من{' '}
-                  {(breakSection.payload.item_order ?? []).length} أنشطة · {tr('أغانٍ وأفلام وقصص')}
-                </p>
-              </div>
-              <ChevronDown
-                aria-hidden
-                size={18}
-                className={`shrink-0 text-slate-400 transition-transform ${breakOpen ? 'rotate-180' : ''}`}
-              />
-            </button>
-
-            {breakOpen && (
-            <div className="mt-3">
-            <SectionView
-              section={breakSection}
-              rate={rate}
-              voice={voice}
-                    showTranslation={prefs.showTranslation}
-              breakDone={breakItems}
-              breakNotes={notes}
-              onToggleBreak={toggleBreak}
-            />
-            </div>
-            )}
-          </section>
-        )}
 
         {/* ============ مكتبة الأسبوع ============
              المحتوى الكامل مرجع يُفتح عند الحاجة، لا شيء يتصفّحه
@@ -1294,8 +1259,7 @@ export default function WeekShow({
         )}
 
         {/* ============ أقسام الشرح مرجعاً ============
-             تُدرَس في أيامها، وتُعرض هنا للمراجعة.
-             ووقت الاستراحة ليس منها — له قسمه الظاهر أعلى الصفحة. */}
+             تُدرَس في أيامها، وتُعرض هنا للمراجعة. */}
         {studySections.length > 0 && (
           <section className="space-y-4">
             <h2 className="text-lg font-bold text-slate-900">{tr('أقسام الشرح')}</h2>

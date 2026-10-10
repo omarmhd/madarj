@@ -98,22 +98,40 @@
           "ref": "vocab:dreams_money_and_choices"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:dreams_money_and_choices",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -136,20 +154,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -170,22 +206,40 @@
           "ref": "vocab:hypothetical_phrases"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:hypothetical_phrases",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -208,20 +262,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -242,22 +314,40 @@
           "ref": "vocab:regret_and_possibility"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:regret_and_possibility",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -280,20 +370,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -320,16 +428,28 @@
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     }
@@ -1732,157 +1852,6 @@
       }
     },
     {
-      "kind": "breaktime",
-      "day_number": 7,
-      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
-      "title_en": "Break Time — English Outside the Book",
-      "payload": {
-        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
-        "compare": [
-          {
-            "aspect_ar": "الكمّ",
-            "intensive_ar": "دقائق من الصوت",
-            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
-          },
-          {
-            "aspect_ar": "الفهم",
-            "intensive_ar": "تستهدف 100%",
-            "extensive_ar": "50–70% تكفي"
-          },
-          {
-            "aspect_ar": "الجهد",
-            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
-            "extensive_ar": "منخفض — تسترخي وتستمتع"
-          },
-          {
-            "aspect_ar": "ما يبنيه",
-            "intensive_ar": "الدقّة والقواعد",
-            "extensive_ar": "السرعة والأذن والحدس والمفردات"
-          },
-          {
-            "aspect_ar": "لو أغفلته",
-            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
-            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
-          }
-        ],
-        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
-        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
-        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
-        "song": {
-          "pick": {
-            "title": "If I Were a Boy",
-            "artist": "Beyoncé",
-            "why_en": "The entire song is one Second Conditional, sung slowly. There is no better example.",
-            "search": "If I Were a Boy Beyoncé"
-          },
-          "alternatives": [
-            {
-              "title": "Imagine",
-              "artist": "John Lennon",
-              "why_en": "Hypothetical throughout, and extremely simple English.",
-              "search": "Imagine John Lennon"
-            },
-            {
-              "title": "If I Could Turn Back Time",
-              "artist": "Cher",
-              "why_en": "The title alone is this chapter.",
-              "search": "If I Could Turn Back Time Cher"
-            }
-          ],
-          "item": {
-            "key": "song",
-            "icon": "🎵",
-            "label_ar": "أغنية الأسبوع",
-            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
-            "minutes": 20,
-            "steps": [
-              "استمع مرة للمتعة.",
-              "تصيّد كل جملة شرطية فيها — والأغاني مملوءة بـ«لو».",
-              "اكتب ثلاثاً منها وحوّلها إلى الشرط الثاني إن لم تكن كذلك."
-            ],
-            "prompt_ar": "الجمل الشرطية التي سمعتها"
-          }
-        },
-        "watch": {
-          "pick": {
-            "title": "Friends — Episodes 24–25",
-            "where": "Any streaming service",
-            "why_en": "One with no subtitles this week.",
-            "search": "Friends — Episodes 24–25"
-          },
-          "alternatives": [
-            {
-              "title": "\"What would you do if…\" street interviews",
-              "where": "YouTube — search the phrase",
-              "why_en": "Dozens of real Second Conditionals in ten minutes.",
-              "search": "\"What would you do if…\" street interviews"
-            },
-            {
-              "title": "Any film about a life-changing decision",
-              "where": "Your choice",
-              "why_en": "Watch for the moment a character says \"if I hadn’t…\" — it happens in almost every film.",
-              "search": "Any film about a life-changing decision"
-            }
-          ],
-          "item": {
-            "key": "watch",
-            "icon": "📺",
-            "label_ar": "ما تشاهده",
-            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
-            "minutes": 25,
-            "steps": [
-              "شاهد حلقة كاملة بلا توقّف.",
-              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
-              "اكتب ثلاث عبارات علقت في ذهنك."
-            ],
-            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
-            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
-          }
-        },
-        "item_order": [
-          "song",
-          "watch"
-        ],
-        "plan": [
-          {
-            "day_ar": "السبت",
-            "activity_ar": "الأغنية + تعقّب جمل if",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الأحد",
-            "activity_ar": "مقابلات شارع «ماذا كنت ستفعل لو…»",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الاثنين",
-            "activity_ar": "بودكاست + قراءة",
-            "minutes": 30
-          },
-          {
-            "day_ar": "الثلاثاء",
-            "activity_ar": "جهّز ثمانية أسئلة افتراضية",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الأربعاء",
-            "activity_ar": "درس — أسئلة افتراضية في الاتجاهين",
-            "minutes": 35
-          },
-          {
-            "day_ar": "الخميس",
-            "activity_ar": "Friends الحلقة 24 — بلا ترجمة",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الجمعة",
-            "activity_ar": "ليلة فيلم + قراءة",
-            "minutes": 120
-          }
-        ]
-      }
-    },
-    {
       "kind": "speaking",
       "title_ar": "التحدّث",
       "title_en": "How My Life Would Be Different",
@@ -1999,6 +1968,302 @@
           }
         ],
         "save_as": "Week21"
+      }
+    },
+    {
+      "kind": "practice",
+      "title_ar": "اكتب مثله",
+      "title_en": "Write One Like It",
+      "payload": {
+        "items": [
+          {
+            "day": 1,
+            "title_ar": "لو كان عندي…",
+            "model": [
+              {
+                "en": "If I had more money, I would travel abroad every year.",
+                "ar": "لو كان عندي مال أكثر لسافرت إلى الخارج كل سنة."
+              },
+              {
+                "en": "I would also save some of it for the future.",
+                "ar": "وكنت سأدّخر بعضه للمستقبل أيضاً."
+              },
+              {
+                "en": "If I had more time, I would learn the guitar.",
+                "ar": "ولو كان عندي وقت أكثر لتعلّمت الغيتار."
+              },
+              {
+                "en": "But right now, I can't afford a long holiday.",
+                "ar": "لكني الآن لا أقدر على كلفة عطلة طويلة."
+              }
+            ],
+            "pattern_en": "If I had more ___, I would ___.",
+            "prompt_ar": "اكتب 4 جمل: ماذا كنت ستفعل لو كان عندك مال أكثر، وماذا لو كان عندك وقت أكثر، ثم جملة عن واقعك الآن.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "had",
+                "ar": "بعد if نستعمل الماضي والمعنى الآن: If I had money. «If I have money, I would» خطأ."
+              },
+              {
+                "word": "would",
+                "ar": "بعدها الفعل مجرّداً بلا to: I would travel، لا I would to travel."
+              },
+              {
+                "word": "abroad",
+                "ar": "معناها «إلى الخارج» أو «في الخارج»، وتأتي بلا to: travel abroad."
+              },
+              {
+                "word": "afford",
+                "ar": "معناها «أقدر على كلفة شيء»: I can't afford a holiday."
+              }
+            ],
+            "check_ar": [
+              "هل جاء الماضي بعد if، وwould في الجزء الثاني؟",
+              "هل تجنّبت would بعد if؟"
+            ]
+          },
+          {
+            "day": 2,
+            "title_ar": "ممكن أم متخيَّل؟",
+            "model": [
+              {
+                "en": "If I finish work early today, I'll call my mother.",
+                "ar": "إن أنهيت عملي مبكراً اليوم فسأتّصل بأمّي."
+              },
+              {
+                "en": "If I lived near her, I'd visit her every evening.",
+                "ar": "لو كنت أسكن قربها لزرتها كل مساء."
+              },
+              {
+                "en": "I wouldn't need to call her every day.",
+                "ar": "ولما احتجت أن أتّصل بها كل يوم."
+              },
+              {
+                "en": "But she lives far away.",
+                "ar": "لكنها تسكن بعيداً."
+              }
+            ],
+            "pattern_en": "If I ___, I'll ___. If I ___ed, I'd ___.",
+            "prompt_ar": "اكتب 4 جمل: جملة عن شيء ممكن هذا الأسبوع بـ If + will، وجملتان عن شيء متخيَّل بـ If + الماضي + would، ثم جملة عن الواقع. اقرأها بصوت عالٍ.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "I'll",
+                "ar": "للشيء الممكن فعلاً: If I finish early, I'll call. وبعد if المضارع."
+              },
+              {
+                "word": "lived",
+                "ar": "ماضٍ في الشكل، لكن المعنى الآن: أنا لا أسكن قربها."
+              },
+              {
+                "word": "I'd",
+                "ar": "اختصار I would. الـ d تكاد لا تُسمع، فاستمع جيداً: I'd visit."
+              },
+              {
+                "word": "wouldn't",
+                "ar": "اختصار would not: I wouldn't need."
+              }
+            ],
+            "check_ar": [
+              "هل استعملت will للممكن وwould للمتخيَّل؟",
+              "هل نطقت الـ d في I'd حين قرأت بصوت عالٍ؟"
+            ]
+          },
+          {
+            "day": 3,
+            "title_ar": "في عالم مثالي",
+            "model": [
+              {
+                "en": "In an ideal world, I'd work four days a week.",
+                "ar": "في عالم مثالي كنت سأعمل 4 أيام في الأسبوع."
+              },
+              {
+                "en": "I wish I had more time for my family.",
+                "ar": "أتمنّى لو كان عندي وقت أكثر لعائلتي."
+              },
+              {
+                "en": "I wish I could speak French, too.",
+                "ar": "وأتمنّى لو أستطيع أن أتكلّم الفرنسية أيضاً."
+              },
+              {
+                "en": "What would you do with an extra free day?",
+                "ar": "ماذا كنت ستفعل بيوم فراغ إضافي؟"
+              }
+            ],
+            "pattern_en": "I wish I had / could ___. In an ideal world, I'd ___.",
+            "prompt_ar": "اكتب 4 جمل: كيف يكون يومك في عالم مثالي، وأمنيتان عن حياتك الآن بـ I wish، ثم سؤال لصديق بـ What would you…?",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "In an ideal world",
+                "ar": "معناها «في عالم مثالي». بعدها would أو 'd لأنه متخيَّل."
+              },
+              {
+                "word": "I wish I had",
+                "ar": "الأمنية عن الآن تأخذ الماضي: I wish I had، لا I wish I have. ومثلها I wish I knew."
+              },
+              {
+                "word": "I wish I could",
+                "ar": "لما لا تستطيعه الآن: I wish I could، لا I wish I can."
+              },
+              {
+                "word": "What would you",
+                "ar": "في السؤال تأتي would قبل you: What would you do? «What you would do?» خطأ."
+              }
+            ],
+            "check_ar": [
+              "هل جاء بعد I wish فعل ماضٍ أو could؟",
+              "هل جاءت would قبل you في السؤال؟"
+            ]
+          },
+          {
+            "day": 4,
+            "title_ar": "لو كنت مكانك",
+            "model": [
+              {
+                "en": "You want to study abroad, but you're afraid.",
+                "ar": "تريد أن تدرس في الخارج، لكنك خائف."
+              },
+              {
+                "en": "If I were you, I'd apply this year.",
+                "ar": "لو كنت مكانك لقدّمت هذه السنة."
+              },
+              {
+                "en": "I wouldn't wait for the perfect time.",
+                "ar": "ولما انتظرت الوقت المثالي."
+              },
+              {
+                "en": "If you don't apply, you'll regret it later.",
+                "ar": "إن لم تقدّم فستندم لاحقاً."
+              }
+            ],
+            "pattern_en": "If I were you, I'd ___. I wouldn't ___.",
+            "prompt_ar": "فكّر في شخص تعرفه عنده قرار صعب. اكتب له 4 جمل: مشكلته، ثم نصيحتك بـ If I were you, I'd، ثم ما لا تفعله أنت، ثم ما قد يحدث.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "If I were you",
+                "ar": "عبارة ثابتة للنصيحة بـ were لا was: If I were you، لا If I was you."
+              },
+              {
+                "word": "I'd apply",
+                "ar": "I'd = I would، وبعدها الفعل بلا to: I'd apply."
+              },
+              {
+                "word": "I wouldn't",
+                "ar": "للنصيحة بالنفي: I wouldn't wait = لو كنت مكانك لما انتظرت."
+              },
+              {
+                "word": "If you don't apply",
+                "ar": "هذا ممكن فعلاً، فنستعمل المضارع ثم will: If you don't apply, you'll regret it."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت If I were you لا If I was you؟",
+              "هل جاء الفعل بعد I'd بلا to؟"
+            ]
+          },
+          {
+            "day": 5,
+            "title_ar": "بصراحة",
+            "model": [
+              {
+                "en": "Honestly, I'm not completely satisfied with my job.",
+                "ar": "بصراحة، لست راضياً تماماً عن عملي."
+              },
+              {
+                "en": "I wish I earned a bit more.",
+                "ar": "أتمنّى لو كنت أكسب أكثر قليلاً."
+              },
+              {
+                "en": "If I changed jobs now, I'd probably earn less.",
+                "ar": "لو غيّرت عملي الآن لكسبت أقلّ على الأرجح."
+              },
+              {
+                "en": "So I feel a bit stuck, but I don't regret my choice.",
+                "ar": "لذلك أشعر أنني عالق قليلاً، لكني لا أندم على اختياري."
+              }
+            ],
+            "pattern_en": "Honestly, ___. I wish I ___ed. If I ___ed, I'd probably ___.",
+            "prompt_ar": "اكتب 4 جمل بصراحة عن شيء في حياتك لست راضياً عنه تماماً: عملك أو دراستك أو مدينتك. اذكر أمنية، وماذا يحدث لو غيّرته، وشعورك الآن.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "satisfied with",
+                "ar": "معناها «راضٍ عن»، وبعدها with: satisfied with my job."
+              },
+              {
+                "word": "I wish I earned",
+                "ar": "الأمنية عن الآن تأخذ الماضي: I wish I earned، لا I wish I earn."
+              },
+              {
+                "word": "probably",
+                "ar": "معناها «على الأرجح»، وتأتي بعد I'd: I'd probably earn."
+              },
+              {
+                "word": "regret",
+                "ar": "معناها «يندم على»، وبعدها الشيء مباشرة بلا on: regret my choice."
+              }
+            ],
+            "check_ar": [
+              "هل جاء بعد I wish فعل ماضٍ؟",
+              "هل تجنّبت would بعد if؟"
+            ]
+          },
+          {
+            "day": 6,
+            "title_ar": "لو تغيّر شيء واحد",
+            "model": [
+              {
+                "en": "Sometimes I imagine my life in another country.",
+                "ar": "أحياناً أتخيّل حياتي في بلد آخر."
+              },
+              {
+                "en": "If I lived abroad, I'd probably earn more money.",
+                "ar": "لو كنت أعيش في الخارج لكسبت مالاً أكثر على الأرجح."
+              },
+              {
+                "en": "I'd speak English every day, and I'd learn fast.",
+                "ar": "وكنت سأتكلّم الإنجليزية كل يوم، وأتعلّم بسرعة."
+              },
+              {
+                "en": "On the other hand, I'd miss my family and friends.",
+                "ar": "ومن جهة أخرى، كنت سأشتاق إلى عائلتي وأصدقائي."
+              },
+              {
+                "en": "Honestly, I'm not sure I'd be happier.",
+                "ar": "بصراحة، لست متأكداً أنني سأكون أسعد."
+              }
+            ],
+            "pattern_en": "If I ___ed, I'd ___. On the other hand, I'd ___.",
+            "prompt_ar": "اكتب 5 جمل عن شيء واحد لو تغيّر لتغيّرت حياتك: نتيجتان، ثم الجهة الأخرى، ثم جملة صادقة. هذا تمرين لكتابة الغد (150 إلى 170 كلمة).",
+            "min_sentences": 5,
+            "notes": [
+              {
+                "word": "imagine",
+                "ar": "معناها «أتخيّل». بعدها الشيء مباشرة: I imagine my life."
+              },
+              {
+                "word": "If I lived",
+                "ar": "ماضٍ بعد if، والمعنى الآن: أنا لا أعيش في الخارج. ولا will ولا would بعد if."
+              },
+              {
+                "word": "On the other hand",
+                "ar": "معناها «من جهة أخرى». تأتي قبل الرأي المعاكس."
+              },
+              {
+                "word": "I'm not sure I'd be",
+                "ar": "معناها «لست متأكداً أنني سأكون». جملة صادقة تجعل كلامك أقرب إلى الحقيقة."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت جملتين على الأقل بـ If + ماضٍ + would؟",
+              "هل ذكرت الجهة الأخرى بـ On the other hand؟",
+              "هل ختمت بجملة صادقة عن نفسك؟"
+            ]
+          }
+        ]
       }
     }
   ],

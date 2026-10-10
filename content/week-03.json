@@ -132,22 +132,40 @@
           "ref": "vocab:food_and_drink"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:food_and_drink",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -168,22 +186,40 @@
           "ref": "vocab:shopping_and_money"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:shopping_and_money",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -206,20 +242,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -242,20 +296,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -276,22 +348,40 @@
           "ref": "vocab:restaurant_phrases|dialogue:1"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:restaurant_phrases",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -314,20 +404,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -354,16 +462,28 @@
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     }
@@ -1960,245 +2080,6 @@
       }
     },
     {
-      "kind": "breaktime",
-      "day_number": null,
-      "title_ar": "وقت الاستراحة — الأسئلة والطعام",
-      "title_en": "Break Time — English Outside the Book",
-      "payload": {
-        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
-        "compare": [
-          {
-            "aspect_ar": "الكمّ",
-            "intensive_ar": "دقائق من الصوت",
-            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
-          },
-          {
-            "aspect_ar": "الفهم",
-            "intensive_ar": "تستهدف 100%",
-            "extensive_ar": "50–70% تكفي"
-          },
-          {
-            "aspect_ar": "الجهد",
-            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
-            "extensive_ar": "منخفض — تسترخي وتستمتع"
-          },
-          {
-            "aspect_ar": "ما يبنيه",
-            "intensive_ar": "الدقّة والقواعد",
-            "extensive_ar": "السرعة والأذن والحدس والمفردات"
-          },
-          {
-            "aspect_ar": "لو أغفلته",
-            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
-            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
-          }
-        ],
-        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
-        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
-        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
-        "item_order": [
-          "song",
-          "watch",
-          "story",
-          "channel"
-        ],
-        "song": {
-          "intro_ar": "أغاني هذا الأسبوع مبنية على صيغة السؤال — موضوع قواعدك.",
-          "item": {
-            "key": "song",
-            "icon": "🎵",
-            "label_ar": "أغنية الأسبوع",
-            "minutes": 30,
-            "task_ar": "اكتب كل سؤال تسمعه كاملاً، وتحقّق: هل يستخدم do أم does أم الفعل be؟ ثم العب LyricsTraining",
-            "steps": [
-              "شغّلها مرة للمتعة فقط — بلا كلمات ولا تحليل.",
-              "شغّلها ثانية واكتب خمس كلمات سمعتها ولم تكن تعرفها.",
-              "شغّلها مع الكلمات المكتوبة أمامك.",
-              "غنِّ معها مرة. الغناء يضبط الإيقاع بلا أن تفكّر فيه."
-            ],
-            "why_ar": "الأغنية تُعاد خمسين مرة طوعاً، ولا تمرين يُعاد خمسين مرة.",
-            "prompt_ar": "الكلمات الخمس التي التقطتها"
-          },
-          "pick": {
-            "title": "Do You Want to Build a Snowman?",
-            "artist": "From Frozen",
-            "why_ar": "العنوان وحده هو قاعدة هذا الأسبوع. غناء واضح جداً، وصيغة السؤال تتكرّر في الأغنية كلها.",
-            "search": "Do You Want to Build a Snowman lyrics"
-          },
-          "alternatives": [
-            {
-              "title": "Where Is the Love?",
-              "artist": "The Black Eyed Peas",
-              "why_ar": "مبنية على أدوات الاستفهام. أسرع قليلاً — تمرين جيد."
-            },
-            {
-              "title": "Is This Love",
-              "artist": "Bob Marley",
-              "why_ar": "بطيئة وبسيطة، وسؤال نعم/لا يتكرّر كلازمة."
-            }
-          ],
-          "method_ar": [
-            "استمع واكتب كل سؤال تسمعه كاملاً.",
-            "تحقّق من كل واحد: هل يستخدم do أم does أم الفعل be؟",
-            "شغّلها على LyricsTraining وتجاوز نتيجتك من الأسبوع الماضي."
-          ],
-          "tool": {
-            "name": "LyricsTraining",
-            "url": "https://lyricstraining.com/",
-            "why_ar": "لعبة ملء الفراغات على أي أغنية."
-          }
-        },
-        "watch": {
-          "item": {
-            "key": "watch",
-            "icon": "📺",
-            "label_ar": "ما تشاهده",
-            "minutes": 111,
-            "task_ar": "أول فيلم كامل في الدورة — اختر فيلماً رأيته بلغتك، بترجمة إنجليزية، بلا توقّف للبحث",
-            "steps": [
-              "شاهد حلقة كاملة بلا توقّف.",
-              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
-              "اكتب ثلاث عبارات علقت في ذهنك."
-            ],
-            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
-            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
-          },
-          "pick": {
-            "title": "Ratatouille (فيلم · 111 دقيقة)",
-            "where": "أي منصّة بثّ",
-            "level": "A2–B1",
-            "why_ar": "أول فيلم كامل في دورتك. مفردات الطعام في كل مشهد، وحكاية بسيطة، ونطق واضح. شاهده بترجمة إنجليزية.",
-            "url": null
-          },
-          "alternatives": [
-            {
-              "title": "Jamie Oliver — 5 Ingredients",
-              "level": "A2",
-              "why_ar": "فيديوهات طبخ قصيرة بمفردات هذا الأسبوع بالضبط. يتحدّث بسرعة لكن الصورة تحمل المعنى — ظرف مثالي للتعلّم.",
-              "url": "https://www.youtube.com/results?search_query=Jamie+Oliver+5+Ingredients"
-            },
-            {
-              "title": "Extra English — الحلقتان 4 و5",
-              "level": "A1–A2",
-              "why_ar": "واصل المسلسل. حلقة كل يومين.",
-              "url": "https://www.youtube.com/results?search_query=Extra+English+Episode+4"
-            }
-          ],
-          "film_method_ar": [
-            "اختر فيلماً رأيته بلغتك. معرفة الحكاية تُحرّر دماغك للاستماع.",
-            "الترجمة الإنجليزية مفتوحة. دائماً.",
-            "لا تتوقّف للبحث عن كلمة. شاهده كفيلم.",
-            "بعده اكتب خمس كلمات تكرّرت وابحث عنها.",
-            "اختياري: أعد مشهداً واحداً تحبّه ثلاث مرات — ذلك المشهد وحده يعلّمك أكثر من الفيلم كله."
-          ],
-          "encouragement_ar": "ساعتان من فيلم ليست ساعتَي تعلّم. توقّع أن تفهم 40% — وهذا نجاح لا فشل. القيمة في تكيّف أذنك مع السرعة الحقيقية، وهو ما لا يعطيه أي صوت تعليمي.",
-          "subtitle_rule_ar": "ترجمة إنجليزية لا عربية — القاعدة نفسها."
-        },
-        "story": {
-          "item": {
-            "key": "story",
-            "icon": "📖",
-            "label_ar": "قصة الأسبوع",
-            "minutes": 30,
-            "task_ar": "قصة واحدة ثلاث مرات: صوت · صوت + نصّ · صوت",
-            "steps": [
-              "خمس عشرة دقيقة قراءة أو استماع — لا أكثر.",
-              "لا تبحث عن أكثر من ثلاث كلمات. خمّن الباقي من السياق.",
-              "اكتب جملة واحدة عمّا قرأته، من الذاكرة."
-            ],
-            "why_ar": "الحدس من السياق هو المهارة المقصودة — والبحث عن كل كلمة يقتلها.",
-            "prompt_ar": "جملة واحدة عمّا قرأته"
-          },
-          "pick": {
-            "source": "British Council — Elementary Podcasts",
-            "url": "https://learnenglish.britishcouncil.org",
-            "what_ar": "واصل السلسلة الأولى. استمع والنصّ مفتوح."
-          },
-          "alternatives": [
-            {
-              "source": "Storynory",
-              "url": "https://storynory.com",
-              "what_ar": "أي قصة قصيرة تحت عشر دقائق."
-            },
-            {
-              "source": "VOA Learning English — Level 1",
-              "url": "https://learningenglish.voanews.com",
-              "what_ar": "أخبار بسرعة بطيئة بالنصّ الكامل."
-            }
-          ],
-          "target_ar": [
-            "قصة واحدة، ثلاث مرات: صوت · صوت + نصّ · صوت."
-          ]
-        },
-        "channel": {
-          "heading_ar": "قناة تتابعها",
-          "item": {
-            "key": "channel",
-            "icon": "📱",
-            "label_ar": "قناة تتابعها",
-            "minutes": 15,
-            "task_ar": "شاهد فيديو واحداً على الأقل من القناة التي اخترتها",
-            "steps": [
-              "شاهد شيئاً واحداً على الأقل من القناة.",
-              "أعد ما أعجبك مرة ثانية.",
-              "اكتب ما تعلّمته في سطر."
-            ],
-            "prompt_ar": "ماذا تعلّمت؟"
-          },
-          "pick": {
-            "name": "Easy English — \"Food\"",
-            "url": "https://www.youtube.com/results?search_query=Easy+English+food",
-            "why_ar": "أناس حقيقيون يجيبون أسئلة حقيقية عن الطعام. ترجمة مزدوجة."
-          },
-          "alternatives": [
-            {
-              "name": "BBC Learning English",
-              "url": "https://www.youtube.com/@bbclearningenglish",
-              "why_ar": "أوثق مصدر موجود."
-            }
-          ],
-          "note_ar": "قناة واحدة تشاهدها فعلاً أفضل من عشر حفظتها ونسيتها."
-        },
-        "plan": [
-          {
-            "day_ar": "السبت",
-            "activity_ar": "الأغنية — اكتب كل سؤال تسمعه",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الأحد",
-            "activity_ar": "Jamie Oliver — فيديو طبخ واحد",
-            "minutes": 10
-          },
-          {
-            "day_ar": "الاثنين",
-            "activity_ar": "الأغنية — LyricsTraining",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الثلاثاء",
-            "activity_ar": "Ratatouille — النصف الأول",
-            "minutes": 55
-          },
-          {
-            "day_ar": "الأربعاء",
-            "activity_ar": "Ratatouille — النصف الثاني",
-            "minutes": 55
-          },
-          {
-            "day_ar": "الخميس",
-            "activity_ar": "القصة — صوت + نصّ",
-            "minutes": 30
-          },
-          {
-            "day_ar": "الجمعة",
-            "activity_ar": "حرّ. أعد مشهدك المفضّل ثلاث مرات.",
-            "minutes": 20
-          }
-        ]
-      }
-    },
-    {
       "kind": "speaking",
       "title_ar": "التحدّث",
       "title_en": "The Full Restaurant Role Play",
@@ -2332,6 +2213,297 @@
           }
         ],
         "save_as": "Week03"
+      }
+    },
+    {
+      "kind": "practice",
+      "title_ar": "اكتب مثله",
+      "title_en": "Write One Like It",
+      "payload": {
+        "items": [
+          {
+            "day": 1,
+            "title_ar": "ماذا تأكل؟",
+            "model": [
+              {
+                "en": "I eat bread and cheese for breakfast.",
+                "ar": "آكل الخبز والجبن على الفطور."
+              },
+              {
+                "en": "I drink tea with milk.",
+                "ar": "أشرب الشاي بالحليب."
+              },
+              {
+                "en": "My favourite food is rice and chicken.",
+                "ar": "أكلتي المفضّلة الأرز والدجاج."
+              },
+              {
+                "en": "Fish is delicious.",
+                "ar": "السمك لذيذ."
+              }
+            ],
+            "pattern_en": "I eat ___ for breakfast.",
+            "prompt_ar": "اكتب 4 جمل عن أكلك: الفطور، وما تشربه، وأكلتك المفضّلة، وطعام تحبّه.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "for",
+                "ar": "مع الوجبات نقول for: for breakfast · for lunch · for dinner."
+              },
+              {
+                "word": "bread",
+                "ar": "bread وrice وmilk لا تُعدّ، فلا نقول a bread. ستعرف متى تأتي some وany هذا الأسبوع."
+              },
+              {
+                "word": "with",
+                "ar": "معناها «مع» أو «بـ»: tea with milk = شاي بالحليب."
+              },
+              {
+                "word": "favourite",
+                "ar": "معناها «المفضّل». تأتي قبل الاسم: my favourite food."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت for قبل اسم الوجبة؟",
+              "هل تجنّبت a قبل bread وrice وmilk؟"
+            ]
+          },
+          {
+            "day": 2,
+            "title_ar": "السوق والأسعار",
+            "model": [
+              {
+                "en": "The market is near my house.",
+                "ar": "السوق قريب من بيتي."
+              },
+              {
+                "en": "Vegetables are cheap there.",
+                "ar": "الخضار رخيصة هناك."
+              },
+              {
+                "en": "I pay in cash.",
+                "ar": "أدفع نقداً."
+              },
+              {
+                "en": "The supermarket is expensive, but it is open late.",
+                "ar": "السوبرماركت غالٍ، لكنه يفتح حتى وقت متأخر."
+              }
+            ],
+            "pattern_en": "The ___ is cheap / expensive.",
+            "prompt_ar": "اكتب 4 جمل عن مكان تتسوّق منه: أين هو، وهل هو رخيص أو غالٍ، وكيف تدفع.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "are",
+                "ar": "مع الجمع نقول are: Vegetables are cheap. ومع المفرد is."
+              },
+              {
+                "word": "there",
+                "ar": "معناها «هناك». تأتي في آخر الجملة: cheap there."
+              },
+              {
+                "word": "in cash",
+                "ar": "نقول pay in cash للنقد، وpay by card للبطاقة."
+              },
+              {
+                "word": "it",
+                "ar": "نقول it للمكان، لا he: it is open."
+              }
+            ],
+            "check_ar": [
+              "هل استعملت are مع الجمع؟",
+              "هل كتبت جملة فيها but؟"
+            ]
+          },
+          {
+            "day": 3,
+            "title_ar": "ما لا تأكله",
+            "model": [
+              {
+                "en": "I don't eat meat.",
+                "ar": "لا آكل اللحم."
+              },
+              {
+                "en": "My brother doesn't drink coffee.",
+                "ar": "أخي لا يشرب القهوة."
+              },
+              {
+                "en": "He drinks juice.",
+                "ar": "هو يشرب العصير."
+              },
+              {
+                "en": "We don't like spicy food.",
+                "ar": "لا نحبّ الطعام الحارّ."
+              }
+            ],
+            "pattern_en": "I don't ___. He / She doesn't ___.",
+            "prompt_ar": "اكتب 4 جمل: شيئان لا تأكلهما أو لا تشربهما، وشيء لا يحبّه شخص من عائلتك.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "don't",
+                "ar": "للنفي مع I وyou وwe وthey: I don't eat. ولا يكفي not وحدها: I not eat خطأ."
+              },
+              {
+                "word": "doesn't",
+                "ar": "للنفي مع he وshe. والفعل بعدها بلا s: He doesn't drink، لا doesn't drinks."
+              },
+              {
+                "word": "drinks",
+                "ar": "في الجملة المثبتة تبقى s: He drinks juice. تختفي فقط بعد doesn't."
+              },
+              {
+                "word": "spicy",
+                "ar": "الصفة تأتي قبل الاسم: spicy food = طعام حارّ."
+              }
+            ],
+            "check_ar": [
+              "هل جاء الفعل بلا s بعد doesn't؟",
+              "هل استعملت doesn't مع he وshe، وdon't مع الباقي؟"
+            ]
+          },
+          {
+            "day": 4,
+            "title_ar": "اسأل وأجب",
+            "model": [
+              {
+                "en": "Do you like fish? Yes, I do.",
+                "ar": "هل تحبّ السمك؟ نعم."
+              },
+              {
+                "en": "Does your sister cook? No, she doesn't.",
+                "ar": "هل تطبخ أختك؟ لا."
+              },
+              {
+                "en": "What do you eat for lunch?",
+                "ar": "ماذا تأكل على الغداء؟"
+              },
+              {
+                "en": "I eat salad and bread.",
+                "ar": "آكل السلطة والخبز."
+              }
+            ],
+            "pattern_en": "Do you ___? Yes, I do. / No, I don't.",
+            "prompt_ar": "اكتب 3 أسئلة عن الأكل، وأجب عن كل سؤال.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "Do / Does",
+                "ar": "السؤال يبدأ بـ Do أو Does. «Where you work?» خطأ، والصواب Where do you work?"
+              },
+              {
+                "word": "Yes, I do",
+                "ar": "الجواب القصير يكرّر do أو does: Yes, I do. لا تقل Yes, I like."
+              },
+              {
+                "word": "what",
+                "ar": "معناها «ماذا». تأتي قبل do: What do you eat?"
+              },
+              {
+                "word": "?",
+                "ar": "السؤال ينتهي بعلامة ? لا بنقطة."
+              }
+            ],
+            "check_ar": [
+              "هل بدأ كل سؤال بـ Do أو Does أو بكلمة سؤال ثم do؟",
+              "هل انتهى كل سؤال بعلامة ?؟"
+            ]
+          },
+          {
+            "day": 5,
+            "title_ar": "اطلب في المطعم",
+            "model": [
+              {
+                "en": "A table for two, please.",
+                "ar": "طاولة لشخصين من فضلك."
+              },
+              {
+                "en": "Can I see the menu?",
+                "ar": "هل أستطيع رؤية قائمة الطعام؟"
+              },
+              {
+                "en": "I'd like the chicken, please.",
+                "ar": "أريد الدجاج من فضلك."
+              },
+              {
+                "en": "Can we have the bill, please?",
+                "ar": "الحساب من فضلك."
+              }
+            ],
+            "pattern_en": "I'd like the ___, please.",
+            "prompt_ar": "اكتب طلبك في مطعم بـ 4 جمل: الطاولة، والأكل، والشراب، والحساب.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "please",
+                "ar": "تأتي في آخر الطلب غالباً، وتجعله مهذّباً. لا تنسها في المطعم."
+              },
+              {
+                "word": "I'd like",
+                "ar": "اختصار I would like، ومعناها «أريد» بأدب. أهدأ من I want."
+              },
+              {
+                "word": "Can I…?",
+                "ar": "لطلب شيء: Can I see…? ستدرس can كاملة في الأسبوع 5."
+              },
+              {
+                "word": "the bill",
+                "ar": "معناها «الحساب» في المطعم."
+              }
+            ],
+            "check_ar": [
+              "هل ختمت كل طلب بـ please؟",
+              "هل استعملت I'd like بدل I want؟"
+            ]
+          },
+          {
+            "day": 6,
+            "title_ar": "كم السعر؟",
+            "model": [
+              {
+                "en": "How much is this bag?",
+                "ar": "بكم هذه الحقيبة؟"
+              },
+              {
+                "en": "It's twenty dollars.",
+                "ar": "بعشرين دولاراً."
+              },
+              {
+                "en": "That's too expensive.",
+                "ar": "هذا غالٍ جداً."
+              },
+              {
+                "en": "Do you have a small one?",
+                "ar": "هل عندك واحدة صغيرة؟"
+              }
+            ],
+            "pattern_en": "How much is this ___?",
+            "prompt_ar": "اكتب حواراً قصيراً في محلّ من 4 جمل أو أكثر: اسأل عن السعر، وقل رأيك، ثم قرّر.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "how much",
+                "ar": "معناها «كم» للسعر: How much is it? ولعدد الأشياء نقول how many."
+              },
+              {
+                "word": "It's",
+                "ar": "اختصار It is. العلامة ' مكان الحرف المحذوف."
+              },
+              {
+                "word": "too",
+                "ar": "هنا معناها «أكثر من اللازم»: too expensive. وهي غير very: very expensive = غالٍ جداً فقط."
+              },
+              {
+                "word": "one",
+                "ar": "تُغني عن تكرار الاسم: a small one = حقيبة صغيرة."
+              }
+            ],
+            "check_ar": [
+              "هل بدأ سؤال السعر بـ How much؟",
+              "هل انتهت الأسئلة بعلامة ?؟"
+            ]
+          }
+        ]
       }
     }
   ],

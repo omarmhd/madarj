@@ -19,11 +19,17 @@
 
 export type Mood = 'happy' | 'proud' | 'calm' | 'cheer';
 
+/*
+ * The identity colour, from the variables the admin's choice sets —
+ * Rafiq was still the old violet after the platform turned terracotta.
+ * Applied as `style`, not as the `fill` attribute: SVG presentation
+ * attributes do not resolve var() everywhere.
+ */
 const PALETTE: Record<Mood, { body: string; ring: string }> = {
-  happy: { body: '#7c3aed', ring: '#ede9fe' },
-  proud: { body: '#6d28d9', ring: '#ddd6fe' },
-  calm:  { body: '#0ea5e9', ring: '#e0f2fe' },
-  cheer: { body: '#d946ef', ring: '#fae8ff' },
+  happy: { body: 'rgb(var(--accent-600))', ring: 'rgb(var(--accent-100))' },
+  proud: { body: 'rgb(var(--accent-700))', ring: 'rgb(var(--accent-200))' },
+  calm:  { body: 'rgb(var(--neutral-600))', ring: 'rgb(var(--neutral-100))' },
+  cheer: { body: 'rgb(var(--accent-500))', ring: 'rgb(var(--accent-50))' },
 };
 
 export default function Rafiq({
@@ -45,12 +51,12 @@ export default function Rafiq({
       className="shrink-0"
     >
       {/* هالة — تكبر قليلاً في الفرح */}
-      <circle cx="32" cy="32" r="30" fill={c.ring} />
+      <circle cx="32" cy="32" r="30" style={{ fill: c.ring }} />
 
       {/* الجسم: قطرة مستديرة — شكل واحد يقرأه الطفل والكهل */}
       <path
         d="M32 12c9.5 0 16 7 16 16.5S41.5 52 32 52 16 37 16 28.5 22.5 12 32 12Z"
-        fill={c.body}
+        style={{ fill: c.body }}
       />
 
       {/* العينان */}
@@ -64,8 +70,8 @@ export default function Rafiq({
         <>
           <circle cx="26" cy="28" r="3.2" fill="#fff" />
           <circle cx="38" cy="28" r="3.2" fill="#fff" />
-          <circle cx="26.8" cy="28.8" r="1.4" fill={c.body} />
-          <circle cx="38.8" cy="28.8" r="1.4" fill={c.body} />
+          <circle cx="26.8" cy="28.8" r="1.4" style={{ fill: c.body }} />
+          <circle cx="38.8" cy="28.8" r="1.4" style={{ fill: c.body }} />
         </>
       )}
 

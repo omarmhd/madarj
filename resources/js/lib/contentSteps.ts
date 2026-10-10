@@ -20,6 +20,11 @@ const STEP_SIZES = {
   vocabulary: 5,
   /** أربعة أسطر = تبادلان كاملان، وهي أصغر وحدة محادثة ذات معنى */
   dialogue: 4,
+  /**
+   * Ten words a step for spelling: each word is typed once per round,
+   * so a step of ten is twenty typed answers — about five minutes.
+   */
+  spelling: 10,
 } as const;
 
 /**
@@ -60,6 +65,7 @@ export function distribute<T>(items: T[], ideal: number): T[][] {
 type Sliceable =
   | { type: 'vocabulary'; items: unknown[] }
   | { type: 'dialogue'; lines: unknown[] }
+  | { type: 'spelling'; words: unknown[] }
   | {
       type: 'minimal_pairs';
       /**
@@ -98,6 +104,14 @@ export function sliceBlock<T extends Sliceable>(block: T): T[] {
       );
     }
 
+    case 'spelling': {
+      const b = block as T & { words: unknown[] };
+
+      return distribute(b.words, STEP_SIZES.spelling).map(
+        (words) => ({ ...b, words }) as T,
+      );
+    }
+
     case 'minimal_pairs': {
       // One contrast per step — this is what structurally prevents
       // mixing sound groups, which §2.4 forbids
@@ -125,6 +139,10 @@ export function sliceTitle(block: Sliceable, index: number, count: number): stri
     case 'dialogue': {
       const n = (block as { lines: unknown[] }).lines.length;
       return `${n} أسطر · المقطع ${index + 1} من ${count}`;
+    }
+    case 'spelling': {
+      const n = (block as { words: unknown[] }).words.length;
+      return `${n} كلمات · الدفعة ${index + 1} من ${count}`;
     }
     case 'minimal_pairs': {
       // The Arabic name, not the book's English heading: a beginner

@@ -25,16 +25,34 @@
           "ref": "section:word_test"
         },
         {
-          "order": 3,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "تمارين المراجعة",
           "minutes": 5,
           "ref": "exercises:1"
         },
         {
-          "order": 4,
-          "label": "سجّل 60–90 ثانية",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 5
+        },
+        {
+          "order": 6,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     },
@@ -55,16 +73,34 @@
           "ref": "section:grammar"
         },
         {
-          "order": 3,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "تمارين المراجعة",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 4,
-          "label": "سجّل 60–90 ثانية",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 5
+        },
+        {
+          "order": 6,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     },
@@ -85,16 +121,34 @@
           "ref": "section:grammar"
         },
         {
-          "order": 3,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "تمارين المراجعة",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 4,
-          "label": "سجّل 60–90 ثانية",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 5
+        },
+        {
+          "order": 6,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     },
@@ -109,22 +163,40 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "العرض التقديمي — ثلاث دقائق: التحضير والتسجيل",
-          "minutes": 25,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 2
         },
         {
           "order": 3,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين المراجعة",
           "minutes": 5,
           "ref": "exercises:4"
         },
         {
-          "order": 4,
-          "label": "سجّل 60–90 ثانية",
-          "minutes": 5,
-          "ref": "record"
+          "order": 6,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     },
@@ -145,16 +217,34 @@
           "ref": "section:grammar"
         },
         {
-          "order": 3,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "تمارين المراجعة",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 4,
-          "label": "سجّل 60–90 ثانية",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 5
+        },
+        {
+          "order": 6,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     },
@@ -175,16 +265,34 @@
           "ref": "section:grammar"
         },
         {
-          "order": 3,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "تمارين المراجعة",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "order": 4,
-          "label": "سجّل 60–90 ثانية",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 5
+        },
+        {
+          "order": 6,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     },
@@ -205,16 +313,28 @@
           "ref": "section:comparison"
         },
         {
-          "order": 3,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "تمارين المراجعة",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "سجّل تسجيل نهاية الوحدة — وقارنه بتسجيلاتك السابقة",
           "minutes": 5,
           "ref": "record:baseline"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 6
         }
       ]
     }
@@ -298,120 +418,6 @@
           "بعد الناقص فعل مجرّد",
           "لا will بعد if",
           "لا ضمير مكرّر بعد الاسم الموصول"
-        ]
-      }
-    },
-    {
-      "kind": "breaktime",
-      "day_number": 7,
-      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
-      "title_en": "Break Time — English Outside the Book",
-      "payload": {
-        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
-        "compare": [
-          {
-            "aspect_ar": "الكمّ",
-            "intensive_ar": "دقائق من الصوت",
-            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
-          },
-          {
-            "aspect_ar": "الفهم",
-            "intensive_ar": "تستهدف 100%",
-            "extensive_ar": "50–70% تكفي"
-          },
-          {
-            "aspect_ar": "الجهد",
-            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
-            "extensive_ar": "منخفض — تسترخي وتستمتع"
-          },
-          {
-            "aspect_ar": "ما يبنيه",
-            "intensive_ar": "الدقّة والقواعد",
-            "extensive_ar": "السرعة والأذن والحدس والمفردات"
-          },
-          {
-            "aspect_ar": "لو أغفلته",
-            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
-            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
-          }
-        ],
-        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
-        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
-        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
-        "channel": {
-          "pick": {
-            "title": "The Intern",
-            "level": "121 min",
-            "why_en": "Office language, clear speech, and plenty of advice and opinion — this module’s language throughout.",
-            "search": "The Intern"
-          },
-          "alternatives": [
-            {
-              "title": "The Good Place — Season 1",
-              "level": "22 min each",
-              "why_en": "If you prefer a series. Clear American speech, clever writing.",
-              "search": "The Good Place — Season 1"
-            },
-            {
-              "title": "Any documentary",
-              "level": "45–60 min",
-              "why_en": "Narrated documentaries are the easiest full-speed English there is.",
-              "search": "Any documentary"
-            }
-          ],
-          "item": {
-            "key": "channel",
-            "icon": "📱",
-            "label_ar": "ما تتابعه",
-            "task_ar": "شاهد شيئاً واحداً منه على الأقل، وأعد ما أعجبك مرة ثانية",
-            "minutes": 15,
-            "steps": [
-              "شاهد شيئاً واحداً على الأقل من القناة.",
-              "أعد ما أعجبك مرة ثانية.",
-              "اكتب ما تعلّمته في سطر."
-            ],
-            "prompt_ar": "ماذا تعلّمت؟"
-          }
-        },
-        "item_order": [
-          "channel"
-        ],
-        "plan": [
-          {
-            "day_ar": "السبت",
-            "activity_ar": "اختبار إعادة المشاهدة الثالث — Extra English الحلقة 1",
-            "minutes": 10
-          },
-          {
-            "day_ar": "الأحد",
-            "activity_ar": "اختر كتابك من المستوى الثالث وابدأه",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الاثنين",
-            "activity_ar": "راحة — عندك اختبار هذا الأسبوع",
-            "minutes": 0
-          },
-          {
-            "day_ar": "الثلاثاء",
-            "activity_ar": "الكتاب",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الأربعاء",
-            "activity_ar": "اختبار بلا ترجمة",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الخميس",
-            "activity_ar": "الكتاب",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الجمعة",
-            "activity_ar": "ليلة فيلم — مكافأتك على إنهاء الوحدة الثالثة",
-            "minutes": 120
-          }
         ]
       }
     },
@@ -866,6 +872,303 @@
           "By Week 24 I want to …"
         ],
         "closing_ar": "ثلاثة أرباع الطريق. اسمع تسجيل الأسبوع الأول مرّة أخرى: صاحبه لم يكن يقدر أن يُعرّف بنفسه، وهذا تحدّث ثلاث دقائق في موضوع."
+      }
+    },
+    {
+      "kind": "practice",
+      "title_ar": "اكتب مثله",
+      "title_en": "Write One Like It",
+      "payload": {
+        "items": [
+          {
+            "day": 1,
+            "title_ar": "تجاربك في الحياة",
+            "model": [
+              {
+                "en": "I have visited three countries.",
+                "ar": "زرت ثلاثة بلدان."
+              },
+              {
+                "en": "I have never ridden a horse.",
+                "ar": "لم أركب حصاناً أبداً."
+              },
+              {
+                "en": "My sister has written two short stories.",
+                "ar": "كتبت أختي قصّتين قصيرتين."
+              },
+              {
+                "en": "Have you ever swum in the sea?",
+                "ar": "هل سبحت في البحر من قبل؟"
+              }
+            ],
+            "pattern_en": "I have ___. I have never ___.",
+            "prompt_ar": "اكتب 4 جمل عن تجاربك: شيئان فعلتهما، وشيء لم تفعله أبداً، وشيء فعله شخص من عائلتك. استعمل أفعالاً من قائمة الأربعين.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "has",
+                "ar": "مع he وshe وit نقول has لا have: She has written. «She have seen» خطأ."
+              },
+              {
+                "word": "written",
+                "ar": "بعد have نضع التصريف الثالث لا الماضي: have written، لا have wrote. ومثلها have seen لا have saw."
+              },
+              {
+                "word": "never",
+                "ar": "تأتي بين have والفعل، وهي نفي وحدها: I have never ridden. لا تقل haven't never."
+              },
+              {
+                "word": "Have you ever",
+                "ar": "نسأل عن تجارب العمر كلّه بـ Have you ever…? وever تأتي قبل التصريف الثالث."
+              }
+            ],
+            "check_ar": [
+              "هل وضعت التصريف الثالث بعد have وhas؟",
+              "هل استعملت has مع he أو she؟",
+              "هل كتبت never بلا not؟"
+            ]
+          },
+          {
+            "day": 2,
+            "title_ar": "منذ متى؟",
+            "model": [
+              {
+                "en": "I have lived in this flat since 2019.",
+                "ar": "أسكن في هذه الشقّة منذ 2019."
+              },
+              {
+                "en": "I have known my best friend for twenty years.",
+                "ar": "أعرف أعزّ أصدقائي منذ عشرين سنة."
+              },
+              {
+                "en": "We met at school.",
+                "ar": "تعارفنا في المدرسة."
+              },
+              {
+                "en": "I saw him two weeks ago.",
+                "ar": "رأيته قبل أسبوعين."
+              }
+            ],
+            "pattern_en": "I have ___ since / for ___. I ___ ago.",
+            "prompt_ar": "اكتب 4 جمل عن شخص أو مكان في حياتك: منذ متى تعرفه، ومتى بدأ ذلك، ومتى رأيته آخر مرة.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "since",
+                "ar": "since مع بداية الوقت: since 2019. وتحتاج have: «I live here since 2020» خطأ، والصواب I have lived."
+              },
+              {
+                "word": "for",
+                "ar": "for مع طول المدّة: for twenty years · for three months."
+              },
+              {
+                "word": "met",
+                "ar": "حدث انتهى في وقت معروف، فنستعمل الماضي البسيط: We met at school."
+              },
+              {
+                "word": "ago",
+                "ar": "معناها «قبل». تأتي مع الماضي البسيط فقط: I saw him two weeks ago، لا I have seen him."
+              }
+            ],
+            "check_ar": [
+              "هل جاءت since وfor مع have أو has؟",
+              "هل جاءت ago مع الماضي البسيط وحده؟"
+            ]
+          },
+          {
+            "day": 3,
+            "title_ar": "إن حدث كذا",
+            "model": [
+              {
+                "en": "If it rains this weekend, we'll stay at home.",
+                "ar": "إن أمطرت في عطلة الأسبوع فسنبقى في البيت."
+              },
+              {
+                "en": "When I get home tonight, I'll call my mother.",
+                "ar": "عندما أصل إلى البيت الليلة سأتصل بأمّي."
+              },
+              {
+                "en": "I always carry a charger in case my battery runs out.",
+                "ar": "أحمل شاحناً دائماً احتياطاً إن نفدت بطاريتي."
+              },
+              {
+                "en": "Unless I leave now, I'll miss the bus.",
+                "ar": "إن لم أخرج الآن فستفوتني الحافلة."
+              }
+            ],
+            "pattern_en": "If ___, I'll ___.",
+            "prompt_ar": "اكتب 4 جمل عن أشياء قد تحدث لك هذا الأسبوع وما ستفعله عندها. استعمل if وwhen وin case وunless.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "If it rains",
+                "ar": "لا will بعد if: If it rains، لا If it will rain. وwill تأتي في الجزء الثاني فقط."
+              },
+              {
+                "word": "When I get",
+                "ar": "ومثلها when: When I get home، لا When I will get."
+              },
+              {
+                "word": "in case",
+                "ar": "معناها «احتياطاً إن»: تفعل الشيء الآن قبل أن تحدث المشكلة."
+              },
+              {
+                "word": "Unless",
+                "ar": "معناها «إن لم»، وفيها النفي أصلاً. لا تضع بعدها don't: Unless I leave."
+              }
+            ],
+            "check_ar": [
+              "هل تجنّبت will بعد if وwhen؟",
+              "هل كتبت unless بلا don't؟"
+            ]
+          },
+          {
+            "day": 4,
+            "title_ar": "قواعد عملك",
+            "model": [
+              {
+                "en": "At work, we have to arrive at eight.",
+                "ar": "في العمل يجب أن نصل في الثامنة."
+              },
+              {
+                "en": "We mustn't use our phones in meetings.",
+                "ar": "ممنوع أن نستعمل هواتفنا في الاجتماعات."
+              },
+              {
+                "en": "We don't have to wear a uniform.",
+                "ar": "لسنا مضطرين إلى لبس زيّ موحّد."
+              },
+              {
+                "en": "I think everybody should take a short break every two hours.",
+                "ar": "أظنّ أن على الجميع أخذ استراحة قصيرة كل ساعتين."
+              }
+            ],
+            "pattern_en": "We have to ___. We mustn't ___. We don't have to ___.",
+            "prompt_ar": "اكتب 4 جمل عن القواعد في عملك أو دراستك أو بيتك: شيء واجب، وشيء ممنوع، وشيء غير مطلوب، ثم نصيحة بـ should.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "have to",
+                "ar": "معناها «يجب». ومع he وshe تصير has to، وبعدها الفعل مجرّداً: He has to work."
+              },
+              {
+                "word": "mustn't",
+                "ar": "معناها «ممنوع». الأفعال الناقصة لا تأخذ s أبداً: He must، لا He musts."
+              },
+              {
+                "word": "don't have to",
+                "ar": "معناها «ليس ضرورياً»، لا «ممنوع»: You don't have to pay = مجاناً."
+              },
+              {
+                "word": "should",
+                "ar": "للنصيحة، وبعدها الفعل بلا to: You should go، لا should to go."
+              }
+            ],
+            "check_ar": [
+              "هل جاء الفعل بعد must وshould بلا to؟",
+              "هل فرّقت بين mustn't (ممنوع) وdon't have to (غير ضروري)؟"
+            ]
+          },
+          {
+            "day": 5,
+            "title_ar": "مكان تحبّه ورأيك فيه",
+            "model": [
+              {
+                "en": "The café where I meet my friends is small but quiet.",
+                "ar": "المقهى الذي ألتقي فيه أصدقائي صغير لكنه هادئ."
+              },
+              {
+                "en": "The man who owns it is very friendly.",
+                "ar": "الرجل الذي يملكه ودود جداً."
+              },
+              {
+                "en": "In my opinion, it makes the best tea in the city.",
+                "ar": "في رأيي، يقدّم أفضل شاي في المدينة."
+              },
+              {
+                "en": "I could be wrong, but all my friends agree with me.",
+                "ar": "قد أكون مخطئاً، لكن كل أصدقائي يوافقونني."
+              }
+            ],
+            "pattern_en": "The ___ where / who ___ is ___. In my opinion, ___.",
+            "prompt_ar": "اكتب 4 جمل عن مكان تحبّه والناس فيه. استعمل who وwhere، وقل رأيك بعبارة من عبارات الرأي.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "where",
+                "ar": "للمكان: The café where I meet. لا تقل The café which I meet in it."
+              },
+              {
+                "word": "who",
+                "ar": "للشخص، ولا نكرّر بعدها he: The man who owns it، لا The man who he owns it."
+              },
+              {
+                "word": "In my opinion",
+                "ar": "معناها «في رأيي»، وبعدها فاصلة ثم الجملة."
+              },
+              {
+                "word": "I could be wrong, but",
+                "ar": "«قد أكون مخطئاً، لكن…». تجعل رأيك أهدأ وأكثر أدباً."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت where للمكان وwho للشخص؟",
+              "هل تجنّبت ضميراً زائداً بعد who أو where؟"
+            ]
+          },
+          {
+            "day": 6,
+            "title_ar": "أنت بعد 18 أسبوعاً",
+            "model": [
+              {
+                "en": "I work in an office and live with my family.",
+                "ar": "أعمل في مكتب وأسكن مع عائلتي."
+              },
+              {
+                "en": "I have studied English for eighteen weeks, and I have learned about 1,500 words.",
+                "ar": "درست الإنجليزية 18 أسبوعاً، وتعلّمت نحو 1500 كلمة."
+              },
+              {
+                "en": "I still have to practise speaking every day.",
+                "ar": "ما زال عليّ أن أتدرّب على الكلام كل يوم."
+              },
+              {
+                "en": "If I keep going, I'll reach B1 in six weeks.",
+                "ar": "إن واصلت فسأصل إلى B1 بعد 6 أسابيع."
+              },
+              {
+                "en": "To sum up, I have changed a lot since the first week.",
+                "ar": "باختصار، تغيّرت كثيراً منذ الأسبوع الأول."
+              }
+            ],
+            "pattern_en": "I have ___ for ___. If I ___, I'll ___.",
+            "prompt_ar": "اكتب 5 جمل عنك، جملة لكل جزء: من أنت، وما أنجزته، وما يجب عليك، وجملة بـ If، ثم خاتمة. هذا تمرين لتسجيل الغد (3 دقائق).",
+            "min_sentences": 5,
+            "notes": [
+              {
+                "word": "have studied",
+                "ar": "بدأ في الماضي وما زال مستمراً، فنستعمل have + التصريف الثالث مع for."
+              },
+              {
+                "word": "practise",
+                "ar": "الفعل بالإملاء البريطاني يُكتب practise، والاسم practice."
+              },
+              {
+                "word": "If I keep going",
+                "ar": "لا will بعد if: If I keep going, I'll reach…، لا If I will keep."
+              },
+              {
+                "word": "To sum up",
+                "ar": "معناها «باختصار». تبدأ بها آخر جملة لتجمع ما قلته."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت جملة واحدة على الأقل بـ have + التصريف الثالث؟",
+              "هل تجنّبت will بعد if؟",
+              "هل ختمت بجملة تبدأ بـ To sum up؟"
+            ]
+          }
+        ]
       }
     }
   ],

@@ -141,20 +141,32 @@
         {
           "order": 2,
           "label": "تدريب النطق",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "pron:vowels"
         },
         {
           "order": 3,
           "label": "تمارين: رموز النطق وعبارات النجاة",
-          "minutes": 5,
+          "minutes": 10,
           "ref": "exercises:1"
         },
         {
           "order": 4,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate"
+        },
+        {
+          "order": 5,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 6
         }
       ]
     },
@@ -165,32 +177,50 @@
         {
           "order": 1,
           "label": "مراجعة المفردات — تكرار متباعد",
-          "minutes": 10,
+          "minutes": 5,
           "ref": "review:vocab"
         },
         {
           "order": 2,
           "label": "العائلة + الأرقام",
-          "minutes": 25,
+          "minutes": 20,
           "ref": "vocab:family,numbers"
         },
         {
           "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:family"
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين: معاني المفردات",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية",
-          "minutes": 5,
-          "ref": "record"
+          "order": 6,
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate"
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -207,26 +237,44 @@
         {
           "order": 2,
           "label": "الأيام والشهور + الحوار الأول",
-          "minutes": 25,
+          "minutes": 20,
           "ref": "vocab:days_months|dialogue:1"
         },
         {
           "order": 3,
-          "label": "تدريب النطق",
-          "minutes": 15,
-          "ref": "pron:vowels"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:numbers,days_months"
         },
         {
           "order": 4,
+          "label": "تدريب النطق",
+          "minutes": 10,
+          "ref": "pron:vowels"
+        },
+        {
+          "order": 5,
           "label": "تمارين: فهم الحوار الأول",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 5,
-          "label": "أعد أداء الحوار وسجّله",
-          "minutes": 5,
-          "ref": "record"
+          "order": 6,
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate"
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -243,26 +291,44 @@
         {
           "order": 2,
           "label": "القواعد",
-          "minutes": 25,
+          "minutes": 20,
           "ref": "section:grammar"
         },
         {
           "order": 3,
-          "label": "تدريب النطق",
-          "minutes": 15,
-          "ref": "pron:vowels"
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review"
         },
         {
           "order": 4,
-          "label": "تمارين: فعل to be وتصحيح الأخطاء",
-          "minutes": 5,
-          "ref": "exercises:4"
+          "label": "تدريب النطق",
+          "minutes": 10,
+          "ref": "pron:vowels"
         },
         {
           "order": 5,
-          "label": "سجّل 60–90 ثانية عن نفسك",
-          "minutes": 5,
-          "ref": "record"
+          "label": "تمارين: فعل to be وتصحيح الأخطاء",
+          "minutes": 10,
+          "ref": "exercises:4"
+        },
+        {
+          "order": 6,
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate"
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -279,26 +345,44 @@
         {
           "order": 2,
           "label": "الكلمات الأساسية + الحوار الثاني",
-          "minutes": 25,
+          "minutes": 20,
           "ref": "vocab:core|dialogue:2"
         },
         {
           "order": 3,
-          "label": "تدريب النطق",
-          "minutes": 15,
-          "ref": "pron:vowels"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:core"
         },
         {
           "order": 4,
+          "label": "تدريب النطق",
+          "minutes": 10,
+          "ref": "pron:vowels"
+        },
+        {
+          "order": 5,
           "label": "تمارين: الحوار الثاني والكلمات الأساسية",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 5,
-          "label": "صف عائلتك — سجّل",
-          "minutes": 5,
-          "ref": "record"
+          "order": 6,
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate"
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -315,26 +399,44 @@
         {
           "order": 2,
           "label": "الاستماع — الدورة الرباعية",
-          "minutes": 25,
+          "minutes": 20,
           "ref": "section:listening"
         },
         {
           "order": 3,
           "label": "إنتاج الحركات + الشادوينج",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "pron:production"
         },
         {
           "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review"
+        },
+        {
+          "order": 5,
           "label": "تمارين: فهم نص الاستماع",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "order": 5,
-          "label": "شادوينج الفقرة الأولى — سجّل",
-          "minutes": 5,
-          "ref": "record"
+          "order": 6,
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate"
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -356,21 +458,27 @@
         },
         {
           "order": 3,
-          "label": "مراجعة كل الأصوات",
-          "minutes": 15,
-          "ref": "pron:vowels"
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review"
         },
         {
           "order": 4,
-          "label": "الاختبار الذاتي لنهاية الأسبوع",
-          "minutes": 5,
-          "ref": "section:selfcheck"
+          "label": "مراجعة كل الأصوات",
+          "minutes": 10,
+          "ref": "pron:vowels"
         },
         {
           "order": 5,
           "label": "★ تسجيل خط الأساس — دقيقتان",
-          "minutes": 5,
+          "minutes": 10,
           "ref": "record:baseline"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 6
         }
       ]
     }
@@ -920,7 +1028,7 @@
       "group": "core",
       "word": "age",
       "ipa": "/eɪdʒ/",
-      "arabic": "سامي",
+      "arabic": "عُمر",
       "example": "What is your age?",
       "group_label_ar": "كلمات أساسية",
       "group_label_en": "Core Words"
@@ -2011,241 +2119,6 @@
       }
     },
     {
-      "kind": "breaktime",
-      "day_number": null,
-      "title_ar": "وقت الاستراحة — الأصوات والتحيات",
-      "title_en": "Break Time — English Outside the Book",
-      "payload": {
-        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
-        "compare": [
-          {
-            "aspect_ar": "الكمّ",
-            "intensive_ar": "دقائق من الصوت",
-            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
-          },
-          {
-            "aspect_ar": "الفهم",
-            "intensive_ar": "تستهدف 100%",
-            "extensive_ar": "50–70% تكفي"
-          },
-          {
-            "aspect_ar": "الجهد",
-            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
-            "extensive_ar": "منخفض — تسترخي وتستمتع"
-          },
-          {
-            "aspect_ar": "ما يبنيه",
-            "intensive_ar": "الدقّة والقواعد",
-            "extensive_ar": "السرعة والأذن والحدس والمفردات"
-          },
-          {
-            "aspect_ar": "لو أغفلته",
-            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
-            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
-          }
-        ],
-        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
-        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
-        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
-        "song": {
-          "pick": {
-            "title": "Hello",
-            "artist": "Adele",
-            "why_ar": "بطيئة وواضحة ومبنية على التحيات وفعل to be. تغنّي «Hello, it’s me» — وهي البنية نفسها التي درستها في القواعد.",
-            "search": "Adele Hello lyrics"
-          },
-          "alternatives": [
-            {
-              "title": "You Are My Sunshine",
-              "artist": "Traditional / Johnny Cash",
-              "why_ar": "بسيطة للغاية. كل سطر تقريباً فيه you are أو I am."
-            },
-            {
-              "title": "Count on Me",
-              "artist": "Bruno Mars",
-              "why_ar": "نطق واضح وجمل قصيرة ومزاج إيجابي."
-            }
-          ],
-          "method_ar": [
-            "التشغيل الأول — استمتع فقط. لا تقرأ شيئاً. اتركها موسيقى.",
-            "التشغيل الثاني — تصيَّد الكلمات. استمع لهذه الخمس: hello · me · you · are · sorry. وأشّر كل واحدة تسمعها.",
-            "التشغيل الثالث — مع الكلمات على الشاشة. ابحث عن اسم الأغنية + lyrics.",
-            "التشغيل الرابع — غنِّ معها. بسوء لا بأس. الغناء يجبر فمك على إيقاع الإنجليزية أكثر من أي تمرين."
-          ],
-          "tool": {
-            "name": "LyricsTraining",
-            "url": "https://lyricstraining.com/",
-            "why_ar": "يحوّل أي أغنية إلى لعبة ملء فراغات بمستوى تختاره. ابدأ من Beginner."
-          },
-          "item": {
-            "key": "song",
-            "icon": "🎵",
-            "label_ar": "أغنية الأسبوع",
-            "task_ar": "أنجز التشغيلات الأربع: استمتع · تصيَّد خمس كلمات · مع الكلمات · غنِّ معها",
-            "minutes": 30,
-            "steps": [
-              "شغّلها مرة للمتعة فقط — بلا كلمات ولا تحليل.",
-              "شغّلها ثانية واكتب خمس كلمات سمعتها ولم تكن تعرفها.",
-              "شغّلها مع الكلمات المكتوبة أمامك.",
-              "غنِّ معها مرة. الغناء يضبط الإيقاع بلا أن تفكّر فيه."
-            ],
-            "why_ar": "الأغنية تُعاد خمسين مرة طوعاً، ولا تمرين يُعاد خمسين مرة.",
-            "prompt_ar": "الكلمات الخمس التي التقطتها"
-          }
-        },
-        "watch": {
-          "pick": {
-            "title": "Extra English — Episode 1",
-            "where": "YouTube — ابحث \"Extra English Episode 1\"",
-            "level": "A1–A2",
-            "why_ar": "مسلسل كوميدي صُنع خصيصاً لمتعلّمي الإنجليزية. بطيء وواضح ومترجَم. 30 حلقة، 25 دقيقة لكل واحدة. الكتاب يصفه بأنه أفضل مورد مشاهدة على مستواك.",
-            "url": "https://www.youtube.com/results?search_query=Extra+English+Episode+1"
-          },
-          "alternatives": [
-            {
-              "title": "Easy English — مقابلات الشارع",
-              "level": "A2+",
-              "why_ar": "أناس حقيقيون بسرعة حقيقية، لكن بترجمة مزدوجة. ابدأ بالفيديوهات المعنونة \"Basic\"."
-            },
-            {
-              "title": "Mr Bean",
-              "level": "أي مستوى",
-              "why_ar": "بلا كلام تقريباً. استخدمه بطريقة مختلفة: صِف بصوت عالٍ بالإنجليزية ما يفعله. تدريب ممتاز."
-            }
-          ],
-          "subtitle_rule_ar": "قاعدة الترجمة في A1: شاهد بترجمة **إنجليزية** لا عربية أبداً. الترجمة العربية تُطفئ دماغك عن الإنجليزية تماماً — تقرأ ولا تسمع شيئاً. أما الإنجليزية فتربط الصوت بالكلمة المكتوبة، وهو ما تحتاجه بالضبط.",
-          "item": {
-            "key": "watch",
-            "icon": "📺",
-            "label_ar": "ما تشاهده",
-            "task_ar": "شاهد الحلقة كاملة بترجمة إنجليزية (٢٥ دقيقة، على جزأين إن شئت)",
-            "minutes": 30,
-            "steps": [
-              "شاهد حلقة كاملة بلا توقّف.",
-              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
-              "اكتب ثلاث عبارات علقت في ذهنك."
-            ],
-            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
-            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
-          }
-        },
-        "story": {
-          "pick": {
-            "source": "British Council — Elementary Podcasts",
-            "url": "https://learnenglish.britishcouncil.org",
-            "what_ar": "برنامج إذاعي ودود مع النصّ الكامل. السلسلة 1 الحلقة 1 مناسبة تماماً للأسبوع الأول."
-          },
-          "alternatives": [
-            {
-              "source": "Storynory",
-              "url": "https://storynory.com",
-              "what_ar": "قصص صوتية مجانية مع النصّ على الصفحة. ابدأ بقسم Short Stories."
-            },
-            {
-              "source": "Lit2Go",
-              "url": "https://etc.usf.edu/lit2go",
-              "what_ar": "قصص كلاسيكية بصوت ونصّ، مرتّبة بمستوى القراءة. اختر الأدنى."
-            }
-          ],
-          "target_ar": [
-            "قصة قصيرة واحدة، تُسمع ثلاث مرات على مدى الأسبوع.",
-            "الأولى: صوت فقط. الثانية: صوت + نصّ. الثالثة: صوت فقط مرة أخرى.",
-            "لا تبحث عن أكثر من خمس كلمات في القصة كلها."
-          ],
-          "item": {
-            "key": "story",
-            "icon": "📖",
-            "label_ar": "قصة الأسبوع",
-            "task_ar": "قصة قصيرة واحدة ثلاث مرات: صوت · صوت + نصّ · صوت — ولا تبحث عن أكثر من خمس كلمات",
-            "minutes": 45,
-            "steps": [
-              "خمس عشرة دقيقة قراءة أو استماع — لا أكثر.",
-              "لا تبحث عن أكثر من ثلاث كلمات. خمّن الباقي من السياق.",
-              "اكتب جملة واحدة عمّا قرأته، من الذاكرة."
-            ],
-            "why_ar": "الحدس من السياق هو المهارة المقصودة — والبحث عن كل كلمة يقتلها.",
-            "prompt_ar": "جملة واحدة عمّا قرأته"
-          }
-        },
-        "channel": {
-          "pick": {
-            "name": "BBC Learning English",
-            "url": "https://www.youtube.com/@bbclearningenglish",
-            "why_ar": "فيديوهات يومية قصيرة لكل المستويات — أوثق مصدر موجود."
-          },
-          "alternatives": [
-            {
-              "name": "Easy English",
-              "url": "https://www.youtube.com/@EasyEnglishVideos",
-              "why_ar": "محادثات شارع حقيقية بترجمة مزدوجة."
-            },
-            {
-              "name": "Speak English With Vanessa",
-              "url": "https://www.youtube.com/@SpeakEnglishWithVanessa",
-              "why_ar": "إنجليزية أمريكية واضحة، ودودة جداً للمبتدئين."
-            }
-          ],
-          "note_ar": "اختر واحدة واشترك فيها. قناة واحدة تشاهدها فعلاً أفضل من عشر حفظتها ونسيتها.",
-          "item": {
-            "key": "channel",
-            "icon": "📱",
-            "label_ar": "قناة تتابعها",
-            "task_ar": "اشترك في قناة واحدة، وشاهد منها فيديو واحداً على الأقل",
-            "minutes": 15,
-            "steps": [
-              "شاهد شيئاً واحداً على الأقل من القناة.",
-              "أعد ما أعجبك مرة ثانية.",
-              "اكتب ما تعلّمته في سطر."
-            ],
-            "prompt_ar": "ماذا تعلّمت؟"
-          }
-        },
-        "plan": [
-          {
-            "day_ar": "السبت",
-            "activity_ar": "الأغنية — التشغيلان الأول والثاني",
-            "minutes": 10
-          },
-          {
-            "day_ar": "الأحد",
-            "activity_ar": "Extra English الحلقة 1 — النصف الأول",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الاثنين",
-            "activity_ar": "الأغنية — التشغيلان الثالث والرابع + LyricsTraining",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الثلاثاء",
-            "activity_ar": "Extra English الحلقة 1 — النصف الثاني",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الأربعاء",
-            "activity_ar": "القصة — صوت فقط",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الخميس",
-            "activity_ar": "القصة — صوت + نصّ",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الجمعة",
-            "activity_ar": "حرّ. شاهد ما تحبّ بالإنجليزية.",
-            "minutes": 30
-          }
-        ],
-        "item_order": [
-          "song",
-          "watch",
-          "story",
-          "channel"
-        ]
-      }
-    },
-    {
       "kind": "selfcheck",
       "day_number": 7,
       "title_ar": "الاختبار الذاتي — نهاية الفصل",
@@ -2414,6 +2287,292 @@
           }
         ],
         "save_as": "Week01"
+      }
+    },
+    {
+      "kind": "practice",
+      "title_ar": "اكتب مثله",
+      "title_en": "Write One Like It",
+      "payload": {
+        "items": [
+          {
+            "day": 1,
+            "title_ar": "عرّف بنفسك في 4 جمل",
+            "model": [
+              {
+                "en": "Hello!",
+                "ar": "مرحباً!"
+              },
+              {
+                "en": "My name is Sam.",
+                "ar": "اسمي سام."
+              },
+              {
+                "en": "I am from Jordan.",
+                "ar": "أنا من الأردن."
+              },
+              {
+                "en": "Nice to meet you.",
+                "ar": "سعيد بلقائك."
+              }
+            ],
+            "pattern_en": "My name is ___. I am from ___.",
+            "prompt_ar": "اكتب 4 جمل عنك أنت: سلّم، ثم اسمك، ثم بلدك، ثم اختم.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "I",
+                "ar": "معناها «أنا». تُكتب دائماً حرفاً كبيراً، حتى في وسط الجملة."
+              },
+              {
+                "word": "my",
+                "ar": "معناها «ـي» في «اسمي». تأتي قبل الاسم: my name = اسمي."
+              },
+              {
+                "word": "am",
+                "ar": "تأتي بعد I دائماً: I am. لا تحذفها. «I from Jordan» خطأ. ستدرسها في القواعد يوم 4."
+              },
+              {
+                "word": "from",
+                "ar": "معناها «من» للمكان الذي جئت منه: from Egypt."
+              }
+            ],
+            "check_ar": [
+              "هل بدأت كل جملة بحرف كبير؟",
+              "هل كتبت am بعد I؟",
+              "هل كتبت اسم بلدك بحرف كبير؟"
+            ]
+          },
+          {
+            "day": 2,
+            "title_ar": "شخصان من عائلتك",
+            "model": [
+              {
+                "en": "My brother is twenty.",
+                "ar": "أخي عمره عشرون سنة."
+              },
+              {
+                "en": "He is a student.",
+                "ar": "هو طالب."
+              },
+              {
+                "en": "My sister is fifteen.",
+                "ar": "أختي عمرها خمس عشرة سنة."
+              },
+              {
+                "en": "She is a student too.",
+                "ar": "هي طالبة أيضاً."
+              }
+            ],
+            "pattern_en": "My ___ is ___. He / She is a ___.",
+            "prompt_ar": "اكتب 4 جمل عن شخصين من عائلتك: كم عمره؟ ماذا يعمل؟",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "is",
+                "ar": "مع he وshe والاسم المفرد: My brother is twenty. والعمر يأتي بعد is، لا بعد has."
+              },
+              {
+                "word": "he / she",
+                "ar": "he للرجل، she للمرأة. في العربية يتغيّر الفعل، وفي الإنجليزية يتغيّر الضمير فقط."
+              },
+              {
+                "word": "a",
+                "ar": "تأتي قبل المهنة: a student. العربية لا تحتاجها، لكن الإنجليزية تحتاجها دائماً."
+              },
+              {
+                "word": "too",
+                "ar": "معناها «أيضاً». تأتي في آخر الجملة."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت is بعد كل he وshe؟",
+              "هل كتبت a قبل كل مهنة؟",
+              "هل كتبت الأرقام بالحروف (twenty) كما في النموذج؟"
+            ]
+          },
+          {
+            "day": 3,
+            "title_ar": "اليوم والشهر",
+            "model": [
+              {
+                "en": "Today is Monday.",
+                "ar": "اليوم الاثنين."
+              },
+              {
+                "en": "My birthday is in May.",
+                "ar": "عيد ميلادي في مايو."
+              },
+              {
+                "en": "The weekend is Friday and Saturday.",
+                "ar": "عطلة نهاية الأسبوع الجمعة والسبت."
+              }
+            ],
+            "pattern_en": "Today is ___. My birthday is in ___.",
+            "prompt_ar": "اكتب 3 جمل: ما اليوم؟ في أي شهر عيد ميلادك؟ ما أيام عطلتك؟",
+            "min_sentences": 3,
+            "notes": [
+              {
+                "word": "Monday · May",
+                "ar": "الأيام والشهور تُكتب دائماً بحرف كبير، حتى في وسط الجملة."
+              },
+              {
+                "word": "in",
+                "ar": "معناها «في». نقولها مع الشهور: in May. ومع الأيام نقول on: on Monday."
+              },
+              {
+                "word": "the",
+                "ar": "معناها «الـ» للتعريف: the weekend = عطلة نهاية الأسبوع."
+              },
+              {
+                "word": "and",
+                "ar": "معناها «و». تأتي بين كلمتين: Friday and Saturday."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت أسماء الأيام والشهور بحرف كبير؟",
+              "هل كتبت in قبل الشهر؟"
+            ]
+          },
+          {
+            "day": 4,
+            "title_ar": "جملة منفية وجملة بـ are",
+            "model": [
+              {
+                "en": "I am not a doctor.",
+                "ar": "لستُ طبيباً."
+              },
+              {
+                "en": "I am a teacher.",
+                "ar": "أنا معلّم."
+              },
+              {
+                "en": "My friends are engineers.",
+                "ar": "أصدقائي مهندسون."
+              },
+              {
+                "en": "We are in Cairo.",
+                "ar": "نحن في القاهرة."
+              }
+            ],
+            "pattern_en": "I am not a ___. I am a ___. We are in ___.",
+            "prompt_ar": "اكتب 4 جمل: ماذا لست؟ ماذا تعمل؟ ماذا يعمل أصدقاؤك؟ أين أنتم؟",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "not",
+                "ar": "للنفي. تأتي بعد am / is / are مباشرة: I am not."
+              },
+              {
+                "word": "are",
+                "ar": "مع we وyou وthey ومع الجمع: My friends are. ومع المفرد نقول is."
+              },
+              {
+                "word": "engineers",
+                "ar": "الجمع بإضافة s في آخر الكلمة: engineer ← engineers. ولا نضع a قبل الجمع."
+              },
+              {
+                "word": "in",
+                "ar": "معناها «في». نقولها مع المدن والبلدان: in Cairo. ستدرس كلمات المكان كلها في الأسبوع 4."
+              }
+            ],
+            "check_ar": [
+              "هل جاءت not بعد am مباشرة؟",
+              "هل استعملت are مع الجمع وwe؟",
+              "هل حذفت a قبل الجمع؟"
+            ]
+          },
+          {
+            "day": 5,
+            "title_ar": "صف عائلتك وبيتك",
+            "model": [
+              {
+                "en": "My family is big.",
+                "ar": "عائلتي كبيرة."
+              },
+              {
+                "en": "My house is small, but it is new.",
+                "ar": "بيتي صغير، لكنه جديد."
+              },
+              {
+                "en": "My father is old and my mother is very happy.",
+                "ar": "أبي كبير في السن، وأمي سعيدة جداً."
+              }
+            ],
+            "pattern_en": "My ___ is big / small / new / old.",
+            "prompt_ar": "صف عائلتك وبيتك في 3 جمل أو 4. استعمل صفة في كل جملة: big · small · new · old · happy.",
+            "min_sentences": 3,
+            "notes": [
+              {
+                "word": "but",
+                "ar": "معناها «لكن». تربط جملتين عكس بعض: small, but new."
+              },
+              {
+                "word": "it",
+                "ar": "معناها «هو / هي» لغير الإنسان: البيت، المدينة. لا نقول he للبيت."
+              },
+              {
+                "word": "very",
+                "ar": "معناها «جداً». تأتي قبل الصفة: very happy. هذا عكس العربية."
+              },
+              {
+                "word": "big",
+                "ar": "الصفة لا تتغيّر أبداً: big family و big houses. لا تأنيث ولا جمع."
+              }
+            ],
+            "check_ar": [
+              "هل جاءت very قبل الصفة؟",
+              "هل استعملت it للبيت لا he؟"
+            ]
+          },
+          {
+            "day": 6,
+            "title_ar": "عرّف بصديق",
+            "model": [
+              {
+                "en": "This is my friend Alex.",
+                "ar": "هذا صديقي أليكس."
+              },
+              {
+                "en": "He is thirty-two years old.",
+                "ar": "عمره اثنان وثلاثون عاماً."
+              },
+              {
+                "en": "He is an engineer.",
+                "ar": "هو مهندس."
+              },
+              {
+                "en": "He is from Amman.",
+                "ar": "هو من عمّان."
+              }
+            ],
+            "pattern_en": "This is my friend ___. He / She is ___ years old.",
+            "prompt_ar": "عرّف بصديق أو زميل في 4 جمل: اسمه، عمره، عمله، ومن أين هو.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "this",
+                "ar": "معناها «هذا». نقدّم بها شخصاً: This is my friend."
+              },
+              {
+                "word": "an",
+                "ar": "مثل a، لكن قبل كلمة تبدأ بصوت حركة: an engineer · an old house."
+              },
+              {
+                "word": "years old",
+                "ar": "العمر: He is 32 years old. لا تقل He has 32 years."
+              },
+              {
+                "word": "-",
+                "ar": "الأرقام من 21 إلى 99 تُكتب بشَرطة: thirty-two · forty-five."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت an قبل مهنة تبدأ بحرف علة (engineer · artist)؟",
+              "هل كتبت العمر بـ is ... years old؟"
+            ]
+          }
+        ]
       }
     }
   ],

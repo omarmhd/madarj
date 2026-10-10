@@ -1,6 +1,6 @@
 import { Head, Link } from '@inertiajs/react';
 import { useEffect, type ReactNode } from 'react';
-import { BookOpen, Brain, Gamepad2, Popcorn } from 'lucide-react';
+import { BookOpen, Brain, Gamepad2, PenLine } from 'lucide-react';
 import BrandMark from '@/Components/BrandMark';
 import { ReviewLegend, Staircase } from '@/Layouts/GuestLayout';
 import { useT } from '@/lib/i18n';
@@ -390,27 +390,28 @@ export default function Landing({
         <section className="folio-rule border-t py-16">
           <Heading id="features" kicker="المميزات" title="خارج أوقات المذاكرة؟ وجدنا لك الحل" />
           <p className="folio-soft -mt-3 mb-6 max-w-2xl text-lg leading-relaxed">
-            {tr('حتى لا يضيع وقتك، رتّبنا لك كل شيء: ماذا تشاهد، وماذا تلعب، وماذا تقرأ.')}
+            {tr('حتى لا يضيع وقتك، رتّبنا لك كل شيء: ماذا تكتب، وماذا تلعب، وماذا تقرأ.')}
           </p>
 
           <div className="grid gap-5 md:grid-cols-2">
-            {/* Break Time (§12 of every chapter): songs, films and stories for days off */}
+            {/* Daily writing: spelling drills and "write one like it". Break Time
+                (songs and films) was here until it was removed from the course. */}
             <Feature
-              icon={<Popcorn size={22} />}
-              title="خطة للإجازة وأوقات الفراغ"
-              text="أغانٍ وأفلام وقصص نختارها لك كل أسبوع، ونرافقك فيها من الألف إلى الياء: ماذا تشاهد، وماذا تلاحظ، وماذا تقول بعدها. تتعلّم وأنت تستمتع."
+              icon={<PenLine size={22} />}
+              title="تكتب كل يوم، مش بس تحفظ"
+              text="ما يكفي إنك تعرف الكلمة بأذنك. كل يوم تكتبها حرف حرف، وتكتب جمل عن حياتك على نموذج جاهز، والمنصة توريك وين غلطت بالضبط."
             >
               <ol className="folio-ink space-y-1 text-sm">
-                <li>{tr('1. شاهد المقطع أو استمع إلى الأغنية.')}</li>
-                <li>{tr('2. التقط الكلمات التي تعرفها.')}</li>
-                <li>{tr('3. أجب عن سؤال قصير بجملة من عندك.')}</li>
+                <li>{tr('1. اسمع الكلمة واكتبها.')}</li>
+                <li>{tr('2. اقرأ النموذج واكتب مثله عن نفسك.')}</li>
+                <li>{tr('3. شوف الحروف اللي غلطت فيها.')}</li>
               </ol>
             </Feature>
 
             <Feature
               icon={<Brain size={22} />}
               title="الذاكرة: كلماتك أنت"
-              text="صادفت كلمة في فيلم أو أغنية؟ اكتبها في دفترك من أي صفحة، وستظهر لك ترجمتها. ثم تراجعها في الوقت المناسب حتى تثبت في ذاكرتك."
+              text="صادفت كلمة في فيلم أو في الشارع أو في شغلك؟ اكتبها في دفترك من أي صفحة، وستظهر لك ترجمتها. ثم تراجعها في الوقت المناسب حتى تثبت في ذاكرتك."
             >
               <p dir="ltr" className="text-base">
                 <span className="folio-ink font-semibold">journey</span>

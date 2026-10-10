@@ -13,7 +13,10 @@ import WritingTask, {
   type WritingContent,
   type MyWriting,
 } from '@/Components/Game/WritingTask';
-import Recorder from '@/Components/Recorder';
+import Spelling, { type SpellWord, type SpellRound } from '@/Components/Game/Spelling';
+import Shadowing, { type ShadowData } from '@/Components/Game/Shadowing';
+import Imitate, { type ImitateItem } from '@/Components/Game/Imitate';
+import Homework, { type HomeworkData } from '@/Components/Game/Homework';
 import SpeakingBrief, { type SpeakingPayload } from '@/Components/Game/SpeakingBrief';
 import ReviewSession from '@/Components/Game/ReviewSession';
 import SectionView, { type SectionData } from '@/Components/Game/SectionView';
@@ -27,7 +30,8 @@ import { sliceBlock, sliceTitle } from '@/lib/contentSteps';
 import { useT } from '@/lib/i18n';
 import Celebrate from '@/Components/Celebrate';
 import { celebrationFor, type Celebration } from '@/lib/milestones';
-import { ArrowLeft, Check, ChevronLeft, CircleCheck, Headphones, Lock, PenLine, Play, Square } from 'lucide-react';
+import { taskKind } from '@/lib/taskKinds';
+import { ArrowLeft, ArrowRight, Check, ChevronLeft, CircleCheck, Clock, Headphones, Lock, PenLine, Play, Smartphone, Square } from 'lucide-react';
 
 /**
  * صفحة اليوم — شاشة العمل اليومية.
@@ -89,6 +93,27 @@ interface ReviewBlock {
   type: 'review';
 }
 
+interface SpellingBlock {
+  type: 'spelling';
+  review: boolean;
+  rounds: SpellRound[];
+  words: SpellWord[];
+}
+
+interface ShadowBlock {
+  type: 'shadow';
+  shadow: ShadowData;
+}
+
+interface HomeworkBlock extends HomeworkData {
+  type: 'homework';
+}
+
+interface ImitateBlock {
+  type: 'imitate';
+  item: ImitateItem;
+}
+
 interface UnbuiltBlock {
   type: 'unbuilt';
   ref: string;
@@ -102,6 +127,10 @@ type Block =
   | RecordBlock
   | WritingBlock
   | ReviewBlock
+  | SpellingBlock
+  | ShadowBlock
+  | ImitateBlock
+  | HomeworkBlock
   | SectionBlock
   | UnbuiltBlock;
 
@@ -136,31 +165,6 @@ interface Props {
   myNotes: Record<string, Record<string, string>> | null;
   /** تفضيلات المتدرّب — مشتركة من الخادم */
   prefs?: Prefs;
-  /** نشاط الاستراحة المقرّر لهذا اليوم — تذكير لا مهمة */
-  breakToday: {
-    week_number: number;
-    day_number: number;
-    book_day_ar: string | null;
-    activity_ar: string;
-    minutes: number;
-    total: number;
-    link: {
-      label: string;
-      url: string | null;
-      /** ما هذا المصدر — الاسم وحده لا يعرّف به */
-      note_ar: string | null;
-      note_en: string | null;
-    } | null;
-    item_key: string | null;
-    item_done: boolean;
-    /** تفصيل النشاط — بدونه العنوان بلا معنى */
-    item_label_ar: string | null;
-    item_steps: string[];
-    item_why_ar: string | null;
-    /** مهمّة الملاحظة — سؤال واحد يحوّل المشاهدة إلى انتباه */
-    item_prompt_ar: string | null;
-    item_note: string | null;
-  } | null;
 }
 
 /**
@@ -179,7 +183,7 @@ const UNBUILT_LABELS: Record<string, string> = {
   reading: 'القراءة',
   grammar: 'القواعد',
   selfcheck: 'الاختبار الذاتي',
-  section: 'قسم من الكتاب',
+  section: 'قسم من الدرس',
 };
 
 export default function DayPage({
@@ -191,7 +195,6 @@ export default function DayPage({
   myWriting,
   myComparison,
   myNotes,
-  breakToday,
   prefs = DEFAULT_PREFS,
 }: Props) {
   const tr = useT();
@@ -199,11 +202,23 @@ export default function DayPage({
   /** ما يقوله رفيق الآن — أو لا شيء، وهو الأشيع */
   const [celebration, setCelebration] = useState<Celebration | null>(null);
   const [tasksDone, setTasksDone] = useState(day.tasks_done);
-  /** تأشير نشاط الاستراحة من صفحة اليوم — يُحتسب ولا يُلزم */
-  const [breakDone, setBreakDone] = useState(breakToday?.item_done ?? false);
-  const [breakNote, setBreakNote] = useState(breakToday?.item_note ?? '');
-  const [breakSaved, setBreakSaved] = useState(breakToday?.item_note ?? '');
   const [saving, setSaving] = useState<number | null>(null);
+
+  /** The task whose "done" stamp is landing right now */
+  const [stamped, setStamped] = useState<number | null>(null);
+
+  /**
+   * A save the server refused. It used to be undone silently and the
+   * page moved on anyway, so the learner saw the next task, could not
+   * finish it, and was told nothing.
+   */
+  const [saveFailed, setSaveFailed] = useState<number | null>(null);
+
+  /** Today's homework proof — the day does not finish without it */
+  const [homeworkProof, setHomeworkProof] = useState(
+    (myNotes?.homework as Record<string, string> | undefined)?.[`day${day.number}`] ?? '',
+  );
+  const [needsProof, setNeedsProof] = useState(false);
   // السرعة الافتراضية من تفضيلات المستخدم لا رقماً ثابتاً
   const [rate, setRate] = useState(prefs.rate);
   const [voice, setVoice] = useState(prefs.voice);
@@ -252,6 +267,9 @@ export default function DayPage({
     return i >= 0 ? i : 0;
   });
 
+  /** Each task's icon and one-line purpose — from its first block */
+  const kinds = useMemo(() => day.tasks.map((t) => taskKind(t.blocks)), [day.tasks]);
+
   /** المهمة المعروضة في وضع الخطوات */
   const visibleTasks = useMemo(() => {
     const t = day.tasks[Math.min(step, day.tasks.length - 1)];
@@ -266,6 +284,16 @@ export default function DayPage({
    * المحتوى في lib/contentSteps فيصلح لكل الأسابيع بلا ضبط يدوي.
    */
   const [innerStep, setInnerStep] = useState(0);
+
+  /**
+   * The vocabulary step being tested, if any.
+   *
+   * The word list and the cards used to share the screen, the cards
+   * folded away under it — so the answers sat just above the question,
+   * and the cards were easy to miss altogether. Testing now replaces
+   * the list: study it, then put it away and recall.
+   */
+  const [testing, setTesting] = useState<string | null>(null);
 
   /** أعلى منطقة المحتوى — إليها يصعد التمرير لا إلى أعلى الصفحة */
   const locale = useLocale();
@@ -358,7 +386,8 @@ export default function DayPage({
 
   const atLastSlice = innerStep >= slices.length - 1;
 
-  const toggle = async (task: DayTask) => {
+  /** Returns whether the server accepted it — the stamp lands only on a real save */
+  const toggle = async (task: DayTask): Promise<boolean> => {
     const next = !tasksDone[String(task.order)];
 
     // تحديث متفائل — المتدرّب قد يغلق الصفحة في أي لحظة
@@ -373,6 +402,7 @@ export default function DayPage({
         done: next,
       });
       setTasksDone(data.tasks_done);
+      setSaveFailed(null);
 
       /*
        * الاحتفال من ردّ الخادم لا من حساب الواجهة.
@@ -385,50 +415,35 @@ export default function DayPage({
         const c = celebrationFor(data.milestone);
         if (c) setCelebration(c);
       }
+
+      return true;
     } catch {
       setTasksDone((prev) => ({ ...prev, [String(task.order)]: !next }));
+      setSaveFailed(task.order);
+
+      return false;
     } finally {
       setSaving(null);
     }
   };
 
-  const toggleBreak = () => {
-    if (!breakToday?.item_key) return;
-
-    const next = !breakDone;
-    setBreakDone(next);
-
-    axios
-      .post(`/week/${week.number}/break-time`, {
-        item: breakToday.item_key,
-        done: next,
-        // ما كُتب يُرسَل مع كل تأشير كي لا يضيع عند إعادة التأشير
-        note: next ? breakSaved || null : null,
-      })
-      .catch(() => setBreakDone(!next));
-  };
-
   /**
-   * حفظ ما التقطه.
+   * Let the "done" stamp land before the page turns.
    *
-   * الكتابة نفسها تُؤشّر النشاط منجَزاً: ما كُتب دليلٌ أقوى من زرٍّ
-   * نُقر، ولا يُطلب من أحد تأكيد ما فعله مرتين.
+   * Moving on the instant the button was pressed made finishing a task
+   * look like skipping it — the next screen simply replaced this one.
+   * Seven hundred milliseconds is enough to see the stamp and short
+   * enough not to wait for it; with reduced motion there is no pause.
    */
-  const saveBreakNote = () => {
-    if (!breakToday?.item_key) return;
-
-    const text = breakNote.trim();
-    setBreakSaved(text);
-    setBreakDone(true);
-
-    axios
-      .post(`/week/${week.number}/break-time`, {
-        item: breakToday.item_key,
-        done: true,
-        note: text || null,
-      })
-      .catch(() => setBreakSaved(breakToday.item_note ?? ''));
-  };
+  const stampDone = (order: number) =>
+    new Promise<void>((resolve) => {
+      const still = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+      setStamped(order);
+      window.setTimeout(() => {
+        setStamped(null);
+        resolve();
+      }, still ? 0 : 700);
+    });
 
   const genderOf = (d: DialogueBlock, speaker: string): Gender | undefined =>
     d.speaker_genders?.[speaker] ?? d.speaker_genders?.[speaker.toUpperCase()];
@@ -485,43 +500,58 @@ export default function DayPage({
               <span className="text-xs text-slate-500">{block.items.length} كلمة</span>
             </div>
 
-            <div className="grid gap-1.5 sm:grid-cols-2">
-              {block.items.map((w) => (
-                <div
-                  key={w.id}
-                  className="flex items-center justify-between gap-3 rounded-lg bg-white
-                             px-3 py-2 ring-1 ring-slate-200"
-                >
-                  <span className="min-w-0 truncate text-sm text-slate-700">{w.arabic}</span>
-                  <div className="flex shrink-0 items-center gap-2">
-                    <div className="text-start">
-                      <p className="text-sm font-medium text-slate-900" dir="ltr">
-                        {w.word}
-                      </p>
-                      {w.ipa && (
-                        <p className="font-mono text-[10px] text-slate-400" dir="ltr">
-                          {w.ipa}
-                        </p>
-                      )}
-                    </div>
-                    <Listen text={w.word} size="sm" />
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            <details className="rounded-lg bg-white ring-1 ring-slate-200">
-              <summary className="cursor-pointer px-4 py-2.5 text-sm font-medium text-violet-700">
-                {tr('درّبها بالبطاقات — عربي ثم أنتِج الإنجليزية')}
-              </summary>
-              <div className="border-t border-slate-100 p-3">
+            {testing === `${step}-${key}-${block.group}` ? (
+              <>
                 <Flashcards
                   words={block.items}
                   groupLabel={groupName(block)}
                   onProgress={(d, t) => setInner({ done: d, total: t })}
                 />
-              </div>
-            </details>
+                <button
+                  onClick={() => setTesting(null)}
+                  className="w-full rounded-xl bg-white py-2.5 text-sm text-slate-600 ring-1 ring-slate-200
+                             transition hover:ring-slate-300"
+                >
+                  {tr('ارجع إلى قائمة الكلمات')}
+                </button>
+              </>
+            ) : (
+              <>
+                <div className="grid gap-1.5 sm:grid-cols-2">
+                  {block.items.map((w) => (
+                    <div
+                      key={w.id}
+                      className="flex items-center justify-between gap-3 rounded-lg bg-white
+                                 px-3 py-2 ring-1 ring-slate-200"
+                    >
+                      <span className="min-w-0 truncate text-sm text-slate-700">{w.arabic}</span>
+                      <div className="flex shrink-0 items-center gap-2">
+                        <div className="text-start">
+                          <p className="text-sm font-medium text-slate-900" dir="ltr">
+                            {w.word}
+                          </p>
+                          {w.ipa && (
+                            <p className="font-mono text-[10px] text-slate-400" dir="ltr">
+                              {w.ipa}
+                            </p>
+                          )}
+                        </div>
+                        <Listen text={w.word} size="sm" />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                <button
+                  onClick={() => setTesting(`${step}-${key}-${block.group}`)}
+                  className="flex w-full items-center justify-center gap-2 rounded-xl bg-violet-600 py-3
+                             text-sm font-semibold text-white transition hover:bg-violet-700"
+                >
+                  <PenLine aria-hidden size={16} />
+                  {tr('احفظتها؟ اختبر نفسك: المعنى بالعربية واكتب الإنجليزية')}
+                </button>
+              </>
+            )}
           </div>
         );
 
@@ -662,7 +692,6 @@ export default function DayPage({
               <div className="border-t border-slate-100 p-3">
                 <MinimalPairGame
                   groups={block.groups}
-                  target={11}
                   production={block.production}
                   onProgress={(d, t) => setInner({ done: d, total: t })}
                 />
@@ -686,28 +715,92 @@ export default function DayPage({
                   {tr('لا توجد تمارين مُدخلة لهذا اليوم')}
                 </p>
                 <p className="mx-auto mt-1.5 max-w-md text-xs leading-relaxed text-amber-800">
-                  المهمة تشير إلى تمارين اليوم {block.day}، لكن ملف المحتوى لا
-                  يحتوي أي تمرين بهذا الرقم. راجع مفتاح الإجابات في الكتاب
-                  وأشّر المهمة.
+                  تمارين اليوم {block.day} قيد التجهيز. أشّر المهمة وتابع يومك.
                 </p>
               </div>
             )}
           </div>
         );
 
-      /* ---------- التسجيل ---------- */
+      /* ---------- التحدّث — يسجّل على جواله ---------- */
       case 'record':
         return (
           <div key={key} className="space-y-4">
-            {/* الموضوع أولاً ثم المسجّل — لا مسجّل بلا موضوع */}
             {block.speaking && <SpeakingBrief speaking={block.speaking} />}
 
-            <Recorder
+            {/* No recorder: the recording lives on the learner's phone (§4.2) */}
+            <div className="rounded-xl bg-white p-4 ring-1 ring-slate-200">
+              <p className="flex items-center gap-2 font-semibold text-slate-900">
+                <Smartphone aria-hidden size={18} className="text-violet-600" />
+                {tr('سجّل على جوالك')}
+              </p>
+              <ol className="mt-2 space-y-1.5 text-sm leading-relaxed text-slate-700">
+                <li>1. {tr('افتح مسجّل الصوت في جوالك.')}</li>
+                <li>
+                  2. {tr('تكلّم :n ثانية عن الموضوع. لا تتوقّف لتبدأ من جديد.', {
+                    n: block.speaking?.target_seconds ?? (block.baseline ? 120 : 90),
+                  })}
+                </li>
+                <li>3. {tr('اسمع تسجيلك مرة واحدة، وقيّم نفسك بالجدول أعلاه.')}</li>
+                <li>
+                  4. {tr('احفظه باسم')}{' '}
+                  <Bdi>
+                    <span className="font-mono font-semibold">
+                      {`Week${String(week.number).padStart(2, '0')}`}
+                    </span>
+                  </Bdi>
+                  {block.baseline && ` — ${tr('هذا تسجيل خط الأساس. ستقارنه بتسجيلاتك القادمة، فلا تحذفه.')}`}
+                </li>
+              </ol>
+            </div>
+          </div>
+        );
+
+      /* ---------- كتابة الكلمات ---------- */
+      case 'spelling':
+        return (
+          <div key={key}>
+            <Spelling
+              key={`${step}-${innerStep}`}
+              words={block.words}
+              rounds={block.rounds}
+              onProgress={(d, t) => setInner({ done: d, total: t })}
+            />
+          </div>
+        );
+
+      /* ---------- الشادوينج ---------- */
+      case 'shadow':
+        return (
+          <div key={key}>
+            <Shadowing
+              data={block.shadow}
+              onProgress={(d, t) => setInner({ done: d, total: t })}
+            />
+          </div>
+        );
+
+      /* ---------- الواجب المنزلي ---------- */
+      case 'homework':
+        return (
+          <div key={key}>
+            <Homework
               weekNumber={week.number}
-              isBaseline={block.baseline}
-              targetSeconds={
-                block.speaking?.target_seconds ?? (block.baseline ? 120 : 90)
-              }
+              data={block}
+              saved={(myNotes?.homework as Record<string, string> | undefined) ?? null}
+              onSaved={(t) => { setHomeworkProof(t); setNeedsProof(false); }}
+            />
+          </div>
+        );
+
+      /* ---------- اكتب مثله ---------- */
+      case 'imitate':
+        return (
+          <div key={key}>
+            <Imitate
+              weekNumber={week.number}
+              item={block.item}
+              saved={(myNotes?.imitate as Record<string, string> | undefined) ?? null}
             />
           </div>
         );
@@ -766,7 +859,7 @@ export default function DayPage({
               {tr(UNBUILT_LABELS[block.ref.split(':')[0]] ?? block.ref)}
             </p>
             <p className="mt-1.5 text-xs leading-relaxed text-slate-500">
-              {tr('هذا القسم موجود في الكتاب المطبوع ولم تُبنَ واجهته في المنصة بعد. افتح الكتاب على هذا القسم، أنجزه، ثم أشّر المهمة.')}
+              {tr('هذا الجزء قيد التجهيز في المنصة. أشّر المهمة وتابع يومك.')}
             </p>
             <p className="mt-2 font-mono text-xs text-slate-400" dir="ltr">
               {block.ref}
@@ -777,7 +870,7 @@ export default function DayPage({
   };
 
   return (
-    <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-8 sm:pb-24">
+    <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-24">
       <Head title={`الأسبوع ${week.number} · اليوم ${day.number}`} />
 
       <AppNav />
@@ -901,8 +994,8 @@ export default function DayPage({
                   aria-label={taskName(t).primary}
                   aria-disabled={!reachable}
                   aria-current={active ? 'step' : undefined}
-                  className={`group relative min-h-6 rounded-lg transition-all
-                              ${active ? 'flex-[2.2]' : 'flex-1'}
+                  className={`group relative min-h-6 min-w-0 rounded-lg transition-all
+                              ${active ? 'flex-[1.6]' : 'flex-1'}
                               ${reachable ? '' : 'cursor-not-allowed'}`}
                 >
                   <span
@@ -946,18 +1039,40 @@ export default function DayPage({
                         )}
                   </span>
 
+                  {/*
+                    Each segment names its task. Numbers alone said where
+                    the learner was, not what was ahead — "4" means nothing,
+                    "الإملاء" does. The short name is one or two words so
+                    seven fit a phone; the full name is in the title.
+                  */}
                   <span
-                    className={`mt-1 block text-center text-xs leading-none transition ${
+                    className={`mt-1.5 flex flex-col items-center gap-0.5 transition ${
                       active
-                        ? 'font-bold text-violet-700'
+                        ? 'text-violet-700'
                         : done
                           ? 'text-violet-600'
                           : reachable
-                            ? 'text-slate-400'
-                            : 'text-slate-300'
+                            ? 'text-slate-500'
+                            : 'text-slate-400'
                     }`}
                   >
-                    {done && !active ? <Check size={14} /> : reachable ? t.order : <Lock size={12} />}
+                    {done && !active ? (
+                      <Check size={14} aria-hidden />
+                    ) : reachable ? (
+                      (() => {
+                        const KindIcon = kinds[i].Icon;
+                        return <KindIcon size={14} strokeWidth={2} aria-hidden />;
+                      })()
+                    ) : (
+                      <Lock size={12} aria-hidden />
+                    )}
+                    <span
+                      className={`line-clamp-2 w-full text-center text-xs leading-tight ${
+                        active ? 'font-bold' : 'font-medium'
+                      }`}
+                    >
+                      {tr(kinds[i].short)}
+                    </span>
                   </span>
                 </button>
               );
@@ -1010,47 +1125,70 @@ export default function DayPage({
           return (
             <section
               key={task.order}
-              className={`overflow-hidden rounded-2xl bg-white transition
-                          ${mode === 'wizard' ? 'ring-1 ring-violet-300 shadow-sm' : 'ring-1 ring-slate-200'}`}
+              className={`relative overflow-hidden rounded-2xl bg-white transition
+                          ${mode === 'wizard' ? 'leaf-in ring-1 ring-violet-200 shadow-sm' : 'ring-1 ring-slate-200'}`}
             >
-              {/* رأس المهمة */}
-              <div
-                className={`flex items-start gap-3 p-5 ${
-                  checked ? 'bg-emerald-50/50' : 'bg-violet-50/50'
-                }`}
-              >
+              {/* The task's opener: its mark, its place in the day, its name,
+                  and one line on what the learner is about to do */}
+              <div className="flex items-start gap-4 p-5 sm:p-6">
                 <span
-                  className={`grid h-8 w-8 shrink-0 place-items-center rounded-lg text-sm
-                              font-bold ${
-                                checked
-                                  ? 'bg-emerald-500 text-white'
-                                  : 'bg-violet-600 text-white'
-                              }`}
+                  className={`task-mark h-12 w-12 shrink-0 ${checked ? 'is-done' : ''}`}
+                  aria-hidden
                 >
-                  {checked ? <Check size={15} /> : task.order}
+                  {checked ? (
+                    <Check size={22} strokeWidth={2.25} />
+                  ) : (
+                    (() => {
+                      const KindIcon = kinds[day.tasks.indexOf(task)]?.Icon ?? Check;
+                      return <KindIcon size={22} strokeWidth={1.75} />;
+                    })()
+                  )}
                 </span>
 
                 <div className="min-w-0 flex-1">
-                  <p
-                    className={`font-medium ${
-                      checked ? 'text-slate-400 line-through' : 'text-slate-900'
-                    }`}
+                  <p className="flex flex-wrap items-center gap-x-2 text-xs font-medium text-slate-500">
+                    <span>
+                      {tr('المهمة')} <span className="font-entry text-sm text-violet-700">{day.tasks.indexOf(task) + 1}</span>
+                      {' '}{tr('من')} {total}
+                    </span>
+                    <span aria-hidden className="text-slate-300">•</span>
+                    <span className="inline-flex items-center gap-1">
+                      <Clock aria-hidden size={12} /> {task.minutes * multiplier} {tr('دقيقة')}
+                    </span>
+                    {checked && (
+                      <>
+                        <span aria-hidden className="text-slate-300">•</span>
+                        <span className="text-emerald-700">{tr('منجزة')}</span>
+                      </>
+                    )}
+                  </p>
+
+                  <h2
+                    className="mt-1 text-lg font-bold leading-snug text-slate-900 sm:text-xl"
                     dir={dirFor(taskName(task).primary)}
                   >
                     {taskName(task).primary}
-                  </p>
+                  </h2>
                   {taskName(task).secondary && (
                     <p className="hidden text-xs text-slate-400 sm:block" dir={dirFor(taskName(task).secondary!)}>
                       {taskName(task).secondary}
                     </p>
                   )}
-                  <p className="mt-0.5 text-xs text-slate-500">
-                    {task.minutes * multiplier} دقيقة
+
+                  <p className="mt-1 text-sm leading-relaxed text-slate-600">
+                    {tr(kinds[day.tasks.indexOf(task)]?.purpose ?? '')}
                   </p>
                 </div>
-
-
               </div>
+
+              {/* "Done", stamped across the task before the page turns */}
+              {stamped === task.order && (
+                <div className="pointer-events-none absolute inset-0 z-10 grid place-items-center bg-white/40">
+                  <span className="done-stamp inline-flex items-center gap-2 px-6 py-2.5 text-2xl font-bold">
+                    <Check aria-hidden size={24} strokeWidth={2.5} /> {tr('تمّت')}
+                  </span>
+                </div>
+              )}
 
               {/* محتوى المهمة —
                   في الخطوات: شريحة واحدة، والقسم wizard بنفسه.
@@ -1058,7 +1196,8 @@ export default function DayPage({
               {task.blocks.length > 0 ? (
                 <div className="border-t border-slate-100 bg-slate-50/60 p-4 sm:p-5">
                   {mode === 'wizard' ? (
-                    <div className="space-y-4">
+                    // Keyed by step, so each step slides in as a new page
+                    <div key={`${task.order}-${innerStep}`} className="leaf-in space-y-4">
                       {slices[innerStep] && renderBlock(slices[innerStep], innerStep)}
 
                     </div>
@@ -1071,7 +1210,7 @@ export default function DayPage({
               ) : (
                 <div className="border-t border-slate-100 bg-slate-50/60 px-5 py-4">
                   <p className="text-xs leading-relaxed text-slate-500">
-                    {tr('هذه المهمة تُنجز في الكتاب المطبوع. أنجزها ثم أشّرها.')}
+                    {tr('هذه المهمة تُنجز خارج المنصة. أنجزها ثم أشّرها.')}
                   </p>
                 </div>
               )}
@@ -1092,9 +1231,22 @@ export default function DayPage({
               */}
               <div
                 className="border-t border-slate-100 bg-white p-4
-                           max-sm:sticky max-sm:bottom-0 max-sm:z-20"
-                style={{ paddingBottom: 'max(1rem, env(safe-area-inset-bottom))' }}
+                           max-sm:sticky max-sm:z-20"
+                // Sits on top of AppNav's mobile bottom bar (h-16 + safe area)
+                style={{ bottom: 'calc(4rem + env(safe-area-inset-bottom))' }}
               >
+                {needsProof && task.blocks.some((b) => b.type === 'homework') && (
+                  <p className="mb-3 rounded-lg bg-amber-50 p-3 text-center text-sm text-amber-900">
+                    {tr('أنجز الواجب، ثم اكتب ما فعلته واضغط «احفظ». بعدها ينتهي اليوم.')}
+                  </p>
+                )}
+
+                {saveFailed === task.order && (
+                  <p className="mb-3 rounded-lg bg-rose-50 p-3 text-center text-sm text-rose-800">
+                    {tr('لم تُحفظ المهمة. تحقّق من الاتصال واضغط مرة أخرى.')}
+                  </p>
+                )}
+
                 {mode === 'wizard' ? (
                   /*
                    * تنقّل واحد لا اثنان.
@@ -1112,11 +1264,14 @@ export default function DayPage({
                           if (innerStep > 0) goToSlice(innerStep - 1);
                           else goToStep(step - 1);
                         }}
-                        className="min-h-12 shrink-0 rounded-xl bg-white px-4 text-sm text-slate-600
-                                   ring-1 ring-slate-200 transition hover:ring-slate-300
+                        // An arrow, not a word: the one labelled button on this bar is the way forward
+                        aria-label={tr('رجوع')}
+                        title={tr('رجوع')}
+                        className="grid min-h-12 w-12 shrink-0 place-items-center rounded-xl bg-white text-slate-500
+                                   ring-1 ring-slate-200 transition hover:text-slate-700 hover:ring-slate-300
                                    active:scale-95"
                       >
-                        {tr('رجوع')}
+                        <ArrowRight aria-hidden size={18} />
                       </button>
                     )}
 
@@ -1126,7 +1281,15 @@ export default function DayPage({
                         if (!atLastSlice) { goToSlice(innerStep + 1); return; }
 
                         // ② المهمّة تُؤشَّر إن لم تكن مؤشَّرة
-                        if (!checked) await toggle(task);
+                        if (!checked) {
+                          // Homework needs its written proof first — the server checks too
+                          if (task.blocks.some((b) => b.type === 'homework') && homeworkProof.trim().length < 3) {
+                            setNeedsProof(true);
+                            return;
+                          }
+                          if (!(await toggle(task))) return;   // stay, and say so below
+                          await stampDone(task.order);
+                        }
 
                         // ③ مهمّة تالية إن وُجدت
                         if (!isLastStep) { goToStep(step + 1); return; }
@@ -1164,9 +1327,16 @@ export default function DayPage({
                             ? checked
                               ? tr('أنهِ اليوم')
                               : tr('أنجزتها — أنهِ اليوم')
-                            : checked
-                              ? <>{tr('المهمة التالية')} <ArrowLeft aria-hidden size={15} className="inline-block align-[-3px]" /></>
-                              : <>{tr('أنجزتها — المهمة التالية')} <ArrowLeft aria-hidden size={15} className="inline-block align-[-3px]" /></>}
+                            : (
+                              // The next task by name: the learner knows where the button leads
+                              <span className="flex items-center justify-center gap-1.5 px-2">
+                                <span className="shrink-0">{checked ? tr('التالي:') : tr('أنجزتها · التالي:')}</span>
+                                <span className="truncate">
+                                  <Bdi>{day.tasks[step + 1] ? taskName(day.tasks[step + 1]).primary : ''}</Bdi>
+                                </span>
+                                <ArrowLeft aria-hidden size={15} className="shrink-0" />
+                              </span>
+                            )}
                     </button>
                   </div>
                 ) : taskReachable(task) ? (
@@ -1255,158 +1425,6 @@ export default function DayPage({
               إتمامها كلها.
             </p>
           </div>
-        )}
-
-        {/* ============ وقت الاستراحة لهذا اليوم ============
-             خارج ساعة الدراسة ولا يُحتسب في مهام اليوم الخمس.
-             موضعه هنا بعد المهام لا قبلها: أولاً ساعة الدراسة،
-             ثم ما يُستمتع به. */}
-        {breakToday && (
-          <section className="overflow-hidden rounded-2xl bg-fuchsia-50/60 ring-1 ring-fuchsia-200">
-            <div className="flex flex-wrap items-center justify-between gap-4 p-5">
-              <div className="min-w-0">
-                <p className="flex flex-wrap items-center gap-2 text-xs font-medium text-fuchsia-700">
-                  <Headphones aria-hidden size={15} />
-                  وقت الاستراحة · اليوم {breakToday.day_number}
-                  <span className="rounded-full bg-white px-2 py-0.5 text-xs text-fuchsia-600 ring-1 ring-fuchsia-200">
-                    {tr('خارج ساعة الدراسة')}
-                  </span>
-                </p>
-
-                {/* اسم النشاط عنواناً، وعملُ اليوم تحته — لا العكس:
-                    «الأغنية + مهمّة تعقّب النبر» عنوانٌ لا يقول شيئاً
-                    وحده، و«أغنية الأسبوع» يقول عمّ نتكلّم */}
-                <p
-                  className={`mt-1.5 font-semibold ${
-                    breakDone ? 'text-slate-400 line-through' : 'text-slate-900'
-                  }`}
-                >
-                  {breakToday.item_label_ar ?? breakToday.activity_ar}
-                </p>
-
-                {breakToday.item_label_ar && (
-                  <p className="mt-0.5 text-sm text-slate-700">
-                    {tr('اليوم:')} {breakToday.activity_ar}
-                  </p>
-                )}
-
-                <p className="mt-0.5 text-xs text-slate-500">
-                  {breakToday.minutes} دقيقة · خارج مهام اليوم
-                </p>
-              </div>
-
-              <div className="flex shrink-0 flex-wrap items-center gap-2">
-
-                {breakToday.item_key && (
-                  <button
-                    onClick={toggleBreak}
-                    className={`rounded-xl px-4 py-2.5 text-sm font-medium transition ${
-                      breakDone
-                        ? 'bg-emerald-600 text-white hover:bg-emerald-700'
-                        : 'bg-white text-slate-700 ring-1 ring-slate-200 hover:ring-slate-300'
-                    }`}
-                  >
-                    {breakDone ? <><Check aria-hidden size={15} className="inline-block align-[-3px]" /> {tr('أنجزته')}</> : tr('أشّر كمنجَز')}
-                  </button>
-                )}
-
-                <Link
-                  href={`/week/${week.number}#breaktime`}
-                  className="rounded-xl bg-white px-4 py-2.5 text-sm text-slate-600
-                             ring-1 ring-slate-200 transition hover:ring-slate-300"
-                >
-                  {tr('كل الأنشطة')}
-                </Link>
-              </div>
-            </div>
-
-            {/* ماذا أفعل بالضبط — الخطوات من الكتاب.
-                هذه هي التي كانت مفقودة: العنوان يقول «تعقّب النبر»
-                ولا يقول كيف، فيُقرأ ثم يُتخطّى. */}
-            {(breakToday.item_steps.length > 0 || breakToday.link?.note_ar || breakToday.link?.note_en) && (
-              <div className="border-t border-fuchsia-100 bg-white/70 px-5 py-4">
-                {/* تعريف المصدر: «Extra English» اسمٌ لا يعرفه أحد */}
-                {(breakToday.link?.note_ar || breakToday.link?.note_en) && (
-                  <p className="mb-3 rounded-lg bg-fuchsia-50/70 p-3 text-xs leading-relaxed text-fuchsia-900">
-                    <strong><Bdi>{breakToday.link?.label}</Bdi></strong>
-                    {' — '}
-                    {breakToday.link?.note_ar ? (
-                      breakToday.link.note_ar
-                    ) : (
-                      <span dir="ltr">{breakToday.link?.note_en}</span>
-                    )}
-                  </p>
-                )}
-
-                {breakToday.item_steps.length > 0 && (
-                  <>
-                    <p className="mb-2 text-xs font-bold text-slate-800">
-                      {tr('ماذا تفعل')}
-                    </p>
-
-                    <ol className="space-y-1.5">
-                      {breakToday.item_steps.map((step, i) => (
-                        <li key={i} className="flex gap-2 text-xs leading-relaxed text-slate-700">
-                          <span
-                            className="mt-px grid h-4 w-4 shrink-0 place-items-center rounded-full
-                                       bg-fuchsia-100 text-xs font-bold text-fuchsia-700"
-                          >
-                            {i + 1}
-                          </span>
-                          <span>{step}</span>
-                        </li>
-                      ))}
-                    </ol>
-                  </>
-                )}
-
-                {breakToday.item_why_ar && (
-                  <p className="mt-3 border-t border-slate-100 pt-2.5 text-xs leading-relaxed text-slate-500">
-                    {breakToday.item_why_ar}
-                  </p>
-                )}
-              </div>
-            )}
-
-            {/* مهمّة الملاحظة — سطر واحد يحوّل المشاهدة السلبية إلى
-                انتباه. لا يُقيَّم ولا يُصحَّح ولا يقفل شيئاً؛ غرضه أن
-                يبقى منه أثر بعد أن ينتهي الفيديو */}
-            {breakToday.item_prompt_ar && (
-              <div className="border-t border-fuchsia-100 bg-white/70 p-5 pt-4">
-                <label className="flex items-center gap-1.5 text-xs font-bold text-fuchsia-900">
-                  <PenLine aria-hidden size={14} /> {breakToday.item_prompt_ar}
-                </label>
-
-                <textarea
-                  value={breakNote}
-                  onChange={(e) => setBreakNote(e.target.value)}
-                  rows={2}
-                  placeholder={tr('اكتب ما التقطته…')}
-                  className="ruled mt-2 resize-y text-sm"
-                />
-
-                <div className="mt-2 flex items-center justify-between gap-3">
-                  <p className="text-xs text-fuchsia-700/70">
-                    {tr('لك وحدك — لا يُصحَّح ولا يُقيَّم')}
-                  </p>
-
-                  {breakNote.trim() !== breakSaved.trim() ? (
-                    <button
-                      onClick={saveBreakNote}
-                      className="shrink-0 rounded-lg bg-fuchsia-600 px-3.5 py-2 text-xs font-medium
-                                 text-white transition hover:bg-fuchsia-700"
-                    >
-                      {tr('احفظ')}
-                    </button>
-                  ) : breakSaved ? (
-                    <span className="shrink-0 text-xs font-medium text-emerald-600">
-                      <Check aria-hidden size={15} className="inline-block align-[-3px]" /> {tr('محفوظ')}
-                    </span>
-                  ) : null}
-                </div>
-              </div>
-            )}
-          </section>
         )}
 
         {/* التنقّل بين الأيام */}

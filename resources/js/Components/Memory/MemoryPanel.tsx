@@ -63,7 +63,7 @@ function Mark({ text, needle }: { text: string; needle: string }) {
 
 /** شارة مصدر المعنى — ترجمةٌ آلية يجب أن يُعرَف أنها آلية */
 const SOURCE: Record<MemoryWord['source'], { label: string; tone: string } | null> = {
-  course: { label: 'من الكتاب', tone: 'bg-emerald-50 text-emerald-700' },
+  course: { label: 'من الدروس', tone: 'bg-emerald-50 text-emerald-700' },
   auto: { label: 'ترجمة آلية', tone: 'bg-amber-50 text-amber-700' },
   manual: null,
 };
@@ -379,7 +379,7 @@ export default function MemoryPanel({
         </form>
 
         <p className="mt-2 text-xs text-slate-400">
-          {tr('اتركه فارغاً ونبحث عن المعنى لك — من مفردات الكتاب أولاً.')}
+          {tr('اتركه فارغاً ونترجمه لك تلقائياً.')}
         </p>
 
         {error && (

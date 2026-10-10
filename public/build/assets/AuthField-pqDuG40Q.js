@@ -1,0 +1,3 @@
+import{n as e}from"./app-sdn9uwnk.js";var t=e();function n({id:e,label:n,type:r=`text`,value:i,error:a,onChange:o,autoComplete:s,placeholder:c,dir:l=`ltr`,autoFocus:u=!1,readOnly:d=!1,aside:f}){return(0,t.jsxs)(`div`,{children:[(0,t.jsxs)(`div`,{className:`flex items-baseline justify-between gap-2`,children:[(0,t.jsx)(`label`,{htmlFor:e,className:`folio-soft block text-sm font-medium`,children:n}),f]}),(0,t.jsx)(`input`,{id:e,name:e,type:r,dir:l,value:i,autoComplete:s,placeholder:c,autoFocus:u,readOnly:d,required:!0,onChange:e=>o(e.target.value),className:`folio-input mt-1 w-full text-base
+                    ${d?`opacity-60`:``}
+                    ${a?`is-error`:``}`}),a&&(0,t.jsx)(`p`,{className:`mt-1.5 text-sm text-rose-700`,children:a})]})}export{n as t};

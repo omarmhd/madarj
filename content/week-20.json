@@ -75,16 +75,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -105,22 +123,40 @@
           "ref": "vocab:time_in_a_story"
         },
         {
-          "order": 3,
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:time_in_a_story",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -147,16 +183,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -177,22 +231,40 @@
           "ref": "vocab:narrative_connectors|dialogue:1"
         },
         {
-          "order": 3,
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:narrative_connectors",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -219,16 +291,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -255,16 +345,34 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -291,16 +399,28 @@
           "ref": "section:phonics"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     }
@@ -1748,156 +1868,6 @@
       }
     },
     {
-      "kind": "breaktime",
-      "day_number": 7,
-      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
-      "title_en": "Break Time — English Outside the Book",
-      "payload": {
-        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
-        "compare": [
-          {
-            "aspect_ar": "الكمّ",
-            "intensive_ar": "دقائق من الصوت",
-            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
-          },
-          {
-            "aspect_ar": "الفهم",
-            "intensive_ar": "تستهدف 100%",
-            "extensive_ar": "50–70% تكفي"
-          },
-          {
-            "aspect_ar": "الجهد",
-            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
-            "extensive_ar": "منخفض — تسترخي وتستمتع"
-          },
-          {
-            "aspect_ar": "ما يبنيه",
-            "intensive_ar": "الدقّة والقواعد",
-            "extensive_ar": "السرعة والأذن والحدس والمفردات"
-          },
-          {
-            "aspect_ar": "لو أغفلته",
-            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
-            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
-          }
-        ],
-        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
-        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
-        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
-        "watch": {
-          "pick": {
-            "title": "Stand-up comedy",
-            "where": "YouTube — any clean comedian, with subtitles",
-            "why_en": "Comedians are professional storytellers. Watch how long they hold a pause before a punchline.",
-            "search": "Stand-up comedy"
-          },
-          "alternatives": [
-            {
-              "title": "TED Talks that open with a story",
-              "where": "ted.com",
-              "why_en": "Most good talks begin with a personal story in exactly the six-part shape from the grammar section.",
-              "url": "https://ted.com"
-            },
-            {
-              "title": "Friends — Episodes 21–23",
-              "where": "Any streaming service",
-              "why_en": "One episode with no subtitles this week.",
-              "search": "Friends — Episodes 21–23"
-            }
-          ],
-          "item": {
-            "key": "watch",
-            "icon": "📺",
-            "label_ar": "ما تشاهده",
-            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
-            "minutes": 25,
-            "steps": [
-              "شاهد حلقة كاملة بلا توقّف.",
-              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
-              "اكتب ثلاث عبارات علقت في ذهنك."
-            ],
-            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
-            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
-          }
-        },
-        "story": {
-          "pick": {
-            "title": "The Moth",
-            "why_en": "Ten to fifteen minutes each. The single best model of the grammar section you will find anywhere.",
-            "search": "The Moth"
-          },
-          "alternatives": [
-            {
-              "title": "This American Life",
-              "why_en": "Slower and more produced. Excellent for hearing scene-setting.",
-              "search": "This American Life"
-            },
-            {
-              "title": "Snap Judgment",
-              "why_en": "Strong use of pausing and pace changes.",
-              "search": "Snap Judgment"
-            }
-          ],
-          "item": {
-            "key": "story",
-            "icon": "📖",
-            "label_ar": "ما تقرأه",
-            "task_ar": "خمس عشرة دقيقة قراءة أو استماع، ولا تبحث عن أكثر من ثلاث كلمات",
-            "minutes": 15,
-            "steps": [
-              "استمع إلى قصة واحدة كاملة.",
-              "اسمعها ثانية وحدّد: أين المشهد؟ وأين الحدث؟ وأين النهاية؟",
-              "لاحظ أين وقف الراوي، وكم استغرقت الوقفة.",
-              "اسرد القصة نفسها بكلماتك في دقيقتين."
-            ],
-            "why_ar": "الوقفة في السرد ليست فراغاً بل علامة ترقيم — وهي ما يفصل الراوي الجيد عن غيره.",
-            "prompt_ar": "اكتب مشهد القصة وحدثها ونهايتها في ثلاثة أسطر"
-          }
-        },
-        "item_order": [
-          "watch",
-          "story"
-        ],
-        "plan": [
-          {
-            "day_ar": "السبت",
-            "activity_ar": "قصة واحدة من The Moth",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الأحد",
-            "activity_ar": "القصة نفسها — مهمة التحليل",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الاثنين",
-            "activity_ar": "مقطع كوميديا واقفة مع الترجمة",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الثلاثاء",
-            "activity_ar": "تمرّن على سرد قصتك بصوت عالٍ ثلاث مرات",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الأربعاء",
-            "activity_ar": "درس — احكِ قصتك",
-            "minutes": 35
-          },
-          {
-            "day_ar": "الخميس",
-            "activity_ar": "قصّتان أخريان من The Moth",
-            "minutes": 30
-          },
-          {
-            "day_ar": "الجمعة",
-            "activity_ar": "Friends الحلقة 21 — بلا ترجمة + قراءة",
-            "minutes": 40
-          }
-        ]
-      }
-    },
-    {
       "kind": "speaking",
       "title_ar": "التحدّث",
       "title_en": "Tell a Story",
@@ -2020,6 +1990,303 @@
           }
         ],
         "save_as": "Week20"
+      }
+    },
+    {
+      "kind": "practice",
+      "title_ar": "اكتب مثله",
+      "title_en": "Write One Like It",
+      "payload": {
+        "items": [
+          {
+            "day": 1,
+            "title_ar": "ماذا كنت تفعل؟",
+            "model": [
+              {
+                "en": "At eight o'clock last night, I was having dinner with my family.",
+                "ar": "في الثامنة من مساء أمس كنت أتعشّى مع عائلتي."
+              },
+              {
+                "en": "My brother was watching the news.",
+                "ar": "كان أخي يشاهد الأخبار."
+              },
+              {
+                "en": "While we were eating, the lights went out.",
+                "ar": "وبينما كنا نأكل انطفأت الأنوار."
+              },
+              {
+                "en": "We were sitting in the dark when my father found a candle.",
+                "ar": "كنا جالسين في الظلام عندما وجد أبي شمعة."
+              }
+            ],
+            "pattern_en": "I was ___ing when ___.",
+            "prompt_ar": "اكتب 4 جمل عن مساء أمس أو يوم تتذكّره: ماذا كنت تفعل أنت ومن حولك، ثم حدث قطع ذلك.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "was having",
+                "ar": "was أو were + ing للخلفية: شيء كان مستمراً. ولا تنسَ ing: «I was sleep» خطأ."
+              },
+              {
+                "word": "were",
+                "ar": "مع we وthey وyou نقول were: We were eating. «They was happy» خطأ."
+              },
+              {
+                "word": "While",
+                "ar": "معناها «بينما»، وبعدها جملة كاملة غالباً بـ was أو were + ing."
+              },
+              {
+                "word": "went out",
+                "ar": "الحدث الذي يقطع الخلفية يأتي بالماضي البسيط: the lights went out = انطفأت الأنوار."
+              }
+            ],
+            "check_ar": [
+              "هل استعملت was أو were + ing للخلفية؟",
+              "هل جاء الحدث المفاجئ بالماضي البسيط؟",
+              "هل كتبت were مع we وthey؟"
+            ]
+          },
+          {
+            "day": 2,
+            "title_ar": "الوقت في الحكاية",
+            "model": [
+              {
+                "en": "Last winter, I was travelling to my uncle's village by bus.",
+                "ar": "في الشتاء الماضي كنت مسافراً بالحافلة إلى قرية عمّي."
+              },
+              {
+                "en": "During the journey, the bus broke down.",
+                "ar": "وأثناء الرحلة تعطّلت الحافلة."
+              },
+              {
+                "en": "While we were waiting by the road, it started to rain.",
+                "ar": "وبينما كنا ننتظر على جانب الطريق بدأ المطر."
+              },
+              {
+                "en": "Half an hour later, another bus came, and we finally got home.",
+                "ar": "وبعد نصف ساعة جاءت حافلة أخرى، ووصلنا أخيراً."
+              }
+            ],
+            "pattern_en": "During ___, ___. While I was ___ing, ___.",
+            "prompt_ar": "اكتب 4 جمل عن رحلة أو انتظار طويل في حياتك. استعمل during وwhile وعبارة مثل half an hour later.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "During",
+                "ar": "بعدها اسم لا جملة: during the journey. «During I was cooking» خطأ."
+              },
+              {
+                "word": "While",
+                "ar": "بعدها جملة كاملة: while we were waiting. ولا نقول while the meeting."
+              },
+              {
+                "word": "Half an hour later",
+                "ar": "معناها «بعد نصف ساعة». تنقل القصة إلى الأمام. ومثلها a few minutes later."
+              },
+              {
+                "word": "finally",
+                "ar": "معناها «أخيراً» بعد انتظار، وتأتي قبل الفعل: we finally got home."
+              }
+            ],
+            "check_ar": [
+              "هل جاء بعد during اسم، وبعد while جملة؟",
+              "هل نقلت القصة إلى الأمام بعبارة وقت؟"
+            ]
+          },
+          {
+            "day": 3,
+            "title_ar": "ما حدث قبل ذلك",
+            "model": [
+              {
+                "en": "Last Monday was a terrible day.",
+                "ar": "كان يوم الاثنين الماضي يوماً سيّئاً جداً."
+              },
+              {
+                "en": "When I arrived at work, the meeting had already started.",
+                "ar": "عندما وصلت إلى العمل كان الاجتماع قد بدأ."
+              },
+              {
+                "en": "I had left my phone at home, so nobody could call me.",
+                "ar": "كنت قد تركت هاتفي في البيت، فلم يستطع أحد أن يتّصل بي."
+              },
+              {
+                "en": "I hadn't eaten breakfast, so I was hungry all morning.",
+                "ar": "لم أكن قد أفطرت، فبقيت جائعاً طوال الصباح."
+              }
+            ],
+            "pattern_en": "When I ___, ___ had already ___.",
+            "prompt_ar": "اكتب 4 جمل عن يوم سيّئ أو صعب مرّ بك. استعمل had + التصريف الثالث لما حدث قبل الحدث الرئيسي.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "had already started",
+                "ar": "had + التصريف الثالث لحدث سبق حدثاً آخر: بدأ الاجتماع قبل أن أصل. وalready تأتي بين had والفعل."
+              },
+              {
+                "word": "had left",
+                "ar": "تركت الهاتف قبل أن أصل، فنقول had left لا left وحدها."
+              },
+              {
+                "word": "hadn't eaten",
+                "ar": "النفي hadn't + التصريف الثالث: hadn't eaten، لا hadn't ate."
+              },
+              {
+                "word": "so",
+                "ar": "معناها «لذلك»، وبعدها النتيجة: so I was hungry."
+              }
+            ],
+            "check_ar": [
+              "هل استعملت had + التصريف الثالث لما حدث أولاً؟",
+              "هل جاء الحدث الرئيسي بالماضي البسيط؟"
+            ]
+          },
+          {
+            "day": 4,
+            "title_ar": "وفجأة…",
+            "model": [
+              {
+                "en": "One day, I was driving to work as usual.",
+                "ar": "ذات يوم كنت أقود إلى العمل كالعادة."
+              },
+              {
+                "en": "All of a sudden, a cat ran into the road.",
+                "ar": "وفجأة ركضت قطّة إلى وسط الطريق."
+              },
+              {
+                "en": "Luckily, I stopped in time.",
+                "ar": "ولحسن الحظّ توقّفت في الوقت المناسب."
+              },
+              {
+                "en": "In the end, the cat was fine, but my hands were shaking.",
+                "ar": "وفي النهاية كانت القطّة بخير، لكن يديّ كانتا ترتجفان."
+              }
+            ],
+            "pattern_en": "One day, I was ___ing. All of a sudden, ___. Luckily, ___.",
+            "prompt_ar": "اكتب 4 جمل عن مفاجأة صغيرة حدثت لك. ابدأ كل جملة بعبارة ربط مختلفة.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "One day",
+                "ar": "معناها «ذات يوم». بداية معروفة للقصة، وبعدها الخلفية بـ was + ing."
+              },
+              {
+                "word": "All of a sudden",
+                "ar": "معناها «فجأة». تأتي قبل الحدث المهم، وبعدها الماضي البسيط."
+              },
+              {
+                "word": "Luckily",
+                "ar": "معناها «لحسن الحظ»، وعكسها Unfortunately. وبعدها فاصلة."
+              },
+              {
+                "word": "In the end",
+                "ar": "معناها «في النهاية» لختام القصة. أمّا at the end فتحتاج of: at the end of the day."
+              }
+            ],
+            "check_ar": [
+              "هل بدأت كل جملة بعبارة ربط مختلفة؟",
+              "هل جاءت الخلفية بـ was + ing والحدث بالماضي البسيط؟"
+            ]
+          },
+          {
+            "day": 5,
+            "title_ar": "يوم كنت قلقاً",
+            "model": [
+              {
+                "en": "It was my first day at a new job, and I was very nervous.",
+                "ar": "كان يومي الأول في عمل جديد، وكنت متوتّراً جداً."
+              },
+              {
+                "en": "I was looking for the office when I realised I had forgotten my card.",
+                "ar": "كنت أبحث عن المكتب عندما أدركت أنني كنت قد نسيت بطاقتي."
+              },
+              {
+                "en": "To make things worse, it was raining.",
+                "ar": "وزاد الأمرَ سوءاً أنها كانت تمطر."
+              },
+              {
+                "en": "That's when a kind colleague saw me and let me in.",
+                "ar": "عندها رآني زميل لطيف وأدخلني."
+              }
+            ],
+            "pattern_en": "I was ___ing when I realised ___. To make things worse, ___.",
+            "prompt_ar": "اكتب 4 جمل عن يوم كنت فيه قلقاً أو متوتّراً، ثم اقرأها بصوت عالٍ مع وقفة قصيرة قبل الحدث المهم.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "realised",
+                "ar": "معناها «أدركت فجأة». تُكتب بـ s في الإملاء البريطاني: realise · realised."
+              },
+              {
+                "word": "had forgotten",
+                "ar": "النسيان حدث قبل البحث، فنستعمل had + التصريف الثالث: had forgotten."
+              },
+              {
+                "word": "To make things worse",
+                "ar": "معناها «وزاد الأمرَ سوءاً». تضيف مشكلة ثانية إلى القصة."
+              },
+              {
+                "word": "That's when",
+                "ar": "معناها «عندها بالضبط». تأتي قبل الحدث الذي غيّر القصة."
+              }
+            ],
+            "check_ar": [
+              "هل استعملت had + التصريف الثالث مرة واحدة على الأقل؟",
+              "هل توقّفت لحظة قبل الحدث المهم حين قرأت بصوت عالٍ؟"
+            ]
+          },
+          {
+            "day": 6,
+            "title_ar": "قصة من حياتك",
+            "model": [
+              {
+                "en": "A few years ago, I was working in a small shop.",
+                "ar": "قبل بضع سنوات كنت أعمل في محلّ صغير."
+              },
+              {
+                "en": "One evening, while I was closing, a customer came back.",
+                "ar": "وذات مساء، بينما كنت أغلق المحلّ، عاد زبون."
+              },
+              {
+                "en": "He was angry because I had given him the wrong change.",
+                "ar": "كان غاضباً لأنني أعطيته الباقي خطأً."
+              },
+              {
+                "en": "I checked the money, and it turned out that he was right.",
+                "ar": "راجعت المال، فتبيّن أنه كان محقّاً."
+              },
+              {
+                "en": "Looking back, I learned to check everything twice.",
+                "ar": "حين أنظر إلى ما حدث، تعلّمت أن أراجع كل شيء مرتين."
+              }
+            ],
+            "pattern_en": "A few years ago, I was ___ing. ___ because I had ___. Looking back, I learned ___.",
+            "prompt_ar": "اكتب 5 جمل تحكي قصة حقيقية من حياتك: الخلفية، ثم الحدث، ثم ما حدث قبله، ثم النهاية، ثم ما تعلّمته. هذا تمرين لكتابة الغد (150 إلى 180 كلمة).",
+            "min_sentences": 5,
+            "notes": [
+              {
+                "word": "A few years ago",
+                "ar": "معناها «قبل بضع سنوات». بداية سهلة لأي قصة حقيقية."
+              },
+              {
+                "word": "had given",
+                "ar": "الخطأ وقع قبل عودة الزبون، فنستعمل had + التصريف الثالث."
+              },
+              {
+                "word": "it turned out that",
+                "ar": "معناها «تبيّن أن». لما تعرفه في آخر القصة."
+              },
+              {
+                "word": "Looking back",
+                "ar": "معناها «حين أنظر إلى الماضي الآن». تبدأ بها الدرس الذي تعلّمته."
+              }
+            ],
+            "check_ar": [
+              "هل فيها جملة خلفية بـ was أو were + ing؟",
+              "هل فيها had + التصريف الثالث لحدث أسبق؟",
+              "هل ختمت بما تعلّمته أو بما شعرت به؟"
+            ]
+          }
+        ]
       }
     }
   ],

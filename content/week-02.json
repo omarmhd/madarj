@@ -61,22 +61,40 @@
           "ref": "vocab:routine_verbs|section:phonics"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:routine_verbs",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -97,22 +115,40 @@
           "ref": "vocab:time_and_frequency|vocab:telling_the_time"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:time_and_frequency,telling_the_time",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -135,20 +171,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -171,20 +225,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -205,22 +277,40 @@
           "ref": "vocab:places_and_things_in_your_day|section:grammar"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:places_and_things_in_your_day",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -243,20 +333,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -283,16 +391,28 @@
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     }
@@ -1785,238 +1905,6 @@
       }
     },
     {
-      "kind": "breaktime",
-      "day_number": null,
-      "title_ar": "وقت الاستراحة — المضارع البسيط",
-      "title_en": "Break Time — English Outside the Book",
-      "payload": {
-        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
-        "compare": [
-          {
-            "aspect_ar": "الكمّ",
-            "intensive_ar": "دقائق من الصوت",
-            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
-          },
-          {
-            "aspect_ar": "الفهم",
-            "intensive_ar": "تستهدف 100%",
-            "extensive_ar": "50–70% تكفي"
-          },
-          {
-            "aspect_ar": "الجهد",
-            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
-            "extensive_ar": "منخفض — تسترخي وتستمتع"
-          },
-          {
-            "aspect_ar": "ما يبنيه",
-            "intensive_ar": "الدقّة والقواعد",
-            "extensive_ar": "السرعة والأذن والحدس والمفردات"
-          },
-          {
-            "aspect_ar": "لو أغفلته",
-            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
-            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
-          }
-        ],
-        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
-        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
-        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
-        "song": {
-          "intro_ar": "هذه الأغاني مبنية كلها تقريباً على الزمن الذي درسته هذا الأسبوع. تصيَّد نهايات الـ s.",
-          "pick": {
-            "title": "What a Wonderful World",
-            "artist": "Louis Armstrong",
-            "why_ar": "بطيئة ودافئة، وكل سطر فيها مضارع بسيط: I see trees… I hear babies cry. مثالية لسماع الزمن في كلام طبيعي.",
-            "search": "Louis Armstrong What a Wonderful World lyrics"
-          },
-          "alternatives": [
-            {
-              "title": "Don't Worry, Be Happy",
-              "artist": "Bobby McFerrin",
-              "why_ar": "بسيطة جداً ومتكرّرة، ومليئة بالمضارع البسيط والنفي بـ don’t."
-            },
-            {
-              "title": "Yellow Submarine",
-              "artist": "The Beatles",
-              "why_ar": "إنجليزية بسيطة كأنها للأطفال، بنطق واضح ولازمة لا تُنسى."
-            }
-          ],
-          "method_ar": [
-            "اختر أغنية واحدة. شغّلها مرة للمتعة.",
-            "شغّلها مرة أخرى وأحصِ كم فعلاً سمعته بنهاية s.",
-            "افتحها على LyricsTraining بمستوى Beginner والعب لعبة الفراغات مرتين.",
-            "غنِّها مرة بصوت عالٍ، وحدك في غرفة."
-          ],
-          "tool": {
-            "name": "LyricsTraining",
-            "url": "https://lyricstraining.com/",
-            "why_ar": "لعبة ملء الفراغات على أي أغنية."
-          },
-          "item": {
-            "key": "song",
-            "icon": "🎵",
-            "label_ar": "أغنية الأسبوع",
-            "task_ar": "اسمعها للمتعة · أحصِ نهايات الـ s · العب LyricsTraining مرتين · غنِّها مرة",
-            "minutes": 30,
-            "steps": [
-              "شغّلها مرة للمتعة فقط — بلا كلمات ولا تحليل.",
-              "شغّلها ثانية واكتب خمس كلمات سمعتها ولم تكن تعرفها.",
-              "شغّلها مع الكلمات المكتوبة أمامك.",
-              "غنِّ معها مرة. الغناء يضبط الإيقاع بلا أن تفكّر فيه."
-            ],
-            "why_ar": "الأغنية تُعاد خمسين مرة طوعاً، ولا تمرين يُعاد خمسين مرة.",
-            "prompt_ar": "الكلمات الخمس التي التقطتها"
-          }
-        },
-        "watch": {
-          "pick": {
-            "title": "Peppa Pig — أي حلقة",
-            "where": "YouTube — القناة الرسمية",
-            "level": "A1",
-            "why_ar": "نعم هو للأطفال — ونعم هو من أنجع موارد A1 الموجودة. خمس دقائق للحلقة، كلها مضارع بسيط، ونطق واضح تماماً. ملايين المتعلّمين البالغين يستخدمونه.",
-            "url": "https://www.youtube.com/results?search_query=Peppa+Pig+official"
-          },
-          "alternatives": [
-            {
-              "title": "Extra English — الحلقتان 2 و3",
-              "level": "A1–A2",
-              "why_ar": "واصل المسلسل. عند الحلقة الثالثة ستلاحظ أنك تتابع أكثر من الأولى."
-            },
-            {
-              "title": "A Day in the Life of…",
-              "level": "A2",
-              "why_ar": "موضوع هذا الأسبوع ومفرداته بالضبط. ابحث عن مهنة تهمّك: طبيب، مبرمج، طاهٍ."
-            }
-          ],
-          "encouragement_ar": "لا تخجل من Peppa Pig. أذنك الإنجليزية الآن في الخامسة من عمرها — وهذه ليست إساءة بل حيث يبدأ كل متعلّم. أطعمها ما تستطيع هضمه، فتنمو سريعاً.",
-          "subtitle_rule_ar": "ترجمة إنجليزية لا عربية — القاعدة نفسها من الأسبوع الأول.",
-          "item": {
-            "key": "watch",
-            "icon": "📺",
-            "label_ar": "ما تشاهده",
-            "task_ar": "شاهد ثلاث حلقات على الأقل بترجمة إنجليزية",
-            "minutes": 25,
-            "steps": [
-              "شاهد حلقة كاملة بلا توقّف.",
-              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
-              "اكتب ثلاث عبارات علقت في ذهنك."
-            ],
-            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
-            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
-          }
-        },
-        "story": {
-          "pick": {
-            "source": "British Council — Elementary Podcasts",
-            "url": "https://learnenglish.britishcouncil.org",
-            "what_ar": "السلسلة 1 الحلقتان 2 و3. استمع والنصّ مفتوح أمامك."
-          },
-          "alternatives": [
-            {
-              "source": "Storynory",
-              "url": "https://storynory.com",
-              "what_ar": "أي قصة قصيرة تحت عشر دقائق."
-            },
-            {
-              "source": "VOA Learning English — Level 1",
-              "url": "https://learningenglish.voanews.com",
-              "what_ar": "أخبار بسرعة بطيئة، ثلاث دقائق لكل قصة، بالنصّ الكامل."
-            }
-          ],
-          "target_ar": [
-            "قصة واحدة، ثلاث مرات: صوت · صوت + نصّ · صوت."
-          ],
-          "item": {
-            "key": "story",
-            "icon": "📖",
-            "label_ar": "قصة الأسبوع",
-            "task_ar": "قصة واحدة ثلاث مرات: صوت · صوت + نصّ · صوت",
-            "minutes": 30,
-            "steps": [
-              "خمس عشرة دقيقة قراءة أو استماع — لا أكثر.",
-              "لا تبحث عن أكثر من ثلاث كلمات. خمّن الباقي من السياق.",
-              "اكتب جملة واحدة عمّا قرأته، من الذاكرة."
-            ],
-            "why_ar": "الحدس من السياق هو المهارة المقصودة — والبحث عن كل كلمة يقتلها.",
-            "prompt_ar": "جملة واحدة عمّا قرأته"
-          }
-        },
-        "channel": {
-          "heading_ar": "بودكاست تجرّبه",
-          "intro_ar": "البودكاست أفضل استخدام للوقت الميت — القيادة والمشي والانتظار. ابدأ بواحد مصنوع للمتعلّمين.",
-          "pick": {
-            "name": "BBC 6 Minute English",
-            "url": "https://www.bbc.co.uk/learningenglish/features/6-minute-english",
-            "why_ar": "ست دقائق، مُقدّمان، موضوع واحد، ونصّ كامل."
-          },
-          "alternatives": [
-            {
-              "name": "Culips ESL Podcast",
-              "url": "https://www.culips.com/",
-              "why_ar": "محادثة طبيعية تُشرح بعدها."
-            }
-          ],
-          "note_ar": "في A1–A2 توقّع أن تفهم 30–50% من البودكاست. هذا طبيعي ومفيد رغم ذلك. لا تتوقّف لأنه يبدو صعباً — النسبة ترتفع وحدها.",
-          "item": {
-            "key": "channel",
-            "icon": "🎧",
-            "label_ar": "بودكاست تجرّبه",
-            "task_ar": "حلقة واحدة كاملة مع النصّ — وتوقّع فهم 30–50% وهذا طبيعي",
-            "minutes": 15,
-            "steps": [
-              "شاهد شيئاً واحداً على الأقل من القناة.",
-              "أعد ما أعجبك مرة ثانية.",
-              "اكتب ما تعلّمته في سطر."
-            ],
-            "prompt_ar": "ماذا تعلّمت؟"
-          }
-        },
-        "plan": [
-          {
-            "day_ar": "السبت",
-            "activity_ar": "الأغنية — التشغيلان الأول والثاني",
-            "minutes": 10
-          },
-          {
-            "day_ar": "الأحد",
-            "activity_ar": "Peppa Pig — حلقتان",
-            "minutes": 10
-          },
-          {
-            "day_ar": "الاثنين",
-            "activity_ar": "الأغنية — عدّ نهايات الـ s + LyricsTraining",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الثلاثاء",
-            "activity_ar": "Extra English الحلقة 2",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الأربعاء",
-            "activity_ar": "البودكاست — 6 Minute English",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الخميس",
-            "activity_ar": "القصة — صوت + نصّ",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الجمعة",
-            "activity_ar": "حرّ. شاهد ما تحبّ بالإنجليزية.",
-            "minutes": 30
-          }
-        ],
-        "item_order": [
-          "song",
-          "watch",
-          "story",
-          "channel"
-        ]
-      }
-    },
-    {
       "kind": "selfcheck",
       "day_number": 7,
       "title_ar": "الاختبار الذاتي — نهاية الفصل",
@@ -2179,6 +2067,297 @@
           }
         ],
         "save_as": "Week02"
+      }
+    },
+    {
+      "kind": "practice",
+      "title_ar": "اكتب مثله",
+      "title_en": "Write One Like It",
+      "payload": {
+        "items": [
+          {
+            "day": 1,
+            "title_ar": "صباحك بالساعة",
+            "model": [
+              {
+                "en": "I wake up at six.",
+                "ar": "أستيقظ في السادسة."
+              },
+              {
+                "en": "I take a shower.",
+                "ar": "أستحمّ."
+              },
+              {
+                "en": "I have breakfast at seven.",
+                "ar": "أتناول الفطور في السابعة."
+              },
+              {
+                "en": "Then I go to work.",
+                "ar": "ثم أذهب إلى العمل."
+              }
+            ],
+            "pattern_en": "I ___ at ___.",
+            "prompt_ar": "اكتب 4 جمل عن صباحك أنت، واذكر الساعة في جملتين على الأقل.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "at",
+                "ar": "معناها «في» مع الساعة: at six · at seven. ستدرس at وon وin كاملة هذا الأسبوع."
+              },
+              {
+                "word": "I wake",
+                "ar": "مع I يبقى الفعل كما هو بلا إضافة. مع he وshe يتغيّر، وهذا درس اليوم 4."
+              },
+              {
+                "word": "then",
+                "ar": "معناها «ثم». تأتي في أول الجملة لترتيب الأحداث."
+              },
+              {
+                "word": "go to work",
+                "ar": "نقول go to work بلا the. ومثلها go to school · go to bed."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت at قبل كل ساعة؟",
+              "هل جاءت أحداثك بترتيبها من الصباح؟"
+            ]
+          },
+          {
+            "day": 2,
+            "title_ar": "كم مرة؟",
+            "model": [
+              {
+                "en": "I always get up early.",
+                "ar": "أنهض مبكراً دائماً."
+              },
+              {
+                "en": "I usually leave at half past seven.",
+                "ar": "عادةً أخرج في السابعة والنصف."
+              },
+              {
+                "en": "I sometimes take the bus.",
+                "ar": "أركب الحافلة أحياناً."
+              },
+              {
+                "en": "I never drive to work.",
+                "ar": "لا أقود السيارة إلى العمل أبداً."
+              }
+            ],
+            "pattern_en": "I always / usually / sometimes / never ___.",
+            "prompt_ar": "اكتب 4 جمل عن عاداتك. استعمل في كل جملة كلمة مختلفة: always · usually · sometimes · never.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "always",
+                "ar": "كلمات «كم مرة» تأتي قبل الفعل مباشرة: I always get up. لا تقل I get up always."
+              },
+              {
+                "word": "never",
+                "ar": "معناها «أبداً»، وهي نفي وحدها. لا تضع معها don't: I never drive."
+              },
+              {
+                "word": "half past",
+                "ar": "«والنصف»: half past seven = 7:30. والساعة تأتي بعدها."
+              },
+              {
+                "word": "the bus",
+                "ar": "نقول take the bus بـ the: نركب الحافلة المعروفة في طريقنا."
+              }
+            ],
+            "check_ar": [
+              "هل جاءت always وnever وأخواتها قبل الفعل؟",
+              "هل كتبت never بلا don't؟"
+            ]
+          },
+          {
+            "day": 3,
+            "title_ar": "يومنا معاً",
+            "model": [
+              {
+                "en": "My brother and I work in the same office.",
+                "ar": "أنا وأخي نعمل في المكتب نفسه."
+              },
+              {
+                "en": "We start at eight.",
+                "ar": "نبدأ في الثامنة."
+              },
+              {
+                "en": "We have lunch at one.",
+                "ar": "نتغدّى في الواحدة."
+              },
+              {
+                "en": "We finish at four.",
+                "ar": "ننتهي في الرابعة."
+              }
+            ],
+            "pattern_en": "We ___ at ___.",
+            "prompt_ar": "اكتب 4 جمل عن يوم تقضيه مع شخص آخر: صديق، أو أخ، أو زميل. استعمل we.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "my brother and I",
+                "ar": "في الإنجليزية تذكر نفسك في الآخر: my brother and I، لا I and my brother."
+              },
+              {
+                "word": "we",
+                "ar": "مع we يبقى الفعل كما هو: We start. لا يتغيّر."
+              },
+              {
+                "word": "the same",
+                "ar": "معناها «نفس الـ». تأتي دائماً مع the: the same office."
+              },
+              {
+                "word": "have lunch",
+                "ar": "نقول have lunch للأكل، لا eat lunch. ومثلها have breakfast · have dinner."
+              }
+            ],
+            "check_ar": [
+              "هل ذكرت نفسك في آخر الاسمين؟",
+              "هل بقي الفعل بلا تغيير بعد we؟"
+            ]
+          },
+          {
+            "day": 4,
+            "title_ar": "يوم شخص من عائلتك",
+            "model": [
+              {
+                "en": "My father works in a bank.",
+                "ar": "أبي يعمل في بنك."
+              },
+              {
+                "en": "He gets up at six.",
+                "ar": "ينهض في السادسة."
+              },
+              {
+                "en": "He drinks coffee with his breakfast.",
+                "ar": "يشرب القهوة مع فطوره."
+              },
+              {
+                "en": "He goes to bed at ten.",
+                "ar": "يذهب إلى النوم في العاشرة."
+              }
+            ],
+            "pattern_en": "He / She ___s at ___.",
+            "prompt_ar": "اكتب 4 جمل عن يوم شخص من عائلتك. كل فعل بعد he أو she ينتهي بـ s.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "works",
+                "ar": "مع he وshe وit نضيف s للفعل: He works. نسيانها أشهر خطأ: He work خطأ."
+              },
+              {
+                "word": "goes",
+                "ar": "إذا انتهى الفعل بـ o أو sh أو ch نضيف es: go ← goes · watch ← watches."
+              },
+              {
+                "word": "his",
+                "ar": "معناها «ـه» للرجل: his breakfast = فطوره. وللمرأة her."
+              },
+              {
+                "word": "in",
+                "ar": "معناها «في» داخل مكان: in a bank · in an office."
+              }
+            ],
+            "check_ar": [
+              "هل أضفت s أو es لكل فعل بعد he أو she؟",
+              "هل استعملت his للرجل وher للمرأة؟"
+            ]
+          },
+          {
+            "day": 5,
+            "title_ar": "عطلة نهاية الأسبوع",
+            "model": [
+              {
+                "en": "On Friday, I go to the mosque.",
+                "ar": "يوم الجمعة أذهب إلى المسجد."
+              },
+              {
+                "en": "In the evening, I read a book.",
+                "ar": "في المساء أقرأ كتاباً."
+              },
+              {
+                "en": "My sister stays at home.",
+                "ar": "أختي تبقى في البيت."
+              },
+              {
+                "en": "She has lunch with my mother.",
+                "ar": "تتغدّى مع أمّي."
+              }
+            ],
+            "pattern_en": "On ___, I ___. She ___s ___.",
+            "prompt_ar": "اكتب 4 جمل عن عطلتك: جملتان عنك، وجملتان عن شخص آخر (he أو she).",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "on",
+                "ar": "مع الأيام نقول on: on Friday · on Monday."
+              },
+              {
+                "word": "in the evening",
+                "ar": "مع أجزاء اليوم نقول in: in the morning · in the evening. لكن نقول at night."
+              },
+              {
+                "word": "has",
+                "ar": "have مع he وshe تصير has، لا haves: She has lunch."
+              },
+              {
+                "word": "at home",
+                "ar": "نقول at home بلا the، ومعناها «في البيت»."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت on قبل اليوم، وin قبل the morning أو the evening؟",
+              "هل كتبت has بعد he أو she؟"
+            ]
+          },
+          {
+            "day": 6,
+            "title_ar": "يوم عمل كامل",
+            "model": [
+              {
+                "en": "My day is busy.",
+                "ar": "يومي مزدحم."
+              },
+              {
+                "en": "I start work at eight and I finish at five.",
+                "ar": "أبدأ العمل في الثامنة وأنتهي في الخامسة."
+              },
+              {
+                "en": "After work, I usually go to the gym.",
+                "ar": "بعد العمل أذهب عادةً إلى النادي."
+              },
+              {
+                "en": "I am tired, but I am happy.",
+                "ar": "أنا متعب، لكني سعيد."
+              }
+            ],
+            "pattern_en": "After work, I usually ___.",
+            "prompt_ar": "اكتب 5 جمل عن يوم عمل أو دراسة عندك. هذا تمرين لكتابة الغد (80 إلى 100 كلمة).",
+            "min_sentences": 5,
+            "notes": [
+              {
+                "word": "after",
+                "ar": "معناها «بعد»: after work · after dinner. وعكسها before."
+              },
+              {
+                "word": "and",
+                "ar": "تربط جملتين: I start at eight and I finish at five."
+              },
+              {
+                "word": "I am tired",
+                "ar": "مع الصفة نحتاج am: I am tired. لا تقل I tired."
+              },
+              {
+                "word": "busy",
+                "ar": "معناها «مشغول» أو «مزدحم». الصفة تأتي بعد is: My day is busy."
+              }
+            ],
+            "check_ar": [
+              "هل استعملت كلمة واحدة على الأقل من always · usually · sometimes؟",
+              "هل جاءت am قبل كل صفة عنك؟"
+            ]
+          }
+        ]
       }
     }
   ],

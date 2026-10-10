@@ -4,6 +4,8 @@ import Listen from '@/Components/Listen';
 import { useMySpeech } from '@/hooks/useSpeech';
 import { useT } from '@/lib/i18n';
 import SayIt, { type SayItem } from '@/Components/Game/SayIt';
+import MouthDiagram from '@/Components/Game/MouthDiagram';
+import { soundsIn } from '@/lib/articulation';
 
 /**
  * لعبة التمييز الصوتي.
@@ -46,7 +48,7 @@ interface Props {
   production?: boolean;
   /** المجموعات بترتيب تدريبها — لا تُخلط، كما في §8.2 */
   groups: Group[];
-  /** الهدف المطلوب — من الكتاب: 11 من 12 */
+  /** الهدف المطلوب — من الكتاب: 11 من 12. Omitted, it scales to 11/12 of the questions */
   target?: number;
   onFinish?: (score: number, total: number) => void;
 }
@@ -62,23 +64,45 @@ interface Question {
   group: string;
 }
 
-export default function MinimalPairGame({ groups, target = 11, onFinish, onProgress, production = false }: Props) {
+export default function MinimalPairGame({ groups, target: targetProp, onFinish, onProgress, production = false }: Props) {
   const tr = useT();
   const { say, speaking, supported } = useMySpeech();
 
-  // بناء قائمة الأسئلة: كل زوج سؤال واحد، مرتّبة بالمجموعات
+  /*
+   * The questions: every group asked as about twelve, in group order.
+   *
+   * A day now drills one contrast, and a contrast can have three
+   * pairs — three questions is a guess, not a test. So each pair is
+   * asked more than once until the group reaches about twelve (the
+   * book's "11 of 12"), with the word spoken chosen afresh each time
+   * and the order shuffled inside the group. Groups are never
+   * shuffled into each other (§2.4).
+   */
   const questions = useMemo<Question[]>(() => {
     const list: Question[] = [];
     groups.forEach((contrast) => {
-      contrast.pairs.forEach((pair) => {
-        list.push({
-          pair,
-          // اختيار عشوائي أي كلمة تُنطق
-          spoken: Math.random() < 0.5 ? 'a' : 'b',
-          contrast,
-          group: contrast.label_ar ?? contrast.label_en,
+      const n = contrast.pairs.length;
+      const times = n === 0 ? 0 : Math.min(4, Math.max(1, Math.round(12 / n)));
+      const own: Question[] = [];
+
+      for (let t = 0; t < times; t++) {
+        contrast.pairs.forEach((pair) => {
+          own.push({
+            pair,
+            // اختيار عشوائي أي كلمة تُنطق
+            spoken: Math.random() < 0.5 ? 'a' : 'b',
+            contrast,
+            group: contrast.label_ar ?? contrast.label_en,
+          });
         });
-      });
+      }
+
+      for (let i = own.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [own[i], own[j]] = [own[j], own[i]];
+      }
+
+      list.push(...own);
     });
     return list;
   }, [groups]);
@@ -93,6 +117,7 @@ export default function MinimalPairGame({ groups, target = 11, onFinish, onProgr
 
   const current = questions[index];
   const total = questions.length;
+  const target = targetProp ?? Math.ceil((total * 11) / 12);
 
   /**
    * Report the position upward, so the page shows it in its single
@@ -280,6 +305,9 @@ export default function MinimalPairGame({ groups, target = 11, onFinish, onProgr
   const firstOfGroup =
     index === 0 || questions[index - 1]?.contrast !== current?.contrast;
 
+  // The two sounds being separated, read from "/ɪ/ vs /iː/" or the group title
+  const mouths = soundsIn(current.contrast.ipa ?? current.contrast.label_en);
+
   return (
     <div className="rounded-xl border bg-white p-6 shadow-sm">
       {/* الرأس: التقدّم والمجموعة */}
@@ -315,7 +343,7 @@ export default function MinimalPairGame({ groups, target = 11, onFinish, onProgr
         ويظهر عند أول سؤال في المجموعة، ويبقى مطويّاً بعده — فالقراءة
         مرّةٌ والتدريب اثنتا عشرة.
       */}
-      {current.contrast.hint_ar && (
+      {(current.contrast.hint_ar || mouths.length > 0) && (
         <details
           open={firstOfGroup}
           className="mb-5 rounded-xl bg-violet-50/70 ring-1 ring-violet-100"
@@ -326,9 +354,17 @@ export default function MinimalPairGame({ groups, target = 11, onFinish, onProgr
           >
             {tr('ما الفرق بين الصوتين؟')}
           </summary>
-          <p className="px-4 pb-3.5 text-xs leading-relaxed text-slate-700">
-            {current.contrast.hint_ar}
-          </p>
+          {current.contrast.hint_ar && (
+            <p className="px-4 pb-3.5 text-xs leading-relaxed text-slate-700">
+              {current.contrast.hint_ar}
+            </p>
+          )}
+          {/* Drawn, not spoken: hearing the two words here would answer the question */}
+          {mouths.length > 0 && (
+            <div className="px-3 pb-3">
+              <MouthDiagram sounds={mouths} />
+            </div>
+          )}
         </details>
       )}
 

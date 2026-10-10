@@ -98,22 +98,40 @@
           "ref": "vocab:adjectives_for_comparing"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:adjectives_for_comparing",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -136,20 +154,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -172,20 +208,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -206,22 +260,40 @@
           "ref": "vocab:describing_appearance|dialogue:2"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:describing_appearance",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -242,22 +314,40 @@
           "ref": "vocab:describing_personality"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:describing_personality",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -280,20 +370,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -314,22 +422,34 @@
           "ref": "vocab:comparison_phrases|section:reading|writing:1|record"
         },
         {
-          "order": 3,
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:comparison_phrases",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 15,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     }
@@ -1725,168 +1845,6 @@
       }
     },
     {
-      "kind": "breaktime",
-      "day_number": 7,
-      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
-      "title_en": "Break Time — English Outside the Book",
-      "payload": {
-        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
-        "compare": [
-          {
-            "aspect_ar": "الكمّ",
-            "intensive_ar": "دقائق من الصوت",
-            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
-          },
-          {
-            "aspect_ar": "الفهم",
-            "intensive_ar": "تستهدف 100%",
-            "extensive_ar": "50–70% تكفي"
-          },
-          {
-            "aspect_ar": "الجهد",
-            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
-            "extensive_ar": "منخفض — تسترخي وتستمتع"
-          },
-          {
-            "aspect_ar": "ما يبنيه",
-            "intensive_ar": "الدقّة والقواعد",
-            "extensive_ar": "السرعة والأذن والحدس والمفردات"
-          },
-          {
-            "aspect_ar": "لو أغفلته",
-            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
-            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
-          }
-        ],
-        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
-        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
-        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
-        "song": {
-          "pick": {
-            "title": "Better Together",
-            "artist": "Jack Johnson",
-            "why_en": "Slow, gentle, and built on comparison. Excellent for hearing weak -er endings.",
-            "search": "Better Together Jack Johnson"
-          },
-          "alternatives": [
-            {
-              "title": "The Best",
-              "artist": "Tina Turner",
-              "why_en": "A superlative in the title and the chorus, repeated dozens of times.",
-              "search": "The Best Tina Turner"
-            },
-            {
-              "title": "Anything Could Happen",
-              "artist": "Ellie Goulding",
-              "why_en": "Faster. Try it only if the first two feel comfortable.",
-              "search": "Anything Could Happen Ellie Goulding"
-            }
-          ],
-          "item": {
-            "key": "song",
-            "icon": "🎵",
-            "label_ar": "أغنية الأسبوع",
-            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
-            "minutes": 20,
-            "steps": [
-              "اختر أغنية بطيئة وشغّلها مرة للمتعة.",
-              "استمع للكلمات المنتهية بـ-er: better · longer · closer. لاحظ كم هي ضعيفة.",
-              "تصيّد كل than و to و of و and و a — ولاحظ أنها تكاد لا تُسمع.",
-              "غنِّ معها. قلّد الضعف لا الكلمات وحدها."
-            ],
-            "prompt_ar": "اكتب خمس كلمات سمعت فيها الشوا"
-          }
-        },
-        "watch": {
-          "pick": {
-            "title": "Extra English — Episodes 15–16",
-            "level": "A1–A2",
-            "where": "YouTube",
-            "why_en": "Keep going.",
-            "search": "Extra English — Episodes 15–16"
-          },
-          "alternatives": [
-            {
-              "title": "Product comparison videos",
-              "level": "A2–B1",
-              "where": "YouTube — search \"[two phones] comparison\"",
-              "why_en": "Comparatives and superlatives, non-stop, for ten minutes. The pictures carry the meaning, so the language load is low.",
-              "search": "Product comparison videos"
-            },
-            {
-              "title": "Paddington",
-              "level": "A2",
-              "where": "Any streaming service",
-              "why_en": "Film night. Beautifully clear British English, kind humour, and slow enough to follow with subtitles.",
-              "search": "Paddington"
-            },
-            {
-              "title": "Easy English — \"City or countryside?\"",
-              "level": "A2",
-              "where": "YouTube — search it",
-              "why_en": "Real people comparing two ways of living — the exact task in the grammar section.",
-              "search": "Easy English — \"City or countryside?\""
-            }
-          ],
-          "item": {
-            "key": "watch",
-            "icon": "📺",
-            "label_ar": "ما تشاهده",
-            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
-            "minutes": 25,
-            "steps": [
-              "شاهد حلقة كاملة بلا توقّف.",
-              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
-              "اكتب ثلاث عبارات علقت في ذهنك."
-            ],
-            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
-            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
-          }
-        },
-        "item_order": [
-          "song",
-          "watch"
-        ],
-        "plan": [
-          {
-            "day_ar": "السبت",
-            "activity_ar": "الأغنية + مهمة تعقّب الشوا",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الأحد",
-            "activity_ar": "Extra English الحلقة 15",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الاثنين",
-            "activity_ar": "فيديو مقارنة بين منتجين",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الثلاثاء",
-            "activity_ar": "احجز درس الأسبوع الثاني عشر واكتب خمسة أسئلة",
-            "minutes": 20
-          },
-          {
-            "day_ar": "الأربعاء",
-            "activity_ar": "Extra English الحلقة 16",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الخميس",
-            "activity_ar": "الكتاب المتدرّج",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الجمعة",
-            "activity_ar": "ليلة فيلم — Paddington",
-            "minutes": 95
-          }
-        ]
-      }
-    },
-    {
       "kind": "speaking",
       "title_ar": "التحدّث",
       "title_en": "Comparing Two Things",
@@ -2006,6 +1964,303 @@
           }
         ],
         "save_as": "Week10"
+      }
+    },
+    {
+      "kind": "practice",
+      "title_ar": "اكتب مثله",
+      "title_en": "Write One Like It",
+      "payload": {
+        "items": [
+          {
+            "day": 1,
+            "title_ar": "مكانان تعرفهما",
+            "model": [
+              {
+                "en": "I live in a big, modern city.",
+                "ar": "أسكن في مدينة كبيرة حديثة."
+              },
+              {
+                "en": "The streets are noisy and crowded.",
+                "ar": "الشوارع صاخبة ومزدحمة."
+              },
+              {
+                "en": "My grandfather lives in a small village.",
+                "ar": "جدّي يسكن في قرية صغيرة."
+              },
+              {
+                "en": "It is quiet, clean and safe.",
+                "ar": "هي هادئة ونظيفة وآمنة."
+              }
+            ],
+            "pattern_en": "I live in a ___, ___ city. It is ___ and ___.",
+            "prompt_ar": "اكتب 4 جمل عن مكانين تعرفهما: المكان الذي تسكنه، ومكان آخر. صف كل مكان بصفتين من كلمات اليوم.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "big, modern",
+                "ar": "صفتان قبل الاسم بينهما فاصلة: a big, modern city."
+              },
+              {
+                "word": "small",
+                "ar": "الصفة لا تُجمع أبداً: small villages، لا smalls. وستقارن بـ than يوم 3."
+              },
+              {
+                "word": "are",
+                "ar": "مع الجمع نقول are: The streets are noisy."
+              },
+              {
+                "word": "quiet, clean and safe",
+                "ar": "في القائمة نضع فاصلة بين الصفات، وand قبل الأخيرة فقط."
+              }
+            ],
+            "check_ar": [
+              "هل وصفت كل مكان بصفتين على الأقل؟",
+              "هل كتبت الصفة بلا s حتى مع الجمع؟"
+            ]
+          },
+          {
+            "day": 2,
+            "title_ar": "عمل شخص تعرفه",
+            "model": [
+              {
+                "en": "My sister is a teacher.",
+                "ar": "أختي معلّمة."
+              },
+              {
+                "en": "Her school is about ten minutes from our house.",
+                "ar": "مدرستها على بعد عشر دقائق تقريباً من بيتنا."
+              },
+              {
+                "en": "The work is interesting, but it is difficult.",
+                "ar": "العمل ممتع، لكنه صعب."
+              },
+              {
+                "en": "She is always tired in the evening.",
+                "ar": "هي متعبة دائماً في المساء."
+              }
+            ],
+            "pattern_en": "My ___ is a ___. The work is ___, but it is ___.",
+            "prompt_ar": "اكتب 4 جمل عن عمل شخص تعرفه: ما عمله، وأين، وكيف هو. ثم اقرأ جملك بصوت عالٍ واسحق المقاطع الضعيفة.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "a",
+                "ar": "تُنطق /ə/ قصيرة خفيفة، لا «إيه»: a teacher."
+              },
+              {
+                "word": "teacher",
+                "ar": "المقطع الأخير -er يُنطق /ə/ خفيفاً بلا راء ثقيلة. ومثلها doctor · mother."
+              },
+              {
+                "word": "about",
+                "ar": "قبل الرقم معناها «تقريباً»: about ten minutes. وأوّلها /ə/ خفيف."
+              },
+              {
+                "word": "interesting",
+                "ar": "النبر على أول مقطع IN، والباقي يُقال سريعاً خفيفاً."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت a قبل المهنة؟",
+              "هل قرأت جملك بصوت عالٍ ونطقت -er خفيفة؟"
+            ]
+          },
+          {
+            "day": 3,
+            "title_ar": "قارن مدينتك",
+            "model": [
+              {
+                "en": "The capital is bigger than my town.",
+                "ar": "العاصمة أكبر من بلدتي."
+              },
+              {
+                "en": "It is also more expensive and more crowded.",
+                "ar": "وهي أيضاً أغلى وأكثر ازدحاماً."
+              },
+              {
+                "en": "My town isn't as interesting as the capital.",
+                "ar": "بلدتي ليست ممتعة مثل العاصمة."
+              },
+              {
+                "en": "But for me, it is the best place in the world.",
+                "ar": "لكنها بالنسبة لي أفضل مكان في العالم."
+              }
+            ],
+            "pattern_en": "___ is bigger than ___. ___ isn't as ___ as ___.",
+            "prompt_ar": "اكتب 4 جمل تقارن فيها بلدتك أو مدينتك بمكان آخر. استعمل than مرة، وmore مرة، وas … as مرة، وthe مع التفضيل مرة.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "than",
+                "ar": "بعد صيغة المقارنة نقول than لا from: bigger than. «bigger from» خطأ شائع."
+              },
+              {
+                "word": "more",
+                "ar": "الصفة الطويلة تأخذ more ولا تأخذ -er: more expensive. ولا تجمعهما: more bigger خطأ."
+              },
+              {
+                "word": "as … as",
+                "ar": "معناها «مثل» في المقارنة، والصفة بينهما بلا تغيير: as interesting as."
+              },
+              {
+                "word": "the best",
+                "ar": "التفضيل يحتاج the دائماً: the best · the biggest. لا تقل It is best place."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت than بعد كل صيغة مقارنة؟",
+              "هل جاءت the قبل صيغة التفضيل؟",
+              "هل بقيت الصفة بلا -er بين as وas؟"
+            ]
+          },
+          {
+            "day": 4,
+            "title_ar": "كيف يبدو؟",
+            "model": [
+              {
+                "en": "My brother is much taller than me.",
+                "ar": "أخي أطول منّي بكثير."
+              },
+              {
+                "en": "He has short dark hair and a beard.",
+                "ar": "شعره قصير داكن، وله لحية."
+              },
+              {
+                "en": "He wears glasses.",
+                "ar": "يلبس نظّارة."
+              },
+              {
+                "en": "He looks like my father.",
+                "ar": "يشبه أبي."
+              }
+            ],
+            "pattern_en": "He / She is much ___er than me. He / She has ___ hair.",
+            "prompt_ar": "صف شكل شخص تعرفه في 4 جمل: طوله مقارنةً بك، وشعره، وما يلبسه، ومن يشبه.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "much",
+                "ar": "لتقوية المقارنة نقول much: much taller. ولا نقول very taller."
+              },
+              {
+                "word": "has",
+                "ar": "للشعر واللحية نقول has لا is: He has short hair."
+              },
+              {
+                "word": "looks like",
+                "ar": "معناها «يشبه» في الشكل، وتأخذ s مع he وshe: He looks like my father."
+              },
+              {
+                "word": "wears",
+                "ar": "معناها «يلبس» للملابس والنظّارة: He wears glasses."
+              }
+            ],
+            "check_ar": [
+              "هل استعملت has مع الشعر لا is؟",
+              "هل كتبت much لا very قبل صيغة المقارنة؟"
+            ]
+          },
+          {
+            "day": 5,
+            "title_ar": "شخصية صديقك",
+            "model": [
+              {
+                "en": "My best friend is very kind and patient.",
+                "ar": "صديقي المقرّب لطيف وصبور جداً."
+              },
+              {
+                "en": "He is more confident than me.",
+                "ar": "هو أكثر ثقة بنفسه منّي."
+              },
+              {
+                "en": "He is the funniest person in our office.",
+                "ar": "هو أظرف شخص في مكتبنا."
+              },
+              {
+                "en": "But he is a bit lazy.",
+                "ar": "لكنه كسول قليلاً."
+              }
+            ],
+            "pattern_en": "He / She is more ___ than me. He / She is the ___est person in ___.",
+            "prompt_ar": "اكتب 4 جمل عن شخصية شخص تعرفه: صفتان فيه، ومقارنة بينه وبينك، وجملة فيها التفضيل.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "very",
+                "ar": "تأتي مع الصفة العادية: very kind. ولا تأتي مع المقارنة: very better خطأ."
+              },
+              {
+                "word": "more confident",
+                "ar": "confident صفة طويلة، فنقول more confident لا confidenter."
+              },
+              {
+                "word": "the funniest",
+                "ar": "الصفة المنتهية بـ y تقلب y إلى i: funny ← the funniest · easy ← easier."
+              },
+              {
+                "word": "a bit",
+                "ar": "معناها «قليلاً». تأتي قبل الصفة لتخفّفها: a bit lazy."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت than بعد المقارنة؟",
+              "هل قلبت y إلى i قبل -er و-est؟"
+            ]
+          },
+          {
+            "day": 6,
+            "title_ar": "قبل وبعد",
+            "model": [
+              {
+                "en": "Now I live in the capital, not in my home town.",
+                "ar": "أسكن الآن في العاصمة، لا في بلدتي."
+              },
+              {
+                "en": "The capital is much bigger and noisier than my town.",
+                "ar": "العاصمة أكبر بكثير من بلدتي وأكثر ضجيجاً."
+              },
+              {
+                "en": "My old flat wasn't as expensive as my new one.",
+                "ar": "شقّتي القديمة لم تكن غالية مثل شقّتي الجديدة."
+              },
+              {
+                "en": "The biggest difference is the people.",
+                "ar": "أكبر فرق هو الناس."
+              },
+              {
+                "en": "In my opinion, my town was better for families.",
+                "ar": "في رأيي، كانت بلدتي أفضل للعائلات."
+              }
+            ],
+            "pattern_en": "___ is much ___er than ___. The biggest difference is ___.",
+            "prompt_ar": "اكتب 5 جمل تقارن فيها بين مكانين عشت فيهما أو تعرفهما جيداً: مقارنتان، وas … as، وأكبر فرق، ورأيك. هذا تمرين لكتابة الغد (110 إلى 130 كلمة).",
+            "min_sentences": 5,
+            "notes": [
+              {
+                "word": "much",
+                "ar": "much تقوّي المقارنة وتأتي قبلها: much bigger. لا تقل very bigger."
+              },
+              {
+                "word": "wasn't as … as",
+                "ar": "في الماضي تصير isn't as … as إلى wasn't as … as."
+              },
+              {
+                "word": "the biggest",
+                "ar": "big تضاعف g قبل -er و-est: bigger · the biggest."
+              },
+              {
+                "word": "in my opinion",
+                "ar": "معناها «في رأيي». تأتي في أول الجملة وبعدها فاصلة."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت مقارنتين على الأقل بـ than؟",
+              "هل جاءت the قبل صيغة التفضيل؟",
+              "هل ختمت برأيك؟"
+            ]
+          }
+        ]
       }
     }
   ],

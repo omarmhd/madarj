@@ -102,22 +102,40 @@
           "ref": "vocab:regular_verbs"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:regular_verbs",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -138,22 +156,40 @@
           "ref": "vocab:past_time_expressions"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:past_time_expressions",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -176,20 +212,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -210,22 +264,40 @@
           "ref": "vocab:life_and_childhood|dialogue:1"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:life_and_childhood",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -248,20 +320,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -282,22 +372,40 @@
           "ref": "vocab:feelings_and_reactions|dialogue:2|section:listening"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:feelings_and_reactions",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -324,16 +432,28 @@
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     }
@@ -1762,161 +1882,6 @@
       }
     },
     {
-      "kind": "breaktime",
-      "day_number": 7,
-      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
-      "title_en": "Break Time — English Outside the Book",
-      "payload": {
-        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
-        "compare": [
-          {
-            "aspect_ar": "الكمّ",
-            "intensive_ar": "دقائق من الصوت",
-            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
-          },
-          {
-            "aspect_ar": "الفهم",
-            "intensive_ar": "تستهدف 100%",
-            "extensive_ar": "50–70% تكفي"
-          },
-          {
-            "aspect_ar": "الجهد",
-            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
-            "extensive_ar": "منخفض — تسترخي وتستمتع"
-          },
-          {
-            "aspect_ar": "ما يبنيه",
-            "intensive_ar": "الدقّة والقواعد",
-            "extensive_ar": "السرعة والأذن والحدس والمفردات"
-          },
-          {
-            "aspect_ar": "لو أغفلته",
-            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
-            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
-          }
-        ],
-        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
-        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
-        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
-        "song": {
-          "pick": {
-            "title": "Yesterday",
-            "artist": "The Beatles",
-            "why_en": "The most famous past-tense song in English. Slow, short, and the whole lyric sits in the Past Simple.",
-            "search": "Yesterday The Beatles"
-          },
-          "alternatives": [
-            {
-              "title": "Someone Like You",
-              "artist": "Adele",
-              "why_en": "Very clear diction and a story told entirely in the past. Longer, so a good stretch.",
-              "search": "Someone Like You Adele"
-            },
-            {
-              "title": "The Night We Met",
-              "artist": "Lord Huron",
-              "why_en": "Slow and simple. Excellent for hearing the -ed endings clearly.",
-              "search": "The Night We Met Lord Huron"
-            }
-          ],
-          "item": {
-            "key": "song",
-            "icon": "🎵",
-            "label_ar": "أغنية الأسبوع",
-            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
-            "minutes": 20,
-            "steps": [
-              "استمع مرة للمتعة.",
-              "استمع ثانية واكتب كل فعل ماضٍ سمعته.",
-              "صنّفها في ثلاث مجموعات: /t/ و/d/ و/ɪd/.",
-              "غنِّ معها مرة — الغناء يمدّ النهايات فتُسمع أوضح من الكلام."
-            ],
-            "prompt_ar": "اكتب الأفعال التي سمعتها ومجموعة كل واحد"
-          }
-        },
-        "watch": {
-          "pick": {
-            "title": "Extra English — Episodes 9–10",
-            "level": "A1–A2",
-            "where": "YouTube",
-            "why_en": "You are a third of the way through the series.",
-            "search": "Extra English — Episodes 9–10"
-          },
-          "alternatives": [
-            {
-              "title": "Easy English — \"What did you do last weekend?\"",
-              "level": "A2",
-              "where": "YouTube — search it",
-              "why_en": "Dozens of real people using exactly this chapter’s grammar in one video. The single most relevant thing you can watch this week.",
-              "search": "Easy English — \"What did you do last weekend?\""
-            },
-            {
-              "title": "Forrest Gump",
-              "level": "A2–B1",
-              "where": "Any streaming service",
-              "why_en": "Slow, deliberate speech throughout and the entire film is a story told in the past. Save it for Week 8 film night if you prefer.",
-              "search": "Forrest Gump"
-            }
-          ],
-          "item": {
-            "key": "watch",
-            "icon": "📺",
-            "label_ar": "ما تشاهده",
-            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
-            "minutes": 25,
-            "steps": [
-              "شاهد حلقة كاملة بلا توقّف.",
-              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
-              "اكتب ثلاث عبارات علقت في ذهنك."
-            ],
-            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
-            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
-          }
-        },
-        "item_order": [
-          "song",
-          "watch"
-        ],
-        "plan": [
-          {
-            "day_ar": "السبت",
-            "activity_ar": "الأغنية + مهمة تعقّب نهاية -ed",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الأحد",
-            "activity_ar": "Extra English الحلقة 9",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الاثنين",
-            "activity_ar": "Easy English — «ماذا فعلت نهاية الأسبوع الماضية؟»",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الثلاثاء",
-            "activity_ar": "Extra English الحلقة 10",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الأربعاء",
-            "activity_ar": "الكتاب المتدرّج",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الخميس",
-            "activity_ar": "6 Minute English — حلقة واحدة مرتين",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الجمعة",
-            "activity_ar": "الكتاب المتدرّج + اختيار حرّ",
-            "minutes": 30
-          }
-        ]
-      }
-    },
-    {
       "kind": "speaking",
       "title_ar": "التحدّث",
       "title_en": "My Life Five Years Ago",
@@ -2032,6 +1997,302 @@
           }
         ],
         "save_as": "Week07"
+      }
+    },
+    {
+      "kind": "practice",
+      "title_ar": "اكتب مثله",
+      "title_en": "Write One Like It",
+      "payload": {
+        "items": [
+          {
+            "day": 1,
+            "title_ar": "ماذا فعلت أمس؟",
+            "model": [
+              {
+                "en": "Yesterday, I worked until five.",
+                "ar": "أمس عملت حتى الخامسة."
+              },
+              {
+                "en": "Then I walked home.",
+                "ar": "ثم مشيت إلى البيت."
+              },
+              {
+                "en": "I cooked dinner and watched TV.",
+                "ar": "طبخت العشاء وشاهدت التلفاز."
+              },
+              {
+                "en": "My brother called me at nine.",
+                "ar": "اتصل بي أخي في التاسعة."
+              }
+            ],
+            "pattern_en": "Yesterday, I ___ed ___.",
+            "prompt_ar": "اكتب 4 جمل عمّا فعلته أمس. كل فعل ينتهي بـ -ed.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "-ed",
+                "ar": "نضيف ed للفعل لنقول إنه حدث وانتهى: work ← worked. وهي نفسها مع كل الضمائر."
+              },
+              {
+                "word": "called",
+                "ar": "في الماضي لا s مع he وshe: My brother called. «He calleds» خطأ."
+              },
+              {
+                "word": "walked home",
+                "ar": "نقول walk home وgo home بلا to: walked home."
+              },
+              {
+                "word": "yesterday",
+                "ar": "معناها «أمس». تأتي في أول الجملة أو آخرها. ستتعلّم كلمات زمن أكثر غداً."
+              }
+            ],
+            "check_ar": [
+              "هل أضفت -ed لكل فعل؟",
+              "هل تركت s في الماضي حتى بعد he وshe؟"
+            ]
+          },
+          {
+            "day": 2,
+            "title_ar": "قبل سنوات",
+            "model": [
+              {
+                "en": "Ten years ago, I was a student.",
+                "ar": "قبل 10 سنوات كنت طالباً."
+              },
+              {
+                "en": "My friends and I were always together.",
+                "ar": "كنت أنا وأصدقائي معاً دائماً."
+              },
+              {
+                "en": "Last year, I lived in another city.",
+                "ar": "في السنة الماضية سكنت في مدينة أخرى."
+              },
+              {
+                "en": "Last night, I was very tired.",
+                "ar": "ليلة أمس كنت متعباً جداً."
+              }
+            ],
+            "pattern_en": "___ ago, I was ___. Last ___, I ___ed ___.",
+            "prompt_ar": "اكتب 4 جمل عن أوقات مختلفة من حياتك. استعمل ago مرة، وlast مرة، وwas وwere.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "ago",
+                "ar": "معناها «قبل»، وتأتي بعد المدّة: ten years ago. «ago ten years» خطأ."
+              },
+              {
+                "word": "was",
+                "ar": "ماضي am وis. تأتي مع I وhe وshe وit: I was a student."
+              },
+              {
+                "word": "were",
+                "ar": "ماضي are. تأتي مع we وthey وyou: We were together. «They was» خطأ."
+              },
+              {
+                "word": "last",
+                "ar": "معناها «الماضي»: last year · last night. بلا the وبلا in قبلها."
+              }
+            ],
+            "check_ar": [
+              "هل جاءت ago بعد المدّة؟",
+              "هل كتبت were مع we وthey والجمع؟"
+            ]
+          },
+          {
+            "day": 3,
+            "title_ar": "ثلاثة أصوات لـ -ed",
+            "model": [
+              {
+                "en": "Last weekend, I visited my grandparents.",
+                "ar": "في عطلة نهاية الأسبوع الماضية زرت جدّي وجدّتي."
+              },
+              {
+                "en": "We talked for hours.",
+                "ar": "تحدّثنا لساعات."
+              },
+              {
+                "en": "My grandmother cooked fish for lunch.",
+                "ar": "طبخت جدّتي السمك على الغداء."
+              },
+              {
+                "en": "In the evening, we played cards.",
+                "ar": "في المساء لعبنا الورق."
+              }
+            ],
+            "pattern_en": "Last weekend, I ___ed ___.",
+            "prompt_ar": "اكتب 4 جمل عن زيارة أو لقاء في الماضي. ثم اقرأ كل فعل بصوت عالٍ: هل نهايته /t/ أو /d/ أو /ɪd/؟",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "visited",
+                "ar": "بعد t أو d تُنطق ed مقطعاً جديداً /ɪd/: visited · needed."
+              },
+              {
+                "word": "talked",
+                "ar": "بعد k وp وs وsh وch تُنطق /t/ بلا مقطع جديد. talked مقطع واحد، ومثلها cooked."
+              },
+              {
+                "word": "played",
+                "ar": "بعد حرف علّة أو صوت مجهور تُنطق /d/ بلا مقطع جديد: played · called."
+              },
+              {
+                "word": "for",
+                "ar": "مع المدّة نقول for: for hours · for two years."
+              }
+            ],
+            "check_ar": [
+              "هل قرأت كل فعل بصوت عالٍ؟",
+              "هل أضفت مقطعاً جديداً بعد t وd فقط؟"
+            ]
+          },
+          {
+            "day": 4,
+            "title_ar": "طفولتك",
+            "model": [
+              {
+                "en": "I was born in 1995.",
+                "ar": "وُلدت سنة 1995."
+              },
+              {
+                "en": "When I was a child, I lived in a village.",
+                "ar": "حين كنت طفلاً سكنت في قرية."
+              },
+              {
+                "en": "I walked to school every day.",
+                "ar": "كنت أمشي إلى المدرسة كل يوم."
+              },
+              {
+                "en": "My village was quiet and green.",
+                "ar": "كانت قريتي هادئة وخضراء."
+              }
+            ],
+            "pattern_en": "When I was a child, I lived in ___.",
+            "prompt_ar": "اكتب 4 جمل عن طفولتك: أين ومتى وُلدت، وأين سكنت، وشيء فعلته كل يوم، وكيف كان المكان.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "was born",
+                "ar": "«وُلدت» بالإنجليزية I was born. لا تحذف was: «I born» خطأ."
+              },
+              {
+                "word": "in",
+                "ar": "مع السنة نقول in: in 1995 · in 2010."
+              },
+              {
+                "word": "when I was a child",
+                "ar": "معناها «حين كنت طفلاً». تأتي في أول الجملة ثم فاصلة."
+              },
+              {
+                "word": "to school",
+                "ar": "نقول go to school وwalk to school بلا the."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت was قبل born؟",
+              "هل جاءت in قبل السنة؟"
+            ]
+          },
+          {
+            "day": 5,
+            "title_ar": "بين الماضي والآن",
+            "model": [
+              {
+                "en": "Five years ago, I lived with my parents.",
+                "ar": "قبل 5 سنوات كنت أسكن مع والديّ."
+              },
+              {
+                "en": "Now I live in my own flat.",
+                "ar": "الآن أسكن في شقّتي الخاصّة."
+              },
+              {
+                "en": "In the past, I hated vegetables.",
+                "ar": "في الماضي كنت أكره الخضار."
+              },
+              {
+                "en": "Now I love them!",
+                "ar": "الآن أحبّها!"
+              }
+            ],
+            "pattern_en": "___ ago, I ___ed ___. Now I ___.",
+            "prompt_ar": "اكتب 4 جمل: شيئان تغيّرا في حياتك. لكل شيء جملة عن الماضي وجملة عن الآن.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "lived · live",
+                "ar": "مع ago الفعل بـ ed: I lived. ومع now الفعل بلا ed: I live."
+              },
+              {
+                "word": "hated",
+                "ar": "قبل ed حرف t، فتُنطق مقطعاً جديداً /ɪd/: hated."
+              },
+              {
+                "word": "in the past",
+                "ar": "معناها «في الماضي». تأتي مع the دائماً."
+              },
+              {
+                "word": "them",
+                "ar": "معناها «ها» أو «هم» بعد الفعل: I love them = أحبّها."
+              }
+            ],
+            "check_ar": [
+              "هل جاء الفعل بـ ed في جمل الماضي، وبلا ed بعد now؟",
+              "هل كتبت لكل شيء جملتين: قبل والآن؟"
+            ]
+          },
+          {
+            "day": 6,
+            "title_ar": "يوم تتذكّره",
+            "model": [
+              {
+                "en": "I remember my first day at work very clearly.",
+                "ar": "أتذكّر يومي الأول في العمل جيداً جداً."
+              },
+              {
+                "en": "It was in 2018, and I was twenty-two.",
+                "ar": "كان ذلك سنة 2018، وكان عمري 22 سنة."
+              },
+              {
+                "en": "I was very nervous in the morning.",
+                "ar": "كنت متوتّراً جداً في الصباح."
+              },
+              {
+                "en": "My colleagues helped me a lot.",
+                "ar": "ساعدني زملائي كثيراً."
+              },
+              {
+                "en": "Finally, I was happy and proud.",
+                "ar": "في النهاية كنت سعيداً وفخوراً."
+              }
+            ],
+            "pattern_en": "I remember ___. It was in ___. I was ___.",
+            "prompt_ar": "اكتب 5 جمل عن يوم تتذكّره: متى كان، وأين، ومن كان معك، وماذا حدث، وبماذا شعرت. هذا تمرين لكتابة الغد (100 إلى 120 كلمة).",
+            "min_sentences": 5,
+            "notes": [
+              {
+                "word": "remember",
+                "ar": "بلا ed هنا: أنت تتذكّر الآن، فالفعل في المضارع: I remember."
+              },
+              {
+                "word": "first",
+                "ar": "معناها «الأول»، وتأتي بعد my أو the: my first day."
+              },
+              {
+                "word": "I was nervous",
+                "ar": "مع الشعور نحتاج was: I was nervous. «I nervous» خطأ."
+              },
+              {
+                "word": "finally",
+                "ar": "معناها «في النهاية». تأتي في أول الجملة الأخيرة من القصة."
+              }
+            ],
+            "check_ar": [
+              "هل كتبت was قبل كل شعور؟",
+              "هل ذكرت متى وأين ومن كان معك؟",
+              "هل ختمت بجملة تبدأ بـ Finally؟"
+            ]
+          }
+        ]
       }
     }
   ],

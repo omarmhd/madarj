@@ -72,6 +72,19 @@ final class Countries
         return self::LIST[$code][1] ?? 'UTC';
     }
 
+    /**
+     * `code => name` for a Filament select.
+     *
+     * Not `forSelect()`: Filament reads a nested array as option
+     * groups, so `[{ value, label }]` became groups of "value" and
+     * "label", and every save failed with "the selected country is
+     * invalid".
+     */
+    public static function options(): array
+    {
+        return array_map(fn ($row) => $row[0], self::LIST);
+    }
+
     /** `[{ value, label }]` for a country dropdown */
     public static function forSelect(): array
     {

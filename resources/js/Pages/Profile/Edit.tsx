@@ -51,7 +51,6 @@ interface Learning {
   attempts_total: number;
   recordings: number;
   writings: number;
-  break_items: number;
 }
 
 interface Behaviour {
@@ -421,7 +420,6 @@ export default function Edit({
                   <Stat value={learning.exercises_done} label={tr('تمريناً أصبته')} hint={`${learning.attempts_total} محاولة إجمالاً`} />
                   <Stat value={learning.recordings} label={tr('تسجيلاً')} hint={tr('محفوظة في متصفحك')} />
                   <Stat value={learning.writings} label={tr('نصّاً كتبته')} />
-                  <Stat value={learning.break_items} label={tr('نشاط استراحة')} />
                 </div>
               </section>
 

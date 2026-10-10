@@ -209,7 +209,7 @@ export default function Setup({ current, options }: Props) {
 
         <Choice
           title={tr("سرعة النطق")}
-          note={tr("الكتاب يوصي 0.8 للاستماع الأول ثم 1.0 للأخير. وتستطيع تغييرها في كل درس.")}
+          note={tr("ننصح بسرعة 0.8 للاستماع الأول ثم 1.0 للأخير. وتستطيع تغييرها في كل درس.")}
           options={options.rates}
           value={rate}
           onChange={(v) => setRate(Number(v))}

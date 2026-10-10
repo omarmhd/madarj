@@ -46,27 +46,34 @@ class WordTranslator
             return ['translation' => null, 'source' => 'manual'];
         }
 
-        // ① مفردات الكتاب — الأدقّ والأسرع
+        /*
+         * Machine translation first, the course vocabulary as fallback.
+         *
+         * The order used to be the reverse: the course list answered
+         * first because it is instant. But a learner searching a word
+         * expects a translation, not a lookup in one lesson's list —
+         * and one corrupted row ("age" → «سامي») was served as the
+         * answer with nothing to catch it. Each word still goes out
+         * only once: the shared cache keeps it for every user.
+         */
+        if (config('memory.translate')) {
+            $auto = Cache::rememberForever(
+                'memory:tr:'.sha1($term),
+                fn () => $this->remote($term) ?? '',
+            );
+
+            if ($auto !== '') {
+                return ['translation' => $auto, 'source' => 'auto'];
+            }
+        }
+
+        // The service is off or failed: the course's own translation, if it has one
         $known = Vocabulary::whereRaw('LOWER(word) = ?', [$term])
             ->value('arabic');
 
-        if ($known) {
-            return ['translation' => $known, 'source' => 'course'];
-        }
-
-        if (! config('memory.translate')) {
-            return ['translation' => null, 'source' => 'manual'];
-        }
-
-        // ② و③ — ذاكرة مشتركة تغلّف الاستدعاء الخارجي
-        $auto = Cache::rememberForever(
-            'memory:tr:'.sha1($term),
-            fn () => $this->remote($term) ?? '',
-        );
-
-        return $auto === ''
-            ? ['translation' => null, 'source' => 'manual']
-            : ['translation' => $auto, 'source' => 'auto'];
+        return $known
+            ? ['translation' => $known, 'source' => 'course']
+            : ['translation' => null, 'source' => 'manual'];
     }
 
     /**

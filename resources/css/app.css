@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* The paper the whole app is printed on — see `.folio` below */
-body { background-color: #f5f0e6; }
+/* The paper the whole app is printed on — see `.folio` below. Its value
+   comes from the identity the admin chose (app/Support/Theme.php) */
+body { background-color: var(--paper, #f5f0e6); }
 
 /**
  * الوضع الليلي — طبقة تحويل للألوان.
@@ -134,7 +135,7 @@ body { background-color: #f5f0e6; }
   .dark .bg-violet-50\/50,
   .dark .bg-violet-50\/70,
   .dark .bg-violet-100 {
-    background-color: #3a1d15;
+    background-color: var(--accent-dark-tint, #3a1d15);
   }
   .dark .bg-sky-50,
   .dark .bg-sky-50\/70 {
@@ -147,7 +148,7 @@ body { background-color: #f5f0e6; }
     background-color: #232a2d;
   }
   .dark .bg-fuchsia-50 {
-    background-color: #3a1d15;
+    background-color: var(--accent-dark-tint, #3a1d15);
   }
 
   /* نصوصها تُفتح لتبقى مقروءة على الخلفية المخفّفة */
@@ -155,7 +156,7 @@ body { background-color: #f5f0e6; }
   .dark .text-fuchsia-700,
   .dark .text-fuchsia-800,
   .dark .text-fuchsia-900 {
-    color: #ee8a6c;
+    color: var(--accent-dark, #ee8a6c);
   }
   .dark .text-sky-700,
   .dark .text-sky-800,
@@ -189,7 +190,7 @@ body { background-color: #f5f0e6; }
   .dark .text-violet-700,
   .dark .text-violet-800,
   .dark .text-violet-900 {
-    color: #ee8a6c;
+    color: var(--accent-dark, #ee8a6c);
   }
   .dark .text-sky-700 {
     color: #cfc8bb;
@@ -212,7 +213,7 @@ body { background-color: #f5f0e6; }
   }
   .dark .ring-violet-100,
   .dark .ring-violet-200 {
-    --tw-ring-color: #7c2d22;
+    --tw-ring-color: var(--accent-dark-ring, #7c2d22);
   }
   .dark .ring-sky-100 {
     --tw-ring-color: #3d4649;
@@ -296,7 +297,10 @@ body { background-color: #f5f0e6; }
  * once. Started on the auth pages (GuestLayout); `.paper` and
  * `.ruled` below carry it inside the app.
  */
-:root {
+/* Fallbacks only — the real values are printed into <head> by the server
+   from the admin's choice, and `:where()` gives these zero specificity
+   so they never win over it */
+:where(:root) {
   --paper: #f3ede1;
   --sheet: #fffcf5;
   --ink: #1d2729;
@@ -316,8 +320,8 @@ body { background-color: #f5f0e6; }
   --ink: #ece5d8;
   --ink-soft: #a59e92;
   --rule: #283034;
-  --margin: #6b3a30;
-  --accent: #ee8a6c;
+  --margin: var(--accent-dark-ring, #6b3a30);
+  --accent: var(--accent-dark, #ee8a6c);
   --tint: #20262a;
 }
 .folio-ink { color: var(--ink); }
@@ -562,3 +566,143 @@ main { animation: page-in .22s ease-out both; }
    pull the text back onto the red line */
 .paper.paper { padding-inline-start: 2.75rem; }
 @media (min-width: 640px) { .paper.paper { padding-inline-start: 3.5rem; } }
+
+/**
+ * The day's tasks — turning pages, not swapping panels.
+ *
+ * A new task or step slides in from the end of the line (left in
+ * Arabic, right in English) and settles, the way the next page of a
+ * book comes into view. `translateX` knows nothing of direction, hence
+ * two frames chosen by `[dir]`, as with the memory panel.
+ */
+@keyframes leaf-in-rtl { from { opacity: 0; transform: translateX(-14px); } }
+@keyframes leaf-in-ltr { from { opacity: 0; transform: translateX(14px); } }
+.leaf-in { animation: leaf-in-rtl .28s cubic-bezier(.2,.7,.3,1) both; }
+[dir='ltr'] .leaf-in { animation-name: leaf-in-ltr; }
+
+/* The task's mark: an inked square with the accent offset, like the stamp button */
+.task-mark {
+  display: grid;
+  place-items: center;
+  background: var(--ink);
+  color: var(--sheet);
+  border-radius: 4px;
+  box-shadow: 3px 3px 0 var(--accent);
+}
+.task-mark.is-done {
+  background: #4f7a47;
+  box-shadow: 3px 3px 0 #bcd1b6;
+}
+
+/**
+ * "Done" lands as a rubber stamp: too big, tilted, then pressed down.
+ * It is the one moment of the day that earns a flourish — finishing
+ * a task — and it lasts under a second.
+ */
+@keyframes stamp-down {
+  0%   { opacity: 0; transform: rotate(-14deg) scale(1.9); }
+  55%  { opacity: 1; transform: rotate(-8deg) scale(.94); }
+  100% { opacity: 1; transform: rotate(-8deg) scale(1); }
+}
+.done-stamp {
+  animation: stamp-down .42s cubic-bezier(.2,.7,.3,1) both;
+  border: 3px double #4f7a47;
+  color: #4f7a47;
+  background: rgb(255 252 245 / .92);
+  border-radius: 6px;
+}
+.dark .done-stamp { background: rgb(26 31 34 / .92); color: #a9c79f; border-color: #a9c79f; }
+
+@media (prefers-reduced-motion: reduce) {
+  .leaf-in, .done-stamp { animation: none; }
+}
+
+/**
+ * The classic style — the platform's first look, restored whole.
+ *
+ * Chosen in the admin (Settings → هوية المنصة → الهوية الأولى). The book
+ * redesign changed more than a colour: a coloured header became paper,
+ * buttons became stamps, corners tightened, writing boxes got ruled
+ * lines and a red margin. Each of those is undone here, keyed off
+ * `html[data-style='classic']`, so the components stay untouched.
+ */
+html[data-style='classic'] {
+  --r-lg: 0.5rem;
+  --r-xl: 0.75rem;
+  --r-2xl: 1rem;
+  --r-3xl: 1.5rem;
+}
+
+/* The header: a saturated slab with its two soft glows */
+html[data-style='classic'] .book-head {
+  background: linear-gradient(135deg, rgb(var(--accent-600)), rgb(var(--accent-800)));
+  color: #fff;
+  border-bottom: 0;
+}
+html[data-style='classic'] .book-head .blur-3xl { display: block; }
+html[data-style='classic'] .book-head .text-white,
+html[data-style='classic'] .book-head .hover\:text-white:hover,
+html[data-style='classic'] .book-head h1 { color: #fff; }
+html[data-style='classic'] .book-head [class*='text-violet-1'],
+html[data-style='classic'] .book-head .text-violet-50 { color: rgb(255 255 255 / .8); }
+html[data-style='classic'] .book-head .text-amber-200 { color: #fde68a; }
+html[data-style='classic'] .book-head .bg-white\/15,
+html[data-style='classic'] .book-head .bg-white\/20 {
+  background: rgb(255 255 255 / .15);
+  backdrop-filter: blur(8px);
+  --tw-ring-color: rgb(255 255 255 / .25);
+}
+html[data-style='classic'] .book-head .ring-white\/20,
+html[data-style='classic'] .book-head .ring-white\/25 { --tw-ring-color: rgb(255 255 255 / .25); }
+html[data-style='classic'] .book-head .text-xl.font-bold,
+html[data-style='classic'] .book-head .text-lg.font-bold,
+html[data-style='classic'] .book-head .sm\:text-xl {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+/* Buttons: filled and rounded, not stamped */
+html[data-style='classic'] .stamp,
+html[data-style='classic'] .folio-btn {
+  background: rgb(var(--accent-600));
+  color: #fff;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 2px rgb(0 0 0 / .08);
+}
+html[data-style='classic'] .stamp:hover:not(:disabled),
+html[data-style='classic'] .folio-btn:hover:not(:disabled) {
+  background: rgb(var(--accent-700));
+  transform: none;
+  box-shadow: 0 1px 2px rgb(0 0 0 / .08);
+}
+html[data-style='classic'] .stamp:active:not(:disabled),
+html[data-style='classic'] .folio-btn:active:not(:disabled) { transform: scale(.98); box-shadow: none; }
+
+/* The task's mark: a rounded tile in the accent */
+html[data-style='classic'] .task-mark {
+  background: rgb(var(--accent-600));
+  color: #fff;
+  border-radius: 0.75rem;
+  box-shadow: none;
+}
+html[data-style='classic'] .task-mark.is-done { background: #4f7a47; box-shadow: none; }
+
+/* No red margins or ruled lines: plain white boxes */
+html[data-style='classic'] .paper::before,
+html[data-style='classic'] .folio-sheet::before { display: none; }
+html[data-style='classic'] .paper.paper,
+html[data-style='classic'] .folio-sheet { padding-inline-start: 1.5rem; border-radius: 1rem; }
+html[data-style='classic'] .ruled {
+  background-image: none;
+  padding: 0.75rem 1rem;
+  line-height: 1.75;
+  border-radius: 0.75rem;
+}
+html[data-style='classic'] .ruled-text { background-image: none; }
+html[data-style='classic'] .folio-input {
+  border: 1px solid rgb(var(--neutral-300));
+  border-radius: 0.75rem;
+  padding: 0.6rem 0.9rem;
+}
+html[data-style='classic'] .folio-input:focus { border-color: rgb(var(--accent-500)); box-shadow: 0 0 0 3px rgb(var(--accent-100)); }

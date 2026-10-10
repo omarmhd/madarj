@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ProfileUpdateRequest;
-use App\Models\BreakTimeCompletion;
 use App\Models\DailyStat;
 use App\Models\ExerciseAttempt;
 use App\Models\LearningEvent;
@@ -61,7 +60,6 @@ class ProfileController extends Controller
                 'attempts_total'  => ExerciseAttempt::where('user_id', $user->id)->count(),
                 'recordings'      => Recording::where('user_id', $user->id)->count(),
                 'writings'        => Writing::where('user_id', $user->id)->count(),
-                'break_items'     => BreakTimeCompletion::forUser($user->id)->count(),
             ],
 
             /*

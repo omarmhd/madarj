@@ -123,12 +123,12 @@ export default function Stories({
   };
 
   return (
-    <div dir={dirOf(locale)} className="min-h-screen bg-[#fbf7f0] pb-28 sm:pb-20">
+    <div dir={dirOf(locale)} className="min-h-screen bg-[var(--paper)] pb-28 sm:pb-20">
       <Head title={tr('القصص')} />
 
       <AppNav />
 
-      <header className="border-b border-amber-200/70 bg-[#f6efe3]">
+      <header className="border-b border-slate-200 bg-[var(--tint)]">
         <div className="mx-auto max-w-3xl px-4 py-6">
           <h1 className="flex items-center gap-2.5 text-xl font-bold text-stone-800">
             <BookOpen aria-hidden size={20} />

@@ -100,20 +100,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -134,22 +152,40 @@
           "ref": "vocab:rules_and_obligation"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:rules_and_obligation",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -172,20 +208,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -206,22 +260,40 @@
           "ref": "vocab:advice_phrases|dialogue:1"
         },
         {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
+          "label": "كتابة الكلمات",
+          "minutes": 10,
+          "ref": "spell:advice_phrases",
+          "order": 3
         },
         {
           "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -244,20 +316,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -280,20 +370,38 @@
         {
           "order": 3,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "order": 5,
-          "label": "سجّل 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record"
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "الشادوينج — تكلّم مع الصوت",
+          "minutes": 10,
+          "ref": "shadow"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 8
         }
       ]
     },
@@ -320,16 +428,28 @@
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
+        },
+        {
+          "label": "الواجب المنزلي",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 7
         }
       ]
     }
@@ -1774,162 +1894,6 @@
       }
     },
     {
-      "kind": "breaktime",
-      "day_number": 7,
-      "title_ar": "وقت الاستراحة — إنجليزية خارج الدرس",
-      "title_en": "Break Time — English Outside the Book",
-      "payload": {
-        "why_ar": "كل ما سبق كان دراسة مكثّفة — كمّ قليل من اللغة يُفحص عن قرب. وهذا القسم مدخول موسّع: كمّ كبير من الإنجليزية يُستمتع به بتراخٍ. وأنت تحتاج الاثنين.",
-        "compare": [
-          {
-            "aspect_ar": "الكمّ",
-            "intensive_ar": "دقائق من الصوت",
-            "extensive_ar": "ساعات من الأغاني والأفلام والقصص"
-          },
-          {
-            "aspect_ar": "الفهم",
-            "intensive_ar": "تستهدف 100%",
-            "extensive_ar": "50–70% تكفي"
-          },
-          {
-            "aspect_ar": "الجهد",
-            "intensive_ar": "عالٍ — تتوقّف وتعيد وتحلّل",
-            "extensive_ar": "منخفض — تسترخي وتستمتع"
-          },
-          {
-            "aspect_ar": "ما يبنيه",
-            "intensive_ar": "الدقّة والقواعد",
-            "extensive_ar": "السرعة والأذن والحدس والمفردات"
-          },
-          {
-            "aspect_ar": "لو أغفلته",
-            "intensive_ar": "تعرف القواعد وتتجمّد في المحادثة",
-            "extensive_ar": "تتحدّث بطلاقة لكن بخطأ"
-          }
-        ],
-        "rule_ar": "قاعدة هذا القسم: **لا تدرسه**. لا تبحث عن كل كلمة، ولا تتوقّف لتحليل القواعد. اترك 40% يمرّ عليك. دماغك يبني الأنماط تحت السطح، وهذا العمل لا يحدث إلا حين تتوقّف عن المحاولة.",
-        "how_much_ar": "20–30 دقيقة يومياً، **خارج ساعة الدراسة**. في السيارة، أو أثناء الطبخ، أو قبل النوم. هذا هو الجزء الذي لا يبدو عملاً — ولهذا بالضبط هو الجزء الذي يستمرّ عليه الناس فعلاً.",
-        "links_note_ar": "هذه مصادر حقيقية معروفة، لكن العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم.",
-        "song": {
-          "pick": {
-            "title": "Should I Stay or Should I Go",
-            "artist": "The Clash",
-            "why_en": "The whole song is one modal question, repeated. Impossible to forget afterwards.",
-            "search": "Should I Stay or Should I Go The Clash"
-          },
-          "alternatives": [
-            {
-              "title": "Everybody Hurts",
-              "artist": "R.E.M.",
-              "why_en": "Slow, clear, and built on advice: hold on, don’t let yourself go.",
-              "search": "Everybody Hurts R.E.M."
-            },
-            {
-              "title": "Man in the Mirror",
-              "artist": "Michael Jackson",
-              "why_en": "Full of if clauses and advice — a preview of next week too.",
-              "search": "Man in the Mirror Michael Jackson"
-            }
-          ],
-          "item": {
-            "key": "song",
-            "icon": "🎵",
-            "label_ar": "أغنية الأسبوع",
-            "task_ar": "شغّلها أربع مرات: استمتع · تصيَّد خمس كلمات · مع الكلمات المكتوبة · غنِّ معها",
-            "minutes": 20,
-            "steps": [
-              "شغّلها مرة للمتعة فقط — بلا كلمات ولا تحليل.",
-              "شغّلها ثانية واكتب خمس كلمات سمعتها ولم تكن تعرفها.",
-              "شغّلها مع الكلمات المكتوبة أمامك.",
-              "غنِّ معها مرة. الغناء يضبط الإيقاع بلا أن تفكّر فيه."
-            ],
-            "why_ar": "الأغنية تُعاد خمسين مرة طوعاً، ولا تمرين يُعاد خمسين مرة.",
-            "prompt_ar": "الكلمات الخمس التي التقطتها"
-          }
-        },
-        "watch": {
-          "pick": {
-            "title": "Friends — Episodes 9–11",
-            "level": "A2–B1",
-            "where": "Any streaming service",
-            "why_en": "Sitcom characters give each other terrible advice constantly. You should…, you shouldn’t…, you have to… appear in every scene.",
-            "search": "Friends — Episodes 9–11"
-          },
-          "alternatives": [
-            {
-              "title": "\"Things you should know before visiting…\"",
-              "level": "B1",
-              "where": "YouTube — search it with any country",
-              "why_en": "Ten minutes of pure modal verbs, and genuinely useful if you plan to travel.",
-              "search": "\"Things you should know before visiting…\""
-            },
-            {
-              "title": "Safety and instruction videos",
-              "level": "A2",
-              "where": "YouTube — airline safety, workplace safety",
-              "why_en": "Short, extremely clear, and built entirely on must, mustn’t and should.",
-              "search": "Safety and instruction videos"
-            }
-          ],
-          "item": {
-            "key": "watch",
-            "icon": "📺",
-            "label_ar": "ما تشاهده",
-            "task_ar": "شاهد حلقة كاملة. لا تتوقّف عند كلمة ولا تعد المشهد — 50% فهماً تكفي",
-            "minutes": 25,
-            "steps": [
-              "شاهد حلقة كاملة بلا توقّف.",
-              "لا تُعِد أي مشهد ولا تبحث عن كلمة — خمسون بالمئة فهماً تكفي.",
-              "اكتب ثلاث عبارات علقت في ذهنك."
-            ],
-            "why_ar": "المدخول الموسّع يعمل لأنه سهل وممتع. لحظة يصير واجباً يتوقّف الناس عنه.",
-            "prompt_ar": "ثلاث عبارات علقت في ذهنك"
-          }
-        },
-        "item_order": [
-          "song",
-          "watch"
-        ],
-        "plan": [
-          {
-            "day_ar": "السبت",
-            "activity_ar": "الأغنية + ابدأ جمع اللافتات",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الأحد",
-            "activity_ar": "Friends الحلقة 9",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الاثنين",
-            "activity_ar": "«أمور ينبغي أن تعرفها قبل زيارة…»",
-            "minutes": 15
-          },
-          {
-            "day_ar": "الثلاثاء",
-            "activity_ar": "Friends الحلقة 10 + خبر",
-            "minutes": 30
-          },
-          {
-            "day_ar": "الأربعاء",
-            "activity_ar": "درس مع معلّمك — اطلب نصيحته في إنجليزيتك",
-            "minutes": 35
-          },
-          {
-            "day_ar": "الخميس",
-            "activity_ar": "الكتاب + حوّل اللافتات التي جمعتها إلى جمل كاملة",
-            "minutes": 25
-          },
-          {
-            "day_ar": "الجمعة",
-            "activity_ar": "Friends الحلقة 11 + اختيار حرّ",
-            "minutes": 35
-          }
-        ]
-      }
-    },
-    {
       "kind": "speaking",
       "title_ar": "التحدّث",
       "title_en": "Advice for Someone Like Me",
@@ -2046,6 +2010,305 @@
           }
         ],
         "save_as": "Week15"
+      }
+    },
+    {
+      "kind": "practice",
+      "title_ar": "اكتب مثله",
+      "title_en": "Write One Like It",
+      "payload": {
+        "items": [
+          {
+            "day": 1,
+            "title_ar": "نصيحة لصديق",
+            "model": [
+              {
+                "en": "You look tired. You should go to bed early.",
+                "ar": "تبدو متعباً. ينبغي أن تنام مبكراً."
+              },
+              {
+                "en": "You shouldn't drink coffee after six.",
+                "ar": "لا ينبغي أن تشرب القهوة بعد السادسة."
+              },
+              {
+                "en": "You should turn off your phone at night.",
+                "ar": "ينبغي أن تطفئ هاتفك في الليل."
+              },
+              {
+                "en": "I should sleep more too.",
+                "ar": "وأنا أيضاً ينبغي أن أنام أكثر."
+              }
+            ],
+            "pattern_en": "You should ___. You shouldn't ___.",
+            "prompt_ar": "فكّر في مشكلة عند شخص تعرفه: تعب، أو ضغط، أو قلّة نوم. اكتب له 3 نصائح بـ should وshouldn't، ثم نصيحة واحدة لنفسك.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "should",
+                "ar": "بعدها الفعل مباشرة بلا to: You should go. «You should to go» خطأ، مثل He can to swim."
+              },
+              {
+                "word": "shouldn't",
+                "ar": "اختصار should not، ومعناها «لا ينبغي»."
+              },
+              {
+                "word": "look tired",
+                "ar": "بعد look تأتي صفة: You look tired = تبدو متعباً."
+              },
+              {
+                "word": "too",
+                "ar": "معناها «أيضاً». تأتي في آخر الجملة."
+              }
+            ],
+            "check_ar": [
+              "هل جاء الفعل بعد should بلا to؟",
+              "هل كتبت should بلا s مع he وshe؟"
+            ]
+          },
+          {
+            "day": 2,
+            "title_ar": "قواعد عملك",
+            "model": [
+              {
+                "en": "At my work, we have to wear a uniform.",
+                "ar": "في عملي يجب أن نرتدي زيّاً رسمياً."
+              },
+              {
+                "en": "We have to be on time every morning.",
+                "ar": "علينا أن نكون في الموعد كل صباح."
+              },
+              {
+                "en": "My manager is very strict about deadlines.",
+                "ar": "مديري صارم جداً في المواعيد النهائية."
+              },
+              {
+                "en": "I must finish this report today.",
+                "ar": "يجب أن أنهي هذا التقرير اليوم."
+              }
+            ],
+            "pattern_en": "At my ___, we have to ___. I must ___.",
+            "prompt_ar": "اكتب 4 جمل عن قواعد في عملك أو دراستك أو بيتك: جملتان بـ have to، وجملة بـ must عن شيء قرّرته أنت.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "have to",
+                "ar": "«علينا أن» لقاعدة يفرضها غيرك. ومع he وshe تصير has to: He has to work."
+              },
+              {
+                "word": "must",
+                "ar": "«يجب» لشيء تقرّره أنت. بعدها الفعل بلا to، ولا تأخذ s: He must go."
+              },
+              {
+                "word": "on time",
+                "ar": "معناها «في الموعد» بلا تأخير: be on time."
+              },
+              {
+                "word": "strict about",
+                "ar": "نقول strict about لما يشدّد فيه الشخص: strict about deadlines."
+              }
+            ],
+            "check_ar": [
+              "هل جاء الفعل بعد have to وmust بلا تغيير؟",
+              "هل كتبت has to مع he وshe؟"
+            ]
+          },
+          {
+            "day": 3,
+            "title_ar": "ممنوع أم غير مطلوب؟",
+            "model": [
+              {
+                "en": "In the hospital, you mustn't smoke.",
+                "ar": "يُمنع التدخين في المستشفى."
+              },
+              {
+                "en": "On Friday, I don't have to get up early.",
+                "ar": "يوم الجمعة لست مضطراً للنهوض مبكراً."
+              },
+              {
+                "en": "My brother doesn't have to wear a tie at work.",
+                "ar": "أخي ليس مضطراً لارتداء ربطة عنق في العمل."
+              },
+              {
+                "en": "When I was at school, I had to wear a uniform.",
+                "ar": "حين كنت في المدرسة كان عليّ أن أرتدي زيّاً."
+              }
+            ],
+            "pattern_en": "You mustn't ___. I don't have to ___. I had to ___.",
+            "prompt_ar": "اكتب 4 جمل عن حياتك: شيء ممنوع في مكان تعرفه، وشيء لست مضطراً له، وشيء كان عليك فعله في الماضي.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "mustn't",
+                "ar": "معناها «ممنوع». تُنطق بلا t الأولى: /ˈmʌsnt/."
+              },
+              {
+                "word": "don't have to",
+                "ar": "معناها «لست مضطراً»، لا «ممنوع». الخلط بينها وبين mustn't يقلب المعنى."
+              },
+              {
+                "word": "doesn't have to",
+                "ar": "مع he وshe نقول doesn't have to، وتبقى have بلا s بعد doesn't."
+              },
+              {
+                "word": "had to",
+                "ar": "ماضي have to وmust معاً. لا ماضي لـ must: «I must worked» خطأ."
+              }
+            ],
+            "check_ar": [
+              "هل استعملت mustn't لشيء ممنوع فعلاً، لا لشيء اختياري؟",
+              "هل كتبت had to للماضي؟"
+            ]
+          },
+          {
+            "day": 4,
+            "title_ar": "اطلب نصيحة",
+            "model": [
+              {
+                "en": "Can I ask your advice? I'm always late for work.",
+                "ar": "هل أستشيرك؟ أتأخّر عن العمل دائماً."
+              },
+              {
+                "en": "Why don't you go to bed earlier?",
+                "ar": "لماذا لا تنام أبكر؟"
+              },
+              {
+                "en": "I've already tried that.",
+                "ar": "جرّبت ذلك بالفعل."
+              },
+              {
+                "en": "Maybe you should leave your phone in the kitchen.",
+                "ar": "ربّما ينبغي أن تترك هاتفك في المطبخ."
+              },
+              {
+                "en": "That's good advice. I'll think about it.",
+                "ar": "نصيحة جيدة. سأفكّر في الأمر."
+              }
+            ],
+            "pattern_en": "Why don't you ___? Maybe you should ___.",
+            "prompt_ar": "اكتب حواراً من 4 جمل أو أكثر عن مشكلة حقيقية عندك: اذكر المشكلة، ثم نصيحتين بعبارتين مختلفتين، ثم ردّك.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "advice",
+                "ar": "لا تُعدّ، فلا نقول an advice: That's good advice · some advice."
+              },
+              {
+                "word": "Why don't you…?",
+                "ar": "اقتراح لا سؤال حقيقي، ومعناها «لماذا لا…». بعدها الفعل بلا to."
+              },
+              {
+                "word": "maybe",
+                "ar": "معناها «ربّما». تأتي في أول الجملة، وتجعل النصيحة ألطف."
+              },
+              {
+                "word": "late for",
+                "ar": "نقول late for work · late for school، بـ for لا to."
+              }
+            ],
+            "check_ar": [
+              "هل استعملت عبارتين مختلفتين للنصيحة؟",
+              "هل تجنّبت an advice؟"
+            ]
+          },
+          {
+            "day": 5,
+            "title_ar": "قواعد مدينتك",
+            "model": [
+              {
+                "en": "At the airport, you have to show your passport.",
+                "ar": "في المطار يجب أن تُظهر جواز سفرك."
+              },
+              {
+                "en": "In the car, you must wear a seatbelt.",
+                "ar": "في السيارة يجب أن تضع حزام الأمان."
+              },
+              {
+                "en": "You mustn't park in front of the entrance.",
+                "ar": "يُمنع الوقوف أمام المدخل."
+              },
+              {
+                "en": "At my bank, you don't have to queue. You can book online.",
+                "ar": "في بنكي لست مضطراً للوقوف في الطابور. يمكنك الحجز عبر الإنترنت."
+              }
+            ],
+            "pattern_en": "At the ___, you have to / mustn't ___.",
+            "prompt_ar": "اكتب 4 قواعد من أماكن في مدينتك: المطار، أو المستشفى، أو البنك، أو الشارع. استعمل have to وmust وmustn't وdon't have to.",
+            "min_sentences": 4,
+            "notes": [
+              {
+                "word": "you",
+                "ar": "في القواعد تعني you «أيّ شخص»، لا الشخص الذي تكلّمه فقط."
+              },
+              {
+                "word": "at the airport",
+                "ar": "نقول at مع الأماكن العامة: at the airport · at the bank · at the station."
+              },
+              {
+                "word": "queue",
+                "ar": "معناها «طابور» أو «يقف في الطابور». كلمة بريطانية تُنطق مثل حرف Q."
+              },
+              {
+                "word": "can",
+                "ar": "بعدها الفعل بلا to: You can book online."
+              }
+            ],
+            "check_ar": [
+              "هل استعملت 4 تعبيرات مختلفة: have to · must · mustn't · don't have to؟",
+              "هل جاء الفعل بعدها بلا to؟"
+            ]
+          },
+          {
+            "day": 6,
+            "title_ar": "نصائح لشخص جديد",
+            "model": [
+              {
+                "en": "Welcome to our office!",
+                "ar": "أهلاً بك في مكتبنا!"
+              },
+              {
+                "en": "You have to sign in at reception every morning.",
+                "ar": "عليك أن تسجّل حضورك في الاستقبال كل صباح."
+              },
+              {
+                "en": "You mustn't eat at your desk.",
+                "ar": "يُمنع الأكل على مكتبك."
+              },
+              {
+                "en": "You don't have to wear a suit, but you shouldn't wear shorts.",
+                "ar": "لست مضطراً لارتداء بدلة، لكن لا ينبغي أن ترتدي سروالاً قصيراً."
+              },
+              {
+                "en": "I think you should ask questions in your first week.",
+                "ar": "أظنّ أنه ينبغي أن تطرح الأسئلة في أسبوعك الأول."
+              }
+            ],
+            "pattern_en": "You have to ___. You mustn't ___. I think you should ___.",
+            "prompt_ar": "شخص جديد سيبدأ في عملك أو يسكن في مدينتك. اكتب له 5 جمل: قاعدة، وشيء ممنوع، وشيء غير مطلوب، ونصيحتان. هذا تمرين لكتابة الغد (130 إلى 150 كلمة).",
+            "min_sentences": 5,
+            "notes": [
+              {
+                "word": "sign in",
+                "ar": "معناها «يسجّل حضوره» عند الوصول. وعكسها sign out."
+              },
+              {
+                "word": "every morning",
+                "ar": "مع every لا نضع in: every morning لا in every morning."
+              },
+              {
+                "word": "but",
+                "ar": "تربط شيئاً غير مطلوب بشيء لا يُنصح به: don't have to…, but you shouldn't…"
+              },
+              {
+                "word": "I think you should",
+                "ar": "تجعل النصيحة ألطف. ولا تقل I think you should to."
+              }
+            ],
+            "check_ar": [
+              "هل فرّقت بين mustn't (ممنوع) وdon't have to (غير مطلوب)؟",
+              "هل كتبت نصيحتين بـ should أو shouldn't؟"
+            ]
+          }
+        ]
       }
     }
   ],

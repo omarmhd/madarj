@@ -103,9 +103,6 @@ export default function AppNav() {
 
   const isActive = (m: string) => url.startsWith(m);
 
-  /** داخل درس يوميّ — الشاشة للمحتوى لا للتنقّل */
-  const inLesson = /^\/week\/\d+\/day\/\d+/.test(url);
-
   return (
     <>
       {/* ═══════════ أعلى الشاشة ═══════════ */}
@@ -265,7 +262,7 @@ export default function AppNav() {
       */}
       <nav
         className={`fixed inset-x-0 bottom-0 z-40 border-t border-slate-200 bg-white/95
-                   backdrop-blur sm:hidden ${inLesson ? 'max-sm:hidden' : ''}`}
+                   backdrop-blur sm:hidden`}
         style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
       >
         <div className="mx-auto flex max-w-4xl">
@@ -309,7 +306,7 @@ export default function AppNav() {
            لوحته. وموضعه يعلو حين يوجد شريط تنقّل سفليّ، وينزل حين
            لا يوجد — فلا يغطّي أحدهما الآخر. */}
       {/* Locked in this trial: hidden, since every call behind it would be refused */}
-      {user && !locked('memory') && <MemoryLauncher raised={!inLesson} />}
+      {user && !locked('memory') && <MemoryLauncher />}
     </>
   );
 }
