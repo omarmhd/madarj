@@ -6,6 +6,7 @@ import SpellInput, { SpellMarks } from '@/Components/Game/SpellInput';
 import { useMySpeech } from '@/hooks/useSpeech';
 import { checkSpelling, normalize, vowelGaps, type SpellResult } from '@/lib/spelling';
 import { useT } from '@/lib/i18n';
+import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS } from '@/lib/autoAdvance';
 
 /**
  * Spelling drill — the learner writes the word, not just recognises it.
@@ -38,6 +39,8 @@ interface Props {
   words: SpellWord[];
   rounds: SpellRound[];
   onProgress?: (done: number, total: number) => void;
+  /** Called once the last round ends — the day's "next" waits for it */
+  onComplete?: () => void;
 }
 
 type Stage = 'intro' | 'ask' | 'right' | 'copy' | 'done';
@@ -78,7 +81,7 @@ function shuffle<T>(list: T[]): T[] {
   return a;
 }
 
-export default function Spelling({ words, rounds, onProgress }: Props) {
+export default function Spelling({ words, rounds, onProgress, onComplete }: Props) {
   const tr = useT();
   const { say, supported } = useMySpeech();
 
@@ -115,10 +118,13 @@ export default function Spelling({ words, rounds, onProgress }: Props) {
     if (stage === 'ask' && round === 'dictation' && current && attempt === 0) {
       say(current.word);
     }
-    if (stage === 'ask') input.current?.focus();
-    if (stage === 'right') nextBtn.current?.focus();
+    if (stage === 'ask' || stage === 'copy') input.current?.focus({ preventScroll: true });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [stage, index, roundIdx]);
+
+  // A right answer moves on by itself after 3s — `advance` is set below
+  const advanceRef = useRef<() => void>();
+  useAutoAdvance(stage === 'right', AUTO_RIGHT_MS, () => advanceRef.current?.());
 
   const gaps = useMemo(() => (current ? vowelGaps(current.word) : ''), [current]);
 
@@ -150,7 +156,10 @@ export default function Spelling({ words, rounds, onProgress }: Props) {
     }
 
     setStage('done');
+    onComplete?.();
   };
+
+  advanceRef.current = advance;
 
   const check = () => {
     if (!current || typed.trim() === '') return;
@@ -429,41 +438,36 @@ export default function Spelling({ words, rounds, onProgress }: Props) {
         )}
       </div>
 
-      {/* The answer */}
+      {/* The answer — the field stays mounted through the result, so the
+          cursor and the phone keyboard are still there for the next word */}
       <div className="mt-4 space-y-3">
+        <SpellInput
+          ref={input}
+          value={typed}
+          onChange={setTyped}
+          onSubmit={stage === 'copy' ? checkCopy : stage === 'right' ? () => {} : check}
+          tone={stage === 'right' ? 'right' : tone}
+          readOnly={stage === 'right'}
+        />
         {stage === 'right' ? (
-          <div className="flex items-center gap-3">
-            <p className="flex flex-1 items-center gap-1.5 text-sm font-semibold text-emerald-700">
+          <div>
+            <p className="flex items-center gap-1.5 text-sm font-semibold text-emerald-700">
               <Check aria-hidden size={18} />
               {attempt === 0 ? tr('صحيحة من أول مرة') : tr('صحيحة في المحاولة الثانية')}
             </p>
-            <button
-              ref={nextBtn}
-              onClick={advance}
-              className="inline-flex min-h-12 items-center gap-1.5 rounded-xl bg-slate-900 px-6 text-sm
-                         font-semibold text-white transition hover:bg-slate-800"
-            >
-              {tr('التالي')} <ArrowLeft aria-hidden size={15} />
-            </button>
+            <div key={`${roundIdx}-${index}`}>
+              <Countdown ms={AUTO_RIGHT_MS} tone="emerald" />
+            </div>
           </div>
         ) : (
-          <>
-            <SpellInput
-              ref={input}
-              value={typed}
-              onChange={setTyped}
-              onSubmit={stage === 'copy' ? checkCopy : check}
-              tone={tone}
-            />
-            <button
-              onClick={stage === 'copy' ? checkCopy : check}
-              disabled={typed.trim() === ''}
-              className="min-h-12 w-full rounded-xl bg-slate-900 text-sm font-semibold text-white
-                         transition hover:bg-slate-800 disabled:opacity-40"
-            >
-              {stage === 'copy' ? tr('كتبتها') : tr('تحقّق')}
-            </button>
-          </>
+          <button
+            onClick={stage === 'copy' ? checkCopy : check}
+            disabled={typed.trim() === ''}
+            className="min-h-12 w-full rounded-xl bg-slate-900 text-sm font-semibold text-white
+                       transition hover:bg-slate-800 disabled:opacity-40"
+          >
+            {stage === 'copy' ? tr('كتبتها') : tr('تحقّق')}
+          </button>
         )}
       </div>
 

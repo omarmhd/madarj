@@ -128,7 +128,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -182,7 +182,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -236,7 +236,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -254,25 +254,31 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "وصف الهيئة · حوار: Describing Someone",
-          "minutes": 25,
-          "ref": "vocab:describing_appearance|dialogue:2"
+          "label": "الكلمات",
+          "minutes": 15,
+          "ref": "vocab:describing_appearance",
+          "order": 2
+        },
+        {
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:2",
+          "order": 3
         },
         {
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:describing_appearance",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
@@ -281,19 +287,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -344,7 +350,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -362,13 +368,19 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "حوار: Choosing a Flat · الاستماع",
-          "minutes": 25,
-          "ref": "dialogue:1|section:listening"
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:1",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الاستماع",
+          "minutes": 15,
+          "ref": "section:listening",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
@@ -377,10 +389,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
@@ -389,19 +401,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -416,40 +428,58 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "عبارات المقارنة · القراءة · الكتابة",
-          "minutes": 25,
-          "ref": "vocab:comparison_phrases|section:reading|writing:1|record"
+          "label": "الكلمات",
+          "minutes": 5,
+          "ref": "vocab:comparison_phrases",
+          "order": 2
+        },
+        {
+          "label": "القراءة",
+          "minutes": 5,
+          "ref": "section:reading",
+          "order": 3
+        },
+        {
+          "label": "الكتابة",
+          "minutes": 5,
+          "ref": "writing:1",
+          "order": 4
+        },
+        {
+          "label": "التحدّث",
+          "minutes": 5,
+          "ref": "record",
+          "order": 5
         },
         {
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:comparison_phrases",
-          "order": 3
+          "order": 6
         },
         {
-          "order": 4,
+          "order": 7,
           "label": "لعبة التمييز الصوتي",
           "minutes": 15,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 8,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 6,
+          "order": 9,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 10
         }
       ]
     }
@@ -462,7 +492,11 @@
       "arabic": "طويل القامة",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "tall",
+      "sentence": "My brother is taller than me. He is very tall.",
+      "sentence_ar": "أخي أطول مني. هو طويل جداً.",
+      "usage_ar": "tall للأشخاص والمباني، وlong للأشياء كالشعر والطريق."
     },
     {
       "group": "describing_appearance",
@@ -471,7 +505,11 @@
       "arabic": "قصير",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "short",
+      "sentence": "My grandmother is short and kind.",
+      "sentence_ar": "جدتي قصيرة ولطيفة.",
+      "usage_ar": "short عكس tall وعكس long معاً."
     },
     {
       "group": "describing_appearance",
@@ -480,7 +518,11 @@
       "arabic": "نحيف",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "thin",
+      "sentence": "He is very thin because he doesn't eat much.",
+      "sentence_ar": "هو نحيف جداً لأنه لا يأكل كثيراً.",
+      "usage_ar": "thin قد تعني نحيفاً أكثر من اللازم، وslim ألطف."
     },
     {
       "group": "describing_appearance",
@@ -489,7 +531,11 @@
       "arabic": "رشيق",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "slim",
+      "sentence": "She is slim and has long hair.",
+      "sentence_ar": "هي رشيقة ولها شعر طويل.",
+      "usage_ar": "slim مديح، أما thin فقد لا يكون كذلك."
     },
     {
       "group": "describing_appearance",
@@ -498,7 +544,11 @@
       "arabic": "ثقيل الوزن",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "heavy",
+      "sentence": "My bag is heavier than yours. It is very heavy.",
+      "sentence_ar": "حقيبتي أثقل من حقيبتك. إنها ثقيلة جداً.",
+      "usage_ar": "للأشخاص قل heavy بأدب بدل fat."
     },
     {
       "group": "describing_appearance",
@@ -507,7 +557,11 @@
       "arabic": "قوي",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "strong",
+      "sentence": "My father is strong and tall.",
+      "sentence_ar": "أبي قوي وطويل.",
+      "usage_ar": "المقارنة: stronger than."
     },
     {
       "group": "describing_appearance",
@@ -516,7 +570,11 @@
       "arabic": "صغير السن",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "young",
+      "sentence": "My sister is younger than me. She is very young.",
+      "sentence_ar": "أختي أصغر مني. هي صغيرة جداً.",
+      "usage_ar": "young للعمر، وsmall للحجم."
     },
     {
       "group": "describing_appearance",
@@ -525,7 +583,11 @@
       "arabic": "كبير السن",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "old",
+      "sentence": "My grandfather is old but very active.",
+      "sentence_ar": "جدي كبير السن لكنه نشيط جداً.",
+      "usage_ar": "قل He is 70 years old، لا He has 70 years."
     },
     {
       "group": "describing_appearance",
@@ -534,7 +596,11 @@
       "arabic": "في منتصف العمر",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "middle-aged",
+      "sentence": "A middle-aged man is waiting at the door.",
+      "sentence_ar": "رجل في منتصف العمر ينتظر عند الباب.",
+      "usage_ar": "لعمر بين 45 و 60 تقريباً، وتُكتب بشرطة."
     },
     {
       "group": "describing_appearance",
@@ -543,7 +609,11 @@
       "arabic": "مسنّ",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "elderly",
+      "sentence": "We help an elderly woman with her shopping.",
+      "sentence_ar": "نساعد امرأة مسنة في تسوقها.",
+      "usage_ar": "elderly ألطف وأكثر أدباً من old."
     },
     {
       "group": "describing_appearance",
@@ -552,7 +622,11 @@
       "arabic": "شعر",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "hair",
+      "sentence": "She has long black hair.",
+      "sentence_ar": "لها شعر أسود طويل.",
+      "usage_ar": "hair لا تُجمع: her hair is long، لا hairs."
     },
     {
       "group": "describing_appearance",
@@ -561,7 +635,11 @@
       "arabic": "لحية",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "beard",
+      "sentence": "My uncle has a long grey beard.",
+      "sentence_ar": "عمي له لحية رمادية طويلة.",
+      "usage_ar": "نقول have a beard."
     },
     {
       "group": "describing_appearance",
@@ -570,7 +648,11 @@
       "arabic": "مسترسل",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "straight",
+      "sentence": "She has long straight hair.",
+      "sentence_ar": "لها شعر طويل مسترسل.",
+      "usage_ar": "straight hair عكس curly hair."
     },
     {
       "group": "describing_appearance",
@@ -579,7 +661,11 @@
       "arabic": "مجعّد",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "curly",
+      "sentence": "My little brother has curly hair.",
+      "sentence_ar": "أخي الصغير له شعر مجعد.",
+      "usage_ar": "الصفة قبل hair: curly hair."
     },
     {
       "group": "describing_appearance",
@@ -588,7 +674,11 @@
       "arabic": "داكن",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "dark",
+      "sentence": "He has dark eyes and dark hair.",
+      "sentence_ar": "له عينان داكنتان وشعر داكن.",
+      "usage_ar": "dark للون الغامق، وdarker للمقارنة."
     },
     {
       "group": "describing_appearance",
@@ -597,7 +687,11 @@
       "arabic": "فاتح",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "fair",
+      "sentence": "She has fair hair and blue eyes.",
+      "sentence_ar": "لها شعر أشقر وعينان زرقاوان.",
+      "usage_ar": "fair hair أشقر، وfair skin بشرة فاتحة."
     },
     {
       "group": "describing_appearance",
@@ -606,7 +700,11 @@
       "arabic": "عيون",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "eyes",
+      "sentence": "My baby has big brown eyes.",
+      "sentence_ar": "لطفلي عينان بنيتان كبيرتان.",
+      "usage_ar": "نقول have brown eyes، والصفة قبل eyes."
     },
     {
       "group": "describing_appearance",
@@ -615,7 +713,11 @@
       "arabic": "نظارة",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "glasses",
+      "sentence": "My father wears glasses for reading.",
+      "sentence_ar": "أبي يلبس نظارة للقراءة.",
+      "usage_ar": "دائماً جمع: glasses، ونقول wear glasses."
     },
     {
       "group": "describing_appearance",
@@ -624,7 +726,11 @@
       "arabic": "وسيم",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "handsome",
+      "sentence": "Her husband is tall and handsome.",
+      "sentence_ar": "زوجها طويل ووسيم.",
+      "usage_ar": "handsome للرجال غالباً."
     },
     {
       "group": "describing_appearance",
@@ -633,7 +739,11 @@
       "arabic": "جميلة",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "beautiful",
+      "sentence": "The bride looks beautiful today.",
+      "sentence_ar": "العروس تبدو جميلة اليوم.",
+      "usage_ar": "للنساء والأماكن والأشياء، وأقوى من pretty."
     },
     {
       "group": "describing_appearance",
@@ -642,7 +752,11 @@
       "arabic": "حلوة",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "pretty",
+      "sentence": "Your little daughter is very pretty.",
+      "sentence_ar": "ابنتك الصغيرة حلوة جداً.",
+      "usage_ar": "للبنات والأشياء الصغيرة، لا للرجال."
     },
     {
       "group": "describing_appearance",
@@ -651,7 +765,11 @@
       "arabic": "حسن المظهر",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "good-looking",
+      "sentence": "Her brother is very good-looking.",
+      "sentence_ar": "أخوها حسن المظهر جداً.",
+      "usage_ar": "للرجال والنساء معاً، وتُكتب بشرطة."
     },
     {
       "group": "describing_appearance",
@@ -660,7 +778,11 @@
       "arabic": "أنيق",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "smart",
+      "sentence": "You look smart in that suit.",
+      "sentence_ar": "تبدو أنيقاً في تلك البدلة.",
+      "usage_ar": "في البريطانية smart تعني أنيقاً في اللبس."
     },
     {
       "group": "describing_appearance",
@@ -669,7 +791,11 @@
       "arabic": "غير رسمي",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "casual",
+      "sentence": "I wear casual clothes at the weekend.",
+      "sentence_ar": "ألبس ملابس غير رسمية في العطلة.",
+      "usage_ar": "عكس smart: casual clothes."
     },
     {
       "group": "describing_appearance",
@@ -678,7 +804,11 @@
       "arabic": "يشبه",
       "example": null,
       "group_label_ar": "وصف الهيئة",
-      "group_label_en": "Describing Appearance"
+      "group_label_en": "Describing Appearance",
+      "target": "look like",
+      "sentence": "You look like your father.",
+      "sentence_ar": "أنت تشبه أباك.",
+      "usage_ar": "لا تحذف like: you look like him."
     },
     {
       "group": "describing_personality",
@@ -687,7 +817,11 @@
       "arabic": "لطيف",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "kind",
+      "sentence": "My teacher is very kind to everyone.",
+      "sentence_ar": "معلمي لطيف جداً مع الجميع.",
+      "usage_ar": "نقول kind to someone مع to."
     },
     {
       "group": "describing_personality",
@@ -696,7 +830,11 @@
       "arabic": "قاسٍ",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "unkind",
+      "sentence": "It was unkind to laugh at him.",
+      "sentence_ar": "كان من القسوة أن تضحك عليه.",
+      "usage_ar": "un تعكس المعنى: unkind عكس kind."
     },
     {
       "group": "describing_personality",
@@ -705,7 +843,11 @@
       "arabic": "ودود",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "friendly",
+      "sentence": "The people here are very friendly.",
+      "sentence_ar": "الناس هنا ودودون جداً.",
+      "usage_ar": "friendly صفة لا ظرف: he is friendly."
     },
     {
       "group": "describing_personality",
@@ -714,7 +856,11 @@
       "arabic": "غير ودود",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "unfriendly",
+      "sentence": "The new neighbour is a bit unfriendly.",
+      "sentence_ar": "الجار الجديد غير ودود قليلاً.",
+      "usage_ar": "أصح من not friendly في الكتابة."
     },
     {
       "group": "describing_personality",
@@ -723,7 +869,11 @@
       "arabic": "مؤدب",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "polite",
+      "sentence": "Please be polite to the guests.",
+      "sentence_ar": "من فضلك كن مؤدباً مع الضيوف.",
+      "usage_ar": "نقول polite to someone."
     },
     {
       "group": "describing_personality",
@@ -732,7 +882,11 @@
       "arabic": "وقح",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "rude",
+      "sentence": "It is rude to talk on the phone at dinner.",
+      "sentence_ar": "من الوقاحة أن تتحدث بالهاتف على العشاء.",
+      "usage_ar": "نقول It is rude to + فعل."
     },
     {
       "group": "describing_personality",
@@ -741,7 +895,11 @@
       "arabic": "صبور",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "patient",
+      "sentence": "A good teacher is always patient.",
+      "sentence_ar": "المعلم الجيد صبور دائماً.",
+      "usage_ar": "patient أيضاً اسم بمعنى مريض."
     },
     {
       "group": "describing_personality",
@@ -750,7 +908,11 @@
       "arabic": "نافد الصبر",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "impatient",
+      "sentence": "He gets impatient in traffic.",
+      "sentence_ar": "هو ينفد صبره في الزحام.",
+      "usage_ar": "im تعكس المعنى: impatient."
     },
     {
       "group": "describing_personality",
@@ -759,7 +921,11 @@
       "arabic": "صادق (silent h)",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "honest",
+      "sentence": "He is an honest man.",
+      "sentence_ar": "هو رجل صادق.",
+      "usage_ar": "h لا تُنطق، لذلك نقول an honest."
     },
     {
       "group": "describing_personality",
@@ -768,7 +934,11 @@
       "arabic": "كريم",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "generous",
+      "sentence": "My uncle is very generous with his family.",
+      "sentence_ar": "عمي كريم جداً مع عائلته.",
+      "usage_ar": "نقول generous with مع with."
     },
     {
       "group": "describing_personality",
@@ -777,7 +947,11 @@
       "arabic": "هادئ",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "quiet",
+      "sentence": "My sister is quieter than me. She is very quiet.",
+      "sentence_ar": "أختي أهدأ مني. هي هادئة جداً.",
+      "usage_ar": "لا تخلطها بـ quite التي تعني إلى حد ما."
     },
     {
       "group": "describing_personality",
@@ -786,7 +960,11 @@
       "arabic": "كثير الكلام",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "talkative",
+      "sentence": "My friend is very talkative in class.",
+      "sentence_ar": "صديقي كثير الكلام في الصف.",
+      "usage_ar": "talkative عكس quiet."
     },
     {
       "group": "describing_personality",
@@ -795,7 +973,11 @@
       "arabic": "جاد",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "serious",
+      "sentence": "My boss is very serious at work.",
+      "sentence_ar": "رئيسي جاد جداً في العمل.",
+      "usage_ar": "المقارنة: more serious than."
     },
     {
       "group": "describing_personality",
@@ -804,7 +986,11 @@
       "arabic": "مضحك",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "funny",
+      "sentence": "My uncle is very funny. He tells great jokes.",
+      "sentence_ar": "عمي مضحك جداً. يحكي نكتاً رائعة.",
+      "usage_ar": "funny مضحك، وfun ممتع، فلا تخلطهما."
     },
     {
       "group": "describing_personality",
@@ -813,7 +999,11 @@
       "arabic": "واثق",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "confident",
+      "sentence": "She is confident when she speaks English.",
+      "sentence_ar": "هي واثقة عندما تتكلم الإنجليزية.",
+      "usage_ar": "المقارنة: more confident than."
     },
     {
       "group": "describing_personality",
@@ -822,7 +1012,11 @@
       "arabic": "خجول",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "shy",
+      "sentence": "My son is shy with new people.",
+      "sentence_ar": "ابني خجول مع الناس الجدد.",
+      "usage_ar": "نقول shy with someone."
     },
     {
       "group": "describing_personality",
@@ -831,7 +1025,11 @@
       "arabic": "ذكي",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "clever",
+      "sentence": "She is the cleverest girl in her class. She is clever.",
+      "sentence_ar": "هي أذكى بنت في صفها. هي ذكية.",
+      "usage_ar": "في البريطانية clever كلمة يومية بمعنى ذكي."
     },
     {
       "group": "describing_personality",
@@ -840,7 +1038,11 @@
       "arabic": "مجتهد",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "hard-working",
+      "sentence": "My mother is very hard-working.",
+      "sentence_ar": "أمي مجتهدة جداً.",
+      "usage_ar": "صفة بشرطة: a hard-working student."
     },
     {
       "group": "describing_personality",
@@ -849,7 +1051,11 @@
       "arabic": "كسول",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "lazy",
+      "sentence": "He is too lazy to cook.",
+      "sentence_ar": "هو كسول جداً لدرجة أنه لا يطبخ.",
+      "usage_ar": "المقارنة: lazier than."
     },
     {
       "group": "describing_personality",
@@ -858,7 +1064,11 @@
       "arabic": "يُعتمد عليه",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "reliable",
+      "sentence": "My old car is very reliable.",
+      "sentence_ar": "سيارتي القديمة يُعتمد عليها جداً.",
+      "usage_ar": "للأشخاص والأشياء: a reliable friend."
     },
     {
       "group": "describing_personality",
@@ -867,7 +1077,11 @@
       "arabic": "هادئ الطباع (silent l)",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "calm",
+      "sentence": "Stay calm and listen to me.",
+      "sentence_ar": "ابقَ هادئاً واستمع إليّ.",
+      "usage_ar": "l لا تُنطق، ونقول stay calm."
     },
     {
       "group": "describing_personality",
@@ -876,7 +1090,11 @@
       "arabic": "متوتر",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "nervous",
+      "sentence": "I always feel nervous before an exam.",
+      "sentence_ar": "أشعر دائماً بالتوتر قبل الامتحان.",
+      "usage_ar": "نقول nervous about أو before."
     },
     {
       "group": "describing_personality",
@@ -885,7 +1103,11 @@
       "arabic": "أناني",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "selfish",
+      "sentence": "Don't be selfish. Share with your brother.",
+      "sentence_ar": "لا تكن أنانياً. شارك أخاك.",
+      "usage_ar": "المقارنة: more selfish than."
     },
     {
       "group": "describing_personality",
@@ -894,7 +1116,11 @@
       "arabic": "مساعد",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "helpful",
+      "sentence": "The staff were very helpful.",
+      "sentence_ar": "كان الموظفون متعاونين جداً.",
+      "usage_ar": "نقول helpful to someone."
     },
     {
       "group": "describing_personality",
@@ -903,7 +1129,11 @@
       "arabic": "صارم",
       "example": null,
       "group_label_ar": "وصف الشخصية",
-      "group_label_en": "Describing Personality"
+      "group_label_en": "Describing Personality",
+      "target": "strict",
+      "sentence": "My father is stricter than my mother. He is very strict.",
+      "sentence_ar": "أبي أصرم من أمي. هو صارم جداً.",
+      "usage_ar": "نقول strict with someone."
     },
     {
       "group": "adjectives_for_comparing",
@@ -912,7 +1142,11 @@
       "arabic": "كبير",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "big",
+      "sentence": "Cairo is bigger than Alexandria. It is very big.",
+      "sentence_ar": "القاهرة أكبر من الإسكندرية. هي كبيرة جداً.",
+      "usage_ar": "bigger than لا bigger from، وضاعف g."
     },
     {
       "group": "adjectives_for_comparing",
@@ -921,7 +1155,11 @@
       "arabic": "صغير",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "small",
+      "sentence": "My room is small but comfortable.",
+      "sentence_ar": "غرفتي صغيرة لكنها مريحة.",
+      "usage_ar": "المقارنة: smaller than."
     },
     {
       "group": "adjectives_for_comparing",
@@ -930,7 +1168,11 @@
       "arabic": "قديم / كبير",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "old",
+      "sentence": "This is the oldest building in the city. It is very old.",
+      "sentence_ar": "هذا أقدم مبنى في المدينة. إنه قديم جداً.",
+      "usage_ar": "للأشياء: قديم، والمقارنة older than."
     },
     {
       "group": "adjectives_for_comparing",
@@ -939,7 +1181,11 @@
       "arabic": "جديد",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "new",
+      "sentence": "My phone is newer than yours. It is very new.",
+      "sentence_ar": "هاتفي أحدث من هاتفك. إنه جديد جداً.",
+      "usage_ar": "المقارنة: newer than."
     },
     {
       "group": "adjectives_for_comparing",
@@ -948,7 +1194,11 @@
       "arabic": "رخيص",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "cheap",
+      "sentence": "The bus is cheaper than a taxi. It is very cheap.",
+      "sentence_ar": "الحافلة أرخص من سيارة الأجرة. إنها رخيصة جداً.",
+      "usage_ar": "cheaper than لا more cheap."
     },
     {
       "group": "adjectives_for_comparing",
@@ -957,7 +1207,11 @@
       "arabic": "غالٍ",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "expensive",
+      "sentence": "This hotel is more expensive than that one.",
+      "sentence_ar": "هذا الفندق أغلى من ذلك.",
+      "usage_ar": "كلمة طويلة: more expensive than، لا expensiver."
     },
     {
       "group": "adjectives_for_comparing",
@@ -966,7 +1220,11 @@
       "arabic": "سريع",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "fast",
+      "sentence": "The train is faster than the bus. It is fast.",
+      "sentence_ar": "القطار أسرع من الحافلة. إنه سريع.",
+      "usage_ar": "fast صفة وظرف معاً: he runs fast."
     },
     {
       "group": "adjectives_for_comparing",
@@ -975,7 +1233,11 @@
       "arabic": "بطيء",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "slow",
+      "sentence": "My computer is slow today.",
+      "sentence_ar": "حاسوبي بطيء اليوم.",
+      "usage_ar": "المقارنة: slower than."
     },
     {
       "group": "adjectives_for_comparing",
@@ -984,7 +1246,11 @@
       "arabic": "سهل",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "easy",
+      "sentence": "This exercise is easier than the last one. It is easy.",
+      "sentence_ar": "هذا التمرين أسهل من السابق. إنه سهل.",
+      "usage_ar": "y تصير i: easier، easiest."
     },
     {
       "group": "adjectives_for_comparing",
@@ -993,7 +1259,11 @@
       "arabic": "صعب",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "difficult",
+      "sentence": "English is less difficult than I thought.",
+      "sentence_ar": "الإنجليزية أقل صعوبة مما ظننت.",
+      "usage_ar": "more difficult than، لا difficulter."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1002,7 +1272,11 @@
       "arabic": "آمن",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "safe",
+      "sentence": "This street is safe at night.",
+      "sentence_ar": "هذا الشارع آمن في الليل.",
+      "usage_ar": "المقارنة: safer than."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1011,7 +1285,11 @@
       "arabic": "خطير",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "dangerous",
+      "sentence": "Driving fast is very dangerous.",
+      "sentence_ar": "القيادة بسرعة خطيرة جداً.",
+      "usage_ar": "more dangerous than، ولا تقل dangerouser."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1020,7 +1298,11 @@
       "arabic": "نظيف",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "clean",
+      "sentence": "The new hospital is very clean.",
+      "sentence_ar": "المستشفى الجديد نظيف جداً.",
+      "usage_ar": "clean صفة وفعل معاً."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1029,7 +1311,11 @@
       "arabic": "متسخ",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "dirty",
+      "sentence": "My shoes are dirtier than yours. They are very dirty.",
+      "sentence_ar": "حذائي أكثر اتساخاً من حذائك. إنه متسخ جداً.",
+      "usage_ar": "y تصير i: dirtier."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1038,7 +1324,11 @@
       "arabic": "هادئ",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "quiet",
+      "sentence": "The village is quieter than the city. It is quiet.",
+      "sentence_ar": "القرية أهدأ من المدينة. إنها هادئة.",
+      "usage_ar": "المقارنة: quieter than."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1047,7 +1337,11 @@
       "arabic": "صاخب",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "noisy",
+      "sentence": "Our street is very noisy at night.",
+      "sentence_ar": "شارعنا صاخب جداً في الليل.",
+      "usage_ar": "المقارنة: noisier than."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1056,7 +1350,11 @@
       "arabic": "مزدحم",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "crowded",
+      "sentence": "The market is crowded on Fridays.",
+      "sentence_ar": "السوق مزدحم أيام الجمعة.",
+      "usage_ar": "للأماكن المليئة بالناس."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1065,7 +1363,11 @@
       "arabic": "مريح",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "comfortable",
+      "sentence": "This chair is more comfortable than that one.",
+      "sentence_ar": "هذا الكرسي أكثر راحة من ذلك.",
+      "usage_ar": "more comfortable than، وتُنطق بثلاثة مقاطع."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1074,7 +1376,11 @@
       "arabic": "ممتع",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "interesting",
+      "sentence": "The book was more interesting than the film.",
+      "sentence_ar": "كان الكتاب أكثر إمتاعاً من الفيلم.",
+      "usage_ar": "interesting للشيء، وinterested للشخص."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1083,7 +1389,11 @@
       "arabic": "ممل",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "boring",
+      "sentence": "The film was very boring.",
+      "sentence_ar": "كان الفيلم مملاً جداً.",
+      "usage_ar": "boring للشيء، وbored للشخص: I am bored."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1092,7 +1402,11 @@
       "arabic": "مهم",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "important",
+      "sentence": "Health is more important than money.",
+      "sentence_ar": "الصحة أهم من المال.",
+      "usage_ar": "more important than، ونقول important to me."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1101,7 +1415,11 @@
       "arabic": "شائع",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "popular",
+      "sentence": "Football is very popular in my country.",
+      "sentence_ar": "كرة القدم شائعة جداً في بلدي.",
+      "usage_ar": "نقول popular with young people."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1110,7 +1428,11 @@
       "arabic": "صحي",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "healthy",
+      "sentence": "Fruit is healthier than sweets. It is healthy.",
+      "sentence_ar": "الفاكهة أصح من الحلوى. إنها صحية.",
+      "usage_ar": "y تصير i: healthier."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1119,7 +1441,11 @@
       "arabic": "حديث",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "modern",
+      "sentence": "Dubai is a very modern city.",
+      "sentence_ar": "دبي مدينة حديثة جداً.",
+      "usage_ar": "المقارنة: more modern than."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1128,7 +1454,11 @@
       "arabic": "تقليدي",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "traditional",
+      "sentence": "We eat traditional food at the festival.",
+      "sentence_ar": "نأكل طعاماً تقليدياً في العيد.",
+      "usage_ar": "المقارنة: more traditional than."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1137,7 +1467,11 @@
       "arabic": "جيد",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "good",
+      "sentence": "This film is good, but the book is better.",
+      "sentence_ar": "هذا الفيلم جيد لكن الكتاب أفضل.",
+      "usage_ar": "شاذة: good, better, the best، لا gooder."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1146,7 +1480,11 @@
       "arabic": "سيء",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "bad",
+      "sentence": "The weather is bad today.",
+      "sentence_ar": "الطقس سيء اليوم.",
+      "usage_ar": "شاذة: bad, worse, the worst."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1155,7 +1493,11 @@
       "arabic": "بعيد",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "far",
+      "sentence": "The airport is far from my house.",
+      "sentence_ar": "المطار بعيد عن بيتي.",
+      "usage_ar": "نقول far from، والمقارنة further."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1164,7 +1506,11 @@
       "arabic": "كثير",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "much",
+      "sentence": "I don't have much time today.",
+      "sentence_ar": "ليس لدي وقت كثير اليوم.",
+      "usage_ar": "much للأشياء التي لا تُعد، وmany للتي تُعد."
     },
     {
       "group": "adjectives_for_comparing",
@@ -1173,7 +1519,11 @@
       "arabic": "قليل",
       "example": null,
       "group_label_ar": "صفات المقارنة",
-      "group_label_en": "Adjectives for Comparing"
+      "group_label_en": "Adjectives for Comparing",
+      "target": "little",
+      "sentence": "I have a little money for the trip.",
+      "sentence_ar": "لدي قليل من المال للرحلة.",
+      "usage_ar": "a little للأشياء التي لا تُعد، والمقارنة less."
     },
     {
       "group": "comparison_phrases",
@@ -1182,7 +1532,11 @@
       "arabic": "من / عن",
       "example": "Cairo is bigger than Alexandria.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": "than",
+      "sentence": "Cairo is bigger than Alexandria.",
+      "sentence_ar": "القاهرة أكبر من الإسكندرية.",
+      "usage_ar": "بعد المقارنة قل than لا from: bigger than."
     },
     {
       "group": "comparison_phrases",
@@ -1191,7 +1545,11 @@
       "arabic": "بقدر / مثل",
       "example": "It isn't as expensive as London.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": "as",
+      "sentence": "It isn't as expensive as London.",
+      "sentence_ar": "ليست غالية مثل لندن.",
+      "usage_ar": "as + صفة عادية + as، لا as cheaper as."
     },
     {
       "group": "comparison_phrases",
@@ -1200,7 +1558,11 @@
       "arabic": "بكثير",
       "example": "It is much cheaper.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": "much",
+      "sentence": "The bus is much cheaper than the train.",
+      "sentence_ar": "الحافلة أرخص بكثير من القطار.",
+      "usage_ar": "much قبل المقارنة لا very: much cheaper لا very cheaper."
     },
     {
       "group": "comparison_phrases",
@@ -1209,7 +1571,11 @@
       "arabic": "قليلاً",
       "example": "It is a bit colder today.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": "a bit",
+      "sentence": "It is a bit colder today.",
+      "sentence_ar": "الجو أبرد قليلاً اليوم.",
+      "usage_ar": "a bit يومية، وa little أكثر أدباً."
     },
     {
       "group": "comparison_phrases",
@@ -1218,7 +1584,11 @@
       "arabic": "قليلاً جداً",
       "example": "The new one is slightly better.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": "slightly",
+      "sentence": "The new one is slightly better.",
+      "sentence_ar": "الجديد أفضل قليلاً جداً.",
+      "usage_ar": "لفرق صغير جداً، وهي رسمية قليلاً."
     },
     {
       "group": "comparison_phrases",
@@ -1227,7 +1597,11 @@
       "arabic": "تقريباً",
       "example": "It is almost the same.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": "almost",
+      "sentence": "The two bags are almost the same.",
+      "sentence_ar": "الحقيبتان متشابهتان تقريباً.",
+      "usage_ar": "تأتي قبل الصفة أو the same."
     },
     {
       "group": "comparison_phrases",
@@ -1236,7 +1610,11 @@
       "arabic": "نفس الشيء تماماً",
       "example": "They are exactly the same.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": "exactly the same",
+      "sentence": "Our phones are exactly the same.",
+      "sentence_ar": "هاتفانا متطابقان تماماً.",
+      "usage_ar": "مع the دائماً: the same."
     },
     {
       "group": "comparison_phrases",
@@ -1245,7 +1623,11 @@
       "arabic": "مختلف تماماً",
       "example": "They are completely different.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": "completely different",
+      "sentence": "The two brothers are completely different.",
+      "sentence_ar": "الأخوان مختلفان تماماً.",
+      "usage_ar": "completely قبل different لتقوية المعنى."
     },
     {
       "group": "comparison_phrases",
@@ -1254,7 +1636,11 @@
       "arabic": "شبيه بـ",
       "example": "It is similar to my old job.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": "similar to",
+      "sentence": "Your bag is similar to mine.",
+      "sentence_ar": "حقيبتك شبيهة بحقيبتي.",
+      "usage_ar": "نقول similar to مع to، لا similar from."
     },
     {
       "group": "comparison_phrases",
@@ -1263,7 +1649,11 @@
       "arabic": "مختلف عن",
       "example": "It is different from what I expected.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": "different from",
+      "sentence": "My new job is different from my old job.",
+      "sentence_ar": "عملي الجديد مختلف عن عملي القديم.",
+      "usage_ar": "نقول different from، لا different of."
     },
     {
       "group": "comparison_phrases",
@@ -1272,7 +1662,11 @@
       "arabic": "مثل",
       "example": "It costs the same as before.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": "the same as",
+      "sentence": "Your phone is the same as mine.",
+      "sentence_ar": "هاتفك مثل هاتفي.",
+      "usage_ar": "نقول the same as، لا the same like."
     },
     {
       "group": "comparison_phrases",
@@ -1281,7 +1675,11 @@
       "arabic": "أفضل من",
       "example": "This one is better than that one.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": "better than",
+      "sentence": "This one is better than that one.",
+      "sentence_ar": "هذا أفضل من ذلك.",
+      "usage_ar": "لا تقل more better ولا better from."
     },
     {
       "group": "comparison_phrases",
@@ -1290,7 +1688,11 @@
       "arabic": "أسوأ من",
       "example": "The traffic is worse than last year.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": "worse than",
+      "sentence": "The traffic is worse than last year.",
+      "sentence_ar": "الزحام أسوأ من العام الماضي.",
+      "usage_ar": "لا تقل more bad ولا badder."
     },
     {
       "group": "comparison_phrases",
@@ -1299,7 +1701,11 @@
       "arabic": "بفارق كبير",
       "example": "It is by far the best.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": "by far",
+      "sentence": "It is by far the best restaurant in town.",
+      "sentence_ar": "إنه أفضل مطعم في المدينة بفارق كبير.",
+      "usage_ar": "تأتي قبل the + أفضلية: by far the best."
     },
     {
       "group": "comparison_phrases",
@@ -1308,7 +1714,11 @@
       "arabic": "من أكثر …",
       "example": "It is one of the biggest cities.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": "one of the",
+      "sentence": "Cairo is one of the biggest cities in Africa.",
+      "sentence_ar": "القاهرة من أكبر المدن في أفريقيا.",
+      "usage_ar": "بعدها أفضلية واسم جمع: one of the biggest cities."
     },
     {
       "group": "comparison_phrases",
@@ -1317,7 +1727,11 @@
       "arabic": "أفضّل … على …",
       "example": "I prefer tea to coffee.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": "prefer",
+      "sentence": "I prefer tea to coffee.",
+      "sentence_ar": "أفضّل الشاي على القهوة.",
+      "usage_ar": "نقول prefer X to Y مع to، لا than."
     },
     {
       "group": "comparison_phrases",
@@ -1326,7 +1740,11 @@
       "arabic": "أفضّل أن …",
       "example": "I'd rather walk.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": "I'd rather",
+      "sentence": "I'd rather walk than take the bus.",
+      "sentence_ar": "أفضّل أن أمشي على ركوب الحافلة.",
+      "usage_ar": "بعدها الفعل بلا to: I'd rather walk."
     },
     {
       "group": "comparison_phrases",
@@ -1335,7 +1753,11 @@
       "arabic": "برأيي",
       "example": "In my opinion, the old one was better.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": "in my opinion",
+      "sentence": "In my opinion, the old one was better.",
+      "sentence_ar": "برأيي، القديم كان أفضل.",
+      "usage_ar": "نقول in my opinion، لا according to my opinion."
     },
     {
       "group": "comparison_phrases",
@@ -1344,7 +1766,11 @@
       "arabic": "يعتمد",
       "example": "Which is better? It depends.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": "it depends",
+      "sentence": "Which is better? It depends.",
+      "sentence_ar": "أيهما أفضل؟ يعتمد على الأمر.",
+      "usage_ar": "قل it depends on مع on."
     },
     {
       "group": "comparison_phrases",
@@ -1353,7 +1779,11 @@
       "arabic": "من ناحية أخرى",
       "example": "It is cheap. On the other hand, it is slow.",
       "group_label_ar": "عبارات المقارنة",
-      "group_label_en": "Comparison Phrases"
+      "group_label_en": "Comparison Phrases",
+      "target": null,
+      "sentence": "It is cheap. On the other hand, it is slow.",
+      "sentence_ar": "إنه رخيص. من ناحية أخرى، هو بطيء.",
+      "usage_ar": "قلها لتذكر الجانب المقابل، وغالباً في أول الجملة."
     }
   ],
   "minimal_pairs": [
@@ -1820,12 +2250,12 @@
           },
           {
             "can_ar": "أفرّق بين look like و is he like و how is he و what does he like",
-            "can_en": "Answer the four questions in §6 correctly (look like / is he like / how is he / what does he like)?",
+            "can_en": "Answer the four questions in this week's dialogue correctly (look like / is he like / how is he / what does he like)?",
             "proof_ar": "الحوار الثاني"
           },
           {
             "can_ar": "أسمع الشوا في 7 من 9 كلمات",
-            "can_en": "Hear the schwa in 7 of the 9 words in §4.4?",
+            "can_en": "Hear the schwa in 7 of the 9 words in this week's pronunciation lesson?",
             "proof_ar": "قسم النطق"
           },
           {

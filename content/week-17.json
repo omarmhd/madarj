@@ -99,7 +99,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -153,7 +153,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -207,7 +207,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -261,7 +261,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -279,25 +279,31 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "بناء الحجّة · حوار: Presenting Both Sides",
-          "minutes": 25,
-          "ref": "vocab:structuring_an_argument|dialogue:2"
+          "label": "الكلمات",
+          "minutes": 15,
+          "ref": "vocab:structuring_an_argument",
+          "order": 2
+        },
+        {
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:2",
+          "order": 3
         },
         {
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:structuring_an_argument",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
@@ -306,19 +312,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -369,7 +375,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -387,13 +393,25 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "القراءة · الكتابة",
-          "minutes": 25,
-          "ref": "section:reading|writing:1|record"
+          "label": "القراءة",
+          "minutes": 10,
+          "ref": "section:reading",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الكتابة",
+          "minutes": 10,
+          "ref": "writing:1",
+          "order": 3
+        },
+        {
+          "label": "التحدّث",
+          "minutes": 10,
+          "ref": "record",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
@@ -402,25 +420,25 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 6
         },
         {
-          "order": 5,
+          "order": 7,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 6,
+          "order": 8,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 9
         }
       ]
     }
@@ -433,7 +451,11 @@
       "arabic": "أظن…",
       "example": "Neutral, most common",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": "I think",
+      "sentence": "I think the new library is great.",
+      "sentence_ar": "أظن أن المكتبة الجديدة رائعة.",
+      "usage_ar": "أشيع طريقة لإبداء الرأي. بعدها جملة كاملة: I think it is good، لا I think good."
     },
     {
       "group": "giving_an_opinion",
@@ -442,7 +464,11 @@
       "arabic": "أعتقد…",
       "example": "Slightly stronger",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": "I believe",
+      "sentence": "I believe that children need more sleep.",
+      "sentence_ar": "أعتقد أن الأطفال يحتاجون نوماً أكثر.",
+      "usage_ar": "أقوى قليلاً من I think، ويناسب الكتابة والنقاش الجاد."
     },
     {
       "group": "giving_an_opinion",
@@ -451,7 +477,11 @@
       "arabic": "برأيي…",
       "example": "Slightly formal",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": "In my opinion",
+      "sentence": "In my opinion, the city needs more buses.",
+      "sentence_ar": "برأيي، المدينة تحتاج حافلات أكثر.",
+      "usage_ar": "يأتي في أول الجملة وبعده فاصلة. لا تقل According to me."
     },
     {
       "group": "giving_an_opinion",
@@ -460,7 +490,11 @@
       "arabic": "من وجهة نظري…",
       "example": "Formal",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": "In my view",
+      "sentence": "In my view, the plan is too expensive.",
+      "sentence_ar": "من وجهة نظري، الخطة مكلفة جداً.",
+      "usage_ar": "رسمي قليلاً، مناسب للمقال والاجتماع. بعده فاصلة."
     },
     {
       "group": "giving_an_opinion",
@@ -469,7 +503,11 @@
       "arabic": "شخصياً، أنا…",
       "example": "Marks it as your own view",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": "Personally",
+      "sentence": "Personally, I prefer tea to coffee.",
+      "sentence_ar": "شخصياً، أفضّل الشاي على القهوة.",
+      "usage_ar": "يجعل الرأي رأيك أنت وحدك. بعده فاصلة ثم I."
     },
     {
       "group": "giving_an_opinion",
@@ -478,7 +516,11 @@
       "arabic": "إن سألتني…",
       "example": "Informal",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": "If you ask me",
+      "sentence": "If you ask me, the film was too long.",
+      "sentence_ar": "إن سألتني، كان الفيلم طويلاً جداً.",
+      "usage_ar": "غير رسمي، للحديث مع الأصدقاء لا للمقال."
     },
     {
       "group": "giving_an_opinion",
@@ -487,7 +529,11 @@
       "arabic": "يبدو لي أن…",
       "example": "Careful, tentative",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": null,
+      "sentence": "Your friend asks about a new plan. You say: It seems to me that it won't work.",
+      "sentence_ar": "صديقك يسأل عن خطة جديدة. تقول: يبدو لي أنها لن تنجح.",
+      "usage_ar": "رأي حذر غير قاطع. بعده جملة كاملة بفاعل وفعل."
     },
     {
       "group": "giving_an_opinion",
@@ -496,7 +542,11 @@
       "arabic": "أقول…",
       "example": "Soft, conversational",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": "I'd say",
+      "sentence": "I'd say it takes about an hour.",
+      "sentence_ar": "أقول إنه يستغرق ساعة تقريباً.",
+      "usage_ar": "رأي ليّن في الكلام اليومي، ويكثر مع التقدير: I'd say about 20."
     },
     {
       "group": "giving_an_opinion",
@@ -505,7 +555,11 @@
       "arabic": "فيما يخصني…",
       "example": "Strong personal position",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": null,
+      "sentence": "In a hot debate, you say: As far as I'm concerned, it's unfair.",
+      "sentence_ar": "في نقاش حاد تقول: فيما يخصني، هذا ظلم.",
+      "usage_ar": "رأي شخصي قوي لا تتنازل عنه. لا تستعمله في موقف رسمي حساس."
     },
     {
       "group": "giving_an_opinion",
@@ -514,7 +568,11 @@
       "arabic": "أنا مقتنع أن…",
       "example": "Very strong",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": "I'm convinced that",
+      "sentence": "I'm convinced that he is telling the truth.",
+      "sentence_ar": "أنا مقتنع أنه يقول الحقيقة.",
+      "usage_ar": "رأي قوي جداً. انتبه: convinced بحرف d في آخرها."
     },
     {
       "group": "giving_an_opinion",
@@ -523,7 +581,11 @@
       "arabic": "لا شك عندي أن…",
       "example": "Very strong",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": null,
+      "sentence": "When you are completely sure, say: I have no doubt that she'll win.",
+      "sentence_ar": "حين تكون متأكداً تماماً قل: لا شك عندي أنها ستفوز.",
+      "usage_ar": "لليقين التام. بعده جملة كاملة."
     },
     {
       "group": "giving_an_opinion",
@@ -532,7 +594,11 @@
       "arabic": "لست متأكداً، لكن…",
       "example": "Weak, honest",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": null,
+      "sentence": "When you aren't certain, say: I'm not sure, but I think it's closed.",
+      "sentence_ar": "حين لا تكون متأكداً قل: لست متأكداً، لكن أظن أنه مغلق.",
+      "usage_ar": "رأي ضعيف وصادق، يقلّل حدّة كلامك."
     },
     {
       "group": "giving_an_opinion",
@@ -541,7 +607,11 @@
       "arabic": "قد أكون مخطئاً، لكن…",
       "example": "Very polite",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": null,
+      "sentence": "To disagree politely, say: I could be wrong, but it starts at 8.",
+      "sentence_ar": "لتخالف بأدب قل: قد أكون مخطئاً، لكنه يبدأ الساعة 8.",
+      "usage_ar": "مهذّب جداً قبل أن تخالف أحداً أو تصحّح معلومته."
     },
     {
       "group": "giving_an_opinion",
@@ -550,7 +620,11 @@
       "arabic": "يعتمد على…",
       "example": "Refusing a simple answer",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": "It depends on",
+      "sentence": "It depends on the weather tomorrow.",
+      "sentence_ar": "يعتمد على الطقس غداً.",
+      "usage_ar": "حرف الجر on لا of: It depends on، لا depends of."
     },
     {
       "group": "giving_an_opinion",
@@ -559,7 +633,11 @@
       "arabic": "كما أراها…",
       "example": "Informal",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": null,
+      "sentence": "Chatting with a friend, you say: The way I see it, we should wait.",
+      "sentence_ar": "في حديث مع صديق تقول: كما أراها، يجب أن ننتظر.",
+      "usage_ar": "غير رسمي، لعرض فهمك للموقف."
     },
     {
       "group": "giving_an_opinion",
@@ -568,7 +646,11 @@
       "arabic": "بصراحة…",
       "example": "Introducing a blunt view",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": "To be honest",
+      "sentence": "To be honest, I didn't like the food.",
+      "sentence_ar": "بصراحة، لم يعجبني الطعام.",
+      "usage_ar": "يأتي قبل رأي قد لا يعجب السامع. بعده فاصلة."
     },
     {
       "group": "giving_an_opinion",
@@ -577,7 +659,11 @@
       "arabic": "بصراحة…",
       "example": "Slightly stronger",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": "Frankly",
+      "sentence": "Frankly, this report is not good enough.",
+      "sentence_ar": "بصراحة، هذا التقرير ليس جيداً بما يكفي.",
+      "usage_ar": "أقوى وأحدّ من To be honest، فاستعمله بحذر."
     },
     {
       "group": "giving_an_opinion",
@@ -586,7 +672,11 @@
       "arabic": "في الواقع…",
       "example": "Correcting a false assumption",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": "Actually",
+      "sentence": "Actually, the shop opens at nine, not ten.",
+      "sentence_ar": "في الواقع، المتجر يفتح الساعة 9 لا 10.",
+      "usage_ar": "لتصحيح معلومة خاطئة. لا تعني «حالياً»؛ حالياً = currently."
     },
     {
       "group": "giving_an_opinion",
@@ -595,7 +685,11 @@
       "arabic": "السبب الرئيسي هو…",
       "example": "Supporting",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": "The main reason is",
+      "sentence": "The main reason is the high cost.",
+      "sentence_ar": "السبب الرئيسي هو التكلفة العالية.",
+      "usage_ar": "لدعم رأيك بسبب. بعده اسم أو that وجملة."
     },
     {
       "group": "giving_an_opinion",
@@ -604,7 +698,11 @@
       "arabic": "على سبيل المثال…",
       "example": "Supporting",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": "for example",
+      "sentence": "Some fruit, for example oranges, is cheap in winter.",
+      "sentence_ar": "بعض الفاكهة، مثلاً البرتقال، رخيص في الشتاء.",
+      "usage_ar": "لإعطاء مثال. يأتي في أول الجملة أو وسطها بين فاصلتين."
     },
     {
       "group": "giving_an_opinion",
@@ -613,7 +711,11 @@
       "arabic": "مثلاً…",
       "example": "Supporting",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": "for instance",
+      "sentence": "Many jobs, for instance teaching, need patience.",
+      "sentence_ar": "وظائف كثيرة، مثلاً التدريس، تحتاج صبراً.",
+      "usage_ar": "بمعنى for example تماماً، لكنه أرسم قليلاً."
     },
     {
       "group": "giving_an_opinion",
@@ -622,7 +724,11 @@
       "arabic": "مثل…",
       "example": "Supporting",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": "such as",
+      "sentence": "I like sports such as football and tennis.",
+      "sentence_ar": "أحب رياضات مثل كرة القدم والتنس.",
+      "usage_ar": "يأتي بعد اسم وقبل الأمثلة مباشرة، بلا فاصلة غالباً. لا يبدأ جملة."
     },
     {
       "group": "giving_an_opinion",
@@ -631,7 +737,11 @@
       "arabic": "لهذا…",
       "example": "Concluding",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": "That's why",
+      "sentence": "It was raining. That's why we stayed home.",
+      "sentence_ar": "كانت تمطر. لهذا بقينا في البيت.",
+      "usage_ar": "يأتي بعد ذكر السبب، وبعده النتيجة."
     },
     {
       "group": "giving_an_opinion",
@@ -640,7 +750,11 @@
       "arabic": "بعبارة أخرى…",
       "example": "Clarifying",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": "In other words",
+      "sentence": "In other words, we need more time.",
+      "sentence_ar": "بعبارة أخرى، نحتاج وقتاً أكثر.",
+      "usage_ar": "لتقول الفكرة نفسها بكلمات أبسط."
     },
     {
       "group": "giving_an_opinion",
@@ -649,7 +763,11 @@
       "arabic": "ما أعنيه هو…",
       "example": "Clarifying",
       "group_label_ar": "إبداء الرأي",
-      "group_label_en": "Giving an Opinion"
+      "group_label_en": "Giving an Opinion",
+      "target": "What I mean is",
+      "sentence": "What I mean is that the price is too high.",
+      "sentence_ar": "ما أعنيه هو أن السعر مرتفع جداً.",
+      "usage_ar": "لتوضيح كلامك حين لم يفهمك السامع."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -658,7 +776,11 @@
       "arabic": "أوافق",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": "I agree",
+      "sentence": "I agree with you about the new rules.",
+      "sentence_ar": "أوافقك على القواعد الجديدة.",
+      "usage_ar": "agree فعل: I agree، لا I am agree. ومع الشخص with."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -667,7 +789,11 @@
       "arabic": "لا أوافق",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": "I don't agree",
+      "sentence": "I don't agree with that idea.",
+      "sentence_ar": "لا أوافق على هذه الفكرة.",
+      "usage_ar": "النفي بـdon't: I don't agree، لا I am not agree."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -676,7 +802,11 @@
       "arabic": "بالضبط",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": "Exactly",
+      "sentence": "\"We need more parks.\" \"Exactly!\"",
+      "sentence_ar": "«نحتاج حدائق أكثر.» «بالضبط!»",
+      "usage_ar": "موافقة قوية بكلمة واحدة في الحديث."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -685,7 +815,11 @@
       "arabic": "للأسف لا أوافق",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": null,
+      "sentence": "In a meeting, you politely say: I'm afraid I disagree.",
+      "sentence_ar": "في اجتماع تقول بأدب: للأسف لا أوافق.",
+      "usage_ar": "رفض مهذّب ورسمي. I'm afraid هنا تعني «للأسف» لا الخوف."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -694,7 +828,11 @@
       "arabic": "هذا صحيح",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": "That's true",
+      "sentence": "\"Cars are expensive now.\" \"That's true.\"",
+      "sentence_ar": "«السيارات غالية الآن.» «هذا صحيح.»",
+      "usage_ar": "موافقة هادئة، وكثيراً ما يأتي بعدها but."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -703,7 +841,11 @@
       "arabic": "أراها بشكل مختلف",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": "I see it differently",
+      "sentence": "Sorry, but I see it differently.",
+      "sentence_ar": "آسف، لكني أراها بشكل مختلف.",
+      "usage_ar": "مخالفة لطيفة غير جارحة."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -712,7 +854,11 @@
       "arabic": "تماماً",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": "Absolutely",
+      "sentence": "\"Is exercise important?\" \"Absolutely!\"",
+      "sentence_ar": "«هل الرياضة مهمة؟» «تماماً!»",
+      "usage_ar": "موافقة قوية جداً. Absolutely not = رفض قوي."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -721,7 +867,11 @@
       "arabic": "لست متأكداً",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": null,
+      "sentence": "When you doubt an idea, say: I'm not so sure.",
+      "sentence_ar": "حين تشك في فكرة قل: لست متأكداً.",
+      "usage_ar": "مخالفة ناعمة، تعني «أشك في ذلك»."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -730,7 +880,11 @@
       "arabic": "أنت محق",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": "You're right",
+      "sentence": "You're right, the museum is closed today.",
+      "sentence_ar": "أنت محق، المتحف مغلق اليوم.",
+      "usage_ar": "You're = You are. لا تقل You are true."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -739,7 +893,11 @@
       "arabic": "هذه طريقة للنظر إليها",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": null,
+      "sentence": "When you don't fully agree, say: That's one way of looking at it.",
+      "sentence_ar": "حين لا توافق تماماً قل: هذه طريقة للنظر إليها.",
+      "usage_ar": "مخالفة دبلوماسية: تحترم الرأي وتلمّح أن هناك رأياً آخر."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -748,7 +906,11 @@
       "arabic": "لا يمكنني أن أوافق أكثر",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": null,
+      "sentence": "When you agree completely, say: I couldn't agree more.",
+      "sentence_ar": "حين توافق تماماً قل: لا يمكنني أن أوافق أكثر.",
+      "usage_ar": "معناها موافقة تامة رغم أن شكلها نفي."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -757,7 +919,11 @@
       "arabic": "أتفهّم وجهة نظرك، لكن…",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": null,
+      "sentence": "Before you disagree, say: I take your point, but it's too late.",
+      "sentence_ar": "قبل أن تخالف قل: أتفهّم وجهة نظرك، لكن الوقت متأخر.",
+      "usage_ar": "تعترف برأي الآخر ثم تخالفه بأدب."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -766,7 +932,11 @@
       "arabic": "نقطة جيدة",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": null,
+      "sentence": "When someone says something smart, say: That's a good point.",
+      "sentence_ar": "حين يقول أحد شيئاً ذكياً قل: نقطة جيدة.",
+      "usage_ar": "تمدح فكرة الآخر في النقاش."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -775,7 +945,11 @@
       "arabic": "نعم، لكن من ناحية أخرى…",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": null,
+      "sentence": "To show the other side, say: Yes, but on the other hand, it's cheap.",
+      "sentence_ar": "لتعرض الجهة الأخرى قل: نعم، لكن من ناحية أخرى هو رخيص.",
+      "usage_ar": "توافق جزئياً ثم تعرض الجهة الأخرى."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -784,7 +958,11 @@
       "arabic": "أشعر بنفس الشيء",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": null,
+      "sentence": "When you share a feeling, say: I feel the same way.",
+      "sentence_ar": "حين تشارك الشعور نفسه قل: أشعر بنفس الشيء.",
+      "usage_ar": "موافقة على شعور لا على معلومة."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -793,7 +971,11 @@
       "arabic": "آسف، لكني أظن…",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": null,
+      "sentence": "To correct someone politely: I'm sorry, but I think you're wrong.",
+      "sentence_ar": "لتصحّح أحداً بأدب: آسف، لكني أظن أنك مخطئ.",
+      "usage_ar": "يلطّف المخالفة المباشرة."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -802,7 +984,11 @@
       "arabic": "معقول",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": "Fair enough",
+      "sentence": "\"I can't come, I'm working.\" \"Fair enough.\"",
+      "sentence_ar": "«لا أستطيع المجيء، أنا أعمل.» «معقول.»",
+      "usage_ar": "تقبل عذراً أو سبباً، غير رسمي."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -811,7 +997,11 @@
       "arabic": "هل تظن ذلك حقاً؟",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": null,
+      "sentence": "When an opinion surprises you, ask: Do you really think so?",
+      "sentence_ar": "حين يفاجئك رأي اسأل: هل تظن ذلك حقاً؟",
+      "usage_ar": "سؤال يُظهر شكّك دون رفض مباشر."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -820,7 +1010,11 @@
       "arabic": "أظن ذلك",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": "I suppose so",
+      "sentence": "\"Should we leave now?\" \"I suppose so.\"",
+      "sentence_ar": "«هل نغادر الآن؟» «أظن ذلك.»",
+      "usage_ar": "موافقة بلا حماس. لا تقل I suppose it."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -829,7 +1023,11 @@
       "arabic": "ذلك يعتمد",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": "That depends",
+      "sentence": "\"Is it a good job?\" \"That depends.\"",
+      "sentence_ar": "«هل هي وظيفة جيدة؟» «ذلك يعتمد.»",
+      "usage_ar": "حين لا يكفي جواب نعم أو لا. ويمكن أن تكمل: on the salary."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -838,7 +1036,11 @@
       "arabic": "إلى حد ما، نعم",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": null,
+      "sentence": "When you agree only partly, say: Up to a point, yes.",
+      "sentence_ar": "حين توافق جزئياً قل: إلى حد ما، نعم.",
+      "usage_ar": "موافقة جزئية، وبعدها غالباً but."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -847,7 +1049,11 @@
       "arabic": "عليّ أن أخالفك هنا",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": null,
+      "sentence": "In a polite debate, you say: I'd have to disagree there.",
+      "sentence_ar": "في نقاش مهذّب تقول: عليّ أن أخالفك هنا.",
+      "usage_ar": "مخالفة رسمية مهذّبة لنقطة واحدة."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -856,7 +1062,11 @@
       "arabic": "هذا منطقي",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": "That makes sense",
+      "sentence": "Your plan is clear. That makes sense.",
+      "sentence_ar": "خطتك واضحة. هذا منطقي.",
+      "usage_ar": "الفعل make لا do: makes sense، لا does sense."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -865,7 +1075,11 @@
       "arabic": "لست مقتنعاً",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": "I'm not convinced",
+      "sentence": "I'm not convinced that the plan will work.",
+      "sentence_ar": "لست مقتنعاً أن الخطة ستنجح.",
+      "usage_ar": "تشك في الفكرة وتحتاج دليلاً أقوى."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -874,7 +1088,11 @@
       "arabic": "جزئياً، نعم",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": "Partly, yes",
+      "sentence": "\"Is it the cost?\" \"Partly, yes.\"",
+      "sentence_ar": "«هل السبب التكلفة؟» «جزئياً، نعم.»",
+      "usage_ar": "موافقة على جزء من الكلام فقط."
     },
     {
       "group": "agreeing_and_disagreeing",
@@ -883,7 +1101,11 @@
       "arabic": "الأمر أعقد من ذلك",
       "example": null,
       "group_label_ar": "الموافقة والمخالفة",
-      "group_label_en": "Agreeing and Disagreeing"
+      "group_label_en": "Agreeing and Disagreeing",
+      "target": null,
+      "sentence": "When an answer is too simple, say: It's more complicated than that.",
+      "sentence_ar": "حين يكون الجواب بسيطاً جداً قل: الأمر أعقد من ذلك.",
+      "usage_ar": "ترفض التبسيط. ولاحظ than لا from (الخطأ 15)."
     },
     {
       "group": "structuring_an_argument",
@@ -892,7 +1114,11 @@
       "arabic": "ميزة",
       "example": "The positive side",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "advantage",
+      "sentence": "The main advantage of the bus is the price.",
+      "sentence_ar": "الميزة الرئيسية للحافلة هي السعر.",
+      "usage_ar": "advantage of الشيء: the advantage of living here."
     },
     {
       "group": "structuring_an_argument",
@@ -901,7 +1127,11 @@
       "arabic": "عيب",
       "example": "The negative side",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "disadvantage",
+      "sentence": "One disadvantage of city life is the noise.",
+      "sentence_ar": "أحد عيوب حياة المدينة هو الضجيج.",
+      "usage_ar": "عكس advantage، ومعه of أيضاً."
     },
     {
       "group": "structuring_an_argument",
@@ -910,7 +1140,11 @@
       "arabic": "فائدة",
       "example": "Positive",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "benefit",
+      "sentence": "Exercise has a big benefit for your heart.",
+      "sentence_ar": "للرياضة فائدة كبيرة لقلبك.",
+      "usage_ar": "benefit for الشخص، وbenefit of الشيء."
     },
     {
       "group": "structuring_an_argument",
@@ -919,7 +1153,11 @@
       "arabic": "مساوئ",
       "example": "Negative",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "drawback",
+      "sentence": "The only drawback is the long journey.",
+      "sentence_ar": "العيب الوحيد هو الرحلة الطويلة.",
+      "usage_ar": "أرسم من problem، ويكثر في المقالات: the main drawback."
     },
     {
       "group": "structuring_an_argument",
@@ -928,7 +1166,11 @@
       "arabic": "لكن",
       "example": "Contrast, formal",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "However",
+      "sentence": "The flat is small. However, it is very cheap.",
+      "sentence_ar": "الشقة صغيرة. لكنها رخيصة جداً.",
+      "usage_ar": "تبدأ جملة جديدة وبعدها فاصلة، لا تصل جملتين مثل but."
     },
     {
       "group": "structuring_an_argument",
@@ -937,7 +1179,11 @@
       "arabic": "رغم أن",
       "example": "Contrast",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "Although",
+      "sentence": "Although it was late, we went out.",
+      "sentence_ar": "رغم أنه كان متأخراً، خرجنا.",
+      "usage_ar": "لا تجمع although مع but في جملة واحدة."
     },
     {
       "group": "structuring_an_argument",
@@ -946,7 +1192,11 @@
       "arabic": "بينما",
       "example": "Contrast",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "whereas",
+      "sentence": "I like the city, whereas my brother prefers the village.",
+      "sentence_ar": "أحب المدينة، بينما يفضّل أخي القرية.",
+      "usage_ar": "يقارن بين شيئين مختلفين في جملة واحدة."
     },
     {
       "group": "structuring_an_argument",
@@ -955,7 +1205,11 @@
       "arabic": "من ناحية",
       "example": "Opening side one",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "On the one hand",
+      "sentence": "On the one hand, the job pays well.",
+      "sentence_ar": "من ناحية، الوظيفة تدفع جيداً.",
+      "usage_ar": "يُتبع دائماً بـon the other hand للجهة الثانية."
     },
     {
       "group": "structuring_an_argument",
@@ -964,7 +1218,11 @@
       "arabic": "من ناحية أخرى",
       "example": "Opening side two",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "On the other hand",
+      "sentence": "On the other hand, the hours are long.",
+      "sentence_ar": "من ناحية أخرى، ساعات العمل طويلة.",
+      "usage_ar": "يعرض الجهة المقابلة. لا تقل in the other hand."
     },
     {
       "group": "structuring_an_argument",
@@ -973,7 +1231,11 @@
       "arabic": "ومع ذلك",
       "example": "Strong contrast, formal",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "Nevertheless",
+      "sentence": "The test was hard. Nevertheless, she passed.",
+      "sentence_ar": "كان الاختبار صعباً. ومع ذلك نجحت.",
+      "usage_ar": "رسمي، يأتي في أول الجملة الثانية بعد نقطة."
     },
     {
       "group": "structuring_an_argument",
@@ -982,7 +1244,11 @@
       "arabic": "إضافة إلى ذلك",
       "example": "Adding",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "In addition",
+      "sentence": "In addition, the park has a small café.",
+      "sentence_ar": "إضافة إلى ذلك، في الحديقة مقهى صغير.",
+      "usage_ar": "لإضافة فكرة. ومع اسم: in addition to the park."
     },
     {
       "group": "structuring_an_argument",
@@ -991,7 +1257,11 @@
       "arabic": "إلى جانب ذلك",
       "example": "Adding, informal",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "Besides",
+      "sentence": "I'm too tired. Besides, it's raining.",
+      "sentence_ar": "أنا متعب جداً. إلى جانب ذلك، إنها تمطر.",
+      "usage_ar": "يضيف سبباً آخر في الكلام اليومي. لا تخلطه بـbeside (بجانب)."
     },
     {
       "group": "structuring_an_argument",
@@ -1000,7 +1270,11 @@
       "arabic": "علاوة على ذلك",
       "example": "Adding, formal",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "Furthermore",
+      "sentence": "Furthermore, the new road is safer.",
+      "sentence_ar": "علاوة على ذلك، الطريق الجديد أكثر أماناً.",
+      "usage_ar": "رسمي للمقالات، يأتي في أول الجملة."
     },
     {
       "group": "structuring_an_argument",
@@ -1009,7 +1283,11 @@
       "arabic": "أولاً",
       "example": "Ordering",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "Firstly",
+      "sentence": "Firstly, public transport is cheaper.",
+      "sentence_ar": "أولاً، المواصلات العامة أرخص.",
+      "usage_ar": "لترتيب النقاط، ثم secondly ثم finally."
     },
     {
       "group": "structuring_an_argument",
@@ -1018,7 +1296,11 @@
       "arabic": "ثانياً",
       "example": "Ordering",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "Secondly",
+      "sentence": "Secondly, it is better for the environment.",
+      "sentence_ar": "ثانياً، هي أفضل للبيئة.",
+      "usage_ar": "النقطة الثانية في المقال، وبعدها فاصلة."
     },
     {
       "group": "structuring_an_argument",
@@ -1027,7 +1309,11 @@
       "arabic": "أخيراً",
       "example": "Ordering",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "Finally",
+      "sentence": "Finally, it saves you a lot of time.",
+      "sentence_ar": "أخيراً، توفّر لك وقتاً كثيراً.",
+      "usage_ar": "آخر نقطة في قائمة، أو آخر خطوة."
     },
     {
       "group": "structuring_an_argument",
@@ -1036,7 +1322,11 @@
       "arabic": "إجمالاً",
       "example": "Concluding",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "Overall",
+      "sentence": "Overall, I think the change is positive.",
+      "sentence_ar": "إجمالاً، أظن أن التغيير إيجابي.",
+      "usage_ar": "لحكم عام بعد ذكر التفاصيل."
     },
     {
       "group": "structuring_an_argument",
@@ -1045,7 +1335,11 @@
       "arabic": "في الختام",
       "example": "Concluding, formal",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "In conclusion",
+      "sentence": "In conclusion, cities need more green spaces.",
+      "sentence_ar": "في الختام، تحتاج المدن مساحات خضراء أكثر.",
+      "usage_ar": "يبدأ الفقرة الأخيرة في المقال، لا في الكلام اليومي."
     },
     {
       "group": "structuring_an_argument",
@@ -1054,7 +1348,11 @@
       "arabic": "خلاصة القول",
       "example": "Concluding",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "To sum up",
+      "sentence": "To sum up, both choices have problems.",
+      "sentence_ar": "خلاصة القول، كلا الخيارين فيه مشاكل.",
+      "usage_ar": "يلخّص ما قلت في النهاية. أقل رسمية من in conclusion."
     },
     {
       "group": "structuring_an_argument",
@@ -1063,7 +1361,11 @@
       "arabic": "دليل",
       "example": "Supporting",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "evidence",
+      "sentence": "There is no evidence that the plan works.",
+      "sentence_ar": "لا يوجد دليل على أن الخطة تنجح.",
+      "usage_ar": "غير معدود: some evidence، لا an evidence ولا evidences."
     },
     {
       "group": "structuring_an_argument",
@@ -1072,7 +1374,11 @@
       "arabic": "حقيقة",
       "example": "Supporting",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "fact",
+      "sentence": "It is a fact that sugar is bad for teeth.",
+      "sentence_ar": "من الحقائق أن السكر مضر للأسنان.",
+      "usage_ar": "in fact = في الحقيقة. وfact شيء ثابت لا رأي."
     },
     {
       "group": "structuring_an_argument",
@@ -1081,7 +1387,11 @@
       "arabic": "حجّة",
       "example": "The case you make",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "argument",
+      "sentence": "Her argument for a shorter week is strong.",
+      "sentence_ar": "حجّتها لأسبوع عمل أقصر قوية.",
+      "usage_ar": "argument for = حجة مع، وagainst = ضد. وقد تعني أيضاً «شجاراً»."
     },
     {
       "group": "structuring_an_argument",
@@ -1090,7 +1400,11 @@
       "arabic": "قضية",
       "example": "The topic",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "issue",
+      "sentence": "Pollution is a serious issue in big cities.",
+      "sentence_ar": "التلوث قضية خطيرة في المدن الكبيرة.",
+      "usage_ar": "موضوع للنقاش أو مشكلة. يكثر: a serious issue."
     },
     {
       "group": "structuring_an_argument",
@@ -1099,7 +1413,11 @@
       "arabic": "وجهة نظر",
       "example": "A position",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "point of view",
+      "sentence": "From my point of view, the rule is fair.",
+      "sentence_ar": "من وجهة نظري، القاعدة عادلة.",
+      "usage_ar": "from my point of view بحرف from، لا in my point of view."
     },
     {
       "group": "structuring_an_argument",
@@ -1108,7 +1426,11 @@
       "arabic": "حل وسط",
       "example": "The middle ground",
       "group_label_ar": "بناء الحجّة",
-      "group_label_en": "Structuring an Argument"
+      "group_label_en": "Structuring an Argument",
+      "target": "compromise",
+      "sentence": "In the end, we reached a compromise.",
+      "sentence_ar": "في النهاية، توصّلنا إلى حل وسط.",
+      "usage_ar": "reach a compromise أو find a compromise."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1117,7 +1439,11 @@
       "arabic": "تعليم",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "Education",
+      "sentence": "Education should be free for everyone.",
+      "sentence_ar": "يجب أن يكون التعليم مجانياً للجميع.",
+      "usage_ar": "عام بلا the: Education is important."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1126,7 +1452,11 @@
       "arabic": "تكنولوجيا",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "Technology",
+      "sentence": "Technology has changed the way we work.",
+      "sentence_ar": "غيّرت التكنولوجيا طريقة عملنا.",
+      "usage_ar": "عام بلا the، وفعله مفرد: technology has."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1135,7 +1465,11 @@
       "arabic": "بيئة",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "environment",
+      "sentence": "We must protect the environment.",
+      "sentence_ar": "يجب أن نحمي البيئة.",
+      "usage_ar": "مع the دائماً بمعنى الطبيعة: the environment."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1144,7 +1478,11 @@
       "arabic": "تلوّث",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "Pollution",
+      "sentence": "Pollution in the city is getting worse.",
+      "sentence_ar": "التلوث في المدينة يزداد سوءاً.",
+      "usage_ar": "غير معدود: air pollution، لا a pollution."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1153,7 +1491,11 @@
       "arabic": "مرور",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "traffic",
+      "sentence": "There is a lot of traffic in the morning.",
+      "sentence_ar": "هناك زحام مرور كبير في الصباح.",
+      "usage_ar": "غير معدود: a lot of traffic، لا many traffics."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1162,7 +1504,11 @@
       "arabic": "مواصلات",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "transport",
+      "sentence": "Public transport here is cheap and fast.",
+      "sentence_ar": "المواصلات العامة هنا رخيصة وسريعة.",
+      "usage_ar": "البريطانية: public transport. والأمريكية transportation."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1171,7 +1517,11 @@
       "arabic": "صحة",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "health",
+      "sentence": "Sleep is very important for your health.",
+      "sentence_ar": "النوم مهم جداً لصحتك.",
+      "usage_ar": "good for your health. والصفة healthy."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1180,7 +1530,11 @@
       "arabic": "رياضة",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "Exercise",
+      "sentence": "Exercise helps you sleep better.",
+      "sentence_ar": "الرياضة تساعدك على النوم أفضل.",
+      "usage_ar": "do exercise أو get exercise، لا make exercise."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1189,7 +1543,11 @@
       "arabic": "وسائل التواصل",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "social media",
+      "sentence": "Young people spend hours on social media.",
+      "sentence_ar": "يقضي الشباب ساعات على وسائل التواصل.",
+      "usage_ar": "حرف الجر on: on social media."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1198,7 +1556,11 @@
       "arabic": "خصوصية",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "privacy",
+      "sentence": "Many apps don't respect your privacy.",
+      "sentence_ar": "تطبيقات كثيرة لا تحترم خصوصيتك.",
+      "usage_ar": "غير معدود، ويكثر: protect your privacy."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1207,7 +1569,11 @@
       "arabic": "توازن العمل والحياة",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "work-life balance",
+      "sentence": "A good job gives you a healthy work-life balance.",
+      "sentence_ar": "الوظيفة الجيدة تعطيك توازناً صحياً بين العمل والحياة.",
+      "usage_ar": "تعبير ثابت بشرطة. يكثر: a good work-life balance."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1216,7 +1582,11 @@
       "arabic": "عمل عن بعد",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "Remote work",
+      "sentence": "Remote work saves time and money.",
+      "sentence_ar": "العمل عن بعد يوفّر الوقت والمال.",
+      "usage_ar": "وللشخص: work remotely أو work from home."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1225,7 +1595,11 @@
       "arabic": "تقليد",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "tradition",
+      "sentence": "It is a tradition to visit family at Eid.",
+      "sentence_ar": "من التقاليد زيارة العائلة في العيد.",
+      "usage_ar": "It's a tradition to + فعل. والصفة traditional."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1234,7 +1608,11 @@
       "arabic": "الحياة الحديثة",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "Modern life",
+      "sentence": "Modern life is fast and stressful.",
+      "sentence_ar": "الحياة الحديثة سريعة ومرهقة.",
+      "usage_ar": "بلا the: Modern life is…"
     },
     {
       "group": "topics_you_can_discuss",
@@ -1243,7 +1621,11 @@
       "arabic": "حياة المدينة",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "City life",
+      "sentence": "City life is exciting but expensive.",
+      "sentence_ar": "حياة المدينة مثيرة لكنها مكلفة.",
+      "usage_ar": "بلا the، وتقابلها village life أو country life."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1252,7 +1634,11 @@
       "arabic": "حياة القرية",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "Village life",
+      "sentence": "Village life is quiet and simple.",
+      "sentence_ar": "حياة القرية هادئة وبسيطة.",
+      "usage_ar": "بلا the، للمقارنة مع city life."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1261,7 +1647,11 @@
       "arabic": "تكلفة المعيشة",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "cost of living",
+      "sentence": "The cost of living has gone up this year.",
+      "sentence_ar": "ارتفعت تكلفة المعيشة هذا العام.",
+      "usage_ar": "مع the: the cost of living goes up أو rises."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1270,7 +1660,11 @@
       "arabic": "راتب",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "salary",
+      "sentence": "My salary is paid at the end of the month.",
+      "sentence_ar": "يُدفع راتبي في آخر الشهر.",
+      "usage_ar": "راتب شهري ثابت. أما أجر الساعة فهو wage."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1279,7 +1673,11 @@
       "arabic": "جيل",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "generation",
+      "sentence": "The young generation uses phones all the time.",
+      "sentence_ar": "الجيل الشاب يستعمل الهواتف طوال الوقت.",
+      "usage_ar": "the young generation، the older generation."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1288,7 +1686,11 @@
       "arabic": "تغيير",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "Change",
+      "sentence": "Change is hard for many older people.",
+      "sentence_ar": "التغيير صعب على كثير من كبار السن.",
+      "usage_ar": "اسم وفعل معاً. make a change لا do a change."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1297,7 +1699,11 @@
       "arabic": "حرية",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "freedom",
+      "sentence": "Young people want more freedom.",
+      "sentence_ar": "الشباب يريدون حرية أكثر.",
+      "usage_ar": "freedom to + فعل، وfreedom of speech."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1306,7 +1712,11 @@
       "arabic": "أمان",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "Safety",
+      "sentence": "Safety is the most important thing on the road.",
+      "sentence_ar": "الأمان أهم شيء على الطريق.",
+      "usage_ar": "اسم، والصفة safe: for your safety."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1315,7 +1725,11 @@
       "arabic": "نجاح",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "success",
+      "sentence": "Hard work is the key to success.",
+      "sentence_ar": "العمل الجاد هو مفتاح النجاح.",
+      "usage_ar": "اسم، والفعل succeed، والصفة successful. the key to success."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1324,7 +1738,11 @@
       "arabic": "فشل",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "Failure",
+      "sentence": "Failure can teach you a lot.",
+      "sentence_ar": "الفشل يمكن أن يعلّمك الكثير.",
+      "usage_ar": "اسم، والفعل fail. للامتحان قل I failed the exam."
     },
     {
       "group": "topics_you_can_discuss",
@@ -1333,7 +1751,11 @@
       "arabic": "فرصة",
       "example": null,
       "group_label_ar": "موضوعات للنقاش",
-      "group_label_en": "Topics You Can Discuss"
+      "group_label_en": "Topics You Can Discuss",
+      "target": "opportunity",
+      "sentence": "This job is a great opportunity for me.",
+      "sentence_ar": "هذه الوظيفة فرصة عظيمة لي.",
+      "usage_ar": "an opportunity to + فعل. وتكتب بـpp."
     }
   ],
   "minimal_pairs": [],
@@ -1957,8 +2379,8 @@
             "title_ar": "ابنِ نصّك أنت",
             "title_en": "Build Your Version",
             "text_en": [
-              "Choose a topic from §2.4 or Exercise 5.",
-              "Section 4 is what makes this B1 rather than A2. Anyone can state an opinion. Stating the opposing argument fairly, and then explaining why you still disagree, is the specific skill the B1 descriptor asks for. Do not skip it, and do not present the other side weakly."
+              "Choose a topic from this week's word list or Exercise 5.",
+              "Part 4 of your outline is what makes this B1 rather than A2. Anyone can state an opinion. Stating the opposing argument fairly, and then explaining why you still disagree, is the specific skill the B1 descriptor asks for. Do not skip it, and do not present the other side weakly."
             ]
           },
           {

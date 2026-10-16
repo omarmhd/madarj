@@ -128,7 +128,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -182,7 +182,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -236,7 +236,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -254,25 +254,31 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "عبارات النصح · حوار: Asking for Advice",
-          "minutes": 25,
-          "ref": "vocab:advice_phrases|dialogue:1"
+          "label": "الكلمات",
+          "minutes": 15,
+          "ref": "vocab:advice_phrases",
+          "order": 2
+        },
+        {
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:1",
+          "order": 3
         },
         {
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:advice_phrases",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
@@ -281,19 +287,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -344,7 +350,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -362,13 +368,19 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "حوار: Explaining the Rules · الاستماع",
-          "minutes": 25,
-          "ref": "dialogue:2|section:listening"
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:2",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الاستماع",
+          "minutes": 15,
+          "ref": "section:listening",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
@@ -377,10 +389,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
@@ -389,19 +401,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -416,13 +428,25 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "القراءة · الكتابة",
-          "minutes": 25,
-          "ref": "section:reading|writing:1|record"
+          "label": "القراءة",
+          "minutes": 10,
+          "ref": "section:reading",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الكتابة",
+          "minutes": 10,
+          "ref": "writing:1",
+          "order": 3
+        },
+        {
+          "label": "التحدّث",
+          "minutes": 10,
+          "ref": "record",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 15,
           "ref": "game:minimal_pairs"
@@ -431,25 +455,25 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 6
         },
         {
-          "order": 5,
+          "order": 7,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 6,
+          "order": 8,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 9
         }
       ]
     }
@@ -462,7 +486,11 @@
       "arabic": "قاعدة",
       "example": "The rules are very strict.",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "rule",
+      "sentence": "There is one rule here: no phones.",
+      "sentence_ar": "هنا قاعدة واحدة: لا هواتف.",
+      "usage_ar": "نقول follow the rules أو break the rules."
     },
     {
       "group": "rules_and_obligation",
@@ -471,7 +499,11 @@
       "arabic": "قانون",
       "example": "It's against the law.",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "law",
+      "sentence": "Driving without a licence is against the law.",
+      "sentence_ar": "القيادة بلا رخصة مخالفة للقانون.",
+      "usage_ar": "نقول against the law بمعنى مخالف للقانون."
     },
     {
       "group": "rules_and_obligation",
@@ -480,7 +512,11 @@
       "arabic": "مسموح",
       "example": "Smoking isn't allowed here.",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "allowed",
+      "sentence": "Phones aren't allowed in the exam room.",
+      "sentence_ar": "الهواتف غير مسموحة في قاعة الامتحان.",
+      "usage_ar": "نقول be allowed to do: You're allowed to park here."
     },
     {
       "group": "rules_and_obligation",
@@ -489,7 +525,11 @@
       "arabic": "ممنوع",
       "example": "It's strictly forbidden.",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "forbidden",
+      "sentence": "Smoking is forbidden in the hospital.",
+      "sentence_ar": "التدخين ممنوع في المستشفى.",
+      "usage_ar": "forbidden كلمة قوية ورسمية، وفي الكلام نقول not allowed."
     },
     {
       "group": "rules_and_obligation",
@@ -498,7 +538,11 @@
       "arabic": "إذن",
       "example": "You need permission.",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "permission",
+      "sentence": "You need permission to take photos here.",
+      "sentence_ar": "تحتاج إلى إذن لالتقاط الصور هنا.",
+      "usage_ar": "نقول ask for permission وget permission."
     },
     {
       "group": "rules_and_obligation",
@@ -507,7 +551,11 @@
       "arabic": "التزام",
       "example": "There is no obligation.",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "obligation",
+      "sentence": "You have no obligation to buy anything.",
+      "sentence_ar": "لستَ ملزماً بشراء أي شيء.",
+      "usage_ar": "كلمة رسمية، وفي الكلام نقول You don't have to."
     },
     {
       "group": "rules_and_obligation",
@@ -516,7 +564,11 @@
       "arabic": "واجب",
       "example": "It's my duty.",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "duty",
+      "sentence": "It is my duty to help my parents.",
+      "sentence_ar": "من واجبي أن أساعد والديّ.",
+      "usage_ar": "نقول It's my duty to do something."
     },
     {
       "group": "rules_and_obligation",
@@ -525,7 +577,11 @@
       "arabic": "مسؤول",
       "example": "Who is responsible for this?",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "responsible",
+      "sentence": "Who is responsible for the keys?",
+      "sentence_ar": "من المسؤول عن المفاتيح؟",
+      "usage_ar": "بعد responsible يأتي for: responsible for."
     },
     {
       "group": "rules_and_obligation",
@@ -534,7 +590,11 @@
       "arabic": "صارم",
       "example": "My old boss was very strict.",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "strict",
+      "sentence": "My father was very strict with us.",
+      "sentence_ar": "كان والدي صارماً جداً معنا.",
+      "usage_ar": "نقول strict with someone، وstrict rules."
     },
     {
       "group": "rules_and_obligation",
@@ -543,7 +603,11 @@
       "arabic": "مرن",
       "example": "The hours are flexible.",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "flexible",
+      "sentence": "My working hours are flexible.",
+      "sentence_ar": "ساعات عملي مرنة.",
+      "usage_ar": "flexible للوقت والخطط والأشخاص."
     },
     {
       "group": "rules_and_obligation",
@@ -552,7 +616,11 @@
       "arabic": "موعد نهائي",
       "example": "We must meet the deadline.",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "deadline",
+      "sentence": "The deadline for the report is Friday.",
+      "sentence_ar": "الموعد النهائي للتقرير يوم الجمعة.",
+      "usage_ar": "نقول meet a deadline أي تلتزم به، وmiss a deadline."
     },
     {
       "group": "rules_and_obligation",
@@ -561,7 +629,11 @@
       "arabic": "في الموعد",
       "example": "You have to be on time.",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "on time",
+      "sentence": "You have to be on time for the meeting.",
+      "sentence_ar": "عليك أن تكون في الموعد للاجتماع.",
+      "usage_ar": "on time بالضبط في الموعد، وin time قبل فوات الأوان."
     },
     {
       "group": "rules_and_obligation",
@@ -570,7 +642,11 @@
       "arabic": "متأخر",
       "example": "You mustn't be late.",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "late",
+      "sentence": "You mustn't be late for work.",
+      "sentence_ar": "يجب ألا تتأخر عن العمل.",
+      "usage_ar": "نقول late for work، ولا نقول late on work."
     },
     {
       "group": "rules_and_obligation",
@@ -579,7 +655,11 @@
       "arabic": "يرتدي",
       "example": "You have to wear a uniform.",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "wear",
+      "sentence": "You have to wear a helmet on a bike.",
+      "sentence_ar": "عليك أن ترتدي خوذة على الدراجة.",
+      "usage_ar": "wear للملابس التي عليك، وput on لحظة لبسها."
     },
     {
       "group": "rules_and_obligation",
@@ -588,7 +668,11 @@
       "arabic": "زي رسمي",
       "example": "—",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "uniform",
+      "sentence": "Students must wear a uniform at this school.",
+      "sentence_ar": "يجب أن يرتدي الطلاب زيّاً رسمياً في هذه المدرسة.",
+      "usage_ar": "نقول wear a uniform، وتبدأ بصوت يو فنقول a لا an."
     },
     {
       "group": "rules_and_obligation",
@@ -597,7 +681,11 @@
       "arabic": "يوقّع / لافتة",
       "example": "You must sign here.",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "sign",
+      "sentence": "You must sign the form here.",
+      "sentence_ar": "يجب أن توقّع الاستمارة هنا.",
+      "usage_ar": "sign فعل بمعنى يوقّع، واسم بمعنى لافتة، وحرف g لا يُنطق."
     },
     {
       "group": "rules_and_obligation",
@@ -606,7 +694,11 @@
       "arabic": "استمارة",
       "example": "Fill in the form.",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "form",
+      "sentence": "Please fill in this form.",
+      "sentence_ar": "من فضلك املأ هذه الاستمارة.",
+      "usage_ar": "نقول fill in a form، ولا نقول fill a form."
     },
     {
       "group": "rules_and_obligation",
@@ -615,7 +707,11 @@
       "arabic": "مستند",
       "example": "Bring your documents.",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "document",
+      "sentence": "You must sign this document before you start.",
+      "sentence_ar": "يجب أن توقّع هذا المستند قبل أن تبدأ.",
+      "usage_ar": "document لورقة رسمية أو ملف على الحاسوب."
     },
     {
       "group": "rules_and_obligation",
@@ -624,7 +720,11 @@
       "arabic": "تأشيرة",
       "example": "Do I need a visa?",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "visa",
+      "sentence": "Do I need a visa for Canada?",
+      "sentence_ar": "هل أحتاج إلى تأشيرة لكندا؟",
+      "usage_ar": "نقول a visa for a country، وapply for a visa."
     },
     {
       "group": "rules_and_obligation",
@@ -633,7 +733,11 @@
       "arabic": "رخصة",
       "example": "a driving licence",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "licence",
+      "sentence": "You must have a driving licence.",
+      "sentence_ar": "يجب أن تكون معك رخصة قيادة.",
+      "usage_ar": "بالبريطانية licence اسم بحرف c، ونقول driving licence."
     },
     {
       "group": "rules_and_obligation",
@@ -642,7 +746,11 @@
       "arabic": "غرامة",
       "example": "You'll get a fine.",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "fine",
+      "sentence": "He got a fine for parking there.",
+      "sentence_ar": "حصل على غرامة لأنه ركن هناك.",
+      "usage_ar": "نقول get a fine أو pay a fine."
     },
     {
       "group": "rules_and_obligation",
@@ -651,7 +759,11 @@
       "arabic": "يعاقب",
       "example": "—",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "punish",
+      "sentence": "Teachers shouldn't punish children for mistakes.",
+      "sentence_ar": "لا ينبغي أن يعاقب المعلمون الأطفال على الأخطاء.",
+      "usage_ar": "نقول punish someone for something."
     },
     {
       "group": "rules_and_obligation",
@@ -660,7 +772,11 @@
       "arabic": "يحذّر",
       "example": "I warned him twice.",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "warn",
+      "sentence": "I have to warn you about the dog.",
+      "sentence_ar": "عليّ أن أحذّرك من الكلب.",
+      "usage_ar": "نقول warn someone about something."
     },
     {
       "group": "rules_and_obligation",
@@ -669,7 +785,11 @@
       "arabic": "يتبع",
       "example": "You must follow the rules.",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "follow",
+      "sentence": "You should follow the doctor's advice.",
+      "sentence_ar": "ينبغي أن تتّبع نصيحة الطبيب.",
+      "usage_ar": "follow بلا حرف جر: follow the rules."
     },
     {
       "group": "rules_and_obligation",
@@ -678,7 +798,11 @@
       "arabic": "يخالف القواعد",
       "example": "—",
       "group_label_ar": "القواعد والإلزام",
-      "group_label_en": "Rules and Obligation"
+      "group_label_en": "Rules and Obligation",
+      "target": "break the rules",
+      "sentence": "If you break the rules, you'll pay a fine.",
+      "sentence_ar": "إذا خالفتَ القواعد ستدفع غرامة.",
+      "usage_ar": "عكسها follow the rules، ولا نقول do against the rules."
     },
     {
       "group": "advice_and_problems",
@@ -687,7 +811,11 @@
       "arabic": "نصيحة",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "advice",
+      "sentence": "Can you give me some advice?",
+      "sentence_ar": "هل يمكنك أن تعطيني نصيحة؟",
+      "usage_ar": "advice بلا جمع وبلا a: نقول some advice أو a piece of advice."
     },
     {
       "group": "advice_and_problems",
@@ -696,7 +824,11 @@
       "arabic": "ينصح",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "advise",
+      "sentence": "Doctors advise people to drink more water.",
+      "sentence_ar": "ينصح الأطباء الناس بشرب ماء أكثر.",
+      "usage_ar": "advise فعل بصوت z، وadvice اسم بصوت s."
     },
     {
       "group": "advice_and_problems",
@@ -705,7 +837,11 @@
       "arabic": "يقترح",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "suggest",
+      "sentence": "I suggest a walk in the park.",
+      "sentence_ar": "أقترح نزهة في الحديقة.",
+      "usage_ar": "لا نقول suggest me، بل I suggest that we go."
     },
     {
       "group": "advice_and_problems",
@@ -714,7 +850,11 @@
       "arabic": "اقتراح",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "suggestion",
+      "sentence": "That's a good suggestion.",
+      "sentence_ar": "هذا اقتراح جيد.",
+      "usage_ar": "نقول make a suggestion."
     },
     {
       "group": "advice_and_problems",
@@ -723,7 +863,11 @@
       "arabic": "يوصي",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "recommend",
+      "sentence": "I recommend this restaurant.",
+      "sentence_ar": "أوصي بهذا المطعم.",
+      "usage_ar": "نقول recommend something to someone، ولا recommend me."
     },
     {
       "group": "advice_and_problems",
@@ -732,7 +876,11 @@
       "arabic": "حل",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "solution",
+      "sentence": "We need a solution to this problem.",
+      "sentence_ar": "نحتاج إلى حلّ لهذه المشكلة.",
+      "usage_ar": "بعد solution يأتي to: a solution to the problem."
     },
     {
       "group": "advice_and_problems",
@@ -741,7 +889,11 @@
       "arabic": "مشكلة",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "problem",
+      "sentence": "I have a problem with my phone.",
+      "sentence_ar": "لديّ مشكلة في هاتفي.",
+      "usage_ar": "نقول a problem with something، وNo problem للموافقة."
     },
     {
       "group": "advice_and_problems",
@@ -750,7 +902,11 @@
       "arabic": "مسألة",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "issue",
+      "sentence": "There is an issue with the payment.",
+      "sentence_ar": "هناك مسألة في الدفع.",
+      "usage_ar": "issue أهدأ وأكثر رسمية من problem."
     },
     {
       "group": "advice_and_problems",
@@ -759,7 +915,11 @@
       "arabic": "يقلق",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "worry",
+      "sentence": "Don't worry about the test.",
+      "sentence_ar": "لا تقلق بشأن الاختبار.",
+      "usage_ar": "نقول worry about، ولا نقول worry from."
     },
     {
       "group": "advice_and_problems",
@@ -768,7 +928,11 @@
       "arabic": "ضغط نفسي",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "stress",
+      "sentence": "I'm under a lot of stress at work.",
+      "sentence_ar": "أنا تحت ضغط كبير في العمل.",
+      "usage_ar": "نقول under stress، والصفة stressed."
     },
     {
       "group": "advice_and_problems",
@@ -777,7 +941,11 @@
       "arabic": "متعب",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "tired",
+      "sentence": "I'm too tired to go out tonight.",
+      "sentence_ar": "أنا متعب جداً للخروج الليلة.",
+      "usage_ar": "tired of تعني ملّ من: I'm tired of this."
     },
     {
       "group": "advice_and_problems",
@@ -786,7 +954,11 @@
       "arabic": "منهك",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "exhausted",
+      "sentence": "After the long trip, I was exhausted.",
+      "sentence_ar": "بعد الرحلة الطويلة كنتُ منهكاً.",
+      "usage_ar": "أقوى من tired، فلا نقول very exhausted."
     },
     {
       "group": "advice_and_problems",
@@ -795,7 +967,11 @@
       "arabic": "مشغول",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "busy",
+      "sentence": "I'm busy this week. Can we meet next week?",
+      "sentence_ar": "أنا مشغول هذا الأسبوع. هل نلتقي الأسبوع القادم؟",
+      "usage_ar": "نقول busy with something."
     },
     {
       "group": "advice_and_problems",
@@ -804,7 +980,11 @@
       "arabic": "وقت فراغ",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "free time",
+      "sentence": "What do you do in your free time?",
+      "sentence_ar": "ماذا تفعل في وقت فراغك؟",
+      "usage_ar": "نقول in my free time مع in."
     },
     {
       "group": "advice_and_problems",
@@ -813,7 +993,11 @@
       "arabic": "يقرّر",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "decide",
+      "sentence": "You must decide by Friday.",
+      "sentence_ar": "يجب أن تقرّر قبل يوم الجمعة.",
+      "usage_ar": "بعد decide يأتي to: decide to stay."
     },
     {
       "group": "advice_and_problems",
@@ -822,7 +1006,11 @@
       "arabic": "خيار",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "choice",
+      "sentence": "You have to make a choice.",
+      "sentence_ar": "عليك أن تختار.",
+      "usage_ar": "نقول make a choice، وI have no choice."
     },
     {
       "group": "advice_and_problems",
@@ -831,7 +1019,11 @@
       "arabic": "خطأ",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "mistake",
+      "sentence": "Everyone makes a mistake sometimes.",
+      "sentence_ar": "كل الناس يخطئون أحياناً.",
+      "usage_ar": "نقول make a mistake لا do a mistake."
     },
     {
       "group": "advice_and_problems",
@@ -840,7 +1032,11 @@
       "arabic": "مخاطرة",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "risk",
+      "sentence": "Don't take a risk with your health.",
+      "sentence_ar": "لا تخاطر بصحتك.",
+      "usage_ar": "نقول take a risk."
     },
     {
       "group": "advice_and_problems",
@@ -849,7 +1045,11 @@
       "arabic": "حذر",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "careful",
+      "sentence": "You should be careful on the stairs.",
+      "sentence_ar": "ينبغي أن تكون حذراً على الدرج.",
+      "usage_ar": "نقول be careful with something، والظرف carefully."
     },
     {
       "group": "advice_and_problems",
@@ -858,7 +1058,11 @@
       "arabic": "متأكد",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "sure",
+      "sentence": "Are you sure about the time?",
+      "sentence_ar": "هل أنت متأكد من الوقت؟",
+      "usage_ar": "نقول sure about something، ولا نقول sure from."
     },
     {
       "group": "advice_and_problems",
@@ -867,7 +1071,11 @@
       "arabic": "صعب",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "difficult",
+      "sentence": "It's difficult to find a flat here.",
+      "sentence_ar": "من الصعب إيجاد شقة هنا.",
+      "usage_ar": "نقول It's difficult to do something."
     },
     {
       "group": "advice_and_problems",
@@ -876,7 +1084,11 @@
       "arabic": "ممكن",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "possible",
+      "sentence": "Is it possible to change my ticket?",
+      "sentence_ar": "هل من الممكن تغيير تذكرتي؟",
+      "usage_ar": "نقول as soon as possible بمعنى في أسرع وقت."
     },
     {
       "group": "advice_and_problems",
@@ -885,7 +1097,11 @@
       "arabic": "يحسّن",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "improve",
+      "sentence": "You should read more to improve your English.",
+      "sentence_ar": "ينبغي أن تقرأ أكثر لتحسّن إنجليزيتك.",
+      "usage_ar": "improve مع مفعول: improve my English."
     },
     {
       "group": "advice_and_problems",
@@ -894,7 +1110,11 @@
       "arabic": "يتجنّب",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "avoid",
+      "sentence": "You should avoid coffee at night.",
+      "sentence_ar": "ينبغي أن تتجنّب القهوة ليلاً.",
+      "usage_ar": "بعد avoid يأتي الفعل بـ ing: avoid eating."
     },
     {
       "group": "advice_and_problems",
@@ -903,7 +1123,11 @@
       "arabic": "يتعامل مع",
       "example": null,
       "group_label_ar": "النصيحة والمشكلات",
-      "group_label_en": "Advice and Problems"
+      "group_label_en": "Advice and Problems",
+      "target": "deal with",
+      "sentence": "I have to deal with a lot of emails.",
+      "sentence_ar": "عليّ أن أتعامل مع رسائل كثيرة.",
+      "usage_ar": "نقول deal with something، ولا نحذف with."
     },
     {
       "group": "advice_phrases",
@@ -912,7 +1136,11 @@
       "arabic": "ينبغي أن…",
       "example": "Normal advice",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "You look tired. You should go to bed early.",
+      "sentence_ar": "تبدو متعباً. ينبغي أن تنام مبكراً.",
+      "usage_ar": "نصيحة عادية، وبعدها الفعل بلا to."
     },
     {
       "group": "advice_phrases",
@@ -921,7 +1149,11 @@
       "arabic": "لا ينبغي أن…",
       "example": "Normal advice",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "You shouldn't drink so much coffee.",
+      "sentence_ar": "لا ينبغي أن تشرب كل هذه القهوة.",
+      "usage_ar": "نصيحة بعدم فعل شيء، وبعدها الفعل بلا to."
     },
     {
       "group": "advice_phrases",
@@ -930,7 +1162,11 @@
       "arabic": "أظن أنه ينبغي…",
       "example": "Softer",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "I think you should talk to your boss.",
+      "sentence_ar": "أظن أنه ينبغي أن تتحدث مع مديرك.",
+      "usage_ar": "نصيحة ألطف، تقولها برأيك."
     },
     {
       "group": "advice_phrases",
@@ -939,7 +1175,11 @@
       "arabic": "ربما ينبغي…",
       "example": "Softer",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "Maybe you should take a break.",
+      "sentence_ar": "ربما ينبغي أن تأخذ استراحة.",
+      "usage_ar": "نصيحة لطيفة غير مباشرة."
     },
     {
       "group": "advice_phrases",
@@ -948,7 +1188,11 @@
       "arabic": "يمكنك أن…",
       "example": "A suggestion, not advice",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "You could take the train instead.",
+      "sentence_ar": "يمكنك أن تأخذ القطار بدلاً من ذلك.",
+      "usage_ar": "اقتراح لا نصيحة، وتعطي فيه خياراً."
     },
     {
       "group": "advice_phrases",
@@ -957,7 +1201,11 @@
       "arabic": "لماذا لا…؟",
       "example": "Friendly suggestion",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "Why don't you call her?",
+      "sentence_ar": "لماذا لا تتصل بها؟",
+      "usage_ar": "اقتراح ودّي، وليس سؤالاً عن السبب."
     },
     {
       "group": "advice_phrases",
@@ -966,7 +1214,11 @@
       "arabic": "ما رأيك بـ…؟",
       "example": "Friendly suggestion",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "How about a walk after dinner?",
+      "sentence_ar": "ما رأيك بنزهة بعد العشاء؟",
+      "usage_ar": "اقتراح ودّي، وبعده اسم أو فعل بـ ing."
     },
     {
       "group": "advice_phrases",
@@ -975,7 +1227,11 @@
       "arabic": "لو كنت مكانك…",
       "example": "Strong but polite",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "If I were you, I'd see a doctor.",
+      "sentence_ar": "لو كنتُ مكانك لذهبتُ إلى الطبيب.",
+      "usage_ar": "نصيحة قوية مهذّبة، احفظها عبارة كاملة كما هي."
     },
     {
       "group": "advice_phrases",
@@ -984,7 +1240,11 @@
       "arabic": "من الأفضل أن…",
       "example": "Strong — a warning",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "You'd better leave now, or you'll miss the bus.",
+      "sentence_ar": "من الأفضل أن تغادر الآن وإلا فاتتك الحافلة.",
+      "usage_ar": "تحذير قوي، وبعده الفعل بلا to."
     },
     {
       "group": "advice_phrases",
@@ -993,7 +1253,11 @@
       "arabic": "يجب أن…",
       "example": "Very strong",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "You must see a doctor today.",
+      "sentence_ar": "يجب أن ترى الطبيب اليوم.",
+      "usage_ar": "إلزام قوي جداً، ولا نقول must to."
     },
     {
       "group": "advice_phrases",
@@ -1002,7 +1266,11 @@
       "arabic": "عليك أن…",
       "example": "A rule, not my opinion",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "You have to show your passport here.",
+      "sentence_ar": "عليك أن تُظهر جواز سفرك هنا.",
+      "usage_ar": "قاعدة من الخارج لا رأيك، وبعدها to."
     },
     {
       "group": "advice_phrases",
@@ -1011,7 +1279,11 @@
       "arabic": "يجب ألا…",
       "example": "Prohibition",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "You mustn't smoke in the building.",
+      "sentence_ar": "يجب ألا تدخّن في المبنى.",
+      "usage_ar": "منع صريح، ويختلف عن don't have to."
     },
     {
       "group": "advice_phrases",
@@ -1020,7 +1292,11 @@
       "arabic": "لست مضطراً أن…",
       "example": "No obligation",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "You don't have to come if you're busy.",
+      "sentence_ar": "لستَ مضطراً أن تأتي إذا كنتَ مشغولاً.",
+      "usage_ar": "لا التزام، لكن يمكنك أن تفعل. لا تخلطها مع mustn't."
     },
     {
       "group": "advice_phrases",
@@ -1029,7 +1305,11 @@
       "arabic": "من الجيد أن…",
       "example": "Gentle",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "It's a good idea to sleep eight hours.",
+      "sentence_ar": "من الجيد أن تنام 8 ساعات.",
+      "usage_ar": "نصيحة لطيفة، وبعدها to."
     },
     {
       "group": "advice_phrases",
@@ -1038,7 +1318,11 @@
       "arabic": "يستحق أن…",
       "example": "Gentle",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "The museum is worth visiting.",
+      "sentence_ar": "المتحف يستحق الزيارة.",
+      "usage_ar": "بعد worth يأتي الفعل بـ ing: worth visiting."
     },
     {
       "group": "advice_phrases",
@@ -1047,7 +1331,11 @@
       "arabic": "هل فكّرت في…؟",
       "example": "Very gentle",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "Have you thought about changing jobs?",
+      "sentence_ar": "هل فكّرتَ في تغيير عملك؟",
+      "usage_ar": "اقتراح لطيف جداً، وبعده فعل بـ ing."
     },
     {
       "group": "advice_phrases",
@@ -1056,7 +1344,11 @@
       "arabic": "ماذا تظن أن عليّ فعله؟",
       "example": "Asking",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "I lost my job. What do you think I should do?",
+      "sentence_ar": "فقدتُ عملي. ماذا تظن أن عليّ فعله؟",
+      "usage_ar": "تطلب بها رأي صديق في مشكلتك."
     },
     {
       "group": "advice_phrases",
@@ -1065,7 +1357,11 @@
       "arabic": "هل أستشيرك؟",
       "example": "Asking",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "I have a problem. Can I ask your advice?",
+      "sentence_ar": "لديّ مشكلة. هل أستشيرك؟",
+      "usage_ar": "طريقة مهذّبة لطلب نصيحة."
     },
     {
       "group": "advice_phrases",
@@ -1074,7 +1370,11 @@
       "arabic": "ماذا كنت ستفعل؟",
       "example": "Asking",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "My boss is angry with me. What would you do?",
+      "sentence_ar": "مديري غاضب مني. ماذا كنتَ ستفعل؟",
+      "usage_ar": "تسأل بها شخصاً عما يفعله مكانك، احفظها عبارة كاملة."
     },
     {
       "group": "advice_phrases",
@@ -1083,7 +1383,11 @@
       "arabic": "نصيحة جيدة",
       "example": "Responding",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": "That's good advice",
+      "sentence": "Thank you, that's good advice.",
+      "sentence_ar": "شكراً، نصيحة جيدة.",
+      "usage_ar": "ردّ على نصيحة أعجبتك."
     },
     {
       "group": "advice_phrases",
@@ -1092,7 +1396,11 @@
       "arabic": "سأفكر في الأمر",
       "example": "Responding",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "Good idea. I'll think about it.",
+      "sentence_ar": "فكرة جيدة. سأفكر في الأمر.",
+      "usage_ar": "ردّ مهذّب حين لا تقرّر الآن."
     },
     {
       "group": "advice_phrases",
@@ -1101,7 +1409,11 @@
       "arabic": "لست متأكداً أن ذلك سينجح",
       "example": "Disagreeing politely",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "Leave your job? I'm not sure that would work.",
+      "sentence_ar": "تترك عملك؟ لست متأكداً أن ذلك سينجح.",
+      "usage_ar": "رفض مهذّب لنصيحة."
     },
     {
       "group": "advice_phrases",
@@ -1110,7 +1422,11 @@
       "arabic": "جرّبت ذلك بالفعل",
       "example": "Disagreeing politely",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "Drink more water? I've already tried that.",
+      "sentence_ar": "أشرب ماءً أكثر؟ جرّبتُ ذلك بالفعل.",
+      "usage_ar": "رفض مهذّب لأن النصيحة لم تنفع."
     },
     {
       "group": "advice_phrases",
@@ -1119,7 +1435,11 @@
       "arabic": "ربما أنت محق",
       "example": "Agreeing",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": "You're probably right",
+      "sentence": "OK, you're probably right.",
+      "sentence_ar": "حسناً، ربما أنت محق.",
+      "usage_ar": "موافقة على نصيحة."
     },
     {
       "group": "advice_phrases",
@@ -1128,7 +1448,11 @@
       "arabic": "يعتمد",
       "example": "Neutral",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": "It depends",
+      "sentence": "Should I take the job? It depends.",
+      "sentence_ar": "هل آخذ الوظيفة؟ يعتمد.",
+      "usage_ar": "جواب محايد، ونقول it depends on something."
     },
     {
       "group": "advice_phrases",
@@ -1137,7 +1461,11 @@
       "arabic": "الأمر عائد لك",
       "example": "Neutral",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "Tea or coffee? It's up to you.",
+      "sentence_ar": "شاي أم قهوة؟ الأمر عائد لك.",
+      "usage_ar": "تترك القرار للشخص الآخر."
     },
     {
       "group": "advice_phrases",
@@ -1146,7 +1474,11 @@
       "arabic": "لا أعرف ماذا أفعل",
       "example": "Opening a problem",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "I've lost my passport. I don't know what to do.",
+      "sentence_ar": "أضعتُ جواز سفري. لا أعرف ماذا أفعل.",
+      "usage_ar": "تبدأ بها شرح مشكلة لتطلب مساعدة."
     },
     {
       "group": "advice_phrases",
@@ -1155,7 +1487,11 @@
       "arabic": "أنا في وضع صعب",
       "example": "Opening a problem",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "Can you help me? I'm in a difficult situation.",
+      "sentence_ar": "هل تساعدني؟ أنا في وضع صعب.",
+      "usage_ar": "تبدأ بها شرح مشكلة كبيرة."
     },
     {
       "group": "advice_phrases",
@@ -1164,7 +1500,11 @@
       "arabic": "المشكلة أن…",
       "example": "Explaining",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "The problem is that I have no time.",
+      "sentence_ar": "المشكلة أنني لا أملك وقتاً.",
+      "usage_ar": "تشرح بها المشكلة، وبعدها جملة كاملة."
     },
     {
       "group": "advice_phrases",
@@ -1173,7 +1513,11 @@
       "arabic": "من ناحية أخرى…",
       "example": "Explaining",
       "group_label_ar": "عبارات النصح",
-      "group_label_en": "Advice Phrases"
+      "group_label_en": "Advice Phrases",
+      "target": null,
+      "sentence": "The job pays well. On the other hand, it's far.",
+      "sentence_ar": "الوظيفة براتب جيد. من ناحية أخرى، هي بعيدة.",
+      "usage_ar": "تقدّم بها الرأي المقابل."
     },
     {
       "group": "everyday_situations",
@@ -1182,7 +1526,11 @@
       "arabic": "طابور",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "queue",
+      "sentence": "We waited in a long queue.",
+      "sentence_ar": "انتظرنا في طابور طويل.",
+      "usage_ar": "بالبريطانية queue، ونقول wait in a queue."
     },
     {
       "group": "everyday_situations",
@@ -1191,7 +1539,11 @@
       "arabic": "تذكرة",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "ticket",
+      "sentence": "You must show your ticket on the train.",
+      "sentence_ar": "يجب أن تُظهر تذكرتك في القطار.",
+      "usage_ar": "نقول a ticket for a film أو a ticket to London."
     },
     {
       "group": "everyday_situations",
@@ -1200,7 +1552,11 @@
       "arabic": "جواز سفر",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "passport",
+      "sentence": "Don't forget your passport.",
+      "sentence_ar": "لا تنسَ جواز سفرك.",
+      "usage_ar": "نقول show your passport عند الحدود."
     },
     {
       "group": "everyday_situations",
@@ -1209,7 +1565,11 @@
       "arabic": "أمن",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "security",
+      "sentence": "You have to go through security at the airport.",
+      "sentence_ar": "عليك أن تمرّ بالتفتيش الأمني في المطار.",
+      "usage_ar": "نقول go through security في المطار."
     },
     {
       "group": "everyday_situations",
@@ -1218,7 +1578,11 @@
       "arabic": "حزام الأمان",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "seatbelt",
+      "sentence": "You must wear a seatbelt in the car.",
+      "sentence_ar": "يجب أن تضع حزام الأمان في السيارة.",
+      "usage_ar": "نقول wear a seatbelt أو put on your seatbelt."
     },
     {
       "group": "everyday_situations",
@@ -1227,7 +1591,11 @@
       "arabic": "حد السرعة",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "speed limit",
+      "sentence": "The speed limit here is 30 miles per hour.",
+      "sentence_ar": "حدّ السرعة هنا 30 ميلاً في الساعة.",
+      "usage_ar": "نقول go over the speed limit أي تتجاوزه."
     },
     {
       "group": "everyday_situations",
@@ -1236,7 +1604,11 @@
       "arabic": "تدخين",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "smoking",
+      "sentence": "Smoking isn't allowed inside.",
+      "sentence_ar": "التدخين غير مسموح في الداخل.",
+      "usage_ar": "نقول No smoking على اللافتات."
     },
     {
       "group": "everyday_situations",
@@ -1245,7 +1617,11 @@
       "arabic": "ضجيج",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "noise",
+      "sentence": "Please don't make any noise after 10 pm.",
+      "sentence_ar": "من فضلك لا تُحدث ضجيجاً بعد العاشرة مساءً.",
+      "usage_ar": "نقول make a noise، والصفة noisy."
     },
     {
       "group": "everyday_situations",
@@ -1254,7 +1630,11 @@
       "arabic": "صمت",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "silence",
+      "sentence": "You must keep silence in the library.",
+      "sentence_ar": "يجب أن تلتزم الصمت في المكتبة.",
+      "usage_ar": "نقول in silence بمعنى بصمت."
     },
     {
       "group": "everyday_situations",
@@ -1263,7 +1643,11 @@
       "arabic": "مدخل",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "entrance",
+      "sentence": "The entrance is on the left.",
+      "sentence_ar": "المدخل على اليسار.",
+      "usage_ar": "نقول the main entrance للمدخل الرئيسي."
     },
     {
       "group": "everyday_situations",
@@ -1272,7 +1656,11 @@
       "arabic": "مخرج",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "exit",
+      "sentence": "Where is the nearest exit?",
+      "sentence_ar": "أين أقرب مخرج؟",
+      "usage_ar": "exit للافتة المخرج، وway out في الكلام البريطاني."
     },
     {
       "group": "everyday_situations",
@@ -1281,7 +1669,11 @@
       "arabic": "طوارئ",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "emergency",
+      "sentence": "In an emergency, call 999.",
+      "sentence_ar": "في حالة الطوارئ اتصل بـ 999.",
+      "usage_ar": "نقول in an emergency وemergency exit."
     },
     {
       "group": "everyday_situations",
@@ -1290,7 +1682,11 @@
       "arabic": "للموظفين فقط",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "staff only",
+      "sentence": "That door is for staff only.",
+      "sentence_ar": "ذلك الباب للموظفين فقط.",
+      "usage_ar": "لافتة تعني ممنوع على الزبائن."
     },
     {
       "group": "everyday_situations",
@@ -1299,7 +1695,11 @@
       "arabic": "ممنوع الدخول",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "no entry",
+      "sentence": "You mustn't go in. The sign says no entry.",
+      "sentence_ar": "يجب ألا تدخل. اللافتة تقول ممنوع الدخول.",
+      "usage_ar": "لافتة منع، وتُكتب غالباً NO ENTRY."
     },
     {
       "group": "everyday_situations",
@@ -1308,7 +1708,11 @@
       "arabic": "خارج الخدمة",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "out of order",
+      "sentence": "The lift is out of order.",
+      "sentence_ar": "المصعد خارج الخدمة.",
+      "usage_ar": "للآلات المعطّلة، ولا نقول broken في اللافتات."
     },
     {
       "group": "everyday_situations",
@@ -1317,7 +1721,11 @@
       "arabic": "مغلق للصيانة",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "closed for repairs",
+      "sentence": "The pool is closed for repairs this week.",
+      "sentence_ar": "المسبح مغلق للصيانة هذا الأسبوع.",
+      "usage_ar": "لافتة على مكان مغلق مؤقتاً."
     },
     {
       "group": "everyday_situations",
@@ -1326,7 +1734,11 @@
       "arabic": "موعد",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "appointment",
+      "sentence": "I have an appointment with the dentist.",
+      "sentence_ar": "لديّ موعد مع طبيب الأسنان.",
+      "usage_ar": "appointment لموعد رسمي، وdate لموعد غرامي."
     },
     {
       "group": "everyday_situations",
@@ -1335,7 +1747,11 @@
       "arabic": "استقبال",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "reception",
+      "sentence": "Please ask at reception.",
+      "sentence_ar": "من فضلك اسأل في الاستقبال.",
+      "usage_ar": "نقول at reception دون the غالباً."
     },
     {
       "group": "everyday_situations",
@@ -1344,7 +1760,11 @@
       "arabic": "بطاقة هوية",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "identity card",
+      "sentence": "You must bring your identity card.",
+      "sentence_ar": "يجب أن تحضر بطاقة هويتك.",
+      "usage_ar": "تُختصر غالباً ID card."
     },
     {
       "group": "everyday_situations",
@@ -1353,7 +1773,11 @@
       "arabic": "تسجيل",
       "example": null,
       "group_label_ar": "مواقف يومية",
-      "group_label_en": "Everyday Situations"
+      "group_label_en": "Everyday Situations",
+      "target": "registration",
+      "sentence": "Registration starts at nine o'clock.",
+      "sentence_ar": "يبدأ التسجيل في الساعة 9.",
+      "usage_ar": "registration من الفعل register."
     }
   ],
   "minimal_pairs": [
@@ -1864,7 +2288,7 @@
           },
           {
             "can_ar": "أنصح بستّ عبارات مختلفة",
-            "can_en": "Give advice using six different phrases from §2.3?",
+            "can_en": "Give advice using six different phrases from this week's advice phrases?",
             "proof_ar": "جلسة المراجعة المتباعدة — تقول لك الرقم"
           },
           {

@@ -19,6 +19,7 @@ class Vocabulary extends Model
     protected $fillable = [
         'week_id', 'group',
         'group_label_ar', 'group_label_en', 'word', 'ipa', 'arabic', 'example', 'position',
+        'target', 'sentence', 'sentence_ar', 'usage_ar',
     ];
 
     public function week(): BelongsTo

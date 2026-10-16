@@ -552,6 +552,10 @@ class WeekController extends Controller
                             'arabic'    => $v->arabic,
                             'example'   => $v->example,
                             'cambridge' => $v->cambridge_url,
+                            'target'      => $v->target,
+                            'sentence'    => $v->sentence,
+                            'sentence_ar' => $v->sentence_ar,
+                            'usage_ar'    => $v->usage_ar,
                         ])->all(),
                     ];
                 }
@@ -809,6 +813,23 @@ class WeekController extends Controller
             }
         }
 
+        /*
+         * The learner's own words (🧠) join every spelling review: a word
+         * saved and never practised is a word forgotten. Negative ids keep
+         * them apart from course words in the drill's bookkeeping.
+         */
+        if ($review && ($user = auth()->user())) {
+            $own = \App\Models\MemoryWord::forUser($user->id)
+                ->whereNotNull('translation')->where('translation', '!=', '')
+                // Least practised first, so no saved word is left behind
+                ->orderBy('reps')->orderBy('created_at')->limit(6)->get()
+                ->filter(fn ($m) => str_word_count($m->term) <= 3)
+                ->map(fn ($m) => (object) [
+                    'id' => -$m->id, 'word' => $m->term, 'arabic' => $m->translation, 'ipa' => null,
+                ]);
+            $words = $words->concat($own)->values();
+        }
+
         if ($words->isEmpty()) {
             return null;
         }
@@ -977,18 +998,22 @@ class WeekController extends Controller
     }
 
     /**
-     * The day's homework — one task away from the screen, from a weekly
-     * cycle of seven, filled with that day's material.
+     * The day's adventure — the last station, done away from the screen.
      *
-     * The cycle replaced Break Time. Each kind is built from what the
-     * server already knows about the day (its words, its dialogue), so
-     * 168 days need no authored homework. The learner writes a short
-     * proof; the day does not complete without it (ProgressService).
+     * Two to choose from each day: a quiet one (alone, on paper, in your
+     * head) and a bold one (a voice, another person). Both come from
+     * `content/adventures.json` in a fixed walk through the pool, so a
+     * learner meets no weekly pattern to grow tired of, and each one only
+     * appears once its unit has taught the grammar it needs.
+     *
+     * Day 7 offers a letter to your future self instead of a quiet one;
+     * the next review week hands those letters back to be answered. The
+     * proof stays required — ProgressService checks it.
      */
     protected function homeworkFor(Week $week, int $day): array
     {
-        $kinds = [1 => 'label', 2 => 'teach', 3 => 'dialogue', 4 => 'sentences', 5 => 'hunt', 6 => 'speak', 7 => 'message'];
-        $kind = $kinds[(($day - 1) % 7) + 1];
+        static $pool = null;
+        $pool ??= json_decode(file_get_contents(base_path('content/adventures.json')), true);
 
         // Today's words, else the week's so far, else the week before
         $intro = $this->introductions($week);
@@ -1000,27 +1025,76 @@ class WeekController extends Controller
         if ($words->isEmpty() && $week->number > 1) {
             $words = \App\Models\Vocabulary::whereIn('week_id', Week::where('number', $week->number - 1)->pluck('id'))->get();
         }
-        $words = $words->filter(fn ($v) => str_word_count($v->word) <= 3)->shuffle()->take($kind === 'teach' ? 3 : 5)->values();
+        $words = $words->filter(fn ($v) => str_word_count($v->word) <= 3)->shuffle()->take(5)->values();
 
-        // The latest dialogue met by today, else the first one
         $dialogue = $week->dialogues->sortByDesc('number')
             ->first(fn ($d) => ($intro['dialogue:'.$d->number] ?? 99) <= $day) ?? $week->dialogues->sortBy('number')->first();
 
-        // A dialogue day with no dialogue becomes a sentences day
-        if ($kind === 'dialogue' && ! $dialogue) {
-            $kind = 'sentences';
+        $module = (int) ($week->module ?: 1);
+        $fits = fn ($a) => ($a['min_module'] ?? 1) <= $module && (($a['uses'] ?? null) !== 'dialogue' || $dialogue);
+        $quiet = array_values(array_filter($pool['quiet'], $fits));
+        $bold = array_values(array_filter($pool['bold'], $fits));
+
+        // A walk through each pool with steps coprime to its size: no
+        // pattern by weekday, and every adventure comes round in turn
+        $g = ($week->number - 1) * 7 + $day;
+        $pick = function (array $list, int $step, int $off) use ($g) {
+            $n = count($list);
+            // A step sharing a factor with the pool size skips some adventures forever
+            while ($n > 1 && (function ($a, $b) { while ($b) { [$a, $b] = [$b, $a % $b]; } return $a; })($step, $n) !== 1) {
+                $step++;
+            }
+
+            return $list[($g * $step + $off) % $n];
+        };
+        $calm = $pick($quiet, 5, 2);
+        $brave = $pick($bold, 3, 1);
+
+        // Letters to yourself: written on day 7, opened in review weeks
+        $letters = [];
+        if ($day === 7 && ($user = auth()->user())) {
+            if ($week->is_review) {
+                $letters = \App\Models\WeekNote::where('user_id', $user->id)->where('kind', 'homework')
+                    ->whereIn('week_id', Week::where('number', '<', $week->number)->pluck('id'))
+                    ->with('week:id,number')->get()
+                    ->filter(fn ($n) => ($n->answers['day7_kind'] ?? null) === 'capsule' && trim($n->answers['day7'] ?? '') !== '')
+                    ->map(fn ($n) => ['week' => $n->week?->number, 'text' => $n->answers['day7']])
+                    ->sortBy('week')->values()->all();
+
+                if ($letters) {
+                    $calm = $pool['open_capsule'];
+                }
+            } else {
+                $calm = $pool['capsule'];
+            }
         }
+
+        $list = $words->pluck('word')->implode(' · ');
+        $fill = fn (array $a, string $tone) => [
+            'key'   => $a['key'],
+            'tone'  => $tone,
+            'icon'  => $a['icon'] ?? null,
+            'title' => $a['title'],
+            'steps' => array_map(fn ($st) => strtr($st, [
+                '{words}'    => $list !== '' ? $list : 'كلمات اليوم',
+                '{dialogue}' => $dialogue ? '«'.$dialogue->title.'»' : 'حوار هذا الأسبوع',
+            ]), $a['steps']),
+            'proof' => $a['proof'],
+            'ltr'   => (bool) ($a['ltr'] ?? false),
+            'uses'  => $a['uses'] ?? null,
+        ];
 
         return [
             'type'     => 'homework',
-            'kind'     => $kind,
             'day'      => $day,
+            'options'  => [$fill($calm, 'quiet'), $fill($brave, 'bold')],
             'words'    => $words->map(fn ($v) => ['word' => $v->word, 'arabic' => $v->arabic])->all(),
-            'dialogue' => $kind === 'dialogue' ? [
+            'dialogue' => $dialogue ? [
                 'title' => $dialogue->title,
                 'lines' => $dialogue->lines->filter(fn ($l) => $l->speaker)->take(8)
                     ->map(fn ($l) => ['speaker' => $l->speaker, 'en' => $l->en])->values()->all(),
             ] : null,
+            'letters'  => $letters,
         ];
     }
 

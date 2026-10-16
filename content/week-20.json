@@ -43,7 +43,7 @@
     "title_ar": null,
     "title_en": "Writing — A Story",
     "task_ar": null,
-    "task_en": "Write 150–180 words telling a true story from your life. Include: a scene set in the Past Continuous, at least one Past Perfect explaining an earlier event, six connectors from §2.2, and an ending that says what you learned or how you felt.",
+    "task_en": "Write 150–180 words telling a true story from your life. Include: a scene set in the Past Continuous, at least one Past Perfect explaining an earlier event, six connectors from this week's word list, and an ending that says what you learned or how you felt.",
     "min_words": 150,
     "max_words": 180,
     "templates": [],
@@ -99,7 +99,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -153,7 +153,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -207,7 +207,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -225,25 +225,31 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "روابط السرد · حوار: Telling a Story to a Friend",
-          "minutes": 25,
-          "ref": "vocab:narrative_connectors|dialogue:1"
+          "label": "الكلمات",
+          "minutes": 15,
+          "ref": "vocab:narrative_connectors",
+          "order": 2
+        },
+        {
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:1",
+          "order": 3
         },
         {
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:narrative_connectors",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
@@ -252,19 +258,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -315,7 +321,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -333,13 +339,19 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "حوار: A Story at a Job Interview · الاستماع",
-          "minutes": 25,
-          "ref": "dialogue:2|section:listening"
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:2",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الاستماع",
+          "minutes": 15,
+          "ref": "section:listening",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
@@ -348,10 +360,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
@@ -360,19 +372,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -387,13 +399,25 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "القراءة · الكتابة",
-          "minutes": 25,
-          "ref": "section:reading|writing:1|record"
+          "label": "القراءة",
+          "minutes": 10,
+          "ref": "section:reading",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الكتابة",
+          "minutes": 10,
+          "ref": "writing:1",
+          "order": 3
+        },
+        {
+          "label": "التحدّث",
+          "minutes": 10,
+          "ref": "record",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
@@ -402,25 +426,25 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 6
         },
         {
-          "order": 5,
+          "order": 7,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 6,
+          "order": 8,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 9
         }
       ]
     }
@@ -433,7 +457,11 @@
       "arabic": "يحدث",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "happen",
+      "sentence": "What will happen if we are late?",
+      "sentence_ar": "ماذا سيحدث إن تأخرنا؟",
+      "usage_ar": "happen to شخص: What happened to you? ولا يأتي مجهولاً."
     },
     {
       "group": "storytelling_verbs",
@@ -442,7 +470,11 @@
       "arabic": "يقع",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "occur",
+      "sentence": "Accidents often occur on this road.",
+      "sentence_ar": "كثيراً ما تقع الحوادث على هذا الطريق.",
+      "usage_ar": "أرسم من happen، يكثر في الأخبار."
     },
     {
       "group": "storytelling_verbs",
@@ -451,7 +483,11 @@
       "arabic": "يلاحظ",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "notice",
+      "sentence": "Did you notice anything strange?",
+      "sentence_ar": "هل لاحظت شيئاً غريباً؟",
+      "usage_ar": "notice + الشيء مباشرة بلا حرف جر."
     },
     {
       "group": "storytelling_verbs",
@@ -460,7 +496,11 @@
       "arabic": "يدرك",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "realise",
+      "sentence": "I didn't realise it was so late.",
+      "sentence_ar": "لم أدرك أن الوقت متأخر هكذا.",
+      "usage_ar": "البريطانية بـs. يكثر في الماضي: I realised that…"
     },
     {
       "group": "storytelling_verbs",
@@ -469,7 +509,11 @@
       "arabic": "يكتشف",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "discover",
+      "sentence": "I was shocked to discover the truth.",
+      "sentence_ar": "صُدمت حين اكتشفت الحقيقة.",
+      "usage_ar": "في القصة: discover that + جملة."
     },
     {
       "group": "storytelling_verbs",
@@ -478,7 +522,11 @@
       "arabic": "يعلم",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "find out",
+      "sentence": "I want to find out what happened.",
+      "sentence_ar": "أريد أن أعرف ما حدث.",
+      "usage_ar": "لمعرفة معلومة بالسؤال أو البحث. الماضي found out."
     },
     {
       "group": "storytelling_verbs",
@@ -487,7 +535,11 @@
       "arabic": "يقرّر",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "decide",
+      "sentence": "We had to decide quickly.",
+      "sentence_ar": "كان علينا أن نقرّر بسرعة.",
+      "usage_ar": "decide to + فعل: decided to leave، لا decided leaving."
     },
     {
       "group": "storytelling_verbs",
@@ -496,7 +548,11 @@
       "arabic": "يرفض",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "refuse",
+      "sentence": "He would never refuse to help a friend.",
+      "sentence_ar": "لن يرفض أبداً مساعدة صديق.",
+      "usage_ar": "refuse to + فعل."
     },
     {
       "group": "storytelling_verbs",
@@ -505,7 +561,11 @@
       "arabic": "يصرخ",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "shout",
+      "sentence": "Please don't shout at the children.",
+      "sentence_ar": "من فضلك لا تصرخ على الأطفال.",
+      "usage_ar": "shout at = بغضب، وshout to = لينادي من بعيد."
     },
     {
       "group": "storytelling_verbs",
@@ -514,7 +574,11 @@
       "arabic": "يهمس",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "whisper",
+      "sentence": "She leaned over to whisper something to me.",
+      "sentence_ar": "مالت لتهمس لي بشيء.",
+      "usage_ar": "whisper to الشخص. عكس shout."
     },
     {
       "group": "storytelling_verbs",
@@ -523,7 +587,11 @@
       "arabic": "يردّ",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "reply",
+      "sentence": "I sent him a message, but he didn't reply.",
+      "sentence_ar": "أرسلت له رسالة لكنه لم يردّ.",
+      "usage_ar": "reply to + الرسالة: reply to an email."
     },
     {
       "group": "storytelling_verbs",
@@ -532,7 +600,11 @@
       "arabic": "يشرح",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "explain",
+      "sentence": "Can you explain the problem to me?",
+      "sentence_ar": "هل تشرح لي المشكلة؟",
+      "usage_ar": "explain it to me، لا explain me (مثل الخطأ 20)."
     },
     {
       "group": "storytelling_verbs",
@@ -541,7 +613,11 @@
       "arabic": "يضحك",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "laugh",
+      "sentence": "Everyone started to laugh at his joke.",
+      "sentence_ar": "بدأ الجميع يضحكون على نكتته.",
+      "usage_ar": "laugh at = يضحك على. تُنطق «لاف»."
     },
     {
       "group": "storytelling_verbs",
@@ -550,7 +626,11 @@
       "arabic": "يبكي",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "cry",
+      "sentence": "The film made me cry.",
+      "sentence_ar": "جعلني الفيلم أبكي.",
+      "usage_ar": "make someone cry بلا to. الماضي cried."
     },
     {
       "group": "storytelling_verbs",
@@ -559,7 +639,11 @@
       "arabic": "يجري",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "run",
+      "sentence": "I had to run to catch the bus.",
+      "sentence_ar": "اضطررت أن أجري لألحق الحافلة.",
+      "usage_ar": "الماضي ran والثالث run."
     },
     {
       "group": "storytelling_verbs",
@@ -568,7 +652,11 @@
       "arabic": "يسقط",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "fall",
+      "sentence": "Be careful, don't fall on the ice.",
+      "sentence_ar": "انتبه، لا تسقط على الجليد.",
+      "usage_ar": "يسقط وحده بلا مفعول. الماضي fell. fall asleep = ينام."
     },
     {
       "group": "storytelling_verbs",
@@ -577,7 +665,11 @@
       "arabic": "يُسقط",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "drop",
+      "sentence": "Don't drop the glass!",
+      "sentence_ar": "لا تُسقط الكأس!",
+      "usage_ar": "يُسقط شيئاً من يده، معه مفعول. لا تخلطه بـfall."
     },
     {
       "group": "storytelling_verbs",
@@ -586,7 +678,11 @@
       "arabic": "يكسر",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "break",
+      "sentence": "Be careful or you'll break the plate.",
+      "sentence_ar": "انتبه وإلا ستكسر الصحن.",
+      "usage_ar": "الماضي broke والثالث broken."
     },
     {
       "group": "storytelling_verbs",
@@ -595,7 +691,11 @@
       "arabic": "ينسى",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "forget",
+      "sentence": "Don't forget to lock the door.",
+      "sentence_ar": "لا تنسَ أن تقفل الباب.",
+      "usage_ar": "forget to + فعل. الماضي forgot."
     },
     {
       "group": "storytelling_verbs",
@@ -604,7 +704,11 @@
       "arabic": "يتذكّر",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "remember",
+      "sentence": "I can't remember his name.",
+      "sentence_ar": "لا أستطيع أن أتذكّر اسمه.",
+      "usage_ar": "remember to + فعل = لا تنسَ. وذكّرني = remind me لا remember me."
     },
     {
       "group": "storytelling_verbs",
@@ -613,7 +717,11 @@
       "arabic": "ينتظر",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "wait",
+      "sentence": "We had to wait for an hour.",
+      "sentence_ar": "اضطررنا أن ننتظر ساعة.",
+      "usage_ar": "wait for + الشخص أو الشيء، لا wait him."
     },
     {
       "group": "storytelling_verbs",
@@ -622,7 +730,11 @@
       "arabic": "يصل",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "arrive",
+      "sentence": "What time did you arrive at the hotel?",
+      "sentence_ar": "متى وصلت إلى الفندق؟",
+      "usage_ar": "arrive at مكان صغير، وin مدينة. لا تقل arrive to."
     },
     {
       "group": "storytelling_verbs",
@@ -631,7 +743,11 @@
       "arabic": "يغادر",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "leave",
+      "sentence": "I had to leave early that night.",
+      "sentence_ar": "اضطررت أن أغادر مبكراً تلك الليلة.",
+      "usage_ar": "leave + المكان بلا from. الماضي left."
     },
     {
       "group": "storytelling_verbs",
@@ -640,7 +756,11 @@
       "arabic": "يعود",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "return",
+      "sentence": "He promised to return the money.",
+      "sentence_ar": "وعد أن يعيد المال.",
+      "usage_ar": "return to مكان، أو return شيئاً. لا تقل return back."
     },
     {
       "group": "storytelling_verbs",
@@ -649,7 +769,11 @@
       "arabic": "يطرق",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "knock",
+      "sentence": "Please knock before you come in.",
+      "sentence_ar": "من فضلك اطرق قبل أن تدخل.",
+      "usage_ar": "knock on the door. الـk صامتة."
     },
     {
       "group": "storytelling_verbs",
@@ -658,7 +782,11 @@
       "arabic": "يرنّ",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "ring",
+      "sentence": "I heard the phone ring at midnight.",
+      "sentence_ar": "سمعت الهاتف يرنّ عند منتصف الليل.",
+      "usage_ar": "الماضي rang والثالث rung. وring = يتصل بالبريطانية."
     },
     {
       "group": "storytelling_verbs",
@@ -667,7 +795,11 @@
       "arabic": "يظهر",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "appear",
+      "sentence": "Stars appear in the sky after sunset.",
+      "sentence_ar": "تظهر النجوم في السماء بعد الغروب.",
+      "usage_ar": "يظهر فجأة أو تدريجياً. عكسه disappear."
     },
     {
       "group": "storytelling_verbs",
@@ -676,7 +808,11 @@
       "arabic": "يختفي",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "disappear",
+      "sentence": "My keys always disappear in this house.",
+      "sentence_ar": "مفاتيحي تختفي دائماً في هذا البيت.",
+      "usage_ar": "فعل لازم، لا يأتي مجهولاً: was disappeared خطأ."
     },
     {
       "group": "storytelling_verbs",
@@ -685,7 +821,11 @@
       "arabic": "يتمكّن من",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "manage to",
+      "sentence": "Did you manage to find a taxi?",
+      "sentence_ar": "هل تمكّنت من إيجاد سيارة أجرة؟",
+      "usage_ar": "بعده فعل مجرد: managed to open it، بعد محاولة صعبة."
     },
     {
       "group": "storytelling_verbs",
@@ -694,7 +834,11 @@
       "arabic": "يفشل في",
       "example": null,
       "group_label_ar": "أفعال السرد",
-      "group_label_en": "Storytelling Verbs"
+      "group_label_en": "Storytelling Verbs",
+      "target": "fail to",
+      "sentence": "Many people fail to notice the sign.",
+      "sentence_ar": "كثيرون لا ينتبهون إلى اللافتة.",
+      "usage_ar": "بعده فعل مجرد. رسمي قليلاً، يعني «لم يفعل»."
     },
     {
       "group": "narrative_connectors",
@@ -703,7 +847,11 @@
       "arabic": "ذات يوم…",
       "example": "Opening",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": "One day",
+      "sentence": "One day, a strange letter arrived.",
+      "sentence_ar": "ذات يوم، وصلت رسالة غريبة.",
+      "usage_ar": "يفتح القصة، وبعده الماضي البسيط."
     },
     {
       "group": "narrative_connectors",
@@ -712,7 +860,11 @@
       "arabic": "قبل بضع سنوات…",
       "example": "Opening",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": "A few years ago",
+      "sentence": "A few years ago, I lived in a small village.",
+      "sentence_ar": "قبل بضع سنوات، كنت أعيش في قرية صغيرة.",
+      "usage_ar": "ago مع الماضي البسيط لا التام (الخطأ 17)."
     },
     {
       "group": "narrative_connectors",
@@ -721,7 +873,11 @@
       "arabic": "بدأ كل شيء عندما…",
       "example": "Opening",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": null,
+      "sentence": "To open your story, say: It all started when I lost my phone.",
+      "sentence_ar": "لتفتح قصتك قل: بدأ كل شيء عندما أضعت هاتفي.",
+      "usage_ar": "افتتاح قوي للقصة، بعده الماضي البسيط."
     },
     {
       "group": "narrative_connectors",
@@ -730,7 +886,11 @@
       "arabic": "في ذلك الوقت كنت…",
       "example": "Setting the scene",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": null,
+      "sentence": "To set the scene: At the time, I was working in a hotel.",
+      "sentence_ar": "لترسم المشهد: في ذلك الوقت كنت أعمل في فندق.",
+      "usage_ar": "بعده الماضي المستمر غالباً لوصف الخلفية."
     },
     {
       "group": "narrative_connectors",
@@ -739,7 +899,11 @@
       "arabic": "كنت… وفجأة…",
       "example": "The interruption",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": null,
+      "sentence": "For the key moment: I was cooking when suddenly the lights went out.",
+      "sentence_ar": "للحظة المهمة: كنت أطبخ وفجأة انطفأت الأضواء.",
+      "usage_ar": "الماضي المستمر للخلفية، والبسيط للحدث المفاجئ."
     },
     {
       "group": "narrative_connectors",
@@ -748,7 +912,11 @@
       "arabic": "فجأة…",
       "example": "The interruption",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": null,
+      "sentence": "For a surprise in a story: All of a sudden, the door opened.",
+      "sentence_ar": "لمفاجأة في القصة: فجأة انفتح الباب.",
+      "usage_ar": "بمعنى suddenly لكنه أقوى في الحكي."
     },
     {
       "group": "narrative_connectors",
@@ -757,7 +925,11 @@
       "arabic": "من العدم…",
       "example": "The interruption",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": "Out of nowhere",
+      "sentence": "Out of nowhere, a dog ran into the road.",
+      "sentence_ar": "من العدم، ركض كلب إلى الطريق.",
+      "usage_ar": "لشيء ظهر فجأة بلا إنذار."
     },
     {
       "group": "narrative_connectors",
@@ -766,7 +938,11 @@
       "arabic": "قبل أن أدرك…",
       "example": "Speed",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": null,
+      "sentence": "To show speed: Before I knew it, the holiday was over.",
+      "sentence_ar": "لتُظهر السرعة: قبل أن أدرك، انتهت العطلة.",
+      "usage_ar": "لشيء حدث بسرعة كبيرة."
     },
     {
       "group": "narrative_connectors",
@@ -775,7 +951,11 @@
       "arabic": "في هذه الأثناء…",
       "example": "A parallel event",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": "Meanwhile",
+      "sentence": "Meanwhile, my brother was waiting outside.",
+      "sentence_ar": "في هذه الأثناء، كان أخي ينتظر في الخارج.",
+      "usage_ar": "لحدث آخر في الوقت نفسه، ويكثر معه الماضي المستمر."
     },
     {
       "group": "narrative_connectors",
@@ -784,7 +964,11 @@
       "arabic": "في تلك اللحظة…",
       "example": "The turning point",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": "At that moment",
+      "sentence": "At that moment, the phone rang.",
+      "sentence_ar": "في تلك اللحظة، رنّ الهاتف.",
+      "usage_ar": "لنقطة التحول في القصة."
     },
     {
       "group": "narrative_connectors",
@@ -793,7 +977,11 @@
       "arabic": "حينها…",
       "example": "The turning point",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": "That's when",
+      "sentence": "That's when I saw the fire.",
+      "sentence_ar": "حينها رأيت النار.",
+      "usage_ar": "يشير إلى اللحظة التي تغيّر فيها كل شيء."
     },
     {
       "group": "narrative_connectors",
@@ -802,7 +990,11 @@
       "arabic": "وليزداد الأمر سوءاً…",
       "example": "Rising trouble",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": null,
+      "sentence": "When trouble grows: To make things worse, it started to rain.",
+      "sentence_ar": "حين تزيد المشكلة: وليزداد الأمر سوءاً، بدأ المطر.",
+      "usage_ar": "لمشكلة جديدة فوق مشكلة."
     },
     {
       "group": "narrative_connectors",
@@ -811,7 +1003,11 @@
       "arabic": "لحسن الحظ…",
       "example": "Relief",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": "Luckily",
+      "sentence": "Luckily, someone found my wallet.",
+      "sentence_ar": "لحسن الحظ، وجد أحدهم محفظتي.",
+      "usage_ar": "للارتياح بعد مشكلة. بعده فاصلة."
     },
     {
       "group": "narrative_connectors",
@@ -820,7 +1016,11 @@
       "arabic": "لسوء الحظ…",
       "example": "Trouble",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": "Unfortunately",
+      "sentence": "Unfortunately, the last train had already left.",
+      "sentence_ar": "لسوء الحظ، كان آخر قطار قد غادر.",
+      "usage_ar": "لخبر سيئ. تكتب بحرفي n في وسطها."
     },
     {
       "group": "narrative_connectors",
@@ -829,7 +1029,11 @@
       "arabic": "في النهاية…",
       "example": "Resolution",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": "In the end",
+      "sentence": "In the end, we took a taxi home.",
+      "sentence_ar": "في النهاية، أخذنا سيارة أجرة إلى البيت.",
+      "usage_ar": "لنهاية القصة. أما at the end of فهي «في آخر» شيء."
     },
     {
       "group": "narrative_connectors",
@@ -838,7 +1042,11 @@
       "arabic": "في النهاية (بعد وقت)…",
       "example": "Resolution",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": "Eventually",
+      "sentence": "Eventually, the bus arrived.",
+      "sentence_ar": "في النهاية، وصلت الحافلة.",
+      "usage_ar": "بعد وقت طويل أو صعوبة. لا تعني «ربما»."
     },
     {
       "group": "narrative_connectors",
@@ -847,7 +1055,11 @@
       "arabic": "اتضح أن…",
       "example": "The revelation",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": null,
+      "sentence": "For the surprise at the end: It turned out that the shop was closed.",
+      "sentence_ar": "للمفاجأة في الآخر: اتضح أن المتجر كان مغلقاً.",
+      "usage_ar": "لحقيقة ظهرت لاحقاً، بعده الماضي."
     },
     {
       "group": "narrative_connectors",
@@ -856,7 +1068,11 @@
       "arabic": "علمت لاحقاً أن…",
       "example": "The revelation",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": null,
+      "sentence": "To reveal a secret: I found out later that he had lied.",
+      "sentence_ar": "لكشف سر: علمت لاحقاً أنه كان قد كذب.",
+      "usage_ar": "يكثر بعده الماضي التام: had + التصريف الثالث."
     },
     {
       "group": "narrative_connectors",
@@ -865,7 +1081,11 @@
       "arabic": "على أي حال…",
       "example": "Returning to the point",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": "Anyway",
+      "sentence": "Anyway, we finally got to the hotel.",
+      "sentence_ar": "على أي حال، وصلنا أخيراً إلى الفندق.",
+      "usage_ar": "للرجوع إلى القصة بعد خروج عنها."
     },
     {
       "group": "narrative_connectors",
@@ -874,7 +1094,11 @@
       "arabic": "الطريف أن…",
       "example": "Commentary",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": null,
+      "sentence": "To comment on your story: The funny thing is, nobody noticed.",
+      "sentence_ar": "لتعلّق على قصتك: الطريف أن أحداً لم يلاحظ.",
+      "usage_ar": "تعليق على شيء غريب أو مضحك في القصة."
     },
     {
       "group": "narrative_connectors",
@@ -883,7 +1107,11 @@
       "arabic": "أسوأ جزء كان…",
       "example": "Commentary",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": null,
+      "sentence": "To comment on your story: The worst part was the long wait.",
+      "sentence_ar": "لتعلّق على قصتك: أسوأ جزء كان الانتظار الطويل.",
+      "usage_ar": "بعده اسم أو that وجملة."
     },
     {
       "group": "narrative_connectors",
@@ -892,7 +1120,11 @@
       "arabic": "ما زلت لا أعرف لماذا…",
       "example": "Commentary",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": null,
+      "sentence": "To end with a question: I still don't know why he left.",
+      "sentence_ar": "لتختم بسؤال: ما زلت لا أعرف لماذا غادر.",
+      "usage_ar": "بعد why ترتيب الجملة العادي: why he left، لا why did he leave."
     },
     {
       "group": "narrative_connectors",
@@ -901,7 +1133,11 @@
       "arabic": "بالنظر إلى الوراء…",
       "example": "Reflection",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": "Looking back",
+      "sentence": "Looking back, it was a great experience.",
+      "sentence_ar": "بالنظر إلى الوراء، كانت تجربة رائعة.",
+      "usage_ar": "لتأمل الماضي من الحاضر، في آخر القصة."
     },
     {
       "group": "narrative_connectors",
@@ -910,7 +1146,11 @@
       "arabic": "تعلّمت أن…",
       "example": "Moral",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": "I learned that",
+      "sentence": "I learned that you should always check the time.",
+      "sentence_ar": "تعلّمت أنه يجب دائماً أن تتحقق من الوقت.",
+      "usage_ar": "لعبرة القصة. ويُكتب أيضاً learnt بالبريطانية."
     },
     {
       "group": "narrative_connectors",
@@ -919,7 +1159,11 @@
       "arabic": "ولهذا…",
       "example": "Closing",
       "group_label_ar": "روابط السرد",
-      "group_label_en": "Narrative Connectors"
+      "group_label_en": "Narrative Connectors",
+      "target": null,
+      "sentence": "To close your story: And that's why I never travel without water.",
+      "sentence_ar": "لتختم قصتك: ولهذا لا أسافر أبداً بلا ماء.",
+      "usage_ar": "يختم القصة ويربطها بعادة في الحاضر."
     },
     {
       "group": "emotions_in_a_story",
@@ -928,7 +1172,11 @@
       "arabic": "مصدوم",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "shocked",
+      "sentence": "I was shocked when I heard the news.",
+      "sentence_ar": "صُدمت حين سمعت الخبر.",
+      "usage_ar": "shocked by أو at. والشيء نفسه shocking."
     },
     {
       "group": "emotions_in_a_story",
@@ -937,7 +1185,11 @@
       "arabic": "مذهول",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "stunned",
+      "sentence": "We were stunned by the beautiful view.",
+      "sentence_ar": "ذُهلنا من المنظر الجميل.",
+      "usage_ar": "أقوى من surprised، لمفاجأة توقفك عن الكلام."
     },
     {
       "group": "emotions_in_a_story",
@@ -946,7 +1198,11 @@
       "arabic": "مرعوب",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "terrified",
+      "sentence": "My sister is terrified of spiders.",
+      "sentence_ar": "أختي مرعوبة من العناكب.",
+      "usage_ar": "terrified of، أقوى بكثير من afraid."
     },
     {
       "group": "emotions_in_a_story",
@@ -955,7 +1211,11 @@
       "arabic": "متوتر",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "nervous",
+      "sentence": "I always feel nervous before an exam.",
+      "sentence_ar": "أشعر دائماً بالتوتر قبل الامتحان.",
+      "usage_ar": "nervous about أو before. ليس «عصبي» بمعنى غاضب."
     },
     {
       "group": "emotions_in_a_story",
@@ -964,7 +1224,11 @@
       "arabic": "محرَج",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "embarrassed",
+      "sentence": "I felt embarrassed when I fell in the street.",
+      "sentence_ar": "شعرت بالإحراج حين سقطت في الشارع.",
+      "usage_ar": "بحرفي r وحرفي s. الشيء المحرج embarrassing."
     },
     {
       "group": "emotions_in_a_story",
@@ -973,7 +1237,11 @@
       "arabic": "خجل",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "ashamed",
+      "sentence": "He was ashamed of his lie.",
+      "sentence_ar": "كان خجلاً من كذبته.",
+      "usage_ar": "ashamed of، لخطأ أخلاقي. أقوى من embarrassed."
     },
     {
       "group": "emotions_in_a_story",
@@ -982,7 +1250,11 @@
       "arabic": "مرتاح",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "relieved",
+      "sentence": "I was relieved to find my passport.",
+      "sentence_ar": "ارتحت حين وجدت جواز سفري.",
+      "usage_ar": "relieved to + فعل، بعد خوف أو قلق."
     },
     {
       "group": "emotions_in_a_story",
@@ -991,7 +1263,11 @@
       "arabic": "ممتن",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "grateful",
+      "sentence": "I am grateful for your help.",
+      "sentence_ar": "أنا ممتن لمساعدتك.",
+      "usage_ar": "grateful for الشيء، وto الشخص. تكتب grate لا great."
     },
     {
       "group": "emotions_in_a_story",
@@ -1000,7 +1276,11 @@
       "arabic": "غاضب جداً",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "furious",
+      "sentence": "My father was furious with me.",
+      "sentence_ar": "كان أبي غاضباً جداً مني.",
+      "usage_ar": "furious with الشخص، أقوى بكثير من angry."
     },
     {
       "group": "emotions_in_a_story",
@@ -1009,7 +1289,11 @@
       "arabic": "منزعج",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "annoyed",
+      "sentence": "She was annoyed because the bus was late.",
+      "sentence_ar": "كانت منزعجة لأن الحافلة تأخرت.",
+      "usage_ar": "أخف من angry. والشيء المزعج annoying."
     },
     {
       "group": "emotions_in_a_story",
@@ -1018,7 +1302,11 @@
       "arabic": "مرتبك",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "confused",
+      "sentence": "I was confused by the long instructions.",
+      "sentence_ar": "ارتبكت من التعليمات الطويلة.",
+      "usage_ar": "الشخص confused، والشيء confusing."
     },
     {
       "group": "emotions_in_a_story",
@@ -1027,7 +1315,11 @@
       "arabic": "مرتاب",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "suspicious",
+      "sentence": "The guard was suspicious of the man.",
+      "sentence_ar": "كان الحارس مرتاباً من الرجل.",
+      "usage_ar": "suspicious of. ويصف الشيء المريب أيضاً: a suspicious bag."
     },
     {
       "group": "emotions_in_a_story",
@@ -1036,7 +1328,11 @@
       "arabic": "متحمّس",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "excited",
+      "sentence": "The children were excited about the trip.",
+      "sentence_ar": "كان الأطفال متحمّسين للرحلة.",
+      "usage_ar": "excited about. الشخص excited والشيء exciting."
     },
     {
       "group": "emotions_in_a_story",
@@ -1045,7 +1341,11 @@
       "arabic": "خائب الأمل",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "disappointed",
+      "sentence": "I was disappointed with my result.",
+      "sentence_ar": "خاب أملي في نتيجتي.",
+      "usage_ar": "disappointed with أو by. حرف s واحد وحرفا p."
     },
     {
       "group": "emotions_in_a_story",
@@ -1054,7 +1354,11 @@
       "arabic": "منهك",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "exhausted",
+      "sentence": "After the long walk, we were exhausted.",
+      "sentence_ar": "بعد المشي الطويل كنا منهكين.",
+      "usage_ar": "أقوى من tired؛ لا تقل very exhausted."
     },
     {
       "group": "emotions_in_a_story",
@@ -1063,7 +1367,11 @@
       "arabic": "يائس",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "desperate",
+      "sentence": "He was desperate to find a job.",
+      "sentence_ar": "كان في حاجة شديدة إلى عمل.",
+      "usage_ar": "desperate to + فعل = يحتاجه بشدة."
     },
     {
       "group": "emotions_in_a_story",
@@ -1072,7 +1380,11 @@
       "arabic": "هادئ",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "calm",
+      "sentence": "Stay calm and wait for help.",
+      "sentence_ar": "ابقَ هادئاً وانتظر المساعدة.",
+      "usage_ar": "stay calm أو keep calm. الـl صامتة."
     },
     {
       "group": "emotions_in_a_story",
@@ -1081,7 +1393,11 @@
       "arabic": "مذعور",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "panicked",
+      "sentence": "I panicked when I couldn't find my son.",
+      "sentence_ar": "ذُعرت حين لم أجد ابني.",
+      "usage_ar": "الماضي بـck: panic ثم panicked."
     },
     {
       "group": "emotions_in_a_story",
@@ -1090,7 +1406,11 @@
       "arabic": "فخور",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "proud",
+      "sentence": "My parents are proud of me.",
+      "sentence_ar": "والداي فخوران بي.",
+      "usage_ar": "proud of، لا proud on أو with."
     },
     {
       "group": "emotions_in_a_story",
@@ -1099,7 +1419,11 @@
       "arabic": "مذنب",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "guilty",
+      "sentence": "I felt guilty about forgetting her birthday.",
+      "sentence_ar": "شعرت بالذنب لأني نسيت عيد ميلادها.",
+      "usage_ar": "feel guilty about + فعل بـing."
     },
     {
       "group": "emotions_in_a_story",
@@ -1108,7 +1432,11 @@
       "arabic": "عاجز عن الكلام",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "speechless",
+      "sentence": "The news left me speechless.",
+      "sentence_ar": "تركني الخبر عاجزاً عن الكلام.",
+      "usage_ar": "leave someone speechless، لمفاجأة كبيرة."
     },
     {
       "group": "emotions_in_a_story",
@@ -1117,7 +1445,11 @@
       "arabic": "متجمّد",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "frozen",
+      "sentence": "I was frozen with fear.",
+      "sentence_ar": "تجمّدت من الخوف.",
+      "usage_ar": "frozen with fear = لا يتحرك. وتعني أيضاً مجمّد كالطعام."
     },
     {
       "group": "emotions_in_a_story",
@@ -1126,7 +1458,11 @@
       "arabic": "محرج",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "awkward",
+      "sentence": "There was an awkward silence after his joke.",
+      "sentence_ar": "كان هناك صمت محرج بعد نكتته.",
+      "usage_ar": "يصف الموقف غالباً: an awkward moment."
     },
     {
       "group": "emotions_in_a_story",
@@ -1135,7 +1471,11 @@
       "arabic": "محظوظ",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "lucky",
+      "sentence": "We were lucky to find a seat.",
+      "sentence_ar": "كنا محظوظين أن وجدنا مقعداً.",
+      "usage_ar": "lucky to + فعل. والظرف luckily."
     },
     {
       "group": "emotions_in_a_story",
@@ -1144,7 +1484,11 @@
       "arabic": "متيقن",
       "example": null,
       "group_label_ar": "المشاعر في القصة",
-      "group_label_en": "Emotions in a Story"
+      "group_label_en": "Emotions in a Story",
+      "target": "certain",
+      "sentence": "I am certain that I locked the door.",
+      "sentence_ar": "أنا متيقن أني أقفلت الباب.",
+      "usage_ar": "أقوى من sure. certain that + جملة."
     },
     {
       "group": "time_in_a_story",
@@ -1153,7 +1497,11 @@
       "arabic": "بينما",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "While",
+      "sentence": "While I was cooking, the phone rang.",
+      "sentence_ar": "بينما كنت أطبخ، رنّ الهاتف.",
+      "usage_ar": "يكثر بعده الماضي المستمر للحدث الطويل."
     },
     {
       "group": "time_in_a_story",
@@ -1162,7 +1510,11 @@
       "arabic": "عندما",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "when",
+      "sentence": "I was sleeping when the alarm went off.",
+      "sentence_ar": "كنت نائماً عندما رنّ المنبّه.",
+      "usage_ar": "بعده الماضي البسيط للحدث القصير المقاطِع."
     },
     {
       "group": "time_in_a_story",
@@ -1171,7 +1523,11 @@
       "arabic": "بينما / حين",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "As",
+      "sentence": "As I opened the door, the cat ran out.",
+      "sentence_ar": "حين فتحت الباب، هربت القطة.",
+      "usage_ar": "لحدثين في اللحظة نفسها، أرسم من when."
     },
     {
       "group": "time_in_a_story",
@@ -1180,7 +1536,11 @@
       "arabic": "خلال",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "during",
+      "sentence": "I fell asleep during the film.",
+      "sentence_ar": "نمت خلال الفيلم.",
+      "usage_ar": "بعده اسم لا جملة: during the film، لا during I was."
     },
     {
       "group": "time_in_a_story",
@@ -1189,7 +1549,11 @@
       "arabic": "في نفس الوقت",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "at the same time",
+      "sentence": "We both spoke at the same time.",
+      "sentence_ar": "تكلّمنا كلانا في نفس الوقت.",
+      "usage_ar": "the قبل same دائماً."
     },
     {
       "group": "time_in_a_story",
@@ -1198,7 +1562,11 @@
       "arabic": "في نفس اللحظة التي",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "just as",
+      "sentence": "The bus left just as I arrived.",
+      "sentence_ar": "غادرت الحافلة في اللحظة التي وصلت فيها.",
+      "usage_ar": "أدقّ من as: في اللحظة نفسها تماماً."
     },
     {
       "group": "time_in_a_story",
@@ -1207,7 +1575,11 @@
       "arabic": "بحلول الوقت الذي",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "By the time",
+      "sentence": "By the time we arrived, the film had started.",
+      "sentence_ar": "حين وصلنا، كان الفيلم قد بدأ.",
+      "usage_ar": "يكثر معه الماضي التام: had started."
     },
     {
       "group": "time_in_a_story",
@@ -1216,7 +1588,11 @@
       "arabic": "حتى",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "until",
+      "sentence": "We waited until the rain stopped.",
+      "sentence_ar": "انتظرنا حتى توقف المطر.",
+      "usage_ar": "للزمن فقط. للمكان قل as far as."
     },
     {
       "group": "time_in_a_story",
@@ -1225,7 +1601,11 @@
       "arabic": "حالما",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "as soon as",
+      "sentence": "I called you as soon as I heard.",
+      "sentence_ar": "اتصلت بك حالما سمعت.",
+      "usage_ar": "بعده الماضي هنا. وللمستقبل المضارع: as soon as I arrive."
     },
     {
       "group": "time_in_a_story",
@@ -1234,7 +1614,11 @@
       "arabic": "في اللحظة التي",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "The moment",
+      "sentence": "The moment I saw her, I knew something was wrong.",
+      "sentence_ar": "حين رأيتها عرفت أن شيئاً ما خطأ.",
+      "usage_ar": "بمعنى as soon as لكنه أقوى في القصة."
     },
     {
       "group": "time_in_a_story",
@@ -1243,7 +1627,11 @@
       "arabic": "بعد بضع دقائق",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "A few minutes later",
+      "sentence": "A few minutes later, the police arrived.",
+      "sentence_ar": "بعد بضع دقائق، وصلت الشرطة.",
+      "usage_ar": "لنقل القصة إلى لحظة لاحقة."
     },
     {
       "group": "time_in_a_story",
@@ -1252,7 +1640,11 @@
       "arabic": "بعد نصف ساعة",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "Half an hour later",
+      "sentence": "Half an hour later, we were still waiting.",
+      "sentence_ar": "بعد نصف ساعة، كنا ما زلنا ننتظر.",
+      "usage_ar": "half an hour لا a half hour في البريطانية."
     },
     {
       "group": "time_in_a_story",
@@ -1261,7 +1653,11 @@
       "arabic": "لنحو عشر دقائق",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "for about ten minutes",
+      "sentence": "We talked for about ten minutes.",
+      "sentence_ar": "تحدّثنا لنحو 10 دقائق.",
+      "usage_ar": "for مع المدة، لا since (الخطأ 16)."
     },
     {
       "group": "time_in_a_story",
@@ -1270,7 +1666,11 @@
       "arabic": "طوال الصباح",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "all morning",
+      "sentence": "It rained all morning.",
+      "sentence_ar": "أمطرت طوال الصباح.",
+      "usage_ar": "بلا the: all morning، لا all the morning."
     },
     {
       "group": "time_in_a_story",
@@ -1279,7 +1679,11 @@
       "arabic": "طوال الوقت",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "the whole time",
+      "sentence": "He was smiling the whole time.",
+      "sentence_ar": "كان يبتسم طوال الوقت.",
+      "usage_ar": "بلا حرف جر قبله: the whole time، لا in the whole time."
     },
     {
       "group": "time_in_a_story",
@@ -1288,7 +1692,11 @@
       "arabic": "في هذه الأثناء",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "In the meantime",
+      "sentence": "In the meantime, I made some tea.",
+      "sentence_ar": "في هذه الأثناء، أعددت بعض الشاي.",
+      "usage_ar": "بين حدثين أثناء الانتظار، بمعنى meanwhile."
     },
     {
       "group": "time_in_a_story",
@@ -1297,7 +1705,11 @@
       "arabic": "بالفعل",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "already",
+      "sentence": "When I got there, they had already left.",
+      "sentence_ar": "حين وصلت، كانوا قد غادروا بالفعل.",
+      "usage_ar": "بين had والتصريف الثالث: had already left."
     },
     {
       "group": "time_in_a_story",
@@ -1306,7 +1718,11 @@
       "arabic": "ما زال",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "still",
+      "sentence": "At midnight, he was still working.",
+      "sentence_ar": "عند منتصف الليل كان ما زال يعمل.",
+      "usage_ar": "بعد was وقبل الفعل: was still working."
     },
     {
       "group": "time_in_a_story",
@@ -1315,7 +1731,11 @@
       "arabic": "أخيراً",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "finally",
+      "sentence": "After three hours, we finally reached the top.",
+      "sentence_ar": "بعد 3 ساعات وصلنا أخيراً إلى القمة.",
+      "usage_ar": "قبل الفعل الرئيسي، بعد انتظار أو جهد."
     },
     {
       "group": "time_in_a_story",
@@ -1324,7 +1744,11 @@
       "arabic": "أخيراً (بعد انتظار)",
       "example": null,
       "group_label_ar": "الزمن في القصة",
-      "group_label_en": "Time in a Story"
+      "group_label_en": "Time in a Story",
+      "target": "At last",
+      "sentence": "At last, the plane landed.",
+      "sentence_ar": "أخيراً، هبطت الطائرة.",
+      "usage_ar": "بعد انتظار طويل ومع ارتياح. لا يُستعمل لآخر نقطة في قائمة."
     }
   ],
   "minimal_pairs": [],
@@ -1783,7 +2207,7 @@
           },
           {
             "can_ar": "أستخدم عشرة روابط سرد في قصة واحدة",
-            "can_en": "Use ten connectors from §2.2 in one story?",
+            "can_en": "Use ten connectors from this week's word list in one story?",
             "proof_ar": "جلسة المراجعة المتباعدة — تقول لك الرقم"
           },
           {

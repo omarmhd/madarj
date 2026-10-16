@@ -47,6 +47,8 @@ export interface ShadowData {
 interface Props {
   data: ShadowData;
   onProgress?: (done: number, total: number) => void;
+  /** Called on reaching the last step (record on your phone) */
+  onComplete?: () => void;
 }
 
 const STEPS = [
@@ -58,7 +60,7 @@ const STEPS = [
 
 const TOGETHER_TARGET = 5;
 
-export default function Shadowing({ data, onProgress }: Props) {
+export default function Shadowing({ data, onProgress, onComplete }: Props) {
   const tr = useT();
   const { speakSequence, stop, supported, myRate } = useMySpeech();
 
@@ -73,6 +75,8 @@ export default function Shadowing({ data, onProgress }: Props) {
 
   useEffect(() => {
     onProgress?.(step, STEPS.length - 1);
+    if (step >= STEPS.length - 1) onComplete?.();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [step, onProgress]);
 
   useEffect(() => () => stopSeq.current?.(), []);

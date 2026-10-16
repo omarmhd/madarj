@@ -132,7 +132,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -186,7 +186,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -240,7 +240,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -258,25 +258,31 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "أفعال اللحظة الحاضرة · حوار: A Phone Call to the Office",
-          "minutes": 25,
-          "ref": "vocab:verbs_for_right_now|dialogue:1"
+          "label": "الكلمات",
+          "minutes": 15,
+          "ref": "vocab:verbs_for_right_now",
+          "order": 2
+        },
+        {
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:1",
+          "order": 3
         },
         {
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:verbs_for_right_now",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
@@ -285,19 +291,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -348,7 +354,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -366,13 +372,19 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "حوار: A Job Interview · الاستماع",
-          "minutes": 25,
-          "ref": "dialogue:2|section:listening"
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:2",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الاستماع",
+          "minutes": 15,
+          "ref": "section:listening",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
@@ -381,10 +393,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
@@ -393,19 +405,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -420,13 +432,25 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "القراءة · الكتابة",
-          "minutes": 25,
-          "ref": "section:reading|writing:1|record"
+          "label": "القراءة",
+          "minutes": 10,
+          "ref": "section:reading",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الكتابة",
+          "minutes": 10,
+          "ref": "writing:1",
+          "order": 3
+        },
+        {
+          "label": "التحدّث",
+          "minutes": 10,
+          "ref": "record",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 15,
           "ref": "game:minimal_pairs"
@@ -435,25 +459,25 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 6
         },
         {
-          "order": 5,
+          "order": 7,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 6,
+          "order": 8,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 9
         }
       ]
     }
@@ -466,7 +490,11 @@
       "arabic": "مهندس",
       "example": "designs and builds things",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "engineer",
+      "sentence": "My brother is an engineer at a big company.",
+      "sentence_ar": "أخي مهندس في شركة كبيرة.",
+      "usage_ar": "قل an engineer مع an، ولا تقل I engineer بل I am an engineer."
     },
     {
       "group": "jobs",
@@ -475,7 +503,11 @@
       "arabic": "طبيب",
       "example": "treats ill people",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "doctor",
+      "sentence": "I am seeing the doctor at five today.",
+      "sentence_ar": "سأرى الطبيب في الخامسة اليوم.",
+      "usage_ar": "نقول go to the doctor وsee the doctor."
     },
     {
       "group": "jobs",
@@ -484,7 +516,11 @@
       "arabic": "ممرض",
       "example": "looks after patients",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "nurse",
+      "sentence": "The nurse is helping an old man right now.",
+      "sentence_ar": "الممرضة تساعد رجلاً مسناً الآن.",
+      "usage_ar": "الكلمة للرجل والمرأة معاً: a nurse."
     },
     {
       "group": "jobs",
@@ -493,7 +529,11 @@
       "arabic": "معلّم",
       "example": "teaches students",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "teacher",
+      "sentence": "Our teacher is writing on the board.",
+      "sentence_ar": "معلمنا يكتب على السبورة.",
+      "usage_ar": "قل a teacher of English أو an English teacher."
     },
     {
       "group": "jobs",
@@ -502,7 +542,11 @@
       "arabic": "محامٍ",
       "example": "gives legal advice",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "lawyer",
+      "sentence": "She is a lawyer and works in the city.",
+      "sentence_ar": "هي محامية وتعمل في المدينة.",
+      "usage_ar": "قل a lawyer مع a قبل المهنة دائماً."
     },
     {
       "group": "jobs",
@@ -511,7 +555,11 @@
       "arabic": "محاسب",
       "example": "manages money and taxes",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "accountant",
+      "sentence": "The accountant is checking the numbers today.",
+      "sentence_ar": "المحاسب يراجع الأرقام اليوم.",
+      "usage_ar": "قل an accountant مع an لأنها تبدأ بصوت علة."
     },
     {
       "group": "jobs",
@@ -520,7 +568,11 @@
       "arabic": "مدير",
       "example": "leads a team",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "manager",
+      "sentence": "I need to speak to the manager, please.",
+      "sentence_ar": "أحتاج أن أتحدث مع المدير من فضلك.",
+      "usage_ar": "manager لمدير فريق أو متجر، وboss كلمة أبسط في الكلام."
     },
     {
       "group": "jobs",
@@ -529,7 +581,11 @@
       "arabic": "مصمم",
       "example": "creates how things look",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "designer",
+      "sentence": "My friend is a designer for a clothes shop.",
+      "sentence_ar": "صديقي مصمم لمحل ملابس.",
+      "usage_ar": "نقول a designer مع a، ويأتي بعدها for أو at."
     },
     {
       "group": "jobs",
@@ -538,7 +594,11 @@
       "arabic": "مبرمج",
       "example": "writes software",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "programmer",
+      "sentence": "The programmer is fixing a problem on the website.",
+      "sentence_ar": "المبرمج يصلّح مشكلة في الموقع.",
+      "usage_ar": "قل a programmer مع a قبل المهنة."
     },
     {
       "group": "jobs",
@@ -547,7 +607,11 @@
       "arabic": "صحفي",
       "example": "writes news",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "journalist",
+      "sentence": "The journalist is asking the players questions.",
+      "sentence_ar": "الصحفي يسأل اللاعبين أسئلة.",
+      "usage_ar": "لمن يكتب الأخبار في صحيفة أو موقع."
     },
     {
       "group": "jobs",
@@ -556,7 +620,11 @@
       "arabic": "سائق",
       "example": "drives a vehicle",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "driver",
+      "sentence": "The bus driver is waiting for us outside.",
+      "sentence_ar": "سائق الحافلة ينتظرنا في الخارج.",
+      "usage_ar": "نقول bus driver وtaxi driver."
     },
     {
       "group": "jobs",
@@ -565,7 +633,11 @@
       "arabic": "طيّار",
       "example": "flies a plane",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "pilot",
+      "sentence": "The pilot is talking to the passengers now.",
+      "sentence_ar": "الطيار يتحدث مع الركاب الآن.",
+      "usage_ar": "قل a pilot، ولا تحذف a قبل المهنة."
     },
     {
       "group": "jobs",
@@ -574,7 +646,11 @@
       "arabic": "طاهٍ",
       "example": "cooks in a restaurant",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "chef",
+      "sentence": "The chef is cooking fish for the guests.",
+      "sentence_ar": "الطاهي يطبخ السمك للضيوف.",
+      "usage_ar": "chef في المطعم، وcook لأي شخص يطبخ."
     },
     {
       "group": "jobs",
@@ -583,7 +659,11 @@
       "arabic": "نادل",
       "example": "serves customers",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "waiter",
+      "sentence": "The waiter is bringing our food now.",
+      "sentence_ar": "النادل يحضر طعامنا الآن.",
+      "usage_ar": "waiter للرجل، وwaitress للمرأة."
     },
     {
       "group": "jobs",
@@ -592,7 +672,11 @@
       "arabic": "بائع",
       "example": "helps people in a shop",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "shop assistant",
+      "sentence": "The shop assistant is helping a customer.",
+      "sentence_ar": "البائع يساعد زبوناً.",
+      "usage_ar": "لمن يعمل في محل، لا لصاحبه."
     },
     {
       "group": "jobs",
@@ -601,7 +685,11 @@
       "arabic": "موظف استقبال",
       "example": "welcomes visitors",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "receptionist",
+      "sentence": "The receptionist is answering the phone.",
+      "sentence_ar": "موظفة الاستقبال ترد على الهاتف.",
+      "usage_ar": "تجده في الفندق أو العيادة أو الشركة."
     },
     {
       "group": "jobs",
@@ -610,7 +698,11 @@
       "arabic": "سكرتير",
       "example": "organises an office",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "secretary",
+      "sentence": "The secretary is booking a room for the meeting.",
+      "sentence_ar": "السكرتير يحجز غرفة للاجتماع.",
+      "usage_ar": "قل a secretary مع a قبل المهنة."
     },
     {
       "group": "jobs",
@@ -619,7 +711,11 @@
       "arabic": "كهربائي",
       "example": "repairs electrical systems",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "electrician",
+      "sentence": "The electrician is fixing the lights in the kitchen.",
+      "sentence_ar": "الكهربائي يصلّح الأضواء في المطبخ.",
+      "usage_ar": "قل an electrician مع an."
     },
     {
       "group": "jobs",
@@ -628,7 +724,11 @@
       "arabic": "سبّاك",
       "example": "repairs water pipes (silent b)",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "plumber",
+      "sentence": "We need a plumber because the pipe is broken.",
+      "sentence_ar": "نحتاج سبّاكاً لأن الأنبوب مكسور.",
+      "usage_ar": "حرف b لا يُنطق: plumber تُقرأ بلا b."
     },
     {
       "group": "jobs",
@@ -637,7 +737,11 @@
       "arabic": "ميكانيكي",
       "example": "repairs cars",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "mechanic",
+      "sentence": "The mechanic is looking at my car.",
+      "sentence_ar": "الميكانيكي ينظر إلى سيارتي.",
+      "usage_ar": "ch هنا تُنطق k."
     },
     {
       "group": "jobs",
@@ -646,7 +750,11 @@
       "arabic": "بنّاء",
       "example": "builds houses",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "builder",
+      "sentence": "The builder is working on our new house.",
+      "sentence_ar": "البنّاء يعمل في بيتنا الجديد.",
+      "usage_ar": "حرف u لا يُنطق في builder."
     },
     {
       "group": "jobs",
@@ -655,7 +763,11 @@
       "arabic": "مزارع",
       "example": "grows food",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "farmer",
+      "sentence": "The farmer is working in the field all day.",
+      "sentence_ar": "المزارع يعمل في الحقل طوال اليوم.",
+      "usage_ar": "نقول work on a farm مع on."
     },
     {
       "group": "jobs",
@@ -664,7 +776,11 @@
       "arabic": "جندي",
       "example": "serves in the army",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "soldier",
+      "sentence": "Her son is a soldier in the army.",
+      "sentence_ar": "ابنها جندي في الجيش.",
+      "usage_ar": "نقول in the army مع in."
     },
     {
       "group": "jobs",
@@ -673,7 +789,11 @@
       "arabic": "ضابط شرطة",
       "example": "keeps people safe",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "police officer",
+      "sentence": "A police officer is standing near the bank.",
+      "sentence_ar": "ضابط شرطة يقف قرب البنك.",
+      "usage_ar": "قل a police officer، ولا تجمع police بـ s."
     },
     {
       "group": "jobs",
@@ -682,7 +802,11 @@
       "arabic": "عالِم",
       "example": "does research",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "scientist",
+      "sentence": "The scientist is working in a laboratory.",
+      "sentence_ar": "العالِم يعمل في مختبر.",
+      "usage_ar": "scientist لعالم العلوم، لا لكل متعلم."
     },
     {
       "group": "jobs",
@@ -691,7 +815,11 @@
       "arabic": "باحث",
       "example": "studies a subject deeply",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "researcher",
+      "sentence": "She is a researcher at the university.",
+      "sentence_ar": "هي باحثة في الجامعة.",
+      "usage_ar": "نقول a researcher at a university."
     },
     {
       "group": "jobs",
@@ -700,7 +828,11 @@
       "arabic": "مترجم",
       "example": "translates languages",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "translator",
+      "sentence": "The translator is working on a long book.",
+      "sentence_ar": "المترجم يعمل على كتاب طويل.",
+      "usage_ar": "translator للنص المكتوب غالباً."
     },
     {
       "group": "jobs",
@@ -709,7 +841,11 @@
       "arabic": "مصوّر",
       "example": "takes photographs",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "photographer",
+      "sentence": "The photographer is taking pictures of the bride.",
+      "sentence_ar": "المصور يلتقط صوراً للعروس.",
+      "usage_ar": "الضغط على المقطع الثاني: phoTOgrapher."
     },
     {
       "group": "jobs",
@@ -718,7 +854,11 @@
       "arabic": "طبيب أسنان",
       "example": "treats teeth",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "dentist",
+      "sentence": "I am going to the dentist today.",
+      "sentence_ar": "أنا ذاهب إلى طبيب الأسنان اليوم.",
+      "usage_ar": "نقول go to the dentist مع the."
     },
     {
       "group": "jobs",
@@ -727,7 +867,11 @@
       "arabic": "صيدلي",
       "example": "prepares medicine",
       "group_label_ar": "المهن",
-      "group_label_en": "Jobs"
+      "group_label_en": "Jobs",
+      "target": "pharmacist",
+      "sentence": "The pharmacist is preparing my medicine.",
+      "sentence_ar": "الصيدلي يحضّر دوائي.",
+      "usage_ar": "ph تُنطق f في pharmacist."
     },
     {
       "group": "the_workplace",
@@ -736,7 +880,11 @@
       "arabic": "مكتب",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "office",
+      "sentence": "I am working in the office today.",
+      "sentence_ar": "أنا أعمل في المكتب اليوم.",
+      "usage_ar": "نقول in the office أو at the office."
     },
     {
       "group": "the_workplace",
@@ -745,7 +893,11 @@
       "arabic": "اجتماع",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "meeting",
+      "sentence": "The manager is in a meeting right now.",
+      "sentence_ar": "المدير في اجتماع الآن.",
+      "usage_ar": "نقول in a meeting، وhave a meeting."
     },
     {
       "group": "the_workplace",
@@ -754,7 +906,11 @@
       "arabic": "مكتب (طاولة)",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "desk",
+      "sentence": "My laptop is on my desk.",
+      "sentence_ar": "حاسوبي المحمول على مكتبي.",
+      "usage_ar": "desk الطاولة، وoffice الغرفة أو المكان."
     },
     {
       "group": "the_workplace",
@@ -763,7 +919,11 @@
       "arabic": "موعد نهائي",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "deadline",
+      "sentence": "The deadline for the report is Friday.",
+      "sentence_ar": "الموعد النهائي للتقرير يوم الجمعة.",
+      "usage_ar": "نقول meet a deadline وmiss a deadline."
     },
     {
       "group": "the_workplace",
@@ -772,7 +932,11 @@
       "arabic": "زميل",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "colleague",
+      "sentence": "My colleague is helping me with the report.",
+      "sentence_ar": "زميلي يساعدني في التقرير.",
+      "usage_ar": "colleague لزميل العمل، وclassmate لزميل الدراسة."
     },
     {
       "group": "the_workplace",
@@ -781,7 +945,11 @@
       "arabic": "مشروع",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "project",
+      "sentence": "We are working on a new project.",
+      "sentence_ar": "نحن نعمل على مشروع جديد.",
+      "usage_ar": "نقول work on a project مع on."
     },
     {
       "group": "the_workplace",
@@ -790,7 +958,11 @@
       "arabic": "رئيس",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "boss",
+      "sentence": "My boss is very kind to us.",
+      "sentence_ar": "رئيسي لطيف جداً معنا.",
+      "usage_ar": "كلمة يومية، وmanager أكثر رسمية."
     },
     {
       "group": "the_workplace",
@@ -799,7 +971,11 @@
       "arabic": "مهمة",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "task",
+      "sentence": "I have a difficult task this morning.",
+      "sentence_ar": "لدي مهمة صعبة هذا الصباح.",
+      "usage_ar": "نقول do a task أو finish a task."
     },
     {
       "group": "the_workplace",
@@ -808,7 +984,11 @@
       "arabic": "فريق",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "team",
+      "sentence": "Our team is preparing for the meeting.",
+      "sentence_ar": "فريقنا يستعد للاجتماع.",
+      "usage_ar": "نقول in a team: I work in a team."
     },
     {
       "group": "the_workplace",
@@ -817,7 +997,11 @@
       "arabic": "تقرير",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "report",
+      "sentence": "She is writing a report for her boss.",
+      "sentence_ar": "هي تكتب تقريراً لرئيسها.",
+      "usage_ar": "نقول write a report، لا make a report."
     },
     {
       "group": "the_workplace",
@@ -826,7 +1010,11 @@
       "arabic": "شركة",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "company",
+      "sentence": "My father works for a small company.",
+      "sentence_ar": "أبي يعمل لدى شركة صغيرة.",
+      "usage_ar": "نقول work for a company مع for."
     },
     {
       "group": "the_workplace",
@@ -835,7 +1023,11 @@
       "arabic": "عميل",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "client",
+      "sentence": "I am meeting a new client today.",
+      "sentence_ar": "سألتقي بعميل جديد اليوم.",
+      "usage_ar": "client لعميل الخدمة، وcustomer لزبون المحل."
     },
     {
       "group": "the_workplace",
@@ -844,7 +1036,11 @@
       "arabic": "الموظفون",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "staff",
+      "sentence": "The staff are very friendly here.",
+      "sentence_ar": "الموظفون ودودون جداً هنا.",
+      "usage_ar": "staff تعني كل الموظفين، فلا تقل a staff."
     },
     {
       "group": "the_workplace",
@@ -853,7 +1049,11 @@
       "arabic": "راتب",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "salary",
+      "sentence": "His salary is not very high.",
+      "sentence_ar": "راتبه ليس مرتفعاً جداً.",
+      "usage_ar": "نقول a high salary أو a low salary."
     },
     {
       "group": "the_workplace",
@@ -862,7 +1062,11 @@
       "arabic": "عقد",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "contract",
+      "sentence": "I am reading my new contract carefully.",
+      "sentence_ar": "أنا أقرأ عقدي الجديد بعناية.",
+      "usage_ar": "نقول sign a contract."
     },
     {
       "group": "the_workplace",
@@ -871,7 +1075,11 @@
       "arabic": "مقابلة",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "interview",
+      "sentence": "She has a job interview tomorrow morning.",
+      "sentence_ar": "لديها مقابلة عمل صباح الغد.",
+      "usage_ar": "نقول a job interview وhave an interview."
     },
     {
       "group": "the_workplace",
@@ -880,7 +1088,11 @@
       "arabic": "خبرة",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "experience",
+      "sentence": "Do you have any experience in sales?",
+      "sentence_ar": "هل لديك أي خبرة في المبيعات؟",
+      "usage_ar": "بمعنى الخبرة لا تُجمع: some experience لا experiences."
     },
     {
       "group": "the_workplace",
@@ -889,7 +1101,11 @@
       "arabic": "مهارة",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "skill",
+      "sentence": "Writing is an important skill at work.",
+      "sentence_ar": "الكتابة مهارة مهمة في العمل.",
+      "usage_ar": "في الجمع skills: computer skills."
     },
     {
       "group": "the_workplace",
@@ -898,7 +1114,11 @@
       "arabic": "تدريب",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "training",
+      "sentence": "The new staff are getting training this week.",
+      "sentence_ar": "الموظفون الجدد يتلقون تدريباً هذا الأسبوع.",
+      "usage_ar": "لا تقل a training، قل some training."
     },
     {
       "group": "the_workplace",
@@ -907,7 +1127,11 @@
       "arabic": "ترقية",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "promotion",
+      "sentence": "He got a promotion last year.",
+      "sentence_ar": "حصل على ترقية العام الماضي.",
+      "usage_ar": "نقول get a promotion."
     },
     {
       "group": "the_workplace",
@@ -916,7 +1140,11 @@
       "arabic": "عمل إضافي",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "overtime",
+      "sentence": "I am doing overtime this week.",
+      "sentence_ar": "أنا أعمل ساعات إضافية هذا الأسبوع.",
+      "usage_ar": "نقول do overtime أو work overtime."
     },
     {
       "group": "the_workplace",
@@ -925,7 +1153,11 @@
       "arabic": "استراحة",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "break",
+      "sentence": "We are having a short break now.",
+      "sentence_ar": "نحن نأخذ استراحة قصيرة الآن.",
+      "usage_ar": "نقول have a break أو take a break."
     },
     {
       "group": "the_workplace",
@@ -934,7 +1166,11 @@
       "arabic": "وردية",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "shift",
+      "sentence": "My brother works the night shift.",
+      "sentence_ar": "أخي يعمل في الوردية الليلية.",
+      "usage_ar": "نقول day shift وnight shift."
     },
     {
       "group": "the_workplace",
@@ -943,7 +1179,11 @@
       "arabic": "جدول",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "schedule",
+      "sentence": "My schedule is very full this week.",
+      "sentence_ar": "جدولي ممتلئ جداً هذا الأسبوع.",
+      "usage_ar": "نقول a busy schedule أو a full schedule."
     },
     {
       "group": "the_workplace",
@@ -952,7 +1192,11 @@
       "arabic": "مشغول",
       "example": null,
       "group_label_ar": "مكان العمل",
-      "group_label_en": "The Workplace"
+      "group_label_en": "The Workplace",
+      "target": "busy",
+      "sentence": "Sorry, I am busy right now.",
+      "sentence_ar": "آسف، أنا مشغول الآن.",
+      "usage_ar": "قل I am busy مع am، لا I busy."
     },
     {
       "group": "verbs_for_right_now",
@@ -961,7 +1205,11 @@
       "arabic": "يعمل",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "working",
+      "sentence": "She is working in the garden.",
+      "sentence_ar": "هي تعمل في الحديقة.",
+      "usage_ar": "مع be دائماً: she is working، لا she working."
     },
     {
       "group": "verbs_for_right_now",
@@ -970,7 +1218,11 @@
       "arabic": "ينتظر",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "waiting",
+      "sentence": "We are waiting for the bus.",
+      "sentence_ar": "نحن ننتظر الحافلة.",
+      "usage_ar": "نقول wait for مع for: waiting for the bus."
     },
     {
       "group": "verbs_for_right_now",
@@ -979,7 +1231,11 @@
       "arabic": "يكتب",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "writing",
+      "sentence": "He is writing an email to his boss.",
+      "sentence_ar": "هو يكتب رسالة إلى رئيسه.",
+      "usage_ar": "احذف e من write ثم أضف ing: writing."
     },
     {
       "group": "verbs_for_right_now",
@@ -988,7 +1244,11 @@
       "arabic": "يجلس",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "sitting",
+      "sentence": "My grandfather is sitting in the garden.",
+      "sentence_ar": "جدي يجلس في الحديقة.",
+      "usage_ar": "ضاعف t: sitting."
     },
     {
       "group": "verbs_for_right_now",
@@ -997,7 +1257,11 @@
       "arabic": "يقرأ",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "reading",
+      "sentence": "I am reading a good book.",
+      "sentence_ar": "أنا أقرأ كتاباً جيداً.",
+      "usage_ar": "أضف ing فقط: reading."
     },
     {
       "group": "verbs_for_right_now",
@@ -1006,7 +1270,11 @@
       "arabic": "يقف",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "standing",
+      "sentence": "A man is standing at the door.",
+      "sentence_ar": "رجل يقف عند الباب.",
+      "usage_ar": "نقول standing at the door أو near."
     },
     {
       "group": "verbs_for_right_now",
@@ -1015,7 +1283,11 @@
       "arabic": "يتحدث",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "talking",
+      "sentence": "They are talking about the match.",
+      "sentence_ar": "هم يتحدثون عن المباراة.",
+      "usage_ar": "نقول talk about وtalk to."
     },
     {
       "group": "verbs_for_right_now",
@@ -1024,7 +1296,11 @@
       "arabic": "يمشي",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "walking",
+      "sentence": "We are walking to the park.",
+      "sentence_ar": "نحن نمشي إلى الحديقة.",
+      "usage_ar": "نقول walk to مع to."
     },
     {
       "group": "verbs_for_right_now",
@@ -1033,7 +1309,11 @@
       "arabic": "يستمع",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "listening",
+      "sentence": "I am listening to the radio.",
+      "sentence_ar": "أنا أستمع إلى الراديو.",
+      "usage_ar": "لا تنسَ to: listening to music."
     },
     {
       "group": "verbs_for_right_now",
@@ -1042,7 +1322,11 @@
       "arabic": "يجري",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "running",
+      "sentence": "The children are running in the park.",
+      "sentence_ar": "الأطفال يجرون في الحديقة.",
+      "usage_ar": "ضاعف n: running."
     },
     {
       "group": "verbs_for_right_now",
@@ -1051,7 +1335,11 @@
       "arabic": "يشاهد",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "watching",
+      "sentence": "We are watching a film now.",
+      "sentence_ar": "نحن نشاهد فيلماً الآن.",
+      "usage_ar": "watch للتلفاز والأفلام، وsee لما تراه عيناك."
     },
     {
       "group": "verbs_for_right_now",
@@ -1060,7 +1348,11 @@
       "arabic": "يقود",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "driving",
+      "sentence": "My father is driving to work.",
+      "sentence_ar": "أبي يقود سيارته إلى العمل.",
+      "usage_ar": "احذف e: driving."
     },
     {
       "group": "verbs_for_right_now",
@@ -1069,7 +1361,11 @@
       "arabic": "يأكل",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "eating",
+      "sentence": "The family is eating dinner now.",
+      "sentence_ar": "العائلة تتناول العشاء الآن.",
+      "usage_ar": "نقول eating lunch أو having lunch."
     },
     {
       "group": "verbs_for_right_now",
@@ -1078,7 +1374,11 @@
       "arabic": "يسافر",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "travelling",
+      "sentence": "My aunt is travelling in Europe.",
+      "sentence_ar": "عمتي تسافر في أوروبا.",
+      "usage_ar": "في البريطانية نضاعف l: travelling."
     },
     {
       "group": "verbs_for_right_now",
@@ -1087,7 +1387,11 @@
       "arabic": "يشرب",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "drinking",
+      "sentence": "He is drinking a cup of tea.",
+      "sentence_ar": "هو يشرب كوباً من الشاي.",
+      "usage_ar": "نقول drinking tea بلا the."
     },
     {
       "group": "verbs_for_right_now",
@@ -1096,7 +1400,11 @@
       "arabic": "يدرس",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "studying",
+      "sentence": "My sister is studying for her exam.",
+      "sentence_ar": "أختي تدرس لامتحانها.",
+      "usage_ar": "y تبقى: studying، لا studing."
     },
     {
       "group": "verbs_for_right_now",
@@ -1105,7 +1413,11 @@
       "arabic": "يطبخ",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "cooking",
+      "sentence": "My mother is cooking rice.",
+      "sentence_ar": "أمي تطبخ الأرز.",
+      "usage_ar": "cook للطبخ، وcooker هو الموقد لا الطاهي."
     },
     {
       "group": "verbs_for_right_now",
@@ -1114,7 +1426,11 @@
       "arabic": "يتعلّم",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "learning",
+      "sentence": "I am learning English these days.",
+      "sentence_ar": "أنا أتعلم الإنجليزية هذه الأيام.",
+      "usage_ar": "learn أنت تتعلم، وteach غيرك يعلّم."
     },
     {
       "group": "verbs_for_right_now",
@@ -1123,7 +1439,11 @@
       "arabic": "ينظّف",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "cleaning",
+      "sentence": "He is cleaning his room.",
+      "sentence_ar": "هو ينظف غرفته.",
+      "usage_ar": "أضف ing فقط: cleaning."
     },
     {
       "group": "verbs_for_right_now",
@@ -1132,7 +1452,11 @@
       "arabic": "يبني",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "building",
+      "sentence": "They are building a new school.",
+      "sentence_ar": "هم يبنون مدرسة جديدة.",
+      "usage_ar": "building أيضاً اسم بمعنى مبنى."
     },
     {
       "group": "verbs_for_right_now",
@@ -1141,7 +1465,11 @@
       "arabic": "يحضّر",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "preparing",
+      "sentence": "She is preparing lunch for the guests.",
+      "sentence_ar": "هي تحضّر الغداء للضيوف.",
+      "usage_ar": "نقول prepare for: preparing for the exam."
     },
     {
       "group": "verbs_for_right_now",
@@ -1150,7 +1478,11 @@
       "arabic": "يصلّح",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "fixing",
+      "sentence": "The mechanic is fixing my car.",
+      "sentence_ar": "الميكانيكي يصلّح سيارتي.",
+      "usage_ar": "fix كلمة يومية، وrepair أكثر رسمية."
     },
     {
       "group": "verbs_for_right_now",
@@ -1159,7 +1491,11 @@
       "arabic": "يخطّط",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "planning",
+      "sentence": "We are planning a trip to the sea.",
+      "sentence_ar": "نحن نخطط لرحلة إلى البحر.",
+      "usage_ar": "ضاعف n: planning."
     },
     {
       "group": "verbs_for_right_now",
@@ -1168,7 +1504,11 @@
       "arabic": "يحاول",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "trying",
+      "sentence": "I am trying to sleep.",
+      "sentence_ar": "أنا أحاول أن أنام.",
+      "usage_ar": "بعدها to مع الفعل: trying to sleep."
     },
     {
       "group": "verbs_for_right_now",
@@ -1177,7 +1517,11 @@
       "arabic": "يبحث عن",
       "example": null,
       "group_label_ar": "أفعال اللحظة الحاضرة",
-      "group_label_en": "Verbs for Right Now"
+      "group_label_en": "Verbs for Right Now",
+      "target": "looking for",
+      "sentence": "I am looking for my keys.",
+      "sentence_ar": "أنا أبحث عن مفاتيحي.",
+      "usage_ar": "لا تحذف for: looking for my keys."
     },
     {
       "group": "now_and_temporary",
@@ -1186,7 +1530,11 @@
       "arabic": "الآن",
       "example": "I am working now.",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": "now",
+      "sentence": "I am working now.",
+      "sentence_ar": "أنا أعمل الآن.",
+      "usage_ar": "تأتي غالباً في آخر الجملة مع am/is/are + ing."
     },
     {
       "group": "now_and_temporary",
@@ -1195,7 +1543,11 @@
       "arabic": "في هذه اللحظة",
       "example": "She is calling right now.",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": "right now",
+      "sentence": "She is calling her mother right now.",
+      "sentence_ar": "هي تتصل بأمها في هذه اللحظة.",
+      "usage_ar": "أقوى من now: في هذه الثانية."
     },
     {
       "group": "now_and_temporary",
@@ -1204,7 +1556,11 @@
       "arabic": "في الوقت الحالي",
       "example": "He is studying at the moment.",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": "at the moment",
+      "sentence": "He is studying at the moment.",
+      "sentence_ar": "هو يدرس في الوقت الحالي.",
+      "usage_ar": "نقول at the moment مع at، لا in the moment."
     },
     {
       "group": "now_and_temporary",
@@ -1213,7 +1569,11 @@
       "arabic": "حالياً",
       "example": "We are looking for a new office.",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": "currently",
+      "sentence": "We are currently looking for a new office.",
+      "sentence_ar": "نحن نبحث حالياً عن مكتب جديد.",
+      "usage_ar": "كلمة رسمية قليلاً، تأتي قبل الفعل مع ing."
     },
     {
       "group": "now_and_temporary",
@@ -1222,7 +1582,11 @@
       "arabic": "اليوم",
       "example": "I am working from home today.",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": "today",
+      "sentence": "I am working from home today.",
+      "sentence_ar": "أنا أعمل من البيت اليوم.",
+      "usage_ar": "لا تضع the قبلها: today لا the today."
     },
     {
       "group": "now_and_temporary",
@@ -1231,7 +1595,11 @@
       "arabic": "هذا الأسبوع",
       "example": "They are training new staff this week.",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": "this week",
+      "sentence": "They are training new staff this week.",
+      "sentence_ar": "هم يدربون موظفين جدداً هذا الأسبوع.",
+      "usage_ar": "بلا in: this week لا in this week."
     },
     {
       "group": "now_and_temporary",
@@ -1240,7 +1608,11 @@
       "arabic": "هذا الشهر",
       "example": "She is finishing a big project this month.",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": "this month",
+      "sentence": "She is finishing a big project this month.",
+      "sentence_ar": "هي تنهي مشروعاً كبيراً هذا الشهر.",
+      "usage_ar": "بلا in: this month."
     },
     {
       "group": "now_and_temporary",
@@ -1249,7 +1621,11 @@
       "arabic": "هذه الأيام",
       "example": "I am learning English these days.",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": "these days",
+      "sentence": "I am learning English these days.",
+      "sentence_ar": "أنا أتعلم الإنجليزية هذه الأيام.",
+      "usage_ar": "لشيء يحدث في هذه الفترة لا في هذه اللحظة."
     },
     {
       "group": "now_and_temporary",
@@ -1258,7 +1634,11 @@
       "arabic": "في الوقت الراهن",
       "example": "The office is closed at present.",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": "at present",
+      "sentence": "The office is closed at present.",
+      "sentence_ar": "المكتب مغلق في الوقت الراهن.",
+      "usage_ar": "أكثر رسمية من now، تُكتب في الإعلانات."
     },
     {
       "group": "now_and_temporary",
@@ -1267,7 +1647,11 @@
       "arabic": "مؤقتاً",
       "example": "I am staying with my brother temporarily.",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": "temporarily",
+      "sentence": "I am staying with my brother temporarily.",
+      "sentence_ar": "أنا أقيم مع أخي مؤقتاً.",
+      "usage_ar": "لشيء سينتهي قريباً، فتأتي مع am/is/are + ing."
     },
     {
       "group": "now_and_temporary",
@@ -1276,7 +1660,11 @@
       "arabic": "لبضعة أسابيع",
       "example": "He is working in Dubai for a few weeks.",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": null,
+      "sentence": "He is working in Dubai for a few weeks.",
+      "sentence_ar": "هو يعمل في دبي لبضعة أسابيع.",
+      "usage_ar": "قلها لعمل أو إقامة مؤقتة لها نهاية قريبة."
     },
     {
       "group": "now_and_temporary",
@@ -1285,7 +1673,11 @@
       "arabic": "حتى الجمعة",
       "example": "She is covering for me until Friday.",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": "until Friday",
+      "sentence": "She is covering for me until Friday.",
+      "sentence_ar": "هي تنوب عني حتى الجمعة.",
+      "usage_ar": "until تعني حتى، ولا تقل to Friday."
     },
     {
       "group": "now_and_temporary",
@@ -1294,7 +1686,11 @@
       "arabic": "انظر!",
       "example": "Look! It is raining.",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": "Look",
+      "sentence": "Look! It is raining.",
+      "sentence_ar": "انظر! إنها تمطر.",
+      "usage_ar": "قلها لتلفت النظر إلى شيء يحدث الآن."
     },
     {
       "group": "now_and_temporary",
@@ -1303,7 +1699,11 @@
       "arabic": "استمع!",
       "example": "Listen! Someone is singing.",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": "Listen",
+      "sentence": "Listen! Someone is singing.",
+      "sentence_ar": "استمع! أحدهم يغني.",
+      "usage_ar": "قلها لتلفت السمع إلى صوت الآن، بلا to."
     },
     {
       "group": "now_and_temporary",
@@ -1312,7 +1712,11 @@
       "arabic": "اهدأ!",
       "example": "Be quiet! The baby is sleeping.",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": "Be quiet",
+      "sentence": "Be quiet! The baby is sleeping.",
+      "sentence_ar": "اهدأ! الطفل نائم.",
+      "usage_ar": "قلها لتطلب الصمت، وهي غير مهذبة قليلاً."
     },
     {
       "group": "now_and_temporary",
@@ -1321,7 +1725,11 @@
       "arabic": "دائماً (شكوى)",
       "example": "He is always losing his keys!",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": "always",
+      "sentence": "He is always losing his keys!",
+      "sentence_ar": "هو دائماً يضيّع مفاتيحه!",
+      "usage_ar": "always مع is + ing للشكوى من عادة مزعجة."
     },
     {
       "group": "now_and_temporary",
@@ -1330,7 +1738,11 @@
       "arabic": "أكثر فأكثر",
       "example": "Prices are getting more and more expensive.",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": "more and more",
+      "sentence": "Prices are getting more and more expensive.",
+      "sentence_ar": "الأسعار تزداد غلاءً أكثر فأكثر.",
+      "usage_ar": "تأتي مع getting لشيء يتغير باستمرار."
     },
     {
       "group": "now_and_temporary",
@@ -1339,7 +1751,11 @@
       "arabic": "في أيامنا",
       "example": "People are working longer hours nowadays.",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": "nowadays",
+      "sentence": "People are working longer hours nowadays.",
+      "sentence_ar": "الناس يعملون ساعات أطول في أيامنا.",
+      "usage_ar": "كلمة واحدة: nowadays، للمقارنة بالماضي."
     },
     {
       "group": "now_and_temporary",
@@ -1348,7 +1764,11 @@
       "arabic": "في نفس الوقت",
       "example": "She is cooking and talking at the same time.",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": "at the same time",
+      "sentence": "She is cooking and talking at the same time.",
+      "sentence_ar": "هي تطبخ وتتحدث في نفس الوقت.",
+      "usage_ar": "نقول at the same time مع at و the."
     },
     {
       "group": "now_and_temporary",
@@ -1357,7 +1777,11 @@
       "arabic": "ما زال",
       "example": "He is still waiting.",
       "group_label_ar": "الآن والمؤقّت",
-      "group_label_en": "Now and Temporary"
+      "group_label_en": "Now and Temporary",
+      "target": "still",
+      "sentence": "He is still waiting for the bus.",
+      "sentence_ar": "هو ما زال ينتظر الحافلة.",
+      "usage_ar": "تأتي بعد is/am/are: he is still waiting."
     }
   ],
   "minimal_pairs": [

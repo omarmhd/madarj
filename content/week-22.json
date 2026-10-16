@@ -132,7 +132,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -186,7 +186,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -240,7 +240,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -294,7 +294,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -348,7 +348,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -366,13 +366,19 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "حوار: A Phone Message Passed On · الاستماع",
-          "minutes": 25,
-          "ref": "dialogue:2|section:listening"
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:2",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الاستماع",
+          "minutes": 15,
+          "ref": "section:listening",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
@@ -381,10 +387,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
@@ -393,19 +399,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -420,13 +426,25 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "القراءة · الكتابة",
-          "minutes": 25,
-          "ref": "section:reading|writing:1|record"
+          "label": "القراءة",
+          "minutes": 10,
+          "ref": "section:reading",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الكتابة",
+          "minutes": 10,
+          "ref": "writing:1",
+          "order": 3
+        },
+        {
+          "label": "التحدّث",
+          "minutes": 10,
+          "ref": "record",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
@@ -435,25 +453,25 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 6
         },
         {
-          "order": 5,
+          "order": 7,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 6,
+          "order": 8,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 9
         }
       ]
     }
@@ -466,7 +484,11 @@
       "arabic": "ينهض",
       "example": "I get up at six.",
       "group_label_ar": "الأفعال المركّبة بـUP",
-      "group_label_en": "UP"
+      "group_label_en": "UP",
+      "target": "get up",
+      "sentence": "I get up at six every morning.",
+      "sentence_ar": "أنهض في السادسة كل صباح.",
+      "usage_ar": "تعني تخرج من السرير، وwake up تعني تفتح عينيك."
     },
     {
       "group": "up",
@@ -475,7 +497,11 @@
       "arabic": "يستيقظ",
       "example": "Wake up! We're late.",
       "group_label_ar": "الأفعال المركّبة بـUP",
-      "group_label_en": "UP"
+      "group_label_en": "UP",
+      "target": "wake up",
+      "sentence": "Please wake up, we are late!",
+      "sentence_ar": "استيقظ من فضلك، تأخرنا!",
+      "usage_ar": "wake + شخص + up: wake me up أي أيقظني."
     },
     {
       "group": "up",
@@ -484,7 +510,11 @@
       "arabic": "يقف",
       "example": "Everybody stood up.",
       "group_label_ar": "الأفعال المركّبة بـUP",
-      "group_label_en": "UP"
+      "group_label_en": "UP",
+      "target": "stand up",
+      "sentence": "Please stand up when the teacher comes in.",
+      "sentence_ar": "قف من فضلك حين يدخل المعلم.",
+      "usage_ar": "عكسها sit down."
     },
     {
       "group": "up",
@@ -493,7 +523,11 @@
       "arabic": "يستسلم / يقلع عن",
       "example": "He gave up smoking.",
       "group_label_ar": "الأفعال المركّبة بـUP",
-      "group_label_en": "UP"
+      "group_label_en": "UP",
+      "target": "give up",
+      "sentence": "I will never give up.",
+      "sentence_ar": "لن أستسلم أبداً.",
+      "usage_ar": "give up + فعل بـ ing: give up smoking أي يقلع عنه."
     },
     {
       "group": "up",
@@ -502,7 +536,11 @@
       "arabic": "ينشأ",
       "example": "I grew up in a village.",
       "group_label_ar": "الأفعال المركّبة بـUP",
-      "group_label_en": "UP"
+      "group_label_en": "UP",
+      "target": "grow up",
+      "sentence": "I want to be a doctor when I grow up.",
+      "sentence_ar": "أريد أن أصبح طبيباً حين أكبر.",
+      "usage_ar": "grew up in + مكان: نشأت في…"
     },
     {
       "group": "up",
@@ -511,7 +549,11 @@
       "arabic": "يلتقط / يقلّ شخصاً",
       "example": "Can you pick me up at eight?",
       "group_label_ar": "الأفعال المركّبة بـUP",
-      "group_label_en": "UP"
+      "group_label_en": "UP",
+      "target": "pick up",
+      "sentence": "Can you pick up my sister at eight?",
+      "sentence_ar": "هل تقلّ أختي في الثامنة؟",
+      "usage_ar": "مع الضمير: pick me up، لا pick up me."
     },
     {
       "group": "up",
@@ -520,7 +562,11 @@
       "arabic": "يظهر / يرفع الصوت",
       "example": "He turned up two hours late.",
       "group_label_ar": "الأفعال المركّبة بـUP",
-      "group_label_en": "UP"
+      "group_label_en": "UP",
+      "target": "turn up",
+      "sentence": "Please turn up the radio a little.",
+      "sentence_ar": "ارفع صوت الراديو قليلاً من فضلك.",
+      "usage_ar": "تعني يرفع الصوت، أو يظهر: He turned up late."
     },
     {
       "group": "up",
@@ -529,7 +575,11 @@
       "arabic": "يؤسّس / ينشئ",
       "example": "She set up her own company.",
       "group_label_ar": "الأفعال المركّبة بـUP",
-      "group_label_en": "UP"
+      "group_label_en": "UP",
+      "target": "set up",
+      "sentence": "She wants to set up her own business.",
+      "sentence_ar": "تريد أن تؤسّس مشروعها الخاص.",
+      "usage_ar": "يؤسّس شيئاً جديداً: set up a business."
     },
     {
       "group": "up",
@@ -538,7 +588,11 @@
       "arabic": "يملأ",
       "example": "Fill in this form.",
       "group_label_ar": "الأفعال المركّبة بـUP",
-      "group_label_en": "UP"
+      "group_label_en": "UP",
+      "target": "fill up",
+      "sentence": "Please fill up the car before the trip.",
+      "sentence_ar": "املأ خزّان السيارة قبل الرحلة من فضلك.",
+      "usage_ar": "fill in للاستمارة، وfill up لملء خزّان أو كوب حتى آخره."
     },
     {
       "group": "up",
@@ -547,7 +601,11 @@
       "arabic": "يختلق / يتصالح",
       "example": "He made up an excuse.",
       "group_label_ar": "الأفعال المركّبة بـUP",
-      "group_label_en": "UP"
+      "group_label_en": "UP",
+      "target": "make up",
+      "sentence": "Don't make up an excuse.",
+      "sentence_ar": "لا تختلق عذراً.",
+      "usage_ar": "make up an excuse/story، وتعني أيضاً يتصالح."
     },
     {
       "group": "up",
@@ -556,7 +614,11 @@
       "arabic": "يربّي / يذكر موضوعاً",
       "example": "Don't bring that up again.",
       "group_label_ar": "الأفعال المركّبة بـUP",
-      "group_label_en": "UP"
+      "group_label_en": "UP",
+      "target": "bring up",
+      "sentence": "Please don't bring up that subject again.",
+      "sentence_ar": "من فضلك لا تذكر ذلك الموضوع مرة أخرى.",
+      "usage_ar": "تعني يذكر موضوعاً، أو يربّي طفلاً."
     },
     {
       "group": "up",
@@ -565,7 +627,11 @@
       "arabic": "يلحق بـ",
       "example": "I need to catch up on my emails.",
       "group_label_ar": "الأفعال المركّبة بـUP",
-      "group_label_en": "UP"
+      "group_label_en": "UP",
+      "target": "catch up",
+      "sentence": "Walk faster, I can't catch up!",
+      "sentence_ar": "امشِ أسرع، لا أستطيع اللحاق بك!",
+      "usage_ar": "catch up with شخص، وcatch up on عمل متأخر."
     },
     {
       "group": "up",
@@ -574,7 +640,11 @@
       "arabic": "يبتهج",
       "example": "Cheer up — it isn't that bad.",
       "group_label_ar": "الأفعال المركّبة بـUP",
-      "group_label_en": "UP"
+      "group_label_en": "UP",
+      "target": "cheer up",
+      "sentence": "Cheer up, it isn't that bad.",
+      "sentence_ar": "ابتهج، الأمر ليس بهذا السوء.",
+      "usage_ar": "تقولها لشخص حزين."
     },
     {
       "group": "up",
@@ -583,7 +653,11 @@
       "arabic": "ينتهي به الأمر",
       "example": "We ended up walking home.",
       "group_label_ar": "الأفعال المركّبة بـUP",
-      "group_label_en": "UP"
+      "group_label_en": "UP",
+      "target": "end up",
+      "sentence": "We might end up walking home.",
+      "sentence_ar": "قد ينتهي بنا الأمر إلى المشي للبيت.",
+      "usage_ar": "بعدها فعل بـ ing: end up walking."
     },
     {
       "group": "up",
@@ -592,7 +666,11 @@
       "arabic": "يبتكر / يأتي بـ",
       "example": "She came up with a good idea.",
       "group_label_ar": "الأفعال المركّبة بـUP",
-      "group_label_en": "UP"
+      "group_label_en": "UP",
+      "target": "come up with",
+      "sentence": "She will come up with a good idea.",
+      "sentence_ar": "ستأتي بفكرة جيدة.",
+      "usage_ar": "يأتي بفكرة أو حل: come up with an idea."
     },
     {
       "group": "out_and_off",
@@ -601,7 +679,11 @@
       "arabic": "يكتشف / يعلم",
       "example": "I found out yesterday.",
       "group_label_ar": "الأفعال المركّبة بـOUT و OFF",
-      "group_label_en": "OUT and OFF"
+      "group_label_en": "OUT and OFF",
+      "target": "find out",
+      "sentence": "I want to find out the truth.",
+      "sentence_ar": "أريد أن أكتشف الحقيقة.",
+      "usage_ar": "تعني يعلم بمعلومة، لا يجد شيئاً ضائعاً."
     },
     {
       "group": "out_and_off",
@@ -610,7 +692,11 @@
       "arabic": "يخرج",
       "example": "We went out for dinner.",
       "group_label_ar": "الأفعال المركّبة بـOUT و OFF",
-      "group_label_en": "OUT and OFF"
+      "group_label_en": "OUT and OFF",
+      "target": "go out",
+      "sentence": "Let's go out for dinner tonight.",
+      "sentence_ar": "لنخرج للعشاء الليلة.",
+      "usage_ar": "يخرج من البيت للتنزّه: go out for dinner."
     },
     {
       "group": "out_and_off",
@@ -619,7 +705,11 @@
       "arabic": "يحلّ / يتمرّن رياضياً",
       "example": "It worked out in the end.",
       "group_label_ar": "الأفعال المركّبة بـOUT و OFF",
-      "group_label_en": "OUT and OFF"
+      "group_label_en": "OUT and OFF",
+      "target": "work out",
+      "sentence": "I work out at the gym three times a week.",
+      "sentence_ar": "أتمرّن في النادي 3 مرات أسبوعياً.",
+      "usage_ar": "تعني يتمرّن، أو يحلّ مشكلة، أو تنجح الأمور."
     },
     {
       "group": "out_and_off",
@@ -628,7 +718,11 @@
       "arabic": "ينفد منه",
       "example": "We've run out of milk.",
       "group_label_ar": "الأفعال المركّبة بـOUT و OFF",
-      "group_label_en": "OUT and OFF"
+      "group_label_en": "OUT and OFF",
+      "target": "run out of",
+      "sentence": "We often run out of milk.",
+      "sentence_ar": "كثيراً ما ينفد منا الحليب.",
+      "usage_ar": "الشخص هو الفاعل: We ran out of milk."
     },
     {
       "group": "out_and_off",
@@ -637,7 +731,11 @@
       "arabic": "يرتّب / يحلّ",
       "example": "I'll sort it out tomorrow.",
       "group_label_ar": "الأفعال المركّبة بـOUT و OFF",
-      "group_label_en": "OUT and OFF"
+      "group_label_en": "OUT and OFF",
+      "target": "sort out",
+      "sentence": "I'll sort out the problem tomorrow.",
+      "sentence_ar": "سأحلّ المشكلة غداً.",
+      "usage_ar": "مع الضمير: sort it out."
     },
     {
       "group": "out_and_off",
@@ -646,7 +744,11 @@
       "arabic": "يتضح أن",
       "example": "It turned out to be a mistake.",
       "group_label_ar": "الأفعال المركّبة بـOUT و OFF",
-      "group_label_en": "OUT and OFF"
+      "group_label_en": "OUT and OFF",
+      "target": "turn out",
+      "sentence": "Don't worry, things will turn out fine.",
+      "sentence_ar": "لا تقلق، ستنتهي الأمور على خير.",
+      "usage_ar": "turn out to be أي يتضح أنه."
     },
     {
       "group": "out_and_off",
@@ -655,7 +757,11 @@
       "arabic": "يتفقّد / يغادر الفندق",
       "example": "Check out this article.",
       "group_label_ar": "الأفعال المركّبة بـOUT و OFF",
-      "group_label_en": "OUT and OFF"
+      "group_label_en": "OUT and OFF",
+      "target": "check out",
+      "sentence": "We must check out of the hotel by noon.",
+      "sentence_ar": "يجب أن نغادر الفندق قبل الظهر.",
+      "usage_ar": "check out of the hotel، وأيضاً «ألقِ نظرة»."
     },
     {
       "group": "out_and_off",
@@ -664,7 +770,11 @@
       "arabic": "يقلع / يخلع",
       "example": "The plane took off late.",
       "group_label_ar": "الأفعال المركّبة بـOUT و OFF",
-      "group_label_en": "OUT and OFF"
+      "group_label_en": "OUT and OFF",
+      "target": "take off",
+      "sentence": "Please take off your shoes.",
+      "sentence_ar": "اخلع حذاءك من فضلك.",
+      "usage_ar": "تعني يخلع، أو تُقلع الطائرة."
     },
     {
       "group": "out_and_off",
@@ -673,7 +783,11 @@
       "arabic": "يؤجّل",
       "example": "They put off the meeting.",
       "group_label_ar": "الأفعال المركّبة بـOUT و OFF",
-      "group_label_en": "OUT and OFF"
+      "group_label_en": "OUT and OFF",
+      "target": "put off",
+      "sentence": "Don't put off your homework until tomorrow.",
+      "sentence_ar": "لا تؤجّل واجبك إلى الغد.",
+      "usage_ar": "بعدها فعل بـ ing: put off doing."
     },
     {
       "group": "out_and_off",
@@ -682,7 +796,11 @@
       "arabic": "يطفئ",
       "example": "Turn off the light.",
       "group_label_ar": "الأفعال المركّبة بـOUT و OFF",
-      "group_label_en": "OUT and OFF"
+      "group_label_en": "OUT and OFF",
+      "target": "turn off",
+      "sentence": "Turn off the light when you leave.",
+      "sentence_ar": "أطفئ الضوء حين تغادر.",
+      "usage_ar": "عكسها turn on."
     },
     {
       "group": "out_and_off",
@@ -691,7 +809,11 @@
       "arabic": "ينزل من",
       "example": "I get off at the next stop.",
       "group_label_ar": "الأفعال المركّبة بـOUT و OFF",
-      "group_label_en": "OUT and OFF"
+      "group_label_en": "OUT and OFF",
+      "target": "get off",
+      "sentence": "I get off at the next stop.",
+      "sentence_ar": "أنزل في المحطة التالية.",
+      "usage_ar": "للحافلة والقطار، وللسيارة get out of."
     },
     {
       "group": "out_and_off",
@@ -700,7 +822,11 @@
       "arabic": "يلغي",
       "example": "They called off the match.",
       "group_label_ar": "الأفعال المركّبة بـOUT و OFF",
-      "group_label_en": "OUT and OFF"
+      "group_label_en": "OUT and OFF",
+      "target": "call off",
+      "sentence": "They had to call off the match.",
+      "sentence_ar": "اضطروا لإلغاء المباراة.",
+      "usage_ar": "تعني يلغي حدثاً مخطّطاً."
     },
     {
       "group": "out_and_off",
@@ -709,7 +835,11 @@
       "arabic": "ينطلق",
       "example": "We set off at five.",
       "group_label_ar": "الأفعال المركّبة بـOUT و OFF",
-      "group_label_en": "OUT and OFF"
+      "group_label_en": "OUT and OFF",
+      "target": "set off",
+      "sentence": "We will set off early in the morning.",
+      "sentence_ar": "سننطلق مبكراً في الصباح.",
+      "usage_ar": "بداية رحلة."
     },
     {
       "group": "out_and_off",
@@ -718,7 +848,11 @@
       "arabic": "يرنّ / يفسد",
       "example": "My alarm went off at six.",
       "group_label_ar": "الأفعال المركّبة بـOUT و OFF",
-      "group_label_en": "OUT and OFF"
+      "group_label_en": "OUT and OFF",
+      "target": "go off",
+      "sentence": "My alarm didn't go off this morning.",
+      "sentence_ar": "لم يرنّ منبّهي هذا الصباح.",
+      "usage_ar": "يرنّ المنبّه، أو يفسد الطعام."
     },
     {
       "group": "out_and_off",
@@ -727,7 +861,11 @@
       "arabic": "يوبّخ",
       "example": "The teacher told him off.",
       "group_label_ar": "الأفعال المركّبة بـOUT و OFF",
-      "group_label_en": "OUT and OFF"
+      "group_label_en": "OUT and OFF",
+      "target": "tell off",
+      "sentence": "Teachers sometimes tell off noisy students.",
+      "sentence_ar": "يوبّخ المعلمون أحياناً الطلاب المزعجين.",
+      "usage_ar": "tell + شخص + off: told him off."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -736,7 +874,11 @@
       "arabic": "يستمر",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "go on",
+      "sentence": "Please go on, I'm listening.",
+      "sentence_ar": "تابع من فضلك، أنا أستمع.",
+      "usage_ar": "go on + فعل بـ ing: يستمر في."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -745,7 +887,11 @@
       "arabic": "يواصل",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "carry on",
+      "sentence": "Carry on working, I'll be back soon.",
+      "sentence_ar": "واصل العمل، سأعود قريباً.",
+      "usage_ar": "carry on + فعل بـ ing."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -754,7 +900,11 @@
       "arabic": "يرتدي / يشغّل",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "put on",
+      "sentence": "Put on your coat, it's cold.",
+      "sentence_ar": "ارتدِ معطفك، الجو بارد.",
+      "usage_ar": "يرتدي، وعكسها take off."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -763,7 +913,11 @@
       "arabic": "ينسجم مع",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "get on with",
+      "sentence": "I get on with my neighbours.",
+      "sentence_ar": "أنسجم مع جيراني.",
+      "usage_ar": "get on with + شخص: علاقة جيدة."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -772,7 +926,11 @@
       "arabic": "ينتظر",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "hold on",
+      "sentence": "Hold on, I'll get my keys.",
+      "sentence_ar": "انتظر، سأحضر مفاتيحي.",
+      "usage_ar": "في الهاتف: Hold on, please أي انتظر."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -781,7 +939,11 @@
       "arabic": "يعتمد على",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "count on",
+      "sentence": "You can always count on me.",
+      "sentence_ar": "يمكنك دائماً الاعتماد عليّ.",
+      "usage_ar": "count on + شخص."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -790,7 +952,11 @@
       "arabic": "يتحمّل / يوظّف",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "take on",
+      "sentence": "The company will take on new staff.",
+      "sentence_ar": "ستوظّف الشركة موظفين جدداً.",
+      "usage_ar": "يوظّف، أو يتحمّل عملاً أو مسؤولية."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -799,7 +965,11 @@
       "arabic": "يشغّل",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "turn on",
+      "sentence": "Can you turn on the TV?",
+      "sentence_ar": "هل تشغّل التلفاز؟",
+      "usage_ar": "عكسها turn off."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -808,7 +978,11 @@
       "arabic": "يستسلم",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "give in",
+      "sentence": "He asked many times, so I had to give in.",
+      "sentence_ar": "طلب مرات كثيرة فاضطررت أن أرضخ.",
+      "usage_ar": "يرضخ بعد مقاومة، وgive up يترك المحاولة."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -817,7 +991,11 @@
       "arabic": "يسلّم",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "hand in",
+      "sentence": "Please hand in your homework on Monday.",
+      "sentence_ar": "سلّم واجبك يوم الاثنين من فضلك.",
+      "usage_ar": "لواجب أو ورقة تسلّمها لمسؤول."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -826,7 +1004,11 @@
       "arabic": "يملأ استمارة",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "fill in",
+      "sentence": "Please fill in this form.",
+      "sentence_ar": "املأ هذه الاستمارة من فضلك.",
+      "usage_ar": "للاستمارات والفراغات."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -835,7 +1017,11 @@
       "arabic": "يشارك",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "join in",
+      "sentence": "Come and join in the game!",
+      "sentence_ar": "تعال وشارك في اللعبة!",
+      "usage_ar": "يشارك في نشاط بدأه غيرك."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -844,7 +1030,11 @@
       "arabic": "يتعطّل / ينهار",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "break down",
+      "sentence": "Old cars often break down.",
+      "sentence_ar": "السيارات القديمة تتعطّل كثيراً.",
+      "usage_ar": "تتعطّل آلة، أو ينهار شخص بالبكاء."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -853,7 +1043,11 @@
       "arabic": "يهدأ",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "calm down",
+      "sentence": "Calm down and tell me what happened.",
+      "sentence_ar": "اهدأ وأخبرني ماذا حدث.",
+      "usage_ar": "تقولها لشخص غاضب أو خائف."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -862,7 +1056,11 @@
       "arabic": "يبطئ",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "slow down",
+      "sentence": "Slow down, you're driving too fast!",
+      "sentence_ar": "أبطئ، أنت تقود بسرعة كبيرة!",
+      "usage_ar": "عكسها speed up."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -871,7 +1069,11 @@
       "arabic": "يرفض / يخفض",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "turn down",
+      "sentence": "Please turn down the music.",
+      "sentence_ar": "اخفض الموسيقى من فضلك.",
+      "usage_ar": "يخفض الصوت، أو يرفض عرضاً: turned down the job."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -880,7 +1082,11 @@
       "arabic": "يدوّن",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "write down",
+      "sentence": "Write down your phone number here.",
+      "sentence_ar": "دوّن رقم هاتفك هنا.",
+      "usage_ar": "يكتب ليحفظ معلومة."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -889,7 +1095,11 @@
       "arabic": "يخذل",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "let down",
+      "sentence": "Good friends never let down the people they love.",
+      "sentence_ar": "الأصدقاء الجيدون لا يخذلون من يحبونهم أبداً.",
+      "usage_ar": "مع الضمير: let you down، لا let down you."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -898,7 +1108,11 @@
       "arabic": "يعود",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "come back",
+      "sentence": "When will you come back home?",
+      "sentence_ar": "متى ستعود إلى البيت؟",
+      "usage_ar": "come back home بلا to."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -907,7 +1121,11 @@
       "arabic": "يعاود الاتصال",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "call back",
+      "sentence": "I'm busy, can I call back later?",
+      "sentence_ar": "أنا مشغول، هل أعاود الاتصال لاحقاً؟",
+      "usage_ar": "مع الضمير: call you back."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -916,7 +1134,11 @@
       "arabic": "يسدّد",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "pay back",
+      "sentence": "I will pay back the money next week.",
+      "sentence_ar": "سأسدّد المال الأسبوع القادم.",
+      "usage_ar": "مع الضمير: pay you back."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -925,7 +1147,11 @@
       "arabic": "ينظر للوراء",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "look back",
+      "sentence": "When I look back, I was very happy.",
+      "sentence_ar": "حين أنظر إلى الوراء، كنت سعيداً جداً.",
+      "usage_ar": "look back on الماضي: يتذكّره."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -934,7 +1160,11 @@
       "arabic": "يتجاوز",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "get over",
+      "sentence": "It takes time to get over a cold.",
+      "sentence_ar": "يحتاج التعافي من الزكام وقتاً.",
+      "usage_ar": "يتجاوز مرضاً أو حزناً."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -943,7 +1173,11 @@
       "arabic": "يتولّى",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "take over",
+      "sentence": "Can you take over while I have lunch?",
+      "sentence_ar": "هل تتولّى العمل بينما أتغدّى؟",
+      "usage_ar": "يتولّى عمل شخص أو إدارة شيء."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -952,7 +1186,11 @@
       "arabic": "يفكّر ملياً",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "think over",
+      "sentence": "I need to think over your offer.",
+      "sentence_ar": "أحتاج أن أفكّر ملياً في عرضك.",
+      "usage_ar": "مع الضمير: think it over."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -961,7 +1199,11 @@
       "arabic": "يراجع",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "go over",
+      "sentence": "Let's go over the answers together.",
+      "sentence_ar": "لنراجع الإجابات معاً.",
+      "usage_ar": "يراجع شيئاً بعناية."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -970,7 +1212,11 @@
       "arabic": "يصادف",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "run into",
+      "sentence": "I often run into old friends at the market.",
+      "sentence_ar": "كثيراً ما أصادف أصدقاء قدامى في السوق.",
+      "usage_ar": "يقابل شخصاً بلا موعد."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -979,7 +1225,11 @@
       "arabic": "يبحث في",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "look into",
+      "sentence": "The police will look into the problem.",
+      "sentence_ar": "ستحقّق الشرطة في المشكلة.",
+      "usage_ar": "يبحث أو يحقّق في أمر."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -988,7 +1238,11 @@
       "arabic": "يدخل في / يهتم بـ",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "get into",
+      "sentence": "My son wants to get into a good university.",
+      "sentence_ar": "يريد ابني أن يدخل جامعة جيدة.",
+      "usage_ar": "يدخل مكاناً أو يهتم بهواية: get into music."
     },
     {
       "group": "on_in_down_back_over_into",
@@ -997,7 +1251,11 @@
       "arabic": "يتحوّل إلى",
       "example": null,
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO"
+      "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
+      "target": "turn into",
+      "sentence": "The rain can turn into snow at night.",
+      "sentence_ar": "قد يتحوّل المطر إلى ثلج في الليل.",
+      "usage_ar": "turn into + اسم: يصبح."
     },
     {
       "group": "look",
@@ -1006,7 +1264,11 @@
       "arabic": "ينظر إلى",
       "example": "direct your eyes",
       "group_label_ar": "الفعل look بمعانيه الستّة",
-      "group_label_en": "Look"
+      "group_label_en": "Look",
+      "target": "look at",
+      "sentence": "Look at this photo of my family.",
+      "sentence_ar": "انظر إلى هذه الصورة لأسرتي.",
+      "usage_ar": "look at شيء، لا look to شيء."
     },
     {
       "group": "look",
@@ -1015,7 +1277,11 @@
       "arabic": "يبحث عن",
       "example": "search",
       "group_label_ar": "الفعل look بمعانيه الستّة",
-      "group_label_en": "Look"
+      "group_label_en": "Look",
+      "target": "look for",
+      "sentence": "I'm going to look for my glasses.",
+      "sentence_ar": "سأبحث عن نظارتي.",
+      "usage_ar": "يبحث عن شيء ضائع، وfind حين يجده."
     },
     {
       "group": "look",
@@ -1024,7 +1290,11 @@
       "arabic": "يعتني بـ",
       "example": "take care of",
       "group_label_ar": "الفعل look بمعانيه الستّة",
-      "group_label_en": "Look"
+      "group_label_en": "Look",
+      "target": "look after",
+      "sentence": "Can you look after my cat this weekend?",
+      "sentence_ar": "هل تعتني بقطتي في عطلة الأسبوع؟",
+      "usage_ar": "مثل take care of."
     },
     {
       "group": "look",
@@ -1033,7 +1303,11 @@
       "arabic": "يبحث عن كلمة في القاموس",
       "example": "find in a dictionary",
       "group_label_ar": "الفعل look بمعانيه الستّة",
-      "group_label_en": "Look"
+      "group_label_en": "Look",
+      "target": "look up",
+      "sentence": "Look up the word in your dictionary.",
+      "sentence_ar": "ابحث عن الكلمة في قاموسك.",
+      "usage_ar": "مع الضمير: look it up."
     },
     {
       "group": "look",
@@ -1042,7 +1316,11 @@
       "arabic": "يتشوّق إلى",
       "example": "anticipate with pleasure",
       "group_label_ar": "الفعل look بمعانيه الستّة",
-      "group_label_en": "Look"
+      "group_label_en": "Look",
+      "target": "look forward to",
+      "sentence": "I look forward to seeing you.",
+      "sentence_ar": "أتشوّق لرؤيتك.",
+      "usage_ar": "بعدها فعل بـ ing: look forward to seeing، لا to see."
     },
     {
       "group": "look",
@@ -1051,7 +1329,11 @@
       "arabic": "يبحث في",
       "example": "investigate",
       "group_label_ar": "الفعل look بمعانيه الستّة",
-      "group_label_en": "Look"
+      "group_label_en": "Look",
+      "target": "look into",
+      "sentence": "The manager promised to look into my complaint.",
+      "sentence_ar": "وعد المدير بأن يبحث في شكواي.",
+      "usage_ar": "يحقّق في مشكلة أو شكوى."
     },
     {
       "group": "look",
@@ -1060,7 +1342,11 @@
       "arabic": "احترس / انتبه",
       "example": "be careful",
       "group_label_ar": "الفعل look بمعانيه الستّة",
-      "group_label_en": "Look"
+      "group_label_en": "Look",
+      "target": "look out",
+      "sentence": "Look out, there's a car coming!",
+      "sentence_ar": "انتبه، هناك سيارة قادمة!",
+      "usage_ar": "تحذير سريع مثل Be careful!"
     }
   ],
   "minimal_pairs": [],
@@ -1473,7 +1759,7 @@
         "items": [
           {
             "can_ar": "أعطي معنى 50 من 60 فعلاً مركّباً",
-            "can_en": "Give the meaning of 50 of the 60 phrasal verbs in §2?",
+            "can_en": "Give the meaning of 50 of the 60 phrasal verbs in this week's word lists?",
             "proof_ar": "جلسة المراجعة المتباعدة — تقول لك الرقم"
           },
           {
@@ -2524,7 +2810,7 @@
       "focus_ar": "الحدس من حرف الفعل",
       "points": 1,
       "type": "free_text",
-      "prompt": "You have not met these. Use §3.4 to guess the meaning, then check the key.",
+      "prompt": "You have not met these. Use the grammar lesson to guess the meaning, then check the key.",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: finish completely (a supply)"

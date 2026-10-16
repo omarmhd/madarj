@@ -17,6 +17,7 @@ import Spelling, { type SpellWord, type SpellRound } from '@/Components/Game/Spe
 import Shadowing, { type ShadowData } from '@/Components/Game/Shadowing';
 import Imitate, { type ImitateItem } from '@/Components/Game/Imitate';
 import Homework, { type HomeworkData } from '@/Components/Game/Homework';
+import VocabPractice from '@/Components/Game/VocabPractice';
 import SpeakingBrief, { type SpeakingPayload } from '@/Components/Game/SpeakingBrief';
 import ReviewSession from '@/Components/Game/ReviewSession';
 import SectionView, { type SectionData } from '@/Components/Game/SectionView';
@@ -31,7 +32,8 @@ import { useT } from '@/lib/i18n';
 import Celebrate from '@/Components/Celebrate';
 import { celebrationFor, type Celebration } from '@/lib/milestones';
 import { taskKind } from '@/lib/taskKinds';
-import { ArrowLeft, ArrowRight, Check, ChevronLeft, CircleCheck, Clock, Headphones, Lock, PenLine, Play, Smartphone, Square } from 'lucide-react';
+import DayJourney from '@/Components/DayJourney';
+import { ArrowLeft, ArrowRight, Check, Map as MapIcon, ChevronLeft, CircleCheck, Clock, Headphones, Lock, PenLine, Play, Smartphone, Square } from 'lucide-react';
 
 /**
  * صفحة اليوم — شاشة العمل اليومية.
@@ -219,6 +221,21 @@ export default function DayPage({
     (myNotes?.homework as Record<string, string> | undefined)?.[`day${day.number}`] ?? '',
   );
   const [needsProof, setNeedsProof] = useState(false);
+
+  /*
+   * Which steps the learner actually finished.
+   *
+   * "Next" used to move on whatever had happened — a spelling drill
+   * with nothing typed counted as done. Now an exercise step must report
+   * its own end (each drill calls onComplete); reading steps — an
+   * explanation, a dialogue, a word list — stay free to pass.
+   */
+  const [completed, setCompleted] = useState<Record<string, boolean>>({});
+  const [needsFinish, setNeedsFinish] = useState(false);
+  /** Sound steps whose test has begun — listening comes first */
+  const [pairsStarted, setPairsStarted] = useState<Record<string, boolean>>({});
+  const markComplete = (key: string) =>
+    setCompleted((c) => (c[key] ? c : { ...c, [key]: true }));
   // السرعة الافتراضية من تفضيلات المستخدم لا رقماً ثابتاً
   const [rate, setRate] = useState(prefs.rate);
   const [voice, setVoice] = useState(prefs.voice);
@@ -284,6 +301,8 @@ export default function DayPage({
    * المحتوى في lib/contentSteps فيصلح لكل الأسابيع بلا ضبط يدوي.
    */
   const [innerStep, setInnerStep] = useState(0);
+  const sliceKey = `${step}-${innerStep}`;
+
 
   /**
    * The vocabulary step being tested, if any.
@@ -357,11 +376,26 @@ export default function DayPage({
     window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
   };
 
+  /**
+   * The journey map or one task.
+   *
+   * The day opens on the map — its whole shape, and where you are — and
+   * returns to it after each task, so the learner sees the road move
+   * instead of being handed the next box.
+   */
+  const [view, setView] = useState<'map' | 'task'>('map');
+
+  const showMap = () => {
+    setView('map');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   const goToStep = (next: number) => {
     const t = day.tasks[next];
     if (t) track('task_open', t.ref ?? `order:${t.order}`);
     setStep(next);
     setInnerStep(0);
+    setView('task');
     scrollToContent();
   };
 
@@ -385,6 +419,17 @@ export default function DayPage({
   };
 
   const atLastSlice = innerStep >= slices.length - 1;
+
+  /*
+   * Is the step on screen an exercise that must be finished first? Then
+   * the way forward does not exist until it is — the platform knows when
+   * a drill ends, so the learner is never asked to claim it ("أنجزتها").
+   */
+  const currentSlice = slices[innerStep];
+  const sliceIsDrill = !!currentSlice && (
+    ['spelling', 'minimal_pairs', 'review', 'shadow', 'imitate', 'homework', 'vocabulary'].includes(currentSlice.type)
+    || (currentSlice.type === 'exercises' && (currentSlice as ExercisesBlock).items.length > 0)
+  );
 
   /** Returns whether the server accepted it — the stamp lands only on a real save */
   const toggle = async (task: DayTask): Promise<boolean> => {
@@ -502,11 +547,8 @@ export default function DayPage({
 
             {testing === `${step}-${key}-${block.group}` ? (
               <>
-                <Flashcards
-                  words={block.items}
-                  groupLabel={groupName(block)}
-                  onProgress={(d, t) => setInner({ done: d, total: t })}
-                />
+                {/* Required practice: recall, then the word in its sentence */}
+                <VocabPractice words={block.items} onComplete={() => markComplete(sliceKey)} />
                 <button
                   onClick={() => setTesting(null)}
                   className="w-full rounded-xl bg-white py-2.5 text-sm text-slate-600 ring-1 ring-slate-200
@@ -517,27 +559,35 @@ export default function DayPage({
               </>
             ) : (
               <>
-                <div className="grid gap-1.5 sm:grid-cols-2">
+                {/* Each word with its use: the word, then a sentence with it in
+                    place, its translation, and one line on where it goes */}
+                <div className="space-y-2.5">
                   {block.items.map((w) => (
-                    <div
-                      key={w.id}
-                      className="flex items-center justify-between gap-3 rounded-lg bg-white
-                                 px-3 py-2 ring-1 ring-slate-200"
-                    >
-                      <span className="min-w-0 truncate text-sm text-slate-700">{w.arabic}</span>
-                      <div className="flex shrink-0 items-center gap-2">
-                        <div className="text-start">
-                          <p className="text-sm font-medium text-slate-900" dir="ltr">
-                            {w.word}
-                          </p>
-                          {w.ipa && (
-                            <p className="font-mono text-[10px] text-slate-400" dir="ltr">
-                              {w.ipa}
-                            </p>
-                          )}
+                    <div key={w.id} className="rounded-xl bg-white p-3.5 ring-1 ring-slate-200">
+                      <div className="flex items-center justify-between gap-3">
+                        <span className="min-w-0 text-base text-slate-700">{w.arabic}</span>
+                        <div className="flex shrink-0 items-center gap-2">
+                          <div className="text-start">
+                            <p className="text-lg font-bold text-slate-900" dir="ltr">{w.word}</p>
+                            {w.ipa && <p className="font-mono text-xs text-slate-400" dir="ltr">{w.ipa}</p>}
+                          </div>
+                          <Listen text={w.word} size="sm" />
                         </div>
-                        <Listen text={w.word} size="sm" />
                       </div>
+                      {w.sentence && (
+                        <div className="mt-2.5 border-t border-slate-100 pt-2.5">
+                          <div className="flex items-start justify-between gap-2" dir="ltr">
+                            <p className="text-base leading-relaxed text-slate-800">{w.sentence}</p>
+                            <Listen text={w.sentence} size="sm" />
+                          </div>
+                          {w.sentence_ar && <p className="mt-0.5 text-sm text-slate-500">{w.sentence_ar}</p>}
+                        </div>
+                      )}
+                      {w.usage_ar && (
+                        <p className="mt-2 rounded-lg bg-amber-50 px-3 py-1.5 text-sm leading-relaxed text-amber-900">
+                          {w.usage_ar}
+                        </p>
+                      )}
                     </div>
                   ))}
                 </div>
@@ -548,7 +598,7 @@ export default function DayPage({
                              text-sm font-semibold text-white transition hover:bg-violet-700"
                 >
                   <PenLine aria-hidden size={16} />
-                  {tr('احفظتها؟ اختبر نفسك: المعنى بالعربية واكتب الإنجليزية')}
+                  {tr('حفظتها؟ ابدأ التمرين')}
                 </button>
               </>
             )}
@@ -639,41 +689,46 @@ export default function DayPage({
           </div>
         );
 
-      /* ---------- النطق: استماع قبل إنتاج ---------- */
-      case 'minimal_pairs':
+      /* ---------- النطق: استماع قبل إنتاج ----------
+         Two stages, not three layers: hear the pairs, then the test opens
+         in place. It used to be an intro, a box of pairs, and the game
+         folded away under a button the learner had to find. */
+      case 'minimal_pairs': {
+        const started = pairsStarted[sliceKey] || block.production;
+
+        if (started) {
+          return (
+            <div key={key}>
+              <MinimalPairGame
+                groups={block.groups}
+                onFinish={() => markComplete(sliceKey)}
+                production={block.production}
+                onProgress={(d, t) => setInner({ done: d, total: t })}
+              />
+            </div>
+          );
+        }
+
         return (
-          <div key={key} className="space-y-3">
-            <p className="text-sm leading-relaxed text-slate-600">
-              <strong className="text-slate-800">{tr('الاستماع أولاً.')}</strong> {tr('لا يمكنك إنتاج صوت لا تسمعه. اسمع الكلمتين، ثم العب — الهدف 11 من 12.')}
-            </p>
-
+          <div key={key} className="space-y-4">
             {block.groups.map((g) => (
-              <div key={g.label_en} className="rounded-xl bg-white p-4 ring-1 ring-slate-200">
-                <div className="mb-1 flex items-start justify-between gap-3">
-                  <p className="text-sm font-semibold text-slate-900">
-                    {g.label_ar ?? g.label_en}
-                  </p>
-                  <p className="shrink-0 font-mono text-sm text-violet-700" dir="ltr">
-                    {g.ipa}
-                  </p>
+              <div key={g.label_en}>
+                <div className="flex items-baseline justify-between gap-3">
+                  <p className="font-semibold text-slate-900">{g.label_ar ?? g.label_en}</p>
+                  <p className="shrink-0 font-mono text-sm text-violet-700" dir="ltr">{g.ipa}</p>
                 </div>
+                <p className="mt-1 text-sm text-slate-600">{tr('اسمع كل زوج قبل الاختبار. اضغط الكلمة لتسمعها.')}</p>
 
-                {/* سطر التدريب: ما الفرق وكيف تصنعه — وبدونه الاسم وحده لا يعلّم */}
-                {g.hint_ar && (
-                  <p className="mb-3 text-xs leading-relaxed text-slate-600">{g.hint_ar}</p>
-                )}
-
-                <div className="flex flex-wrap gap-2" dir="ltr">
+                <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-3" dir="ltr">
                   {g.pairs.map((p) => (
-                    <div key={p.id} className="flex overflow-hidden rounded-lg ring-1 ring-slate-200">
+                    <div key={p.id} className="flex overflow-hidden rounded-xl ring-1 ring-slate-200">
                       {[p.word_a, p.word_b].map((w, i) => (
                         <button
                           key={w}
                           onClick={() => speak(w, { rate: myRate, gender: myVoice })}
                           disabled={!supported}
-                          className={`bg-white px-3 py-1.5 text-xs font-medium text-slate-700
-                                      transition hover:bg-violet-600 hover:text-white
-                                      disabled:opacity-50
+                          className={`flex-1 bg-white py-2.5 text-base font-semibold text-slate-800 transition
+                                      hover:bg-violet-600 hover:text-white active:scale-95 disabled:opacity-50
                                       ${i === 0 ? 'border-e border-slate-200' : ''}`}
                         >
                           {w}
@@ -685,20 +740,16 @@ export default function DayPage({
               </div>
             ))}
 
-            <details className="rounded-lg bg-white ring-1 ring-slate-200">
-              <summary className="cursor-pointer px-4 py-2.5 text-sm font-medium text-violet-700">
-                {tr('ابدأ لعبة التمييز الصوتي')}
-              </summary>
-              <div className="border-t border-slate-100 p-3">
-                <MinimalPairGame
-                  groups={block.groups}
-                  production={block.production}
-                  onProgress={(d, t) => setInner({ done: d, total: t })}
-                />
-              </div>
-            </details>
+            <button
+              onClick={() => setPairsStarted((m) => ({ ...m, [sliceKey]: true }))}
+              className="flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-violet-600 text-base
+                         font-semibold text-white transition hover:bg-violet-700"
+            >
+              {tr('جاهز؟ ابدأ الاختبار')}
+            </button>
           </div>
         );
+      }
 
       /* ---------- التمارين ---------- */
       case 'exercises':
@@ -708,6 +759,7 @@ export default function DayPage({
               <ExerciseRunner
                 exercises={block.items}
                 onProgress={(d, t) => setInner({ done: d, total: t })}
+                onFinish={() => markComplete(sliceKey)}
               />
             ) : (
               <div className="rounded-xl border border-dashed border-amber-300 bg-amber-50 p-5 text-center">
@@ -765,6 +817,7 @@ export default function DayPage({
               words={block.words}
               rounds={block.rounds}
               onProgress={(d, t) => setInner({ done: d, total: t })}
+              onComplete={() => markComplete(sliceKey)}
             />
           </div>
         );
@@ -776,6 +829,7 @@ export default function DayPage({
             <Shadowing
               data={block.shadow}
               onProgress={(d, t) => setInner({ done: d, total: t })}
+              onComplete={() => markComplete(sliceKey)}
             />
           </div>
         );
@@ -788,7 +842,7 @@ export default function DayPage({
               weekNumber={week.number}
               data={block}
               saved={(myNotes?.homework as Record<string, string> | undefined) ?? null}
-              onSaved={(t) => { setHomeworkProof(t); setNeedsProof(false); }}
+              onSaved={(t) => { setHomeworkProof(t); setNeedsProof(false); markComplete(sliceKey); }}
             />
           </div>
         );
@@ -801,6 +855,7 @@ export default function DayPage({
               weekNumber={week.number}
               item={block.item}
               saved={(myNotes?.imitate as Record<string, string> | undefined) ?? null}
+              onComplete={() => markComplete(sliceKey)}
             />
           </div>
         );
@@ -838,6 +893,7 @@ export default function DayPage({
             <ReviewSession
               weekNumber={week.number}
               dayNumber={day.number}
+              onComplete={() => markComplete(sliceKey)}
               onFinished={() => {
                 const task = day.tasks.find((t) =>
                   t.blocks.some((b) => b.type === 'review'),
@@ -943,181 +999,84 @@ export default function DayPage({
         </div>
       </header>
 
-      {/* ============ الشريط الملتصق: أين أنت + سرعة النطق ============
+      <main ref={contentTop} className="mx-auto max-w-4xl space-y-4 px-4 py-6">
+        {/* ============ المهام ============ */}
+        {mode === 'wizard' && view === 'map' && (
+          <DayJourney
+            dayNumber={day.number}
+            current={Math.min(step, Math.max(0, day.tasks.length - 1))}
+            onOpen={(i) => goToStep(i)}
+            stations={day.tasks.map((t, i) => ({
+              order: t.order,
+              name: taskName(t).primary,
+              minutes: t.minutes * multiplier,
+              kind: kinds[i],
+              done: tasksDone[String(t.order)] ?? false,
+              reachable: taskReachable(t),
+            }))}
+            finished={
+              <div className="rounded-2xl bg-emerald-50 p-6 text-center ring-1 ring-emerald-200">
+                <CircleCheck aria-hidden size={40} strokeWidth={1.5} className="mx-auto text-emerald-600" />
+                <p className="mt-2 text-lg font-bold text-emerald-900">{tr('اكتمل اليوم')} {day.number}</p>
+                <p className="mx-auto mt-1 max-w-md text-sm leading-relaxed text-emerald-800">
+                  {day.number < lastDay
+                    ? tr('اليوم التالي مفتوح الآن. عد غداً — هذا ما يبني السلسلة.')
+                    : tr('أنهيت الأسبوع كاملاً.')}
+                </p>
+                <div className="mt-4 flex flex-wrap justify-center gap-2">
+                  {day.number < lastDay && nextDayUnlocked && (
+                    <Link href={`/week/${week.number}/day/${day.number + 1}`}
+                      className="rounded-xl bg-emerald-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-emerald-700">
+                      {tr('اليوم')} {day.number + 1}
+                    </Link>
+                  )}
+                  <Link href={`/week/${week.number}`}
+                    className="rounded-xl bg-white px-5 py-2.5 text-sm font-medium text-slate-700 ring-1 ring-slate-200">
+                    {tr('عد إلى الأسبوع')}
+                  </Link>
+                </div>
+              </div>
+            }
+          />
+        )}
 
-           كان شريط الخطوات يمرّ مع الصفحة، فالمهمّة الطويلة تدفع
-           المتدرّب إلى العودة للأعلى ليعرف في أي خطوة هو — وهذا يكسر
-           التركيز في كل مرة. فالتصق.
-
-           ولئلا يصير ثلاثة أشرطة فوق بعضها على شاشة صغيرة، ضُمّت
-           السرعة إلى سطر الموضع نفسه.
-
-           والألوان درجتان من لون الهوية لا لونان مختلفان: الأخضر في
-           المنصة يعني «صحيح» في التمارين، فاستعماله هنا للإنجاز يجعل
-           المتدرّب يقرأ «أجبت صواباً» حيث المقصود «أنهيت». الدرجة
-           الغامقة لما مضى والفاتحة لما أنت فيه — التمييز في الشدّة
-           لا في اللون.
-      */}
-      <div className="sticky top-11 z-30 border-b border-slate-200 bg-white/95 backdrop-blur sm:top-14">
-        <div className="mx-auto max-w-4xl px-4 py-2">
-
-          {/* شريط واحد هرميّ: كل مهمة خانة، والنشطة تتّسع وتتفرّع */}
-          <div className="flex items-stretch gap-1.5">
-            {day.tasks.map((t, i) => {
-              const done = tasksDone[String(t.order)] ?? false;
-              const active = mode === 'wizard' && step === i;
-
-              /*
-               * القفز إلى الأمام ممنوع.
-               *
-               * الزرّ الرئيسي يفرض المرور بكل خطوة داخل المهمّة، لكن
-               * الشريط كان ثغرة: ضغطةٌ على خانة لاحقة تتخطّى المهمّة
-               * الحالية وخطواتها كلها. والترتيب ليس تنظيماً شكلياً —
-               * الكتاب يبني اليوم على تسلسل: تسمع قبل أن تنطق، وتقرأ
-               * القاعدة قبل أن تُمرَّن عليها.
-               *
-               * والرجوع مسموح دائماً: المتدرّب يعود إلى ما أنجزه
-               * مراراً قبل أن يرسخ، ومنعه من ذلك عقاب بلا سبب.
-               */
-              const reachable = taskReachable(t);
-
-              return (
-                <button
-                  key={t.order}
-                  onClick={() => { if (reachable) { setMode('wizard'); goToStep(i); } }}
-                  disabled={!reachable}
-                  title={
-                    reachable
-                      ? taskName(t).primary
-                      : tr('أنهِ المهمّة الحالية أولاً')
-                  }
-                  aria-label={taskName(t).primary}
-                  aria-disabled={!reachable}
-                  aria-current={active ? 'step' : undefined}
-                  className={`group relative min-h-6 min-w-0 rounded-lg transition-all
-                              ${active ? 'flex-[1.6]' : 'flex-1'}
-                              ${reachable ? '' : 'cursor-not-allowed'}`}
-                >
-                  <span
-                    className={`flex h-2.5 w-full overflow-hidden rounded-full transition ${
-                      active
-                        ? 'bg-violet-100'
-                        : done
-                          ? 'bg-violet-700'
-                          : reachable
-                            ? 'bg-slate-200 group-hover:bg-slate-300'
-                            : 'bg-slate-100'
-                    }`}
-                  >
-                    {active && slices.length > 1
-                      ? slices.map((_, k) => (
-                          <span
-                            key={k}
-                            className={`relative h-full flex-1 overflow-hidden border-e
-                                        border-white/70 last:border-0 transition ${
-                                          k < innerStep
-                                            ? 'bg-violet-700'
-                                            : 'bg-violet-100'
-                                        }`}
-                          >
-                            {/* الخطوة الحالية تمتلئ بتقدّم النشاط داخلها */}
-                            {k === innerStep && (
-                              <span
-                                // `start-0` تنقلب مع الاتجاه — التقدّم يسير كاتّجاه القراءة
-                                className="absolute inset-y-0 start-0 bg-violet-400 transition-all duration-300"
-                                style={{
-                                  width: inner && inner.total
-                                    ? `${Math.round((inner.done / inner.total) * 100)}%`
-                                    : '100%',
-                                }}
-                              />
-                            )}
-                          </span>
-                        ))
-                      : active && (
-                          <span className={`h-full w-full ${done ? 'bg-violet-700' : 'bg-violet-400'}`} />
-                        )}
-                  </span>
-
-                  {/*
-                    Each segment names its task. Numbers alone said where
-                    the learner was, not what was ahead — "4" means nothing,
-                    "الإملاء" does. The short name is one or two words so
-                    seven fit a phone; the full name is in the title.
-                  */}
-                  <span
-                    className={`mt-1.5 flex flex-col items-center gap-0.5 transition ${
-                      active
-                        ? 'text-violet-700'
-                        : done
-                          ? 'text-violet-600'
-                          : reachable
-                            ? 'text-slate-500'
-                            : 'text-slate-400'
-                    }`}
-                  >
-                    {done && !active ? (
-                      <Check size={14} aria-hidden />
-                    ) : reachable ? (
-                      (() => {
-                        const KindIcon = kinds[i].Icon;
-                        return <KindIcon size={14} strokeWidth={2} aria-hidden />;
-                      })()
-                    ) : (
-                      <Lock size={12} aria-hidden />
-                    )}
+        {/* One quiet line instead of the strip: back to the map, where you
+            are, how many steps this task has, and the voice controls */}
+        {mode === 'wizard' && view === 'task' && (
+          <div className="flex items-center justify-between gap-3">
+            <div className="flex min-w-0 items-center gap-2">
+              <button
+                onClick={showMap}
+                aria-label={tr('خريطة اليوم')}
+                title={tr('خريطة اليوم')}
+                className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-white text-violet-700
+                           ring-1 ring-slate-200 transition hover:ring-violet-300"
+              >
+                <MapIcon aria-hidden size={18} />
+              </button>
+              <span className="whitespace-nowrap text-sm text-slate-600">
+                {tr('المحطة')} <strong className="text-slate-900">{step + 1}</strong> {tr('من')} {total}
+              </span>
+              {slices.length > 1 && (
+                <span className="flex items-center gap-1" aria-label={`${innerStep + 1}/${slices.length}`}>
+                  {slices.map((_, k) => (
                     <span
-                      className={`line-clamp-2 w-full text-center text-xs leading-tight ${
-                        active ? 'font-bold' : 'font-medium'
+                      key={k}
+                      className={`h-1.5 rounded-full transition-all ${
+                        k === innerStep ? 'w-5 bg-violet-600' : k < innerStep ? 'w-1.5 bg-violet-400' : 'w-1.5 bg-slate-300'
                       }`}
-                    >
-                      {tr(kinds[i].short)}
-                    </span>
-                  </span>
-                </button>
-              );
-            })}
-          </div>
-
-          {/* سطر واحد: أين أنت يميناً، وسرعة النطق يساراً */}
-          <div className="mt-1.5 flex items-center justify-between gap-3">
-            {mode === 'wizard' && day.tasks[step] ? (
-              <p className="flex min-w-0 flex-wrap items-baseline gap-x-2 text-xs text-slate-500">
-                <span className="shrink-0 font-semibold text-slate-800">
-                  المهمة {step + 1}/{total}
+                    />
+                  ))}
                 </span>
-                {slices.length > 1 && (
-                  <span className="shrink-0 rounded-md bg-violet-50 px-1.5 py-0.5 text-xs font-medium text-violet-700">
-                    خطوة {innerStep + 1}/{slices.length}
-                  </span>
-                )}
-                {inner && inner.total > 1 && (
-                  <span className="shrink-0 rounded-md bg-violet-100 px-1.5 py-0.5 text-xs font-medium text-violet-800">
-                    {Math.min(inner.done + 1, inner.total)}/{inner.total}
-                  </span>
-                )}
-                <span className="truncate">
-                  {sliceTitle(slices[innerStep], innerStep, slices.length) ||
-                    taskName(day.tasks[step]).primary}
-                </span>
-              </p>
-            ) : (
-              <p className="text-xs text-slate-500">
-                {doneCount} من {total} مهام
-              </p>
-            )}
-
+              )}
+            </div>
             {supported && (
               <SpeechControls voice={voice} onVoice={setVoice} rate={rate} onRate={setRate} size="sm" />
             )}
           </div>
-        </div>
-      </div>
+        )}
 
-
-      <main ref={contentTop} className="mx-auto max-w-4xl space-y-4 px-4 py-6">
-        {/* ============ المهام ============ */}
-        {(mode === 'wizard' ? visibleTasks : day.tasks).map((task) => {
+        {(mode === 'wizard' ? (view === 'task' ? visibleTasks : []) : day.tasks).map((task) => {
           const checked = tasksDone[String(task.order)] ?? false;
           const isSaving = saving === task.order;
           const isLastStep = mode === 'wizard' && step >= total - 1;
@@ -1125,7 +1084,7 @@ export default function DayPage({
           return (
             <section
               key={task.order}
-              className={`relative overflow-hidden rounded-2xl bg-white transition
+              className={`relative overflow-clip rounded-2xl bg-white transition
                           ${mode === 'wizard' ? 'leaf-in ring-1 ring-violet-200 shadow-sm' : 'ring-1 ring-slate-200'}`}
             >
               {/* The task's opener: its mark, its place in the day, its name,
@@ -1147,11 +1106,6 @@ export default function DayPage({
 
                 <div className="min-w-0 flex-1">
                   <p className="flex flex-wrap items-center gap-x-2 text-xs font-medium text-slate-500">
-                    <span>
-                      {tr('المهمة')} <span className="font-entry text-sm text-violet-700">{day.tasks.indexOf(task) + 1}</span>
-                      {' '}{tr('من')} {total}
-                    </span>
-                    <span aria-hidden className="text-slate-300">•</span>
                     <span className="inline-flex items-center gap-1">
                       <Clock aria-hidden size={12} /> {task.minutes * multiplier} {tr('دقيقة')}
                     </span>
@@ -1235,9 +1189,10 @@ export default function DayPage({
                 // Sits on top of AppNav's mobile bottom bar (h-16 + safe area)
                 style={{ bottom: 'calc(4rem + env(safe-area-inset-bottom))' }}
               >
+
                 {needsProof && task.blocks.some((b) => b.type === 'homework') && (
                   <p className="mb-3 rounded-lg bg-amber-50 p-3 text-center text-sm text-amber-900">
-                    {tr('أنجز الواجب، ثم اكتب ما فعلته واضغط «احفظ». بعدها ينتهي اليوم.')}
+                    {tr('أنجز مغامرتك، ثم اكتب ما فعلته واضغط «احفظ». بعدها ينتهي اليوم.')}
                   </p>
                 )}
 
@@ -1275,8 +1230,10 @@ export default function DayPage({
                       </button>
                     )}
 
+                    {(!sliceIsDrill || completed[sliceKey]) && (
                     <button
                       onClick={async () => {
+
                         // ① خطوة تالية داخل المهمّة
                         if (!atLastSlice) { goToSlice(innerStep + 1); return; }
 
@@ -1292,7 +1249,14 @@ export default function DayPage({
                         }
 
                         // ③ مهمّة تالية إن وُجدت
-                        if (!isLastStep) { goToStep(step + 1); return; }
+                        if (!isLastStep) {
+                          setStep(step + 1);
+                          setInnerStep(0);
+                          showMap();
+                          return;
+                        }
+                        showMap();
+                        return;
 
                         /*
                          * ④ آخر مهمّة — «أنهِ اليوم».
@@ -1322,15 +1286,13 @@ export default function DayPage({
                       {isSaving
                         ? tr('يحفظ…')
                         : !atLastSlice
-                          ? <>{`التالي  ${innerStep + 1}/${slices.length}`} <ArrowLeft aria-hidden size={15} className="inline-block align-[-3px]" /></>
+                          ? <>{tr('التالي')} <ArrowLeft aria-hidden size={15} className="inline-block align-[-3px]" /></>
                           : isLastStep
-                            ? checked
-                              ? tr('أنهِ اليوم')
-                              : tr('أنجزتها — أنهِ اليوم')
+                            ? tr('أنهِ اليوم')
                             : (
                               // The next task by name: the learner knows where the button leads
                               <span className="flex items-center justify-center gap-1.5 px-2">
-                                <span className="shrink-0">{checked ? tr('التالي:') : tr('أنجزتها · التالي:')}</span>
+                                <span className="shrink-0">{tr('التالي:')}</span>
                                 <span className="truncate">
                                   <Bdi>{day.tasks[step + 1] ? taskName(day.tasks[step + 1]).primary : ''}</Bdi>
                                 </span>
@@ -1338,6 +1300,7 @@ export default function DayPage({
                               </span>
                             )}
                     </button>
+                    )}
                   </div>
                 ) : taskReachable(task) ? (
                   <button
@@ -1375,16 +1338,7 @@ export default function DayPage({
           );
         })}
 
-        {/* التبديل بين الوضعين */}
-        <button
-          onClick={() => setMode((m) => (m === 'wizard' ? 'full' : 'wizard'))}
-          className="w-full rounded-xl bg-white py-3 text-sm font-medium text-slate-600
-                     ring-1 ring-slate-200 transition hover:ring-slate-300"
-        >
-          {mode === 'wizard'
-            ? tr('اعرض اليوم كاملاً في صفحة واحدة')
-            : tr('عد إلى الخطوات — مهمة واحدة في كل مرة')}
-        </button>
+        {mode === 'full' && (<>
 
         {/* ============ نهاية اليوم ============ */}
         {isComplete ? (
@@ -1426,8 +1380,10 @@ export default function DayPage({
             </p>
           </div>
         )}
+        </>)}
 
-        {/* التنقّل بين الأيام */}
+        {/* التنقّل بين الأيام — on the map, not under a task */}
+        {!(mode === 'wizard' && view === 'task') && (
         <div className="flex justify-between gap-2 pt-2">
           {day.number > 1 ? (
             <Link
@@ -1451,6 +1407,7 @@ export default function DayPage({
             </Link>
           )}
         </div>
+        )}
       </main>
 
       <Celebrate celebration={celebration} onClose={() => setCelebration(null)} />

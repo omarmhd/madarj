@@ -250,7 +250,7 @@ class ProgressService
                 ->where('kind', 'homework')
                 ->first()?->answers['day'.$day->number] ?? '';
 
-            abort_if(mb_strlen(trim((string) $proof)) < 3, 422, 'اكتب ما فعلته في الواجب أولاً، ثم أنجز المهمة.');
+            abort_if(mb_strlen(trim((string) $proof)) < 3, 422, 'اكتب ما فعلته في مغامرتك أولاً، ثم أنجز المهمة.');
         }
 
         return DB::transaction(function () use ($user, $week, $day, $taskOrder, $done) {

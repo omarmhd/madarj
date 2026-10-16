@@ -132,7 +132,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -186,7 +186,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -240,7 +240,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -294,7 +294,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -348,7 +348,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -366,13 +366,19 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "حوار: Have You Heard? · الاستماع",
-          "minutes": 25,
-          "ref": "dialogue:2|section:listening"
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:2",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الاستماع",
+          "minutes": 15,
+          "ref": "section:listening",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
@@ -381,10 +387,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
@@ -393,19 +399,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -420,13 +426,25 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "القراءة · الكتابة",
-          "minutes": 25,
-          "ref": "section:reading|writing:1|record"
+          "label": "القراءة",
+          "minutes": 10,
+          "ref": "section:reading",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الكتابة",
+          "minutes": 10,
+          "ref": "writing:1",
+          "order": 3
+        },
+        {
+          "label": "التحدّث",
+          "minutes": 10,
+          "ref": "record",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
@@ -435,25 +453,25 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 6
         },
         {
-          "order": 5,
+          "order": 7,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 6,
+          "order": 8,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 9
         }
       ]
     }
@@ -466,7 +484,11 @@
       "arabic": "في أي وقت — تُستخدم في السؤال",
       "example": "Have you ever seen it?",
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "ever",
+      "sentence": "Have you ever eaten camel meat?",
+      "sentence_ar": "هل سبق أن أكلتَ لحم الجمل؟",
+      "usage_ar": "ever في السؤال مع have، ولا نستعملها في جملة مثبتة."
     },
     {
       "group": "time_words",
@@ -475,7 +497,11 @@
       "arabic": "أمس",
       "example": "I saw it yesterday.",
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "yesterday",
+      "sentence": "I saw your brother yesterday.",
+      "sentence_ar": "رأيتُ أخاك أمس.",
+      "usage_ar": "مع yesterday نستعمل الماضي البسيط: I saw لا I have seen."
     },
     {
       "group": "time_words",
@@ -484,7 +510,11 @@
       "arabic": "أبداً / لم… قطّ",
       "example": "I have never seen it.",
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "never",
+      "sentence": "I have never been to Spain.",
+      "sentence_ar": "لم أذهب إلى إسبانيا أبداً.",
+      "usage_ar": "never نفي بنفسها، فلا نضيف not: لا نقول I haven't never."
     },
     {
       "group": "time_words",
@@ -493,7 +523,11 @@
       "arabic": "الأسبوع / الشهر / العام الماضي",
       "example": null,
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "last week",
+      "sentence": "I started a new job last week.",
+      "sentence_ar": "بدأتُ عملاً جديداً الأسبوع الماضي.",
+      "usage_ar": "مع last week نستعمل الماضي البسيط، ولا نضع the قبلها."
     },
     {
       "group": "time_words",
@@ -502,7 +536,11 @@
       "arabic": "بالفعل / سابقاً",
       "example": "I have already seen it.",
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "already",
+      "sentence": "I have already finished my homework.",
+      "sentence_ar": "أنهيتُ واجبي بالفعل.",
+      "usage_ar": "already تأتي بين have والتصريف الثالث."
     },
     {
       "group": "time_words",
@@ -511,7 +549,11 @@
       "arabic": "قبل — منذ",
       "example": "I saw it two years ago.",
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "ago",
+      "sentence": "I met him two years ago.",
+      "sentence_ar": "قابلته قبل سنتين.",
+      "usage_ar": "ago تأتي بعد المدة ومع الماضي البسيط: two years ago."
     },
     {
       "group": "time_words",
@@ -520,7 +562,11 @@
       "arabic": "بعد — في النفي والسؤال",
       "example": "I haven't seen it yet.",
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "yet",
+      "sentence": "Have you finished your lunch yet?",
+      "sentence_ar": "هل أنهيتَ غداءك بعد؟",
+      "usage_ar": "yet في آخر الجملة، في السؤال والنفي فقط."
     },
     {
       "group": "time_words",
@@ -529,7 +575,11 @@
       "arabic": "في سنة 2019",
       "example": "I saw it in 2019.",
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "in 2019",
+      "sentence": "I moved to this city in 2019.",
+      "sentence_ar": "انتقلتُ إلى هذه المدينة في 2019.",
+      "usage_ar": "مع سنة محددة نستعمل in والماضي البسيط."
     },
     {
       "group": "time_words",
@@ -538,7 +588,11 @@
       "arabic": "للتوّ",
       "example": "I have just seen it.",
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "just",
+      "sentence": "I have just seen your message.",
+      "sentence_ar": "رأيتُ رسالتك للتوّ.",
+      "usage_ar": "just بين have والتصريف الثالث لشيء حدث قبل لحظات."
     },
     {
       "group": "time_words",
@@ -547,7 +601,11 @@
       "arabic": "عندما كنت صغيراً",
       "example": null,
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "when I was young",
+      "sentence": "I played football every day when I was young.",
+      "sentence_ar": "كنتُ ألعب كرة القدم كل يوم عندما كنتُ صغيراً.",
+      "usage_ar": "وقت منتهٍ، فمعه الماضي البسيط دائماً."
     },
     {
       "group": "time_words",
@@ -556,7 +614,11 @@
       "arabic": "حتى الآن",
       "example": "I have seen three so far.",
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "so far",
+      "sentence": "I have read two chapters so far.",
+      "sentence_ar": "قرأتُ فصلين حتى الآن.",
+      "usage_ar": "so far مع المضارع التام، وتأتي غالباً في آخر الجملة."
     },
     {
       "group": "time_words",
@@ -565,7 +627,11 @@
       "arabic": "ثمّ / بعد ذلك",
       "example": "and then I saw it.",
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "then",
+      "sentence": "I had breakfast and then I went to work.",
+      "sentence_ar": "تناولتُ الفطور ثمّ ذهبتُ إلى العمل.",
+      "usage_ar": "then لترتيب الأحداث في قصة بالماضي البسيط."
     },
     {
       "group": "time_words",
@@ -574,7 +640,11 @@
       "arabic": "منذ 2019",
       "example": "I have known him since 2019.",
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "since 2019",
+      "sentence": "I have lived here since 2019.",
+      "sentence_ar": "أعيش هنا منذ 2019.",
+      "usage_ar": "مع since نستعمل have: لا نقول I live here since 2019."
     },
     {
       "group": "time_words",
@@ -583,7 +653,11 @@
       "arabic": "في ذلك الوقت",
       "example": null,
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "at that time",
+      "sentence": "At that time, I lived with my parents.",
+      "sentence_ar": "في ذلك الوقت كنتُ أعيش مع والديّ.",
+      "usage_ar": "وقت منتهٍ في الماضي، فمعه الماضي البسيط."
     },
     {
       "group": "time_words",
@@ -592,7 +666,11 @@
       "arabic": "لمدّة ثلاث سنوات",
       "example": "I have lived here for three years.",
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "for three years",
+      "sentence": "I have worked here for three years.",
+      "sentence_ar": "أعمل هنا منذ 3 سنوات.",
+      "usage_ar": "for مع المدة، وsince مع نقطة البداية."
     },
     {
       "group": "time_words",
@@ -601,7 +679,11 @@
       "arabic": "أوّل أمس",
       "example": null,
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "the day before yesterday",
+      "sentence": "I called her the day before yesterday.",
+      "sentence_ar": "اتصلتُ بها أوّل أمس.",
+      "usage_ar": "نقول the day before yesterday ولا نقول before yesterday وحدها."
     },
     {
       "group": "time_words",
@@ -610,7 +692,11 @@
       "arabic": "حديثاً / مؤخّراً",
       "example": null,
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "recently",
+      "sentence": "Have you seen any good films recently?",
+      "sentence_ar": "هل شاهدتَ أفلاماً جيدة مؤخّراً؟",
+      "usage_ar": "recently تأتي غالباً مع المضارع التام."
     },
     {
       "group": "time_words",
@@ -619,7 +705,11 @@
       "arabic": "هذا الصباح — إذا انتهى الصباح",
       "example": null,
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "this morning",
+      "sentence": "I drank two cups of tea this morning.",
+      "sentence_ar": "شربتُ كوبين من الشاي هذا الصباح.",
+      "usage_ar": "إذا انتهى الصباح نستعمل الماضي البسيط."
     },
     {
       "group": "time_words",
@@ -628,7 +718,11 @@
       "arabic": "كم مدّة…؟",
       "example": null,
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "How long",
+      "sentence": "How long have you lived in this flat?",
+      "sentence_ar": "كم مدّة وأنت تسكن في هذه الشقة؟",
+      "usage_ar": "How long have you للسؤال عن مدة ما زالت مستمرة."
     },
     {
       "group": "time_words",
@@ -637,7 +731,11 @@
       "arabic": "متى…؟",
       "example": null,
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "When",
+      "sentence": "When did you arrive?",
+      "sentence_ar": "متى وصلتَ؟",
+      "usage_ar": "مع When نستعمل الماضي البسيط لا التام."
     },
     {
       "group": "time_words",
@@ -646,7 +744,11 @@
       "arabic": "هذا الأسبوع / اليوم — وما زال مستمراً",
       "example": null,
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "this week",
+      "sentence": "I have drunk a lot of water this week.",
+      "sentence_ar": "شربتُ ماءً كثيراً هذا الأسبوع.",
+      "usage_ar": "الأسبوع لم ينتهِ، فنستعمل المضارع التام."
     },
     {
       "group": "time_words",
@@ -655,7 +757,11 @@
       "arabic": "الليلة الماضية",
       "example": null,
       "group_label_ar": "كلمات الزمن",
-      "group_label_en": "Time Words"
+      "group_label_en": "Time Words",
+      "target": "last night",
+      "sentence": "I slept very late last night.",
+      "sentence_ar": "نمتُ متأخراً جداً الليلة الماضية.",
+      "usage_ar": "مع last night الماضي البسيط، ولا نقول yesterday night."
     },
     {
       "group": "change_and_progress",
@@ -664,7 +770,11 @@
       "arabic": "يتغيّر",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "change",
+      "sentence": "The weather can change very quickly here.",
+      "sentence_ar": "يمكن أن يتغيّر الطقس بسرعة كبيرة هنا.",
+      "usage_ar": "change بلا مفعول تعني يتغيّر، ومعه تعني يغيّر."
     },
     {
       "group": "change_and_progress",
@@ -673,7 +783,11 @@
       "arabic": "يتحسّن",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "improve",
+      "sentence": "I want to improve my English this year.",
+      "sentence_ar": "أريد أن أحسّن لغتي الإنجليزية هذا العام.",
+      "usage_ar": "improve فعل يأتي مع مفعول أو بدونه، والاسم improvement."
     },
     {
       "group": "change_and_progress",
@@ -682,7 +796,11 @@
       "arabic": "يتطوّر",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "develop",
+      "sentence": "Cities develop fast when there is work.",
+      "sentence_ar": "تتطوّر المدن بسرعة عندما يتوفّر العمل.",
+      "usage_ar": "develop للمدن والمهارات والشركات."
     },
     {
       "group": "change_and_progress",
@@ -691,7 +809,11 @@
       "arabic": "تقدّم",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "progress",
+      "sentence": "I have made good progress this month.",
+      "sentence_ar": "أحرزتُ تقدّماً جيداً هذا الشهر.",
+      "usage_ar": "نقول make progress، وهي اسم بلا جمع: لا progresses."
     },
     {
       "group": "change_and_progress",
@@ -700,7 +822,11 @@
       "arabic": "ينمو",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "grow",
+      "sentence": "Our company will grow a lot next year.",
+      "sentence_ar": "ستنمو شركتنا كثيراً العام القادم.",
+      "usage_ar": "grow للنبات والأطفال والشركات."
     },
     {
       "group": "change_and_progress",
@@ -709,7 +835,11 @@
       "arabic": "يزداد",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "increase",
+      "sentence": "Prices always increase before the holidays.",
+      "sentence_ar": "تزداد الأسعار دائماً قبل العطلات.",
+      "usage_ar": "نقول increase by 10% للمقدار."
     },
     {
       "group": "change_and_progress",
@@ -718,7 +848,11 @@
       "arabic": "ينقص",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "decrease",
+      "sentence": "The number of visitors will decrease in winter.",
+      "sentence_ar": "سينخفض عدد الزوار في الشتاء.",
+      "usage_ar": "عكس increase، ويأتي مع الأرقام والأسعار."
     },
     {
       "group": "change_and_progress",
@@ -727,7 +861,11 @@
       "arabic": "يرتفع",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "rise",
+      "sentence": "Prices always rise in summer.",
+      "sentence_ar": "ترتفع الأسعار دائماً في الصيف.",
+      "usage_ar": "rise بلا مفعول: الأسعار ترتفع وحدها."
     },
     {
       "group": "change_and_progress",
@@ -736,7 +874,11 @@
       "arabic": "ينخفض",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "fall",
+      "sentence": "The temperature will fall tonight.",
+      "sentence_ar": "ستنخفض درجة الحرارة الليلة.",
+      "usage_ar": "fall للأرقام والأسعار أيضاً، والماضي fell."
     },
     {
       "group": "change_and_progress",
@@ -745,7 +887,11 @@
       "arabic": "يبقى كما هو",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "stay the same",
+      "sentence": "My salary will stay the same next year.",
+      "sentence_ar": "سيبقى راتبي كما هو العام القادم.",
+      "usage_ar": "stay هنا بمعنى يبقى، وبعدها the same."
     },
     {
       "group": "change_and_progress",
@@ -754,7 +900,11 @@
       "arabic": "يتحسّن",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "get better",
+      "sentence": "My health has started to get better.",
+      "sentence_ar": "بدأت صحتي تتحسّن.",
+      "usage_ar": "get better أكثر شيوعاً من improve في الكلام اليومي."
     },
     {
       "group": "change_and_progress",
@@ -763,7 +913,11 @@
       "arabic": "يسوء",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "get worse",
+      "sentence": "The traffic will get worse at five o'clock.",
+      "sentence_ar": "ستسوء حركة المرور في الساعة 5.",
+      "usage_ar": "get worse للتغيّر إلى الأسوأ، ولا نقول get more bad."
     },
     {
       "group": "change_and_progress",
@@ -772,7 +926,11 @@
       "arabic": "مؤخراً",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "recently",
+      "sentence": "Prices have gone up recently.",
+      "sentence_ar": "ارتفعت الأسعار مؤخراً.",
+      "usage_ar": "recently مع المضارع التام لتغيّر حدث قريباً."
     },
     {
       "group": "change_and_progress",
@@ -781,7 +939,11 @@
       "arabic": "في الآونة الأخيرة",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "lately",
+      "sentence": "I haven't slept well lately.",
+      "sentence_ar": "لم أنم جيداً في الآونة الأخيرة.",
+      "usage_ar": "lately غالباً في السؤال والنفي مع المضارع التام."
     },
     {
       "group": "change_and_progress",
@@ -790,7 +952,11 @@
       "arabic": "حتى الآن",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "so far",
+      "sentence": "So far, the new job is great.",
+      "sentence_ar": "حتى الآن، الوظيفة الجديدة رائعة.",
+      "usage_ar": "so far تعني من البداية إلى هذه اللحظة."
     },
     {
       "group": "change_and_progress",
@@ -799,7 +965,11 @@
       "arabic": "حتى الآن",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "up to now",
+      "sentence": "Up to now, we have saved 500 pounds.",
+      "sentence_ar": "حتى الآن وفّرنا 500 جنيه.",
+      "usage_ar": "up to now مثل so far، مع المضارع التام."
     },
     {
       "group": "change_and_progress",
@@ -808,7 +978,11 @@
       "arabic": "إنجاز",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "achievement",
+      "sentence": "Learning to drive was a big achievement for me.",
+      "sentence_ar": "كان تعلّم القيادة إنجازاً كبيراً لي.",
+      "usage_ar": "الاسم من achieve، ونقول a big achievement."
     },
     {
       "group": "change_and_progress",
@@ -817,7 +991,11 @@
       "arabic": "تقرير تقدّم",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "progress report",
+      "sentence": "The teacher wrote a progress report for each student.",
+      "sentence_ar": "كتب المعلم تقرير تقدّم لكل طالب.",
+      "usage_ar": "وثيقة في العمل أو المدرسة تبيّن ما أُنجز."
     },
     {
       "group": "change_and_progress",
@@ -826,7 +1004,11 @@
       "arabic": "منذ (نقطة)",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "since",
+      "sentence": "I have known him since school.",
+      "sentence_ar": "أعرفه منذ أيام المدرسة.",
+      "usage_ar": "since بعدها نقطة بداية: since Monday، since 2020."
     },
     {
       "group": "change_and_progress",
@@ -835,7 +1017,11 @@
       "arabic": "لمدة",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "for",
+      "sentence": "We have lived here for ten years.",
+      "sentence_ar": "نعيش هنا منذ 10 سنوات.",
+      "usage_ar": "for بعدها مدة: for two hours، for a week."
     },
     {
       "group": "change_and_progress",
@@ -844,7 +1030,11 @@
       "arabic": "بالفعل",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "already",
+      "sentence": "The train has already left.",
+      "sentence_ar": "غادر القطار بالفعل.",
+      "usage_ar": "already لشيء حدث أسرع مما توقّعت."
     },
     {
       "group": "change_and_progress",
@@ -853,7 +1043,11 @@
       "arabic": "بعد",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "yet",
+      "sentence": "I haven't decided yet.",
+      "sentence_ar": "لم أقرّر بعد.",
+      "usage_ar": "yet في آخر جملة النفي أو السؤال."
     },
     {
       "group": "change_and_progress",
@@ -862,7 +1056,11 @@
       "arabic": "للتو",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "just",
+      "sentence": "She has just arrived.",
+      "sentence_ar": "وصلت للتوّ.",
+      "usage_ar": "just بين has والتصريف الثالث."
     },
     {
       "group": "change_and_progress",
@@ -871,7 +1069,11 @@
       "arabic": "ما زال",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "still",
+      "sentence": "I still live with my parents.",
+      "sentence_ar": "ما زلتُ أعيش مع والديّ.",
+      "usage_ar": "still قبل الفعل الرئيسي، وبعد am وis وare."
     },
     {
       "group": "change_and_progress",
@@ -880,7 +1082,11 @@
       "arabic": "أخيراً",
       "example": null,
       "group_label_ar": "التغيّر والتقدّم",
-      "group_label_en": "Change and Progress"
+      "group_label_en": "Change and Progress",
+      "target": "finally",
+      "sentence": "We finally found a good flat.",
+      "sentence_ar": "وجدنا أخيراً شقة جيدة.",
+      "usage_ar": "finally لشيء حدث بعد انتظار طويل."
     },
     {
       "group": "news_and_current_events",
@@ -889,7 +1095,11 @@
       "arabic": "أخبار",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "news",
+      "sentence": "The news is very good today.",
+      "sentence_ar": "الأخبار جيدة جداً اليوم.",
+      "usage_ar": "news مفرد رغم حرف s: The news is لا The news are."
     },
     {
       "group": "news_and_current_events",
@@ -898,7 +1108,11 @@
       "arabic": "عنوان رئيسي",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "headline",
+      "sentence": "I only read the headline.",
+      "sentence_ar": "قرأتُ العنوان الرئيسي فقط.",
+      "usage_ar": "العنوان الكبير في الصحيفة أو الموقع."
     },
     {
       "group": "news_and_current_events",
@@ -907,7 +1121,11 @@
       "arabic": "يعلن",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "announce",
+      "sentence": "The company will announce a new phone tomorrow.",
+      "sentence_ar": "ستعلن الشركة عن هاتف جديد غداً.",
+      "usage_ar": "announce بلا about: announce a plan."
     },
     {
       "group": "news_and_current_events",
@@ -916,7 +1134,11 @@
       "arabic": "يفيد / تقرير",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "report",
+      "sentence": "The newspaper wrote a report about the accident.",
+      "sentence_ar": "كتبت الصحيفة تقريراً عن الحادث.",
+      "usage_ar": "report فعل واسم، ونقول write a report."
     },
     {
       "group": "news_and_current_events",
@@ -925,7 +1147,11 @@
       "arabic": "حكومة",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "government",
+      "sentence": "The government has changed the law.",
+      "sentence_ar": "غيّرت الحكومة القانون.",
+      "usage_ar": "نقول the government مع the دائماً تقريباً."
     },
     {
       "group": "news_and_current_events",
@@ -934,7 +1160,11 @@
       "arabic": "شركة",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "company",
+      "sentence": "My sister works for a big company.",
+      "sentence_ar": "تعمل أختي في شركة كبيرة.",
+      "usage_ar": "نقول work for a company."
     },
     {
       "group": "news_and_current_events",
@@ -943,7 +1173,11 @@
       "arabic": "رئيس",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "president",
+      "sentence": "The president has visited the hospital.",
+      "sentence_ar": "زار الرئيس المستشفى.",
+      "usage_ar": "president لرئيس الدولة أو الشركة."
     },
     {
       "group": "news_and_current_events",
@@ -952,7 +1186,11 @@
       "arabic": "وزير",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "minister",
+      "sentence": "The minister has opened a new school.",
+      "sentence_ar": "افتتح الوزير مدرسة جديدة.",
+      "usage_ar": "نقول the Minister of Health مثلاً."
     },
     {
       "group": "news_and_current_events",
@@ -961,7 +1199,11 @@
       "arabic": "انتخابات",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "election",
+      "sentence": "The election will be next month.",
+      "sentence_ar": "ستكون الانتخابات الشهر القادم.",
+      "usage_ar": "election مفرد بالإنجليزية، والانتخابات بالعربية جمع."
     },
     {
       "group": "news_and_current_events",
@@ -970,7 +1212,11 @@
       "arabic": "نتيجة",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "result",
+      "sentence": "We are waiting for the result.",
+      "sentence_ar": "ننتظر النتيجة.",
+      "usage_ar": "نقول the result of something."
     },
     {
       "group": "news_and_current_events",
@@ -979,7 +1225,11 @@
       "arabic": "اقتصاد",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "economy",
+      "sentence": "The economy has grown this year.",
+      "sentence_ar": "نما الاقتصاد هذا العام.",
+      "usage_ar": "الاقتصاد economy، والصفة economic."
     },
     {
       "group": "news_and_current_events",
@@ -988,7 +1238,11 @@
       "arabic": "سعر",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "price",
+      "sentence": "The price of bread has gone up.",
+      "sentence_ar": "ارتفع سعر الخبز.",
+      "usage_ar": "نقول the price of something، وتأتي مع high أو low."
     },
     {
       "group": "news_and_current_events",
@@ -997,7 +1251,11 @@
       "arabic": "يكتشف",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "discover",
+      "sentence": "Scientists hope to discover a new planet.",
+      "sentence_ar": "يأمل العلماء أن يكتشفوا كوكباً جديداً.",
+      "usage_ar": "discover لشيء موجود لم يُعرف من قبل."
     },
     {
       "group": "news_and_current_events",
@@ -1006,7 +1264,11 @@
       "arabic": "يخترع",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "invent",
+      "sentence": "Engineers want to invent a cheaper car.",
+      "sentence_ar": "يريد المهندسون أن يخترعوا سيارة أرخص.",
+      "usage_ar": "invent لشيء جديد لم يكن موجوداً."
     },
     {
       "group": "news_and_current_events",
@@ -1015,7 +1277,11 @@
       "arabic": "يطلق",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "launch",
+      "sentence": "The company will launch a new app next week.",
+      "sentence_ar": "ستطلق الشركة تطبيقاً جديداً الأسبوع القادم.",
+      "usage_ar": "launch لمنتج أو خدمة أو صاروخ."
     },
     {
       "group": "news_and_current_events",
@@ -1024,7 +1290,11 @@
       "arabic": "يلغي",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "cancel",
+      "sentence": "They will cancel the match if it rains.",
+      "sentence_ar": "سيلغون المباراة إذا أمطرت.",
+      "usage_ar": "بالبريطانية cancelled بحرفي l."
     },
     {
       "group": "news_and_current_events",
@@ -1033,7 +1303,11 @@
       "arabic": "يوافق",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "agree",
+      "sentence": "I agree with the minister's plan.",
+      "sentence_ar": "أوافق على خطة الوزير.",
+      "usage_ar": "agree with someone وagree on something، ولا نقول I am agree."
     },
     {
       "group": "news_and_current_events",
@@ -1042,7 +1316,11 @@
       "arabic": "يرفض",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "refuse",
+      "sentence": "Some workers refuse to work at weekends.",
+      "sentence_ar": "يرفض بعض العمال العمل في عطلة نهاية الأسبوع.",
+      "usage_ar": "بعد refuse يأتي to: refuse to answer."
     },
     {
       "group": "news_and_current_events",
@@ -1051,7 +1329,11 @@
       "arabic": "يزيد",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "increase",
+      "sentence": "The company will increase salaries next year.",
+      "sentence_ar": "ستزيد الشركة الرواتب العام القادم.",
+      "usage_ar": "increase مع مفعول تعني يزيد شيئاً."
     },
     {
       "group": "news_and_current_events",
@@ -1060,7 +1342,11 @@
       "arabic": "يخفّض",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "reduce",
+      "sentence": "The government is going to reduce taxes.",
+      "sentence_ar": "ستخفّض الحكومة الضرائب.",
+      "usage_ar": "reduce دائماً مع مفعول: reduce prices."
     },
     {
       "group": "news_and_current_events",
@@ -1069,7 +1355,11 @@
       "arabic": "يوقّع",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "sign",
+      "sentence": "The two leaders will sign an agreement today.",
+      "sentence_ar": "سيوقّع القائدان اتفاقية اليوم.",
+      "usage_ar": "حرف g في sign لا يُنطق."
     },
     {
       "group": "news_and_current_events",
@@ -1078,7 +1368,11 @@
       "arabic": "حادث",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "accident",
+      "sentence": "There has been an accident on the motorway.",
+      "sentence_ar": "وقع حادث على الطريق السريع.",
+      "usage_ar": "نقول have an accident، وby accident تعني دون قصد."
     },
     {
       "group": "news_and_current_events",
@@ -1087,7 +1381,11 @@
       "arabic": "طقس",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "weather",
+      "sentence": "The weather has been terrible this week.",
+      "sentence_ar": "كان الطقس سيئاً جداً هذا الأسبوع.",
+      "usage_ar": "weather بلا a: لا نقول a nice weather."
     },
     {
       "group": "news_and_current_events",
@@ -1096,7 +1394,11 @@
       "arabic": "بحث",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "research",
+      "sentence": "They have done a lot of research on sleep.",
+      "sentence_ar": "أجروا بحثاً كثيراً عن النوم.",
+      "usage_ar": "research بلا جمع غالباً، ونقول do research."
     },
     {
       "group": "news_and_current_events",
@@ -1105,7 +1407,11 @@
       "arabic": "عالِم",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "scientist",
+      "sentence": "A young scientist has won the prize.",
+      "sentence_ar": "فاز عالِم شاب بالجائزة.",
+      "usage_ar": "scientist للعالِم في العلوم، والعلم science."
     },
     {
       "group": "news_and_current_events",
@@ -1114,7 +1420,11 @@
       "arabic": "خبير",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "expert",
+      "sentence": "She is an expert in health.",
+      "sentence_ar": "هي خبيرة في الصحة.",
+      "usage_ar": "نقول an expert in أو on something."
     },
     {
       "group": "news_and_current_events",
@@ -1123,7 +1433,11 @@
       "arabic": "وفقاً لـ",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "according to",
+      "sentence": "According to the news, it will snow tomorrow.",
+      "sentence_ar": "وفقاً للأخبار، ستثلج غداً.",
+      "usage_ar": "لا نقول according to me، بل in my opinion."
     },
     {
       "group": "news_and_current_events",
@@ -1132,7 +1446,11 @@
       "arabic": "حتى الآن",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "so far",
+      "sentence": "So far, ten people have joined the club.",
+      "sentence_ar": "حتى الآن انضم 10 أشخاص إلى النادي.",
+      "usage_ar": "في الأخبار تأتي مع رقم حتى هذه اللحظة."
     },
     {
       "group": "news_and_current_events",
@@ -1141,7 +1459,11 @@
       "arabic": "على الأقل",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "at least",
+      "sentence": "At least twenty people were there.",
+      "sentence_ar": "كان هناك 20 شخصاً على الأقل.",
+      "usage_ar": "at least قبل الرقم مباشرة."
     },
     {
       "group": "news_and_current_events",
@@ -1150,7 +1472,11 @@
       "arabic": "تقريباً",
       "example": null,
       "group_label_ar": "الأخبار والأحداث",
-      "group_label_en": "News and Current Events"
+      "group_label_en": "News and Current Events",
+      "target": "nearly",
+      "sentence": "Nearly a thousand people have signed.",
+      "sentence_ar": "وقّع ما يقارب 1000 شخص.",
+      "usage_ar": "nearly تعني أقلّ قليلاً من الرقم."
     },
     {
       "group": "reacting_to_news",
@@ -1159,7 +1485,11 @@
       "arabic": "هل سمعت؟",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": "Have you heard",
+      "sentence": "Have you heard? The shop has closed.",
+      "sentence_ar": "هل سمعت؟ أُغلق المحلّ.",
+      "usage_ar": "تبدأ بها لتشارك خبراً جديداً."
     },
     {
       "group": "reacting_to_news",
@@ -1168,7 +1498,11 @@
       "arabic": "حقاً؟ متى؟",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": "Really? When",
+      "sentence": "Our manager has left. Really? When?",
+      "sentence_ar": "غادر مديرنا. حقاً؟ متى؟",
+      "usage_ar": "تسأل بها عن وقت الخبر، والجواب بالماضي البسيط."
     },
     {
       "group": "reacting_to_news",
@@ -1177,7 +1511,11 @@
       "arabic": "خمّن ماذا!",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": "Guess what",
+      "sentence": "Guess what! I've got the job!",
+      "sentence_ar": "خمّن ماذا! حصلتُ على الوظيفة!",
+      "usage_ar": "تبدأ بها خبراً مفرحاً أو مفاجئاً."
     },
     {
       "group": "reacting_to_news",
@@ -1186,7 +1524,11 @@
       "arabic": "أنت تمزح!",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": "You're joking",
+      "sentence": "I've won a car. You're joking!",
+      "sentence_ar": "فزتُ بسيارة. أنت تمزح!",
+      "usage_ar": "ردّ على خبر لا تكاد تصدّقه، ولا يعني أنه يكذب فعلاً."
     },
     {
       "group": "reacting_to_news",
@@ -1195,7 +1537,11 @@
       "arabic": "سمعت للتو أن…",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": null,
+      "sentence": "I've just heard that the school will close.",
+      "sentence_ar": "سمعتُ للتو أن المدرسة ستُغلق.",
+      "usage_ar": "لنقل خبر وصلك قبل قليل."
     },
     {
       "group": "reacting_to_news",
@@ -1204,7 +1550,11 @@
       "arabic": "خبر رائع",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": "That's great news",
+      "sentence": "I've passed my test! That's great news.",
+      "sentence_ar": "نجحتُ في اختباري! خبر رائع.",
+      "usage_ar": "ردّ فرح على خبر جيد."
     },
     {
       "group": "reacting_to_news",
@@ -1213,7 +1563,11 @@
       "arabic": "يبدو أن…",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": "Apparently",
+      "sentence": "Apparently, the shop will close next month.",
+      "sentence_ar": "يبدو أن المحلّ سيُغلق الشهر القادم.",
+      "usage_ar": "لنقل خبر سمعته ولستَ متأكداً منه."
     },
     {
       "group": "reacting_to_news",
@@ -1222,7 +1576,11 @@
       "arabic": "هذا فظيع",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": "That's terrible",
+      "sentence": "Someone stole our car. That's terrible.",
+      "sentence_ar": "سرق أحدهم سيارتنا. هذا فظيع.",
+      "usage_ar": "ردّ على خبر سيئ."
     },
     {
       "group": "reacting_to_news",
@@ -1231,7 +1589,11 @@
       "arabic": "لم أكن أعلم",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": null,
+      "sentence": "The museum is free on Fridays. I didn't know that.",
+      "sentence_ar": "المتحف مجاني يوم الجمعة. لم أكن أعلم.",
+      "usage_ar": "ردّ على معلومة جديدة لك."
     },
     {
       "group": "reacting_to_news",
@@ -1240,7 +1602,11 @@
       "arabic": "كيف حدث؟",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": null,
+      "sentence": "He broke his leg. How did it happen?",
+      "sentence_ar": "كسر رجله. كيف حدث ذلك؟",
+      "usage_ar": "تسأل بها عن تفاصيل حادث، وبالماضي البسيط."
     },
     {
       "group": "reacting_to_news",
@@ -1249,7 +1615,11 @@
       "arabic": "منذ متى؟",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": "Since when",
+      "sentence": "My brother lives in Dubai now. Since when?",
+      "sentence_ar": "أخي يعيش في دبي الآن. منذ متى؟",
+      "usage_ar": "سؤال قصير عن بداية أمر ما زال مستمراً."
     },
     {
       "group": "reacting_to_news",
@@ -1258,7 +1628,11 @@
       "arabic": "منذ متى وهو كذلك؟",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": null,
+      "sentence": "We haven't seen each other. How long has it been?",
+      "sentence_ar": "لم نرَ بعضنا. منذ متى؟",
+      "usage_ar": "تسأل بها عن مدة غياب أو انتظار، بالمضارع التام."
     },
     {
       "group": "reacting_to_news",
@@ -1267,7 +1641,11 @@
       "arabic": "مبروك!",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": "Congratulations",
+      "sentence": "I've got married! Congratulations!",
+      "sentence_ar": "تزوّجتُ! مبروك!",
+      "usage_ar": "نقول congratulations on something، دائماً بحرف s."
     },
     {
       "group": "reacting_to_news",
@@ -1276,7 +1654,11 @@
       "arabic": "يؤسفني سماع ذلك",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": null,
+      "sentence": "My cat has died. I'm sorry to hear that.",
+      "sentence_ar": "ماتت قطتي. يؤسفني سماع ذلك.",
+      "usage_ar": "ردّ مهذّب على خبر حزين."
     },
     {
       "group": "reacting_to_news",
@@ -1285,7 +1667,11 @@
       "arabic": "هل حدث شيء؟",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": "Has anything happened",
+      "sentence": "You look worried. Has anything happened?",
+      "sentence_ar": "تبدو قلقاً. هل حدث شيء؟",
+      "usage_ar": "تسأل بها حين ترى أن شيئاً تغيّر."
     },
     {
       "group": "reacting_to_news",
@@ -1294,7 +1680,11 @@
       "arabic": "لا شيء يُذكر",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": "Nothing much",
+      "sentence": "What's new? Nothing much.",
+      "sentence_ar": "ما الجديد؟ لا شيء يُذكر.",
+      "usage_ar": "جواب قصير حين لا يوجد خبر مهم."
     },
     {
       "group": "reacting_to_news",
@@ -1303,7 +1693,11 @@
       "arabic": "ماذا كنت تفعل؟",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": null,
+      "sentence": "Hi! What have you been up to?",
+      "sentence_ar": "مرحباً! ماذا كنتَ تفعل؟",
+      "usage_ar": "تسأل بها صديقاً لم تره منذ مدة، بأسلوب ودّي."
     },
     {
       "group": "reacting_to_news",
@@ -1312,7 +1706,11 @@
       "arabic": "كالعادة",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": "Same as usual",
+      "sentence": "How's work? Same as usual.",
+      "sentence_ar": "كيف العمل؟ كالعادة.",
+      "usage_ar": "جواب قصير يعني لا شيء جديد."
     },
     {
       "group": "reacting_to_news",
@@ -1321,7 +1719,11 @@
       "arabic": "مرّ وقت طويل",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": null,
+      "sentence": "Hello, Adam! It's been a while.",
+      "sentence_ar": "مرحباً يا آدم! مرّ وقت طويل.",
+      "usage_ar": "تقولها حين تلتقي شخصاً بعد غياب."
     },
     {
       "group": "reacting_to_news",
@@ -1330,7 +1732,11 @@
       "arabic": "لم أرك منذ زمن",
       "example": null,
       "group_label_ar": "الردّ على الأخبار",
-      "group_label_en": "Reacting to News"
+      "group_label_en": "Reacting to News",
+      "target": null,
+      "sentence": "Lina! Long time no see!",
+      "sentence_ar": "لينا! لم أرك منذ زمن!",
+      "usage_ar": "عبارة ودّية غير رسمية حين تلتقي صديقاً بعد غياب."
     }
   ],
   "minimal_pairs": [],
@@ -1757,7 +2163,7 @@
           },
           {
             "can_ar": "أذكر الاختبارات الثلاثة من الذاكرة",
-            "can_en": "State the three tests from §3.2 from memory?",
+            "can_en": "State the three tests from the grammar lesson from memory?",
             "proof_ar": "قسم القواعد"
           },
           {
@@ -1979,7 +2385,7 @@
             "title_ar": "ابنِ نصّك أنت",
             "title_en": "Build Your Version",
             "text_en": [
-              "Section 2 is what this whole chapter has been building towards. Opening in the Present Perfect and dropping into the Past Simple the moment you name a date is the single clearest marker of a B1 speaker. Do it consciously here, and within a month it will be automatic."
+              "Part 2 of your outline is what this whole chapter has been building towards. Opening in the Present Perfect and dropping into the Past Simple the moment you name a date is the single clearest marker of a B1 speaker. Do it consciously here, and within a month it will be automatic."
             ]
           },
           {

@@ -133,40 +133,46 @@
       "focus": "النطق · العبارات · التمييز الصوتي",
       "tasks": [
         {
-          "order": 1,
-          "label": "رموز النطق + عبارات النجاة",
-          "minutes": 25,
-          "ref": "section:phonics|section:phrases"
+          "label": "النطق",
+          "minutes": 15,
+          "ref": "section:phonics",
+          "order": 1
         },
         {
-          "order": 2,
+          "label": "العبارات",
+          "minutes": 15,
+          "ref": "section:phrases",
+          "order": 2
+        },
+        {
+          "order": 3,
           "label": "تدريب النطق",
           "minutes": 10,
           "ref": "pron:vowels"
         },
         {
-          "order": 3,
+          "order": 4,
           "label": "تمارين: رموز النطق وعبارات النجاة",
           "minutes": 10,
           "ref": "exercises:1"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 6
+          "order": 7
         }
       ]
     },
@@ -217,7 +223,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -235,46 +241,52 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "الأيام والشهور + الحوار الأول",
-          "minutes": 20,
-          "ref": "vocab:days_months|dialogue:1"
+          "label": "الكلمات",
+          "minutes": 10,
+          "ref": "vocab:days_months",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الحوار",
+          "minutes": 10,
+          "ref": "dialogue:1",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:numbers,days_months"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "تدريب النطق",
           "minutes": 10,
           "ref": "pron:vowels"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين: فهم الحوار الأول",
           "minutes": 5,
           "ref": "exercises:3"
         },
         {
-          "order": 6,
+          "order": 7,
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate"
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -325,7 +337,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -343,46 +355,52 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "الكلمات الأساسية + الحوار الثاني",
-          "minutes": 20,
-          "ref": "vocab:core|dialogue:2"
+          "label": "الكلمات",
+          "minutes": 10,
+          "ref": "vocab:core",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الحوار",
+          "minutes": 10,
+          "ref": "dialogue:2",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:core"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "تدريب النطق",
           "minutes": 10,
           "ref": "pron:vowels"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين: الحوار الثاني والكلمات الأساسية",
           "minutes": 5,
           "ref": "exercises:5"
         },
         {
-          "order": 6,
+          "order": 7,
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate"
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -433,7 +451,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -451,34 +469,40 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "القراءة + الكتابة",
-          "minutes": 25,
-          "ref": "section:reading|writing:1"
+          "label": "القراءة",
+          "minutes": 15,
+          "ref": "section:reading",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الكتابة",
+          "minutes": 15,
+          "ref": "writing:1",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "مراجعة كل الأصوات",
           "minutes": 10,
           "ref": "pron:vowels"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "★ تسجيل خط الأساس — دقيقتان",
           "minutes": 10,
           "ref": "record:baseline"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 6
+          "order": 7
         }
       ]
     }
@@ -491,7 +515,11 @@
       "arabic": "أب",
       "example": "My father is a teacher.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "father",
+      "sentence": "My father is a teacher.",
+      "sentence_ar": "أبي معلّم.",
+      "usage_ar": "نقول my father، ولا نحذف my كما في «أبي»."
     },
     {
       "group": "family",
@@ -500,7 +528,11 @@
       "arabic": "أم",
       "example": "My mother is from Cairo.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "mother",
+      "sentence": "My mother is at home today.",
+      "sentence_ar": "أمي في البيت اليوم.",
+      "usage_ar": "تأتي بعد my أو your أو his أو her: his mother."
     },
     {
       "group": "family",
@@ -509,7 +541,11 @@
       "arabic": "أخ",
       "example": "I have two brothers.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "brother",
+      "sentence": "This is my brother, Adam.",
+      "sentence_ar": "هذا أخي آدم.",
+      "usage_ar": "للأخ الأكبر والأصغر معاً: my big brother · my little brother."
     },
     {
       "group": "family",
@@ -518,7 +554,11 @@
       "arabic": "أخت",
       "example": "My sister is a student.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "sister",
+      "sentence": "My sister is a student.",
+      "sentence_ar": "أختي طالبة.",
+      "usage_ar": "للأخت الكبرى والصغرى: my big sister · my little sister."
     },
     {
       "group": "family",
@@ -527,7 +567,11 @@
       "arabic": "ابن",
       "example": "Their son is five years old.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "son",
+      "sentence": "Their son is five years old.",
+      "sentence_ar": "ابنهم عمره 5 سنوات.",
+      "usage_ar": "للعمر نقول: He is five years old، لا He has five years."
     },
     {
       "group": "family",
@@ -536,7 +580,11 @@
       "arabic": "ابنة",
       "example": "His daughter is at school.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "daughter",
+      "sentence": "His daughter is at school.",
+      "sentence_ar": "ابنته في المدرسة.",
+      "usage_ar": "انتبه للإملاء: الحرفان gh لا يُنطقان."
     },
     {
       "group": "family",
@@ -545,7 +593,11 @@
       "arabic": "زوجة",
       "example": "My wife is a doctor.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "wife",
+      "sentence": "His wife is a doctor.",
+      "sentence_ar": "زوجته طبيبة.",
+      "usage_ar": "نقول a doctor مع a قبل المهنة: She is a doctor."
     },
     {
       "group": "family",
@@ -554,7 +606,11 @@
       "arabic": "زوج",
       "example": "Her husband works in a bank.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "husband",
+      "sentence": "Her husband is an engineer.",
+      "sentence_ar": "زوجها مهندس.",
+      "usage_ar": "مع her لا his: her husband = زوجها."
     },
     {
       "group": "family",
@@ -563,7 +619,11 @@
       "arabic": "عم / خال",
       "example": "My uncle lives in Dubai.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "uncle",
+      "sentence": "My uncle is in Dubai.",
+      "sentence_ar": "عمي في دبي.",
+      "usage_ar": "كلمة واحدة للعم والخال معاً."
     },
     {
       "group": "family",
@@ -572,7 +632,11 @@
       "arabic": "عمة / خالة",
       "example": "This is my aunt Lina.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "aunt",
+      "sentence": "My aunt is very kind.",
+      "sentence_ar": "خالتي لطيفة جداً.",
+      "usage_ar": "كلمة واحدة للعمة والخالة معاً."
     },
     {
       "group": "family",
@@ -581,7 +645,11 @@
       "arabic": "ابن/بنت العم أو الخال",
       "example": "My cousin is an engineer.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "cousin",
+      "sentence": "My cousin is an engineer.",
+      "sentence_ar": "ابن عمي مهندس.",
+      "usage_ar": "كلمة واحدة لأبناء وبنات العم والخال، للذكر والأنثى."
     },
     {
       "group": "family",
@@ -590,7 +658,11 @@
       "arabic": "جد",
       "example": "My grandfather is 80.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "grandfather",
+      "sentence": "My grandfather is 80 years old.",
+      "sentence_ar": "جدي عمره 80 سنة.",
+      "usage_ar": "نقولها بالعامية أيضاً: grandpa."
     },
     {
       "group": "family",
@@ -599,7 +671,11 @@
       "arabic": "جدة",
       "example": "My grandmother cooks very well.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "grandmother",
+      "sentence": "My grandmother is at home.",
+      "sentence_ar": "جدتي في البيت.",
+      "usage_ar": "نقولها بالعامية أيضاً: grandma."
     },
     {
       "group": "family",
@@ -608,7 +684,11 @@
       "arabic": "الوالدان",
       "example": "My parents are at home.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "parents",
+      "sentence": "My parents are at home.",
+      "sentence_ar": "والداي في البيت.",
+      "usage_ar": "جمع دائماً، فنقول my parents are لا is."
     },
     {
       "group": "family",
@@ -617,7 +697,11 @@
       "arabic": "طفل",
       "example": "She is a happy child.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "child",
+      "sentence": "She is a happy child.",
+      "sentence_ar": "هي طفلة سعيدة.",
+      "usage_ar": "مفرد، وجمعه children لا childs."
     },
     {
       "group": "family",
@@ -626,7 +710,11 @@
       "arabic": "أطفال",
       "example": "They have three children.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "children",
+      "sentence": "Their children are at school.",
+      "sentence_ar": "أطفالهم في المدرسة.",
+      "usage_ar": "جمع child، فنقول children are."
     },
     {
       "group": "family",
@@ -635,7 +723,11 @@
       "arabic": "عائلة",
       "example": "My family is big.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "family",
+      "sentence": "My family is big.",
+      "sentence_ar": "عائلتي كبيرة.",
+      "usage_ar": "نقول my family is: نعاملها كشيء واحد."
     },
     {
       "group": "family",
@@ -644,7 +736,11 @@
       "arabic": "صديق",
       "example": "He is my best friend.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "friend",
+      "sentence": "Alex is my best friend.",
+      "sentence_ar": "أليكس أعز أصدقائي.",
+      "usage_ar": "my best friend = أعز صديق لي."
     },
     {
       "group": "family",
@@ -653,7 +749,11 @@
       "arabic": "جار",
       "example": "Our neighbour is very kind.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "neighbour",
+      "sentence": "Our neighbour is very kind.",
+      "sentence_ar": "جارنا لطيف جداً.",
+      "usage_ar": "بالإملاء البريطاني: neighbour، وبالأمريكي neighbor."
     },
     {
       "group": "family",
@@ -662,7 +762,11 @@
       "arabic": "زميل في العمل",
       "example": "She is my colleague at work.",
       "group_label_ar": "العائلة",
-      "group_label_en": "Family"
+      "group_label_en": "Family",
+      "target": "colleague",
+      "sentence": "She is my colleague at work.",
+      "sentence_ar": "هي زميلتي في العمل.",
+      "usage_ar": "لزميل العمل فقط؛ وزميل الدراسة classmate."
     },
     {
       "group": "numbers",
@@ -671,7 +775,11 @@
       "arabic": "واحد",
       "example": "One coffee, please.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "one",
+      "sentence": "One coffee, please.",
+      "sentence_ar": "قهوة واحدة من فضلك.",
+      "usage_ar": "تأتي قبل اسم مفرد: one coffee."
     },
     {
       "group": "numbers",
@@ -680,7 +788,11 @@
       "arabic": "اثنان",
       "example": "I have two brothers.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "two",
+      "sentence": "I am two minutes late.",
+      "sentence_ar": "أنا متأخر دقيقتين.",
+      "usage_ar": "بعدها اسم جمع: two minutes، لا two minute."
     },
     {
       "group": "numbers",
@@ -689,7 +801,11 @@
       "arabic": "ثلاثة",
       "example": "Three children.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "three",
+      "sentence": "My brother is three years old.",
+      "sentence_ar": "أخي عمره 3 سنوات.",
+      "usage_ar": "انتبه: th في three ليست t، فلا تقل tree."
     },
     {
       "group": "numbers",
@@ -698,7 +814,11 @@
       "arabic": "أربعة",
       "example": "Four rooms.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "four",
+      "sentence": "The car is four years old.",
+      "sentence_ar": "عمر السيارة 4 سنوات.",
+      "usage_ar": "تُكتب four، أما for فمعناها «لِـ»."
     },
     {
       "group": "numbers",
@@ -707,7 +827,11 @@
       "arabic": "خمسة",
       "example": "Five minutes.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "five",
+      "sentence": "The bus is five minutes away.",
+      "sentence_ar": "الحافلة على بعد 5 دقائق.",
+      "usage_ar": "بعدها اسم جمع: five minutes."
     },
     {
       "group": "numbers",
@@ -716,7 +840,11 @@
       "arabic": "ستة",
       "example": "He is six years old.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "six",
+      "sentence": "He is six years old.",
+      "sentence_ar": "عمره 6 سنوات.",
+      "usage_ar": "للعمر: He is six، لا He has six."
     },
     {
       "group": "numbers",
@@ -725,7 +853,11 @@
       "arabic": "سبعة",
       "example": "Seven o'clock.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "seven",
+      "sentence": "It is seven o'clock.",
+      "sentence_ar": "الساعة السابعة.",
+      "usage_ar": "للساعة نضيف o'clock: seven o'clock."
     },
     {
       "group": "numbers",
@@ -734,7 +866,11 @@
       "arabic": "ثمانية",
       "example": "Eight hours.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "eight",
+      "sentence": "The class is at eight.",
+      "sentence_ar": "الدرس في الساعة الثامنة.",
+      "usage_ar": "الحروف gh لا تُنطق: «إيت»."
     },
     {
       "group": "numbers",
@@ -743,7 +879,11 @@
       "arabic": "تسعة",
       "example": "Nine people.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "nine",
+      "sentence": "My sister is nine years old.",
+      "sentence_ar": "أختي عمرها 9 سنوات.",
+      "usage_ar": "في ninety تبقى e، وفي ninth تسقط."
     },
     {
       "group": "numbers",
@@ -752,7 +892,11 @@
       "arabic": "عشرة",
       "example": "Ten days.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "ten",
+      "sentence": "The shop is ten minutes from here.",
+      "sentence_ar": "المتجر على بعد 10 دقائق من هنا.",
+      "usage_ar": "بعدها اسم جمع: ten minutes."
     },
     {
       "group": "numbers",
@@ -761,7 +905,11 @@
       "arabic": "أحد عشر",
       "example": "Eleven o'clock.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "eleven",
+      "sentence": "It is eleven o'clock.",
+      "sentence_ar": "الساعة الحادية عشرة.",
+      "usage_ar": "النبر في وسطها: e-LEV-en."
     },
     {
       "group": "numbers",
@@ -770,7 +918,11 @@
       "arabic": "اثنا عشر",
       "example": "Twelve months.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "twelve",
+      "sentence": "A year is twelve months.",
+      "sentence_ar": "السنة 12 شهراً.",
+      "usage_ar": "انتبه للإملاء: twelve لا twelf."
     },
     {
       "group": "numbers",
@@ -779,7 +931,11 @@
       "arabic": "ثلاثة عشر",
       "example": "Thirteen, not thirty.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "thirteen",
+      "sentence": "My son is thirteen, not thirty.",
+      "sentence_ar": "ابني عمره 13 لا 30.",
+      "usage_ar": "النبر في آخرها: thir-TEEN، فلا تخلطها بـ thirty."
     },
     {
       "group": "numbers",
@@ -788,7 +944,11 @@
       "arabic": "أربعة عشر",
       "example": "Fourteen years.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "fourteen",
+      "sentence": "My cousin is fourteen years old.",
+      "sentence_ar": "ابن عمي عمره 14 سنة.",
+      "usage_ar": "تُكتب fourteen بحرف u، أما forty فبلا u."
     },
     {
       "group": "numbers",
@@ -797,7 +957,11 @@
       "arabic": "خمسة عشر",
       "example": "Fifteen minutes.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "fifteen",
+      "sentence": "The break is fifteen minutes.",
+      "sentence_ar": "الاستراحة 15 دقيقة.",
+      "usage_ar": "ليست fiveteen: تتغير five إلى fif."
     },
     {
       "group": "numbers",
@@ -806,7 +970,11 @@
       "arabic": "عشرون",
       "example": "Twenty people.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "twenty",
+      "sentence": "My sister is twenty years old.",
+      "sentence_ar": "أختي عمرها 20 سنة.",
+      "usage_ar": "النبر في أولها: TWEN-ty."
     },
     {
       "group": "numbers",
@@ -815,7 +983,11 @@
       "arabic": "ثلاثون",
       "example": "Thirty, not thirteen.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "thirty",
+      "sentence": "My teacher is thirty, not thirteen.",
+      "sentence_ar": "معلمي عمره 30 لا 13.",
+      "usage_ar": "النبر في أولها: THIR-ty، فلا تخلطها بـ thirteen."
     },
     {
       "group": "numbers",
@@ -824,7 +996,11 @@
       "arabic": "أربعون",
       "example": "Forty minutes.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "forty",
+      "sentence": "The class is forty minutes.",
+      "sentence_ar": "الدرس 40 دقيقة.",
+      "usage_ar": "بلا u: forty، رغم أن four فيها u."
     },
     {
       "group": "numbers",
@@ -833,7 +1009,11 @@
       "arabic": "خمسون",
       "example": "Fifty pounds.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "fifty",
+      "sentence": "The bag is fifty pounds.",
+      "sentence_ar": "الحقيبة بـ 50 جنيهاً.",
+      "usage_ar": "ليست fivety: تتغير five إلى fif."
     },
     {
       "group": "numbers",
@@ -842,7 +1022,11 @@
       "arabic": "مئة",
       "example": "A hundred people.",
       "group_label_ar": "الأرقام",
-      "group_label_en": "Numbers"
+      "group_label_en": "Numbers",
+      "target": "a hundred",
+      "sentence": "My grandmother is almost a hundred.",
+      "sentence_ar": "جدتي عمرها تقريباً 100 سنة.",
+      "usage_ar": "نقول a hundred أو one hundred، ولا نجمعها: two hundred."
     },
     {
       "group": "days_months",
@@ -851,7 +1035,11 @@
       "arabic": "الاثنين",
       "example": "See you on Monday.",
       "group_label_ar": "الأيام والشهور",
-      "group_label_en": "Days and Months"
+      "group_label_en": "Days and Months",
+      "target": "Monday",
+      "sentence": "My English class is on Monday.",
+      "sentence_ar": "درس الإنجليزية يوم الاثنين.",
+      "usage_ar": "مع الأيام نقول on: on Monday، لا in Monday."
     },
     {
       "group": "days_months",
@@ -860,7 +1048,11 @@
       "arabic": "الثلاثاء",
       "example": "The meeting is on Tuesday.",
       "group_label_ar": "الأيام والشهور",
-      "group_label_en": "Days and Months"
+      "group_label_en": "Days and Months",
+      "target": "Tuesday",
+      "sentence": "The meeting is on Tuesday.",
+      "sentence_ar": "الاجتماع يوم الثلاثاء.",
+      "usage_ar": "تبدأ بحرف كبير دائماً، ومعها on."
     },
     {
       "group": "days_months",
@@ -869,7 +1061,11 @@
       "arabic": "الأربعاء",
       "example": "The d is silent.",
       "group_label_ar": "الأيام والشهور",
-      "group_label_en": "Days and Months"
+      "group_label_en": "Days and Months",
+      "target": "Wednesday",
+      "sentence": "Today is Wednesday.",
+      "sentence_ar": "اليوم الأربعاء.",
+      "usage_ar": "الحرف d الأول لا يُنطق: «وِنزدي»."
     },
     {
       "group": "days_months",
@@ -878,7 +1074,11 @@
       "arabic": "الخميس",
       "example": "I work on Thursday.",
       "group_label_ar": "الأيام والشهور",
-      "group_label_en": "Days and Months"
+      "group_label_en": "Days and Months",
+      "target": "Thursday",
+      "sentence": "The party is on Thursday.",
+      "sentence_ar": "الحفلة يوم الخميس.",
+      "usage_ar": "لا تخلطها بـ Tuesday: في Thursday صوت th."
     },
     {
       "group": "days_months",
@@ -887,7 +1087,11 @@
       "arabic": "الجمعة",
       "example": "Friday is my day off.",
       "group_label_ar": "الأيام والشهور",
-      "group_label_en": "Days and Months"
+      "group_label_en": "Days and Months",
+      "target": "Friday",
+      "sentence": "Friday is my day off.",
+      "sentence_ar": "الجمعة يوم عطلتي.",
+      "usage_ar": "my day off = يوم عطلتي من العمل."
     },
     {
       "group": "days_months",
@@ -896,7 +1100,11 @@
       "arabic": "السبت",
       "example": "On Saturday I rest.",
       "group_label_ar": "الأيام والشهور",
-      "group_label_en": "Days and Months"
+      "group_label_en": "Days and Months",
+      "target": "Saturday",
+      "sentence": "The shop is closed on Saturday.",
+      "sentence_ar": "المتجر مغلق يوم السبت.",
+      "usage_ar": "مع الأيام on: on Saturday."
     },
     {
       "group": "days_months",
@@ -905,7 +1113,11 @@
       "arabic": "الأحد",
       "example": "Sunday morning.",
       "group_label_ar": "الأيام والشهور",
-      "group_label_en": "Days and Months"
+      "group_label_en": "Days and Months",
+      "target": "Sunday",
+      "sentence": "Sunday is a work day here.",
+      "sentence_ar": "الأحد يوم عمل هنا.",
+      "usage_ar": "تبدأ بحرف كبير: Sunday لا sunday."
     },
     {
       "group": "days_months",
@@ -914,7 +1126,11 @@
       "arabic": "يناير",
       "example": "In January.",
       "group_label_ar": "الأيام والشهور",
-      "group_label_en": "Days and Months"
+      "group_label_en": "Days and Months",
+      "target": "January",
+      "sentence": "My birthday is in January.",
+      "sentence_ar": "عيد ميلادي في يناير.",
+      "usage_ar": "مع الشهور نقول in: in January، لا on."
     },
     {
       "group": "days_months",
@@ -923,7 +1139,11 @@
       "arabic": "فبراير",
       "example": "February is short.",
       "group_label_ar": "الأيام والشهور",
-      "group_label_en": "Days and Months"
+      "group_label_en": "Days and Months",
+      "target": "February",
+      "sentence": "February is a short month.",
+      "sentence_ar": "فبراير شهر قصير.",
+      "usage_ar": "الحرف r الأول يُنطق خفيفاً أو يسقط: «فِبيوري»."
     },
     {
       "group": "days_months",
@@ -932,7 +1152,11 @@
       "arabic": "مارس",
       "example": "In March.",
       "group_label_ar": "الأيام والشهور",
-      "group_label_en": "Days and Months"
+      "group_label_en": "Days and Months",
+      "target": "March",
+      "sentence": "The exam is in March.",
+      "sentence_ar": "الامتحان في مارس.",
+      "usage_ar": "مع الشهور in، وتبدأ بحرف كبير."
     },
     {
       "group": "days_months",
@@ -941,7 +1165,11 @@
       "arabic": "أبريل",
       "example": "April is warm.",
       "group_label_ar": "الأيام والشهور",
-      "group_label_en": "Days and Months"
+      "group_label_en": "Days and Months",
+      "target": "April",
+      "sentence": "April is warm here.",
+      "sentence_ar": "أبريل دافئ هنا.",
+      "usage_ar": "مع الشهور in: in April."
     },
     {
       "group": "days_months",
@@ -950,7 +1178,11 @@
       "arabic": "مايو",
       "example": "My birthday is in May.",
       "group_label_ar": "الأيام والشهور",
-      "group_label_en": "Days and Months"
+      "group_label_en": "Days and Months",
+      "target": "May",
+      "sentence": "My birthday is in May.",
+      "sentence_ar": "عيد ميلادي في مايو.",
+      "usage_ar": "تبدأ بحرف كبير، وmay الصغيرة معناها شيء آخر."
     },
     {
       "group": "days_months",
@@ -959,7 +1191,11 @@
       "arabic": "يونيو",
       "example": "In June.",
       "group_label_ar": "الأيام والشهور",
-      "group_label_en": "Days and Months"
+      "group_label_en": "Days and Months",
+      "target": "June",
+      "sentence": "It is very hot in June.",
+      "sentence_ar": "الجو حار جداً في يونيو.",
+      "usage_ar": "مع الشهور in: in June."
     },
     {
       "group": "days_months",
@@ -968,7 +1204,11 @@
       "arabic": "يوليو",
       "example": "The third of July.",
       "group_label_ar": "الأيام والشهور",
-      "group_label_en": "Days and Months"
+      "group_label_en": "Days and Months",
+      "target": "July",
+      "sentence": "Our holiday is in July.",
+      "sentence_ar": "إجازتنا في يوليو.",
+      "usage_ar": "النبر في آخرها: ju-LY."
     },
     {
       "group": "days_months",
@@ -977,7 +1217,11 @@
       "arabic": "أغسطس",
       "example": "Last August.",
       "group_label_ar": "الأيام والشهور",
-      "group_label_en": "Days and Months"
+      "group_label_en": "Days and Months",
+      "target": "August",
+      "sentence": "August is a hot month.",
+      "sentence_ar": "أغسطس شهر حار.",
+      "usage_ar": "مع الشهور in: in August."
     },
     {
       "group": "days_months",
@@ -986,7 +1230,11 @@
       "arabic": "سبتمبر",
       "example": "School starts in September.",
       "group_label_ar": "الأيام والشهور",
-      "group_label_en": "Days and Months"
+      "group_label_en": "Days and Months",
+      "target": "September",
+      "sentence": "The new school year is in September.",
+      "sentence_ar": "العام الدراسي الجديد في سبتمبر.",
+      "usage_ar": "مع الشهور in: in September."
     },
     {
       "group": "days_months",
@@ -995,7 +1243,11 @@
       "arabic": "أكتوبر",
       "example": "In October.",
       "group_label_ar": "الأيام والشهور",
-      "group_label_en": "Days and Months"
+      "group_label_en": "Days and Months",
+      "target": "October",
+      "sentence": "Today is the first of October.",
+      "sentence_ar": "اليوم هو الأول من أكتوبر.",
+      "usage_ar": "للتاريخ نقول on: on the first of October."
     },
     {
       "group": "days_months",
@@ -1004,7 +1256,11 @@
       "arabic": "نوفمبر",
       "example": "November is cold.",
       "group_label_ar": "الأيام والشهور",
-      "group_label_en": "Days and Months"
+      "group_label_en": "Days and Months",
+      "target": "November",
+      "sentence": "November is cold.",
+      "sentence_ar": "نوفمبر بارد.",
+      "usage_ar": "مع الشهور in: in November."
     },
     {
       "group": "days_months",
@@ -1013,7 +1269,11 @@
       "arabic": "ديسمبر",
       "example": "In December.",
       "group_label_ar": "الأيام والشهور",
-      "group_label_en": "Days and Months"
+      "group_label_en": "Days and Months",
+      "target": "December",
+      "sentence": "My brother's birthday is in December.",
+      "sentence_ar": "عيد ميلاد أخي في ديسمبر.",
+      "usage_ar": "مع الشهور in: in December."
     },
     {
       "group": "core",
@@ -1022,7 +1282,11 @@
       "arabic": "اسم",
       "example": "My name is Sami.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "name",
+      "sentence": "My name is Sam.",
+      "sentence_ar": "اسمي سام.",
+      "usage_ar": "نقول My name is…، لا I name…"
     },
     {
       "group": "core",
@@ -1031,7 +1295,11 @@
       "arabic": "عُمر",
       "example": "What is your age?",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "age",
+      "sentence": "What is your age?",
+      "sentence_ar": "كم عمرك؟",
+      "usage_ar": "الأشيع أن نسأل: How old are you?"
     },
     {
       "group": "core",
@@ -1040,7 +1308,11 @@
       "arabic": "مدينة",
       "example": "I live in a big city.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "city",
+      "sentence": "Cairo is a big city.",
+      "sentence_ar": "القاهرة مدينة كبيرة.",
+      "usage_ar": "جمعها cities: تتحول y إلى ies."
     },
     {
       "group": "core",
@@ -1049,7 +1321,11 @@
       "arabic": "دولة / بلد",
       "example": "Egypt is a beautiful country.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "country",
+      "sentence": "Egypt is a beautiful country.",
+      "sentence_ar": "مصر بلد جميل.",
+      "usage_ar": "للدولة؛ أما in the country فمعناها «في الريف»."
     },
     {
       "group": "core",
@@ -1058,7 +1334,11 @@
       "arabic": "وظيفة",
       "example": "She has a good job.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "job",
+      "sentence": "My job is very good.",
+      "sentence_ar": "وظيفتي جيدة جداً.",
+      "usage_ar": "اسم للوظيفة: What is your job?"
     },
     {
       "group": "core",
@@ -1067,7 +1347,11 @@
       "arabic": "عمل / يعمل",
       "example": "I work in an office.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "work",
+      "sentence": "My work is near my house.",
+      "sentence_ar": "عملي قريب من بيتي.",
+      "usage_ar": "اسم بلا a: my work، لا a work؛ وللوظيفة نقول a job."
     },
     {
       "group": "core",
@@ -1076,7 +1360,11 @@
       "arabic": "منزل (المكان)",
       "example": "I am at home now.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "home",
+      "sentence": "I am at home now.",
+      "sentence_ar": "أنا في البيت الآن.",
+      "usage_ar": "نقول at home بلا the؛ وhouse للمبنى نفسه."
     },
     {
       "group": "core",
@@ -1085,7 +1373,11 @@
       "arabic": "بيت (المبنى)",
       "example": "Their house is new.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "house",
+      "sentence": "Their house is new.",
+      "sentence_ar": "بيتهم جديد.",
+      "usage_ar": "للمبنى؛ وhome لمكانك الذي تعيش فيه."
     },
     {
       "group": "core",
@@ -1094,7 +1386,11 @@
       "arabic": "مدرسة",
       "example": "The school is near my house.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "school",
+      "sentence": "My son is at school.",
+      "sentence_ar": "ابني في المدرسة.",
+      "usage_ar": "نقول at school بلا the حين يكون هناك للدراسة."
     },
     {
       "group": "core",
@@ -1103,7 +1399,11 @@
       "arabic": "طالب",
       "example": "He is a student.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "student",
+      "sentence": "He is a student.",
+      "sentence_ar": "هو طالب.",
+      "usage_ar": "نضع a قبلها: I am a student، لا I am student."
     },
     {
       "group": "core",
@@ -1112,7 +1412,11 @@
       "arabic": "معلّم",
       "example": "My teacher is very good.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "teacher",
+      "sentence": "My teacher is very good.",
+      "sentence_ar": "معلمي جيد جداً.",
+      "usage_ar": "نضع a قبل المهنة: She is a teacher."
     },
     {
       "group": "core",
@@ -1121,7 +1425,11 @@
       "arabic": "طبيب",
       "example": "She is a doctor.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "doctor",
+      "sentence": "She is a doctor.",
+      "sentence_ar": "هي طبيبة.",
+      "usage_ar": "نضع a قبل المهنة: He is a doctor."
     },
     {
       "group": "core",
@@ -1130,7 +1438,11 @@
       "arabic": "مهندس",
       "example": "I am an engineer.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "engineer",
+      "sentence": "I am an engineer.",
+      "sentence_ar": "أنا مهندس.",
+      "usage_ar": "نضع an لا a، لأنها تبدأ بصوت متحرك."
     },
     {
       "group": "core",
@@ -1139,7 +1451,11 @@
       "arabic": "كبير",
       "example": "This is a big room.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "big",
+      "sentence": "This is a big room.",
+      "sentence_ar": "هذه غرفة كبيرة.",
+      "usage_ar": "تأتي قبل الاسم: a big house."
     },
     {
       "group": "core",
@@ -1148,7 +1464,11 @@
       "arabic": "صغير",
       "example": "My car is small.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "small",
+      "sentence": "My car is small.",
+      "sentence_ar": "سيارتي صغيرة.",
+      "usage_ar": "لا تُجمع: small cars، لا smalls cars."
     },
     {
       "group": "core",
@@ -1157,7 +1477,11 @@
       "arabic": "جيد",
       "example": "The food is good.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "good",
+      "sentence": "The food is good.",
+      "sentence_ar": "الطعام جيد.",
+      "usage_ar": "صفة للاسم: a good teacher؛ ولا نقول She sings good."
     },
     {
       "group": "core",
@@ -1166,7 +1490,11 @@
       "arabic": "سيء",
       "example": "The weather is bad today.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "bad",
+      "sentence": "The weather is bad today.",
+      "sentence_ar": "الجو سيئ اليوم.",
+      "usage_ar": "تأتي قبل الاسم أو بعد is: a bad day."
     },
     {
       "group": "core",
@@ -1175,7 +1503,11 @@
       "arabic": "جديد",
       "example": "I have a new phone.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "new",
+      "sentence": "My phone is new.",
+      "sentence_ar": "هاتفي جديد.",
+      "usage_ar": "عكسها old للأشياء."
     },
     {
       "group": "core",
@@ -1184,7 +1516,11 @@
       "arabic": "قديم / كبير في السن",
       "example": "My grandfather is old.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "old",
+      "sentence": "My grandfather is old.",
+      "sentence_ar": "جدي كبير في السن.",
+      "usage_ar": "للأشياء والناس، وعكسها new أو young."
     },
     {
       "group": "core",
@@ -1193,7 +1529,11 @@
       "arabic": "سعيد",
       "example": "I am very happy.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "happy",
+      "sentence": "I am very happy.",
+      "sentence_ar": "أنا سعيد جداً.",
+      "usage_ar": "نقول I am happy، لا I happy: لا تنسَ am."
     },
     {
       "group": "core",
@@ -1202,7 +1542,11 @@
       "arabic": "حزين",
       "example": "Why are you sad?",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "sad",
+      "sentence": "Why are you sad?",
+      "sentence_ar": "لماذا أنت حزين؟",
+      "usage_ar": "نقول You are sad، ولا نحذف are."
     },
     {
       "group": "core",
@@ -1211,7 +1555,11 @@
       "arabic": "من فضلك",
       "example": "Two coffees, please.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "please",
+      "sentence": "Two coffees, please.",
+      "sentence_ar": "قهوتان من فضلك.",
+      "usage_ar": "تأتي غالباً في آخر الطلب: Water, please."
     },
     {
       "group": "core",
@@ -1220,7 +1568,11 @@
       "arabic": "شكراً لك",
       "example": "Thank you very much.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "thank you",
+      "sentence": "Thank you, my friend.",
+      "sentence_ar": "شكراً يا صديقي.",
+      "usage_ar": "والأقصر thanks؛ والرد: You're welcome."
     },
     {
       "group": "core",
@@ -1229,7 +1581,11 @@
       "arabic": "آسف",
       "example": "Sorry, I am late.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "sorry",
+      "sentence": "Sorry, I am late.",
+      "sentence_ar": "آسف، أنا متأخر.",
+      "usage_ar": "للاعتذار؛ ولطلب الانتباه نقول Excuse me."
     },
     {
       "group": "core",
@@ -1238,7 +1594,11 @@
       "arabic": "مرحباً",
       "example": "Hello, my name is Ali.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "hello",
+      "sentence": "Hello, my name is Nour.",
+      "sentence_ar": "مرحباً، اسمي نور.",
+      "usage_ar": "تحية لأي وقت؛ والأخف منها hi."
     },
     {
       "group": "core",
@@ -1247,7 +1607,11 @@
       "arabic": "مع السلامة",
       "example": "Goodbye, see you tomorrow.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "goodbye",
+      "sentence": "Goodbye, see you tomorrow.",
+      "sentence_ar": "مع السلامة، أراك غداً.",
+      "usage_ar": "والأخف منها bye."
     },
     {
       "group": "core",
@@ -1256,7 +1620,11 @@
       "arabic": "صباح",
       "example": "Good morning!",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "morning",
+      "sentence": "Good morning, Mum!",
+      "sentence_ar": "صباح الخير يا أمي!",
+      "usage_ar": "ونقول in the morning مع in."
     },
     {
       "group": "core",
@@ -1265,7 +1633,11 @@
       "arabic": "مساء",
       "example": "Good evening, everyone.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "evening",
+      "sentence": "Good evening, everyone.",
+      "sentence_ar": "مساء الخير للجميع.",
+      "usage_ar": "تحية عند اللقاء مساءً، وnight عند الوداع."
     },
     {
       "group": "core",
@@ -1274,7 +1646,11 @@
       "arabic": "ليل",
       "example": "Good night.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "night",
+      "sentence": "Good night, see you tomorrow.",
+      "sentence_ar": "تصبح على خير، أراك غداً.",
+      "usage_ar": "Good night للوداع قبل النوم، لا للتحية."
     },
     {
       "group": "core",
@@ -1283,7 +1659,11 @@
       "arabic": "اليوم",
       "example": "Today is Monday.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "today",
+      "sentence": "Today is Monday.",
+      "sentence_ar": "اليوم الاثنين.",
+      "usage_ar": "بلا the: today، لا the today."
     },
     {
       "group": "core",
@@ -1292,7 +1672,11 @@
       "arabic": "غداً",
       "example": "See you tomorrow.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "tomorrow",
+      "sentence": "See you tomorrow.",
+      "sentence_ar": "أراك غداً.",
+      "usage_ar": "بلا the وبلا in: tomorrow فقط."
     },
     {
       "group": "core",
@@ -1301,7 +1685,11 @@
       "arabic": "أمس",
       "example": "Yesterday was Sunday.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "yesterday",
+      "sentence": "Yesterday is not today.",
+      "sentence_ar": "الأمس ليس اليوم.",
+      "usage_ar": "بلا the: yesterday فقط."
     },
     {
       "group": "core",
@@ -1310,7 +1698,11 @@
       "arabic": "هنا",
       "example": "I am here.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "here",
+      "sentence": "I am here.",
+      "sentence_ar": "أنا هنا.",
+      "usage_ar": "لا نضع in قبلها: I am here، لا in here."
     },
     {
       "group": "core",
@@ -1319,7 +1711,11 @@
       "arabic": "هناك",
       "example": "My bag is over there.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "there",
+      "sentence": "My bag is over there.",
+      "sentence_ar": "حقيبتي هناك.",
+      "usage_ar": "over there = هناك، بعيداً قليلاً."
     },
     {
       "group": "core",
@@ -1328,7 +1724,11 @@
       "arabic": "هذا (قريب)",
       "example": "This is my brother.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "this",
+      "sentence": "This is my brother.",
+      "sentence_ar": "هذا أخي.",
+      "usage_ar": "للقريب منك؛ وللبعيد that."
     },
     {
       "group": "core",
@@ -1337,7 +1737,11 @@
       "arabic": "ذلك (بعيد)",
       "example": "That is my car.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "that",
+      "sentence": "That is my car.",
+      "sentence_ar": "تلك سيارتي.",
+      "usage_ar": "للبعيد عنك؛ وللقريب this."
     },
     {
       "group": "core",
@@ -1346,7 +1750,11 @@
       "arabic": "جداً",
       "example": "She is very kind.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "very",
+      "sentence": "She is very kind.",
+      "sentence_ar": "هي لطيفة جداً.",
+      "usage_ar": "تأتي قبل الصفة: very good، لا good very."
     },
     {
       "group": "core",
@@ -1355,7 +1763,11 @@
       "arabic": "و",
       "example": "Ali and Lina are friends.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "and",
+      "sentence": "Alex and Lina are friends.",
+      "sentence_ar": "أليكس ولينا صديقان.",
+      "usage_ar": "تجمع شيئين: tea and coffee."
     },
     {
       "group": "core",
@@ -1364,7 +1776,11 @@
       "arabic": "لكن",
       "example": "It is small but nice.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "but",
+      "sentence": "It is small but nice.",
+      "sentence_ar": "إنه صغير لكنه جميل.",
+      "usage_ar": "تربط فكرتين مختلفتين."
     },
     {
       "group": "core",
@@ -1373,7 +1789,11 @@
       "arabic": "نعم",
       "example": "Yes, I am.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "yes",
+      "sentence": "Are you a student? Yes, I am.",
+      "sentence_ar": "هل أنت طالب؟ نعم.",
+      "usage_ar": "للرد القصير نكرر الفعل: Yes, I am."
     },
     {
       "group": "core",
@@ -1382,7 +1802,11 @@
       "arabic": "لا",
       "example": "No, I am not.",
       "group_label_ar": "كلمات أساسية",
-      "group_label_en": "Core Words"
+      "group_label_en": "Core Words",
+      "target": "no",
+      "sentence": "Are you tired? No, I am not.",
+      "sentence_ar": "هل أنت متعب؟ لا.",
+      "usage_ar": "للرد القصير: No, I am not أو No, I'm not."
     }
   ],
   "minimal_pairs": [

@@ -132,7 +132,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -186,7 +186,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -240,7 +240,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -258,25 +258,31 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "الحياة والطفولة · حوار: What Did You Do Yesterday?",
-          "minutes": 25,
-          "ref": "vocab:life_and_childhood|dialogue:1"
+          "label": "الكلمات",
+          "minutes": 15,
+          "ref": "vocab:life_and_childhood",
+          "order": 2
+        },
+        {
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:1",
+          "order": 3
         },
         {
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:life_and_childhood",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
@@ -285,19 +291,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -348,7 +354,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -366,25 +372,37 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "المشاعر وردود الفعل · حوار: Talking About Childhood · الاستماع",
-          "minutes": 25,
-          "ref": "vocab:feelings_and_reactions|dialogue:2|section:listening"
+          "label": "الكلمات",
+          "minutes": 10,
+          "ref": "vocab:feelings_and_reactions",
+          "order": 2
+        },
+        {
+          "label": "الحوار",
+          "minutes": 10,
+          "ref": "dialogue:2",
+          "order": 3
+        },
+        {
+          "label": "الاستماع",
+          "minutes": 10,
+          "ref": "section:listening",
+          "order": 4
         },
         {
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:feelings_and_reactions",
-          "order": 3
+          "order": 5
         },
         {
-          "order": 4,
+          "order": 6,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 7,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
@@ -393,19 +411,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 8
         },
         {
-          "order": 7,
+          "order": 9,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 10
         }
       ]
     },
@@ -420,13 +438,25 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "القراءة · الكتابة",
-          "minutes": 25,
-          "ref": "section:reading|writing:1|record"
+          "label": "القراءة",
+          "minutes": 10,
+          "ref": "section:reading",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الكتابة",
+          "minutes": 10,
+          "ref": "writing:1",
+          "order": 3
+        },
+        {
+          "label": "التحدّث",
+          "minutes": 10,
+          "ref": "record",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 15,
           "ref": "game:minimal_pairs"
@@ -435,25 +465,25 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 6
         },
         {
-          "order": 5,
+          "order": 7,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 6,
+          "order": 8,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 9
         }
       ]
     }
@@ -466,7 +496,11 @@
       "arabic": "عمل",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "worked",
+      "sentence": "I worked in a bank in 2019.",
+      "sentence_ar": "عملت في بنك في 2019.",
+      "usage_ar": "نضيف ed للماضي، وتُنطق /t/: worked."
     },
     {
       "group": "regular_verbs",
@@ -475,7 +509,11 @@
       "arabic": "لعب",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "played",
+      "sentence": "We played football yesterday.",
+      "sentence_ar": "لعبنا كرة القدم أمس.",
+      "usage_ar": "y بعد حرف علة تبقى: played، لا plaied."
     },
     {
       "group": "regular_verbs",
@@ -484,7 +522,11 @@
       "arabic": "أراد",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "wanted",
+      "sentence": "I wanted a new phone.",
+      "sentence_ar": "أردت هاتفاً جديداً.",
+      "usage_ar": "بعد t تُنطق ed مقطعاً كاملاً /ɪd/: wanted."
     },
     {
       "group": "regular_verbs",
@@ -493,7 +535,11 @@
       "arabic": "احتاج",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "needed",
+      "sentence": "We needed some help.",
+      "sentence_ar": "احتجنا بعض المساعدة.",
+      "usage_ar": "بعد d تُنطق ed مقطعاً كاملاً /ɪd/: needed."
     },
     {
       "group": "regular_verbs",
@@ -502,7 +548,11 @@
       "arabic": "بدأ",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "started",
+      "sentence": "The film started at eight.",
+      "sentence_ar": "بدأ الفيلم في الساعة 8.",
+      "usage_ar": "بعد t تُنطق /ɪd/: started."
     },
     {
       "group": "regular_verbs",
@@ -511,7 +561,11 @@
       "arabic": "أنهى",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "finished",
+      "sentence": "I finished my homework last night.",
+      "sentence_ar": "أنهيت واجبي الليلة الماضية.",
+      "usage_ar": "ed هنا تُنطق /t/: finished، لا finish-ed."
     },
     {
       "group": "regular_verbs",
@@ -520,7 +574,11 @@
       "arabic": "شاهد",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "watched",
+      "sentence": "We watched a film on Friday.",
+      "sentence_ar": "شاهدنا فيلماً يوم الجمعة.",
+      "usage_ar": "تُنطق /wɒtʃt/ بمقطع واحد."
     },
     {
       "group": "regular_verbs",
@@ -529,7 +587,11 @@
       "arabic": "طبخ",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "cooked",
+      "sentence": "My mother cooked fish for us.",
+      "sentence_ar": "طبخت أمي السمك لنا.",
+      "usage_ar": "تُنطق /kʊkt/ بمقطع واحد."
     },
     {
       "group": "regular_verbs",
@@ -538,7 +600,11 @@
       "arabic": "نظّف",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "cleaned",
+      "sentence": "I cleaned my room on Saturday.",
+      "sentence_ar": "نظّفت غرفتي يوم السبت.",
+      "usage_ar": "ed هنا تُنطق /d/: cleaned."
     },
     {
       "group": "regular_verbs",
@@ -547,7 +613,11 @@
       "arabic": "غسل",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "washed",
+      "sentence": "He washed the car yesterday.",
+      "sentence_ar": "غسل السيارة أمس.",
+      "usage_ar": "تُنطق /wɒʃt/، وed لا تُنطق مقطعاً."
     },
     {
       "group": "regular_verbs",
@@ -556,7 +626,11 @@
       "arabic": "مشى",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "walked",
+      "sentence": "We walked to the park.",
+      "sentence_ar": "مشينا إلى الحديقة.",
+      "usage_ar": "walked to مكان، وl لا تُنطق: /wɔːkt/."
     },
     {
       "group": "regular_verbs",
@@ -565,7 +639,11 @@
       "arabic": "تحدّث",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "talked",
+      "sentence": "I talked to my teacher.",
+      "sentence_ar": "تحدّثت مع معلّمي.",
+      "usage_ar": "talk to someone، لا talk with في أغلب الكلام البريطاني."
     },
     {
       "group": "regular_verbs",
@@ -574,7 +652,11 @@
       "arabic": "استمع",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "listened",
+      "sentence": "We listened to the radio.",
+      "sentence_ar": "استمعنا إلى الراديو.",
+      "usage_ar": "listen to دائماً مع to، وt لا تُنطق."
     },
     {
       "group": "regular_verbs",
@@ -583,7 +665,11 @@
       "arabic": "فتح",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "opened",
+      "sentence": "She opened the window.",
+      "sentence_ar": "فتحت النافذة.",
+      "usage_ar": "ed تُنطق /d/: /ˈəʊpənd/."
     },
     {
       "group": "regular_verbs",
@@ -592,7 +678,11 @@
       "arabic": "أغلق",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "closed",
+      "sentence": "The shop closed at ten.",
+      "sentence_ar": "أغلق المحل في الساعة 10.",
+      "usage_ar": "الفعل يُنطق بـz: /kləʊzd/."
     },
     {
       "group": "regular_verbs",
@@ -601,7 +691,11 @@
       "arabic": "عاش",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "lived",
+      "sentence": "I lived in a small village.",
+      "sentence_ar": "عشت في قرية صغيرة.",
+      "usage_ar": "lived in مع المكان: lived in Cairo."
     },
     {
       "group": "regular_verbs",
@@ -610,7 +704,11 @@
       "arabic": "أحبّ",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "loved",
+      "sentence": "I loved that school.",
+      "sentence_ar": "أحببت تلك المدرسة كثيراً.",
+      "usage_ar": "ينتهي بـe فنضيف d فقط: loved."
     },
     {
       "group": "regular_verbs",
@@ -619,7 +717,11 @@
       "arabic": "أعجبه",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "liked",
+      "sentence": "My father liked the food.",
+      "sentence_ar": "أعجب أبي الطعام.",
+      "usage_ar": "ينتهي بـe فنضيف d فقط، وتُنطق /laɪkt/."
     },
     {
       "group": "regular_verbs",
@@ -628,7 +730,11 @@
       "arabic": "كره",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "hated",
+      "sentence": "I hated maths at school.",
+      "sentence_ar": "كرهت الرياضيات في المدرسة.",
+      "usage_ar": "بعد t تُنطق /ɪd/: hated."
     },
     {
       "group": "regular_verbs",
@@ -637,7 +743,11 @@
       "arabic": "ساعد",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "helped",
+      "sentence": "My friend helped me.",
+      "sentence_ar": "ساعدني صديقي.",
+      "usage_ar": "help someone بلا حرف جر: helped me، لا helped to me."
     },
     {
       "group": "regular_verbs",
@@ -646,7 +756,11 @@
       "arabic": "تعلّم",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "learned",
+      "sentence": "I learned English at school.",
+      "sentence_ar": "تعلّمت الإنجليزية في المدرسة.",
+      "usage_ar": "في البريطانية يجوز أيضاً learnt."
     },
     {
       "group": "regular_verbs",
@@ -655,7 +769,11 @@
       "arabic": "درس",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "studied",
+      "sentence": "She studied in London.",
+      "sentence_ar": "درست في لندن.",
+      "usage_ar": "حرف y بعد ساكن يصبح ied: studied."
     },
     {
       "group": "regular_verbs",
@@ -664,7 +782,11 @@
       "arabic": "سافر",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "travelled",
+      "sentence": "We travelled to Spain last year.",
+      "sentence_ar": "سافرنا إلى إسبانيا العام الماضي.",
+      "usage_ar": "في البريطانية تتضاعف اللام: travelled. وtravel to مكان."
     },
     {
       "group": "regular_verbs",
@@ -673,7 +795,11 @@
       "arabic": "زار",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "visited",
+      "sentence": "I visited my grandmother on Friday.",
+      "sentence_ar": "زرت جدتي يوم الجمعة.",
+      "usage_ar": "visit بلا حرف جر: visited my uncle، لا visited to."
     },
     {
       "group": "regular_verbs",
@@ -682,7 +808,11 @@
       "arabic": "وصل",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "arrived",
+      "sentence": "We arrived at the airport at six.",
+      "sentence_ar": "وصلنا إلى المطار في الساعة 6.",
+      "usage_ar": "arrive at مكان صغير وarrive in مدينة، ولا نقول arrive to."
     },
     {
       "group": "regular_verbs",
@@ -691,7 +821,11 @@
       "arabic": "بقي",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "stayed",
+      "sentence": "We stayed at a nice hotel.",
+      "sentence_ar": "أقمنا في فندق جميل.",
+      "usage_ar": "stay at a hotel، وstay with a friend."
     },
     {
       "group": "regular_verbs",
@@ -700,7 +834,11 @@
       "arabic": "اتصل",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "called",
+      "sentence": "I called my mother last night.",
+      "sentence_ar": "اتصلت بأمي الليلة الماضية.",
+      "usage_ar": "call someone بلا حرف جر: called my friend."
     },
     {
       "group": "regular_verbs",
@@ -709,7 +847,11 @@
       "arabic": "سأل",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "asked",
+      "sentence": "The teacher asked a question.",
+      "sentence_ar": "سأل المعلّم سؤالاً.",
+      "usage_ar": "تُنطق /ɑːskt/، وask a question لا ask a question to."
     },
     {
       "group": "regular_verbs",
@@ -718,7 +860,11 @@
       "arabic": "أجاب",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "answered",
+      "sentence": "I answered all the questions.",
+      "sentence_ar": "أجبت عن كل الأسئلة.",
+      "usage_ar": "answer بلا حرف جر: answered the question، وw لا تُنطق."
     },
     {
       "group": "regular_verbs",
@@ -727,7 +873,11 @@
       "arabic": "قرّر",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "decided",
+      "sentence": "We decided to stay at home.",
+      "sentence_ar": "قرّرنا أن نبقى في البيت.",
+      "usage_ar": "بعدها to + الفعل: decided to go."
     },
     {
       "group": "regular_verbs",
@@ -736,7 +886,11 @@
       "arabic": "حدث",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "happened",
+      "sentence": "What happened yesterday?",
+      "sentence_ar": "ماذا حدث أمس؟",
+      "usage_ar": "happen بلا مفعول: It happened at night."
     },
     {
       "group": "regular_verbs",
@@ -745,7 +899,11 @@
       "arabic": "انتقل",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "moved",
+      "sentence": "We moved to a new house.",
+      "sentence_ar": "انتقلنا إلى بيت جديد.",
+      "usage_ar": "move to مكان جديد: moved to Dubai."
     },
     {
       "group": "regular_verbs",
@@ -754,7 +912,11 @@
       "arabic": "غيّر",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "changed",
+      "sentence": "My life changed a lot.",
+      "sentence_ar": "تغيّرت حياتي كثيراً.",
+      "usage_ar": "تأتي مع مفعول وبلا مفعول: I changed my job."
     },
     {
       "group": "regular_verbs",
@@ -763,7 +925,11 @@
       "arabic": "تذكّر",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "remembered",
+      "sentence": "I remembered his name.",
+      "sentence_ar": "تذكّرت اسمه.",
+      "usage_ar": "remember بلا حرف جر: remembered the day."
     },
     {
       "group": "regular_verbs",
@@ -772,7 +938,11 @@
       "arabic": "توقّف",
       "example": null,
       "group_label_ar": "الأفعال القياسية",
-      "group_label_en": "Regular Verbs"
+      "group_label_en": "Regular Verbs",
+      "target": "stopped",
+      "sentence": "The bus stopped near my house.",
+      "sentence_ar": "توقّفت الحافلة قرب بيتي.",
+      "usage_ar": "حرف p يتضاعف: stopped."
     },
     {
       "group": "past_time_expressions",
@@ -781,7 +951,11 @@
       "arabic": "أمس",
       "example": "I worked late yesterday.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": "yesterday",
+      "sentence": "I was at home yesterday.",
+      "sentence_ar": "كنت في البيت أمس.",
+      "usage_ar": "بلا the وبلا last: yesterday، لا the yesterday."
     },
     {
       "group": "past_time_expressions",
@@ -790,7 +964,11 @@
       "arabic": "أول أمس",
       "example": "We arrived the day before yesterday.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": null,
+      "sentence": "I visited my uncle the day before yesterday.",
+      "sentence_ar": "زرت خالي أول أمس.",
+      "usage_ar": "لما حدث قبل يومين، وتأتي في آخر الجملة غالباً."
     },
     {
       "group": "past_time_expressions",
@@ -799,7 +977,11 @@
       "arabic": "الليلة الماضية",
       "example": "I called my mother last night.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": "last night",
+      "sentence": "I called my mother last night.",
+      "sentence_ar": "اتصلت بأمي الليلة الماضية.",
+      "usage_ar": "بلا the: last night، لا the last night."
     },
     {
       "group": "past_time_expressions",
@@ -808,7 +990,11 @@
       "arabic": "الأسبوع/الشهر/العام الماضي",
       "example": "She travelled to Spain last year.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": "last week",
+      "sentence": "We visited London last week.",
+      "sentence_ar": "زرنا لندن الأسبوع الماضي.",
+      "usage_ar": "بلا in وبلا the: last week، لا in the last week."
     },
     {
       "group": "past_time_expressions",
@@ -817,7 +1003,11 @@
       "arabic": "الجمعة الماضية",
       "example": "We visited them last Friday.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": "last Friday",
+      "sentence": "We cleaned the house last Friday.",
+      "sentence_ar": "نظّفنا البيت الجمعة الماضية.",
+      "usage_ar": "بلا on: last Friday، لا on last Friday."
     },
     {
       "group": "past_time_expressions",
@@ -826,7 +1016,11 @@
       "arabic": "منذ …",
       "example": "I moved here two years ago.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": "ago",
+      "sentence": "I moved here two years ago.",
+      "sentence_ar": "انتقلت إلى هنا قبل سنتين.",
+      "usage_ar": "ago تأتي بعد المدة: two years ago، لا ago two years."
     },
     {
       "group": "past_time_expressions",
@@ -835,7 +1029,11 @@
       "arabic": "في 2019",
       "example": "He finished university in 2019.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": "in 2019",
+      "sentence": "I started university in 2019.",
+      "sentence_ar": "بدأت الجامعة في 2019.",
+      "usage_ar": "مع السنة نستعمل in: in 2019."
     },
     {
       "group": "past_time_expressions",
@@ -844,7 +1042,11 @@
       "arabic": "عندما كنت طفلاً",
       "example": "When I was a child, I lived in a village.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": null,
+      "sentence": "When I was a child, I lived in a village.",
+      "sentence_ar": "عندما كنت طفلاً، عشت في قرية.",
+      "usage_ar": "تبدأ بها قصة عن طفولتك، وبعدها فاصلة."
     },
     {
       "group": "past_time_expressions",
@@ -853,7 +1055,11 @@
       "arabic": "في ذلك الوقت",
       "example": "At that time I didn't speak English.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": "at that time",
+      "sentence": "At that time I lived with my parents.",
+      "sentence_ar": "في ذلك الوقت عشت مع والديّ.",
+      "usage_ar": "تشير بها إلى وقت ذكرته قبلها."
     },
     {
       "group": "past_time_expressions",
@@ -862,7 +1068,11 @@
       "arabic": "في الماضي",
       "example": "People walked more in the past.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": "in the past",
+      "sentence": "People walked more in the past.",
+      "sentence_ar": "كان الناس يمشون أكثر في الماضي.",
+      "usage_ar": "مع the دائماً: in the past."
     },
     {
       "group": "past_time_expressions",
@@ -871,7 +1081,11 @@
       "arabic": "ثم",
       "example": "I washed the car, then I cleaned the house.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": "then",
+      "sentence": "I washed the car, then I cleaned the house.",
+      "sentence_ar": "غسلت السيارة، ثم نظّفت البيت.",
+      "usage_ar": "تربط حدثين بالترتيب. لا تخلطها بـthan."
     },
     {
       "group": "past_time_expressions",
@@ -880,7 +1094,11 @@
       "arabic": "بعد ذلك",
       "example": "After that we watched a film.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": "after that",
+      "sentence": "After that we watched a film.",
+      "sentence_ar": "بعد ذلك شاهدنا فيلماً.",
+      "usage_ar": "تأتي في أول الجملة لترتيب الأحداث."
     },
     {
       "group": "past_time_expressions",
@@ -889,7 +1107,11 @@
       "arabic": "لاحقاً",
       "example": "She called me later.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": "later",
+      "sentence": "My brother arrived later.",
+      "sentence_ar": "وصل أخي لاحقاً.",
+      "usage_ar": "later وحدها، وتأتي غالباً في آخر الجملة."
     },
     {
       "group": "past_time_expressions",
@@ -898,7 +1120,11 @@
       "arabic": "أخيراً",
       "example": "Finally, we arrived at ten.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": "finally",
+      "sentence": "Finally, we arrived at the hotel.",
+      "sentence_ar": "أخيراً وصلنا إلى الفندق.",
+      "usage_ar": "لآخر حدث في القصة، وبعدها فاصلة غالباً."
     },
     {
       "group": "past_time_expressions",
@@ -907,7 +1133,11 @@
       "arabic": "ذات يوم",
       "example": "One day he decided to change his life.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": "one day",
+      "sentence": "One day he decided to change his job.",
+      "sentence_ar": "ذات يوم قرّر أن يغيّر وظيفته.",
+      "usage_ar": "تبدأ بها القصص: One day …"
     },
     {
       "group": "past_time_expressions",
@@ -916,7 +1146,11 @@
       "arabic": "مرة",
       "example": "I visited London once.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": "once",
+      "sentence": "I visited Paris once.",
+      "sentence_ar": "زرت باريس مرة واحدة.",
+      "usage_ar": "once = مرة واحدة، وtwice = مرتان."
     },
     {
       "group": "past_time_expressions",
@@ -925,7 +1159,11 @@
       "arabic": "لمدة سنتين",
       "example": "I lived there for two years.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": "for two years",
+      "sentence": "I lived there for two years.",
+      "sentence_ar": "عشت هناك لمدة سنتين.",
+      "usage_ar": "for مع المدة: for two years، لا since two years."
     },
     {
       "group": "past_time_expressions",
@@ -934,7 +1172,11 @@
       "arabic": "من 2015 إلى 2020",
       "example": "He worked there from 2015 to 2020.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": null,
+      "sentence": "He worked there from 2015 to 2020.",
+      "sentence_ar": "عمل هناك من 2015 إلى 2020.",
+      "usage_ar": "from … to … لبداية فترة ونهايتها."
     },
     {
       "group": "past_time_expressions",
@@ -943,7 +1185,11 @@
       "arabic": "خلال",
       "example": "It rained during the night.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": "during",
+      "sentence": "It rained during the night.",
+      "sentence_ar": "أمطرت خلال الليل.",
+      "usage_ar": "بعدها اسم لا مدة: during the film، لكن for two hours."
     },
     {
       "group": "past_time_expressions",
@@ -952,7 +1198,11 @@
       "arabic": "مؤخراً",
       "example": "They moved house recently.",
       "group_label_ar": "تعبيرات الزمن الماضي",
-      "group_label_en": "Past Time Expressions"
+      "group_label_en": "Past Time Expressions",
+      "target": "recently",
+      "sentence": "We moved house recently.",
+      "sentence_ar": "انتقلنا من البيت مؤخراً.",
+      "usage_ar": "تأتي في آخر الجملة غالباً، لما حدث قبل وقت قصير."
     },
     {
       "group": "life_and_childhood",
@@ -961,7 +1211,11 @@
       "arabic": "طفولة",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "childhood",
+      "sentence": "I had a happy childhood.",
+      "sentence_ar": "كانت طفولتي سعيدة.",
+      "usage_ar": "نقول in my childhood، والجمع نادر."
     },
     {
       "group": "life_and_childhood",
@@ -970,7 +1224,11 @@
       "arabic": "قرية",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "village",
+      "sentence": "My grandparents lived in a village.",
+      "sentence_ar": "عاش جدّاي في قرية.",
+      "usage_ar": "village أصغر من town."
     },
     {
       "group": "life_and_childhood",
@@ -979,7 +1237,11 @@
       "arabic": "وُلد",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "born",
+      "sentence": "I was born in Egypt.",
+      "sentence_ar": "وُلدت في مصر.",
+      "usage_ar": "مع was دائماً: I was born، لا I born."
     },
     {
       "group": "life_and_childhood",
@@ -988,7 +1250,11 @@
       "arabic": "بلدة",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "town",
+      "sentence": "I grew up in a small town.",
+      "sentence_ar": "نشأت في بلدة صغيرة.",
+      "usage_ar": "town أكبر من village وأصغر من city."
     },
     {
       "group": "life_and_childhood",
@@ -997,7 +1263,11 @@
       "arabic": "نشأ",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "grow up",
+      "sentence": "Children grow up very fast.",
+      "sentence_ar": "يكبر الأطفال بسرعة كبيرة.",
+      "usage_ar": "grow up للإنسان فقط، وماضيها grew up."
     },
     {
       "group": "life_and_childhood",
@@ -1006,7 +1276,11 @@
       "arabic": "الريف",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "countryside",
+      "sentence": "We visited the countryside on Friday.",
+      "sentence_ar": "زرنا الريف يوم الجمعة.",
+      "usage_ar": "مع the: in the countryside."
     },
     {
       "group": "life_and_childhood",
@@ -1015,7 +1289,11 @@
       "arabic": "صغير السن",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "young",
+      "sentence": "I was very young then.",
+      "sentence_ar": "كنت صغيراً جداً حينها.",
+      "usage_ar": "young للعمر، وsmall للحجم."
     },
     {
       "group": "life_and_childhood",
@@ -1024,7 +1302,11 @@
       "arabic": "في الخارج",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "abroad",
+      "sentence": "My uncle worked abroad for years.",
+      "sentence_ar": "عمل خالي في الخارج لسنوات.",
+      "usage_ar": "بلا to وبلا in: travel abroad، لا to abroad."
     },
     {
       "group": "life_and_childhood",
@@ -1033,7 +1315,11 @@
       "arabic": "مدرسة",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "school",
+      "sentence": "I walked to school every day.",
+      "sentence_ar": "مشيت إلى المدرسة كل يوم.",
+      "usage_ar": "go to school بلا the عند الدراسة فيها."
     },
     {
       "group": "life_and_childhood",
@@ -1042,7 +1328,11 @@
       "arabic": "ذكرى",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "memory",
+      "sentence": "This photo is a happy memory.",
+      "sentence_ar": "هذه الصورة ذكرى سعيدة.",
+      "usage_ar": "memory للذكرى وأيضاً للقدرة على التذكّر: a good memory."
     },
     {
       "group": "life_and_childhood",
@@ -1051,7 +1341,11 @@
       "arabic": "زميل دراسة",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "classmate",
+      "sentence": "She was my classmate at school.",
+      "sentence_ar": "كانت زميلتي في المدرسة.",
+      "usage_ar": "classmate في الفصل نفسه، وcolleague في العمل."
     },
     {
       "group": "life_and_childhood",
@@ -1060,7 +1354,11 @@
       "arabic": "صورة",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "photo",
+      "sentence": "I have an old photo of my father.",
+      "sentence_ar": "لديّ صورة قديمة لأبي.",
+      "usage_ar": "نقول take a photo، لا make a photo."
     },
     {
       "group": "life_and_childhood",
@@ -1069,7 +1367,11 @@
       "arabic": "جامعة",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "university",
+      "sentence": "My sister studied at university.",
+      "sentence_ar": "درست أختي في الجامعة.",
+      "usage_ar": "قبلها a لا an: a university، لأنها تبدأ بصوت y."
     },
     {
       "group": "life_and_childhood",
@@ -1078,7 +1380,11 @@
       "arabic": "أول",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "first",
+      "sentence": "My first job was in a shop.",
+      "sentence_ar": "كانت وظيفتي الأولى في محل.",
+      "usage_ar": "مع the أو my: the first day، my first job."
     },
     {
       "group": "life_and_childhood",
@@ -1087,7 +1393,11 @@
       "arabic": "شهادة جامعية",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "degree",
+      "sentence": "He has a degree in English.",
+      "sentence_ar": "لديه شهادة جامعية في الإنجليزية.",
+      "usage_ar": "a degree in + المادة."
     },
     {
       "group": "life_and_childhood",
@@ -1096,7 +1406,11 @@
       "arabic": "آخر",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "last",
+      "sentence": "This is my last day at school.",
+      "sentence_ar": "هذا آخر يوم لي في المدرسة.",
+      "usage_ar": "the last = الأخير، وlast week بلا the = الماضي."
     },
     {
       "group": "life_and_childhood",
@@ -1105,7 +1419,11 @@
       "arabic": "وظيفة",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "job",
+      "sentence": "I started a new job last year.",
+      "sentence_ar": "بدأت وظيفة جديدة العام الماضي.",
+      "usage_ar": "job معدودة: a job. أما work فغير معدودة."
     },
     {
       "group": "life_and_childhood",
@@ -1114,7 +1432,11 @@
       "arabic": "صعب",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "difficult",
+      "sentence": "The test was very difficult.",
+      "sentence_ar": "كان الاختبار صعباً جداً.",
+      "usage_ar": "difficult وhard بمعنى واحد هنا: a difficult test."
     },
     {
       "group": "life_and_childhood",
@@ -1123,7 +1445,11 @@
       "arabic": "شركة",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "company",
+      "sentence": "My father worked for a big company.",
+      "sentence_ar": "عمل أبي لدى شركة كبيرة.",
+      "usage_ar": "نقول work for a company."
     },
     {
       "group": "life_and_childhood",
@@ -1132,7 +1458,11 @@
       "arabic": "سهل",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "easy",
+      "sentence": "The first lesson was easy.",
+      "sentence_ar": "كان الدرس الأول سهلاً.",
+      "usage_ar": "easy صفة، وeasily بعد الفعل."
     },
     {
       "group": "life_and_childhood",
@@ -1141,7 +1471,11 @@
       "arabic": "راتب",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "salary",
+      "sentence": "My first salary was very small.",
+      "sentence_ar": "كان راتبي الأول صغيراً جداً.",
+      "usage_ar": "نقول a high salary أو a low salary."
     },
     {
       "group": "life_and_childhood",
@@ -1150,7 +1484,11 @@
       "arabic": "مهم",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "important",
+      "sentence": "This day was very important to me.",
+      "sentence_ar": "كان هذا اليوم مهماً جداً لي.",
+      "usage_ar": "important to me أو important for me."
     },
     {
       "group": "life_and_childhood",
@@ -1159,7 +1497,11 @@
       "arabic": "متزوج",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "married",
+      "sentence": "My brother is married.",
+      "sentence_ar": "أخي متزوج.",
+      "usage_ar": "married to someone، لا married with."
     },
     {
       "group": "life_and_childhood",
@@ -1168,7 +1510,11 @@
       "arabic": "غريب",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "strange",
+      "sentence": "Something strange happened last night.",
+      "sentence_ar": "حدث شيء غريب الليلة الماضية.",
+      "usage_ar": "strange للشيء الغريب، وstranger هو الشخص الغريب."
     },
     {
       "group": "life_and_childhood",
@@ -1177,7 +1523,11 @@
       "arabic": "أعزب",
       "example": null,
       "group_label_ar": "الحياة والطفولة",
-      "group_label_en": "Life and Childhood"
+      "group_label_en": "Life and Childhood",
+      "target": "single",
+      "sentence": "My cousin is still single.",
+      "sentence_ar": "ابن عمي ما زال أعزب.",
+      "usage_ar": "single = غير متزوج، وتعني أيضاً تذكرة ذهاب فقط."
     },
     {
       "group": "feelings_and_reactions",
@@ -1186,7 +1536,11 @@
       "arabic": "سعيد",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "happy",
+      "sentence": "I was very happy that day.",
+      "sentence_ar": "كنت سعيداً جداً ذلك اليوم.",
+      "usage_ar": "happy with شيء، وhappy for شخص."
     },
     {
       "group": "feelings_and_reactions",
@@ -1195,7 +1549,11 @@
       "arabic": "متحمّس",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "excited",
+      "sentence": "The children were excited about the trip.",
+      "sentence_ar": "كان الأطفال متحمّسين للرحلة.",
+      "usage_ar": "excited about، وexciting للشيء المثير."
     },
     {
       "group": "feelings_and_reactions",
@@ -1204,7 +1562,11 @@
       "arabic": "حزين",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "sad",
+      "sentence": "She was sad after the match.",
+      "sentence_ar": "كانت حزينة بعد المباراة.",
+      "usage_ar": "نقول sad about للسبب: sad about the news."
     },
     {
       "group": "feelings_and_reactions",
@@ -1213,7 +1575,11 @@
       "arabic": "متوتر",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "nervous",
+      "sentence": "I was nervous before the test.",
+      "sentence_ar": "كنت متوتراً قبل الاختبار.",
+      "usage_ar": "nervous about أو before شيء."
     },
     {
       "group": "feelings_and_reactions",
@@ -1222,7 +1588,11 @@
       "arabic": "متعب",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "tired",
+      "sentence": "We were tired after the trip.",
+      "sentence_ar": "كنّا متعبين بعد الرحلة.",
+      "usage_ar": "I'm tired لا I'm tiring. وtiring للشيء المتعب."
     },
     {
       "group": "feelings_and_reactions",
@@ -1231,7 +1601,11 @@
       "arabic": "خائف",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "afraid",
+      "sentence": "My son was afraid of the dog.",
+      "sentence_ar": "كان ابني خائفاً من الكلب.",
+      "usage_ar": "afraid of، لا afraid from."
     },
     {
       "group": "feelings_and_reactions",
@@ -1240,7 +1614,11 @@
       "arabic": "غاضب",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "angry",
+      "sentence": "My father was angry with me.",
+      "sentence_ar": "كان أبي غاضباً مني.",
+      "usage_ar": "angry with شخص، وangry about شيء."
     },
     {
       "group": "feelings_and_reactions",
@@ -1249,7 +1627,11 @@
       "arabic": "فخور",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "proud",
+      "sentence": "My parents were proud of me.",
+      "sentence_ar": "كان والداي فخورين بي.",
+      "usage_ar": "proud of، لا proud with."
     },
     {
       "group": "feelings_and_reactions",
@@ -1258,7 +1640,11 @@
       "arabic": "قلق",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "worried",
+      "sentence": "I was worried about my exam.",
+      "sentence_ar": "كنت قلقاً بشأن امتحاني.",
+      "usage_ar": "worried about شيء."
     },
     {
       "group": "feelings_and_reactions",
@@ -1267,7 +1653,11 @@
       "arabic": "محظوظ",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "lucky",
+      "sentence": "We were lucky with the weather.",
+      "sentence_ar": "كنّا محظوظين بالطقس.",
+      "usage_ar": "تقول للشخص: You're lucky!"
     },
     {
       "group": "feelings_and_reactions",
@@ -1276,7 +1666,11 @@
       "arabic": "متفاجئ",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "surprised",
+      "sentence": "I was surprised by the news.",
+      "sentence_ar": "تفاجأت بالخبر.",
+      "usage_ar": "surprised للشخص، وsurprising للشيء."
     },
     {
       "group": "feelings_and_reactions",
@@ -1285,7 +1679,11 @@
       "arabic": "وحيد",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "lonely",
+      "sentence": "I was lonely in the new city.",
+      "sentence_ar": "كنت وحيداً في المدينة الجديدة.",
+      "usage_ar": "lonely شعور حزين، وalone تعني بلا أحد فقط."
     },
     {
       "group": "feelings_and_reactions",
@@ -1294,7 +1692,11 @@
       "arabic": "ملول",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "bored",
+      "sentence": "The children were bored at home.",
+      "sentence_ar": "كان الأطفال يشعرون بالملل في البيت.",
+      "usage_ar": "I'm bored لا I'm boring. فـboring تعني أنك ممل."
     },
     {
       "group": "feelings_and_reactions",
@@ -1303,7 +1705,11 @@
       "arabic": "مرتاح",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "relaxed",
+      "sentence": "I was relaxed on holiday.",
+      "sentence_ar": "كنت مرتاحاً في العطلة.",
+      "usage_ar": "relaxed للشخص، وrelaxing للشيء المريح."
     },
     {
       "group": "feelings_and_reactions",
@@ -1312,7 +1718,11 @@
       "arabic": "مهتم",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "interested",
+      "sentence": "I was interested in history.",
+      "sentence_ar": "كنت مهتماً بالتاريخ.",
+      "usage_ar": "interested in، لا interested about."
     },
     {
       "group": "feelings_and_reactions",
@@ -1321,7 +1731,11 @@
       "arabic": "خائب الأمل",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "disappointed",
+      "sentence": "We were disappointed with the hotel.",
+      "sentence_ar": "خاب أملنا في الفندق.",
+      "usage_ar": "disappointed with أو by شيء."
     },
     {
       "group": "feelings_and_reactions",
@@ -1330,7 +1744,11 @@
       "arabic": "مسرور",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "glad",
+      "sentence": "I was glad to see you.",
+      "sentence_ar": "كنت مسروراً برؤيتك.",
+      "usage_ar": "glad لا تأتي قبل الاسم: لا تقل a glad man."
     },
     {
       "group": "feelings_and_reactions",
@@ -1339,7 +1757,11 @@
       "arabic": "واثق",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "confident",
+      "sentence": "She was confident before the interview.",
+      "sentence_ar": "كانت واثقة قبل المقابلة.",
+      "usage_ar": "confident about شيء."
     },
     {
       "group": "feelings_and_reactions",
@@ -1348,7 +1770,11 @@
       "arabic": "وقت صعب",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "difficult time",
+      "sentence": "It was a difficult time for us.",
+      "sentence_ar": "كان وقتاً صعباً علينا.",
+      "usage_ar": "نقول a difficult time for someone."
     },
     {
       "group": "feelings_and_reactions",
@@ -1357,7 +1783,11 @@
       "arabic": "وقت جميل",
       "example": null,
       "group_label_ar": "المشاعر وردود الفعل",
-      "group_label_en": "Feelings and Reactions"
+      "group_label_en": "Feelings and Reactions",
+      "target": "good time",
+      "sentence": "We had a good time at the party.",
+      "sentence_ar": "قضينا وقتاً جميلاً في الحفلة.",
+      "usage_ar": "نقول have a good time، وتقول للمسافر: Have a good time!"
     }
   ],
   "minimal_pairs": [

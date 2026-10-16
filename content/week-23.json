@@ -99,7 +99,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -153,7 +153,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -207,7 +207,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -261,7 +261,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -315,7 +315,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -333,13 +333,19 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "الاستماع · القراءة",
-          "minutes": 25,
-          "ref": "section:listening|section:reading"
+          "label": "الاستماع",
+          "minutes": 15,
+          "ref": "section:listening",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "القراءة",
+          "minutes": 15,
+          "ref": "section:reading",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
@@ -348,10 +354,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
@@ -360,19 +366,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -417,7 +423,7 @@
           "ref": "record:baseline"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 7
@@ -433,7 +439,11 @@
       "arabic": "عذراً، هل تعيد ذلك؟",
       "example": "You missed it entirely",
       "group_label_ar": "حين لا تفهم",
-      "group_label_en": "When You Do Not Understand"
+      "group_label_en": "When You Do Not Understand",
+      "target": null,
+      "sentence": "You didn't hear the question at all.",
+      "sentence_ar": "لم تسمع السؤال أبداً.",
+      "usage_ar": "حين يفوتك الكلام كله."
     },
     {
       "group": "when_you_do_not_understand",
@@ -442,7 +452,11 @@
       "arabic": "هل تتحدث ببطء أكثر قليلاً؟",
       "example": "Too fast",
       "group_label_ar": "حين لا تفهم",
-      "group_label_en": "When You Do Not Understand"
+      "group_label_en": "When You Do Not Understand",
+      "target": null,
+      "sentence": "The man at the station talks very fast.",
+      "sentence_ar": "الرجل في المحطة يتكلم بسرعة كبيرة.",
+      "usage_ar": "حين يتكلم الشخص بسرعة."
     },
     {
       "group": "when_you_do_not_understand",
@@ -451,7 +465,11 @@
       "arabic": "عذراً، لم ألتقط الجزء الأخير",
       "example": "You got most of it",
       "group_label_ar": "حين لا تفهم",
-      "group_label_en": "When You Do Not Understand"
+      "group_label_en": "When You Do Not Understand",
+      "target": null,
+      "sentence": "You heard the time, but not the platform.",
+      "sentence_ar": "سمعت الوقت لكن لم تسمع رقم الرصيف.",
+      "usage_ar": "حين فهمت معظم الكلام إلا آخره."
     },
     {
       "group": "when_you_do_not_understand",
@@ -460,7 +478,11 @@
       "arabic": "هل تقصد…؟",
       "example": "Checking your guess",
       "group_label_ar": "حين لا تفهم",
-      "group_label_en": "When You Do Not Understand"
+      "group_label_en": "When You Do Not Understand",
+      "target": null,
+      "sentence": "You think she said Tuesday, not Thursday.",
+      "sentence_ar": "تظن أنها قالت الثلاثاء لا الخميس.",
+      "usage_ar": "لتتأكد من تخمينك: Do you mean Tuesday?"
     },
     {
       "group": "when_you_do_not_understand",
@@ -469,7 +491,11 @@
       "arabic": "إذن، للتوضيح فقط — …؟",
       "example": "Confirming before acting",
       "group_label_ar": "حين لا تفهم",
-      "group_label_en": "When You Do Not Understand"
+      "group_label_en": "When You Do Not Understand",
+      "target": null,
+      "sentence": "Before you pay, you check the price.",
+      "sentence_ar": "قبل أن تدفع تتأكد من السعر.",
+      "usage_ar": "لتأكيد معلومة قبل أن تتصرّف."
     },
     {
       "group": "when_you_do_not_understand",
@@ -478,7 +504,11 @@
       "arabic": "ماذا تعني…؟",
       "example": "One unknown word",
       "group_label_ar": "حين لا تفهم",
-      "group_label_en": "When You Do Not Understand"
+      "group_label_en": "When You Do Not Understand",
+      "target": null,
+      "sentence": "The doctor uses a word you don't know.",
+      "sentence_ar": "يستعمل الطبيب كلمة لا تعرفها.",
+      "usage_ar": "حين لا تعرف كلمة واحدة: What does fever mean?"
     },
     {
       "group": "when_you_do_not_understand",
@@ -487,7 +517,11 @@
       "arabic": "هل تكتب ذلك لي؟",
       "example": "Numbers, names, addresses",
       "group_label_ar": "حين لا تفهم",
-      "group_label_en": "When You Do Not Understand"
+      "group_label_en": "When You Do Not Understand",
+      "target": null,
+      "sentence": "Someone tells you a long address.",
+      "sentence_ar": "يخبرك شخص بعنوان طويل.",
+      "usage_ar": "للأرقام والأسماء والعناوين."
     },
     {
       "group": "when_you_do_not_understand",
@@ -496,7 +530,11 @@
       "arabic": "آسف، إنجليزيتي ليست مثالية. هل تساعدني؟",
       "example": "The reset button",
       "group_label_ar": "حين لا تفهم",
-      "group_label_en": "When You Do Not Understand"
+      "group_label_en": "When You Do Not Understand",
+      "target": null,
+      "sentence": "You are lost and the conversation is too hard.",
+      "sentence_ar": "أنت تائه والحديث صعب جداً.",
+      "usage_ar": "حين تحتاج أن تبدأ من جديد بهدوء."
     },
     {
       "group": "when_you_need_time",
@@ -505,7 +543,11 @@
       "arabic": "دعني أفكّر لحظة",
       "example": null,
       "group_label_ar": "حين تحتاج وقتاً",
-      "group_label_en": "When You Need Time"
+      "group_label_en": "When You Need Time",
+      "target": null,
+      "sentence": "Someone asks you a difficult question.",
+      "sentence_ar": "يسألك شخص سؤالاً صعباً.",
+      "usage_ar": "لتأخذ وقتاً قبل أن تجيب."
     },
     {
       "group": "when_you_need_time",
@@ -514,7 +556,11 @@
       "arabic": "سؤال جيد",
       "example": null,
       "group_label_ar": "حين تحتاج وقتاً",
-      "group_label_en": "When You Need Time"
+      "group_label_en": "When You Need Time",
+      "target": null,
+      "sentence": "In an interview, you need time to answer.",
+      "sentence_ar": "في مقابلة تحتاج وقتاً للإجابة.",
+      "usage_ar": "لتكسب وقتاً بأدب قبل جواب صعب."
     },
     {
       "group": "when_you_need_time",
@@ -523,7 +569,11 @@
       "arabic": "كيف أصوغ هذا…",
       "example": null,
       "group_label_ar": "حين تحتاج وقتاً",
-      "group_label_en": "When You Need Time"
+      "group_label_en": "When You Need Time",
+      "target": null,
+      "sentence": "You want to say something carefully.",
+      "sentence_ar": "تريد أن تقول شيئاً بحذر.",
+      "usage_ar": "حين تبحث عن كلمات لطيفة."
     },
     {
       "group": "when_you_need_time",
@@ -532,7 +582,11 @@
       "arabic": "حسناً، يعتمد",
       "example": null,
       "group_label_ar": "حين تحتاج وقتاً",
-      "group_label_en": "When You Need Time"
+      "group_label_en": "When You Need Time",
+      "target": null,
+      "sentence": "A friend asks if a city is expensive.",
+      "sentence_ar": "يسألك صديق هل المدينة غالية.",
+      "usage_ar": "حين لا يوجد جواب واحد، ثم تشرح."
     },
     {
       "group": "when_you_need_time",
@@ -541,7 +595,11 @@
       "arabic": "لحظة من فضلك",
       "example": null,
       "group_label_ar": "حين تحتاج وقتاً",
-      "group_label_en": "When You Need Time"
+      "group_label_en": "When You Need Time",
+      "target": null,
+      "sentence": "The phone rings and you need your pen.",
+      "sentence_ar": "يرنّ الهاتف وتحتاج قلمك.",
+      "usage_ar": "لتطلب من شخص أن ينتظر قليلاً."
     },
     {
       "group": "when_you_need_time",
@@ -550,7 +608,11 @@
       "arabic": "دعني أتحقق",
       "example": null,
       "group_label_ar": "حين تحتاج وقتاً",
-      "group_label_en": "When You Need Time"
+      "group_label_en": "When You Need Time",
+      "target": null,
+      "sentence": "A customer asks if you have a size.",
+      "sentence_ar": "يسألك زبون هل لديك مقاس معيّن.",
+      "usage_ar": "حين تحتاج أن تتأكد قبل الجواب."
     },
     {
       "group": "when_you_cannot_find_the_word",
@@ -559,7 +621,11 @@
       "arabic": "إنه نوع من…",
       "example": "It's a kind of bag, but for a laptop.",
       "group_label_ar": "حين لا تجد الكلمة",
-      "group_label_en": "When You Cannot Find the Word"
+      "group_label_en": "When You Cannot Find the Word",
+      "target": null,
+      "sentence": "You forget the word for a laptop bag.",
+      "sentence_ar": "نسيت كلمة حقيبة الحاسوب.",
+      "usage_ar": "لتصف شيئاً بنوعه: It's a kind of bag."
     },
     {
       "group": "when_you_cannot_find_the_word",
@@ -568,7 +634,11 @@
       "arabic": "إنه الشيء الذي تستخدمه لـ…",
       "example": "It's the thing you use to open bottles.",
       "group_label_ar": "حين لا تجد الكلمة",
-      "group_label_en": "When You Cannot Find the Word"
+      "group_label_en": "When You Cannot Find the Word",
+      "target": null,
+      "sentence": "You forget the word for a bottle opener.",
+      "sentence_ar": "نسيت كلمة فتّاحة الزجاجات.",
+      "usage_ar": "لتصف شيئاً بعمله: …to open bottles."
     },
     {
       "group": "when_you_cannot_find_the_word",
@@ -577,7 +647,11 @@
       "arabic": "إنه مثل… لكن…",
       "example": "It's like a taxi but cheaper.",
       "group_label_ar": "حين لا تجد الكلمة",
-      "group_label_en": "When You Cannot Find the Word"
+      "group_label_en": "When You Cannot Find the Word",
+      "target": null,
+      "sentence": "You want to describe a shared taxi.",
+      "sentence_ar": "تريد وصف سيارة أجرة مشتركة.",
+      "usage_ar": "لتقارن بشيء معروف: like a taxi but cheaper."
     },
     {
       "group": "when_you_cannot_find_the_word",
@@ -586,7 +660,11 @@
       "arabic": "لا أعرف الكلمة بالإنجليزية.",
       "example": "I don't know the word in English — it's for cutting bread.",
       "group_label_ar": "حين لا تجد الكلمة",
-      "group_label_en": "When You Cannot Find the Word"
+      "group_label_en": "When You Cannot Find the Word",
+      "target": null,
+      "sentence": "You need a bread knife in a shop.",
+      "sentence_ar": "تحتاج سكين خبز في متجر.",
+      "usage_ar": "قلها ثم صف الشيء."
     },
     {
       "group": "when_you_cannot_find_the_word",
@@ -595,7 +673,11 @@
       "arabic": "كيف تقول… بالإنجليزية؟",
       "example": "If the other person knows your language.",
       "group_label_ar": "حين لا تجد الكلمة",
-      "group_label_en": "When You Cannot Find the Word"
+      "group_label_en": "When You Cannot Find the Word",
+      "target": null,
+      "sentence": "Your friend speaks Arabic and English.",
+      "sentence_ar": "صديقك يتكلم العربية والإنجليزية.",
+      "usage_ar": "حين يعرف الشخص لغتك."
     },
     {
       "group": "when_you_cannot_find_the_word",
@@ -604,7 +686,11 @@
       "arabic": "تفهم ما أعني؟",
       "example": "Invites them to supply the word.",
       "group_label_ar": "حين لا تجد الكلمة",
-      "group_label_en": "When You Cannot Find the Word"
+      "group_label_en": "When You Cannot Find the Word",
+      "target": null,
+      "sentence": "You describe a word and hope they guess it.",
+      "sentence_ar": "تصف كلمة وتأمل أن يخمّنها.",
+      "usage_ar": "لتدعو الشخص أن يقول الكلمة لك."
     }
   ],
   "minimal_pairs": [],
@@ -773,7 +859,7 @@
         "items": [
           {
             "can_ar": "أقول عبارات النجاة الثماني كلها بلا نظر",
-            "can_en": "Say all eight survival phrases from §2.1 without looking?",
+            "can_en": "Say all eight survival phrases from this week's phrases without looking?",
             "proof_ar": "جلسة المراجعة المتباعدة — تقول لك الرقم"
           },
           {
@@ -813,7 +899,7 @@
           },
           {
             "can_ar": "أُتمّ التسجيلات السبعة كلها",
-            "can_en": "Complete all seven recordings in §14?",
+            "can_en": "Complete all seven recordings in this week's speaking task?",
             "proof_ar": "تسجيل هذا الأسبوع"
           }
         ],
@@ -1223,7 +1309,7 @@
               {
                 "type": "note",
                 "heading_en": "Exercise 1 — Prepare all six",
-                "text_en": "Write five sentences for each of the six questions in §3.1. Not a script — five sentences. Then say each answer aloud three times and record the first two.",
+                "text_en": "Write five sentences for each of the six questions above. Not a script — five sentences. Then say each answer aloud three times and record the first two.",
                 "extra": []
               }
             ]
@@ -1307,7 +1393,7 @@
               {
                 "type": "note",
                 "heading_en": "Exercise 2 — Meeting role play",
-                "text_en": "Imagine a meeting about a decision at your work. Record yourself doing all four functions in §4.1 and three from §4.2, in a single two-minute stretch.",
+                "text_en": "Imagine a meeting about a decision at your work. Record yourself doing all four functions above and three from the second list above, in a single two-minute stretch.",
                 "extra": []
               }
             ]

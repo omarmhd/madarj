@@ -132,7 +132,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -186,7 +186,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -240,7 +240,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -294,7 +294,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -348,7 +348,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -366,13 +366,19 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "حوار: What If? · الاستماع",
-          "minutes": 25,
-          "ref": "dialogue:2|section:listening"
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:2",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الاستماع",
+          "minutes": 15,
+          "ref": "section:listening",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
@@ -381,10 +387,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
@@ -393,19 +399,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -420,13 +426,25 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "القراءة · الكتابة",
-          "minutes": 25,
-          "ref": "section:reading|writing:1|record"
+          "label": "القراءة",
+          "minutes": 10,
+          "ref": "section:reading",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الكتابة",
+          "minutes": 10,
+          "ref": "writing:1",
+          "order": 3
+        },
+        {
+          "label": "التحدّث",
+          "minutes": 10,
+          "ref": "record",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
@@ -435,25 +453,25 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 6
         },
         {
-          "order": 5,
+          "order": 7,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 6,
+          "order": 8,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 9
         }
       ]
     }
@@ -466,7 +484,11 @@
       "arabic": "إذا",
       "example": "If it rains, we'll stay in.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "if",
+      "sentence": "If it rains, we'll stay at home.",
+      "sentence_ar": "إذا أمطرت فسنبقى في البيت.",
+      "usage_ar": "بعد if المضارع لا will: لا نقول If it will rain."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -475,7 +497,11 @@
       "arabic": "ما لم",
       "example": "Unless you hurry, you'll miss it.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "unless",
+      "sentence": "You'll miss the bus unless you hurry.",
+      "sentence_ar": "ستفوتك الحافلة ما لم تُسرع.",
+      "usage_ar": "unless تعني if not، فلا نضع بعدها not."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -484,7 +510,11 @@
       "arabic": "عندما",
       "example": "When I finish, I'll call.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "when",
+      "sentence": "When I finish work, I'll call you.",
+      "sentence_ar": "عندما أنهي العمل سأتصل بك.",
+      "usage_ar": "بعد when للمستقبل نستعمل المضارع: When I finish لا When I will finish."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -493,7 +523,11 @@
       "arabic": "حالما",
       "example": "As soon as I know, I'll tell you.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "as soon as",
+      "sentence": "I'll text you as soon as I arrive.",
+      "sentence_ar": "سأراسلك حالما أصل.",
+      "usage_ar": "بعد as soon as المضارع لا will."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -502,7 +536,11 @@
       "arabic": "تحسّباً لـ",
       "example": "Take an umbrella in case it rains.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "in case",
+      "sentence": "Take an umbrella in case it rains.",
+      "sentence_ar": "خذ مظلة تحسّباً للمطر.",
+      "usage_ar": "in case للاحتياط قبل أن يحدث الشيء، وليست مثل if."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -511,7 +549,11 @@
       "arabic": "لذلك",
       "example": "It was late, so we left.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "so",
+      "sentence": "It was late, so we took a taxi.",
+      "sentence_ar": "كان الوقت متأخراً، لذلك أخذنا سيارة أجرة.",
+      "usage_ar": "so قبل النتيجة، وbecause قبل السبب."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -520,7 +562,11 @@
       "arabic": "لأن",
       "example": "We left because it was late.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "because",
+      "sentence": "We took a taxi because it was late.",
+      "sentence_ar": "أخذنا سيارة أجرة لأن الوقت كان متأخراً.",
+      "usage_ar": "because قبل السبب، ولا نجمع because وso في جملة واحدة."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -529,7 +575,11 @@
       "arabic": "لذلك (رسمي)",
       "example": "Formal written English.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "therefore",
+      "sentence": "The road is closed. Therefore, we must use another way.",
+      "sentence_ar": "الطريق مغلق. لذلك يجب أن نسلك طريقاً آخر.",
+      "usage_ar": "therefore رسمية للكتابة، وفي الكلام نقول so."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -538,7 +588,11 @@
       "arabic": "نتيجة",
       "example": "As a result, prices rose.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "result",
+      "sentence": "As a result, prices went up.",
+      "sentence_ar": "ونتيجة لذلك ارتفعت الأسعار.",
+      "usage_ar": "نقول as a result لربط النتيجة بما قبلها."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -547,7 +601,11 @@
       "arabic": "سبب / يسبّب",
       "example": "What caused the problem?",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "cause",
+      "sentence": "Fast driving can cause accidents.",
+      "sentence_ar": "القيادة السريعة قد تسبّب حوادث.",
+      "usage_ar": "cause فعل بلا حرف جر: cause problems."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -556,7 +614,11 @@
       "arabic": "أثر",
       "example": "It had a big effect.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "effect",
+      "sentence": "Coffee has a strong effect on me.",
+      "sentence_ar": "للقهوة أثر قوي عليّ.",
+      "usage_ar": "effect اسم ونقول effect on، أما affect ففعل."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -565,7 +627,11 @@
       "arabic": "يؤثر على",
       "example": "It affected everybody.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "affect",
+      "sentence": "The weather can affect your mood.",
+      "sentence_ar": "يمكن أن يؤثر الطقس على مزاجك.",
+      "usage_ar": "affect فعل بلا on: affect your mood لا affect on."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -574,7 +640,11 @@
       "arabic": "عاقبة",
       "example": "There will be consequences.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "consequence",
+      "sentence": "Every choice has a consequence.",
+      "sentence_ar": "لكل خيار عاقبة.",
+      "usage_ar": "consequence لنتيجة سيئة غالباً."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -583,7 +653,11 @@
       "arabic": "يعتمد على",
       "example": "It depends on the weather.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "depend on",
+      "sentence": "Our plans depend on the weather.",
+      "sentence_ar": "خططنا تعتمد على الطقس.",
+      "usage_ar": "بعد depend يأتي on دائماً، ولا نقول depend of."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -592,7 +666,11 @@
       "arabic": "يؤدي إلى",
       "example": "That led to a bigger problem.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "lead to",
+      "sentence": "Stress can lead to health problems.",
+      "sentence_ar": "الضغط النفسي قد يؤدي إلى مشكلات صحية.",
+      "usage_ar": "بعد lead to يأتي اسم، والماضي led."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -601,7 +679,11 @@
       "arabic": "يتجنّب",
       "example": "You can avoid it easily.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "avoid",
+      "sentence": "If you leave early, you'll avoid the traffic.",
+      "sentence_ar": "إذا غادرتَ مبكراً فستتجنّب الزحام.",
+      "usage_ar": "بعد avoid الفعل بـ ing: avoid driving."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -610,7 +692,11 @@
       "arabic": "يمنع",
       "example": "That prevents accidents.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "prevent",
+      "sentence": "Washing your hands can prevent illness.",
+      "sentence_ar": "غسل يديك يمكن أن يمنع المرض.",
+      "usage_ar": "نقول prevent something أو prevent someone from doing."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -619,7 +705,11 @@
       "arabic": "يحدث",
       "example": "What will happen if…?",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "happen",
+      "sentence": "What will happen if I press this button?",
+      "sentence_ar": "ماذا سيحدث إذا ضغطتُ هذا الزر؟",
+      "usage_ar": "happen بلا مفعول: لا نقول happened me، بل happened to me."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -628,7 +718,11 @@
       "arabic": "مخاطرة",
       "example": "It's not worth the risk.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "risk",
+      "sentence": "If you don't save your work, you risk losing it.",
+      "sentence_ar": "إذا لم تحفظ عملك فأنت تخاطر بفقدانه.",
+      "usage_ar": "risk فعل أيضاً، وبعده الفعل بـ ing."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -637,7 +731,11 @@
       "arabic": "فرصة / احتمال",
       "example": "There's a good chance.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "chance",
+      "sentence": "There's a good chance it will snow.",
+      "sentence_ar": "هناك احتمال كبير أن تثلج.",
+      "usage_ar": "نقول a good chance، وby chance تعني صدفة."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -646,7 +744,11 @@
       "arabic": "مرجّح",
       "example": "It's likely to rain.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "likely",
+      "sentence": "It's likely to rain this afternoon.",
+      "sentence_ar": "من المرجّح أن تمطر بعد الظهر.",
+      "usage_ar": "نقول It's likely to happen، وبعدها to."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -655,7 +757,11 @@
       "arabic": "غير مرجّح",
       "example": "That's very unlikely.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "unlikely",
+      "sentence": "It's unlikely that he will come.",
+      "sentence_ar": "من غير المرجّح أن يأتي.",
+      "usage_ar": "عكس likely، ونقول very unlikely."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -664,7 +770,11 @@
       "arabic": "مؤكد",
       "example": "Nothing is certain.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "certain",
+      "sentence": "I'm certain that she will pass.",
+      "sentence_ar": "أنا متأكد أنها ستنجح.",
+      "usage_ar": "certain أقوى من sure، ونقول certain that أو certain about."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -673,7 +783,11 @@
       "arabic": "وإلا",
       "example": "Hurry, otherwise we'll be late.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "otherwise",
+      "sentence": "Hurry up, otherwise we'll be late.",
+      "sentence_ar": "أسرع وإلا سنتأخر.",
+      "usage_ar": "otherwise تعني if not، وتأتي قبل النتيجة."
     },
     {
       "group": "cause_effect_and_consequence",
@@ -682,7 +796,11 @@
       "arabic": "طالما",
       "example": "As long as you tell me first.",
       "group_label_ar": "السبب والنتيجة",
-      "group_label_en": "Cause, Effect and Consequence"
+      "group_label_en": "Cause, Effect and Consequence",
+      "target": "as long as",
+      "sentence": "You can borrow my car as long as you drive carefully.",
+      "sentence_ar": "يمكنك استعارة سيارتي طالما تقود بحذر.",
+      "usage_ar": "as long as تعني بشرط، وبعدها المضارع لا will."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -691,7 +809,11 @@
       "arabic": "جهاز",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "device",
+      "sentence": "Turn off your device before the film starts.",
+      "sentence_ar": "أطفئ جهازك قبل أن يبدأ الفيلم.",
+      "usage_ar": "device لأي جهاز إلكتروني: هاتف أو حاسوب."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -700,7 +822,11 @@
       "arabic": "شاشة",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "screen",
+      "sentence": "The screen on my phone is broken.",
+      "sentence_ar": "شاشة هاتفي مكسورة.",
+      "usage_ar": "نقول on the screen: I saw it on the screen."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -709,7 +835,11 @@
       "arabic": "بطارية",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "battery",
+      "sentence": "My battery is low. I need to charge my phone.",
+      "sentence_ar": "بطاريتي ضعيفة. أحتاج إلى شحن هاتفي.",
+      "usage_ar": "نقول the battery is low أو the battery is dead."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -718,7 +848,11 @@
       "arabic": "شاحن",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "charger",
+      "sentence": "Can I borrow your charger?",
+      "sentence_ar": "هل يمكنني استعارة شاحنك؟",
+      "usage_ar": "charger للجهاز، والفعل charge."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -727,7 +861,11 @@
       "arabic": "كلمة مرور",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "password",
+      "sentence": "If you forget your password, click here.",
+      "sentence_ar": "إذا نسيتَ كلمة المرور فاضغط هنا.",
+      "usage_ar": "نقول enter your password، ولا تشاركه مع أحد."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -736,7 +874,11 @@
       "arabic": "حساب",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "account",
+      "sentence": "You need an account to buy online.",
+      "sentence_ar": "تحتاج إلى حساب لتشتري عبر الإنترنت.",
+      "usage_ar": "نقول open an account وlog in to your account."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -745,7 +887,11 @@
       "arabic": "تحديث",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "update",
+      "sentence": "Your phone needs an update.",
+      "sentence_ar": "هاتفك يحتاج إلى تحديث.",
+      "usage_ar": "update فعل واسم: update the app."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -754,7 +900,11 @@
       "arabic": "تنزيل",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "download",
+      "sentence": "I'll download the file when I get home.",
+      "sentence_ar": "سأنزّل الملف عندما أصل إلى البيت.",
+      "usage_ar": "عكسها upload أي ترفع ملفاً."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -763,7 +913,11 @@
       "arabic": "اتصال",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "connection",
+      "sentence": "The internet connection is very slow today.",
+      "sentence_ar": "الاتصال بالإنترنت بطيء جداً اليوم.",
+      "usage_ar": "نقول a slow connection أو lose the connection."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -772,7 +926,11 @@
       "arabic": "إشارة",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "signal",
+      "sentence": "I can't call you. There's no signal here.",
+      "sentence_ar": "لا أستطيع الاتصال بك. لا توجد إشارة هنا.",
+      "usage_ar": "signal لإشارة الهاتف، ونقول no signal."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -781,7 +939,11 @@
       "arabic": "يتعطّل",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "crash",
+      "sentence": "If you open too many apps, the computer will crash.",
+      "sentence_ar": "إذا فتحتَ تطبيقات كثيرة فسيتعطّل الحاسوب.",
+      "usage_ar": "crash لتوقّف البرنامج فجأة، وتعني أيضاً اصطدام سيارة."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -790,7 +952,11 @@
       "arabic": "يتجمّد",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "freeze",
+      "sentence": "Old laptops often freeze when you open big files.",
+      "sentence_ar": "تتجمّد الحواسيب القديمة كثيراً عندما تفتح ملفات كبيرة.",
+      "usage_ar": "freeze للشاشة التي لا تتحرك."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -799,7 +965,11 @@
       "arabic": "يحذف",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "delete",
+      "sentence": "Don't delete that photo, I like it.",
+      "sentence_ar": "لا تحذف تلك الصورة، أنا أحبها.",
+      "usage_ar": "delete للملفات والرسائل، وremove للأشياء عامة."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -808,7 +978,11 @@
       "arabic": "يحفظ",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "save",
+      "sentence": "Save your work before you close the file.",
+      "sentence_ar": "احفظ عملك قبل أن تغلق الملف.",
+      "usage_ar": "save للملف، وأيضاً save money بمعنى يوفّر."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -817,7 +991,11 @@
       "arabic": "ينسخ احتياطياً",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "back up",
+      "sentence": "You should back up your photos every month.",
+      "sentence_ar": "ينبغي أن تنسخ صورك احتياطياً كل شهر.",
+      "usage_ar": "back up فعل من كلمتين، والاسم backup بكلمة واحدة."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -826,7 +1004,11 @@
       "arabic": "يعيد التشغيل",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "restart",
+      "sentence": "Restart your phone and try again.",
+      "sentence_ar": "أعد تشغيل هاتفك وحاول مرة أخرى.",
+      "usage_ar": "re في أولها تعني مرة أخرى."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -835,7 +1017,11 @@
       "arabic": "يصلّح",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "fix",
+      "sentence": "Can you fix my laptop?",
+      "sentence_ar": "هل تستطيع تصليح حاسوبي؟",
+      "usage_ar": "fix في الكلام أكثر من repair."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -844,7 +1030,11 @@
       "arabic": "يستبدل",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "replace",
+      "sentence": "If the battery is dead, we'll replace it.",
+      "sentence_ar": "إذا كانت البطارية تالفة فسنستبدلها.",
+      "usage_ar": "نقول replace A with B."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -853,7 +1043,11 @@
       "arabic": "يتعطّل",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "break down",
+      "sentence": "Old cars often break down on long trips.",
+      "sentence_ar": "السيارات القديمة تتعطّل كثيراً في الرحلات الطويلة.",
+      "usage_ar": "break down للسيارات والآلات الكبيرة."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -862,7 +1056,11 @@
       "arabic": "ينفد",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "run out",
+      "sentence": "We'll run out of milk soon.",
+      "sentence_ar": "سينفد الحليب منا قريباً.",
+      "usage_ar": "بعد run out يأتي of: run out of milk."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -871,7 +1069,11 @@
       "arabic": "يقفل",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "lock",
+      "sentence": "Lock the door when you leave.",
+      "sentence_ar": "أقفل الباب عندما تغادر.",
+      "usage_ar": "lock فعل واسم، وعكسه unlock."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -880,7 +1082,11 @@
       "arabic": "يفتح القفل",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "unlock",
+      "sentence": "Use your password to unlock the phone.",
+      "sentence_ar": "استعمل كلمة مرورك لفتح قفل الهاتف.",
+      "usage_ar": "un في أولها تعني العكس."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -889,7 +1095,11 @@
       "arabic": "يحذّر",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "warn",
+      "sentence": "The app will warn you when your battery is low.",
+      "sentence_ar": "سيحذّرك التطبيق عندما تكون بطاريتك ضعيفة.",
+      "usage_ar": "نقول warn someone about something."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -898,7 +1108,11 @@
       "arabic": "يذكّر",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "remind",
+      "sentence": "Please remind me to call my mother.",
+      "sentence_ar": "من فضلك ذكّرني أن أتصل بأمي.",
+      "usage_ar": "نقول remind someone to do something، ولا نقول remember me."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -907,7 +1121,11 @@
       "arabic": "يتفقّد",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "check",
+      "sentence": "Check your emails before the meeting.",
+      "sentence_ar": "تفقّد بريدك قبل الاجتماع.",
+      "usage_ar": "check بلا حرف جر غالباً: check the time."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -916,7 +1134,11 @@
       "arabic": "يتجاهل",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "ignore",
+      "sentence": "Don't ignore the warning on the screen.",
+      "sentence_ar": "لا تتجاهل التحذير على الشاشة.",
+      "usage_ar": "ignore بلا حرف جر: ignore the message."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -925,7 +1147,11 @@
       "arabic": "عاجل",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "urgent",
+      "sentence": "This message is urgent. Please read it now.",
+      "sentence_ar": "هذه الرسالة عاجلة. اقرأها الآن من فضلك.",
+      "usage_ar": "urgent لشيء يحتاج تصرفاً فورياً."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -934,7 +1160,11 @@
       "arabic": "خطير",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "serious",
+      "sentence": "This is a serious problem.",
+      "sentence_ar": "هذه مشكلة خطيرة.",
+      "usage_ar": "serious تعني أيضاً جادّ: Are you serious?"
     },
     {
       "group": "technology_and_everyday_problems",
@@ -943,7 +1173,11 @@
       "arabic": "آمن",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "safe",
+      "sentence": "Keep your password in a safe place.",
+      "sentence_ar": "احفظ كلمة مرورك في مكان آمن.",
+      "usage_ar": "safe عكس dangerous، ونقول safe from."
     },
     {
       "group": "technology_and_everyday_problems",
@@ -952,7 +1186,11 @@
       "arabic": "خطر",
       "example": null,
       "group_label_ar": "التقنية ومشكلاتها اليومية",
-      "group_label_en": "Technology and Everyday Problems"
+      "group_label_en": "Technology and Everyday Problems",
+      "target": "dangerous",
+      "sentence": "It's dangerous to use your phone while driving.",
+      "sentence_ar": "من الخطر استعمال هاتفك أثناء القيادة.",
+      "usage_ar": "dangerous صفة، ولا تخلطها مع danger وهي اسم."
     },
     {
       "group": "conditional_phrases",
@@ -961,7 +1199,11 @@
       "arabic": "إن أردت…",
       "example": "Offering",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "If you like, I can help you with the form.",
+      "sentence_ar": "إن أردت، أستطيع مساعدتك في الاستمارة.",
+      "usage_ar": "عرض مهذّب للمساعدة."
     },
     {
       "group": "conditional_phrases",
@@ -970,7 +1212,11 @@
       "arabic": "إن شئت…",
       "example": "Offering",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "If you want, we can go together.",
+      "sentence_ar": "إن شئت، نستطيع أن نذهب معاً.",
+      "usage_ar": "عرض ودّي، مثل If you like."
     },
     {
       "group": "conditional_phrases",
@@ -979,7 +1225,11 @@
       "arabic": "إن توفّر لي وقت…",
       "example": "Conditional promise",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "If I have time, I'll visit you tomorrow.",
+      "sentence_ar": "إن توفّر لي وقت فسأزورك غداً.",
+      "usage_ar": "وعد بشرط، وبعد if المضارع."
     },
     {
       "group": "conditional_phrases",
@@ -988,7 +1238,11 @@
       "arabic": "إن لزم الأمر…",
       "example": "Neutral",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "If necessary, I'll stay late.",
+      "sentence_ar": "إن لزم الأمر سأبقى حتى وقت متأخر.",
+      "usage_ar": "عبارة قصيرة بلا فاعل، وتأتي في أول الجملة."
     },
     {
       "group": "conditional_phrases",
@@ -997,7 +1251,11 @@
       "arabic": "إن أمكن…",
       "example": "Polite request",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "Please reply today, if possible.",
+      "sentence_ar": "من فضلك ردّ اليوم إن أمكن.",
+      "usage_ar": "لطلب مهذّب، وتأتي غالباً في آخر الجملة."
     },
     {
       "group": "conditional_phrases",
@@ -1006,7 +1264,11 @@
       "arabic": "وإن لم…",
       "example": "Alternative",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "Is the shop open? If not, we'll go tomorrow.",
+      "sentence_ar": "هل المحل مفتوح؟ وإن لم يكن فسنذهب غداً.",
+      "usage_ar": "لتقديم خطة بديلة."
     },
     {
       "group": "conditional_phrases",
@@ -1015,7 +1277,11 @@
       "arabic": "وإن كان كذلك…",
       "example": "Follow-up",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "Are you free tonight? If so, let's eat out.",
+      "sentence_ar": "هل أنت متفرغ الليلة؟ وإن كان كذلك فلنأكل خارجاً.",
+      "usage_ar": "لمتابعة جواب نعم."
     },
     {
       "group": "conditional_phrases",
@@ -1024,7 +1290,11 @@
       "arabic": "ماذا لو…؟",
       "example": "Raising a possibility",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "What if the train is late?",
+      "sentence_ar": "ماذا لو تأخر القطار؟",
+      "usage_ar": "لطرح احتمال، وبعدها المضارع."
     },
     {
       "group": "conditional_phrases",
@@ -1033,7 +1303,11 @@
       "arabic": "ماذا يحدث إذا…؟",
       "example": "Asking about consequences",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "What happens if I miss the flight?",
+      "sentence_ar": "ماذا يحدث إذا فاتتني الرحلة؟",
+      "usage_ar": "للسؤال عن النتيجة، بالمضارع البسيط."
     },
     {
       "group": "conditional_phrases",
@@ -1042,7 +1316,11 @@
       "arabic": "فقط إذا…",
       "example": "Setting a condition",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "You can come only if you finish your homework.",
+      "sentence_ar": "تستطيع أن تأتي فقط إذا أنهيتَ واجبك.",
+      "usage_ar": "شرط صارم واحد لا غيره."
     },
     {
       "group": "conditional_phrases",
@@ -1051,7 +1329,11 @@
       "arabic": "طالما…",
       "example": "Setting a condition",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "You can stay as long as you're quiet.",
+      "sentence_ar": "تستطيع أن تبقى طالما أنك هادئ.",
+      "usage_ar": "لوضع شرط، وبعدها المضارع."
     },
     {
       "group": "conditional_phrases",
@@ -1060,7 +1342,11 @@
       "arabic": "بشرط أن…",
       "example": "Formal condition",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "You can join, provided that you pay first.",
+      "sentence_ar": "تستطيع الانضمام بشرط أن تدفع أولاً.",
+      "usage_ar": "شرط رسمي، يأتي في الكتابة والعقود."
     },
     {
       "group": "conditional_phrases",
@@ -1069,7 +1355,11 @@
       "arabic": "ما لم…",
       "example": "Negative condition",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "Unless you call me, I'll wait at the station.",
+      "sentence_ar": "ما لم تتصل بي، سأنتظر في المحطة.",
+      "usage_ar": "شرط منفي، فلا نضع بعدها not."
     },
     {
       "group": "conditional_phrases",
@@ -1078,7 +1368,11 @@
       "arabic": "وإلا…",
       "example": "Warning",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "Take a map. Otherwise, you'll get lost.",
+      "sentence_ar": "خذ خريطة. وإلا ستضيع.",
+      "usage_ar": "للتحذير من نتيجة سيئة."
     },
     {
       "group": "conditional_phrases",
@@ -1087,7 +1381,11 @@
       "arabic": "في تلك الحالة…",
       "example": "Responding",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "The bus is full? In that case, I'll walk.",
+      "sentence_ar": "الحافلة ممتلئة؟ في تلك الحالة سأمشي.",
+      "usage_ar": "ردّ على معلومة جديدة بقرار."
     },
     {
       "group": "conditional_phrases",
@@ -1096,7 +1394,11 @@
       "arabic": "يعتمد",
       "example": "Refusing to commit",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": "It depends",
+      "sentence": "Will you come tomorrow? It depends.",
+      "sentence_ar": "هل ستأتي غداً؟ يعتمد.",
+      "usage_ar": "جواب لا يلتزم بشيء، ونقول it depends on."
     },
     {
       "group": "conditional_phrases",
@@ -1105,7 +1407,11 @@
       "arabic": "ذلك يعتمد على…",
       "example": "Refusing to commit",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "Will we go out? That depends on the weather.",
+      "sentence_ar": "هل سنخرج؟ ذلك يعتمد على الطقس.",
+      "usage_ar": "بعدها اسم يحدّد الشرط."
     },
     {
       "group": "conditional_phrases",
@@ -1114,7 +1420,11 @@
       "arabic": "سأعلمك",
       "example": "Conditional promise",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "I'm not sure yet. I'll let you know.",
+      "sentence_ar": "لست متأكداً بعد. سأعلمك.",
+      "usage_ar": "وعد بأن تخبره لاحقاً."
     },
     {
       "group": "conditional_phrases",
@@ -1123,7 +1433,11 @@
       "arabic": "تحسّباً",
       "example": "Precaution",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": "Just in case",
+      "sentence": "Take some money, just in case.",
+      "sentence_ar": "خذ بعض المال تحسّباً.",
+      "usage_ar": "في آخر الجملة للاحتياط."
     },
     {
       "group": "conditional_phrases",
@@ -1132,7 +1446,11 @@
       "arabic": "من باب الأمان",
       "example": "Precaution",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": "To be safe",
+      "sentence": "To be safe, leave an hour early.",
+      "sentence_ar": "من باب الأمان، غادر قبل ساعة.",
+      "usage_ar": "في أول الجملة قبل نصيحة للاحتياط."
     },
     {
       "group": "conditional_phrases",
@@ -1141,7 +1459,11 @@
       "arabic": "وإلا",
       "example": "Informal warning",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": "Or else",
+      "sentence": "Be quiet, or else you'll wake the baby.",
+      "sentence_ar": "اهدأ وإلا ستوقظ الطفل.",
+      "usage_ar": "تحذير غير رسمي، أقوى من otherwise."
     },
     {
       "group": "conditional_phrases",
@@ -1150,7 +1472,11 @@
       "arabic": "ومن جهة أخرى…",
       "example": "Second thought",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "The hotel is cheap. Then again, it's far.",
+      "sentence_ar": "الفندق رخيص. ومن جهة أخرى هو بعيد.",
+      "usage_ar": "حين تتذكّر رأياً آخر بعد كلامك."
     },
     {
       "group": "conditional_phrases",
@@ -1159,7 +1485,11 @@
       "arabic": "من ناحية أخرى…",
       "example": "Balancing",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "It's fast. On the other hand, it's expensive.",
+      "sentence_ar": "إنه سريع. من ناحية أخرى هو غالٍ.",
+      "usage_ar": "لتقديم الجهة المقابلة من الموضوع."
     },
     {
       "group": "conditional_phrases",
@@ -1168,7 +1498,11 @@
       "arabic": "في كلتا الحالتين…",
       "example": "Closing a discussion",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": null,
+      "sentence": "We can go by bus or by train. Either way, we'll arrive late.",
+      "sentence_ar": "نستطيع أن نذهب بالحافلة أو بالقطار. في كلتا الحالتين سنصل متأخرين.",
+      "usage_ar": "حين تكون النتيجة واحدة في الخيارين."
     },
     {
       "group": "conditional_phrases",
@@ -1177,7 +1511,11 @@
       "arabic": "سنرى",
       "example": "Non-committal",
       "group_label_ar": "عبارات الشرط",
-      "group_label_en": "Conditional Phrases"
+      "group_label_en": "Conditional Phrases",
+      "target": "We'll see",
+      "sentence": "Can we go to the beach tomorrow? We'll see.",
+      "sentence_ar": "هل نذهب إلى الشاطئ غداً؟ سنرى.",
+      "usage_ar": "جواب لا يعد بشيء."
     },
     {
       "group": "certainty_and_doubt",
@@ -1186,7 +1524,11 @@
       "arabic": "بالتأكيد / حتماً",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": "definitely",
+      "sentence": "I'll definitely come to your party.",
+      "sentence_ar": "سآتي إلى حفلتك بالتأكيد.",
+      "usage_ar": "definitely بعد will وقبل الفعل الرئيسي."
     },
     {
       "group": "certainty_and_doubt",
@@ -1195,7 +1537,11 @@
       "arabic": "على الأرجح",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": "probably",
+      "sentence": "It will probably rain tomorrow.",
+      "sentence_ar": "ستمطر على الأرجح غداً.",
+      "usage_ar": "probably بعد will، وقبل won't: It probably won't."
     },
     {
       "group": "certainty_and_doubt",
@@ -1204,7 +1550,11 @@
       "arabic": "ربّما",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": "maybe",
+      "sentence": "Maybe I'll go to the cinema tonight.",
+      "sentence_ar": "ربّما أذهب إلى السينما الليلة.",
+      "usage_ar": "maybe في أول الجملة، وperhaps أكثر رسمية."
     },
     {
       "group": "certainty_and_doubt",
@@ -1213,7 +1563,11 @@
       "arabic": "قطعاً",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": "certainly",
+      "sentence": "I'll certainly help you.",
+      "sentence_ar": "سأساعدك قطعاً.",
+      "usage_ar": "certainly في الجواب تعني نعم بكل تأكيد."
     },
     {
       "group": "certainty_and_doubt",
@@ -1222,7 +1576,11 @@
       "arabic": "مرجّح",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": "likely",
+      "sentence": "He is likely to be late again.",
+      "sentence_ar": "من المرجّح أن يتأخر مرة أخرى.",
+      "usage_ar": "likely صفة لا ظرف، فنقول is likely to."
     },
     {
       "group": "certainty_and_doubt",
@@ -1231,7 +1589,11 @@
       "arabic": "من الممكن",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": "possibly",
+      "sentence": "It will possibly snow tonight.",
+      "sentence_ar": "من الممكن أن تثلج الليلة.",
+      "usage_ar": "possibly أضعف من probably."
     },
     {
       "group": "certainty_and_doubt",
@@ -1240,7 +1602,11 @@
       "arabic": "طبعاً",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": "of course",
+      "sentence": "Can I sit here? Of course.",
+      "sentence_ar": "هل أستطيع الجلوس هنا؟ طبعاً.",
+      "usage_ar": "of course للموافقة، لكن لا تجب بها عن معلومة فتبدو غير مهذّب."
     },
     {
       "group": "certainty_and_doubt",
@@ -1249,7 +1615,11 @@
       "arabic": "أتوقّع ذلك",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": "I expect so",
+      "sentence": "Will he come? I expect so.",
+      "sentence_ar": "هل سيأتي؟ أتوقّع ذلك.",
+      "usage_ar": "جواب قصير يعني أظنّ نعم."
     },
     {
       "group": "certainty_and_doubt",
@@ -1258,7 +1628,11 @@
       "arabic": "أشكّ في ذلك",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": "I doubt it",
+      "sentence": "Will it be sunny tomorrow? I doubt it.",
+      "sentence_ar": "هل سيكون الجو مشمساً غداً؟ أشكّ في ذلك.",
+      "usage_ar": "جواب قصير يعني على الأرجح لا."
     },
     {
       "group": "certainty_and_doubt",
@@ -1267,7 +1641,11 @@
       "arabic": "بلا شكّ",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": "without doubt",
+      "sentence": "She is without doubt the best player.",
+      "sentence_ar": "هي بلا شكّ أفضل لاعبة.",
+      "usage_ar": "عبارة قوية ورسمية قليلاً."
     },
     {
       "group": "certainty_and_doubt",
@@ -1276,7 +1654,11 @@
       "arabic": "أظنّ ذلك",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": "I think so",
+      "sentence": "Is the shop open today? I think so.",
+      "sentence_ar": "هل المحل مفتوح اليوم؟ أظنّ ذلك.",
+      "usage_ar": "لا نقول I think yes، بل I think so."
     },
     {
       "group": "certainty_and_doubt",
@@ -1285,7 +1667,11 @@
       "arabic": "لست متأكّداً",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": "I'm not sure",
+      "sentence": "Is this the right bus? I'm not sure.",
+      "sentence_ar": "هل هذه هي الحافلة الصحيحة؟ لست متأكّداً.",
+      "usage_ar": "نقول I'm not sure about أو I'm not sure if."
     },
     {
       "group": "certainty_and_doubt",
@@ -1294,7 +1680,11 @@
       "arabic": "أنا متأكّد",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": "I'm sure",
+      "sentence": "I'm sure you will pass the test.",
+      "sentence_ar": "أنا متأكّد أنك ستنجح في الاختبار.",
+      "usage_ar": "نقول I'm sure that، ولا نقول I sure."
     },
     {
       "group": "certainty_and_doubt",
@@ -1303,7 +1693,11 @@
       "arabic": "يبدو كذلك",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": null,
+      "sentence": "Is it going to rain? It looks like it.",
+      "sentence_ar": "هل ستمطر؟ يبدو كذلك.",
+      "usage_ar": "جواب حين ترى علامات تدل على الشيء."
     },
     {
       "group": "certainty_and_doubt",
@@ -1312,7 +1706,11 @@
       "arabic": "من الصعب الجزم",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": null,
+      "sentence": "Who will win? It's hard to say.",
+      "sentence_ar": "من سيفوز؟ من الصعب الجزم.",
+      "usage_ar": "حين لا تستطيع أن تتوقع."
     },
     {
       "group": "certainty_and_doubt",
@@ -1321,7 +1719,11 @@
       "arabic": "بلا نقاش",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": "no question",
+      "sentence": "It's the best café in town, no question.",
+      "sentence_ar": "إنه أفضل مقهى في المدينة بلا نقاش.",
+      "usage_ar": "تعني لا شك، في الكلام غير الرسمي."
     },
     {
       "group": "certainty_and_doubt",
@@ -1330,7 +1732,11 @@
       "arabic": "في معظم الأوقات",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": null,
+      "sentence": "I take the bus most of the time.",
+      "sentence_ar": "آخذ الحافلة في معظم الأوقات.",
+      "usage_ar": "تعني usually، وتأتي غالباً في آخر الجملة."
     },
     {
       "group": "certainty_and_doubt",
@@ -1339,7 +1745,11 @@
       "arabic": "يعتمد على الحال",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": "it depends",
+      "sentence": "Do you work at weekends? Well, it depends.",
+      "sentence_ar": "هل تعمل في عطلة نهاية الأسبوع؟ حسناً، يعتمد على الحال.",
+      "usage_ar": "بعدها on إذا ذكرتَ الشرط: it depends on the boss."
     },
     {
       "group": "certainty_and_doubt",
@@ -1348,7 +1758,11 @@
       "arabic": "دائماً",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": "always",
+      "sentence": "I always check the weather before I go out.",
+      "sentence_ar": "أتفقّد الطقس دائماً قبل أن أخرج.",
+      "usage_ar": "always قبل الفعل الرئيسي: لا نقول I check always."
     },
     {
       "group": "certainty_and_doubt",
@@ -1357,7 +1771,11 @@
       "arabic": "عادةً",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": "usually",
+      "sentence": "I usually walk to work.",
+      "sentence_ar": "عادةً أمشي إلى العمل.",
+      "usage_ar": "usually قبل الفعل الرئيسي وبعد is وam وare."
     },
     {
       "group": "certainty_and_doubt",
@@ -1366,7 +1784,11 @@
       "arabic": "أحياناً",
       "example": null,
       "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt"
+      "group_label_en": "Certainty and Doubt",
+      "target": "sometimes",
+      "sentence": "Sometimes the internet is very slow.",
+      "sentence_ar": "أحياناً يكون الإنترنت بطيئاً جداً.",
+      "usage_ar": "sometimes تأتي في أول الجملة أو قبل الفعل."
     }
   ],
   "minimal_pairs": [],

@@ -6,6 +6,7 @@ import {
   Ear,
   Feather,
   Headphones,
+  Compass,
   House,
   Languages,
   ListChecks,
@@ -86,7 +87,7 @@ export function taskKind(blocks: BlockLike[]): TaskKind {
     case 'writing':
       return { Icon: NotebookPen, short: 'الكتابة', purpose: 'نصّ الأسبوع — بقوالب جاهزة ونموذج' };
     case 'homework':
-      return { Icon: House, short: 'الواجب', purpose: 'مهمة في البيت بعيداً عن الشاشة، ثم اكتب ما فعلته' };
+      return { Icon: Compass, short: 'المغامرة', purpose: 'اختر مغامرة تنفّذها بعيداً عن الشاشة، ثم اكتب ما فعلت' };
     case 'record':
       return { Icon: Smartphone, short: 'التحدّث', purpose: 'تكلّم وسجّل على جوالك' };
     default:

@@ -136,7 +136,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -190,7 +190,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -244,7 +244,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -298,7 +298,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -352,7 +352,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -370,25 +370,37 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "الدلالة على الطريق · حوار: Asking for Directions · الاستماع",
-          "minutes": 25,
-          "ref": "vocab:giving_directions|dialogue:2|section:listening"
+          "label": "الكلمات",
+          "minutes": 10,
+          "ref": "vocab:giving_directions",
+          "order": 2
+        },
+        {
+          "label": "الحوار",
+          "minutes": 10,
+          "ref": "dialogue:2",
+          "order": 3
+        },
+        {
+          "label": "الاستماع",
+          "minutes": 10,
+          "ref": "section:listening",
+          "order": 4
         },
         {
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:giving_directions",
-          "order": 3
+          "order": 5
         },
         {
-          "order": 4,
+          "order": 6,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 5,
+          "order": 7,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
@@ -397,19 +409,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 8
         },
         {
-          "order": 7,
+          "order": 9,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 10
         }
       ]
     },
@@ -424,13 +436,25 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "القراءة · الكتابة",
-          "minutes": 25,
-          "ref": "section:reading|writing:1|record"
+          "label": "القراءة",
+          "minutes": 10,
+          "ref": "section:reading",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الكتابة",
+          "minutes": 10,
+          "ref": "writing:1",
+          "order": 3
+        },
+        {
+          "label": "التحدّث",
+          "minutes": 10,
+          "ref": "record",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
@@ -439,25 +463,25 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 6
         },
         {
-          "order": 5,
+          "order": 7,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 6,
+          "order": 8,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 9
         }
       ]
     }
@@ -470,7 +494,11 @@
       "arabic": "شقة",
       "example": "I live in a small flat.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "flat",
+      "sentence": "I live in a small flat.",
+      "sentence_ar": "أسكن في شقة صغيرة.",
+      "usage_ar": "flat بريطانية وapartment أمريكية، ونقول live in a flat."
     },
     {
       "group": "the_home",
@@ -479,7 +507,11 @@
       "arabic": "بيت",
       "example": "Their house has a garden.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "house",
+      "sentence": "Their house has a garden.",
+      "sentence_ar": "بيتهم فيه حديقة.",
+      "usage_ar": "للمبنى كاملاً؛ وhome مكان سكنك."
     },
     {
       "group": "the_home",
@@ -488,7 +520,11 @@
       "arabic": "مبنى",
       "example": "The building is very old.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "building",
+      "sentence": "The building is very old.",
+      "sentence_ar": "المبنى قديم جداً.",
+      "usage_ar": "نقول in the building: داخل المبنى."
     },
     {
       "group": "the_home",
@@ -497,7 +533,11 @@
       "arabic": "طابق / أرضية",
       "example": "We live on the third floor.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "floor",
+      "sentence": "We live on the third floor.",
+      "sentence_ar": "نسكن في الطابق الثالث.",
+      "usage_ar": "نقول on the third floor مع on لا in."
     },
     {
       "group": "the_home",
@@ -506,7 +546,11 @@
       "arabic": "غرفة",
       "example": "There are four rooms.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "room",
+      "sentence": "My room is small but nice.",
+      "sentence_ar": "غرفتي صغيرة لكنها جميلة.",
+      "usage_ar": "نقول in the room: في الغرفة."
     },
     {
       "group": "the_home",
@@ -515,7 +559,11 @@
       "arabic": "غرفة معيشة",
       "example": "We watch TV in the living room.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "living room",
+      "sentence": "We watch TV in the living room.",
+      "sentence_ar": "نشاهد التلفاز في غرفة المعيشة.",
+      "usage_ar": "نقول in the living room."
     },
     {
       "group": "the_home",
@@ -524,7 +572,11 @@
       "arabic": "غرفة نوم",
       "example": "My bedroom is small but quiet.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "bedroom",
+      "sentence": "My bedroom is small but quiet.",
+      "sentence_ar": "غرفة نومي صغيرة لكنها هادئة.",
+      "usage_ar": "كلمة واحدة: bedroom."
     },
     {
       "group": "the_home",
@@ -533,7 +585,11 @@
       "arabic": "مطبخ",
       "example": "The kitchen is next to the hall.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "kitchen",
+      "sentence": "There is a table in the kitchen.",
+      "sentence_ar": "توجد طاولة في المطبخ.",
+      "usage_ar": "نقول in the kitchen."
     },
     {
       "group": "the_home",
@@ -542,7 +598,11 @@
       "arabic": "حمّام",
       "example": "There is one bathroom.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "bathroom",
+      "sentence": "There is one bathroom in the flat.",
+      "sentence_ar": "يوجد حمّام واحد في الشقة.",
+      "usage_ar": "في البيت bathroom، وفي الأماكن العامة toilet."
     },
     {
       "group": "the_home",
@@ -551,7 +611,11 @@
       "arabic": "صالة / ممر",
       "example": "The hall is very narrow.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "hall",
+      "sentence": "The hall is very narrow.",
+      "sentence_ar": "الممر ضيق جداً.",
+      "usage_ar": "الممر عند مدخل البيت، وليست غرفة المعيشة."
     },
     {
       "group": "the_home",
@@ -560,7 +624,11 @@
       "arabic": "شرفة",
       "example": "We have a balcony with a view.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "balcony",
+      "sentence": "We have a balcony with a view.",
+      "sentence_ar": "عندنا شرفة لها إطلالة.",
+      "usage_ar": "نقول on the balcony مع on."
     },
     {
       "group": "the_home",
@@ -569,7 +637,11 @@
       "arabic": "حديقة",
       "example": "There isn't a garden.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "garden",
+      "sentence": "There isn't a garden.",
+      "sentence_ar": "لا توجد حديقة.",
+      "usage_ar": "حديقة البيت؛ والحديقة العامة park."
     },
     {
       "group": "the_home",
@@ -578,7 +650,11 @@
       "arabic": "درج",
       "example": "The stairs are on the left.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "stairs",
+      "sentence": "The stairs are on the left.",
+      "sentence_ar": "الدرج على اليسار.",
+      "usage_ar": "جمع دائماً: the stairs are."
     },
     {
       "group": "the_home",
@@ -587,7 +663,11 @@
       "arabic": "مصعد",
       "example": "The lift doesn't work today.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "lift",
+      "sentence": "The lift is next to the stairs.",
+      "sentence_ar": "المصعد بجانب الدرج.",
+      "usage_ar": "lift بريطانية وelevator أمريكية، ونقول take the lift."
     },
     {
       "group": "the_home",
@@ -596,7 +676,11 @@
       "arabic": "باب",
       "example": "Please close the door.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "door",
+      "sentence": "Please close the door.",
+      "sentence_ar": "أغلق الباب من فضلك.",
+      "usage_ar": "نقول open the door وclose the door."
     },
     {
       "group": "the_home",
@@ -605,7 +689,11 @@
       "arabic": "نافذة",
       "example": "There are two windows.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "window",
+      "sentence": "There is a big window in my room.",
+      "sentence_ar": "توجد نافذة كبيرة في غرفتي.",
+      "usage_ar": "نقول near the window: قرب النافذة."
     },
     {
       "group": "the_home",
@@ -614,7 +702,11 @@
       "arabic": "جدار",
       "example": "There is a picture on the wall.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "wall",
+      "sentence": "There is a picture on the wall.",
+      "sentence_ar": "توجد صورة على الجدار.",
+      "usage_ar": "نقول on the wall مع on."
     },
     {
       "group": "the_home",
@@ -623,7 +715,11 @@
       "arabic": "سقف",
       "example": "The ceiling is very high.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "ceiling",
+      "sentence": "The ceiling is very high.",
+      "sentence_ar": "السقف عالٍ جداً.",
+      "usage_ar": "سقف الغرفة من الداخل؛ وroof من الخارج."
     },
     {
       "group": "the_home",
@@ -632,7 +728,11 @@
       "arabic": "سطح",
       "example": "We sit on the roof in summer.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "roof",
+      "sentence": "We sit on the roof in summer.",
+      "sentence_ar": "نجلس على السطح في الصيف.",
+      "usage_ar": "سطح البيت من الخارج، ونقول on the roof."
     },
     {
       "group": "the_home",
@@ -641,7 +741,11 @@
       "arabic": "أثاث",
       "example": "The furniture is new.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "furniture",
+      "sentence": "The furniture is new.",
+      "sentence_ar": "الأثاث جديد.",
+      "usage_ar": "لا تُعدّ: some furniture، لا furnitures."
     },
     {
       "group": "the_home",
@@ -650,7 +754,11 @@
       "arabic": "طاولة",
       "example": "The table is in the middle.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "table",
+      "sentence": "The table is in the middle of the room.",
+      "sentence_ar": "الطاولة في وسط الغرفة.",
+      "usage_ar": "نقول on the table: على الطاولة."
     },
     {
       "group": "the_home",
@@ -659,7 +767,11 @@
       "arabic": "كرسي",
       "example": "There are six chairs.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "chair",
+      "sentence": "There is a chair next to the desk.",
+      "sentence_ar": "يوجد كرسي بجانب المكتب.",
+      "usage_ar": "نقول sit on a chair."
     },
     {
       "group": "the_home",
@@ -668,7 +780,11 @@
       "arabic": "أريكة",
       "example": "The sofa is very comfortable.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "sofa",
+      "sentence": "The sofa is very comfortable.",
+      "sentence_ar": "الأريكة مريحة جداً.",
+      "usage_ar": "نقول sit on the sofa."
     },
     {
       "group": "the_home",
@@ -677,7 +793,11 @@
       "arabic": "سرير",
       "example": "My bed is next to the window.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "bed",
+      "sentence": "My bed is next to the window.",
+      "sentence_ar": "سريري بجانب النافذة.",
+      "usage_ar": "نقول in bed: في السرير للنوم."
     },
     {
       "group": "the_home",
@@ -686,7 +806,11 @@
       "arabic": "خزانة ملابس",
       "example": "The wardrobe is behind the door.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "wardrobe",
+      "sentence": "The wardrobe is behind the door.",
+      "sentence_ar": "خزانة الملابس خلف الباب.",
+      "usage_ar": "للملابس فقط؛ وخزانة المطبخ cupboard."
     },
     {
       "group": "the_home",
@@ -695,7 +819,11 @@
       "arabic": "ثلاجة",
       "example": "There is milk in the fridge.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "fridge",
+      "sentence": "There is milk in the fridge.",
+      "sentence_ar": "يوجد حليب في الثلاجة.",
+      "usage_ar": "نقول in the fridge."
     },
     {
       "group": "the_home",
@@ -704,7 +832,11 @@
       "arabic": "موقد",
       "example": "The cooker is old.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "cooker",
+      "sentence": "The cooker is old.",
+      "sentence_ar": "الموقد قديم.",
+      "usage_ar": "cooker للجهاز، وcook للطباخ، فلا تخلط بينهما."
     },
     {
       "group": "the_home",
@@ -713,7 +845,11 @@
       "arabic": "مصباح",
       "example": "There is a lamp on the table.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "lamp",
+      "sentence": "There is a lamp on the table.",
+      "sentence_ar": "يوجد مصباح على الطاولة.",
+      "usage_ar": "المصباح الذي تضعه على الطاولة أو بجانب السرير."
     },
     {
       "group": "the_home",
@@ -722,7 +858,11 @@
       "arabic": "مرآة",
       "example": "The mirror is above the sink.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "mirror",
+      "sentence": "The mirror is above the sink.",
+      "sentence_ar": "المرآة فوق المغسلة.",
+      "usage_ar": "نقول in the mirror: في المرآة."
     },
     {
       "group": "the_home",
@@ -731,7 +871,11 @@
       "arabic": "سجادة",
       "example": "There is a carpet on the floor.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "carpet",
+      "sentence": "There is a carpet on the floor.",
+      "sentence_ar": "توجد سجادة على الأرضية.",
+      "usage_ar": "نقول on the floor مع on."
     },
     {
       "group": "the_home",
@@ -740,7 +884,11 @@
       "arabic": "ستارة",
       "example": "Please open the curtains.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "curtain",
+      "sentence": "There is a curtain on the window.",
+      "sentence_ar": "توجد ستارة على النافذة.",
+      "usage_ar": "نقول open وclose the curtains."
     },
     {
       "group": "the_home",
@@ -749,7 +897,11 @@
       "arabic": "رف",
       "example": "Plural: shelves.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "shelf",
+      "sentence": "There is a book on the shelf.",
+      "sentence_ar": "يوجد كتاب على الرف.",
+      "usage_ar": "جمعها shelves: تتحول f إلى ves."
     },
     {
       "group": "the_home",
@@ -758,7 +910,11 @@
       "arabic": "مفتاح",
       "example": "Where are my keys?",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "key",
+      "sentence": "My key is in my bag.",
+      "sentence_ar": "مفتاحي في حقيبتي.",
+      "usage_ar": "نقول the key to the door."
     },
     {
       "group": "the_home",
@@ -767,7 +923,11 @@
       "arabic": "هادئ",
       "example": "My street is very quiet.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "quiet",
+      "sentence": "My street is very quiet.",
+      "sentence_ar": "شارعي هادئ جداً.",
+      "usage_ar": "انتبه: quiet هادئ، وquite «تماماً»."
     },
     {
       "group": "the_home",
@@ -776,7 +936,11 @@
       "arabic": "صاخب",
       "example": "The neighbours are noisy.",
       "group_label_ar": "البيت",
-      "group_label_en": "The Home"
+      "group_label_en": "The Home",
+      "target": "noisy",
+      "sentence": "The street is very noisy at night.",
+      "sentence_ar": "الشارع صاخب جداً في الليل.",
+      "usage_ar": "عكسها quiet."
     },
     {
       "group": "the_town",
@@ -785,7 +949,11 @@
       "arabic": "شارع",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "street",
+      "sentence": "The bank is on this street.",
+      "sentence_ar": "البنك في هذا الشارع.",
+      "usage_ar": "نقول on the street، ومع اسمه: on King Street."
     },
     {
       "group": "the_town",
@@ -794,7 +962,11 @@
       "arabic": "مستشفى",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "hospital",
+      "sentence": "The hospital is near my house.",
+      "sentence_ar": "المستشفى قريب من بيتي.",
+      "usage_ar": "in hospital للمريض، وat the hospital للمكان."
     },
     {
       "group": "the_town",
@@ -803,7 +975,11 @@
       "arabic": "طريق",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "road",
+      "sentence": "Is there a shop on this road?",
+      "sentence_ar": "هل يوجد متجر على هذا الطريق؟",
+      "usage_ar": "road أعمّ، وstreet في المدينة بين البيوت."
     },
     {
       "group": "the_town",
@@ -812,7 +988,11 @@
       "arabic": "صيدلية",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "pharmacy",
+      "sentence": "There is a pharmacy on the corner.",
+      "sentence_ar": "توجد صيدلية على الناصية.",
+      "usage_ar": "وفي البريطانية أيضاً chemist's."
     },
     {
       "group": "the_town",
@@ -821,7 +1001,11 @@
       "arabic": "ميدان",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "square",
+      "sentence": "There is a café in the square.",
+      "sentence_ar": "يوجد مقهى في الميدان.",
+      "usage_ar": "نقول in the square مع in."
     },
     {
       "group": "the_town",
@@ -830,7 +1014,11 @@
       "arabic": "بنك",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "bank",
+      "sentence": "The bank is next to the post office.",
+      "sentence_ar": "البنك بجانب مكتب البريد.",
+      "usage_ar": "نقول at the bank."
     },
     {
       "group": "the_town",
@@ -839,7 +1027,11 @@
       "arabic": "زاوية / ناصية",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "corner",
+      "sentence": "The shop is on the corner.",
+      "sentence_ar": "المتجر على الناصية.",
+      "usage_ar": "on the corner للناصية، وin the corner لزاوية الغرفة."
     },
     {
       "group": "the_town",
@@ -848,7 +1040,11 @@
       "arabic": "مكتب بريد",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "post office",
+      "sentence": "Where is the post office?",
+      "sentence_ar": "أين مكتب البريد؟",
+      "usage_ar": "نقول at the post office."
     },
     {
       "group": "the_town",
@@ -857,7 +1053,11 @@
       "arabic": "جسر",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "bridge",
+      "sentence": "There is a bridge over the river.",
+      "sentence_ar": "يوجد جسر فوق النهر.",
+      "usage_ar": "نقول cross the bridge وover the bridge."
     },
     {
       "group": "the_town",
@@ -866,7 +1066,11 @@
       "arabic": "محطة",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "station",
+      "sentence": "The station is far from here.",
+      "sentence_ar": "المحطة بعيدة عن هنا.",
+      "usage_ar": "نقول at the station: في المحطة."
     },
     {
       "group": "the_town",
@@ -875,7 +1079,11 @@
       "arabic": "معبر مشاة",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "crossing",
+      "sentence": "Cross the road at the crossing.",
+      "sentence_ar": "اعبر الطريق عند معبر المشاة.",
+      "usage_ar": "نقول at the crossing."
     },
     {
       "group": "the_town",
@@ -884,7 +1092,11 @@
       "arabic": "مطار",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "airport",
+      "sentence": "The airport is far from the city.",
+      "sentence_ar": "المطار بعيد عن المدينة.",
+      "usage_ar": "نقول at the airport."
     },
     {
       "group": "the_town",
@@ -893,7 +1105,11 @@
       "arabic": "زحام / مرور",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "traffic",
+      "sentence": "There is a lot of traffic in the city.",
+      "sentence_ar": "يوجد زحام كبير في المدينة.",
+      "usage_ar": "لا تُعدّ: a lot of traffic، لا many traffics."
     },
     {
       "group": "the_town",
@@ -902,7 +1118,11 @@
       "arabic": "موقف حافلة",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "bus stop",
+      "sentence": "The bus stop is opposite the bank.",
+      "sentence_ar": "موقف الحافلة مقابل البنك.",
+      "usage_ar": "نقول at the bus stop."
     },
     {
       "group": "the_town",
@@ -911,7 +1131,11 @@
       "arabic": "حديقة عامة",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "park",
+      "sentence": "There is a big park near my house.",
+      "sentence_ar": "توجد حديقة عامة كبيرة قرب بيتي.",
+      "usage_ar": "حديقة عامة؛ وحديقة البيت garden."
     },
     {
       "group": "the_town",
@@ -920,7 +1144,11 @@
       "arabic": "مسجد",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "mosque",
+      "sentence": "The mosque is at the end of the street.",
+      "sentence_ar": "المسجد في نهاية الشارع.",
+      "usage_ar": "نقول at the mosque."
     },
     {
       "group": "the_town",
@@ -929,7 +1157,11 @@
       "arabic": "مكتبة",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "library",
+      "sentence": "The library is next to the school.",
+      "sentence_ar": "المكتبة بجانب المدرسة.",
+      "usage_ar": "للاستعارة والقراءة؛ ومتجر الكتب bookshop."
     },
     {
       "group": "the_town",
@@ -938,7 +1170,11 @@
       "arabic": "كنيسة",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "church",
+      "sentence": "There is an old church in the square.",
+      "sentence_ar": "توجد كنيسة قديمة في الميدان.",
+      "usage_ar": "نقول at church للصلاة فيها."
     },
     {
       "group": "the_town",
@@ -947,7 +1183,11 @@
       "arabic": "متحف",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "museum",
+      "sentence": "The museum is closed on Mondays.",
+      "sentence_ar": "المتحف مغلق أيام الاثنين.",
+      "usage_ar": "النبر في وسطها: mu-SE-um."
     },
     {
       "group": "the_town",
@@ -956,7 +1196,11 @@
       "arabic": "جامعة",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "university",
+      "sentence": "My sister is at university.",
+      "sentence_ar": "أختي في الجامعة.",
+      "usage_ar": "نقول a university لا an، لأنها تبدأ بصوت «يو»."
     },
     {
       "group": "the_town",
@@ -965,7 +1209,11 @@
       "arabic": "سينما",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "cinema",
+      "sentence": "There is a cinema near the park.",
+      "sentence_ar": "توجد سينما قرب الحديقة.",
+      "usage_ar": "نقول go to the cinema."
     },
     {
       "group": "the_town",
@@ -974,7 +1222,11 @@
       "arabic": "سوق",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "market",
+      "sentence": "The market is open on Fridays.",
+      "sentence_ar": "السوق مفتوح أيام الجمعة.",
+      "usage_ar": "نقول at the market."
     },
     {
       "group": "the_town",
@@ -983,7 +1235,11 @@
       "arabic": "فندق",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "hotel",
+      "sentence": "The hotel is opposite the station.",
+      "sentence_ar": "الفندق مقابل المحطة.",
+      "usage_ar": "النبر في آخرها: ho-TEL."
     },
     {
       "group": "the_town",
@@ -992,7 +1248,11 @@
       "arabic": "وسط / مركز",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "centre",
+      "sentence": "I live in the city centre.",
+      "sentence_ar": "أسكن في وسط المدينة.",
+      "usage_ar": "البريطانية centre، والأمريكية center."
     },
     {
       "group": "the_town",
@@ -1001,7 +1261,11 @@
       "arabic": "حي",
       "example": null,
       "group_label_ar": "المدينة",
-      "group_label_en": "The Town"
+      "group_label_en": "The Town",
+      "target": "neighbourhood",
+      "sentence": "My neighbourhood is quiet.",
+      "sentence_ar": "حيّي هادئ.",
+      "usage_ar": "نقول in my neighbourhood."
     },
     {
       "group": "prepositions_of_place",
@@ -1010,7 +1274,11 @@
       "arabic": "في / داخل",
       "example": "The milk is in the fridge.",
       "group_label_ar": "ظروف المكان",
-      "group_label_en": "Prepositions of Place"
+      "group_label_en": "Prepositions of Place",
+      "target": "in",
+      "sentence": "The milk is in the fridge.",
+      "sentence_ar": "الحليب في الثلاجة.",
+      "usage_ar": "داخل شيء: in the box · in the room."
     },
     {
       "group": "prepositions_of_place",
@@ -1019,7 +1287,11 @@
       "arabic": "على",
       "example": "The lamp is on the table.",
       "group_label_ar": "ظروف المكان",
-      "group_label_en": "Prepositions of Place"
+      "group_label_en": "Prepositions of Place",
+      "target": "on",
+      "sentence": "The lamp is on the table.",
+      "sentence_ar": "المصباح على الطاولة.",
+      "usage_ar": "فوق شيء ملامساً له: on the wall · on the floor."
     },
     {
       "group": "prepositions_of_place",
@@ -1028,7 +1300,11 @@
       "arabic": "تحت",
       "example": "The bag is under the bed.",
       "group_label_ar": "ظروف المكان",
-      "group_label_en": "Prepositions of Place"
+      "group_label_en": "Prepositions of Place",
+      "target": "under",
+      "sentence": "The bag is under the bed.",
+      "sentence_ar": "الحقيبة تحت السرير.",
+      "usage_ar": "تحت شيء مباشرة."
     },
     {
       "group": "prepositions_of_place",
@@ -1037,7 +1313,11 @@
       "arabic": "فوق (بدون تلامس)",
       "example": "The mirror is above the sink.",
       "group_label_ar": "ظروف المكان",
-      "group_label_en": "Prepositions of Place"
+      "group_label_en": "Prepositions of Place",
+      "target": "above",
+      "sentence": "The mirror is above the sink.",
+      "sentence_ar": "المرآة فوق المغسلة.",
+      "usage_ar": "فوق بلا تلامس؛ ومع التلامس on."
     },
     {
       "group": "prepositions_of_place",
@@ -1046,7 +1326,11 @@
       "arabic": "أسفل",
       "example": "The shop is below my flat.",
       "group_label_ar": "ظروف المكان",
-      "group_label_en": "Prepositions of Place"
+      "group_label_en": "Prepositions of Place",
+      "target": "below",
+      "sentence": "The shop is below my flat.",
+      "sentence_ar": "المتجر أسفل شقتي.",
+      "usage_ar": "أسفل شيء، وعكسها above."
     },
     {
       "group": "prepositions_of_place",
@@ -1055,7 +1339,11 @@
       "arabic": "بجانب",
       "example": "The bank is next to the post office.",
       "group_label_ar": "ظروف المكان",
-      "group_label_en": "Prepositions of Place"
+      "group_label_en": "Prepositions of Place",
+      "target": "next to",
+      "sentence": "The bank is next to the post office.",
+      "sentence_ar": "البنك بجانب مكتب البريد.",
+      "usage_ar": "بجانب مباشرة، ولا نقول next the."
     },
     {
       "group": "prepositions_of_place",
@@ -1064,7 +1352,11 @@
       "arabic": "بجانب (نفس المعنى)",
       "example": "Sit beside me.",
       "group_label_ar": "ظروف المكان",
-      "group_label_en": "Prepositions of Place"
+      "group_label_en": "Prepositions of Place",
+      "target": "beside",
+      "sentence": "My bag is beside the door.",
+      "sentence_ar": "حقيبتي بجانب الباب.",
+      "usage_ar": "بمعنى next to، ولا تخلطها بـ besides."
     },
     {
       "group": "prepositions_of_place",
@@ -1073,7 +1365,11 @@
       "arabic": "بين",
       "example": "The park is between two schools.",
       "group_label_ar": "ظروف المكان",
-      "group_label_en": "Prepositions of Place"
+      "group_label_en": "Prepositions of Place",
+      "target": "between",
+      "sentence": "The park is between the bank and the school.",
+      "sentence_ar": "الحديقة بين البنك والمدرسة.",
+      "usage_ar": "بين شيئين: between A and B."
     },
     {
       "group": "prepositions_of_place",
@@ -1082,7 +1378,11 @@
       "arabic": "خلف",
       "example": "The garden is behind the house.",
       "group_label_ar": "ظروف المكان",
-      "group_label_en": "Prepositions of Place"
+      "group_label_en": "Prepositions of Place",
+      "target": "behind",
+      "sentence": "The garden is behind the house.",
+      "sentence_ar": "الحديقة خلف البيت.",
+      "usage_ar": "عكسها in front of."
     },
     {
       "group": "prepositions_of_place",
@@ -1091,7 +1391,11 @@
       "arabic": "أمام",
       "example": "There is a car in front of the door.",
       "group_label_ar": "ظروف المكان",
-      "group_label_en": "Prepositions of Place"
+      "group_label_en": "Prepositions of Place",
+      "target": "in front of",
+      "sentence": "There is a car in front of the door.",
+      "sentence_ar": "توجد سيارة أمام الباب.",
+      "usage_ar": "لا تنسَ of: in front of the house."
     },
     {
       "group": "prepositions_of_place",
@@ -1100,7 +1404,11 @@
       "arabic": "مقابل",
       "example": "The hotel is opposite the station.",
       "group_label_ar": "ظروف المكان",
-      "group_label_en": "Prepositions of Place"
+      "group_label_en": "Prepositions of Place",
+      "target": "opposite",
+      "sentence": "The hotel is opposite the station.",
+      "sentence_ar": "الفندق مقابل المحطة.",
+      "usage_ar": "بلا of: opposite the bank، لا opposite of."
     },
     {
       "group": "prepositions_of_place",
@@ -1109,7 +1417,11 @@
       "arabic": "قريب من",
       "example": "I live near the market.",
       "group_label_ar": "ظروف المكان",
-      "group_label_en": "Prepositions of Place"
+      "group_label_en": "Prepositions of Place",
+      "target": "near",
+      "sentence": "I live near the market.",
+      "sentence_ar": "أسكن قرب السوق.",
+      "usage_ar": "بلا to غالباً: near the park."
     },
     {
       "group": "prepositions_of_place",
@@ -1118,7 +1430,11 @@
       "arabic": "بعيد عن",
       "example": "The airport is far from here.",
       "group_label_ar": "ظروف المكان",
-      "group_label_en": "Prepositions of Place"
+      "group_label_en": "Prepositions of Place",
+      "target": "far from",
+      "sentence": "The airport is far from here.",
+      "sentence_ar": "المطار بعيد عن هنا.",
+      "usage_ar": "نقول far from مع from، لا far of."
     },
     {
       "group": "prepositions_of_place",
@@ -1127,7 +1443,11 @@
       "arabic": "داخل",
       "example": "Wait inside the building.",
       "group_label_ar": "ظروف المكان",
-      "group_label_en": "Prepositions of Place"
+      "group_label_en": "Prepositions of Place",
+      "target": "inside",
+      "sentence": "My keys are inside my bag.",
+      "sentence_ar": "مفاتيحي داخل حقيبتي.",
+      "usage_ar": "عكسها outside."
     },
     {
       "group": "prepositions_of_place",
@@ -1136,7 +1456,11 @@
       "arabic": "خارج",
       "example": "The children are outside.",
       "group_label_ar": "ظروف المكان",
-      "group_label_en": "Prepositions of Place"
+      "group_label_en": "Prepositions of Place",
+      "target": "outside",
+      "sentence": "The children are outside.",
+      "sentence_ar": "الأطفال في الخارج.",
+      "usage_ar": "عكسها inside."
     },
     {
       "group": "prepositions_of_place",
@@ -1145,7 +1469,11 @@
       "arabic": "عند الناصية",
       "example": "The pharmacy is around the corner.",
       "group_label_ar": "ظروف المكان",
-      "group_label_en": "Prepositions of Place"
+      "group_label_en": "Prepositions of Place",
+      "target": "around the corner",
+      "sentence": "The pharmacy is around the corner.",
+      "sentence_ar": "الصيدلية عند الناصية.",
+      "usage_ar": "تعني قريب جداً، بعد الناصية مباشرة."
     },
     {
       "group": "prepositions_of_place",
@@ -1154,7 +1482,11 @@
       "arabic": "في نهاية",
       "example": "It is at the end of the street.",
       "group_label_ar": "ظروف المكان",
-      "group_label_en": "Prepositions of Place"
+      "group_label_en": "Prepositions of Place",
+      "target": null,
+      "sentence": "The bank is at the end of the street.",
+      "sentence_ar": "البنك في نهاية الشارع.",
+      "usage_ar": "نقول at the end of، لا in the end of."
     },
     {
       "group": "prepositions_of_place",
@@ -1163,7 +1495,11 @@
       "arabic": "على اليسار / اليمين",
       "example": "It is on the left.",
       "group_label_ar": "ظروف المكان",
-      "group_label_en": "Prepositions of Place"
+      "group_label_en": "Prepositions of Place",
+      "target": "on the left",
+      "sentence": "The bank is on the left.",
+      "sentence_ar": "البنك على اليسار.",
+      "usage_ar": "نقول on the left وon the right مع on."
     },
     {
       "group": "giving_directions",
@@ -1172,7 +1508,11 @@
       "arabic": "لو سمحت",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": "Excuse me",
+      "sentence": "To a stranger: Excuse me, where is the bank?",
+      "sentence_ar": "لشخص غريب: لو سمحت، أين البنك؟",
+      "usage_ar": "لبدء الكلام مع غريب بأدب قبل السؤال."
     },
     {
       "group": "giving_directions",
@@ -1181,7 +1521,11 @@
       "arabic": "امشِ للأمام",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": "Go straight on",
+      "sentence": "Giving directions: Go straight on.",
+      "sentence_ar": "وأنت تدل الطريق: امشِ للأمام مباشرة.",
+      "usage_ar": "تعني تابع إلى الأمام بلا انعطاف."
     },
     {
       "group": "giving_directions",
@@ -1190,7 +1534,11 @@
       "arabic": "كيف أصل إلى…؟",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": null,
+      "sentence": "Asking the way: How do I get to the station?",
+      "sentence_ar": "تسأل عن الطريق: كيف أصل إلى المحطة؟",
+      "usage_ar": "بعدها المكان: How do I get to the bank?"
     },
     {
       "group": "giving_directions",
@@ -1199,7 +1547,11 @@
       "arabic": "انعطف يساراً",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": "Turn left",
+      "sentence": "Giving directions: Turn left at the bank.",
+      "sentence_ar": "وأنت تدل الطريق: انعطف يساراً عند البنك.",
+      "usage_ar": "نقول turn left at + المكان."
     },
     {
       "group": "giving_directions",
@@ -1208,7 +1560,11 @@
       "arabic": "أين…؟",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": "Where is the",
+      "sentence": "Asking the way: Where is the post office?",
+      "sentence_ar": "تسأل عن الطريق: أين مكتب البريد؟",
+      "usage_ar": "أبسط سؤال عن مكان؛ وللجمع Where are the…?"
     },
     {
       "group": "giving_directions",
@@ -1217,7 +1573,11 @@
       "arabic": "انعطف يميناً",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": "Turn right",
+      "sentence": "Giving directions: Turn right at the corner.",
+      "sentence_ar": "وأنت تدل الطريق: انعطف يميناً عند الناصية.",
+      "usage_ar": "نقول turn right at + المكان."
     },
     {
       "group": "giving_directions",
@@ -1226,7 +1586,11 @@
       "arabic": "هل هو بعيد؟",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": "Is it far",
+      "sentence": "After the directions: Is it far?",
+      "sentence_ar": "بعد شرح الطريق: هل هو بعيد؟",
+      "usage_ar": "وجوابها No, it's near أو Yes, it's far."
     },
     {
       "group": "giving_directions",
@@ -1235,7 +1599,11 @@
       "arabic": "خذ أول يسار",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": null,
+      "sentence": "Giving directions: Take the first left.",
+      "sentence_ar": "وأنت تدل الطريق: خذ أول طريق على اليسار.",
+      "usage_ar": "the first = أول شارع، وthe second = ثاني شارع."
     },
     {
       "group": "giving_directions",
@@ -1244,7 +1612,11 @@
       "arabic": "على بعد خمس دقائق مشياً",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": null,
+      "sentence": "Is it far? No, it's five minutes' walk.",
+      "sentence_ar": "هل هو بعيد؟ لا، على بعد 5 دقائق مشياً.",
+      "usage_ar": "لتقول كم المسافة بالمشي."
     },
     {
       "group": "giving_directions",
@@ -1253,7 +1625,11 @@
       "arabic": "خذ ثاني يمين",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": null,
+      "sentence": "Giving directions: Take the second right.",
+      "sentence_ar": "وأنت تدل الطريق: خذ ثاني طريق على اليمين.",
+      "usage_ar": "the second right = ثاني شارع على اليمين."
     },
     {
       "group": "giving_directions",
@@ -1262,7 +1638,11 @@
       "arabic": "هل يمكنك أن تريني؟",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": null,
+      "sentence": "Holding a map: Can you show me?",
+      "sentence_ar": "وأنت تحمل خريطة: هل يمكنك أن تريني؟",
+      "usage_ar": "حين لا تفهم الشرح، اطلب أن يريك على الخريطة."
     },
     {
       "group": "giving_directions",
@@ -1271,7 +1651,11 @@
       "arabic": "اعبر الطريق",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": "Cross the road",
+      "sentence": "Giving directions: Cross the road at the crossing.",
+      "sentence_ar": "وأنت تدل الطريق: اعبر الطريق عند معبر المشاة.",
+      "usage_ar": "نقول cross the road، لا cross on the road."
     },
     {
       "group": "giving_directions",
@@ -1280,7 +1664,11 @@
       "arabic": "أنا تائه",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": "I'm lost",
+      "sentence": "In a new city: Excuse me, I'm lost.",
+      "sentence_ar": "في مدينة جديدة: لو سمحت، أنا تائه.",
+      "usage_ar": "تقولها حين لا تعرف أين أنت."
     },
     {
       "group": "giving_directions",
@@ -1289,7 +1677,11 @@
       "arabic": "تجاوز البنك",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": "Go past",
+      "sentence": "Giving directions: Go past the bank.",
+      "sentence_ar": "وأنت تدل الطريق: تجاوز البنك.",
+      "usage_ar": "go past = امشِ بجانبه وتابع."
     },
     {
       "group": "giving_directions",
@@ -1298,7 +1690,11 @@
       "arabic": "أبحث عن…",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": "I'm looking for",
+      "sentence": "Asking the way: I'm looking for the station.",
+      "sentence_ar": "تسأل عن الطريق: أبحث عن المحطة.",
+      "usage_ar": "احفظها كما هي، وبعدها المكان."
     },
     {
       "group": "giving_directions",
@@ -1307,7 +1703,11 @@
       "arabic": "إنه على يسارك",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": null,
+      "sentence": "Giving directions: The bank? It's on your left.",
+      "sentence_ar": "وأنت تدل الطريق: البنك؟ إنه على يسارك.",
+      "usage_ar": "on your left وon your right مع on."
     },
     {
       "group": "giving_directions",
@@ -1316,7 +1716,11 @@
       "arabic": "شكراً لمساعدتك",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": null,
+      "sentence": "At the end: Thanks for your help.",
+      "sentence_ar": "في النهاية: شكراً لمساعدتك.",
+      "usage_ar": "تقولها بعد أن يدلك أحد على الطريق."
     },
     {
       "group": "giving_directions",
@@ -1325,7 +1729,11 @@
       "arabic": "لن تخطئه",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": null,
+      "sentence": "Giving directions: It's a big building. You can't miss it.",
+      "sentence_ar": "وأنت تدل الطريق: إنه مبنى كبير، لن تخطئه.",
+      "usage_ar": "تعني أن المكان واضح جداً."
     },
     {
       "group": "giving_directions",
@@ -1334,7 +1742,11 @@
       "arabic": "آسف، لا أعرف",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": null,
+      "sentence": "Someone asks you the way: Sorry, I don't know.",
+      "sentence_ar": "يسألك أحد عن الطريق: آسف، لا أعرف.",
+      "usage_ar": "رد مهذب حين لا تعرف الطريق."
     },
     {
       "group": "giving_directions",
@@ -1343,7 +1755,11 @@
       "arabic": "إنه عند الناصية مباشرة",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": null,
+      "sentence": "Is it far? No, it's just around the corner.",
+      "sentence_ar": "هل هو بعيد؟ لا، إنه عند الناصية مباشرة.",
+      "usage_ar": "تعني أن المكان قريب جداً."
     },
     {
       "group": "giving_directions",
@@ -1352,7 +1768,11 @@
       "arabic": "أنا لست من هنا",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": null,
+      "sentence": "Someone asks you the way: Sorry, I'm not from here.",
+      "sentence_ar": "يسألك أحد عن الطريق: آسف، أنا لست من هنا.",
+      "usage_ar": "تقولها حين لا تعرف المنطقة."
     },
     {
       "group": "giving_directions",
@@ -1361,7 +1781,11 @@
       "arabic": "اتبع هذا الشارع",
       "example": null,
       "group_label_ar": "الدلالة على الطريق",
-      "group_label_en": "Giving Directions"
+      "group_label_en": "Giving Directions",
+      "target": null,
+      "sentence": "Giving directions: Follow this street to the end.",
+      "sentence_ar": "وأنت تدل الطريق: اتبع هذا الشارع حتى نهايته.",
+      "usage_ar": "تعني امشِ في هذا الشارع ولا تنعطف."
     }
   ],
   "minimal_pairs": [],
@@ -1789,7 +2213,7 @@
           },
           {
             "can_ar": "أضع النبر صحيحاً في 10 من 12 كلمة",
-            "can_en": "Mark the stress on 10 of the 12 words in §4.4?",
+            "can_en": "Mark the stress on 10 of the 12 words in this week's pronunciation lesson?",
             "proof_ar": "قسم النطق"
           },
           {

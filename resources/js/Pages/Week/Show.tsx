@@ -253,7 +253,7 @@ const INDAY_NAMES: Record<string, string> = {
   spell_review: 'مراجعة الإملاء',
   shadow: 'الشادوينج — تكلّم مع الصوت',
   imitate: 'اكتب مثله',
-  homework: 'الواجب المنزلي',
+  homework: 'مغامرة اليوم',
 };
 
 /** عنوان النشاط في رأس النافذة */

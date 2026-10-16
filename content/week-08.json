@@ -132,7 +132,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -186,7 +186,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -240,7 +240,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -258,25 +258,31 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "الأفعال الشاذة الثمانون · السفر والمواصلات · حوار: At the Station",
-          "minutes": 25,
-          "ref": "vocab:the_80_irregular_verbs,travel_and_transport|dialogue:1"
+          "label": "الكلمات",
+          "minutes": 15,
+          "ref": "vocab:the_80_irregular_verbs,travel_and_transport",
+          "order": 2
+        },
+        {
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:1",
+          "order": 3
         },
         {
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:travel_and_transport",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
@@ -285,19 +291,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -348,7 +354,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -366,13 +372,19 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "حوار: How Was Your Holiday? · الاستماع",
-          "minutes": 25,
-          "ref": "dialogue:2|section:listening"
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:2",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الاستماع",
+          "minutes": 15,
+          "ref": "section:listening",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
@@ -381,10 +393,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
@@ -393,19 +405,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -420,13 +432,25 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "القراءة · الكتابة",
-          "minutes": 25,
-          "ref": "section:reading|writing:1|record"
+          "label": "القراءة",
+          "minutes": 10,
+          "ref": "section:reading",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الكتابة",
+          "minutes": 10,
+          "ref": "writing:1",
+          "order": 3
+        },
+        {
+          "label": "التحدّث",
+          "minutes": 10,
+          "ref": "record",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 15,
           "ref": "game:minimal_pairs"
@@ -435,25 +459,25 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 6
         },
         {
-          "order": 5,
+          "order": 7,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 6,
+          "order": 8,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 9
         }
       ]
     }
@@ -466,7 +490,11 @@
       "arabic": "قطع",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "cut",
+      "sentence": "I cut my finger yesterday.",
+      "sentence_ar": "جرحت إصبعي أمس.",
+      "usage_ar": "الماضي مثل المضارع: cut. والسياق يحدّد الزمن."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -475,7 +503,11 @@
       "arabic": "وضع",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "put",
+      "sentence": "I put my keys on the table.",
+      "sentence_ar": "وضعت مفاتيحي على الطاولة.",
+      "usage_ar": "الماضي put بلا تغيير، ولا تقل putted."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -484,7 +516,11 @@
       "arabic": "سمح",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "let",
+      "sentence": "My father let me drive.",
+      "sentence_ar": "سمح لي أبي بأن أقود.",
+      "usage_ar": "بعدها الفعل بلا to: let me go."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -493,7 +529,11 @@
       "arabic": "أغلق",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "shut",
+      "sentence": "She shut the door quietly.",
+      "sentence_ar": "أغلقت الباب بهدوء.",
+      "usage_ar": "الماضي shut بلا تغيير، ومعناها close."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -502,7 +542,11 @@
       "arabic": "كلّف",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "cost",
+      "sentence": "The ticket cost twenty pounds.",
+      "sentence_ar": "كلّفت التذكرة 20 جنيهاً.",
+      "usage_ar": "الماضي cost بلا تغيير، لا costed."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -511,7 +555,11 @@
       "arabic": "ضرب",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "hit",
+      "sentence": "The ball hit the window.",
+      "sentence_ar": "ضربت الكرة النافذة.",
+      "usage_ar": "الماضي hit بلا تغيير، لا hitted."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -520,7 +568,11 @@
       "arabic": "آذى",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "hurt",
+      "sentence": "I hurt my leg last week.",
+      "sentence_ar": "آذيت ساقي الأسبوع الماضي.",
+      "usage_ar": "الماضي hurt بلا تغيير، ونقول hurt my arm."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -529,7 +581,11 @@
       "arabic": "قرأ",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "read",
+      "sentence": "I read a good book last week.",
+      "sentence_ar": "قرأت كتاباً جيداً الأسبوع الماضي.",
+      "usage_ar": "تُكتب كالمضارع لكن تُنطق /red/ في الماضي."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -538,7 +594,11 @@
       "arabic": "اشترى",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "bought",
+      "sentence": "He bought a car last month.",
+      "sentence_ar": "اشترى سيارة الشهر الماضي.",
+      "usage_ar": "ماضي buy هو bought، ولا تقل buyed."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -547,7 +607,11 @@
       "arabic": "أحضر",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "brought",
+      "sentence": "She brought a cake to the party.",
+      "sentence_ar": "أحضرت كعكة إلى الحفلة.",
+      "usage_ar": "bring نحوك، وtake بعيداً عنك."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -556,7 +620,11 @@
       "arabic": "ظنّ / فكّر",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "thought",
+      "sentence": "I thought the film was good.",
+      "sentence_ar": "ظننت أن الفيلم جيد.",
+      "usage_ar": "thought about = فكّر في، وthought that = ظنّ أن."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -565,7 +633,11 @@
       "arabic": "قاتل",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "fought",
+      "sentence": "The two cats fought in the garden.",
+      "sentence_ar": "تقاتلت القطتان في الحديقة.",
+      "usage_ar": "تُنطق /fɔːt/ مثل bought."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -574,7 +646,11 @@
       "arabic": "أمسك",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "caught",
+      "sentence": "I caught the bus at seven.",
+      "sentence_ar": "لحقت بالحافلة في الساعة 7.",
+      "usage_ar": "caught the bus = لحق بها، وcaught a cold = أصيب بالبرد."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -583,7 +659,11 @@
       "arabic": "علّم",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "taught",
+      "sentence": "My mother taught me to cook.",
+      "sentence_ar": "علّمتني أمي الطبخ.",
+      "usage_ar": "نقول taught someone to + فعل: taught me to swim."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -592,7 +672,11 @@
       "arabic": "رأى",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "saw",
+      "sentence": "I saw him two years ago.",
+      "sentence_ar": "رأيته قبل سنتين.",
+      "usage_ar": "الماضي saw مع ago، لا I have seen him ago."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -601,7 +685,11 @@
       "arabic": "رسم",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "drew",
+      "sentence": "My son drew a picture of me.",
+      "sentence_ar": "رسم ابني صورة لي.",
+      "usage_ar": "ماضي draw هو drew، لا drawed."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -610,7 +698,11 @@
       "arabic": "ارتدى",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "wore",
+      "sentence": "He wore a suit to the wedding.",
+      "sentence_ar": "ارتدى بدلة في حفل الزفاف.",
+      "usage_ar": "wore في الماضي، لا weared."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -619,7 +711,11 @@
       "arabic": "كسر",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "broke",
+      "sentence": "I broke my phone yesterday.",
+      "sentence_ar": "كسرت هاتفي أمس.",
+      "usage_ar": "ماضي break هو broke، لا breaked."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -628,7 +724,11 @@
       "arabic": "تحدّث",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "spoke",
+      "sentence": "We spoke English all day.",
+      "sentence_ar": "تحدّثنا الإنجليزية طوال اليوم.",
+      "usage_ar": "spoke to someone، وspoke English بلا حرف جر."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -637,7 +737,11 @@
       "arabic": "اختار",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "chose",
+      "sentence": "I chose the blue shirt.",
+      "sentence_ar": "اخترت القميص الأزرق.",
+      "usage_ar": "chose بحرف o واحد، والمضارع choose باثنين."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -646,7 +750,11 @@
       "arabic": "قال",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "said",
+      "sentence": "He said that he was tired.",
+      "sentence_ar": "قال إنه كان متعباً.",
+      "usage_ar": "said that …، ولا تقل He said me. قل He told me."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -655,7 +763,11 @@
       "arabic": "دفع",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "paid",
+      "sentence": "I paid for the tickets.",
+      "sentence_ar": "دفعت ثمن التذاكر.",
+      "usage_ar": "pay for الشيء، وتُكتب paid لا payed."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -664,7 +776,11 @@
       "arabic": "قابل",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "met",
+      "sentence": "I met my wife at university.",
+      "sentence_ar": "قابلت زوجتي في الجامعة.",
+      "usage_ar": "met someone بلا حرف جر: met my friend."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -673,7 +789,11 @@
       "arabic": "شعر",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "felt",
+      "sentence": "I felt sick after the trip.",
+      "sentence_ar": "شعرت بالمرض بعد الرحلة.",
+      "usage_ar": "بعدها صفة: felt tired، felt happy."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -682,7 +802,11 @@
       "arabic": "احتفظ",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "kept",
+      "sentence": "I kept all his letters.",
+      "sentence_ar": "احتفظت بكل رسائله.",
+      "usage_ar": "kept بلا حرف جر: kept the money."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -691,7 +815,11 @@
       "arabic": "نام",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "slept",
+      "sentence": "I slept for ten hours.",
+      "sentence_ar": "نمت 10 ساعات.",
+      "usage_ar": "slept for مع المدة."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -700,7 +828,11 @@
       "arabic": "غادر",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "left",
+      "sentence": "We left the house at eight.",
+      "sentence_ar": "غادرنا البيت في الساعة 8.",
+      "usage_ar": "left the house بلا from، وleft for = غادر متجهاً إلى."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -709,7 +841,11 @@
       "arabic": "فقد",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "lost",
+      "sentence": "I lost my keys again.",
+      "sentence_ar": "فقدت مفاتيحي مرة أخرى.",
+      "usage_ar": "lost تعني أيضاً «خسر» مباراة."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -718,7 +854,11 @@
       "arabic": "باع",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "sold",
+      "sentence": "My uncle sold his old car.",
+      "sentence_ar": "باع خالي سيارته القديمة.",
+      "usage_ar": "ماضي sell هو sold، لا selled."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -727,7 +867,11 @@
       "arabic": "أخبر",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "told",
+      "sentence": "He told me the news.",
+      "sentence_ar": "أخبرني بالخبر.",
+      "usage_ar": "told me بلا to: He told me، لا He said me."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -736,7 +880,11 @@
       "arabic": "أرسل",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "sent",
+      "sentence": "I sent you an email.",
+      "sentence_ar": "أرسلت لك بريداً إلكترونياً.",
+      "usage_ar": "sent someone something بلا to، أو sent it to someone."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -745,7 +893,11 @@
       "arabic": "أنفق / قضى",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "spent",
+      "sentence": "We spent a week in Rome.",
+      "sentence_ar": "قضينا أسبوعاً في روما.",
+      "usage_ar": "spent للمال والوقت: spent money، spent a week."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -754,7 +906,11 @@
       "arabic": "بدأ",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "began",
+      "sentence": "The lesson began at nine.",
+      "sentence_ar": "بدأ الدرس في الساعة 9.",
+      "usage_ar": "began في الماضي، وbegun للتام لاحقاً."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -763,7 +919,11 @@
       "arabic": "شرب",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "drank",
+      "sentence": "I drank a lot of water.",
+      "sentence_ar": "شربت الكثير من الماء.",
+      "usage_ar": "الماضي drank لا drunk في هذه الجملة."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -772,7 +932,11 @@
       "arabic": "غنّى",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "sang",
+      "sentence": "We sang together in the car.",
+      "sentence_ar": "غنّينا معاً في السيارة.",
+      "usage_ar": "sang في الماضي، لا singed."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -781,7 +945,11 @@
       "arabic": "سبح",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "swam",
+      "sentence": "I swam in the sea last summer.",
+      "sentence_ar": "سبحت في البحر الصيف الماضي.",
+      "usage_ar": "swam في الماضي، لا swimmed."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -790,7 +958,11 @@
       "arabic": "جلس",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "sat",
+      "sentence": "She sat next to me.",
+      "sentence_ar": "جلست بجانبي.",
+      "usage_ar": "sat next to أو sat on a chair."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -799,7 +971,11 @@
       "arabic": "أعطى",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "gave",
+      "sentence": "She gave me her number.",
+      "sentence_ar": "أعطتني رقمها.",
+      "usage_ar": "بعد did يعود الفعل: Did she give you …?"
     },
     {
       "group": "the_80_irregular_verbs",
@@ -808,7 +984,11 @@
       "arabic": "رنّ",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "rang",
+      "sentence": "The phone rang at midnight.",
+      "sentence_ar": "رنّ الهاتف في منتصف الليل.",
+      "usage_ar": "rang للهاتف والجرس، وتعني أيضاً «اتصل» في البريطانية."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -817,7 +997,11 @@
       "arabic": "جرى",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "ran",
+      "sentence": "I ran to the bus stop.",
+      "sentence_ar": "جريت إلى موقف الحافلة.",
+      "usage_ar": "ran في الماضي، لا runned."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -826,7 +1010,11 @@
       "arabic": "قاد",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "drove",
+      "sentence": "We drove to the beach.",
+      "sentence_ar": "قدنا السيارة إلى الشاطئ.",
+      "usage_ar": "drove to مكان."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -835,7 +1023,11 @@
       "arabic": "ركب",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "rode",
+      "sentence": "I rode a horse for the first time.",
+      "sentence_ar": "ركبت حصاناً لأول مرة.",
+      "usage_ar": "rode في الماضي، لا rided."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -844,7 +1036,11 @@
       "arabic": "كتب",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "wrote",
+      "sentence": "She wrote a letter to her mother.",
+      "sentence_ar": "كتبت رسالة إلى أمها.",
+      "usage_ar": "نقول wrote to للشخص: wrote to my friend."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -853,7 +1049,11 @@
       "arabic": "ارتفع",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "rose",
+      "sentence": "The sun rose at six.",
+      "sentence_ar": "أشرقت الشمس في الساعة 6.",
+      "usage_ar": "rise بلا مفعول: The price rose."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -862,7 +1062,11 @@
       "arabic": "ذهب",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "went",
+      "sentence": "I didn't go. I went home.",
+      "sentence_ar": "لم أذهب. ذهبت إلى البيت.",
+      "usage_ar": "بعد didn't يعود الفعل لأصله: didn't go، لا didn't went."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -871,7 +1075,11 @@
       "arabic": "أتى",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "came",
+      "sentence": "My friend came to my house.",
+      "sentence_ar": "جاء صديقي إلى بيتي.",
+      "usage_ar": "came to مكان، وcame home بلا to."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -880,7 +1088,11 @@
       "arabic": "كان لديه",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "had",
+      "sentence": "We had lunch at a restaurant.",
+      "sentence_ar": "تناولنا الغداء في مطعم.",
+      "usage_ar": "had تعني «امتلك» وأيضاً «تناول» طعاماً."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -889,7 +1101,11 @@
       "arabic": "فعل",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "did",
+      "sentence": "I did my homework.",
+      "sentence_ar": "أنجزت واجبي.",
+      "usage_ar": "did فعل، وأيضاً تأتي للسؤال: Did you go?"
     },
     {
       "group": "the_80_irregular_verbs",
@@ -898,7 +1114,11 @@
       "arabic": "صنع",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "made",
+      "sentence": "My mother made a cake.",
+      "sentence_ar": "صنعت أمي كعكة.",
+      "usage_ar": "make للصنع، وdo للعمل والمهام."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -907,7 +1127,11 @@
       "arabic": "أخذ",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "took",
+      "sentence": "I took a taxi to the airport.",
+      "sentence_ar": "أخذت سيارة أجرة إلى المطار.",
+      "usage_ar": "took a bus/taxi، وtook a photo."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -916,7 +1140,11 @@
       "arabic": "حصل على",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "got",
+      "sentence": "I got a letter yesterday.",
+      "sentence_ar": "تلقّيت رسالة أمس.",
+      "usage_ar": "got تعني حصل أو تلقّى، وgot home = وصل البيت."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -925,7 +1153,11 @@
       "arabic": "أعطى",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "gave",
+      "sentence": "She gave me her number.",
+      "sentence_ar": "أعطتني رقمها.",
+      "usage_ar": "بعد did يعود الفعل: Did she give you …?"
     },
     {
       "group": "the_80_irregular_verbs",
@@ -934,7 +1166,11 @@
       "arabic": "عرف",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "knew",
+      "sentence": "I knew the answer.",
+      "sentence_ar": "عرفت الإجابة.",
+      "usage_ar": "حرف k لا يُنطق: /njuː/."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -943,7 +1179,11 @@
       "arabic": "نما",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "grew",
+      "sentence": "I grew up in a village.",
+      "sentence_ar": "نشأت في قرية.",
+      "usage_ar": "grew up للإنسان، وgrew للنبات: The tree grew."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -952,7 +1192,11 @@
       "arabic": "وجد",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "found",
+      "sentence": "I found my keys in the car.",
+      "sentence_ar": "وجدت مفاتيحي في السيارة.",
+      "usage_ar": "found = وجد ما كان ضائعاً."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -961,7 +1205,11 @@
       "arabic": "أصبح",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "became",
+      "sentence": "He became a doctor.",
+      "sentence_ar": "أصبح طبيباً.",
+      "usage_ar": "became + اسم أو صفة: became famous."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -970,7 +1218,11 @@
       "arabic": "أكل",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "ate",
+      "sentence": "We ate fish for dinner.",
+      "sentence_ar": "أكلنا السمك على العشاء.",
+      "usage_ar": "تُنطق /et/ في البريطانية."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -979,7 +1231,11 @@
       "arabic": "سقط",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "fell",
+      "sentence": "I fell off my bike.",
+      "sentence_ar": "سقطت عن دراجتي.",
+      "usage_ar": "fell off شيء، وfell down على الأرض."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -988,7 +1244,11 @@
       "arabic": "نسي",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "forgot",
+      "sentence": "I forgot my passport!",
+      "sentence_ar": "نسيت جواز سفري!",
+      "usage_ar": "forgot to + فعل: forgot to call."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -997,7 +1257,11 @@
       "arabic": "فهم",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "understood",
+      "sentence": "I understood the lesson.",
+      "sentence_ar": "فهمت الدرس.",
+      "usage_ar": "understood بلا حرف جر."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1006,7 +1270,11 @@
       "arabic": "وقف",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "stood",
+      "sentence": "We stood in the rain.",
+      "sentence_ar": "وقفنا تحت المطر.",
+      "usage_ar": "stood up = نهض واقفاً."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1015,7 +1283,11 @@
       "arabic": "فاز",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "won",
+      "sentence": "Our team won the match.",
+      "sentence_ar": "فاز فريقنا بالمباراة.",
+      "usage_ar": "won the match، ولا تقل won the other team. قل beat."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1024,7 +1296,11 @@
       "arabic": "سمع",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "heard",
+      "sentence": "I heard a strange noise.",
+      "sentence_ar": "سمعت صوتاً غريباً.",
+      "usage_ar": "heard شيء يصل لأذنك، وlistened to عن قصد."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1033,7 +1309,11 @@
       "arabic": "أمسك",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "held",
+      "sentence": "She held the baby.",
+      "sentence_ar": "حملت الطفل.",
+      "usage_ar": "held تعني أمسك أو حمل بيده."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1042,7 +1322,11 @@
       "arabic": "بنى",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "built",
+      "sentence": "My grandfather built this house.",
+      "sentence_ar": "بنى جدي هذا البيت.",
+      "usage_ar": "built في الماضي، لا builded."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1051,7 +1335,11 @@
       "arabic": "تعلّم",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "learned",
+      "sentence": "I learned to swim as a child.",
+      "sentence_ar": "تعلّمت السباحة وأنا طفل.",
+      "usage_ar": "الشكلان صحيحان، وlearnt بريطانية أكثر."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1060,7 +1348,11 @@
       "arabic": "أقرض",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "lent",
+      "sentence": "I lent my friend some money.",
+      "sentence_ar": "أقرضت صديقي بعض المال.",
+      "usage_ar": "lend تعطي، وborrow تأخذ. لا تخلطهما."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1069,7 +1361,11 @@
       "arabic": "قصد",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "meant",
+      "sentence": "What did you mean? I meant this one.",
+      "sentence_ar": "ماذا قصدت؟ قصدت هذا.",
+      "usage_ar": "بعد did يعود الفعل: What did you mean?"
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1078,7 +1374,11 @@
       "arabic": "استيقظ",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "woke",
+      "sentence": "I woke up at five.",
+      "sentence_ar": "استيقظت في الساعة 5.",
+      "usage_ar": "تأتي غالباً مع up: woke up."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1087,7 +1387,11 @@
       "arabic": "ارتدى",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "wore",
+      "sentence": "He wore a suit to the wedding.",
+      "sentence_ar": "ارتدى بدلة في حفل الزفاف.",
+      "usage_ar": "wore في الماضي، لا weared."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1096,7 +1400,11 @@
       "arabic": "رمى",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "threw",
+      "sentence": "He threw the ball to me.",
+      "sentence_ar": "رمى الكرة إليّ.",
+      "usage_ar": "threw تُنطق مثل through: /θruː/."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1105,7 +1413,11 @@
       "arabic": "طار",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "flew",
+      "sentence": "We flew to Dubai last year.",
+      "sentence_ar": "سافرنا بالطائرة إلى دبي العام الماضي.",
+      "usage_ar": "flew to مكان تعني سافر بالطائرة."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1114,7 +1426,11 @@
       "arabic": "سرق",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "stole",
+      "sentence": "Someone stole my bag.",
+      "sentence_ar": "سرق أحدهم حقيبتي.",
+      "usage_ar": "stole الشيء، أما الشخص فنقول robbed."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1123,7 +1439,11 @@
       "arabic": "أشرق",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "shone",
+      "sentence": "The sun shone all day.",
+      "sentence_ar": "أشرقت الشمس طوال اليوم.",
+      "usage_ar": "تُنطق /ʃɒn/ في البريطانية."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1132,7 +1452,11 @@
       "arabic": "تحمّل",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "bore",
+      "sentence": "She bore the pain well.",
+      "sentence_ar": "تحمّلت الألم جيداً.",
+      "usage_ar": "كلمة نادرة، وفي الكلام اليومي نقول can't stand للشيء الذي لا نتحمّله."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1141,7 +1465,11 @@
       "arabic": "هزم",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "beat",
+      "sentence": "We beat them three to one.",
+      "sentence_ar": "هزمناهم 3 مقابل 1.",
+      "usage_ar": "beat للفريق، وwon للمباراة."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1150,7 +1478,11 @@
       "arabic": "أطعم",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "fed",
+      "sentence": "I fed the cat this morning.",
+      "sentence_ar": "أطعمت القطة هذا الصباح.",
+      "usage_ar": "fed + الحيوان أو الطفل."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1159,7 +1491,11 @@
       "arabic": "قاد",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "led",
+      "sentence": "Our teacher led the trip.",
+      "sentence_ar": "قاد معلّمنا الرحلة.",
+      "usage_ar": "led تُنطق /led/ وتُكتب بلا a."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1168,7 +1504,11 @@
       "arabic": "أضاء",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "lit",
+      "sentence": "He lit a candle.",
+      "sentence_ar": "أشعل شمعة.",
+      "usage_ar": "lit للنار والشمعة."
     },
     {
       "group": "the_80_irregular_verbs",
@@ -1177,7 +1517,11 @@
       "arabic": "استلقى",
       "example": null,
       "group_label_ar": "الأفعال الشاذة الثمانون",
-      "group_label_en": "The 80 Irregular Verbs"
+      "group_label_en": "The 80 Irregular Verbs",
+      "target": "lay",
+      "sentence": "I lay on the beach all day.",
+      "sentence_ar": "استلقيت على الشاطئ طوال اليوم.",
+      "usage_ar": "lay هنا ماضي lie، لا تخلطها بـlay بمعنى يضع."
     },
     {
       "group": "travel_and_transport",
@@ -1186,7 +1530,11 @@
       "arabic": "رحلة (الطريق)",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "journey",
+      "sentence": "The journey took six hours.",
+      "sentence_ar": "استغرقت الرحلة 6 ساعات.",
+      "usage_ar": "journey للطريق نفسه من مكان إلى مكان."
     },
     {
       "group": "travel_and_transport",
@@ -1195,7 +1543,11 @@
       "arabic": "رحلة قصيرة",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "trip",
+      "sentence": "We went on a trip to the sea.",
+      "sentence_ar": "ذهبنا في رحلة إلى البحر.",
+      "usage_ar": "go on a trip، وهي رحلة قصيرة للذهاب والعودة."
     },
     {
       "group": "travel_and_transport",
@@ -1204,7 +1556,11 @@
       "arabic": "رحلة جوية",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "flight",
+      "sentence": "Our flight was at midnight.",
+      "sentence_ar": "كانت رحلتنا الجوية في منتصف الليل.",
+      "usage_ar": "flight للرحلة بالطائرة فقط."
     },
     {
       "group": "travel_and_transport",
@@ -1213,7 +1569,11 @@
       "arabic": "طائرة",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "plane",
+      "sentence": "The plane landed on time.",
+      "sentence_ar": "هبطت الطائرة في موعدها.",
+      "usage_ar": "نقول by plane أو on the plane."
     },
     {
       "group": "travel_and_transport",
@@ -1222,7 +1582,11 @@
       "arabic": "مطار",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "airport",
+      "sentence": "We arrived at the airport early.",
+      "sentence_ar": "وصلنا إلى المطار مبكراً.",
+      "usage_ar": "arrive at the airport، لا arrive to."
     },
     {
       "group": "travel_and_transport",
@@ -1231,7 +1595,11 @@
       "arabic": "بوابة",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "gate",
+      "sentence": "Our flight leaves from gate 12.",
+      "sentence_ar": "تغادر رحلتنا من البوابة 12.",
+      "usage_ar": "gate مع رقم بلا the: gate 12."
     },
     {
       "group": "travel_and_transport",
@@ -1240,7 +1608,11 @@
       "arabic": "تذكرة",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "ticket",
+      "sentence": "I bought a ticket online.",
+      "sentence_ar": "اشتريت تذكرة عبر الإنترنت.",
+      "usage_ar": "a ticket to مكان: a ticket to Paris."
     },
     {
       "group": "travel_and_transport",
@@ -1249,7 +1621,11 @@
       "arabic": "جواز سفر",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "passport",
+      "sentence": "I forgot my passport at home.",
+      "sentence_ar": "نسيت جواز سفري في البيت.",
+      "usage_ar": "تقول للموظف: Here is my passport."
     },
     {
       "group": "travel_and_transport",
@@ -1258,7 +1634,11 @@
       "arabic": "أمتعة",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "luggage",
+      "sentence": "We had a lot of luggage.",
+      "sentence_ar": "كان معنا الكثير من الأمتعة.",
+      "usage_ar": "غير معدودة: a lot of luggage، لا luggages."
     },
     {
       "group": "travel_and_transport",
@@ -1267,7 +1647,11 @@
       "arabic": "حقيبة سفر",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "suitcase",
+      "sentence": "My suitcase was very heavy.",
+      "sentence_ar": "كانت حقيبة سفري ثقيلة جداً.",
+      "usage_ar": "معدودة: two suitcases."
     },
     {
       "group": "travel_and_transport",
@@ -1276,7 +1660,11 @@
       "arabic": "رصيف القطار",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "platform",
+      "sentence": "The train left from platform 3.",
+      "sentence_ar": "غادر القطار من الرصيف 3.",
+      "usage_ar": "platform للقطار، مع رقم بلا the."
     },
     {
       "group": "travel_and_transport",
@@ -1285,7 +1673,11 @@
       "arabic": "قطار",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "train",
+      "sentence": "We went to London by train.",
+      "sentence_ar": "ذهبنا إلى لندن بالقطار.",
+      "usage_ar": "by train بلا the، وon the train."
     },
     {
       "group": "travel_and_transport",
@@ -1294,7 +1686,11 @@
       "arabic": "تأخير",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "delay",
+      "sentence": "There was a long delay at the airport.",
+      "sentence_ar": "كان هناك تأخير طويل في المطار.",
+      "usage_ar": "a delay اسم، وdelayed صفة: The flight is delayed."
     },
     {
       "group": "travel_and_transport",
@@ -1303,7 +1699,11 @@
       "arabic": "في الموعد",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "on time",
+      "sentence": "The train arrived on time.",
+      "sentence_ar": "وصل القطار في الموعد.",
+      "usage_ar": "on time = في الموعد تماماً، وin time = قبل فوات الأوان."
     },
     {
       "group": "travel_and_transport",
@@ -1312,7 +1712,11 @@
       "arabic": "يصل",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "arrive",
+      "sentence": "What time do we arrive?",
+      "sentence_ar": "متى نصل؟",
+      "usage_ar": "arrive in مدينة وarrive at مكان، ولا تقل arrive to."
     },
     {
       "group": "travel_and_transport",
@@ -1321,7 +1725,11 @@
       "arabic": "يغادر",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "depart",
+      "sentence": "Trains depart every hour.",
+      "sentence_ar": "تغادر القطارات كل ساعة.",
+      "usage_ar": "depart رسمية في المطار والمحطة، وleave في الكلام."
     },
     {
       "group": "travel_and_transport",
@@ -1330,7 +1738,11 @@
       "arabic": "يحجز",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "book",
+      "sentence": "I want to book a hotel room.",
+      "sentence_ar": "أريد أن أحجز غرفة في فندق.",
+      "usage_ar": "book فعل بمعنى يحجز، وليس الكتاب فقط."
     },
     {
       "group": "travel_and_transport",
@@ -1339,7 +1751,11 @@
       "arabic": "يلغي",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "cancel",
+      "sentence": "Did they cancel the flight?",
+      "sentence_ar": "هل ألغوا الرحلة؟",
+      "usage_ar": "في البريطانية: cancelled بلامين."
     },
     {
       "group": "travel_and_transport",
@@ -1348,7 +1764,11 @@
       "arabic": "في الخارج",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "abroad",
+      "sentence": "Did you travel abroad last year?",
+      "sentence_ar": "هل سافرت إلى الخارج العام الماضي؟",
+      "usage_ar": "بلا to: travel abroad، لا travel to abroad."
     },
     {
       "group": "travel_and_transport",
@@ -1357,7 +1777,11 @@
       "arabic": "حدود",
       "example": null,
       "group_label_ar": "السفر والمواصلات",
-      "group_label_en": "Travel and Transport"
+      "group_label_en": "Travel and Transport",
+      "target": "border",
+      "sentence": "We crossed the border at night.",
+      "sentence_ar": "عبرنا الحدود ليلاً.",
+      "usage_ar": "cross the border = يعبر الحدود."
     },
     {
       "group": "travel_phrases",
@@ -1366,7 +1790,11 @@
       "arabic": "أود حجز تذكرة",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": null,
+      "sentence": "Good morning. I'd like to book a ticket.",
+      "sentence_ar": "صباح الخير. أود حجز تذكرة.",
+      "usage_ar": "تقولها في بداية الكلام مع موظف التذاكر."
     },
     {
       "group": "travel_phrases",
@@ -1375,7 +1803,11 @@
       "arabic": "متى تغادر؟",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": null,
+      "sentence": "This train to York. What time does it leave?",
+      "sentence_ar": "هذا القطار إلى يورك. متى يغادر؟",
+      "usage_ar": "تسأل بها عن موعد مغادرة القطار أو الحافلة."
     },
     {
       "group": "travel_phrases",
@@ -1384,7 +1816,11 @@
       "arabic": "ذهاب فقط من فضلك",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": "A single, please",
+      "sentence": "A single, please. — Ten pounds.",
+      "sentence_ar": "ذهاب فقط من فضلك. — 10 جنيهات.",
+      "usage_ar": "تطلب بها تذكرة ذهاب فقط بلا عودة."
     },
     {
       "group": "travel_phrases",
@@ -1393,7 +1829,11 @@
       "arabic": "متى تصل؟",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": null,
+      "sentence": "What time does it arrive in Manchester?",
+      "sentence_ar": "متى يصل إلى مانشستر؟",
+      "usage_ar": "تسأل بها عن موعد الوصول."
     },
     {
       "group": "travel_phrases",
@@ -1402,7 +1842,11 @@
       "arabic": "ذهاب وعودة من فضلك",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": "A return, please",
+      "sentence": "A return, please. To Leeds.",
+      "sentence_ar": "ذهاب وعودة من فضلك. إلى ليدز.",
+      "usage_ar": "تطلب بها تذكرة ذهاب وعودة."
     },
     {
       "group": "travel_phrases",
@@ -1411,7 +1855,11 @@
       "arabic": "أي رصيف؟",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": "Which platform",
+      "sentence": "Which platform? — Platform 4.",
+      "sentence_ar": "أي رصيف؟ — الرصيف 4.",
+      "usage_ar": "سؤال قصير في المحطة عن مكان القطار."
     },
     {
       "group": "travel_phrases",
@@ -1420,7 +1868,11 @@
       "arabic": "كم سعر تذكرة إلى…؟",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": null,
+      "sentence": "How much is a ticket to Oxford?",
+      "sentence_ar": "كم سعر تذكرة إلى أكسفورد؟",
+      "usage_ar": "تسأل بها عن السعر، وبعدها اسم المكان."
     },
     {
       "group": "travel_phrases",
@@ -1429,7 +1881,11 @@
       "arabic": "هل الرحلة في موعدها؟",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": null,
+      "sentence": "Is the flight on time? — Yes, it is.",
+      "sentence_ar": "هل الرحلة في موعدها؟ — نعم.",
+      "usage_ar": "تسأل بها في المطار قبل الصعود."
     },
     {
       "group": "travel_phrases",
@@ -1438,7 +1894,11 @@
       "arabic": "هل يوجد قطار مباشر؟",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": null,
+      "sentence": "Is there a direct train to Bath?",
+      "sentence_ar": "هل يوجد قطار مباشر إلى باث؟",
+      "usage_ar": "تسأل بها لتعرف هل تحتاج إلى تغيير القطار."
     },
     {
       "group": "travel_phrases",
@@ -1447,7 +1907,11 @@
       "arabic": "الرحلة متأخرة",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": null,
+      "sentence": "Sorry, the flight is delayed.",
+      "sentence_ar": "آسف، الرحلة متأخرة.",
+      "usage_ar": "تسمعها في المطار عند تأخر الطائرة."
     },
     {
       "group": "travel_phrases",
@@ -1456,7 +1920,11 @@
       "arabic": "أين أغيّر؟",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": null,
+      "sentence": "Where do I change for Glasgow?",
+      "sentence_ar": "أين أغيّر القطار إلى غلاسكو؟",
+      "usage_ar": "تسأل بها عن المحطة التي تبدّل فيها القطار."
     },
     {
       "group": "travel_phrases",
@@ -1465,7 +1933,11 @@
       "arabic": "فاتني القطار",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": null,
+      "sentence": "I'm late. I missed my train.",
+      "sentence_ar": "تأخرت. فاتني القطار.",
+      "usage_ar": "miss = يفوته، لا تقول lost my train."
     },
     {
       "group": "travel_phrases",
@@ -1474,7 +1946,11 @@
       "arabic": "كم تستغرق؟",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": null,
+      "sentence": "How long does it take to the city centre?",
+      "sentence_ar": "كم يستغرق الطريق إلى وسط المدينة؟",
+      "usage_ar": "تسأل بها عن مدة الرحلة لا عن موعدها."
     },
     {
       "group": "travel_phrases",
@@ -1483,7 +1959,11 @@
       "arabic": "أين البوابة؟",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": null,
+      "sentence": "Excuse me, where is the gate?",
+      "sentence_ar": "عفواً، أين البوابة؟",
+      "usage_ar": "تسأل بها في المطار، وابدأ بـExcuse me."
     },
     {
       "group": "travel_phrases",
@@ -1492,7 +1972,11 @@
       "arabic": "هل هذا المقعد فارغ؟",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": null,
+      "sentence": "Excuse me, is this seat free?",
+      "sentence_ar": "عفواً، هل هذا المقعد فارغ؟",
+      "usage_ar": "تسأل بها قبل أن تجلس بجانب شخص."
     },
     {
       "group": "travel_phrases",
@@ -1501,7 +1985,11 @@
       "arabic": "هل يمكنني رؤية جوازك؟",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": null,
+      "sentence": "Can I see your passport, please?",
+      "sentence_ar": "هل يمكنني رؤية جوازك من فضلك؟",
+      "usage_ar": "تسمعها من الموظف، فتقول: Here you are."
     },
     {
       "group": "travel_phrases",
@@ -1510,7 +1998,11 @@
       "arabic": "لدي حقيبة واحدة",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": null,
+      "sentence": "I have one suitcase and one bag.",
+      "sentence_ar": "لديّ حقيبة سفر واحدة وحقيبة يد.",
+      "usage_ar": "تقولها عند تسليم الأمتعة في المطار."
     },
     {
       "group": "travel_phrases",
@@ -1519,7 +2011,11 @@
       "arabic": "رحلة سعيدة!",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": null,
+      "sentence": "Bye, Mum! — Have a good trip!",
+      "sentence_ar": "مع السلامة يا أمي! — رحلة سعيدة!",
+      "usage_ar": "تقولها لمن يسافر عند الوداع."
     },
     {
       "group": "travel_phrases",
@@ -1528,7 +2024,11 @@
       "arabic": "إلى أين تسافر؟",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": null,
+      "sentence": "Where are you travelling to? — To Rome.",
+      "sentence_ar": "إلى أين تسافر؟ — إلى روما.",
+      "usage_ar": "تسأل بها مسافراً، والجواب To + المكان."
     },
     {
       "group": "travel_phrases",
@@ -1537,7 +2037,11 @@
       "arabic": "كيف كانت رحلتك؟",
       "example": null,
       "group_label_ar": "عبارات السفر",
-      "group_label_en": "Travel Phrases"
+      "group_label_en": "Travel Phrases",
+      "target": null,
+      "sentence": "Welcome home! How was your journey?",
+      "sentence_ar": "أهلاً بعودتك! كيف كانت رحلتك؟",
+      "usage_ar": "تسأل بها من وصل للتو من سفر."
     }
   ],
   "minimal_pairs": [
@@ -2180,7 +2684,7 @@
             "title_ar": "ابنِ نصّك أنت",
             "title_en": "Build Your Version",
             "text_en": [
-              "The story test. A real story has a problem in it. Section 5 is the one that turns a list of facts into something a listener actually wants to hear. Do not skip it, even if the problem was small."
+              "The story test. A real story has a problem in it. Part 5 of your outline is the one that turns a list of facts into something a listener actually wants to hear. Do not skip it, even if the problem was small."
             ]
           },
           {

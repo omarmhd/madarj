@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import axios from 'axios';
 import { Check, Circle, Lightbulb, PenLine } from 'lucide-react';
 import Listen from '@/Components/Listen';
@@ -46,6 +46,8 @@ interface Props {
   /** Everything saved for this week, by day — the save sends all of it back */
   saved: Record<string, string> | null;
   onProgress?: (done: number, total: number) => void;
+  /** Called after a successful save — and at once if already saved */
+  onComplete?: () => void;
 }
 
 /** Sentences as the learner wrote them — split after . ! ? */
@@ -56,7 +58,7 @@ function sentencesOf(text: string): string[] {
     .filter((s) => /[a-z]/i.test(s));
 }
 
-export default function Imitate({ weekNumber, item, saved, onProgress }: Props) {
+export default function Imitate({ weekNumber, item, saved, onProgress, onComplete }: Props) {
   const tr = useT();
   const key = `day${item.day}`;
 
@@ -64,6 +66,12 @@ export default function Imitate({ weekNumber, item, saved, onProgress }: Props) 
   const [savedText, setSavedText] = useState(saved?.[key] ?? '');
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState(false);
+
+  // Already written on an earlier visit — the task is complete as it stands
+  useEffect(() => {
+    if (savedText.trim()) onComplete?.();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const sentences = useMemo(() => sentencesOf(text), [text]);
 
@@ -105,6 +113,7 @@ export default function Imitate({ weekNumber, item, saved, onProgress }: Props) 
       });
       setSavedText(text.trim());
       onProgress?.(1, 1);
+      onComplete?.();
     } catch {
       setError(true);
     } finally {

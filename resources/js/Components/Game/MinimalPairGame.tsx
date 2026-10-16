@@ -1,8 +1,9 @@
-import { Check, Volume1, Volume2 } from 'lucide-react';
-import { useEffect, useCallback, useMemo, useState } from 'react';
+import { Check, HelpCircle, Volume1, Volume2 } from 'lucide-react';
+import { useEffect, useCallback, useMemo, useRef, useState } from 'react';
 import Listen from '@/Components/Listen';
 import { useMySpeech } from '@/hooks/useSpeech';
 import { useT } from '@/lib/i18n';
+import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS } from '@/lib/autoAdvance';
 import SayIt, { type SayItem } from '@/Components/Game/SayIt';
 import MouthDiagram from '@/Components/Game/MouthDiagram';
 import { soundsIn } from '@/lib/articulation';
@@ -111,6 +112,7 @@ export default function MinimalPairGame({ groups, target: targetProp, onFinish, 
   // The day's plan can send the learner straight to production
   const [phase, setPhase] = useState<Phase>(production ? 'say' : 'idle');
   const [picked, setPicked] = useState<'a' | 'b' | null>(null);
+  const [hintOpen, setHintOpen] = useState<boolean | null>(null);
   const [correct, setCorrect] = useState(0);
   /** الأخطاء — تُعرض في النهاية ليعرف أي أزواج يحتاج تدريباً */
   const [missed, setMissed] = useState<Question[]>([]);
@@ -156,6 +158,19 @@ export default function MinimalPairGame({ groups, target: targetProp, onFinish, 
     }
   };
 
+  // Moves on by itself — right in 3s, wrong in 5s to hear the pair again
+  const autoMs = picked !== null && current && picked === current.spoken ? AUTO_RIGHT_MS : AUTO_REVEAL_MS;
+  const nextRef = useRef<() => void>();
+
+  // From the second question on, the word plays by itself — the first
+  // tap gave the browser permission, and tapping "listen" twelve times
+  // was work with no learning in it
+  useEffect(() => {
+    if (index > 0 && phase === 'idle' && current) play();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [index]);
+  useAutoAdvance(phase === 'answered', autoMs, () => nextRef.current?.());
+
   const next = () => {
     if (index + 1 >= total) {
       setPhase('done');
@@ -166,6 +181,7 @@ export default function MinimalPairGame({ groups, target: targetProp, onFinish, 
     setPicked(null);
     setPhase('idle');
   };
+  nextRef.current = next;
 
   const restart = () => {
     setIndex(0);
@@ -307,166 +323,124 @@ export default function MinimalPairGame({ groups, target: targetProp, onFinish, 
 
   // The two sounds being separated, read from "/ɪ/ vs /iː/" or the group title
   const mouths = soundsIn(current.contrast.ipa ?? current.contrast.label_en);
+  const hasHint = !!current.contrast.hint_ar || mouths.length > 0;
+  // Closed by default: the pairs were just heard, and the drawing pushed the game off-screen
+  const showHint = hintOpen ?? false;
+  const right = picked === current.spoken;
 
   return (
-    <div className="rounded-xl border bg-white p-6 shadow-sm">
-      {/* الرأس: التقدّم والمجموعة */}
-      <div className="mb-6 flex items-center justify-between">
+    <div>
+      {/* One line: the contrast, and where you are */}
+      <div className="flex items-center justify-between gap-3">
         <div className="min-w-0">
-          {/* اسم التمييز بالعربية أولاً — الإنجليزيّ عنوان الكتاب
-              لا تعليمة، ومبتدئ اليوم الأول لا يقرؤه */}
-          <p className="truncate font-semibold text-slate-900">
+          <p className="truncate text-sm font-semibold text-slate-900">
             {current.contrast.label_ar ?? current.contrast.label_en}
           </p>
-          <p className="mt-0.5 font-mono text-xs text-violet-700" dir="ltr">
-            {current.pair.ipa}
-            {current.contrast.label_ar && (
-              <span className="ms-2 font-sans text-slate-400">
-                {current.contrast.label_en}
-              </span>
-            )}
-          </p>
+          <p className="mt-0.5 font-mono text-sm text-violet-700" dir="ltr">{current.pair.ipa}</p>
         </div>
-        <div className="text-sm text-slate-500">
-          {index + 1} / {total}
-          <span className="me-3 font-semibold text-emerald-600"><Check aria-hidden size={15} className="inline-block align-[-3px]" /> {correct}</span>
-        </div>
+        <span className="shrink-0 rounded-full bg-violet-50 px-3 py-1 text-sm font-semibold text-violet-800">
+          {tr('السؤال')} {index + 1} {tr('من')} {total}
+        </span>
+      </div>
+      <div className="mt-2 flex gap-1" aria-hidden>
+        {Array.from({ length: total }, (_, k) => (
+          <span key={k} className={`h-1 flex-1 rounded-full ${k < index ? 'bg-violet-500' : k === index ? 'bg-violet-300' : 'bg-slate-200'}`} />
+        ))}
       </div>
 
-      {/*
-        سطر التدريب — قبل الاستماع لا بعده.
-
-        الاسم يقول أيّ تمييزٍ هذا، وهذا السطر يقول ما الفرق وكيف
-        تصنعه: أيّ صوتٍ عربيٍّ يقابله، والحركة الواحدة التي تُغيَّر.
-        وبدونه يسمع المبتدئ صوتين متشابهين ويحزر.
-
-        ويظهر عند أول سؤال في المجموعة، ويبقى مطويّاً بعده — فالقراءة
-        مرّةٌ والتدريب اثنتا عشرة.
-      */}
-      {(current.contrast.hint_ar || mouths.length > 0) && (
-        <details
-          open={firstOfGroup}
-          className="mb-5 rounded-xl bg-violet-50/70 ring-1 ring-violet-100"
-        >
-          <summary
-            className="cursor-pointer list-none px-4 py-2.5 text-xs font-bold text-violet-900
-                       marker:content-none"
+      {/* The difference — a small button, open by itself only on a group's first question */}
+      {hasHint && (
+        <div className="mt-3">
+          <button
+            onClick={() => setHintOpen(!showHint)}
+            className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1 text-sm font-medium text-slate-700 transition hover:bg-slate-200"
           >
-            {tr('ما الفرق بين الصوتين؟')}
-          </summary>
-          {current.contrast.hint_ar && (
-            <p className="px-4 pb-3.5 text-xs leading-relaxed text-slate-700">
-              {current.contrast.hint_ar}
-            </p>
-          )}
-          {/* Drawn, not spoken: hearing the two words here would answer the question */}
-          {mouths.length > 0 && (
-            <div className="px-3 pb-3">
-              <MouthDiagram sounds={mouths} />
+            <HelpCircle aria-hidden size={15} /> {tr('ما الفرق؟')}
+          </button>
+          {showHint && (
+            <div className="mt-2 rounded-xl bg-violet-50/70 p-3">
+              {current.contrast.hint_ar && (
+                <p className="text-sm leading-relaxed text-slate-700">{current.contrast.hint_ar}</p>
+              )}
+              {/* Drawn, not spoken: hearing the two words here would answer the question */}
+              {mouths.length > 0 && <div className="mt-2"><MouthDiagram sounds={mouths} /></div>}
             </div>
           )}
-        </details>
-      )}
-
-      {/* الشريط الداخلي يُخفى حين يحمله شريط الصفحة */}
-      {!onProgress && (
-        <div className="mb-8 h-1.5 overflow-hidden rounded-full bg-slate-100">
-          <div
-            className="h-full rounded-full bg-violet-500 transition-all duration-300"
-            style={{ width: `${(index / total) * 100}%` }}
-          />
         </div>
       )}
 
-      {/* زر التشغيل */}
-      <div className="mb-8 text-center">
+      {/* Listen */}
+      <div className="my-6 flex items-center justify-center gap-3">
         <button
           onClick={() => play(0.8)}
           disabled={speaking}
-          className="mx-auto flex h-24 w-24 items-center justify-center rounded-full
-                     bg-violet-600 text-white shadow-lg transition
-                     hover:bg-violet-700 disabled:opacity-60"
-          aria-label={tr("استمع")}
+          aria-label={tr('استمع')}
+          className={`relative grid h-16 w-16 place-items-center rounded-full bg-violet-600 text-white shadow-md transition
+                      hover:bg-violet-700 active:scale-95 ${speaking ? 'ring-8 ring-violet-200' : ''}`}
         >
-          {speaking ? <Volume1 size={40} strokeWidth={1.5} /> : <Volume2 size={40} strokeWidth={1.5} />}
+          {speaking ? <Volume1 size={28} /> : <Volume2 size={28} />}
         </button>
-
-        <p className="mt-3 text-sm text-slate-600">
-          {phase === 'idle' ? tr('اضغط للاستماع') : tr('أي كلمة سمعت؟')}
-        </p>
-
-        {phase !== 'idle' && (
-          <button
-            onClick={() => play(0.6)}
-            className="mt-2 text-xs text-slate-500 underline hover:text-slate-700"
-          >
-            {tr('أبطأ')}
-          </button>
-        )}
+        <div className="text-start">
+          <p className="text-base font-semibold text-slate-800">
+            {phase === 'idle' ? tr('اضغط واستمع') : tr('أي كلمة سمعت؟')}
+          </p>
+          {phase !== 'idle' && (
+            <button onClick={() => play(0.6)} className="mt-0.5 text-sm font-medium text-violet-700 underline">
+              {tr('أبطأ')}
+            </button>
+          )}
+        </div>
       </div>
 
-      {/* الخياران */}
-      <div className="grid grid-cols-2 gap-4" dir="ltr">
+      {/* The two words */}
+      <div className="grid grid-cols-2 gap-3" dir="ltr">
         {(['a', 'b'] as const).map((side) => {
           const word = side === 'a' ? current.pair.word_a : current.pair.word_b;
           const isPicked = picked === side;
           const isRight = current.spoken === side;
           const revealed = phase === 'answered';
 
-          let style = 'border-slate-200 bg-white hover:border-violet-400 hover:bg-violet-50';
-          if (revealed && isRight) style = 'border-emerald-500 bg-emerald-50';
-          else if (revealed && isPicked) style = 'border-rose-400 bg-rose-50';
-          else if (revealed) style = 'border-slate-200 bg-white opacity-50';
+          let style = 'bg-white ring-1 ring-slate-200 hover:ring-2 hover:ring-violet-400';
+          if (revealed && isRight) style = 'bg-emerald-50 ring-2 ring-emerald-500 text-emerald-800';
+          else if (revealed && isPicked) style = 'bg-rose-50 ring-2 ring-rose-400 text-rose-800';
+          else if (revealed) style = 'bg-white ring-1 ring-slate-200 opacity-40';
 
           return (
             <button
               key={side}
               onClick={() => pick(side)}
               disabled={phase === 'idle' || revealed}
-              className={`rounded-xl border-2 px-4 py-6 text-xl font-semibold
-                          transition disabled:cursor-not-allowed ${style}`}
+              className={`flex h-20 items-center justify-center gap-2 rounded-2xl text-2xl font-bold transition
+                          active:scale-[.98] disabled:cursor-not-allowed ${style}`}
             >
               {word}
-              {revealed && isRight && <span className="me-2 text-emerald-600"><Check aria-hidden size={16} /></span>}
+              {revealed && isRight && <Check aria-hidden size={20} className="text-emerald-600" />}
             </button>
           );
         })}
       </div>
 
-      {/* بعد الإجابة */}
+      {/* After the answer: one line, then the time bar */}
       {phase === 'answered' && (
-        <div className="mt-6 text-center">
-          <p
-            className={`mb-4 font-medium ${
-              picked === current.spoken ? 'text-emerald-700' : 'text-rose-700'
-            }`}
-          >
-            {picked === current.spoken
-              ? tr('صحيح')
-              : `كانت «${current.spoken === 'a' ? current.pair.word_a : current.pair.word_b}»`}
-          </p>
-
-          {/* سماع الكلمتين متتاليتين — أهم لحظة تعليمية في اللعبة */}
-          <div className="mb-4 flex justify-center gap-2" dir="ltr">
+        <div className="mt-4">
+          <div className="flex items-center justify-between gap-3">
+            <p className={`font-semibold ${right ? 'text-emerald-700' : 'text-rose-700'}`}>
+              {right ? tr('صحيح') : `كانت «${current.spoken === 'a' ? current.pair.word_a : current.pair.word_b}»`}
+            </p>
+            {/* The two words in turn — the moment the ear learns the difference */}
             <button
               onClick={() => {
-                // ببطء ثم بفاصل: الأذن تحتاج صمتاً بين الصوتين لتقارن
                 say(current.pair.word_a, { slow: true });
                 setTimeout(() => say(current.pair.word_b, { slow: true }), 1100);
               }}
-              className="rounded-lg bg-slate-100 px-4 py-2 text-sm hover:bg-slate-200"
+              className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-200"
             >
-              <Volume2 aria-hidden size={15} className="inline-block align-[-3px]" /> {tr('اسمع الاثنتين متتاليتين')}
+              <Volume2 aria-hidden size={15} /> {tr('اسمع الاثنتين')}
             </button>
           </div>
-
-          <button
-            onClick={next}
-            className="rounded-lg bg-slate-900 px-8 py-2.5 font-medium text-white
-                       hover:bg-slate-800"
-          >
-            {index + 1 >= total ? tr('النتيجة') : tr('التالي')}
-          </button>
+          <div key={index}>
+            <Countdown ms={autoMs} tone={right ? 'emerald' : 'rose'} />
+          </div>
         </div>
       )}
     </div>

@@ -1,6 +1,7 @@
 import { Check } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS, AUTO_RETRY_MS } from '@/lib/autoAdvance';
 import { commonError } from '@/lib/commonErrors';
 import { useT } from '@/lib/i18n';
 
@@ -71,14 +72,19 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
   const total = exercises.length;
   const done = index >= total;
 
-  const check = async () => {
-    if (value === '' || value === null) return;
+  /*
+   * A choice question checks itself the moment an option is tapped —
+   * a second tap on «تحقّق» added nothing but a delay. So `check` takes
+   * the value directly instead of waiting for state to settle.
+   */
+  const check = async (v: any = value) => {
+    if (v === '' || v === null || checking) return;
 
     setChecking(true);
     try {
       const { data } = await axios.post<Result>(
         `/exercises/${current.id}/check`,
-        { response: value },
+        { response: v },
       );
 
       setResult(data);
@@ -108,6 +114,16 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
     setValue('');
     setResult(null);
   };
+
+  /*
+   * No buttons after an answer: right → next in 3s; first miss → a
+   * clean second try in 1.5s; second miss (answer revealed) → next in 5s.
+   * Declared above the early return, like every hook here.
+   */
+  const ans = result !== null;
+  const final = ans && (result!.correct || !!result!.reveal);
+  const autoMs = ans ? (result!.correct ? AUTO_RIGHT_MS : result!.reveal ? AUTO_REVEAL_MS : AUTO_RETRY_MS) : 0;
+  useAutoAdvance(ans, autoMs, () => (final ? next() : retry()));
 
   // Reports position to the parent's single progress bar. Must stay above
   // the early return below: a hook skipped on the result screen crashes
@@ -186,10 +202,24 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
             <p className="mt-0.5 text-xs text-slate-500">{tr(INSTRUCTIONS[current.type])}</p>
           </div>
 
-          <span className="shrink-0 text-sm text-slate-500">
-            {index + 1} / {total}
-            <span className="me-3 font-semibold text-emerald-600"><Check aria-hidden size={15} className="inline-block align-[-3px]" /> {score}</span>
+        </div>
+
+        {/* Where you are, said in words, with a dot per question */}
+        <div className="mt-3 flex items-center justify-between gap-3">
+          <span className="rounded-full bg-violet-50 px-3 py-1 text-sm font-semibold text-violet-800">
+            {tr('السؤال')} {index + 1} {tr('من')} {total}
           </span>
+          <span className="flex items-center gap-1.5 text-sm font-medium text-emerald-700">
+            <Check aria-hidden size={15} /> {score} {tr('صحيحة')}
+          </span>
+        </div>
+        <div className="mt-2 flex gap-1" aria-hidden>
+          {Array.from({ length: total }, (_, k) => (
+            <span
+              key={k}
+              className={`h-1.5 flex-1 rounded-full ${k < index ? 'bg-violet-500' : k === index ? 'bg-violet-300' : 'bg-slate-200'}`}
+            />
+          ))}
         </div>
 
         {/* الخطأ المستهدف — يُعلن قبل المحاولة لا بعدها */}
@@ -283,7 +313,7 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
               return (
                 <button
                   key={i}
-                  onClick={() => !answered && setValue(i)}
+                  onClick={() => { if (!answered) { setValue(i); check(i); } }}
                   disabled={locked}
                   className={`w-full rounded-lg border-2 px-4 py-3 text-end
                               font-medium transition ${style}`}
@@ -319,7 +349,7 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
               return (
                 <button
                   key={label}
-                  onClick={() => !answered && setValue(val)}
+                  onClick={() => { if (!answered) { setValue(val); check(val); } }}
                   disabled={locked}
                   className={`rounded-lg border-2 py-4 font-semibold transition ${style}`}
                 >
@@ -382,12 +412,28 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
         </div>
       )}
 
+      {/* The time left before moving on — no button needed */}
+      {answered && (
+        <div key={`${index}-${result.attempt_no}`}>
+          <Countdown
+            ms={autoMs}
+            tone={result.correct ? 'emerald' : result.reveal ? 'violet' : 'rose'}
+          />
+          <p className="mt-1.5 text-center text-xs text-slate-400">
+            {result.correct || result.reveal
+              ? (index + 1 >= total ? tr('النتيجة بعد لحظات…') : tr('السؤال التالي بعد لحظات…'))
+              : tr('حاول مرة أخرى…')}
+          </p>
+        </div>
+      )}
+
       {/* ============ الأزرار ============ */}
 
       <div className="mt-5 flex justify-end gap-2">
-        {!answered && (
+        {/* Typed answers still need a press (or Enter); choices check on tap */}
+        {!answered && !['multiple_choice', 'true_false'].includes(current.type) && (
           <button
-            onClick={check}
+            onClick={() => check()}
             disabled={checking || value === '' || value === null}
             className="rounded-lg bg-violet-600 px-6 py-2.5 font-medium text-white
                        hover:bg-violet-700 disabled:opacity-40"
@@ -396,25 +442,6 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
           </button>
         )}
 
-        {answered && !result.correct && (
-          <button
-            onClick={retry}
-            className="rounded-lg bg-slate-100 px-5 py-2.5 font-medium
-                       text-slate-700 hover:bg-slate-200"
-          >
-            {tr('حاول مرة أخرى')}
-          </button>
-        )}
-
-        {answered && (
-          <button
-            onClick={next}
-            className="rounded-lg bg-slate-900 px-6 py-2.5 font-medium text-white
-                       hover:bg-slate-800"
-          >
-            {index + 1 >= total ? tr('النتيجة') : tr('التالي')}
-          </button>
-        )}
       </div>
     </div>
   );

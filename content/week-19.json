@@ -43,7 +43,7 @@
     "title_ar": null,
     "title_en": "Writing — How Something Is Made or Done",
     "task_ar": null,
-    "task_en": "Write 150–170 words describing a process — how something is made, how something works, or how something is done in your job or country. Use at least eight passives and the sequencing phrases from §2.3.",
+    "task_en": "Write 150–170 words describing a process — how something is made, how something works, or how something is done in your job or country. Use at least eight passives and the sequencing phrases from this week's word list.",
     "min_words": 150,
     "max_words": 170,
     "templates": [],
@@ -99,7 +99,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -153,7 +153,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -207,7 +207,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -225,25 +225,31 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "العمليات والإنتاج · حوار: How It's Made",
-          "minutes": 25,
-          "ref": "vocab:processes_and_production|dialogue:1"
+          "label": "الكلمات",
+          "minutes": 15,
+          "ref": "vocab:processes_and_production",
+          "order": 2
+        },
+        {
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:1",
+          "order": 3
         },
         {
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:processes_and_production",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
@@ -252,19 +258,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -315,7 +321,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -333,25 +339,31 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "وصف عملية · الاستماع",
-          "minutes": 25,
-          "ref": "vocab:describing_a_process|section:listening"
+          "label": "الكلمات",
+          "minutes": 15,
+          "ref": "vocab:describing_a_process",
+          "order": 2
+        },
+        {
+          "label": "الاستماع",
+          "minutes": 15,
+          "ref": "section:listening",
+          "order": 3
         },
         {
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:describing_a_process",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
@@ -360,19 +372,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -387,13 +399,25 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "القراءة · الكتابة",
-          "minutes": 25,
-          "ref": "section:reading|writing:1|record"
+          "label": "القراءة",
+          "minutes": 10,
+          "ref": "section:reading",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الكتابة",
+          "minutes": 10,
+          "ref": "writing:1",
+          "order": 3
+        },
+        {
+          "label": "التحدّث",
+          "minutes": 10,
+          "ref": "record",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
@@ -402,25 +426,25 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 6
         },
         {
-          "order": 5,
+          "order": 7,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 6,
+          "order": 8,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 9
         }
       ]
     }
@@ -433,7 +457,11 @@
       "arabic": "ينتج",
       "example": "It is produced in Egypt.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "produce",
+      "sentence": "These farms produce most of the country's milk.",
+      "sentence_ar": "تنتج هذه المزارع معظم حليب البلد.",
+      "usage_ar": "في المجهول: is produced in. والاسم product."
     },
     {
       "group": "processes_and_production",
@@ -442,7 +470,11 @@
       "arabic": "يصنّع",
       "example": "They are manufactured abroad.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "manufacture",
+      "sentence": "They manufacture cars in this factory.",
+      "sentence_ar": "يصنّعون السيارات في هذا المصنع.",
+      "usage_ar": "للصناعة الكبيرة في المصانع، أرسم من make."
     },
     {
       "group": "processes_and_production",
@@ -451,7 +483,11 @@
       "arabic": "يبني",
       "example": "It was built in 1890.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "build",
+      "sentence": "They are going to build a new bridge.",
+      "sentence_ar": "سيبنون جسراً جديداً.",
+      "usage_ar": "الماضي built: It was built in 1890، لا builded."
     },
     {
       "group": "processes_and_production",
@@ -460,7 +496,11 @@
       "arabic": "يصمّم",
       "example": "It was designed by a woman.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "design",
+      "sentence": "My friend wants to design houses.",
+      "sentence_ar": "صديقي يريد أن يصمّم بيوتاً.",
+      "usage_ar": "في المجهول: was designed by + الشخص."
     },
     {
       "group": "processes_and_production",
@@ -469,7 +509,11 @@
       "arabic": "يطوّر",
       "example": "It is being developed now.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "develop",
+      "sentence": "The company wants to develop a new app.",
+      "sentence_ar": "الشركة تريد أن تطوّر تطبيقاً جديداً.",
+      "usage_ar": "is being developed = يُطوَّر الآن."
     },
     {
       "group": "processes_and_production",
@@ -478,7 +522,11 @@
       "arabic": "يختبر",
       "example": "Every unit is tested.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "test",
+      "sentence": "They test every phone before it leaves.",
+      "sentence_ar": "يختبرون كل هاتف قبل أن يغادر المصنع.",
+      "usage_ar": "في المجهول: Every unit is tested."
     },
     {
       "group": "processes_and_production",
@@ -487,7 +535,11 @@
       "arabic": "يتفقّد",
       "example": "The work is checked twice.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "check",
+      "sentence": "Please check your answers before you finish.",
+      "sentence_ar": "من فضلك تفقّد إجاباتك قبل أن تنتهي.",
+      "usage_ar": "check + الشيء مباشرة بلا حرف جر: check the work."
     },
     {
       "group": "processes_and_production",
@@ -496,7 +548,11 @@
       "arabic": "يوصّل",
       "example": "It will be delivered tomorrow.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "deliver",
+      "sentence": "They deliver the post every morning.",
+      "sentence_ar": "يوصلون البريد كل صباح.",
+      "usage_ar": "في المجهول: It will be delivered tomorrow."
     },
     {
       "group": "processes_and_production",
@@ -505,7 +561,11 @@
       "arabic": "يعبّئ",
       "example": "They are packed by hand.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "pack",
+      "sentence": "The workers pack the eggs by hand.",
+      "sentence_ar": "يعبّئ العمال البيض باليد.",
+      "usage_ar": "pack your bag = يحزم حقيبته أيضاً."
     },
     {
       "group": "processes_and_production",
@@ -514,7 +574,11 @@
       "arabic": "يخزّن",
       "example": "It must be stored cold.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "store",
+      "sentence": "You should store milk in the fridge.",
+      "sentence_ar": "يجب أن تخزّن الحليب في الثلاجة.",
+      "usage_ar": "في المجهول: must be stored cold."
     },
     {
       "group": "processes_and_production",
@@ -523,7 +587,11 @@
       "arabic": "يصدّر",
       "example": "Most of it is exported.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "export",
+      "sentence": "Many countries export oil and gas.",
+      "sentence_ar": "تصدّر دول كثيرة النفط والغاز.",
+      "usage_ar": "export to بلد. عكسه import from."
     },
     {
       "group": "processes_and_production",
@@ -532,7 +600,11 @@
       "arabic": "يستورد",
       "example": "The parts are imported.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "import",
+      "sentence": "We import most of our rice from India.",
+      "sentence_ar": "نستورد معظم أرزنا من الهند.",
+      "usage_ar": "import from بلد. والاسم import بنفس الشكل."
     },
     {
       "group": "processes_and_production",
@@ -541,7 +613,11 @@
       "arabic": "يزرع",
       "example": "Rice is grown here.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "grow",
+      "sentence": "Farmers grow rice near the river.",
+      "sentence_ar": "يزرع المزارعون الأرز قرب النهر.",
+      "usage_ar": "في المجهول: Rice is grown here. والماضي grew."
     },
     {
       "group": "processes_and_production",
@@ -550,7 +626,11 @@
       "arabic": "يحصد",
       "example": "It is harvested in autumn.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "harvest",
+      "sentence": "They harvest the olives in autumn.",
+      "sentence_ar": "يحصدون الزيتون في الخريف.",
+      "usage_ar": "اسم وفعل: the harvest season."
     },
     {
       "group": "processes_and_production",
@@ -559,7 +639,11 @@
       "arabic": "يعالج",
       "example": "It is processed in a factory.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "process",
+      "sentence": "The factory can process ten tonnes a day.",
+      "sentence_ar": "يستطيع المصنع معالجة 10 أطنان يومياً.",
+      "usage_ar": "اسم وفعل: is processed in a factory."
     },
     {
       "group": "processes_and_production",
@@ -568,7 +652,11 @@
       "arabic": "يعيد التدوير",
       "example": "Paper can be recycled.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "recycle",
+      "sentence": "We recycle all our paper and bottles.",
+      "sentence_ar": "نعيد تدوير كل الورق والزجاجات.",
+      "usage_ar": "في المجهول: Paper can be recycled."
     },
     {
       "group": "processes_and_production",
@@ -577,7 +665,11 @@
       "arabic": "يصلّح",
       "example": "It was repaired last week.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "repair",
+      "sentence": "Can you repair my bike by Friday?",
+      "sentence_ar": "هل تستطيع تصليح دراجتي قبل الجمعة؟",
+      "usage_ar": "أرسم من fix: It was repaired last week."
     },
     {
       "group": "processes_and_production",
@@ -586,7 +678,11 @@
       "arabic": "يستبدل",
       "example": "The part has been replaced.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "replace",
+      "sentence": "We need to replace the old window.",
+      "sentence_ar": "نحتاج أن نستبدل النافذة القديمة.",
+      "usage_ar": "مع with: replace the old one with a new one."
     },
     {
       "group": "processes_and_production",
@@ -595,7 +691,11 @@
       "arabic": "يركّب",
       "example": "The software is installed already.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "install",
+      "sentence": "A man came to install the internet.",
+      "sentence_ar": "جاء رجل ليركّب الإنترنت.",
+      "usage_ar": "للبرامج والأجهزة: install an app."
     },
     {
       "group": "processes_and_production",
@@ -604,7 +704,11 @@
       "arabic": "يكتشف",
       "example": "It was discovered in 1928.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "discover",
+      "sentence": "Scientists hope to discover a new medicine.",
+      "sentence_ar": "يأمل العلماء أن يكتشفوا دواءً جديداً.",
+      "usage_ar": "لشيء موجود من قبل. لا تخلطه بـinvent."
     },
     {
       "group": "processes_and_production",
@@ -613,7 +717,11 @@
       "arabic": "يخترع",
       "example": "It was invented by Bell.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "invent",
+      "sentence": "Engineers try to invent cheaper machines.",
+      "sentence_ar": "يحاول المهندسون أن يخترعوا آلات أرخص.",
+      "usage_ar": "لشيء جديد لم يكن موجوداً. في المجهول: was invented by."
     },
     {
       "group": "processes_and_production",
@@ -622,7 +730,11 @@
       "arabic": "ينشر",
       "example": "The book was published in 2019.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "publish",
+      "sentence": "They will publish her book next year.",
+      "sentence_ar": "سينشرون كتابها العام القادم.",
+      "usage_ar": "في المجهول: was published in 2019."
     },
     {
       "group": "processes_and_production",
@@ -631,7 +743,11 @@
       "arabic": "يترجم",
       "example": "It has been translated into forty languages.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "translate",
+      "sentence": "Can you translate this letter into English?",
+      "sentence_ar": "هل تستطيع ترجمة هذه الرسالة إلى الإنجليزية؟",
+      "usage_ar": "translate from … into …، لا to."
     },
     {
       "group": "processes_and_production",
@@ -640,7 +756,11 @@
       "arabic": "يوقّع",
       "example": "The contract was signed yesterday.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "sign",
+      "sentence": "Please sign the contract at the bottom.",
+      "sentence_ar": "من فضلك وقّع العقد في الأسفل.",
+      "usage_ar": "الـg صامتة. والاسم signature للتوقيع."
     },
     {
       "group": "processes_and_production",
@@ -649,7 +769,11 @@
       "arabic": "يلغي",
       "example": "The flight has been cancelled.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "cancel",
+      "sentence": "They had to cancel the flight because of fog.",
+      "sentence_ar": "اضطروا لإلغاء الرحلة بسبب الضباب.",
+      "usage_ar": "البريطانية: cancelled بحرفي l."
     },
     {
       "group": "processes_and_production",
@@ -658,7 +782,11 @@
       "arabic": "يتلف",
       "example": "The roof was damaged in the storm.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "damage",
+      "sentence": "Strong wind can damage the roof.",
+      "sentence_ar": "الرياح القوية قد تتلف السقف.",
+      "usage_ar": "اسم غير معدود أيضاً: a lot of damage، لا damages."
     },
     {
       "group": "processes_and_production",
@@ -667,7 +795,11 @@
       "arabic": "يدمّر",
       "example": "The building was destroyed.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "destroy",
+      "sentence": "A big fire can destroy a forest.",
+      "sentence_ar": "الحريق الكبير قد يدمّر غابة.",
+      "usage_ar": "أقوى من damage: لا يبقى شيء."
     },
     {
       "group": "processes_and_production",
@@ -676,7 +808,11 @@
       "arabic": "يحمي",
       "example": "The area is protected by law.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "protect",
+      "sentence": "Sunglasses protect your eyes from the sun.",
+      "sentence_ar": "النظارات الشمسية تحمي عينيك من الشمس.",
+      "usage_ar": "مع from: protect you from the sun."
     },
     {
       "group": "processes_and_production",
@@ -685,7 +821,11 @@
       "arabic": "يسمح",
       "example": "Smoking is not allowed.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "allow",
+      "sentence": "Most parks don't allow dogs inside.",
+      "sentence_ar": "معظم الحدائق لا تسمح بالكلاب في داخلها.",
+      "usage_ar": "allow somebody to + فعل. وفي المجهول: Smoking is not allowed."
     },
     {
       "group": "processes_and_production",
@@ -694,7 +834,11 @@
       "arabic": "يتطلّب",
       "example": "A visa is required.",
       "group_label_ar": "العمليات والإنتاج",
-      "group_label_en": "Processes and Production"
+      "group_label_en": "Processes and Production",
+      "target": "require",
+      "sentence": "These jobs require good English.",
+      "sentence_ar": "هذه الوظائف تتطلّب إنجليزية جيدة.",
+      "usage_ar": "رسمي، أقوى من need: A visa is required."
     },
     {
       "group": "materials_and_measurements",
@@ -703,7 +847,11 @@
       "arabic": "مادة",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "material",
+      "sentence": "What material is this bag made of?",
+      "sentence_ar": "من أي مادة صُنعت هذه الحقيبة؟",
+      "usage_ar": "made of + المادة: It's made of wood."
     },
     {
       "group": "materials_and_measurements",
@@ -712,7 +860,11 @@
       "arabic": "خشب",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "wood",
+      "sentence": "The table is made of wood.",
+      "sentence_ar": "الطاولة مصنوعة من الخشب.",
+      "usage_ar": "غير معدود. والصفة wooden: a wooden table."
     },
     {
       "group": "materials_and_measurements",
@@ -721,7 +873,11 @@
       "arabic": "معدن",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "metal",
+      "sentence": "The chairs are made of metal.",
+      "sentence_ar": "الكراسي مصنوعة من المعدن.",
+      "usage_ar": "غير معدود للمادة: made of metal."
     },
     {
       "group": "materials_and_measurements",
@@ -730,7 +886,11 @@
       "arabic": "فولاذ",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "steel",
+      "sentence": "The bridge was built of steel.",
+      "sentence_ar": "بُني الجسر من الفولاذ.",
+      "usage_ar": "غير معدود، أقوى أنواع المعدن في البناء."
     },
     {
       "group": "materials_and_measurements",
@@ -739,7 +899,11 @@
       "arabic": "بلاستيك",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "Plastic",
+      "sentence": "Plastic bags are bad for the sea.",
+      "sentence_ar": "الأكياس البلاستيكية مضرة بالبحر.",
+      "usage_ar": "اسم وصفة: a plastic bottle."
     },
     {
       "group": "materials_and_measurements",
@@ -748,7 +912,11 @@
       "arabic": "زجاج",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "glass",
+      "sentence": "The bottle is made of glass.",
+      "sentence_ar": "الزجاجة مصنوعة من الزجاج.",
+      "usage_ar": "المادة غير معدودة. أما a glass فهي كأس."
     },
     {
       "group": "materials_and_measurements",
@@ -757,7 +925,11 @@
       "arabic": "قطن",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "cotton",
+      "sentence": "This shirt is made of cotton.",
+      "sentence_ar": "هذا القميص مصنوع من القطن.",
+      "usage_ar": "يكثر قبل الاسم: a cotton shirt."
     },
     {
       "group": "materials_and_measurements",
@@ -766,7 +938,11 @@
       "arabic": "جلد",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "leather",
+      "sentence": "My father has a leather bag.",
+      "sentence_ar": "عند أبي حقيبة جلدية.",
+      "usage_ar": "للحذاء والحقيبة. أما جلد الإنسان فهو skin."
     },
     {
       "group": "materials_and_measurements",
@@ -775,7 +951,11 @@
       "arabic": "ورق",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "paper",
+      "sentence": "The bags are made of paper.",
+      "sentence_ar": "الأكياس مصنوعة من الورق.",
+      "usage_ar": "المادة غير معدودة: a piece of paper، لا a paper."
     },
     {
       "group": "materials_and_measurements",
@@ -784,7 +964,11 @@
       "arabic": "حجر",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "stone",
+      "sentence": "The old house was built of stone.",
+      "sentence_ar": "بُني البيت القديم من الحجر.",
+      "usage_ar": "المادة غير معدودة، وa stone حجر واحد."
     },
     {
       "group": "materials_and_measurements",
@@ -793,7 +977,11 @@
       "arabic": "وزن",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "weight",
+      "sentence": "What is the weight of this box?",
+      "sentence_ar": "ما وزن هذا الصندوق؟",
+      "usage_ar": "اسم، والفعل weigh: It weighs 5 kilos."
     },
     {
       "group": "materials_and_measurements",
@@ -802,7 +990,11 @@
       "arabic": "طول",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "length",
+      "sentence": "The length of the room is 6 metres.",
+      "sentence_ar": "طول الغرفة 6 أمتار.",
+      "usage_ar": "الاسم من long. ولاحظ ng ثم th."
     },
     {
       "group": "materials_and_measurements",
@@ -811,7 +1003,11 @@
       "arabic": "عرض",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "width",
+      "sentence": "The width of the road is 10 metres.",
+      "sentence_ar": "عرض الطريق 10 أمتار.",
+      "usage_ar": "الاسم من wide."
     },
     {
       "group": "materials_and_measurements",
@@ -820,7 +1016,11 @@
       "arabic": "ارتفاع",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "height",
+      "sentence": "What is the height of the tower?",
+      "sentence_ar": "ما ارتفاع البرج؟",
+      "usage_ar": "الاسم من high أو tall. تُنطق «هايت»."
     },
     {
       "group": "materials_and_measurements",
@@ -829,7 +1029,11 @@
       "arabic": "حجم",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "size",
+      "sentence": "What size are these shoes?",
+      "sentence_ar": "ما مقاس هذه الأحذية؟",
+      "usage_ar": "للملابس والأحذية: What size are you?"
     },
     {
       "group": "materials_and_measurements",
@@ -838,7 +1042,11 @@
       "arabic": "كمية",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "amount",
+      "sentence": "A small amount of salt is enough.",
+      "sentence_ar": "كمية قليلة من الملح تكفي.",
+      "usage_ar": "مع غير المعدود: an amount of water، money."
     },
     {
       "group": "materials_and_measurements",
@@ -847,7 +1055,11 @@
       "arabic": "كمية",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "quantity",
+      "sentence": "The quantity of food was too small.",
+      "sentence_ar": "كانت كمية الطعام قليلة جداً.",
+      "usage_ar": "أرسم من amount، ويكثر في التجارة: in large quantities."
     },
     {
       "group": "materials_and_measurements",
@@ -856,7 +1068,11 @@
       "arabic": "جودة",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "quality",
+      "sentence": "These shoes are expensive but good quality.",
+      "sentence_ar": "هذه الأحذية غالية لكنها جيدة الجودة.",
+      "usage_ar": "لا تخلطها بـquantity: الجودة لا الكمية."
     },
     {
       "group": "materials_and_measurements",
@@ -865,7 +1081,11 @@
       "arabic": "طبقة",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "layer",
+      "sentence": "Put a thin layer of butter on the bread.",
+      "sentence_ar": "ضع طبقة رقيقة من الزبدة على الخبز.",
+      "usage_ar": "a layer of + الشيء."
     },
     {
       "group": "materials_and_measurements",
@@ -874,7 +1094,11 @@
       "arabic": "سطح",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "surface",
+      "sentence": "Clean the surface before you paint it.",
+      "sentence_ar": "نظّف السطح قبل أن تدهنه.",
+      "usage_ar": "the surface of the table، of the water."
     },
     {
       "group": "materials_and_measurements",
@@ -883,7 +1107,11 @@
       "arabic": "آلة",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "machine",
+      "sentence": "This machine washes a hundred bottles a minute.",
+      "sentence_ar": "هذه الآلة تغسل 100 زجاجة في الدقيقة.",
+      "usage_ar": "washing machine = غسالة."
     },
     {
       "group": "materials_and_measurements",
@@ -892,7 +1120,11 @@
       "arabic": "أداة",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "tool",
+      "sentence": "A hammer is a useful tool.",
+      "sentence_ar": "المطرقة أداة مفيدة.",
+      "usage_ar": "أداة باليد. وتُستعمل مجازاً: a useful tool for learning."
     },
     {
       "group": "materials_and_measurements",
@@ -901,7 +1133,11 @@
       "arabic": "مصنع",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "factory",
+      "sentence": "My uncle works in a car factory.",
+      "sentence_ar": "يعمل عمي في مصنع سيارات.",
+      "usage_ar": "work in a factory. الجمع factories."
     },
     {
       "group": "materials_and_measurements",
@@ -910,7 +1146,11 @@
       "arabic": "ورشة",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "workshop",
+      "sentence": "He repairs bikes in a small workshop.",
+      "sentence_ar": "يصلّح الدراجات في ورشة صغيرة.",
+      "usage_ar": "ورشة صغيرة، وتعني أيضاً دورة تدريبية قصيرة."
     },
     {
       "group": "materials_and_measurements",
@@ -919,7 +1159,11 @@
       "arabic": "مرحلة",
       "example": null,
       "group_label_ar": "الموادّ والمقاييس",
-      "group_label_en": "Materials and Measurements"
+      "group_label_en": "Materials and Measurements",
+      "target": "stage",
+      "sentence": "The first stage takes about two days.",
+      "sentence_ar": "المرحلة الأولى تستغرق يومين تقريباً.",
+      "usage_ar": "at this stage = في هذه المرحلة. وتعني أيضاً خشبة المسرح."
     },
     {
       "group": "describing_a_process",
@@ -928,7 +1172,11 @@
       "arabic": "أولاً وقبل كل شيء…",
       "example": "Opening",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": "First of all",
+      "sentence": "First of all, the fruit is washed.",
+      "sentence_ar": "أولاً وقبل كل شيء، تُغسل الفاكهة.",
+      "usage_ar": "لافتتاح أول خطوة. بعده فاصلة."
     },
     {
       "group": "describing_a_process",
@@ -937,7 +1185,11 @@
       "arabic": "في البداية…",
       "example": "Opening",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": "To begin with",
+      "sentence": "To begin with, the cotton is picked.",
+      "sentence_ar": "في البداية، يُقطف القطن.",
+      "usage_ar": "بمعنى First of all، يفتح الخطوة الأولى."
     },
     {
       "group": "describing_a_process",
@@ -946,7 +1198,11 @@
       "arabic": "المرحلة الأولى هي…",
       "example": "Opening",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": null,
+      "sentence": "When you explain a process, start: The first stage is cleaning.",
+      "sentence_ar": "حين تشرح عملية ابدأ: المرحلة الأولى هي التنظيف.",
+      "usage_ar": "يفتح الشرح. بعده اسم أو فعل بـing."
     },
     {
       "group": "describing_a_process",
@@ -955,7 +1211,11 @@
       "arabic": "ثم…",
       "example": "Middle",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": "Then",
+      "sentence": "Then the bottles are filled with water.",
+      "sentence_ar": "ثم تُملأ الزجاجات بالماء.",
+      "usage_ar": "للخطوة التالية. لا تكرره في كل جملة؛ نوّع مع next وafter that."
     },
     {
       "group": "describing_a_process",
@@ -964,7 +1224,11 @@
       "arabic": "بعد ذلك…",
       "example": "Middle",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": "After that",
+      "sentence": "After that, the boxes are packed.",
+      "sentence_ar": "بعد ذلك، تُعبّأ الصناديق.",
+      "usage_ar": "بعده فاصلة ثم الخطوة."
     },
     {
       "group": "describing_a_process",
@@ -973,7 +1237,11 @@
       "arabic": "التالي…",
       "example": "Middle",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": "Next",
+      "sentence": "Next, the paper is dried.",
+      "sentence_ar": "بعد ذلك، يُجفَّف الورق.",
+      "usage_ar": "خطوة تالية في الوسط، بلا the."
     },
     {
       "group": "describing_a_process",
@@ -982,7 +1250,11 @@
       "arabic": "عند هذه النقطة…",
       "example": "Middle",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": "At this point",
+      "sentence": "At this point, the mixture is heated.",
+      "sentence_ar": "عند هذه النقطة، يُسخَّن الخليط.",
+      "usage_ar": "لخطوة مهمة في وسط العملية."
     },
     {
       "group": "describing_a_process",
@@ -991,7 +1263,11 @@
       "arabic": "في هذه الأثناء…",
       "example": "Parallel step",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": "Meanwhile",
+      "sentence": "Meanwhile, the oven is heated.",
+      "sentence_ar": "في هذه الأثناء، يُسخَّن الفرن.",
+      "usage_ar": "لخطوة تحدث في الوقت نفسه."
     },
     {
       "group": "describing_a_process",
@@ -1000,7 +1276,11 @@
       "arabic": "بمجرد أن يتم…",
       "example": "Sequencing",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": null,
+      "sentence": "In a recipe, say: Once the rice has been washed, it is cooked.",
+      "sentence_ar": "في وصفة تقول: بمجرد أن يُغسل الأرز، يُطبخ.",
+      "usage_ar": "المجهول مع has been لخطوة تنتهي قبل التالية."
     },
     {
       "group": "describing_a_process",
@@ -1009,7 +1289,11 @@
       "arabic": "قبل أن يتم…",
       "example": "Sequencing",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": null,
+      "sentence": "In a process: Before the bread is baked, it is left to rise.",
+      "sentence_ar": "في عملية: قبل أن يُخبز الخبز، يُترك ليرتفع.",
+      "usage_ar": "المجهول بعد before: before it is cooked."
     },
     {
       "group": "describing_a_process",
@@ -1018,7 +1302,11 @@
       "arabic": "بعد أن يتم…",
       "example": "Sequencing",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": null,
+      "sentence": "In a process: After the paint has been dried, it is checked.",
+      "sentence_ar": "في عملية: بعد أن يجفّ الطلاء، يُتفقَّد.",
+      "usage_ar": "المجهول التام لخطوة اكتملت ثم تأتي غيرها."
     },
     {
       "group": "describing_a_process",
@@ -1027,7 +1315,11 @@
       "arabic": "أخيراً…",
       "example": "Closing",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": "Finally",
+      "sentence": "Finally, the boxes are sent to the shops.",
+      "sentence_ar": "أخيراً، تُرسل الصناديق إلى المتاجر.",
+      "usage_ar": "لآخر خطوة. لا تقل at last هنا؛ at last تعني بعد انتظار."
     },
     {
       "group": "describing_a_process",
@@ -1036,7 +1328,11 @@
       "arabic": "المرحلة الأخيرة هي…",
       "example": "Closing",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": null,
+      "sentence": "To close your explanation, say: The last stage is packing.",
+      "sentence_ar": "لتختم الشرح قل: المرحلة الأخيرة هي التعبئة.",
+      "usage_ar": "يختم الشرح. بعده اسم أو فعل بـing."
     },
     {
       "group": "describing_a_process",
@@ -1045,7 +1341,11 @@
       "arabic": "ثم يتم…",
       "example": "Passive step",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": "It is then",
+      "sentence": "It is then cut into small pieces.",
+      "sentence_ar": "ثم يُقطّع إلى قطع صغيرة.",
+      "usage_ar": "then بين is والتصريف الثالث: It is then sent."
     },
     {
       "group": "describing_a_process",
@@ -1054,7 +1354,11 @@
       "arabic": "يجب أن يتم…",
       "example": "Obligation in a process",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": "It has to be",
+      "sentence": "It has to be kept in a cool place.",
+      "sentence_ar": "يجب أن يُحفظ في مكان بارد.",
+      "usage_ar": "has to be + التصريف الثالث: has to be washed."
     },
     {
       "group": "describing_a_process",
@@ -1063,7 +1367,11 @@
       "arabic": "يمكن أن يتم…",
       "example": "Possibility",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": "It can be",
+      "sentence": "It can be eaten hot or cold.",
+      "sentence_ar": "يمكن أن يُؤكل ساخناً أو بارداً.",
+      "usage_ar": "can be + التصريف الثالث، لا can be eat."
     },
     {
       "group": "describing_a_process",
@@ -1072,7 +1380,11 @@
       "arabic": "عادةً يتم…",
       "example": "Frequency",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": "It is usually",
+      "sentence": "It is usually sold in small bottles.",
+      "sentence_ar": "عادةً يُباع في زجاجات صغيرة.",
+      "usage_ar": "usually بعد is: It is usually made."
     },
     {
       "group": "describing_a_process",
@@ -1081,7 +1393,11 @@
       "arabic": "يستغرق هذا حوالي…",
       "example": "Duration",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": null,
+      "sentence": "To say how long a step lasts: This takes about ten minutes.",
+      "sentence_ar": "لتقول كم تستغرق خطوة: يستغرق هذا حوالي 10 دقائق.",
+      "usage_ar": "takes + المدة. لا تقل This needs about."
     },
     {
       "group": "describing_a_process",
@@ -1090,7 +1406,11 @@
       "arabic": "العملية كلها تستغرق…",
       "example": "Duration",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": null,
+      "sentence": "To give the total time: The whole process takes three days.",
+      "sentence_ar": "لتعطي الوقت الكلي: العملية كلها تستغرق 3 أيام.",
+      "usage_ar": "المدة الكاملة من أول خطوة لآخرها."
     },
     {
       "group": "describing_a_process",
@@ -1099,7 +1419,11 @@
       "arabic": "ولهذا…",
       "example": "Explaining",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": "This is why",
+      "sentence": "The milk is heated. This is why it stays fresh.",
+      "sentence_ar": "يُسخَّن الحليب. ولهذا يبقى طازجاً.",
+      "usage_ar": "بعد ذكر السبب، وبعده النتيجة."
     },
     {
       "group": "describing_a_process",
@@ -1108,7 +1432,11 @@
       "arabic": "ونتيجة لذلك…",
       "example": "Explaining",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": "As a result",
+      "sentence": "The roads were closed. As a result, prices rose.",
+      "sentence_ar": "أُغلقت الطرق. ونتيجة لذلك ارتفعت الأسعار.",
+      "usage_ar": "للنتيجة، أرسم من so، وبعده فاصلة."
     },
     {
       "group": "describing_a_process",
@@ -1117,7 +1445,11 @@
       "arabic": "الميزة هي…",
       "example": "Evaluating",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": null,
+      "sentence": "To praise a method, say: The advantage is that it's cheap.",
+      "sentence_ar": "لتمدح طريقة قل: الميزة هي أنها رخيصة.",
+      "usage_ar": "بعده that وجملة، أو اسم."
     },
     {
       "group": "describing_a_process",
@@ -1126,7 +1458,11 @@
       "arabic": "المشكلة هي…",
       "example": "Evaluating",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": "The problem is",
+      "sentence": "The problem is that it takes too long.",
+      "sentence_ar": "المشكلة هي أنه يستغرق وقتاً طويلاً جداً.",
+      "usage_ar": "بعده that وجملة كاملة."
     },
     {
       "group": "describing_a_process",
@@ -1135,7 +1471,11 @@
       "arabic": "بعبارة أخرى…",
       "example": "Clarifying",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": "In other words",
+      "sentence": "In other words, nothing is wasted.",
+      "sentence_ar": "بعبارة أخرى، لا شيء يُهدر.",
+      "usage_ar": "لتعيد الشرح بكلمات أبسط."
     },
     {
       "group": "describing_a_process",
@@ -1144,7 +1484,11 @@
       "arabic": "خلاصة…",
       "example": "Closing",
       "group_label_ar": "وصف عملية",
-      "group_label_en": "Describing a Process"
+      "group_label_en": "Describing a Process",
+      "target": "To sum up",
+      "sentence": "To sum up, it is a simple process.",
+      "sentence_ar": "خلاصة، إنها عملية بسيطة.",
+      "usage_ar": "يلخّص الشرح في آخره."
     },
     {
       "group": "listening_strategy_words",
@@ -1153,7 +1497,11 @@
       "arabic": "عذراً، فاتني ذلك",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": null,
+      "sentence": "When you didn't hear something, say: Sorry, I missed that.",
+      "sentence_ar": "حين لا تسمع شيئاً قل: عذراً، فاتني ذلك.",
+      "usage_ar": "تطلب الإعادة بأدب دون أن تقول «لم أفهم»."
     },
     {
       "group": "listening_strategy_words",
@@ -1162,7 +1510,11 @@
       "arabic": "هل تعيد ذلك؟",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": null,
+      "sentence": "When you need to hear it again, ask: Could you say that again?",
+      "sentence_ar": "حين تحتاج أن تسمعه مرة أخرى اسأل: هل تعيد ذلك؟",
+      "usage_ar": "طلب مهذّب. Could أكثر أدباً من Can."
     },
     {
       "group": "listening_strategy_words",
@@ -1171,7 +1523,11 @@
       "arabic": "أبطأ قليلاً من فضلك",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": null,
+      "sentence": "When someone speaks fast, say: A bit slower, please.",
+      "sentence_ar": "حين يتكلم أحد بسرعة قل: أبطأ قليلاً من فضلك.",
+      "usage_ar": "طلب قصير ومهذّب. لا تخجل منه."
     },
     {
       "group": "listening_strategy_words",
@@ -1180,7 +1536,11 @@
       "arabic": "ماذا تعني…؟",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": null,
+      "sentence": "When you hear a new word, ask: What does 'recycle' mean?",
+      "sentence_ar": "حين تسمع كلمة جديدة اسأل: ماذا تعني recycle؟",
+      "usage_ar": "مع does وmean بلا s: What does it mean، لا What means it."
     },
     {
       "group": "listening_strategy_words",
@@ -1189,7 +1549,11 @@
       "arabic": "هل قلت… أم…؟",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": null,
+      "sentence": "When two numbers sound alike, ask: Did you say 15 or 50?",
+      "sentence_ar": "حين يتشابه رقمان اسأل: هل قلت 15 أم 50؟",
+      "usage_ar": "لتتأكد من رقمين أو كلمتين متشابهتين."
     },
     {
       "group": "listening_strategy_words",
@@ -1198,7 +1562,11 @@
       "arabic": "إذن تقصد…؟",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": "So you mean",
+      "sentence": "So you mean the meeting is cancelled?",
+      "sentence_ar": "إذن تقصد أن الاجتماع أُلغي؟",
+      "usage_ar": "لتتأكد من فهمك بكلماتك. نبرته صاعدة كالسؤال."
     },
     {
       "group": "listening_strategy_words",
@@ -1207,7 +1575,11 @@
       "arabic": "دعني أتأكد أني فهمت",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": null,
+      "sentence": "Before you repeat the plan, say: Let me check I understood.",
+      "sentence_ar": "قبل أن تعيد الخطة قل: دعني أتأكد أني فهمت.",
+      "usage_ar": "ثم تعيد ما فهمته ليصحّحك السامع."
     },
     {
       "group": "listening_strategy_words",
@@ -1216,7 +1588,11 @@
       "arabic": "هل هذا صحيح؟",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": "Is that right",
+      "sentence": "You start at nine. Is that right?",
+      "sentence_ar": "تبدأ الساعة 9. هل هذا صحيح؟",
+      "usage_ar": "يأتي بعد أن تعيد المعلومة لتتأكد منها."
     },
     {
       "group": "listening_strategy_words",
@@ -1225,7 +1601,11 @@
       "arabic": "فهمت معظم ذلك",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": null,
+      "sentence": "After a fast explanation, say: I got most of that.",
+      "sentence_ar": "بعد شرح سريع قل: فهمت معظم ذلك.",
+      "usage_ar": "got هنا تعني «فهمت» في الكلام اليومي."
     },
     {
       "group": "listening_strategy_words",
@@ -1234,7 +1614,11 @@
       "arabic": "ضِعت عند…",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": "I lost you at",
+      "sentence": "Sorry, I lost you at the second step.",
+      "sentence_ar": "آسف، ضعت عند الخطوة الثانية.",
+      "usage_ar": "تحدد أين توقف فهمك، بعده at + الموضع."
     },
     {
       "group": "listening_strategy_words",
@@ -1243,7 +1627,11 @@
       "arabic": "هل تتهجاها؟",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": null,
+      "sentence": "When you hear a new name, ask: Can you spell that?",
+      "sentence_ar": "حين تسمع اسماً جديداً اسأل: هل تتهجاها؟",
+      "usage_ar": "للأسماء والعناوين. spell = يذكر الحروف واحداً واحداً."
     },
     {
       "group": "listening_strategy_words",
@@ -1252,7 +1640,11 @@
       "arabic": "مرة أخرى؟",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": "One more time",
+      "sentence": "Sorry, one more time, please?",
+      "sentence_ar": "عذراً، مرة أخرى من فضلك؟",
+      "usage_ar": "طلب قصير غير رسمي للإعادة."
     },
     {
       "group": "listening_strategy_words",
@@ -1261,7 +1653,11 @@
       "arabic": "أظن أني أتابع",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": null,
+      "sentence": "When you understand slowly, say: I think I follow.",
+      "sentence_ar": "حين تفهم ببطء قل: أظن أني أتابع.",
+      "usage_ar": "follow هنا تعني «أفهم ما تقول»."
     },
     {
       "group": "listening_strategy_words",
@@ -1270,7 +1666,11 @@
       "arabic": "عذراً، تفضّل",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": "Sorry, go on",
+      "sentence": "Sorry, go on. What happened next?",
+      "sentence_ar": "عذراً، تفضّل. ماذا حدث بعد ذلك؟",
+      "usage_ar": "حين تقاطع أحداً ثم تطلب أن يكمل."
     },
     {
       "group": "listening_strategy_words",
@@ -1279,7 +1679,11 @@
       "arabic": "بعبارة أخرى…؟",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": "In other words",
+      "sentence": "In other words, it's free?",
+      "sentence_ar": "بعبارة أخرى، إنه مجاني؟",
+      "usage_ar": "بنبرة سؤال لتتأكد من خلاصة الكلام."
     },
     {
       "group": "listening_strategy_words",
@@ -1288,7 +1692,11 @@
       "arabic": "للتوضيح فقط…",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": null,
+      "sentence": "Before you confirm a time, say: Just to be clear, it's on Monday?",
+      "sentence_ar": "قبل أن تؤكد موعداً قل: للتوضيح فقط، إنه يوم الاثنين؟",
+      "usage_ar": "لتأكيد معلومة مهمة قبل أن تتصرّف."
     },
     {
       "group": "listening_strategy_words",
@@ -1297,7 +1705,11 @@
       "arabic": "هذا جديد عليّ",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": null,
+      "sentence": "When you learn something new, say: That's new to me.",
+      "sentence_ar": "حين تتعلّم شيئاً جديداً قل: هذا جديد عليّ.",
+      "usage_ar": "تقول إنك لم تعرف المعلومة من قبل."
     },
     {
       "group": "listening_strategy_words",
@@ -1306,7 +1718,11 @@
       "arabic": "لم أسمع بهذه الكلمة",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": null,
+      "sentence": "When a word is new, say: I've never heard that word.",
+      "sentence_ar": "حين تكون الكلمة جديدة قل: لم أسمع بهذه الكلمة.",
+      "usage_ar": "المضارع التام مع never: I've never heard."
     },
     {
       "group": "listening_strategy_words",
@@ -1315,7 +1731,11 @@
       "arabic": "تقريباً، نعم",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": "Roughly, yes",
+      "sentence": "\"So it's about 50 euros?\" \"Roughly, yes.\"",
+      "sentence_ar": "«إذن حوالي 50 يورو؟» «تقريباً، نعم.»",
+      "usage_ar": "موافقة على رقم أو فكرة تقريبية."
     },
     {
       "group": "listening_strategy_words",
@@ -1324,7 +1744,11 @@
       "arabic": "إلى حد ما",
       "example": null,
       "group_label_ar": "كلمات استراتيجية الاستماع",
-      "group_label_en": "Listening Strategy Words"
+      "group_label_en": "Listening Strategy Words",
+      "target": "More or less",
+      "sentence": "\"Did you understand?\" \"More or less.\"",
+      "sentence_ar": "«هل فهمت؟» «إلى حد ما.»",
+      "usage_ar": "تعني «تقريباً»، لا «أكثر أو أقل»."
     }
   ],
   "minimal_pairs": [],

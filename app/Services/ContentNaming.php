@@ -47,7 +47,7 @@ class ContentNaming
         'spell_review' => ['ar' => 'مراجعة الإملاء', 'en' => 'Spelling Review'],
         'shadow'   => ['ar' => 'الشادوينج — تكلّم مع الصوت', 'en' => 'Shadowing'],
         'imitate'  => ['ar' => 'اكتب مثله', 'en' => 'Write One Like It'],
-        'homework' => ['ar' => 'الواجب المنزلي', 'en' => 'Homework'],
+        'homework' => ['ar' => 'مغامرة اليوم', 'en' => 'Today’s Adventure'],
     ];
 
     /** ترتيب عربي للحوارات — «الحوار الأول» أطبع من «الحوار 1» */

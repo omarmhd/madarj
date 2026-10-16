@@ -5,6 +5,7 @@ import SpellInput, { SpellMarks } from '@/Components/Game/SpellInput';
 import { useMySpeech } from '@/hooks/useSpeech';
 import { checkSpelling, type SpellResult } from '@/lib/spelling';
 import { useT } from '@/lib/i18n';
+import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS } from '@/lib/autoAdvance';
 
 /**
  * بطاقات المفردات.
@@ -30,6 +31,11 @@ export interface Word {
   arabic: string;
   example: string | null;
   cambridge: string;
+  /** How the word is used: the exact text to blank, its sentence, translation, usage note */
+  target?: string | null;
+  sentence?: string | null;
+  sentence_ar?: string | null;
+  usage_ar?: string | null;
 }
 
 interface Props {
@@ -113,6 +119,10 @@ export default function Flashcards({ words, groupLabel, onFinish, onProgress}: P
   // Not on mount: focusing there opens the phone keyboard over a card
   // the learner has not looked at yet.
   const touched = useRef(false);
+
+  // A typed answer moves on by itself: right in 3s, wrong in 5s (read the letters)
+  useAutoAdvance(revealed && !!result, result?.verdict === 'right' ? AUTO_RIGHT_MS : AUTO_REVEAL_MS,
+    () => result && rate(result.verdict === 'right'));
   useEffect(() => {
     if (!touched.current) return;
     if (revealed) nextBtn.current?.focus();
@@ -269,14 +279,10 @@ export default function Flashcards({ words, groupLabel, onFinish, onProgress}: P
       )}
 
       {revealed && result && (
-        <button
-          ref={nextBtn}
-          onClick={() => rate(result.verdict === 'right')}
-          className="mt-4 min-h-12 w-full rounded-xl bg-slate-900 font-semibold text-white
-                     transition hover:bg-slate-800"
-        >
-          {tr('التالي')}
-        </button>
+        <div key={index}>
+          <Countdown ms={result.verdict === 'right' ? AUTO_RIGHT_MS : AUTO_REVEAL_MS}
+            tone={result.verdict === 'right' ? 'emerald' : 'rose'} />
+        </div>
       )}
 
       {/* التقييم الذاتي — لمن كشف بلا كتابة */}

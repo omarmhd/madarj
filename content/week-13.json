@@ -120,7 +120,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -174,7 +174,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -228,7 +228,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -282,7 +282,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -300,25 +300,31 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "تجارب الحياة · حوار: Have You Ever…?",
-          "minutes": 25,
-          "ref": "vocab:life_experiences|dialogue:1"
+          "label": "الكلمات",
+          "minutes": 15,
+          "ref": "vocab:life_experiences",
+          "order": 2
+        },
+        {
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:1",
+          "order": 3
         },
         {
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:life_experiences",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
@@ -327,19 +333,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -354,13 +360,19 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "حوار: A Job Interview, Part Two · الاستماع",
-          "minutes": 25,
-          "ref": "dialogue:2|section:listening"
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:2",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الاستماع",
+          "minutes": 15,
+          "ref": "section:listening",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
@@ -369,10 +381,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
@@ -381,19 +393,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -408,13 +420,25 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "القراءة · الكتابة",
-          "minutes": 25,
-          "ref": "section:reading|writing:1|record"
+          "label": "القراءة",
+          "minutes": 10,
+          "ref": "section:reading",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الكتابة",
+          "minutes": 10,
+          "ref": "writing:1",
+          "order": 3
+        },
+        {
+          "label": "التحدّث",
+          "minutes": 10,
+          "ref": "record",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 15,
           "ref": "game:minimal_pairs"
@@ -423,25 +447,25 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 6
         },
         {
-          "order": 5,
+          "order": 7,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 6,
+          "order": 8,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 9
         }
       ]
     }
@@ -454,7 +478,11 @@
       "arabic": "يقطع",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "cut",
+      "sentence": "I have cut my finger with a knife.",
+      "sentence_ar": "جرحتُ إصبعي بالسكين.",
+      "usage_ar": "التصريف الثالث مثل الأول: cut دون تغيير، ولا نقول cutted."
     },
     {
       "group": "past_participles",
@@ -463,7 +491,11 @@
       "arabic": "يضع",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "put",
+      "sentence": "Where have you put my keys?",
+      "sentence_ar": "أين وضعتَ مفاتيحي؟",
+      "usage_ar": "put لا يتغيّر في تصريفاته الثلاثة، ولا نقول putted."
     },
     {
       "group": "past_participles",
@@ -472,7 +504,11 @@
       "arabic": "يسمح / يترك",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "let",
+      "sentence": "My parents have let me stay out late tonight.",
+      "sentence_ar": "سمح لي والداي بالبقاء خارجاً حتى وقت متأخر الليلة.",
+      "usage_ar": "بعد let يأتي الفعل بلا to: let me stay لا let me to stay."
     },
     {
       "group": "past_participles",
@@ -481,7 +517,11 @@
       "arabic": "يكلّف",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "cost",
+      "sentence": "This trip has cost us a lot of money.",
+      "sentence_ar": "كلّفتنا هذه الرحلة مالاً كثيراً.",
+      "usage_ar": "cost لا يتغيّر، ونقول It cost me 10 pounds دون حرف جر."
     },
     {
       "group": "past_participles",
@@ -490,7 +530,11 @@
       "arabic": "يؤلم / يجرح",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "hurt",
+      "sentence": "I have hurt my back at the gym.",
+      "sentence_ar": "آذيتُ ظهري في النادي الرياضي.",
+      "usage_ar": "نقول hurt my back أي آذيته، ولا نقول hurted."
     },
     {
       "group": "past_participles",
@@ -499,7 +543,11 @@
       "arabic": "يقرأ",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "read",
+      "sentence": "Have you read this book?",
+      "sentence_ar": "هل قرأتَ هذا الكتاب؟",
+      "usage_ar": "يُكتب read في الثلاثة، لكن الماضي والتصريف الثالث يُنطقان مثل red."
     },
     {
       "group": "past_participles",
@@ -508,7 +556,11 @@
       "arabic": "يشتري",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "bought",
+      "sentence": "I have bought a new phone.",
+      "sentence_ar": "اشتريتُ هاتفاً جديداً.",
+      "usage_ar": "لا تخلط bought (اشترى) مع brought (أحضر)."
     },
     {
       "group": "past_participles",
@@ -517,7 +569,11 @@
       "arabic": "يجلب",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "brought",
+      "sentence": "Have you brought your passport?",
+      "sentence_ar": "هل أحضرتَ جواز سفرك؟",
+      "usage_ar": "brought من bring، وفيها حرف r. لا تقل bringed."
     },
     {
       "group": "past_participles",
@@ -526,7 +582,11 @@
       "arabic": "يفكّر / يظنّ",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "thought",
+      "sentence": "I have thought about your idea.",
+      "sentence_ar": "فكّرتُ في فكرتك.",
+      "usage_ar": "نقول think about أو think of، ولا نقول think in."
     },
     {
       "group": "past_participles",
@@ -535,7 +595,11 @@
       "arabic": "يعلّم",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "taught",
+      "sentence": "She has taught English for ten years.",
+      "sentence_ar": "درّست الإنجليزية لمدة 10 سنوات.",
+      "usage_ar": "taught من teach، ولا تخلطها مع thought."
     },
     {
       "group": "past_participles",
@@ -544,7 +608,11 @@
       "arabic": "يلتقط / يلحق بـ",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "caught",
+      "sentence": "Have you caught the bus?",
+      "sentence_ar": "هل لحقتَ بالحافلة؟",
+      "usage_ar": "catch تعني أيضاً اللحاق بوسيلة نقل: catch the bus."
     },
     {
       "group": "past_participles",
@@ -553,7 +621,11 @@
       "arabic": "يجد",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "found",
+      "sentence": "I have found my glasses.",
+      "sentence_ar": "وجدتُ نظارتي.",
+      "usage_ar": "found من find، ولا تقل finded."
     },
     {
       "group": "past_participles",
@@ -562,7 +634,11 @@
       "arabic": "يملك / لديه",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "had",
+      "sentence": "We have had a lot of rain this week.",
+      "sentence_ar": "هطل علينا مطر كثير هذا الأسبوع.",
+      "usage_ar": "have had صحيحة: الأولى مساعدة والثانية الفعل نفسه."
     },
     {
       "group": "past_participles",
@@ -571,7 +647,11 @@
       "arabic": "يصنع / يجعل",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "made",
+      "sentence": "I have made a cake for your birthday.",
+      "sentence_ar": "صنعتُ كعكة لعيد ميلادك.",
+      "usage_ar": "نقول make a mistake لا do a mistake."
     },
     {
       "group": "past_participles",
@@ -580,7 +660,11 @@
       "arabic": "يقول",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "said",
+      "sentence": "He has said nothing about the trip.",
+      "sentence_ar": "لم يقل شيئاً عن الرحلة.",
+      "usage_ar": "نقول said something ولا نقول said me، بل told me."
     },
     {
       "group": "past_participles",
@@ -589,7 +673,11 @@
       "arabic": "يخبر",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "told",
+      "sentence": "My friend has told me the news.",
+      "sentence_ar": "أخبرني صديقي بالخبر.",
+      "usage_ar": "بعد tell يأتي الشخص مباشرة: told me، لا told to me."
     },
     {
       "group": "past_participles",
@@ -598,7 +686,11 @@
       "arabic": "يبيع",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "sold",
+      "sentence": "They have sold their old car.",
+      "sentence_ar": "باعوا سيارتهم القديمة.",
+      "usage_ar": "sold من sell، ولا تقل selled."
     },
     {
       "group": "past_participles",
@@ -607,7 +699,11 @@
       "arabic": "يلتقي",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "met",
+      "sentence": "Have you met my brother?",
+      "sentence_ar": "هل قابلتَ أخي؟",
+      "usage_ar": "نقول meet someone دون with في التعارف الأول."
     },
     {
       "group": "past_participles",
@@ -616,7 +712,11 @@
       "arabic": "يُبقي / يحتفظ بـ",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "kept",
+      "sentence": "I have kept all your letters.",
+      "sentence_ar": "احتفظتُ بكل رسائلك.",
+      "usage_ar": "keep تأتي دون حرف جر: kept the letters."
     },
     {
       "group": "past_participles",
@@ -625,7 +725,11 @@
       "arabic": "ينام",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "slept",
+      "sentence": "I haven't slept well this week.",
+      "sentence_ar": "لم أنم جيداً هذا الأسبوع.",
+      "usage_ar": "slept من sleep، ولا تقل sleeped."
     },
     {
       "group": "past_participles",
@@ -634,7 +738,11 @@
       "arabic": "يكون",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "been",
+      "sentence": "Have you been to London?",
+      "sentence_ar": "هل سبق أن ذهبتَ إلى لندن؟",
+      "usage_ar": "been to تعني ذهبتَ وعدتَ، وبعدها to."
     },
     {
       "group": "past_participles",
@@ -643,7 +751,11 @@
       "arabic": "يذهب",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "gone",
+      "sentence": "My brother has gone to work.",
+      "sentence_ar": "ذهب أخي إلى العمل.",
+      "usage_ar": "gone تعني ذهب وما زال هناك، أما been فذهب ورجع."
     },
     {
       "group": "past_participles",
@@ -652,7 +764,11 @@
       "arabic": "يفعل",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "done",
+      "sentence": "Have you done your homework?",
+      "sentence_ar": "هل أنجزتَ واجبك؟",
+      "usage_ar": "نقول do homework لا make homework."
     },
     {
       "group": "past_participles",
@@ -661,7 +777,11 @@
       "arabic": "يرى",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "seen",
+      "sentence": "I have never seen snow.",
+      "sentence_ar": "لم أرَ الثلج أبداً.",
+      "usage_ar": "لا تقل I have saw، بل I have seen."
     },
     {
       "group": "past_participles",
@@ -670,7 +790,11 @@
       "arabic": "يأخذ",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "taken",
+      "sentence": "Someone has taken my umbrella.",
+      "sentence_ar": "أخذ أحدهم مظلتي.",
+      "usage_ar": "نقول take a photo وtake a bus مع take."
     },
     {
       "group": "past_participles",
@@ -679,7 +803,11 @@
       "arabic": "يعطي",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "given",
+      "sentence": "My teacher has given us a lot of homework.",
+      "sentence_ar": "أعطانا معلمي واجباً كثيراً.",
+      "usage_ar": "نقول give someone something: given us homework."
     },
     {
       "group": "past_participles",
@@ -688,7 +816,11 @@
       "arabic": "يأكل",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "eaten",
+      "sentence": "Have you eaten breakfast?",
+      "sentence_ar": "هل تناولتَ الفطور؟",
+      "usage_ar": "لا تقل I have ate، بل I have eaten."
     },
     {
       "group": "past_participles",
@@ -697,7 +829,11 @@
       "arabic": "يشرب",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "drunk",
+      "sentence": "I have drunk three cups of coffee today.",
+      "sentence_ar": "شربتُ 3 أكواب من القهوة اليوم.",
+      "usage_ar": "drunk هنا تصريف الفعل، وله معنى آخر: سكران."
     },
     {
       "group": "past_participles",
@@ -706,7 +842,11 @@
       "arabic": "يكتب",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "written",
+      "sentence": "She has written a long email.",
+      "sentence_ar": "كتبت رسالة إلكترونية طويلة.",
+      "usage_ar": "written بحرفي t، أما wrote ففيها t واحدة."
     },
     {
       "group": "past_participles",
@@ -715,7 +855,11 @@
       "arabic": "يتحدث",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "spoken",
+      "sentence": "Have you spoken to the manager?",
+      "sentence_ar": "هل تحدثتَ مع المدير؟",
+      "usage_ar": "نقول speak to someone بمعنى تكلّمه."
     },
     {
       "group": "past_participles",
@@ -724,7 +868,11 @@
       "arabic": "يكسر",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "broken",
+      "sentence": "I have broken my glasses.",
+      "sentence_ar": "كسرتُ نظارتي.",
+      "usage_ar": "broken تأتي صفة أيضاً: a broken window."
     },
     {
       "group": "past_participles",
@@ -733,7 +881,11 @@
       "arabic": "يختار",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "chosen",
+      "sentence": "Have you chosen a colour?",
+      "sentence_ar": "هل اخترتَ لوناً؟",
+      "usage_ar": "chosen من choose، وتُنطق بصوت z."
     },
     {
       "group": "past_participles",
@@ -742,7 +894,11 @@
       "arabic": "يقود",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "driven",
+      "sentence": "He has driven a bus for years.",
+      "sentence_ar": "يقود حافلة منذ سنوات.",
+      "usage_ar": "نقول drive a car، أما الدراجة فـ ride."
     },
     {
       "group": "past_participles",
@@ -751,7 +907,11 @@
       "arabic": "يركب",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "ridden",
+      "sentence": "Have you ever ridden a horse?",
+      "sentence_ar": "هل سبق أن ركبتَ حصاناً؟",
+      "usage_ar": "ride للحصان والدراجة، وdrive للسيارة."
     },
     {
       "group": "past_participles",
@@ -760,7 +920,11 @@
       "arabic": "ينسى",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "forgotten",
+      "sentence": "I have forgotten his name.",
+      "sentence_ar": "نسيتُ اسمه.",
+      "usage_ar": "نقول forget something دون about غالباً."
     },
     {
       "group": "past_participles",
@@ -769,7 +933,11 @@
       "arabic": "يعرف",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "known",
+      "sentence": "I have known her for five years.",
+      "sentence_ar": "أعرفها منذ 5 سنوات.",
+      "usage_ar": "مع know نستعمل التام لا المستمر: لا نقول I am knowing."
     },
     {
       "group": "past_participles",
@@ -778,7 +946,11 @@
       "arabic": "ينمو",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "grown",
+      "sentence": "This tree has grown very fast.",
+      "sentence_ar": "نمت هذه الشجرة بسرعة كبيرة.",
+      "usage_ar": "grow للنبات والأطفال، وgrow up للإنسان حين يكبر."
     },
     {
       "group": "past_participles",
@@ -787,7 +959,11 @@
       "arabic": "يطير",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "flown",
+      "sentence": "Have you ever flown in a small plane?",
+      "sentence_ar": "هل سبق أن طرتَ في طائرة صغيرة؟",
+      "usage_ar": "flown من fly، ولا تقل flied."
     },
     {
       "group": "past_participles",
@@ -796,7 +972,11 @@
       "arabic": "يسبح",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "swum",
+      "sentence": "I have never swum in the sea.",
+      "sentence_ar": "لم أسبح في البحر أبداً.",
+      "usage_ar": "swam للماضي وswum بعد have."
     },
     {
       "group": "past_participles",
@@ -805,7 +985,11 @@
       "arabic": "يبدأ",
       "example": null,
       "group_label_ar": "أسماء المفعول",
-      "group_label_en": "Past Participles"
+      "group_label_en": "Past Participles",
+      "target": "begun",
+      "sentence": "The film has already begun.",
+      "sentence_ar": "بدأ الفيلم بالفعل.",
+      "usage_ar": "began للماضي وbegun بعد have."
     },
     {
       "group": "life_experiences",
@@ -814,7 +998,11 @@
       "arabic": "تجربة / خبرة",
       "example": "It was a strange experience.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "experience",
+      "sentence": "Travelling alone was a great experience.",
+      "sentence_ar": "كان السفر وحدي تجربة رائعة.",
+      "usage_ar": "experience مفرد بمعنى تجربة، وبلا جمع بمعنى خبرة في العمل."
     },
     {
       "group": "life_experiences",
@@ -823,7 +1011,11 @@
       "arabic": "يجرّب",
       "example": "Have you ever tried sushi?",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "try",
+      "sentence": "Have you ever tried Japanese food? I want to try it.",
+      "sentence_ar": "هل سبق أن جرّبتَ الطعام الياباني؟ أريد أن أجرّبه.",
+      "usage_ar": "try something يعني تجرّبه، وtry to do يعني تحاول."
     },
     {
       "group": "life_experiences",
@@ -832,7 +1024,11 @@
       "arabic": "يتذوّق",
       "example": "I've never tasted it.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "taste",
+      "sentence": "I want to taste the soup first.",
+      "sentence_ar": "أريد أن أتذوّق الحساء أولاً.",
+      "usage_ar": "taste يعني تتذوّق، ويأتي أيضاً: It tastes good."
     },
     {
       "group": "life_experiences",
@@ -841,7 +1037,11 @@
       "arabic": "يزور",
       "example": "I've visited four countries.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "visit",
+      "sentence": "I want to visit my aunt this weekend.",
+      "sentence_ar": "أريد أن أزور عمتي في نهاية هذا الأسبوع.",
+      "usage_ar": "visit دون حرف جر: visit Paris لا visit to Paris."
     },
     {
       "group": "life_experiences",
@@ -850,7 +1050,11 @@
       "arabic": "يسافر",
       "example": "She's travelled a lot.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "travel",
+      "sentence": "I love to travel by train.",
+      "sentence_ar": "أحبّ السفر بالقطار.",
+      "usage_ar": "نقول travel by train، وبالبريطانية travelled بحرفي l."
     },
     {
       "group": "life_experiences",
@@ -859,7 +1063,11 @@
       "arabic": "يتسلّق",
       "example": "Have you ever climbed a mountain?",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "climb",
+      "sentence": "We are going to climb a mountain next summer.",
+      "sentence_ar": "سنتسلّق جبلاً الصيف القادم.",
+      "usage_ar": "حرف b في climb لا يُنطق."
     },
     {
       "group": "life_experiences",
@@ -868,7 +1076,11 @@
       "arabic": "يفشل",
       "example": "I've failed twice.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "fail",
+      "sentence": "Don't worry if you fail the first time.",
+      "sentence_ar": "لا تقلق إذا فشلتَ في المرة الأولى.",
+      "usage_ar": "fail a test أي رسب فيه، دون in."
     },
     {
       "group": "life_experiences",
@@ -877,7 +1089,11 @@
       "arabic": "ينجح",
       "example": "He's succeeded at last.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "succeed",
+      "sentence": "If you work hard, you will succeed.",
+      "sentence_ar": "إذا عملتَ بجد فستنجح.",
+      "usage_ar": "نقول succeed in something، والاسم success."
     },
     {
       "group": "life_experiences",
@@ -886,7 +1102,11 @@
       "arabic": "يحقّق",
       "example": "She's achieved a lot.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "achieve",
+      "sentence": "I want to achieve my goals this year.",
+      "sentence_ar": "أريد أن أحقّق أهدافي هذا العام.",
+      "usage_ar": "نقول achieve a goal، والاسم achievement."
     },
     {
       "group": "life_experiences",
@@ -895,7 +1115,11 @@
       "arabic": "يفوز",
       "example": "We've never won.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "win",
+      "sentence": "I hope our team will win the match.",
+      "sentence_ar": "أتمنى أن يفوز فريقنا بالمباراة.",
+      "usage_ar": "نفوز بـ win a game، أما الخصم فنهزمه بـ beat."
     },
     {
       "group": "life_experiences",
@@ -904,7 +1128,11 @@
       "arabic": "يخسر / يفقد",
       "example": "I've lost my keys.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "lose",
+      "sentence": "I always lose my keys.",
+      "sentence_ar": "أضيّع مفاتيحي دائماً.",
+      "usage_ar": "lose بحرف o واحد، أما loose فتعني واسع."
     },
     {
       "group": "life_experiences",
@@ -913,7 +1141,11 @@
       "arabic": "ينتقل",
       "example": "They've moved three times.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "move",
+      "sentence": "We are going to move to a new flat.",
+      "sentence_ar": "سننتقل إلى شقة جديدة.",
+      "usage_ar": "move to بمعنى ينتقل للسكن في مكان جديد."
     },
     {
       "group": "life_experiences",
@@ -922,7 +1154,11 @@
       "arabic": "يغيّر",
       "example": "He's changed a lot.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "change",
+      "sentence": "Some people never change.",
+      "sentence_ar": "بعض الناس لا يتغيّرون أبداً.",
+      "usage_ar": "change يأتي فعلاً واسماً، ونقول change my mind."
     },
     {
       "group": "life_experiences",
@@ -931,7 +1167,11 @@
       "arabic": "يتعلّم",
       "example": "I've learned a lot this year.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "learn",
+      "sentence": "I learn ten new words every day.",
+      "sentence_ar": "أتعلّم 10 كلمات جديدة كل يوم.",
+      "usage_ar": "أنت تتعلّم learn، والمعلم يعلّم teach. لا تخلطهما."
     },
     {
       "group": "life_experiences",
@@ -940,7 +1180,11 @@
       "arabic": "يعلّم",
       "example": "She's taught for ten years.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "teach",
+      "sentence": "My mother can teach you maths.",
+      "sentence_ar": "تستطيع أمي أن تعلّمك الرياضيات.",
+      "usage_ar": "نقول teach someone something: teach me English."
     },
     {
       "group": "life_experiences",
@@ -949,7 +1193,11 @@
       "arabic": "يقابل",
       "example": "Have you met him?",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "meet",
+      "sentence": "I will meet my friend at the café.",
+      "sentence_ar": "سأقابل صديقي في المقهى.",
+      "usage_ar": "meet تعني تقابل أو تتعرّف لأول مرة."
     },
     {
       "group": "life_experiences",
@@ -958,7 +1206,11 @@
       "arabic": "يكسر",
       "example": "I've broken my arm twice.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "break",
+      "sentence": "Be careful, don't break the glass.",
+      "sentence_ar": "انتبه، لا تكسر الكأس.",
+      "usage_ar": "نقول break a rule أيضاً بمعنى يخالفها."
     },
     {
       "group": "life_experiences",
@@ -967,7 +1219,11 @@
       "arabic": "يبني",
       "example": "They've built a new road.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "build",
+      "sentence": "They are going to build a new school here.",
+      "sentence_ar": "سيبنون مدرسة جديدة هنا.",
+      "usage_ar": "حرف u في build لا يُنطق."
     },
     {
       "group": "life_experiences",
@@ -976,7 +1232,11 @@
       "arabic": "يكتشف",
       "example": "I've discovered a good café.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "discover",
+      "sentence": "You will discover many nice places in this city.",
+      "sentence_ar": "ستكتشف أماكن جميلة كثيرة في هذه المدينة.",
+      "usage_ar": "discover لشيء موجود لم تعرفه، وinvent لشيء جديد تصنعه."
     },
     {
       "group": "life_experiences",
@@ -985,7 +1245,11 @@
       "arabic": "يقرّر",
       "example": "We haven't decided yet.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "decide",
+      "sentence": "I can't decide where to go.",
+      "sentence_ar": "لا أستطيع أن أقرّر إلى أين أذهب.",
+      "usage_ar": "بعد decide يأتي to: decide to go."
     },
     {
       "group": "life_experiences",
@@ -994,7 +1258,11 @@
       "arabic": "في الخارج",
       "example": "Have you lived abroad?",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "abroad",
+      "sentence": "Have you ever lived abroad?",
+      "sentence_ar": "هل سبق أن عشتَ في الخارج؟",
+      "usage_ar": "لا نضع قبلها to أو in: go abroad لا go to abroad."
     },
     {
       "group": "life_experiences",
@@ -1003,7 +1271,11 @@
       "arabic": "مغامرة",
       "example": "It was a real adventure.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "adventure",
+      "sentence": "The trip to the desert was a real adventure.",
+      "sentence_ar": "كانت الرحلة إلى الصحراء مغامرة حقيقية.",
+      "usage_ar": "تُقال لتجربة مثيرة فيها شيء جديد."
     },
     {
       "group": "life_experiences",
@@ -1012,7 +1284,11 @@
       "arabic": "خطأ",
       "example": "I've made a lot of mistakes.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "mistake",
+      "sentence": "I have made the same mistake twice.",
+      "sentence_ar": "ارتكبتُ الخطأ نفسه مرتين.",
+      "usage_ar": "نقول make a mistake لا do a mistake."
     },
     {
       "group": "life_experiences",
@@ -1021,7 +1297,11 @@
       "arabic": "فرصة",
       "example": "I've had good opportunities.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "opportunity",
+      "sentence": "This job is a great opportunity for me.",
+      "sentence_ar": "هذه الوظيفة فرصة رائعة لي.",
+      "usage_ar": "نقول an opportunity to do something."
     },
     {
       "group": "life_experiences",
@@ -1030,7 +1310,11 @@
       "arabic": "تحدٍّ",
       "example": "It was a big challenge.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "challenge",
+      "sentence": "Learning English is a big challenge.",
+      "sentence_ar": "تعلّم الإنجليزية تحدٍّ كبير.",
+      "usage_ar": "challenge بمعنى أمر صعب يحتاج جهداً."
     },
     {
       "group": "life_experiences",
@@ -1039,7 +1323,11 @@
       "arabic": "مخاطرة",
       "example": "I've taken a few risks.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "risk",
+      "sentence": "I have taken a big risk with this job.",
+      "sentence_ar": "خاطرتُ مخاطرة كبيرة بهذه الوظيفة.",
+      "usage_ar": "نقول take a risk لا make a risk."
     },
     {
       "group": "life_experiences",
@@ -1048,7 +1336,11 @@
       "arabic": "فخور",
       "example": "I'm proud of it.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "proud",
+      "sentence": "My parents are proud of me.",
+      "sentence_ar": "والداي فخوران بي.",
+      "usage_ar": "بعد proud يأتي of: proud of you."
     },
     {
       "group": "life_experiences",
@@ -1057,7 +1349,11 @@
       "arabic": "يندم",
       "example": "I don't regret it.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "regret",
+      "sentence": "I don't regret leaving that job.",
+      "sentence_ar": "لا أندم على ترك تلك الوظيفة.",
+      "usage_ar": "بعد regret يأتي الفعل بـ ing: regret leaving."
     },
     {
       "group": "life_experiences",
@@ -1066,7 +1362,11 @@
       "arabic": "ذكرى",
       "example": "It's a good memory.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "memory",
+      "sentence": "That trip is my best memory.",
+      "sentence_ar": "تلك الرحلة أجمل ذكرياتي.",
+      "usage_ar": "memory تعني ذكرى، وتعني أيضاً قدرة الحفظ."
     },
     {
       "group": "life_experiences",
@@ -1075,7 +1375,11 @@
       "arabic": "مرة واحدة",
       "example": "I've been there once.",
       "group_label_ar": "تجارب الحياة",
-      "group_label_en": "Life Experiences"
+      "group_label_en": "Life Experiences",
+      "target": "once",
+      "sentence": "I have been to Paris once.",
+      "sentence_ar": "ذهبتُ إلى باريس مرة واحدة.",
+      "usage_ar": "once للمرة الواحدة، وtwice للمرتين، ثم three times."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1084,7 +1388,11 @@
       "arabic": "هل سبق أن…؟",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": null,
+      "sentence": "Ask a friend about their life: Have you ever been to Egypt?",
+      "sentence_ar": "اسأل صديقك عن حياته: هل سبق أن زرتَ مصر؟",
+      "usage_ar": "للسؤال عن تجربة في أي وقت من الحياة، وبعدها التصريف الثالث."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1093,7 +1401,11 @@
       "arabic": "نعم",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": "Yes, I have",
+      "sentence": "Have you seen this film? Yes, I have.",
+      "sentence_ar": "هل شاهدتَ هذا الفيلم؟ نعم، شاهدته.",
+      "usage_ar": "الجواب المختصر يكرّر have ولا يكرّر الفعل الرئيسي."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1102,7 +1414,11 @@
       "arabic": "لا",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": "No, I haven't",
+      "sentence": "Have you met him? No, I haven't.",
+      "sentence_ar": "هل قابلته؟ لا، لم أقابله.",
+      "usage_ar": "الجواب المختصر بالنفي: haven't أو hasn't حسب الفاعل."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1111,7 +1427,11 @@
       "arabic": "أبداً",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": "Never",
+      "sentence": "Have you ridden a camel? Never.",
+      "sentence_ar": "هل ركبتَ جملاً؟ أبداً.",
+      "usage_ar": "جواب قصير بمعنى لم يحدث في حياتي."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1120,7 +1440,11 @@
       "arabic": "ليس بعد",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": "Not yet",
+      "sentence": "Have you finished? Not yet.",
+      "sentence_ar": "هل انتهيت؟ ليس بعد.",
+      "usage_ar": "يعني لم يحدث لكنه سيحدث قريباً."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1129,7 +1453,11 @@
       "arabic": "مرة واحدة فقط",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": "Only once",
+      "sentence": "Have you been to Rome? Only once.",
+      "sentence_ar": "هل ذهبتَ إلى روما؟ مرة واحدة فقط.",
+      "usage_ar": "جواب قصير لعدد المرات، بلا time."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1138,7 +1466,11 @@
       "arabic": "مرتين",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": "Twice",
+      "sentence": "How many times have you flown? Twice.",
+      "sentence_ar": "كم مرة سافرتَ بالطائرة؟ مرتين.",
+      "usage_ar": "نقول twice لا two times عادة."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1147,7 +1479,11 @@
       "arabic": "عدة مرات",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": "Several times",
+      "sentence": "I've been to that café several times.",
+      "sentence_ar": "ذهبتُ إلى ذلك المقهى عدة مرات.",
+      "usage_ar": "several أكثر من اثنين وأقل من كثير."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1156,7 +1492,11 @@
       "arabic": "مرات كثيرة",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": "Many times",
+      "sentence": "I've watched this film many times.",
+      "sentence_ar": "شاهدتُ هذا الفيلم مرات كثيرة.",
+      "usage_ar": "many مع الأشياء المعدودة مثل times."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1165,7 +1505,11 @@
       "arabic": "بضع مرات",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": "A few times",
+      "sentence": "I've tried sushi a few times.",
+      "sentence_ar": "جرّبتُ السوشي بضع مرات.",
+      "usage_ar": "a few تعني بضع، أما few وحدها فتعني قليل جداً."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1174,7 +1518,11 @@
       "arabic": "لطالما أردت ذلك",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": null,
+      "sentence": "Have you been to Japan? No, but I've always wanted to.",
+      "sentence_ar": "هل ذهبتَ إلى اليابان؟ لا، لكني لطالما أردت ذلك.",
+      "usage_ar": "تقوله عن شيء تتمناه منذ زمن ولم تفعله."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1183,7 +1531,11 @@
       "arabic": "أود ذلك جداً",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": "I'd love to",
+      "sentence": "Do you want to come with us? I'd love to.",
+      "sentence_ar": "هل تريد أن تأتي معنا؟ أودّ ذلك جداً.",
+      "usage_ar": "جواب مهذّب ومتحمس على دعوة أو اقتراح."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1192,7 +1544,11 @@
       "arabic": "كيف كان؟",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": null,
+      "sentence": "You visited Turkey? What was it like?",
+      "sentence_ar": "زرتَ تركيا؟ كيف كانت؟",
+      "usage_ar": "تسأل عن وصف تجربة، ولا علاقة لـ like هنا بالحبّ."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1201,7 +1557,11 @@
       "arabic": "كان مذهلاً",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": "It was amazing",
+      "sentence": "How was the concert? It was amazing.",
+      "sentence_ar": "كيف كان الحفل؟ كان مذهلاً.",
+      "usage_ar": "لوصف تجربة ماضية جميلة جداً بالماضي البسيط."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1210,7 +1570,11 @@
       "arabic": "كان فظيعاً",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": "It was terrible",
+      "sentence": "How was the hotel? It was terrible.",
+      "sentence_ar": "كيف كان الفندق؟ كان فظيعاً.",
+      "usage_ar": "لوصف تجربة ماضية سيئة جداً."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1219,7 +1583,11 @@
       "arabic": "كان يستحق",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": null,
+      "sentence": "The trip was expensive, but it was worth it.",
+      "sentence_ar": "كانت الرحلة غالية لكنها كانت تستحق.",
+      "usage_ar": "تقوله حين يكون الجهد أو المال في محله."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1228,7 +1596,11 @@
       "arabic": "متى حدث ذلك؟",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": null,
+      "sentence": "I broke my arm once. When did that happen?",
+      "sentence_ar": "كسرتُ ذراعي مرة. متى حدث ذلك؟",
+      "usage_ar": "حين نسأل عن الوقت ننتقل إلى الماضي البسيط did."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1237,7 +1609,11 @@
       "arabic": "قبل خمس سنوات تقريباً",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": null,
+      "sentence": "When did you go there? About five years ago.",
+      "sentence_ar": "متى ذهبتَ إلى هناك؟ قبل 5 سنوات تقريباً.",
+      "usage_ar": "مع ago نستعمل الماضي البسيط لا التام."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1246,7 +1622,11 @@
       "arabic": "حقاً؟ أخبرني المزيد",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": null,
+      "sentence": "I've climbed a mountain. Really? Tell me more.",
+      "sentence_ar": "تسلّقتُ جبلاً. حقاً؟ أخبرني المزيد.",
+      "usage_ar": "تقوله لتظهر اهتمامك وتطلب تفاصيل."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1255,7 +1635,11 @@
       "arabic": "كيف ذلك؟",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": "How come",
+      "sentence": "I've never eaten pizza. How come?",
+      "sentence_ar": "لم آكل البيتزا أبداً. كيف ذلك؟",
+      "usage_ar": "سؤال عامّي بمعنى لماذا، وبعده لا نقلب الجملة."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1264,7 +1648,11 @@
       "arabic": "لا أصدّق!",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": null,
+      "sentence": "I've won the competition! I can't believe it!",
+      "sentence_ar": "فزتُ في المسابقة! لا أصدّق!",
+      "usage_ar": "للتعبير عن الدهشة من خبر."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1273,7 +1661,11 @@
       "arabic": "يبدو ذلك مذهلاً",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": "That sounds amazing",
+      "sentence": "I've swum with dolphins. That sounds amazing.",
+      "sentence_ar": "سبحتُ مع الدلافين. يبدو ذلك مذهلاً.",
+      "usage_ar": "ردّ على تجربة يحكيها غيرك، وبعد sounds صفة."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1282,7 +1674,11 @@
       "arabic": "سمعت عن ذلك",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": null,
+      "sentence": "The new museum? I've heard about that.",
+      "sentence_ar": "المتحف الجديد؟ سمعت عنه.",
+      "usage_ar": "تقوله عن شيء سمعت عنه ولم تره."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1291,7 +1687,11 @@
       "arabic": "ليست لدي فكرة",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": "I've no idea",
+      "sentence": "Where is the station? Sorry, I've no idea.",
+      "sentence_ar": "أين المحطة؟ آسف، ليست لدي فكرة.",
+      "usage_ar": "طريقة بريطانية لقول I don't know."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1300,7 +1700,11 @@
       "arabic": "أفضل شيء فعلته",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": null,
+      "sentence": "The best thing I've done is learning to swim.",
+      "sentence_ar": "أفضل شيء فعلته هو تعلّم السباحة.",
+      "usage_ar": "لتقديم أفضل تجربة في حياتك حتى الآن."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1309,7 +1713,11 @@
       "arabic": "أسوأ شيء فعلته",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": null,
+      "sentence": "The worst thing I've done is lose my passport.",
+      "sentence_ar": "أسوأ شيء فعلته هو أنني أضعت جواز سفري.",
+      "usage_ar": "لتقديم أسوأ تجربة في حياتك حتى الآن."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1318,7 +1726,11 @@
       "arabic": "كنت أنوي أن…",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": null,
+      "sentence": "I've been meaning to call you all week.",
+      "sentence_ar": "كنتُ أنوي الاتصال بك طوال الأسبوع.",
+      "usage_ar": "لشيء أردتَ فعله منذ مدة ولم تفعله، وبعده فعل."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1327,7 +1739,11 @@
       "arabic": "إنه في قائمتي",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": null,
+      "sentence": "I haven't visited Petra yet, but it's on my list.",
+      "sentence_ar": "لم أزر البتراء بعد، لكنها في قائمتي.",
+      "usage_ar": "لشيء تخطّط لفعله يوماً ما."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1336,7 +1752,11 @@
       "arabic": "هل ذهبت إلى هناك؟",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": null,
+      "sentence": "I love Istanbul. Have you been there?",
+      "sentence_ar": "أحبّ إسطنبول. هل ذهبتَ إلى هناك؟",
+      "usage_ar": "لا نضع to قبل there: been there لا been to there."
     },
     {
       "group": "experience_questions_and_answers",
@@ -1345,7 +1765,11 @@
       "arabic": "لا أتذكّر ذلك",
       "example": null,
       "group_label_ar": "أسئلة التجربة وأجوبتها",
-      "group_label_en": "Experience Questions and Answers"
+      "group_label_en": "Experience Questions and Answers",
+      "target": null,
+      "sentence": "Have we met before? Not that I remember.",
+      "sentence_ar": "هل التقينا من قبل؟ لا أتذكّر ذلك.",
+      "usage_ar": "جواب مهذّب حين لا تتذكّر شيئاً."
     }
   ],
   "minimal_pairs": [
@@ -1965,7 +2389,7 @@
             "title_ar": "ابنِ نصّك أنت",
             "title_en": "Build Your Version",
             "text_en": [
-              "Section 2 is the point of this task. Real speakers open in the Present Perfect and then drop into the Past Simple the moment they give a date or a detail. If your whole recording stays in one tense, it will sound like an exercise rather than speech."
+              "Part 2 of your outline is the point of this task. Real speakers open in the Present Perfect and then drop into the Past Simple the moment they give a date or a detail. If your whole recording stays in one tense, it will sound like an exercise rather than speech."
             ]
           },
           {

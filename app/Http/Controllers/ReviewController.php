@@ -27,6 +27,17 @@ class ReviewController extends Controller
     protected const SESSION_LIMIT = 20;
 
     /**
+     * New words per session, at most. Twenty random new cards crowded
+     * out the words actually due to return, and mixed last week's words
+     * with yesterday's in no order — the session felt like the same
+     * lesson again, not a review of what came before.
+     */
+    protected const NEW_LIMIT = 8;
+
+    /** The learner's own words (the 🧠 memory) mixed into each session */
+    protected const MEMORY_LIMIT = 5;
+
+    /**
      * البطاقات المستحقة الآن، مع بطاقات جديدة من هذا الأسبوع.
      *
      * الجديدة تُنشأ عند أول طلب لا عند الاستيراد: إنشاء بطاقة لكل
@@ -40,7 +51,17 @@ class ReviewController extends Controller
             'day' => ['nullable', 'integer', 'between:1,7'],
         ]);
 
-        $this->seedCardsForWeek($user->id, $week, $data['day'] ?? null);
+        /*
+         * Seed only what earlier days taught. The review opens the day,
+         * before the day's own words are learned — seeding "up to today"
+         * served today's words as review, then the lesson taught them,
+         * then the flashcards drilled them: the same words three times
+         * in an hour, and none of yesterday's.
+         */
+        $upTo = isset($data['day']) ? max(0, $data['day'] - 1) : null;
+        if ($upTo !== 0) {
+            $this->seedCardsForWeek($user->id, $week, $upTo);
+        }
 
         /**
          * Two queries, because the two halves are ordered by different
@@ -73,22 +94,33 @@ class ReviewController extends Controller
             ->limit(self::SESSION_LIMIT)
             ->get();
 
-        $room = self::SESSION_LIMIT - $due->count();
+        $room = min(self::NEW_LIMIT, self::SESSION_LIMIT - $due->count());
 
+        // New words in the order they were taught — seeding follows the
+        // day plan, so the card id is the order of learning: oldest first
         $fresh = $room > 0
             ? ReviewCard::with('vocabulary:id,word,ipa,arabic,example,group')
                 ->forUser($user->id)
                 ->new()
-                ->inRandomOrder()
+                ->orderBy('id')
                 ->limit($room)
                 ->get()
             : collect();
 
         $cards = $due->concat($fresh);
 
+        // The learner's own words, due or never reviewed — graded on
+        // their own table, so each carries where its result goes
+        $memory = \App\Models\MemoryWord::forUser($user->id)
+            ->where(fn ($q) => $q->due()->orWhere('state', 'new'))
+            ->orderBy('due_at')
+            ->limit(self::MEMORY_LIMIT)
+            ->get();
+
         return response()->json([
             'cards' => $cards->map(fn (ReviewCard $c) => [
                 'id'         => $c->id,
+                'source'     => 'course',
                 'word'       => $c->vocabulary->word,
                 'ipa'        => $c->vocabulary->ipa,
                 'arabic'     => $c->vocabulary->arabic,
@@ -102,7 +134,22 @@ class ReviewController extends Controller
                 'lapses'     => $c->lapses,
                 'due_at'     => $c->due_at?->toIso8601String(),
                 'last_reviewed_at' => $c->last_reviewed_at?->toIso8601String(),
-            ])->all(),
+            ])->concat($memory->map(fn ($m) => [
+                'id'         => $m->id,
+                'source'     => 'memory',
+                'word'       => $m->term,
+                'ipa'        => null,
+                'arabic'     => $m->translation ?: $m->term,
+                'example'    => null,
+                'group'      => 'memory',
+                'state'      => $m->state,
+                'stability'  => $m->stability,
+                'difficulty' => $m->difficulty,
+                'reps'       => $m->reps,
+                'lapses'     => $m->lapses,
+                'due_at'     => $m->due_at?->toIso8601String(),
+                'last_reviewed_at' => $m->last_reviewed_at?->toIso8601String(),
+            ]))->shuffle()->values()->all(),
 
             'counts' => [
                 'due'   => ReviewCard::forUser($user->id)->due()->where('state', '!=', 'new')->count(),

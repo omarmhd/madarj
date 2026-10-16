@@ -128,7 +128,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -182,7 +182,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -236,7 +236,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -290,7 +290,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -344,7 +344,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -362,13 +362,19 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "حوار: Plans for the Year · الاستماع",
-          "minutes": 25,
-          "ref": "dialogue:2|section:listening"
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:2",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الاستماع",
+          "minutes": 15,
+          "ref": "section:listening",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
@@ -377,10 +383,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
@@ -389,19 +395,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -416,40 +422,58 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "ترتيب المواعيد · القراءة · الكتابة",
-          "minutes": 25,
-          "ref": "vocab:making_arrangements|section:reading|writing:1|record"
+          "label": "الكلمات",
+          "minutes": 5,
+          "ref": "vocab:making_arrangements",
+          "order": 2
+        },
+        {
+          "label": "القراءة",
+          "minutes": 5,
+          "ref": "section:reading",
+          "order": 3
+        },
+        {
+          "label": "الكتابة",
+          "minutes": 5,
+          "ref": "writing:1",
+          "order": 4
+        },
+        {
+          "label": "التحدّث",
+          "minutes": 5,
+          "ref": "record",
+          "order": 5
         },
         {
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:making_arrangements",
-          "order": 3
+          "order": 6
         },
         {
-          "order": 4,
+          "order": 7,
           "label": "لعبة التمييز الصوتي",
           "minutes": 15,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 8,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 6,
+          "order": 9,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 10
         }
       ]
     }
@@ -462,7 +486,11 @@
       "arabic": "غداً",
       "example": "I'm going to call him tomorrow.",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": "tomorrow",
+      "sentence": "I'm going to call him tomorrow.",
+      "sentence_ar": "سأتصل به غداً.",
+      "usage_ar": "بلا the: tomorrow لا the tomorrow."
     },
     {
       "group": "future_time_expressions",
@@ -471,7 +499,11 @@
       "arabic": "بعد غد",
       "example": "We'll meet the day after tomorrow.",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": null,
+      "sentence": "We'll meet the day after tomorrow.",
+      "sentence_ar": "سنلتقي بعد غد.",
+      "usage_ar": "قلها لموعد بعد يومين من اليوم، مع the."
     },
     {
       "group": "future_time_expressions",
@@ -480,7 +512,11 @@
       "arabic": "الليلة",
       "example": "What are you doing tonight?",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": "tonight",
+      "sentence": "What are you doing tonight?",
+      "sentence_ar": "ماذا ستفعل الليلة؟",
+      "usage_ar": "بلا in ولا the: tonight لا in the tonight."
     },
     {
       "group": "future_time_expressions",
@@ -489,7 +525,11 @@
       "arabic": "الأسبوع/الشهر/العام القادم",
       "example": "She's starting next month.",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": "next month",
+      "sentence": "She's starting her new job next month.",
+      "sentence_ar": "ستبدأ عملها الجديد الشهر القادم.",
+      "usage_ar": "بلا the ولا in: next month لا the next month."
     },
     {
       "group": "future_time_expressions",
@@ -498,7 +538,11 @@
       "arabic": "الجمعة القادمة",
       "example": "The meeting is next Friday.",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": "next Friday",
+      "sentence": "The meeting is next Friday.",
+      "sentence_ar": "الاجتماع يوم الجمعة القادمة.",
+      "usage_ar": "بلا on: next Friday لا on next Friday."
     },
     {
       "group": "future_time_expressions",
@@ -507,7 +551,11 @@
       "arabic": "بعد يومين",
       "example": "He arrives in two days.",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": "in two days",
+      "sentence": "He arrives in two days.",
+      "sentence_ar": "هو يصل بعد يومين.",
+      "usage_ar": "in هنا تعني بعد، لا after two days."
     },
     {
       "group": "future_time_expressions",
@@ -516,7 +564,11 @@
       "arabic": "بعد ساعة",
       "example": "I'll be there in an hour.",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": "in an hour",
+      "sentence": "I'll be there in an hour.",
+      "sentence_ar": "سأكون هناك بعد ساعة.",
+      "usage_ar": "نقول an hour لأن h لا تُنطق."
     },
     {
       "group": "future_time_expressions",
@@ -525,7 +577,11 @@
       "arabic": "قريباً",
       "example": "They're going to move soon.",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": "soon",
+      "sentence": "They're going to move soon.",
+      "sentence_ar": "سينتقلون قريباً.",
+      "usage_ar": "تأتي غالباً في آخر الجملة."
     },
     {
       "group": "future_time_expressions",
@@ -534,7 +590,11 @@
       "arabic": "لاحقاً",
       "example": "I'll call you later.",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": "later",
+      "sentence": "I'll call you later.",
+      "sentence_ar": "سأتصل بك لاحقاً.",
+      "usage_ar": "see you later للوداع."
     },
     {
       "group": "future_time_expressions",
@@ -543,7 +603,11 @@
       "arabic": "هذا المساء",
       "example": "We're eating out this evening.",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": "this evening",
+      "sentence": "We're eating out this evening.",
+      "sentence_ar": "سنتناول العشاء خارجاً هذا المساء.",
+      "usage_ar": "بلا in: this evening."
     },
     {
       "group": "future_time_expressions",
@@ -552,7 +616,11 @@
       "arabic": "في العطلة",
       "example": "What are you doing at the weekend?",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": "at the weekend",
+      "sentence": "What are you doing at the weekend?",
+      "sentence_ar": "ماذا ستفعل في العطلة؟",
+      "usage_ar": "في البريطانية at the weekend، وفي الأمريكية on."
     },
     {
       "group": "future_time_expressions",
@@ -561,7 +629,11 @@
       "arabic": "يوم الاثنين",
       "example": "The course starts on Monday.",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": "on Monday",
+      "sentence": "The course starts on Monday.",
+      "sentence_ar": "تبدأ الدورة يوم الاثنين.",
+      "usage_ar": "مع الأيام نقول on: on Monday."
     },
     {
       "group": "future_time_expressions",
@@ -570,7 +642,11 @@
       "arabic": "في المستقبل",
       "example": "In the future I want to teach.",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": "in the future",
+      "sentence": "In the future I want to teach.",
+      "sentence_ar": "في المستقبل أريد أن أدرّس.",
+      "usage_ar": "مع in و the: in the future."
     },
     {
       "group": "future_time_expressions",
@@ -579,7 +655,11 @@
       "arabic": "يوماً ما",
       "example": "One day I'm going to visit Japan.",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": "one day",
+      "sentence": "One day I'm going to visit Japan.",
+      "sentence_ar": "يوماً ما سأزور اليابان.",
+      "usage_ar": "لحلم أو خطة بلا تاريخ محدد."
     },
     {
       "group": "future_time_expressions",
@@ -588,7 +668,11 @@
       "arabic": "بعد قليل من",
       "example": "We left soon after.",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": "soon after",
+      "sentence": "We left soon after the film.",
+      "sentence_ar": "غادرنا بعد الفيلم بقليل.",
+      "usage_ar": "تأتي بعدها حدث أو في آخر الجملة."
     },
     {
       "group": "future_time_expressions",
@@ -597,7 +681,11 @@
       "arabic": "من الآن فصاعداً",
       "example": "From now on I'll study every day.",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": "from now on",
+      "sentence": "From now on I'll study every day.",
+      "sentence_ar": "من الآن فصاعداً سأدرس كل يوم.",
+      "usage_ar": "لقرار جديد يبدأ الآن، غالباً مع will."
     },
     {
       "group": "future_time_expressions",
@@ -606,7 +694,11 @@
       "arabic": "بحلول الجمعة",
       "example": "I'll finish it by Friday.",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": "by Friday",
+      "sentence": "I'll finish it by Friday.",
+      "sentence_ar": "سأنهيه بحلول الجمعة.",
+      "usage_ar": "by تعني في موعد أقصاه، وuntil تعني طوال المدة حتى."
     },
     {
       "group": "future_time_expressions",
@@ -615,7 +707,11 @@
       "arabic": "حتى الجمعة",
       "example": "I'm staying until Friday.",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": "until Friday",
+      "sentence": "I'm staying here until Friday.",
+      "sentence_ar": "سأبقى هنا حتى الجمعة.",
+      "usage_ar": "until لشيء يستمر ثم يتوقف، لا by."
     },
     {
       "group": "future_time_expressions",
@@ -624,7 +720,11 @@
       "arabic": "لمدة أسبوعين",
       "example": "We're going for two weeks.",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": "for two weeks",
+      "sentence": "We're going to Spain for two weeks.",
+      "sentence_ar": "سنذهب إلى إسبانيا لمدة أسبوعين.",
+      "usage_ar": "for للمدة، ولا تقل since two weeks."
     },
     {
       "group": "future_time_expressions",
@@ -633,7 +733,11 @@
       "arabic": "على الأرجح",
       "example": "I'll probably be late.",
       "group_label_ar": "تعبيرات المستقبل",
-      "group_label_en": "Future Time Expressions"
+      "group_label_en": "Future Time Expressions",
+      "target": "probably",
+      "sentence": "I'll probably be late.",
+      "sentence_ar": "على الأرجح سأتأخر.",
+      "usage_ar": "بعد will وقبل الفعل: I'll probably be."
     },
     {
       "group": "plans_and_appointments",
@@ -642,7 +746,11 @@
       "arabic": "خطة",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "plan",
+      "sentence": "What is your plan for tomorrow?",
+      "sentence_ar": "ما خطتك للغد؟",
+      "usage_ar": "نقول make a plan، وplans for the weekend."
     },
     {
       "group": "plans_and_appointments",
@@ -651,7 +759,11 @@
       "arabic": "موعد",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "appointment",
+      "sentence": "I have an appointment with the doctor.",
+      "sentence_ar": "لدي موعد مع الطبيب.",
+      "usage_ar": "appointment للطبيب أو مكتب، وdate لموعد عاطفي."
     },
     {
       "group": "plans_and_appointments",
@@ -660,7 +772,11 @@
       "arabic": "يرتّب",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "arrange",
+      "sentence": "Let's arrange a meeting for Monday.",
+      "sentence_ar": "لنرتب اجتماعاً يوم الاثنين.",
+      "usage_ar": "نقول arrange a meeting أو arrange to meet."
     },
     {
       "group": "plans_and_appointments",
@@ -669,7 +785,11 @@
       "arabic": "ترتيب",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "arrangement",
+      "sentence": "We have an arrangement to meet at six.",
+      "sentence_ar": "لدينا اتفاق على اللقاء في السادسة.",
+      "usage_ar": "نقول make an arrangement."
     },
     {
       "group": "plans_and_appointments",
@@ -678,7 +798,11 @@
       "arabic": "يحجز",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "book",
+      "sentence": "I'm going to book a table for four.",
+      "sentence_ar": "سأحجز طاولة لأربعة أشخاص.",
+      "usage_ar": "book هنا فعل: book a room, book a ticket."
     },
     {
       "group": "plans_and_appointments",
@@ -687,7 +811,11 @@
       "arabic": "حجز",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "reservation",
+      "sentence": "I have a reservation for two tonight.",
+      "sentence_ar": "لدي حجز لشخصين الليلة.",
+      "usage_ar": "نقول make a reservation، وكلمة رسمية."
     },
     {
       "group": "plans_and_appointments",
@@ -696,7 +824,11 @@
       "arabic": "يلغي",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "cancel",
+      "sentence": "I'm going to cancel the meeting.",
+      "sentence_ar": "سألغي الاجتماع.",
+      "usage_ar": "نقول cancel مباشرة بلا حرف جر."
     },
     {
       "group": "plans_and_appointments",
@@ -705,7 +837,11 @@
       "arabic": "يؤجّل",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "postpone",
+      "sentence": "They're going to postpone the match.",
+      "sentence_ar": "سيؤجلون المباراة.",
+      "usage_ar": "نقول postpone something until أو to."
     },
     {
       "group": "plans_and_appointments",
@@ -714,7 +850,11 @@
       "arabic": "يؤكّد",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "confirm",
+      "sentence": "Please confirm your appointment by phone.",
+      "sentence_ar": "من فضلك أكّد موعدك بالهاتف.",
+      "usage_ar": "كلمة رسمية في الحجوزات والرسائل."
     },
     {
       "group": "plans_and_appointments",
@@ -723,7 +863,11 @@
       "arabic": "يغيّر",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "change",
+      "sentence": "Can I change my appointment to Friday?",
+      "sentence_ar": "هل يمكنني تغيير موعدي إلى الجمعة؟",
+      "usage_ar": "نقول change X to Y."
     },
     {
       "group": "plans_and_appointments",
@@ -732,7 +876,11 @@
       "arabic": "يقرّر",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "decide",
+      "sentence": "I can't decide what to wear.",
+      "sentence_ar": "لا أستطيع أن أقرر ماذا ألبس.",
+      "usage_ar": "نقول decide to + فعل: I decided to stay."
     },
     {
       "group": "plans_and_appointments",
@@ -741,7 +889,11 @@
       "arabic": "قرار",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "decision",
+      "sentence": "It is a difficult decision.",
+      "sentence_ar": "إنه قرار صعب.",
+      "usage_ar": "نقول make a decision، لا take."
     },
     {
       "group": "plans_and_appointments",
@@ -750,7 +902,11 @@
       "arabic": "يعد",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "promise",
+      "sentence": "I promise I'll call you tonight.",
+      "sentence_ar": "أعدك أن أتصل بك الليلة.",
+      "usage_ar": "promise مع will: I promise I'll..."
     },
     {
       "group": "plans_and_appointments",
@@ -759,7 +915,11 @@
       "arabic": "يتوقّع",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "expect",
+      "sentence": "I expect it will rain tomorrow.",
+      "sentence_ar": "أتوقع أنها ستمطر غداً.",
+      "usage_ar": "expect لما تظنه سيحدث، وwait لانتظار شيء."
     },
     {
       "group": "plans_and_appointments",
@@ -768,7 +928,11 @@
       "arabic": "يأمل",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "hope",
+      "sentence": "I hope you'll come to my party.",
+      "sentence_ar": "آمل أن تأتي إلى حفلتي.",
+      "usage_ar": "hope لما تريده أن يحدث: I hope so."
     },
     {
       "group": "plans_and_appointments",
@@ -777,7 +941,11 @@
       "arabic": "ينوي",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "intend",
+      "sentence": "I intend to finish the course this year.",
+      "sentence_ar": "أنوي إنهاء الدورة هذه السنة.",
+      "usage_ar": "بعدها to + فعل، وهي رسمية قليلاً."
     },
     {
       "group": "plans_and_appointments",
@@ -786,7 +954,11 @@
       "arabic": "جدول",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "schedule",
+      "sentence": "Let me check my schedule for next week.",
+      "sentence_ar": "دعني أتفقد جدولي للأسبوع القادم.",
+      "usage_ar": "نقول on schedule أي في الوقت المحدد."
     },
     {
       "group": "plans_and_appointments",
@@ -795,7 +967,11 @@
       "arabic": "مفكرة",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "diary",
+      "sentence": "I write all my appointments in my diary.",
+      "sentence_ar": "أكتب كل مواعيدي في مفكرتي.",
+      "usage_ar": "diary للمواعيد في البريطانية، وأيضاً للمذكرات."
     },
     {
       "group": "plans_and_appointments",
@@ -804,7 +980,11 @@
       "arabic": "متفرّغ",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "free",
+      "sentence": "Are you free on Saturday?",
+      "sentence_ar": "هل أنت متفرغ يوم السبت؟",
+      "usage_ar": "free هنا بمعنى غير مشغول، وأيضاً مجاني."
     },
     {
       "group": "plans_and_appointments",
@@ -813,7 +993,11 @@
       "arabic": "مشغول",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "busy",
+      "sentence": "Sorry, I'm busy on Monday.",
+      "sentence_ar": "آسف، أنا مشغول يوم الاثنين.",
+      "usage_ar": "قل I'm busy مع am."
     },
     {
       "group": "plans_and_appointments",
@@ -822,7 +1006,11 @@
       "arabic": "متاح",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "available",
+      "sentence": "Is the doctor available tomorrow?",
+      "sentence_ar": "هل الطبيب متاح غداً؟",
+      "usage_ar": "أكثر رسمية من free."
     },
     {
       "group": "plans_and_appointments",
@@ -831,7 +1019,11 @@
       "arabic": "مناسب",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "convenient",
+      "sentence": "Is ten o'clock convenient for you?",
+      "sentence_ar": "هل الساعة العاشرة مناسبة لك؟",
+      "usage_ar": "نقول convenient for you، والوقت هو الفاعل لا أنت."
     },
     {
       "group": "plans_and_appointments",
@@ -840,7 +1032,11 @@
       "arabic": "موعد نهائي",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "deadline",
+      "sentence": "The deadline is next Monday.",
+      "sentence_ar": "الموعد النهائي يوم الاثنين القادم.",
+      "usage_ar": "نقول meet the deadline."
     },
     {
       "group": "plans_and_appointments",
@@ -849,7 +1045,11 @@
       "arabic": "هدف",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "goal",
+      "sentence": "My goal is to speak English well.",
+      "sentence_ar": "هدفي أن أتكلم الإنجليزية جيداً.",
+      "usage_ar": "نقول reach a goal، وبعدها to + فعل."
     },
     {
       "group": "plans_and_appointments",
@@ -858,7 +1058,11 @@
       "arabic": "فرصة",
       "example": null,
       "group_label_ar": "الخطط والمواعيد",
-      "group_label_en": "Plans and Appointments"
+      "group_label_en": "Plans and Appointments",
+      "target": "opportunity",
+      "sentence": "This job is a great opportunity for me.",
+      "sentence_ar": "هذا العمل فرصة عظيمة لي.",
+      "usage_ar": "نقول a chance أيضاً، وopportunity أكثر رسمية."
     },
     {
       "group": "weather_and_predictions",
@@ -867,7 +1071,11 @@
       "arabic": "طقس",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "weather",
+      "sentence": "The weather is going to be nice tomorrow.",
+      "sentence_ar": "سيكون الطقس جميلاً غداً.",
+      "usage_ar": "لا تقل a weather: the weather is nice."
     },
     {
       "group": "weather_and_predictions",
@@ -876,7 +1084,11 @@
       "arabic": "توقعات",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "forecast",
+      "sentence": "The forecast says it will rain.",
+      "sentence_ar": "التوقعات تقول إنها ستمطر.",
+      "usage_ar": "نقول the weather forecast."
     },
     {
       "group": "weather_and_predictions",
@@ -885,7 +1097,11 @@
       "arabic": "مشمس",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "sunny",
+      "sentence": "It will be sunny at the weekend.",
+      "sentence_ar": "سيكون الجو مشمساً في العطلة.",
+      "usage_ar": "نقول It is sunny مع it."
     },
     {
       "group": "weather_and_predictions",
@@ -894,7 +1110,11 @@
       "arabic": "غائم",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "cloudy",
+      "sentence": "It's going to be cloudy this afternoon.",
+      "sentence_ar": "سيكون الجو غائماً بعد الظهر.",
+      "usage_ar": "صفة من cloud + y."
     },
     {
       "group": "weather_and_predictions",
@@ -903,7 +1123,11 @@
       "arabic": "مطر",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "rain",
+      "sentence": "Look at those clouds! It's going to rain.",
+      "sentence_ar": "انظر إلى تلك الغيوم! ستمطر.",
+      "usage_ar": "rain اسم وفعل: it's raining."
     },
     {
       "group": "weather_and_predictions",
@@ -912,7 +1136,11 @@
       "arabic": "ممطر",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "rainy",
+      "sentence": "Take an umbrella. It's a rainy day.",
+      "sentence_ar": "خذ مظلة. إنه يوم ممطر.",
+      "usage_ar": "rainy صفة: a rainy day."
     },
     {
       "group": "weather_and_predictions",
@@ -921,7 +1149,11 @@
       "arabic": "ثلج",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "snow",
+      "sentence": "There will be snow in the mountains.",
+      "sentence_ar": "سيكون هناك ثلج في الجبال.",
+      "usage_ar": "snow اسم وفعل: it is snowing."
     },
     {
       "group": "weather_and_predictions",
@@ -930,7 +1162,11 @@
       "arabic": "رياح",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "wind",
+      "sentence": "The wind is very strong today.",
+      "sentence_ar": "الرياح قوية جداً اليوم.",
+      "usage_ar": "نقول a strong wind لا a big wind."
     },
     {
       "group": "weather_and_predictions",
@@ -939,7 +1175,11 @@
       "arabic": "عاصف",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "windy",
+      "sentence": "It will be windy by the sea.",
+      "sentence_ar": "سيكون الجو عاصفاً عند البحر.",
+      "usage_ar": "صفة: it is windy."
     },
     {
       "group": "weather_and_predictions",
@@ -948,7 +1188,11 @@
       "arabic": "عاصفة",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "storm",
+      "sentence": "A big storm is coming tonight.",
+      "sentence_ar": "عاصفة كبيرة قادمة الليلة.",
+      "usage_ar": "نقول a storm is coming."
     },
     {
       "group": "weather_and_predictions",
@@ -957,7 +1201,11 @@
       "arabic": "حار",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "hot",
+      "sentence": "It will be very hot in August.",
+      "sentence_ar": "سيكون الجو حاراً جداً في أغسطس.",
+      "usage_ar": "hot أقوى من warm."
     },
     {
       "group": "weather_and_predictions",
@@ -966,7 +1214,11 @@
       "arabic": "بارد",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "cold",
+      "sentence": "It's going to be cold tonight.",
+      "sentence_ar": "سيكون الجو بارداً الليلة.",
+      "usage_ar": "I am cold لا I have cold، وhave a cold تعني زكام."
     },
     {
       "group": "weather_and_predictions",
@@ -975,7 +1227,11 @@
       "arabic": "دافئ",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "warm",
+      "sentence": "Wear a warm coat. It's cold outside.",
+      "sentence_ar": "البس معطفاً دافئاً. الجو بارد في الخارج.",
+      "usage_ar": "warm أخف من hot، وجميلة غالباً."
     },
     {
       "group": "weather_and_predictions",
@@ -984,7 +1240,11 @@
       "arabic": "معتدل البرودة",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "cool",
+      "sentence": "It will be cool in the evening.",
+      "sentence_ar": "سيكون الجو معتدل البرودة في المساء.",
+      "usage_ar": "cool أخف من cold، وتعني أيضاً رائع في الكلام."
     },
     {
       "group": "weather_and_predictions",
@@ -993,7 +1253,11 @@
       "arabic": "جاف",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "dry",
+      "sentence": "The weather will be dry tomorrow.",
+      "sentence_ar": "سيكون الطقس جافاً غداً.",
+      "usage_ar": "dry عكس wet."
     },
     {
       "group": "weather_and_predictions",
@@ -1002,7 +1266,11 @@
       "arabic": "رطب",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "wet",
+      "sentence": "My clothes are wet because of the rain.",
+      "sentence_ar": "ملابسي مبللة بسبب المطر.",
+      "usage_ar": "wet تعني مبتلاً بالماء."
     },
     {
       "group": "weather_and_predictions",
@@ -1011,7 +1279,11 @@
       "arabic": "درجة حرارة",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "temperature",
+      "sentence": "The temperature will be 30 degrees tomorrow.",
+      "sentence_ar": "ستكون درجة الحرارة 30 درجة غداً.",
+      "usage_ar": "نقول a high temperature أو a low temperature."
     },
     {
       "group": "weather_and_predictions",
@@ -1020,7 +1292,11 @@
       "arabic": "درجة",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "degree",
+      "sentence": "It is only one degree outside.",
+      "sentence_ar": "إنها درجة واحدة فقط في الخارج.",
+      "usage_ar": "في الجمع degrees: 30 degrees."
     },
     {
       "group": "weather_and_predictions",
@@ -1029,7 +1305,11 @@
       "arabic": "متأكد",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "sure",
+      "sentence": "Are you sure it will rain?",
+      "sentence_ar": "هل أنت متأكد أنها ستمطر؟",
+      "usage_ar": "نقول sure about، وI'm not sure."
     },
     {
       "group": "weather_and_predictions",
@@ -1038,7 +1318,11 @@
       "arabic": "واثق",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "certain",
+      "sentence": "I'm certain he will come.",
+      "sentence_ar": "أنا واثق أنه سيأتي.",
+      "usage_ar": "أقوى وأكثر رسمية من sure."
     },
     {
       "group": "weather_and_predictions",
@@ -1047,7 +1331,11 @@
       "arabic": "ربما",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "perhaps",
+      "sentence": "Perhaps it will snow tomorrow.",
+      "sentence_ar": "ربما تثلج غداً.",
+      "usage_ar": "perhaps وmaybe في أول الجملة، لا بعد will."
     },
     {
       "group": "weather_and_predictions",
@@ -1056,7 +1344,11 @@
       "arabic": "بالتأكيد",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "definitely",
+      "sentence": "I will definitely call you tomorrow.",
+      "sentence_ar": "سأتصل بك غداً بالتأكيد.",
+      "usage_ar": "بعد will وقبل الفعل: will definitely call."
     },
     {
       "group": "weather_and_predictions",
@@ -1065,7 +1357,11 @@
       "arabic": "ممكن",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "possible",
+      "sentence": "Is it possible to meet tomorrow?",
+      "sentence_ar": "هل من الممكن أن نلتقي غداً؟",
+      "usage_ar": "نقول It is possible to + فعل."
     },
     {
       "group": "weather_and_predictions",
@@ -1074,7 +1370,11 @@
       "arabic": "مستحيل",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "impossible",
+      "sentence": "It's impossible to finish today.",
+      "sentence_ar": "من المستحيل أن ننهي اليوم.",
+      "usage_ar": "im تعكس المعنى: impossible."
     },
     {
       "group": "weather_and_predictions",
@@ -1083,7 +1383,11 @@
       "arabic": "أظن ذلك",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "I think so",
+      "sentence": "Will it rain? I think so.",
+      "sentence_ar": "هل ستمطر؟ أظن ذلك.",
+      "usage_ar": "جواب قصير، لا تقل I think yes."
     },
     {
       "group": "weather_and_predictions",
@@ -1092,7 +1396,11 @@
       "arabic": "أشك في ذلك",
       "example": null,
       "group_label_ar": "الطقس والتوقّعات",
-      "group_label_en": "Weather and Predictions"
+      "group_label_en": "Weather and Predictions",
+      "target": "I doubt it",
+      "sentence": "Will he come on time? I doubt it.",
+      "sentence_ar": "هل سيأتي في الوقت؟ أشك في ذلك.",
+      "usage_ar": "جواب قصير مهذب بمعنى لا أظن."
     },
     {
       "group": "making_arrangements",
@@ -1101,7 +1409,11 @@
       "arabic": "هل أنت متفرّغ يوم…؟",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "Are you free on Saturday? Let's have lunch.",
+      "sentence_ar": "هل أنت متفرغ يوم السبت؟ لنتغدَّ معاً.",
+      "usage_ar": "قلها قبل أن تقترح لقاءً، وضع اليوم بعد on."
     },
     {
       "group": "making_arrangements",
@@ -1110,7 +1422,11 @@
       "arabic": "أي وقت يناسبك؟",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "I can meet tomorrow. What time suits you?",
+      "sentence_ar": "أستطيع اللقاء غداً. أي وقت يناسبك؟",
+      "usage_ar": "قلها لتترك للآخر اختيار الوقت بأدب."
     },
     {
       "group": "making_arrangements",
@@ -1119,7 +1435,11 @@
       "arabic": "هل نلتقي في…؟",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "Shall we meet at the café at five?",
+      "sentence_ar": "هل نلتقي في المقهى في الخامسة؟",
+      "usage_ar": "قلها لتقترح مكاناً أو وقتاً للقاء."
     },
     {
       "group": "making_arrangements",
@@ -1128,7 +1448,11 @@
       "arabic": "هذا يناسبني",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "Five o'clock? That works for me.",
+      "sentence_ar": "الخامسة؟ هذا يناسبني.",
+      "usage_ar": "قلها لتقبل وقتاً أو خطة اقترحها غيرك."
     },
     {
       "group": "making_arrangements",
@@ -1137,7 +1461,11 @@
       "arabic": "ما رأيك بالثلاثاء؟",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "I can't on Monday. How about Tuesday?",
+      "sentence_ar": "لا أستطيع يوم الاثنين. ما رأيك بالثلاثاء؟",
+      "usage_ar": "قلها لتقترح بديلاً، وبعد how about اسم أو فعل ing."
     },
     {
       "group": "making_arrangements",
@@ -1146,7 +1474,11 @@
       "arabic": "للأسف لا أستطيع",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "Can you come tonight? I'm afraid I can't.",
+      "sentence_ar": "هل تستطيع المجيء الليلة؟ للأسف لا أستطيع.",
+      "usage_ar": "قلها لترفض بأدب، وI'm afraid هنا تعني للأسف."
     },
     {
       "group": "making_arrangements",
@@ -1155,7 +1487,11 @@
       "arabic": "لنلتقِ في السادسة",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "Let's meet at six in front of the cinema.",
+      "sentence_ar": "لنلتقِ في السادسة أمام السينما.",
+      "usage_ar": "قلها لتحدد وقت اللقاء، والفعل بعد Let's بلا to."
     },
     {
       "group": "making_arrangements",
@@ -1164,7 +1500,11 @@
       "arabic": "آسف، أنا مشغول حينها",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "Friday at eight? Sorry, I'm busy then.",
+      "sentence_ar": "الجمعة في الثامنة؟ آسف، أنا مشغول حينها.",
+      "usage_ar": "قلها لترفض وقتاً بعينه بأدب."
     },
     {
       "group": "making_arrangements",
@@ -1173,7 +1513,11 @@
       "arabic": "أود حجز موعد",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "Hello. I'd like to make an appointment with the dentist.",
+      "sentence_ar": "مرحباً. أود حجز موعد مع طبيب الأسنان.",
+      "usage_ar": "قلها في العيادة أو بالهاتف، وهي مهذبة."
     },
     {
       "group": "making_arrangements",
@@ -1182,7 +1526,11 @@
       "arabic": "هل يمكن تأجيله؟",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "Six is early for me. Could we make it later?",
+      "sentence_ar": "السادسة مبكرة لي. هل يمكن أن نجعله أبعد؟",
+      "usage_ar": "قلها لتطلب وقتاً أبعد للموعد نفسه."
     },
     {
       "group": "making_arrangements",
@@ -1191,7 +1539,11 @@
       "arabic": "هل الخميس مناسب؟",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "I'm busy on Wednesday. Is Thursday convenient?",
+      "sentence_ar": "أنا مشغول يوم الأربعاء. هل الخميس مناسب؟",
+      "usage_ar": "قلها لتقترح يوماً بطريقة رسمية مهذبة."
     },
     {
       "group": "making_arrangements",
@@ -1200,7 +1552,11 @@
       "arabic": "طرأ شيء ما",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "I'm sorry, I can't come tonight. Something has come up.",
+      "sentence_ar": "آسف، لا أستطيع المجيء الليلة. طرأ شيء ما.",
+      "usage_ar": "قلها لتعتذر عن موعد بلا ذكر السبب، احفظها كما هي."
     },
     {
       "group": "making_arrangements",
@@ -1209,7 +1565,11 @@
       "arabic": "سأكون هناك في الثامنة",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "Don't wait for me. I'll be there at eight.",
+      "sentence_ar": "لا تنتظرني. سأكون هناك في الثامنة.",
+      "usage_ar": "قلها لتعد بوقت وصولك."
     },
     {
       "group": "making_arrangements",
@@ -1218,7 +1578,11 @@
       "arabic": "عليّ الإلغاء",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "I'm sorry, I have to cancel our meeting.",
+      "sentence_ar": "آسف، عليّ إلغاء اجتماعنا.",
+      "usage_ar": "قلها لتلغي موعداً، وأضف قبلها I'm sorry."
     },
     {
       "group": "making_arrangements",
@@ -1227,7 +1591,11 @@
       "arabic": "أراك حينها!",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": "See you then",
+      "sentence": "Great, Friday at six. See you then!",
+      "sentence_ar": "رائع، الجمعة في السادسة. أراك حينها!",
+      "usage_ar": "قلها في آخر المكالمة بعد تحديد الموعد."
     },
     {
       "group": "making_arrangements",
@@ -1236,7 +1604,11 @@
       "arabic": "هل يمكن تأجيله؟",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "I'm ill today. Can we postpone it?",
+      "sentence_ar": "أنا مريض اليوم. هل يمكن تأجيله؟",
+      "usage_ar": "قلها لتطلب نقل موعد إلى وقت لاحق."
     },
     {
       "group": "making_arrangements",
@@ -1245,7 +1617,11 @@
       "arabic": "سأعاود الاتصال بك",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "I'm driving now. I'll call you back.",
+      "sentence_ar": "أنا أقود الآن. سأعاود الاتصال بك.",
+      "usage_ar": "قلها حين لا تستطيع الكلام الآن، مع will."
     },
     {
       "group": "making_arrangements",
@@ -1254,7 +1630,11 @@
       "arabic": "دعني أتفقّد مفكرتي",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "Next Tuesday? Let me check my diary.",
+      "sentence_ar": "الثلاثاء القادم؟ دعني أتفقد مفكرتي.",
+      "usage_ar": "قلها قبل أن توافق على موعد."
     },
     {
       "group": "making_arrangements",
@@ -1263,7 +1643,11 @@
       "arabic": "لا تقلق، سأفعلها",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "The kitchen is dirty? Don't worry, I'll do it.",
+      "sentence_ar": "المطبخ متسخ؟ لا تقلق، سأفعلها.",
+      "usage_ar": "قلها لتعرض المساعدة فوراً، وهنا will لقرار الآن."
     },
     {
       "group": "making_arrangements",
@@ -1272,7 +1656,11 @@
       "arabic": "أعدك أن أنهيه",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "The report is late, but I promise I'll finish it.",
+      "sentence_ar": "التقرير متأخر لكنني أعدك أن أنهيه.",
+      "usage_ar": "قلها لتعد بشيء، وبعد promise نستعمل will."
     },
     {
       "group": "making_arrangements",
@@ -1281,7 +1669,11 @@
       "arabic": "هل أساعدك؟",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "Your bag looks heavy. Shall I help you?",
+      "sentence_ar": "حقيبتك تبدو ثقيلة. هل أساعدك؟",
+      "usage_ar": "قلها لتعرض مساعدتك بأدب."
     },
     {
       "group": "making_arrangements",
@@ -1290,7 +1682,11 @@
       "arabic": "سأتولى ذلك",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": "I'll get it",
+      "sentence": "The phone is ringing. I'll get it!",
+      "sentence_ar": "الهاتف يرن. سأتولى ذلك!",
+      "usage_ar": "قلها حين يرن الهاتف أو الباب، قرار في اللحظة."
     },
     {
       "group": "making_arrangements",
@@ -1299,7 +1695,11 @@
       "arabic": "ماذا تفعل الليلة؟",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "Hi! What are you doing tonight?",
+      "sentence_ar": "مرحباً! ماذا تفعل الليلة؟",
+      "usage_ar": "قلها لتسأل عن خطة، والمضارع المستمر هنا للمستقبل."
     },
     {
       "group": "making_arrangements",
@@ -1308,7 +1708,11 @@
       "arabic": "لا شيء مميز",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": "Nothing special",
+      "sentence": "What are you doing tonight? Nothing special.",
+      "sentence_ar": "ماذا تفعل الليلة؟ لا شيء مميز.",
+      "usage_ar": "جواب قصير يعني أنك متفرغ غالباً."
     },
     {
       "group": "making_arrangements",
@@ -1317,7 +1721,11 @@
       "arabic": "سألتقي بصديق",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "Sorry, I can't. I'm meeting a friend.",
+      "sentence_ar": "آسف، لا أستطيع. سألتقي بصديق.",
+      "usage_ar": "قلها لخطة مرتبة، والمضارع المستمر هنا للمستقبل."
     },
     {
       "group": "making_arrangements",
@@ -1326,7 +1734,11 @@
       "arabic": "هل تود الانضمام؟",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": null,
+      "sentence": "We're going to the beach. Would you like to join us?",
+      "sentence_ar": "سنذهب إلى الشاطئ. هل تود الانضمام إلينا؟",
+      "usage_ar": "قلها لتدعو شخصاً بأدب، بلا to قبل us."
     },
     {
       "group": "making_arrangements",
@@ -1335,7 +1747,11 @@
       "arabic": "يبدو ذلك رائعاً",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": "That sounds great",
+      "sentence": "A picnic on Friday? That sounds great!",
+      "sentence_ar": "نزهة يوم الجمعة؟ يبدو ذلك رائعاً!",
+      "usage_ar": "قلها لتقبل دعوة، وsounds بلا like قبل الصفة."
     },
     {
       "group": "making_arrangements",
@@ -1344,7 +1760,11 @@
       "arabic": "ربما في وقت آخر",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": "Maybe another time",
+      "sentence": "I can't come tonight. Maybe another time.",
+      "sentence_ar": "لا أستطيع المجيء الليلة. ربما في وقت آخر.",
+      "usage_ar": "قلها لترفض دعوة بلطف."
     },
     {
       "group": "making_arrangements",
@@ -1353,7 +1773,11 @@
       "arabic": "سأعلمك",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": "I'll let you know",
+      "sentence": "I'm not sure yet. I'll let you know.",
+      "sentence_ar": "لست متأكداً بعد. سأعلمك.",
+      "usage_ar": "قلها حين لا تستطيع الجواب الآن."
     },
     {
       "group": "making_arrangements",
@@ -1362,7 +1786,11 @@
       "arabic": "يعتمد",
       "example": null,
       "group_label_ar": "ترتيب المواعيد",
-      "group_label_en": "Making Arrangements"
+      "group_label_en": "Making Arrangements",
+      "target": "It depends",
+      "sentence": "Are you coming on Saturday? It depends.",
+      "sentence_ar": "هل ستأتي يوم السبت؟ يعتمد على الظروف.",
+      "usage_ar": "جواب قصير، وإن أكملت قل it depends on."
     }
   ],
   "minimal_pairs": [
@@ -3462,9 +3890,9 @@
       },
       "answer": {
         "accepted": [
-          "going to: am going to read, am going to move, am going to run (negative), am going to write.  will: will learn, will probably still be learning, will save, will ever run, will say, will be wrong.  He uses going to for stated plans and will for opinions and predictions — exactly the split in §3.3.",
-          "going to: am going to read, am going to move, am going to run (negative), am going to write.  will: will learn, will probably still be learning, will save, will ever run, will say, will be wrong.  He uses going to for stated plans and will for opinions and predictions — exactly the split in §3.3",
-          "going to: am going to read, am going to move, am going to run (negative), am going to write.  will: will learn, will probably still be learning, will save, will ever run, will say, will be wrong.  he uses going to for stated plans and will for opinions and predictions — exactly the split in §3.3."
+          "going to: am going to read, am going to move, am going to run (negative), am going to write.  will: will learn, will probably still be learning, will save, will ever run, will say, will be wrong.  He uses going to for stated plans and will for opinions and predictions — exactly the split in the grammar lesson.",
+          "going to: am going to read, am going to move, am going to run (negative), am going to write.  will: will learn, will probably still be learning, will save, will ever run, will say, will be wrong.  He uses going to for stated plans and will for opinions and predictions — exactly the split in the grammar lesson",
+          "going to: am going to read, am going to move, am going to run (negative), am going to write.  will: will learn, will probably still be learning, will save, will ever run, will say, will be wrong.  he uses going to for stated plans and will for opinions and predictions — exactly the split in the grammar lesson."
         ]
       },
       "explanation": null

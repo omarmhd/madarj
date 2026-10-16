@@ -55,25 +55,31 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "أفعال الروتين اليومي · النطق",
-          "minutes": 25,
-          "ref": "vocab:routine_verbs|section:phonics"
+          "label": "الكلمات",
+          "minutes": 15,
+          "ref": "vocab:routine_verbs",
+          "order": 2
+        },
+        {
+          "label": "النطق",
+          "minutes": 15,
+          "ref": "section:phonics",
+          "order": 3
         },
         {
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:routine_verbs",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
@@ -82,19 +88,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -109,25 +115,31 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "الوقت والتكرار · قراءة الساعة",
-          "minutes": 25,
-          "ref": "vocab:time_and_frequency|vocab:telling_the_time"
+          "label": "الكلمات",
+          "minutes": 15,
+          "ref": "vocab:time_and_frequency",
+          "order": 2
+        },
+        {
+          "label": "الكلمات",
+          "minutes": 15,
+          "ref": "vocab:telling_the_time",
+          "order": 3
         },
         {
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:time_and_frequency,telling_the_time",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
@@ -136,19 +148,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -199,7 +211,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -253,7 +265,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -271,25 +283,31 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "أماكن يومك وأشياؤه · القواعد",
-          "minutes": 25,
-          "ref": "vocab:places_and_things_in_your_day|section:grammar"
+          "label": "الكلمات",
+          "minutes": 15,
+          "ref": "vocab:places_and_things_in_your_day",
+          "order": 2
+        },
+        {
+          "label": "القواعد",
+          "minutes": 15,
+          "ref": "section:grammar",
+          "order": 3
         },
         {
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:places_and_things_in_your_day",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
@@ -298,19 +316,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -325,13 +343,19 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "حوار: A Different Kind of Day · الاستماع",
-          "minutes": 25,
-          "ref": "dialogue:2|section:listening"
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:2",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الاستماع",
+          "minutes": 15,
+          "ref": "section:listening",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
@@ -340,10 +364,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
@@ -352,19 +376,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -379,13 +403,25 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "القراءة · الكتابة",
-          "minutes": 25,
-          "ref": "section:reading|writing:1|record"
+          "label": "القراءة",
+          "minutes": 10,
+          "ref": "section:reading",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الكتابة",
+          "minutes": 10,
+          "ref": "writing:1",
+          "order": 3
+        },
+        {
+          "label": "التحدّث",
+          "minutes": 10,
+          "ref": "record",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 15,
           "ref": "game:minimal_pairs"
@@ -394,25 +430,25 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 6
         },
         {
-          "order": 5,
+          "order": 7,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 6,
+          "order": 8,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 9
         }
       ]
     }
@@ -425,7 +461,11 @@
       "arabic": "يستيقظ",
       "example": "I wake up at six o'clock.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "wake up",
+      "sentence": "I wake up at six o'clock.",
+      "sentence_ar": "أستيقظ في الساعة السادسة.",
+      "usage_ar": "wake up تعني فتح العينين؛ وget up النهوض من السرير."
     },
     {
       "group": "routine_verbs",
@@ -434,7 +474,11 @@
       "arabic": "ينهض من السرير",
       "example": "I get up ten minutes later.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "get up",
+      "sentence": "I get up ten minutes later.",
+      "sentence_ar": "أنهض من السرير بعد 10 دقائق.",
+      "usage_ar": "تأتي بعد wake up: أستيقظ ثم أنهض."
     },
     {
       "group": "routine_verbs",
@@ -443,7 +487,11 @@
       "arabic": "يصلّي",
       "example": "He prays before breakfast.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "pray",
+      "sentence": "We pray at the mosque.",
+      "sentence_ar": "نصلي في المسجد.",
+      "usage_ar": "مع المكان نقول at: pray at the mosque."
     },
     {
       "group": "routine_verbs",
@@ -452,7 +500,11 @@
       "arabic": "يفرّش",
       "example": "I brush my teeth twice a day.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "brush",
+      "sentence": "I brush my teeth every morning.",
+      "sentence_ar": "أفرّش أسناني كل صباح.",
+      "usage_ar": "نقول brush my teeth وbrush my hair."
     },
     {
       "group": "routine_verbs",
@@ -461,7 +513,11 @@
       "arabic": "يستحم",
       "example": "She takes a shower every morning.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "take a shower",
+      "sentence": "I take a shower every morning.",
+      "sentence_ar": "أستحم كل صباح.",
+      "usage_ar": "نقول take a shower أو have a shower، لا make a shower."
     },
     {
       "group": "routine_verbs",
@@ -470,7 +526,11 @@
       "arabic": "يرتدي ملابسه",
       "example": "I get dressed quickly.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "get dressed",
+      "sentence": "I get dressed after breakfast.",
+      "sentence_ar": "أرتدي ملابسي بعد الفطور.",
+      "usage_ar": "بلا مفعول: I get dressed فقط."
     },
     {
       "group": "routine_verbs",
@@ -479,7 +539,11 @@
       "arabic": "يتناول الفطور",
       "example": "We have breakfast together.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "have breakfast",
+      "sentence": "We have breakfast together.",
+      "sentence_ar": "نتناول الفطور معاً.",
+      "usage_ar": "نقول have breakfast بلا a وبلا the."
     },
     {
       "group": "routine_verbs",
@@ -488,7 +552,11 @@
       "arabic": "يغادر",
       "example": "He leaves the house at seven.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "leave",
+      "sentence": "I leave the house at seven.",
+      "sentence_ar": "أغادر البيت في السابعة.",
+      "usage_ar": "بلا from: leave the house، لا leave from the house."
     },
     {
       "group": "routine_verbs",
@@ -497,7 +565,11 @@
       "arabic": "يقود",
       "example": "My father drives to work.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "drive",
+      "sentence": "My parents drive to work.",
+      "sentence_ar": "والداي يذهبان إلى العمل بالسيارة.",
+      "usage_ar": "drive to work = أذهب إلى العمل بالسيارة."
     },
     {
       "group": "routine_verbs",
@@ -506,7 +578,11 @@
       "arabic": "يمشي",
       "example": "I walk to the office.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "walk",
+      "sentence": "I walk to the office.",
+      "sentence_ar": "أمشي إلى المكتب.",
+      "usage_ar": "مع المكان نقول to: walk to school."
     },
     {
       "group": "routine_verbs",
@@ -515,7 +591,11 @@
       "arabic": "يستقل الحافلة",
       "example": "She takes the bus every day.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "take the bus",
+      "sentence": "I take the bus every day.",
+      "sentence_ar": "أركب الحافلة كل يوم.",
+      "usage_ar": "نقول take the bus، أو go by bus بلا the."
     },
     {
       "group": "routine_verbs",
@@ -524,7 +604,11 @@
       "arabic": "يصل",
       "example": "I arrive at eight thirty.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "arrive",
+      "sentence": "I arrive at eight thirty.",
+      "sentence_ar": "أصل في الثامنة والنصف.",
+      "usage_ar": "arrive at للمكان الصغير وarrive in للمدينة، ولا نقول arrive to."
     },
     {
       "group": "routine_verbs",
@@ -533,7 +617,11 @@
       "arabic": "يبدأ",
       "example": "Work starts at nine.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "start",
+      "sentence": "We start work at nine.",
+      "sentence_ar": "نبدأ العمل في التاسعة.",
+      "usage_ar": "مع الساعة نقول at: start at nine."
     },
     {
       "group": "routine_verbs",
@@ -542,7 +630,11 @@
       "arabic": "يعمل",
       "example": "I work in an office.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "work",
+      "sentence": "I work in an office.",
+      "sentence_ar": "أعمل في مكتب.",
+      "usage_ar": "مع He وShe نضيف s: He works."
     },
     {
       "group": "routine_verbs",
@@ -551,7 +643,11 @@
       "arabic": "يدرس",
       "example": "She studies English at night.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "study",
+      "sentence": "I study English at night.",
+      "sentence_ar": "أدرس الإنجليزية في الليل.",
+      "usage_ar": "مع She تصير studies: تتحول y إلى ies."
     },
     {
       "group": "routine_verbs",
@@ -560,7 +656,11 @@
       "arabic": "يتفقّد",
       "example": "I check my email first.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "check",
+      "sentence": "I check my email first.",
+      "sentence_ar": "أتفقد بريدي الإلكتروني أولاً.",
+      "usage_ar": "نقول check my email وcheck my phone."
     },
     {
       "group": "routine_verbs",
@@ -569,7 +669,11 @@
       "arabic": "ينهي",
       "example": "We finish at five.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "finish",
+      "sentence": "We finish at five.",
+      "sentence_ar": "ننتهي في الخامسة.",
+      "usage_ar": "مع He تصير finishes بإضافة es."
     },
     {
       "group": "routine_verbs",
@@ -578,7 +682,11 @@
       "arabic": "يعود",
       "example": "He returns home at six.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "return",
+      "sentence": "They return home at six.",
+      "sentence_ar": "يعودون إلى البيت في السادسة.",
+      "usage_ar": "نقول return home بلا to، وreturn to work."
     },
     {
       "group": "routine_verbs",
@@ -587,7 +695,11 @@
       "arabic": "يطبخ",
       "example": "My wife cooks dinner.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "cook",
+      "sentence": "I cook dinner on Fridays.",
+      "sentence_ar": "أطبخ العشاء أيام الجمعة.",
+      "usage_ar": "نقول cook dinner، وcook أيضاً اسم بمعنى طبّاخ."
     },
     {
       "group": "routine_verbs",
@@ -596,7 +708,11 @@
       "arabic": "يتعشّى",
       "example": "We have dinner at eight.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "have dinner",
+      "sentence": "We have dinner at eight.",
+      "sentence_ar": "نتعشى في الثامنة.",
+      "usage_ar": "نقول have dinner، لا eat the dinner."
     },
     {
       "group": "routine_verbs",
@@ -605,7 +721,11 @@
       "arabic": "ينظّف",
       "example": "I clean the kitchen after dinner.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "clean",
+      "sentence": "I clean the kitchen after dinner.",
+      "sentence_ar": "أنظف المطبخ بعد العشاء.",
+      "usage_ar": "clean للتنظيف عموماً، وwash بالماء."
     },
     {
       "group": "routine_verbs",
@@ -614,7 +734,11 @@
       "arabic": "يغسل",
       "example": "She washes the dishes.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "wash",
+      "sentence": "I wash the dishes after lunch.",
+      "sentence_ar": "أغسل الصحون بعد الغداء.",
+      "usage_ar": "wash بالماء: wash the dishes · wash my hands."
     },
     {
       "group": "routine_verbs",
@@ -623,7 +747,11 @@
       "arabic": "يشاهد",
       "example": "They watch TV in the evening.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "watch",
+      "sentence": "They watch TV in the evening.",
+      "sentence_ar": "يشاهدون التلفاز في المساء.",
+      "usage_ar": "نقول watch TV بلا the."
     },
     {
       "group": "routine_verbs",
@@ -632,7 +760,11 @@
       "arabic": "يقرأ",
       "example": "I read a book before bed.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "read",
+      "sentence": "I read a book before bed.",
+      "sentence_ar": "أقرأ كتاباً قبل النوم.",
+      "usage_ar": "نقول read a book، ونطقها الآن «ريد»."
     },
     {
       "group": "routine_verbs",
@@ -641,7 +773,11 @@
       "arabic": "يتمرّن",
       "example": "He exercises three times a week.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "exercise",
+      "sentence": "I exercise three times a week.",
+      "sentence_ar": "أتمرّن 3 مرات في الأسبوع.",
+      "usage_ar": "فعل هنا: I exercise، أي أمارس الرياضة."
     },
     {
       "group": "routine_verbs",
@@ -650,7 +786,11 @@
       "arabic": "يستريح",
       "example": "I rest for an hour.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "rest",
+      "sentence": "I rest for an hour.",
+      "sentence_ar": "أستريح ساعة.",
+      "usage_ar": "مع المدة نقول for: rest for an hour."
     },
     {
       "group": "routine_verbs",
@@ -659,7 +799,11 @@
       "arabic": "يتصل بـ",
       "example": "I call my parents every night.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "call",
+      "sentence": "I call my parents every night.",
+      "sentence_ar": "أتصل بوالديّ كل ليلة.",
+      "usage_ar": "بلا to: call my mother، لا call to my mother."
     },
     {
       "group": "routine_verbs",
@@ -668,7 +812,11 @@
       "arabic": "ينام",
       "example": "I sleep seven hours.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "sleep",
+      "sentence": "I sleep seven hours a night.",
+      "sentence_ar": "أنام 7 ساعات في الليلة.",
+      "usage_ar": "sleep للنوم نفسه، وgo to bed للذهاب إلى السرير."
     },
     {
       "group": "routine_verbs",
@@ -677,7 +825,11 @@
       "arabic": "يذهب للنوم",
       "example": "She goes to bed at eleven.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "go to bed",
+      "sentence": "I go to bed at eleven.",
+      "sentence_ar": "أذهب إلى النوم في الحادية عشرة.",
+      "usage_ar": "بلا the: go to bed، لا go to the bed."
     },
     {
       "group": "routine_verbs",
@@ -686,7 +838,11 @@
       "arabic": "يبقى",
       "example": "I stay at home on Fridays.",
       "group_label_ar": "أفعال الروتين اليومي",
-      "group_label_en": "Routine Verbs"
+      "group_label_en": "Routine Verbs",
+      "target": "stay",
+      "sentence": "I stay at home on Fridays.",
+      "sentence_ar": "أبقى في البيت أيام الجمعة.",
+      "usage_ar": "نقول stay at home أو stay home."
     },
     {
       "group": "time_and_frequency",
@@ -695,7 +851,11 @@
       "arabic": "دائماً (100%)",
       "example": "I always wake up early.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "always",
+      "sentence": "I always wake up early.",
+      "sentence_ar": "أستيقظ دائماً مبكراً.",
+      "usage_ar": "تأتي قبل الفعل: I always wake up، لا I wake up always."
     },
     {
       "group": "time_and_frequency",
@@ -704,7 +864,11 @@
       "arabic": "عادةً (80%)",
       "example": "She usually walks to work.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "usually",
+      "sentence": "She usually walks to work.",
+      "sentence_ar": "هي عادةً تمشي إلى العمل.",
+      "usage_ar": "تأتي قبل الفعل، وبعد is: He is usually late."
     },
     {
       "group": "time_and_frequency",
@@ -713,7 +877,11 @@
       "arabic": "غالباً (60%)",
       "example": "We often eat together.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "often",
+      "sentence": "We often eat together.",
+      "sentence_ar": "غالباً نأكل معاً.",
+      "usage_ar": "تأتي قبل الفعل: We often eat."
     },
     {
       "group": "time_and_frequency",
@@ -722,7 +890,11 @@
       "arabic": "أحياناً (40%)",
       "example": "He sometimes works late.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "sometimes",
+      "sentence": "He sometimes works late.",
+      "sentence_ar": "أحياناً يعمل حتى وقت متأخر.",
+      "usage_ar": "تأتي قبل الفعل، ويجوز في أول الجملة."
     },
     {
       "group": "time_and_frequency",
@@ -731,7 +903,11 @@
       "arabic": "نادراً (10%)",
       "example": "I rarely watch TV.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "rarely",
+      "sentence": "I rarely watch TV.",
+      "sentence_ar": "نادراً ما أشاهد التلفاز.",
+      "usage_ar": "معناها منفي، فلا نضيف not معها."
     },
     {
       "group": "time_and_frequency",
@@ -740,7 +916,11 @@
       "arabic": "أبداً (0%)",
       "example": "They never eat breakfast.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "never",
+      "sentence": "They never eat breakfast.",
+      "sentence_ar": "هم لا يأكلون الفطور أبداً.",
+      "usage_ar": "معناها منفي، فلا نقول don't never."
     },
     {
       "group": "time_and_frequency",
@@ -749,7 +929,11 @@
       "arabic": "كل يوم",
       "example": "I study every day.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "every day",
+      "sentence": "I study English every day.",
+      "sentence_ar": "أدرس الإنجليزية كل يوم.",
+      "usage_ar": "كلمتان هنا وتأتي في آخر الجملة؛ وeveryday كلمة واحدة صفة."
     },
     {
       "group": "time_and_frequency",
@@ -758,7 +942,11 @@
       "arabic": "مرة في الأسبوع",
       "example": "I call him once a week.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "once a week",
+      "sentence": "I call my uncle once a week.",
+      "sentence_ar": "أتصل بعمي مرة في الأسبوع.",
+      "usage_ar": "تأتي في آخر الجملة."
     },
     {
       "group": "time_and_frequency",
@@ -767,7 +955,11 @@
       "arabic": "مرتين في الأسبوع",
       "example": "She swims twice a week.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "twice a week",
+      "sentence": "She swims twice a week.",
+      "sentence_ar": "هي تسبح مرتين في الأسبوع.",
+      "usage_ar": "twice = two times، وتأتي في آخر الجملة."
     },
     {
       "group": "time_and_frequency",
@@ -776,7 +968,11 @@
       "arabic": "مبكراً",
       "example": "He gets up early.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "early",
+      "sentence": "He gets up early.",
+      "sentence_ar": "هو ينهض مبكراً.",
+      "usage_ar": "تأتي بعد الفعل: get up early."
     },
     {
       "group": "time_and_frequency",
@@ -785,7 +981,11 @@
       "arabic": "متأخراً",
       "example": "I go to bed late.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "late",
+      "sentence": "I go to bed late.",
+      "sentence_ar": "أذهب إلى النوم متأخراً.",
+      "usage_ar": "بعد الفعل: go to bed late؛ وI am late = أنا متأخر."
     },
     {
       "group": "time_and_frequency",
@@ -794,7 +994,11 @@
       "arabic": "قبل",
       "example": "I pray before breakfast.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "before",
+      "sentence": "I pray before breakfast.",
+      "sentence_ar": "أصلي قبل الفطور.",
+      "usage_ar": "يأتي بعدها اسم: before work · before bed."
     },
     {
       "group": "time_and_frequency",
@@ -803,7 +1007,11 @@
       "arabic": "بعد",
       "example": "After work, I go home.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "after",
+      "sentence": "I go home after work.",
+      "sentence_ar": "أذهب إلى البيت بعد العمل.",
+      "usage_ar": "يأتي بعدها اسم: after lunch · after work."
     },
     {
       "group": "time_and_frequency",
@@ -812,7 +1020,11 @@
       "arabic": "ثم",
       "example": "Then I take a shower.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "then",
+      "sentence": "I wake up. Then I take a shower.",
+      "sentence_ar": "أستيقظ. ثم أستحم.",
+      "usage_ar": "لترتيب الخطوات، وغالباً في أول الجملة."
     },
     {
       "group": "time_and_frequency",
@@ -821,7 +1033,11 @@
       "arabic": "أولاً",
       "example": "First, I check my email.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "first",
+      "sentence": "First, I check my email.",
+      "sentence_ar": "أولاً، أتفقد بريدي الإلكتروني.",
+      "usage_ar": "في أول القصة، وبعدها then ثم finally."
     },
     {
       "group": "time_and_frequency",
@@ -830,7 +1046,11 @@
       "arabic": "أخيراً",
       "example": "Finally, I go to bed.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "finally",
+      "sentence": "Finally, I go to bed.",
+      "sentence_ar": "أخيراً، أذهب إلى النوم.",
+      "usage_ar": "لآخر خطوة في القصة."
     },
     {
       "group": "time_and_frequency",
@@ -839,7 +1059,11 @@
       "arabic": "تماماً (للساعة)",
       "example": "It is seven o'clock.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "o'clock",
+      "sentence": "It is seven o'clock.",
+      "sentence_ar": "الساعة السابعة تماماً.",
+      "usage_ar": "للساعة الكاملة فقط: seven o'clock، لا seven thirty o'clock."
     },
     {
       "group": "time_and_frequency",
@@ -848,7 +1072,11 @@
       "arabic": "والنصف",
       "example": "It is half past eight.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "half past",
+      "sentence": "It is half past eight.",
+      "sentence_ar": "الساعة الثامنة والنصف.",
+      "usage_ar": "نذكر الدقائق أولاً ثم الساعة: half past eight."
     },
     {
       "group": "time_and_frequency",
@@ -857,7 +1085,11 @@
       "arabic": "والربع",
       "example": "It is a quarter past nine.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "quarter past",
+      "sentence": "It is a quarter past nine.",
+      "sentence_ar": "الساعة التاسعة والربع.",
+      "usage_ar": "نضع a قبلها: a quarter past nine."
     },
     {
       "group": "time_and_frequency",
@@ -866,7 +1098,11 @@
       "arabic": "إلا ربع",
       "example": "It is a quarter to ten.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "quarter to",
+      "sentence": "It is a quarter to ten.",
+      "sentence_ar": "الساعة العاشرة إلا ربعاً.",
+      "usage_ar": "نذكر الساعة القادمة: a quarter to ten = 9:45."
     },
     {
       "group": "time_and_frequency",
@@ -875,7 +1111,11 @@
       "arabic": "ساعة",
       "example": "I sleep for eight hours.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "hour",
+      "sentence": "A day has twenty-four hours, and an hour is long.",
+      "sentence_ar": "في اليوم 24 ساعة، والساعة وقت طويل.",
+      "usage_ar": "الحرف h لا يُنطق، لذا نقول an hour."
     },
     {
       "group": "time_and_frequency",
@@ -884,7 +1124,11 @@
       "arabic": "دقيقة",
       "example": "Wait five minutes.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "minute",
+      "sentence": "Wait a minute, please.",
+      "sentence_ar": "انتظر دقيقة من فضلك.",
+      "usage_ar": "Wait a minute = انتظر قليلاً."
     },
     {
       "group": "time_and_frequency",
@@ -893,7 +1137,11 @@
       "arabic": "عطلة نهاية الأسبوع",
       "example": "I rest at the weekend.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "weekend",
+      "sentence": "I rest at the weekend.",
+      "sentence_ar": "أستريح في عطلة نهاية الأسبوع.",
+      "usage_ar": "في البريطانية at the weekend، وفي الأمريكية on the weekend."
     },
     {
       "group": "time_and_frequency",
@@ -902,7 +1150,11 @@
       "arabic": "يوم عمل",
       "example": "On weekdays I start at nine.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "weekday",
+      "sentence": "I work every weekday.",
+      "sentence_ar": "أعمل في كل يوم عمل.",
+      "usage_ar": "عكسها weekend؛ ونقول on weekdays."
     },
     {
       "group": "time_and_frequency",
@@ -911,7 +1163,11 @@
       "arabic": "إجازة",
       "example": "We are on holiday now.",
       "group_label_ar": "الوقت والتكرار",
-      "group_label_en": "Time and Frequency"
+      "group_label_en": "Time and Frequency",
+      "target": "holiday",
+      "sentence": "We are on holiday now.",
+      "sentence_ar": "نحن في إجازة الآن.",
+      "usage_ar": "نقول on holiday، لا in holiday."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -920,7 +1176,11 @@
       "arabic": "مكتب",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "office",
+      "sentence": "I work in an office.",
+      "sentence_ar": "أعمل في مكتب.",
+      "usage_ar": "للمكان؛ والطاولة نفسها desk."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -929,7 +1189,11 @@
       "arabic": "مطبخ",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "kitchen",
+      "sentence": "My mother cooks in the kitchen.",
+      "sentence_ar": "أمي تطبخ في المطبخ.",
+      "usage_ar": "نقول in the kitchen."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -938,7 +1202,11 @@
       "arabic": "مكتب (طاولة)",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "desk",
+      "sentence": "My computer is on my desk.",
+      "sentence_ar": "حاسوبي على مكتبي.",
+      "usage_ar": "للطاولة التي تعمل عليها؛ والغرفة office."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -947,7 +1215,11 @@
       "arabic": "غرفة نوم",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "bedroom",
+      "sentence": "My bedroom is small.",
+      "sentence_ar": "غرفة نومي صغيرة.",
+      "usage_ar": "كلمة واحدة: bed + room."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -956,7 +1228,11 @@
       "arabic": "اجتماع",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "meeting",
+      "sentence": "I have a meeting at ten.",
+      "sentence_ar": "عندي اجتماع في العاشرة.",
+      "usage_ar": "نقول have a meeting، وin a meeting = في اجتماع."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -965,7 +1241,11 @@
       "arabic": "حمّام",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "bathroom",
+      "sentence": "The bathroom is near my bedroom.",
+      "sentence_ar": "الحمّام قريب من غرفة نومي.",
+      "usage_ar": "في البيت bathroom، وفي الأماكن العامة toilet."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -974,7 +1254,11 @@
       "arabic": "بريد إلكتروني",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "email",
+      "sentence": "I check my email every morning.",
+      "sentence_ar": "أتفقد بريدي الإلكتروني كل صباح.",
+      "usage_ar": "اسم وفعل: I email my teacher."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -983,7 +1267,11 @@
       "arabic": "سيارة",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "car",
+      "sentence": "My father drives his car to work.",
+      "sentence_ar": "أبي يقود سيارته إلى العمل.",
+      "usage_ar": "نقول by car بلا a: I go by car."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -992,7 +1280,11 @@
       "arabic": "هاتف",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "phone",
+      "sentence": "I call my friend on my phone.",
+      "sentence_ar": "أتصل بصديقي على هاتفي.",
+      "usage_ar": "نقول on the phone: على الهاتف."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -1001,7 +1293,11 @@
       "arabic": "حافلة",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "bus",
+      "sentence": "I go to work by bus.",
+      "sentence_ar": "أذهب إلى العمل بالحافلة.",
+      "usage_ar": "by bus بلا the، أو take the bus."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -1010,7 +1306,11 @@
       "arabic": "حاسوب",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "computer",
+      "sentence": "I work on my computer all day.",
+      "sentence_ar": "أعمل على حاسوبي طوال اليوم.",
+      "usage_ar": "نقول on the computer: على الحاسوب."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -1019,7 +1319,11 @@
       "arabic": "قطار",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "train",
+      "sentence": "I take the train to work.",
+      "sentence_ar": "أركب القطار إلى العمل.",
+      "usage_ar": "by train أو take the train."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -1028,7 +1332,11 @@
       "arabic": "مشروع",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "project",
+      "sentence": "We have a big project at work.",
+      "sentence_ar": "عندنا مشروع كبير في العمل.",
+      "usage_ar": "نقول work on a project."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -1037,7 +1345,11 @@
       "arabic": "شارع",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "street",
+      "sentence": "I walk down this street every day.",
+      "sentence_ar": "أمشي في هذا الشارع كل يوم.",
+      "usage_ar": "في البريطانية in the street أو on the street."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -1046,7 +1358,11 @@
       "arabic": "استراحة",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "break",
+      "sentence": "We have a break at eleven.",
+      "sentence_ar": "عندنا استراحة في الحادية عشرة.",
+      "usage_ar": "نقول have a break أو take a break."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -1055,7 +1371,11 @@
       "arabic": "نادي رياضي",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "gym",
+      "sentence": "I go to the gym after work.",
+      "sentence_ar": "أذهب إلى النادي الرياضي بعد العمل.",
+      "usage_ar": "نقول go to the gym مع the."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -1064,7 +1384,11 @@
       "arabic": "غداء",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "lunch",
+      "sentence": "We have lunch at one.",
+      "sentence_ar": "نتناول الغداء في الواحدة.",
+      "usage_ar": "have lunch بلا a وبلا the."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -1073,7 +1397,11 @@
       "arabic": "متجر",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "shop",
+      "sentence": "The shop opens at nine.",
+      "sentence_ar": "المتجر يفتح في التاسعة.",
+      "usage_ar": "وفي الأمريكية store."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -1082,7 +1410,11 @@
       "arabic": "عشاء",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "dinner",
+      "sentence": "We have dinner together.",
+      "sentence_ar": "نتناول العشاء معاً.",
+      "usage_ar": "have dinner بلا the."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -1091,7 +1423,11 @@
       "arabic": "مسجد",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "mosque",
+      "sentence": "My father prays at the mosque.",
+      "sentence_ar": "أبي يصلي في المسجد.",
+      "usage_ar": "نقول at the mosque."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -1100,7 +1436,11 @@
       "arabic": "شاي",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "tea",
+      "sentence": "I drink tea with milk.",
+      "sentence_ar": "أشرب الشاي بالحليب.",
+      "usage_ar": "tea with milk = شاي بالحليب."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -1109,7 +1449,11 @@
       "arabic": "سرير",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "bed",
+      "sentence": "I read in bed at night.",
+      "sentence_ar": "أقرأ في السرير ليلاً.",
+      "usage_ar": "نقول in bed بلا the، وgo to bed للنوم."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -1118,7 +1462,11 @@
       "arabic": "قهوة",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "coffee",
+      "sentence": "I drink coffee every morning.",
+      "sentence_ar": "أشرب القهوة كل صباح.",
+      "usage_ar": "بلا a للقهوة عموماً، وa coffee لفنجان."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -1127,7 +1475,11 @@
       "arabic": "كتاب",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "book",
+      "sentence": "I read a book every week.",
+      "sentence_ar": "أقرأ كتاباً كل أسبوع.",
+      "usage_ar": "read a book؛ وbook أيضاً فعل بمعنى يحجز."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -1136,7 +1488,11 @@
       "arabic": "متعب",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "tired",
+      "sentence": "I am tired after work.",
+      "sentence_ar": "أنا متعب بعد العمل.",
+      "usage_ar": "نقول I am tired، ولا نحذف am."
     },
     {
       "group": "places_and_things_in_your_day",
@@ -1145,7 +1501,11 @@
       "arabic": "مشغول",
       "example": null,
       "group_label_ar": "أماكن يومك وأشياؤه",
-      "group_label_en": "Places and Things in Your Day"
+      "group_label_en": "Places and Things in Your Day",
+      "target": "busy",
+      "sentence": "I am very busy on Mondays.",
+      "sentence_ar": "أنا مشغول جداً أيام الاثنين.",
+      "usage_ar": "نقول I am busy، ونطقها «بِزي»."
     },
     {
       "group": "telling_the_time",
@@ -1154,7 +1514,11 @@
       "arabic": "السابعة تماماً",
       "example": "7:00 — أو بالصيغة الرقمية: seven",
       "group_label_ar": "قراءة الساعة",
-      "group_label_en": "Telling the Time"
+      "group_label_en": "Telling the Time",
+      "target": "seven o'clock",
+      "sentence": "I wake up at seven o'clock.",
+      "sentence_ar": "أستيقظ في السابعة تماماً.",
+      "usage_ar": "مع الساعة نقول at: at seven o'clock."
     },
     {
       "group": "telling_the_time",
@@ -1163,7 +1527,11 @@
       "arabic": "السابعة وخمس دقائق",
       "example": "7:05 — أو بالصيغة الرقمية: seven oh five",
       "group_label_ar": "قراءة الساعة",
-      "group_label_en": "Telling the Time"
+      "group_label_en": "Telling the Time",
+      "target": "five past seven",
+      "sentence": "The bus comes at five past seven.",
+      "sentence_ar": "الحافلة تأتي في السابعة وخمس دقائق.",
+      "usage_ar": "past = بعد: الدقائق ثم past ثم الساعة."
     },
     {
       "group": "telling_the_time",
@@ -1172,7 +1540,11 @@
       "arabic": "السابعة والربع",
       "example": "7:15 — أو بالصيغة الرقمية: seven fifteen",
       "group_label_ar": "قراءة الساعة",
-      "group_label_en": "Telling the Time"
+      "group_label_en": "Telling the Time",
+      "target": null,
+      "sentence": "Breakfast is at a quarter past seven.",
+      "sentence_ar": "الفطور في السابعة والربع.",
+      "usage_ar": "نقولها أيضاً: seven fifteen."
     },
     {
       "group": "telling_the_time",
@@ -1181,7 +1553,11 @@
       "arabic": "السابعة وعشرون دقيقة",
       "example": "7:20 — أو بالصيغة الرقمية: seven twenty",
       "group_label_ar": "قراءة الساعة",
-      "group_label_en": "Telling the Time"
+      "group_label_en": "Telling the Time",
+      "target": "twenty past seven",
+      "sentence": "I leave the house at twenty past seven.",
+      "sentence_ar": "أغادر البيت في السابعة وعشرين دقيقة.",
+      "usage_ar": "نقولها أيضاً: seven twenty."
     },
     {
       "group": "telling_the_time",
@@ -1190,7 +1566,11 @@
       "arabic": "السابعة والنصف",
       "example": "7:30 — أو بالصيغة الرقمية: seven thirty",
       "group_label_ar": "قراءة الساعة",
-      "group_label_en": "Telling the Time"
+      "group_label_en": "Telling the Time",
+      "target": "half past seven",
+      "sentence": "Work starts at half past seven.",
+      "sentence_ar": "العمل يبدأ في السابعة والنصف.",
+      "usage_ar": "نقولها أيضاً: seven thirty."
     },
     {
       "group": "telling_the_time",
@@ -1199,7 +1579,11 @@
       "arabic": "الثامنة إلا عشرين دقيقة",
       "example": "7:40 — أو بالصيغة الرقمية: seven forty",
       "group_label_ar": "قراءة الساعة",
-      "group_label_en": "Telling the Time"
+      "group_label_en": "Telling the Time",
+      "target": "twenty to eight",
+      "sentence": "The train leaves at twenty to eight.",
+      "sentence_ar": "القطار يغادر في الثامنة إلا 20 دقيقة.",
+      "usage_ar": "to = إلا: نذكر الساعة القادمة."
     },
     {
       "group": "telling_the_time",
@@ -1208,7 +1592,11 @@
       "arabic": "الثامنة إلا ربعاً",
       "example": "7:45 — أو بالصيغة الرقمية: seven forty-five",
       "group_label_ar": "قراءة الساعة",
-      "group_label_en": "Telling the Time"
+      "group_label_en": "Telling the Time",
+      "target": null,
+      "sentence": "I arrive at a quarter to eight.",
+      "sentence_ar": "أصل في الثامنة إلا ربعاً.",
+      "usage_ar": "نقولها أيضاً: seven forty-five."
     },
     {
       "group": "telling_the_time",
@@ -1217,7 +1605,11 @@
       "arabic": "الثامنة إلا خمس دقائق",
       "example": "7:55 — أو بالصيغة الرقمية: seven fifty-five",
       "group_label_ar": "قراءة الساعة",
-      "group_label_en": "Telling the Time"
+      "group_label_en": "Telling the Time",
+      "target": "five to eight",
+      "sentence": "The class starts at five to eight.",
+      "sentence_ar": "الدرس يبدأ في الثامنة إلا 5 دقائق.",
+      "usage_ar": "to = إلا: الدقائق قبل الساعة القادمة."
     },
     {
       "group": "telling_the_time",
@@ -1226,7 +1618,11 @@
       "arabic": "منتصف النهار / الظهر",
       "example": "12:00 — أو بالصيغة الرقمية: twelve",
       "group_label_ar": "قراءة الساعة",
-      "group_label_en": "Telling the Time"
+      "group_label_en": "Telling the Time",
+      "target": "midday",
+      "sentence": "We have lunch at midday.",
+      "sentence_ar": "نتناول الغداء عند الظهر.",
+      "usage_ar": "نقول at midday أو at noon، بلا the."
     },
     {
       "group": "telling_the_time",
@@ -1235,7 +1631,11 @@
       "arabic": "منتصف الليل",
       "example": "00:00 — أو بالصيغة الرقمية: twelve",
       "group_label_ar": "قراءة الساعة",
-      "group_label_en": "Telling the Time"
+      "group_label_en": "Telling the Time",
+      "target": "midnight",
+      "sentence": "I go to bed at midnight.",
+      "sentence_ar": "أذهب إلى النوم عند منتصف الليل.",
+      "usage_ar": "نقول at midnight بلا the."
     }
   ],
   "minimal_pairs": [

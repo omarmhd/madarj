@@ -706,3 +706,8 @@ html[data-style='classic'] .folio-input {
   padding: 0.6rem 0.9rem;
 }
 html[data-style='classic'] .folio-input:focus { border-color: rgb(var(--accent-500)); box-shadow: 0 0 0 3px rgb(var(--accent-100)); }
+
+/* The auto-advance bar: empties toward the reading end, then the next question */
+@keyframes countdown { from { width: 100%; } to { width: 0%; } }
+.countdown { animation-name: countdown; animation-timing-function: linear; animation-fill-mode: forwards; margin-inline-start: auto; }
+@media (prefers-reduced-motion: reduce) { .countdown { animation: none; width: 100%; opacity: .5; } }

@@ -16,6 +16,12 @@ interface Props {
   onChange: (v: string) => void;
   onSubmit: () => void;
   disabled?: boolean;
+  /**
+   * Read-only while a result is shown. Not `disabled`: a disabled field
+   * drops focus, the phone keyboard closes, and the next word cannot be
+   * typed until the learner taps the field again.
+   */
+  readOnly?: boolean;
   tone?: 'idle' | 'right' | 'close' | 'wrong';
   placeholder?: string;
 }
@@ -28,7 +34,7 @@ const TONES = {
 };
 
 const SpellInput = forwardRef<HTMLInputElement, Props>(function SpellInput(
-  { value, onChange, onSubmit, disabled, tone = 'idle', placeholder },
+  { value, onChange, onSubmit, disabled, readOnly, tone = 'idle', placeholder },
   ref,
 ) {
   const tr = useT();
@@ -46,6 +52,7 @@ const SpellInput = forwardRef<HTMLInputElement, Props>(function SpellInput(
           }
         }}
         disabled={disabled}
+        readOnly={readOnly}
         dir="ltr"
         lang="en"
         autoComplete="off"

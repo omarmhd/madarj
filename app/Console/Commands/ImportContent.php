@@ -189,6 +189,11 @@ class ImportContent extends Command
                     'ipa'      => $w['ipa'] ?? null,
                     'arabic'   => $w['arabic'],
                     'example'  => $w['example'] ?? null,
+                    // How the word is used — see the 004200 migration
+                    'target'      => $w['target'] ?? null,
+                    'sentence'    => $w['sentence'] ?? null,
+                    'sentence_ar' => $w['sentence_ar'] ?? null,
+                    'usage_ar'    => $w['usage_ar'] ?? null,
                     'position' => $positions[$group],
                 ]
             );

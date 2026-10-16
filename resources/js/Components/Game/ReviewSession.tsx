@@ -16,6 +16,7 @@ import SpellInput, { SpellMarks } from '@/Components/Game/SpellInput';
 import { useMySpeech } from '@/hooks/useSpeech';
 import { checkSpelling, type SpellResult } from '@/lib/spelling';
 import { useT } from '@/lib/i18n';
+import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS } from '@/lib/autoAdvance';
 
 /**
  * مراجعة المفردات بالتكرار المتباعد — داخل المنصة.
@@ -33,6 +34,8 @@ import { useT } from '@/lib/i18n';
 
 interface ServerCard {
   id: number;
+  /** A course word, or one of the learner's own (🧠) — graded on different tables */
+  source?: 'course' | 'memory';
   word: string;
   ipa: string | null;
   arabic: string;
@@ -61,6 +64,8 @@ interface Props {
   dayNumber?: number;
   /** يُنادى عند إنهاء الجلسة — لتأشير المهمة تلقائياً */
   onFinished?: () => void;
+  /** Called when the session ends, or loads with nothing to review */
+  onComplete?: () => void;
 }
 
 /* ترجمة حالة الخادم إلى ما تفهمه ts-fsrs والعكس */
@@ -112,7 +117,7 @@ const GRADES: {
   },
 ];
 
-export default function ReviewSession({ weekNumber, dayNumber, onFinished, onProgress}: Props) {
+export default function ReviewSession({ weekNumber, dayNumber, onFinished, onProgress, onComplete }: Props) {
   const tr = useT();
   const [cards, setCards] = useState<ServerCard[]>([]);
   const [counts, setCounts] = useState<Counts | null>(null);
@@ -165,6 +170,12 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
 
   const current = cards[index] ?? null;
 
+  // Finished, or nothing to review today — either way the day may move on
+  useEffect(() => {
+    if (!loading && !error && (cards.length === 0 || index >= cards.length)) onComplete?.();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [loading, error, cards.length, index]);
+
   useEffect(() => {
     if (!touched.current) return;
     if (revealed) nextBtn.current?.focus();
@@ -214,7 +225,7 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
     setIndex((i) => i + 1);
 
     try {
-      await axios.post(`/review/${current.id}/grade`, {
+      await axios.post(current.source === 'memory' ? `/memory/${current.id}/grade` : `/review/${current.id}/grade`, {
         due_at: next.due.toISOString(),
         stability: next.stability,
         difficulty: next.difficulty,
@@ -226,6 +237,10 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
       // فشل الحفظ لا يوقف الجلسة — البطاقة تعود مستحقة لاحقاً
     }
   };
+
+  // A typed answer grades and moves on by itself: right in 3s, else 5s
+  useAutoAdvance(revealed && !!result, result?.verdict === 'right' ? AUTO_RIGHT_MS : AUTO_REVEAL_MS, () =>
+    result && grade(result.verdict === 'right' ? Rating.Good : result.verdict === 'close' ? Rating.Hard : Rating.Again));
 
   /* ---------- الحالات ---------- */
 
@@ -262,7 +277,7 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
               {tr('لا مفردات للمراجعة بعد')}
             </p>
             <p className="mx-auto mt-1.5 max-w-sm text-sm leading-relaxed text-slate-600">
-              {tr('المراجعة تلي التعلّم. أول مجموعة مفردات تأتي في اليوم الثاني، وبعدها تجد هنا بطاقات كل صباح. أشّر هذه المهمة وانتقل.')}
+              {tr('المراجعة تبدأ في اليوم التالي لأول درس كلمات: تراجع هنا كلمات الأيام السابقة، لا كلمات اليوم. أشّر هذه المهمة وانتقل.')}
             </p>
           </>
         ) : (
@@ -334,6 +349,11 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
 
       {/* البطاقة — العربية أولاً، والإنجليزية هي المطلوب إنتاجه */}
       <div className="rounded-2xl bg-white p-6 text-center ring-1 ring-slate-200">
+        {current.source === 'memory' && (
+          <span className="mb-3 me-1 inline-block rounded-full bg-violet-50 px-2.5 py-0.5 text-xs font-medium text-violet-700">
+            {tr('من كلماتك')}
+          </span>
+        )}
         {current.state === 'new' && (
           <span className="mb-3 inline-block rounded-full bg-sky-50 px-2.5 py-0.5 text-xs font-medium text-sky-700">
             {tr('كلمة جديدة')}
@@ -405,22 +425,10 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
                   {(result.note || result.hint) && <p className="mt-1">{result.note ?? result.hint}</p>}
                 </div>
 
-                <button
-                  ref={nextBtn}
-                  onClick={() =>
-                    grade(
-                      result.verdict === 'right'
-                        ? Rating.Good
-                        : result.verdict === 'close'
-                          ? Rating.Hard
-                          : Rating.Again,
-                    )
-                  }
-                  className="min-h-12 w-full rounded-xl bg-slate-900 font-semibold text-white
-                             transition hover:bg-slate-800"
-                >
-                  {tr('التالي')}
-                </button>
+                <div key={index}>
+                  <Countdown ms={result.verdict === 'right' ? AUTO_RIGHT_MS : AUTO_REVEAL_MS}
+                    tone={result.verdict === 'right' ? 'emerald' : 'rose'} />
+                </div>
               </>
             ) : (
               /* زرّان لا أكثر — نفس حركة بطاقات المفردات */

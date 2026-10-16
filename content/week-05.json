@@ -136,7 +136,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -190,7 +190,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -244,7 +244,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -298,7 +298,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -352,7 +352,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -370,13 +370,19 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "حوار: Learning Something New · الاستماع",
-          "minutes": 25,
-          "ref": "dialogue:2|section:listening"
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:2",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الاستماع",
+          "minutes": 15,
+          "ref": "section:listening",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
@@ -385,10 +391,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
@@ -397,19 +403,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -424,13 +430,25 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "القراءة · الكتابة",
-          "minutes": 25,
-          "ref": "section:reading|writing:1|record"
+          "label": "القراءة",
+          "minutes": 10,
+          "ref": "section:reading",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الكتابة",
+          "minutes": 10,
+          "ref": "writing:1",
+          "order": 3
+        },
+        {
+          "label": "التحدّث",
+          "minutes": 10,
+          "ref": "record",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 15,
           "ref": "game:minimal_pairs"
@@ -439,25 +457,25 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 6
         },
         {
-          "order": 5,
+          "order": 7,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 6,
+          "order": 8,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 9
         }
       ]
     }
@@ -470,7 +488,11 @@
       "arabic": "يسبح",
       "example": "I can swim, but not very well.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "swim",
+      "sentence": "I can swim very well.",
+      "sentence_ar": "أستطيع أن أسبح جيداً جداً.",
+      "usage_ar": "بعد can يأتي الفعل بلا to: I can swim."
     },
     {
       "group": "action_verbs",
@@ -479,7 +501,11 @@
       "arabic": "يجري",
       "example": "She runs every morning.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "run",
+      "sentence": "I run in the park every morning.",
+      "sentence_ar": "أجري في الحديقة كل صباح.",
+      "usage_ar": "مع he وshe نضيف s: She runs every day."
     },
     {
       "group": "action_verbs",
@@ -488,7 +514,11 @@
       "arabic": "يقفز",
       "example": "The children jump on the sofa.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "jump",
+      "sentence": "The children jump on the bed.",
+      "sentence_ar": "يقفز الأطفال على السرير.",
+      "usage_ar": "jump on تعني يقفز على شيء، وjump over تعني يقفز فوقه."
     },
     {
       "group": "action_verbs",
@@ -497,7 +527,11 @@
       "arabic": "يتسلّق",
       "example": "He climbs mountains. (silent b)",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "climb",
+      "sentence": "My brother likes to climb mountains.",
+      "sentence_ar": "يحب أخي أن يتسلّق الجبال.",
+      "usage_ar": "حرف b في آخرها لا يُنطق: /klaɪm/."
     },
     {
       "group": "action_verbs",
@@ -506,7 +540,11 @@
       "arabic": "يركب",
       "example": "Can you ride a bicycle?",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "ride",
+      "sentence": "Can you ride a bike?",
+      "sentence_ar": "هل تستطيع أن تركب دراجة؟",
+      "usage_ar": "ride للدراجة والحصان، ولا نقول drive a bike."
     },
     {
       "group": "action_verbs",
@@ -515,7 +553,11 @@
       "arabic": "يقود",
       "example": "I can't drive.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "drive",
+      "sentence": "My father can drive a bus.",
+      "sentence_ar": "يستطيع أبي أن يقود حافلة.",
+      "usage_ar": "drive للسيارة والحافلة، وride للدراجة."
     },
     {
       "group": "action_verbs",
@@ -524,7 +566,11 @@
       "arabic": "يرقص",
       "example": "They dance very well.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "dance",
+      "sentence": "We dance at every wedding.",
+      "sentence_ar": "نرقص في كل حفل زفاف.",
+      "usage_ar": "فعل لا يحتاج مفعولاً غالباً: We dance."
     },
     {
       "group": "action_verbs",
@@ -533,7 +579,11 @@
       "arabic": "يغنّي",
       "example": "I sing badly!",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "sing",
+      "sentence": "I sing in the car.",
+      "sentence_ar": "أغنّي في السيارة.",
+      "usage_ar": "نقول sing well لا sing good: She sings well."
     },
     {
       "group": "action_verbs",
@@ -542,7 +592,11 @@
       "arabic": "يلعب / يعزف",
       "example": "He plays the guitar.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "play",
+      "sentence": "I play football with my friends.",
+      "sentence_ar": "ألعب كرة القدم مع أصدقائي.",
+      "usage_ar": "الرياضة بلا the: play football، والآلة مع the: play the piano."
     },
     {
       "group": "action_verbs",
@@ -551,7 +605,11 @@
       "arabic": "يرسم بالقلم",
       "example": "She draws beautifully.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "draw",
+      "sentence": "Can you draw a cat?",
+      "sentence_ar": "هل تستطيع أن ترسم قطة؟",
+      "usage_ar": "draw بالقلم، وpaint بالألوان."
     },
     {
       "group": "action_verbs",
@@ -560,7 +618,11 @@
       "arabic": "يرسم بالألوان",
       "example": "I paint at the weekend.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "paint",
+      "sentence": "I paint pictures at the weekend.",
+      "sentence_ar": "أرسم لوحات بالألوان في عطلة نهاية الأسبوع.",
+      "usage_ar": "paint للرسم بالألوان ولطلاء الجدار أيضاً."
     },
     {
       "group": "action_verbs",
@@ -569,7 +631,11 @@
       "arabic": "يطبخ",
       "example": "My father cooks very well.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "cook",
+      "sentence": "My father can cook rice.",
+      "sentence_ar": "يستطيع أبي أن يطبخ الأرز.",
+      "usage_ar": "الطبّاخ اسمه cook أيضاً، أما cooker فهو الموقد."
     },
     {
       "group": "action_verbs",
@@ -578,7 +644,11 @@
       "arabic": "يخبز",
       "example": "She bakes bread every Friday.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "bake",
+      "sentence": "We bake bread on Friday.",
+      "sentence_ar": "نخبز الخبز يوم الجمعة.",
+      "usage_ar": "bake للخبز والكعك في الفرن فقط."
     },
     {
       "group": "action_verbs",
@@ -587,7 +657,11 @@
       "arabic": "يصلّح",
       "example": "Can you fix a computer?",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "fix",
+      "sentence": "Can you fix my phone?",
+      "sentence_ar": "هل تستطيع أن تصلّح هاتفي؟",
+      "usage_ar": "fix أشيع في الكلام، وrepair أكثر رسمية."
     },
     {
       "group": "action_verbs",
@@ -596,7 +670,11 @@
       "arabic": "يبني",
       "example": "They build houses.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "build",
+      "sentence": "They build houses in my town.",
+      "sentence_ar": "يبنون بيوتاً في بلدتي.",
+      "usage_ar": "حرف u يُكتب ولا يُنطق: /bɪld/."
     },
     {
       "group": "action_verbs",
@@ -605,7 +683,11 @@
       "arabic": "يكتب على الكيبورد",
       "example": "I can type very fast.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "type",
+      "sentence": "I can type very fast.",
+      "sentence_ar": "أستطيع أن أكتب على لوحة المفاتيح بسرعة كبيرة.",
+      "usage_ar": "type للكتابة على لوحة المفاتيح، وwrite بالقلم."
     },
     {
       "group": "action_verbs",
@@ -614,7 +696,11 @@
       "arabic": "يبرمج",
       "example": "He codes in Python.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "code",
+      "sentence": "My sister can code in Python.",
+      "sentence_ar": "تستطيع أختي أن تبرمج بلغة Python.",
+      "usage_ar": "نقول code in مع اسم اللغة: code in Python."
     },
     {
       "group": "action_verbs",
@@ -623,7 +709,11 @@
       "arabic": "يترجم",
       "example": "She translates from Arabic.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "translate",
+      "sentence": "Please translate this word into Arabic.",
+      "sentence_ar": "من فضلك ترجم هذه الكلمة إلى العربية.",
+      "usage_ar": "نقول translate from … into …: من لغة إلى لغة."
     },
     {
       "group": "action_verbs",
@@ -632,7 +722,11 @@
       "arabic": "يرمي",
       "example": "Throw the ball to me.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "throw",
+      "sentence": "Throw the ball to me!",
+      "sentence_ar": "ارمِ الكرة إليّ!",
+      "usage_ar": "throw to لمن سيمسكها، وthrow at لمن تريد أن تصيبه."
     },
     {
       "group": "action_verbs",
@@ -641,7 +735,11 @@
       "arabic": "يمسك",
       "example": "I can't catch a ball.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "catch",
+      "sentence": "I can't catch the ball.",
+      "sentence_ar": "لا أستطيع أن أمسك الكرة.",
+      "usage_ar": "catch تعني تمسك شيئاً يأتي نحوك، أو تلحق بحافلة."
     },
     {
       "group": "action_verbs",
@@ -650,7 +748,11 @@
       "arabic": "يركل",
       "example": "He kicks the ball very hard.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "kick",
+      "sentence": "Don't kick the ball in the house.",
+      "sentence_ar": "لا تركل الكرة في البيت.",
+      "usage_ar": "kick بالقدم فقط، وhit باليد أو بأداة."
     },
     {
       "group": "action_verbs",
@@ -659,7 +761,11 @@
       "arabic": "يعلّم",
       "example": "She teaches English.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "teach",
+      "sentence": "I teach English at a school.",
+      "sentence_ar": "أعلّم الإنجليزية في مدرسة.",
+      "usage_ar": "teach someone something: She teaches us English. ولا تقل learn me."
     },
     {
       "group": "action_verbs",
@@ -668,7 +774,11 @@
       "arabic": "يتعلّم",
       "example": "I am learning English.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "learn",
+      "sentence": "I want to learn Spanish.",
+      "sentence_ar": "أريد أن أتعلّم الإسبانية.",
+      "usage_ar": "learn أنت تتعلّم، وteach غيرك يعلّمك. لا تقل He learns me."
     },
     {
       "group": "action_verbs",
@@ -677,7 +787,11 @@
       "arabic": "يتمرّن",
       "example": "I practise every day.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "practise",
+      "sentence": "I practise English every day.",
+      "sentence_ar": "أتمرّن على الإنجليزية كل يوم.",
+      "usage_ar": "الفعل في البريطانية practise بحرف s، والاسم practice بحرف c."
     },
     {
       "group": "action_verbs",
@@ -686,7 +800,11 @@
       "arabic": "يحاول",
       "example": "Try again!",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "try",
+      "sentence": "Try this cake. It's very good.",
+      "sentence_ar": "جرّب هذه الكعكة. إنها لذيذة جداً.",
+      "usage_ar": "try تعني يجرّب أو يحاول: Try again!"
     },
     {
       "group": "action_verbs",
@@ -695,7 +813,11 @@
       "arabic": "ينضم",
       "example": "I want to join a club.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "join",
+      "sentence": "Do you want to join our team?",
+      "sentence_ar": "هل تريد أن تنضم إلى فريقنا؟",
+      "usage_ar": "join بلا حرف جر: join the club، لا join to the club."
     },
     {
       "group": "action_verbs",
@@ -704,7 +826,11 @@
       "arabic": "يفوز",
       "example": "They always win.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "win",
+      "sentence": "I always win at chess.",
+      "sentence_ar": "أفوز دائماً في الشطرنج.",
+      "usage_ar": "نقول win a match أو win at chess، ولا نقول win the other team."
     },
     {
       "group": "action_verbs",
@@ -713,7 +839,11 @@
       "arabic": "يخسر",
       "example": "We never lose.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "lose",
+      "sentence": "We never lose at home.",
+      "sentence_ar": "لا نخسر أبداً على أرضنا.",
+      "usage_ar": "lose بحرف o واحد /luːz/، وloose بمعنى واسع كلمة أخرى."
     },
     {
       "group": "action_verbs",
@@ -722,7 +852,11 @@
       "arabic": "يبدأ",
       "example": "The match starts at six.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "start",
+      "sentence": "The lessons start at nine.",
+      "sentence_ar": "تبدأ الدروس في الساعة 9.",
+      "usage_ar": "start at مع الساعة: The film starts at 8."
     },
     {
       "group": "action_verbs",
@@ -731,7 +865,11 @@
       "arabic": "ينهي",
       "example": "I finish at nine.",
       "group_label_ar": "أفعال الحركة",
-      "group_label_en": "Action Verbs"
+      "group_label_en": "Action Verbs",
+      "target": "finish",
+      "sentence": "I finish work at five.",
+      "sentence_ar": "أنهي العمل في الساعة 5.",
+      "usage_ar": "finish work بلا the، وfinish at مع الساعة."
     },
     {
       "group": "hobbies_and_sports",
@@ -740,7 +878,11 @@
       "arabic": "كرة قدم",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "football",
+      "sentence": "My brother plays football every Friday.",
+      "sentence_ar": "يلعب أخي كرة القدم كل يوم جمعة.",
+      "usage_ar": "play football بلا the، ولا تقل play the football."
     },
     {
       "group": "hobbies_and_sports",
@@ -749,7 +891,11 @@
       "arabic": "تصوير",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "photography",
+      "sentence": "I love photography and nature.",
+      "sentence_ar": "أحب التصوير والطبيعة.",
+      "usage_ar": "photography هواية التصوير، وphoto هي الصورة نفسها. النبر على tog."
     },
     {
       "group": "hobbies_and_sports",
@@ -758,7 +904,11 @@
       "arabic": "كرة سلة",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "basketball",
+      "sentence": "Do you play basketball?",
+      "sentence_ar": "هل تلعب كرة السلة؟",
+      "usage_ar": "play basketball بلا the، كبقية الرياضات."
     },
     {
       "group": "hobbies_and_sports",
@@ -767,7 +917,11 @@
       "arabic": "كاميرا",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "camera",
+      "sentence": "I have a new camera.",
+      "sentence_ar": "لديّ كاميرا جديدة.",
+      "usage_ar": "نقول take a photo with my camera."
     },
     {
       "group": "hobbies_and_sports",
@@ -776,7 +930,11 @@
       "arabic": "تنس",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "tennis",
+      "sentence": "Can you play tennis?",
+      "sentence_ar": "هل تستطيع أن تلعب التنس؟",
+      "usage_ar": "play tennis بلا the."
     },
     {
       "group": "hobbies_and_sports",
@@ -785,7 +943,11 @@
       "arabic": "رسم",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "painting",
+      "sentence": "Painting is my favourite hobby.",
+      "sentence_ar": "الرسم بالألوان هوايتي المفضلة.",
+      "usage_ar": "painting هواية الرسم، وأيضاً اللوحة نفسها: a beautiful painting."
     },
     {
       "group": "hobbies_and_sports",
@@ -794,7 +956,11 @@
       "arabic": "كرة طائرة",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "volleyball",
+      "sentence": "We play volleyball on the beach.",
+      "sentence_ar": "نلعب الكرة الطائرة على الشاطئ.",
+      "usage_ar": "play volleyball بلا the."
     },
     {
       "group": "hobbies_and_sports",
@@ -803,7 +969,11 @@
       "arabic": "رسم بالقلم",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "drawing",
+      "sentence": "I am good at drawing.",
+      "sentence_ar": "أنا بارع في الرسم بالقلم.",
+      "usage_ar": "بعد good at يأتي -ing: good at drawing، لا good at draw."
     },
     {
       "group": "hobbies_and_sports",
@@ -812,7 +982,11 @@
       "arabic": "سباحة",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "swimming",
+      "sentence": "I love swimming in the sea.",
+      "sentence_ar": "أحب السباحة في البحر.",
+      "usage_ar": "نقول go swimming، ولا نقول do swimming."
     },
     {
       "group": "hobbies_and_sports",
@@ -821,7 +995,11 @@
       "arabic": "قراءة",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "reading",
+      "sentence": "Reading is good for you.",
+      "sentence_ar": "القراءة مفيدة لك.",
+      "usage_ar": "الاسم -ing يأتي فاعلاً: Reading is fun."
     },
     {
       "group": "hobbies_and_sports",
@@ -830,7 +1008,11 @@
       "arabic": "جري",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "running",
+      "sentence": "I go running every morning.",
+      "sentence_ar": "أذهب للجري كل صباح.",
+      "usage_ar": "نقول go running، والنون تتضاعف: running."
     },
     {
       "group": "hobbies_and_sports",
@@ -839,7 +1021,11 @@
       "arabic": "كتابة",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "writing",
+      "sentence": "I like writing short stories.",
+      "sentence_ar": "أحب كتابة القصص القصيرة.",
+      "usage_ar": "حرف e يسقط قبل -ing: write → writing، والـt لا تتضاعف."
     },
     {
       "group": "hobbies_and_sports",
@@ -848,7 +1034,11 @@
       "arabic": "ركوب دراجات",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "cycling",
+      "sentence": "My father loves cycling.",
+      "sentence_ar": "أبي يحب ركوب الدراجات كثيراً.",
+      "usage_ar": "نقول go cycling، والدراجة نفسها bike."
     },
     {
       "group": "hobbies_and_sports",
@@ -857,7 +1047,11 @@
       "arabic": "بستنة",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "gardening",
+      "sentence": "My grandmother enjoys gardening.",
+      "sentence_ar": "جدتي تستمتع بالبستنة.",
+      "usage_ar": "بعد enjoy يأتي -ing دائماً: enjoy gardening."
     },
     {
       "group": "hobbies_and_sports",
@@ -866,7 +1060,11 @@
       "arabic": "مشي",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "walking",
+      "sentence": "Walking is good for your health.",
+      "sentence_ar": "المشي مفيد لصحتك.",
+      "usage_ar": "نقول go for a walk أو go walking. حرف l لا يُنطق."
     },
     {
       "group": "hobbies_and_sports",
@@ -875,7 +1073,11 @@
       "arabic": "صيد سمك",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "fishing",
+      "sentence": "We go fishing at the weekend.",
+      "sentence_ar": "نذهب لصيد السمك في عطلة نهاية الأسبوع.",
+      "usage_ar": "نقول go fishing، لا go to fishing."
     },
     {
       "group": "hobbies_and_sports",
@@ -884,7 +1086,11 @@
       "arabic": "شطرنج",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "chess",
+      "sentence": "Do you play chess?",
+      "sentence_ar": "هل تلعب الشطرنج؟",
+      "usage_ar": "play chess بلا the وبلا a."
     },
     {
       "group": "hobbies_and_sports",
@@ -893,7 +1099,11 @@
       "arabic": "طبخ",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "cooking",
+      "sentence": "I hate cooking, but I love eating.",
+      "sentence_ar": "أكره الطبخ لكني أحب الأكل.",
+      "usage_ar": "بعد like وlove وhate يأتي -ing غالباً: I hate cooking."
     },
     {
       "group": "hobbies_and_sports",
@@ -902,7 +1112,11 @@
       "arabic": "موسيقى",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "music",
+      "sentence": "I listen to music every evening.",
+      "sentence_ar": "أستمع إلى الموسيقى كل مساء.",
+      "usage_ar": "listen to music مع to دائماً، ولا تقل a music."
     },
     {
       "group": "hobbies_and_sports",
@@ -911,7 +1125,11 @@
       "arabic": "سفر",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "travelling",
+      "sentence": "Travelling is my favourite hobby.",
+      "sentence_ar": "السفر هوايتي المفضلة.",
+      "usage_ar": "في البريطانية تتضاعف اللام: travelling."
     },
     {
       "group": "hobbies_and_sports",
@@ -920,7 +1138,11 @@
       "arabic": "جيتار",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "guitar",
+      "sentence": "My brother can play the guitar.",
+      "sentence_ar": "يستطيع أخي أن يعزف على الجيتار.",
+      "usage_ar": "مع الآلة نضع the: play the guitar. والنبر على tar."
     },
     {
       "group": "hobbies_and_sports",
@@ -929,7 +1151,11 @@
       "arabic": "لعبة فيديو",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "video game",
+      "sentence": "I play a video game after school.",
+      "sentence_ar": "ألعب لعبة فيديو بعد المدرسة.",
+      "usage_ar": "نقول play a video game، وجمعها video games."
     },
     {
       "group": "hobbies_and_sports",
@@ -938,7 +1164,11 @@
       "arabic": "بيانو",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "piano",
+      "sentence": "Can you play the piano?",
+      "sentence_ar": "هل تستطيع أن تعزف على البيانو؟",
+      "usage_ar": "play the piano مع the."
     },
     {
       "group": "hobbies_and_sports",
@@ -947,7 +1177,11 @@
       "arabic": "فيلم",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "film",
+      "sentence": "Let's watch a film tonight.",
+      "sentence_ar": "لنشاهد فيلماً الليلة.",
+      "usage_ar": "film بريطانية وmovie أمريكية، ونقول watch a film لا see a film في البيت."
     },
     {
       "group": "hobbies_and_sports",
@@ -956,7 +1190,11 @@
       "arabic": "طبول",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "drums",
+      "sentence": "My son plays the drums.",
+      "sentence_ar": "ابني يعزف على الطبول.",
+      "usage_ar": "تأتي جمعاً غالباً: play the drums."
     },
     {
       "group": "hobbies_and_sports",
@@ -965,7 +1203,11 @@
       "arabic": "مسلسل",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "series",
+      "sentence": "I love this Turkish series.",
+      "sentence_ar": "أحب هذا المسلسل التركي كثيراً.",
+      "usage_ar": "series مفرد وجمع بالشكل نفسه: one series, two series."
     },
     {
       "group": "hobbies_and_sports",
@@ -974,7 +1216,11 @@
       "arabic": "فريق",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "team",
+      "sentence": "Which team do you like?",
+      "sentence_ar": "أي فريق تحب؟",
+      "usage_ar": "نقول in a team: I play in a team."
     },
     {
       "group": "hobbies_and_sports",
@@ -983,7 +1229,11 @@
       "arabic": "نادٍ",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "club",
+      "sentence": "I go to a chess club.",
+      "sentence_ar": "أذهب إلى نادي شطرنج.",
+      "usage_ar": "نقول join a club أو go to a club."
     },
     {
       "group": "hobbies_and_sports",
@@ -992,7 +1242,11 @@
       "arabic": "مباراة",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "match",
+      "sentence": "The match starts at seven.",
+      "sentence_ar": "تبدأ المباراة في الساعة 7.",
+      "usage_ar": "نقول watch a match وwin a match."
     },
     {
       "group": "hobbies_and_sports",
@@ -1001,7 +1255,11 @@
       "arabic": "هواية",
       "example": null,
       "group_label_ar": "الهوايات والرياضة",
-      "group_label_en": "Hobbies and Sports"
+      "group_label_en": "Hobbies and Sports",
+      "target": "hobby",
+      "sentence": "My hobby is reading.",
+      "sentence_ar": "هوايتي هي القراءة.",
+      "usage_ar": "جمعها hobbies. وبعد My hobby is يأتي -ing أو اسم."
     },
     {
       "group": "how_well_you_do_it",
@@ -1010,7 +1268,11 @@
       "arabic": "بشكل جيد",
       "example": "She sings very well.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "well",
+      "sentence": "She sings very well.",
+      "sentence_ar": "هي تغنّي جيداً جداً.",
+      "usage_ar": "well بعد الفعل لا good: sings well، لا sings good."
     },
     {
       "group": "how_well_you_do_it",
@@ -1019,7 +1281,11 @@
       "arabic": "بشكل سيء",
       "example": "I dance badly.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "badly",
+      "sentence": "I dance badly.",
+      "sentence_ar": "أرقص بشكل سيئ.",
+      "usage_ar": "badly بعد الفعل، وbad قبل الاسم: a bad dancer."
     },
     {
       "group": "how_well_you_do_it",
@@ -1028,7 +1294,11 @@
       "arabic": "بسرعة",
       "example": "He types very fast.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "fast",
+      "sentence": "My brother can run very fast.",
+      "sentence_ar": "يستطيع أخي أن يجري بسرعة كبيرة.",
+      "usage_ar": "fast لا تأخذ ly: لا تقل fastly."
     },
     {
       "group": "how_well_you_do_it",
@@ -1037,7 +1307,11 @@
       "arabic": "ببطء",
       "example": "Please speak slowly.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "slowly",
+      "sentence": "Please speak slowly.",
+      "sentence_ar": "من فضلك تكلّم ببطء.",
+      "usage_ar": "slowly بعد الفعل، وslow قبل الاسم: a slow car."
     },
     {
       "group": "how_well_you_do_it",
@@ -1046,7 +1320,11 @@
       "arabic": "بسهولة",
       "example": "I can do that easily.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "easily",
+      "sentence": "I can do this easily.",
+      "sentence_ar": "أستطيع أن أفعل هذا بسهولة.",
+      "usage_ar": "easy تصبح easily: الياء تتحول إلى i."
     },
     {
       "group": "how_well_you_do_it",
@@ -1055,7 +1333,11 @@
       "arabic": "بجد",
       "example": "She works hard.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "hard",
+      "sentence": "My father works hard.",
+      "sentence_ar": "أبي يعمل بجد.",
+      "usage_ar": "hard تبقى hard بعد الفعل. وhardly معناها «بالكاد»، فاحذرها."
     },
     {
       "group": "how_well_you_do_it",
@@ -1064,7 +1346,11 @@
       "arabic": "بعناية",
       "example": "Drive carefully.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "carefully",
+      "sentence": "Drive carefully in the rain.",
+      "sentence_ar": "قُد بحذر تحت المطر.",
+      "usage_ar": "careful + ly، فتصبح لامين: carefully."
     },
     {
       "group": "how_well_you_do_it",
@@ -1073,7 +1359,11 @@
       "arabic": "ببراعة / بجمال",
       "example": "He draws beautifully.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "beautifully",
+      "sentence": "My sister draws beautifully.",
+      "sentence_ar": "أختي ترسم بشكل جميل.",
+      "usage_ar": "beautiful صفة، وbeautifully بعد الفعل."
     },
     {
       "group": "how_well_you_do_it",
@@ -1082,7 +1372,11 @@
       "arabic": "قليلاً",
       "example": "I speak a little French.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "a little",
+      "sentence": "I speak a little French.",
+      "sentence_ar": "أتكلّم قليلاً من الفرنسية.",
+      "usage_ar": "a little تعني «قليلاً» وهي إيجابية: I can swim a little."
     },
     {
       "group": "how_well_you_do_it",
@@ -1091,7 +1385,11 @@
       "arabic": "إلى حد ما",
       "example": "I'm quite good at chess.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "quite",
+      "sentence": "I'm quite good at chess.",
+      "sentence_ar": "أنا جيد إلى حد ما في الشطرنج.",
+      "usage_ar": "quite قبل الصفة: quite good. لا تخلطها بـquiet."
     },
     {
       "group": "how_well_you_do_it",
@@ -1100,7 +1398,11 @@
       "arabic": "حقاً / جداً",
       "example": "She's really good.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "really",
+      "sentence": "She is really good at tennis.",
+      "sentence_ar": "هي جيدة حقاً في التنس.",
+      "usage_ar": "really قبل الصفة تقويها: really good."
     },
     {
       "group": "how_well_you_do_it",
@@ -1109,7 +1411,11 @@
       "arabic": "ليس جداً",
       "example": "I'm not very good at it.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "not very",
+      "sentence": "I'm not very good at maths.",
+      "sentence_ar": "لست جيداً جداً في الرياضيات.",
+      "usage_ar": "طريقة مهذبة لقول bad: not very good."
     },
     {
       "group": "how_well_you_do_it",
@@ -1118,7 +1424,11 @@
       "arabic": "إطلاقاً",
       "example": "I can't swim at all.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "at all",
+      "sentence": "I can't swim at all.",
+      "sentence_ar": "لا أستطيع السباحة إطلاقاً.",
+      "usage_ar": "at all مع النفي فقط، في آخر الجملة."
     },
     {
       "group": "how_well_you_do_it",
@@ -1127,7 +1437,11 @@
       "arabic": "بارع في",
       "example": "He is good at football.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "good at",
+      "sentence": "He is good at football.",
+      "sentence_ar": "هو بارع في كرة القدم.",
+      "usage_ar": "good at لا good in، وبعدها -ing: good at swimming."
     },
     {
       "group": "how_well_you_do_it",
@@ -1136,7 +1450,11 @@
       "arabic": "ضعيف في",
       "example": "I am bad at drawing.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "bad at",
+      "sentence": "I am bad at drawing.",
+      "sentence_ar": "أنا ضعيف في الرسم.",
+      "usage_ar": "bad at وبعدها اسم أو -ing: bad at maths."
     },
     {
       "group": "how_well_you_do_it",
@@ -1145,7 +1463,11 @@
       "arabic": "مبتدئ",
       "example": "I'm a complete beginner.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "beginner",
+      "sentence": "I am a beginner in English.",
+      "sentence_ar": "أنا مبتدئ في الإنجليزية.",
+      "usage_ar": "قبلها a: I'm a beginner، ولا تقل I'm beginner."
     },
     {
       "group": "how_well_you_do_it",
@@ -1154,7 +1476,11 @@
       "arabic": "خبير",
       "example": "She is an expert.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "expert",
+      "sentence": "My uncle is an expert in computers.",
+      "sentence_ar": "خالي خبير في الحواسيب.",
+      "usage_ar": "قبلها an لأنها تبدأ بصوت علة: an expert."
     },
     {
       "group": "how_well_you_do_it",
@@ -1163,7 +1489,11 @@
       "arabic": "مفضّل",
       "example": "My favourite sport is tennis.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "favourite",
+      "sentence": "My favourite sport is tennis.",
+      "sentence_ar": "رياضتي المفضلة هي التنس.",
+      "usage_ar": "تأتي قبل الاسم: my favourite film. والتهجئة البريطانية بحرف u."
     },
     {
       "group": "how_well_you_do_it",
@@ -1172,7 +1502,11 @@
       "arabic": "ممتع / مثير",
       "example": "Chess is very interesting.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "interesting",
+      "sentence": "This book is very interesting.",
+      "sentence_ar": "هذا الكتاب ممتع جداً.",
+      "usage_ar": "interesting للشيء، وinterested للشخص: I'm interested in music."
     },
     {
       "group": "how_well_you_do_it",
@@ -1181,7 +1515,11 @@
       "arabic": "ممل",
       "example": "I think golf is boring.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
-      "group_label_en": "How Well You Do It"
+      "group_label_en": "How Well You Do It",
+      "target": "boring",
+      "sentence": "I think golf is boring.",
+      "sentence_ar": "أظن أن الغولف ممل.",
+      "usage_ar": "boring للشيء، وbored للشخص: I'm bored."
     },
     {
       "group": "useful_phrases",
@@ -1190,7 +1528,11 @@
       "arabic": "أستطيع…",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": "I can",
+      "sentence": "I can play the guitar.",
+      "sentence_ar": "أستطيع أن أعزف على الجيتار.",
+      "usage_ar": "بعدها الفعل بلا to: I can swim، لا I can to swim."
     },
     {
       "group": "useful_phrases",
@@ -1199,7 +1541,11 @@
       "arabic": "ماذا تستطيع أن تفعل؟",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": null,
+      "sentence": "What can you do? — I can cook and drive.",
+      "sentence_ar": "ماذا تستطيع أن تفعل؟ — أستطيع أن أطبخ وأقود.",
+      "usage_ar": "تسأل بها عن مهارات شخص جديد تتعرّف عليه."
     },
     {
       "group": "useful_phrases",
@@ -1208,7 +1554,11 @@
       "arabic": "لا أستطيع…",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": "I can't",
+      "sentence": "I can't drive a car.",
+      "sentence_ar": "لا أستطيع أن أقود سيارة.",
+      "usage_ar": "can't = cannot، وبعدها الفعل بلا to."
     },
     {
       "group": "useful_phrases",
@@ -1217,7 +1567,11 @@
       "arabic": "هل تستطيع…؟",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": "Can you",
+      "sentence": "Can you ride a horse?",
+      "sentence_ar": "هل تستطيع أن تركب حصاناً؟",
+      "usage_ar": "الجواب القصير: Yes, I can. أو No, I can't."
     },
     {
       "group": "useful_phrases",
@@ -1226,7 +1580,11 @@
       "arabic": "أنا بارع في…",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": "I'm good at",
+      "sentence": "I'm good at maths.",
+      "sentence_ar": "أنا بارع في الرياضيات.",
+      "usage_ar": "بعدها اسم أو -ing: I'm good at cooking."
     },
     {
       "group": "useful_phrases",
@@ -1235,7 +1593,11 @@
       "arabic": "هل أنت بارع في…؟",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": null,
+      "sentence": "Are you good at sport? — Yes, I am.",
+      "sentence_ar": "هل أنت بارع في الرياضة؟ — نعم.",
+      "usage_ar": "سؤال عن مهارة، والجواب Yes, I am أو No, I'm not."
     },
     {
       "group": "useful_phrases",
@@ -1244,7 +1606,11 @@
       "arabic": "لست بارعاً في…",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": null,
+      "sentence": "I'm not very good at singing.",
+      "sentence_ar": "لست بارعاً جداً في الغناء.",
+      "usage_ar": "طريقة مهذبة لتقول إنك ضعيف في شيء."
     },
     {
       "group": "useful_phrases",
@@ -1253,7 +1619,11 @@
       "arabic": "ماذا تفعل في وقت فراغك؟",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": null,
+      "sentence": "What do you do in your free time? — I read.",
+      "sentence_ar": "ماذا تفعل في وقت فراغك؟ — أقرأ.",
+      "usage_ar": "تسأل بها عن الهوايات عند التعارف."
     },
     {
       "group": "useful_phrases",
@@ -1262,7 +1632,11 @@
       "arabic": "أحب كثيراً…",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": "I love",
+      "sentence": "I love swimming in the sea.",
+      "sentence_ar": "أحب السباحة في البحر كثيراً.",
+      "usage_ar": "بعدها اسم أو -ing: I love music، I love dancing."
     },
     {
       "group": "useful_phrases",
@@ -1271,7 +1645,11 @@
       "arabic": "هل تحب…؟",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": "Do you like",
+      "sentence": "Do you like football?",
+      "sentence_ar": "هل تحب كرة القدم؟",
+      "usage_ar": "لا تقل You like football? بلا do. الجواب: Yes, I do."
     },
     {
       "group": "useful_phrases",
@@ -1280,7 +1658,11 @@
       "arabic": "أستمتع حقاً بـ…",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": "I really enjoy",
+      "sentence": "I really enjoy cooking.",
+      "sentence_ar": "أستمتع حقاً بالطبخ.",
+      "usage_ar": "بعد enjoy يأتي -ing فقط: enjoy reading، لا enjoy to read."
     },
     {
       "group": "useful_phrases",
@@ -1289,7 +1671,11 @@
       "arabic": "كم مرة…؟",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": null,
+      "sentence": "How often do you play tennis? — Twice a week.",
+      "sentence_ar": "كم مرة تلعب التنس؟ — مرتين في الأسبوع.",
+      "usage_ar": "تسأل بها عن عدد المرات، والجواب every day أو twice a week."
     },
     {
       "group": "useful_phrases",
@@ -1298,7 +1684,11 @@
       "arabic": "لا أحب… كثيراً",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": null,
+      "sentence": "I don't like football much.",
+      "sentence_ar": "لا أحب كرة القدم كثيراً.",
+      "usage_ar": "much تأتي في آخر الجملة، لا بعد like مباشرة."
     },
     {
       "group": "useful_phrases",
@@ -1307,7 +1697,11 @@
       "arabic": "هل تود الانضمام؟",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": null,
+      "sentence": "We play every Friday. Would you like to join?",
+      "sentence_ar": "نلعب كل جمعة. هل تود الانضمام؟",
+      "usage_ar": "دعوة مهذبة لشخص ليشارك في نشاط."
     },
     {
       "group": "useful_phrases",
@@ -1316,7 +1710,11 @@
       "arabic": "أكره…",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": "I hate",
+      "sentence": "I hate getting up early.",
+      "sentence_ar": "أكره الاستيقاظ مبكراً.",
+      "usage_ar": "كلمة قوية. بعدها اسم أو -ing: I hate shopping."
     },
     {
       "group": "useful_phrases",
@@ -1325,7 +1723,11 @@
       "arabic": "لنجرّبها!",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": "Let's try it",
+      "sentence": "This game looks fun. Let's try it!",
+      "sentence_ar": "هذه اللعبة تبدو ممتعة. لنجرّبها!",
+      "usage_ar": "Let's = let us، وبعدها الفعل بلا to."
     },
     {
       "group": "useful_phrases",
@@ -1334,7 +1736,11 @@
       "arabic": "أود أن أتعلّم…",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": null,
+      "sentence": "I'd like to learn the piano.",
+      "sentence_ar": "أود أن أتعلّم البيانو.",
+      "usage_ar": "I'd like = I would like، وبعدها to + الفعل."
     },
     {
       "group": "useful_phrases",
@@ -1343,7 +1749,11 @@
       "arabic": "يبدو ذلك ممتعاً",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": "That sounds fun",
+      "sentence": "Let's go fishing. — That sounds fun.",
+      "sentence_ar": "لنذهب لصيد السمك. — يبدو ذلك ممتعاً.",
+      "usage_ar": "ردّ لطيف على اقتراح يعجبك."
     },
     {
       "group": "useful_phrases",
@@ -1352,7 +1762,11 @@
       "arabic": "أنا أتعلّم…",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": "I'm learning",
+      "sentence": "I'm learning English.",
+      "sentence_ar": "أنا أتعلّم الإنجليزية.",
+      "usage_ar": "عبارة ثابتة تقولها عن شيء تدرسه هذه الأيام."
     },
     {
       "group": "useful_phrases",
@@ -1361,7 +1775,11 @@
       "arabic": "ليس تماماً، لا",
       "example": null,
       "group_label_ar": "عبارات نافعة",
-      "group_label_en": "Useful Phrases"
+      "group_label_en": "Useful Phrases",
+      "target": "Not really, no",
+      "sentence": "Do you like golf? — Not really, no.",
+      "sentence_ar": "هل تحب الغولف؟ — ليس تماماً، لا.",
+      "usage_ar": "رفض مهذب وناعم بدل No وحدها."
     }
   ],
   "minimal_pairs": [

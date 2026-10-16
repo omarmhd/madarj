@@ -162,7 +162,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -216,7 +216,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -270,7 +270,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -324,7 +324,7 @@
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
           "order": 8
@@ -342,25 +342,31 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "عبارات المطعم · حوار: At the Restaurant",
-          "minutes": 25,
-          "ref": "vocab:restaurant_phrases|dialogue:1"
+          "label": "الكلمات",
+          "minutes": 15,
+          "ref": "vocab:restaurant_phrases",
+          "order": 2
+        },
+        {
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:1",
+          "order": 3
         },
         {
           "label": "كتابة الكلمات",
           "minutes": 10,
           "ref": "spell:restaurant_phrases",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
@@ -369,19 +375,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -396,13 +402,19 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "حوار: At the Market · الاستماع",
-          "minutes": 25,
-          "ref": "dialogue:2|section:listening"
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:2",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الاستماع",
+          "minutes": 15,
+          "ref": "section:listening",
+          "order": 3
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
@@ -411,10 +423,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:6"
@@ -423,19 +435,19 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -450,13 +462,25 @@
           "ref": "review:vocab"
         },
         {
-          "order": 2,
-          "label": "القراءة · الكتابة",
-          "minutes": 25,
-          "ref": "section:reading|writing:1|record"
+          "label": "القراءة",
+          "minutes": 10,
+          "ref": "section:reading",
+          "order": 2
         },
         {
-          "order": 3,
+          "label": "الكتابة",
+          "minutes": 10,
+          "ref": "writing:1",
+          "order": 3
+        },
+        {
+          "label": "التحدّث",
+          "minutes": 10,
+          "ref": "record",
+          "order": 4
+        },
+        {
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 15,
           "ref": "game:minimal_pairs"
@@ -465,25 +489,25 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 6
         },
         {
-          "order": 5,
+          "order": 7,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 6,
+          "order": 8,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
         },
         {
-          "label": "الواجب المنزلي",
+          "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 9
         }
       ]
     }
@@ -496,7 +520,11 @@
       "arabic": "خبز",
       "example": "I eat bread every morning.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "bread",
+      "sentence": "I eat bread every morning.",
+      "sentence_ar": "آكل الخبز كل صباح.",
+      "usage_ar": "لا تُعدّ: some bread أو a piece of bread، لا a bread."
     },
     {
       "group": "food_and_drink",
@@ -505,7 +533,11 @@
       "arabic": "أرز",
       "example": "We have rice with chicken.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "rice",
+      "sentence": "We have rice with chicken.",
+      "sentence_ar": "نأكل الأرز مع الدجاج.",
+      "usage_ar": "لا تُعدّ: some rice، لا rices."
     },
     {
       "group": "food_and_drink",
@@ -514,7 +546,11 @@
       "arabic": "لحم",
       "example": "He doesn't eat meat.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "meat",
+      "sentence": "He doesn't eat meat.",
+      "sentence_ar": "هو لا يأكل اللحم.",
+      "usage_ar": "لا تُعدّ: some meat، لا a meat."
     },
     {
       "group": "food_and_drink",
@@ -523,7 +559,11 @@
       "arabic": "دجاج",
       "example": "The chicken is delicious.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "chicken",
+      "sentence": "The chicken is delicious.",
+      "sentence_ar": "الدجاج لذيذ.",
+      "usage_ar": "للطعام بلا a، وa chicken للطائر نفسه."
     },
     {
       "group": "food_and_drink",
@@ -532,7 +572,11 @@
       "arabic": "سمك",
       "example": "Do you like fish?",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "fish",
+      "sentence": "Do you like fish?",
+      "sentence_ar": "هل تحب السمك؟",
+      "usage_ar": "جمعها fish أيضاً غالباً: two fish."
     },
     {
       "group": "food_and_drink",
@@ -541,7 +585,11 @@
       "arabic": "بيضة",
       "example": "I want two eggs, please.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "egg",
+      "sentence": "I want an egg, please.",
+      "sentence_ar": "أريد بيضة من فضلك.",
+      "usage_ar": "نضع an لا a: an egg."
     },
     {
       "group": "food_and_drink",
@@ -550,7 +598,11 @@
       "arabic": "حليب",
       "example": "There isn't any milk.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "milk",
+      "sentence": "There isn't any milk.",
+      "sentence_ar": "لا يوجد أي حليب.",
+      "usage_ar": "لا تُعدّ: some milk أو a glass of milk."
     },
     {
       "group": "food_and_drink",
@@ -559,7 +611,11 @@
       "arabic": "جبن",
       "example": "She loves cheese.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "cheese",
+      "sentence": "She loves cheese.",
+      "sentence_ar": "هي تحب الجبن.",
+      "usage_ar": "لا تُعدّ: some cheese أو a piece of cheese."
     },
     {
       "group": "food_and_drink",
@@ -568,7 +624,11 @@
       "arabic": "زبدة",
       "example": "Bread and butter.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "butter",
+      "sentence": "I like bread and butter.",
+      "sentence_ar": "أحب الخبز بالزبدة.",
+      "usage_ar": "نقول bread and butter بهذا الترتيب."
     },
     {
       "group": "food_and_drink",
@@ -577,7 +637,11 @@
       "arabic": "سكر",
       "example": "No sugar in my tea, please.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "sugar",
+      "sentence": "No sugar in my tea, please.",
+      "sentence_ar": "بلا سكر في شايي من فضلك.",
+      "usage_ar": "لا تُعدّ: some sugar، ونطقها «شُوغَر»."
     },
     {
       "group": "food_and_drink",
@@ -586,7 +650,11 @@
       "arabic": "ملح",
       "example": "Can you pass the salt?",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "salt",
+      "sentence": "Do you have any salt?",
+      "sentence_ar": "هل لديك ملح؟",
+      "usage_ar": "لا تُعدّ: a little salt، لا a few salt."
     },
     {
       "group": "food_and_drink",
@@ -595,7 +663,11 @@
       "arabic": "زيت",
       "example": "We cook with olive oil.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "oil",
+      "sentence": "We cook with olive oil.",
+      "sentence_ar": "نطبخ بزيت الزيتون.",
+      "usage_ar": "نقول cook with oil: نطبخ بالزيت."
     },
     {
       "group": "food_and_drink",
@@ -604,7 +676,11 @@
       "arabic": "شوربة",
       "example": "The soup is hot.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "soup",
+      "sentence": "The soup is hot.",
+      "sentence_ar": "الشوربة ساخنة.",
+      "usage_ar": "نقول eat soup أو have soup."
     },
     {
       "group": "food_and_drink",
@@ -613,7 +689,11 @@
       "arabic": "سلطة",
       "example": "I always order a salad.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "salad",
+      "sentence": "I always order a salad.",
+      "sentence_ar": "أطلب دائماً سلطة.",
+      "usage_ar": "تُعدّ: a salad."
     },
     {
       "group": "food_and_drink",
@@ -622,7 +702,11 @@
       "arabic": "ماء",
       "example": "A bottle of water, please.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "water",
+      "sentence": "A bottle of water, please.",
+      "sentence_ar": "زجاجة ماء من فضلك.",
+      "usage_ar": "لا تُعدّ: some water أو a glass of water."
     },
     {
       "group": "food_and_drink",
@@ -631,7 +715,11 @@
       "arabic": "شاي",
       "example": "Two teas, please.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "tea",
+      "sentence": "Two cups of tea, please.",
+      "sentence_ar": "فنجانا شاي من فضلك.",
+      "usage_ar": "نقول a cup of tea؛ وفي المقهى يجوز two teas."
     },
     {
       "group": "food_and_drink",
@@ -640,7 +728,11 @@
       "arabic": "قهوة",
       "example": "He drinks black coffee.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "coffee",
+      "sentence": "He drinks black coffee.",
+      "sentence_ar": "هو يشرب القهوة السوداء.",
+      "usage_ar": "black coffee = قهوة بلا حليب."
     },
     {
       "group": "food_and_drink",
@@ -649,7 +741,11 @@
       "arabic": "عصير",
       "example": "Orange juice, please.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "juice",
+      "sentence": "Orange juice, please.",
+      "sentence_ar": "عصير برتقال من فضلك.",
+      "usage_ar": "نذكر الفاكهة قبلها: orange juice · apple juice."
     },
     {
       "group": "food_and_drink",
@@ -658,7 +754,11 @@
       "arabic": "تفاحة",
       "example": "An apple a day.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "apple",
+      "sentence": "I eat an apple every day.",
+      "sentence_ar": "آكل تفاحة كل يوم.",
+      "usage_ar": "نضع an لا a: an apple."
     },
     {
       "group": "food_and_drink",
@@ -667,7 +767,11 @@
       "arabic": "موزة",
       "example": "I eat a banana after the gym.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "banana",
+      "sentence": "I eat a banana after the gym.",
+      "sentence_ar": "آكل موزة بعد النادي.",
+      "usage_ar": "النبر في وسطها: ba-NA-na."
     },
     {
       "group": "food_and_drink",
@@ -676,7 +780,11 @@
       "arabic": "برتقالة",
       "example": "These oranges are sweet.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "orange",
+      "sentence": "I want an orange, please.",
+      "sentence_ar": "أريد برتقالة من فضلك.",
+      "usage_ar": "للفاكهة an orange، وorange أيضاً اللون البرتقالي."
     },
     {
       "group": "food_and_drink",
@@ -685,7 +793,11 @@
       "arabic": "عنب",
       "example": "The grapes are expensive.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "grapes",
+      "sentence": "The grapes are sweet.",
+      "sentence_ar": "العنب حلو.",
+      "usage_ar": "نقولها جمعاً عادةً: grapes are."
     },
     {
       "group": "food_and_drink",
@@ -694,7 +806,11 @@
       "arabic": "طماطم",
       "example": "Plural: tomatoes.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "tomato",
+      "sentence": "Do you want a tomato in your salad?",
+      "sentence_ar": "هل تريد طماطم في سلطتك؟",
+      "usage_ar": "جمعها tomatoes بإضافة es."
     },
     {
       "group": "food_and_drink",
@@ -703,7 +819,11 @@
       "arabic": "بطاطس",
       "example": "Plural: potatoes.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "potato",
+      "sentence": "I want a big potato, please.",
+      "sentence_ar": "أريد حبة بطاطس كبيرة من فضلك.",
+      "usage_ar": "جمعها potatoes بإضافة es."
     },
     {
       "group": "food_and_drink",
@@ -712,7 +832,11 @@
       "arabic": "بصل",
       "example": "Cut the onion first.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "onion",
+      "sentence": "I don't want onion in my salad.",
+      "sentence_ar": "لا أريد بصلاً في سلطتي.",
+      "usage_ar": "نقول an onion مع an لأنها تبدأ بصوت متحرك."
     },
     {
       "group": "food_and_drink",
@@ -721,7 +845,11 @@
       "arabic": "خضار",
       "example": "Eat your vegetables!",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "vegetable",
+      "sentence": "Do you eat a vegetable every day?",
+      "sentence_ar": "هل تأكل نوعاً من الخضار كل يوم؟",
+      "usage_ar": "نستعملها غالباً جمعاً: vegetables."
     },
     {
       "group": "food_and_drink",
@@ -730,7 +858,11 @@
       "arabic": "فاكهة",
       "example": "Fruit is good for you.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "fruit",
+      "sentence": "Fruit is good for you.",
+      "sentence_ar": "الفاكهة مفيدة لك.",
+      "usage_ar": "لا تُجمع غالباً: some fruit."
     },
     {
       "group": "food_and_drink",
@@ -739,7 +871,11 @@
       "arabic": "فطور",
       "example": "I never miss breakfast.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "breakfast",
+      "sentence": "I never miss breakfast.",
+      "sentence_ar": "لا أفوّت الفطور أبداً.",
+      "usage_ar": "have breakfast بلا a وبلا the."
     },
     {
       "group": "food_and_drink",
@@ -748,7 +884,11 @@
       "arabic": "غداء",
       "example": "Lunch is at one.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "lunch",
+      "sentence": "Lunch is at one.",
+      "sentence_ar": "الغداء في الواحدة.",
+      "usage_ar": "have lunch بلا the."
     },
     {
       "group": "food_and_drink",
@@ -757,7 +897,11 @@
       "arabic": "عشاء",
       "example": "Dinner is ready.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "dinner",
+      "sentence": "Dinner is ready.",
+      "sentence_ar": "العشاء جاهز.",
+      "usage_ar": "have dinner بلا the."
     },
     {
       "group": "food_and_drink",
@@ -766,7 +910,11 @@
       "arabic": "جائع",
       "example": "I am very hungry.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "hungry",
+      "sentence": "I am very hungry.",
+      "sentence_ar": "أنا جائع جداً.",
+      "usage_ar": "نقول I am hungry، لا I have hungry."
     },
     {
       "group": "food_and_drink",
@@ -775,7 +923,11 @@
       "arabic": "عطشان",
       "example": "Are you thirsty?",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "thirsty",
+      "sentence": "Are you thirsty?",
+      "sentence_ar": "هل أنت عطشان؟",
+      "usage_ar": "نقول I am thirsty، لا I have thirst."
     },
     {
       "group": "food_and_drink",
@@ -784,7 +936,11 @@
       "arabic": "لذيذ",
       "example": "This is delicious!",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "delicious",
+      "sentence": "This soup is delicious!",
+      "sentence_ar": "هذه الشوربة لذيذة!",
+      "usage_ar": "لا نقول very delicious؛ نقول really delicious."
     },
     {
       "group": "food_and_drink",
@@ -793,7 +949,11 @@
       "arabic": "حلو",
       "example": "It is too sweet for me.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "sweet",
+      "sentence": "The tea is too sweet for me.",
+      "sentence_ar": "الشاي حلو جداً بالنسبة لي.",
+      "usage_ar": "للطعم الحلو؛ وللجميل نقول nice."
     },
     {
       "group": "food_and_drink",
@@ -802,7 +962,11 @@
       "arabic": "حار / مبهّر",
       "example": "I don't like spicy food.",
       "group_label_ar": "الطعام والشراب",
-      "group_label_en": "Food and Drink"
+      "group_label_en": "Food and Drink",
+      "target": "spicy",
+      "sentence": "I don't like spicy food.",
+      "sentence_ar": "لا أحب الطعام الحار.",
+      "usage_ar": "للطعم الحار؛ وhot للحرارة أيضاً، فـspicy أوضح."
     },
     {
       "group": "shopping_and_money",
@@ -811,7 +975,11 @@
       "arabic": "يشتري",
       "example": "I buy bread every day.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "buy",
+      "sentence": "I buy bread every day.",
+      "sentence_ar": "أشتري الخبز كل يوم.",
+      "usage_ar": "نقول buy something from a shop."
     },
     {
       "group": "shopping_and_money",
@@ -820,7 +988,11 @@
       "arabic": "يبيع",
       "example": "They sell fresh fish.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "sell",
+      "sentence": "They sell fresh fish.",
+      "sentence_ar": "هم يبيعون السمك الطازج.",
+      "usage_ar": "عكس buy."
     },
     {
       "group": "shopping_and_money",
@@ -829,7 +1001,11 @@
       "arabic": "يدفع",
       "example": "How do you want to pay?",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "pay",
+      "sentence": "Do you want to pay by card?",
+      "sentence_ar": "هل تريد أن تدفع بالبطاقة؟",
+      "usage_ar": "pay by card وpay in cash، وpay for الشيء: pay for the food."
     },
     {
       "group": "shopping_and_money",
@@ -838,7 +1014,11 @@
       "arabic": "يكلّف",
       "example": "How much does it cost?",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "cost",
+      "sentence": "How much does it cost?",
+      "sentence_ar": "كم يكلّف؟",
+      "usage_ar": "السؤال How much does it cost، ولا نقول How much it cost."
     },
     {
       "group": "shopping_and_money",
@@ -847,7 +1027,11 @@
       "arabic": "سعر",
       "example": "The price is very good.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "price",
+      "sentence": "The price is very good.",
+      "sentence_ar": "السعر جيد جداً.",
+      "usage_ar": "نقول a good price أو a high price."
     },
     {
       "group": "shopping_and_money",
@@ -856,7 +1040,11 @@
       "arabic": "رخيص",
       "example": "This shop is cheap.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "cheap",
+      "sentence": "This shop is cheap.",
+      "sentence_ar": "هذا المتجر رخيص.",
+      "usage_ar": "عكسها expensive."
     },
     {
       "group": "shopping_and_money",
@@ -865,7 +1053,11 @@
       "arabic": "غالي",
       "example": "That restaurant is expensive.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "expensive",
+      "sentence": "That restaurant is expensive.",
+      "sentence_ar": "ذلك المطعم غالٍ.",
+      "usage_ar": "نقول too expensive = غالٍ أكثر من اللازم."
     },
     {
       "group": "shopping_and_money",
@@ -874,7 +1066,11 @@
       "arabic": "مال",
       "example": "I don't have any money.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "money",
+      "sentence": "I don't have any money.",
+      "sentence_ar": "ليس معي أي نقود.",
+      "usage_ar": "لا تُعدّ: some money، لا moneys."
     },
     {
       "group": "shopping_and_money",
@@ -883,7 +1079,11 @@
       "arabic": "نقداً",
       "example": "Do you take cash?",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "cash",
+      "sentence": "Do you take cash?",
+      "sentence_ar": "هل تقبلون الدفع نقداً؟",
+      "usage_ar": "نقول pay in cash."
     },
     {
       "group": "shopping_and_money",
@@ -892,7 +1092,11 @@
       "arabic": "بطاقة",
       "example": "Can I pay by card?",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "card",
+      "sentence": "Can I pay by card?",
+      "sentence_ar": "هل يمكنني الدفع بالبطاقة؟",
+      "usage_ar": "نقول pay by card مع by."
     },
     {
       "group": "shopping_and_money",
@@ -901,7 +1105,11 @@
       "arabic": "باقي النقود",
       "example": "Here is your change.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "change",
+      "sentence": "Here is your change.",
+      "sentence_ar": "هذا باقي نقودك.",
+      "usage_ar": "بمعنى الباقي لا تُجمع: your change."
     },
     {
       "group": "shopping_and_money",
@@ -910,7 +1118,11 @@
       "arabic": "إيصال",
       "example": "Do you want a receipt?",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "receipt",
+      "sentence": "Do you want a receipt?",
+      "sentence_ar": "هل تريد إيصالاً؟",
+      "usage_ar": "الحرف p لا يُنطق: «رِسيت»."
     },
     {
       "group": "shopping_and_money",
@@ -919,7 +1131,11 @@
       "arabic": "الحساب",
       "example": "Can we have the bill, please?",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "bill",
+      "sentence": "Can we have the bill, please?",
+      "sentence_ar": "الحساب من فضلك.",
+      "usage_ar": "في المطعم نطلب the bill؛ وفي الأمريكية check."
     },
     {
       "group": "shopping_and_money",
@@ -928,7 +1144,11 @@
       "arabic": "متجر",
       "example": "The shop opens at eight.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "shop",
+      "sentence": "The shop opens at eight.",
+      "sentence_ar": "المتجر يفتح في الثامنة.",
+      "usage_ar": "وفي الأمريكية store."
     },
     {
       "group": "shopping_and_money",
@@ -937,7 +1157,11 @@
       "arabic": "سوق",
       "example": "I go to the market on Fridays.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "market",
+      "sentence": "I go to the market on Fridays.",
+      "sentence_ar": "أذهب إلى السوق أيام الجمعة.",
+      "usage_ar": "نقول go to the market مع the."
     },
     {
       "group": "shopping_and_money",
@@ -946,7 +1170,11 @@
       "arabic": "سوبرماركت",
       "example": "The supermarket is closed.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "supermarket",
+      "sentence": "The supermarket is closed.",
+      "sentence_ar": "السوبرماركت مغلق.",
+      "usage_ar": "نقول at the supermarket."
     },
     {
       "group": "shopping_and_money",
@@ -955,7 +1183,11 @@
       "arabic": "مخبز",
       "example": "The bakery is next door.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "bakery",
+      "sentence": "I buy bread at the bakery.",
+      "sentence_ar": "أشتري الخبز من المخبز.",
+      "usage_ar": "نقول at the bakery."
     },
     {
       "group": "shopping_and_money",
@@ -964,7 +1196,11 @@
       "arabic": "مطعم",
       "example": "This restaurant is famous.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "restaurant",
+      "sentence": "This restaurant is famous.",
+      "sentence_ar": "هذا المطعم مشهور.",
+      "usage_ar": "انتبه للإملاء: au في وسطها."
     },
     {
       "group": "shopping_and_money",
@@ -973,7 +1209,11 @@
       "arabic": "مقهى",
       "example": "Let's meet at the café.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "café",
+      "sentence": "I meet my friend at the café.",
+      "sentence_ar": "ألتقي بصديقي في المقهى.",
+      "usage_ar": "نقول at the café، وتُكتب أيضاً cafe."
     },
     {
       "group": "shopping_and_money",
@@ -982,7 +1222,11 @@
       "arabic": "قائمة الطعام",
       "example": "Can I see the menu?",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "menu",
+      "sentence": "Can I see the menu?",
+      "sentence_ar": "هل يمكنني رؤية القائمة؟",
+      "usage_ar": "نقول look at the menu."
     },
     {
       "group": "shopping_and_money",
@@ -991,7 +1235,11 @@
       "arabic": "يطلب / طلب",
       "example": "I'd like to order, please.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "order",
+      "sentence": "I want to order, please.",
+      "sentence_ar": "أريد أن أطلب من فضلك.",
+      "usage_ar": "فعل للطلب في المطعم: order food."
     },
     {
       "group": "shopping_and_money",
@@ -1000,7 +1248,11 @@
       "arabic": "نادل",
       "example": "The waiter is very friendly.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "waiter",
+      "sentence": "The waiter is very friendly.",
+      "sentence_ar": "النادل ودود جداً.",
+      "usage_ar": "للمرأة نقول waitress."
     },
     {
       "group": "shopping_and_money",
@@ -1009,7 +1261,11 @@
       "arabic": "طاولة",
       "example": "A table for two, please.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "table",
+      "sentence": "The table is near the window.",
+      "sentence_ar": "الطاولة قريبة من النافذة.",
+      "usage_ar": "نقول a table for two للحجز."
     },
     {
       "group": "shopping_and_money",
@@ -1018,7 +1274,11 @@
       "arabic": "كيس / حقيبة",
       "example": "Do you need a bag?",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "bag",
+      "sentence": "Do you need a bag?",
+      "sentence_ar": "هل تحتاج كيساً؟",
+      "usage_ar": "للكيس والحقيبة معاً."
     },
     {
       "group": "shopping_and_money",
@@ -1027,7 +1287,11 @@
       "arabic": "زجاجة",
       "example": "A bottle of water.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "bottle",
+      "sentence": "I want a bottle of water.",
+      "sentence_ar": "أريد زجاجة ماء.",
+      "usage_ar": "نقول a bottle of + السائل."
     },
     {
       "group": "shopping_and_money",
@@ -1036,7 +1300,11 @@
       "arabic": "كيلو",
       "example": "Two kilos of rice.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "kilo",
+      "sentence": "I want a kilo of rice.",
+      "sentence_ar": "أريد كيلو أرز.",
+      "usage_ar": "نقول a kilo of، وجمعها kilos."
     },
     {
       "group": "shopping_and_money",
@@ -1045,7 +1313,11 @@
       "arabic": "مفتوح",
       "example": "Are you open on Fridays?",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "open",
+      "sentence": "Are you open on Fridays?",
+      "sentence_ar": "هل أنتم مفتوحون أيام الجمعة؟",
+      "usage_ar": "صفة هنا: The shop is open."
     },
     {
       "group": "shopping_and_money",
@@ -1054,7 +1326,11 @@
       "arabic": "مغلق",
       "example": "The shop is closed.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "closed",
+      "sentence": "The shop is closed on Sundays.",
+      "sentence_ar": "المتجر مغلق أيام الأحد.",
+      "usage_ar": "نقول is closed، لا is close."
     },
     {
       "group": "shopping_and_money",
@@ -1063,7 +1339,11 @@
       "arabic": "طازج",
       "example": "The bread is fresh.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "fresh",
+      "sentence": "The bread is fresh.",
+      "sentence_ar": "الخبز طازج.",
+      "usage_ar": "للطعام الجديد؛ وعكسها old."
     },
     {
       "group": "shopping_and_money",
@@ -1072,7 +1352,11 @@
       "arabic": "مجاني",
       "example": "Delivery is free.",
       "group_label_ar": "التسوّق والمال",
-      "group_label_en": "Shopping and Money"
+      "group_label_en": "Shopping and Money",
+      "target": "free",
+      "sentence": "Delivery is free.",
+      "sentence_ar": "التوصيل مجاني.",
+      "usage_ar": "مجاني هنا؛ وI am free تعني «لست مشغولاً»."
     },
     {
       "group": "restaurant_phrases",
@@ -1081,7 +1365,11 @@
       "arabic": "طاولة لشخصين من فضلك",
       "example": "Customer",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": null,
+      "sentence": "At the restaurant door: A table for two, please.",
+      "sentence_ar": "عند باب المطعم: طاولة لشخصين من فضلك.",
+      "usage_ar": "عند دخول المطعم، وغيّر الرقم بعدد الأشخاص."
     },
     {
       "group": "restaurant_phrases",
@@ -1090,7 +1378,11 @@
       "arabic": "هل يمكنني رؤية القائمة؟",
       "example": "Customer",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": null,
+      "sentence": "When you sit down: Can I see the menu, please?",
+      "sentence_ar": "حين تجلس: هل يمكنني رؤية القائمة من فضلك؟",
+      "usage_ar": "تطلب بها القائمة من النادل بأدب."
     },
     {
       "group": "restaurant_phrases",
@@ -1099,7 +1391,11 @@
       "arabic": "هل أنت مستعد للطلب؟",
       "example": "Waiter",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": null,
+      "sentence": "The waiter asks: Are you ready to order?",
+      "sentence_ar": "يسأل النادل: هل أنت مستعد للطلب؟",
+      "usage_ar": "يقولها النادل، والرد Yes, please أو Not yet."
     },
     {
       "group": "restaurant_phrases",
@@ -1108,7 +1404,11 @@
       "arabic": "أريد الدجاج من فضلك",
       "example": "Customer",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": null,
+      "sentence": "You order: I'd like the chicken, please.",
+      "sentence_ar": "تطلب: أريد الدجاج من فضلك.",
+      "usage_ar": "I'd like أكثر أدباً من I want عند الطلب."
     },
     {
       "group": "restaurant_phrases",
@@ -1117,7 +1417,11 @@
       "arabic": "هل يمكنني الحصول على سلطة؟",
       "example": "Customer",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": null,
+      "sentence": "You order: Can I have a salad, please?",
+      "sentence_ar": "تطلب: هل يمكنني أن آخذ سلطة من فضلك؟",
+      "usage_ar": "طريقة مهذبة للطلب في المطعم والمقهى."
     },
     {
       "group": "restaurant_phrases",
@@ -1126,7 +1430,11 @@
       "arabic": "أي شيء للشرب؟",
       "example": "Waiter",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": null,
+      "sentence": "The waiter asks: Anything to drink?",
+      "sentence_ar": "يسأل النادل: أي شيء للشرب؟",
+      "usage_ar": "يقولها النادل بعد طلب الطعام."
     },
     {
       "group": "restaurant_phrases",
@@ -1135,7 +1443,11 @@
       "arabic": "ماء فقط من فضلك",
       "example": "Customer",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": null,
+      "sentence": "Your answer: Just water, please.",
+      "sentence_ar": "جوابك: ماء فقط من فضلك.",
+      "usage_ar": "just = فقط، للرد على سؤال المشروب."
     },
     {
       "group": "restaurant_phrases",
@@ -1144,7 +1456,11 @@
       "arabic": "هل هو حار؟",
       "example": "Customer",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": "Is it spicy",
+      "sentence": "You ask about a dish: Is it spicy?",
+      "sentence_ar": "تسأل عن طبق: هل هو حار؟",
+      "usage_ar": "اسأل بها قبل أن تطلب طبقاً لا تعرفه."
     },
     {
       "group": "restaurant_phrases",
@@ -1153,7 +1469,11 @@
       "arabic": "أنا لا آكل اللحم",
       "example": "Customer",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": null,
+      "sentence": "You tell the waiter: I don't eat meat.",
+      "sentence_ar": "تقول للنادل: أنا لا آكل اللحم.",
+      "usage_ar": "لتخبر النادل بما لا تأكله."
     },
     {
       "group": "restaurant_phrases",
@@ -1162,7 +1482,11 @@
       "arabic": "بماذا تنصح؟",
       "example": "Customer",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": null,
+      "sentence": "You ask the waiter: What do you recommend?",
+      "sentence_ar": "تسأل النادل: بماذا تنصح؟",
+      "usage_ar": "حين لا تعرف ماذا تطلب، اسأل النادل."
     },
     {
       "group": "restaurant_phrases",
@@ -1171,7 +1495,11 @@
       "arabic": "بالهناء والشفاء",
       "example": "Waiter",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": "Enjoy your meal",
+      "sentence": "The waiter brings the food: Enjoy your meal.",
+      "sentence_ar": "يحضر النادل الطعام: بالهناء والشفاء.",
+      "usage_ar": "يقولها من يقدّم الطعام، والرد Thank you."
     },
     {
       "group": "restaurant_phrases",
@@ -1180,7 +1508,11 @@
       "arabic": "من فضلك / لو سمحت",
       "example": "Customer (calling the waiter)",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": "Excuse me",
+      "sentence": "You call the waiter: Excuse me!",
+      "sentence_ar": "تنادي النادل: لو سمحت!",
+      "usage_ar": "لطلب الانتباه بأدب، ولا نقول Sorry هنا."
     },
     {
       "group": "restaurant_phrases",
@@ -1189,7 +1521,11 @@
       "arabic": "الحساب من فضلك",
       "example": "Customer",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": null,
+      "sentence": "At the end of the meal: Can we have the bill, please?",
+      "sentence_ar": "في آخر الوجبة: الحساب من فضلك.",
+      "usage_ar": "تطلب بها الحساب في آخر الوجبة."
     },
     {
       "group": "restaurant_phrases",
@@ -1198,7 +1534,11 @@
       "arabic": "كم سعره؟",
       "example": "Customer",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": null,
+      "sentence": "You ask the price: How much is it?",
+      "sentence_ar": "تسأل عن السعر: كم سعره؟",
+      "usage_ar": "لسعر شيء واحد؛ ولعدة أشياء: How much are they?"
     },
     {
       "group": "restaurant_phrases",
@@ -1207,7 +1547,11 @@
       "arabic": "هل تقبلون البطاقات؟",
       "example": "Customer",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": null,
+      "sentence": "Before you pay: Do you take cards?",
+      "sentence_ar": "قبل أن تدفع: هل تقبلون البطاقات؟",
+      "usage_ar": "اسأل بها قبل الدفع إن لم يكن معك نقود."
     },
     {
       "group": "restaurant_phrases",
@@ -1216,7 +1560,11 @@
       "arabic": "احتفظ بالباقي",
       "example": "Customer",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": "Keep the change",
+      "sentence": "You pay the waiter: Keep the change.",
+      "sentence_ar": "تدفع للنادل: احتفظ بالباقي.",
+      "usage_ar": "حين تترك الباقي للنادل."
     },
     {
       "group": "restaurant_phrases",
@@ -1225,7 +1573,11 @@
       "arabic": "بكم هذا؟",
       "example": "Shopping",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": null,
+      "sentence": "In a shop: How much is this?",
+      "sentence_ar": "في متجر: بكم هذا؟",
+      "usage_ar": "this لشيء في يدك، وthat لشيء بعيد."
     },
     {
       "group": "restaurant_phrases",
@@ -1234,7 +1586,11 @@
       "arabic": "هذا غالٍ جداً",
       "example": "Shopping",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": "That's too expensive",
+      "sentence": "In the market: That's too expensive.",
+      "sentence_ar": "في السوق: هذا غالٍ جداً.",
+      "usage_ar": "too = أكثر من اللازم؛ تقولها حين يكون السعر عالياً."
     },
     {
       "group": "restaurant_phrases",
@@ -1243,7 +1599,11 @@
       "arabic": "هل لديكم …؟",
       "example": "Shopping",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": null,
+      "sentence": "In a shop: Do you have any fresh bread?",
+      "sentence_ar": "في متجر: هل لديكم خبز طازج؟",
+      "usage_ar": "مع any في السؤال: Do you have any milk?"
     },
     {
       "group": "restaurant_phrases",
@@ -1252,7 +1612,11 @@
       "arabic": "سآخذه",
       "example": "Shopping",
       "group_label_ar": "عبارات المطعم",
-      "group_label_en": "Restaurant Phrases"
+      "group_label_en": "Restaurant Phrases",
+      "target": "I'll take it",
+      "sentence": "The price is good: I'll take it.",
+      "sentence_ar": "السعر جيد: سآخذه.",
+      "usage_ar": "تقولها حين تقرر الشراء؛ احفظها كما هي."
     },
     {
       "group": "containers_and_quantities",
@@ -1261,7 +1625,11 @@
       "arabic": "قنينة من",
       "example": "a bottle of water",
       "group_label_ar": "المكاييل والعلب",
-      "group_label_en": "Containers and Quantities"
+      "group_label_en": "Containers and Quantities",
+      "target": "a bottle of",
+      "sentence": "I want a bottle of water.",
+      "sentence_ar": "أريد زجاجة ماء.",
+      "usage_ar": "للسوائل في زجاجة: a bottle of juice."
     },
     {
       "group": "containers_and_quantities",
@@ -1270,7 +1638,11 @@
       "arabic": "فنجان من",
       "example": "a cup of tea",
       "group_label_ar": "المكاييل والعلب",
-      "group_label_en": "Containers and Quantities"
+      "group_label_en": "Containers and Quantities",
+      "target": "a cup of",
+      "sentence": "I have a cup of tea every morning.",
+      "sentence_ar": "أشرب فنجان شاي كل صباح.",
+      "usage_ar": "للمشروب الساخن: a cup of coffee."
     },
     {
       "group": "containers_and_quantities",
@@ -1279,7 +1651,11 @@
       "arabic": "كأس من",
       "example": "a glass of juice",
       "group_label_ar": "المكاييل والعلب",
-      "group_label_en": "Containers and Quantities"
+      "group_label_en": "Containers and Quantities",
+      "target": "a glass of",
+      "sentence": "I want a glass of juice, please.",
+      "sentence_ar": "أريد كأس عصير من فضلك.",
+      "usage_ar": "للمشروب البارد: a glass of water."
     },
     {
       "group": "containers_and_quantities",
@@ -1288,7 +1664,11 @@
       "arabic": "قطعة من",
       "example": "a piece of cake",
       "group_label_ar": "المكاييل والعلب",
-      "group_label_en": "Containers and Quantities"
+      "group_label_en": "Containers and Quantities",
+      "target": "a piece of",
+      "sentence": "Can I have a piece of cake?",
+      "sentence_ar": "هل يمكنني أن آخذ قطعة كعك؟",
+      "usage_ar": "مع ما لا يُعدّ: a piece of cheese."
     },
     {
       "group": "containers_and_quantities",
@@ -1297,7 +1677,11 @@
       "arabic": "كيلو من",
       "example": "a kilo of rice",
       "group_label_ar": "المكاييل والعلب",
-      "group_label_en": "Containers and Quantities"
+      "group_label_en": "Containers and Quantities",
+      "target": "a kilo of",
+      "sentence": "I buy a kilo of rice.",
+      "sentence_ar": "أشتري كيلو أرز.",
+      "usage_ar": "نقول a kilo of rice، لا a kilo rice."
     },
     {
       "group": "containers_and_quantities",
@@ -1306,7 +1690,11 @@
       "arabic": "شريحة من",
       "example": "a slice of bread",
       "group_label_ar": "المكاييل والعلب",
-      "group_label_en": "Containers and Quantities"
+      "group_label_en": "Containers and Quantities",
+      "target": "a slice of",
+      "sentence": "I want a slice of bread.",
+      "sentence_ar": "أريد شريحة خبز.",
+      "usage_ar": "للشريحة الرقيقة: a slice of cheese."
     },
     {
       "group": "containers_and_quantities",
@@ -1315,7 +1703,11 @@
       "arabic": "كيس / علبة من",
       "example": "a packet of sugar",
       "group_label_ar": "المكاييل والعلب",
-      "group_label_en": "Containers and Quantities"
+      "group_label_en": "Containers and Quantities",
+      "target": "a packet of",
+      "sentence": "I need a packet of sugar.",
+      "sentence_ar": "أحتاج كيس سكر.",
+      "usage_ar": "للعلبة أو الكيس الصغير: a packet of tea."
     },
     {
       "group": "containers_and_quantities",
@@ -1324,7 +1716,11 @@
       "arabic": "كيس من",
       "example": "a bag of apples",
       "group_label_ar": "المكاييل والعلب",
-      "group_label_en": "Containers and Quantities"
+      "group_label_en": "Containers and Quantities",
+      "target": "a bag of",
+      "sentence": "I buy a bag of apples.",
+      "sentence_ar": "أشتري كيس تفاح.",
+      "usage_ar": "بعدها جمع للمعدود: a bag of apples."
     },
     {
       "group": "containers_and_quantities",
@@ -1333,7 +1729,11 @@
       "arabic": "صندوق من",
       "example": "a box of eggs",
       "group_label_ar": "المكاييل والعلب",
-      "group_label_en": "Containers and Quantities"
+      "group_label_en": "Containers and Quantities",
+      "target": "a box of",
+      "sentence": "I want a box of eggs.",
+      "sentence_ar": "أريد علبة بيض.",
+      "usage_ar": "a box of eggs = علبة بيض."
     },
     {
       "group": "containers_and_quantities",
@@ -1342,7 +1742,11 @@
       "arabic": "علبة معدنية من",
       "example": "a can of cola",
       "group_label_ar": "المكاييل والعلب",
-      "group_label_en": "Containers and Quantities"
+      "group_label_en": "Containers and Quantities",
+      "target": "a can of",
+      "sentence": "Do you want a can of cola?",
+      "sentence_ar": "هل تريد علبة كولا؟",
+      "usage_ar": "للعلبة المعدنية: a can of juice."
     },
     {
       "group": "containers_and_quantities",
@@ -1351,7 +1755,11 @@
       "arabic": "كثير من",
       "example": "a lot of fruit",
       "group_label_ar": "المكاييل والعلب",
-      "group_label_en": "Containers and Quantities"
+      "group_label_en": "Containers and Quantities",
+      "target": "a lot of",
+      "sentence": "I eat a lot of fruit.",
+      "sentence_ar": "آكل الكثير من الفاكهة.",
+      "usage_ar": "مع المعدود وغيره: a lot of apples · a lot of water."
     },
     {
       "group": "containers_and_quantities",
@@ -1360,7 +1768,11 @@
       "arabic": "قليل من — لغير المعدود",
       "example": "a little salt",
       "group_label_ar": "المكاييل والعلب",
-      "group_label_en": "Containers and Quantities"
+      "group_label_en": "Containers and Quantities",
+      "target": "a little",
+      "sentence": "I want a little salt, please.",
+      "sentence_ar": "أريد قليلاً من الملح من فضلك.",
+      "usage_ar": "مع ما لا يُعدّ فقط: a little milk."
     },
     {
       "group": "containers_and_quantities",
@@ -1369,7 +1781,11 @@
       "arabic": "قليل من — للمعدود",
       "example": "a few tomatoes",
       "group_label_ar": "المكاييل والعلب",
-      "group_label_en": "Containers and Quantities"
+      "group_label_en": "Containers and Quantities",
+      "target": "a few",
+      "sentence": "I need a few tomatoes.",
+      "sentence_ar": "أحتاج بضع حبات طماطم.",
+      "usage_ar": "مع المعدود فقط: a few eggs."
     },
     {
       "group": "containers_and_quantities",
@@ -1378,7 +1794,11 @@
       "arabic": "نصف",
       "example": "half a kilo",
       "group_label_ar": "المكاييل والعلب",
-      "group_label_en": "Containers and Quantities"
+      "group_label_en": "Containers and Quantities",
+      "target": "half a",
+      "sentence": "I want half a kilo of meat.",
+      "sentence_ar": "أريد نصف كيلو لحم.",
+      "usage_ar": "نقول half a kilo، لا a half kilo."
     },
     {
       "group": "containers_and_quantities",
@@ -1387,7 +1807,11 @@
       "arabic": "بعض",
       "example": "some bread",
       "group_label_ar": "المكاييل والعلب",
-      "group_label_en": "Containers and Quantities"
+      "group_label_en": "Containers and Quantities",
+      "target": "some",
+      "sentence": "I want some bread, please.",
+      "sentence_ar": "أريد بعض الخبز من فضلك.",
+      "usage_ar": "في الإثبات some، وفي النفي والسؤال any."
     }
   ],
   "minimal_pairs": [
