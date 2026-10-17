@@ -201,6 +201,14 @@ export default function MinimalPairGame({ groups, target: targetProp, onFinish, 
         <p className="mt-2 text-sm text-amber-800">
           {tr('استخدم Chrome أو Edge أو Safari. أو اضغط روابط كامبريدج في جدول الأزواج للاستماع يدوياً.')}
         </p>
+        {/* The browser's limit is not the learner's: without this the day stops here */}
+        <button
+          onClick={() => onFinish?.(0, 0)}
+          className="mt-4 rounded-xl bg-white px-5 py-2.5 text-sm font-medium text-amber-900 ring-1 ring-amber-300
+                     transition hover:bg-amber-100"
+        >
+          {tr('تابع يومك')}
+        </button>
       </div>
     );
   }
@@ -231,7 +239,12 @@ export default function MinimalPairGame({ groups, target: targetProp, onFinish, 
         <SayIt items={items} />
 
         <button
-          onClick={() => setPhase('done')}
+          onClick={() => {
+            // A production-only step (`pron:production`) opens here and has
+            // no other end — without this its "Next" never appeared
+            if (production) onFinish?.(correct, total);
+            setPhase('done');
+          }}
           className="w-full rounded-xl bg-slate-100 py-2.5 text-sm font-medium text-slate-700
                      transition hover:bg-slate-200"
         >

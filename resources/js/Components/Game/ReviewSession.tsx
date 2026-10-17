@@ -256,6 +256,16 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
     return (
       <div className="rounded-xl bg-rose-50 p-5 text-center text-sm text-rose-700 ring-1 ring-rose-200">
         {error}
+        {/* A failed fetch is ours, not the learner's — it must not end their day */}
+        {onComplete && (
+          <button
+            onClick={() => onComplete()}
+            className="mx-auto mt-3 block rounded-xl bg-white px-5 py-2 text-sm font-medium text-rose-800
+                       ring-1 ring-rose-300 transition hover:bg-rose-100"
+          >
+            {tr('تخطَّ المراجعة اليوم وتابع')}
+          </button>
+        )}
       </div>
     );
   }

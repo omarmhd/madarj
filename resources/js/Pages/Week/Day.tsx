@@ -215,6 +215,8 @@ export default function DayPage({
    * finish it, and was told nothing.
    */
   const [saveFailed, setSaveFailed] = useState<number | null>(null);
+  /** The server's own reason, when it answered with one */
+  const [saveError, setSaveError] = useState<string | null>(null);
 
   /** Today's homework proof — the day does not finish without it */
   const [homeworkProof, setHomeworkProof] = useState(
@@ -462,9 +464,12 @@ export default function DayPage({
       }
 
       return true;
-    } catch {
+    } catch (e) {
       setTasksDone((prev) => ({ ...prev, [String(task.order)]: !next }));
       setSaveFailed(task.order);
+      // A refusal ("finish the tasks before it first") is not a lost connection
+      const msg = axios.isAxiosError(e) ? (e.response?.data as { message?: string } | undefined)?.message : undefined;
+      setSaveError(e && axios.isAxiosError(e) && e.response ? msg ?? null : null);
 
       return false;
     } finally {
@@ -1058,7 +1063,12 @@ export default function DayPage({
                 {tr('المحطة')} <strong className="text-slate-900">{step + 1}</strong> {tr('من')} {total}
               </span>
               {slices.length > 1 && (
-                <span className="flex items-center gap-1" aria-label={`${innerStep + 1}/${slices.length}`}>
+                <span className="flex items-center gap-1.5" aria-label={`${innerStep + 1}/${slices.length}`}>
+                  {/* Said in words, not just dots: a second spelling part looked
+                      like being sent back to the first */}
+                  <span className="whitespace-nowrap text-xs font-semibold text-violet-700">
+                    {tr('الجزء')} {innerStep + 1} {tr('من')} {slices.length}
+                  </span>
                   {slices.map((_, k) => (
                     <span
                       key={k}
@@ -1198,7 +1208,7 @@ export default function DayPage({
 
                 {saveFailed === task.order && (
                   <p className="mb-3 rounded-lg bg-rose-50 p-3 text-center text-sm text-rose-800">
-                    {tr('لم تُحفظ المهمة. تحقّق من الاتصال واضغط مرة أخرى.')}
+                    {saveError ?? tr('لم تُحفظ المهمة. تحقّق من الاتصال واضغط مرة أخرى.')}
                   </p>
                 )}
 
@@ -1230,7 +1240,14 @@ export default function DayPage({
                       </button>
                     )}
 
-                    {(!sliceIsDrill || completed[sliceKey]) && (
+                    {/*
+                      An exercise must be finished before moving on — but only
+                      the first time. A task already marked done stays open:
+                      reviewing it must not lock everything after it again.
+                      Saved homework counts too: its proof is already written.
+                    */}
+                    {(!sliceIsDrill || completed[sliceKey] || checked
+                      || (currentSlice?.type === 'homework' && homeworkProof.trim().length >= 3)) && (
                     <button
                       onClick={async () => {
 
@@ -1286,7 +1303,12 @@ export default function DayPage({
                       {isSaving
                         ? tr('يحفظ…')
                         : !atLastSlice
-                          ? <>{tr('التالي')} <ArrowLeft aria-hidden size={15} className="inline-block align-[-3px]" /></>
+                          ? <>
+                              {slices[innerStep + 1]?.type === currentSlice?.type
+                                ? <>{tr('التالي: الجزء')} {innerStep + 2} {tr('من')} {slices.length}</>
+                                : tr('التالي')}{' '}
+                              <ArrowLeft aria-hidden size={15} className="inline-block align-[-3px]" />
+                            </>
                           : isLastStep
                             ? tr('أنهِ اليوم')
                             : (
