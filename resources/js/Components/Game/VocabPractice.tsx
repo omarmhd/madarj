@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { Check, PenLine, Quote } from 'lucide-react';
 import SpellInput, { SpellMarks } from '@/Components/Game/SpellInput';
 import { useMySpeech } from '@/hooks/useSpeech';
-import { checkSpelling, type SpellResult } from '@/lib/spelling';
+import { arrowPrompt, checkSpelling, formsOf, type SpellResult } from '@/lib/spelling';
 import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS, AUTO_RETRY_MS } from '@/lib/autoAdvance';
 import { useT } from '@/lib/i18n';
 import type { Word } from '@/Components/Game/Flashcards';
@@ -122,7 +122,7 @@ export default function VocabPractice({ words, onComplete }: { words: Word[]; on
 
     if (r.verdict === 'right') {
       setFinal(true);
-      say(phase === 'sentence' && current.gap ? current.gap.before + current.gap.answer + current.gap.after : current.word.word);
+      say(phase === 'sentence' && current.gap ? current.gap.before + current.gap.answer + current.gap.after : formsOf(current.word.word)[0]);
       return;
     }
 
@@ -135,7 +135,7 @@ export default function VocabPractice({ words, onComplete }: { words: Word[]; on
     setFinal(true);
 
     // Second miss: show it, and bring the word back once at the end of the round
-    say(current.word.word);
+    say(formsOf(current.word.word)[0]);
     if (!requeued.has(current.word.id)) {
       setRequeued((s) => new Set(s).add(current.word.id));
       setQueue((q) => [...q, current]);
@@ -170,6 +170,10 @@ export default function VocabPractice({ words, onComplete }: { words: Word[]; on
 
       <div className="rounded-xl bg-slate-50 p-5 text-center">
         <p className="text-2xl font-bold text-slate-900">{current.word.arabic}</p>
+        {/* An arrow entry asks for its new form: "work → ?" */}
+        {phase === 'recall' && arrowPrompt(current.word.word) && (
+          <p className="mt-2 font-mono text-lg font-semibold text-violet-700" dir="ltr">{arrowPrompt(current.word.word)}</p>
+        )}
 
         {phase === 'sentence' && current.gap && (
           <p className="mt-4 text-xl leading-relaxed text-slate-800" dir="ltr">

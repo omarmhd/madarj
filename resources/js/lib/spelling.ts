@@ -160,7 +160,49 @@ function variantOf(typed: string, target: string): boolean {
 }
 
 /** Check one attempt against one word */
+/**
+ * The forms a word-list entry accepts.
+ *
+ * Entries are not always one word: "midday / noon" offers two,
+ * "work → worked" teaches a past form, "always (complaining)" carries a
+ * note, "I think…" trails off. Checked against the whole string, none
+ * of them could ever be typed right — a learner on week 2 day 2 typed
+ * "midday", was told it was wrong twice, and could not copy his way out.
+ *
+ * An arrow keeps only its last form (what the entry teaches); a slash
+ * gives alternatives; notes and ellipses are dropped.
+ */
+export function formsOf(entry: string): string[] {
+  let s = entry.includes('→') ? entry.split('→').pop()! : entry;
+  s = s.replace(/\([^)]*\)/g, '').replace(/…|\.\.\./g, '');
+
+  const forms = s.split('/').map((x) => x.trim()).filter(Boolean);
+
+  return forms.length > 0 ? forms : [entry.trim()];
+}
+
+/** The prompt for an arrow entry: "work → ?" — the part already known, and the gap */
+export function arrowPrompt(entry: string): string | null {
+  if (!entry.includes('→')) return null;
+  const parts = entry.split('→').map((x) => x.trim());
+
+  return [...parts.slice(0, -1), '?'].join(' → ');
+}
+
+/** Check an attempt against an entry, accepting any of its forms */
 export function checkSpelling(attempt: string, target: string): SpellResult {
+  const forms = formsOf(target);
+  if (forms.length === 1) return checkOne(attempt, forms[0]);
+
+  const results = forms.map((f) => checkOne(attempt, f));
+  const right = results.find((r) => r.verdict === 'right');
+  if (right) return right;
+
+  // Otherwise the nearest form, so the coloured letters point at the word they meant
+  return results.find((r) => r.verdict === 'close') ?? results[0];
+}
+
+function checkOne(attempt: string, target: string): SpellResult {
   const typed = normalize(attempt);
   const want = normalize(target);
   const { target: marks, attempt: attemptMarks } = align(attempt.trim(), target.trim());

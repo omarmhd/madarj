@@ -4,7 +4,7 @@ import Listen from '@/Components/Listen';
 import Bdi from '@/Components/Bdi';
 import SpellInput, { SpellMarks } from '@/Components/Game/SpellInput';
 import { useMySpeech } from '@/hooks/useSpeech';
-import { checkSpelling, normalize, vowelGaps, type SpellResult } from '@/lib/spelling';
+import { arrowPrompt, checkSpelling, formsOf, vowelGaps, type SpellResult } from '@/lib/spelling';
 import { useT } from '@/lib/i18n';
 import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS } from '@/lib/autoAdvance';
 
@@ -116,7 +116,7 @@ export default function Spelling({ words, rounds, onProgress, onComplete }: Prop
   // The ear round starts by speaking: there is nothing else on screen
   useEffect(() => {
     if (stage === 'ask' && round === 'dictation' && current && attempt === 0) {
-      say(current.word);
+      say(spoken);
     }
     if (stage === 'ask' || stage === 'copy') input.current?.focus({ preventScroll: true });
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -126,7 +126,17 @@ export default function Spelling({ words, rounds, onProgress, onComplete }: Prop
   const advanceRef = useRef<() => void>();
   useAutoAdvance(stage === 'right', AUTO_RIGHT_MS, () => advanceRef.current?.());
 
-  const gaps = useMemo(() => (current ? vowelGaps(current.word) : ''), [current]);
+  /*
+   * What is spoken and blanked: the entry's first form. "work → worked"
+   * would otherwise be read aloud as "work arrow worked", and its gaps
+   * drawn over the arrow.
+   */
+  const spoken = current ? formsOf(current.word)[0] : '';
+  const prompt = current ? arrowPrompt(current.word) : null;
+  const gaps = useMemo(() => (spoken ? vowelGaps(spoken) : ''), [spoken]);
+
+  /** Failed copies of a revealed word — the second one lets the learner through */
+  const [copyFails, setCopyFails] = useState(0);
 
   if (words.length === 0) return null;
 
@@ -170,7 +180,7 @@ export default function Spelling({ words, rounds, onProgress, onComplete }: Prop
     if (r.verdict === 'right') {
       setSolved((n) => n + 1);
       setStage('right');
-      say(current.word);
+      say(spoken);
       return;
     }
 
@@ -183,7 +193,7 @@ export default function Spelling({ words, rounds, onProgress, onComplete }: Prop
     // Second miss: show the word, have it copied, bring it back later
     setStage('copy');
     setTyped('');
-    say(current.word);
+    say(spoken);
     setMissed((m) => new Map(m).set(current.id, current));
 
     if (!requeued.has(current.id)) {
@@ -195,8 +205,15 @@ export default function Spelling({ words, rounds, onProgress, onComplete }: Prop
 
   const checkCopy = () => {
     if (!current) return;
-    if (normalize(typed) === normalize(current.word)) advance();
-    else input.current?.select();
+    // Never a dead end: any accepted form counts, and the second failed
+    // copy moves on anyway — the word is already on the "needs attention" list
+    if (checkSpelling(typed, current.word).verdict === 'right' || copyFails >= 1) {
+      setCopyFails(0);
+      advance();
+      return;
+    }
+    setCopyFails((n) => n + 1);
+    input.current?.select();
   };
 
   const retryMissed = () => {
@@ -335,6 +352,10 @@ export default function Spelling({ words, rounds, onProgress, onComplete }: Prop
         {(round !== 'dictation' || stage !== 'ask') && (
           <p className="text-2xl font-bold text-slate-900">{current.arabic}</p>
         )}
+        {/* An arrow entry asks for its new form: "work → ?" */}
+        {prompt && stage === 'ask' && (
+          <p className="mt-2 font-mono text-lg font-semibold text-violet-700" dir="ltr">{prompt}</p>
+        )}
 
         {round === 'gaps' && stage === 'ask' && (
           <div className="mt-4 flex flex-wrap justify-center gap-1" dir="ltr">
@@ -362,7 +383,7 @@ export default function Spelling({ words, rounds, onProgress, onComplete }: Prop
             <Ear aria-hidden size={32} strokeWidth={1.5} className="text-violet-500" />
             <div className="flex gap-2">
               <button
-                onClick={() => say(current.word)}
+                onClick={() => say(spoken)}
                 disabled={!supported}
                 className="inline-flex items-center gap-2 rounded-xl bg-violet-600 px-5 py-2.5 text-sm
                            font-medium text-white transition hover:bg-violet-700 disabled:opacity-50"
@@ -370,7 +391,7 @@ export default function Spelling({ words, rounds, onProgress, onComplete }: Prop
                 <Volume2 aria-hidden size={16} /> {tr('اسمع')}
               </button>
               <button
-                onClick={() => say(current.word, { slow: true })}
+                onClick={() => say(spoken, { slow: true })}
                 disabled={!supported}
                 className="rounded-xl bg-white px-4 py-2.5 text-sm text-slate-700 ring-1 ring-slate-200
                            transition hover:ring-slate-300 disabled:opacity-50"
@@ -389,7 +410,7 @@ export default function Spelling({ words, rounds, onProgress, onComplete }: Prop
         {/* Sound is support in the gap round from the start, and in recall after a miss */}
         {stage === 'ask' && (round === 'gaps' || (round === 'recall' && attempt > 0)) && (
           <div className="mt-3 flex justify-center">
-            <Listen text={current.word} label={tr('اسمعها')} size="sm" />
+            <Listen text={spoken} label={tr('اسمعها')} size="sm" />
           </div>
         )}
 
@@ -421,7 +442,7 @@ export default function Spelling({ words, rounds, onProgress, onComplete }: Prop
               ) : (
                 <SpellMarks marks={result.marks} />
               )}
-              <Listen text={current.word} size="sm" />
+              <Listen text={spoken} size="sm" />
             </div>
             {current.ipa && (
               <p className="font-mono text-sm text-slate-500" dir="ltr">{current.ipa}</p>
