@@ -358,23 +358,41 @@ export default function Spelling({ words, rounds, onProgress, onComplete }: Prop
         )}
 
         {round === 'gaps' && stage === 'ask' && (
-          <div className="mt-4 flex flex-wrap justify-center gap-1" dir="ltr">
-            {[...gaps].map((ch, i) =>
-              ch === ' ' ? (
-                <span key={i} className="w-3" />
-              ) : (
-                <span
-                  key={i}
-                  className={`grid h-11 w-9 place-items-center rounded-lg text-xl font-bold ${
-                    ch === '_'
-                      ? 'border-2 border-dashed border-violet-300 bg-white text-transparent'
-                      : 'bg-white text-slate-800 ring-1 ring-slate-200'
-                  }`}
-                >
-                  {ch === '_' ? '·' : ch}
+          /*
+           * Words wrap, letters never do.
+           *
+           * One flat row of tiles broke wherever the screen ran out — on a
+           * phone "once a week" split mid-word into a column of letters.
+           * Each word is now one unbreakable group, and its tiles shrink to
+           * fit the screen when the longest word would not.
+           */
+          <div className="mt-4 flex flex-wrap justify-center gap-x-3 gap-y-2" dir="ltr">
+            {(() => {
+              const parts = gaps.split(' ').filter(Boolean);
+              const longest = Math.max(...parts.map((w) => w.length), 1);
+              // Long words close the gaps between tiles so the letters stay big
+              const gap = longest > 9 ? 2 : 4;
+              // 5rem = page and card padding on both sides
+              const tile = `min(2.25rem, calc((100vw - 5rem) / ${longest} - ${gap}px))`;
+
+              return parts.map((part, w) => (
+                <span key={w} className="flex whitespace-nowrap" style={{ gap }}>
+                  {[...part].map((ch, i) => (
+                    <span
+                      key={i}
+                      style={{ width: tile, height: `calc(${tile} * 1.22)`, fontSize: `calc(${tile} * 0.6)` }}
+                      className={`grid shrink-0 place-items-center rounded-lg font-bold ${
+                        ch === '_'
+                          ? 'border-2 border-dashed border-violet-300 bg-white text-violet-300'
+                          : 'bg-white text-slate-800 ring-1 ring-slate-200'
+                      }`}
+                    >
+                      {ch === '_' ? '·' : ch}
+                    </span>
+                  ))}
                 </span>
-              ),
-            )}
+              ));
+            })()}
           </div>
         )}
 
