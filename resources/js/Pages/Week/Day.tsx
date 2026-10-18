@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import StageDirection from '@/Components/Game/StageDirection';
 import Bdi from '@/Components/Bdi';
 import { Head, Link } from '@inertiajs/react';
@@ -333,6 +333,18 @@ export default function DayPage({
    * موضعه ويُعرَض هنا: اليوم ← المهمّة ← الخطوة ← موضعك في النشاط.
    */
   const [inner, setInner] = useState<{ done: number; total: number } | null>(null);
+
+  /*
+   * One stable reporter for every drill, and no update when nothing moved.
+   *
+   * It used to be a fresh arrow on each render. Each drill reports from an
+   * effect that lists `onProgress` as a dependency, so: report → new state
+   * → re-render → new arrow → report again — forever, at 100% CPU, from the
+   * moment a drill opened. Typing lagged and letters were lost.
+   */
+  const reportInner = useCallback((done: number, total: number) => {
+    setInner((prev) => (prev && prev.done === done && prev.total === total ? prev : { done, total }));
+  }, []);
 
   // كل انتقال يُصفّر الدرجة الثالثة — النشاط الجديد يُبلّغ عن نفسه
   useEffect(() => setInner(null), [step, innerStep]);
@@ -708,7 +720,7 @@ export default function DayPage({
                 groups={block.groups}
                 onFinish={() => markComplete(sliceKey)}
                 production={block.production}
-                onProgress={(d, t) => setInner({ done: d, total: t })}
+                onProgress={reportInner}
               />
             </div>
           );
@@ -763,7 +775,7 @@ export default function DayPage({
             {block.items.length > 0 ? (
               <ExerciseRunner
                 exercises={block.items}
-                onProgress={(d, t) => setInner({ done: d, total: t })}
+                onProgress={reportInner}
                 onFinish={() => markComplete(sliceKey)}
               />
             ) : (
@@ -821,7 +833,7 @@ export default function DayPage({
               key={`${step}-${innerStep}`}
               words={block.words}
               rounds={block.rounds}
-              onProgress={(d, t) => setInner({ done: d, total: t })}
+              onProgress={reportInner}
               onComplete={() => markComplete(sliceKey)}
             />
           </div>
@@ -833,7 +845,7 @@ export default function DayPage({
           <div key={key}>
             <Shadowing
               data={block.shadow}
-              onProgress={(d, t) => setInner({ done: d, total: t })}
+              onProgress={reportInner}
               onComplete={() => markComplete(sliceKey)}
             />
           </div>
