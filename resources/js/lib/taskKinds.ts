@@ -81,7 +81,7 @@ export function taskKind(blocks: BlockLike[]): TaskKind {
     case 'exercises':
       return { Icon: ListChecks, short: 'التمارين', purpose: 'طبّق ما تعلّمته اليوم' };
     case 'shadow':
-      return { Icon: AudioLines, short: 'ردّد معه', purpose: 'تكلّم مع الصوت وقلّده' };
+      return { Icon: AudioLines, short: 'اسمع وردّد', purpose: 'تسمع الجملة ثم تقولها بصوت عالٍ — بلا ضغط على شيء' };
     case 'imitate':
       return { Icon: Feather, short: 'اكتب مثله', purpose: 'اقرأ النموذج، ثم اكتب مثله عنك أنت' };
     case 'writing':

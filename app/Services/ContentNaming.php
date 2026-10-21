@@ -45,7 +45,7 @@ class ContentNaming
         'baseline' => ['ar' => 'تسجيل خط الأساس', 'en' => 'Baseline Recording'],
         'spell'    => ['ar' => 'كتابة الكلمات', 'en' => 'Spelling'],
         'spell_review' => ['ar' => 'مراجعة الإملاء', 'en' => 'Spelling Review'],
-        'shadow'   => ['ar' => 'الشادوينج — تكلّم مع الصوت', 'en' => 'Shadowing'],
+        'shadow'   => ['ar' => 'اسمع وردّد', 'en' => 'Listen and Repeat'],
         'imitate'  => ['ar' => 'اكتب مثله', 'en' => 'Write One Like It'],
         'homework' => ['ar' => 'مغامرة اليوم', 'en' => 'Today’s Adventure'],
     ];

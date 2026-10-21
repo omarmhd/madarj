@@ -1,33 +1,24 @@
 import { useEffect, useRef, useState } from 'react';
-import { ArrowLeft, Check, Play, Smartphone, Square } from 'lucide-react';
+import { Check, Mic, Play, RotateCcw, Smartphone, Square, Volume2 } from 'lucide-react';
 import Bdi from '@/Components/Bdi';
 import { useMySpeech, type Gender } from '@/hooks/useSpeech';
 import { useT } from '@/lib/i18n';
 
 /**
- * Shadowing — one short paragraph, spoken along with the voice.
+ * اسمع وردّد — one short paragraph, heard and repeated, hands-free.
  *
- * The book calls shadowing "the most effective exercise in this
- * chapter", and the platform had it as one line of instructions. Here
- * it is a drill in four steps:
+ * ── Why it replaced the four-step shadowing ─────────────────
+ * Shadowing proper — speaking over the voice — is hard for a beginner,
+ * and the drill that carried it had four steps and a button for each
+ * move. Learners found it tiring and confusing. Listen-and-repeat is
+ * the right stage for this level, and it runs by itself: one press,
+ * then each sentence is spoken, a pause sized to the sentence is left
+ * for the learner to say it aloud, and the next one follows. Two
+ * rounds: slower, then at normal speed. Recording on the phone is an
+ * offer at the end, not a step.
  *
- *   1. listen while reading       — the text and its sound meet once
- *   2. sentence by sentence       — hear one, say it twice
- *   3. together                   — speak over the voice, five times
- *   4. record on your own phone   — the platform keeps no recording (§4.2)
- *
- * ── One button ──────────────────────────────────────────────
- * The first version had a button for every verb — play, slow, next
- * sentence, next step — and with the page's own Back and Done that was
- * six on one screen. A learner looking at six buttons is reading the
- * interface, not the English. Now each step has a single button whose
- * label says what happens next: play, then move on. The slow play is
- * not a choice but the first hearing of every sentence, and a sentence
- * is replayed by tapping the sentence itself.
- *
- * The paragraph changes every day (the server picks it from the week's
- * dialogues and listening text), so the daily speaking task stops
- * being the same 90-second introduction seven days running.
+ * The paragraph still changes every day (the server picks it from the
+ * week's dialogues and listening text).
  */
 
 export interface ShadowLine {
@@ -47,180 +38,122 @@ export interface ShadowData {
 interface Props {
   data: ShadowData;
   onProgress?: (done: number, total: number) => void;
-  /** Called on reaching the last step (record on your phone) */
+  /** Called once both rounds have been heard and repeated */
   onComplete?: () => void;
 }
 
-const STEPS = [
-  { title: 'استمع وأنت تقرأ', text: 'اقرأ النص بعينك مع الصوت. لا تتكلّم بعد.' },
-  { title: 'جملة بجملة', text: 'اسمع الجملة، ثم قلها بصوت عالٍ مرتين. قلّد السرعة والوقفات. اضغط أي جملة لتسمعها مرة أخرى.' },
-  { title: 'تكلّم مع الصوت', text: 'تكلّم مع الصوت في نفس الوقت. لا تنتظر حتى ينتهي. 5 مرات: أول مرتين أبطأ قليلاً.' },
-  { title: 'سجّل على جوالك', text: '' },
-] as const;
+const ROUNDS = 2;
 
-const TOGETHER_TARGET = 5;
+/** Time to say a sentence back: about 0.55s a word, never under 2s */
+const pauseFor = (en: string) => Math.max(2000, en.split(/\s+/).length * 550 + 900);
+
+type Status = 'idle' | 'listen' | 'say' | 'done';
 
 export default function Shadowing({ data, onProgress, onComplete }: Props) {
   const tr = useT();
   const { speakSequence, stop, supported, myRate } = useMySpeech();
 
-  const [step, setStep] = useState(0);
-  const [line, setLine] = useState(0);
-  const [playing, setPlaying] = useState<number | null>(null);
-  /** Has the current thing (the paragraph, or the current sentence) been heard? */
-  const [heard, setHeard] = useState(false);
-  const [rounds, setRounds] = useState(0);
+  const [status, setStatus] = useState<Status>('idle');
+  const [round, setRound] = useState(0);
+  const [line, setLine] = useState(-1);
+  const [pauseMs, setPauseMs] = useState(0);
   const [showAr, setShowAr] = useState(false);
-  const stopSeq = useRef<(() => void) | null>(null);
+
+  /** Bumped to cancel a running pass — every await checks it */
+  const run = useRef(0);
+
+  // On leaving: cancel the pass and silence the voice. Through a ref, so a
+  // new `stop` identity on re-render cannot cancel a pass mid-way
+  const stopRef = useRef(stop);
+  stopRef.current = stop;
+  useEffect(() => () => { run.current++; stopRef.current(); }, []);
 
   useEffect(() => {
-    onProgress?.(step, STEPS.length - 1);
-    if (step >= STEPS.length - 1) onComplete?.();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [step, onProgress]);
+    onProgress?.(status === 'done' ? ROUNDS : round, ROUNDS);
+  }, [round, status, onProgress]);
 
-  useEffect(() => () => stopSeq.current?.(), []);
+  /*
+   * Speak one line — and never wait forever for it. A device with no
+   * installed voice may never report the end of speech, which would
+   * freeze the pass on its first sentence; a time limit sized to the
+   * sentence lets it go on.
+   */
+  const say = (l: ShadowLine, rate: number) =>
+    new Promise<void>((resolve) => {
+      let done = false;
+      const finish = () => { if (!done) { done = true; resolve(); } };
+      speakSequence([{ text: l.en, gender: l.gender }], { rate, onDone: finish });
+      setTimeout(finish, Math.max(3500, l.en.split(/\s+/).length * 700 / rate));
+    });
+  const wait = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
 
-  const play = (from: number, to: number, rate: number, onDone?: () => void) => {
-    stopSeq.current?.();
-    stopSeq.current = speakSequence(
-      data.lines.slice(from, to).map((l) => ({ text: l.en, gender: l.gender })),
-      {
-        rate,
-        onLine: (i) => setPlaying(from + i),
-        onDone: () => {
-          setPlaying(null);
-          onDone?.();
-        },
-      },
-    );
+  const start = async () => {
+    const id = ++run.current;
+    const alive = () => run.current === id;
+
+    for (let r = 0; r < ROUNDS; r++) {
+      setRound(r);
+      const rate = r === 0 ? myRate * 0.85 : myRate;
+
+      for (let i = 0; i < data.lines.length; i++) {
+        if (!alive()) return;
+        setLine(i);
+        setStatus('listen');
+        await say(data.lines[i], rate);
+        if (!alive()) return;
+
+        const ms = pauseFor(data.lines[i].en);
+        setPauseMs(ms);
+        setStatus('say');
+        await wait(ms);
+      }
+    }
+
+    if (!alive()) return;
+    setLine(-1);
+    setStatus('done');
+    onComplete?.();
   };
 
   const halt = () => {
-    stopSeq.current?.();
-    stopSeq.current = null;
-    setPlaying(null);
+    run.current++;
     stop();
+    setStatus('idle');
+    setLine(-1);
   };
 
-  const goTo = (s: number) => {
-    halt();
-    setHeard(false);
-    setStep(s);
-  };
-
-  const isPlaying = playing !== null;
-  const last = data.lines.length - 1;
-  const slow = myRate * 0.85;
-
-  /*
-   * The one button: what it says and what it does, by step.
-   * Without speech in the browser, every step moves straight on —
-   * the learner reads aloud instead.
-   */
-  let action: { label: string; icon: 'play' | 'stop' | 'next'; run: () => void } | null = null;
-
-  if (isPlaying) {
-    action = { label: tr('أوقف'), icon: 'stop', run: halt };
-  } else if (step === 0) {
-    action = heard || !supported
-      ? { label: tr('التالي: جملة بجملة'), icon: 'next', run: () => goTo(1) }
-      : { label: tr('شغّل الفقرة'), icon: 'play', run: () => play(0, data.lines.length, slow, () => setHeard(true)) };
-  } else if (step === 1) {
-    if (!heard && supported) {
-      action = {
-        label: tr('اسمع الجملة :n', { n: line + 1 }),
-        icon: 'play',
-        run: () => play(line, line + 1, slow, () => setHeard(true)),
-      };
-    } else if (line < last) {
-      action = {
-        label: tr('قلتها مرتين · الجملة :n', { n: line + 2 }),
-        icon: 'next',
-        run: () => { setLine((l) => l + 1); setHeard(false); },
-      };
-    } else {
-      action = { label: tr('التالي: تكلّم مع الصوت'), icon: 'next', run: () => goTo(2) };
-    }
-  } else if (step === 2) {
-    action = rounds >= TOGETHER_TARGET || !supported
-      ? { label: tr('التالي: سجّل على جوالك'), icon: 'next', run: () => goTo(3) }
-      : {
-          label: tr('شغّل وتكلّم معه · :n من :total', { n: rounds + 1, total: TOGETHER_TARGET }),
-          icon: 'play',
-          run: () => play(0, data.lines.length, rounds < 2 ? slow : myRate, () => setRounds((r) => r + 1)),
-        };
-  }
+  const running = status === 'listen' || status === 'say';
 
   return (
     <div className="space-y-4">
-      <p className="text-sm text-slate-500">
-        {data.source_ar}
-        {data.title_en && <> · <Bdi>{data.title_en}</Bdi></>}
-      </p>
-
-      {/* The four steps as a ladder — where you are, what is left. Tapping
-          a step already passed goes back to it; nothing ahead opens early */}
-      <ol className="grid grid-cols-4 gap-1.5">
-        {STEPS.map((s, i) => (
-          <li key={i}>
-            <button
-              onClick={() => i < step && goTo(i)}
-              disabled={i >= step}
-              className={`w-full rounded-lg px-1.5 py-2 text-center text-xs font-medium leading-snug transition ${
-                i < step
-                  ? 'bg-violet-700 text-white'
-                  : i === step
-                    ? 'bg-violet-100 text-violet-800 ring-1 ring-violet-300'
-                    : 'bg-slate-100 text-slate-400'
-              }`}
-            >
-              {i < step ? <Check aria-hidden size={12} className="inline-block align-[-2px]" /> : `${i + 1}.`}{' '}
-              {tr(s.title)}
-            </button>
-          </li>
-        ))}
-      </ol>
-
-      {/* This step's instruction */}
       <div className="rounded-xl bg-violet-50 p-4">
-        <p className="font-semibold text-violet-900">{tr(STEPS[step].title)}</p>
-
-        {step < 3 ? (
-          <p className="mt-1 text-sm leading-relaxed text-violet-900">{tr(STEPS[step].text)}</p>
-        ) : (
-          <ol className="mt-2 space-y-1.5 text-sm leading-relaxed text-violet-900">
-            <li>1. {tr('افتح مسجّل الصوت في جوالك.')}</li>
-            <li>2. {tr('اقرأ الفقرة مرة واحدة بلا توقّف. إن تعثّرت أكمل.')}</li>
-            <li>3. {tr('اسمع تسجيلك، ثم اضغط أي جملة هنا لتسمعها وتقارن.')}</li>
-            <li>
-              4. {tr('احفظه باسم')} <Bdi><span className="font-mono font-semibold">{data.save_as}</span></Bdi>
-            </li>
-          </ol>
-        )}
-
-        {!supported && (
-          <p className="mt-2 text-sm text-amber-800">
-            {tr('متصفّحك لا ينطق النص. اقرأ الفقرة بصوت عالٍ ببطء بدلاً من ذلك.')}
-          </p>
-        )}
+        <p className="font-semibold text-violet-900">{tr('اسمع وردّد')}</p>
+        <p className="mt-1 text-sm leading-relaxed text-violet-900">
+          {tr('تسمع كل جملة، ثم عندك وقت لتقولها بصوت عالٍ. لا تضغط شيئاً حتى تنتهي. جولتان: الأولى أبطأ.')}
+        </p>
+        <p className="mt-1.5 text-sm text-violet-700">
+          {data.source_ar}
+          {data.title_en && <> · <Bdi>{data.title_en}</Bdi></>}
+        </p>
       </div>
 
-      {/* The paragraph — every sentence replays on a tap */}
+      {/* The paragraph — the line in play is lit; when idle, a tap plays one line */}
       <div className="rounded-xl bg-white p-3 ring-1 ring-slate-200">
         <div className="space-y-1" dir="ltr">
           {data.lines.map((l, i) => {
-            const current = step === 1 && line === i;
-            const lit = playing === i || (current && playing === null);
-            const dim = step === 1 && i > line;
-
+            const active = line === i;
             return (
               <button
                 key={i}
                 type="button"
-                onClick={() => supported && play(i, i + 1, slow)}
+                disabled={running || !supported}
+                onClick={() => speakSequence([{ text: l.en, gender: l.gender }], { rate: myRate * 0.85 })}
                 className={`block w-full rounded-lg px-2 py-1.5 text-start text-lg leading-relaxed transition ${
-                  lit ? 'bg-violet-100 text-violet-900' : dim ? 'text-slate-300' : 'text-slate-800 hover:bg-slate-50'
+                  active
+                    ? status === 'say'
+                      ? 'bg-emerald-50 text-emerald-900 ring-2 ring-emerald-300'
+                      : 'bg-violet-100 text-violet-900'
+                    : 'text-slate-800 enabled:hover:bg-slate-50'
                 }`}
               >
                 {l.speaker && <span className="me-2 text-sm font-bold text-slate-400">{l.speaker}:</span>}
@@ -240,36 +173,58 @@ export default function Shadowing({ data, onProgress, onComplete }: Props) {
         )}
       </div>
 
-      {/* Step 3 shows how far along the five rounds are */}
-      {step === 2 && supported && (
-        <div className="flex items-center justify-center gap-1.5" aria-label={`${rounds}/${TOGETHER_TARGET}`}>
-          {Array.from({ length: TOGETHER_TARGET }, (_, i) => (
-            <span key={i} className={`h-2 w-8 rounded-full ${i < rounds ? 'bg-violet-600' : 'bg-slate-200'}`} />
-          ))}
+      {/* What is happening now */}
+      {running && (
+        <div className="rounded-xl bg-white p-4 text-center ring-1 ring-slate-200">
+          <p className="text-sm text-slate-500">{tr('الجولة')} {round + 1} {tr('من')} {ROUNDS}</p>
+          <p className={`mt-1 flex items-center justify-center gap-2 text-lg font-bold ${status === 'say' ? 'text-emerald-700' : 'text-violet-700'}`}>
+            {status === 'say' ? <Mic aria-hidden size={20} /> : <Volume2 aria-hidden size={20} />}
+            {status === 'say' ? tr('دورك: قلها الآن بصوت عالٍ') : tr('اسمع…')}
+          </p>
+          {status === 'say' && (
+            <div key={`${round}-${line}`} className="mx-auto mt-3 h-1.5 max-w-xs overflow-hidden rounded-full bg-emerald-100">
+              <div className="countdown h-full rounded-full bg-emerald-500" style={{ animationDuration: `${pauseMs}ms` }} />
+            </div>
+          )}
         </div>
       )}
 
-      {/* The one button */}
-      {action ? (
+      {status === 'done' && (
+        <div className="rounded-xl bg-emerald-50 p-4 text-center ring-1 ring-emerald-200">
+          <p className="flex items-center justify-center gap-1.5 font-semibold text-emerald-900">
+            <Check aria-hidden size={18} /> {tr('أحسنت. قلت الفقرة كاملة مرتين.')}
+          </p>
+          <p className="mt-1.5 flex items-center justify-center gap-1.5 text-sm text-emerald-800">
+            <Smartphone aria-hidden size={15} />
+            {tr('إن أردت: سجّلها مرة على جوالك واسمع نفسك.')}{' '}
+            <Bdi><span className="font-mono">{data.save_as}</span></Bdi>
+          </p>
+        </div>
+      )}
+
+      {!supported ? (
         <button
-          onClick={action.run}
-          className={`inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl text-sm font-semibold
-                      transition active:scale-[.99] ${
-                        action.icon === 'next'
-                          ? 'bg-white text-violet-800 ring-2 ring-violet-300 hover:bg-violet-50'
-                          : 'bg-violet-600 text-white hover:bg-violet-700'
-                      }`}
+          onClick={() => { setStatus('done'); onComplete?.(); }}
+          className="min-h-12 w-full rounded-xl bg-violet-600 text-sm font-semibold text-white"
         >
-          {action.icon === 'play' && <Play aria-hidden size={15} fill="currentColor" />}
-          {action.icon === 'stop' && <Square aria-hidden size={13} fill="currentColor" />}
-          {action.label}
-          {action.icon === 'next' && <ArrowLeft aria-hidden size={15} />}
+          {tr('متصفّحك لا ينطق. اقرأ الفقرة بصوت عالٍ مرتين، ثم اضغط هنا')}
+        </button>
+      ) : running ? (
+        <button
+          onClick={halt}
+          className="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-white text-sm font-semibold text-slate-700 ring-1 ring-slate-300"
+        >
+          <Square aria-hidden size={13} fill="currentColor" /> {tr('أوقف')}
         </button>
       ) : (
-        <p className="flex items-center justify-center gap-2 text-sm text-slate-500">
-          <Smartphone aria-hidden size={16} />
-          {tr('التسجيل يبقى في جوالك. حين تنتهي، اضغط «أنجزتها» في الأسفل.')}
-        </p>
+        <button
+          onClick={start}
+          className="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-violet-600 text-base font-semibold text-white transition hover:bg-violet-700"
+        >
+          {status === 'done'
+            ? <><RotateCcw aria-hidden size={16} /> {tr('أعدها مرة أخرى')}</>
+            : <><Play aria-hidden size={16} fill="currentColor" /> {tr('ابدأ')}</>}
+        </button>
       )}
     </div>
   );

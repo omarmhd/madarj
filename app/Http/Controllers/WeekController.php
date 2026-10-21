@@ -687,7 +687,26 @@ class WeekController extends Controller
             // أقسام الشرح: القواعد والنطق والعبارات والاستماع والقراءة
             if (str_starts_with($token, 'section:')) {
                 $kind = explode(':', $token, 2)[1];
-                $section = $week->sections->firstWhere('kind', $kind);
+
+                /*
+                 * A week may hold more than one lesson of a kind: short ones
+                 * on the day a rule is first tested, the full one later. The
+                 * day's own lessons come in order, one step each; a day with
+                 * none gets the week's first, as before.
+                 */
+                $own = $week->sections->filter(
+                    fn ($s) => $s->kind === $kind && (int) $s->day_number === (int) $day,
+                );
+
+                if ($own->count() > 1) {
+                    foreach ($own as $s) {
+                        $blocks[] = ['type' => 'section', 'section' => $s->toClientArray()];
+                    }
+
+                    continue;
+                }
+
+                $section = $own->first() ?? $week->sections->firstWhere('kind', $kind);
 
                 if ($section) {
                     $blocks[] = [

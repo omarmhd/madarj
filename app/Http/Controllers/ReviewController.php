@@ -98,10 +98,27 @@ class ReviewController extends Controller
 
         // New words in the order they were taught — seeding follows the
         // day plan, so the card id is the order of learning: oldest first
+        /*
+         * A new card only for a word already taught: any earlier week, or a
+         * group this week's plan introduced before today. Seeding follows the
+         * same rule, but cards seeded under older rules are still in the
+         * table — and a review that asks for a word never shown is not a
+         * review. Filtering here holds whatever the table contains.
+         */
+        // Opened from the week page (no day): the whole week counts as taught
+        $taughtThisWeek = $upTo === null
+            ? $week->vocabulary()->distinct()->pluck('group')->all()
+            : ($upTo > 0 ? $this->introducedGroups($week, $upTo) : []);
+        $earlierWeeks = Week::where('number', '<', $week->number)->pluck('id');
+
         $fresh = $room > 0
             ? ReviewCard::with('vocabulary:id,word,ipa,arabic,example,group')
                 ->forUser($user->id)
                 ->new()
+                ->whereHas('vocabulary', fn ($q) => $q
+                    ->whereIn('week_id', $earlierWeeks)
+                    ->orWhere(fn ($q) => $q->where('week_id', $week->id)->whereIn('group', $taughtThisWeek ?: ['']))
+                )
                 ->orderBy('id')
                 ->limit($room)
                 ->get()

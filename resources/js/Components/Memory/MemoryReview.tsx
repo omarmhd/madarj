@@ -81,7 +81,7 @@ export default function MemoryReview({
 }) {
   const tr = useT();
   const scheduler = useMemo(
-    () => fsrs(generatorParameters({ enable_fuzz: true })),
+    () => fsrs(generatorParameters({ enable_fuzz: true, enable_short_term: false })),
     [],
   );
 

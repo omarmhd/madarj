@@ -194,30 +194,24 @@
         },
         {
           "order": 3,
-          "label": "كتابة الكلمات",
-          "minutes": 10,
-          "ref": "spell:family"
-        },
-        {
-          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 4,
           "label": "تمارين: معاني المفردات",
           "minutes": 5,
           "ref": "exercises:2"
         },
         {
-          "order": 6,
+          "order": 5,
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate"
         },
         {
-          "order": 7,
+          "order": 6,
           "label": "الشادوينج — تكلّم مع الصوت",
           "minutes": 10,
           "ref": "shadow"
@@ -226,7 +220,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 7
         }
       ]
     },
@@ -254,9 +248,9 @@
         },
         {
           "order": 4,
-          "label": "كتابة الكلمات",
+          "label": "مراجعة الإملاء",
           "minutes": 10,
-          "ref": "spell:numbers,days_months"
+          "ref": "spell:review"
         },
         {
           "order": 5,
@@ -368,9 +362,9 @@
         },
         {
           "order": 4,
-          "label": "كتابة الكلمات",
+          "label": "مراجعة الإملاء",
           "minutes": 10,
-          "ref": "spell:core"
+          "ref": "spell:review"
         },
         {
           "order": 5,

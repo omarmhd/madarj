@@ -43,8 +43,31 @@ class ExerciseController extends Controller
             'explanation' => $exercise->explanation,
             // الإجابة الصحيحة تُكشف بعد محاولتين فاشلتين
             'reveal'      => (! $isCorrect && $attemptNo >= 2)
-                ? ($exercise->answer['accepted'][0] ?? null)
+                ? $this->revealOf($exercise)
                 : null,
         ]);
+    }
+
+    /**
+     * The right answer, said as the learner would read it.
+     *
+     * Only typed answers have `accepted`; a choice stores the option's
+     * index and true/false a boolean. Reading `accepted` alone revealed
+     * nothing for them, so a learner who missed twice was never shown the
+     * answer — and the drill retried the same question forever.
+     */
+    protected function revealOf(Exercise $exercise): ?string
+    {
+        $answer = $exercise->answer ?? [];
+
+        return match ($exercise->type) {
+            'multiple_choice' => $exercise->payload['options'][$answer['correct'] ?? -1] ?? null,
+            'true_false'      => ($answer['correct'] ?? null) === null ? null : (($answer['correct']) ? 'صحيح' : 'خطأ'),
+            'order_words'     => isset($answer['order']) ? implode(' ', $answer['order']) : null,
+            'match'           => isset($answer['pairs'])
+                ? collect($answer['pairs'])->map(fn ($r, $l) => "$l → $r")->implode(' · ')
+                : null,
+            default           => $answer['accepted'][0] ?? null,
+        };
     }
 }

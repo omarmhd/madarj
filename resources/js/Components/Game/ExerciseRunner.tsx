@@ -62,6 +62,8 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
   const [value, setValue] = useState<any>('');
   const [result, setResult] = useState<Result | null>(null);
   const [checking, setChecking] = useState(false);
+  /** Tries on the question on screen — the server's count spans every visit ever */
+  const [tries, setTries] = useState(0);
   const [score, setScore] = useState(0);
   /** التمارين التي صحّت من أول محاولة فقط تُحسب كاملة */
   const [firstTry, setFirstTry] = useState(0);
@@ -88,6 +90,7 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
       );
 
       setResult(data);
+      setTries((t) => t + 1);
 
       if (data.correct) {
         setScore((s) => s + 1);
@@ -113,6 +116,7 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
     setIndex((i) => i + 1);
     setValue('');
     setResult(null);
+    setTries(0);
   };
 
   /*
@@ -121,8 +125,9 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
    * Declared above the early return, like every hook here.
    */
   const ans = result !== null;
-  const final = ans && (result!.correct || !!result!.reveal);
-  const autoMs = ans ? (result!.correct ? AUTO_RIGHT_MS : result!.reveal ? AUTO_REVEAL_MS : AUTO_RETRY_MS) : 0;
+  // The second miss is final even without a reveal — no question may loop forever
+  const final = ans && (result!.correct || tries >= 2);
+  const autoMs = ans ? (result!.correct ? AUTO_RIGHT_MS : final ? AUTO_REVEAL_MS : AUTO_RETRY_MS) : 0;
   useAutoAdvance(ans, autoMs, () => (final ? next() : retry()));
 
   // Reports position to the parent's single progress bar. Must stay above
@@ -417,10 +422,10 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
         <div key={`${index}-${result.attempt_no}`}>
           <Countdown
             ms={autoMs}
-            tone={result.correct ? 'emerald' : result.reveal ? 'violet' : 'rose'}
+            tone={result.correct ? 'emerald' : final ? 'violet' : 'rose'}
           />
           <p className="mt-1.5 text-center text-xs text-slate-400">
-            {result.correct || result.reveal
+            {result.correct || final
               ? (index + 1 >= total ? tr('النتيجة بعد لحظات…') : tr('السؤال التالي بعد لحظات…'))
               : tr('حاول مرة أخرى…')}
           </p>

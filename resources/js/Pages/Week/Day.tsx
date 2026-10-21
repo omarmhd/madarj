@@ -426,10 +426,25 @@ export default function DayPage({
    * دائماً للمراجعة، وما بعد الموضع الحالي مقفل. فلا يتقدّم أحد على
    * تسلسل اليوم من أي باب.
    */
+  /*
+   * The frontier: the first station not yet done, from what the server
+   * saved — not from the station on screen.
+   *
+   * One number used to mean both "the station I am viewing" and "how far
+   * I have got". Opening a finished station to look back — or one tap on
+   * the back arrow — moved that number back, so the map put "you are
+   * here" on the old station and "next station" led there again.
+   * Viewing never moves the frontier now.
+   */
+  const frontier = (() => {
+    const i = day.tasks.findIndex((t) => !tasksDone[String(t.order)]);
+    return i === -1 ? day.tasks.length - 1 : i;
+  })();
+
   const taskReachable = (t: DayTask) => {
     if (tasksDone[String(t.order)]) return true;
     const i = day.tasks.findIndex((x) => x.order === t.order);
-    return i <= step;
+    return i <= frontier;
   };
 
   const atLastSlice = innerStep >= slices.length - 1;
@@ -1021,7 +1036,7 @@ export default function DayPage({
         {mode === 'wizard' && view === 'map' && (
           <DayJourney
             dayNumber={day.number}
-            current={Math.min(step, Math.max(0, day.tasks.length - 1))}
+            current={Math.max(0, frontier)}
             onOpen={(i) => goToStep(i)}
             stations={day.tasks.map((t, i) => ({
               order: t.order,
@@ -1235,11 +1250,13 @@ export default function DayPage({
                    * إلى التالية. و«رجوع» يعود في السلسلة نفسها.
                    */
                   <div className="flex gap-2">
-                    {(step > 0 || innerStep > 0) && (
+                    {true && (
                       <button
                         onClick={() => {
                           if (innerStep > 0) goToSlice(innerStep - 1);
-                          else goToStep(step - 1);
+                          // Not the start of the previous task: one stray tap
+                          // there meant stepping through all of it again
+                          else showMap();
                         }}
                         // An arrow, not a word: the one labelled button on this bar is the way forward
                         aria-label={tr('رجوع')}
@@ -1278,12 +1295,8 @@ export default function DayPage({
                         }
 
                         // ③ مهمّة تالية إن وُجدت
-                        if (!isLastStep) {
-                          setStep(step + 1);
-                          setInnerStep(0);
-                          showMap();
-                          return;
-                        }
+                        // Back to the map, which points at the frontier
+                        setInnerStep(0);
                         showMap();
                         return;
 

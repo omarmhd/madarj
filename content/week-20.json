@@ -123,9 +123,9 @@
           "ref": "vocab:time_in_a_story"
         },
         {
-          "label": "كتابة الكلمات",
+          "label": "مراجعة الإملاء",
           "minutes": 10,
-          "ref": "spell:time_in_a_story",
+          "ref": "spell:review",
           "order": 3
         },
         {
@@ -237,9 +237,9 @@
           "order": 3
         },
         {
-          "label": "كتابة الكلمات",
+          "label": "مراجعة الإملاء",
           "minutes": 10,
-          "ref": "spell:narrative_connectors",
+          "ref": "spell:review",
           "order": 4
         },
         {

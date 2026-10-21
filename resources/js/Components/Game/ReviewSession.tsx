@@ -146,7 +146,14 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
   const touched = useRef(false);
 
   // مُجدول FSRS واحد للجلسة — الضبط الافتراضي مناسب تماماً
-  const scheduler = useMemo(() => fsrs(generatorParameters({ enable_fuzz: true })), []);
+  /*
+   * No short-term steps. They suit an app opened many times a day: a word
+   * graded today came back in 10 minutes — so, on a platform opened once a
+   * day, tomorrow, and the review showed the same words every morning.
+   * Without them a known word returns in 3, 14, 57 days; a missed one in
+   * 1, then 3, then 8: spaced and cumulative, as the book means it.
+   */
+  const scheduler = useMemo(() => fsrs(generatorParameters({ enable_fuzz: true, enable_short_term: false })), []);
 
   useEffect(() => {
     let alive = true;
