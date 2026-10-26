@@ -5,7 +5,8 @@ import { Head, Link } from '@inertiajs/react';
 import AppNav from '@/Components/AppNav';
 import Listen from '@/Components/Listen';
 import axios from 'axios';
-import DayCard, { type DayState } from '@/Components/DayCard';
+import { type DayState } from '@/Components/DayCard';
+import WeekJourney from '@/Components/WeekJourney';
 import Modal from '@/Components/Modal';
 import MinimalPairGame, { type Group as PairGroup } from '@/Components/Game/MinimalPairGame';
 import Flashcards, { type Word } from '@/Components/Game/Flashcards';
@@ -20,11 +21,10 @@ import SectionView, { type SectionData } from '@/Components/Game/SectionView';
 import SpeechControls from '@/Components/SpeechControls';
 import { type ComparisonSaved } from '@/Components/Game/Comparison';
 import { useSpeech, prefToGender, prefRateFactor, type Gender } from '@/hooks/useSpeech';
-import { cleanLabel } from '@/lib/labels';
 import { useLocale, dirOf, pick, dirFor } from '@/lib/bilingual';
 import { type Prefs, DEFAULT_PREFS } from '@/lib/prefs';
 import { useT } from '@/lib/i18n';
-import { CalendarCheck, CalendarDays, ChevronDown, ChevronLeft, ChevronUp, Construction, Flame, Library, MessageCircle, Pin, Play, Square, Timer } from 'lucide-react';
+import { CalendarCheck, CalendarDays, ChevronDown, ChevronLeft, ChevronUp, Construction, Flame, Library, MessageCircle, Play, Square, Timer } from 'lucide-react';
 
 /**
  * صفحة الأسبوع — الشاشة الرئيسية.
@@ -160,8 +160,7 @@ const groupName = (g: string, labels?: Record<string, string | null>) =>
  * يفهم القائمة لا يجرّبها، بل يتوقّف.
  */
 const SECTIONS = [
-  { id: 'today', label: 'ابدأ من هنا', icon: <Play size={15} />, hint: 'مهمّة اليوم' },
-  { id: 'plan', label: 'الأيام السبعة', icon: <CalendarDays size={15} />, hint: 'خطة الأسبوع كلها' },
+  { id: 'today', label: 'أيام الأسبوع', icon: <CalendarDays size={15} />, hint: 'اليوم والأيام السبعة' },
   { id: 'library', label: 'كل محتوى الأسبوع', icon: <Library size={15} />, hint: 'مفردات وقواعد ونطق وحوارات' },
 ];
 
@@ -332,7 +331,7 @@ export default function WeekShow({
 }: Props) {
   const tr = useT();
   const locale = useLocale();
-  const [dayStates, setDayStates] = useState(days);
+  const dayStates = days;
 
   /**
    * الأنشطة المفتوحة في النافذة.
@@ -466,19 +465,6 @@ export default function WeekShow({
     stopEverything();
   };
 
-  /** عند إتمام يوم — نفتح اليوم التالي في الحالة المحلية فوراً */
-  const handleDayCompleted = (dayNumber: number) => {
-    setDayStates((prev) =>
-      prev.map((d) =>
-        d.number === dayNumber
-          ? { ...d, completed: true }
-          : d.number === dayNumber + 1
-            ? { ...d, unlocked: true }
-            : d,
-      ),
-    );
-  };
-
   /** جنس متحدّث سطر معيّن — أساس اختيار الصوت */
   const genderOfSpeaker = (d: Dialogue, speaker: string): Gender | undefined =>
     d.speaker_genders?.[speaker] ?? d.speaker_genders?.[speaker.toUpperCase()];
@@ -508,82 +494,6 @@ export default function WeekShow({
   };
 
   const isPlayingThis = (d: Dialogue) => playingLine?.dialogue === d.number;
-
-  /**
-   * وصف ما تفتحه المهمة بالأرقام.
-   *
-   * «تدريب النطق — §8» عنوان لا يقول شيئاً. «12 زوجاً صوتياً في 3
-   * مجموعات» يقول للمتدرّب ما ينتظره وكم يستغرق، فيدخل مستعداً.
-   */
-  const describeRef = (ref: string): string | null => {
-    const parts = parseRef(ref)
-      .map((a): string | null => {
-        switch (a.kind) {
-          case 'pairs': {
-            const pairs = minimalPairs.reduce((n, g) => n + g.pairs.length, 0);
-            const groups = minimalPairs.length;
-            return `${pairs} زوجاً صوتياً في ${groups} مجموعات`;
-          }
-          case 'flashcards': {
-            const n = vocabulary[a.group]?.length ?? 0;
-            return `${iso(groupName(a.group, vocabularyLabels))} — ${n} كلمة`;
-          }
-          case 'exercises': {
-            const n = exercises[a.day]?.length ?? 0;
-            return n > 0 ? `${n} تمريناً بتصحيح فوري` : tr('لا تمارين لهذا اليوم');
-          }
-          case 'record': {
-            // الوصف يقول الموضوع لا المدّة فقط — المدّة لا تُغري أحداً
-            const brief = sections.find((s) => s.kind === 'speaking')
-              ?.payload as SpeakingPayload | undefined;
-
-            if (brief) return brief.task_ar;
-
-            return a.baseline
-              ? tr('تسجيل 120 ثانية — خط الأساس الذي تقارن به لاحقاً')
-              : tr('تسجيل 90 ثانية');
-          }
-          case 'writing':
-            return writing
-              ? `${writing.templates.length} قالب جملة · ${writing.min_words} كلمة على الأقل`
-              : null;
-          case 'dialogue': {
-            const d = dialogues.find((x) => x.number === a.number);
-            return d ? `${iso(d.title)} — ${d.lines.length} سطراً بصوتين` : null;
-          }
-          case 'review':
-            return tr('تكرار متباعد — البطاقات المستحقة اليوم');
-          case 'inday':
-            return tr('تمرين خاص بيومه — يُفتح من صفحة اليوم');
-          case 'section': {
-            const sec = sections.find((x) => x.kind === a.sectionKind);
-            if (!sec) return null;
-            const p = (sec.payload ?? {}) as any;
-            // العدّ يقول للمتدرّب ما ينتظره قبل أن يفتح
-            const n =
-              a.sectionKind === 'grammar'
-                ? (p.common_errors ?? []).length && `${p.common_errors.length} خطأً شائعاً وقاعدته`
-                : a.sectionKind === 'phonics'
-                  ? (p.symbols ?? []).length && `${p.symbols.length} صوتاً بأمثلة مسموعة`
-                  : a.sectionKind === 'listening'
-                    ? (p.transcript ?? []).length && `${p.transcript.length} فقرات بنصّها وترجمتها`
-                    : a.sectionKind === 'reading'
-                      ? (p.story ?? []).length && `${p.story.length} فقرات مع مسرد`
-                      : a.sectionKind === 'phrases'
-                        ? (p.groups ?? []).length && `${p.groups.length} مجموعات عبارات`
-                        : a.sectionKind === 'selfcheck'
-                          ? (p.items ?? []).length && `${p.items.length} بنداً تُقيّم بها نفسك`
-                          : null;
-            return (n as string) || sec.title_ar || null;
-          }
-          case 'unbuilt':
-            return tr('قيد التجهيز');
-        }
-      })
-      .filter((x): x is string => Boolean(x));
-
-    return parts.length > 0 ? parts.join('  ·  ') : null;
-  };
 
   /**
    * أسطر الحوار كمحادثة — الأنثى في جهة والذكر في الأخرى.
@@ -903,7 +813,8 @@ export default function WeekShow({
             ))}
           </nav>
 
-          {supported && (
+          {/* Voice and speed matter only where the library speaks */}
+          {supported && libraryOpen && (
             <div className="flex flex-wrap items-center justify-between gap-3 border-t border-slate-100 py-2">
               <SpeechControls
                 voice={voice}
@@ -925,110 +836,18 @@ export default function WeekShow({
           </div>
         )}
 
-        {/* ============ اليوم — نقطة البدء الوحيدة ============
-             وحدة التنظيم هي اليوم لا الأسبوع. المتدرّب يفتح الصفحة
-             فيجد مهام يومه ومحتواها أمامه، ولا يتصفّح أسبوعاً كاملاً
-             ليعرف من أين يبدأ. قاعدة الكتاب: «الكتاب مرجع لا رواية». */}
+        {/* ============ الأسبوع: اليوم أولاً، ثم الأيام السبعة ============
+             The work happens on the day page; this page sends you there.
+             Today is one large card, the week seven tiles under it. */}
         <section id="today" className="scroll-mt-32 sm:scroll-mt-36">
-          <div className="mb-3 flex items-baseline justify-between">
-            <h2 className="flex items-baseline gap-2 text-lg font-bold text-slate-900">
-              ابدأ من هنا
-              {todayDay && (
-                <span className="ms-2 text-sm font-normal text-slate-500">
-                  اليوم {todayDay.number} من سبعة
-                </span>
-              )}
-            </h2>
-            <p className="text-xs text-slate-500">
-              {todayDay
-                ? `${todayDay.minutes * (stats.track === 'B' ? 2 : 1)} دقيقة · ${todayDay.tasks.length} مهام`
-                : ''}
-            </p>
-          </div>
-
-          {todayDay ? (
-            <>
-              <div className="mb-3 flex gap-3 rounded-xl border-s-4 border-violet-500 bg-violet-50/70 p-4">
-                <Pin aria-hidden size={17} className="mt-0.5 shrink-0 text-violet-600" />
-                <p className="text-sm leading-relaxed text-violet-900">
-                  <strong>{tr('أنجز مهام هذا اليوم فقط، ثم أغلق الصفحة.')}</strong> {tr('كل مهمة تفتح ما تحتاجه بنقرة — لا تبحث في الأسبوع. اليوم التالي يُفتح تلقائياً عند إتمام الخمس.')}
-                </p>
-              </div>
-
-              <DayCard
-                key={`today-${todayDay.number}`}
-                weekNumber={week.number}
-                day={todayDay}
-                track={stats.track}
-                isCurrent
-                defaultExpanded
-                describeRef={describeRef}
-                onDayCompleted={handleDayCompleted}
-                onOpenActivity={openActivity}
-              />
-            </>
-          ) : (
-            <div className="rounded-xl bg-white p-6 text-center ring-1 ring-slate-200">
-              <p className="text-sm text-slate-600">
-                {tr('أنهيت كل أيام هذا الأسبوع. افتح أي يوم أدناه للمراجعة.')}
-              </p>
-            </div>
-          )}
+          <WeekJourney
+            weekNumber={week.number}
+            days={dayStates}
+            today={todayDay}
+            multiplier={stats.track === 'B' ? 2 : 1}
+            locale={locale}
+          />
         </section>
-
-        {/* ============ الأسبوع كامل ============ */}
-        <section id="plan" className="scroll-mt-32 sm:scroll-mt-36">
-          <div className="mb-4 flex items-baseline justify-between">
-            <h2 className="text-lg font-bold text-slate-900">{tr('الأيام السبعة')}</h2>
-            <p className="text-xs text-slate-500">
-              {doneDays} مكتمل · المكتمل يبقى متاحاً للمراجعة
-            </p>
-          </div>
-
-          {/* شريط الأيام — نظرة واحدة تكفي لمعرفة الموضع */}
-          <div className="mb-4 flex gap-1.5">
-            {dayStates.map((d) => {
-              const isCurrent =
-                stats.current_week === week.number && stats.current_day === d.number;
-
-              return (
-                <div
-                  key={d.number}
-                  title={`اليوم ${d.number} — ${iso(cleanLabel(d.focus))}`}
-                  className={`flex h-1.5 flex-1 overflow-hidden rounded-full
-                              ${isCurrent ? 'ring-1 ring-violet-600' : ''}
-                              ${d.completed ? 'bg-violet-700' : d.unlocked ? 'bg-slate-200' : 'bg-slate-100'}`}
-                >
-                  {!d.completed && d.unlocked && d.percent > 0 && (
-                    <span
-                      className="bg-violet-400"
-                      style={{ width: `${d.percent}%` }}
-                    />
-                  )}
-                </div>
-              );
-            })}
-          </div>
-
-          <div className="space-y-3">
-            {dayStates.map((day) => (
-              <DayCard
-                key={day.number}
-                weekNumber={week.number}
-                day={day}
-                track={stats.track}
-                isCurrent={
-                  stats.current_week === week.number && stats.current_day === day.number
-                }
-                defaultExpanded={false}
-                describeRef={describeRef}
-                onDayCompleted={handleDayCompleted}
-                onOpenActivity={openActivity}
-              />
-            ))}
-          </div>
-        </section>
-
 
         {/* ============ مكتبة الأسبوع ============
              المحتوى الكامل مرجع يُفتح عند الحاجة، لا شيء يتصفّحه

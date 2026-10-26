@@ -1,3 +1,4 @@
+import { createPortal } from 'react-dom';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import StageDirection from '@/Components/Game/StageDirection';
 import Bdi from '@/Components/Bdi';
@@ -31,7 +32,7 @@ import { sliceBlock, sliceTitle } from '@/lib/contentSteps';
 import { useT } from '@/lib/i18n';
 import Celebrate from '@/Components/Celebrate';
 import { celebrationFor, type Celebration } from '@/lib/milestones';
-import { taskKind } from '@/lib/taskKinds';
+import { taskKind, TONES } from '@/lib/taskKinds';
 import DayJourney from '@/Components/DayJourney';
 import { ArrowLeft, ArrowRight, Check, Map as MapIcon, ChevronLeft, CircleCheck, Clock, Headphones, Lock, PenLine, Play, Smartphone, Square } from 'lucide-react';
 
@@ -186,6 +187,9 @@ const UNBUILT_LABELS: Record<string, string> = {
   selfcheck: 'الاختبار الذاتي',
   section: 'قسم من الدرس',
 };
+
+/** Said when a station is done — short, varied, never the same twice in a row */
+const PRAISE = ['أحسنت!', 'رائع!', 'ممتاز!', 'عمل جميل!', 'خطوة أخرى!', 'استمرّ هكذا!', 'أنت تتقدّم!'];
 
 export default function DayPage({
   week,
@@ -463,6 +467,10 @@ export default function DayPage({
     || (currentSlice.type === 'exercises' && (currentSlice as ExercisesBlock).items.length > 0)
   );
 
+  // Homework and the episode count as finished once their proof is saved
+  const drillProven = (currentSlice?.type === 'homework' && homeworkProof.trim().length >= 3)
+    || (currentSlice?.type === 'watch' && /[A-Za-z]{2,}/.test(watchProof));
+
   /** Returns whether the server accepted it — the stamp lands only on a real save */
   const toggle = async (task: DayTask): Promise<boolean> => {
     const next = !tasksDone[String(task.order)];
@@ -512,8 +520,8 @@ export default function DayPage({
    *
    * Moving on the instant the button was pressed made finishing a task
    * look like skipping it — the next screen simply replaced this one.
-   * Seven hundred milliseconds is enough to see the stamp and short
-   * enough not to wait for it; with reduced motion there is no pause.
+   * A second and a quarter is enough to see the praise and the count
+   * and short enough not to wait for it; with reduced motion, a beat.
    */
   const stampDone = (order: number) =>
     new Promise<void>((resolve) => {
@@ -522,7 +530,7 @@ export default function DayPage({
       window.setTimeout(() => {
         setStamped(null);
         resolve();
-      }, still ? 0 : 700);
+      }, still ? 400 : 1250);
     });
 
   const genderOf = (d: DialogueBlock, speaker: string): Gender | undefined =>
@@ -1065,9 +1073,26 @@ export default function DayPage({
               reachable: taskReachable(t),
             }))}
             finished={
-              <div className="rounded-2xl bg-emerald-50 p-6 text-center ring-1 ring-emerald-200">
-                <CircleCheck aria-hidden size={40} strokeWidth={1.5} className="mx-auto text-emerald-600" />
-                <p className="mt-2 text-lg font-bold text-emerald-900">{tr('اكتمل اليوم')} {day.number}</p>
+              <div className="relative overflow-hidden rounded-3xl bg-emerald-50 p-6 text-center ring-1 ring-emerald-200">
+                <span aria-hidden className="confetti is-slow">
+                  {Array.from({ length: 18 }, (_, k) => (
+                    <i key={k} className={TONES[kinds[k % kinds.length]?.tone ?? 'violet'].bar} style={{ ['--k' as string]: k }} />
+                  ))}
+                </span>
+                <span className="station-done-mark mx-auto grid h-20 w-20 place-items-center rounded-full bg-emerald-600 text-white shadow-lg">
+                  <CircleCheck aria-hidden size={40} strokeWidth={1.75} />
+                </span>
+                <p className="mt-3 text-2xl font-bold text-emerald-900">{tr('اكتمل اليوم')} {day.number}</p>
+                <div className="mx-auto mt-3 flex max-w-xs justify-center gap-3">
+                  <span className="flex-1 rounded-2xl bg-white/70 px-3 py-2">
+                    <span className="block text-xl font-bold text-emerald-800">{total}</span>
+                    <span className="text-xs text-emerald-700">{tr('محطات')}</span>
+                  </span>
+                  <span className="flex-1 rounded-2xl bg-white/70 px-3 py-2">
+                    <span className="block text-xl font-bold text-emerald-800">{day.minutes * multiplier}</span>
+                    <span className="text-xs text-emerald-700">{tr('دقيقة')}</span>
+                  </span>
+                </div>
                 <p className="mx-auto mt-1 max-w-md text-sm leading-relaxed text-emerald-800">
                   {day.number < lastDay
                     ? tr('اليوم التالي مفتوح الآن. عد غداً — هذا ما يبني السلسلة.')
@@ -1107,6 +1132,19 @@ export default function DayPage({
               <span className="whitespace-nowrap text-sm text-slate-600">
                 {tr('المحطة')} <strong className="text-slate-900">{step + 1}</strong> {tr('من')} {total}
               </span>
+              {/* The whole day as segments: what is behind you, and where you are */}
+              <span className="hidden items-center gap-1 sm:flex" aria-hidden>
+                {day.tasks.map((t, k) => (
+                  <span
+                    key={t.order}
+                    className={`h-2 rounded-full transition-all ${
+                      tasksDone[String(t.order)]
+                        ? `w-4 ${TONES[kinds[k].tone].bar}`
+                        : k === step ? 'w-6 bg-slate-400' : 'w-4 bg-slate-200'
+                    }`}
+                  />
+                ))}
+              </span>
               {slices.length > 1 && (
                 <span className="flex items-center gap-1.5" aria-label={`${innerStep + 1}/${slices.length}`}>
                   {/* Said in words, not just dots: a second spelling part looked
@@ -1130,6 +1168,18 @@ export default function DayPage({
             )}
           </div>
         )}
+        {mode === 'wizard' && view === 'task' && (
+          <div className="-mt-1 flex gap-1 sm:hidden" aria-hidden>
+            {day.tasks.map((t, k) => (
+              <span
+                key={t.order}
+                className={`h-1.5 flex-1 rounded-full transition-colors ${
+                  tasksDone[String(t.order)] ? TONES[kinds[k].tone].bar : k === step ? 'bg-slate-400' : 'bg-slate-200'
+                }`}
+              />
+            ))}
+          </div>
+        )}
 
         {(mode === 'wizard' ? (view === 'task' ? visibleTasks : []) : day.tasks).map((task) => {
           const checked = tasksDone[String(task.order)] ?? false;
@@ -1139,14 +1189,20 @@ export default function DayPage({
           return (
             <section
               key={task.order}
-              className={`relative overflow-clip rounded-2xl bg-white transition
-                          ${mode === 'wizard' ? 'leaf-in ring-1 ring-violet-200 shadow-sm' : 'ring-1 ring-slate-200'}`}
+              className={`relative overflow-clip rounded-3xl bg-white transition
+                          ${mode === 'wizard' ? 'leaf-in shadow-sm ring-1 ring-slate-200' : 'ring-1 ring-slate-200'}`}
             >
+              {/* The station's colour, as a band across its top */}
+              <span aria-hidden className={`block h-1.5 ${TONES[kinds[day.tasks.indexOf(task)]?.tone ?? 'violet'].bar}`} />
               {/* The task's opener: its mark, its place in the day, its name,
                   and one line on what the learner is about to do */}
               <div className="flex items-start gap-4 p-5 sm:p-6">
                 <span
-                  className={`task-mark h-12 w-12 shrink-0 ${checked ? 'is-done' : ''}`}
+                  className={`grid h-14 w-14 shrink-0 place-items-center rounded-2xl ${
+                    checked
+                      ? 'bg-emerald-600 text-white'
+                      : `${TONES[kinds[day.tasks.indexOf(task)]?.tone ?? 'violet'].soft} ${TONES[kinds[day.tasks.indexOf(task)]?.tone ?? 'violet'].text}`
+                  }`}
                   aria-hidden
                 >
                   {checked ? (
@@ -1191,12 +1247,28 @@ export default function DayPage({
               </div>
 
               {/* "Done", stamped across the task before the page turns */}
-              {stamped === task.order && (
-                <div className="pointer-events-none absolute inset-0 z-10 grid place-items-center bg-white/40">
-                  <span className="done-stamp inline-flex items-center gap-2 px-6 py-2.5 text-2xl font-bold">
-                    <Check aria-hidden size={24} strokeWidth={2.5} /> {tr('تمّت')}
+              {/* In a portal: the station animates with a transform, which would
+                  pin a fixed overlay inside it instead of over the screen */}
+              {stamped === task.order && createPortal(
+                <div className="station-done pointer-events-none fixed inset-0 z-[60] grid place-items-center bg-white/85 backdrop-blur-[2px]">
+                  <div className="text-center">
+                    <span className="station-done-mark mx-auto grid h-20 w-20 place-items-center rounded-full bg-emerald-600 text-white shadow-lg">
+                      <Check aria-hidden size={40} strokeWidth={2.75} />
+                    </span>
+                    <p className="mt-3 text-2xl font-bold text-slate-900">{tr(PRAISE[(task.order + day.number) % PRAISE.length])}</p>
+                    <p className="mt-1 text-sm font-medium text-slate-600">
+                      {tr('أنجزت :d من :n محطات', { d: doneCount, n: total })}
+                    </p>
+                  </div>
+                  {/* A burst of the day's colours */}
+                  <span aria-hidden className="confetti">
+                    {Array.from({ length: 14 }, (_, k) => (
+                      <i key={k} className={TONES[kinds[k % kinds.length]?.tone ?? 'violet'].bar} style={{ ['--k' as string]: k }} />
+                    ))}
                   </span>
                 </div>
+              ,
+                document.body,
               )}
 
               {/* محتوى المهمة —
@@ -1298,9 +1370,20 @@ export default function DayPage({
                       reviewing it must not lock everything after it again.
                       Saved homework counts too: its proof is already written.
                     */}
-                    {(!sliceIsDrill || completed[sliceKey] || checked
-                      || (currentSlice?.type === 'homework' && homeworkProof.trim().length >= 3)
-                      || (currentSlice?.type === 'watch' && /[A-Za-z]{2,}/.test(watchProof))) && (
+                    {/*
+                      A station done on an earlier visit may be skipped, but
+                      quietly: a full "Next" beside an unfinished drill read
+                      as a second way forward, competing with the card itself.
+                    */}
+                    {sliceIsDrill && !completed[sliceKey] && checked && !drillProven && (
+                      <button
+                        onClick={() => (atLastSlice ? (setInnerStep(0), showMap()) : goToSlice(innerStep + 1))}
+                        className="min-h-12 flex-1 rounded-xl text-sm font-medium text-slate-500 transition hover:text-slate-700"
+                      >
+                        {tr('تخطَّ — أنجزتها من قبل')}
+                      </button>
+                    )}
+                    {(!sliceIsDrill || completed[sliceKey] || drillProven) && (
                     <button
                       onClick={async () => {
 

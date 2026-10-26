@@ -711,3 +711,48 @@ html[data-style='classic'] .folio-input:focus { border-color: rgb(var(--accent-5
 @keyframes countdown { from { width: 100%; } to { width: 0%; } }
 .countdown { animation-name: countdown; animation-timing-function: linear; animation-fill-mode: forwards; margin-inline-start: auto; }
 @media (prefers-reduced-motion: reduce) { .countdown { animation: none; width: 100%; opacity: .5; } }
+
+/**
+ * The day's journey and the moment a station is done.
+ *
+ * `journey-current` breathes gently on the station you are at, so the
+ * eye finds it without reading. `station-done` is the beat between
+ * finishing a station and the map: the check pops, the praise shows,
+ * and a short burst in the day's own colours. CSS only — no library.
+ */
+.journey-current { animation: journey-breathe 2.4s ease-in-out infinite; }
+@keyframes journey-breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.06); }
+}
+
+.station-done { animation: station-fade .25s ease-out both; }
+@keyframes station-fade { from { opacity: 0; } }
+.station-done-mark { animation: station-pop .5s cubic-bezier(.2, 1.6, .4, 1) both; }
+@keyframes station-pop {
+  0% { transform: scale(.3); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.confetti { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+.confetti i {
+  position: absolute;
+  top: 45%;
+  left: calc(8% + var(--k) * 6%);
+  width: 8px;
+  height: 12px;
+  border-radius: 2px;
+  opacity: 0;
+  animation: confetti-burst 1.1s cubic-bezier(.15, .7, .3, 1) calc(var(--k) * 25ms) both;
+}
+.confetti i:nth-child(odd) { width: 10px; height: 10px; border-radius: 9999px; }
+@keyframes confetti-burst {
+  0% { transform: translateY(0) rotate(0); opacity: 1; }
+  100% { transform: translate(calc((var(--k) - 7) * 6px), -140px) rotate(calc(var(--k) * 70deg)); opacity: 0; }
+}
+.confetti.is-slow i { animation-duration: 1.8s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .journey-current, .station-done, .station-done-mark, .confetti i { animation: none; }
+  .confetti { display: none; }
+}
