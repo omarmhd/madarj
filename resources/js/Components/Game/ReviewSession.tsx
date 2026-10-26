@@ -66,6 +66,8 @@ interface Props {
   onFinished?: () => void;
   /** Called when the session ends, or loads with nothing to review */
   onComplete?: () => void;
+  /** Nothing was due when the session opened — the station has nothing to ask */
+  onEmpty?: () => void;
 }
 
 /* ترجمة حالة الخادم إلى ما تفهمه ts-fsrs والعكس */
@@ -117,7 +119,7 @@ const GRADES: {
   },
 ];
 
-export default function ReviewSession({ weekNumber, dayNumber, onFinished, onProgress, onComplete }: Props) {
+export default function ReviewSession({ weekNumber, dayNumber, onFinished, onProgress, onComplete, onEmpty }: Props) {
   const tr = useT();
   const [cards, setCards] = useState<ServerCard[]>([]);
   const [counts, setCounts] = useState<Counts | null>(null);
@@ -166,6 +168,7 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
         if (!alive) return;
         setCards(data.cards);
         setCounts(data.counts);
+        if (data.cards.length === 0) onEmpty?.();
       })
       .catch(() => alive && setError(tr('تعذّر جلب البطاقات. تحقّق من الاتصال.')))
       .finally(() => alive && setLoading(false));

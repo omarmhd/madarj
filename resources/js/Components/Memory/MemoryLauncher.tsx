@@ -34,7 +34,11 @@ import { Brain, X } from 'lucide-react';
 
 const MemoryPanel = lazy(() => import('./MemoryPanel'));
 
-export default function MemoryLauncher({ raised = true }: { raised?: boolean }) {
+/**
+ * `inline` puts the button in a bar instead of floating it: inside a
+ * station the floating button sat over the content and the back button.
+ */
+export default function MemoryLauncher({ raised = true, inline = false }: { raised?: boolean; inline?: boolean }) {
   const tr = useT();
   const { props } = usePage();
   const shared = (props as any).memory as MemoryCounts | null | undefined;
@@ -80,22 +84,28 @@ export default function MemoryLauncher({ raised = true }: { raised?: boolean }) 
         onClick={() => setOpen(true)}
         aria-label={tr('الذاكرة — كلماتك')}
         aria-expanded={open}
-        className={`fixed end-4 z-40 flex items-center gap-2 rounded-full
+        className={inline
+          ? 'relative grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-white text-slate-600 ring-1 ring-slate-200 transition hover:text-violet-700 hover:ring-violet-300'
+          : `fixed end-4 z-40 flex items-center gap-2 rounded-full
                     bg-slate-900 py-3 ps-4 pe-3 text-white shadow-md
                     transition hover:bg-slate-800 active:scale-95
                     sm:bottom-6 sm:end-6 ${raised ? 'bottom-20' : 'bottom-4'}`}
-        style={{ marginBottom: 'env(safe-area-inset-bottom)' }}
+        style={inline ? undefined : { marginBottom: 'env(safe-area-inset-bottom)' }}
       >
         <Brain aria-hidden size={19} strokeWidth={1.75} />
 
-        <span className="hidden text-sm font-medium sm:inline">
-          {tr('الذاكرة')}
-        </span>
+        {!inline && (
+          <span className="hidden text-sm font-medium sm:inline">
+            {tr('الذاكرة')}
+          </span>
+        )}
 
         {pending > 0 && (
           <span
-            className="grid h-5 min-w-5 place-items-center rounded-full bg-white px-1
-                       text-xs font-bold text-violet-700"
+            className={inline
+              ? 'absolute -end-1.5 -top-1.5 grid h-5 min-w-5 place-items-center rounded-full bg-violet-600 px-1 text-xs font-bold text-white'
+              : `grid h-5 min-w-5 place-items-center rounded-full bg-white px-1
+                       text-xs font-bold text-violet-700`}
           >
             {pending}
           </span>

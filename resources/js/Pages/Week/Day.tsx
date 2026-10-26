@@ -34,7 +34,8 @@ import Celebrate from '@/Components/Celebrate';
 import { celebrationFor, type Celebration } from '@/lib/milestones';
 import { taskKind, TONES } from '@/lib/taskKinds';
 import DayJourney from '@/Components/DayJourney';
-import { ArrowLeft, ArrowRight, Check, Map as MapIcon, ChevronLeft, CircleCheck, Clock, Headphones, Lock, PenLine, Play, Smartphone, Square } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Check, Map as MapIcon, ChevronLeft, CircleCheck, Clock, Headphones, Lock, PenLine, Play, Settings2, Smartphone, Square, X } from 'lucide-react';
+import MemoryLauncher from '@/Components/Memory/MemoryLauncher';
 
 /**
  * صفحة اليوم — شاشة العمل اليومية.
@@ -187,6 +188,15 @@ const UNBUILT_LABELS: Record<string, string> = {
   selfcheck: 'الاختبار الذاتي',
   section: 'قسم من الدرس',
 };
+
+/**
+ * Into document.body when `on`. A page or a station that animates with
+ * a transform pins anything `fixed` inside it to itself — the focus bar
+ * floated mid-screen — so a pinned bar has to live outside them.
+ */
+function MaybePortal({ on, children }: { on: boolean; children: React.ReactNode }) {
+  return on ? createPortal(children, document.body) : <>{children}</>;
+}
 
 /** Said when a station is done — short, varied, never the same twice in a row */
 const PRAISE = ['أحسنت!', 'رائع!', 'ممتاز!', 'عمل جميل!', 'خطوة أخرى!', 'استمرّ هكذا!', 'أنت تتقدّم!'];
@@ -390,7 +400,8 @@ export default function DayPage({
    */
   const scrollToContent = () => {
     const el = contentTop.current;
-    if (!el) { window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
+    // In the wizard a station is its own screen (focus mode): its top is the page's top
+    if (!el || mode === 'wizard') { window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
     // الشريطان الملتصقان يغطّيان أعلى الشاشة، فنطرح ارتفاعهما
     const chrome = window.innerWidth < 640 ? 44 + 62 : 56 + 62;
     const y = el.getBoundingClientRect().top + window.scrollY - chrome;
@@ -405,6 +416,16 @@ export default function DayPage({
    * instead of being handed the next box.
    */
   const [view, setView] = useState<'map' | 'task'>('map');
+  /** A line shown on the map for a moment — why a station closed by itself */
+  const [notice, setNotice] = useState<string | null>(null);
+  useEffect(() => {
+    if (!notice) return;
+    const t = window.setTimeout(() => setNotice(null), 5000);
+    return () => window.clearTimeout(t);
+  }, [notice]);
+
+  /** The voice and speed sheet in the focus bar */
+  const [settingsOpen, setSettingsOpen] = useState(false);
 
   const showMap = () => {
     setView('map');
@@ -958,6 +979,19 @@ export default function DayPage({
                 );
                 if (task && !tasksDone[String(task.order)]) toggle(task);
               }}
+              /*
+               * Nothing due: a station that asks nothing, then a button to
+               * leave it, broke the day's momentum for no lesson. It marks
+               * itself and returns to the map with one line saying why.
+               */
+              onEmpty={async () => {
+                const task = day.tasks.find((t) => t.blocks.some((b) => b.type === 'review'));
+                if (!task || day.tasks[step]?.order !== task.order || slices.length > 1) return;
+                if (!tasksDone[String(task.order)] && !(await toggle(task))) return;
+                setNotice(tr('لا كلمات تحتاج مراجعة اليوم — المحطة تمّت تلقائياً.'));
+                setInnerStep(0);
+                showMap();
+              }}
             />
           </div>
         );
@@ -983,11 +1017,25 @@ export default function DayPage({
     }
   };
 
+  /*
+   * Focus mode — inside a station, only the station.
+   *
+   * Measured on a 390x844 phone, the content began 370px down: the app
+   * bar, the day header, a line of voice controls on two rows, a progress
+   * strip and the station's own card all came first, and the Next bar and
+   * the tab bar took 150px at the bottom. An exercise showed two and a
+   * half of its four options. So inside a station the app bar, the day
+   * header, the tab bar and the floating memory button go; one slim bar
+   * carries the way out, the station's progress, the voice settings and
+   * the memory, and the content sits on the page itself.
+   */
+  const focus = mode === 'wizard' && view === 'task';
+
   return (
-    <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-24">
+    <div dir={dirOf(locale)} className={`min-h-screen bg-slate-50 ${focus ? 'pb-36' : 'pb-28 sm:pb-24'}`}>
       <Head title={`الأسبوع ${week.number} · اليوم ${day.number}`} />
 
-      <AppNav />
+      {!focus && <AppNav />}
 
       {/*
         ============ الرأس ============
@@ -995,6 +1043,7 @@ export default function DayPage({
         الشاشة للمحتوى بسرعة — فهو سطران وشريط تقدّم رقيق، بلا لوح
         ملوّن. والنيلي هنا لأن الأخضر محفوظ لـ«تمّ».
       */}
+      {!focus && (
       <header className="book-head relative overflow-hidden">
         <div
           aria-hidden
@@ -1056,9 +1105,78 @@ export default function DayPage({
           </div>
         </div>
       </header>
+      )}
 
-      <main ref={contentTop} className="mx-auto max-w-4xl space-y-4 px-4 py-6">
+      {focus && (() => {
+        const t = day.tasks[step];
+        const tone = TONES[kinds[step]?.tone ?? 'violet'];
+        const part = slices.length > 1 ? (innerStep + 1) / slices.length : (t && tasksDone[String(t.order)] ? 1 : 0.5);
+        return (
+          <div className="sticky top-0 z-30 border-b border-slate-200 bg-white/95 backdrop-blur"
+               style={{ paddingTop: 'env(safe-area-inset-top)' }}>
+            <div className="mx-auto flex max-w-2xl items-center gap-2 px-3 py-2.5 sm:px-4">
+              <button
+                onClick={() => { setSettingsOpen(false); showMap(); }}
+                aria-label={tr('خريطة اليوم')}
+                title={tr('خريطة اليوم')}
+                className="grid h-10 w-10 shrink-0 place-items-center rounded-xl text-slate-500 transition hover:bg-slate-100 hover:text-slate-800"
+              >
+                <X aria-hidden size={20} />
+              </button>
+
+              <div className="min-w-0 flex-1">
+                <p className="flex items-baseline gap-2">
+                  <span className="truncate text-sm font-bold text-slate-900" dir={t ? dirFor(taskName(t).primary) : undefined}>
+                    {t ? taskName(t).primary : ''}
+                  </span>
+                  <span className="shrink-0 text-xs text-slate-500">
+                    {step + 1}/{total}
+                    {slices.length > 1 && <> · {tr('الجزء')} {innerStep + 1}/{slices.length}</>}
+                  </span>
+                </p>
+                {/* One bar: how far into this station */}
+                <span className="mt-1.5 block h-1.5 overflow-hidden rounded-full bg-slate-100" aria-hidden>
+                  <span className={`block h-full rounded-full transition-all duration-500 ${tone.bar}`} style={{ width: `${Math.round(part * 100)}%` }} />
+                </span>
+              </div>
+
+              {supported && (
+                <div className="relative">
+                  <button
+                    onClick={() => setSettingsOpen((v) => !v)}
+                    aria-label={tr('الصوت والسرعة')}
+                    aria-expanded={settingsOpen}
+                    className={`grid h-10 w-10 shrink-0 place-items-center rounded-xl ring-1 transition ${
+                      settingsOpen ? 'bg-violet-50 text-violet-700 ring-violet-200' : 'bg-white text-slate-600 ring-slate-200 hover:ring-slate-300'
+                    }`}
+                  >
+                    <Settings2 aria-hidden size={18} />
+                  </button>
+                  {settingsOpen && (
+                    <>
+                      <button aria-label={tr('إغلاق')} className="fixed inset-0 z-30 cursor-default" onClick={() => setSettingsOpen(false)} />
+                      <div className="absolute end-0 top-12 z-40 w-max max-w-[calc(100vw-1.5rem)] rounded-2xl bg-white p-3 shadow-xl ring-1 ring-slate-200">
+                        <p className="mb-2 text-xs font-semibold text-slate-500">{tr('الصوت والسرعة')}</p>
+                        <SpeechControls voice={voice} onVoice={setVoice} rate={rate} onRate={setRate} size="sm" />
+                      </div>
+                    </>
+                  )}
+                </div>
+              )}
+
+              <MemoryLauncher inline />
+            </div>
+          </div>
+        );
+      })()}
+
+      <main ref={contentTop} className={focus ? 'mx-auto max-w-2xl space-y-3 px-4 pt-4 sm:px-6' : 'mx-auto max-w-4xl space-y-4 px-4 py-6'}>
         {/* ============ المهام ============ */}
+        {mode === 'wizard' && view === 'map' && notice && (
+          <p role="status" className="leaf-in flex items-center gap-2 rounded-2xl bg-emerald-50 px-4 py-3 text-sm font-medium text-emerald-800 ring-1 ring-emerald-200">
+            <Check aria-hidden size={16} className="shrink-0" /> {notice}
+          </p>
+        )}
         {mode === 'wizard' && view === 'map' && (
           <DayJourney
             dayNumber={day.number}
@@ -1115,59 +1233,6 @@ export default function DayPage({
           />
         )}
 
-        {/* One quiet line instead of the strip: back to the map, where you
-            are, how many steps this task has, and the voice controls */}
-        {mode === 'wizard' && view === 'task' && (
-          <div className="flex items-center justify-between gap-3">
-            <div className="flex min-w-0 items-center gap-2">
-              <button
-                onClick={showMap}
-                aria-label={tr('خريطة اليوم')}
-                title={tr('خريطة اليوم')}
-                className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-white text-violet-700
-                           ring-1 ring-slate-200 transition hover:ring-violet-300"
-              >
-                <MapIcon aria-hidden size={18} />
-              </button>
-              <span className="whitespace-nowrap text-sm text-slate-600">
-                {tr('المحطة')} <strong className="text-slate-900">{step + 1}</strong> {tr('من')} {total}
-              </span>
-              {slices.length > 1 && (
-                <span className="flex items-center gap-1.5" aria-label={`${innerStep + 1}/${slices.length}`}>
-                  {/* Said in words, not just dots: a second spelling part looked
-                      like being sent back to the first */}
-                  <span className="whitespace-nowrap text-xs font-semibold text-violet-700">
-                    {tr('الجزء')} {innerStep + 1} {tr('من')} {slices.length}
-                  </span>
-                  {slices.map((_, k) => (
-                    <span
-                      key={k}
-                      className={`h-1.5 rounded-full transition-all ${
-                        k === innerStep ? 'w-5 bg-violet-600' : k < innerStep ? 'w-1.5 bg-violet-400' : 'w-1.5 bg-slate-300'
-                      }`}
-                    />
-                  ))}
-                </span>
-              )}
-            </div>
-            {supported && (
-              <SpeechControls voice={voice} onVoice={setVoice} rate={rate} onRate={setRate} size="sm" />
-            )}
-          </div>
-        )}
-        {mode === 'wizard' && view === 'task' && (
-          <div className="-mt-1 flex gap-1 sm:hidden" aria-hidden>
-            {day.tasks.map((t, k) => (
-              <span
-                key={t.order}
-                className={`h-1.5 flex-1 rounded-full transition-colors ${
-                  tasksDone[String(t.order)] ? TONES[kinds[k].tone].bar : k === step ? 'bg-slate-400' : 'bg-slate-200'
-                }`}
-              />
-            ))}
-          </div>
-        )}
-
         {(mode === 'wizard' ? (view === 'task' ? visibleTasks : []) : day.tasks).map((task) => {
           const checked = tasksDone[String(task.order)] ?? false;
           const isSaving = saving === task.order;
@@ -1176,9 +1241,18 @@ export default function DayPage({
           return (
             <section
               key={task.order}
-              className={`relative overflow-clip rounded-3xl bg-white transition
-                          ${mode === 'wizard' ? 'leaf-in shadow-sm ring-1 ring-slate-200' : 'ring-1 ring-slate-200'}`}
+              className={focus
+                ? 'leaf-in relative'
+                : 'relative overflow-clip rounded-3xl bg-white ring-1 ring-slate-200 transition'}
             >
+              {/* In focus the bar names the station; what it asks is said once, on its first step */}
+              {focus && innerStep === 0 && kinds[day.tasks.indexOf(task)]?.purpose && (
+                <p className="mb-3 text-sm leading-relaxed text-slate-500">
+                  {tr(kinds[day.tasks.indexOf(task)]!.purpose)}
+                </p>
+              )}
+              {!focus && (
+              <>
               {/* The station's colour, as a band across its top */}
               <span aria-hidden className={`block h-1.5 ${TONES[kinds[day.tasks.indexOf(task)]?.tone ?? 'violet'].bar}`} />
               {/* The task's opener: its mark, its place in the day, its name,
@@ -1232,6 +1306,8 @@ export default function DayPage({
                   </p>
                 </div>
               </div>
+              </>
+              )}
 
               {/* "Done", stamped across the task before the page turns */}
               {/* In a portal: the station animates with a transform, which would
@@ -1262,7 +1338,7 @@ export default function DayPage({
                   في الخطوات: شريحة واحدة، والقسم wizard بنفسه.
                   في الوضع الكامل: كل الكتل، للمراجعة والتمرير. */}
               {task.blocks.length > 0 ? (
-                <div className="border-t border-slate-100 bg-slate-50/60 p-4 sm:p-5">
+                <div className={focus ? '' : 'border-t border-slate-100 bg-slate-50/60 p-4 sm:p-5'}>
                   {mode === 'wizard' ? (
                     // Keyed by step, so each step slides in as a new page
                     <div key={`${task.order}-${innerStep}`} className="leaf-in space-y-4">
@@ -1297,12 +1373,20 @@ export default function DayPage({
                    الإبهام دائماً، وهذا يتحقّق بالتصاق الشريط وحده:
                    المحتوى يمرّ طبيعياً، والزرّ لا يغيب.
               */}
+              <MaybePortal on={focus}>
               <div
-                className="border-t border-slate-100 bg-white p-4
-                           max-sm:sticky max-sm:z-20"
-                // Sits on top of AppNav's mobile bottom bar (h-16 + safe area)
-                style={{ bottom: 'calc(4rem + env(safe-area-inset-bottom))' }}
+                dir={dirOf(locale)}
+                className={focus
+                  // No tab bar under it in focus: pinned to the screen's edge, at every size,
+                  // so a short step does not leave the button floating mid-screen
+                  ? 'fixed inset-x-0 bottom-0 z-20 border-t border-slate-200 bg-white/95 backdrop-blur'
+                  : 'border-t border-slate-100 bg-white p-4 max-sm:sticky max-sm:z-20'}
+                // Otherwise it sits on top of AppNav's mobile bottom bar (h-16 + safe area)
+                style={focus
+                  ? { paddingBottom: 'max(0.75rem, env(safe-area-inset-bottom))' }
+                  : { bottom: 'calc(4rem + env(safe-area-inset-bottom))' }}
               >
+                <div className={focus ? 'mx-auto max-w-2xl px-4 pt-3 sm:px-6' : ''}>
 
                 {needsProof && task.blocks.some((b) => b.type === 'homework') && (
                   <p className="mb-3 rounded-lg bg-amber-50 p-3 text-center text-sm text-amber-900">
@@ -1478,7 +1562,9 @@ export default function DayPage({
                     {tr('تُفتح بعد إتمام المهام التي قبلها')}
                   </p>
                 )}
+                </div>
               </div>
+              </MaybePortal>
             </section>
           );
         })}
