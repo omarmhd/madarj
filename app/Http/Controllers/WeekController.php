@@ -792,13 +792,31 @@ class WeekController extends Controller
         // test of patience, and the phrase groups have their own drills.
         $spellable = fn ($v) => str_word_count($v->word) <= 3;
 
+        /*
+         * The same words for the same learner on the same day.
+         *
+         * They used to be shuffled on every request, so a phone that reloaded
+         * the tab — it does, whenever the learner switches apps — restarted
+         * the station with different words, and it never seemed to end.
+         * Seeded by learner, week and day: stable all day, fresh tomorrow.
+         *
+         * And ten in all, the learner's own words included, so the review is
+         * one part, not two: each word is typed twice and the missed ones
+         * come back, and seventeen words came to over a hundred entries.
+         */
+        $seed = crc32(implode(':', [auth()->id() ?? 0, $week->number, $day]));
+        $pick = fn ($words, int $n) => $words->values()
+            ->sortBy(fn ($v) => crc32($seed.':'.$v->id))
+            ->take($n)->values();
+        $ownCap = 4;
+        $courseCap = 10;
+
         if ($review) {
             $groups = collect($this->introductions($week))
                 ->filter(fn ($d, $k) => str_starts_with($k, 'vocab:') && $d < $day)
                 ->keys()->map(fn ($k) => substr($k, 6));
 
-            $words = $week->vocabulary->whereIn('group', $groups->all())
-                ->filter($spellable)->shuffle()->take(12)->values();
+            $words = $pick($week->vocabulary->whereIn('group', $groups->all())->filter($spellable), $courseCap);
 
             /*
              * Nothing learned earlier this week — the first days of a week,
@@ -817,9 +835,10 @@ class WeekController extends Controller
 
                 // The week before can itself hold nothing to spell (a review
                 // week's lists are phrases) — then the unit behind it
-                $words = ($week->is_review ? collect() : $pool([$week->number - 1]))
-                    ->whenEmpty(fn () => $pool($unit))
-                    ->shuffle()->take(12)->values();
+                $words = $pick(
+                    ($week->is_review ? collect() : $pool([$week->number - 1]))->whenEmpty(fn () => $pool($unit)),
+                    $courseCap,
+                );
             }
         } else {
             $groups = collect(explode(',', $arg))->map(fn ($g) => trim($g))->filter();
@@ -828,7 +847,7 @@ class WeekController extends Controller
             // Twenty at most — week 8 has a group of eighty. The rest come
             // back through `spell:review` on the following days.
             if ($words->count() > 20) {
-                $words = $words->shuffle()->take(20)->values();
+                $words = $pick($words, 20);
             }
         }
 
@@ -841,12 +860,13 @@ class WeekController extends Controller
             $own = \App\Models\MemoryWord::forUser($user->id)
                 ->whereNotNull('translation')->where('translation', '!=', '')
                 // Least practised first, so no saved word is left behind
-                ->orderBy('reps')->orderBy('created_at')->limit(6)->get()
+                ->orderBy('reps')->orderBy('created_at')->limit($ownCap)->get()
                 ->filter(fn ($m) => str_word_count($m->term) <= 3)
                 ->map(fn ($m) => (object) [
                     'id' => -$m->id, 'word' => $m->term, 'arabic' => $m->translation, 'ipa' => null,
                 ]);
-            $words = $words->concat($own)->values();
+            // Their own words take places, the course words make up the ten
+            $words = $words->take($courseCap - $own->count())->concat($own)->values();
         }
 
         if ($words->isEmpty()) {
