@@ -54,8 +54,11 @@ class LevelTestController extends Controller
             ->get()
             ->groupBy('level_test_id');
 
+        app(CertificateController::class)->issueMissing($user->id);
+        $certs = \App\Models\Certificate::where('user_id', $user->id)->pluck('code', 'level_test_id');
+
         return Inertia::render('Tests/Index', [
-            'tests' => LevelTest::orderBy('after_week')->get()->map(function (LevelTest $t) use ($user, $attempts) {
+            'tests' => LevelTest::orderBy('after_week')->get()->map(function (LevelTest $t) use ($user, $attempts, $certs) {
                 $mine = $attempts->get($t->id, collect());
 
                 return [
@@ -70,6 +73,7 @@ class LevelTestController extends Controller
                     'best'        => $mine->max(fn ($a) => $a->percent()),
                     'last_id'     => $mine->first()?->id,
                     'retry_at'    => $this->retryAt($user, $t)?->toIso8601String(),
+                    'certificate' => $certs[$t->id] ?? null,
                 ];
             }),
             'current_week' => $user->enrollment?->current_week ?? 1,
@@ -267,6 +271,11 @@ class LevelTestController extends Controller
         if ($passed && $test->after_week > 0) {
             $this->progress->recordTestScore($attempt->user, $test->after_week, $score, $max);
         }
+
+        // And the level's certificate, the first time it is passed
+        if ($passed) {
+            \App\Models\Certificate::issueFor($attempt->fresh(['test', 'user']));
+        }
     }
 
     /** Everything the result page shows, answers included — the test is over */
@@ -315,6 +324,8 @@ class LevelTestController extends Controller
             'retry_hours' => self::RETRY_HOURS,
             'placement'  => $test->after_week === 0,
             'estimate'   => $test->after_week === 0 ? $this->estimate($items, $answers) : null,
+            'certificate' => \App\Models\Certificate::where('user_id', $attempt->user_id)
+                ->where('level_test_id', $test->id)->value('code'),
         ];
     }
 

@@ -1,4 +1,5 @@
 import { createPortal } from 'react-dom';
+import AppFooter from '@/Components/AppFooter';
 import type { VoicePref } from '@/hooks/useSpeech';
 import { useSpeechPrefs, setSpeechPrefs } from '@/lib/speechPrefs';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
@@ -1080,7 +1081,7 @@ export default function DayPage({
   const focus = mode === 'wizard' && view === 'task';
 
   return (
-    <div dir={dirOf(locale)} className={`min-h-screen bg-slate-50 ${focus ? 'pb-36' : 'pb-28 sm:pb-24'}`}>
+    <div dir={dirOf(locale)} className={`min-h-screen bg-slate-50 ${focus ? 'pb-36' : 'pb-28 sm:pb-0'}`}>
       <Head title={`الأسبوع ${week.number} · اليوم ${day.number}`} />
 
       {!focus && <AppNav />}
@@ -1699,6 +1700,7 @@ export default function DayPage({
       </main>
 
       <Celebrate celebration={celebration} onClose={() => setCelebration(null)} />
+      {!focus && <AppFooter />}
     </div>
   );
 }

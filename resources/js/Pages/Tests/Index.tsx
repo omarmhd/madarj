@@ -1,4 +1,5 @@
 import { CheckCircle2, ClipboardCheck, Clock, Lock, X } from 'lucide-react';
+import AppFooter from '@/Components/AppFooter';
 import { Head, Link, router } from '@inertiajs/react';
 import { useState } from 'react';
 import AppNav from '@/Components/AppNav';
@@ -24,6 +25,7 @@ interface TestRow {
   available: boolean;
   passed: boolean;
   best: number | null;
+  certificate: string | null;
   last_id: number | null;
   retry_at: string | null;
 }
@@ -45,7 +47,7 @@ export default function Index({ tests, current_week }: { tests: TestRow[]; curre
     t.after_week === 0 ? tr('اختبار قبل البدء') : tr('اختبار بعد :level', { level: t.level });
 
   return (
-    <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-20">
+    <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-0">
       <Head title={tr('الاختبارات')} />
       <AppNav />
 
@@ -81,9 +83,16 @@ export default function Index({ tests, current_week }: { tests: TestRow[]; curre
                 </div>
 
                 {t.passed && t.after_week > 0 && (
-                  <span className="flex shrink-0 items-center gap-1 rounded-full bg-emerald-50 px-2.5 py-1 text-sm font-semibold text-emerald-700">
-                    <CheckCircle2 aria-hidden size={15} />
-                    {tr('ناجح')}
+                  <span className="flex shrink-0 flex-col items-end gap-1.5">
+                    <span className="flex items-center gap-1 rounded-full bg-emerald-50 px-2.5 py-1 text-sm font-semibold text-emerald-700">
+                      <CheckCircle2 aria-hidden size={15} />
+                      {tr('ناجح')}
+                    </span>
+                    {t.certificate && (
+                      <Link href={`/certificates/${t.certificate}`} className="text-sm font-semibold text-amber-700 hover:underline">
+                        {tr('الشهادة')}
+                      </Link>
+                    )}
                   </span>
                 )}
               </div>
@@ -169,6 +178,7 @@ export default function Index({ tests, current_week }: { tests: TestRow[]; curre
           </div>
         </div>
       )}
+      <AppFooter />
     </div>
   );
 }

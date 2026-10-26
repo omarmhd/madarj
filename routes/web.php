@@ -74,7 +74,17 @@ Route::get('/', function () {
     ]);
 })->name('home');
 
+// A certificate's public check — what its QR opens, no account needed
+Route::get('/certificates/{code}', [\App\Http\Controllers\CertificateController::class, 'show'])
+    ->where('code', 'MDJ-[A-Za-z0-9]{8}')
+    ->name('certificates.show');
+
 Route::middleware(['auth', 'verified', \App\Http\Middleware\RequireSetup::class, \App\Http\Middleware\EnforceAccess::class])->group(function () {
+    // The learner's certificates — earned, so open even after a trial ends
+    Route::get('/certificates', [\App\Http\Controllers\CertificateController::class, 'index'])->name('certificates');
+    Route::patch('/certificates/{code}/name', [\App\Http\Controllers\CertificateController::class, 'rename'])
+        ->name('certificates.rename');
+
 
     // صفحة التهيئة — تُعرض مرة قبل أول درس، وتبقى متاحة للتغيير
     Route::get('/setup', [SetupController::class, 'show'])->name('setup');

@@ -1,4 +1,5 @@
 import { AlertTriangle, ArrowLeft, Award, ChevronDown, Lightbulb, RotateCcw } from 'lucide-react';
+import AppFooter from '@/Components/AppFooter';
 import { Head, Link } from '@inertiajs/react';
 import { useState } from 'react';
 import AppNav from '@/Components/AppNav';
@@ -45,6 +46,8 @@ interface Result {
   retry_hours: number;
   placement: boolean;
   estimate: string | null;
+  /** The certificate this pass earned, if any */
+  certificate: string | null;
 }
 
 /* Cambridge's own words for its bands, in plain Arabic */
@@ -64,7 +67,7 @@ export default function ResultPage({ result }: { result: Result }) {
   const band = BANDS[result.band];
 
   return (
-    <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-20">
+    <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-0">
       <Head title={tr('نتيجة الاختبار')} />
       <AppNav />
 
@@ -107,6 +110,15 @@ export default function ResultPage({ result }: { result: Result }) {
           )}
 
           <p className="mt-3 text-sm text-slate-500">{tr('استغرقت :n دقيقة', { n: result.minutes_used })}</p>
+
+          {result.certificate && (
+            <Link
+              href={`/certificates/${result.certificate}`}
+              className="mx-auto mt-5 flex w-fit items-center gap-2 rounded-xl bg-amber-500 px-5 py-3 text-base font-semibold text-white shadow-sm transition hover:bg-amber-600"
+            >
+              <Award aria-hidden size={19} /> {tr('شهادتك جاهزة — افتحها')}
+            </Link>
+          )}
         </div>
 
         {/* The honesty note */}
@@ -205,6 +217,7 @@ export default function ResultPage({ result }: { result: Result }) {
           )}
         </div>
       </main>
+      <AppFooter />
     </div>
   );
 }

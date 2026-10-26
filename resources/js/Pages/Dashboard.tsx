@@ -1,10 +1,11 @@
 import { Head, Link } from '@inertiajs/react';
+import AppFooter from '@/Components/AppFooter';
 import { useState } from 'react';
 import AppNav from '@/Components/AppNav';
 import { useLocale, dirOf } from '@/lib/bilingual';
 import { useT } from '@/lib/i18n';
 import LevelCard, { type LevelData } from '@/Components/LevelCard';
-import { ArrowLeft, BookOpen, CalendarCheck, Check, ChevronDown, ChevronLeft, ClipboardCheck, Flame, Gamepad2, Headphones, Lock, LockOpen, Mountain, Target, Trophy } from 'lucide-react';
+import { ArrowLeft, Award, BookOpen, CalendarCheck, Check, ChevronDown, ChevronLeft, ClipboardCheck, Flame, Gamepad2, Headphones, Lock, LockOpen, Mountain, Target, Trophy } from 'lucide-react';
 
 /** One tile style for everything optional, so the group reads as one */
 const TILE =
@@ -82,6 +83,7 @@ interface Props {
   modules: Module[];
   milestones: Record<string, string>;
   wall?: Wall | null;
+  certificates?: { code: string; level: string; percent: number; issued_on: string }[];
 }
 
 /** حلقة تقدّم — أوضح من شريط في رأس مزدحم */
@@ -124,6 +126,7 @@ export default function Dashboard({
   milestones,
   wall = null,
   dueTest = null,
+  certificates = [],
 }: Props & { dueTest?: { slug: string; level: string; placement: boolean; minutes: number } | null }) {
   const tr = useT();
   const locale = useLocale();
@@ -160,7 +163,7 @@ export default function Dashboard({
   const contentWeeks = weeks.filter((w) => w.has_content).length;
 
   return (
-    <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-20">
+    <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-0">
       <Head title={tr("لوحة التقدّم")} />
 
       <AppNav />
@@ -732,6 +735,41 @@ export default function Dashboard({
         <aside className="contents lg:sticky lg:top-20 lg:block lg:space-y-6">
           {level && <div className="order-2"><LevelCard level={level} /></div>}
 
+          {/* Certificates: one seal per level, the earned ones open their sheet */}
+          <section className="order-2 rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-200 sm:p-5">
+            <div className="flex items-center justify-between gap-2">
+              <h2 className="flex items-center gap-2 text-base font-bold text-slate-900">
+                <Award aria-hidden size={18} className="text-amber-500" /> {tr('شهاداتي')}
+              </h2>
+              <Link href="/certificates" className="text-sm font-medium text-violet-700 hover:underline">{tr('الكل')}</Link>
+            </div>
+            <div className="mt-3 grid grid-cols-4 gap-2">
+              {['A1', 'A2', 'A2+', 'B1'].map((lvl) => {
+                const c = certificates.find((x) => x.level === lvl);
+                return c ? (
+                  <Link
+                    key={lvl}
+                    href={`/certificates/${c.code}`}
+                    title={`${c.percent}%`}
+                    className="grid aspect-square place-items-center rounded-full border-4 border-double border-amber-300 bg-amber-50 text-sm font-bold text-amber-700 transition hover:scale-105"
+                    dir="ltr"
+                  >
+                    {lvl}
+                  </Link>
+                ) : (
+                  <span key={lvl} className="grid aspect-square place-items-center rounded-full border-2 border-dashed border-slate-200 text-sm font-bold text-slate-300" dir="ltr">
+                    {lvl}
+                  </span>
+                );
+              })}
+            </div>
+            <p className="mt-3 text-xs leading-relaxed text-slate-500">
+              {certificates.length
+                ? tr('اضغط شهادة لتفتحها أو تطبعها.')
+                : tr('أول شهادة عند اجتياز اختبار A1 بعد الأسبوع السادس.')}
+            </p>
+          </section>
+
           {/* The extras, stacked, beside the road on wide screens */}
           <section className="hidden space-y-3 lg:block">
             <h2 className="text-base font-bold text-slate-900">{tr('خارج ساعة الدراسة')}</h2>
@@ -761,6 +799,7 @@ export default function Dashboard({
         </p>
         </aside>
       </main>
+      <AppFooter />
     </div>
   );
 }

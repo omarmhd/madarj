@@ -241,6 +241,10 @@ class WeekController extends Controller
              * wall from `unlocked` being false, which is also what an
              * unstudied week looks like.
              */
+            // Certificates earned — the levels passed, shown on the dashboard
+            'certificates' => fn () => \App\Models\Certificate::where('user_id', $user->id)
+                ->orderBy('issued_at')->get()->map(fn ($c) => $c->toClientArray(true)),
+
             'wall' => function () use ($user, $statsOf) {
                 $locked = app(\App\Services\AccessService::class)->firstLockedWeek($user);
 

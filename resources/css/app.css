@@ -761,3 +761,25 @@ html[data-style='classic'] .folio-input:focus { border-color: rgb(var(--accent-5
 .memory-toast { animation: memory-toast-in .35s cubic-bezier(.2, 1.2, .4, 1) both; }
 @keyframes memory-toast-in { from { opacity: 0; transform: translateY(-16px); } }
 @media (prefers-reduced-motion: reduce) { .memory-toast { animation: none; } }
+
+/**
+ * A certificate: a double frame on screen, and a clean A4 landscape
+ * sheet when printed (Save as PDF) — only the sheet, no buttons.
+ */
+.cert-frame {
+  border: 2px solid rgb(var(--accent-500, 124 58 237) / .55);
+  outline: 1px solid rgb(var(--accent-500, 124 58 237) / .3);
+  outline-offset: 6px;
+}
+.cert-qr svg { width: 100%; height: 100%; }
+@media print {
+  @page { size: A4 landscape; margin: 8mm; }
+  .no-print { display: none !important; }
+  .cert-page { background: #fff !important; padding: 0 !important; min-height: 0 !important; }
+  .cert-sheet { box-shadow: none !important; max-width: none !important; }
+  .cert-frame { margin: 0 !important; padding: 1.25rem 2rem !important; }
+  /* One A4 sheet: the screen layout is a little taller than the page */
+  .cert-sheet { zoom: .86; break-inside: avoid; }
+  html, body { background: #fff !important; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}

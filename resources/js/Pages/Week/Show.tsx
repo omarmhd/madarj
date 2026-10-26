@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import AppFooter from '@/Components/AppFooter';
 import type { VoicePref } from '@/hooks/useSpeech';
 import { useSpeechPrefs, setSpeechPrefs } from '@/lib/speechPrefs';
 import StageDirection from '@/Components/Game/StageDirection';
@@ -704,7 +705,7 @@ export default function WeekShow({
   };
 
   return (
-    <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-20">
+    <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-0">
       <Head title={`الأسبوع ${week.number} — ${week.title_ar}`} />
 
       <AppNav />
@@ -1256,6 +1257,7 @@ export default function WeekShow({
           </div>
         </div>
       </Modal>
+      <AppFooter />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import { Head, Link } from '@inertiajs/react';
+import AppFooter from '@/Components/AppFooter';
 import AppNav from '@/Components/AppNav';
 import { useLocale, dirOf } from '@/lib/bilingual';
 import { useT } from '@/lib/i18n';
@@ -39,7 +40,7 @@ export default function Media({ methods, cycle, speedRule, intro_ar }: Props) {
   const tr = useT();
   const locale = useLocale();
   return (
-    <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-20">
+    <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-0">
       <Head title={tr("دليل الوسائط — كيف تحصل على الصوت")} />
 
       <AppNav />
@@ -183,6 +184,7 @@ export default function Media({ methods, cycle, speedRule, intro_ar }: Props) {
           {tr('العناوين تتغيّر مع الوقت. لو لم يفتح رابط، ابحث عن الاسم — كل ما هنا يسهل إيجاده بالاسم، ولا يحتاج أي منها حساباً.')}
         </p>
       </main>
+      <AppFooter />
     </div>
   );
 }

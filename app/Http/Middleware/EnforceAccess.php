@@ -28,6 +28,7 @@ class EnforceAccess
     /** Always reachable, whatever the status */
     protected const EXEMPT = [
         'upgrade', 'upgrade.*', 'profile.*', 'setup', 'setup.*', 'logout',
+        'certificates', 'certificates.*',
         'verification.*', 'password.*', 'events.store', 'media',
     ];
 

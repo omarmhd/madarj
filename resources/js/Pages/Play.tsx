@@ -1,4 +1,5 @@
 import { CalendarCheck, Crosshair, Ear, Gamepad2, Zap } from 'lucide-react';
+import AppFooter from '@/Components/AppFooter';
 import { Head, router } from '@inertiajs/react';
 import { useCallback, useState } from 'react';
 import axios from 'axios';
@@ -97,7 +98,7 @@ export default function Play({
   const saveEcho = useCallback((n: number) => saveScore('echo', n), [saveScore]);
 
   return (
-    <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-20">
+    <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-0">
       <Head title={tr('للتسلية')} />
 
       <AppNav />
@@ -161,6 +162,7 @@ export default function Play({
           </>
         )}
       </main>
+      <AppFooter />
     </div>
   );
 }

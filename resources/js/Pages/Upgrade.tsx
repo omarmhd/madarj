@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react';
+import AppFooter from '@/Components/AppFooter';
 import { CircleCheck, Mail, MessageCircle, Phone } from 'lucide-react';
 import { Head, Link, usePage } from '@inertiajs/react';
 import { useState } from 'react';
@@ -109,7 +110,7 @@ export default function Upgrade({
   const done = state === 'sent' || pending !== null;
 
   return (
-    <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-20">
+    <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-0">
       <Head title={tr('الترقية')} />
 
       <AppNav />
@@ -308,6 +309,7 @@ export default function Upgrade({
           </>
         )}
       </main>
+      <AppFooter />
     </div>
   );
 }

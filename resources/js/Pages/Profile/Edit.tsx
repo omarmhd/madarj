@@ -1,3 +1,4 @@
+import AppFooter from '@/Components/AppFooter';
 import {
   ChartNoAxesColumn,
   ChevronLeft,
@@ -207,7 +208,7 @@ export default function Edit({
   const openRequest = sub.requests.find((r) => r.status === 'new' || r.status === 'contacted');
 
   return (
-    <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-20">
+    <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-0">
       <Head title={tr('حسابي')} />
 
       <AppNav />
@@ -561,6 +562,7 @@ export default function Edit({
           )}
         </main>
       </div>
+      <AppFooter />
     </div>
   );
 }

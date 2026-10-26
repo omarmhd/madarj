@@ -1,4 +1,5 @@
 import { BookOpen } from 'lucide-react';
+import AppFooter from '@/Components/AppFooter';
 import type { VoicePref } from '@/hooks/useSpeech';
 import { useSpeechPrefs, setSpeechPrefs } from '@/lib/speechPrefs';
 import { Head, usePage } from '@inertiajs/react';
@@ -289,6 +290,7 @@ export default function Stories({
           </>
         )}
       </main>
+      <AppFooter />
     </div>
   );
 }
