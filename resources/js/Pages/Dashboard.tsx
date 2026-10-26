@@ -138,17 +138,13 @@ export default function Dashboard({
    * listed eighteen locked weeks the learner cannot act on — the
    * dashboard ran to four screens, the useful part on the first.
    */
-  const [openModules, setOpenModules] = useState<Set<number>>(new Set());
-  const toggleModule = (n: number) =>
-    setOpenModules((prev) => {
-      const next = new Set(prev);
-      next.has(n) ? next.delete(n) : next.add(n);
-      return next;
-    });
+  const [pickedModule, setPickedModule] = useState<number | null>(null);
 
   const currentModule = modules.find(
     (m) => stats.current_week >= m.weeks[0] && stats.current_week <= m.weeks[1],
   );
+  /** The unit whose weeks are shown — the learner's own until they pick another */
+  const shownModule = pickedModule ?? currentModule?.number ?? 1;
 
   /** حالة الالتزام بالجدول — الفرق بين موضعه وما يجب أن يكون */
   const behind = stats.days_behind;
@@ -268,9 +264,16 @@ export default function Dashboard({
         </div>
       </header>
 
-      <main className="mx-auto max-w-4xl space-y-6 px-4 py-6">
+      {/*
+        Two columns from lg: the work (today, the road) and what sits
+        beside it (level, the optional extras, the rule). On a phone it is
+        one column in reading order — the wrappers dissolve (`contents`)
+        and each block takes its place by `order`.
+      */}
+      <main className="mx-auto flex max-w-4xl flex-col gap-6 px-4 py-6 lg:grid lg:grid-cols-[minmax(0,1fr)_17rem] lg:items-start">
+        <div className="contents lg:block lg:min-w-0 lg:space-y-6">
         {/* ============ Today — one primary action, never two ============ */}
-        <section className="space-y-3">
+        <section className="order-1 space-y-3">
           <h2 className="text-base font-bold text-slate-900">{tr('اليوم')}</h2>
 
         {wall ? (
@@ -434,7 +437,6 @@ export default function Dashboard({
         )}
         </section>
 
-        {level && <LevelCard level={level} />}
 
         {/*
           ============ Outside the study hour ============
@@ -444,7 +446,7 @@ export default function Dashboard({
           own colour and size and read as three unrelated interruptions
           between the level card and the course path.
         */}
-        <section className="space-y-3">
+        <section className="order-3 space-y-3 lg:hidden">
           <div>
             <h2 className="text-base font-bold text-slate-900">{tr('خارج ساعة الدراسة')}</h2>
             <p className="mt-0.5 text-sm text-slate-500">{tr('اختياريّ: يُحتسب ولا يُلزم، ولا يكسر سلسلتك.')}</p>
@@ -481,7 +483,7 @@ export default function Dashboard({
         </section>
 
         {/* ============ الطريق: أربع وحدات ============ */}
-        <section className="space-y-4">
+        <section className="order-4 space-y-4">
           <div className="flex items-baseline justify-between">
             <h2 className="text-base font-bold text-slate-900">{tr('الطريق كاملاً')}</h2>
             <p className="text-xs text-slate-500">
@@ -489,11 +491,45 @@ export default function Dashboard({
             </p>
           </div>
 
-          {modules.map((m) => {
+          {/* The four units as tabs: where you are, how far each is, one open */}
+          <div className="grid grid-cols-2 gap-2 sm:grid-cols-4" role="tablist">
+            {modules.map((m) => {
+              const rows = weeks.filter((w) => w.module === m.number);
+              const done = rows.filter((w) => w.days_done >= 7).length;
+              const on = shownModule === m.number;
+              const here = currentModule?.number === m.number;
+              return (
+                <button
+                  key={m.number}
+                  type="button"
+                  role="tab"
+                  aria-selected={on}
+                  onClick={() => setPickedModule(m.number)}
+                  className={`rounded-2xl p-3 text-start ring-1 transition ${
+                    on ? 'bg-white shadow-sm ring-2 ring-violet-300' : 'bg-white/70 ring-slate-200 hover:bg-white'
+                  }`}
+                >
+                  <span className="flex items-center justify-between gap-2">
+                    <span className="text-sm font-bold text-slate-900">{tr('الوحدة')} {m.number}</span>
+                    {here && <span className="h-2 w-2 rounded-full bg-violet-600" aria-label={tr('أنت هنا')} />}
+                  </span>
+                  <span className="mt-0.5 block truncate text-xs text-slate-500">{m.title_ar}</span>
+                  <span className="mt-2 flex items-center gap-2">
+                    <span className="h-1.5 flex-1 overflow-hidden rounded-full bg-slate-100">
+                      <span className="block h-full rounded-full bg-violet-600" style={{ width: `${(done / 6) * 100}%` }} />
+                    </span>
+                    <span className="text-xs font-medium text-slate-500" dir="ltr">{m.from}→{m.to}</span>
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+
+          {modules.filter((m) => m.number === shownModule).map((m) => {
             const rows = weeks.filter((w) => w.module === m.number);
             const done = rows.filter((w) => w.days_done >= 7).length;
             const isCurrent = currentModule?.number === m.number;
-            const isOpen = isCurrent || openModules.has(m.number);
+            const isOpen = true;
 
             return (
               <div
@@ -503,13 +539,8 @@ export default function Dashboard({
                 }`}
               >
                 {/* رأس الوحدة */}
-                <button
-                  type="button"
-                  onClick={() => !isCurrent && toggleModule(m.number)}
-                  aria-expanded={isOpen}
-                  className={`flex w-full flex-wrap items-center justify-between gap-x-3 gap-y-2 bg-slate-50/70 px-4 py-3.5 text-start sm:px-5 ${
-                    isOpen ? 'border-b border-slate-100' : ''
-                  } ${isCurrent ? 'cursor-default' : 'transition hover:bg-slate-100/70'}`}
+                <div
+                  className="flex w-full flex-wrap items-center justify-between gap-x-3 gap-y-2 border-b border-slate-100 bg-slate-50/70 px-4 py-3.5 text-start sm:px-5"
                 >
                   <div className="min-w-0">
                     <p className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm font-bold text-slate-900">
@@ -541,15 +572,8 @@ export default function Dashboard({
                     </span>
                     <span className="text-xs text-slate-500">{m.words} كلمة</span>
                     <span className="text-xs font-medium text-slate-600">{done}/6</span>
-                    {!isCurrent && (
-                      <ChevronDown
-                        aria-hidden
-                        size={16}
-                        className={`text-slate-400 transition-transform ${isOpen ? 'rotate-180' : ''}`}
-                      />
-                    )}
                   </div>
-                </button>
+                </div>
 
                 {/* أسابيع الوحدة */}
                 {isOpen && (
@@ -703,10 +727,39 @@ export default function Dashboard({
           })}
         </section>
 
+        </div>
+
+        <aside className="contents lg:sticky lg:top-20 lg:block lg:space-y-6">
+          {level && <div className="order-2"><LevelCard level={level} /></div>}
+
+          {/* The extras, stacked, beside the road on wide screens */}
+          <section className="hidden space-y-3 lg:block">
+            <h2 className="text-base font-bold text-slate-900">{tr('خارج ساعة الدراسة')}</h2>
+            <Link href="/play" className={TILE}>
+              <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-violet-50 text-violet-600">
+                <Gamepad2 aria-hidden size={20} />
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="block font-semibold text-slate-900">{tr('للتسلية')}</span>
+                <span className="mt-0.5 block text-sm leading-relaxed text-slate-500">{tr('كلمة اليوم وثلاث ألعاب قصيرة')}</span>
+              </span>
+            </Link>
+            <Link href="/stories" className={TILE}>
+              <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-sky-50 text-sky-600">
+                <BookOpen aria-hidden size={20} />
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="block font-semibold text-slate-900">{tr('قصص')}</span>
+                <span className="mt-0.5 block text-sm leading-relaxed text-slate-500">{tr('قراءة مسموعة بمستواك')}</span>
+              </span>
+            </Link>
+          </section>
+
         {/* ============ قاعدة الكتاب ============ */}
-        <p className="rounded-xl border-s-4 border-slate-300 bg-white p-4 text-sm leading-relaxed text-slate-700 ring-1 ring-slate-200">
+        <p className="order-5 rounded-xl border-s-4 border-slate-300 bg-white p-4 text-sm leading-relaxed text-slate-700 ring-1 ring-slate-200">
           <strong>{tr('80% هو الهدف لا 100%.')}</strong> {tr('من يصرّ على الكمال يتوقّف. ويوم فائت ليس فشلاً — السلسلة تسامح فجوة يوم واحد.')}
         </p>
+        </aside>
       </main>
     </div>
   );

@@ -754,28 +754,21 @@ export default function WeekShow({
             <ProgressRing percent={weekPercent} />
           </div>
 
-          {/* الأرقام في سطر مستقلّ: على الموبايل لا تزاحم العنوان */}
-          <div className="mt-3.5 flex flex-wrap items-center gap-2">
-            {[
-              { v: stats.streak, l: tr('سلسلة'), icon: <Flame size={14} /> },
-              { v: `${doneDays}/${dayStates.length}`, l: tr('أيام'), icon: <CalendarCheck size={14} /> },
-              {
-                v: `مسار ${stats.track}`,
-                l: stats.track === 'A' ? tr('ساعة يومياً') : tr('ساعتان يومياً'),
-                icon: <Timer size={14} />,
-              },
-            ].map((x, i) => (
-              <span
-                key={i}
-                className="flex items-baseline gap-1.5 rounded-lg bg-white/15 px-2.5 py-1.5
-                           text-xs ring-1 ring-white/20 backdrop-blur"
-              >
-                <span aria-hidden className="opacity-70">{x.icon}</span>
-                <span className="font-bold text-white">{x.v}</span>
-                <span className="text-xs text-violet-100/80">{x.l}</span>
-              </span>
-            ))}
-          </div>
+          {/* The numbers, one quiet line: three boxes competed with the title */}
+          <p className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-violet-100/90">
+            <span className="inline-flex items-center gap-1">
+              <Flame aria-hidden size={14} /> <strong className="text-white">{stats.streak}</strong> {tr('سلسلة')}
+            </span>
+            <span aria-hidden className="opacity-50">·</span>
+            <span className="inline-flex items-center gap-1">
+              <CalendarCheck aria-hidden size={14} /> <strong className="text-white">{doneDays}/{dayStates.length}</strong> {tr('أيام')}
+            </span>
+            <span aria-hidden className="opacity-50">·</span>
+            <span className="inline-flex items-center gap-1">
+              <Timer aria-hidden size={14} /> {tr('مسار')} <strong className="text-white">{stats.track}</strong>
+              <span className="opacity-80">({stats.track === 'A' ? tr('ساعة يومياً') : tr('ساعتان يومياً')})</span>
+            </span>
+          </p>
 
           {/*
             الخطّة الأسبوعيّة للكلام.
@@ -796,52 +789,21 @@ export default function WeekShow({
         </div>
       </header>
 
-      {/* ============ شريط ثابت: أقسام الصفحة + سرعة النطق ============ */}
-      <div ref={stickyBar} className="sticky top-11 z-30 border-b border-slate-200 bg-white/90 backdrop-blur sm:top-14">
-        <div className="mx-auto max-w-4xl px-4">
-          {/* الأقسام — أيقونة ونصّ، وحجم يسهل على الإبهام */}
-          <nav className="-mx-1 flex gap-1 overflow-x-auto py-2">
-            {SECTIONS.map((sec) => (
-              <a
-                key={sec.id}
-                href={`#${sec.id}`}
-                onClick={(e) => {
-                  e.preventDefault();
-                  // «كل المحتوى» يُفتح أيضاً — التمرير إلى زرّ مغلق لا يفيد
-                  if (sec.id === 'library') setLibraryOpen(true);
-                  // بعد الفتح لأن ارتفاع الصفحة يتغيّر بفتحه
-                  requestAnimationFrame(() => scrollToSection(sec.id));
-                }}
-                className={`flex min-h-11 shrink-0 items-center gap-1.5 rounded-xl px-3 text-sm
-                            ring-1 transition active:scale-95 ${
-                              activeSection === sec.id
-                                ? 'bg-violet-600 text-white ring-violet-600'
-                                : 'bg-slate-50 text-slate-700 ring-slate-200 hover:bg-violet-50 hover:text-violet-800 hover:ring-violet-200'
-                            }`}
-              >
-                <span aria-hidden>{sec.icon}</span>
-                <span className="whitespace-nowrap font-medium">{tr(sec.label)}</span>
-              </a>
-            ))}
-          </nav>
-
-          {/* Voice and speed matter only where the library speaks */}
-          {supported && libraryOpen && (
-            <div className="flex flex-wrap items-center justify-between gap-3 border-t border-slate-100 py-2">
-              <SpeechControls
-                voice={voice}
-                onVoice={setVoice}
-                rate={rate}
-                onRate={setRate}
-                size="md"
-                label={tr('سرعة النطق')}
-              />
-            </div>
-          )}
+      {/*
+        The sticky bar held two tabs — "the week's days" and "all of the
+        week's content" — for a page whose second part is one button at
+        its foot. Now it appears only with the library open, and holds the
+        one thing the library needs: voice and speed.
+      */}
+      {supported && libraryOpen && (
+        <div ref={stickyBar} className="sticky top-11 z-30 border-b border-slate-200 bg-white/90 backdrop-blur sm:top-14">
+          <div className="mx-auto flex max-w-4xl flex-wrap items-center gap-3 px-4 py-2">
+            <SpeechControls voice={voice} onVoice={setVoice} rate={rate} onRate={setRate} size="md" label={tr('سرعة النطق')} />
+          </div>
         </div>
-      </div>
+      )}
 
-      <main className="mx-auto max-w-4xl space-y-10 px-4 py-8">
+      <main className="mx-auto max-w-4xl space-y-8 px-4 py-6 sm:py-8">
         {!supported && (
           <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
             {tr('متصفحك لا يدعم النطق الآلي. كل شيء آخر يعمل، لكن أزرار الاستماع معطّلة — استخدم Chrome أو Edge للاستفادة من النطق.')}
