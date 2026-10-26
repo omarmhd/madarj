@@ -20,11 +20,19 @@ import { soundsIn } from '@/lib/articulation';
  * لا يوجد ملف صوتي واحد على الخادم — Web Speech ينطق كل شيء.
  */
 
+export interface PairGloss {
+  word: string;
+  arabic: string | null;
+  example: string | null;
+}
+
 interface Pair {
   id: number;
   ipa: string | null;
   word_a: string;
   word_b: string;
+  /** Meaning and a sentence for each word, a then b */
+  gloss?: PairGloss[];
 }
 
 /**
@@ -423,11 +431,19 @@ export default function MinimalPairGame({ groups, target: targetProp, onFinish, 
               key={side}
               onClick={() => pick(side)}
               disabled={phase === 'idle' || revealed}
-              className={`flex h-20 items-center justify-center gap-2 rounded-2xl text-2xl font-bold transition
+              className={`flex min-h-20 flex-col items-center justify-center rounded-2xl py-2 transition
                           active:scale-[.98] disabled:cursor-not-allowed ${style}`}
             >
-              {word}
-              {revealed && isRight && <Check aria-hidden size={20} className="text-emerald-600" />}
+              <span className="flex items-center gap-2 text-2xl font-bold">
+                {word}
+                {revealed && isRight && <Check aria-hidden size={20} className="text-emerald-600" />}
+              </span>
+              {/* The meaning gives nothing away: it does not say which word was spoken */}
+              {current.pair.gloss?.[side === 'a' ? 0 : 1]?.arabic && (
+                <span className="mt-0.5 text-sm font-normal text-slate-500" dir="rtl">
+                  {current.pair.gloss[side === 'a' ? 0 : 1].arabic}
+                </span>
+              )}
             </button>
           );
         })}
@@ -451,6 +467,18 @@ export default function MinimalPairGame({ groups, target: targetProp, onFinish, 
               <Volume2 aria-hidden size={15} /> {tr('اسمع الاثنتين')}
             </button>
           </div>
+          {(() => {
+            const g = current.pair.gloss?.[current.spoken === 'a' ? 0 : 1];
+            return g?.example ? (
+              <button
+                onClick={() => say(g.example!, { slow: true })}
+                className="mt-3 flex w-full items-center gap-2 rounded-xl bg-slate-50 px-3 py-2 text-start text-base text-slate-800 hover:bg-slate-100"
+                dir="ltr"
+              >
+                <Volume2 aria-hidden size={15} className="shrink-0 text-violet-600" /> {g.example}
+              </button>
+            ) : null;
+          })()}
           <div key={index}>
             <Countdown ms={autoMs} tone={right ? 'emerald' : 'rose'} />
           </div>

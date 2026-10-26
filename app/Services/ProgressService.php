@@ -253,6 +253,16 @@ class ProgressService
             abort_if(mb_strlen(trim((string) $proof)) < 3, 422, 'اكتب ما فعلته في مغامرتك أولاً، ثم أنجز المهمة.');
         }
 
+        // Today's episode counts only with an English line heard in it
+        if ($done && str_starts_with((string) ($task['ref'] ?? ''), 'watch:')) {
+            $proof = \App\Models\WeekNote::where('user_id', $user->id)
+                ->where('week_id', $week->id)
+                ->where('kind', 'watch')
+                ->first()?->answers['day'.$day->number] ?? '';
+
+            abort_unless(preg_match('/[A-Za-z]{2,}/', (string) $proof), 422, 'اكتب ما سمعته في الحلقة بالإنجليزية أولاً، ثم أنجز المهمة.');
+        }
+
         return DB::transaction(function () use ($user, $week, $day, $taskOrder, $done) {
             $completion = DayCompletion::firstOrCreate(
                 [

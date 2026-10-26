@@ -1,5 +1,5 @@
 import {
-  AudioLines,
+  Clapperboard,
   BookOpen,
   BookOpenText,
   ClipboardCheck,
@@ -80,8 +80,8 @@ export function taskKind(blocks: BlockLike[]): TaskKind {
       return { Icon: RotateCcw, short: 'المراجعة', purpose: 'كلمات حان وقت مراجعتها — اكتبها من الذاكرة' };
     case 'exercises':
       return { Icon: ListChecks, short: 'التمارين', purpose: 'طبّق ما تعلّمته اليوم' };
-    case 'shadow':
-      return { Icon: AudioLines, short: 'اسمع وردّد', purpose: 'تسمع الجملة ثم تقولها بصوت عالٍ — بلا ضغط على شيء' };
+    case 'watch':
+      return { Icon: Clapperboard, short: 'حلقة اليوم', purpose: 'حلقة قصيرة من مسلسل للمتعلّمين — شاهدها واكتب ما سمعت' };
     case 'imitate':
       return { Icon: Feather, short: 'اكتب مثله', purpose: 'اقرأ النموذج، ثم اكتب مثله عنك أنت' };
     case 'writing':

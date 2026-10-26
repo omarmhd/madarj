@@ -607,13 +607,11 @@ class WeekController extends Controller
                 continue;
             }
 
-            if ($token === 'shadow') {
-                // No material at all: fall back to the week's speaking task
-                $blocks[] = $this->shadowFor($week, $day) ?? [
-                    'type'     => 'record',
-                    'baseline' => false,
-                    'speaking' => $week->sections->firstWhere('kind', 'speaking')?->payload,
-                ];
+            if (str_starts_with($token, 'watch:')) {
+                $block = $this->watchFor($week, $day, substr($token, 6));
+                if ($block) {
+                    $blocks[] = $block;
+                }
 
                 continue;
             }
@@ -887,152 +885,56 @@ class WeekController extends Controller
     }
 
     /**
-     * Today's shadowing paragraph.
+     * Today's episode — a short official video in place of shadowing.
      *
-     * Drawn from what the learner has already met this week — a dialogue
-     * or listening text introduced on or before today — so it never
-     * shows the listening transcript before the day whose method says
-     * "do not read the text before step three". Before any of those
-     * appear, it falls back to the survival phrases, then to the example
-     * sentences of words already learned.
+     * The week file names the video (`watch:<youtube id>`), and
+     * `content/watch.json` names its series. How to watch grows with the
+     * course: English captions first, then a second viewing without them,
+     * then without them from the start. The written proof is required —
+     * ProgressService checks it, as it does the adventure's.
      */
-    protected function shadowFor(Week $week, int $day): ?array
+    protected function watchFor(Week $week, int $day, string $id): ?array
     {
-        $intro = $this->introductions($week);
-        $introducedBy = fn (string $key) => ($intro[$key] ?? 99) <= $day;
+        static $catalog = null;
+        $catalog ??= json_decode(file_get_contents(base_path('content/watch.json')), true);
 
-        $dialogueParts = function (bool $onlyIntroduced) use ($week, $introducedBy): array {
-            $parts = [];
-
-            foreach ($week->dialogues->sortBy('number') as $d) {
-                if ($onlyIntroduced && ! $introducedBy('dialogue:'.$d->number)) {
-                    continue;
-                }
-
-                $spoken = $d->lines->filter(fn ($l) => $l->speaker)->values()->all();
-                $genders = $d->speaker_genders ?? [];
-
-                foreach ($this->balancedChunks($spoken, 4) as $chunk) {
-                    $chunk = collect($chunk);
-                    $parts[] = [
-                        'source_ar' => 'من الحوار '.$d->number,
-                        'title_en'  => $d->title,
-                        'lines'     => $chunk->map(fn ($l) => [
-                            'en'      => $l->en,
-                            'speaker' => $l->speaker,
-                            'gender'  => $genders[$l->speaker] ?? $genders[strtoupper($l->speaker)] ?? null,
-                        ])->values()->all(),
-                        'ar' => $chunk->pluck('ar')->filter()->implode(' '),
-                    ];
-                }
-            }
-
-            return $parts;
-        };
-
-        $pool = $dialogueParts(true);
-
-        $listening = $week->sections->firstWhere('kind', 'listening');
-        if ($listening && $introducedBy('section:listening')) {
-            foreach ($listening->payload['transcript'] ?? [] as $para) {
-                $sentences = preg_split('/(?<=[.!?])\s+/u', trim($para['en'] ?? ''), -1, PREG_SPLIT_NO_EMPTY);
-
-                // A long paragraph becomes short ones; a part has no matching translation
-                $parts = $this->balancedChunks($sentences, 5);
-                foreach ($parts as $part) {
-                    $pool[] = [
-                        'source_ar' => 'من نص الاستماع',
-                        'title_en'  => $listening->title_en,
-                        'lines'     => array_map(fn ($en) => ['en' => $en], $part),
-                        'ar'        => count($parts) === 1 ? ($para['ar'] ?? null) : null,
-                    ];
-                }
-            }
-        }
-
-        if ($pool === []) {
-            $phrases = $week->sections->firstWhere('kind', 'phrases');
-            $items = collect($phrases?->payload['groups'] ?? [])->flatMap(fn ($g) => $g['items'] ?? []);
-
-            if ($phrases && $introducedBy('section:phrases')) {
-                foreach ($items->chunk(5) as $chunk) {
-                    $pool[] = [
-                        'source_ar' => 'من عبارات النجاة',
-                        'title_en'  => null,
-                        'lines'     => $chunk->map(fn ($i) => ['en' => $i['en']])->values()->all(),
-                        'ar'        => $chunk->pluck('ar')->implode(' · '),
-                    ];
-                }
-            }
-        }
-
-        if ($pool === []) {
-            $groups = collect($intro)
-                ->filter(fn ($d, $k) => str_starts_with($k, 'vocab:') && $d <= $day)
-                ->keys()->map(fn ($k) => substr($k, 6));
-
-            $examples = $week->vocabulary->whereIn('group', $groups->all())
-                ->pluck('example')->filter()->unique()->values();
-
-            if ($examples->isNotEmpty()) {
-                $pool[] = [
-                    'source_ar' => 'جمل من كلمات هذا الأسبوع',
-                    'title_en'  => null,
-                    'lines'     => $examples->take(5)->map(fn ($e) => ['en' => $e])->values()->all(),
-                    'ar'        => null,
-                ];
-            }
-        }
-
-        // Nothing met yet: a dialogue ahead of its day still beats no shadowing
-        if ($pool === []) {
-            $pool = $dialogueParts(false);
-        }
-
-        /*
-         * A week with no dialogues of its own — the review weeks, and the
-         * situations week. Its unit's earlier dialogues, then: shadowing
-         * a conversation already studied is exactly what review is for.
-         */
-        if ($pool === [] && $week->number > 1) {
-            $earlier = \App\Models\Dialogue::with('lines')
-                ->whereIn('week_id', Week::whereBetween('number', [max(1, $week->number - 5), $week->number - 1])->pluck('id'))
-                ->get();
-
-            foreach ($earlier as $d) {
-                $spoken = $d->lines->filter(fn ($l) => $l->speaker)->values()->all();
-                $genders = $d->speaker_genders ?? [];
-
-                foreach ($this->balancedChunks($spoken, 4) as $chunk) {
-                    $chunk = collect($chunk);
-                    $pool[] = [
-                        'source_ar' => 'من حوار سابق في هذه الوحدة',
-                        'title_en'  => $d->title,
-                        'lines'     => $chunk->map(fn ($l) => [
-                            'en'      => $l->en,
-                            'speaker' => $l->speaker,
-                            'gender'  => $genders[$l->speaker] ?? $genders[strtoupper($l->speaker)] ?? null,
-                        ])->values()->all(),
-                        'ar' => $chunk->pluck('ar')->filter()->implode(' '),
-                    ];
-                }
-            }
-
-            // Spread the days across the unit, not the first dialogue's four parts
-            $step = max(1, intdiv(count($pool), 6));
-            $pool = array_values(array_filter($pool, fn ($_, $i) => $i % $step === 0, ARRAY_FILTER_USE_BOTH));
-        }
-
-        if ($pool === []) {
+        $episode = $catalog['episodes'][$id] ?? null;
+        if (! $episode) {
             return null;
         }
+        $series = $catalog['series'][$episode['series']] ?? [];
+
+        $module = (int) ($week->module ?: 1);
+        [$steps, $proof] = match (true) {
+            $module === 1 => [[
+                'شاهد الحلقة كاملة والترجمة الإنجليزية ظاهرة. لا بأس إن فاتك كثير منها.',
+                'أعد أول دقيقة، وأوقف الفيديو عند كل جملة فهمتها وقلها بصوتك.',
+            ], 'اكتب جملة إنجليزية واحدة سمعتها في الحلقة، ثم معناها بالعربية.'],
+            $module === 2 => [[
+                'شاهد الحلقة مرة والترجمة الإنجليزية ظاهرة.',
+                'ثم مرة ثانية بلا ترجمة (زرّ CC). كم فهمت هذه المرة؟',
+            ], 'اكتب جملتين إنجليزيتين سمعتهما، ثم سطراً بالعربية: ماذا حدث في الحلقة؟'],
+            default => [[
+                'شاهد الحلقة أولاً بلا ترجمة (زرّ CC)، وحاول أن تتبع القصة.',
+                'ثم شاهدها والترجمة الإنجليزية ظاهرة، لترى ما فاتك.',
+            ], 'لخّص الحلقة بالإنجليزية في جملتين أو ثلاث.'],
+        };
 
         return [
-            'type'   => 'shadow',
-            'shadow' => [
-                ...$pool[max(0, $day - 1) % count($pool)],
-                'save_as' => sprintf('Week%02d-Day%d', $week->number, $day),
+            'type'     => 'watch',
+            'day'      => $day,
+            'video'    => $id,
+            'title'    => $episode['title'],
+            'number'   => $episode['no'],
+            'series'   => [
+                'title'   => $series['title'] ?? '',
+                'part_ar' => $series['part_ar'] ?? '',
+                'channel' => $series['channel'] ?? '',
+                'about_ar' => $series['about_ar'] ?? '',
             ],
+            'captions' => $module <= 2,
+            'steps'    => $steps,
+            'proof'    => $proof,
         ];
     }
 

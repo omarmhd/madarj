@@ -1,0 +1,63 @@
+<?php
+
+namespace App\Console\Commands;
+
+use Illuminate\Console\Command;
+use Illuminate\Support\Facades\Http;
+
+/**
+ * Checks every daily episode still plays inside the platform.
+ *
+ * A channel can delete a video or turn off embedding at any time, and
+ * nothing on our side would notice: the learner just meets a black box
+ * and a station they cannot finish. YouTube's oEmbed answers 200 only
+ * for a video that exists and may be embedded, so one request each
+ * tells us. Run it now and then; it reads the week files, not the DB.
+ */
+class CheckWatch extends Command
+{
+    protected $signature = 'watch:check';
+
+    protected $description = 'Check that every watch:<id> episode exists in watch.json and can still be embedded';
+
+    public function handle(): int
+    {
+        $catalog = json_decode(file_get_contents(base_path('content/watch.json')), true)['episodes'] ?? [];
+
+        $used = [];
+        foreach (glob(base_path('content/week-*.json')) as $file) {
+            $week = json_decode(file_get_contents($file), true);
+            foreach ($week['days'] ?? [] as $day) {
+                foreach ($day['tasks'] ?? [] as $task) {
+                    if (str_starts_with((string) ($task['ref'] ?? ''), 'watch:')) {
+                        $used[substr($task['ref'], 6)][] = "w{$week['number']}d{$day['number']}";
+                    }
+                }
+            }
+        }
+
+        $bad = 0;
+        foreach ($used as $id => $where) {
+            $at = implode(', ', $where);
+            if (! isset($catalog[$id])) {
+                $this->error("{$id} ({$at}): not in content/watch.json");
+                $bad++;
+
+                continue;
+            }
+
+            $res = Http::timeout(20)->get('https://www.youtube.com/oembed', [
+                'format' => 'json',
+                'url'    => 'https://www.youtube.com/watch?v='.$id,
+            ]);
+            if (! $res->ok()) {
+                $this->error("{$id} ({$at}): HTTP {$res->status()} — deleted, private, or embedding turned off");
+                $bad++;
+            }
+        }
+
+        $this->line(count($used).' episodes checked, '.$bad.' broken.');
+
+        return $bad ? self::FAILURE : self::SUCCESS;
+    }
+}

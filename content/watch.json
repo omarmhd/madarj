@@ -1,0 +1,760 @@
+{
+  "_about": "حلقة اليوم — بديل الشادوينج. كل مهمّة في الخطة مرجعها watch:<معرّف يوتيوب>، وهنا اسم الحلقة ومسلسلها. القنوات رسمية فقط (VOA وBBC) لأن النسخ المنقولة تُحذف. وتحقّق من أن الحلقة ما زالت قابلة للتضمين بـ php artisan watch:check.",
+  "series": {
+    "lle1": {
+      "title": "Let's Learn English",
+      "part_ar": "المستوى الأول",
+      "channel": "VOA Learning English",
+      "about_ar": "مسلسل قصير صنعته إذاعة صوت أمريكا للمبتدئين: آنّا تنتقل إلى واشنطن وتبدأ حياة جديدة. خمس دقائق للحلقة، بكلام بطيء وواضح."
+    },
+    "lle2": {
+      "title": "Let's Learn English",
+      "part_ar": "المستوى الثاني",
+      "channel": "VOA Learning English",
+      "about_ar": "تكمل قصّة آنّا في واشنطن، بكلام أسرع قليلاً وتراكيب أكثر: الماضي والمستقبل والمقارنة."
+    },
+    "eaw": {
+      "title": "English at Work",
+      "part_ar": "إنجليزية العمل",
+      "channel": "BBC Learning English",
+      "about_ar": "مسلسل كوميدي من بي بي سي: آنّا تتقدّم لوظيفة في شركة بلندن، ثم تعمل فيها مع مديرها بول وزميلها توم. مشاهد قصيرة من المكتب، وبينها شرح لعباراتها."
+    }
+  },
+  "episodes": {
+    "WR9_nsLyaEY": {
+      "series": "lle1",
+      "no": 1,
+      "title": "Welcome!"
+    },
+    "1-U7o9xjWQc": {
+      "series": "lle1",
+      "no": 2,
+      "title": "Hello, I'm Anna!"
+    },
+    "IEA9LMy-N3M": {
+      "series": "lle1",
+      "no": 3,
+      "title": "I'm Here!"
+    },
+    "Z5PF-vJdUdc": {
+      "series": "lle1",
+      "no": 4,
+      "title": "What Is It?"
+    },
+    "lDaZB5BBw7M": {
+      "series": "lle1",
+      "no": 5,
+      "title": "Where Are You?"
+    },
+    "T3AJ29_2IX8": {
+      "series": "lle1",
+      "no": 6,
+      "title": "Where Is the Gym?"
+    },
+    "Ka33lX-kbMg": {
+      "series": "lle1",
+      "no": 7,
+      "title": "What Are You Doing?"
+    },
+    "sp0cwcd1fGE": {
+      "series": "lle1",
+      "no": 8,
+      "title": "Are You Busy?"
+    },
+    "ZfdNbSe7Prw": {
+      "series": "lle1",
+      "no": 9,
+      "title": "Is It Cold?"
+    },
+    "1Lo_ICJYxZI": {
+      "series": "lle1",
+      "no": 10,
+      "title": "Come Over to My Place"
+    },
+    "8_npDNRKGIE": {
+      "series": "lle1",
+      "no": 11,
+      "title": "This Is My Neighborhood"
+    },
+    "cyRaZA9ZD08": {
+      "series": "lle1",
+      "no": 12,
+      "title": "Meet My Family"
+    },
+    "jkutq1P7AHU": {
+      "series": "lle1",
+      "no": 13,
+      "title": "Happy Birthday, William Shakespeare!"
+    },
+    "4Xn1Ysdmuvg": {
+      "series": "lle1",
+      "no": 14,
+      "title": "How About This?"
+    },
+    "c6_7RYaNgdA": {
+      "series": "lle1",
+      "no": 15,
+      "title": "I Love People-Watching!"
+    },
+    "QQavoMYmMVE": {
+      "series": "lle1",
+      "no": 16,
+      "title": "Where Are You From?"
+    },
+    "91sCUUVTDV8": {
+      "series": "lle1",
+      "no": 17,
+      "title": "Are You Free on Friday?"
+    },
+    "he12VfXp5Ec": {
+      "series": "lle1",
+      "no": 18,
+      "title": "She Always Does That"
+    },
+    "lgEodUvA5Po": {
+      "series": "lle1",
+      "no": 19,
+      "title": "When Do I Start?"
+    },
+    "2juFXfLsSJk": {
+      "series": "lle1",
+      "no": 20,
+      "title": "What Can You Do?"
+    },
+    "A9lwBqNZEh8": {
+      "series": "lle1",
+      "no": 21,
+      "title": "Can You Come to the Party?"
+    },
+    "8Whu9xgm3dE": {
+      "series": "lle1",
+      "no": 22,
+      "title": "Next Summer..."
+    },
+    "DzaLlp_kG6c": {
+      "series": "lle1",
+      "no": 23,
+      "title": "What Do You Want?"
+    },
+    "7BDjr0Oc6VM": {
+      "series": "lle1",
+      "no": 24,
+      "title": "Yesterday Was Amazing"
+    },
+    "bfRNAlZRiHg": {
+      "series": "lle1",
+      "no": 25,
+      "title": "Watch Out!"
+    },
+    "x2SQcTFvVzw": {
+      "series": "lle1",
+      "no": 26,
+      "title": "This Game Is Fun!"
+    },
+    "d_4TVWhqX4E": {
+      "series": "lle1",
+      "no": 27,
+      "title": ""
+    },
+    "rn7kmGroxKs": {
+      "series": "lle1",
+      "no": 28,
+      "title": "I Passed It!"
+    },
+    "_demyJmMyCo": {
+      "series": "lle1",
+      "no": 29,
+      "title": "A Long Time Ago"
+    },
+    "GnQEE0gEir0": {
+      "series": "lle1",
+      "no": 30,
+      "title": "Rolling on the River"
+    },
+    "xfMnWypEufs": {
+      "series": "lle1",
+      "no": 31,
+      "title": "Take Me Out to the Ball Game"
+    },
+    "1egFRwUFc48": {
+      "series": "lle1",
+      "no": 32,
+      "title": "Welcome to the Treehouse!"
+    },
+    "GpiXMzf3FvY": {
+      "series": "lle1",
+      "no": 33,
+      "title": "Learning America's Sport"
+    },
+    "qIiGG0pwzwk": {
+      "series": "lle1",
+      "no": 34,
+      "title": "What Will I Do?"
+    },
+    "6rFolPv2ntQ": {
+      "series": "lle1",
+      "no": 35,
+      "title": "Let's Make Dinner!"
+    },
+    "NXYXu9Kcb7o": {
+      "series": "lle1",
+      "no": 36,
+      "title": "I Can Fix This!"
+    },
+    "AGYPb0eeIs8": {
+      "series": "lle1",
+      "no": 37,
+      "title": "Let's Agree to Disagree"
+    },
+    "oPEzfd7ZKQs": {
+      "series": "lle1",
+      "no": 38,
+      "title": "She's My Best Friend!"
+    },
+    "FpCQfJLD4K8": {
+      "series": "lle1",
+      "no": 39,
+      "title": "It's Unbelievable!"
+    },
+    "nABtxJy06Yo": {
+      "series": "lle1",
+      "no": 40,
+      "title": "The Woods Are Alive"
+    },
+    "jCSHkjcmZvs": {
+      "series": "lle1",
+      "no": 41,
+      "title": "Teamwork Works Best With a Team"
+    },
+    "0aa78zW51so": {
+      "series": "lle1",
+      "no": 42,
+      "title": "I Was Minding My Own Business"
+    },
+    "4z_TK18v2u8": {
+      "series": "lle1",
+      "no": 43,
+      "title": "Time for Plan B"
+    },
+    "R4SVqLFBhVY": {
+      "series": "lle1",
+      "no": 45,
+      "title": "This Land Is Your Land"
+    },
+    "1z7pSR1nW54": {
+      "series": "lle1",
+      "no": 46,
+      "title": "May I Borrow That?"
+    },
+    "vlNqXVmMPNY": {
+      "series": "lle1",
+      "no": 47,
+      "title": "How Can I Help?"
+    },
+    "Dngj5yTCQIY": {
+      "series": "lle1",
+      "no": 48,
+      "title": "Have You Ever...?"
+    },
+    "qDqwN0mXm1o": {
+      "series": "lle1",
+      "no": 49,
+      "title": "Operation Spy"
+    },
+    "DGAUQIcY8FA": {
+      "series": "lle1",
+      "no": 50,
+      "title": "Back to School"
+    },
+    "GvjBCQ3KOws": {
+      "series": "lle1",
+      "no": 51,
+      "title": ""
+    },
+    "vJPvOYb1K10": {
+      "series": "lle1",
+      "no": 52,
+      "title": "Taking Chances"
+    },
+    "4XaAE5NRHVM": {
+      "series": "lle2",
+      "no": 1,
+      "title": "Budget Cuts"
+    },
+    "xokbf-np33Q": {
+      "series": "lle2",
+      "no": 2,
+      "title": "The Interview"
+    },
+    "a7X5ftOnp74": {
+      "series": "lle2",
+      "no": 3,
+      "title": "He Said - She Said"
+    },
+    "OR0d7fb_Ls0": {
+      "series": "lle2",
+      "no": 4,
+      "title": "Run Away With the Circus!"
+    },
+    "yJ5fpEFx6j8": {
+      "series": "lle2",
+      "no": 5,
+      "title": "Greatest Vacation of All Time"
+    },
+    "5xdLrGkmbcg": {
+      "series": "lle2",
+      "no": 6,
+      "title": "Will It Float?"
+    },
+    "x9MqYQYAGdA": {
+      "series": "lle2",
+      "no": 7,
+      "title": "Tip Your Tour Guide"
+    },
+    "WoJVDTaQQ5A": {
+      "series": "lle2",
+      "no": 8,
+      "title": ""
+    },
+    "8aa3uD1Ywjc": {
+      "series": "lle2",
+      "no": 9,
+      "title": "Pets Are Family, Too!"
+    },
+    "O08F0xp1UGk": {
+      "series": "lle2",
+      "no": 10,
+      "title": "Visit to Peru"
+    },
+    "DimMV7rUOhQ": {
+      "series": "lle2",
+      "no": 11,
+      "title": "The Big Snow"
+    },
+    "VwoIWAsBQgM": {
+      "series": "lle2",
+      "no": 12,
+      "title": "Run! Bees!"
+    },
+    "sh-haAqZiy8": {
+      "series": "lle2",
+      "no": 13,
+      "title": "Save the Bees!"
+    },
+    "5fkai35hhVI": {
+      "series": "lle2",
+      "no": 14,
+      "title": "Made for Each Other"
+    },
+    "bUvWLxbXtkE": {
+      "series": "lle2",
+      "no": 15,
+      "title": "Before and After"
+    },
+    "0drJKfs3voQ": {
+      "series": "lle2",
+      "no": 16,
+      "title": "Find Your Joy!"
+    },
+    "Ow8u0Zk2wV4": {
+      "series": "lle2",
+      "no": 17,
+      "title": "Flour Baby, Part 1"
+    },
+    "AMjUoPYXkdY": {
+      "series": "lle2",
+      "no": 18,
+      "title": "Flour Baby, Part 2"
+    },
+    "-e3XRPYy-ig": {
+      "series": "lle2",
+      "no": 19,
+      "title": "Movie Night"
+    },
+    "s9gHdZNuBuU": {
+      "series": "lle2",
+      "no": 20,
+      "title": "The Test Drive"
+    },
+    "Gn383Wyl0UQ": {
+      "series": "lle2",
+      "no": 21,
+      "title": "It Speaks to Me"
+    },
+    "EOyRn0ajkgM": {
+      "series": "lle2",
+      "no": 22,
+      "title": "Trash to Treasure, Part 2"
+    },
+    "V_b9YReldOk": {
+      "series": "lle2",
+      "no": 23,
+      "title": "Rock Star"
+    },
+    "yjFq34vMMJQ": {
+      "series": "lle2",
+      "no": 24,
+      "title": "I Feel Super!"
+    },
+    "HTn-fhGncO0": {
+      "series": "lle2",
+      "no": 25,
+      "title": "Only Human"
+    },
+    "an8xrZuIKuQ": {
+      "series": "lle2",
+      "no": 26,
+      "title": "Two Annas"
+    },
+    "I3TgfC1Y8P4": {
+      "series": "lle2",
+      "no": 27,
+      "title": "Fish out of Water"
+    },
+    "uUl6WkwKNxs": {
+      "series": "lle2",
+      "no": 28,
+      "title": "For the Birds"
+    },
+    "Az3f5OQDtAw": {
+      "series": "lle2",
+      "no": 29,
+      "title": "Where There's Smoke..."
+    },
+    "mhCAuZBPaNM": {
+      "series": "lle2",
+      "no": 30,
+      "title": "Dream a Little Dream"
+    },
+    "KN2jyw6D1ak": {
+      "series": "eaw",
+      "no": 1,
+      "title": "How to prepare for an interview"
+    },
+    "sj-dX3fZmq0": {
+      "series": "eaw",
+      "no": 2,
+      "title": "Answering interview questions"
+    },
+    "2zyca6fGo4A": {
+      "series": "eaw",
+      "no": 3,
+      "title": "Making suggestions is easy"
+    },
+    "1AmS9h8g3E4": {
+      "series": "eaw",
+      "no": 4,
+      "title": "Introduce yourself and make some friends"
+    },
+    "QWBwCoecvkM": {
+      "series": "eaw",
+      "no": 5,
+      "title": "Make polite requests"
+    },
+    "NzYxS_Xy0oM": {
+      "series": "eaw",
+      "no": 6,
+      "title": "How to offer help"
+    },
+    "qR34I4S9qUA": {
+      "series": "eaw",
+      "no": 7,
+      "title": "Saying you're sorry"
+    },
+    "HN5akpqjm9Q": {
+      "series": "eaw",
+      "no": 8,
+      "title": "Saying 'well done!'"
+    },
+    "tAR4AJgJIrs": {
+      "series": "eaw",
+      "no": 9,
+      "title": "Checking information"
+    },
+    "F5h3tLtgVrI": {
+      "series": "eaw",
+      "no": 10,
+      "title": "Disagreeing"
+    },
+    "-GtgqezJQog": {
+      "series": "eaw",
+      "no": 11,
+      "title": "Working long hours?"
+    },
+    "1afHeCHquf0": {
+      "series": "eaw",
+      "no": 12,
+      "title": "Opening a presentation"
+    },
+    "t0U0rGl3prE": {
+      "series": "eaw",
+      "no": 13,
+      "title": "Making a pitch"
+    },
+    "UKz1Fsw_e8c": {
+      "series": "eaw",
+      "no": 14,
+      "title": "Giving feedback"
+    },
+    "yzPX6zmaBdg": {
+      "series": "eaw",
+      "no": 15,
+      "title": "Talking on the phone"
+    },
+    "WFDvDcozhYM": {
+      "series": "eaw",
+      "no": 16,
+      "title": "Politely refusing something"
+    },
+    "GfFqCV02J0E": {
+      "series": "eaw",
+      "no": 17,
+      "title": "Placing an order"
+    },
+    "aO3Det4ir8U": {
+      "series": "eaw",
+      "no": 18,
+      "title": "Writing an email"
+    },
+    "bDVrNLKG1bg": {
+      "series": "eaw",
+      "no": 19,
+      "title": "Explaining a misunderstanding"
+    },
+    "9iO29NsoYWw": {
+      "series": "eaw",
+      "no": 20,
+      "title": "Setting an agenda"
+    },
+    "AG2kYShBZl0": {
+      "series": "eaw",
+      "no": 21,
+      "title": "Asking for help"
+    },
+    "rr-Ocmkfd7o": {
+      "series": "eaw",
+      "no": 22,
+      "title": "Making polite requests"
+    },
+    "zL4PI-pWfi8": {
+      "series": "eaw",
+      "no": 23,
+      "title": "Health and safety"
+    },
+    "N_wjnJiDB3I": {
+      "series": "eaw",
+      "no": 24,
+      "title": "Language for emergencies"
+    },
+    "05sSUfr4NcY": {
+      "series": "eaw",
+      "no": 25,
+      "title": "Booking a hotel room"
+    },
+    "X7nDkvYSbfs": {
+      "series": "eaw",
+      "no": 26,
+      "title": "Complaining"
+    },
+    "L3QbkK0bB44": {
+      "series": "eaw",
+      "no": 27,
+      "title": "Delivering bad news"
+    },
+    "zS2bmhmGCsI": {
+      "series": "eaw",
+      "no": 28,
+      "title": "Keeping things professional"
+    },
+    "7XXXo_7HlP8": {
+      "series": "eaw",
+      "no": 29,
+      "title": "Making a cold call"
+    },
+    "-HZrTUNJKCs": {
+      "series": "eaw",
+      "no": 30,
+      "title": "Negotiating"
+    },
+    "efc3fFMCvvc": {
+      "series": "eaw",
+      "no": 31,
+      "title": "Project management"
+    },
+    "o9KEaQCWqDg": {
+      "series": "eaw",
+      "no": 32,
+      "title": "Negotiating a deal"
+    },
+    "koVV_Fik9yE": {
+      "series": "eaw",
+      "no": 33,
+      "title": "Booking a flight"
+    },
+    "cfOef7MXNbc": {
+      "series": "eaw",
+      "no": 34,
+      "title": "Clinching the deal"
+    },
+    "wAwFzn9bs6U": {
+      "series": "eaw",
+      "no": 35,
+      "title": "Briefing the manager"
+    },
+    "i5KWMkGsPOk": {
+      "series": "eaw",
+      "no": 36,
+      "title": "Working with someone new?"
+    },
+    "dWoDkUPakAY": {
+      "series": "eaw",
+      "no": 37,
+      "title": "Dealing with difficult staff"
+    },
+    "cJWe8BQcldI": {
+      "series": "eaw",
+      "no": 38,
+      "title": "Good customer relations"
+    },
+    "zOmuPMk0Sso": {
+      "series": "eaw",
+      "no": 39,
+      "title": "Staff discipline"
+    },
+    "D6csERMDPQY": {
+      "series": "eaw",
+      "no": 40,
+      "title": "Having an appraisal?"
+    },
+    "SPxTs5YG_Ag": {
+      "series": "eaw",
+      "no": 41,
+      "title": "Health and safety"
+    },
+    "pIQ5JssZLew": {
+      "series": "eaw",
+      "no": 42,
+      "title": "Business proposals"
+    },
+    "V7AJM_zcvx0": {
+      "series": "eaw",
+      "no": 43,
+      "title": "Doing customer research"
+    },
+    "7CCaA8lfJkU": {
+      "series": "eaw",
+      "no": 44,
+      "title": "Dealing with IT support"
+    },
+    "2dpVQ8aIRis": {
+      "series": "eaw",
+      "no": 45,
+      "title": "The 'elevator pitch'"
+    },
+    "KbEj9GP0O9Y": {
+      "series": "eaw",
+      "no": 46,
+      "title": "Being in charge"
+    },
+    "xnKr27RvXp8": {
+      "series": "eaw",
+      "no": 47,
+      "title": "Clearing up confusion"
+    },
+    "Qk-69B86pEo": {
+      "series": "eaw",
+      "no": 48,
+      "title": "Networking"
+    },
+    "7P4_cPEzt0c": {
+      "series": "eaw",
+      "no": 49,
+      "title": "Accepting an award"
+    },
+    "HZl8A0qUTpU": {
+      "series": "eaw",
+      "no": 50,
+      "title": "Making someone redundant"
+    },
+    "RMKoworTFrc": {
+      "series": "eaw",
+      "no": 51,
+      "title": "Conveying your ideas"
+    },
+    "jekb00wsgHk": {
+      "series": "eaw",
+      "no": 52,
+      "title": "Telling someone what to do"
+    },
+    "Qo6VHK5n_LU": {
+      "series": "eaw",
+      "no": 53,
+      "title": "Taking telephone messages"
+    },
+    "rTOQD6yv8Oc": {
+      "series": "eaw",
+      "no": 54,
+      "title": "Justifying your position"
+    },
+    "CiiFiLyf-Qc": {
+      "series": "eaw",
+      "no": 55,
+      "title": "Telling someone what to do"
+    },
+    "UQIVqy0so5E": {
+      "series": "eaw",
+      "no": 56,
+      "title": "Setting priorities"
+    },
+    "IAzsmDeVhUc": {
+      "series": "eaw",
+      "no": 57,
+      "title": "Booking a venue"
+    },
+    "WO-pVRr9Wio": {
+      "series": "eaw",
+      "no": 58,
+      "title": "Get it done quickly"
+    },
+    "KwiYxyy95kU": {
+      "series": "eaw",
+      "no": 59,
+      "title": "Presenting a new product"
+    },
+    "4dgaN-4NT6g": {
+      "series": "eaw",
+      "no": 60,
+      "title": "Getting the sack"
+    },
+    "QvSq2PvPnSA": {
+      "series": "eaw",
+      "no": 61,
+      "title": "Job offers"
+    },
+    "_DIAjV40TNM": {
+      "series": "eaw",
+      "no": 62,
+      "title": "Announcing your decision"
+    },
+    "msM6CmSGkuk": {
+      "series": "eaw",
+      "no": 63,
+      "title": "Tom's tantrum"
+    },
+    "ZC-lq_RlOFI": {
+      "series": "eaw",
+      "no": 64,
+      "title": "Getting down to business"
+    },
+    "8712Bi6Io5I": {
+      "series": "eaw",
+      "no": 65,
+      "title": "Changing your mind"
+    },
+    "_48gP7OPnjU": {
+      "series": "eaw",
+      "no": 66,
+      "title": "The wedding day!"
+    }
+  }
+}

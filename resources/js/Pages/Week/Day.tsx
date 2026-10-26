@@ -14,7 +14,7 @@ import WritingTask, {
   type MyWriting,
 } from '@/Components/Game/WritingTask';
 import Spelling, { type SpellWord, type SpellRound } from '@/Components/Game/Spelling';
-import Shadowing, { type ShadowData } from '@/Components/Game/Shadowing';
+import Watch, { type WatchData } from '@/Components/Game/Watch';
 import Imitate, { type ImitateItem } from '@/Components/Game/Imitate';
 import Homework, { type HomeworkData } from '@/Components/Game/Homework';
 import VocabPractice from '@/Components/Game/VocabPractice';
@@ -102,9 +102,8 @@ interface SpellingBlock {
   words: SpellWord[];
 }
 
-interface ShadowBlock {
-  type: 'shadow';
-  shadow: ShadowData;
+interface WatchBlock extends WatchData {
+  type: 'watch';
 }
 
 interface HomeworkBlock extends HomeworkData {
@@ -130,7 +129,7 @@ type Block =
   | WritingBlock
   | ReviewBlock
   | SpellingBlock
-  | ShadowBlock
+  | WatchBlock
   | ImitateBlock
   | HomeworkBlock
   | SectionBlock
@@ -221,6 +220,10 @@ export default function DayPage({
   /** Today's homework proof — the day does not finish without it */
   const [homeworkProof, setHomeworkProof] = useState(
     (myNotes?.homework as Record<string, string> | undefined)?.[`day${day.number}`] ?? '',
+  );
+  /** Today's episode proof — an English line heard in it */
+  const [watchProof, setWatchProof] = useState(
+    (myNotes?.watch as Record<string, string> | undefined)?.[`day${day.number}`] ?? '',
   );
   const [needsProof, setNeedsProof] = useState(false);
 
@@ -456,7 +459,7 @@ export default function DayPage({
    */
   const currentSlice = slices[innerStep];
   const sliceIsDrill = !!currentSlice && (
-    ['spelling', 'minimal_pairs', 'review', 'shadow', 'imitate', 'homework', 'vocabulary'].includes(currentSlice.type)
+    ['spelling', 'minimal_pairs', 'review', 'watch', 'imitate', 'homework', 'vocabulary'].includes(currentSlice.type)
     || (currentSlice.type === 'exercises' && (currentSlice as ExercisesBlock).items.length > 0)
   );
 
@@ -749,23 +752,37 @@ export default function DayPage({
                   <p className="font-semibold text-slate-900">{g.label_ar ?? g.label_en}</p>
                   <p className="shrink-0 font-mono text-sm text-violet-700" dir="ltr">{g.ipa}</p>
                 </div>
-                <p className="mt-1 text-sm text-slate-600">{tr('اسمع كل زوج قبل الاختبار. اضغط الكلمة لتسمعها.')}</p>
+                <p className="mt-1 text-sm text-slate-600">{tr('اسمع كل زوج قبل الاختبار. اضغط الكلمة أو جملتها لتسمعها.')}</p>
 
-                <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-3" dir="ltr">
+                <div className="mt-3 grid gap-3 sm:grid-cols-2" dir="ltr">
                   {g.pairs.map((p) => (
-                    <div key={p.id} className="flex overflow-hidden rounded-xl ring-1 ring-slate-200">
-                      {[p.word_a, p.word_b].map((w, i) => (
-                        <button
-                          key={w}
-                          onClick={() => speak(w, { rate: myRate, gender: myVoice })}
-                          disabled={!supported}
-                          className={`flex-1 bg-white py-2.5 text-base font-semibold text-slate-800 transition
-                                      hover:bg-violet-600 hover:text-white active:scale-95 disabled:opacity-50
-                                      ${i === 0 ? 'border-e border-slate-200' : ''}`}
-                        >
-                          {w}
-                        </button>
-                      ))}
+                    <div key={p.id} className="grid grid-cols-2 overflow-hidden rounded-xl bg-white ring-1 ring-slate-200">
+                      {[p.word_a, p.word_b].map((w, i) => {
+                        const gl = p.gloss?.[i];
+                        return (
+                          <div key={w} className={`flex flex-col ${i === 0 ? 'border-e border-slate-200' : ''}`}>
+                            <button
+                              onClick={() => speak(w, { rate: myRate, gender: myVoice })}
+                              disabled={!supported}
+                              className="flex flex-col items-center bg-white px-2 pb-1.5 pt-2.5 transition
+                                         hover:bg-violet-50 active:scale-95 disabled:opacity-50"
+                            >
+                              <span className="text-lg font-bold text-slate-900">{w}</span>
+                              {gl?.arabic && <span className="text-sm text-slate-500" dir="rtl">{gl.arabic}</span>}
+                            </button>
+                            {gl?.example && (
+                              <button
+                                onClick={() => speak(gl.example!, { rate: Math.min(myRate, 0.85), gender: myVoice })}
+                                disabled={!supported}
+                                className="flex-1 border-t border-slate-100 bg-slate-50 px-2.5 py-2 text-start text-sm
+                                           leading-snug text-slate-700 transition hover:bg-violet-50 disabled:opacity-50"
+                              >
+                                {gl.example}
+                              </button>
+                            )}
+                          </div>
+                        );
+                      })}
                     </div>
                   ))}
                 </div>
@@ -854,14 +871,15 @@ export default function DayPage({
           </div>
         );
 
-      /* ---------- الشادوينج ---------- */
-      case 'shadow':
+      /* ---------- حلقة اليوم ---------- */
+      case 'watch':
         return (
           <div key={key}>
-            <Shadowing
-              data={block.shadow}
-              onProgress={reportInner}
-              onComplete={() => markComplete(sliceKey)}
+            <Watch
+              weekNumber={week.number}
+              data={block}
+              saved={(myNotes?.watch as Record<string, string> | undefined) ?? null}
+              onSaved={(t) => { setWatchProof(t); setNeedsProof(false); markComplete(sliceKey); }}
             />
           </div>
         );
@@ -1232,6 +1250,11 @@ export default function DayPage({
                     {tr('أنجز مغامرتك، ثم اكتب ما فعلته واضغط «احفظ». بعدها ينتهي اليوم.')}
                   </p>
                 )}
+                {needsProof && task.blocks.some((b) => b.type === 'watch') && (
+                  <p className="mb-3 rounded-lg bg-amber-50 p-3 text-center text-sm text-amber-900">
+                    {tr('شاهد الحلقة، ثم اكتب ما سمعته واضغط «احفظ».')}
+                  </p>
+                )}
 
                 {saveFailed === task.order && (
                   <p className="mb-3 rounded-lg bg-rose-50 p-3 text-center text-sm text-rose-800">
@@ -1276,7 +1299,8 @@ export default function DayPage({
                       Saved homework counts too: its proof is already written.
                     */}
                     {(!sliceIsDrill || completed[sliceKey] || checked
-                      || (currentSlice?.type === 'homework' && homeworkProof.trim().length >= 3)) && (
+                      || (currentSlice?.type === 'homework' && homeworkProof.trim().length >= 3)
+                      || (currentSlice?.type === 'watch' && /[A-Za-z]{2,}/.test(watchProof))) && (
                     <button
                       onClick={async () => {
 
@@ -1287,6 +1311,10 @@ export default function DayPage({
                         if (!checked) {
                           // Homework needs its written proof first — the server checks too
                           if (task.blocks.some((b) => b.type === 'homework') && homeworkProof.trim().length < 3) {
+                            setNeedsProof(true);
+                            return;
+                          }
+                          if (task.blocks.some((b) => b.type === 'watch') && !/[A-Za-z]{2,}/.test(watchProof)) {
                             setNeedsProof(true);
                             return;
                           }

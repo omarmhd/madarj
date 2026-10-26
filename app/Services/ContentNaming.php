@@ -45,7 +45,7 @@ class ContentNaming
         'baseline' => ['ar' => 'تسجيل خط الأساس', 'en' => 'Baseline Recording'],
         'spell'    => ['ar' => 'كتابة الكلمات', 'en' => 'Spelling'],
         'spell_review' => ['ar' => 'مراجعة الإملاء', 'en' => 'Spelling Review'],
-        'shadow'   => ['ar' => 'اسمع وردّد', 'en' => 'Listen and Repeat'],
+        'watch'    => ['ar' => 'حلقة اليوم', 'en' => 'Today’s Episode'],
         'imitate'  => ['ar' => 'اكتب مثله', 'en' => 'Write One Like It'],
         'homework' => ['ar' => 'مغامرة اليوم', 'en' => 'Today’s Adventure'],
     ];
@@ -138,7 +138,7 @@ class ContentNaming
             || str_starts_with($token, 'exercises:')
             || str_starts_with($token, 'record')
             || str_starts_with($token, 'spell:')
-            || $token === 'shadow'
+            || str_starts_with($token, 'watch:')
             || $token === 'imitate'
             || $token === 'homework';
     }
@@ -202,8 +202,8 @@ class ContentNaming
             return $token === 'spell:review' ? self::FIXED['spell_review'] : self::FIXED['spell'];
         }
 
-        if ($token === 'shadow') {
-            return self::FIXED['shadow'];
+        if (str_starts_with($token, 'watch:')) {
+            return self::FIXED['watch'];
         }
 
         if ($token === 'imitate') {

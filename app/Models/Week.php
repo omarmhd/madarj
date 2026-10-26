@@ -98,6 +98,15 @@ class Week extends Model
      */
     public function pairsByGroup()
     {
+        // What each word means, and a sentence it lives in — one file for all weeks
+        static $gloss = null;
+        $gloss ??= json_decode(file_get_contents(base_path('content/pair-words.json')), true)['words'] ?? [];
+        $word = fn (string $w) => [
+            'word'    => $w,
+            'arabic'  => $gloss[$w]['ar'] ?? null,
+            'example' => $gloss[$w]['en'] ?? null,
+        ];
+
         return $this->minimalPairs
             ->groupBy('group_label')
             ->map(fn ($items, $label) => [
@@ -110,6 +119,7 @@ class Week extends Model
                     'ipa'    => $p->ipa,
                     'word_a' => $p->word_a,
                     'word_b' => $p->word_b,
+                    'gloss'  => [$word($p->word_a), $word($p->word_b)],
                 ])->values(),
             ])
             ->values();
