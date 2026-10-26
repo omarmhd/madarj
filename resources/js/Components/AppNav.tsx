@@ -72,7 +72,12 @@ export default function AppNav() {
    * المتدرّب الحالي مباشرة، فلا يحتاج أن يتذكّر أين توقّف.
    */
   const TABS: Tab[] = [
-    { href: '/dashboard', label: tr('تقدّمي'), icon: <ChartNoAxesColumn size={17} />, match: '/dashboard' },
+    /*
+     * The order is the order of use. Studying is why the learner came,
+     * so it comes first and stands apart; then where they stand; then
+     * the reading and the games around the study hour; then the tests,
+     * which come round once a unit; then the account.
+     */
     {
       href: resumeWeek ? `/week/${resumeWeek}/day/${resumeDay ?? 1}` : '/dashboard',
       label: tr('ادرس الآن'),
@@ -80,24 +85,15 @@ export default function AppNav() {
       match: '/week/',
       feature: 'lessons',
     },
+    { href: '/dashboard', label: tr('تقدّمي'), icon: <ChartNoAxesColumn size={17} />, match: '/dashboard' },
     /*
-     * The game earns a tab of its own.
-     *
-     * It first went in as a card on the dashboard, four sections
-     * down — and a sixty-second game nobody can find is a game
-     * nobody plays. Its whole value is the day the learner has no
-     * intention of studying, which is precisely the day they never
-     * scroll the dashboard.
-     */
-    // The level tests: the pre-test before day one, then one per module
-    { href: '/tests', label: tr('اختبارات'), icon: <ClipboardCheck size={17} />, match: '/tests', feature: 'tests' },
-    { href: '/play', label: tr('تسلية'), icon: <Crosshair size={17} />, match: '/play', feature: 'play' },
-    /*
-     * القصص تبويب لا بطاقة، للسبب نفسه الذي أعطى اللعبة تبويباً:
-     * قيمتها في اليوم الذي لا نيّة فيه للدراسة، وهو اليوم الذي لا
-     * يُفتح فيه شيء يحتاج بحثاً.
+     * القصص تبويب لا بطاقة: قيمتها في اليوم الذي لا نيّة فيه للدراسة،
+     * وهو اليوم الذي لا يُفتح فيه شيء يحتاج بحثاً. واللعبة كذلك.
      */
     { href: '/stories', label: tr('قصص'), icon: <BookOpen size={17} />, match: '/stories', feature: 'stories' },
+    { href: '/play', label: tr('تسلية'), icon: <Crosshair size={17} />, match: '/play', feature: 'play' },
+    // The level tests: the pre-test before day one, then one per module
+    { href: '/tests', label: tr('اختبارات'), icon: <ClipboardCheck size={17} />, match: '/tests', feature: 'tests' },
     { href: '/profile', label: tr('حسابي'), icon: <UserRound size={17} />, match: '/profile' },
   ];
 
@@ -152,24 +148,29 @@ export default function AppNav() {
             خمساً — فلمّا أُضيفت «قصص» سقطت معها صامتةً. الرقم السحريّ
             يصمت، والقاعدة المكتوبة لا تصمت.
           */}
-          <div className="hidden min-w-0 flex-1 gap-1 overflow-x-auto px-2 sm:flex">
-            {TABS.filter((t) => t.match !== '/profile').map((t) => (
-              <Link
-                key={t.label}
-                href={t.href}
-                className={`flex shrink-0 items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm
-                            transition ${
-                              isActive(t.match)
-                                ? 'bg-violet-50 font-medium text-violet-700'
-                                : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'
-                            }`}
-              >
-                <span aria-hidden>{locked(t.feature) ? <Lock size={15} /> : t.icon}</span>
-                {t.label === tr('ادرس الآن') && resumeWeek
-                  ? `الأسبوع ${resumeWeek} · اليوم ${resumeDay ?? 1}`
-                  : t.label}
-              </Link>
-            ))}
+          <div className="hidden min-w-0 flex-1 items-center gap-1 overflow-x-auto px-2 sm:flex">
+            {TABS.filter((t) => t.match !== '/profile').map((t, i) => {
+              const study = i === 0;
+              return (
+                <Link
+                  key={t.label}
+                  href={t.href}
+                  className={`flex shrink-0 items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm transition ${
+                    study
+                      // The one action, as a button: where today's lesson is
+                      ? 'me-2 bg-violet-600 font-semibold text-white shadow-sm hover:bg-violet-700'
+                      : isActive(t.match)
+                        ? 'bg-violet-50 font-medium text-violet-700'
+                        : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'
+                  }`}
+                >
+                  <span aria-hidden>{locked(t.feature) ? <Lock size={15} /> : t.icon}</span>
+                  {study && resumeWeek
+                    ? <>{tr('ادرس')} <span className="font-normal opacity-80">· {tr('الأسبوع')} {resumeWeek} · {tr('اليوم')} {resumeDay ?? 1}</span></>
+                    : t.label}
+                </Link>
+              );
+            })}
           </div>
 
           <div className="flex-1 sm:hidden" />

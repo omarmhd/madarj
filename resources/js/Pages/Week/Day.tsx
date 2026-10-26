@@ -2,7 +2,7 @@ import { createPortal } from 'react-dom';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import StageDirection from '@/Components/Game/StageDirection';
 import Bdi from '@/Components/Bdi';
-import { Head, Link } from '@inertiajs/react';
+import { Head, Link, router } from '@inertiajs/react';
 import AppNav from '@/Components/AppNav';
 import Listen from '@/Components/Listen';
 import { track, setTrackContext, startHeartbeat, flush } from '@/lib/tracker';
@@ -526,6 +526,10 @@ export default function DayPage({
       });
       setTasksDone(data.tasks_done);
       setSaveFailed(null);
+
+      // The day is done: the server moved the learner on. The nav's "study
+      // now" read the old day until the next full page load, so ask for it
+      if (data.completed) router.reload({ only: ['nav'] });
 
       /*
        * الاحتفال من ردّ الخادم لا من حساب الواجهة.
