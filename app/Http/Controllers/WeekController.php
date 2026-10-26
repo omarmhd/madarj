@@ -885,7 +885,7 @@ class WeekController extends Controller
     }
 
     /**
-     * Today's episode — a short official video in place of shadowing.
+     * Today's episode — a link to a short official video, in place of shadowing.
      *
      * The week file names the video (`watch:<youtube id>`), and
      * `content/watch.json` names its series. How to watch grows with the

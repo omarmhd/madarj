@@ -1,15 +1,19 @@
 import { useState } from 'react';
 import axios from 'axios';
-import { Check, Clapperboard, Eye } from 'lucide-react';
+import { Check, Clapperboard, ExternalLink, Eye, Play } from 'lucide-react';
 import { useT } from '@/lib/i18n';
 
 /**
  * حلقة اليوم — a short official episode in place of shadowing.
  *
- * The video plays here, embedded, so it costs the platform nothing and
- * the learner does not wander off into YouTube. The series runs on from
- * day to day, so tomorrow has something to come back for. The written
- * proof is required: the server will not mark the station without it.
+ * A link out to YouTube, not an embedded player. The platform is paid,
+ * and YouTube's API policies (III.F.3a) forbid charging users to watch
+ * in an embedded player; a plain link is outside them. On a phone it
+ * opens the YouTube app, where captions and speed are one tap away.
+ *
+ * The series runs on from day to day, so tomorrow has something to
+ * come back for. The written proof is required: the server will not
+ * mark the station without it.
  */
 
 export interface WatchData {
@@ -44,9 +48,7 @@ export default function Watch({ weekNumber, data, saved, onSaved }: Props) {
   // The proof must hold English: a line heard, not a line about it
   const ready = /[A-Za-z]{2,}/.test(text);
 
-  const params = new URLSearchParams({ rel: '0', modestbranding: '1', hl: 'en', cc_lang_pref: 'en' });
-  if (data.captions) params.set('cc_load_policy', '1');
-  const src = `https://www.youtube-nocookie.com/embed/${data.video}?${params}`;
+  const href = `https://www.youtube.com/watch?v=${data.video}`;
 
   const save = async () => {
     setSaving(true);
@@ -84,19 +86,24 @@ export default function Watch({ weekNumber, data, saved, onSaved }: Props) {
         </div>
       </div>
 
-      <div className="overflow-hidden rounded-2xl bg-black shadow-sm ring-1 ring-slate-200">
-        <div className="relative w-full" style={{ paddingTop: '56.25%' }}>
-          <iframe
-            src={src}
-            title={data.title || data.series.title}
-            className="absolute inset-0 h-full w-full"
-            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            allowFullScreen
-            loading="lazy"
-            referrerPolicy="strict-origin-when-cross-origin"
-          />
-        </div>
-      </div>
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group flex items-center gap-4 rounded-2xl bg-slate-900 p-5 text-white shadow-sm
+                   transition hover:bg-slate-800 active:scale-[.99]"
+      >
+        <span className="grid h-14 w-14 shrink-0 place-items-center rounded-full bg-rose-600 transition group-hover:scale-105">
+          <Play aria-hidden size={26} className="ms-0.5" fill="currentColor" />
+        </span>
+        <span className="min-w-0 flex-1">
+          <span className="block text-lg font-bold">{tr('شاهد الحلقة على يوتيوب')}</span>
+          <span className="block text-sm text-slate-300">
+            {data.captions ? tr('شغّل الترجمة الإنجليزية من زرّ CC.') : tr('تُفتح في يوتيوب، ثم عد إلى هنا.')}
+          </span>
+        </span>
+        <ExternalLink aria-hidden size={18} className="shrink-0 text-slate-400" />
+      </a>
       <p className="text-center text-xs text-slate-500" dir="ltr">{data.series.channel}</p>
 
       <ol className="space-y-2 rounded-2xl bg-violet-50 p-5 text-sm leading-relaxed text-violet-900">

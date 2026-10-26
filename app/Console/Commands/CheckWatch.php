@@ -6,19 +6,20 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Http;
 
 /**
- * Checks every daily episode still plays inside the platform.
+ * Checks every daily episode still exists on YouTube.
  *
- * A channel can delete a video or turn off embedding at any time, and
- * nothing on our side would notice: the learner just meets a black box
- * and a station they cannot finish. YouTube's oEmbed answers 200 only
- * for a video that exists and may be embedded, so one request each
- * tells us. Run it now and then; it reads the week files, not the DB.
+ * A channel can delete a video or make it private at any time, and
+ * nothing on our side would notice: the learner follows the link to an
+ * error page and meets a station they cannot finish. YouTube's oEmbed
+ * answers 404 for a video that is gone, and 401 for one whose owner
+ * turned off embedding — that one still plays, since we link out.
+ * Run it now and then; it reads the week files, not the DB.
  */
 class CheckWatch extends Command
 {
     protected $signature = 'watch:check';
 
-    protected $description = 'Check that every watch:<id> episode exists in watch.json and can still be embedded';
+    protected $description = 'Check that every watch:<id> episode is in watch.json and still on YouTube';
 
     public function handle(): int
     {
@@ -50,8 +51,8 @@ class CheckWatch extends Command
                 'format' => 'json',
                 'url'    => 'https://www.youtube.com/watch?v='.$id,
             ]);
-            if (! $res->ok()) {
-                $this->error("{$id} ({$at}): HTTP {$res->status()} — deleted, private, or embedding turned off");
+            if (! $res->ok() && $res->status() !== 401) {
+                $this->error("{$id} ({$at}): HTTP {$res->status()} — deleted or private");
                 $bad++;
             }
         }
