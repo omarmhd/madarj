@@ -1,8 +1,11 @@
 import { Suspense, lazy, useCallback, useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { usePage } from '@inertiajs/react';
 import { useT } from '@/lib/i18n';
 import type { MemoryCounts } from './types';
 import { Brain, X } from 'lucide-react';
+import type { MemoryAdded } from '@/lib/wordMisses';
+import Bdi from '@/Components/Bdi';
 
 /**
  * الذاكرة — الزرّ واللوحة الجانبية.
@@ -52,6 +55,27 @@ export default function MemoryLauncher({ raised = true, inline = false }: { rais
   }, [shared]);
 
   const close = useCallback(() => setOpen(false), []);
+
+  /*
+   * A word missed often joined the memory by itself (lib/wordMisses).
+   * Said out loud, not slipped in: a word that appears in the notebook
+   * unannounced reads as a bug, and one announced is a reason to review.
+   */
+  const [added, setAdded] = useState<MemoryAdded['word'] | null>(null);
+  useEffect(() => {
+    const on = (e: Event) => {
+      const d = (e as CustomEvent<MemoryAdded>).detail;
+      if (d.counts) setLive(d.counts as MemoryCounts);
+      setAdded(d.word);
+    };
+    window.addEventListener('memory:added', on);
+    return () => window.removeEventListener('memory:added', on);
+  }, []);
+  useEffect(() => {
+    if (!added) return;
+    const t = window.setTimeout(() => setAdded(null), 8000);
+    return () => window.clearTimeout(t);
+  }, [added]);
 
   /**
    * ما دامت اللوحة مفتوحة: `Escape` يغلقها، وخلفيّة الصفحة لا
@@ -112,8 +136,40 @@ export default function MemoryLauncher({ raised = true, inline = false }: { rais
         )}
       </button>
 
-      {open && (
-        <div className="fixed inset-0 z-50 flex" role="dialog" aria-modal="true">
+      {added && !open && createPortal(
+        <div
+          dir={document.documentElement.dir || 'rtl'}
+          role="status"
+          aria-live="polite"
+          className="memory-toast fixed inset-x-0 top-3 z-[55] flex justify-center px-3"
+          style={{ marginTop: 'env(safe-area-inset-top)' }}
+        >
+          <div className="flex w-full max-w-md items-center gap-3 rounded-2xl bg-slate-900 p-3 ps-4 text-white shadow-2xl">
+            <Brain aria-hidden size={22} className="shrink-0 text-violet-300" />
+            <div className="min-w-0 flex-1">
+              <p className="text-sm font-semibold">
+                {tr('أضفنا')} <span className="font-bold"><Bdi>{added.term}</Bdi></span> {tr('إلى ذاكرتك')}
+              </p>
+              <p className="text-xs text-slate-300">{tr('أخطأت فيها أكثر من مرة. راجعها لتثبت.')}</p>
+            </div>
+            <button
+              onClick={() => { setAdded(null); setOpen(true); }}
+              className="shrink-0 rounded-xl bg-white px-3 py-2 text-sm font-semibold text-slate-900 transition hover:bg-slate-100"
+            >
+              {tr('راجعها')}
+            </button>
+            <button onClick={() => setAdded(null)} aria-label={tr('إغلاق')} className="shrink-0 text-slate-400 hover:text-white">
+              <X size={16} />
+            </button>
+          </div>
+        </div>,
+        document.body,
+      )}
+
+      {/* In a portal: inside the focus bar, its blur pinned a fixed panel
+          to the bar's own 64px, so the notebook opened as a strip */}
+      {open && createPortal(
+        <div dir={document.documentElement.dir || "rtl"} className="fixed inset-0 z-50 flex" role="dialog" aria-modal="true">
           {/* الغطاء — نقرةٌ عليه تغلق */}
           <button
             onClick={close}
@@ -152,7 +208,7 @@ export default function MemoryLauncher({ raised = true, inline = false }: { rais
             </Suspense>
           </aside>
         </div>
-      )}
+      , document.body)}
     </>
   );
 }

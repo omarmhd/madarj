@@ -6,6 +6,7 @@ import SpellInput, { SpellMarks } from '@/Components/Game/SpellInput';
 import { useMySpeech } from '@/hooks/useSpeech';
 import { arrowPrompt, checkSpelling, formsOf, vowelGaps, type SpellResult } from '@/lib/spelling';
 import { useT } from '@/lib/i18n';
+import { reportMiss } from '@/lib/wordMisses';
 import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS } from '@/lib/autoAdvance';
 
 /**
@@ -195,6 +196,8 @@ export default function Spelling({ words, rounds, onProgress, onComplete }: Prop
     setTyped('');
     say(spoken);
     setMissed((m) => new Map(m).set(current.id, current));
+    // The learner's own words (negative ids) are in the memory already
+    if (current.id > 0) reportMiss(current.word, 'spelling');
 
     if (!requeued.has(current.id)) {
       setRequeued((s) => new Set(s).add(current.id));

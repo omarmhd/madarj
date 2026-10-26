@@ -5,6 +5,7 @@ import { useMySpeech } from '@/hooks/useSpeech';
 import { arrowPrompt, checkSpelling, formsOf, type SpellResult } from '@/lib/spelling';
 import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS, AUTO_RETRY_MS } from '@/lib/autoAdvance';
 import { useT } from '@/lib/i18n';
+import { reportMiss } from '@/lib/wordMisses';
 import type { Word } from '@/Components/Game/Flashcards';
 
 /**
@@ -133,6 +134,7 @@ export default function VocabPractice({ words, onComplete }: { words: Word[]; on
     }
 
     setFinal(true);
+    reportMiss(current.word.word, 'practice');
 
     // Second miss: show it, and bring the word back once at the end of the round
     say(formsOf(current.word.word)[0]);

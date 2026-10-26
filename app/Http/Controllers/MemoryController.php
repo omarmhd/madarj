@@ -158,6 +158,82 @@ class MemoryController extends Controller
         ]);
     }
 
+    /** A word is "often missed" at this many misses… */
+    public const MISS_TIMES = 3;
+
+    /** …within this many days… */
+    public const MISS_WINDOW_DAYS = 14;
+
+    /** …spread over at least this many days: one tired session is not a pattern */
+    public const MISS_DAYS = 2;
+
+    /**
+     * A course word was missed — spelled wrong twice, forgotten in review,
+     * "I don't remember" on a card. Each miss is recorded; once a word is
+     * missed often (the three constants above), it goes into the learner's
+     * memory by itself, due today, and the answer says so, so the page can
+     * tell them. Nothing here blocks a lesson: a miss that fails to save is
+     * a lost hint, not lost progress.
+     */
+    public function miss(Request $request): JsonResponse
+    {
+        $user = $request->user();
+
+        $data = $request->validate([
+            'word'   => ['required', 'string', 'max:64', $this->utf8()],
+            'source' => ['required', 'in:spelling,practice,review,cards'],
+        ]);
+
+        $term = $this->translator->normalise($data['word']);
+        if ($term === '' || ! preg_match('/[a-z]/', $term)) {
+            return response()->json(['added' => null]);
+        }
+
+        \App\Models\LearningEvent::create([
+            'user_id'     => $user->id,
+            'type'        => 'word_miss',
+            'ref'         => mb_substr($term, 0, 120),
+            'meta'        => ['source' => $data['source']],
+            'occurred_at' => now(),
+        ]);
+
+        if (MemoryWord::forUser($user->id)->where('term', $term)->exists()
+            || MemoryWord::forUser($user->id)->count() >= (int) config('memory.max_words')) {
+            return response()->json(['added' => null]);
+        }
+
+        $tz = $user->enrollment?->timezone ?? 'UTC';
+        $misses = \App\Models\LearningEvent::where('user_id', $user->id)
+            ->where('type', 'word_miss')
+            ->where('ref', $term)
+            ->where('occurred_at', '>=', now()->subDays(self::MISS_WINDOW_DAYS))
+            ->pluck('occurred_at');
+        $days = $misses->map(fn ($at) => \Carbon\Carbon::parse($at)->setTimezone($tz)->toDateString())->unique();
+
+        if ($misses->count() < self::MISS_TIMES || $days->count() < self::MISS_DAYS) {
+            return response()->json(['added' => null]);
+        }
+
+        // A missed word is a course word: the book's own meaning first
+        $book = \App\Models\Vocabulary::whereRaw('LOWER(word) = ?', [$term])->value('arabic');
+        ['translation' => $translation, 'source' => $source] = $book
+            ? ['translation' => $book, 'source' => 'course']
+            : $this->translator->translate($term);
+
+        $word = MemoryWord::create([
+            'user_id'     => $user->id,
+            'term'        => $term,
+            'translation' => $translation ?: null,
+            'source'      => $source,
+            'due_at'      => now(),
+        ]);
+
+        return response()->json([
+            'added'  => $word->toClientArray(),
+            'counts' => $this->counts($request),
+        ]);
+    }
+
     /**
      * إضافة كلمة.
      *

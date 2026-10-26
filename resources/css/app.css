@@ -756,3 +756,8 @@ html[data-style='classic'] .folio-input:focus { border-color: rgb(var(--accent-5
   .journey-current, .station-done, .station-done-mark, .confetti i { animation: none; }
   .confetti { display: none; }
 }
+
+/* A word joined the memory by itself — the notice drops in from the top */
+.memory-toast { animation: memory-toast-in .35s cubic-bezier(.2, 1.2, .4, 1) both; }
+@keyframes memory-toast-in { from { opacity: 0; transform: translateY(-16px); } }
+@media (prefers-reduced-motion: reduce) { .memory-toast { animation: none; } }

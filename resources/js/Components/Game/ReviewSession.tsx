@@ -16,6 +16,7 @@ import SpellInput, { SpellMarks } from '@/Components/Game/SpellInput';
 import { useMySpeech } from '@/hooks/useSpeech';
 import { checkSpelling, type SpellResult } from '@/lib/spelling';
 import { useT } from '@/lib/i18n';
+import { reportMiss } from '@/lib/wordMisses';
 import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS } from '@/lib/autoAdvance';
 
 /**
@@ -226,7 +227,10 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
     const { card: next } = scheduler.next(toFsrsCard(current), new Date(), rating);
 
     setGraded((n) => n + 1);
-    if (rating === Rating.Again) setAgain((n) => n + 1);
+    if (rating === Rating.Again) {
+      setAgain((n) => n + 1);
+      if (current.source !== 'memory') reportMiss(current.word, 'review');
+    }
 
     // ننتقل فوراً ولا ننتظر الشبكة — المراجعة يجب أن تكون سريعة
     setRevealed(false);

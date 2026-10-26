@@ -203,6 +203,11 @@ Route::middleware(['auth', 'verified', \App\Http\Middleware\RequireSetup::class,
     Route::get('/memory', [MemoryController::class, 'index'])->name('memory.index');
     Route::post('/memory', [MemoryController::class, 'store'])->name('memory.store');
 
+    // A course word missed — often enough, it joins the memory by itself
+    Route::post('/memory/miss', [MemoryController::class, 'miss'])
+        ->middleware('throttle:120,1')
+        ->name('memory.miss');
+
     Route::post('/memory/translate', [MemoryController::class, 'translate'])
         ->middleware('throttle:30,1')
         ->name('memory.translate');

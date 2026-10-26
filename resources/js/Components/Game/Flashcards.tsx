@@ -5,6 +5,7 @@ import SpellInput, { SpellMarks } from '@/Components/Game/SpellInput';
 import { useMySpeech } from '@/hooks/useSpeech';
 import { checkSpelling, type SpellResult } from '@/lib/spelling';
 import { useT } from '@/lib/i18n';
+import { reportMiss } from '@/lib/wordMisses';
 import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS } from '@/lib/autoAdvance';
 
 /**
@@ -78,6 +79,7 @@ export default function Flashcards({ words, groupLabel, onFinish, onProgress}: P
       setKnown((k) => [...k, current.id]);
     } else {
       setUnknown((u) => [...u, current.id]);
+      reportMiss(current.word, 'cards');
     }
 
     setRevealed(false);
