@@ -1,15 +1,18 @@
 import { useState } from 'react';
 import axios from 'axios';
-import { Check, Clapperboard, ExternalLink, Eye, Play } from 'lucide-react';
+import { Check, Clapperboard, Copy, Eye, Search } from 'lucide-react';
+import Bdi from '@/Components/Bdi';
 import { useT } from '@/lib/i18n';
 
 /**
  * حلقة اليوم — a short official episode in place of shadowing.
  *
- * A link out to YouTube, not an embedded player. The platform is paid,
- * and YouTube's API policies (III.F.3a) forbid charging users to watch
- * in an embedded player; a plain link is outside them. On a phone it
- * opens the YouTube app, where captions and speed are one tap away.
+ * No player and no link: the learner gets the search phrase and the
+ * channel's name, and finds the episode in YouTube themselves. The
+ * platform is paid, and YouTube's API policies (III.F.3a) forbid
+ * charging users to watch in an embedded player; the owner chose to
+ * keep the platform free of YouTube altogether. The phrase was checked
+ * to bring the episode up first (`watch:check` keeps the videos alive).
  *
  * The series runs on from day to day, so tomorrow has something to
  * come back for. The written proof is required: the server will not
@@ -18,7 +21,8 @@ import { useT } from '@/lib/i18n';
 
 export interface WatchData {
   day: number;
-  video: string;
+  /** What to type in YouTube's search box */
+  search: string;
   title: string;
   number: number;
   series: { title: string; part_ar: string; channel: string; about_ar: string };
@@ -48,7 +52,16 @@ export default function Watch({ weekNumber, data, saved, onSaved }: Props) {
   // The proof must hold English: a line heard, not a line about it
   const ready = /[A-Za-z]{2,}/.test(text);
 
-  const href = `https://www.youtube.com/watch?v=${data.video}`;
+  const [copied, setCopied] = useState(false);
+  const copy = async () => {
+    try {
+      await navigator.clipboard.writeText(data.search);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      // No clipboard (an old browser, or no permission): the phrase stays on screen to type
+    }
+  };
 
   const save = async () => {
     setSaving(true);
@@ -86,25 +99,30 @@ export default function Watch({ weekNumber, data, saved, onSaved }: Props) {
         </div>
       </div>
 
-      <a
-        href={href}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="group flex items-center gap-4 rounded-2xl bg-slate-900 p-5 text-white shadow-sm
-                   transition hover:bg-slate-800 active:scale-[.99]"
-      >
-        <span className="grid h-14 w-14 shrink-0 place-items-center rounded-full bg-rose-600 transition group-hover:scale-105">
-          <Play aria-hidden size={26} className="ms-0.5" fill="currentColor" />
-        </span>
-        <span className="min-w-0 flex-1">
-          <span className="block text-lg font-bold">{tr('شاهد الحلقة على يوتيوب')}</span>
-          <span className="block text-sm text-slate-300">
-            {data.captions ? tr('شغّل الترجمة الإنجليزية من زرّ CC.') : tr('تُفتح في يوتيوب، ثم عد إلى هنا.')}
-          </span>
-        </span>
-        <ExternalLink aria-hidden size={18} className="shrink-0 text-slate-400" />
-      </a>
-      <p className="text-center text-xs text-slate-500" dir="ltr">{data.series.channel}</p>
+      {/* What to search for, and whose video to pick */}
+      <div className="rounded-2xl bg-slate-900 p-5 text-white shadow-sm">
+        <p className="flex items-center gap-2 text-sm font-semibold text-slate-300">
+          <Search aria-hidden size={16} /> {tr('اكتب هذا في بحث يوتيوب')}
+        </p>
+        <div className="mt-3 flex items-stretch gap-2">
+          <p className="min-w-0 flex-1 select-all rounded-xl bg-white/10 px-3 py-3 font-mono text-base leading-snug" dir="ltr">
+            {data.search}
+          </p>
+          <button
+            onClick={copy}
+            aria-label={tr('انسخ')}
+            className="flex shrink-0 items-center gap-1.5 rounded-xl bg-white px-3 text-sm font-semibold text-slate-900
+                       transition hover:bg-slate-100 active:scale-95"
+          >
+            {copied ? <Check aria-hidden size={16} className="text-emerald-600" /> : <Copy aria-hidden size={16} />}
+            {copied ? tr('نُسخت') : tr('انسخ')}
+          </button>
+        </div>
+        <p className="mt-3 text-sm leading-relaxed text-slate-300">
+          {tr('اختر الفيديو الذي قناته')} <span className="font-semibold text-white"><Bdi>{data.series.channel}</Bdi></span>
+          {data.captions ? ` — ${tr('وشغّل الترجمة الإنجليزية من زرّ CC.')}` : '.'}
+        </p>
+      </div>
 
       <ol className="space-y-2 rounded-2xl bg-violet-50 p-5 text-sm leading-relaxed text-violet-900">
         {data.steps.map((s, i) => (

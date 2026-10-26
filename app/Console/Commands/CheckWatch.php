@@ -9,10 +9,10 @@ use Illuminate\Support\Facades\Http;
  * Checks every daily episode still exists on YouTube.
  *
  * A channel can delete a video or make it private at any time, and
- * nothing on our side would notice: the learner follows the link to an
- * error page and meets a station they cannot finish. YouTube's oEmbed
+ * nothing on our side would notice: the learner searches, finds no
+ * episode, and meets a station they cannot finish. YouTube's oEmbed
  * answers 404 for a video that is gone, and 401 for one whose owner
- * turned off embedding — that one still plays, since we link out.
+ * turned off embedding — that one is still found by search.
  * Run it now and then; it reads the week files, not the DB.
  */
 class CheckWatch extends Command

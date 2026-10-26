@@ -885,7 +885,11 @@ class WeekController extends Controller
     }
 
     /**
-     * Today's episode — a link to a short official video, in place of shadowing.
+     * Today's episode — a short official video, in place of shadowing.
+     *
+     * The learner is given a search phrase, not a link or a player: the
+     * owner keeps the platform free of YouTube altogether. The phrases
+     * were checked to bring each episode up first.
      *
      * The week file names the video (`watch:<youtube id>`), and
      * `content/watch.json` names its series. How to watch grows with the
@@ -923,7 +927,7 @@ class WeekController extends Controller
         return [
             'type'     => 'watch',
             'day'      => $day,
-            'video'    => $id,
+            'search'   => $episode['search'] ?? $this->watchSearch($episode),
             'title'    => $episode['title'],
             'number'   => $episode['no'],
             'series'   => [
@@ -936,6 +940,18 @@ class WeekController extends Controller
             'steps'    => $steps,
             'proof'    => $proof,
         ];
+    }
+
+    /** What to type in YouTube to find the episode — series name, number, title, channel */
+    protected function watchSearch(array $episode): string
+    {
+        $title = $episode['title'] !== '' ? ': '.$episode['title'] : '';
+
+        return match ($episode['series']) {
+            'lle1'  => "Let's Learn English Lesson {$episode['no']}{$title} VOA",
+            'lle2'  => "Let's Learn English Level 2 Lesson {$episode['no']}{$title} VOA",
+            default => sprintf('English at Work %02d %s BBC Learning English', $episode['no'], $episode['title']),
+        };
     }
 
     /**
