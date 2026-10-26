@@ -1,4 +1,4 @@
-import { ArrowLeft, Check, Clock, Flag, Lock, PartyPopper, Sparkles } from 'lucide-react';
+import { ArrowLeft, Check, Clock, Flag, Lock, LockOpen, PartyPopper, Sparkles } from 'lucide-react';
 import { TONES, type TaskKind } from '@/lib/taskKinds';
 import { useT } from '@/lib/i18n';
 
@@ -164,8 +164,8 @@ export default function DayJourney({ dayNumber, stations, current, onOpen, finis
                       {tr(s.kind.short)}
                     </span>
                     {isCurrent && (
-                      <span className={`rounded-full px-2 py-0.5 text-xs font-bold ${tone.soft} ${tone.text}`}>
-                        {tr('أنت هنا')}
+                      <span className={`flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-bold ${tone.soft} ${tone.text}`}>
+                        <LockOpen aria-hidden size={12} /> {tr('مفتوحة · أنت هنا')}
                       </span>
                     )}
                     {s.done && <span className="text-xs font-semibold text-emerald-700">{tr('تمّت')}</span>}

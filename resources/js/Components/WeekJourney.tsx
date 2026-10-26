@@ -1,5 +1,5 @@
 import { Link } from '@inertiajs/react';
-import { ArrowLeft, Check, Clock, Lock, Play, Trophy } from 'lucide-react';
+import { ArrowLeft, Check, Clock, Lock, LockOpen, Play, Trophy } from 'lucide-react';
 import type { DayState } from '@/Components/DayCard';
 import { cleanLabel } from '@/lib/labels';
 import { pick, dirFor, type Locale } from '@/lib/bilingual';
@@ -90,8 +90,9 @@ export default function WeekJourney({ weekNumber, days, today, multiplier, local
             const tile = (
               <>
                 <span className="flex items-center justify-between">
+                  {/* The number stays on a finished day — the check rides on its corner */}
                   <span
-                    className={`grid h-10 w-10 place-items-center rounded-xl text-base font-bold ${
+                    className={`relative grid h-10 w-10 place-items-center rounded-xl text-base font-bold ${
                       d.completed
                         ? 'bg-emerald-600 text-white'
                         : isToday
@@ -99,11 +100,18 @@ export default function WeekJourney({ weekNumber, days, today, multiplier, local
                           : d.unlocked ? 'bg-violet-50 text-violet-700' : 'bg-slate-100 text-slate-400'
                     }`}
                   >
-                    {d.completed ? <Check aria-hidden size={20} strokeWidth={2.5} /> : d.number}
+                    {d.number}
+                    {d.completed && (
+                      <span className="absolute -end-1.5 -top-1.5 grid h-5 w-5 place-items-center rounded-full bg-white text-emerald-600 shadow ring-1 ring-emerald-200">
+                        <Check aria-label={tr('اكتمل')} size={13} strokeWidth={3} />
+                      </span>
+                    )}
                   </span>
-                  {!d.unlocked && <Lock aria-hidden size={15} className="text-slate-300" />}
-                  {isToday && (
-                    <span className="rounded-full bg-violet-50 px-2 py-0.5 text-xs font-bold text-violet-700">{tr('اليوم')}</span>
+                  {!d.unlocked && <Lock aria-label={tr('مقفل')} size={15} className="text-slate-300" />}
+                  {d.unlocked && !d.completed && (
+                    <span className="flex items-center gap-1 rounded-full bg-violet-50 px-2 py-0.5 text-xs font-bold text-violet-700">
+                      <LockOpen aria-hidden size={13} /> {isToday ? tr('اليوم') : tr('مفتوح')}
+                    </span>
                   )}
                 </span>
                 <span

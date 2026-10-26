@@ -4,7 +4,7 @@ import AppNav from '@/Components/AppNav';
 import { useLocale, dirOf } from '@/lib/bilingual';
 import { useT } from '@/lib/i18n';
 import LevelCard, { type LevelData } from '@/Components/LevelCard';
-import { ArrowLeft, BookOpen, CalendarCheck, Check, ChevronDown, ChevronLeft, ClipboardCheck, Flame, Gamepad2, Headphones, Lock, Mountain, Target, Trophy } from 'lucide-react';
+import { ArrowLeft, BookOpen, CalendarCheck, Check, ChevronDown, ChevronLeft, ClipboardCheck, Flame, Gamepad2, Headphones, Lock, LockOpen, Mountain, Target, Trophy } from 'lucide-react';
 
 /** One tile style for everything optional, so the group reads as one */
 const TILE =
@@ -651,8 +651,11 @@ export default function Dashboard({
                                 {tr('مراجعة')}
                               </span>
                             )}
-                            {complete && (
+                            {complete ? (
                               <Check aria-hidden size={16} className="text-emerald-600" />
+                            ) : (
+                              // Open, not done: an open lock beside the closed ones says so at a glance
+                              <LockOpen aria-label={tr('مفتوح')} size={14} className="text-violet-600" />
                             )}
                           </div>
                         </div>
