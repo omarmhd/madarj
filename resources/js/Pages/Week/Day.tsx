@@ -16,6 +16,8 @@ import WritingTask, {
 } from '@/Components/Game/WritingTask';
 import Spelling, { type SpellWord, type SpellRound } from '@/Components/Game/Spelling';
 import Watch, { type WatchData } from '@/Components/Game/Watch';
+import StoryStation, { type StoryStationData } from '@/Components/Game/StoryStation';
+import ChallengeStation, { type ChallengeData } from '@/Components/Game/ChallengeStation';
 import Imitate, { type ImitateItem } from '@/Components/Game/Imitate';
 import Homework, { type HomeworkData } from '@/Components/Game/Homework';
 import VocabPractice from '@/Components/Game/VocabPractice';
@@ -108,6 +110,14 @@ interface WatchBlock extends WatchData {
   type: 'watch';
 }
 
+interface StoryBlock extends StoryStationData {
+  type: 'story';
+}
+
+interface ChallengeBlock extends ChallengeData {
+  type: 'challenge';
+}
+
 interface HomeworkBlock extends HomeworkData {
   type: 'homework';
 }
@@ -132,6 +142,8 @@ type Block =
   | ReviewBlock
   | SpellingBlock
   | WatchBlock
+  | StoryBlock
+  | ChallengeBlock
   | ImitateBlock
   | HomeworkBlock
   | SectionBlock
@@ -238,6 +250,10 @@ export default function DayPage({
   /** Today's episode proof — an English line heard in it */
   const [watchProof, setWatchProof] = useState(
     (myNotes?.watch as Record<string, string> | undefined)?.[`day${day.number}`] ?? '',
+  );
+  /** Today's story proof — the moral found and a sentence from it */
+  const [storyProof, setStoryProof] = useState(
+    (myNotes?.story as Record<string, string> | undefined)?.[`day${day.number}`] ?? '',
   );
   const [needsProof, setNeedsProof] = useState(false);
 
@@ -484,13 +500,14 @@ export default function DayPage({
    */
   const currentSlice = slices[innerStep];
   const sliceIsDrill = !!currentSlice && (
-    ['spelling', 'minimal_pairs', 'review', 'watch', 'imitate', 'homework', 'vocabulary'].includes(currentSlice.type)
+    ['spelling', 'minimal_pairs', 'review', 'watch', 'story', 'challenge', 'imitate', 'homework', 'vocabulary'].includes(currentSlice.type)
     || (currentSlice.type === 'exercises' && (currentSlice as ExercisesBlock).items.length > 0)
   );
 
   // Homework and the episode count as finished once their proof is saved
   const drillProven = (currentSlice?.type === 'homework' && homeworkProof.trim().length >= 3)
-    || (currentSlice?.type === 'watch' && /[A-Za-z]{2,}/.test(watchProof));
+    || (currentSlice?.type === 'watch' && /[A-Za-z]{2,}/.test(watchProof))
+    || (currentSlice?.type === 'story' && /[A-Za-z]{2,}/.test(storyProof));
 
   /** Returns whether the server accepted it — the stamp lands only on a real save */
   const toggle = async (task: DayTask): Promise<boolean> => {
@@ -910,6 +927,29 @@ export default function DayPage({
               saved={(myNotes?.watch as Record<string, string> | undefined) ?? null}
               onSaved={(t) => { setWatchProof(t); setNeedsProof(false); markComplete(sliceKey); }}
             />
+          </div>
+        );
+
+      /* ---------- قصة اليوم ---------- */
+      case 'story':
+        return (
+          <div key={key}>
+            <StoryStation
+              weekNumber={week.number}
+              data={block}
+              rate={rate}
+              voice={voice}
+              saved={(myNotes?.story as Record<string, string> | undefined) ?? null}
+              onSaved={(t) => { setStoryProof(t); setNeedsProof(false); markComplete(sliceKey); }}
+            />
+          </div>
+        );
+
+      /* ---------- تحدّي اليوم ---------- */
+      case 'challenge':
+        return (
+          <div key={key}>
+            <ChallengeStation data={block} onDone={() => markComplete(sliceKey)} />
           </div>
         );
 
@@ -1393,6 +1433,11 @@ export default function DayPage({
                     {tr('أنجز مغامرتك، ثم اكتب ما فعلته واضغط «احفظ». بعدها ينتهي اليوم.')}
                   </p>
                 )}
+                {needsProof && task.blocks.some((b) => b.type === 'story') && (
+                  <p className="mb-3 rounded-lg bg-amber-50 p-3 text-center text-sm text-amber-900">
+                    {tr('اختر عبرة القصة، ثم اكتب جملة منها واضغط «احفظ».')}
+                  </p>
+                )}
                 {needsProof && task.blocks.some((b) => b.type === 'watch') && (
                   <p className="mb-3 rounded-lg bg-amber-50 p-3 text-center text-sm text-amber-900">
                     {tr('شاهد الحلقة، ثم اكتب ما سمعته واضغط «احفظ».')}
@@ -1465,6 +1510,10 @@ export default function DayPage({
                         if (!checked) {
                           // Homework needs its written proof first — the server checks too
                           if (task.blocks.some((b) => b.type === 'homework') && homeworkProof.trim().length < 3) {
+                            setNeedsProof(true);
+                            return;
+                          }
+                          if (task.blocks.some((b) => b.type === 'story') && !/[A-Za-z]{2,}/.test(storyProof)) {
                             setNeedsProof(true);
                             return;
                           }

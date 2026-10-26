@@ -607,6 +607,21 @@ class WeekController extends Controller
                 continue;
             }
 
+            if (str_starts_with($token, 'story:')) {
+                $block = $this->storyFor($week, $day, substr($token, 6));
+                if ($block) {
+                    $blocks[] = $block;
+                }
+
+                continue;
+            }
+
+            if (str_starts_with($token, 'play:')) {
+                $blocks[] = $this->challengeFor($week, $day, substr($token, 5));
+
+                continue;
+            }
+
             if (str_starts_with($token, 'watch:')) {
                 $block = $this->watchFor($week, $day, substr($token, 6));
                 if ($block) {
@@ -955,6 +970,74 @@ class WeekController extends Controller
             'captions' => ! $onScreen && $module <= 2,
             'steps'    => $steps,
             'proof'    => $proof,
+        ];
+    }
+
+    /**
+     * Today's story — days 3 and 6, in place of the episode.
+     *
+     * The library's stories, read inside the plan at the level of the
+     * week's unit, so reading alternates with watching and the day does
+     * not grow. The moral is not on the page: it is the question. Three
+     * morals are offered — this story's and two from stories of the
+     * same level, the same each time for a learner and a day — and the
+     * server judges which was chosen.
+     */
+    protected function storyFor(Week $week, int $day, string $slug): ?array
+    {
+        $story = \App\Models\Story::where('slug', $slug)->first();
+        if (! $story) {
+            return null;
+        }
+
+        $seed = crc32(implode(':', [auth()->id() ?? 0, $week->number, $day, $slug]));
+        $others = \App\Models\Story::where('level', $story->level)->where('slug', '!=', $slug)
+            ->whereNotNull('moral_ar')->pluck('moral_ar', 'slug')
+            ->sortBy(fn ($m, $s) => crc32($seed.':'.$s))->take(2)->values();
+        $morals = $others->push($story->moral_ar)
+            ->sortBy(fn ($m) => crc32($seed.':'.$m))->values()->all();
+
+        $client = $story->toClientArray();
+        unset($client['moral_ar'], $client['moral_en']);
+
+        return [
+            'type'   => 'story',
+            'day'    => $day,
+            'story'  => $client,
+            'morals' => $morals,
+        ];
+    }
+
+    /**
+     * Today's challenge — a short game on what the week has taught.
+     *
+     * Required, so it stays small: one round, two or three minutes, and
+     * only on words and mistakes the learner has already met. The race
+     * takes the week's words introduced by today; spot-the-mistake the
+     * book's twenty errors. ProgressService checks a round was played.
+     */
+    protected function challengeFor(Week $week, int $day, string $game): array
+    {
+        $words = [];
+        if ($game === 'match_race') {
+            $intro = $this->introductions($week);
+            $groups = collect($intro)->filter(fn ($d, $k) => str_starts_with($k, 'vocab:') && $d <= $day)
+                ->keys()->flatMap(fn ($k) => explode(',', substr($k, 6)))->map('trim')->all();
+            $pool = $week->vocabulary->whereIn('group', $groups);
+            if ($pool->count() < 8) {
+                $pool = \App\Models\Vocabulary::whereIn('week_id', Week::where('number', '<=', $week->number)->pluck('id'))->get();
+            }
+            $words = $pool->shuffle()->take(60)->map(fn ($v) => ['id' => $v->id, 'word' => $v->word, 'arabic' => $v->arabic])->values()->all();
+        }
+
+        $best = \App\Models\LearningEvent::where('user_id', auth()->id())->where('type', 'game_score')
+            ->where('ref', $game)->max('value');
+
+        return [
+            'type'  => 'challenge',
+            'game'  => $game,
+            'words' => $words,
+            'best'  => (int) $best,
         ];
     }
 

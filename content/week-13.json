@@ -120,10 +120,16 @@
           "ref": "watch:i9GlEYf8_5I"
         },
         {
+          "order": 8,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:match_race"
+        },
+        {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -174,10 +180,16 @@
           "ref": "watch:AKzqRMA_1lo"
         },
         {
+          "order": 8,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:error_hunt"
+        },
+        {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -223,15 +235,21 @@
         },
         {
           "order": 7,
-          "label": "حلقة اليوم",
+          "label": "قصة اليوم",
           "minutes": 10,
-          "ref": "watch:O0TcVDYUfQk"
+          "ref": "story:boy-who-cried-wolf"
+        },
+        {
+          "order": 8,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:match_race"
         },
         {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -282,10 +300,16 @@
           "ref": "watch:UZHZ5DepyWo"
         },
         {
+          "order": 8,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:error_hunt"
+        },
+        {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -342,10 +366,16 @@
           "ref": "watch:9i4z_qXdrX4"
         },
         {
+          "order": 9,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:match_race"
+        },
+        {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -397,15 +427,21 @@
         },
         {
           "order": 8,
-          "label": "حلقة اليوم",
-          "minutes": 20,
-          "ref": "watch:H16SF7h3i14"
+          "label": "قصة اليوم",
+          "minutes": 10,
+          "ref": "story:goose-golden-eggs"
+        },
+        {
+          "order": 9,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:error_hunt"
         },
         {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -462,10 +498,16 @@
           "ref": "record:baseline"
         },
         {
+          "order": 9,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:match_race"
+        },
+        {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     }

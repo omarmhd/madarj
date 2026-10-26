@@ -136,10 +136,16 @@
           "ref": "watch:5b--wk0rn6A"
         },
         {
+          "order": 8,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:match_race"
+        },
+        {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -190,10 +196,16 @@
           "ref": "watch:DpBpmk-iu5M"
         },
         {
+          "order": 8,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:error_hunt"
+        },
+        {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -239,15 +251,21 @@
         },
         {
           "order": 7,
-          "label": "حلقة اليوم",
+          "label": "قصة اليوم",
           "minutes": 10,
-          "ref": "watch:Fbcimg1r1Ms"
+          "ref": "story:juhas-coat"
+        },
+        {
+          "order": 8,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:match_race"
         },
         {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -298,10 +316,16 @@
           "ref": "watch:SxcFXDeH4uU"
         },
         {
+          "order": 8,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:error_hunt"
+        },
+        {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -352,10 +376,16 @@
           "ref": "watch:DPYJQSA-x50"
         },
         {
+          "order": 8,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:match_race"
+        },
+        {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     },
@@ -413,15 +443,21 @@
         },
         {
           "order": 9,
-          "label": "حلقة اليوم",
+          "label": "قصة اليوم",
           "minutes": 10,
-          "ref": "watch:kSa-F4eXkwc"
+          "ref": "story:the-frog-in-the-well"
+        },
+        {
+          "order": 10,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:error_hunt"
         },
         {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 10
+          "order": 11
         }
       ]
     },
@@ -478,10 +514,16 @@
           "ref": "record:baseline"
         },
         {
+          "order": 9,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:match_race"
+        },
+        {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     }

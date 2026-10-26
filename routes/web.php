@@ -180,6 +180,13 @@ Route::middleware(['auth', 'verified', \App\Http\Middleware\RequireSetup::class,
         ->middleware('throttle:60,1')
         ->name('play.score');
 
+    // The day's required challenge saves its round here, named as a lesson
+    // route: with games switched off in a trial, play.* is refused, and the
+    // day would be left with a station nobody can finish
+    Route::post('/day/challenge-score', [PlayController::class, 'score'])
+        ->middleware('throttle:60,1')
+        ->name('day.challenge');
+
     Route::post('/play/wordle', [PlayController::class, 'guess'])
         ->middleware('throttle:30,1')
         ->name('play.wordle');
@@ -208,6 +215,10 @@ Route::middleware(['auth', 'verified', \App\Http\Middleware\RequireSetup::class,
     // استمارات الكتاب — أسئلة عن نفسه، تُحفظ ولا تُقيَّم
     Route::post('/week/{week}/notes', [WeekNoteController::class, 'store'])
         ->name('week-notes.store');
+
+    // A day's story: is this its moral? Judged here, never in the page
+    Route::post('/stories/check', [\App\Http\Controllers\StoryController::class, 'check'])
+        ->name('stories.check');
 
     // الترقية — العرض ثم الطلب. ولا دفع: نتواصل يدوياً
     Route::get('/upgrade', [UpgradeController::class, 'show'])->name('upgrade');

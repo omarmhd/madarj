@@ -27,29 +27,44 @@ use Inertia\Response;
  */
 class StoryController extends Controller
 {
+    /**
+     * Is this the moral of the story? Asked from a day's story station.
+     *
+     * The answer is not sent with the page — the server judges, as with
+     * every exercise (§4.4). After a second wrong try it says which one
+     * it was: the answer comes after two attempts, never on the first.
+     * A right answer also counts the story as read in the library.
+     */
+    public function check(Request $request): \Illuminate\Http\JsonResponse
+    {
+        $data = $request->validate([
+            'slug'    => ['required', 'string', 'max:120'],
+            'moral'   => ['required', 'string', 'max:600'],
+            'attempt' => ['required', 'integer', 'min:1', 'max:10'],
+        ]);
+
+        $story = Story::where('slug', $data['slug'])->firstOrFail();
+        $correct = trim($data['moral']) === trim((string) $story->moral_ar);
+
+        if ($correct) {
+            LearningEvent::firstOrCreate(
+                ['user_id' => $request->user()->id, 'type' => 'story_read', 'ref' => $story->slug],
+                ['occurred_at' => now()],
+            );
+        }
+
+        return response()->json([
+            'correct' => $correct,
+            'answer'  => ! $correct && $data['attempt'] >= 2 ? $story->moral_ar : null,
+        ]);
+    }
+
     public function index(Request $request): Response
     {
         return Inertia::render('Stories', [
             'stories' => fn () => Story::orderBy('position')
                 ->get()
-                ->map(fn (Story $s) => [
-                    'slug'      => $s->slug,
-                    'title_en'  => $s->title_en,
-                    'title_ar'  => $s->title_ar,
-                    'level'     => $s->level,
-                    'source_ar' => $s->source_ar,
-                    'minutes'   => $s->minutes,
-                    'why_ar'    => $s->why_ar,
-                    'lines'     => $s->lines,
-                    'moral_en'  => $s->moral_en,
-                    'moral_ar'  => $s->moral_ar,
-                    'words'     => $s->words ?? [],
-                    'word_count' => $s->wordCount(),
-                    // السرد إن وُجد: ملفّ واحد وبدايات جمله بالثواني
-                    'audio'      => $s->has_audio
-                        ? ['url' => $s->audioUrl(), 'cues' => $s->cues()]
-                        : null,
-                ]),
+                ->map(fn (Story $s) => $s->toClientArray()),
 
             // Which level to open first: the learner's own, from their week
             'my_level' => fn () => Story::levelForWeek(

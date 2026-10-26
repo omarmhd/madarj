@@ -17,6 +17,7 @@ import {
   PenLine,
   RotateCcw,
   Smartphone,
+  Trophy,
   type LucideIcon,
 } from 'lucide-react';
 
@@ -54,7 +55,7 @@ export const TONES: Record<Tone, { soft: string; ring: string; text: string; sol
 const TONE_OF: Record<string, Tone> = {
   section: 'violet', vocabulary: 'amber', dialogue: 'sky', minimal_pairs: 'fuchsia', spelling: 'cyan',
   review: 'teal', exercises: 'violet', watch: 'rose', imitate: 'emerald', writing: 'emerald',
-  homework: 'amber', record: 'rose',
+  homework: 'amber', record: 'rose', story: 'sky', challenge: 'fuchsia',
 };
 
 export interface TaskKind {
@@ -111,6 +112,10 @@ function baseKind(b: BlockLike | undefined): Omit<TaskKind, 'tone'> {
       return { Icon: RotateCcw, short: 'المراجعة', purpose: 'كلمات حان وقت مراجعتها — اكتبها من الذاكرة' };
     case 'exercises':
       return { Icon: ListChecks, short: 'التمارين', purpose: 'طبّق ما تعلّمته اليوم' };
+    case 'story':
+      return { Icon: BookOpenText, short: 'قصة اليوم', purpose: 'قصة قصيرة مسموعة بمستواك — اقرأها واعرف عبرتها' };
+    case 'challenge':
+      return { Icon: Trophy, short: 'تحدّي اليوم', purpose: 'جولة لعب قصيرة على ما تعلّمته — دقيقتان أو ثلاث' };
     case 'watch':
       return { Icon: Clapperboard, short: 'حلقة اليوم', purpose: 'حلقة قصيرة من مسلسل للمتعلّمين — شاهدها واكتب ما سمعت' };
     case 'imitate':

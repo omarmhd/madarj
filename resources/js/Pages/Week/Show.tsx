@@ -108,7 +108,7 @@ type Activity =
    * today's shadowing paragraph, today's writing model. They have no
    * week-wide version, so this page points to the day instead.
    */
-  | { kind: 'inday'; what: 'spell' | 'spell_review' | 'watch' | 'imitate' | 'homework' }
+  | { kind: 'inday'; what: 'spell' | 'spell_review' | 'watch' | 'story' | 'challenge' | 'imitate' | 'homework' }
   /** قسم شرح: القواعد · النطق · الاستماع · القراءة · العبارات */
   | { kind: 'section'; sectionKind: string }
   | { kind: 'unbuilt'; ref: string };
@@ -228,6 +228,12 @@ function parseRef(ref: string): Activity[] {
       if (token.startsWith('watch:')) {
         return { kind: 'inday', what: 'watch' };
       }
+      if (token.startsWith('story:')) {
+        return { kind: 'inday', what: 'story' };
+      }
+      if (token.startsWith('play:')) {
+        return { kind: 'inday', what: 'challenge' };
+      }
       if (token === 'imitate' || token === 'homework') {
         return { kind: 'inday', what: token };
       }
@@ -254,6 +260,8 @@ const INDAY_NAMES: Record<string, string> = {
   spell: 'كتابة الكلمات',
   spell_review: 'مراجعة الإملاء',
   watch: 'حلقة اليوم',
+  story: 'قصة اليوم',
+  challenge: 'تحدّي اليوم',
   imitate: 'اكتب مثله',
   homework: 'مغامرة اليوم',
 };

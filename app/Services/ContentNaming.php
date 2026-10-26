@@ -46,6 +46,8 @@ class ContentNaming
         'spell'    => ['ar' => 'كتابة الكلمات', 'en' => 'Spelling'],
         'spell_review' => ['ar' => 'مراجعة الإملاء', 'en' => 'Spelling Review'],
         'watch'    => ['ar' => 'حلقة اليوم', 'en' => 'Today’s Episode'],
+        'story'    => ['ar' => 'قصة اليوم', 'en' => 'Today’s Story'],
+        'play'     => ['ar' => 'تحدّي اليوم', 'en' => 'Today’s Challenge'],
         'imitate'  => ['ar' => 'اكتب مثله', 'en' => 'Write One Like It'],
         'homework' => ['ar' => 'مغامرة اليوم', 'en' => 'Today’s Adventure'],
     ];
@@ -139,6 +141,8 @@ class ContentNaming
             || str_starts_with($token, 'record')
             || str_starts_with($token, 'spell:')
             || str_starts_with($token, 'watch:')
+            || str_starts_with($token, 'story:')
+            || str_starts_with($token, 'play:')
             || $token === 'imitate'
             || $token === 'homework';
     }
@@ -204,6 +208,14 @@ class ContentNaming
 
         if (str_starts_with($token, 'watch:')) {
             return self::FIXED['watch'];
+        }
+
+        if (str_starts_with($token, 'story:')) {
+            return self::FIXED['story'];
+        }
+
+        if (str_starts_with($token, 'play:')) {
+            return self::FIXED['play'];
         }
 
         if ($token === 'imitate') {

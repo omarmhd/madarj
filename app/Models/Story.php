@@ -42,6 +42,29 @@ class Story extends Model
         'has_audio' => 'boolean',
     ];
 
+    /** What the reader needs — the library and a day's story station share it */
+    public function toClientArray(): array
+    {
+        return [
+            'slug'       => $this->slug,
+            'title_en'   => $this->title_en,
+            'title_ar'   => $this->title_ar,
+            'level'      => $this->level,
+            'source_ar'  => $this->source_ar,
+            'minutes'    => $this->minutes,
+            'why_ar'     => $this->why_ar,
+            'lines'      => $this->lines,
+            'moral_en'   => $this->moral_en,
+            'moral_ar'   => $this->moral_ar,
+            'words'      => $this->words ?? [],
+            'word_count' => $this->wordCount(),
+            // السرد إن وُجد: ملفّ واحد وبدايات جمله بالثواني
+            'audio'      => $this->has_audio
+                ? ['url' => $this->audioUrl(), 'cues' => $this->cues()]
+                : null,
+        ];
+    }
+
     /** الصيغ المقبولة — mp3 للنشر، وwav لما يخرج من محرّك محليّ */
     public const FORMATS = ['mp3', 'wav'];
 

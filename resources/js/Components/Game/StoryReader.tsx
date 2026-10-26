@@ -45,6 +45,7 @@ export default function StoryReader({
   isRead,
   onFinish,
   onClose,
+  hideMoral = false,
 }: {
   story: StoryData;
   /** سرعة القراءة — من شريط الصفحة لا ثابتة في الشفرة */
@@ -53,7 +54,10 @@ export default function StoryReader({
   voice: VoicePref;
   isRead: boolean;
   onFinish: () => void;
-  onClose: () => void;
+  /** No way back inside a day's station — the station has its own */
+  onClose?: () => void;
+  /** In a day's story station the moral is the question, so it is not shown */
+  hideMoral?: boolean;
 }) {
   const tr = useT();
   const { speakSequence, stop: stopSpeech, speaking, supported } = useMySpeech();
@@ -132,14 +136,16 @@ export default function StoryReader({
 
   return (
     <article className="paper rounded p-5 sm:p-7">
-      <button
-        onClick={onClose}
-        className="text-sm font-medium text-stone-500 transition hover:text-stone-800"
-      >
-        <ArrowRight aria-hidden size={15} className="inline-block align-[-3px]" /> {tr('رجوع إلى القصص')}
-      </button>
+      {onClose && (
+        <button
+          onClick={onClose}
+          className="mb-4 text-sm font-medium text-stone-500 transition hover:text-stone-800"
+        >
+          <ArrowRight aria-hidden size={15} className="inline-block align-[-3px]" /> {tr('رجوع إلى القصص')}
+        </button>
+      )}
 
-      <header className="mt-4">
+      <header>
         <h2 className="text-2xl font-bold text-stone-900">{story.title_ar}</h2>
 
         <p className="mt-0.5 font-entry text-xl italic text-stone-500" dir="ltr">
@@ -216,7 +222,7 @@ export default function StoryReader({
       </div>
 
       {/* المغزى — بالعربية، فهو سبب القراءة لا تدريبها */}
-      {story.moral_ar && (
+      {!hideMoral && story.moral_ar && (
         <div className="mt-6 rounded-xl border-s-4 border-amber-500 bg-amber-50/70 p-4">
           <p className="text-base font-medium leading-relaxed text-amber-950">
             {story.moral_ar}

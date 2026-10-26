@@ -49,10 +49,16 @@
           "ref": "watch:dSlbAvHAPSM"
         },
         {
+          "order": 7,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:match_race"
+        },
+        {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 8
         }
       ]
     },
@@ -97,10 +103,16 @@
           "ref": "watch:q-mgRHU6TTQ"
         },
         {
+          "order": 7,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:error_hunt"
+        },
+        {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 8
         }
       ]
     },
@@ -140,15 +152,21 @@
         },
         {
           "order": 6,
-          "label": "حلقة اليوم",
-          "minutes": 20,
-          "ref": "watch:1Pzkoee_ixY"
+          "label": "قصة اليوم",
+          "minutes": 10,
+          "ref": "story:tortoise-and-two-ducks"
+        },
+        {
+          "order": 7,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:match_race"
         },
         {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 8
         }
       ]
     },
@@ -187,10 +205,16 @@
           "ref": "watch:3p_OcMiqDIY"
         },
         {
+          "order": 6,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:error_hunt"
+        },
+        {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 6
+          "order": 7
         }
       ]
     },
@@ -235,10 +259,16 @@
           "ref": "watch:dfjK81QXvao"
         },
         {
+          "order": 7,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:match_race"
+        },
+        {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 8
         }
       ]
     },
@@ -278,15 +308,21 @@
         },
         {
           "order": 6,
-          "label": "حلقة اليوم",
-          "minutes": 15,
-          "ref": "watch:NdY5Nfwo_ms"
+          "label": "قصة اليوم",
+          "minutes": 10,
+          "ref": "story:hatim-and-his-horse"
+        },
+        {
+          "order": 7,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:error_hunt"
         },
         {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 7
+          "order": 8
         }
       ]
     },
@@ -325,10 +361,16 @@
           "ref": "record:baseline"
         },
         {
+          "order": 6,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:match_race"
+        },
+        {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 6
+          "order": 7
         }
       ]
     }

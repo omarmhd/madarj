@@ -253,6 +253,33 @@ class ProgressService
             abort_if(mb_strlen(trim((string) $proof)) < 3, 422, 'اكتب ما فعلته في مغامرتك أولاً، ثم أنجز المهمة.');
         }
 
+        // Today's story counts with its moral found and an English line from it
+        if ($done && str_starts_with((string) ($task['ref'] ?? ''), 'story:')) {
+            $answers = \App\Models\WeekNote::where('user_id', $user->id)
+                ->where('week_id', $week->id)
+                ->where('kind', 'story')
+                ->first()?->answers ?? [];
+            $moral = \App\Models\Story::where('slug', substr($task['ref'], 6))->value('moral_ar');
+
+            abort_unless(
+                trim((string) ($answers['day'.$day->number.'_moral'] ?? '')) === trim((string) $moral)
+                    && preg_match('/[A-Za-z]{2,}/', (string) ($answers['day'.$day->number] ?? '')),
+                422,
+                'اختر عبرة القصة واكتب جملة إنجليزية منها أولاً، ثم أنجز المهمة.'
+            );
+        }
+
+        // Today's challenge counts once a round of its game was played today
+        if ($done && str_starts_with((string) ($task['ref'] ?? ''), 'play:')) {
+            $played = \App\Models\LearningEvent::where('user_id', $user->id)
+                ->where('type', 'game_score')
+                ->where('ref', substr($task['ref'], 5))
+                ->where('occurred_at', '>=', now()->startOfDay())
+                ->exists();
+
+            abort_unless($played, 422, 'العب جولة التحدّي حتى آخرها أولاً، ثم أنجز المهمة.');
+        }
+
         // Today's episode counts only with an English line heard in it
         if ($done && str_starts_with((string) ($task['ref'] ?? ''), 'watch:')) {
             $proof = \App\Models\WeekNote::where('user_id', $user->id)
