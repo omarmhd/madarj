@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useSpeechPrefs } from '@/lib/speechPrefs';
 import { strip } from '@/lib/bidi';
 import { usePage } from '@inertiajs/react';
 
@@ -398,10 +399,11 @@ export function useMySpeech() {
   const { speak, speakSequence, stop, speaking, supported, voices, hasGenderedVoices } = useSpeech();
   const { props } = usePage();
 
-  const prefs = ((props as any).prefs ?? {}) as { voice?: VoicePref; rate?: number };
-  const pref = (prefs.voice ?? 'f') as VoicePref;
+  // The saved preference, or what the learner just picked on this page
+  const prefs = useSpeechPrefs(((props as any).prefs ?? {}) as { voice?: VoicePref; rate?: number });
+  const pref = prefs.voice;
 
-  const myRate = (prefs.rate ?? 0.8) * prefRateFactor(pref);
+  const myRate = prefs.rate * prefRateFactor(pref);
   const myGender = prefToGender(pref);
 
   /** ينطق بتفضيلات المتدرّب؛ و`slow` أبطأ **منها** لا سرعة ثابتة */

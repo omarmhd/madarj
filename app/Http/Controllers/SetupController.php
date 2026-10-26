@@ -73,6 +73,25 @@ class SetupController extends Controller
         ]);
     }
 
+    /**
+     * Voice and speed, changed from a lesson's ♀/♂ and speed buttons.
+     * Saved at once, so the next page and the next visit speak the same.
+     */
+    public function speech(Request $request): \Illuminate\Http\JsonResponse
+    {
+        $data = $request->validate([
+            'voice' => ['nullable', 'in:f,m,c'],
+            'rate'  => ['nullable', 'numeric', 'between:0.5,1.5'],
+        ]);
+
+        $request->user()->enrollment?->update(array_filter([
+            'voice'       => $data['voice'] ?? null,
+            'speech_rate' => $data['rate'] ?? null,
+        ], fn ($v) => $v !== null));
+
+        return response()->json(['saved' => true]);
+    }
+
     public function store(Request $request): RedirectResponse
     {
         $data = $request->validate([

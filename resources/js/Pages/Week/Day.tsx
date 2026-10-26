@@ -1,4 +1,6 @@
 import { createPortal } from 'react-dom';
+import type { VoicePref } from '@/hooks/useSpeech';
+import { useSpeechPrefs, setSpeechPrefs } from '@/lib/speechPrefs';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import StageDirection from '@/Components/Game/StageDirection';
 import Bdi from '@/Components/Bdi';
@@ -272,8 +274,10 @@ export default function DayPage({
   const markComplete = (key: string) =>
     setCompleted((c) => (c[key] ? c : { ...c, [key]: true }));
   // السرعة الافتراضية من تفضيلات المستخدم لا رقماً ثابتاً
-  const [rate, setRate] = useState(prefs.rate);
-  const [voice, setVoice] = useState(prefs.voice);
+  // One shared choice: the drills inside the page read it too (lib/speechPrefs)
+  const { voice, rate } = useSpeechPrefs(prefs ?? {});
+  const setVoice = (v: VoicePref) => setSpeechPrefs({ voice: v });
+  const setRate = (r: number) => setSpeechPrefs({ rate: r });
 
   /**
    * الصوت المفضّل والسرعة الفعلية.

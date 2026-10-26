@@ -79,6 +79,9 @@ Route::middleware(['auth', 'verified', \App\Http\Middleware\RequireSetup::class,
     // صفحة التهيئة — تُعرض مرة قبل أول درس، وتبقى متاحة للتغيير
     Route::get('/setup', [SetupController::class, 'show'])->name('setup');
     Route::post('/setup', [SetupController::class, 'store'])->name('setup.store');
+    Route::post('/prefs/speech', [SetupController::class, 'speech'])
+        ->middleware('throttle:60,1')
+        ->name('prefs.speech');
 
     // لوحة التقدّم — نقطة الدخول
     Route::get('/dashboard', [WeekController::class, 'dashboard'])

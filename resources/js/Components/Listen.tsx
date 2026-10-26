@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useSpeechPrefs } from '@/lib/speechPrefs';
 import { iso } from '@/lib/bidi';
 import { usePage } from '@inertiajs/react';
 import { useSpeech, prefToGender, prefRateFactor, type Gender, type VoicePref } from '@/hooks/useSpeech';
@@ -55,13 +56,14 @@ export default function Listen({
   const { speak, supported } = useSpeech();
   const { props } = usePage();
   const [playing, setPlaying] = useState(false);
+  // The learner's choice on this page, over the one the page loaded with
+  const prefs = useSpeechPrefs(((props as any).prefs ?? {}) as { voice?: VoicePref; rate?: number });
 
   // بلا دعم في المتصفح: يُخفى الزرّ بدل أن يُعرض معطّلاً في كل سطر
   if (!supported) return null;
 
-  const prefs = ((props as any).prefs ?? {}) as { voice?: VoicePref; rate?: number };
-  const pref = (prefs.voice ?? 'f') as VoicePref;
-  const base = rate ?? (prefs.rate ?? 0.8) * prefRateFactor(pref);
+  const pref = prefs.voice;
+  const base = rate ?? prefs.rate * prefRateFactor(pref);
   const finalRate = slow ? Math.max(0.4, base * 0.7) : base;
   const finalGender = gender ?? prefToGender(pref);
 

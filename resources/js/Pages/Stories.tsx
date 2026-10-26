@@ -1,4 +1,6 @@
 import { BookOpen } from 'lucide-react';
+import type { VoicePref } from '@/hooks/useSpeech';
+import { useSpeechPrefs, setSpeechPrefs } from '@/lib/speechPrefs';
 import { Head, usePage } from '@inertiajs/react';
 import { useEffect, useRef, useState } from 'react';
 import AppNav from '@/Components/AppNav';
@@ -92,8 +94,10 @@ export default function Stories({
    * الشفرة، فلا صوته الذي اختاره ولا سرعته.
    */
   const prefs = (usePage().props as { prefs?: { voice?: 'f' | 'm' | 'c'; rate?: number } }).prefs;
-  const [rate, setRate] = useState(prefs?.rate ?? 0.8);
-  const [voice, setVoice] = useState<'f' | 'm' | 'c'>(prefs?.voice ?? 'f');
+  // One shared choice: the drills inside the page read it too (lib/speechPrefs)
+  const { voice, rate } = useSpeechPrefs(prefs ?? {});
+  const setVoice = (v: VoicePref) => setSpeechPrefs({ voice: v });
+  const setRate = (r: number) => setSpeechPrefs({ rate: r });
 
   const topRef = useRef<HTMLDivElement | null>(null);
 

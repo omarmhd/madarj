@@ -1,4 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
+import type { VoicePref } from '@/hooks/useSpeech';
+import { useSpeechPrefs, setSpeechPrefs } from '@/lib/speechPrefs';
 import StageDirection from '@/Components/Game/StageDirection';
 import { iso } from '@/lib/bidi';
 import { Head, Link } from '@inertiajs/react';
@@ -355,8 +357,10 @@ export default function WeekShow({
 
   /** السرعة تحكم كل نطق في الصفحة — قيمة واحدة بدل إعداد في كل قسم */
   // السرعة الافتراضية من تفضيلات المستخدم لا رقماً ثابتاً
-  const [rate, setRate] = useState(prefs.rate);
-  const [voice, setVoice] = useState(prefs.voice);
+  // One shared choice: the drills inside the page read it too (lib/speechPrefs)
+  const { voice, rate } = useSpeechPrefs(prefs ?? {});
+  const setVoice = (v: VoicePref) => setSpeechPrefs({ voice: v });
+  const setRate = (r: number) => setSpeechPrefs({ rate: r });
 
   /**
    * الصوت المفضّل والسرعة الفعلية.

@@ -176,14 +176,25 @@ export default function AppNav() {
           <div className="flex-1 sm:hidden" />
 
           {/* السلسلة — أقوى محفّز في المنصة، فلا تُخفى في أي شاشة */}
+          {/* A bare "1" beside a flame read as nothing: the number says what it counts */}
           {typeof streak === 'number' && (
             <span
-              title={tr("سلسلة الأيام المتصلة")}
+              title={tr('سلسلة الأيام المتصلة')}
               className="flex shrink-0 items-center gap-1 rounded-lg bg-amber-50 px-2 py-1
                          text-sm font-semibold text-amber-700 sm:px-2.5 sm:py-1.5"
             >
               <Flame aria-hidden size={15} />
-              {streak}
+              {streak > 0 && streak}
+              {/* Arabic counts: 1 · 2 · 3–10 · 11 and up each take their own form */}
+              <span className="text-xs font-medium">
+                {streak === 0
+                  ? tr('ابدأ سلسلتك')
+                  : streak === 1
+                    ? tr('يوم متتالٍ')
+                    : streak === 2
+                      ? tr('يومان متتاليان')
+                      : streak <= 10 ? tr('أيام متتالية') : tr('يوماً متتالياً')}
+              </span>
             </span>
           )}
 
@@ -191,11 +202,15 @@ export default function AppNav() {
           <div className="relative hidden shrink-0 sm:block">
             <button
               onClick={() => setMenuOpen((v) => !v)}
-              className="grid h-9 w-9 place-items-center rounded-full bg-slate-100 text-sm
-                         font-bold text-slate-700 transition hover:bg-slate-200"
-              aria-label={tr("قائمة الحساب")}
+              aria-expanded={menuOpen}
+              className="flex items-center gap-2 rounded-full bg-slate-100 py-1 pe-3 ps-1 text-sm
+                         font-medium text-slate-700 transition hover:bg-slate-200"
+              aria-label={tr('قائمة الحساب')}
             >
-              {user?.name?.charAt(0)?.toUpperCase() ?? tr('؟')}
+              <span className="grid h-7 w-7 place-items-center rounded-full bg-violet-600 text-white">
+                <UserRound aria-hidden size={15} />
+              </span>
+              <span className="max-w-[7rem] truncate"><Bdi>{user?.name?.split(' ')[0] ?? tr('حسابي')}</Bdi></span>
             </button>
 
             {menuOpen && (
