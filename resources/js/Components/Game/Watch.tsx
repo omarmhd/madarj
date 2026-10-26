@@ -24,7 +24,9 @@ export interface WatchData {
   /** What to type in YouTube's search box */
   search: string;
   title: string;
-  number: number;
+  /** The series' own episode number — Easy English has none */
+  number: number | null;
+  length: string | null;
   series: { title: string; part_ar: string; channel: string; about_ar: string };
   /** English captions on from the start — the first two units */
   captions: boolean;
@@ -92,9 +94,9 @@ export default function Watch({ weekNumber, data, saved, onSaved }: Props) {
             <span dir="ltr">{data.series.title}</span> · {data.series.part_ar}
           </p>
           <p className="text-lg font-bold text-slate-900" dir="ltr">
-            {data.series.title === 'English at Work' ? 'Episode' : 'Lesson'} {data.number}
-            {data.title ? `: ${data.title}` : ''}
+            {data.number !== null ? `Episode ${data.number}: ` : ''}{data.title}
           </p>
+          {data.length && <p className="text-xs text-slate-500">{tr('المدّة')} <Bdi>{data.length}</Bdi></p>}
           <p className="mt-1 text-sm leading-relaxed text-slate-600">{data.series.about_ar}</p>
         </div>
       </div>

@@ -1,17 +1,11 @@
 {
-  "_about": "حلقة اليوم — بديل الشادوينج. كل مهمّة في الخطة مرجعها watch:<معرّف يوتيوب>، وهنا اسم الحلقة ومسلسلها. القنوات رسمية فقط (VOA وBBC) لأن النسخ المنقولة تُحذف. والمنصّة لا تضمّن مشغّلاً ولا تضع رابطاً: تعطي المتدرّب جملة البحث واسم القناة. تُبنى الجملة من المسلسل والرقم والعنوان، ويجوز search لحلقة بعينها إن لم تأتِ بها أولاً. وتحقّق من أن الحلقات ما زالت موجودة بـ php artisan watch:check.",
+  "_about": "حلقة اليوم — بديل الشادوينج. كل مهمّة في الخطة مرجعها watch:<معرّف يوتيوب>، وهنا اسم الحلقة ومسلسلها. القنوات رسمية فقط (Easy English وBBC) لأن النسخ المنقولة تُحذف. والمنصّة لا تضمّن مشغّلاً ولا تضع رابطاً: تعطي المتدرّب جملة البحث واسم القناة. تُبنى الجملة من المسلسل والرقم والعنوان، ويجوز search لحلقة بعينها إن لم تأتِ بها أولاً. وتحقّق من أن الحلقات ما زالت موجودة بـ php artisan watch:check.",
   "series": {
-    "lle1": {
-      "title": "Let's Learn English",
-      "part_ar": "المستوى الأول",
-      "channel": "VOA Learning English",
-      "about_ar": "مسلسل قصير صنعته إذاعة صوت أمريكا للمبتدئين: آنّا تنتقل إلى واشنطن وتبدأ حياة جديدة. خمس دقائق للحلقة، بكلام بطيء وواضح."
-    },
-    "lle2": {
-      "title": "Let's Learn English",
-      "part_ar": "المستوى الثاني",
-      "channel": "VOA Learning English",
-      "about_ar": "تكمل قصّة آنّا في واشنطن، بكلام أسرع قليلاً وتراكيب أكثر: الماضي والمستقبل والمقارنة."
+    "ee": {
+      "title": "Easy English",
+      "part_ar": "حوارات الحياة اليومية",
+      "channel": "Easy English",
+      "about_ar": "حوارات برسوم متحرّكة من الحياة اليومية: العائلة والبيت والتسوّق والعمل. كلام واضح، وكل جملة مكتوبة على الشاشة."
     },
     "eaw": {
       "title": "English at Work",
@@ -21,740 +15,870 @@
     }
   },
   "episodes": {
-    "WR9_nsLyaEY": {
-      "series": "lle1",
-      "no": 1,
-      "title": "Welcome!"
-    },
-    "1-U7o9xjWQc": {
-      "series": "lle1",
-      "no": 2,
-      "title": "Hello, I'm Anna!"
-    },
-    "IEA9LMy-N3M": {
-      "series": "lle1",
-      "no": 3,
-      "title": "I'm Here!"
-    },
-    "Z5PF-vJdUdc": {
-      "series": "lle1",
-      "no": 4,
-      "title": "What Is It?"
-    },
-    "lDaZB5BBw7M": {
-      "series": "lle1",
-      "no": 5,
-      "title": "Where Are You?"
-    },
-    "T3AJ29_2IX8": {
-      "series": "lle1",
-      "no": 6,
-      "title": "Where Is the Gym?"
-    },
-    "Ka33lX-kbMg": {
-      "series": "lle1",
-      "no": 7,
-      "title": "What Are You Doing?"
-    },
-    "sp0cwcd1fGE": {
-      "series": "lle1",
-      "no": 8,
-      "title": "Are You Busy?"
-    },
-    "ZfdNbSe7Prw": {
-      "series": "lle1",
-      "no": 9,
-      "title": "Is It Cold?"
-    },
-    "1Lo_ICJYxZI": {
-      "series": "lle1",
-      "no": 10,
-      "title": "Come Over to My Place"
-    },
-    "8_npDNRKGIE": {
-      "series": "lle1",
-      "no": 11,
-      "title": "This Is My Neighborhood"
-    },
-    "cyRaZA9ZD08": {
-      "series": "lle1",
-      "no": 12,
-      "title": "Meet My Family"
-    },
-    "jkutq1P7AHU": {
-      "series": "lle1",
-      "no": 13,
-      "title": "Happy Birthday, William Shakespeare!"
-    },
-    "4Xn1Ysdmuvg": {
-      "series": "lle1",
-      "no": 14,
-      "title": "How About This?"
-    },
-    "c6_7RYaNgdA": {
-      "series": "lle1",
-      "no": 15,
-      "title": "I Love People-Watching!"
-    },
-    "QQavoMYmMVE": {
-      "series": "lle1",
-      "no": 16,
-      "title": "Where Are You From?"
-    },
-    "91sCUUVTDV8": {
-      "series": "lle1",
-      "no": 17,
-      "title": "Are You Free on Friday?"
-    },
-    "he12VfXp5Ec": {
-      "series": "lle1",
-      "no": 18,
-      "title": "She Always Does That"
-    },
-    "lgEodUvA5Po": {
-      "series": "lle1",
-      "no": 19,
-      "title": "When Do I Start?"
-    },
-    "2juFXfLsSJk": {
-      "series": "lle1",
-      "no": 20,
-      "title": "What Can You Do?"
-    },
-    "A9lwBqNZEh8": {
-      "series": "lle1",
-      "no": 21,
-      "title": "Can You Come to the Party?"
-    },
-    "8Whu9xgm3dE": {
-      "series": "lle1",
-      "no": 22,
-      "title": "Next Summer..."
-    },
-    "DzaLlp_kG6c": {
-      "series": "lle1",
-      "no": 23,
-      "title": "What Do You Want?"
-    },
-    "7BDjr0Oc6VM": {
-      "series": "lle1",
-      "no": 24,
-      "title": "Yesterday Was Amazing"
-    },
-    "bfRNAlZRiHg": {
-      "series": "lle1",
-      "no": 25,
-      "title": "Watch Out!"
-    },
-    "x2SQcTFvVzw": {
-      "series": "lle1",
-      "no": 26,
-      "title": "This Game Is Fun!"
-    },
-    "d_4TVWhqX4E": {
-      "series": "lle1",
-      "no": 27,
-      "title": ""
-    },
-    "rn7kmGroxKs": {
-      "series": "lle1",
-      "no": 28,
-      "title": "I Passed It!"
-    },
-    "_demyJmMyCo": {
-      "series": "lle1",
-      "no": 29,
-      "title": "A Long Time Ago"
-    },
-    "GnQEE0gEir0": {
-      "series": "lle1",
-      "no": 30,
-      "title": "Rolling on the River"
-    },
-    "xfMnWypEufs": {
-      "series": "lle1",
-      "no": 31,
-      "title": "Take Me Out to the Ball Game"
-    },
-    "1egFRwUFc48": {
-      "series": "lle1",
-      "no": 32,
-      "title": "Welcome to the Treehouse!"
-    },
-    "GpiXMzf3FvY": {
-      "series": "lle1",
-      "no": 33,
-      "title": "Learning America's Sport"
-    },
-    "qIiGG0pwzwk": {
-      "series": "lle1",
-      "no": 34,
-      "title": "What Will I Do?"
-    },
-    "6rFolPv2ntQ": {
-      "series": "lle1",
-      "no": 35,
-      "title": "Let's Make Dinner!"
-    },
-    "NXYXu9Kcb7o": {
-      "series": "lle1",
-      "no": 36,
-      "title": "I Can Fix This!"
-    },
-    "AGYPb0eeIs8": {
-      "series": "lle1",
-      "no": 37,
-      "title": "Let's Agree to Disagree"
-    },
-    "oPEzfd7ZKQs": {
-      "series": "lle1",
-      "no": 38,
-      "title": "She's My Best Friend!"
-    },
-    "FpCQfJLD4K8": {
-      "series": "lle1",
-      "no": 39,
-      "title": "It's Unbelievable!"
-    },
-    "nABtxJy06Yo": {
-      "series": "lle1",
-      "no": 40,
-      "title": "The Woods Are Alive"
-    },
-    "jCSHkjcmZvs": {
-      "series": "lle1",
-      "no": 41,
-      "title": "Teamwork Works Best With a Team"
-    },
-    "0aa78zW51so": {
-      "series": "lle1",
-      "no": 42,
-      "title": "I Was Minding My Own Business"
-    },
-    "4z_TK18v2u8": {
-      "series": "lle1",
-      "no": 43,
-      "title": "Time for Plan B"
-    },
-    "R4SVqLFBhVY": {
-      "series": "lle1",
-      "no": 45,
-      "title": "This Land Is Your Land"
-    },
-    "1z7pSR1nW54": {
-      "series": "lle1",
-      "no": 46,
-      "title": "May I Borrow That?"
-    },
-    "vlNqXVmMPNY": {
-      "series": "lle1",
-      "no": 47,
-      "title": "How Can I Help?"
-    },
-    "Dngj5yTCQIY": {
-      "series": "lle1",
-      "no": 48,
-      "title": "Have You Ever...?"
-    },
-    "qDqwN0mXm1o": {
-      "series": "lle1",
-      "no": 49,
-      "title": "Operation Spy"
-    },
-    "DGAUQIcY8FA": {
-      "series": "lle1",
-      "no": 50,
-      "title": "Back to School"
-    },
-    "GvjBCQ3KOws": {
-      "series": "lle1",
-      "no": 51,
-      "title": ""
-    },
-    "vJPvOYb1K10": {
-      "series": "lle1",
-      "no": 52,
-      "title": "Taking Chances"
-    },
-    "4XaAE5NRHVM": {
-      "series": "lle2",
-      "no": 1,
-      "title": "Budget Cuts"
-    },
-    "xokbf-np33Q": {
-      "series": "lle2",
-      "no": 2,
-      "title": "The Interview"
-    },
-    "a7X5ftOnp74": {
-      "series": "lle2",
-      "no": 3,
-      "title": "He Said - She Said"
-    },
-    "OR0d7fb_Ls0": {
-      "series": "lle2",
-      "no": 4,
-      "title": "Run Away With the Circus!"
-    },
-    "yJ5fpEFx6j8": {
-      "series": "lle2",
-      "no": 5,
-      "title": "Greatest Vacation of All Time"
-    },
-    "5xdLrGkmbcg": {
-      "series": "lle2",
-      "no": 6,
-      "title": "Will It Float?"
-    },
-    "x9MqYQYAGdA": {
-      "series": "lle2",
-      "no": 7,
-      "title": "Tip Your Tour Guide"
-    },
-    "WoJVDTaQQ5A": {
-      "series": "lle2",
-      "no": 8,
-      "title": ""
-    },
-    "8aa3uD1Ywjc": {
-      "series": "lle2",
-      "no": 9,
-      "title": "Pets Are Family, Too!"
-    },
-    "O08F0xp1UGk": {
-      "series": "lle2",
-      "no": 10,
-      "title": "Visit to Peru"
-    },
-    "DimMV7rUOhQ": {
-      "series": "lle2",
-      "no": 11,
-      "title": "The Big Snow"
-    },
-    "VwoIWAsBQgM": {
-      "series": "lle2",
-      "no": 12,
-      "title": "Run! Bees!"
-    },
-    "sh-haAqZiy8": {
-      "series": "lle2",
-      "no": 13,
-      "title": "Save the Bees!"
-    },
-    "5fkai35hhVI": {
-      "series": "lle2",
-      "no": 14,
-      "title": "Made for Each Other"
-    },
-    "bUvWLxbXtkE": {
-      "series": "lle2",
-      "no": 15,
-      "title": "Before and After"
-    },
-    "0drJKfs3voQ": {
-      "series": "lle2",
-      "no": 16,
-      "title": "Find Your Joy!"
-    },
-    "Ow8u0Zk2wV4": {
-      "series": "lle2",
-      "no": 17,
-      "title": "Flour Baby, Part 1"
-    },
-    "AMjUoPYXkdY": {
-      "series": "lle2",
-      "no": 18,
-      "title": "Flour Baby, Part 2"
-    },
-    "-e3XRPYy-ig": {
-      "series": "lle2",
-      "no": 19,
-      "title": "Movie Night"
-    },
-    "s9gHdZNuBuU": {
-      "series": "lle2",
-      "no": 20,
-      "title": "The Test Drive"
-    },
-    "Gn383Wyl0UQ": {
-      "series": "lle2",
-      "no": 21,
-      "title": "It Speaks to Me"
-    },
-    "EOyRn0ajkgM": {
-      "series": "lle2",
-      "no": 22,
-      "title": "Trash to Treasure, Part 2"
-    },
-    "V_b9YReldOk": {
-      "series": "lle2",
-      "no": 23,
-      "title": "Rock Star"
-    },
-    "yjFq34vMMJQ": {
-      "series": "lle2",
-      "no": 24,
-      "title": "I Feel Super!"
-    },
-    "HTn-fhGncO0": {
-      "series": "lle2",
-      "no": 25,
-      "title": "Only Human"
-    },
-    "an8xrZuIKuQ": {
-      "series": "lle2",
-      "no": 26,
-      "title": "Two Annas"
-    },
-    "I3TgfC1Y8P4": {
-      "series": "lle2",
-      "no": 27,
-      "title": "Fish out of Water"
-    },
-    "uUl6WkwKNxs": {
-      "series": "lle2",
-      "no": 28,
-      "title": "For the Birds"
-    },
-    "Az3f5OQDtAw": {
-      "series": "lle2",
-      "no": 29,
-      "title": "Where There's Smoke..."
-    },
-    "mhCAuZBPaNM": {
-      "series": "lle2",
-      "no": 30,
-      "title": "Dream a Little Dream"
+    "XBxz8_Ri8-Y": {
+      "series": "ee",
+      "no": null,
+      "title": "Introducing Yourself in English and Meeting New People",
+      "length": "6:11"
+    },
+    "V7Dvcy0gq-U": {
+      "series": "ee",
+      "no": null,
+      "title": "Nice to meet you! How to Introduce People in English",
+      "length": "6:38"
+    },
+    "lDZA54Bi8sg": {
+      "series": "ee",
+      "no": null,
+      "title": "Talking about Your Family in English",
+      "length": "5:36"
+    },
+    "ceNNH_jnQz8": {
+      "series": "ee",
+      "no": null,
+      "title": "Describing Your Family",
+      "length": "7:29"
+    },
+    "xv7zmrRPHZs": {
+      "series": "ee",
+      "no": null,
+      "title": "Talking about Your Hometown in English",
+      "length": "6:38"
+    },
+    "tqTJAXfzD0E": {
+      "series": "ee",
+      "no": null,
+      "title": "Introducing Yourself and Meeting New People",
+      "length": "10:37"
+    },
+    "JwGnCIsLOpU": {
+      "series": "ee",
+      "no": null,
+      "title": "Talking about Daily Routines",
+      "length": "4:48"
+    },
+    "M4FMEmlOqTM": {
+      "series": "ee",
+      "no": null,
+      "title": "Daily Routines vocabulary",
+      "length": "6:24"
+    },
+    "TqrMWx_aK4M": {
+      "series": "ee",
+      "no": null,
+      "title": "What Do You Usually Have for Breakfast? - Adverbs and Expressions of Frequency",
+      "length": "8:05"
+    },
+    "SesCepncmJ8": {
+      "series": "ee",
+      "no": null,
+      "title": "Talking about household chores in English - short dialogues",
+      "length": "5:28"
+    },
+    "EHxVzjjrvMY": {
+      "series": "ee",
+      "no": null,
+      "title": "Daily Routines and Household Chores Vocabulary",
+      "length": "6:17"
+    },
+    "FZPmnw4Ws5A": {
+      "series": "ee",
+      "no": null,
+      "title": "My School Day - Classroom Language and Conversation",
+      "length": "7:36"
+    },
+    "S0S1M9bKlYk": {
+      "series": "ee",
+      "no": null,
+      "title": "Fruits Vocabulary",
+      "length": "4:32"
+    },
+    "yTEB4hdrJQU": {
+      "series": "ee",
+      "no": null,
+      "title": "Learn Vegetables Vocabulary in English",
+      "length": "4:56"
+    },
+    "bgfdqVmVjfk": {
+      "series": "ee",
+      "no": null,
+      "title": "At the Restaurant Conversation",
+      "length": "4:49"
+    },
+    "GlNbzAGZC2M": {
+      "series": "ee",
+      "no": null,
+      "title": "Shopping at the Grocery Store - English Conversation",
+      "length": "5:49"
+    },
+    "Xdw8AFxyC0k": {
+      "series": "ee",
+      "no": null,
+      "title": "How Many Loaves of Bread Do We Need? - Quantifiers and Partitives",
+      "length": "8:11"
+    },
+    "SwaDRdX2-nM": {
+      "series": "ee",
+      "no": null,
+      "title": "Talking about Clothes in English",
+      "length": "5:56"
+    },
+    "5b--wk0rn6A": {
+      "series": "ee",
+      "no": null,
+      "title": "Talking about Your Home in English",
+      "length": "7:25"
+    },
+    "DpBpmk-iu5M": {
+      "series": "ee",
+      "no": null,
+      "title": "My Ideal Home",
+      "length": "7:38"
+    },
+    "Fbcimg1r1Ms": {
+      "series": "ee",
+      "no": null,
+      "title": "Prepositions of Place and Prepositions of Movement through Conversation",
+      "length": "4:10"
+    },
+    "SxcFXDeH4uU": {
+      "series": "ee",
+      "no": null,
+      "title": "Places Vocabulary in English",
+      "length": "5:53"
+    },
+    "DPYJQSA-x50": {
+      "series": "ee",
+      "no": null,
+      "title": "Asking for and Giving Directions",
+      "length": "6:42"
+    },
+    "kSa-F4eXkwc": {
+      "series": "ee",
+      "no": null,
+      "title": "Transportation Vocabulary and Vehicle Names",
+      "length": "6:49"
+    },
+    "z595z_DmpmQ": {
+      "series": "ee",
+      "no": null,
+      "title": "Talking about Hobbies and Free Time Activities",
+      "length": "5:51"
+    },
+    "1FLRGat2Z6I": {
+      "series": "ee",
+      "no": null,
+      "title": "Hobbies and Interests",
+      "length": "7:08"
+    },
+    "jOx8sGmKyIE": {
+      "series": "ee",
+      "no": null,
+      "title": "Action Verbs Vocabulary",
+      "length": "10:03"
+    },
+    "_5IyCB5V2bQ": {
+      "series": "ee",
+      "no": null,
+      "title": "Describing Animals  with Simple Present Tense",
+      "length": "6:44"
+    },
+    "eAl-wGRY6lQ": {
+      "series": "ee",
+      "no": null,
+      "title": "Opposites Vocabulary in English",
+      "length": "7:08"
+    },
+    "7isSwerYaQc": {
+      "series": "ee",
+      "no": null,
+      "title": "School Conversation, School Dialogue",
+      "length": "5:47"
+    },
+    "l4SeFcqN2Wo": {
+      "series": "ee",
+      "no": null,
+      "title": "Everyday English Conversation Practice",
+      "length": "14:56"
+    },
+    "BEQxLHsFUOs": {
+      "series": "ee",
+      "no": null,
+      "title": "Parents and Teachers",
+      "length": "9:27"
+    },
+    "En6i5bPEGco": {
+      "series": "ee",
+      "no": null,
+      "title": "Clothes & Accessories Vocabulary",
+      "length": "7:24"
+    },
+    "P7BlpW1KjAU": {
+      "series": "ee",
+      "no": null,
+      "title": "Nature Vocabulary and Facts",
+      "length": "6:39"
+    },
+    "S_8M83PSncE": {
+      "series": "ee",
+      "no": null,
+      "title": "Winter vocabulary - Learn to talk about winter season",
+      "length": "4:10"
+    },
+    "h_KUklZdq5w": {
+      "series": "ee",
+      "no": null,
+      "title": "English Conversations for Daily Life",
+      "length": "13:09"
+    },
+    "g-uW_KheiEc": {
+      "series": "ee",
+      "no": null,
+      "title": "What Did You Do? Simple Past Tense",
+      "length": "5:25"
+    },
+    "V_BnhRJmxtA": {
+      "series": "ee",
+      "no": null,
+      "title": "My Summer Vacation",
+      "length": "5:18"
+    },
+    "7uY2HrQ9qQ8": {
+      "series": "ee",
+      "no": null,
+      "title": "Feelings and emotions vocabulary",
+      "length": "5:26"
+    },
+    "OWuFkCPb9oE": {
+      "series": "ee",
+      "no": null,
+      "title": "Used To and Would",
+      "length": "7:24"
+    },
+    "NntaZma-GxA": {
+      "series": "ee",
+      "no": null,
+      "title": "Feelings and Emotions in English",
+      "length": "12:37"
+    },
+    "C8USApQKRg4": {
+      "series": "ee",
+      "no": null,
+      "title": "New Experiences and Life Events - English Conversation",
+      "length": "14:26"
+    },
+    "ofu_89J_HVI": {
+      "series": "ee",
+      "no": null,
+      "title": "We Went Camping - Irregular Verbs",
+      "length": "7:05"
+    },
+    "jy88ejZrPWw": {
+      "series": "ee",
+      "no": null,
+      "title": "At the Airport Conversation",
+      "length": "6:10"
+    },
+    "jiBHZ_rqHB8": {
+      "series": "ee",
+      "no": null,
+      "title": "At the Airport",
+      "length": "8:39"
+    },
+    "kUZiIwcvy58": {
+      "series": "ee",
+      "no": null,
+      "title": "A One-Way Ticket, Please",
+      "length": "8:50"
+    },
+    "M380ySm1vOk": {
+      "series": "ee",
+      "no": null,
+      "title": "An Englishman in New York",
+      "length": "14:24"
+    },
+    "nlgn2P1EfVs": {
+      "series": "ee",
+      "no": null,
+      "title": "A Trip to London",
+      "length": "16:36"
+    },
+    "UdEasleUc54": {
+      "series": "ee",
+      "no": null,
+      "title": "What are they doing? Present Continuous Tense",
+      "length": "5:49"
+    },
+    "x8tF2aQoukY": {
+      "series": "ee",
+      "no": null,
+      "title": "Jobs and Occupations / Learn English vocabulary about professions",
+      "length": "9:12"
+    },
+    "CX7lcgDQ_Pk": {
+      "series": "ee",
+      "no": null,
+      "title": "English in the Countryside - Present Continuous Tense",
+      "length": "9:42"
+    },
+    "HMQlA-TIAsk": {
+      "series": "ee",
+      "no": null,
+      "title": "Tell Me About Yourself - Job Interview",
+      "length": "8:08"
+    },
+    "rKFUD1Nn5ZU": {
+      "series": "ee",
+      "no": null,
+      "title": "Why Should We Hire You? - Business English Conversation for the Office and Workplace",
+      "length": "10:23"
+    },
+    "6x5k1A8kbo0": {
+      "series": "ee",
+      "no": null,
+      "title": "Working Life - English Conversation",
+      "length": "13:40"
+    },
+    "JiI1UmfgprM": {
+      "series": "ee",
+      "no": null,
+      "title": "The Most Important Thing - Comparatives and Superlatives",
+      "length": "8:07"
+    },
+    "dgqFsUAuP24": {
+      "series": "ee",
+      "no": null,
+      "title": "Describing People's Appearance and Personality Conversation",
+      "length": "5:55"
+    },
+    "IEF6rtgcZxQ": {
+      "series": "ee",
+      "no": null,
+      "title": "Describing People, Places and Things",
+      "length": "6:57"
+    },
+    "OWaTkk-RZnk": {
+      "series": "ee",
+      "no": null,
+      "title": "Have You Gotten Used to Living Here? - Adjectives with Prepositions",
+      "length": "8:07"
+    },
+    "giEWQTgGBEk": {
+      "series": "ee",
+      "no": null,
+      "title": "Are You a Night Owl or an Early Bird? - A New Roommate",
+      "length": "7:44"
+    },
+    "5coHqytroc8": {
+      "series": "ee",
+      "no": null,
+      "title": "Sharing an Apartment",
+      "length": "12:09"
+    },
+    "U8L2m8TeIWA": {
+      "series": "ee",
+      "no": null,
+      "title": "What are you going to do? Simple Future Tense - Will/ Be Going To/ Be+ing",
+      "length": "5:18"
+    },
+    "eOs0cZ12Fhk": {
+      "series": "ee",
+      "no": null,
+      "title": "Future Continuous Tense",
+      "length": "6:45"
+    },
+    "ZEb1GsqxhZc": {
+      "series": "ee",
+      "no": null,
+      "title": "Spring - English Vocabulary",
+      "length": "3:25"
+    },
+    "ZX53YSKPssQ": {
+      "series": "ee",
+      "no": null,
+      "title": "10 Years from Now - The Future Perfect Tense",
+      "length": "7:43"
+    },
+    "0TBsMgwQaE8": {
+      "series": "ee",
+      "no": null,
+      "title": "Renting an apartment",
+      "length": "8:01"
+    },
+    "YtMGgSE1SLU": {
+      "series": "ee",
+      "no": null,
+      "title": "Moving Into a New House",
+      "length": "13:51"
+    },
+    "qTiUUgCmQ_8": {
+      "series": "ee",
+      "no": null,
+      "title": "What Brings You Here? - Small Talk in English",
+      "length": "10:51"
+    },
+    "y8zIgxYlJk0": {
+      "series": "ee",
+      "no": null,
+      "title": "Making a New Friend - Verb Collocations",
+      "length": "8:22"
+    },
+    "DgCkhcs4bwE": {
+      "series": "ee",
+      "no": null,
+      "title": "Long Time No See - Common English Phrases",
+      "length": "7:35"
+    },
+    "J1f47XwvQYA": {
+      "series": "ee",
+      "no": null,
+      "title": "Family Life- English Conversations",
+      "length": "14:25"
+    },
+    "InwUQgGhwRU": {
+      "series": "ee",
+      "no": null,
+      "title": "School Life",
+      "length": "13:22"
+    },
+    "j1FlqgNCdiY": {
+      "series": "ee",
+      "no": null,
+      "title": "Family Life 2",
+      "length": "13:54"
+    },
+    "i9GlEYf8_5I": {
+      "series": "ee",
+      "no": null,
+      "title": "What have you done lately? Present Perfect Tense",
+      "length": "5:41"
+    },
+    "AKzqRMA_1lo": {
+      "series": "ee",
+      "no": null,
+      "title": "What Have You Been Doing? - Present Perfect Continuous",
+      "length": "5:54"
+    },
+    "O0TcVDYUfQk": {
+      "series": "ee",
+      "no": null,
+      "title": "It was meant to be - English Phrases",
+      "length": "7:50"
+    },
+    "UZHZ5DepyWo": {
+      "series": "ee",
+      "no": null,
+      "title": "That's coming along nicely - Common English Phrases",
+      "length": "6:45"
+    },
+    "9i4z_qXdrX4": {
+      "series": "ee",
+      "no": null,
+      "title": "English in Social Situations",
+      "length": "16:04"
+    },
+    "H16SF7h3i14": {
+      "series": "ee",
+      "no": null,
+      "title": "Everyday Life English Conversations 2",
+      "length": "14:10"
+    },
+    "htYbnd9Pnos": {
+      "series": "ee",
+      "no": null,
+      "title": "English Verb Tenses Conversations",
+      "length": "12:27"
+    },
+    "jlkQrdQt9Kc": {
+      "series": "ee",
+      "no": null,
+      "title": "Everyday Problems and Situations - English Conversation",
+      "length": "15:40"
+    },
+    "EJsfBteyjBs": {
+      "series": "ee",
+      "no": null,
+      "title": "Daily English Conversations 3",
+      "length": "13:40"
+    },
+    "QOdPj1TWdTs": {
+      "series": "ee",
+      "no": null,
+      "title": "English Conversations 2",
+      "length": "13:22"
+    },
+    "1uaMF9G-p1g": {
+      "series": "ee",
+      "no": null,
+      "title": "Chatting with New Friends",
+      "length": "18:40"
+    },
+    "ZtKCy5YnFsA": {
+      "series": "ee",
+      "no": null,
+      "title": "Meeting Someone New",
+      "length": "14:33"
+    },
+    "2oumWdjA9hM": {
+      "series": "ee",
+      "no": null,
+      "title": "Modal Verbs Conversation",
+      "length": "5:45"
+    },
+    "RLG8Nyve2vg": {
+      "series": "ee",
+      "no": null,
+      "title": "Health and Ilnesses Conversation",
+      "length": "7:51",
+      "search": "Health and Ilnesses Conversation easyenglish551"
+    },
+    "bwohUEjdonw": {
+      "series": "ee",
+      "no": null,
+      "title": "English Conversation with Modal Verbs",
+      "length": "14:21"
+    },
+    "jFy0HyEgSBc": {
+      "series": "ee",
+      "no": null,
+      "title": "Stay Safe and Healthy - English Conversation",
+      "length": "13:51"
+    },
+    "Pzjt1oVKze0": {
+      "series": "ee",
+      "no": null,
+      "title": "The English Modal Verbs",
+      "length": "14:02"
+    },
+    "MyMS3y2QuXw": {
+      "series": "ee",
+      "no": null,
+      "title": "Making Complaints",
+      "length": "8:34"
+    },
+    "gxaTP6zF9Vc": {
+      "series": "ee",
+      "no": null,
+      "title": "If I Were You - Conditionals in English",
+      "length": "6:19"
+    },
+    "PT85QlyEjQI": {
+      "series": "ee",
+      "no": null,
+      "title": "Don't Forget to Live Your Life- Gerunds and Infinitives with Verbs",
+      "length": "8:05"
+    },
+    "0gAkJOYZKok": {
+      "series": "ee",
+      "no": null,
+      "title": "Some, Every, Any, No & Compounds",
+      "length": "6:35"
+    },
+    "FofANnMlD8w": {
+      "series": "ee",
+      "no": null,
+      "title": "English Grammar Conversations",
+      "length": "16:35"
+    },
+    "6XkLU9zofZw": {
+      "series": "ee",
+      "no": null,
+      "title": "English Grammar Conversations 2",
+      "length": "13:28"
+    },
+    "ovRrIlNAR2M": {
+      "series": "ee",
+      "no": null,
+      "title": "English Grammar Conversations 3",
+      "length": "12:06"
+    },
+    "0ZYd66IGiX0": {
+      "series": "ee",
+      "no": null,
+      "title": "English Conversation with Confusing Words",
+      "length": "16:43"
+    },
+    "A6Vez89aAww": {
+      "series": "ee",
+      "no": null,
+      "title": "Places Around Town - English Conversation Practice",
+      "length": "17:41"
+    },
+    "vWMJ8uwtUVU": {
+      "series": "ee",
+      "no": null,
+      "title": "The Roommates - English Conversation",
+      "length": "16:05"
+    },
+    "qPHBRzRlTTs": {
+      "series": "ee",
+      "no": null,
+      "title": "Immigrant Life - English Conversation",
+      "length": "17:04"
+    },
+    "0jhPrERjTxU": {
+      "series": "ee",
+      "no": null,
+      "title": "English Small Talk - Everyday Life English Conversations",
+      "length": "14:20"
+    },
+    "lrqU45Qj6kA": {
+      "series": "ee",
+      "no": null,
+      "title": "Real Life English Conversations",
+      "length": "14:33"
+    },
+    "dSlbAvHAPSM": {
+      "series": "ee",
+      "no": null,
+      "title": "What You Send Out, Always Comes Back - English Stories",
+      "length": "14:49"
+    },
+    "q-mgRHU6TTQ": {
+      "series": "ee",
+      "no": null,
+      "title": "English Listening and Reading Comprehension: The Grass Is Always Greener on the Other Side",
+      "length": "14:43"
+    },
+    "1Pzkoee_ixY": {
+      "series": "ee",
+      "no": null,
+      "title": "It's Not All Sunshine and Rainbows - English Comprehension Practice",
+      "length": "18:43"
+    },
+    "3p_OcMiqDIY": {
+      "series": "ee",
+      "no": null,
+      "title": "Let's Just Go with the Flow - English Expressions, Phrases and Idioms",
+      "length": "13:03"
+    },
+    "dfjK81QXvao": {
+      "series": "ee",
+      "no": null,
+      "title": "Lighten Up and Smile - Phrasal Verbs",
+      "length": "8:50"
+    },
+    "NdY5Nfwo_ms": {
+      "series": "ee",
+      "no": null,
+      "title": "English Collocations",
+      "length": "12:45"
     },
     "KN2jyw6D1ak": {
       "series": "eaw",
       "no": 1,
-      "title": "How to prepare for an interview"
+      "title": "How to prepare for an interview",
+      "length": null
     },
     "sj-dX3fZmq0": {
       "series": "eaw",
       "no": 2,
-      "title": "Answering interview questions"
+      "title": "Answering interview questions",
+      "length": null
     },
     "2zyca6fGo4A": {
       "series": "eaw",
       "no": 3,
-      "title": "Making suggestions is easy"
+      "title": "Making suggestions is easy",
+      "length": null
     },
     "1AmS9h8g3E4": {
       "series": "eaw",
       "no": 4,
-      "title": "Introduce yourself and make some friends"
+      "title": "Introduce yourself and make some friends",
+      "length": null
     },
     "QWBwCoecvkM": {
       "series": "eaw",
       "no": 5,
-      "title": "Make polite requests"
+      "title": "Make polite requests",
+      "length": null
     },
     "NzYxS_Xy0oM": {
       "series": "eaw",
       "no": 6,
-      "title": "How to offer help"
+      "title": "How to offer help",
+      "length": null
     },
     "qR34I4S9qUA": {
       "series": "eaw",
       "no": 7,
-      "title": "Saying you're sorry"
+      "title": "Saying you're sorry",
+      "length": null
     },
     "HN5akpqjm9Q": {
       "series": "eaw",
       "no": 8,
-      "title": "Saying 'well done!'"
+      "title": "Saying 'well done!'",
+      "length": null
     },
     "tAR4AJgJIrs": {
       "series": "eaw",
       "no": 9,
-      "title": "Checking information"
+      "title": "Checking information",
+      "length": null
     },
     "F5h3tLtgVrI": {
       "series": "eaw",
       "no": 10,
-      "title": "Disagreeing"
+      "title": "Disagreeing",
+      "length": null
     },
     "-GtgqezJQog": {
       "series": "eaw",
       "no": 11,
-      "title": "Working long hours?"
+      "title": "Working long hours?",
+      "length": null
     },
     "1afHeCHquf0": {
       "series": "eaw",
       "no": 12,
-      "title": "Opening a presentation"
+      "title": "Opening a presentation",
+      "length": null
     },
     "t0U0rGl3prE": {
       "series": "eaw",
       "no": 13,
-      "title": "Making a pitch"
+      "title": "Making a pitch",
+      "length": null
     },
     "UKz1Fsw_e8c": {
       "series": "eaw",
       "no": 14,
-      "title": "Giving feedback"
+      "title": "Giving feedback",
+      "length": null
     },
     "yzPX6zmaBdg": {
       "series": "eaw",
       "no": 15,
-      "title": "Talking on the phone"
+      "title": "Talking on the phone",
+      "length": null
     },
     "WFDvDcozhYM": {
       "series": "eaw",
       "no": 16,
-      "title": "Politely refusing something"
+      "title": "Politely refusing something",
+      "length": null
     },
     "GfFqCV02J0E": {
       "series": "eaw",
       "no": 17,
-      "title": "Placing an order"
+      "title": "Placing an order",
+      "length": null
     },
     "aO3Det4ir8U": {
       "series": "eaw",
       "no": 18,
-      "title": "Writing an email"
+      "title": "Writing an email",
+      "length": null
     },
     "bDVrNLKG1bg": {
       "series": "eaw",
       "no": 19,
-      "title": "Explaining a misunderstanding"
+      "title": "Explaining a misunderstanding",
+      "length": null
     },
     "9iO29NsoYWw": {
       "series": "eaw",
       "no": 20,
-      "title": "Setting an agenda"
+      "title": "Setting an agenda",
+      "length": null
     },
     "AG2kYShBZl0": {
       "series": "eaw",
       "no": 21,
-      "title": "Asking for help"
+      "title": "Asking for help",
+      "length": null
     },
     "rr-Ocmkfd7o": {
       "series": "eaw",
       "no": 22,
-      "title": "Making polite requests"
+      "title": "Making polite requests",
+      "length": null
     },
     "zL4PI-pWfi8": {
       "series": "eaw",
       "no": 23,
-      "title": "Health and safety"
+      "title": "Health and safety",
+      "length": null
     },
     "N_wjnJiDB3I": {
       "series": "eaw",
       "no": 24,
-      "title": "Language for emergencies"
+      "title": "Language for emergencies",
+      "length": null
     },
     "05sSUfr4NcY": {
       "series": "eaw",
       "no": 25,
-      "title": "Booking a hotel room"
+      "title": "Booking a hotel room",
+      "length": null
     },
     "X7nDkvYSbfs": {
       "series": "eaw",
       "no": 26,
-      "title": "Complaining"
+      "title": "Complaining",
+      "length": null
     },
     "L3QbkK0bB44": {
       "series": "eaw",
       "no": 27,
-      "title": "Delivering bad news"
+      "title": "Delivering bad news",
+      "length": null
     },
     "zS2bmhmGCsI": {
       "series": "eaw",
       "no": 28,
-      "title": "Keeping things professional"
+      "title": "Keeping things professional",
+      "length": null
     },
     "7XXXo_7HlP8": {
       "series": "eaw",
       "no": 29,
-      "title": "Making a cold call"
+      "title": "Making a cold call",
+      "length": null
     },
     "-HZrTUNJKCs": {
       "series": "eaw",
       "no": 30,
-      "title": "Negotiating"
+      "title": "Negotiating",
+      "length": null
     },
     "efc3fFMCvvc": {
       "series": "eaw",
       "no": 31,
-      "title": "Project management"
+      "title": "Project management",
+      "length": null
     },
     "o9KEaQCWqDg": {
       "series": "eaw",
       "no": 32,
-      "title": "Negotiating a deal"
+      "title": "Negotiating a deal",
+      "length": null
     },
     "koVV_Fik9yE": {
       "series": "eaw",
       "no": 33,
-      "title": "Booking a flight"
+      "title": "Booking a flight",
+      "length": null
     },
     "cfOef7MXNbc": {
       "series": "eaw",
       "no": 34,
-      "title": "Clinching the deal"
+      "title": "Clinching the deal",
+      "length": null
     },
     "wAwFzn9bs6U": {
       "series": "eaw",
       "no": 35,
-      "title": "Briefing the manager"
+      "title": "Briefing the manager",
+      "length": null
     },
     "i5KWMkGsPOk": {
       "series": "eaw",
       "no": 36,
-      "title": "Working with someone new?"
-    },
-    "dWoDkUPakAY": {
-      "series": "eaw",
-      "no": 37,
-      "title": "Dealing with difficult staff"
-    },
-    "cJWe8BQcldI": {
-      "series": "eaw",
-      "no": 38,
-      "title": "Good customer relations"
-    },
-    "zOmuPMk0Sso": {
-      "series": "eaw",
-      "no": 39,
-      "title": "Staff discipline"
-    },
-    "D6csERMDPQY": {
-      "series": "eaw",
-      "no": 40,
-      "title": "Having an appraisal?"
-    },
-    "SPxTs5YG_Ag": {
-      "series": "eaw",
-      "no": 41,
-      "title": "Health and safety"
-    },
-    "pIQ5JssZLew": {
-      "series": "eaw",
-      "no": 42,
-      "title": "Business proposals"
-    },
-    "V7AJM_zcvx0": {
-      "series": "eaw",
-      "no": 43,
-      "title": "Doing customer research"
-    },
-    "7CCaA8lfJkU": {
-      "series": "eaw",
-      "no": 44,
-      "title": "Dealing with IT support"
-    },
-    "2dpVQ8aIRis": {
-      "series": "eaw",
-      "no": 45,
-      "title": "The 'elevator pitch'"
-    },
-    "KbEj9GP0O9Y": {
-      "series": "eaw",
-      "no": 46,
-      "title": "Being in charge"
-    },
-    "xnKr27RvXp8": {
-      "series": "eaw",
-      "no": 47,
-      "title": "Clearing up confusion"
-    },
-    "Qk-69B86pEo": {
-      "series": "eaw",
-      "no": 48,
-      "title": "Networking"
-    },
-    "7P4_cPEzt0c": {
-      "series": "eaw",
-      "no": 49,
-      "title": "Accepting an award"
-    },
-    "HZl8A0qUTpU": {
-      "series": "eaw",
-      "no": 50,
-      "title": "Making someone redundant"
-    },
-    "RMKoworTFrc": {
-      "series": "eaw",
-      "no": 51,
-      "title": "Conveying your ideas"
-    },
-    "jekb00wsgHk": {
-      "series": "eaw",
-      "no": 52,
-      "title": "Telling someone what to do"
-    },
-    "Qo6VHK5n_LU": {
-      "series": "eaw",
-      "no": 53,
-      "title": "Taking telephone messages"
-    },
-    "rTOQD6yv8Oc": {
-      "series": "eaw",
-      "no": 54,
-      "title": "Justifying your position"
-    },
-    "CiiFiLyf-Qc": {
-      "series": "eaw",
-      "no": 55,
-      "title": "Telling someone what to do"
-    },
-    "UQIVqy0so5E": {
-      "series": "eaw",
-      "no": 56,
-      "title": "Setting priorities"
-    },
-    "IAzsmDeVhUc": {
-      "series": "eaw",
-      "no": 57,
-      "title": "Booking a venue"
-    },
-    "WO-pVRr9Wio": {
-      "series": "eaw",
-      "no": 58,
-      "title": "Get it done quickly"
-    },
-    "KwiYxyy95kU": {
-      "series": "eaw",
-      "no": 59,
-      "title": "Presenting a new product"
-    },
-    "4dgaN-4NT6g": {
-      "series": "eaw",
-      "no": 60,
-      "title": "Getting the sack"
-    },
-    "QvSq2PvPnSA": {
-      "series": "eaw",
-      "no": 61,
-      "title": "Job offers"
-    },
-    "_DIAjV40TNM": {
-      "series": "eaw",
-      "no": 62,
-      "title": "Announcing your decision"
-    },
-    "msM6CmSGkuk": {
-      "series": "eaw",
-      "no": 63,
-      "title": "Tom's tantrum"
-    },
-    "ZC-lq_RlOFI": {
-      "series": "eaw",
-      "no": 64,
-      "title": "Getting down to business"
-    },
-    "8712Bi6Io5I": {
-      "series": "eaw",
-      "no": 65,
-      "title": "Changing your mind"
-    },
-    "_48gP7OPnjU": {
-      "series": "eaw",
-      "no": 66,
-      "title": "The wedding day!"
+      "title": "Working with someone new?",
+      "length": null
     }
   }
 }

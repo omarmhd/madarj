@@ -893,8 +893,8 @@ class WeekController extends Controller
      *
      * The week file names the video (`watch:<youtube id>`), and
      * `content/watch.json` names its series. How to watch grows with the
-     * course: English captions first, then a second viewing without them,
-     * then without them from the start. The written proof is required —
+     * course: reading along first, then a second viewing without the text,
+     * then without it from the start. The written proof is required —
      * ProgressService checks it, as it does the adventure's.
      */
     protected function watchFor(Week $week, int $day, string $id): ?array
@@ -909,7 +909,22 @@ class WeekController extends Controller
         $series = $catalog['series'][$episode['series']] ?? [];
 
         $module = (int) ($week->module ?: 1);
+        // Easy English writes every line on the screen, so there is no
+        // caption to turn off: the learner covers it instead
+        $onScreen = $episode['series'] === 'ee';
         [$steps, $proof] = match (true) {
+            $onScreen && $module === 1 => [[
+                'شاهد الحوار كاملاً واقرأ الجمل المكتوبة على الشاشة. لا بأس إن فاتك بعضها.',
+                'أعد أوّل دقيقتين، وأوقف الفيديو عند كل جملة فهمتها وقلها بصوتك.',
+            ], 'اكتب جملة إنجليزية واحدة سمعتها في الحوار، ثم معناها بالعربية.'],
+            $onScreen && $module === 2 => [[
+                'شاهد الحوار مرة واقرأ الجمل على الشاشة.',
+                'ثم مرة ثانية وأسفل الشاشة مغطّى بيدك أو بورقة: اسمع قبل أن تقرأ. كم فهمت هذه المرة؟',
+            ], 'اكتب جملتين إنجليزيتين سمعتهما، ثم سطراً بالعربية: عمّ كان الحوار؟'],
+            $onScreen => [[
+                'شاهد الحوار أولاً وأسفل الشاشة مغطّى، وحاول أن تتبع ما يقولون.',
+                'ثم اكشف الجمل وشاهده مرة ثانية، لترى ما فاتك.',
+            ], 'لخّص الحوار بالإنجليزية في جملتين أو ثلاث.'],
             $module === 1 => [[
                 'شاهد الحلقة كاملة والترجمة الإنجليزية ظاهرة. لا بأس إن فاتك كثير منها.',
                 'أعد أول دقيقة، وأوقف الفيديو عند كل جملة فهمتها وقلها بصوتك.',
@@ -929,14 +944,15 @@ class WeekController extends Controller
             'day'      => $day,
             'search'   => $episode['search'] ?? $this->watchSearch($episode),
             'title'    => $episode['title'],
-            'number'   => $episode['no'],
+            'number'   => $episode['no'] ?? null,
+            'length'   => $episode['length'] ?? null,
             'series'   => [
                 'title'   => $series['title'] ?? '',
                 'part_ar' => $series['part_ar'] ?? '',
                 'channel' => $series['channel'] ?? '',
                 'about_ar' => $series['about_ar'] ?? '',
             ],
-            'captions' => $module <= 2,
+            'captions' => ! $onScreen && $module <= 2,
             'steps'    => $steps,
             'proof'    => $proof,
         ];
@@ -945,11 +961,8 @@ class WeekController extends Controller
     /** What to type in YouTube to find the episode — series name, number, title, channel */
     protected function watchSearch(array $episode): string
     {
-        $title = $episode['title'] !== '' ? ': '.$episode['title'] : '';
-
         return match ($episode['series']) {
-            'lle1'  => "Let's Learn English Lesson {$episode['no']}{$title} VOA",
-            'lle2'  => "Let's Learn English Level 2 Lesson {$episode['no']}{$title} VOA",
+            'ee'    => "{$episode['title']} Easy English",
             default => sprintf('English at Work %02d %s BBC Learning English', $episode['no'], $episode['title']),
         };
     }
