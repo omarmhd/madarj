@@ -224,6 +224,9 @@ Route::middleware(['auth', 'verified', \App\Http\Middleware\RequireSetup::class,
     // A day's story: is this its moral? Judged here, never in the page
     Route::post('/stories/check', [\App\Http\Controllers\StoryController::class, 'check'])
         ->name('stories.check');
+    Route::post('/stories/drill', [\App\Http\Controllers\StoryController::class, 'drill'])
+        ->middleware('throttle:120,1')
+        ->name('stories.drill');
 
     // الترقية — العرض ثم الطلب. ولا دفع: نتواصل يدوياً
     Route::get('/upgrade', [UpgradeController::class, 'show'])->name('upgrade');

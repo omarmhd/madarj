@@ -267,6 +267,19 @@ class ProgressService
                 422,
                 'اختر عبرة القصة واكتب جملة إنجليزية منها أولاً، ثم أنجز المهمة.'
             );
+
+            // And its two exercises, each right or shown after two tries
+            $slug = substr($task['ref'], 6);
+            $story = \App\Models\Story::where('slug', $slug)->first();
+            $seed = \App\Services\StoryDrills::seed($user->id, $week->number, $day->number, $slug);
+            $kinds = array_filter([
+                'order' => $story && \App\Services\StoryDrills::order($story, $seed)['items'],
+                'gap'   => $story && \App\Services\StoryDrills::gap($story, $seed),
+            ]);
+            $settled = \App\Models\LearningEvent::where('user_id', $user->id)->where('type', 'story_drill')
+                ->whereIn('ref', array_map(fn ($k) => "{$slug}:{$k}:w{$week->number}d{$day->number}", array_keys($kinds)))
+                ->count();
+            abort_if($settled < count($kinds), 422, 'أكمل تمريني القصة أولاً: ترتيب الأحداث والكلمة الناقصة.');
         }
 
         // Today's challenge counts once a round of its game was played today

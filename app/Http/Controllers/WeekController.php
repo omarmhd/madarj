@@ -1000,11 +1000,19 @@ class WeekController extends Controller
         $client = $story->toClientArray();
         unset($client['moral_ar'], $client['moral_en']);
 
+        // Two exercises from its own text — their answers stay on the server
+        $drillSeed = \App\Services\StoryDrills::seed(auth()->id() ?? 0, $week->number, $day, $slug);
+        $order = \App\Services\StoryDrills::order($story, $drillSeed);
+        $gap = \App\Services\StoryDrills::gap($story, $drillSeed);
+
         return [
             'type'   => 'story',
             'day'    => $day,
+            'week'   => $week->number,
             'story'  => $client,
             'morals' => $morals,
+            'order'  => $order['items'],
+            'gap'    => $gap ? array_diff_key($gap, ['answer' => true]) : null,
         ];
     }
 

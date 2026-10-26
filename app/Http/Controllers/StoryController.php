@@ -59,6 +59,52 @@ class StoryController extends Controller
         ]);
     }
 
+    /**
+     * A day's story exercise: is this the order of events, is this the
+     * missing word? Rebuilt here from the same seed as the page, judged
+     * here. Right, or wrong twice (the answer is then shown), counts the
+     * exercise as done for that day — ProgressService checks it.
+     */
+    public function drill(Request $request): \Illuminate\Http\JsonResponse
+    {
+        $data = $request->validate([
+            'slug'     => ['required', 'string', 'max:120'],
+            'week'     => ['required', 'integer', 'between:1,24'],
+            'day'      => ['required', 'integer', 'between:1,7'],
+            'kind'     => ['required', 'in:order,gap'],
+            'answer'   => ['required'],
+            'answer.*' => ['string', 'max:20'],
+            'attempt'  => ['required', 'integer', 'min:1', 'max:20'],
+        ]);
+
+        $user = $request->user();
+        $story = Story::where('slug', $data['slug'])->firstOrFail();
+        $seed = \App\Services\StoryDrills::seed($user->id, $data['week'], $data['day'], $story->slug);
+
+        if ($data['kind'] === 'order') {
+            $right = \App\Services\StoryDrills::order($story, $seed)['answer'];
+            $correct = is_array($data['answer']) && array_values($data['answer']) === $right;
+        } else {
+            $right = \App\Services\StoryDrills::gap($story, $seed)['answer'] ?? '';
+            $correct = is_string($data['answer']) && \App\Services\StoryDrills::same($data['answer'], $right);
+        }
+
+        $settled = $correct || $data['attempt'] >= 2;
+        if ($settled) {
+            LearningEvent::firstOrCreate(
+                ['user_id' => $user->id, 'type' => 'story_drill',
+                 'ref' => "{$story->slug}:{$data['kind']}:w{$data['week']}d{$data['day']}"],
+                ['value' => $correct ? 1 : 0, 'occurred_at' => now()],
+            );
+        }
+
+        return response()->json([
+            'correct' => $correct,
+            // The answer after two tries, never on the first
+            'answer'  => ! $correct && $data['attempt'] >= 2 ? $right : null,
+        ]);
+    }
+
     public function index(Request $request): Response
     {
         return Inertia::render('Stories', [
