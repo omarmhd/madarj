@@ -8,7 +8,7 @@ import { ArrowLeft, BookOpen, CalendarCheck, Check, ChevronDown, ChevronLeft, Cl
 
 /** One tile style for everything optional, so the group reads as one */
 const TILE =
-  'flex items-center gap-4 rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-200 transition hover:ring-slate-300';
+  'flex flex-col gap-3 rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-200 transition hover:-translate-y-0.5 hover:shadow-md sm:flex-row sm:items-center sm:gap-4 sm:p-5';
 
 /**
  * لوحة التقدّم — نقطة الدخول.
@@ -229,7 +229,7 @@ export default function Dashboard({
           </div>
 
           {/* الأرقام — بنفس لغة بطاقات الصفحة لا بلوحٍ ملوّن */}
-          <div className="mt-4 grid grid-cols-2 gap-2 sm:mt-6 sm:grid-cols-4 sm:gap-3">
+          <div className="mt-4 grid grid-cols-4 gap-2 sm:mt-6 sm:gap-3">
             {[
               {
                 v: stats.streak,
@@ -243,19 +243,21 @@ export default function Dashboard({
             ].map((x, i) => (
               // The icon in its own tile beside the number and label — it sat
               // on the number's baseline before, floating above or below it
+              // Stacked on phones so four fit one row; side by side from sm up
               <div
                 key={i}
-                className="flex items-center gap-3 rounded-xl bg-white/15 px-3 py-2.5 ring-1 ring-white/20 backdrop-blur"
+                className="flex flex-col items-center gap-1 rounded-xl bg-white/15 px-1.5 py-2.5 text-center ring-1 ring-white/20 backdrop-blur
+                           sm:flex-row sm:gap-3 sm:px-3 sm:text-start"
               >
                 <span
                   aria-hidden
-                  className="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-white/20 text-white ring-1 ring-white/25"
+                  className="grid h-8 w-8 shrink-0 place-items-center rounded-lg bg-white/20 text-white ring-1 ring-white/25 sm:h-9 sm:w-9"
                 >
                   {x.icon}
                 </span>
                 <div className="min-w-0">
-                  <p className="text-lg font-bold leading-tight text-white sm:text-xl" dir="ltr">{x.v}</p>
-                  <p className="text-xs text-violet-100/80">{x.l}</p>
+                  <p className="text-base font-bold leading-tight text-white sm:text-xl" dir="ltr">{x.v}</p>
+                  <p className="text-xs leading-tight text-violet-100/80">{x.l}</p>
                   {x.extra && (
                     <p className="text-xs font-medium text-amber-200">{x.extra}</p>
                   )}
@@ -281,7 +283,7 @@ export default function Dashboard({
            * same slot, first and largest, carries the reason and the
            * one action that clears it.
            */
-          <section className="overflow-hidden rounded-2xl bg-slate-900 text-white">
+          <section className="overflow-hidden rounded-3xl bg-slate-900 text-white">
             <div className="flex flex-wrap items-center justify-between gap-4 p-6">
               <div className="min-w-0">
                 <p className="text-sm font-semibold text-violet-100">
@@ -323,8 +325,8 @@ export default function Dashboard({
             )}
           </section>
         ) : dueTest ? (
-          <section className="overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-violet-300">
-            <div className="flex flex-wrap items-center justify-between gap-4 p-6">
+          <section className="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-violet-300">
+            <div className="flex flex-wrap items-center justify-between gap-4 p-5 sm:p-6">
               <div className="min-w-0">
                 <p className="flex items-center gap-1.5 text-sm font-semibold text-violet-700">
                   <ClipboardCheck aria-hidden size={16} />
@@ -344,7 +346,7 @@ export default function Dashboard({
 
               <Link
                 href="/tests"
-                className="stamp shrink-0 px-6 py-3 font-semibold transition hover:bg-violet-700 active:scale-[.98]"
+                className="stamp flex w-full shrink-0 items-center justify-center gap-1.5 px-6 py-3 font-semibold sm:w-auto transition hover:bg-violet-700 active:scale-[.98]"
               >
                 {tr('ابدأ الاختبار')} <ArrowLeft aria-hidden size={15} className="inline-block align-[-3px]" />
               </Link>
@@ -364,24 +366,32 @@ export default function Dashboard({
             )}
           </section>
         ) : resume ? (
-          <section className="overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-200">
-            <div className="flex flex-wrap items-center justify-between gap-4 p-6">
+          <section className="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-violet-200">
+            <div className="flex flex-wrap items-center justify-between gap-4 p-5 sm:p-6">
+              <div className="flex min-w-0 items-center gap-4">
+                <span className="journey-current grid h-16 w-16 shrink-0 place-items-center rounded-2xl bg-violet-600 text-white shadow-lg">
+                  <span className="text-center leading-none">
+                    <span className="block text-xs font-medium opacity-80">{tr('يوم')}</span>
+                    <span className="block text-2xl font-bold">{resume.number === stats.current_week ? stats.current_day : 1}</span>
+                  </span>
+                </span>
               <div className="min-w-0">
                 <p className="text-sm font-semibold text-violet-700">{tr('تابع من هنا')}</p>
                 <h2 className="mt-1 text-lg font-bold text-slate-900">
                   الأسبوع {resume.number} · اليوم{' '}
                   {resume.number === stats.current_week ? stats.current_day : 1}
                 </h2>
-                <p className="mt-0.5 truncate text-sm text-slate-600">
+                <p className="mt-0.5 line-clamp-2 text-sm text-slate-600">
                   {resume.title_ar}
                 </p>
+              </div>
               </div>
 
               <Link
                 href={`/week/${resume.number}/day/${
                   resume.number === stats.current_week ? stats.current_day : 1
                 }`}
-                className="stamp shrink-0 px-6 py-3 font-semibold
+                className="stamp flex w-full shrink-0 items-center justify-center gap-1.5 px-6 py-3 font-semibold sm:w-auto
                            transition hover:bg-violet-700 active:scale-[.98]"
               >
                 {tr('ابدأ اليوم')} <ArrowLeft aria-hidden size={15} className="inline-block align-[-3px]" />
@@ -440,7 +450,7 @@ export default function Dashboard({
             <p className="mt-0.5 text-sm text-slate-500">{tr('اختياريّ: يُحتسب ولا يُلزم، ولا يكسر سلسلتك.')}</p>
           </div>
 
-          <div className="grid gap-3 sm:grid-cols-2">
+          <div className="grid grid-cols-2 gap-3">
 
             <Link href="/play" className={TILE}>
               <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-violet-50 text-violet-600">
@@ -452,7 +462,7 @@ export default function Dashboard({
                   {tr('كلمة اليوم وثلاث ألعاب قصيرة')}
                 </span>
               </span>
-              <ChevronLeft aria-hidden size={18} className="shrink-0 text-slate-400" />
+              <ChevronLeft aria-hidden size={18} className="hidden shrink-0 text-slate-400 sm:block" />
             </Link>
 
             <Link href="/stories" className={TILE}>
@@ -465,7 +475,7 @@ export default function Dashboard({
                   {tr('قراءة مسموعة بمستواك')}
                 </span>
               </span>
-              <ChevronLeft aria-hidden size={18} className="shrink-0 text-slate-400" />
+              <ChevronLeft aria-hidden size={18} className="hidden shrink-0 text-slate-400 sm:block" />
             </Link>
           </div>
         </section>
@@ -488,7 +498,7 @@ export default function Dashboard({
             return (
               <div
                 key={m.number}
-                className={`overflow-hidden rounded-2xl bg-white ring-1 transition ${
+                className={`overflow-hidden rounded-3xl bg-white ring-1 transition ${
                   isCurrent ? 'ring-violet-300 shadow-sm' : 'ring-slate-200'
                 }`}
               >
@@ -497,15 +507,15 @@ export default function Dashboard({
                   type="button"
                   onClick={() => !isCurrent && toggleModule(m.number)}
                   aria-expanded={isOpen}
-                  className={`flex w-full flex-wrap items-center justify-between gap-3 bg-slate-50/70 px-5 py-3.5 text-start ${
+                  className={`flex w-full flex-wrap items-center justify-between gap-x-3 gap-y-2 bg-slate-50/70 px-4 py-3.5 text-start sm:px-5 ${
                     isOpen ? 'border-b border-slate-100' : ''
                   } ${isCurrent ? 'cursor-default' : 'transition hover:bg-slate-100/70'}`}
                 >
                   <div className="min-w-0">
-                    <p className="text-sm font-bold text-slate-900">
-                      الوحدة {m.number} — {m.title_ar}
+                    <p className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm font-bold text-slate-900">
+                      <span>الوحدة {m.number} — {m.title_ar}</span>
                       {isCurrent && (
-                        <span className="ms-2 rounded-full bg-violet-50 px-2 py-0.5 text-xs font-medium text-violet-700">
+                        <span className="rounded-full bg-violet-50 px-2 py-0.5 text-xs font-medium text-violet-700">
                           {tr('أنت هنا')}
                         </span>
                       )}
@@ -543,7 +553,7 @@ export default function Dashboard({
 
                 {/* أسابيع الوحدة */}
                 {isOpen && (
-                <div className="grid gap-2 p-4 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="grid grid-cols-2 gap-2 p-3 sm:grid-cols-3 sm:gap-3 sm:p-4">
                   {rows.map((w) => {
                     const complete = w.days_done >= 7;
                     const isNow = w.number === stats.current_week;
@@ -600,7 +610,7 @@ export default function Dashboard({
                             </span>
                             <Lock aria-hidden size={14} className="text-slate-400" />
                           </div>
-                          <p className="mt-1 truncate text-sm text-slate-500">{w.title_ar}</p>
+                          <p className="mt-1 line-clamp-2 text-sm text-slate-500">{w.title_ar}</p>
                           <p className="mt-1 text-xs font-medium text-slate-500 transition group-hover:text-violet-700">
                             {tr('يحتاج اشتراكاً')} <ArrowLeft aria-hidden size={15} className="inline-block align-[-3px]" />
                           </p>
@@ -621,7 +631,7 @@ export default function Dashboard({
                             </span>
                             <Lock aria-hidden size={14} className="text-slate-400" />
                           </div>
-                          <p className="mt-1 truncate text-xs text-slate-500">{w.title_ar}</p>
+                          <p className="mt-1 line-clamp-2 text-xs text-slate-500">{w.title_ar}</p>
                           <p className="mt-1 text-xs text-slate-400">
                             أكمل الأسبوع {w.number - 1} أولاً
                           </p>
@@ -660,7 +670,7 @@ export default function Dashboard({
                           </div>
                         </div>
 
-                        <p className="mt-1 truncate text-xs text-slate-600">{w.title_ar}</p>
+                        <p className="mt-1 line-clamp-2 text-xs leading-relaxed text-slate-600">{w.title_ar}</p>
 
                         {/* شريط الأيام السبعة */}
                         <div className="mt-2.5 flex gap-0.5">

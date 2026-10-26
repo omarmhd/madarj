@@ -49,6 +49,8 @@ export default {
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
         './resources/js/**/*.tsx',
+        // Class maps live in .ts too (lib/taskKinds TONES) — unscanned, their colours were never built
+        './resources/js/**/*.ts',
     ],
 
     theme: {
