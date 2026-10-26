@@ -141,7 +141,8 @@ export default function DayJourney({ dayNumber, stations, current, onOpen, finis
                         : 'bg-slate-100 text-slate-400'
                 }`}
               >
-                {s.done ? <Check size={26} strokeWidth={2.5} /> : s.reachable ? <Icon size={24} /> : <Lock size={18} />}
+                {/* Three states, three marks: done, open (where you are), closed */}
+                {s.done ? <Check size={26} strokeWidth={2.5} /> : s.reachable ? <LockOpen size={22} /> : <Lock size={18} />}
               </span>
 
               <button
@@ -165,7 +166,7 @@ export default function DayJourney({ dayNumber, stations, current, onOpen, finis
                     </span>
                     {isCurrent && (
                       <span className={`flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-bold ${tone.soft} ${tone.text}`}>
-                        <LockOpen aria-hidden size={12} /> {tr('مفتوحة · أنت هنا')}
+                        <Icon aria-hidden size={12} /> {tr('أنت هنا')}
                       </span>
                     )}
                     {s.done && <span className="text-xs font-semibold text-emerald-700">{tr('تمّت')}</span>}
