@@ -1132,19 +1132,6 @@ export default function DayPage({
               <span className="whitespace-nowrap text-sm text-slate-600">
                 {tr('المحطة')} <strong className="text-slate-900">{step + 1}</strong> {tr('من')} {total}
               </span>
-              {/* The whole day as segments: what is behind you, and where you are */}
-              <span className="hidden items-center gap-1 sm:flex" aria-hidden>
-                {day.tasks.map((t, k) => (
-                  <span
-                    key={t.order}
-                    className={`h-2 rounded-full transition-all ${
-                      tasksDone[String(t.order)]
-                        ? `w-4 ${TONES[kinds[k].tone].bar}`
-                        : k === step ? 'w-6 bg-slate-400' : 'w-4 bg-slate-200'
-                    }`}
-                  />
-                ))}
-              </span>
               {slices.length > 1 && (
                 <span className="flex items-center gap-1.5" aria-label={`${innerStep + 1}/${slices.length}`}>
                   {/* Said in words, not just dots: a second spelling part looked
