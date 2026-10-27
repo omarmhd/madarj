@@ -353,10 +353,18 @@ class LevelTestController extends Controller
 
         $reached = 'Pre-A1';
 
+        /*
+         * The bar for each band, higher than a pass. At 60% on three-option
+         * questions, a learner guessing through half a band reached it, and
+         * most read the result as "I can start at B1". The estimate is a
+         * starting picture, so it errs low: 70% for A1 and A2, 75% for B1.
+         */
+        $bar = ['A1' => 70, 'A2' => 70, 'B1' => 75];
+
         foreach (['A1', 'A2', 'B1'] as $b) {
             [$right, $total] = $bands[$b] ?? [0, 0];
 
-            if (! $total || $right * 100 < 60 * $total) {
+            if (! $total || $right * 100 < $bar[$b] * $total) {
                 break;
             }
 

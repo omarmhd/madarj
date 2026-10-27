@@ -28,6 +28,18 @@
         <style id="brand">{!! \App\Support\Theme::css() !!}</style>
         <meta name="theme-color" content="{{ \App\Support\Theme::accentHex() }}">
 
+        {{-- A shared certificate link previews as what it is. Crawlers do not
+             run the page's script, so the tags are printed here. --}}
+        @if (($page['component'] ?? '') === 'Certificates/Show' && isset($page['props']['certificate']))
+            @php($c = $page['props']['certificate'])
+            <meta property="og:type" content="website">
+            <meta property="og:site_name" content="Madarij">
+            <meta property="og:title" content="{{ $c['name'] }} — شهادة المستوى {{ $c['level'] }} من مَدارِج">
+            <meta property="og:description" content="Passed the CEFR {{ $c['level'] }} end-of-level test in the Madarij English course with {{ $c['percent'] }}%. Certificate {{ $c['code'] }}.">
+            <meta property="og:url" content="{{ $c['url'] }}">
+            <meta name="twitter:card" content="summary">
+        @endif
+
         <!-- Scripts -->
         @routes
         @viteReactRefresh

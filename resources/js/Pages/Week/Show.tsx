@@ -10,6 +10,7 @@ import Listen from '@/Components/Listen';
 import axios from 'axios';
 import { type DayState } from '@/Components/DayCard';
 import WeekJourney from '@/Components/WeekJourney';
+import UnitTestCall, { type UnitTest } from '@/Components/UnitTestCall';
 import Modal from '@/Components/Modal';
 import MinimalPairGame, { type Group as PairGroup } from '@/Components/Game/MinimalPairGame';
 import Flashcards, { type Word } from '@/Components/Game/Flashcards';
@@ -69,6 +70,8 @@ interface Dialogue {
 
 interface Props {
   week: WeekMeta;
+  /** The level test closing this unit — review weeks only */
+  unitTest?: UnitTest | null;
   days: DayState[];
   vocabulary: Record<string, Word[]>;
   /** اسم كل مجموعة بالعربية — من المحتوى */
@@ -338,7 +341,7 @@ function ProgressRing({ percent }: { percent: number }) {
 
 export default function WeekShow({
   week, days, vocabulary, vocabularyLabels, minimalPairs, dialogues, exercises, stats,
-  writing, myWriting, myComparison, myNotes, speakingPlan, sections, prefs = DEFAULT_PREFS,
+  writing, myWriting, myComparison, myNotes, speakingPlan, sections, prefs = DEFAULT_PREFS, unitTest = null,
 }: Props) {
   const tr = useT();
   const locale = useLocale();
@@ -814,7 +817,8 @@ export default function WeekShow({
         {/* ============ الأسبوع: اليوم أولاً، ثم الأيام السبعة ============
              The work happens on the day page; this page sends you there.
              Today is one large card, the week seven tiles under it. */}
-        <section id="today" className="scroll-mt-32 sm:scroll-mt-36">
+        <section id="today" className="scroll-mt-32 space-y-5 sm:scroll-mt-36">
+          {unitTest && dayStates.every((d) => d.completed) && <UnitTestCall test={unitTest} />}
           <WeekJourney
             weekNumber={week.number}
             days={dayStates}

@@ -1,4 +1,4 @@
-import { CheckCircle2, ClipboardCheck, Clock, Lock, X } from 'lucide-react';
+import { CheckCircle2, ClipboardCheck, Clock, Info, Lock, X } from 'lucide-react';
 import AppFooter from '@/Components/AppFooter';
 import { Head, Link, router } from '@inertiajs/react';
 import { useState } from 'react';
@@ -42,6 +42,8 @@ export default function Index({ tests, current_week }: { tests: TestRow[]; curre
   const tr = useT();
   const locale = useLocale();
   const [confirm, setConfirm] = useState<TestRow | null>(null);
+  // The placement test opens only once its notice is acknowledged
+  const [understood, setUnderstood] = useState(false);
 
   const label = (t: TestRow) =>
     t.after_week === 0 ? tr('اختبار قبل البدء') : tr('اختبار بعد :level', { level: t.level });
@@ -99,7 +101,7 @@ export default function Index({ tests, current_week }: { tests: TestRow[]; curre
 
               {t.after_week === 0 && (
                 <p className="mt-2 text-sm leading-relaxed text-slate-600">
-                  {tr('يقيس مستواك اليوم، للمعرفة فقط. لا ينقلك إلى مرحلة أعلى: الجميع يبدأ من الأسبوع الأول. وبعد A1 تقارن نتيجتك به وترى كم تقدّمت.')}
+                  {tr('تقديريّ فقط: يقيس مستواك اليوم ولا يفتح أيّ أسبوع. الجميع يبدأ من الأسبوع الأول مهما كانت النتيجة، وبعد A1 تقارن نتيجتك به وترى كم تقدّمت.')}
                 </p>
               )}
 
@@ -153,10 +155,32 @@ export default function Index({ tests, current_week }: { tests: TestRow[]; curre
               {tr(':n دقيقة · :q سؤالاً · خمسة أقسام: استماع، قراءة، قواعد، مفردات، كتابة', { n: confirm.minutes, q: confirm.items })}
             </p>
 
+            {/*
+              Most learners read a placement test as a way to skip ahead,
+              and finish it expecting to start at B1. So it is said plainly,
+              before the clock starts, and acknowledged with a tick.
+            */}
             {confirm.after_week === 0 && (
-              <p className="mt-4 rounded-xl bg-amber-50 p-3 text-sm leading-relaxed text-amber-900">
-                {tr('تذكير: هذا الاختبار للمعرفة فقط. مهما كانت نتيجتك، ستبدأ الدورة من الأسبوع الأول.')}
-              </p>
+              <div className="mt-4 rounded-xl bg-amber-50 p-4 ring-1 ring-amber-200">
+                <p className="flex items-center gap-2 font-bold text-amber-900">
+                  <Info aria-hidden size={17} /> {tr('اختبار تقديريّ لا أكثر')}
+                </p>
+                <ul className="mt-2 space-y-1.5 text-sm leading-relaxed text-amber-900">
+                  <li>• {tr('نتيجته تقدير لمستواك اليوم، وليست شهادة.')}</li>
+                  <li>• {tr('لا يفتح أيّ أسبوع ولا يتخطّى شيئاً: ستبدأ الدورة من الأسبوع الأول مهما كانت نتيجتك، حتى لو ظهرت B1.')}</li>
+                  <li>• {tr('السبب: كل أسبوع مبنيّ على الذي قبله، ومن يقفز يفقد ما لم يره.')}</li>
+                  <li>• {tr('فائدته أن تقارن به نتيجتك في اختبار A1 بعد الأسبوع السادس، فترى تقدّمك.')}</li>
+                </ul>
+                <label className="mt-3 flex cursor-pointer items-start gap-2 text-sm font-semibold text-amber-950">
+                  <input
+                    type="checkbox"
+                    checked={understood}
+                    onChange={(e) => setUnderstood(e.target.checked)}
+                    className="mt-0.5 rounded border-amber-400 text-violet-600 focus:ring-violet-500"
+                  />
+                  {tr('فهمت: هذا الاختبار تقديريّ، وسأبدأ من الأسبوع الأول.')}
+                </label>
+              </div>
             )}
 
             <p className="mt-4 text-sm font-bold text-slate-900">{tr('نصائح قبل أن تبدأ')}</p>
@@ -171,7 +195,8 @@ export default function Index({ tests, current_week }: { tests: TestRow[]; curre
 
             <button
               onClick={() => router.post(`/tests/${confirm.slug}/start`)}
-              className="mt-6 w-full rounded-xl bg-violet-600 py-3.5 text-sm font-semibold text-white hover:bg-violet-700"
+              disabled={confirm.after_week === 0 && !understood}
+              className="mt-6 w-full rounded-xl bg-violet-600 py-3.5 text-sm font-semibold text-white hover:bg-violet-700 disabled:opacity-50"
             >
               {tr('أنا جاهز، ابدأ الوقت')}
             </button>

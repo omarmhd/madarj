@@ -310,6 +310,7 @@ class WeekController extends Controller
                 'objectives'   => $week->objectives,
                 'pron_section' => $week->pron_section,
             ],
+            'unitTest' => $this->unitTest($week),
 
             'days' => $this->progress->weekDayStates($user, $week),
 
@@ -473,6 +474,7 @@ class WeekController extends Controller
                 'title_ar' => $week->title_ar,
                 'title_en' => $week->title_en,
             ],
+            'unitTest' => $this->unitTest($week),
             'day' => [
                 'number'     => $dayModel->number,
                 // الوصف بلغتين — يُشتقّ من مهامّ اليوم لا يُخزَّن
@@ -1193,6 +1195,30 @@ class WeekController extends Controller
     }
 
     /** The level test the learner should sit now, or null */
+    /**
+     * The level test that closes this week's unit — on review weeks only
+     * (6 · 12 · 18 · 24), so their last day and their page can send the
+     * learner straight to it instead of leaving them on a finished week.
+     */
+    protected function unitTest(Week $week): ?array
+    {
+        if (! $week->is_review) {
+            return null;
+        }
+        $test = \App\Models\LevelTest::where('after_week', $week->number)->first();
+        if (! $test) {
+            return null;
+        }
+
+        return [
+            'slug'    => $test->slug,
+            'level'   => $test->level,
+            'minutes' => $test->minutes,
+            'passed'  => \App\Models\LevelTestAttempt::where('user_id', auth()->id())
+                ->where('level_test_id', $test->id)->where('passed', true)->exists(),
+        ];
+    }
+
     protected function dueTest($user): ?array
     {
         $week = $user->enrollment?->current_week ?? 1;

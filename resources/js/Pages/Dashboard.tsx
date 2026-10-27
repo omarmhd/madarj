@@ -345,7 +345,7 @@ export default function Dashboard({
                 </h2>
                 <p className="mt-0.5 text-sm leading-relaxed text-slate-600">
                   {dueTest.placement
-                    ? tr(':n دقيقة تعرف بها مستواك اليوم، لتقارنه بنفسك لاحقاً.', { n: dueTest.minutes })
+                    ? tr(':n دقيقة تقديرية تعرف بها مستواك اليوم. لا تفتح أسبوعاً: الدورة تبدأ من الأسبوع الأول للجميع.', { n: dueTest.minutes })
                     : tr('اختبار حقيقيّ في :n دقيقة. تنجح بـ60% فينفتح لك المستوى التالي.', { n: dueTest.minutes })}
                 </p>
               </div>

@@ -3,11 +3,11 @@
   "after_week": 0,
   "title_ar": "اختبار قبل البدء",
   "title_en": "Placement Test",
-  "minutes": 30,
+  "minutes": 35,
   "pass_percent": 0,
   "modeled_on": "Cambridge/Oxford placement test style, CEFR Pre-A1–B1",
   "tips_ar": [
-    "هذا الاختبار لا يقرّر شيئاً، ولا يوجد فيه نجاح أو رسوب.",
+    "هذا الاختبار تقديريّ: يعطيك صورة عن مستواك اليوم، ولا يفتح أيّ أسبوع. ستبدأ الدورة من الأسبوع الأول مهما كانت نتيجتك.",
     "هو نقطة البداية. ستقارن نتيجتك به بعد أسابيع لترى تقدّمك.",
     "أجب بصدق، فالنتيجة الصادقة تفيدك أنت.",
     "الأسئلة تبدأ سهلة ثم تصعب. إذا لم تعرف الإجابة فاتركها ولا تخمّن عشوائياً.",
@@ -370,7 +370,8 @@
                 "options": [
                   "is",
                   "am",
-                  "are"
+                  "are",
+                  "be"
                 ]
               },
               "answer": {
@@ -401,7 +402,8 @@
                 "options": [
                   "Where do",
                   "Where",
-                  "Where are"
+                  "Where are",
+                  "Where does"
                 ]
               },
               "answer": {
@@ -417,7 +419,8 @@
                 "options": [
                   "Have",
                   "It is",
-                  "There is"
+                  "There is",
+                  "Has"
                 ]
               },
               "answer": {
@@ -433,7 +436,8 @@
                 "options": [
                   "was",
                   "were",
-                  "are"
+                  "are",
+                  "be"
                 ]
               },
               "answer": {
@@ -464,7 +468,8 @@
                 "options": [
                   "from",
                   "then",
-                  "than"
+                  "than",
+                  "that"
                 ]
               },
               "answer": {
@@ -480,7 +485,8 @@
                 "options": [
                   "have lived",
                   "live",
-                  "am living"
+                  "am living",
+                  "lived"
                 ]
               },
               "answer": {
@@ -496,7 +502,8 @@
                 "options": [
                   "will rain",
                   "rains",
-                  "rained"
+                  "rained",
+                  "would rain"
                 ]
               },
               "answer": {
@@ -512,11 +519,148 @@
                 "options": [
                   "built",
                   "is building",
-                  "was built"
+                  "was built",
+                  "has built"
                 ]
               },
               "answer": {
                 "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "B1",
+              "prompt": "When I arrived, the film ___.",
+              "payload": {
+                "options": [
+                  "already started",
+                  "had already started",
+                  "has already started",
+                  "was already start"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "B1",
+              "prompt": "He told me that he ___ tired.",
+              "payload": {
+                "options": [
+                  "is",
+                  "was",
+                  "has been",
+                  "be"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "B1",
+              "prompt": "If I ___ more money, I would buy a car.",
+              "payload": {
+                "options": [
+                  "have",
+                  "had",
+                  "will have",
+                  "would have"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "B1",
+              "prompt": "The man ___ called me was my uncle.",
+              "payload": {
+                "options": [
+                  "who he",
+                  "which",
+                  "who",
+                  "whom he"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "B1",
+              "prompt": "I saw him two years ___.",
+              "payload": {
+                "options": [
+                  "before",
+                  "since",
+                  "ago",
+                  "for"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "B1",
+              "prompt": "She is used to ___ early.",
+              "payload": {
+                "options": [
+                  "wake up",
+                  "waking up",
+                  "woke up",
+                  "be waking"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "B1",
+              "prompt": "I'm looking forward to ___ you.",
+              "payload": {
+                "options": [
+                  "see",
+                  "seeing",
+                  "saw",
+                  "have seen"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "B1",
+              "prompt": "This book ___ by millions of people.",
+              "payload": {
+                "options": [
+                  "has read",
+                  "has been read",
+                  "have been read",
+                  "is reading"
+                ]
+              },
+              "answer": {
+                "correct": 1
               },
               "points": 1
             }
@@ -543,7 +687,8 @@
                 "options": [
                   "aunt",
                   "grandmother",
-                  "sister"
+                  "sister",
+                  "cousin"
                 ]
               },
               "answer": {
@@ -559,7 +704,8 @@
                 "options": [
                   "coffee",
                   "bread",
-                  "chair"
+                  "chair",
+                  "rice"
                 ]
               },
               "answer": {
@@ -575,7 +721,8 @@
                 "options": [
                   "Friday",
                   "Sunday",
-                  "Wednesday"
+                  "Wednesday",
+                  "Monday"
                 ]
               },
               "answer": {
@@ -591,7 +738,8 @@
                 "options": [
                   "cold",
                   "big",
-                  "new"
+                  "new",
+                  "tall"
                 ]
               },
               "answer": {
@@ -607,7 +755,8 @@
                 "options": [
                   "comb",
                   "brush",
-                  "clean up"
+                  "clean up",
+                  "wash"
                 ]
               },
               "answer": {
@@ -623,7 +772,8 @@
                 "options": [
                   "good",
                   "beautiful",
-                  "well"
+                  "well",
+                  "nice"
                 ]
               },
               "answer": {
@@ -639,7 +789,8 @@
                 "options": [
                   "passport",
                   "menu",
-                  "receipt"
+                  "receipt",
+                  "wallet"
                 ]
               },
               "answer": {
@@ -655,11 +806,97 @@
                 "options": [
                   "take off",
                   "turn off",
-                  "give up"
+                  "give up",
+                  "put up"
                 ]
               },
               "answer": {
                 "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "B1",
+              "prompt": "We had to ___ the meeting until next week.",
+              "payload": {
+                "options": [
+                  "put off",
+                  "put on",
+                  "take after",
+                  "look after"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "B1",
+              "prompt": "Could you ___ my cat while I am away?",
+              "payload": {
+                "options": [
+                  "look for",
+                  "look after",
+                  "look up",
+                  "look into"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "B1",
+              "prompt": "She ___ a decision after a long talk.",
+              "payload": {
+                "options": [
+                  "did",
+                  "made",
+                  "took off",
+                  "got"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "B1",
+              "prompt": "The flight was ___ because of the storm.",
+              "payload": {
+                "options": [
+                  "cancelled",
+                  "refused",
+                  "missed",
+                  "denied"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "band": "B1",
+              "prompt": "I can't ___ the noise any more.",
+              "payload": {
+                "options": [
+                  "stand",
+                  "stay",
+                  "support",
+                  "keep"
+                ]
+              },
+              "answer": {
+                "correct": 0
               },
               "points": 1
             }

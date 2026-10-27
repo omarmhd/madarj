@@ -19,6 +19,7 @@ import WritingTask, {
 } from '@/Components/Game/WritingTask';
 import Spelling, { type SpellWord, type SpellRound } from '@/Components/Game/Spelling';
 import Watch, { type WatchData } from '@/Components/Game/Watch';
+import UnitTestCall, { type UnitTest } from '@/Components/UnitTestCall';
 import StoryStation, { type StoryStationData } from '@/Components/Game/StoryStation';
 import ChallengeStation, { type ChallengeData } from '@/Components/Game/ChallengeStation';
 import Imitate, { type ImitateItem } from '@/Components/Game/Imitate';
@@ -164,6 +165,8 @@ interface DayTask {
 
 interface Props {
   week: { number: number; module: number; title_ar: string; title_en: string };
+  /** The level test closing this unit — review weeks only */
+  unitTest?: UnitTest | null;
   day: {
     number: number;
     focus: string;
@@ -225,6 +228,7 @@ export default function DayPage({
   myWriting,
   myComparison,
   myNotes,
+  unitTest = null,
   prefs = DEFAULT_PREFS,
 }: Props) {
   const tr = useT();
@@ -1265,6 +1269,12 @@ export default function DayPage({
                     ? tr('اليوم التالي مفتوح الآن. عد غداً — هذا ما يبني السلسلة.')
                     : tr('أنهيت الأسبوع كاملاً.')}
                 </p>
+                {/* The unit's last day: its test is the next step */}
+                {unitTest && day.number >= lastDay && (
+                  <div className="mx-auto mt-4 max-w-md">
+                    <UnitTestCall test={unitTest} />
+                  </div>
+                )}
                 <div className="mt-4 flex flex-wrap justify-center gap-2">
                   {day.number < lastDay && nextDayUnlocked && (
                     <Link href={`/week/${week.number}/day/${day.number + 1}`}

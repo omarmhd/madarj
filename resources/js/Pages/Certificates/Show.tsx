@@ -1,7 +1,7 @@
 import { Head, Link } from '@inertiajs/react';
 import { useState } from 'react';
 import axios from 'axios';
-import { Check, Copy, Pencil, Printer, ShieldCheck } from 'lucide-react';
+import { Check, Copy, Pencil, Printer, Share2, ShieldCheck } from 'lucide-react';
 import BrandMark from '@/Components/BrandMark';
 import Bdi from '@/Components/Bdi';
 import { useT } from '@/lib/i18n';
@@ -36,21 +36,29 @@ const LEVEL_AR: Record<string, string> = {
   B1: 'المستوى الثالث — متوسّط',
 };
 
-/** The platform's signature, drawn once — a pen line, not a font */
+/**
+ * The platform's signature: "Madarij", written by hand. A script face
+ * from the system (Segoe Script on Windows, Snell Roundhand on Apple),
+ * with a pen stroke under it, so it reads as signed, not typed.
+ */
 function Signature() {
   return (
-    <svg viewBox="0 0 220 70" className="h-14 w-44" aria-hidden>
-      <path
-        d="M8 48 C 20 20, 34 18, 38 40 S 52 62, 60 36 C 66 18, 74 22, 72 40 C 70 54, 84 52, 92 34
-           C 98 22, 104 30, 102 42 C 100 52, 116 50, 124 30 C 128 20, 134 24, 132 38 C 130 50, 146 50, 156 36
-           C 164 26, 172 30, 170 42 C 168 52, 186 46, 212 26"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2.2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path d="M30 60 C 80 54, 140 56, 200 52" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" opacity=".55" />
+    <svg viewBox="0 0 240 80" className="h-16 w-48" aria-label="Madarij" role="img">
+      <text
+        x="120"
+        y="46"
+        textAnchor="middle"
+        fill="currentColor"
+        transform="rotate(-6 120 46)"
+        style={{
+          fontFamily: "'Segoe Script', 'Snell Roundhand', 'Brush Script MT', 'Lucida Handwriting', cursive",
+          fontSize: 40,
+          fontStyle: 'italic',
+        }}
+      >
+        Madarij
+      </text>
+      <path d="M36 62 C 90 52, 150 56, 214 46" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" opacity=".7" />
     </svg>
   );
 }
@@ -77,6 +85,36 @@ export default function CertificateShow({ certificate, qr }: { certificate: Cert
       setError(true);
     }
   };
+
+  /*
+   * Sharing. The phone's own share sheet where there is one; and always
+   * the four places people show a certificate, plus LinkedIn's "add to
+   * profile", which files it under Licenses & certifications with its
+   * number and the link that proves it.
+   */
+  const shareText = `${tr('حصلت على شهادة المستوى')} ${certificate.level} ${tr('من منصة مَدارِج')} 🎓`;
+  const enc = encodeURIComponent;
+  const issued = new Date(certificate.issued_on + 'T00:00:00');
+  const SHARES = [
+    { name: 'LinkedIn', href: `https://www.linkedin.com/sharing/share-offsite/?url=${enc(certificate.url)}`, bg: 'bg-[#0a66c2]' },
+    { name: 'X', href: `https://twitter.com/intent/tweet?text=${enc(shareText)}&url=${enc(certificate.url)}`, bg: 'bg-black' },
+    { name: 'Facebook', href: `https://www.facebook.com/sharer/sharer.php?u=${enc(certificate.url)}`, bg: 'bg-[#1877f2]' },
+    { name: 'WhatsApp', href: `https://wa.me/?text=${enc(shareText + ' ' + certificate.url)}`, bg: 'bg-[#25d366]' },
+  ];
+  const linkedinAdd = 'https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME'
+    + `&name=${enc(`English — CEFR ${certificate.level} (Madarij)`)}`
+    + `&organizationName=${enc('Madarij')}`
+    + `&issueYear=${issued.getFullYear()}&issueMonth=${issued.getMonth() + 1}`
+    + `&certUrl=${enc(certificate.url)}&certId=${enc(certificate.code)}`;
+
+  const nativeShare = async () => {
+    try {
+      await navigator.share({ title: shareText, text: shareText, url: certificate.url });
+    } catch {
+      /* cancelled, or not allowed — the buttons beside it still work */
+    }
+  };
+  const canShare = typeof navigator !== 'undefined' && typeof navigator.share === 'function';
 
   const copy = async () => {
     try {
@@ -113,6 +151,39 @@ export default function CertificateShow({ certificate, qr }: { certificate: Cert
           </div>
         )}
       </div>
+
+      {certificate.mine && (
+        <div className="no-print mx-auto mb-4 flex max-w-4xl flex-wrap items-center gap-2 rounded-2xl bg-white p-3 ring-1 ring-slate-200">
+          <span className="flex items-center gap-1.5 px-1 text-sm font-semibold text-slate-700">
+            <Share2 aria-hidden size={16} /> {tr('شاركها')}
+          </span>
+          {canShare && (
+            <button onClick={nativeShare} className="rounded-xl bg-violet-600 px-3.5 py-2 text-sm font-semibold text-white hover:bg-violet-700">
+              {tr('شارك')}
+            </button>
+          )}
+          {SHARES.map((sh) => (
+            <a
+              key={sh.name}
+              href={sh.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`${sh.bg} rounded-xl px-3.5 py-2 text-sm font-semibold text-white transition hover:opacity-90`}
+              dir="ltr"
+            >
+              {sh.name}
+            </a>
+          ))}
+          <a
+            href={linkedinAdd}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-xl px-3.5 py-2 text-sm font-semibold text-[#0a66c2] ring-1 ring-[#0a66c2]/40 transition hover:bg-[#0a66c2]/5"
+          >
+            {tr('أضفها إلى LinkedIn')}
+          </a>
+        </div>
+      )}
 
       {certificate.mine && editing && (
         <div className="no-print mx-auto mb-4 max-w-4xl rounded-2xl bg-white p-4 ring-1 ring-slate-200">
