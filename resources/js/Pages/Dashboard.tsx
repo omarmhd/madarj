@@ -341,12 +341,12 @@ export default function Dashboard({
                 <h2 className="mt-1 text-lg font-bold text-slate-900">
                   {dueTest.placement
                     ? tr('ابدأ باختبار قبل البدء')
-                    : tr('أنهيت :level! حان وقت الاختبار', { level: dueTest.level })}
+                    : tr('أنهيت أسابيع :level — اختبر نفسك لتحصل على شهادتك', { level: dueTest.level })}
                 </h2>
                 <p className="mt-0.5 text-sm leading-relaxed text-slate-600">
                   {dueTest.placement
                     ? tr(':n دقيقة تقديرية تعرف بها مستواك اليوم. لا تفتح أسبوعاً: الدورة تبدأ من الأسبوع الأول للجميع.', { n: dueTest.minutes })
-                    : tr('اختبار حقيقيّ في :n دقيقة. تنجح بـ60% فينفتح لك المستوى التالي.', { n: dueTest.minutes })}
+                    : tr('اختبار حقيقيّ في :n دقيقة. تنجح بـ60% فتحصل على شهادة المستوى وتنفتح لك الوحدة التالية.', { n: dueTest.minutes })}
                 </p>
               </div>
 
@@ -354,7 +354,8 @@ export default function Dashboard({
                 href="/tests"
                 className="stamp flex w-full shrink-0 items-center justify-center gap-1.5 px-6 py-3 font-semibold sm:w-auto transition hover:bg-violet-700 active:scale-[.98]"
               >
-                {tr('ابدأ الاختبار')} <ArrowLeft aria-hidden size={15} className="inline-block align-[-3px]" />
+                {dueTest.placement ? tr('ابدأ الاختبار') : <>{tr('ابدأ اختبار')} <span dir="ltr">{dueTest.level}</span></>}
+                <ArrowLeft aria-hidden size={15} className="inline-block align-[-3px]" />
               </Link>
             </div>
 
@@ -400,7 +401,9 @@ export default function Dashboard({
                 className="stamp flex w-full shrink-0 items-center justify-center gap-1.5 px-6 py-3 font-semibold sm:w-auto
                            transition hover:bg-violet-700 active:scale-[.98]"
               >
-                {tr('ابدأ اليوم')} <ArrowLeft aria-hidden size={15} className="inline-block align-[-3px]" />
+                {/* The day by its number: "start day 3", not "start the day" */}
+                {tr('ابدأ اليوم')} {resume.number === stats.current_week ? stats.current_day : 1}
+                <ArrowLeft aria-hidden size={15} className="inline-block align-[-3px]" />
               </Link>
             </div>
 
@@ -449,7 +452,7 @@ export default function Dashboard({
           own colour and size and read as three unrelated interruptions
           between the level card and the course path.
         */}
-        <section className="order-3 space-y-3 lg:hidden">
+        <section className="order-5 space-y-3 lg:hidden">
           <div>
             <h2 className="text-base font-bold text-slate-900">{tr('خارج ساعة الدراسة')}</h2>
             <p className="mt-0.5 text-sm text-slate-500">{tr('اختياريّ: يُحتسب ولا يُلزم، ولا يكسر سلسلتك.')}</p>
@@ -485,8 +488,10 @@ export default function Dashboard({
           </div>
         </section>
 
-        {/* ============ الطريق: أربع وحدات ============ */}
-        <section className="order-4 space-y-4">
+        {/* ============ الطريق: أربع وحدات ============
+             On a phone it follows today, as on a laptop where it sits
+             under it: the side column's cards come after the road */}
+        <section className="order-2 space-y-4">
           <div className="flex items-baseline justify-between">
             <h2 className="text-base font-bold text-slate-900">{tr('الطريق كاملاً')}</h2>
             <p className="text-xs text-slate-500">
@@ -733,10 +738,10 @@ export default function Dashboard({
         </div>
 
         <aside className="contents lg:sticky lg:top-20 lg:block lg:space-y-6">
-          {level && <div className="order-2"><LevelCard level={level} /></div>}
+          {level && <div className="order-3"><LevelCard level={level} /></div>}
 
           {/* Certificates: one seal per level, the earned ones open their sheet */}
-          <section className="order-2 rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-200 sm:p-5">
+          <section className="order-4 rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-200 sm:p-5">
             <div className="flex items-center justify-between gap-2">
               <h2 className="flex items-center gap-2 text-base font-bold text-slate-900">
                 <Award aria-hidden size={18} className="text-amber-500" /> {tr('شهاداتي')}
@@ -794,7 +799,7 @@ export default function Dashboard({
           </section>
 
         {/* ============ قاعدة الكتاب ============ */}
-        <p className="order-5 rounded-xl border-s-4 border-slate-300 bg-white p-4 text-sm leading-relaxed text-slate-700 ring-1 ring-slate-200">
+        <p className="order-6 rounded-xl border-s-4 border-slate-300 bg-white p-4 text-sm leading-relaxed text-slate-700 ring-1 ring-slate-200">
           <strong>{tr('80% هو الهدف لا 100%.')}</strong> {tr('من يصرّ على الكمال يتوقّف. ويوم فائت ليس فشلاً — السلسلة تسامح فجوة يوم واحد.')}
         </p>
         </aside>

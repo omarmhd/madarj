@@ -1219,6 +1219,18 @@ class WeekController extends Controller
         ];
     }
 
+    /** Every day of a week completed */
+    protected function weekDone($user, int $number): bool
+    {
+        $week = Week::where('number', $number)->first();
+        if (! $week) {
+            return false;
+        }
+
+        return \App\Models\DayCompletion::where('user_id', $user->id)->where('week_id', $week->id)
+            ->whereNotNull('completed_at')->count() >= $week->days()->count();
+    }
+
     protected function dueTest($user): ?array
     {
         $week = $user->enrollment?->current_week ?? 1;
@@ -1228,7 +1240,7 @@ class WeekController extends Controller
             ->get(['level_test_id', 'passed'])
             ->groupBy('level_test_id');
 
-        $test = \App\Models\LevelTest::orderBy('after_week')->get()->first(function ($t) use ($week, $taken) {
+        $test = \App\Models\LevelTest::orderBy('after_week')->get()->first(function ($t) use ($week, $taken, $user) {
             $mine = $taken->get($t->id);
 
             // The pre-test is offered only in week 1 and only until taken
@@ -1236,7 +1248,13 @@ class WeekController extends Controller
                 return $week === 1 && ! $mine;
             }
 
-            return $week >= $t->after_week && ! ($mine && $mine->contains('passed', true));
+            if ($mine && $mine->contains('passed', true)) {
+                return false;
+            }
+
+            // Due once the review week that closes the unit is done — before
+            // that, today's card is the next day, not a test
+            return $week > $t->after_week || ($week === $t->after_week && $this->weekDone($user, $t->after_week));
         });
 
         return $test ? [

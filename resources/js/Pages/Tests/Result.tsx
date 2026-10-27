@@ -1,6 +1,6 @@
 import { AlertTriangle, ArrowLeft, Award, ChevronDown, Lightbulb, RotateCcw } from 'lucide-react';
 import AppFooter from '@/Components/AppFooter';
-import { Head, Link } from '@inertiajs/react';
+import { Head, Link, usePage } from '@inertiajs/react';
 import { useState } from 'react';
 import AppNav from '@/Components/AppNav';
 import { useLocale, dirOf } from '@/lib/bilingual';
@@ -58,6 +58,20 @@ const BANDS: Record<Result['band'], { ar: string; tone: string }> = {
   below: { ar: 'لم تصل بعد', tone: 'bg-rose-50 text-rose-800 ring-rose-200' },
 };
 
+/** The learner's next day, by number — one tap from a result to the lesson */
+function NextDay() {
+  const tr = useT();
+  const nav = ((usePage().props as any).nav ?? {}) as { week?: number; day?: number };
+  const href = nav.week ? `/week/${nav.week}/day/${nav.day ?? 1}` : '/dashboard';
+
+  return (
+    <Link href={href} className="flex items-center gap-1.5 rounded-xl bg-violet-600 px-5 py-3 text-sm font-semibold text-white">
+      {nav.week ? <>{tr('ابدأ الأسبوع')} {nav.week} · {tr('اليوم')} {nav.day ?? 1}</> : tr('تابع الدراسة')}
+      <ArrowLeft aria-hidden size={16} className="ltr:rotate-180" />
+    </Link>
+  );
+}
+
 export default function ResultPage({ result }: { result: Result }) {
   const tr = useT();
   const locale = useLocale();
@@ -110,6 +124,10 @@ export default function ResultPage({ result }: { result: Result }) {
           )}
 
           <p className="mt-3 text-sm text-slate-500">{tr('استغرقت :n دقيقة', { n: result.minutes_used })}</p>
+
+          {result.placement && (
+            <div className="mt-5 flex justify-center"><NextDay /></div>
+          )}
 
           {result.certificate && (
             <Link
@@ -209,12 +227,7 @@ export default function ResultPage({ result }: { result: Result }) {
             <RotateCcw aria-hidden size={16} />
             {tr('الاختبارات')}
           </Link>
-          {(result.passed || result.placement) && (
-            <Link href="/dashboard" className="flex items-center gap-1.5 rounded-xl bg-violet-600 px-5 py-3 text-sm font-semibold text-white">
-              {tr('تابع الدراسة')}
-              <ArrowLeft aria-hidden size={16} className="ltr:rotate-180" />
-            </Link>
-          )}
+          {(result.passed || result.placement) && <NextDay />}
         </div>
       </main>
       <AppFooter />
