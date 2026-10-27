@@ -19,8 +19,11 @@ import { useT } from '@/lib/i18n';
  * answered with a warning — "don't cheat yourself" — not a penalty.
  *
  * ── Listening is played at most twice ───────────────────────
- * As in Cambridge exams. The text is never shown: it is spoken by the
- * browser (§4.3), so there is nothing to read instead of listening.
+ * As in Cambridge exams. It is a recording (scripts/narrate-tests.py),
+ * the same for every learner on every device, at natural speed; and
+ * then the script is not sent at all, so there is nothing to read
+ * instead of listening. Without a recording the browser speaks the
+ * lines, as before.
  */
 
 type Answer = string | number | boolean | string[];
@@ -35,6 +38,8 @@ interface Item {
 interface Part {
   instructions_ar: string | null;
   passage: string | null;
+  /** The recorded dialogue — when present, `audio` (the script) is not sent */
+  audio_url: string | null;
   audio: { g: 'f' | 'm'; text: string }[] | null;
   items: Item[];
 }
@@ -181,10 +186,27 @@ export default function Take({ attempt, test }: Props) {
     };
   }, [attempt.id]);
 
-  const play = (key: string, audio: Part['audio']) => {
-    if (!audio || (plays[key] ?? 0) >= MAX_PLAYS || playing) return;
+  const recording = useRef<HTMLAudioElement | null>(null);
+  // Leaving the test stops a recording mid-play
+  useEffect(() => () => recording.current?.pause(), []);
+
+  const play = (key: string, part: Part) => {
+    const audio = part.audio;
+    if ((!audio && !part.audio_url) || (plays[key] ?? 0) >= MAX_PLAYS || playing) return;
     setPlays((p) => ({ ...p, [key]: (p[key] ?? 0) + 1 }));
     setPlaying(key);
+
+    if (part.audio_url) {
+      // Natural speed for everyone: a slower recording would be a different test
+      const a = new Audio(part.audio_url);
+      recording.current = a;
+      a.onended = () => setPlaying(null);
+      a.onerror = () => setPlaying(null);
+      a.play().catch(() => setPlaying(null));
+      return;
+    }
+
+    if (!audio) return;
     speakSequence(
       audio.map((l) => ({ text: l.text, gender: l.g })),
       { rate: myRate, gapMs: 500, onDone: () => setPlaying(null) },
@@ -252,9 +274,9 @@ export default function Take({ attempt, test }: Props) {
             <div key={key} className="space-y-4 rounded-2xl bg-white p-5 ring-1 ring-slate-200">
               {part.instructions_ar && <p className="text-sm font-semibold text-slate-800">{part.instructions_ar}</p>}
 
-              {part.audio && (
+              {(part.audio || part.audio_url) && (
                 <button
-                  onClick={() => play(key, part.audio)}
+                  onClick={() => play(key, part)}
                   disabled={used >= MAX_PLAYS || !!playing}
                   className="flex items-center gap-2 rounded-xl bg-violet-50 px-4 py-3 text-sm font-semibold text-violet-800 ring-1 ring-violet-200 disabled:opacity-50"
                 >

@@ -67,6 +67,25 @@ class LevelTest extends Model
      * The test as the browser may see it: no answers, and the word
      * tiles reshuffled so their order in the file is not a hint.
      */
+    /** The voices the listening was generated with — part of each file's name (scripts/narrate-tests.py) */
+    public const VOICE_SET = 'gb-jenny-alan';
+
+    /**
+     * The recorded listening for a part, if generated: the same name the
+     * script gave it, from the voices and the lines. Changing a dialogue
+     * changes the name, so a stale file is never played for new text.
+     */
+    public static function audioFor(?array $audio): ?string
+    {
+        if (! $audio) {
+            return null;
+        }
+        $text = self::VOICE_SET."\n".implode("\n", array_map(fn ($l) => $l['g'].':'.$l['text'], $audio));
+        $name = substr(sha1($text), 0, 16).'.mp3';
+
+        return is_file(public_path('audio/tests/'.$name)) ? '/audio/tests/'.$name : null;
+    }
+
     public function toClientArray(): array
     {
         $sections = array_map(fn ($s) => [
@@ -77,7 +96,11 @@ class LevelTest extends Model
             'parts'           => array_map(fn ($p) => [
                 'instructions_ar' => $p['instructions_ar'] ?? null,
                 'passage'         => $p['passage'] ?? null,
-                'audio'           => $p['audio'] ?? null,
+                // A recording when there is one — and then the script stays here:
+                // the text in the page could be read instead of listened to.
+                // Without one, the lines go to the browser to speak, as before.
+                'audio_url'       => self::audioFor($p['audio'] ?? null),
+                'audio'           => self::audioFor($p['audio'] ?? null) ? null : ($p['audio'] ?? null),
                 'items'           => array_map(function ($i) {
                     $payload = $i['payload'] ?? [];
 
