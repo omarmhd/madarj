@@ -1,0 +1,1 @@
+import{n as e}from"./app-Dee30XL6.js";var t=e();function n({children:e}){return(0,t.jsx)(`bdi`,{children:e})}export{n as t};
