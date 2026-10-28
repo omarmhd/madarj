@@ -12,8 +12,11 @@ class Story extends Model
     /** Easiest first — the order the page shows them in */
     public const LEVELS = ['A1', 'A2', 'A2+', 'B1', 'B1+'];
 
+    /** Who tells it — the two Piper voices of scripts/narrate-stories.py */
+    public const NARRATORS = ['f', 'm'];
+
     protected $fillable = [
-        'slug', 'title_en', 'title_ar', 'level', 'source_ar', 'minutes',
+        'slug', 'title_en', 'title_ar', 'level', 'narrator', 'source_ar', 'minutes',
         'why_ar', 'lines', 'moral_en', 'moral_ar', 'words', 'position', 'has_audio',
     ];
 
@@ -50,6 +53,7 @@ class Story extends Model
             'title_en'   => $this->title_en,
             'title_ar'   => $this->title_ar,
             'level'      => $this->level,
+            'narrator'   => $this->narrator,
             'source_ar'  => $this->source_ar,
             'minutes'    => $this->minutes,
             'why_ar'     => $this->why_ar,

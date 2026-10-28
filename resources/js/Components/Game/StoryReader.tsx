@@ -1,6 +1,6 @@
 import { ArrowRight, ChevronDown, ChevronUp, Mic } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
-import { useMySpeech, prefToGender, type VoicePref } from '@/hooks/useSpeech';
+import { useMySpeech } from '@/hooks/useSpeech';
 import { useNarration } from '@/hooks/useNarration';
 import { useT } from '@/lib/i18n';
 import type { StoryData } from '@/Pages/Stories';
@@ -25,9 +25,11 @@ import type { StoryData } from '@/Pages/Stories';
  * word. Words underlined in the text invite exactly that stopping, so
  * the four hard words wait at the end for whoever wants them.
  *
- * ── A recorded narrator when there is one ───────────────────
- * A story with a human recording plays it; one without falls back to
- * the browser's voice. The screen is the same either way — the same
+ * ── One narrator, chosen by the story ────────────────────────
+ * Each story is told by a woman or a man (its `narrator`), recorded
+ * with Piper in that voice; the learner does not pick. One without a
+ * recording falls back to the browser's voice of the same gender.
+ * The screen is the same either way — the same
  * lit line, the same tap-a-line — because the learner did not choose
  * which stories were recorded first and should not be told about it
  * twice.
@@ -41,7 +43,6 @@ import type { StoryData } from '@/Pages/Stories';
 export default function StoryReader({
   story,
   rate,
-  voice,
   isRead,
   onFinish,
   onClose,
@@ -50,8 +51,6 @@ export default function StoryReader({
   story: StoryData;
   /** سرعة القراءة — من شريط الصفحة لا ثابتة في الشفرة */
   rate: number;
-  /** الصوت المختار — ومن الشريط نفسه، فيسري أثره فوراً */
-  voice: VoicePref;
   isRead: boolean;
   onFinish: () => void;
   /** No way back inside a day's station — the station has its own */
@@ -106,15 +105,11 @@ export default function StoryReader({
     }
 
     /*
-     * الصوت والسرعة يُمرَّران صراحةً.
-     *
-     * `speakSequence` خام: تأخذ سرعتها الافتراضية (0.85) وتختار
-     * الصوت بحسب `gender` كل سطر — وهي في الحوارات لمتحدّثين
-     * اثنين. وقصّة بلا متحدّثَين تُقرأ بأيّ صوت وبسرعة لا يملكها
-     * المتدرّب، فيبدو اختياره في الشريط بلا أثر.
+     * The narrator's gender and the learner's speed are passed
+     * explicitly: `speakSequence` would otherwise pick its own.
      */
     speakSequence(
-      story.lines.slice(from).map((text) => ({ text, gender: prefToGender(voice) })),
+      story.lines.slice(from).map((text) => ({ text, gender: story.narrator })),
       {
         rate,
         gapMs: 500,

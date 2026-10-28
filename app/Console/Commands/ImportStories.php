@@ -65,6 +65,13 @@ class ImportStories extends Command
                     return self::FAILURE;
                 }
 
+                // The story's voice is the content's choice, not the learner's
+                if (! in_array($story['narrator'] ?? null, Story::NARRATORS, true)) {
+                    $this->error("$where: الراوي «".($story['narrator'] ?? '')."» ليس من ".implode(' · ', Story::NARRATORS));
+
+                    return self::FAILURE;
+                }
+
                 if (isset($seen[$story['slug']])) {
                     $this->error("$where: المعرّف «{$story['slug']}» مكرّر");
 
@@ -89,6 +96,7 @@ class ImportStories extends Command
                     'title_en'  => $story['title_en'],
                     'title_ar'  => $story['title_ar'],
                     'level'     => $story['level'],
+                    'narrator'  => $story['narrator'],
                     'source_ar' => $story['source_ar'] ?? null,
                     'minutes'   => $story['minutes'] ?? 2,
                     'why_ar'    => $story['why_ar'] ?? null,
@@ -123,12 +131,11 @@ class ImportStories extends Command
         });
 
         /*
-         * السرد البشريّ — يُكتشف ولا يُعلَن.
+         * The narration is discovered, not declared.
          *
-         * ملفّ لكل جملة باصطلاح `<slug>/01.mp3`. وقصّة نصف جملها
-         * مسجَّلة أسوأ من قصّة بلا صوت: القارئ يسكت في المنتصف بلا
-         * سبب ظاهر. فالعلَم لا يُرفع إلا إذا اكتملت الجمل كلّها،
-         * وناقصُها يُذكر ليُعرف ما بقي.
+         * One file per story, `<slug>.mp3`, with `<slug>.vtt` beside it
+         * (scripts/narrate-stories.py). The flag goes up only when the
+         * cues match the lines one for one; a mismatch is reported.
          */
         $partial = [];
 
@@ -160,7 +167,7 @@ class ImportStories extends Command
         $recorded = Story::where('has_audio', true)->count();
 
         $this->info('ملفّات: '.count($files).'   قصص: '.count($rows).
-            '   مسرودة بشريّاً: '.$recorded);
+            '   مسرودة: '.$recorded);
 
         foreach ($partial as $line) {
             $this->warn('سرد ناقص — '.$line);
@@ -174,7 +181,7 @@ class ImportStories extends Command
                 count($s->lines),
                 $s->wordCount(),
                 count($s->words ?? []),
-                $s->has_audio ? 'بشريّ' : '—',
+                $s->has_audio ? ($s->narrator === 'f' ? '♀' : '♂') : '—',
             ])->all(),
         );
 

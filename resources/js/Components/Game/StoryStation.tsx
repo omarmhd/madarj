@@ -3,7 +3,6 @@ import axios from 'axios';
 import { Check, ListOrdered, Lightbulb, PenLine, RotateCcw } from 'lucide-react';
 import StoryReader from '@/Components/Game/StoryReader';
 import type { StoryData } from '@/Pages/Stories';
-import type { VoicePref } from '@/hooks/useSpeech';
 import { useT } from '@/lib/i18n';
 
 /**
@@ -200,13 +199,12 @@ interface Props {
   weekNumber: number;
   data: StoryStationData;
   rate: number;
-  voice: VoicePref;
   /** Everything saved for this week, by day — the save sends all of it back */
   saved: Record<string, string> | null;
   onSaved?: (sentence: string) => void;
 }
 
-export default function StoryStation({ weekNumber, data, rate, voice, saved, onSaved }: Props) {
+export default function StoryStation({ weekNumber, data, rate, saved, onSaved }: Props) {
   const tr = useT();
   const key = `day${data.day}`;
 
@@ -267,7 +265,7 @@ export default function StoryStation({ weekNumber, data, rate, voice, saved, onS
 
   return (
     <div className="space-y-4">
-      <StoryReader story={data.story} rate={rate} voice={voice} isRead={!!savedMoral} onFinish={() => {}} hideMoral />
+      <StoryReader story={data.story} rate={rate} isRead={!!savedMoral} onFinish={() => {}} hideMoral />
 
       {data.order.length > 0 && !savedMoral && <OrderDrill data={data} onSettled={() => setOrderDone(true)} />}
       {orderDone && data.gap && !savedMoral && <GapDrill data={data} onSettled={() => setGapDone(true)} />}
