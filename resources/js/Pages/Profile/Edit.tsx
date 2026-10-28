@@ -217,7 +217,7 @@ export default function Edit({
         <div className="mx-auto max-w-5xl px-4 py-5">
           <h1 className="text-xl font-bold text-slate-900">{tr('حسابي')}</h1>
           <p className="mt-1 text-sm text-slate-500">
-            بدأت في {stats.started_on} · مسار {stats.track}
+            {tr('بدأت في :d', { d: stats.started_on })} · {tr('مسار')} {stats.track}
             {stats.track === 'A' ? tr(' (ساعة يومياً)') : tr(' (ساعتان يومياً)')}
           </p>
         </div>
@@ -411,14 +411,14 @@ export default function Edit({
             <>
               <section>
                 <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-                  <Stat value={`${stats.days_done}/${stats.days_total}`} label={tr('أيام منجزة')} hint={`${stats.percent}% من الدورة`} />
-                  <Stat value={stats.streak} label={tr('سلسلة حالية')} hint={`الأطول: ${stats.longest_streak}`} />
-                  <Stat value={`${stats.current_week}/24`} label={tr('الأسبوع')} hint={`اليوم ${stats.current_day}`} />
-                  <Stat value={learning.words_learned} label={tr('كلمة تعرفها')} hint={`من ${learning.words_seen} بطاقة`} />
+                  <Stat value={`${stats.days_done}/${stats.days_total}`} label={tr('أيام منجزة')} hint={tr(':n% من الدورة', { n: stats.percent })} />
+                  <Stat value={stats.streak} label={tr('سلسلة حالية')} hint={tr('الأطول: :n', { n: stats.longest_streak })} />
+                  <Stat value={`${stats.current_week}/24`} label={tr('الأسبوع')} hint={tr('اليوم :n', { n: stats.current_day })} />
+                  <Stat value={learning.words_learned} label={tr('كلمة تعرفها')} hint={tr('من :n بطاقة', { n: learning.words_seen })} />
                 </div>
 
                 <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
-                  <Stat value={learning.exercises_done} label={tr('تمريناً أصبته')} hint={`${learning.attempts_total} محاولة إجمالاً`} />
+                  <Stat value={learning.exercises_done} label={tr('تمريناً أصبته')} hint={tr(':n محاولة إجمالاً', { n: learning.attempts_total })} />
                   <Stat value={learning.recordings} label={tr('تسجيلاً')} hint={tr('محفوظة في متصفحك')} />
                   <Stat value={learning.writings} label={tr('نصّاً كتبته')} />
                 </div>

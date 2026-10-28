@@ -228,7 +228,7 @@ export default function CertificateShow({ certificate, qr }: { certificate: Cert
               <Bdi>{name}</Bdi>
             </p>
             <p className="mx-auto mt-4 max-w-2xl text-base leading-loose text-slate-700 sm:text-lg">
-              {tr('اختبار نهاية')} <strong>{LEVEL_AR[certificate.level] ?? certificate.level}</strong>{' '}
+              {tr('اختبار نهاية')} <strong>{tr(LEVEL_AR[certificate.level] ?? certificate.level)}</strong>{' '}
               {tr('في دورة الإنجليزية من A1 إلى B1، بنسبة')} <strong dir="ltr">{certificate.percent}%</strong>.
             </p>
             <p className="mx-auto mt-2 max-w-2xl text-sm text-slate-500" dir="ltr">

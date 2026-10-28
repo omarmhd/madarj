@@ -132,6 +132,7 @@ class WeekController extends Controller
                     'next'       => $module['to'],
                     'module'     => $module['number'],
                     'module_ar'  => $module['title_ar'],
+                    'module_en'  => $module['title_en'] ?? null,
                     'scale'      => $scale,
                     'at'         => array_search($module['from'], $scale, true),
                     // الموضع على الشريط: أسبوعٌ من أربعة وعشرين

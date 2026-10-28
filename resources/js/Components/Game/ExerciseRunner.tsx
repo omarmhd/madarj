@@ -149,10 +149,10 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
           {percent}%
         </div>
         <h3 className="mt-6 text-lg font-bold">
-          {score} من {total}
+          {tr(':a من :b', { a: score, b: total })}
         </h3>
         <p className="mt-2 text-sm text-slate-600">
-          {firstTry} منها من المحاولة الأولى
+          {tr(':n منها من المحاولة الأولى', { n: firstTry })}
         </p>
 
         {/* 80% هو الهدف لا 100% — قاعدة الكتاب */}
@@ -230,7 +230,7 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
         {/* الخطأ المستهدف — يُعلن قبل المحاولة لا بعدها */}
         {linkedError && (
           <p className="mt-2 inline-block rounded-md bg-amber-50 px-2 py-1 text-xs text-amber-800">
-            يعالج الخطأ {linkedError.no} من العشرين · {linkedError.rule_ar}
+            {tr('يعالج الخطأ :n من العشرين', { n: linkedError.no })} · {linkedError.rule_ar}
           </p>
         )}
       </div>

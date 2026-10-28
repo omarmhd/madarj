@@ -310,8 +310,7 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
               {tr('لا بطاقات مستحقة الآن')}
             </p>
             <p className="mx-auto mt-1.5 max-w-sm text-sm leading-relaxed text-slate-600">
-              راجعت كل ما هو مستحق من {counts?.total} بطاقة. لا تراجع أكثر —
-              التكرار المتباعد يعمل بأن تراجع قبل أن تنسى بقليل، لا كل يوم.
+              {tr('راجعت كل ما هو مستحق من :n بطاقة. لا تراجع أكثر — التكرار المتباعد يعمل بأن تراجع قبل أن تنسى بقليل، لا كل يوم.', { n: counts?.total ?? 0 })}
             </p>
           </>
         )}
@@ -327,12 +326,12 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
           <Check aria-hidden size={16} />
         </p>
         <p className="mt-2 font-bold text-emerald-900">
-          أنهيت {graded} بطاقة
+          {tr('أنهيت :n بطاقة', { n: graded })}
         </p>
         <p className="mx-auto mt-1.5 max-w-sm text-sm leading-relaxed text-emerald-800">
           {again === 0
             ? tr('بلا نسيان واحد. مواعيد المراجعة تباعدت.')
-            : `${again} منها ستعود قريباً — وهذا مقصود، لا فشل.`}
+            : tr(':n منها ستعود قريباً — وهذا مقصود، لا فشل.', { n: again })}
         </p>
 
         {onFinished && (
@@ -355,11 +354,11 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
       {/* شريط الجلسة */}
       <div className="flex items-center justify-between text-xs text-slate-500">
         <span>
-          {index + 1} من {cards.length}
+          {tr(':a من :b', { a: index + 1, b: cards.length })}
         </span>
         {counts && (
           <span>
-            مستحقة {counts.due} · جديدة {counts.new}
+            {tr('مستحقة :d · جديدة :n', { d: counts.due, n: counts.new })}
           </span>
         )}
       </div>

@@ -20,7 +20,7 @@ class Enrollment extends Model
         'user_id', 'track', 'started_on', 'current_week',
         'current_day', 'timezone', 'completed_at',
         // تفضيلات صفحة التهيئة
-        'voice', 'speech_rate', 'theme', 'locale', 'setup_done_at',
+        'voice', 'speech_rate', 'theme', 'locale', 'content_translation', 'setup_done_at',
     ];
 
     protected $casts = [

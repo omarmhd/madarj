@@ -150,7 +150,7 @@ export default function Flashcards({ words, groupLabel, onFinish, onProgress}: P
         </div>
 
         <h3 className="mt-6 text-lg font-bold">
-          {score} من {total}
+          {tr(':a من :b', { a: score, b: total })}
         </h3>
 
         <p className="mt-2 text-sm text-slate-600">
@@ -166,7 +166,7 @@ export default function Flashcards({ words, groupLabel, onFinish, onProgress}: P
               className="rounded-lg bg-violet-600 px-5 py-2.5 text-sm font-medium
                          text-white hover:bg-violet-700"
             >
-              أعد الكلمات المتعثّرة ({unknown.length})
+              {tr('أعد الكلمات المتعثّرة (:n)', { n: unknown.length })}
             </button>
           )}
           <button

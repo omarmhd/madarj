@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import Gloss from '@/Components/Gloss';
 import AppFooter from '@/Components/AppFooter';
 import type { VoicePref } from '@/hooks/useSpeech';
 import { useSpeechPrefs, setSpeechPrefs } from '@/lib/speechPrefs';
@@ -276,17 +277,17 @@ const INDAY_NAMES: Record<string, string> = {
 function activityTitle(
   a: Activity,
   labels?: Record<string, string | null>,
-  tr: (s: string) => string = (x) => x,
+  tr: (s: string, vars?: Record<string, string | number>) => string = (x) => x,
 ): string {
   switch (a.kind) {
     case 'pairs':
       return tr('التمييز الصوتي');
     case 'flashcards':
-      return `بطاقات — ${iso(groupName(a.group, labels))}`;
+      return tr('بطاقات — :g', { g: iso(groupName(a.group, labels)) });
     case 'exercises':
-      return `تمارين اليوم ${a.day}`;
+      return tr('تمارين اليوم :n', { n: a.day });
     case 'record':
-      return a.baseline ? 'تسجيل خط الأساس' : 'التحدّث';
+      return tr(a.baseline ? 'تسجيل خط الأساس' : 'التحدّث');
     case 'inday':
       return tr(INDAY_NAMES[a.what]);
     case 'writing':
@@ -294,7 +295,7 @@ function activityTitle(
     case 'review':
       return tr('مراجعة المفردات');
     case 'dialogue':
-      return `حوار ${a.number}`;
+      return tr('حوار :n', { n: a.number });
     case 'section':
       return tr(SECTION_NAMES[a.sectionKind] ?? a.sectionKind);
     case 'unbuilt':
@@ -579,13 +580,12 @@ export default function WeekShow({
                 </p>
               )}
 
-              <p
-                className={`text-sm leading-relaxed text-slate-500 ${
-                  hideEnglish ? '' : 'mt-1'
-                }`}
-              >
-                {line.ar}
-              </p>
+              {/* With the English hidden the Arabic is the prompt, so it always shows */}
+              {hideEnglish ? (
+                <p className="text-sm leading-relaxed text-slate-500">{line.ar}</p>
+              ) : (
+                <Gloss ar={line.ar} className="mt-1 text-sm leading-relaxed text-slate-500" />
+              )}
             </div>
           </div>
         );
@@ -694,7 +694,7 @@ export default function WeekShow({
           <div className="p-6 text-center">
             <Construction aria-hidden size={32} strokeWidth={1.5} className="mx-auto text-slate-400" />
             <p className="mt-3 font-semibold text-slate-800">
-              {activityTitle(a, vocabularyLabels, tr)} — لم يُبنَ بعد
+              {activityTitle(a, vocabularyLabels, tr)} — {tr('لم يُبنَ بعد')}
             </p>
             <p className="mx-auto mt-2 max-w-sm text-sm leading-relaxed text-slate-500">
               {tr('هذا القسم قيد التجهيز في المنصة. أشّر المهمة حين تنجزها.')}
@@ -709,7 +709,7 @@ export default function WeekShow({
 
   return (
     <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-0">
-      <Head title={`الأسبوع ${week.number} — ${week.title_ar}`} />
+      <Head title={`${tr('الأسبوع :n', { n: week.number })} — ${locale === 'en' ? week.title_en : week.title_ar}`} />
 
       <AppNav />
 
@@ -735,7 +735,7 @@ export default function WeekShow({
               {tr('لوحة التقدّم')}
             </Link>
             <span aria-hidden><ChevronLeft aria-hidden size={16} /></span>
-            <span>الوحدة {week.module}</span>
+            <span>{tr('الوحدة')} {week.module}</span>
           </div>
 
           <div className="mt-2.5 flex items-start gap-3 sm:gap-4">
@@ -747,10 +747,10 @@ export default function WeekShow({
 
             <div className="min-w-0 flex-1">
               <h1 className="text-base font-bold leading-snug text-white sm:text-2xl">
-                {week.title_ar}
+                {locale === 'en' ? week.title_en : week.title_ar}
               </h1>
-              <p className="mt-0.5 hidden truncate text-xs text-violet-100/80 sm:block sm:text-sm" dir="ltr">
-                {week.title_en}
+              <p className="mt-0.5 hidden truncate text-xs text-violet-100/80 sm:block sm:text-sm text-start" dir={locale === 'en' ? 'rtl' : 'ltr'} style={locale === 'en' ? { textAlign: 'left' } : undefined}>
+                {locale === 'en' ? week.title_ar : week.title_en}
               </p>
             </div>
 
@@ -840,8 +840,7 @@ export default function WeekShow({
             <div>
               <h2 className="text-lg font-bold text-slate-900">{tr('كل محتوى الأسبوع')}</h2>
               <p className="mt-0.5 text-xs text-slate-500">
-                كل المحتوى مرجعاً — الأهداف، {vocabCount} كلمة، النطق، الكتابة،{' '}
-                {dialogues.length} حوارات
+                {tr('كل المحتوى مرجعاً — الأهداف، :v كلمة، النطق، الكتابة، :d حوارات', { v: vocabCount, d: dialogues.length })}
               </p>
             </div>
             <span className="shrink-0 text-slate-400">{libraryOpen ? <ChevronUp aria-hidden size={16} /> : <ChevronDown aria-hidden size={16} />}</span>
@@ -889,7 +888,7 @@ export default function WeekShow({
             <h2 className="text-lg font-bold text-slate-900">
               {tr('المفردات')}
               <span className="ms-2 text-sm font-normal text-slate-500">
-                {Object.values(vocabulary).reduce((n, w) => n + w.length, 0)} كلمة
+                {Object.values(vocabulary).reduce((n, w) => n + w.length, 0)} {tr('كلمة')}
               </span>
             </h2>
             <p className="text-xs text-slate-500">{tr('العربي أولاً — أنتِج الإنجليزية')}</p>
@@ -911,7 +910,7 @@ export default function WeekShow({
                       {groupName(group, vocabularyLabels)}
                     </h3>
                     <span className={`rounded-full px-2.5 py-0.5 text-xs font-medium ${tone.chip}`}>
-                      {words.length} كلمة
+                      {words.length} {tr('كلمة')}
                     </span>
                   </div>
 
@@ -936,7 +935,7 @@ export default function WeekShow({
 
                     {words.length > 4 && (
                       <p className="px-2 pt-1 text-xs text-slate-400">
-                        و{words.length - 4} كلمة أخرى في البطاقات…
+                        {tr('و:n كلمة أخرى في البطاقات…', { n: words.length - 4 })}
                       </p>
                     )}
                   </div>
@@ -1038,12 +1037,12 @@ export default function WeekShow({
               <p className="text-sm leading-relaxed text-slate-700">{writing.task_ar}</p>
 
               <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-slate-500">
-                <span>{writing.min_words} كلمة على الأقل</span>
-                <span>{writing.templates.length} قالب جملة</span>
+                <span>{tr(':n كلمة على الأقل', { n: writing.min_words })}</span>
+                <span>{tr(':n قالب جملة', { n: writing.templates.length })}</span>
                 {myWriting && (
                   <span className="font-medium text-emerald-600">
-                    كتبت {myWriting.word_count} كلمة
-                    {myWriting.self_score ? ` · تقييمك ${myWriting.self_score}/5` : ''}
+                    {tr('كتبت :n كلمة', { n: myWriting.word_count })}
+                    {myWriting.self_score ? <> · {tr('تقييمك :n/5', { n: myWriting.self_score })}</> : ''}
                   </span>
                 )}
               </div>
@@ -1129,7 +1128,7 @@ export default function WeekShow({
                     <div className="min-w-0">
                       <div className="flex items-center gap-2">
                         <span className="rounded-md bg-violet-50 px-2 py-0.5 text-xs font-medium text-violet-700">
-                          حوار {d.number}
+                          {tr('حوار :n', { n: d.number })}
                         </span>
                         {/* أفاتار المتحدثين — يُعرّف الطرفين قبل الفتح */}
                         <div className="flex gap-1">

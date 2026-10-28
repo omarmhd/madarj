@@ -3,6 +3,7 @@ import axios from 'axios';
 import { Check, Circle, Lightbulb, PenLine } from 'lucide-react';
 import Listen from '@/Components/Listen';
 import Bdi from '@/Components/Bdi';
+import Gloss from '@/Components/Gloss';
 import { hasArabic } from '@/lib/spelling';
 import { useT } from '@/lib/i18n';
 
@@ -135,7 +136,7 @@ export default function Imitate({ weekNumber, item, saved, onProgress, onComplet
                 <p className="text-lg font-medium leading-relaxed text-slate-900" dir="ltr">
                   {m.en}
                 </p>
-                <p className="text-sm leading-relaxed text-slate-500">{m.ar}</p>
+                <Gloss ar={m.ar} className="text-sm leading-relaxed text-slate-500" />
               </div>
             </div>
           ))}

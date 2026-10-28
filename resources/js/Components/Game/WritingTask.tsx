@@ -247,7 +247,7 @@ export default function WritingTask({ weekNumber, writing, existing }: Props) {
             <span
               className={`font-medium ${enough ? 'text-emerald-600' : 'text-slate-400'}`}
             >
-              {words} / {writing.min_words} كلمة
+              {words} / {writing.min_words} {tr('كلمة')}
             </span>
           </div>
         </div>
@@ -314,7 +314,7 @@ export default function WritingTask({ weekNumber, writing, existing }: Props) {
                        transition hover:bg-slate-800 disabled:cursor-not-allowed
                        disabled:bg-slate-300"
           >
-            {enough ? tr('اكشف نموذج الإجابة') : `اكتب ${writing.min_words} كلمة أولاً`}
+            {enough ? tr('اكشف نموذج الإجابة') : tr('اكتب :n كلمة أولاً', { n: writing.min_words })}
           </button>
 
           <p className="mt-2 text-center text-xs leading-relaxed text-slate-500">

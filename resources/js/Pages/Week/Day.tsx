@@ -42,6 +42,7 @@ import { taskKind, TONES } from '@/lib/taskKinds';
 import DayJourney from '@/Components/DayJourney';
 import { ArrowLeft, ArrowRight, Check, Map as MapIcon, ChevronLeft, CircleCheck, Clock, Headphones, Lock, PenLine, Play, Settings2, Smartphone, Square, X } from 'lucide-react';
 import MemoryLauncher from '@/Components/Memory/MemoryLauncher';
+import Gloss from '@/Components/Gloss';
 
 /**
  * صفحة اليوم — شاشة العمل اليومية.
@@ -636,7 +637,7 @@ export default function DayPage({
               <h4 className="font-semibold text-slate-800">
                 {groupName(block)}
               </h4>
-              <span className="text-xs text-slate-500">{block.items.length} كلمة</span>
+              <span className="text-xs text-slate-500">{block.items.length} {tr('كلمة')}</span>
             </div>
 
             {testing === `${step}-${key}-${block.group}` ? (
@@ -707,7 +708,7 @@ export default function DayPage({
               <h4 className="font-semibold text-slate-800" dir="ltr">
                 {block.title}
               </h4>
-              <span className="text-xs text-slate-500">{block.lines.length} سطراً</span>
+              <span className="text-xs text-slate-500">{tr(':n سطراً', { n: block.lines.length })}</span>
             </div>
             <p className="text-xs text-slate-500">{block.situation_ar ?? block.situation_en}</p>
 
@@ -774,7 +775,7 @@ export default function DayPage({
                       <p className="text-sm leading-relaxed text-slate-900" dir="ltr">
                         {line.en}
                       </p>
-                      <p className="mt-1 text-sm leading-relaxed text-slate-500">{line.ar}</p>
+                      <Gloss ar={line.ar} className="mt-1 text-sm leading-relaxed text-slate-500" />
                     </div>
                   </div>
                 );
@@ -875,7 +876,7 @@ export default function DayPage({
                   {tr('لا توجد تمارين مُدخلة لهذا اليوم')}
                 </p>
                 <p className="mx-auto mt-1.5 max-w-md text-xs leading-relaxed text-amber-800">
-                  تمارين اليوم {block.day} قيد التجهيز. أشّر المهمة وتابع يومك.
+                  {tr('تمارين اليوم :n قيد التجهيز. أشّر المهمة وتابع يومك.', { n: block.day })}
                 </p>
               </div>
             )}
@@ -951,7 +952,6 @@ export default function DayPage({
               weekNumber={week.number}
               data={block}
               rate={rate}
-              voice={voice}
               saved={(myNotes?.story as Record<string, string> | undefined) ?? null}
               onSaved={(t) => { setStoryProof(t); setNeedsProof(false); markComplete(sliceKey); }}
             />
@@ -1086,7 +1086,7 @@ export default function DayPage({
 
   return (
     <div dir={dirOf(locale)} className={`min-h-screen bg-slate-50 ${focus ? 'pb-36' : 'pb-28 sm:pb-0'}`}>
-      <Head title={`الأسبوع ${week.number} · اليوم ${day.number}`} />
+      <Head title={tr('الأسبوع :w · اليوم :d', { w: week.number, d: day.number })} />
 
       {!focus && <AppNav />}
 
@@ -1117,7 +1117,7 @@ export default function DayPage({
               href={`/week/${week.number}`}
               className="transition hover:text-white"
             >
-              الأسبوع {week.number}
+              {tr('الأسبوع :n', { n: week.number })}
             </Link>
           </div>
 
@@ -1145,7 +1145,7 @@ export default function DayPage({
                 </p>
               )}
               <p className="mt-0.5 text-xs text-violet-100/80">
-                {doneCount} من {total} مهام · {day.minutes * multiplier} دقيقة
+                {tr(':d من :n مهام · :m دقيقة', { d: doneCount, n: total, m: day.minutes * multiplier })}
               </p>
             </div>
 
@@ -1644,7 +1644,7 @@ export default function DayPage({
           <div id="day-end" className="scroll-mt-32 rounded-2xl bg-emerald-50 p-6 text-center ring-1 ring-emerald-200">
             <CircleCheck aria-hidden size={36} strokeWidth={1.5} className="mx-auto text-emerald-600" />
             <p className="mt-2 font-bold text-emerald-900">
-              اكتمل اليوم {day.number}
+              {tr('اكتمل اليوم :n', { n: day.number })}
             </p>
             <p className="mx-auto mt-1.5 max-w-md text-sm leading-relaxed text-emerald-800">
               {day.number < lastDay
@@ -1659,7 +1659,7 @@ export default function DayPage({
                   className="rounded-xl bg-emerald-600 px-5 py-2.5 text-sm font-medium
                              text-white transition hover:bg-emerald-700"
                 >
-                  اليوم {day.number + 1} <ArrowLeft aria-hidden size={15} className="inline-block align-[-3px]" />
+                  {tr('اليوم :n', { n: day.number + 1 })} <ArrowLeft aria-hidden size={15} className="inline-block align-[-3px]" />
                 </Link>
               )}
               <Link
@@ -1674,8 +1674,7 @@ export default function DayPage({
         ) : (
           <div id="day-end" className="scroll-mt-32 rounded-2xl border border-dashed border-slate-300 bg-white p-5 text-center">
             <p className="text-sm text-slate-600">
-              بقيت {total - doneCount} من {total} مهام. اليوم التالي يُفتح عند
-              إتمامها كلها.
+              {tr('بقيت :l من :n مهام. اليوم التالي يُفتح عند إتمامها كلها.', { l: total - doneCount, n: total })}
             </p>
           </div>
         )}
@@ -1690,7 +1689,7 @@ export default function DayPage({
               className="rounded-xl bg-white px-4 py-2 text-sm text-slate-600
                          ring-1 ring-slate-200 transition hover:ring-slate-300"
             >
-              → اليوم {day.number - 1}
+              → {tr('اليوم :n', { n: day.number - 1 })}
             </Link>
           ) : (
             <span />
@@ -1702,7 +1701,7 @@ export default function DayPage({
               className="rounded-xl bg-white px-4 py-2 text-sm text-slate-600
                          ring-1 ring-slate-200 transition hover:ring-slate-300"
             >
-              اليوم {day.number + 1} <ArrowLeft aria-hidden size={15} className="inline-block align-[-3px]" />
+              {tr('اليوم :n', { n: day.number + 1 })} <ArrowLeft aria-hidden size={15} className="inline-block align-[-3px]" />
             </Link>
           )}
         </div>

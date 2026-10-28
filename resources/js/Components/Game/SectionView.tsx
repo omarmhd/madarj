@@ -296,7 +296,7 @@ export default function SectionView({
                       <p className="mt-0.5 text-sm text-slate-600">{it.ar}</p>
                       {it.when_ar && (
                         <p className="mt-1 text-xs text-slate-400">
-                          متى: {it.when_ar}
+                          {tr('متى:')} {it.when_ar}
                         </p>
                       )}
                     </div>
@@ -554,8 +554,8 @@ export default function SectionView({
                       onClick={() => setRevealed((r) => ({ ...r, [i]: true }))}
                       className="mt-1.5 text-xs text-violet-700 hover:underline"
                     >
-                      اكشف الإجابة
-                      {q.hint_ar ? ` · تلميح: ${q.hint_ar}` : ''}
+                      {tr('اكشف الإجابة')}
+                      {q.hint_ar ? <> · {tr('تلميح:')} {q.hint_ar}</> : ''}
                     </button>
                   )}
                 </div>
@@ -730,11 +730,11 @@ export default function SectionView({
                 />
                 <div className="min-w-0">
                   <p className="text-sm font-medium text-slate-900">
-                    أستطيع أن {it.can_ar}
+                    {tr('أستطيع أن')} {it.can_ar}
                   </p>
                   {it.proof_ar && (
                     <p className="mt-0.5 text-xs text-slate-500">
-                      تحقّق: {it.proof_ar}
+                      {tr('تحقّق:')} {it.proof_ar}
                     </p>
                   )}
                 </div>

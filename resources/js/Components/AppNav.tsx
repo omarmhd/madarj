@@ -309,7 +309,7 @@ export default function AppNav() {
                 </span>
                 {/* العناوين عربية: النقاط تُمحى دون 12 بكسل */}
                 <span className={`text-xs ${on ? 'font-semibold' : ''}`}>
-                  {isStudy && resumeWeek ? `اليوم ${resumeDay ?? 1}` : t.label}
+                  {isStudy && resumeWeek ? tr('اليوم :n', { n: resumeDay ?? 1 }) : t.label}
                 </span>
               </Link>
             );

@@ -48,8 +48,8 @@ class HandleInertiaRequests extends Middleware
                 'rate'   => $enrollment?->speech_rate ?? 0.8,
                 'theme'  => $enrollment?->theme ?? 'light',
                 'locale' => $enrollment?->locale ?? 'ar',
-                // الواجهة تعرف بها هل تُظهر ترجمة المحتوى
-                'showTranslation' => ($enrollment?->locale ?? 'ar') === 'ar',
+                // The content's Arabic translation — its own setting, not the interface language
+                'showTranslation' => (bool) ($enrollment?->content_translation ?? true),
             ],
 
             /**

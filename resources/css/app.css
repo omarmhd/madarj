@@ -783,3 +783,15 @@ html[data-style='classic'] .folio-input:focus { border-color: rgb(var(--accent-5
   html, body { background: #fff !important; }
   * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
+
+/*
+ * Directional icons mirror with the page. The code draws them for
+ * Arabic (ArrowLeft = forward); in English the page is left to right,
+ * so forward points right. One rule instead of a branch at every icon.
+ * `scale` composes with Tailwind's transforms (hover nudges) rather
+ * than replacing them. `.no-flip` opts out where an icon already
+ * follows a direction of its own.
+ */
+html[dir='ltr'] :is(.lucide-arrow-left, .lucide-arrow-right, .lucide-chevron-left, .lucide-chevron-right):not(.no-flip) {
+  scale: -1 1;
+}

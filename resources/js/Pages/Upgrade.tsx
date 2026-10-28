@@ -132,7 +132,7 @@ export default function Upgrade({
                 ? tr('هذه الميزة للمشتركين')
                 : trialWeeks === 1
                   ? tr('أنهيت أسبوعك المجاني')
-                  : `أنهيت ${trialWeeks} أسابيع مجانية`}
+                  : tr('أنهيت :n أسابيع مجانية', { n: trialWeeks })}
           </p>
 
           <h1 className="mt-2 text-2xl font-bold leading-snug sm:text-3xl">
@@ -143,7 +143,7 @@ export default function Upgrade({
               : feature
                 ? tr('«:f» تُفتح بالاشتراك', { f: feature })
                 : lockedWeek
-                  ? `الأسبوع ${lockedWeek} يبدأ من هنا`
+                  ? tr('الأسبوع :n يبدأ من هنا', { n: lockedWeek })
                   : tr('أكمل الدورة كاملة')}
           </h1>
 
@@ -177,7 +177,7 @@ export default function Upgrade({
 
             {pending && (
               <p className="mt-3 inline-block rounded-lg bg-slate-50 px-3 py-2 text-sm text-slate-600">
-                {METHODS.find((m) => m.value === pending.contact_method)?.label ?? pending.contact_method}
+                {tr(METHODS.find((m) => m.value === pending.contact_method)?.label ?? pending.contact_method)}
                 {' · '}
                 <span dir="ltr">{pending.contact_value}</span>
               </p>

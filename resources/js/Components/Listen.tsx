@@ -4,6 +4,7 @@ import { iso } from '@/lib/bidi';
 import { usePage } from '@inertiajs/react';
 import { useSpeech, prefToGender, prefRateFactor, type Gender, type VoicePref } from '@/hooks/useSpeech';
 import { track } from '@/lib/tracker';
+import { useT } from '@/lib/i18n';
 
 /**
  * زرّ الاستماع — الوحيد في المنصة.
@@ -54,6 +55,7 @@ export default function Listen({
   prominent = false,
 }: Props) {
   const { speak, supported } = useSpeech();
+  const tr = useT();
   const { props } = usePage();
   const [playing, setPlaying] = useState(false);
   // The learner's choice on this page, over the one the page loaded with
@@ -79,7 +81,7 @@ export default function Listen({
     window.setTimeout(() => setPlaying(false), Math.min(3000, 600 + text.length * 55));
   };
 
-  const aria = slow ? `استمع ببطء إلى ${iso(text)}` : `استمع إلى ${iso(text)}`;
+  const aria = slow ? tr('استمع ببطء إلى :t', { t: iso(text) }) : tr('استمع إلى :t', { t: iso(text) });
 
   /* بنصّ — زرّ ممتدّ */
   if (label) {

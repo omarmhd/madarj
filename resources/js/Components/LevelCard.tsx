@@ -1,4 +1,5 @@
 import { useT } from '@/lib/i18n';
+import { useLocale } from '@/lib/bilingual';
 
 /**
  * Where the learner is on the A1 → B1 ladder.
@@ -28,6 +29,7 @@ export interface LevelData {
   next: string;
   module: number;
   module_ar: string;
+  module_en?: string;
   scale: string[];
   at: number;
   percent: number;
@@ -39,6 +41,7 @@ export interface LevelData {
 
 export default function LevelCard({ level }: { level: LevelData }) {
   const tr = useT();
+  const locale = useLocale();
 
   return (
     <section className="rounded-2xl bg-white p-5 ring-1 ring-slate-200 sm:p-6">
@@ -51,7 +54,7 @@ export default function LevelCard({ level }: { level: LevelData }) {
           </p>
           {/* اسم الوحدة يُقرأ لا يُلمَح: أكبر وأدكن من سطر ثانويّ */}
           <p className="mt-1 text-base font-medium text-slate-800">
-            الوحدة {level.module} — {level.module_ar}
+            {tr('الوحدة')} {level.module} — {locale === 'en' && level.module_en ? level.module_en : level.module_ar}
           </p>
         </div>
 
@@ -62,7 +65,7 @@ export default function LevelCard({ level }: { level: LevelData }) {
           </span>{' '}
           {level.weeks_left === 0
             ? tr('بنهاية هذا الأسبوع')
-            : `بعد ${level.weeks_left} ${level.weeks_left <= 10 ? 'أسابيع' : 'أسبوعاً'}`}
+            : tr(level.weeks_left <= 10 ? 'بعد :n أسابيع' : 'بعد :n أسبوعاً', { n: level.weeks_left })}
         </p>
       </div>
 

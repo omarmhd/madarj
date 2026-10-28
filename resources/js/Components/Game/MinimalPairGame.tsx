@@ -282,8 +282,8 @@ export default function MinimalPairGame({ groups, target: targetProp, onFinish, 
 
         <p className="mt-2 text-sm text-slate-600">
           {passed
-            ? `الهدف كان ${target} من ${total} — وقد تجاوزته.`
-            : `الهدف ${target} من ${total}. لا تنتقل للإنتاج قبل أن تصل إليه — الاستماع أولاً دائماً.`}
+            ? tr('الهدف كان :t من :n — وقد تجاوزته.', { t: target, n: total })
+            : tr('الهدف :t من :n. لا تنتقل للإنتاج قبل أن تصل إليه — الاستماع أولاً دائماً.', { t: target, n: total })}
         </p>
 
         {missed.length > 0 && (
@@ -454,7 +454,7 @@ export default function MinimalPairGame({ groups, target: targetProp, onFinish, 
         <div className="mt-4">
           <div className="flex items-center justify-between gap-3">
             <p className={`font-semibold ${right ? 'text-emerald-700' : 'text-rose-700'}`}>
-              {right ? tr('صحيح') : `كانت «${current.spoken === 'a' ? current.pair.word_a : current.pair.word_b}»`}
+              {right ? tr('صحيح') : tr('كانت «:w»', { w: current.spoken === 'a' ? current.pair.word_a : current.pair.word_b })}
             </p>
             {/* The two words in turn — the moment the ear learns the difference */}
             <button

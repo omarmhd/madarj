@@ -155,12 +155,16 @@ export default function Dashboard({
     behind > 3 ? 'rose' : behind > 0 ? 'amber' : 'emerald';
   const scheduleText =
     behind > 0
-      ? `متأخّر ${behind} ${behind === 1 ? tr('يوماً') : tr('أيام')}`
+      ? tr(behind === 1 ? 'متأخّر :n يوماً' : 'متأخّر :n أيام', { n: behind })
       : behind < 0
-        ? `متقدّم ${Math.abs(behind)} ${Math.abs(behind) === 1 ? tr('يوماً') : tr('أيام')}`
+        ? tr(Math.abs(behind) === 1 ? 'متقدّم :n يوماً' : 'متقدّم :n أيام', { n: Math.abs(behind) })
         : tr('في الموعد تماماً');
 
   const contentWeeks = weeks.filter((w) => w.has_content).length;
+
+  /** A week's or unit's name in the interface language — the server sends both */
+  const named = (x: { title_ar: string | null; title_en?: string | null }) =>
+    (locale === 'en' && x.title_en ? x.title_en : x.title_ar) ?? '';
 
   return (
     <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-0">
@@ -198,7 +202,7 @@ export default function Dashboard({
             <div className="min-w-0 flex-1">
               <p className="flex flex-wrap items-center gap-x-1.5 gap-y-1 text-xs text-violet-100/85">
                 <span className="rounded-md bg-white/20 px-1.5 py-0.5 font-medium text-white">
-                  مسار {stats.track}
+                  {tr('مسار')} {stats.track}
                 </span>
                 <span dir="ltr" className="font-medium">A1 → B1</span>
                 <span aria-hidden>·</span>
@@ -207,7 +211,7 @@ export default function Dashboard({
 
               <h1 className="mt-1.5 text-lg font-bold leading-snug text-white sm:text-2xl">
                 {currentModule
-                  ? `الوحدة ${currentModule.number} — ${currentModule.title_ar}`
+                  ? tr('الوحدة :n — :t', { n: currentModule.number, t: named(currentModule) })
                   : tr('الدورة')}
               </h1>
 
@@ -220,7 +224,7 @@ export default function Dashboard({
                     <span aria-hidden> · </span>
                   </>
                 )}
-                بدأت في {stats.started_on}
+                {tr('بدأت في :d', { d: stats.started_on })}
               </p>
             </div>
 
@@ -295,11 +299,11 @@ export default function Dashboard({
                 <p className="text-sm font-semibold text-violet-100">
                   {wall.trial === 1
                     ? tr('أتممتَ أسبوعك المجّانيّ')
-                    : `أتممتَ ${wall.trial} أسابيع مجّانيّة`}
+                    : tr('أتممتَ :n أسابيع مجّانيّة', { n: wall.trial })}
                 </p>
 
                 <h2 className="mt-1 text-lg font-bold">
-                  الأسبوع {wall.week} يحتاج اشتراكاً
+                  {tr('الأسبوع :n يحتاج اشتراكاً', { n: wall.week })}
                 </h2>
 
                 <p className="mt-0.5 text-sm leading-relaxed text-violet-50">
@@ -385,11 +389,10 @@ export default function Dashboard({
               <div className="min-w-0">
                 <p className="text-sm font-semibold text-violet-700">{tr('تابع من هنا')}</p>
                 <h2 className="mt-1 text-lg font-bold text-slate-900">
-                  الأسبوع {resume.number} · اليوم{' '}
-                  {resume.number === stats.current_week ? stats.current_day : 1}
+                  {tr('الأسبوع :w · اليوم :d', { w: resume.number, d: resume.number === stats.current_week ? stats.current_day : 1 })}
                 </h2>
                 <p className="mt-0.5 line-clamp-2 text-sm text-slate-600">
-                  {resume.title_ar}
+                  {named(resume)}
                 </p>
               </div>
               </div>
@@ -428,8 +431,9 @@ export default function Dashboard({
               >
                 <strong>{scheduleText}</strong>
                 {' — '}
-                موضعك: الأسبوع {stats.current_week} اليوم {stats.current_day} · وبحسب
-                الجدول: الأسبوع {stats.expected_week} اليوم {stats.expected_day}.
+                {tr('موضعك: الأسبوع :w اليوم :d · وبحسب الجدول: الأسبوع :ew اليوم :ed.', {
+                  w: stats.current_week, d: stats.current_day, ew: stats.expected_week, ed: stats.expected_day,
+                })}
                 {behind > 0 && tr(' يوم فائت ليس فشلاً — واصل من حيث توقّفت.')}
               </p>
             </div>
@@ -495,7 +499,7 @@ export default function Dashboard({
           <div className="flex items-baseline justify-between">
             <h2 className="text-base font-bold text-slate-900">{tr('الطريق كاملاً')}</h2>
             <p className="text-xs text-slate-500">
-              {contentWeeks} من 24 أسبوعاً محتواه جاهز
+              {tr(':n من 24 أسبوعاً محتواه جاهز', { n: contentWeeks })}
             </p>
           </div>
 
@@ -552,7 +556,7 @@ export default function Dashboard({
                 >
                   <div className="min-w-0">
                     <p className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm font-bold text-slate-900">
-                      <span>الوحدة {m.number} — {m.title_ar}</span>
+                      <span>{tr('الوحدة :n — :t', { n: m.number, t: named(m) })}</span>
                       {isCurrent && (
                         <span className="rounded-full bg-violet-50 px-2 py-0.5 text-xs font-medium text-violet-700">
                           {tr('أنت هنا')}
@@ -578,7 +582,7 @@ export default function Dashboard({
                     >
                       {m.from} → {m.to}
                     </span>
-                    <span className="text-xs text-slate-500">{m.words} كلمة</span>
+                    <span className="text-xs text-slate-500">{m.words} {tr('كلمة')}</span>
                     <span className="text-xs font-medium text-slate-600">{done}/6</span>
                   </div>
                 </div>
@@ -601,7 +605,7 @@ export default function Dashboard({
                         >
                           <div className="flex items-center justify-between">
                             <span className="text-sm font-semibold text-slate-400">
-                              الأسبوع {w.number}
+                              {tr('الأسبوع :n', { n: w.number })}
                             </span>
                             {w.is_review && (
                               <span className="rounded bg-slate-200 px-1.5 py-0.5 text-xs text-slate-500">
@@ -638,11 +642,11 @@ export default function Dashboard({
                         >
                           <div className="flex items-center justify-between">
                             <span className="text-sm font-semibold text-slate-700">
-                              الأسبوع {w.number}
+                              {tr('الأسبوع :n', { n: w.number })}
                             </span>
                             <Lock aria-hidden size={14} className="text-slate-400" />
                           </div>
-                          <p className="mt-1 line-clamp-2 text-sm text-slate-500">{w.title_ar}</p>
+                          <p className="mt-1 line-clamp-2 text-sm text-slate-500">{named(w)}</p>
                           <p className="mt-1 text-xs font-medium text-slate-500 transition group-hover:text-violet-700">
                             {tr('يحتاج اشتراكاً')} <ArrowLeft aria-hidden size={15} className="inline-block align-[-3px]" />
                           </p>
@@ -655,17 +659,17 @@ export default function Dashboard({
                         <div
                           key={w.number}
                           className="rounded-xl bg-slate-100/70 p-3.5"
-                          title={`أكمل الأسبوع ${w.number - 1} أولاً`}
+                          title={tr('أكمل الأسبوع :n أولاً', { n: w.number - 1 })}
                         >
                           <div className="flex items-center justify-between">
                             <span className="text-sm font-semibold text-slate-500">
-                              الأسبوع {w.number}
+                              {tr('الأسبوع :n', { n: w.number })}
                             </span>
                             <Lock aria-hidden size={14} className="text-slate-400" />
                           </div>
-                          <p className="mt-1 line-clamp-2 text-xs text-slate-500">{w.title_ar}</p>
+                          <p className="mt-1 line-clamp-2 text-xs text-slate-500">{named(w)}</p>
                           <p className="mt-1 text-xs text-slate-400">
-                            أكمل الأسبوع {w.number - 1} أولاً
+                            {tr('أكمل الأسبوع :n أولاً', { n: w.number - 1 })}
                           </p>
                         </div>
                       );
@@ -685,7 +689,7 @@ export default function Dashboard({
                       >
                         <div className="flex items-center justify-between gap-2">
                           <span className="text-sm font-semibold text-slate-900">
-                            الأسبوع {w.number}
+                            {tr('الأسبوع :n', { n: w.number })}
                           </span>
                           <div className="flex shrink-0 items-center gap-1.5">
                             {w.is_review && (
@@ -702,7 +706,7 @@ export default function Dashboard({
                           </div>
                         </div>
 
-                        <p className="mt-1 line-clamp-2 text-xs leading-relaxed text-slate-600">{w.title_ar}</p>
+                        <p className="mt-1 line-clamp-2 text-xs leading-relaxed text-slate-600">{named(w)}</p>
 
                         {/* شريط الأيام السبعة */}
                         <div className="mt-2.5 flex gap-0.5">
@@ -717,7 +721,7 @@ export default function Dashboard({
                         </div>
 
                         <p className="mt-1.5 text-xs text-slate-400">
-                          {w.days_done}/7 أيام
+                          {w.days_done}/7 {tr('أيام')}
                         </p>
 
                         {milestone && (
