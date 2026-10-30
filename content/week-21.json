@@ -83,7 +83,7 @@
   "days": [
     {
       "number": 1,
-      "focus": "الأحلام والمال والخيارات · التمييز الصوتي",
+      "focus": "القواعد · الأحلام والمال والخيارات · التمييز الصوتي",
       "tasks": [
         {
           "order": 1,
@@ -111,6 +111,12 @@
         },
         {
           "order": 5,
+          "label": "القواعد",
+          "minutes": 20,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
@@ -119,16 +125,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 15,
           "ref": "watch:t0U0rGl3prE"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
@@ -137,7 +143,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -153,12 +159,18 @@
         },
         {
           "order": 2,
-          "label": "النطق",
-          "minutes": 25,
-          "ref": "section:phonics"
+          "label": "القواعد — الأول أم الثاني",
+          "minutes": 10,
+          "ref": "section:grammar"
         },
         {
           "order": 3,
+          "label": "النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
@@ -167,10 +179,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
@@ -179,16 +191,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 15,
           "ref": "watch:UKz1Fsw_e8c"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:error_hunt"
@@ -197,7 +209,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -213,24 +225,30 @@
         },
         {
           "order": 2,
+          "label": "القواعد — I wish",
+          "minutes": 10,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
           "label": "عبارات الافتراض",
-          "minutes": 25,
+          "minutes": 15,
           "ref": "vocab:hypothetical_phrases"
         },
         {
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
@@ -239,16 +257,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "قصة اليوم",
           "minutes": 10,
           "ref": "story:dog-and-reflection"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
@@ -257,7 +275,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -2016,69 +2034,215 @@
   "sections": [
     {
       "kind": "grammar",
-      "day_number": 4,
-      "title_ar": "القواعد",
-      "title_en": "Grammar — The Second Conditional",
+      "day_number": 1,
+      "title_ar": "القواعد — الشرط الثاني: التركيب والمعنى",
+      "title_en": "Grammar — The second conditional",
       "payload": {
-        "rule_ar": "الشرط الثاني للمُتخيَّل لا للواقع: «If I had money, I would travel» — وأنا لا أملك المال. وشكله يخدع: فعل ماضٍ في جملة if، لكن المعنى حاضر أو مستقبل متخيَّل لا ماضٍ. وفي الإنجليزية الرسمية تُستعمل were مع كل الضمائر: If I were you.",
-        "rule_en": "IF + PAST SIMPLE  ,  WOULD + BASE VERB",
+        "rule_ar": "if + ماضٍ بسيط ، would + فعل مجرّد: If I had more money, I would travel. والماضي هنا ليس عن الماضي: «If I had more money» لا تعني أنه كان معي أمس، بل أنه ليس معي الآن. الإنجليزية تستعمل صيغة الماضي لتعلن البعد عن الواقع لا البعد في الزمن — وهذه الفكرة الوحيدة التي تحتاجها من الفصل.",
+        "table": {
+          "columns_ar": [
+            "الجملة",
+            "ماذا تقول عن الواقع؟"
+          ],
+          "rows": [
+            [
+              "If I have time, I will call you.",
+              "قد يكون عندي وقت — ممكن"
+            ],
+            [
+              "If I had time, I would call you.",
+              "ليس عندي وقت — لن أتّصل"
+            ],
+            [
+              "If it rained in the desert, everything would change.",
+              "لا تمطر هناك"
+            ],
+            [
+              "If I were you, I would accept.",
+              "لست أنت"
+            ]
+          ],
+          "say": 0,
+          "ar_cols": [
+            1
+          ]
+        },
         "common_errors": [
           {
-            "error_no": 1,
-            "wrong": "If I have money I would travel",
+            "wrong": "If I have money I would travel.",
             "right": "If I had money, I would travel.",
-            "arabic": "لو كان لدي مال لسافرت",
             "why_ar": "صيغة الماضي في جملة if"
           },
           {
-            "error_no": 2,
-            "wrong": "If I was you",
-            "right": "If I were you",
-            "arabic": "لو كنت مكانك",
-            "why_ar": "عبارة ثابتة بـwere"
-          },
-          {
-            "error_no": 3,
-            "wrong": "If I would have time",
+            "wrong": "If I would have time…",
             "right": "If I had time…",
-            "arabic": "لو كان لدي وقت لاتصلت",
             "why_ar": "لا would في جملة if أبداً"
           },
           {
-            "error_no": 4,
-            "wrong": "I wish I know",
-            "right": "I wish I knew.",
-            "arabic": "أتمنى لو أعرف",
-            "why_ar": "wish + ماضٍ للحاضر"
-          },
-          {
-            "error_no": 5,
-            "wrong": "I wish I would study more",
-            "right": "I wish I studied more.",
-            "arabic": "أتمنى لو أدرس أكثر",
-            "why_ar": "would عن الآخرين فقط"
-          },
-          {
-            "error_no": 6,
             "wrong": "What you would do?",
             "right": "What would you do?",
-            "arabic": "ماذا كنت ستفعل؟",
             "why_ar": "اقلب الفاعل مع would"
           },
           {
-            "error_no": 7,
-            "wrong": "I would to go",
+            "wrong": "I would to go.",
             "right": "I would go.",
-            "arabic": "كنت سأذهب",
             "why_ar": "لا to بعد would"
           }
         ],
         "checklist_ar": [
           "if + ماضٍ بسيط ، would + مجرّد",
-          "المعنى متخيَّل لا ماضٍ",
+          "المعنى متخيَّل لا ماضٍ"
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 2,
+      "title_ar": "القواعد — الأول أم الثاني؟ الاختيار لك",
+      "title_en": "Grammar — First or second? The choice is yours",
+      "payload": {
+        "rule_ar": "الموقف الواحد يقبل الشرطين، واختيارك يخبر السامع كم تراه محتملاً. If I get the job, I’ll move to Cairo: تقدّمت وقد يحدث. If I got the job, I’d move to Cairo: أشكّ — أو لم أتقدّم أصلاً. ولا أحدهما أصحّ: B1 أن تستطيع الاختيار.",
+        "table": {
+          "columns_ar": [
+            "",
+            "الشرط الأول",
+            "الشرط الثاني"
+          ],
+          "rows": [
+            [
+              "التركيب",
+              "if + present, will",
+              "if + past, would"
+            ],
+            [
+              "يراه المتكلّم",
+              "ممكناً",
+              "بعيداً أو مستحيلاً"
+            ],
+            [
+              "الزمن",
+              "المستقبل",
+              "الآن أو أيّ وقت — متخيَّل"
+            ],
+            [
+              "مثال",
+              "If I see him, I’ll tell him.",
+              "If I saw him, I’d tell him."
+            ]
+          ],
+          "say": 1,
+          "ar_cols": [
+            0
+          ]
+        },
+        "checklist_ar": [
+          "الأول واقعي · الثاني متخيَّل"
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 3,
+      "title_ar": "القواعد — If I were you · I wish · would",
+      "title_en": "Grammar — If I were you, I wish, would",
+      "payload": {
+        "rule_ar": "مع be تُستعمل were لكل الفاعلين في الشرط الثاني: If I were you… وكثير من أهل اللغة يقول if I was، لكن «If I were you» عبارة ثابتة لا تتغيّر. و I wish + ماضٍ للتحسّر على الحاضر: I wish I had more time (وليس عندي). و I wish + would لعادات الآخرين المزعجة وحدها: I wish he would call me back.",
+        "table": {
+          "columns_ar": [
+            "تقول",
+            "والواقع"
+          ],
+          "rows": [
+            [
+              "I wish I had a car.",
+              "ليس عندي سيارة"
+            ],
+            [
+              "I wish I knew the answer.",
+              "لا أعرف الجواب"
+            ],
+            [
+              "I wish it weren’t so hot.",
+              "الجوّ حارّ"
+            ],
+            [
+              "I wish I could come.",
+              "لا أستطيع المجيء"
+            ],
+            [
+              "I wish they would stop.",
+              "يواصلون، وهذا يزعجني"
+            ]
+          ],
+          "say": 0,
+          "ar_cols": [
+            1
+          ]
+        },
+        "common_errors": [
+          {
+            "wrong": "If I was you, I’d accept.",
+            "right": "If I were you, I’d accept.",
+            "why_ar": "عبارة ثابتة بـwere"
+          },
+          {
+            "wrong": "I wish I know.",
+            "right": "I wish I knew.",
+            "why_ar": "wish + ماضٍ للحاضر"
+          },
+          {
+            "wrong": "I wish I would study more.",
+            "right": "I wish I studied more.",
+            "why_ar": "would عن الآخرين فقط"
+          }
+        ],
+        "checklist_ar": [
           "If I were you — لا If I was you في النصح",
           "I wish + ماضٍ للأمنية في الحاضر",
-          "الأول واقعي · الثاني متخيَّل"
+          "wish + would لعادات غيرك وحدها"
+        ],
+        "lessons": [
+          {
+            "title_ar": "would خارج الشرط",
+            "title_en": "would beyond conditionals",
+            "explain_ar": "would تعمل في ستّة مواضع:",
+            "table": {
+              "columns_ar": [
+                "الاستعمال",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "نتيجة متخيَّلة",
+                  "I would travel."
+                ],
+                [
+                  "طلب مهذّب",
+                  "Would you help me?"
+                ],
+                [
+                  "عرض",
+                  "Would you like some tea?"
+                ],
+                [
+                  "تفضيل",
+                  "I’d rather stay in."
+                ],
+                [
+                  "تلطيف الرأي",
+                  "I would say it’s a mistake."
+                ],
+                [
+                  "عادة ماضية",
+                  "When I was a child, we would visit every summer."
+                ]
+              ],
+              "say": 1,
+              "ar_cols": [
+                0
+              ]
+            }
+          }
         ]
       }
     },

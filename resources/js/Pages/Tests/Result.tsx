@@ -1,6 +1,6 @@
 import { AlertTriangle, ArrowLeft, Award, ChevronDown, Lightbulb, RotateCcw } from 'lucide-react';
 import AppFooter from '@/Components/AppFooter';
-import { Head, Link, usePage } from '@inertiajs/react';
+import { Head, Link, router, usePage } from '@inertiajs/react';
 import { useState } from 'react';
 import AppNav from '@/Components/AppNav';
 import { useLocale, dirOf } from '@/lib/bilingual';
@@ -28,6 +28,8 @@ interface SectionResult {
   percent: number;
   advice_ar: string[];
   mistakes: Mistake[];
+  /** Under the test's per-section minimum — this alone fails the test */
+  short?: boolean;
 }
 
 interface Result {
@@ -39,6 +41,8 @@ interface Result {
   passed: boolean;
   band: 'distinction' | 'merit' | 'pass' | 'below';
   pass_percent: number;
+  /** The least each section must score; 0 when the test sets none */
+  section_min: number;
   minutes_used: number;
   focus_lost: number;
   sections: SectionResult[];
@@ -48,6 +52,118 @@ interface Result {
   estimate: string | null;
   /** The certificate this pass earned, if any */
   certificate: string | null;
+  free_writing: WritingResult | null;
+}
+
+/** The free writing — rated by the learner, never part of the score */
+interface WritingResult {
+  title_ar: string;
+  task_en: string;
+  points: { en: string; ar: string }[];
+  min_words: number;
+  max_words: number;
+  model_en: string;
+  model_notes_ar: string[];
+  before_rating_ar: string[];
+  rubric: { key: string; title_ar: string; title_en: string; levels_ar: string[] }[];
+  verdicts: { min: number; ar: string }[];
+  text: string;
+  words: number;
+  self: { scores: Record<string, number>; total: number; max: number } | null;
+}
+
+function SelfAssess({ attemptId, w }: { attemptId: number; w: WritingResult }) {
+  const tr = useT();
+  const [scores, setScores] = useState<Record<string, number>>(w.self?.scores ?? {});
+  const [saving, setSaving] = useState(false);
+  const complete = w.rubric.every((c) => scores[c.key] !== undefined);
+  const verdict = w.self ? [...w.verdicts].sort((a, b) => b.min - a.min).find((v) => w.self!.total >= v.min) : null;
+
+  const save = () => {
+    setSaving(true);
+    router.post(`/tests/attempt/${attemptId}/self-assess`, { scores }, {
+      preserveScroll: true,
+      onFinish: () => setSaving(false),
+    });
+  };
+
+  return (
+    <div className="space-y-4 rounded-2xl bg-white p-5 ring-1 ring-slate-200">
+      <div>
+        <p className="text-base font-bold text-slate-900">{tr('رسالتك — قيّمها بنفسك')}</p>
+        <p className="mt-1 text-sm text-slate-600">{tr('لا تدخل في درجتك ولا في الشهادة. هي لك: لتعرف أين أنت من كتابة B1.')}</p>
+      </div>
+
+      <div>
+        <p className="text-sm font-semibold text-slate-700">
+          {tr('ما كتبته — :n كلمة', { n: w.words })}
+          {w.words < w.min_words && <span className="ms-2 text-amber-700">{tr('(أقل من :min)', { min: w.min_words })}</span>}
+        </p>
+        <p dir="ltr" className="mt-1.5 whitespace-pre-line rounded-xl bg-slate-50 p-4 text-base leading-relaxed text-slate-800">
+          {w.text.trim() || '—'}
+        </p>
+      </div>
+
+      <div>
+        <p className="text-sm font-semibold text-slate-700">{tr('نموذج إجابة')}</p>
+        <p dir="ltr" className="mt-1.5 whitespace-pre-line rounded-xl bg-emerald-50 p-4 text-base leading-relaxed text-emerald-950">
+          {w.model_en}
+        </p>
+        <ul className="mt-2 space-y-1">
+          {w.model_notes_ar.map((n, i) => (
+            <li key={i} className="text-sm leading-relaxed text-slate-600">• {n}</li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="rounded-xl bg-amber-50 p-3.5">
+        <p className="text-sm font-semibold text-amber-900">{tr('قبل أن تقيّم')}</p>
+        <ul className="mt-1 space-y-1">
+          {w.before_rating_ar.map((n, i) => (
+            <li key={i} className="text-sm leading-relaxed text-amber-900">• {n}</li>
+          ))}
+        </ul>
+      </div>
+
+      {w.rubric.map((c) => (
+        <fieldset key={c.key}>
+          <legend className="text-sm font-bold text-slate-900">{c.title_ar}</legend>
+          <div className="mt-1.5 space-y-1.5">
+            {c.levels_ar.map((l, i) => (
+              <button
+                key={i}
+                onClick={() => setScores((s) => ({ ...s, [c.key]: i }))}
+                aria-pressed={scores[c.key] === i}
+                className={`flex w-full items-start gap-3 rounded-xl border-2 px-3 py-2 text-start text-sm transition ${
+                  scores[c.key] === i ? 'border-violet-500 bg-violet-50 text-violet-900' : 'border-slate-200 text-slate-700 hover:border-slate-300'
+                }`}
+              >
+                <span className="font-bold tabular-nums">{i}</span>
+                <span className="leading-relaxed">{l}</span>
+              </button>
+            ))}
+          </div>
+        </fieldset>
+      ))}
+
+      <button
+        onClick={save}
+        disabled={!complete || saving}
+        className="w-full rounded-xl bg-violet-600 py-3 text-sm font-semibold text-white disabled:opacity-50"
+      >
+        {w.self ? tr('احفظ التقييم من جديد') : tr('احفظ تقييمي')}
+      </button>
+
+      {w.self && (
+        <div className="rounded-xl bg-violet-50 p-4 text-center">
+          <p className="text-2xl font-bold tabular-nums text-violet-900" dir="ltr">
+            {w.self.total} / {w.self.max}
+          </p>
+          {verdict && <p className="mt-1 text-sm leading-relaxed text-violet-900">{verdict.ar}</p>}
+        </div>
+      )}
+    </div>
+  );
 }
 
 /* Cambridge's own words for its bands, in plain Arabic */
@@ -79,6 +195,9 @@ export default function ResultPage({ result }: { result: Result }) {
 
   const weakest = result.sections.find((s) => s.key === result.weakest);
   const band = BANDS[result.band];
+  // Enough in total but a section below its floor: say which, or the fail reads as a bug
+  const short = result.sections.filter((s) => s.short);
+  const shortOnly = !result.passed && short.length > 0 && result.percent >= result.pass_percent;
 
   return (
     <div dir={dirOf(locale)} className="min-h-screen bg-slate-50 pb-28 sm:pb-0">
@@ -118,7 +237,13 @@ export default function ResultPage({ result }: { result: Result }) {
               <p className="mx-auto mt-3 max-w-sm text-sm leading-relaxed text-slate-600">
                 {result.passed
                   ? tr('نجحت في :level وانفتح لك المستوى التالي.', { level: result.test.level })
-                  : tr('تحتاج :p% للنجاح. راجع أضعف قسم وأعد الاختبار بعد :h ساعة.', { p: result.pass_percent, h: result.retry_hours })}
+                  : shortOnly
+                    ? tr('بلغت المجموع المطلوب، لكن كل قسم يحتاج :m% على الأقل، وقسم :s تحته. راجعه وأعد الاختبار بعد :h ساعة.', {
+                        m: result.section_min,
+                        s: short.map((s) => tr(s.title_ar)).join('، '),
+                        h: result.retry_hours,
+                      })
+                    : tr('تحتاج :p% للنجاح. راجع أضعف قسم وأعد الاختبار بعد :h ساعة.', { p: result.pass_percent, h: result.retry_hours })}
               </p>
             </>
           )}
@@ -163,7 +288,7 @@ export default function ResultPage({ result }: { result: Result }) {
                 </div>
                 <div className="mt-1 h-2 overflow-hidden rounded-full bg-slate-100">
                   <div
-                    className={`h-full rounded-full ${s.percent >= 60 ? 'bg-emerald-500' : 'bg-rose-500'}`}
+                    className={`h-full rounded-full ${s.percent >= 60 && !s.short ? 'bg-emerald-500' : 'bg-rose-500'}`}
                     style={{ width: `${s.percent}%` }}
                   />
                 </div>
@@ -189,6 +314,8 @@ export default function ResultPage({ result }: { result: Result }) {
             </ul>
           </div>
         )}
+
+        {result.free_writing && <SelfAssess attemptId={result.id} w={result.free_writing} />}
 
         {/* Every mistake, with the right answer */}
         <div className="rounded-2xl bg-white ring-1 ring-slate-200">

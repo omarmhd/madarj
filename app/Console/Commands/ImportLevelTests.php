@@ -71,6 +71,22 @@ class ImportLevelTests extends Command
                 }
             }
 
+            // Self-rated, so the rubric is the whole of it: a criterion without levels rates nothing
+            if (isset($data['free_writing'])) {
+                $w = $data['free_writing'];
+                $bad = array_filter(['task_en', 'model_en', 'min_words', 'max_words', 'rubric', 'verdicts'], fn ($k) => empty($w[$k]));
+                foreach ($w['rubric'] ?? [] as $c) {
+                    if (empty($c['key']) || empty($c['title_ar']) || count($c['levels_ar'] ?? []) < 2) {
+                        $bad[] = 'rubric criterion '.($c['key'] ?? '?');
+                    }
+                }
+                if ($bad) {
+                    $this->error("$name: free_writing missing ".implode(', ', $bad));
+
+                    return self::FAILURE;
+                }
+            }
+
             $count = 0;
 
             foreach ($data['sections'] as $s => &$section) {
@@ -107,6 +123,9 @@ class ImportLevelTests extends Command
                     'body'         => [
                         'modeled_on' => $data['modeled_on'] ?? null,
                         'tips_ar'    => $data['tips_ar'] ?? [],
+                        'section_min_percent' => $data['section_min_percent'] ?? null,
+                        'requires'   => $data['requires'] ?? null,
+                        'free_writing' => $data['free_writing'] ?? null,
                         'sections'   => $data['sections'],
                     ],
                 ],

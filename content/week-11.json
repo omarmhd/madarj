@@ -93,24 +93,30 @@
         },
         {
           "order": 2,
+          "label": "القواعد — going to و will",
+          "minutes": 10,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
           "label": "تعبيرات المستقبل",
-          "minutes": 25,
+          "minutes": 15,
           "ref": "vocab:future_time_expressions"
         },
         {
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
@@ -119,16 +125,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 10,
           "ref": "watch:U8L2m8TeIWA"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
@@ -137,7 +143,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -153,12 +159,18 @@
         },
         {
           "order": 2,
-          "label": "النطق",
-          "minutes": 25,
-          "ref": "section:phonics"
+          "label": "القواعد — المواعيد و when و if",
+          "minutes": 10,
+          "ref": "section:grammar"
         },
         {
           "order": 3,
+          "label": "النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
@@ -167,10 +179,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
@@ -179,16 +191,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 10,
           "ref": "watch:eOs0cZ12Fhk"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:error_hunt"
@@ -197,7 +209,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -273,12 +285,18 @@
         },
         {
           "order": 2,
-          "label": "حوار: Making an Appointment",
-          "minutes": 25,
-          "ref": "dialogue:1"
+          "label": "الصحة والجسم",
+          "minutes": 10,
+          "ref": "vocab:health_and_the_body"
         },
         {
           "order": 3,
+          "label": "حوار: Making an Appointment",
+          "minutes": 15,
+          "ref": "dialogue:1"
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
@@ -287,10 +305,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:4"
@@ -299,16 +317,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 10,
           "ref": "watch:ZX53YSKPssQ"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:error_hunt"
@@ -317,7 +335,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -1833,6 +1851,279 @@
       "sentence": "Are you coming on Saturday? It depends.",
       "sentence_ar": "هل ستأتي يوم السبت؟ يعتمد على الظروف.",
       "usage_ar": "جواب قصير، وإن أكملت قل it depends on."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "body",
+      "ipa": "/ˈbɒdi/",
+      "arabic": "جسم",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "body",
+      "sentence": "Walking is good for your body.",
+      "sentence_ar": "المشي مفيد لجسمك.",
+      "usage_ar": "good for your body: مفيد لجسمك."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "head",
+      "ipa": "/hed/",
+      "arabic": "رأس",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "head",
+      "sentence": "My head hurts.",
+      "sentence_ar": "رأسي يؤلمني.",
+      "usage_ar": "My head hurts: الجزء + hurts."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "back",
+      "ipa": "/bæk/",
+      "arabic": "ظهر",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "back",
+      "sentence": "My back hurts after a long day at the desk.",
+      "sentence_ar": "ظهري يؤلمني بعد يوم طويل على المكتب.",
+      "usage_ar": "back أيضاً «خلف» و«عودة» — والسياق يفرّق."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "stomach",
+      "ipa": "/ˈstʌmək/",
+      "arabic": "معدة · بطن",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "stomach",
+      "sentence": "I ate too much, and now my stomach hurts.",
+      "sentence_ar": "أكلت كثيراً والآن تؤلمني معدتي.",
+      "usage_ar": "ch هنا /k/: /ˈstʌmək/."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "throat",
+      "ipa": "/θrəʊt/",
+      "arabic": "حلق",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "throat",
+      "sentence": "My throat hurts when I speak.",
+      "sentence_ar": "حلقي يؤلمني حين أتكلّم.",
+      "usage_ar": "يبدأ بـ/θ/ من الأسبوع الخامس — لا /t/."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "tooth",
+      "ipa": "/tuːθ/",
+      "arabic": "سنّ",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "tooth",
+      "sentence": "I’m going to see the dentist about my tooth.",
+      "sentence_ar": "سأذهب إلى طبيب الأسنان بسبب سنّي.",
+      "usage_ar": "الجمع teeth لا tooths."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "arm",
+      "ipa": "/ɑːm/",
+      "arabic": "ذراع",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "arm",
+      "sentence": "He broke his arm playing football.",
+      "sentence_ar": "كسر ذراعه وهو يلعب كرة القدم.",
+      "usage_ar": "break your arm: تنكسر ذراعك."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "leg",
+      "ipa": "/leɡ/",
+      "arabic": "ساق",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "legs",
+      "sentence": "My legs are tired after the walk.",
+      "sentence_ar": "ساقاي متعبتان بعد المشي.",
+      "usage_ar": "leg من الورك إلى الكاحل، و foot القدم."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "foot",
+      "ipa": "/fʊt/",
+      "arabic": "قدم",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "feet",
+      "sentence": "I walked all day, and my feet hurt.",
+      "sentence_ar": "مشيت طوال اليوم وقدماي تؤلمانني.",
+      "usage_ar": "الجمع feet — و on foot: سيراً على الأقدام."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "headache",
+      "ipa": "/ˈhedeɪk/",
+      "arabic": "صداع",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "headache",
+      "sentence": "I have a headache, so I’ll take a pill.",
+      "sentence_ar": "عندي صداع، فسآخذ حبّة.",
+      "usage_ar": "I have a headache — بـhave لا «عندي» بلا فعل. وكذلك stomach ache."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "toothache",
+      "ipa": "/ˈtuːθeɪk/",
+      "arabic": "ألم أسنان",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "toothache",
+      "sentence": "I have toothache, so I’m going to call the dentist.",
+      "sentence_ar": "عندي ألم في أسناني، فسأتّصل بطبيب الأسنان.",
+      "usage_ar": "في البريطانية بلا a غالباً: I have toothache."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "a cold",
+      "ipa": "/ə kəʊld/",
+      "arabic": "زكام",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "a cold",
+      "sentence": "I have a cold, so I’m going to stay at home.",
+      "sentence_ar": "عندي زكام، فسأبقى في البيت.",
+      "usage_ar": "a cold زكام، و It’s cold: الجوّ بارد — a هي الفرق."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "cough",
+      "ipa": "/kɒf/",
+      "arabic": "سعال · يسعل",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "cough",
+      "sentence": "He has a bad cough.",
+      "sentence_ar": "عنده سعال شديد.",
+      "usage_ar": "gh هنا /f/: /kɒf/."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "fever",
+      "ipa": "/ˈfiːvə(r)/",
+      "arabic": "حمّى",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "fever",
+      "sentence": "The baby has a fever.",
+      "sentence_ar": "الطفل عنده حمّى.",
+      "usage_ar": "وفي بريطانيا يقولون كثيراً have a temperature بالمعنى نفسه."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "sore",
+      "ipa": "/sɔː(r)/",
+      "arabic": "ملتهب · موجِع",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "sore",
+      "sentence": "I have a sore throat.",
+      "sentence_ar": "عندي التهاب في الحلق.",
+      "usage_ar": "sore throat: التهاب الحلق · sore eyes: عيون موجوعة."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "ill",
+      "ipa": "/ɪl/",
+      "arabic": "مريض",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "ill",
+      "sentence": "She is ill, so she won’t come to work today.",
+      "sentence_ar": "هي مريضة، فلن تأتي إلى العمل اليوم.",
+      "usage_ar": "ill بعد الفعل: She is ill. وقبل الاسم sick: a sick child."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "sick",
+      "ipa": "/sɪk/",
+      "arabic": "مريض · غثيان",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "sick",
+      "sentence": "I feel sick — I think I’ll go home.",
+      "sentence_ar": "أشعر بغثيان — أظنّني سأعود إلى البيت.",
+      "usage_ar": "feel sick في بريطانيا: غثيان. و be sick: يتقيّأ."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "medicine",
+      "ipa": "/ˈmedsn/",
+      "arabic": "دواء",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "medicine",
+      "sentence": "Take this medicine three times a day.",
+      "sentence_ar": "خذ هذا الدواء ثلاث مرات في اليوم.",
+      "usage_ar": "take medicine: يأخذ الدواء — take لا drink ولا eat."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "pill",
+      "ipa": "/pɪl/",
+      "arabic": "حبّة دواء",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "pill",
+      "sentence": "I’ll take a pill and go to bed.",
+      "sentence_ar": "سآخذ حبّة وأنام.",
+      "usage_ar": "take a pill — وفي بريطانيا tablet أيضاً."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "What’s the matter?",
+      "ipa": "/wɒts ðə ˈmætə(r)/",
+      "arabic": "ما بك؟",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "What’s the matter?",
+      "sentence": "What’s the matter? You look tired.",
+      "sentence_ar": "ما بك؟ تبدو متعباً.",
+      "usage_ar": "سؤال الاطمئنان — والجواب: I have a headache."
+    },
+    {
+      "group": "health_and_the_body",
+      "word": "I don’t feel well.",
+      "ipa": "/aɪ dəʊnt fiːl wel/",
+      "arabic": "لستُ على ما يرام",
+      "example": null,
+      "group_label_ar": "الصحة والجسم",
+      "group_label_en": "Health and the Body",
+      "target": "I don’t feel well",
+      "sentence": "I don’t feel well. I’m going to see a doctor.",
+      "sentence_ar": "لستُ على ما يرام. سأذهب إلى الطبيب.",
+      "usage_ar": "well هنا للصحة: I feel well — لا I feel good عند الطبيب."
     }
   ],
   "minimal_pairs": [
@@ -2063,69 +2354,241 @@
   "sections": [
     {
       "kind": "grammar",
-      "day_number": 4,
-      "title_ar": "القواعد",
-      "title_en": "Grammar — Three Ways to Talk About the Future",
+      "day_number": 1,
+      "title_ar": "القواعد — going to و will",
+      "title_en": "Grammar — going to and will",
       "payload": {
-        "rule_ar": "الإنجليزية لا تملك زمناً واحداً للمستقبل بل ثلاثة تراكيب، واختيارك بينها يخبر السامع كم أنت متأكّد وكم هو مخطَّط. going to لخطة سبق أن قرّرتها أو لتوقّع عليه دليل، وwill لقرار لحظي أو وعد أو رأي، والمضارع المستمر لموعد مثبَّت. والقاعدة الحاسمة: لا will بعد when و if و before و after.",
-        "rule_en": "English does not have one future tense. It has three main structures, and the one you choose tells the listener how certain and how planned the future is.",
+        "rule_ar": "الإنجليزية لا تملك زمناً واحداً للمستقبل بل ثلاثة تراكيب، واختيارك بينها يخبر السامع كم أنت متأكّد وكم هو مخطَّط. والفرق الذي يكفيك: going to لما قرّرته قبل هذه المحادثة، و will لما تقرّره الآن وأنت تتكلّم. و will بلا -s وبلا to مع كل الفاعلين.",
+        "table": {
+          "columns_ar": [
+            "الاستعمال",
+            "التركيب",
+            "مثال"
+          ],
+          "rows": [
+            [
+              "خطة سابقة",
+              "going to",
+              "I’m going to look for a new job."
+            ],
+            [
+              "توقّع عليه دليل",
+              "going to",
+              "Look at those clouds — it’s going to rain."
+            ],
+            [
+              "قرار لحظيّ",
+              "will",
+              "The phone’s ringing — I’ll get it."
+            ],
+            [
+              "عرض مساعدة",
+              "will",
+              "I’ll carry that for you."
+            ],
+            [
+              "وعد",
+              "will",
+              "I won’t tell anybody."
+            ],
+            [
+              "رأي أو توقّع بلا دليل",
+              "will",
+              "I think prices will rise next year."
+            ]
+          ],
+          "say": 2,
+          "ar_cols": [
+            0
+          ]
+        },
+        "negation_ar": "النفي: I’m not going to… · They aren’t going to come · He won’t come (won’t = will not)",
+        "question_ar": "السؤال: Are you going to call him? — Yes, I am / No, I’m not · Will you help me? — Yes, I will / No, I won’t",
         "common_errors": [
           {
-            "error_no": 1,
-            "wrong": "He wills come",
+            "wrong": "He wills come.",
             "right": "He will come.",
-            "arabic": "سوف يأتي",
             "why_ar": "will لا تأخذ -s أبداً"
           },
           {
-            "error_no": 2,
-            "wrong": "He will to come",
+            "wrong": "He will to come.",
             "right": "He will come.",
-            "arabic": "سوف يأتي",
             "why_ar": "لا to بعد will"
           },
           {
-            "error_no": 3,
-            "wrong": "When I will finish",
-            "right": "When I finish, I'll call.",
-            "arabic": "عندما أنتهي سأتصل",
-            "why_ar": "مضارع بعد when"
-          },
-          {
-            "error_no": 4,
-            "wrong": "If it will rain",
-            "right": "If it rains…",
-            "arabic": "إذا نزل المطر",
-            "why_ar": "مضارع بعد if"
-          },
-          {
-            "error_no": 5,
-            "wrong": "I will study medicine (long-held plan)",
-            "right": "I'm going to study medicine.",
-            "arabic": "سأدرس الطب",
+            "wrong": "I will study medicine. (long-held plan)",
+            "right": "I’m going to study medicine.",
             "why_ar": "الخطة السابقة تأخذ going to"
-          },
-          {
-            "error_no": 6,
-            "wrong": "I will not to go",
-            "right": "I won't go.",
-            "arabic": "لن أذهب",
-            "why_ar": "won’t = will not"
-          },
-          {
-            "error_no": 7,
-            "wrong": "I will go tomorrow (ticket booked)",
-            "right": "I'm going tomorrow.",
-            "arabic": "أنا ذاهب غداً",
-            "why_ar": "الموعد المثبَّت ← المستمر"
           }
         ],
         "checklist_ar": [
           "going to لخطة سابقة · will لقرار لحظي",
+          "التوقّع بدليل: going to لا will",
+          "will بلا -s وبلا to: He will come"
+        ],
+        "lessons": [
+          {
+            "title_ar": "قرّرته قبل أم الآن؟ ستة مواقف",
+            "title_en": "going to or will?",
+            "explain_ar": "going to = قرّرت قبل هذه المحادثة. will = أقرّر الآن وأنا أتكلّم، أو أقول رأياً.",
+            "table": {
+              "columns_ar": [
+                "الموقف",
+                "التركيب",
+                "لماذا"
+              ],
+              "rows": [
+                [
+                  "Why the bag? — I’m going to play tennis.",
+                  "going to",
+                  "الخطة موجودة قبل السؤال"
+                ],
+                [
+                  "We need milk. — Oh, I’ll get some.",
+                  "will",
+                  "قرار في تلك الثانية"
+                ],
+                [
+                  "I’m going to start a course in September.",
+                  "going to",
+                  "خطة مقرّرة"
+                ],
+                [
+                  "I think it will be a difficult year.",
+                  "will",
+                  "رأي لا خطة"
+                ],
+                [
+                  "Look at the sky — it’s going to rain.",
+                  "going to",
+                  "دليل تراه"
+                ],
+                [
+                  "I think it will rain tomorrow.",
+                  "will",
+                  "توقّع بلا دليل"
+                ]
+              ],
+              "say": 0,
+              "ar_cols": [
+                2
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 2,
+      "title_ar": "القواعد — المواعيد · ولا will بعد when و if",
+      "title_en": "Grammar — Arrangements, and no will after when / if",
+      "payload": {
+        "rule_ar": "حين يكون الشيء مثبَّتاً — بوقت ومكان وشخص آخر يعرفه — تستعمل الإنجليزية المضارع المستمر لا صيغة مستقبل. والقاعدة الثانية تفاجئ الجميع وليست اختيارية: بعد when و if و before و after و as soon as يأتي المضارع لا will. الجملة الرئيسية تأخذ will، وجملة الزمن أو الشرط تأخذ المضارع.",
+        "common_errors": [
+          {
+            "wrong": "I will go tomorrow. (ticket booked)",
+            "right": "I’m going tomorrow.",
+            "why_ar": "الموعد المثبَّت ← المستمر"
+          },
+          {
+            "wrong": "I will not to go.",
+            "right": "I won’t go.",
+            "why_ar": "won’t = will not"
+          }
+        ],
+        "checklist_ar": [
           "المضارع المستمر للموعد المثبَّت",
           "لا will بعد if و when و before و after",
-          "الاختصارات: I’ll · won’t",
-          "التوقّع بدليل: going to لا will"
+          "الاختصارات: I’ll · won’t"
+        ],
+        "lessons": [
+          {
+            "title_ar": "المضارع المستمر للمواعيد المثبّتة",
+            "title_en": "The Present Continuous for arrangements",
+            "explain_ar": "كلّما زاد التثبيت اقتربتَ من المستمر:",
+            "table": {
+              "columns_ar": [
+                "درجة التأكّد",
+                "التركيب",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "مثبَّت — مرتَّب مع غيرك",
+                  "Present Continuous",
+                  "I’m meeting the client at ten."
+                ],
+                [
+                  "نيّة — مقرّرة وربما غير مرتّبة",
+                  "going to",
+                  "I’m going to call the client."
+                ],
+                [
+                  "فكرة أو رأي — لا ترتيب",
+                  "will",
+                  "I’ll call the client, I think."
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                0
+              ]
+            },
+            "examples": [
+              {
+                "en": "I am meeting Sara at six.",
+                "ar": "موعد — وهي تعرف"
+              },
+              {
+                "en": "We are flying to Rome on Monday.",
+                "ar": "التذاكر محجوزة"
+              },
+              {
+                "en": "He is starting his new job in May.",
+                "ar": "العقد موقَّع"
+              }
+            ]
+          },
+          {
+            "title_ar": "لا will بعد when و if و before و after",
+            "title_en": "No will after when, if, before, after",
+            "explain_ar": "المعنى مستقبل، لكن جملة when أو if تبقى بالمضارع. والعربية قد تقول «عندما سأنتهي»، فيخرج When I will finish.",
+            "examples": [
+              {
+                "en": "When I arrive, I’ll send you a message.",
+                "ar": "عندما أصل سأرسل لك رسالة"
+              },
+              {
+                "en": "If she calls, I’ll tell her.",
+                "ar": "إن اتّصلت سأخبرها"
+              },
+              {
+                "en": "Before we leave, we’ll have lunch.",
+                "ar": "قبل أن نغادر سنتغدّى"
+              },
+              {
+                "en": "After I finish work, I’ll come and see you.",
+                "ar": "بعد أن أنهي العمل سآتي لأراك"
+              },
+              {
+                "en": "As soon as I know, I’ll let you know.",
+                "ar": "حالما أعرف سأخبرك"
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "When I will finish, I will call you.",
+                "right": "When I finish, I will call you.",
+                "why_ar": "مضارع بعد when"
+              },
+              {
+                "wrong": "If it will rain, we won’t go.",
+                "right": "If it rains, we won’t go.",
+                "why_ar": "مضارع بعد if"
+              }
+            ]
+          }
         ]
       }
     },

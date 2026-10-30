@@ -1,5 +1,5 @@
-import { ArrowRight, ChevronDown, ChevronUp, Mic } from 'lucide-react';
-import { useEffect, useRef, useState } from 'react';
+import { ArrowRight, ChevronDown, ChevronUp, Mic, Pause, Play } from 'lucide-react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { useMySpeech } from '@/hooks/useSpeech';
 import { useNarration } from '@/hooks/useNarration';
 import { useT } from '@/lib/i18n';
@@ -47,6 +47,7 @@ export default function StoryReader({
   onFinish,
   onClose,
   hideMoral = false,
+  controls,
 }: {
   story: StoryData;
   /** سرعة القراءة — من شريط الصفحة لا ثابتة في الشفرة */
@@ -57,6 +58,12 @@ export default function StoryReader({
   onClose?: () => void;
   /** In a day's story station the moral is the question, so it is not shown */
   hideMoral?: boolean;
+  /**
+   * The page's speed control. Given, the play button, the way back and
+   * the speed ride in a bar pinned under the nav: the lit line scrolls
+   * the story, and on a phone the buttons would scroll away with it.
+   */
+  controls?: ReactNode;
 }) {
   const tr = useT();
   const { speakSequence, stop: stopSpeech, speaking, supported } = useMySpeech();
@@ -129,9 +136,46 @@ export default function StoryReader({
     setAt(null);
   };
 
+  const playButton = (
+    <button
+      onClick={() => (reading ? halt() : readFrom(0))}
+      className="inline-flex shrink-0 items-center gap-1.5 rounded-xl bg-stone-800 px-4 py-2 text-sm
+                 font-semibold text-white transition hover:bg-stone-700 sm:px-5 sm:py-2.5"
+    >
+      {reading ? <Pause aria-hidden size={15} /> : <Play aria-hidden size={15} />}
+      {reading ? tr('أوقف') : tr('اقرأ لي القصّة')}
+    </button>
+  );
+
   return (
-    <article className="paper rounded p-5 sm:p-7">
-      {onClose && (
+    <>
+    {controls && (
+      <div
+        className="sticky top-11 z-30 flex flex-wrap items-center gap-2 border-b border-slate-200
+                   bg-[var(--paper)]/95 px-4 py-2 backdrop-blur sm:top-14 sm:mb-3 sm:rounded-xl sm:border
+                   sm:px-3"
+      >
+        {onClose && (
+          <button
+            onClick={onClose}
+            aria-label={tr('رجوع إلى القصص')}
+            className="inline-flex min-h-9 shrink-0 items-center gap-1 rounded-lg px-1.5 text-sm font-medium
+                       text-stone-500 transition hover:bg-stone-100 hover:text-stone-800"
+          >
+            <ArrowRight aria-hidden size={16} className="[[dir=ltr]_&]:rotate-180" />
+            <span className="hidden sm:inline">{tr('رجوع إلى القصص')}</span>
+          </button>
+        )}
+
+        {canRead && playButton}
+
+        {/* Speed only on a phone: the narrator is named under the title */}
+        <div className="ms-auto max-sm:[&>div>span:first-child]:hidden">{controls}</div>
+      </div>
+    )}
+
+    <article className={`paper p-5 sm:rounded sm:p-7 ${controls ? '' : 'rounded'}`}>
+      {onClose && !controls && (
         <button
           onClick={onClose}
           className="mb-4 text-sm font-medium text-stone-500 transition hover:text-stone-800"
@@ -141,18 +185,28 @@ export default function StoryReader({
       )}
 
       <header>
-        <h2 className="text-2xl font-bold text-stone-900">{story.title_ar}</h2>
+        <h2 className="text-xl font-bold leading-snug text-stone-900 sm:text-3xl">{story.title_ar}</h2>
 
-        <p className="mt-0.5 font-entry text-xl italic text-stone-500" dir="ltr">
+        <p className="mt-0.5 font-entry text-lg italic text-stone-500 sm:text-xl" dir="ltr">
           {story.title_en}
         </p>
 
         <p className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-stone-500">
-          {story.source_ar && <span>{story.source_ar}</span>}
-          <span aria-hidden>·</span>
+          {story.source_ar && (
+            <>
+              <span>{story.source_ar}</span>
+              <span aria-hidden>·</span>
+            </>
+          )}
           <span>
             {story.word_count} {tr('كلمة')}
           </span>
+          {controls && (
+            <>
+              <span aria-hidden>·</span>
+              <span>{story.narrator === 'f' ? tr('تحكيها امرأة') : tr('يحكيها رجل')}</span>
+            </>
+          )}
           {isRead && (
             <>
               <span aria-hidden>·</span>
@@ -164,13 +218,7 @@ export default function StoryReader({
 
       {canRead ? (
         <div className="mt-4 flex flex-wrap items-center gap-2">
-          <button
-            onClick={() => (reading ? halt() : readFrom(0))}
-            className="rounded-xl bg-stone-800 px-5 py-2.5 text-sm font-semibold text-white
-                       transition hover:bg-stone-700"
-          >
-            {reading ? tr('أوقف') : tr('اقرأ لي القصّة')}
-          </button>
+          {!controls && playButton}
 
           <span className="text-sm leading-relaxed text-stone-500">
             {tr('أو اضغط أيّ سطر ليقرأ من عنده.')}
@@ -231,7 +279,8 @@ export default function StoryReader({
         </div>
       )}
 
-      {/* المسرد — مطويّ، فالقاعدة ألّا تقف عند كل كلمة */}
+      {/* المسرد — مطويّ، فالقاعدة ألّا تقف عند كل كلمة. In two columns
+          where there is room: a glossary is scanned, not read */}
       {story.words.length > 0 && (
         <div className="mt-4 overflow-hidden rounded-xl ring-1 ring-stone-200">
           <button
@@ -249,9 +298,9 @@ export default function StoryReader({
           </button>
 
           {showWords && (
-            <ul className="divide-y divide-stone-100">
+            <ul className="grid divide-y divide-stone-100 sm:grid-cols-2 sm:gap-x-6 sm:divide-y-0 sm:px-0">
               {story.words.map((w, i) => (
-                <li key={i} className="flex items-center gap-3 px-4 py-2.5">
+                <li key={i} className="flex items-center gap-3 px-4 py-2.5 sm:border-b sm:border-stone-100">
                   <span className="min-w-0 flex-1 text-sm font-medium text-stone-800" dir="ltr">
                     {w.en}
                   </span>
@@ -269,5 +318,6 @@ export default function StoryReader({
         </p>
       )}
     </article>
+    </>
   );
 }

@@ -124,24 +124,30 @@
         },
         {
           "order": 2,
+          "label": "القواعد — while و during",
+          "minutes": 10,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
           "label": "الزمن في القصة",
-          "minutes": 25,
+          "minutes": 15,
           "ref": "vocab:time_in_a_story"
         },
         {
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
@@ -150,16 +156,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 15,
           "ref": "watch:HN5akpqjm9Q"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:error_hunt"
@@ -168,7 +174,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -310,12 +316,18 @@
         },
         {
           "order": 2,
-          "label": "النطق",
-          "minutes": 25,
-          "ref": "section:phonics"
+          "label": "القواعد — used to",
+          "minutes": 10,
+          "ref": "section:grammar"
         },
         {
           "order": 3,
+          "label": "النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
@@ -324,10 +336,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
@@ -336,16 +348,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 15,
           "ref": "watch:-GtgqezJQog"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
@@ -354,7 +366,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -1993,62 +2005,262 @@
   "sections": [
     {
       "kind": "grammar",
-      "day_number": 4,
-      "title_ar": "القواعد",
-      "title_en": "Grammar — Narrative Tenses",
+      "day_number": 1,
+      "title_ar": "القواعد — الماضي المستمر: الخلفية والحدث",
+      "title_en": "Grammar — The Past Continuous: background and event",
       "payload": {
-        "rule_ar": "القصة تحتاج زمنين متعاونين: الماضي المستمر يرسم الخلفية الممتدّة، والماضي البسيط يقطعها بالحدث. «I was walking when I saw him» — المشي خلفية والرؤية حدث. والماضي التام لما وقع **قبل** ذلك كله.",
-        "rule_en": "was / were  +  VERB-ing",
+        "rule_ar": "was / were + -ing — تعرف نصفيه من الأسبوعين 7 و 9. ووظيفته في القصة: الماضي المستمر يرسم الخلفية الممتدّة، والماضي البسيط يقدّم الحدث الذي يقع أمامها. I was walking home when I saw him — المشي خلفية والرؤية حدث. وقصة كلّها بالبسيط قائمة: I went out. I saw him. والمستمر يصنع المشهد.",
+        "table": {
+          "columns_ar": [
+            "الجملة",
+            "المعنى"
+          ],
+          "rows": [
+            [
+              "When I arrived, she made dinner.",
+              "وصلتُ، ثم بدأت تطبخ"
+            ],
+            [
+              "When I arrived, she was making dinner.",
+              "كانت قد بدأت، ودخلتُ عليها"
+            ],
+            [
+              "When the film started, I fell asleep.",
+              "بدأ الفيلم، ثم نمت"
+            ],
+            [
+              "When the film started, I was already sleeping.",
+              "كنت نائماً قبل أن يبدأ"
+            ]
+          ],
+          "say": 0,
+          "ar_cols": [
+            1
+          ]
+        },
+        "negation_ar": "النفي: I wasn’t working · They weren’t working",
+        "question_ar": "السؤال: Was I working? · Were they working?",
         "common_errors": [
           {
-            "error_no": 1,
-            "wrong": "I walked when I saw him",
+            "wrong": "I walked when I saw him.",
             "right": "I was walking when I saw him.",
-            "arabic": "كنت أمشي عندما رأيته",
             "why_ar": "الخلفية تحتاج المستمر"
           },
           {
-            "error_no": 2,
-            "wrong": "During I was cooking",
-            "right": "While I was cooking…",
-            "arabic": "بينما كنت أطبخ",
-            "why_ar": "during تأخذ اسماً"
-          },
-          {
-            "error_no": 3,
-            "wrong": "while the meeting",
-            "right": "During the meeting",
-            "arabic": "خلال الاجتماع",
-            "why_ar": "while تأخذ جملة"
-          },
-          {
-            "error_no": 4,
-            "wrong": "The train left when we arrived",
-            "right": "The train had left when we arrived.",
-            "arabic": "كان القطار قد غادر",
-            "why_ar": "الحدث الأسبق يحتاج had"
-          },
-          {
-            "error_no": 5,
-            "wrong": "They was waiting",
+            "wrong": "They was waiting.",
             "right": "They were waiting.",
-            "arabic": "هم كانوا ينتظرون",
             "why_ar": "they تأخذ were"
           },
           {
-            "error_no": 6,
-            "wrong": "I was sleep",
+            "wrong": "I was sleep.",
             "right": "I was sleeping.",
-            "arabic": "كنت نائماً",
             "why_ar": "صيغة -ing إجبارية"
           }
         ],
         "checklist_ar": [
           "was/were + -ing للخلفية الممتدّة",
-          "الماضي البسيط للحدث الذي يقطعها",
-          "while مع المستمر · when مع البسيط",
-          "الماضي التام (had + اسم المفعول) لما سبق",
-          "الوقفات والإيقاع جزء من السرد لا زينة"
+          "الماضي البسيط للحدث الذي يقطعها"
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 2,
+      "title_ar": "القواعد — while · when · as · during",
+      "title_en": "Grammar — while, when, as, during",
+      "payload": {
+        "rule_ar": "أربع كلمات تربط الخلفية بالحدث. while مع الفعل الأطول، و when مع الأقصر، و as لشيئين في وقت واحد — وكلها يتبعها جملة. أمّا during فيتبعها اسم: during the film، لا during I was watching.",
+        "table": {
+          "columns_ar": [
+            "الكلمة",
+            "بعدها",
+            "مثال"
+          ],
+          "rows": [
+            [
+              "while",
+              "جملة — الفعل الأطول",
+              "While I was cooking, the phone rang."
+            ],
+            [
+              "when",
+              "جملة — الفعل الأقصر",
+              "I was cooking when the phone rang."
+            ],
+            [
+              "as",
+              "جملة — في الوقت نفسه",
+              "As I was leaving, I saw him."
+            ],
+            [
+              "during",
+              "اسم — فترة",
+              "It happened during the meeting."
+            ]
+          ],
+          "say": 2,
+          "ar_cols": [
+            1
+          ]
+        },
+        "common_errors": [
+          {
+            "wrong": "During I was cooking…",
+            "right": "While I was cooking…",
+            "why_ar": "during تأخذ اسماً"
+          },
+          {
+            "wrong": "while the meeting",
+            "right": "during the meeting",
+            "why_ar": "while تأخذ جملة"
+          }
+        ],
+        "checklist_ar": [
+          "while + جملة · during + اسم",
+          "while مع المستمر · when مع البسيط"
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 3,
+      "title_ar": "القواعد — الماضي التام: خطوة أبعد إلى الوراء",
+      "title_en": "Grammar — The Past Perfect",
+      "payload": {
+        "rule_ar": "had + اسم المفعول، لكل الفاعلين. وهو للحدث الذي وقع قبل حدث ماضٍ آخر: When I arrived, the film had already started — الفيلم بدأ أولاً ثم وصلت. ولا تحتاجه دائماً: إن كان الترتيب واضحاً من before و after فالبسيط يكفي. استعمله حين يلتبس الترتيب، أو حين تفسّر لماذا حدث شيء.",
+        "table": {
+          "columns_ar": [
+            "الترتيب في الواقع",
+            "الزمن",
+            "مثال"
+          ],
+          "rows": [
+            [
+              "الحدث الأول",
+              "Past Perfect",
+              "The train had left"
+            ],
+            [
+              "الحدث الثاني",
+              "Past Simple",
+              "when we arrived."
+            ]
+          ],
+          "say": 2,
+          "ar_cols": [
+            0
+          ]
+        },
+        "common_errors": [
+          {
+            "wrong": "The train left when we arrived. (it was already gone)",
+            "right": "The train had left when we arrived.",
+            "why_ar": "الحدث الأسبق يحتاج had"
+          }
+        ],
+        "checklist_ar": [
+          "had + اسم المفعول لما سبق",
+          "الترتيب واضح؟ البسيط يكفي"
+        ],
+        "lessons": [
+          {
+            "title_ar": "متى يلزم ومتى لا؟",
+            "title_en": "When you need it",
+            "explain_ar": "قارن:",
+            "examples": [
+              {
+                "en": "I got home and then I ate.",
+                "ar": "الترتيب واضح — البسيط يكفي"
+              },
+              {
+                "en": "When I got home, my brother had eaten everything.",
+                "ar": "لازم: بدون had يبدو أنه أكل بعد وصولي"
+              },
+              {
+                "en": "I couldn’t get in because I had forgotten my key.",
+                "ar": "يفسّر لماذا"
+              }
+            ]
+          },
+          {
+            "title_ar": "الأزمنة الثلاثة معاً",
+            "title_en": "The three tenses together",
+            "explain_ar": "القصة الجيّدة تستعمل الثلاثة:",
+            "examples": [
+              {
+                "en": "I had been in the new city for three weeks.",
+                "ar": "ماضٍ تامّ — قبل كل شيء"
+              },
+              {
+                "en": "One evening I was walking home when I heard somebody call my name.",
+                "ar": "خلفية مستمرّة + حدث بسيط"
+              },
+              {
+                "en": "It was a man I had met on the plane.",
+                "ar": "بسيط + تامّ"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 5,
+      "title_ar": "القواعد — used to: عادات الماضي",
+      "title_en": "Grammar — used to for past habits",
+      "payload": {
+        "rule_ar": "used to + فعل مجرّد لعادة أو حالة في الماضي انتهت: I used to play football every day (والآن لا ألعب). وفي النفي والسؤال تسقط d لأن did حملت الماضي: I didn’t use to like coffee · Did you use to walk to school? ولا تُستعمل لحدث وقع مرّة واحدة: I used to go yesterday خطأ.",
+        "table": {
+          "columns_ar": [
+            "الصيغة",
+            "مثال",
+            "المعنى"
+          ],
+          "rows": [
+            [
+              "Positive",
+              "I used to live in a village.",
+              "كنت أسكن قرية — لم أعد"
+            ],
+            [
+              "Negative",
+              "She didn’t use to like coffee.",
+              "لم تكن تحبّ القهوة — صارت تحبّها"
+            ],
+            [
+              "Question",
+              "Did you use to play football?",
+              "هل كنت تلعب؟"
+            ]
+          ],
+          "say": 1,
+          "ar_cols": [
+            2
+          ]
+        },
+        "arabic_contrast_ar": "«كنت ألعب» قد تعني used to (عادة انتهت) أو was playing (كنت ألعب لحظتها). السؤال: عادة متكرّرة؟ used to. خلفية للحظة؟ الماضي المستمر. و would تصلح للعادة أيضاً: We would visit every summer.",
+        "common_errors": [
+          {
+            "wrong": "I use to play football when I was young.",
+            "right": "I used to play football when I was young.",
+            "why_ar": "في الإثبات used بـd"
+          },
+          {
+            "wrong": "I didn’t used to like it.",
+            "right": "I didn’t use to like it.",
+            "why_ar": "بعد didn’t فعل مجرّد: use"
+          },
+          {
+            "wrong": "I used to go to the gym yesterday.",
+            "right": "I went to the gym yesterday.",
+            "why_ar": "used to للعادة لا لحدث واحد"
+          }
+        ],
+        "checklist_ar": [
+          "used to + مجرّد لعادة انتهت",
+          "didn’t use to · Did you use to",
+          "حدث واحد ← الماضي البسيط"
         ]
       }
     },
@@ -4052,6 +4264,134 @@
         "correct": false
       },
       "explanation": "في النصّ: it is invisible to us afterwards"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "used to",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "When I was a child, I ______ (live) in a village.",
+      "payload": {
+        "before": "When I was a child, I ",
+        "after": " (live) in a village."
+      },
+      "answer": {
+        "accepted": [
+          "used to live"
+        ]
+      },
+      "explanation": "عادة أو حالة انتهت"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "used to",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She ______ (not / like) coffee, but now she drinks it every day.",
+      "payload": {
+        "before": "She ",
+        "after": " (not / like) coffee, but now she drinks it every day."
+      },
+      "answer": {
+        "accepted": [
+          "didn’t use to like"
+        ]
+      },
+      "explanation": "بعد didn’t: use بلا d"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "used to",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ you use to play football at school?",
+      "payload": {
+        "before": "",
+        "after": " you use to play football at school?"
+      },
+      "answer": {
+        "accepted": [
+          "Did"
+        ]
+      },
+      "explanation": "السؤال بـDid"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "used to",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "I ___ smoke, but I stopped five years ago.",
+      "payload": {
+        "options": [
+          "used to",
+          "use to",
+          "am used to",
+          "was used to"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "عادة انتهت ← used to"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "used to",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Did you ___ walk to school?",
+      "payload": {
+        "options": [
+          "use to",
+          "used to",
+          "using to",
+          "uses to"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "بعد did: use"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "used to",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "I use to play football when I was young."
+      },
+      "answer": {
+        "accepted": [
+          "I used to play football when I was young."
+        ]
+      },
+      "explanation": "used بـd في الإثبات"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "used to",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "I used to go to the gym yesterday."
+      },
+      "answer": {
+        "accepted": [
+          "I went to the gym yesterday."
+        ]
+      },
+      "explanation": "حدث واحد ← الماضي البسيط"
     }
   ]
 }

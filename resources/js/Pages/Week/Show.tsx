@@ -8,6 +8,7 @@ import { iso } from '@/lib/bidi';
 import { Head, Link } from '@inertiajs/react';
 import AppNav from '@/Components/AppNav';
 import Listen from '@/Components/Listen';
+import { playClips } from '@/lib/clips';
 import axios from 'axios';
 import { type DayState } from '@/Components/DayCard';
 import WeekJourney from '@/Components/WeekJourney';
@@ -66,7 +67,8 @@ interface Dialogue {
   situation_ar: string;
   /** خريطة اسم المتحدث ← جنسه، تأتي من المحتوى */
   speaker_genders: Record<string, Gender>;
-  lines: { speaker: string; en: string; ar: string }[];
+  /** `audio`: the line's Piper recording, or null to use the browser's voice */
+  lines: { speaker: string; en: string; ar: string; audio?: string | null }[];
 }
 
 interface Props {
@@ -490,17 +492,23 @@ export default function WeekShow({
   const playDialogue = (d: Dialogue) => {
     stopSequenceRef.current?.();
 
-    stopSequenceRef.current = speakSequence(
-      // Stage directions are not spoken
-      d.lines
-        .filter((l) => l.speaker)
-        .map((l) => ({ text: l.en, gender: genderOfSpeaker(d, l.speaker) })),
-      {
-        rate,
-        onLine: (index) => setPlayingLine({ dialogue: d.number, index }),
-        onDone: () => setPlayingLine(null),
-      },
-    );
+    // Stage directions are not spoken, but the highlight needs each line's own index
+    const spoken = d.lines
+      .map((line, index) => ({ line, index }))
+      .filter(({ line }) => line.speaker);
+    const opts = {
+      onLine: (i: number) => setPlayingLine({ dialogue: d.number, index: spoken[i].index }),
+      onDone: () => setPlayingLine(null),
+    };
+    const urls = spoken.map(({ line }) => line.audio);
+
+    // The recorded voices when every line has one; a gap means the browser speaks it all
+    stopSequenceRef.current = urls.every(Boolean)
+      ? playClips(urls as string[], { ...opts, rate })
+      : speakSequence(
+          spoken.map(({ line }) => ({ text: line.en, gender: genderOfSpeaker(d, line.speaker) })),
+          { ...opts, rate },
+        );
   };
 
   const stopEverything = () => {
@@ -571,7 +579,7 @@ export default function WeekShow({
                 >
                   {line.speaker}
                 </span>
-                <Listen text={line.en} gender={gender} size="sm" />
+                <Listen text={line.en} gender={gender} src={line.audio} size="sm" />
               </div>
 
               {!hideEnglish && (
@@ -651,7 +659,7 @@ export default function WeekShow({
           <div className="space-y-3">
             <button
               onClick={() => (isPlayingThis(d) ? stopEverything() : playDialogue(d))}
-              disabled={!supported}
+              disabled={!supported && !d.lines.some((l) => l.audio)}
               className="w-full rounded-xl bg-violet-600 py-2.5 text-sm font-medium
                          text-white transition hover:bg-violet-700
                          disabled:cursor-not-allowed disabled:opacity-50"
@@ -1101,7 +1109,8 @@ export default function WeekShow({
             </label>
           </div>
 
-          {supported && !hasGenderedVoices && (
+          {/* Only when the dialogues fall back to the browser's voice */}
+          {supported && !hasGenderedVoices && dialogues.some((d) => d.lines.some((l) => l.speaker && !l.audio)) && (
             <div className="mb-3 rounded-xl border border-slate-200 bg-slate-50 p-3 text-xs text-slate-600">
               {tr('متصفحك يوفّر صوتاً إنجليزياً واحداً، فسيتحدّث الطرفان بالصوت نفسه. تثبيت أصوات إنجليزية إضافية من إعدادات النظام يفصل بينهما.')}
             </div>
@@ -1175,7 +1184,7 @@ export default function WeekShow({
                         ) : (
                           <button
                             onClick={() => playDialogue(d)}
-                            disabled={!supported}
+                            disabled={!supported && !d.lines.some((l) => l.audio)}
                             className="flex items-center gap-2 rounded-xl bg-violet-600 px-4 py-2
                                        text-sm font-medium text-white transition
                                        hover:bg-violet-700 disabled:cursor-not-allowed

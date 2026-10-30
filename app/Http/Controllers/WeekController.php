@@ -12,6 +12,7 @@ use App\Models\WeekNote;
 use App\Models\Writing;
 use App\Services\ContentNaming;
 use App\Services\ProgressService;
+use App\Support\DialogueVoices;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
@@ -391,6 +392,7 @@ class WeekController extends Controller
                     'speaker' => $l->speaker,
                     'en'      => $l->en,
                     'ar'      => $l->ar,
+                    'audio'   => DialogueVoices::url($d, $l->speaker, $l->en),
                 ]),
             ]),
 
@@ -586,6 +588,7 @@ class WeekController extends Controller
                             'speaker' => $l->speaker,
                             'en'      => $l->en,
                             'ar'      => $l->ar,
+                            'audio'   => DialogueVoices::url($d, $l->speaker, $l->en),
                         ])->all(),
                     ];
                 }

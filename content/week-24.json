@@ -397,102 +397,122 @@
           {
             "error_no": 1,
             "wrong": "I engineer.",
-            "right": "I am an engineer."
+            "right": "I am an engineer.",
+            "why_ar": "المهنة تحتاج am و a"
           },
           {
             "error_no": 2,
             "wrong": "I have 30 years.",
-            "right": "I am 30 years old."
+            "right": "I am 30 years old.",
+            "why_ar": "العمر بـbe لا have"
           },
           {
             "error_no": 3,
             "wrong": "He work here.",
-            "right": "He works here."
+            "right": "He works here.",
+            "why_ar": "he/she/it + s في المضارع"
           },
           {
             "error_no": 4,
             "wrong": "He doesn't likes fish.",
-            "right": "He doesn't like fish."
+            "right": "He doesn't like fish.",
+            "why_ar": "بعد doesn’t فعل مجرّد"
           },
           {
             "error_no": 5,
             "wrong": "Where you work?",
-            "right": "Where do you work?"
+            "right": "Where do you work?",
+            "why_ar": "السؤال يحتاج do"
           },
           {
             "error_no": 6,
             "wrong": "I wake up always early.",
-            "right": "I always wake up early."
+            "right": "I always wake up early.",
+            "why_ar": "ظرف التكرار قبل الفعل"
           },
           {
             "error_no": 7,
             "wrong": "Have a park near my house.",
-            "right": "There is a park near my house."
+            "right": "There is a park near my house.",
+            "why_ar": "الوجود بـthere is"
           },
           {
             "error_no": 8,
             "wrong": "He can to swim.",
-            "right": "He can swim."
+            "right": "He can swim.",
+            "why_ar": "لا to بعد can"
           },
           {
             "error_no": 9,
             "wrong": "I am good at play.",
-            "right": "I am good at playing."
+            "right": "I am good at playing.",
+            "why_ar": "بعد حرف الجرّ -ing"
           },
           {
             "error_no": 10,
             "wrong": "She sings good.",
-            "right": "She sings well."
+            "right": "She sings well.",
+            "why_ar": "well ظرف و good صفة"
           },
           {
             "error_no": 11,
             "wrong": "They was happy.",
-            "right": "They were happy."
+            "right": "They were happy.",
+            "why_ar": "they تأخذ were"
           },
           {
             "error_no": 12,
             "wrong": "I didn't went.",
-            "right": "I didn't go."
+            "right": "I didn't go.",
+            "why_ar": "بعد didn’t فعل مجرّد"
           },
           {
             "error_no": 13,
             "wrong": "He buyed a car.",
-            "right": "He bought a car."
+            "right": "He bought a car.",
+            "why_ar": "buy شاذّ: bought"
           },
           {
             "error_no": 14,
             "wrong": "I am knowing the answer.",
-            "right": "I know the answer."
+            "right": "I know the answer.",
+            "why_ar": "know فعل حالة بلا -ing"
           },
           {
             "error_no": 15,
             "wrong": "bigger from",
-            "right": "bigger than"
+            "right": "bigger than",
+            "why_ar": "المقارنة بـthan"
           },
           {
             "error_no": 16,
             "wrong": "I live here since 2020.",
-            "right": "I have lived here since 2020."
+            "right": "I have lived here since 2020.",
+            "why_ar": "since مع المضارع التام"
           },
           {
             "error_no": 17,
             "wrong": "I have seen him two years ago.",
-            "right": "I saw him two years ago."
+            "right": "I saw him two years ago.",
+            "why_ar": "ago مع الماضي البسيط"
           },
           {
             "error_no": 18,
             "wrong": "If it will rain…",
-            "right": "If it rains…"
+            "right": "If it rains…",
+            "why_ar": "مضارع بعد if"
           },
           {
             "error_no": 19,
             "wrong": "The man who he called me…",
-            "right": "The man who called me…"
+            "right": "The man who called me…",
+            "why_ar": "لا ضمير مكرّر بعد who"
           },
           {
             "error_no": 20,
             "wrong": "He said me…",
-            "right": "He told me… / He said that…"
+            "right": "He told me… / He said that…",
+            "why_ar": "say بلا شخص · tell مع شخص"
           }
         ],
         "checklist_ar": [
@@ -501,7 +521,122 @@
           "الشرط بأنواعه الثلاثة والأفعال الناقصة",
           "الجمل الوصلية والكلام المنقول",
           "الأخطاء العشرون — القائمة الكاملة"
-        ]
+        ],
+        "table": {
+          "columns_ar": [
+            "التركيب",
+            "الصيغة",
+            "الأسبوع"
+          ],
+          "rows": [
+            [
+              "to be",
+              "am / is / are · was / were",
+              "1 · 7"
+            ],
+            [
+              "Present Simple",
+              "base · -s with he/she/it · do / does",
+              "2 · 3"
+            ],
+            [
+              "Present Continuous",
+              "am / is / are + -ing",
+              "9"
+            ],
+            [
+              "Past Simple",
+              "verb + -ed · 80 irregular · didn’t + base",
+              "7 · 8"
+            ],
+            [
+              "Past Continuous",
+              "was / were + -ing",
+              "20"
+            ],
+            [
+              "Past Perfect",
+              "had + participle",
+              "20"
+            ],
+            [
+              "used to",
+              "used to + base",
+              "20"
+            ],
+            [
+              "Present Perfect",
+              "have / has + participle",
+              "13 · 14"
+            ],
+            [
+              "Present Perfect Continuous",
+              "have been + -ing",
+              "23"
+            ],
+            [
+              "going to · will",
+              "be going to + base · will + base",
+              "11"
+            ],
+            [
+              "Passive",
+              "be + participle",
+              "19"
+            ],
+            [
+              "Modals",
+              "can · should · must · have to · might · can’t",
+              "5 · 15 · 16"
+            ],
+            [
+              "too / enough",
+              "too + adj · adj + enough",
+              "15"
+            ],
+            [
+              "Conditionals",
+              "zero · first · second",
+              "16 · 21"
+            ],
+            [
+              "I wish",
+              "wish + past",
+              "21"
+            ],
+            [
+              "Comparatives",
+              "-er / more … than · the -est / the most",
+              "10"
+            ],
+            [
+              "Relative clauses",
+              "who · which · that · where · whose",
+              "17"
+            ],
+            [
+              "although / however / despite",
+              "clause · new sentence · noun",
+              "17"
+            ],
+            [
+              "Reported speech",
+              "one tense back · statement order",
+              "22"
+            ],
+            [
+              "Phrasal verbs",
+              "verb + particle · pronoun in the middle",
+              "22"
+            ],
+            [
+              "Verb patterns",
+              "enjoy -ing · decide to",
+              "23"
+            ]
+          ],
+          "say": 1
+        }
       }
     },
     {

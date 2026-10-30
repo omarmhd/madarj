@@ -226,7 +226,7 @@ export default function Edit({
       <div className="mx-auto max-w-5xl px-4 py-6 lg:grid lg:grid-cols-[220px_1fr] lg:gap-6">
         {/* Side menu on a wide screen, a scrolling row of tabs on a phone */}
         <nav aria-label={tr('أقسام الحساب')} className="mb-5 lg:mb-0">
-          <ul className="flex gap-2 overflow-x-auto pb-1 lg:sticky lg:top-20 lg:flex-col lg:gap-1 lg:overflow-visible lg:rounded-2xl lg:bg-white lg:p-2 lg:ring-1 lg:ring-slate-200">
+          <ul className="flex flex-wrap gap-2 lg:sticky lg:top-20 lg:flex-col lg:gap-1 lg:overflow-visible lg:rounded-2xl lg:bg-white lg:p-2 lg:ring-1 lg:ring-slate-200">
             {PANELS.map((p) => (
               <li key={p.key} className="shrink-0">
                 <button

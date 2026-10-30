@@ -116,7 +116,7 @@ export default function Play({
       </header>
 
       <main className="mx-auto max-w-4xl space-y-5 px-4 py-6">
-        <nav className="flex gap-2 overflow-x-auto pb-1" aria-label={tr('الألعاب')}>
+        <nav className="flex flex-wrap gap-2" aria-label={tr('الألعاب')}>
           {games.map(({ key, label, icon: Icon }) => (
             <button
               key={key}

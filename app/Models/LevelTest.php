@@ -57,6 +57,45 @@ class LevelTest extends Model
         return array_sum(array_map(fn ($i) => $i['points'] ?? 1, $this->items()));
     }
 
+    /**
+     * The least every section must score, as a percent. A total alone
+     * lets grammar and vocabulary carry a learner who cannot follow a
+     * word of the listening — and the certificate would say otherwise.
+     */
+    public function sectionMin(): int
+    {
+        return (int) ($this->body['section_min_percent'] ?? 0);
+    }
+
+    /**
+     * A week note the test waits for, e.g. ['week' => 6, 'kind' => 'conversation']:
+     * speaking is not machine-graded, so the test asks for proof it happened.
+     */
+    public function requiredNote(): ?array
+    {
+        $r = $this->body['requires'] ?? null;
+
+        return is_array($r) && isset($r['week'], $r['kind']) ? $r : null;
+    }
+
+    /**
+     * The free-writing task, if the test has one. Not machine-graded:
+     * the learner rates it against the rubric after submitting, and the
+     * rating never counts toward the score or the pass.
+     */
+    public function freeWriting(): ?array
+    {
+        $w = $this->body['free_writing'] ?? null;
+
+        return is_array($w) ? $w : null;
+    }
+
+    /** Words in a text, counted the same way as the page counts them */
+    public static function wordCount(string $text): int
+    {
+        return count(preg_split('/\s+/u', trim($text), -1, PREG_SPLIT_NO_EMPTY));
+    }
+
     /** The section's study advice, for the diagnosis */
     public function section(string $key): ?array
     {
@@ -127,6 +166,10 @@ class LevelTest extends Model
             'pass_percent' => $this->pass_percent,
             'tips_ar'      => $this->body['tips_ar'] ?? [],
             'sections'     => $sections,
+            // The task only: the model answer and the rubric wait for the result
+            'free_writing' => ($w = $this->freeWriting()) ? array_intersect_key($w, array_flip(
+                ['title_ar', 'instructions_ar', 'task_en', 'task_ar', 'points', 'min_words', 'max_words'],
+            )) : null,
         ];
     }
 }

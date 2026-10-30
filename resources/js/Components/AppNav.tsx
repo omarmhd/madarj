@@ -121,6 +121,13 @@ export default function AppNav() {
       )}
 
       <nav className="sticky top-0 z-40 border-b border-slate-200 bg-white/90 backdrop-blur">
+        {/*
+          The page column's width, so the bar lines up with what is under
+          it. English labels run longer and once made the tabs scroll — a
+          nav that scrolls hides its own tabs. So nothing here scrolls:
+          labels and details step in at the widths that hold them, and
+          below that each tab is its icon with the label as a title.
+        */}
         <div className="mx-auto flex h-11 max-w-4xl items-center gap-2 px-4 sm:h-14">
           {/*
             The mark, not a placeholder.
@@ -148,26 +155,30 @@ export default function AppNav() {
             خمساً — فلمّا أُضيفت «قصص» سقطت معها صامتةً. الرقم السحريّ
             يصمت، والقاعدة المكتوبة لا تصمت.
           */}
-          <div className="hidden min-w-0 flex-1 items-center gap-1 overflow-x-auto px-2 sm:flex">
+          <div className="hidden min-w-0 flex-1 items-center gap-0.5 px-1 sm:flex lg:gap-1 lg:px-2">
             {TABS.filter((t) => t.match !== '/profile').map((t, i) => {
               const study = i === 0;
               return (
                 <Link
                   key={t.label}
                   href={t.href}
-                  className={`flex shrink-0 items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm transition ${
+                  title={t.label}
+                  className={`flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-lg px-2 py-1.5 text-sm transition lg:px-3 ${
                     study
                       // The one action, as a button: where today's lesson is
-                      ? 'me-2 bg-violet-600 font-semibold text-white shadow-sm hover:bg-violet-700'
+                      ? 'me-1 bg-violet-600 font-semibold text-white shadow-sm hover:bg-violet-700 lg:me-2'
                       : isActive(t.match)
                         ? 'bg-violet-50 font-medium text-violet-700'
                         : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'
                   }`}
                 >
                   <span aria-hidden>{locked(t.feature) ? <Lock size={15} /> : t.icon}</span>
-                  {study && resumeWeek
-                    ? <>{tr('ادرس')} <span className="font-normal opacity-80">· {tr('الأسبوع')} {resumeWeek} · {tr('اليوم')} {resumeDay ?? 1}</span></>
-                    : t.label}
+                  {/* Below lg the icon alone, with the label as a title */}
+                  <span className={study ? '' : 'hidden lg:inline'}>
+                    {study && resumeWeek
+                      ? <>{tr('ادرس')} <span className="hidden font-normal opacity-80 xl:inline">· {tr('الأسبوع')} {resumeWeek} · {tr('اليوم')} {resumeDay ?? 1}</span></>
+                      : t.label}
+                  </span>
                 </Link>
               );
             })}
@@ -183,10 +194,11 @@ export default function AppNav() {
               className="flex shrink-0 items-center gap-1 rounded-lg bg-amber-50 px-2 py-1
                          text-sm font-semibold text-amber-700 sm:px-2.5 sm:py-1.5"
             >
-              <Flame aria-hidden size={15} />
+              <Flame aria-hidden size={15} className="shrink-0" />
               {streak > 0 && streak}
               {/* Arabic counts: 1 · 2 · 3–10 · 11 and up each take their own form */}
-              <span className="text-xs font-medium">
+              {/* The words only where there is room; the title says it everywhere */}
+              <span className={`whitespace-nowrap text-xs font-medium ${streak === 0 ? 'sm:hidden xl:inline' : 'sm:hidden lg:inline'}`}>
                 {streak === 0
                   ? tr('ابدأ سلسلتك')
                   : streak === 1
@@ -203,14 +215,14 @@ export default function AppNav() {
             <button
               onClick={() => setMenuOpen((v) => !v)}
               aria-expanded={menuOpen}
-              className="flex items-center gap-2 rounded-full bg-slate-100 py-1 pe-3 ps-1 text-sm
+              className="flex items-center gap-2 rounded-full bg-slate-100 p-1 text-sm
                          font-medium text-slate-700 transition hover:bg-slate-200"
               aria-label={tr('قائمة الحساب')}
             >
               <span className="grid h-7 w-7 place-items-center rounded-full bg-violet-600 text-white">
                 <UserRound aria-hidden size={15} />
               </span>
-              <span className="max-w-[7rem] truncate"><Bdi>{user?.name?.split(' ')[0] ?? tr('حسابي')}</Bdi></span>
+              {/* The avatar alone: the name heads the menu it opens, and the bar needs the room */}
             </button>
 
             {menuOpen && (
@@ -308,7 +320,7 @@ export default function AppNav() {
                   {locked(t.feature) ? <Lock size={17} /> : t.icon}
                 </span>
                 {/* العناوين عربية: النقاط تُمحى دون 12 بكسل */}
-                <span className={`text-xs ${on ? 'font-semibold' : ''}`}>
+                <span className={`max-w-full truncate px-0.5 text-xs ${on ? 'font-semibold' : ''}`}>
                   {isStudy && resumeWeek ? tr('اليوم :n', { n: resumeDay ?? 1 }) : t.label}
                 </span>
               </Link>

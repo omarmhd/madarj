@@ -402,10 +402,7 @@ class ProgressService
 
         if ($dayNumber < 7) {
             // اليوم التالي في نفس الأسبوع
-            $enrollment->update([
-                'current_week' => $week->number,
-                'current_day'  => $dayNumber + 1,
-            ]);
+            $this->moveForward($enrollment, $week->number, $dayNumber + 1);
 
             return;
         }
@@ -448,10 +445,24 @@ class ProgressService
             ['unlocked_at' => now()]
         );
 
-        $user->enrollment->update([
-            'current_week' => $next->number,
-            'current_day'  => 1,
-        ]);
+        $this->moveForward($user->enrollment, $next->number, 1);
+    }
+
+    /**
+     * Move the learner's position to a day — never back.
+     *
+     * Re-finishing an earlier day (untick a task, tick it again) used to
+     * set the position to the day after it: a learner on day 4 who
+     * revisited day 1 was sent back to day 2, and «ادرس الآن» led there.
+     * Revisiting is review; it does not undo how far they have come.
+     */
+    protected function moveForward(Enrollment $enrollment, int $week, int $day): void
+    {
+        if (($week - 1) * 7 + $day <= $enrollment->absoluteDay()) {
+            return;
+        }
+
+        $enrollment->update(['current_week' => $week, 'current_day' => $day]);
     }
 
     /**

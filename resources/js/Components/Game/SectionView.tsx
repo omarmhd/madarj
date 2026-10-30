@@ -347,13 +347,13 @@ export default function SectionView({
                           className={`whitespace-nowrap px-3 py-2 ${
                             j === 1 ? 'font-bold text-violet-700' : 'text-slate-800'
                           }`}
-                          dir="ltr"
+                          dir={(p.table.ar_cols ?? []).includes(j) ? 'rtl' : 'ltr'}
                         >
                           {cell}
                         </td>
                       ))}
                       <td className="px-3 py-2">
-                        <Listen text={row[2] ?? row[0]} gender={myVoice} size="sm" />
+                        <Listen text={row[p.table.say ?? 2] ?? row[0]} gender={myVoice} size="sm" />
                       </td>
                     </tr>
                   ))}
@@ -402,6 +402,52 @@ export default function SectionView({
               {p.article_rule_ar}
             </p>
           )}
+
+          {/* Spelling of the -s ending (week 2) */}
+          {(p.spelling_rules ?? []).length > 0 && (
+            <div className="mb-4 overflow-x-auto rounded-xl bg-white ring-1 ring-slate-200">
+              <p className="px-3 pt-3 text-xs font-semibold text-slate-700">{tr('كيف تُكتب الإضافة')}</p>
+              <table className="w-full text-sm">
+                <tbody className="divide-y divide-slate-100" dir="ltr">
+                  {p.spelling_rules.map((r: any, i: number) => (
+                    <tr key={i}>
+                      <td className="px-3 py-2 text-slate-600">{r.case_en}</td>
+                      <td className="px-3 py-2 font-bold text-violet-700">{r.rule_en}</td>
+                      <td className="px-3 py-2 text-slate-800">{r.examples}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+
+          {(p.s_sound_ar ?? []).length > 0 && (
+            <ul className="mb-4 space-y-1.5 rounded-xl bg-white p-3 ring-1 ring-slate-200">
+              {p.s_sound_ar.map((s: string, i: number) => (
+                <li key={i} className="text-xs leading-relaxed text-slate-700">{s}</li>
+              ))}
+            </ul>
+          )}
+
+          {/* Question words (week 3) — each example is spoken */}
+          {(p.question_words ?? []).length > 0 && (
+            <div className="mb-4 space-y-1.5">
+              {p.question_words.map((q: any, i: number) => (
+                <div key={i} className="flex items-center justify-between gap-2 rounded-lg bg-white p-2.5 ring-1 ring-slate-200">
+                  <span className="w-20 shrink-0 font-bold text-violet-700" dir="ltr">{q.en}</span>
+                  <span className="w-28 shrink-0 text-xs text-slate-600">{q.ar}</span>
+                  <span className="min-w-0 flex-1 text-sm text-slate-800" dir="ltr">{q.example}</span>
+                  <Listen text={q.example} gender={myVoice} size="sm" />
+                </div>
+              ))}
+            </div>
+          )}
+
+          {[p.countable_ar, p.articles_ar].filter(Boolean).map((t: string, i: number) => (
+            <p key={i} className="mb-4 rounded-xl bg-amber-50 p-3.5 text-sm leading-relaxed text-amber-900">
+              {t}
+            </p>
+          ))}
 
           {/* الأخطاء الشائعة */}
           {(p.common_errors ?? []).length > 0 && (
@@ -456,6 +502,95 @@ export default function SectionView({
                 </li>
               ))}
             </ul>
+          )}
+
+          {/* Short lessons: the other A1 points of the week, each self-contained */}
+          {(p.lessons ?? []).length > 0 && (
+            <div className="mt-6 space-y-4">
+              {p.lessons.map((l: any, li: number) => (
+                <div key={li} className="rounded-xl bg-slate-50 p-4 ring-1 ring-slate-200">
+                  <p className="text-sm font-bold text-slate-900">{l.title_ar}</p>
+                  {l.title_en && (
+                    <p className="text-xs text-slate-500" dir="ltr">{l.title_en}</p>
+                  )}
+                  <p className="mt-2 text-sm leading-relaxed text-slate-800">{l.explain_ar}</p>
+
+                  {l.table && (
+                    <div className="mt-3 overflow-x-auto rounded-lg bg-white ring-1 ring-slate-200">
+                      <table className="w-full text-sm">
+                        <thead className="bg-slate-50 text-xs text-slate-600">
+                          <tr>
+                            {(l.table.columns_ar ?? []).map((c: string, i: number) => (
+                              <th key={i} className="px-3 py-2 text-start font-medium">{c}</th>
+                            ))}
+                            <th className="px-3 py-2" />
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-slate-100">
+                          {(l.table.rows ?? []).map((row: string[], i: number) => (
+                            <tr key={i}>
+                              {row.map((cell, j) => (
+                                <td
+                                  key={j}
+                                  className={`whitespace-nowrap px-3 py-2 ${
+                                    j === 1 ? 'font-bold text-violet-700' : 'text-slate-800'
+                                  }`}
+                                  dir={(l.table.ar_cols ?? []).includes(j) ? 'rtl' : 'ltr'}
+                                >
+                                  {cell}
+                                </td>
+                              ))}
+                              <td className="px-3 py-2">
+                                <Listen text={row[l.table.say ?? 0]} gender={myVoice} size="sm" />
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  )}
+
+                  {(l.examples ?? []).length > 0 && (
+                    <div className="mt-3 space-y-1.5">
+                      {l.examples.map((x: any, i: number) => (
+                        <div key={i} className="flex items-center justify-between gap-2 rounded-lg bg-white p-2.5 ring-1 ring-slate-200">
+                          <div className="min-w-0">
+                            <p className="text-sm font-medium text-slate-900" dir="ltr">{x.en}</p>
+                            {x.ar && <p className="text-xs text-slate-600">{x.ar}</p>}
+                          </div>
+                          <Listen text={x.en} gender={myVoice} size="sm" />
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {(l.errors ?? []).length > 0 && (
+                    <div className="mt-3 space-y-1.5">
+                      {l.errors.map((e: any, i: number) => (
+                        <div key={i} className="rounded-lg bg-white p-2.5 ring-1 ring-slate-200">
+                          <div className="flex flex-wrap items-center gap-2" dir="ltr">
+                            <span className="rounded-md bg-rose-50 px-2 py-0.5 text-sm text-rose-700 line-through decoration-rose-300">
+                              {e.wrong}
+                            </span>
+                            <span aria-hidden className="text-slate-400">→</span>
+                            <span className="rounded-md bg-emerald-50 px-2 py-0.5 text-sm font-medium text-emerald-800">
+                              {e.right}
+                            </span>
+                          </div>
+                          {e.why_ar && <p className="mt-1 text-xs text-slate-600">{e.why_ar}</p>}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {l.tip_ar && (
+                    <p className="mt-3 rounded-lg border-s-4 border-violet-500 bg-violet-50/70 p-3 text-xs leading-relaxed text-violet-900">
+                      {l.tip_ar}
+                    </p>
+                  )}
+                </div>
+              ))}
+            </div>
           )}
         </div>
       );

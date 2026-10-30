@@ -56,8 +56,8 @@
         },
         {
           "label": "الكلمات",
-          "minutes": 15,
-          "ref": "vocab:routine_verbs",
+          "minutes": 20,
+          "ref": "vocab:routine_verbs,the_body",
           "order": 2
         },
         {
@@ -308,8 +308,8 @@
         },
         {
           "label": "الكلمات",
-          "minutes": 15,
-          "ref": "vocab:places_and_things_in_your_day",
+          "minutes": 20,
+          "ref": "vocab:places_and_things_in_your_day,describing_people",
           "order": 2
         },
         {
@@ -473,12 +473,6 @@
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
-        },
-        {
-          "order": 8,
-          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record:baseline"
         },
         {
           "order": 9,
@@ -1678,6 +1672,305 @@
       "sentence": "I go to bed at midnight.",
       "sentence_ar": "أذهب إلى النوم عند منتصف الليل.",
       "usage_ar": "نقول at midnight بلا the."
+    },
+    {
+      "group": "the_body",
+      "word": "body",
+      "ipa": "/ˈbɒdi/",
+      "arabic": "جسم",
+      "example": "Sleep is good for your body.",
+      "group_label_ar": "الجسم",
+      "group_label_en": "The Body",
+      "target": "body",
+      "sentence": "Sleep is good for your body.",
+      "sentence_ar": "النوم مفيد لجسمك.",
+      "usage_ar": "العربية «جسمك» بضمير متّصل، والإنجليزية بكلمة قبله: your body — والجمع bodies."
+    },
+    {
+      "group": "the_body",
+      "word": "head",
+      "ipa": "/hed/",
+      "arabic": "رأس",
+      "example": "My head hurts in the evening.",
+      "group_label_ar": "الجسم",
+      "group_label_en": "The Body",
+      "target": "head",
+      "sentence": "My head hurts in the evening.",
+      "sentence_ar": "يؤلمني رأسي في المساء.",
+      "usage_ar": "بالعربية «يؤلمني رأسي»، وبالإنجليزية الرأس هو الفاعل: My head hurts — بـ s."
+    },
+    {
+      "group": "the_body",
+      "word": "face",
+      "ipa": "/feɪs/",
+      "arabic": "وجه",
+      "example": "I wash my face every morning.",
+      "group_label_ar": "الجسم",
+      "group_label_en": "The Body",
+      "target": "face",
+      "sentence": "I wash my face every morning.",
+      "sentence_ar": "أغسل وجهي كل صباح.",
+      "usage_ar": "نقول wash my face بـ my — لا wash face ولا wash the face."
+    },
+    {
+      "group": "the_body",
+      "word": "eye",
+      "ipa": "/aɪ/",
+      "arabic": "عين",
+      "example": "I have something in my eye.",
+      "group_label_ar": "الجسم",
+      "group_label_en": "The Body",
+      "target": "eye",
+      "sentence": "I have something in my eye.",
+      "sentence_ar": "في عيني شيء.",
+      "usage_ar": "تُنطق /aɪ/ مثل I تماماً، والجمع eyes."
+    },
+    {
+      "group": "the_body",
+      "word": "ear",
+      "ipa": "/ɪə(r)/",
+      "arabic": "أذن",
+      "example": "I have water in my ear after the shower.",
+      "group_label_ar": "الجسم",
+      "group_label_en": "The Body",
+      "target": "ear",
+      "sentence": "I have water in my ear after the shower.",
+      "sentence_ar": "في أذني ماء بعد الاستحمام.",
+      "usage_ar": "لا تخلطها بـ year: ear بلا صوت y في أوّلها."
+    },
+    {
+      "group": "the_body",
+      "word": "nose",
+      "ipa": "/nəʊz/",
+      "arabic": "أنف",
+      "example": "She has a small nose.",
+      "group_label_ar": "الجسم",
+      "group_label_en": "The Body",
+      "target": "nose",
+      "sentence": "She has a small nose.",
+      "sentence_ar": "أنفها صغير.",
+      "usage_ar": "تُنطق /nəʊz/ مثل knows تماماً. وللملامح has: She has a small nose."
+    },
+    {
+      "group": "the_body",
+      "word": "mouth",
+      "ipa": "/maʊθ/",
+      "arabic": "فم",
+      "example": "Close your mouth when you eat.",
+      "group_label_ar": "الجسم",
+      "group_label_en": "The Body",
+      "target": "mouth",
+      "sentence": "Close your mouth when you eat.",
+      "sentence_ar": "أغلق فمك وأنت تأكل.",
+      "usage_ar": "آخرها /θ/ مثل «ث» في think — لا /s/ ولا /t/."
+    },
+    {
+      "group": "the_body",
+      "word": "tooth",
+      "ipa": "/tuːθ/",
+      "arabic": "سنّ",
+      "example": "She brushes her teeth twice a day.",
+      "group_label_ar": "الجسم",
+      "group_label_en": "The Body",
+      "target": "teeth",
+      "sentence": "She brushes her teeth twice a day.",
+      "sentence_ar": "تنظّف أسنانها مرّتين في اليوم.",
+      "usage_ar": "الجمع شاذّ: one tooth · two teeth — لا tooths."
+    },
+    {
+      "group": "the_body",
+      "word": "hair",
+      "ipa": "/heə(r)/",
+      "arabic": "شعر",
+      "example": "She washes her hair every day.",
+      "group_label_ar": "الجسم",
+      "group_label_en": "The Body",
+      "target": "hair",
+      "sentence": "She washes her hair every day.",
+      "sentence_ar": "تغسل شعرها كل يوم.",
+      "usage_ar": "hair غير معدود للشعر كلّه: her hair is long — لا hairs ولا a hair."
+    },
+    {
+      "group": "the_body",
+      "word": "hand",
+      "ipa": "/hænd/",
+      "arabic": "يد",
+      "example": "He has a phone in his hand all day.",
+      "group_label_ar": "الجسم",
+      "group_label_en": "The Body",
+      "target": "hand",
+      "sentence": "He has a phone in his hand all day.",
+      "sentence_ar": "الهاتف في يده طوال اليوم.",
+      "usage_ar": "hand اليد من الرسغ، والجمع hands: I wash my hands."
+    },
+    {
+      "group": "the_body",
+      "word": "arm",
+      "ipa": "/ɑːm/",
+      "arabic": "ذراع",
+      "example": "She has a bag on her arm.",
+      "group_label_ar": "الجسم",
+      "group_label_en": "The Body",
+      "target": "arm",
+      "sentence": "She has a bag on her arm.",
+      "sentence_ar": "تحمل حقيبة على ذراعها.",
+      "usage_ar": "العربية قد تقول «يد» للذراع كلّها؛ والإنجليزية تفرّق: arm من الكتف، وhand في آخرها."
+    },
+    {
+      "group": "the_body",
+      "word": "leg",
+      "ipa": "/leɡ/",
+      "arabic": "ساق / رِجل",
+      "example": "My legs are tired after work.",
+      "group_label_ar": "الجسم",
+      "group_label_en": "The Body",
+      "target": "legs",
+      "sentence": "My legs are tired after work.",
+      "sentence_ar": "ساقاي متعبتان بعد العمل.",
+      "usage_ar": "العربية تقول «رِجل» للساق والقدم معاً؛ والإنجليزية تفرّق: leg فوق، وfoot تحتها."
+    },
+    {
+      "group": "the_body",
+      "word": "foot",
+      "ipa": "/fʊt/",
+      "arabic": "قدم",
+      "example": "I go to work on foot.",
+      "group_label_ar": "الجسم",
+      "group_label_en": "The Body",
+      "target": "foot",
+      "sentence": "I go to work on foot.",
+      "sentence_ar": "أذهب إلى العمل مشياً.",
+      "usage_ar": "الجمع شاذّ: one foot · two feet — لا foots. وon foot = مشياً."
+    },
+    {
+      "group": "describing_people",
+      "word": "tall",
+      "ipa": "/tɔːl/",
+      "arabic": "طويل (للناس)",
+      "example": "My brother is tall.",
+      "group_label_ar": "وصف الأشخاص",
+      "group_label_en": "Describing People",
+      "target": "tall",
+      "sentence": "My brother is tall.",
+      "sentence_ar": "أخي طويل.",
+      "usage_ar": "العربية «طويل» للكل؛ والإنجليزية tall للناس والأبنية، وlong للشعر والأشياء."
+    },
+    {
+      "group": "describing_people",
+      "word": "short",
+      "ipa": "/ʃɔːt/",
+      "arabic": "قصير",
+      "example": "My sister is short and she has short hair.",
+      "group_label_ar": "وصف الأشخاص",
+      "group_label_en": "Describing People",
+      "target": "short",
+      "sentence": "My sister is short and she has short hair.",
+      "sentence_ar": "أختي قصيرة وشعرها قصير.",
+      "usage_ar": "short عكس tall وعكس long معاً: a short man · short hair."
+    },
+    {
+      "group": "describing_people",
+      "word": "young",
+      "ipa": "/jʌŋ/",
+      "arabic": "شابّ / صغير السنّ",
+      "example": "Our teacher is young.",
+      "group_label_ar": "وصف الأشخاص",
+      "group_label_en": "Describing People",
+      "target": "young",
+      "sentence": "Our teacher is young.",
+      "sentence_ar": "معلّمنا شابّ.",
+      "usage_ar": "صفة لا اسم: He is young · a young man — لا He is a young."
+    },
+    {
+      "group": "describing_people",
+      "word": "beautiful",
+      "ipa": "/ˈbjuːtɪfl/",
+      "arabic": "جميل / جميلة",
+      "example": "My mother is beautiful.",
+      "group_label_ar": "وصف الأشخاص",
+      "group_label_en": "Describing People",
+      "target": "beautiful",
+      "sentence": "My mother is beautiful.",
+      "sentence_ar": "أمّي جميلة.",
+      "usage_ar": "للنساء غالباً وللأماكن؛ وللرجل handsome."
+    },
+    {
+      "group": "describing_people",
+      "word": "handsome",
+      "ipa": "/ˈhænsəm/",
+      "arabic": "وسيم",
+      "example": "Her husband is handsome.",
+      "group_label_ar": "وصف الأشخاص",
+      "group_label_en": "Describing People",
+      "target": "handsome",
+      "sentence": "Her husband is handsome.",
+      "sentence_ar": "زوجها وسيم.",
+      "usage_ar": "للرجال. والـ d لا تُنطق: /ˈhænsəm/."
+    },
+    {
+      "group": "describing_people",
+      "word": "slim",
+      "ipa": "/slɪm/",
+      "arabic": "نحيف / رشيق",
+      "example": "She is slim and tall.",
+      "group_label_ar": "وصف الأشخاص",
+      "group_label_en": "Describing People",
+      "target": "slim",
+      "sentence": "She is slim and tall.",
+      "sentence_ar": "هي رشيقة وطويلة.",
+      "usage_ar": "slim مدح لا عيب: كلمة لطيفة لمن جسمه نحيف."
+    },
+    {
+      "group": "describing_people",
+      "word": "long",
+      "ipa": "/lɒŋ/",
+      "arabic": "طويل (للأشياء)",
+      "example": "She has long hair.",
+      "group_label_ar": "وصف الأشخاص",
+      "group_label_en": "Describing People",
+      "target": "long",
+      "sentence": "She has long hair.",
+      "sentence_ar": "شعرها طويل.",
+      "usage_ar": "long hair بلا a ولا s: hair غير معدود. والصفة قبل الاسم ولا تُجمع."
+    },
+    {
+      "group": "describing_people",
+      "word": "beard",
+      "ipa": "/bɪəd/",
+      "arabic": "لحية",
+      "example": "My uncle has a beard.",
+      "group_label_ar": "وصف الأشخاص",
+      "group_label_en": "Describing People",
+      "target": "beard",
+      "sentence": "My uncle has a beard.",
+      "sentence_ar": "عمّي عنده لحية.",
+      "usage_ar": "مع has لا is: He has a beard — مثل «عنده لحية» بالعربية."
+    },
+    {
+      "group": "describing_people",
+      "word": "glasses",
+      "ipa": "/ˈɡlɑːsɪz/",
+      "arabic": "نظّارة",
+      "example": "Our teacher has glasses.",
+      "group_label_ar": "وصف الأشخاص",
+      "group_label_en": "Describing People",
+      "target": "glasses",
+      "sentence": "Our teacher has glasses.",
+      "sentence_ar": "معلّمنا يضع نظّارة.",
+      "usage_ar": "جمع دائماً: glasses — وa glass كأس. وستتعلّم wears glasses في الأسبوع الثامن."
+    },
+    {
+      "group": "describing_people",
+      "word": "look like",
+      "ipa": "/ˌlʊk ˈlaɪk/",
+      "arabic": "يشبه",
+      "example": "You look like your father.",
+      "group_label_ar": "وصف الأشخاص",
+      "group_label_en": "Describing People",
+      "target": "look like",
+      "sentence": "You look like your father.",
+      "sentence_ar": "أنت تشبه أباك.",
+      "usage_ar": "مع he / she: She looks like her mother. والسؤال عن الشكل: What does he look like?"
     }
   ],
   "minimal_pairs": [
@@ -2107,7 +2400,535 @@
           "الـ s مع he و she و it في كل جملة",
           "بعد don’t و doesn’t يأتي الفعل مجرّداً",
           "السؤال يبدأ بـ Do أو Does",
-          "ظرف التكرار (always · usually · never) قبل الفعل الرئيسي"
+          "ظرف التكرار (always · usually · never) قبل الفعل الرئيسي",
+          "have مع I / you / we / they · has مع he / she / it",
+          "at للساعة · on لليوم · in للشهر والسنة وأجزاء اليوم",
+          "ظرف التكرار قبل الفعل — وبعد am / is / are",
+          "past حتى النصف · to بعده",
+          "and · but · because — و first · then · finally للترتيب",
+          "go home بلا to · by bus بلا the"
+        ],
+        "lessons": [
+          {
+            "title_ar": "have و has: الملكية والأكل",
+            "title_en": "have / has",
+            "explain_ar": "العربية تقول «عندي» و«لديّ» بلا فعل، والإنجليزية تحتاج فعل have: I have two brothers. ومع he و she و it يصير has — لا haves. وفي النفي والسؤال يأتي do كأي فعل: I don't have a car · Does she have a phone? وhave أيضاً فعل الوجبات: have breakfast · have lunch · have tea.",
+            "table": {
+              "columns_ar": [
+                "الضمير",
+                "الفعل",
+                "مثال",
+                "بالعربية"
+              ],
+              "rows": [
+                [
+                  "I",
+                  "have",
+                  "I have two brothers.",
+                  "عندي أخوان"
+                ],
+                [
+                  "You",
+                  "have",
+                  "You have a nice house.",
+                  "عندك بيت جميل"
+                ],
+                [
+                  "He",
+                  "has",
+                  "He has a new car.",
+                  "عنده سيارة جديدة"
+                ],
+                [
+                  "She",
+                  "has",
+                  "She has three children.",
+                  "عندها ثلاثة أطفال"
+                ],
+                [
+                  "We",
+                  "have",
+                  "We have a meeting at nine.",
+                  "عندنا اجتماع في التاسعة"
+                ],
+                [
+                  "They",
+                  "have",
+                  "They have breakfast at seven.",
+                  "يفطرون في السابعة"
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                3
+              ]
+            },
+            "errors": [
+              {
+                "wrong": "She have a car.",
+                "right": "She has a car.",
+                "why_ar": "he / she / it تأخذ has"
+              },
+              {
+                "wrong": "I haven't a car.",
+                "right": "I don't have a car.",
+                "why_ar": "النفي بـ don't have كأي فعل في المضارع البسيط"
+              },
+              {
+                "wrong": "I have 30 years.",
+                "right": "I am 30 years old.",
+                "why_ar": "تذكّر الخطأ الثاني: العمر بـ be لا have"
+              }
+            ],
+            "tip_ar": "ستسمع في بريطانيا have got بالمعنى نفسه: I've got two brothers = I have two brothers. افهمها حين تسمعها، واستعمل أنت have."
+          },
+          {
+            "title_ar": "at · on · in مع الوقت",
+            "title_en": "Prepositions of time",
+            "explain_ar": "العربية تقول «في» للكل: في السابعة، في يوم الجمعة، في مايو. والإنجليزية تختار بحسب حجم الوقت: at للنقطة (الساعة)، و on لليوم والتاريخ، و in لما هو أطول — الشهر والسنة والفصل وأجزاء اليوم.",
+            "table": {
+              "columns_ar": [
+                "مع",
+                "الحرف",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "الساعة",
+                  "at",
+                  "I wake up at six o'clock."
+                ],
+                [
+                  "الليل",
+                  "at",
+                  "I sleep at night."
+                ],
+                [
+                  "الأيام",
+                  "on",
+                  "I don't work on Friday."
+                ],
+                [
+                  "التاريخ",
+                  "on",
+                  "My birthday is on the fifth of May."
+                ],
+                [
+                  "الشهور",
+                  "in",
+                  "The holiday is in August."
+                ],
+                [
+                  "السنوات",
+                  "in",
+                  "The course ends in 2027."
+                ],
+                [
+                  "الفصول",
+                  "in",
+                  "It is very hot in summer."
+                ],
+                [
+                  "أجزاء اليوم",
+                  "in",
+                  "I study in the evening."
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                0
+              ]
+            },
+            "errors": [
+              {
+                "wrong": "in Monday",
+                "right": "on Monday",
+                "why_ar": "الأيام تأخذ on"
+              },
+              {
+                "wrong": "at the morning",
+                "right": "in the morning",
+                "why_ar": "أجزاء اليوم تأخذ in"
+              },
+              {
+                "wrong": "in night",
+                "right": "at night",
+                "why_ar": "night استثناء: at night"
+              },
+              {
+                "wrong": "I go to the gym at every Sunday.",
+                "right": "I go to the gym every Sunday.",
+                "why_ar": "لا حرف قبل every و next و last"
+              }
+            ],
+            "tip_ar": "رتّبها بالحجم: at (نقطة) ← on (يوم) ← in (أكبر). واستثناءان يُحفظان: at night و in the morning."
+          },
+          {
+            "title_ar": "قراءة الساعة: past و to",
+            "title_en": "Telling the time",
+            "explain_ar": "تسأل What time is it? ويبدأ الجواب بـ It's. حتى النصف تقول past (بعد الساعة)، وبعد النصف to (قبل الساعة التالية): 7:20 = twenty past seven · 7:40 = twenty to eight. و o'clock للساعة تماماً وحدها. والطريقة الرقمية صحيحة أيضاً: seven twenty. وفي المواعيد at: at half past six.",
+            "table": {
+              "columns_ar": [
+                "الوقت",
+                "بالإنجليزية",
+                "الرقمية"
+              ],
+              "rows": [
+                [
+                  "7:00",
+                  "seven o'clock",
+                  "seven"
+                ],
+                [
+                  "7:05",
+                  "five past seven",
+                  "seven oh five"
+                ],
+                [
+                  "7:15",
+                  "a quarter past seven",
+                  "seven fifteen"
+                ],
+                [
+                  "7:30",
+                  "half past seven",
+                  "seven thirty"
+                ],
+                [
+                  "7:40",
+                  "twenty to eight",
+                  "seven forty"
+                ],
+                [
+                  "7:45",
+                  "a quarter to eight",
+                  "seven forty-five"
+                ],
+                [
+                  "7:50",
+                  "ten to eight",
+                  "seven fifty"
+                ]
+              ],
+              "say": 1
+            },
+            "errors": [
+              {
+                "wrong": "It's seven and half.",
+                "right": "It's half past seven.",
+                "why_ar": "النصف بـ half past لا and half"
+              },
+              {
+                "wrong": "forty past seven",
+                "right": "twenty to eight",
+                "why_ar": "بعد النصف تعدّ إلى الساعة التالية بـ to"
+              },
+              {
+                "wrong": "It's at six.",
+                "right": "It's six.",
+                "why_ar": "at للمواعيد، لا لجواب «كم الساعة»"
+              }
+            ],
+            "tip_ar": "تسمع في بريطانيا half seven ومعناها 7:30 — لا 6:30 كما قد يُفهم."
+          },
+          {
+            "title_ar": "ربط الجمل: and · but · because · then",
+            "title_en": "Linkers",
+            "explain_ar": "and لفكرتين متشابهتين، و but لفكرتين متعاكستين، و because للسبب، و or للاختيار. ولترتيب يومك: first ← then ← after that ← finally. والعربية تكرّر «و» بين كل الجمل: «أستيقظ وأصلّي وأفطر…»، والإنجليزية تفصل بفاصلة وتضع and قبل الأخير: I wake up, pray and have breakfast.",
+            "table": {
+              "columns_ar": [
+                "المعنى",
+                "الكلمة",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "و",
+                  "and",
+                  "I read and I watch TV."
+                ],
+                [
+                  "لكن",
+                  "but",
+                  "I like tea, but I don't like coffee."
+                ],
+                [
+                  "لأن",
+                  "because",
+                  "I take the bus because I don't drive."
+                ],
+                [
+                  "أو",
+                  "or",
+                  "Tea or coffee?"
+                ],
+                [
+                  "أولاً",
+                  "first",
+                  "First, I wake up."
+                ],
+                [
+                  "ثم",
+                  "then",
+                  "Then I have breakfast."
+                ],
+                [
+                  "بعد ذلك",
+                  "after that",
+                  "After that, I go to work."
+                ],
+                [
+                  "أخيراً",
+                  "finally",
+                  "Finally, I go to bed."
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                0
+              ]
+            },
+            "errors": [
+              {
+                "wrong": "I wake up and I pray and I have breakfast and I go to work.",
+                "right": "I wake up, pray, have breakfast and go to work.",
+                "why_ar": "فاصلة بين الأفعال، و and قبل الأخير وحده"
+              },
+              {
+                "wrong": "I like fish but I like meat.",
+                "right": "I like fish and I like meat.",
+                "why_ar": "but للتعاكس وحده"
+              },
+              {
+                "wrong": "Because I am tired.",
+                "right": "I go to bed early because I am tired.",
+                "why_ar": "because لا تقف وحدها: تربط السبب بجملته"
+              }
+            ]
+          },
+          {
+            "title_ar": "go to work · go home · by bus",
+            "title_en": "go to / go home / by bus",
+            "explain_ar": "go to + مكان: go to work · go to school · go to the mosque. لكن home بلا to: go home · get home — لأن home هنا معناها «إلى البيت» كلها. والوسيلة بـ by بلا the: by bus · by car · by train، ومشياً on foot أو I walk. والعربية تقول «إلى البيت» فيُقال خطأً go to home.",
+            "table": {
+              "columns_ar": [
+                "المعنى",
+                "الصيغة",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "يذهب إلى العمل",
+                  "go to work",
+                  "I go to work at eight."
+                ],
+                [
+                  "يذهب إلى البيت",
+                  "go home",
+                  "I go home at five."
+                ],
+                [
+                  "يصل إلى البيت",
+                  "get home",
+                  "We get home late."
+                ],
+                [
+                  "بالحافلة",
+                  "by bus",
+                  "She goes to work by bus."
+                ],
+                [
+                  "بالسيارة",
+                  "by car",
+                  "They go to school by car."
+                ],
+                [
+                  "مشياً",
+                  "on foot",
+                  "I go to the mosque on foot."
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                0
+              ]
+            },
+            "errors": [
+              {
+                "wrong": "I go to home.",
+                "right": "I go home.",
+                "why_ar": "home بلا to"
+              },
+              {
+                "wrong": "by the bus",
+                "right": "by bus",
+                "why_ar": "الوسيلة بـ by بلا the"
+              },
+              {
+                "wrong": "by foot",
+                "right": "on foot",
+                "why_ar": "المشي استثناء: on foot"
+              }
+            ]
+          },
+          {
+            "title_ar": "أين يقع always و never؟",
+            "title_en": "Adverbs of frequency: position",
+            "explain_ar": "ظرف التكرار يأتي قبل الفعل الرئيسي: I always wake up early. لكنه يأتي بعد am و is و are: I am always tired. والعربية تضعه حيث تشاء، فيُنقل الترتيب العربي «أستيقظ دائماً باكراً» حرفياً — وهذا الخطأ السادس في الكتاب.",
+            "table": {
+              "columns_ar": [
+                "النسبة",
+                "الظرف",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "100%",
+                  "always",
+                  "I always pray on time."
+                ],
+                [
+                  "90%",
+                  "usually",
+                  "She usually takes the bus."
+                ],
+                [
+                  "70%",
+                  "often",
+                  "We often eat fish."
+                ],
+                [
+                  "50%",
+                  "sometimes",
+                  "He sometimes works late."
+                ],
+                [
+                  "10%",
+                  "rarely",
+                  "I rarely watch TV."
+                ],
+                [
+                  "0%",
+                  "never",
+                  "They never drink coffee."
+                ]
+              ],
+              "say": 2
+            },
+            "examples": [
+              {
+                "en": "I am always tired on Sunday.",
+                "ar": "أنا متعب دائماً يوم الأحد — بعد am."
+              },
+              {
+                "en": "How often do you exercise? — Twice a week.",
+                "ar": "كم مرة تتمرّن؟ — مرتين في الأسبوع."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "I wake up always early.",
+                "right": "I always wake up early.",
+                "why_ar": "قبل الفعل الرئيسي"
+              },
+              {
+                "wrong": "I always am late.",
+                "right": "I am always late.",
+                "why_ar": "بعد am / is / are"
+              },
+              {
+                "wrong": "She never doesn't eat meat.",
+                "right": "She never eats meat.",
+                "why_ar": "never نفيٌ بنفسها فلا تضف doesn't"
+              }
+            ],
+            "tip_ar": "every day و once a week و twice a week مكانها آخر الجملة: I exercise twice a week."
+          },
+          {
+            "title_ar": "وصف الأشخاص: is tall · has long hair",
+            "title_en": "Describing people: be or have",
+            "explain_ar": "للصفة نستعمل be: He is tall · She is young. وللملامح التي «عنده» نستعمل have / has: He has a beard · She has long hair. والعربية تفرّق بالطريقة نفسها: «هو طويل» بلا فعل، و«عنده شعر طويل» — فـ is تقابل الأولى، وhas تقابل «عنده». والفخّ في الأداة لا في الفعل: الصفة وحدها لا تأخذ a (He is tall — لا He is a tall)، وhair غير معدود فلا يأخذ a ولا s (long hair). والصفة قبل الاسم ولا تُجمع أبداً: long hair · tall men.",
+            "table": {
+              "columns_ar": [
+                "الفاعل",
+                "الفعل",
+                "مثال",
+                "بالعربية"
+              ],
+              "rows": [
+                [
+                  "My brother",
+                  "is",
+                  "My brother is tall.",
+                  "أخي طويل"
+                ],
+                [
+                  "She",
+                  "is",
+                  "She is young and slim.",
+                  "هي شابّة ورشيقة"
+                ],
+                [
+                  "They",
+                  "are",
+                  "They are short.",
+                  "هم قصار"
+                ],
+                [
+                  "He",
+                  "has",
+                  "He has a beard.",
+                  "عنده لحية"
+                ],
+                [
+                  "She",
+                  "has",
+                  "She has long hair.",
+                  "عندها شعر طويل"
+                ],
+                [
+                  "I",
+                  "have",
+                  "I have glasses.",
+                  "عندي نظّارة"
+                ],
+                [
+                  "She",
+                  "looks like",
+                  "She looks like her mother.",
+                  "تشبه أمّها"
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                3
+              ]
+            },
+            "examples": [
+              {
+                "en": "What does he look like? He is tall and he has short hair.",
+                "ar": "كيف يبدو شكله؟ هو طويل وشعره قصير."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "He is a tall.",
+                "right": "He is tall.",
+                "why_ar": "الصفة وحدها بلا a — وa مع الاسم: a tall man"
+              },
+              {
+                "wrong": "She has a long hair.",
+                "right": "She has long hair.",
+                "why_ar": "hair غير معدود: لا a ولا s"
+              },
+              {
+                "wrong": "He have a beard.",
+                "right": "He has a beard.",
+                "why_ar": "he / she / it تأخذ has — الخطأ الثالث"
+              }
+            ],
+            "tip_ar": "اسأل عن الشكل بـ What does he look like? — لا How he looks? والجواب بـ is وhas معاً: He is tall and he has short hair."
+          }
         ]
       }
     },
@@ -3441,6 +4262,593 @@
         ]
       },
       "explanation": "السؤال يحتاج does، والـ s تنتقل إليه فيبقى الفعل مجرّداً: does he start.",
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "prompt": "My brother ______ a new car. (have)",
+      "payload": {
+        "before": "My brother",
+        "after": "a new car. (have)"
+      },
+      "answer": {
+        "accepted": [
+          "has"
+        ]
+      },
+      "explanation": "my brother = he، و he تأخذ has لا haves.",
+      "focus_ar": "have و has",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 6,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "I haven't a car."
+      },
+      "answer": {
+        "accepted": [
+          "I don't have a car.",
+          "I do not have a car."
+        ]
+      },
+      "explanation": "النفي في المضارع البسيط بـ don't + have، كأي فعل.",
+      "focus_ar": "have و has",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 7,
+      "type": "multiple_choice",
+      "prompt": "كيف تقول «عندي أخوان»؟",
+      "payload": {
+        "options": [
+          "I have two brothers.",
+          "I am two brothers.",
+          "I has two brothers.",
+          "To me two brothers."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "الملكية بفعل have، و I تأخذ have لا has.",
+      "focus_ar": "have و has",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 6,
+      "type": "fill_blank",
+      "prompt": "I study ______ the evening.",
+      "payload": {
+        "before": "I study",
+        "after": "the evening."
+      },
+      "answer": {
+        "accepted": [
+          "in"
+        ]
+      },
+      "explanation": "أجزاء اليوم تأخذ in: in the morning · in the evening.",
+      "focus_ar": "at · on · in مع الوقت",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 7,
+      "type": "fill_blank",
+      "prompt": "I sleep ______ night.",
+      "payload": {
+        "before": "I sleep",
+        "after": "night."
+      },
+      "answer": {
+        "accepted": [
+          "at"
+        ]
+      },
+      "explanation": "night استثناء يُحفظ: at night — بعكس in the evening.",
+      "focus_ar": "at · on · in مع الوقت",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 8,
+      "type": "fill_blank",
+      "prompt": "The holiday is ______ August.",
+      "payload": {
+        "before": "The holiday is",
+        "after": "August."
+      },
+      "answer": {
+        "accepted": [
+          "in"
+        ]
+      },
+      "explanation": "الشهور تأخذ in. والأيام on، والساعات at.",
+      "focus_ar": "at · on · in مع الوقت",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 9,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "I go to the gym at every Sunday."
+      },
+      "answer": {
+        "accepted": [
+          "I go to the gym every Sunday."
+        ]
+      },
+      "explanation": "لا حرف جرّ قبل every و next و last.",
+      "focus_ar": "at · on · in مع الوقت",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 7,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "I always am tired after work."
+      },
+      "answer": {
+        "accepted": [
+          "I am always tired after work.",
+          "I'm always tired after work."
+        ]
+      },
+      "explanation": "ظرف التكرار يأتي بعد am / is / are، وقبل الأفعال الأخرى.",
+      "focus_ar": "موضع ظرف التكرار",
+      "error_no": 6,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 8,
+      "type": "multiple_choice",
+      "prompt": "أي جملة صحيحة؟",
+      "payload": {
+        "options": [
+          "He goes usually to work by bus.",
+          "He usually goes to work by bus.",
+          "Usually he go to work by bus.",
+          "He goes to work usually by bus."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "usually قبل الفعل الرئيسي goes — والفعل يأخذ s مع he.",
+      "focus_ar": "موضع ظرف التكرار",
+      "error_no": 6,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 9,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "She never doesn't eat meat."
+      },
+      "answer": {
+        "accepted": [
+          "She never eats meat."
+        ]
+      },
+      "explanation": "never نفيٌ بنفسها، فلا تضف doesn't — ويعود الفعل إلى eats.",
+      "focus_ar": "موضع ظرف التكرار",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 10,
+      "type": "multiple_choice",
+      "prompt": "كيف تقول 8:15؟",
+      "payload": {
+        "options": [
+          "eight fifteen past",
+          "a quarter past eight",
+          "a quarter to eight",
+          "fifteen to eight"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "حتى النصف past: a quarter past eight — أو eight fifteen.",
+      "focus_ar": "قراءة الساعة",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 11,
+      "type": "multiple_choice",
+      "prompt": "كيف تقول 3:50؟",
+      "payload": {
+        "options": [
+          "ten to four",
+          "fifty past three",
+          "ten past four",
+          "ten to three"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "بعد النصف تعدّ إلى الساعة التالية: ten to four.",
+      "focus_ar": "قراءة الساعة",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 12,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "It's six and half."
+      },
+      "answer": {
+        "accepted": [
+          "It's half past six.",
+          "It is half past six.",
+          "It's six thirty.",
+          "It is six thirty."
+        ]
+      },
+      "explanation": "النصف بـ half past: half past six.",
+      "focus_ar": "قراءة الساعة",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 13,
+      "type": "fill_blank",
+      "prompt": "What time is it? — ______ ten o'clock.",
+      "payload": {
+        "before": "What time is it? —",
+        "after": "ten o'clock."
+      },
+      "answer": {
+        "accepted": [
+          "It's",
+          "It is"
+        ]
+      },
+      "explanation": "جواب الوقت يبدأ بـ It's — بلا at.",
+      "focus_ar": "قراءة الساعة",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 10,
+      "type": "fill_blank",
+      "prompt": "I like tea, ______ I don't like coffee.",
+      "payload": {
+        "before": "I like tea,",
+        "after": "I don't like coffee."
+      },
+      "answer": {
+        "accepted": [
+          "but"
+        ]
+      },
+      "explanation": "فكرتان متعاكستان: but.",
+      "focus_ar": "ربط الجمل",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 11,
+      "type": "fill_blank",
+      "prompt": "I take the bus ______ I don't have a car.",
+      "payload": {
+        "before": "I take the bus",
+        "after": "I don't have a car."
+      },
+      "answer": {
+        "accepted": [
+          "because"
+        ]
+      },
+      "explanation": "الجملة الثانية سبب الأولى: because.",
+      "focus_ar": "ربط الجمل",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 12,
+      "type": "multiple_choice",
+      "prompt": "Do you want tea ______ coffee?",
+      "payload": {
+        "options": [
+          "and",
+          "or",
+          "but",
+          "because"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "اختيار بين شيئين: or.",
+      "focus_ar": "ربط الجمل",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 13,
+      "type": "multiple_choice",
+      "prompt": "First I wake up. ______ I have breakfast.",
+      "payload": {
+        "options": [
+          "Finally",
+          "Then",
+          "Because",
+          "But"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "الخطوة التالية في الترتيب: then. و finally للأخيرة.",
+      "focus_ar": "ربط الجمل",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 14,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "I go to home at six."
+      },
+      "answer": {
+        "accepted": [
+          "I go home at six."
+        ]
+      },
+      "explanation": "home بلا to: go home.",
+      "focus_ar": "go home · by bus",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 15,
+      "type": "fill_blank",
+      "prompt": "She goes to work ______ bus.",
+      "payload": {
+        "before": "She goes to work",
+        "after": "bus."
+      },
+      "answer": {
+        "accepted": [
+          "by"
+        ]
+      },
+      "explanation": "الوسيلة بـ by بلا the: by bus.",
+      "focus_ar": "go home · by bus",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 16,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "I go to school by foot."
+      },
+      "answer": {
+        "accepted": [
+          "I go to school on foot.",
+          "I walk to school."
+        ]
+      },
+      "explanation": "المشي استثناء: on foot — أو I walk.",
+      "focus_ar": "go home · by bus",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 8,
+      "type": "multiple_choice",
+      "prompt": "We ______ late on Thursdays.",
+      "payload": {
+        "options": [
+          "get home",
+          "get to home",
+          "arrive home to",
+          "go to the home"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "get home = نصل إلى البيت، بلا to.",
+      "focus_ar": "go home · by bus",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 2,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "My father has two foots."
+      },
+      "answer": {
+        "accepted": [
+          "My father has two feet."
+        ]
+      },
+      "explanation": "الجمع شاذّ: one foot · two feet — ومثلها tooth · teeth. لا تُضاف s.",
+      "focus_ar": "الجمع الشاذّ: foot · feet",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 3,
+      "type": "multiple_choice",
+      "prompt": "ما معنى «وجه» بالإنجليزية؟",
+      "payload": {
+        "options": [
+          "head",
+          "face",
+          "nose",
+          "hair"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "وجه = face: I wash my face every morning. وhead الرأس كلّه.",
+      "focus_ar": "أعضاء الجسم",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 4,
+      "type": "fill_blank",
+      "prompt": "I have thirty-two ______ in my mouth.",
+      "payload": {
+        "before": "I have thirty-two",
+        "after": "in my mouth."
+      },
+      "answer": {
+        "accepted": [
+          "teeth"
+        ]
+      },
+      "explanation": "سنّ واحد tooth، والأسنان teeth — الجمع شاذّ، لا tooths.",
+      "focus_ar": "الجمع الشاذّ: tooth · teeth",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 5,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "She washes her hairs every day."
+      },
+      "answer": {
+        "accepted": [
+          "She washes her hair every day."
+        ]
+      },
+      "explanation": "hair غير معدود للشعر كلّه، فلا يأخذ s — والعربية «شعرها» مفرد أيضاً.",
+      "focus_ar": "hair غير معدود",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 14,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "She has a long hair."
+      },
+      "answer": {
+        "accepted": [
+          "She has long hair.",
+          "She has got long hair."
+        ]
+      },
+      "explanation": "hair غير معدود: long hair بلا a. والعربية «عندها شعر طويل» بلا أداة أيضاً — فلا تضف a.",
+      "focus_ar": "hair غير معدود",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 15,
+      "type": "fill_blank",
+      "prompt": "He ______ a beard.",
+      "payload": {
+        "before": "He",
+        "after": "a beard."
+      },
+      "answer": {
+        "accepted": [
+          "has",
+          "has got"
+        ]
+      },
+      "explanation": "الملامح بـ have، ومع he / she / it تصير has: He has a beard — لا He have ولا He is a beard.",
+      "focus_ar": "has للملامح",
+      "error_no": 3,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 16,
+      "type": "multiple_choice",
+      "prompt": "ما معنى «وسيم» بالإنجليزية؟",
+      "payload": {
+        "options": [
+          "beautiful",
+          "handsome",
+          "tall",
+          "young"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "handsome للرجال، وbeautiful للنساء غالباً: Her husband is handsome.",
+      "focus_ar": "وصف الأشخاص",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 17,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "He is a tall."
+      },
+      "answer": {
+        "accepted": [
+          "He is tall.",
+          "He's tall."
+        ]
+      },
+      "explanation": "الصفة وحدها بعد is بلا a: He is tall. وa تأتي مع اسم بعد الصفة: He is a tall man.",
+      "focus_ar": "be + صفة بلا a",
+      "error_no": null,
       "points": 1
     }
   ]

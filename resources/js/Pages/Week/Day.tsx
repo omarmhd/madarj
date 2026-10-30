@@ -8,6 +8,7 @@ import Bdi from '@/Components/Bdi';
 import { Head, Link, router } from '@inertiajs/react';
 import AppNav from '@/Components/AppNav';
 import Listen from '@/Components/Listen';
+import { playClips } from '@/lib/clips';
 import { track, setTrackContext, startHeartbeat, flush } from '@/lib/tracker';
 import axios from 'axios';
 import MinimalPairGame, { type Group as PairGroup } from '@/Components/Game/MinimalPairGame';
@@ -68,7 +69,8 @@ interface DialogueBlock {
   situation_ar: string | null;
   situation_en: string;
   speaker_genders: Record<string, Gender>;
-  lines: { speaker: string; en: string; ar: string }[];
+  /** `audio`: the line's Piper recording, or null to use the browser's voice */
+  lines: { speaker: string; en: string; ar: string; audio?: string | null }[];
 }
 
 interface PairsBlock {
@@ -237,6 +239,14 @@ export default function DayPage({
   /** ما يقوله رفيق الآن — أو لا شيء، وهو الأشيع */
   const [celebration, setCelebration] = useState<Celebration | null>(null);
   const [tasksDone, setTasksDone] = useState(day.tasks_done);
+  /*
+   * Whether tomorrow is open — from the page load, then from each save.
+   * The prop alone was the state before the day was done: false. So the
+   * "day complete" screen said the next day was open and gave no way to
+   * it, and the learner was left on a finished day with nowhere to go.
+   */
+  const [nextOpen, setNextOpen] = useState(nextDayUnlocked);
+  useEffect(() => setNextOpen(nextDayUnlocked), [nextDayUnlocked]);
   const [saving, setSaving] = useState<number | null>(null);
 
   /** The task whose "done" stamp is landing right now */
@@ -538,8 +548,15 @@ export default function DayPage({
       setSaveFailed(null);
 
       // The day is done: the server moved the learner on. The nav's "study
-      // now" read the old day until the next full page load, so ask for it
-      if (data.completed) router.reload({ only: ['nav'] });
+      // now" and the way to tomorrow read the old day until the next full
+      // page load, so ask for them
+      if (data.completed) {
+        setNextOpen(true);
+        router.reload({ only: ['nav', 'nextDayUnlocked', 'unitTest'] });
+      } else if (nextOpen) {
+        // Unticking a finished day closes tomorrow again (the lock reads completions)
+        router.reload({ only: ['nav', 'nextDayUnlocked'] });
+      }
 
       /*
        * الاحتفال من ردّ الخادم لا من حساب الواجهة.
@@ -606,14 +623,19 @@ export default function DayPage({
       .map((line, index) => ({ line, index }))
       .filter(({ line }) => line.speaker);
 
-    stopSeq.current = speakSequence(
-      spoken.map(({ line }) => ({ text: line.en, gender: genderOf(d, line.speaker) })),
-      {
-        rate,
-        onLine: (i) => setPlaying({ dialogue: d.number, index: spoken[i].index }),
-        onDone: () => setPlaying(null),
-      },
-    );
+    const opts = {
+      onLine: (i: number) => setPlaying({ dialogue: d.number, index: spoken[i].index }),
+      onDone: () => setPlaying(null),
+    };
+    const urls = spoken.map(({ line }) => line.audio);
+
+    // The recorded voices when every line has one; a gap means the browser speaks it all
+    stopSeq.current = urls.every(Boolean)
+      ? playClips(urls as string[], { ...opts, rate })
+      : speakSequence(
+          spoken.map(({ line }) => ({ text: line.en, gender: genderOf(d, line.speaker) })),
+          { ...opts, rate },
+        );
   };
 
   const stopAll = () => {
@@ -716,7 +738,7 @@ export default function DayPage({
               onClick={() =>
                 playing?.dialogue === block.number ? stopAll() : playDialogue(block)
               }
-              disabled={!supported}
+              disabled={!supported && !block.lines.some((l) => l.audio)}
               className="stamp w-full py-2.5 text-sm font-medium
                          transition hover:bg-violet-700 disabled:cursor-not-allowed
                          disabled:opacity-50"
@@ -768,9 +790,7 @@ export default function DayPage({
                         >
                           {line.speaker}
                         </span>
-                        {supported && (
-                          <Listen text={line.en} gender={gender} size="sm" />
-                        )}
+                        <Listen text={line.en} gender={gender} src={line.audio} size="sm" />
                       </div>
                       <p className="text-sm leading-relaxed text-slate-900" dir="ltr">
                         {line.en}
@@ -1276,7 +1296,7 @@ export default function DayPage({
                   </div>
                 )}
                 <div className="mt-4 flex flex-wrap justify-center gap-2">
-                  {day.number < lastDay && nextDayUnlocked && (
+                  {day.number < lastDay && nextOpen && (
                     <Link href={`/week/${week.number}/day/${day.number + 1}`}
                       className="rounded-xl bg-emerald-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-emerald-700">
                       {tr('اليوم')} {day.number + 1}
@@ -1653,7 +1673,7 @@ export default function DayPage({
             </p>
 
             <div className="mt-4 flex flex-wrap justify-center gap-2">
-              {day.number < lastDay && nextDayUnlocked && (
+              {day.number < lastDay && nextOpen && (
                 <Link
                   href={`/week/${week.number}/day/${day.number + 1}`}
                   className="rounded-xl bg-emerald-600 px-5 py-2.5 text-sm font-medium
@@ -1695,7 +1715,7 @@ export default function DayPage({
             <span />
           )}
 
-          {day.number < lastDay && nextDayUnlocked && (
+          {day.number < lastDay && nextOpen && (
             <Link
               href={`/week/${week.number}/day/${day.number + 1}`}
               className="rounded-xl bg-white px-4 py-2 text-sm text-slate-600

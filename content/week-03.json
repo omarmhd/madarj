@@ -47,58 +47,61 @@
     "title_ar": "الكتابة — رسالة عن الطعام والتسوّق",
     "title_en": "Writing — A Message About Food",
     "task_ar": "اكتب 80–100 كلمة عن طعامك وتسوّقك: أين تشتري، وماذا لا تشتري ولماذا، وما تحبّه وما لا تحبّه. استخدم النفي بـ don’t و doesn’t، و some و any.",
-    "task_en": "",
-    "min_words": 60,
+    "task_en": "A friend is visiting your city next week and asks about food. Write 80–100 words. Include: where you shop, what you usually eat, one thing you don't eat, one question for your friend, and a recommendation.",
+    "min_words": 80,
     "max_words": 100,
     "templates": [
       {
         "en": "Hi ____________ ,",
-        "ar": null
+        "ar": "مرحباً ___،"
       },
       {
         "en": "You ask about food here. ____________ .",
-        "ar": null
+        "ar": "تسألني عن الطعام هنا. ___."
       },
       {
         "en": "I usually buy my food at ____________ because ____________ .",
-        "ar": null
+        "ar": "عادةً أشتري طعامي من ___ لأن ___."
       },
       {
         "en": "For breakfast I normally have ____________ .",
-        "ar": null
+        "ar": "في الفطور آكل عادةً ___."
       },
       {
         "en": "I don't eat ____________ .",
-        "ar": null
+        "ar": "أنا لا آكل ___."
       },
       {
         "en": "If you come, you must try ____________ . It is ____________ .",
-        "ar": null
+        "ar": "إن جئت فلا بدّ أن تجرّب ___. إنه ___."
       },
       {
         "en": "Do you ____________ ?",
-        "ar": null
+        "ar": "هل ___؟"
       }
     ],
     "checklist": [
       {
-        "ar": "هل الفعل مجرّد بعد don’t و doesn’t؟"
+        "ar": "هل استخدمت don’t أو doesn’t مرّتين على الأقل، والفعل بعدها مجرّد بلا s؟"
       },
       {
-        "ar": "هل استخدمت doesn’t مع he و she و it فقط؟"
+        "ar": "هل في سؤالك do أو does في مكانها الصحيح؟"
       },
       {
-        "ar": "هل any في النفي و some في الإثبات؟"
+        "ar": "هل استخدمت some في جملة مثبتة و any في جملة منفية أو سؤال؟"
       },
       {
-        "ar": "هل ذكرت شيئاً لا تشتريه ولماذا؟"
+        "ar": "هل استخدمت how much مع غير المعدود و how many مع المعدود؟"
+      },
+      {
+        "ar": "هل بقيت الـ s في كل فعل مع he و she و it في الجمل المثبتة؟"
       },
       {
         "ar": "هل المجموع بين 80 و100 كلمة؟"
       }
     ],
-    "model_answer": "You ask about food here — it's very good! I usually buy my food at the old market because it is cheap and fresh. I don't go to the supermarket often.",
-    "model_words": 31,
+    "model_answer": "Hi Khaled, You ask about food here — it's very good! I usually buy my food at the old market because it is cheap and fresh. I don't go to the supermarket often. For breakfast I normally have bread, cheese and tea. I don't drink coffee. For lunch we usually eat rice with chicken or fish. When you come, you must try our fish restaurant near the sea. It isn't expensive — a full meal costs about twenty pounds. Do you eat spicy food? Some of our dishes are very hot! See you soon, Hani",
+    "model_words": 93,
     "target_errors": [
       {
         "wrong": "He doesn't likes fish.",
@@ -188,8 +191,8 @@
         {
           "order": 2,
           "label": "التسوّق والمال",
-          "minutes": 25,
-          "ref": "vocab:shopping_and_money"
+          "minutes": 30,
+          "ref": "vocab:shopping_and_money,clothes"
         },
         {
           "label": "مراجعة الإملاء",
@@ -532,12 +535,6 @@
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
-        },
-        {
-          "order": 8,
-          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record:baseline"
         },
         {
           "order": 9,
@@ -1854,6 +1851,162 @@
       "sentence": "I want some bread, please.",
       "sentence_ar": "أريد بعض الخبز من فضلك.",
       "usage_ar": "في الإثبات some، وفي النفي والسؤال any."
+    },
+    {
+      "group": "clothes",
+      "word": "clothes",
+      "ipa": "/kləʊðz/",
+      "arabic": "ملابس",
+      "example": "Do you sell children's clothes?",
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "clothes",
+      "sentence": "Do you sell children's clothes?",
+      "sentence_ar": "هل تبيعون ملابس أطفال؟",
+      "usage_ar": "جمع بلا مفرد: these clothes are — لا a clothe. وتُنطق مقطعاً واحداً /kləʊðz/."
+    },
+    {
+      "group": "clothes",
+      "word": "shirt",
+      "ipa": "/ʃɜːt/",
+      "arabic": "قميص",
+      "example": "How much is this shirt?",
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "shirt",
+      "sentence": "How much is this shirt?",
+      "sentence_ar": "بكم هذا القميص؟",
+      "usage_ar": "shirt القميص بأزرار وياقة، وT-shirt بلا أزرار."
+    },
+    {
+      "group": "clothes",
+      "word": "T-shirt",
+      "ipa": "/ˈtiː ʃɜːt/",
+      "arabic": "تي شيرت",
+      "example": "A T-shirt costs ten pounds here.",
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "T-shirt",
+      "sentence": "A T-shirt costs ten pounds here.",
+      "sentence_ar": "التي شيرت بعشرة جنيهات هنا.",
+      "usage_ar": "تُكتب T-shirt بحرف T كبير وشرطة — لا tishirt ولا tea-shirt."
+    },
+    {
+      "group": "clothes",
+      "word": "trousers",
+      "ipa": "/ˈtraʊzəz/",
+      "arabic": "بنطلون",
+      "example": "How much are these trousers?",
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "trousers",
+      "sentence": "How much are these trousers?",
+      "sentence_ar": "بكم هذا البنطلون؟",
+      "usage_ar": "جمع دائماً: these trousers are — لا a trouser ولا this trousers. وللواحد a pair of trousers."
+    },
+    {
+      "group": "clothes",
+      "word": "jeans",
+      "ipa": "/dʒiːnz/",
+      "arabic": "جينز",
+      "example": "I want some new jeans.",
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "jeans",
+      "sentence": "I want some new jeans.",
+      "sentence_ar": "أريد جينزاً جديداً.",
+      "usage_ar": "جمع دائماً مثل trousers: some jeans أو a pair of jeans — لا a jeans."
+    },
+    {
+      "group": "clothes",
+      "word": "dress",
+      "ipa": "/dres/",
+      "arabic": "فستان",
+      "example": "This dress is very expensive.",
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "dress",
+      "sentence": "This dress is very expensive.",
+      "sentence_ar": "هذا الفستان غالٍ جداً.",
+      "usage_ar": "dress الفستان والجمع dresses؛ والملابس عامّةً clothes."
+    },
+    {
+      "group": "clothes",
+      "word": "skirt",
+      "ipa": "/skɜːt/",
+      "arabic": "تنّورة",
+      "example": "I'd like a skirt for my daughter.",
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "skirt",
+      "sentence": "I'd like a skirt for my daughter.",
+      "sentence_ar": "أريد تنّورة لابنتي.",
+      "usage_ar": "skirt التنّورة، وdress الفستان القطعة الواحدة."
+    },
+    {
+      "group": "clothes",
+      "word": "jacket",
+      "ipa": "/ˈdʒækɪt/",
+      "arabic": "سترة / جاكيت",
+      "example": "Do you have this jacket in a small size?",
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "jacket",
+      "sentence": "Do you have this jacket in a small size?",
+      "sentence_ar": "هل عندكم هذه السترة بمقاس صغير؟",
+      "usage_ar": "jacket سترة قصيرة خفيفة، وcoat معطف أطول للبرد."
+    },
+    {
+      "group": "clothes",
+      "word": "coat",
+      "ipa": "/kəʊt/",
+      "arabic": "معطف",
+      "example": "This coat is cheap, but it's very big.",
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "coat",
+      "sentence": "This coat is cheap, but it's very big.",
+      "sentence_ar": "هذا المعطف رخيص، لكنه كبير جداً.",
+      "usage_ar": "تُنطق /kəʊt/ بحركة مزدوجة — لا /kɔːt/ مثل caught."
+    },
+    {
+      "group": "clothes",
+      "word": "shoes",
+      "ipa": "/ʃuːz/",
+      "arabic": "حذاء",
+      "example": "How much are these shoes?",
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "shoes",
+      "sentence": "How much are these shoes?",
+      "sentence_ar": "بكم هذا الحذاء؟",
+      "usage_ar": "جمع لأنها فردتان: these shoes are — وللفردة الواحدة a shoe."
+    },
+    {
+      "group": "clothes",
+      "word": "socks",
+      "ipa": "/sɒks/",
+      "arabic": "جوارب",
+      "example": "Do you have any socks?",
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "socks",
+      "sentence": "Do you have any socks?",
+      "sentence_ar": "هل عندكم جوارب؟",
+      "usage_ar": "تُقال جمعاً عادةً: some socks · a pair of socks = زوج جوارب."
+    },
+    {
+      "group": "clothes",
+      "word": "hat",
+      "ipa": "/hæt/",
+      "arabic": "قبّعة",
+      "example": "I want a hat for my son.",
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "hat",
+      "sentence": "I want a hat for my son.",
+      "sentence_ar": "أريد قبّعة لابني.",
+      "usage_ar": "تُنطق /hæt/ بفتحة واسعة — وليست hot (حارّ)."
     }
   ],
   "minimal_pairs": [
@@ -1888,6 +2041,54 @@
       "word_b": "special",
       "group_label_ar": "تجمّع السواكن",
       "hint_ar": "الإنجليزية تجمع ساكنين وثلاثة بلا حركة بينها: street و asked. والعربية تُدخل حركة فتصير «إستريت» — والمطلوب ألّا تُدخلها. ابدأ بطيئاً موصولاً ثم أسرع."
+    },
+    {
+      "group_label": "Consonant Clusters",
+      "group_label_ar": "تجمّع السواكن",
+      "hint_ar": "الإنجليزية تجمع ساكنين وثلاثة بلا حركة بينها: street و asked. والعربية تُدخل حركة فتصير «إستريت» — والمطلوب ألّا تُدخلها. ابدأ بطيئاً موصولاً ثم أسرع.",
+      "ipa": null,
+      "word_a": "blow",
+      "word_b": "below"
+    },
+    {
+      "group_label": "Consonant Clusters",
+      "group_label_ar": "تجمّع السواكن",
+      "hint_ar": "الإنجليزية تجمع ساكنين وثلاثة بلا حركة بينها: street و asked. والعربية تُدخل حركة فتصير «إستريت» — والمطلوب ألّا تُدخلها. ابدأ بطيئاً موصولاً ثم أسرع.",
+      "ipa": null,
+      "word_a": "plight",
+      "word_b": "polite"
+    },
+    {
+      "group_label": "Consonant Clusters",
+      "group_label_ar": "تجمّع السواكن",
+      "hint_ar": "الإنجليزية تجمع ساكنين وثلاثة بلا حركة بينها: street و asked. والعربية تُدخل حركة فتصير «إستريت» — والمطلوب ألّا تُدخلها. ابدأ بطيئاً موصولاً ثم أسرع.",
+      "ipa": null,
+      "word_a": "prayed",
+      "word_b": "parade"
+    },
+    {
+      "group_label": "Consonant Clusters",
+      "group_label_ar": "تجمّع السواكن",
+      "hint_ar": "الإنجليزية تجمع ساكنين وثلاثة بلا حركة بينها: street و asked. والعربية تُدخل حركة فتصير «إستريت» — والمطلوب ألّا تُدخلها. ابدأ بطيئاً موصولاً ثم أسرع.",
+      "ipa": null,
+      "word_a": "steam",
+      "word_b": "esteem"
+    },
+    {
+      "group_label": "Consonant Clusters",
+      "group_label_ar": "تجمّع السواكن",
+      "hint_ar": "الإنجليزية تجمع ساكنين وثلاثة بلا حركة بينها: street و asked. والعربية تُدخل حركة فتصير «إستريت» — والمطلوب ألّا تُدخلها. ابدأ بطيئاً موصولاً ثم أسرع.",
+      "ipa": null,
+      "word_a": "claps",
+      "word_b": "collapse"
+    },
+    {
+      "group_label": "Consonant Clusters",
+      "group_label_ar": "تجمّع السواكن",
+      "hint_ar": "الإنجليزية تجمع ساكنين وثلاثة بلا حركة بينها: street و asked. والعربية تُدخل حركة فتصير «إستريت» — والمطلوب ألّا تُدخلها. ابدأ بطيئاً موصولاً ثم أسرع.",
+      "ipa": null,
+      "word_a": "sleep",
+      "word_b": "asleep"
     }
   ],
   "dialogues": [
@@ -2089,7 +2290,7 @@
       "title_ar": "القواعد — النفي والسؤال",
       "title_en": "Grammar — Negatives and Questions",
       "payload": {
-        "rule_ar": "المضارع البسيط لا يُنفى ولا يُسأل به مباشرة. يحتاج فعلاً مساعداً: do مع I و you و we و they، و does مع he و she و it. والقاعدة الحاسمة: بعد do أو does يأتي الفعل **مجرّداً** — لأن الـ s تنتقل إلى does.",
+        "rule_ar": "المضارع البسيط لا يُنفى ولا يُسأل به مباشرة. يحتاج فعلاً مساعداً: do مع I و you و we و they، و does مع he و she و it. والقاعدة الحاسمة: بعد do أو does يأتي الفعل مجرّداً — لأن الـ s تنتقل إلى does.",
         "rule_en": "I / You / We / They  +  don't   +  base verb",
         "table": {
           "columns_ar": [
@@ -2213,7 +2414,331 @@
           "الفعل مجرّد بعد do و does و don’t و doesn’t",
           "does مع he و she و it فقط",
           "how many للمعدود · how much لغير المعدود",
-          "any في النفي والسؤال · some في الإثبات"
+          "any في النفي والسؤال · some في الإثبات",
+          "بعد الفعل: me · him · her · it · us · them — ولا يُحذف المفعول",
+          "الكلام العامّ بلا the: I like coffee",
+          "I'd like للطلب المؤدّب · Would you like…? للعرض"
+        ],
+        "lessons": [
+          {
+            "title_ar": "ضمائر المفعول: me · him · her · them",
+            "title_en": "Object pronouns",
+            "explain_ar": "العربية تُلصق المفعول بالفعل: أحبّه، أعرفها، أشتريها. والإنجليزية تضع كلمة مستقلّة بعد الفعل: I like it · I know her · I buy them. ولا تحذفه أبداً — «Yes, I like» ناقصة، والصواب Yes, I like it. وتأتي بعد حروف الجرّ أيضاً: with me · for them.",
+            "table": {
+              "columns_ar": [
+                "الفاعل",
+                "المفعول",
+                "مثال",
+                "بالعربية"
+              ],
+              "rows": [
+                [
+                  "I",
+                  "me",
+                  "My mother calls me every day.",
+                  "أمي تتصل بي كل يوم"
+                ],
+                [
+                  "you",
+                  "you",
+                  "I see you on Fridays.",
+                  "أراك أيام الجمعة"
+                ],
+                [
+                  "he",
+                  "him",
+                  "I know him.",
+                  "أعرفه"
+                ],
+                [
+                  "she",
+                  "her",
+                  "We visit her every week.",
+                  "نزورها كل أسبوع"
+                ],
+                [
+                  "it",
+                  "it",
+                  "I like it.",
+                  "أحبّه"
+                ],
+                [
+                  "we",
+                  "us",
+                  "They help us.",
+                  "يساعدوننا"
+                ],
+                [
+                  "they",
+                  "them",
+                  "I buy them at the market.",
+                  "أشتريها من السوق"
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                3
+              ]
+            },
+            "errors": [
+              {
+                "wrong": "Do you like apples? — Yes, I like.",
+                "right": "Yes, I like them.",
+                "why_ar": "like يحتاج مفعولاً بعده"
+              },
+              {
+                "wrong": "I love they.",
+                "right": "I love them.",
+                "why_ar": "بعد الفعل ضمير المفعول them لا they"
+              },
+              {
+                "wrong": "He doesn't know she.",
+                "right": "He doesn't know her.",
+                "why_ar": "she فاعل، و her مفعول"
+              }
+            ],
+            "tip_ar": "her كلمة واحدة لعملين: ملكية (her name — الأسبوع الأول) ومفعول (I know her)."
+          },
+          {
+            "title_ar": "الجواب القصير: Yes, I do · No, she doesn't",
+            "title_en": "Short answers with do / does",
+            "explain_ar": "على سؤال Do / Does لا تكفي Yes وحدها، ولا تكرّر الجملة كلها. الجواب القصير = Yes أو No + الضمير + do أو does: Do you like fish? — Yes, I do. Does she eat meat? — No, she doesn't. ولا يأتي فيه الفعل الرئيسي: لا تقل Yes, I like.",
+            "table": {
+              "columns_ar": [
+                "السؤال",
+                "الجواب القصير",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "Do you…?",
+                  "Yes, I do.",
+                  "Do you like fish? Yes, I do."
+                ],
+                [
+                  "Do you…?",
+                  "No, I don't.",
+                  "Do you eat meat? No, I don't."
+                ],
+                [
+                  "Does he…?",
+                  "Yes, he does.",
+                  "Does he cook? Yes, he does."
+                ],
+                [
+                  "Does she…?",
+                  "No, she doesn't.",
+                  "Does she drink coffee? No, she doesn't."
+                ],
+                [
+                  "Do they…?",
+                  "Yes, they do.",
+                  "Do they have children? Yes, they do."
+                ]
+              ],
+              "say": 2
+            },
+            "errors": [
+              {
+                "wrong": "Do you like tea? — Yes, I like.",
+                "right": "Yes, I do.",
+                "why_ar": "الجواب القصير بـ do لا بالفعل"
+              },
+              {
+                "wrong": "Does she work here? — Yes, she do.",
+                "right": "Yes, she does.",
+                "why_ar": "السؤال بـ does والجواب بـ does"
+              },
+              {
+                "wrong": "Do they have a car? — No, they not.",
+                "right": "No, they don't.",
+                "why_ar": "النفي بـ don't لا not وحدها"
+              }
+            ]
+          },
+          {
+            "title_ar": "a أم the؟",
+            "title_en": "a / an or the",
+            "explain_ar": "a و an لشيء يُذكر أول مرة أو لأيّ واحد من نوعه: I have a son. و the لشيء معروف للطرفين أو ذُكر قبل: The son is ten. والعربية تعرّف بـ«الـ» أكثر من الإنجليزية: «أحبّ القهوة» = I like coffee بلا the، لأنك تقصد القهوة عموماً لا قهوة بعينها.",
+            "examples": [
+              {
+                "en": "I have a son and a daughter. The son is ten.",
+                "ar": "أول مرة a، ثم the لأنه صار معروفاً."
+              },
+              {
+                "en": "I like coffee.",
+                "ar": "أحبّ القهوة — عموماً، فلا the."
+              },
+              {
+                "en": "Can we have the bill, please?",
+                "ar": "الحساب معروف للطرفين — the."
+              },
+              {
+                "en": "The bread here is very fresh.",
+                "ar": "خبز هذا المكان بعينه — the."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "I like the coffee.",
+                "right": "I like coffee.",
+                "why_ar": "الكلام العامّ بلا the"
+              },
+              {
+                "wrong": "I have the breakfast at seven.",
+                "right": "I have breakfast at seven.",
+                "why_ar": "الوجبات بلا أداة"
+              },
+              {
+                "wrong": "The life is beautiful.",
+                "right": "Life is beautiful.",
+                "why_ar": "المعاني العامّة بلا the"
+              }
+            ],
+            "tip_ar": "the تُنطق /ðə/ قبل الساكن (the bus) و/ðiː/ قبل الحركة (the apple)."
+          },
+          {
+            "title_ar": "الطلب المؤدّب: I'd like · Would you like",
+            "title_en": "would like",
+            "explain_ar": "I want مباشرة، وقد تبدو جافّة مع الغرباء. أمّا I would like — ويُختصر I'd like — فهو الطلب المؤدّب في المطعم والمحلّ. وبعده اسم (I'd like a coffee) أو to + فعل (I'd like to pay). والعرض المؤدّب Would you like…? = هل تودّ…؟ وجوابه Yes, please أو No, thank you.",
+            "table": {
+              "columns_ar": [
+                "الغرض",
+                "الكلمات",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "طلب شيء",
+                  "I'd like",
+                  "I'd like a coffee, please."
+                ],
+                [
+                  "طلب فعل",
+                  "I'd like to",
+                  "I'd like to pay, please."
+                ],
+                [
+                  "عرض",
+                  "Would you like",
+                  "Would you like some tea?"
+                ],
+                [
+                  "قبول",
+                  "Yes, please.",
+                  "Yes, please. With milk."
+                ],
+                [
+                  "رفض",
+                  "No, thank you.",
+                  "No, thank you. I'm fine."
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                0
+              ]
+            },
+            "errors": [
+              {
+                "wrong": "I like a coffee, please.",
+                "right": "I'd like a coffee, please.",
+                "why_ar": "I like = أحبّ عموماً · I'd like = أريد الآن بأدب"
+              },
+              {
+                "wrong": "Would you like tea? — Yes, I would like.",
+                "right": "Yes, please.",
+                "why_ar": "الجواب القصير المعتاد Yes, please"
+              },
+              {
+                "wrong": "I'd like pay.",
+                "right": "I'd like to pay.",
+                "why_ar": "قبل الفعل تأتي to"
+              }
+            ],
+            "tip_ar": "Do you like tea? = هل تحبّ الشاي عموماً؟ · Would you like tea? = هل تريد شاياً الآن؟ سؤالان مختلفان."
+          },
+          {
+            "title_ar": "كلمات لا تُجمع أبداً",
+            "title_en": "Uncountable nouns",
+            "explain_ar": "بعض الكلمات جمعٌ في العربية ومفردٌ لا يُجمع في الإنجليزية: «معلومات» = information، و«نصائح» = advice، و«أموال» = money. فلا تأخذ s ولا a، وفعلها is. وتعدّها بكلمة قبلها: a piece of advice · a loaf of bread · a bottle of water.",
+            "table": {
+              "columns_ar": [
+                "بالعربية",
+                "الكلمة",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "معلومات",
+                  "information",
+                  "I need some information."
+                ],
+                [
+                  "نصيحة · نصائح",
+                  "advice",
+                  "Can I give you some advice?"
+                ],
+                [
+                  "مال · أموال",
+                  "money",
+                  "I don't have much money."
+                ],
+                [
+                  "أثاث",
+                  "furniture",
+                  "The furniture is new."
+                ],
+                [
+                  "أخبار",
+                  "news",
+                  "The news is good."
+                ],
+                [
+                  "واجبات منزلية",
+                  "homework",
+                  "I have a lot of homework."
+                ],
+                [
+                  "خبز",
+                  "bread",
+                  "Some bread, please."
+                ],
+                [
+                  "أرز",
+                  "rice",
+                  "How much rice do you want?"
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                0
+              ]
+            },
+            "errors": [
+              {
+                "wrong": "some informations",
+                "right": "some information",
+                "why_ar": "information لا تُجمع"
+              },
+              {
+                "wrong": "an advice · advices",
+                "right": "some advice · a piece of advice",
+                "why_ar": "advice لا تأخذ a ولا s"
+              },
+              {
+                "wrong": "many moneys",
+                "right": "a lot of money · much money",
+                "why_ar": "money لا تُجمع، وتأخذ much لا many"
+              },
+              {
+                "wrong": "The news are good.",
+                "right": "The news is good.",
+                "why_ar": "news تنتهي بـ s لكنها مفرد: is"
+              }
+            ],
+            "tip_ar": "والاختبار كما في درس how much: إن لم تستطع أن تقول «two ___» فالكلمة لا تُجمع. two informations؟ لا ← information لا تُجمع."
+          }
         ]
       }
     },
@@ -2482,7 +3007,7 @@
           }
         ],
         "find_task_ar": "ابحث في النصّ عن: خمس جمل منفية بـ don’t أو doesn’t · سؤالاً واحداً · ثلاثة أمثلة على some أو any.",
-        "notice_ar": "لاحظ كم مرة تكرّر don’t و doesn’t في القصة. القصة كلها مبنية على ما **لا** يفعله ماريو — وهذا موضوع قواعد هذا الأسبوع."
+        "notice_ar": "لاحظ كم مرة تكرّر don’t و doesn’t في القصة. القصة كلها مبنية على ما لا يفعله ماريو — وهذا موضوع قواعد هذا الأسبوع."
       }
     },
     {
@@ -2556,7 +3081,7 @@
         "title_en": "The Full Restaurant Role Play",
         "intro_ar": null,
         "cover_ar": null,
-        "model_en": null,
+        "model_en": "Good evening. A table for two, please. // Near the window, if possible. // Thank you. Can I see the menu, please? //\nExcuse me, do you have any fish? // Is it spicy? // OK. Can I have some spicy sauce, then? // How much is the fish? // I'd like the fish, please, with a salad. //\nMy friend doesn't eat fish. What do you recommend? // The chicken with rice? Perfect — he likes chicken. // And can we have some bread too? //\nJust water for me, please. // And a tea for my friend. No sugar. // Thank you. //\nExcuse me! // Can we have the bill, please? // Twenty-four pounds? Do you take cards? // Thank you very much. Good night! //",
         "outline": [
           {
             "part_en": "Arriving",
@@ -3440,7 +3965,8 @@
       },
       "answer": {
         "accepted": [
-          "She doesn't buy potatoes there."
+          "She doesn't buy potatoes there.",
+          "She does not buy potatoes there."
         ]
       },
       "explanation": "النصّ يقول doesn’t buy — الفعل مجرّد.",
@@ -3509,7 +4035,8 @@
       },
       "answer": {
         "accepted": [
-          "Mario doesn't take cards."
+          "Mario doesn't take cards.",
+          "Mario does not take cards."
         ]
       },
       "explanation": "doesn’t + فعل مجرّد: doesn’t take.",
@@ -3533,6 +4060,545 @@
         ]
       },
       "explanation": "النصّ يسأل Does this system work? — بـ does والفعل مجرّد.",
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "prompt": "Do you like apples? — Yes, I like ______.",
+      "payload": {
+        "before": "Do you like apples? — Yes, I like",
+        "after": "."
+      },
+      "answer": {
+        "accepted": [
+          "them"
+        ]
+      },
+      "explanation": "apples جمع، وبعد الفعل يأتي ضمير المفعول them — ولا يُحذف.",
+      "focus_ar": "ضمائر المفعول — me · him · her · them",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 6,
+      "type": "fill_blank",
+      "prompt": "Lina is my colleague. I know ______ well.",
+      "payload": {
+        "before": "Lina is my colleague. I know",
+        "after": "well."
+      },
+      "answer": {
+        "accepted": [
+          "her"
+        ]
+      },
+      "explanation": "Lina امرأة، وبعد الفعل know يأتي ضمير المفعول her لا she.",
+      "focus_ar": "ضمائر المفعول — me · him · her · them",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 7,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "I love they."
+      },
+      "answer": {
+        "accepted": [
+          "I love them."
+        ]
+      },
+      "explanation": "they فاعل، وبعد الفعل يأتي المفعول them.",
+      "focus_ar": "ضمائر المفعول — me · him · her · them",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 8,
+      "type": "multiple_choice",
+      "prompt": "My father calls ______ every day.",
+      "payload": {
+        "options": [
+          "I",
+          "my",
+          "me",
+          "mine"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "بعد الفعل calls يأتي ضمير المفعول me — أي «يتصل بي».",
+      "focus_ar": "ضمائر المفعول — me · him · her · them",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 9,
+      "type": "multiple_choice",
+      "prompt": "تقصد أنك تحبّ القهوة عموماً. أي جملة صحيحة؟",
+      "payload": {
+        "options": [
+          "I like the coffee.",
+          "I like coffee.",
+          "I like a coffee.",
+          "I like coffees."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "الكلام العامّ بلا the — بعكس العربية «أحبّ القهوة».",
+      "focus_ar": "a أم the",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 10,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "I have the breakfast at seven."
+      },
+      "answer": {
+        "accepted": [
+          "I have breakfast at seven."
+        ]
+      },
+      "explanation": "الوجبات بلا أداة: have breakfast · have lunch · have dinner.",
+      "focus_ar": "a أم the",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 6,
+      "type": "fill_blank",
+      "prompt": "I'd ______ a glass of water, please.",
+      "payload": {
+        "before": "I'd",
+        "after": "a glass of water, please."
+      },
+      "answer": {
+        "accepted": [
+          "like"
+        ]
+      },
+      "explanation": "I'd like = I would like، الطلب المؤدّب.",
+      "focus_ar": "الطلب المؤدّب — I'd like",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 7,
+      "type": "multiple_choice",
+      "prompt": "النادل يسأل: Would you like some tea? وأنت تريده. ماذا تقول؟",
+      "payload": {
+        "options": [
+          "Yes, I would like.",
+          "Yes, please.",
+          "Yes, I like.",
+          "Yes, I want it tea."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "الجواب القصير المعتاد على Would you like…? هو Yes, please أو No, thank you.",
+      "focus_ar": "الطلب المؤدّب — I'd like",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 8,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "I like a coffee, please."
+      },
+      "answer": {
+        "accepted": [
+          "I'd like a coffee, please.",
+          "I would like a coffee, please."
+        ]
+      },
+      "explanation": "I like = أحبّ عموماً. للطلب الآن تقول I'd like.",
+      "focus_ar": "الطلب المؤدّب — I'd like",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 9,
+      "type": "fill_blank",
+      "prompt": "I'd like ______ pay, please.",
+      "payload": {
+        "before": "I'd like",
+        "after": "pay, please."
+      },
+      "answer": {
+        "accepted": [
+          "to"
+        ]
+      },
+      "explanation": "بعد I'd like يأتي اسم، أو to + فعل: I'd like to pay.",
+      "focus_ar": "الطلب المؤدّب — I'd like",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 10,
+      "type": "true_false",
+      "prompt": "Do you like fish? و Would you like fish? لهما المعنى نفسه.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "الأول: هل تحبّ السمك عموماً؟ والثاني: هل تريد سمكاً الآن؟",
+      "focus_ar": "الطلب المؤدّب — I'd like",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "prompt": "A kilo of ______, please. (tomato)",
+      "payload": {
+        "before": "A kilo of",
+        "after": ", please. (tomato)"
+      },
+      "answer": {
+        "accepted": [
+          "tomatoes"
+        ]
+      },
+      "explanation": "ساكن + o يأخذ es: tomato ← tomatoes. ومثلها potato ← potatoes.",
+      "focus_ar": "الجمع في كلمات الطعام",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "prompt": "Two kilos of ______, please. (potato)",
+      "payload": {
+        "before": "Two kilos of",
+        "after": ", please. (potato)"
+      },
+      "answer": {
+        "accepted": [
+          "potatoes"
+        ]
+      },
+      "explanation": "potato ← potatoes: ساكن + o يأخذ es.",
+      "focus_ar": "الجمع في كلمات الطعام",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 11,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "I need some informations."
+      },
+      "answer": {
+        "accepted": [
+          "I need some information."
+        ]
+      },
+      "explanation": "information لا تُجمع في الإنجليزية — ولو كانت «معلومات» جمعاً في العربية.",
+      "focus_ar": "كلمات لا تُجمع",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 12,
+      "type": "multiple_choice",
+      "prompt": "أي جملة صحيحة؟",
+      "payload": {
+        "options": [
+          "I have a lot of moneys.",
+          "I have a lot of money.",
+          "I have many money.",
+          "I have a money."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "money لا تُجمع ولا تأخذ a: a lot of money أو much money.",
+      "focus_ar": "كلمات لا تُجمع",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 13,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "Can you give me an advice?"
+      },
+      "answer": {
+        "accepted": [
+          "Can you give me some advice?",
+          "Can you give me a piece of advice?",
+          "Can you give me advice?"
+        ]
+      },
+      "explanation": "advice لا تأخذ a. قل some advice أو a piece of advice.",
+      "focus_ar": "كلمات لا تُجمع",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 14,
+      "type": "multiple_choice",
+      "prompt": "The news ______ good today.",
+      "payload": {
+        "options": [
+          "are",
+          "is",
+          "am",
+          "be"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "news تنتهي بـ s لكنها مفرد لا يُجمع، ففعلها is.",
+      "focus_ar": "كلمات لا تُجمع",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 15,
+      "type": "fill_blank",
+      "prompt": "Do you like fish? — Yes, I ______.",
+      "payload": {
+        "before": "Do you like fish? — Yes, I",
+        "after": "."
+      },
+      "answer": {
+        "accepted": [
+          "do"
+        ]
+      },
+      "explanation": "الجواب القصير يكرّر do لا الفعل: Yes, I do.",
+      "focus_ar": "الجواب القصير — do / does",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 16,
+      "type": "fill_blank",
+      "prompt": "Does he eat meat? — No, he ______.",
+      "payload": {
+        "before": "Does he eat meat? — No, he",
+        "after": "."
+      },
+      "answer": {
+        "accepted": [
+          "doesn't",
+          "does not"
+        ]
+      },
+      "explanation": "السؤال بـ does، والجواب المنفي No, he doesn't.",
+      "focus_ar": "الجواب القصير — do / does",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 17,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "Does she cook? — Yes, she do."
+      },
+      "answer": {
+        "accepted": [
+          "Yes, she does."
+        ]
+      },
+      "explanation": "she تأخذ does في السؤال والجواب.",
+      "focus_ar": "الجواب القصير — do / does",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 18,
+      "type": "multiple_choice",
+      "prompt": "Do they have children? — ___",
+      "payload": {
+        "options": [
+          "Yes, they have.",
+          "Yes, they do.",
+          "Yes, they does.",
+          "Yes, have."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "السؤال بـ Do فالجواب بـ do: Yes, they do.",
+      "focus_ar": "الجواب القصير — do / does",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 11,
+      "type": "multiple_choice",
+      "prompt": "I have a son. ___ son is ten.",
+      "payload": {
+        "options": [
+          "A",
+          "The",
+          "An",
+          "— (بلا أداة)"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "ذُكر الابن قبلُ فصار معروفاً: the.",
+      "focus_ar": "a أم the",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 12,
+      "type": "fill_blank",
+      "prompt": "Can I see ______ menu, please?",
+      "payload": {
+        "before": "Can I see",
+        "after": "menu, please?"
+      },
+      "answer": {
+        "accepted": [
+          "the"
+        ]
+      },
+      "explanation": "قائمة هذا المطعم معروفة للطرفين: the menu.",
+      "focus_ar": "a أم the",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 13,
+      "type": "multiple_choice",
+      "prompt": "تتكلّم عن الماء عموماً: ___ is good for you.",
+      "payload": {
+        "options": [
+          "The water",
+          "Water",
+          "A water",
+          "Waters"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "الكلام العامّ عن غير المعدود بلا أداة: Water is good for you.",
+      "focus_ar": "a أم the",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 3,
+      "type": "correct_error",
+      "focus_ar": "جمع دائماً: trousers · jeans · shoes",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "This trousers is cheap."
+      },
+      "answer": {
+        "accepted": [
+          "These trousers are cheap."
+        ]
+      },
+      "explanation": "trousers جمع دائماً، فتأخذ these وare: These trousers are cheap. والعربية «هذا البنطلون» مفرد — وهنا الفخّ.",
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 4,
+      "type": "fill_blank",
+      "focus_ar": "How much is / are",
+      "prompt": "How much ______ these shoes?",
+      "payload": {
+        "before": "How much",
+        "after": "these shoes?"
+      },
+      "answer": {
+        "accepted": [
+          "are"
+        ]
+      },
+      "explanation": "shoes جمع فتأخذ are: How much are these shoes? — ومع المفرد is: How much is this shirt?",
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "جمع دائماً: trousers · jeans · shoes",
+      "prompt": "ما معنى «بنطلون» بالإنجليزية؟",
+      "payload": {
+        "options": [
+          "a trouser",
+          "trousers",
+          "a shirt",
+          "a skirt"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "بنطلون = trousers، جمع دائماً لأن له ساقين — لا a trouser.",
+      "points": 1
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 6,
+      "type": "correct_error",
+      "focus_ar": "جمع دائماً: trousers · jeans · shoes",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "I want to buy a jeans."
+      },
+      "answer": {
+        "accepted": [
+          "I want to buy jeans.",
+          "I want to buy some jeans.",
+          "I want to buy a pair of jeans."
+        ]
+      },
+      "explanation": "jeans جمع فلا يأخذ a: some jeans أو a pair of jeans. والعربية «جينز» مفرد — وهنا الفخّ.",
       "points": 1
     }
   ]

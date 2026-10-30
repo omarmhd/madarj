@@ -93,24 +93,30 @@
         },
         {
           "order": 2,
+          "label": "القواعد — المقارنة والتفضيل",
+          "minutes": 10,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
           "label": "صفات المقارنة",
-          "minutes": 25,
+          "minutes": 15,
           "ref": "vocab:adjectives_for_comparing"
         },
         {
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
@@ -119,16 +125,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 15,
           "ref": "watch:JiI1UmfgprM"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
@@ -137,7 +143,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -153,12 +159,18 @@
         },
         {
           "order": 2,
-          "label": "النطق",
-          "minutes": 25,
-          "ref": "section:phonics"
+          "label": "الملابس",
+          "minutes": 10,
+          "ref": "vocab:clothes"
         },
         {
           "order": 3,
+          "label": "النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
@@ -167,10 +179,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
@@ -179,16 +191,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 10,
           "ref": "watch:dgqFsUAuP24"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:error_hunt"
@@ -197,7 +209,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -1826,6 +1838,253 @@
       "sentence": "It is cheap. On the other hand, it is slow.",
       "sentence_ar": "إنه رخيص. من ناحية أخرى، هو بطيء.",
       "usage_ar": "قلها لتذكر الجانب المقابل، وغالباً في أول الجملة."
+    },
+    {
+      "group": "clothes",
+      "word": "clothes",
+      "ipa": "/kləʊðz/",
+      "arabic": "ملابس",
+      "example": null,
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "clothes",
+      "sentence": "I’m buying new clothes for the wedding.",
+      "sentence_ar": "أشتري ملابس جديدة للعرس.",
+      "usage_ar": "clothes جمع دائماً بلا مفرد — وتُنطق قريبة من close."
+    },
+    {
+      "group": "clothes",
+      "word": "shirt",
+      "ipa": "/ʃɜːt/",
+      "arabic": "قميص",
+      "example": null,
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "shirt",
+      "sentence": "He is wearing a white shirt.",
+      "sentence_ar": "هو يلبس قميصاً أبيض.",
+      "usage_ar": "wear يلبس — والماضي wore من الأسبوع الثامن."
+    },
+    {
+      "group": "clothes",
+      "word": "T-shirt",
+      "ipa": "/ˈtiː ʃɜːt/",
+      "arabic": "تي شيرت",
+      "example": null,
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "T-shirt",
+      "sentence": "This T-shirt is cheaper than that one.",
+      "sentence_ar": "هذا التي شيرت أرخص من ذاك.",
+      "usage_ar": "that one: ذاك — one بدل تكرار الاسم."
+    },
+    {
+      "group": "clothes",
+      "word": "trousers",
+      "ipa": "/ˈtraʊzəz/",
+      "arabic": "بنطلون",
+      "example": null,
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "trousers",
+      "sentence": "These trousers are too long.",
+      "sentence_ar": "هذا البنطلون طويل جداً.",
+      "usage_ar": "جمع دائماً: these trousers · a pair of trousers. وفي أمريكا pants."
+    },
+    {
+      "group": "clothes",
+      "word": "jeans",
+      "ipa": "/dʒiːnz/",
+      "arabic": "جينز",
+      "example": null,
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "jeans",
+      "sentence": "Everybody is wearing jeans today.",
+      "sentence_ar": "الجميع يلبس الجينز اليوم.",
+      "usage_ar": "جمع مثل trousers: My jeans are blue."
+    },
+    {
+      "group": "clothes",
+      "word": "dress",
+      "ipa": "/dres/",
+      "arabic": "فستان",
+      "example": null,
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "dress",
+      "sentence": "She is wearing a long red dress.",
+      "sentence_ar": "هي تلبس فستاناً أحمر طويلاً.",
+      "usage_ar": "dress الفستان، و clothes الملابس عامةً."
+    },
+    {
+      "group": "clothes",
+      "word": "skirt",
+      "ipa": "/skɜːt/",
+      "arabic": "تنّورة",
+      "example": null,
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "skirt",
+      "sentence": "Her skirt is longer than mine.",
+      "sentence_ar": "تنّورتها أطول من تنّورتي.",
+      "usage_ar": "صوت /ɜː/ كما في shirt."
+    },
+    {
+      "group": "clothes",
+      "word": "jacket",
+      "ipa": "/ˈdʒækɪt/",
+      "arabic": "جاكيت · سترة",
+      "example": null,
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "jacket",
+      "sentence": "This jacket is warmer than my old one.",
+      "sentence_ar": "هذا الجاكيت أدفأ من القديم.",
+      "usage_ar": "jacket أقصر وأخفّ من coat."
+    },
+    {
+      "group": "clothes",
+      "word": "coat",
+      "ipa": "/kəʊt/",
+      "arabic": "معطف",
+      "example": null,
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "coat",
+      "sentence": "It’s cold, so I’m wearing my coat.",
+      "sentence_ar": "الجوّ بارد، لذا ألبس معطفي.",
+      "usage_ar": "coat أطول وأثقل من jacket."
+    },
+    {
+      "group": "clothes",
+      "word": "suit",
+      "ipa": "/suːt/",
+      "arabic": "بدلة",
+      "example": null,
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "suit",
+      "sentence": "My father is wearing his best suit.",
+      "sentence_ar": "أبي يلبس أفضل بدلة عنده.",
+      "usage_ar": "تُنطق /suːt/ بلا y بعد s."
+    },
+    {
+      "group": "clothes",
+      "word": "jumper",
+      "ipa": "/ˈdʒʌmpə(r)/",
+      "arabic": "كنزة صوف",
+      "example": null,
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "jumper",
+      "sentence": "This jumper is warmer than that one.",
+      "sentence_ar": "هذه الكنزة أدفأ من تلك.",
+      "usage_ar": "في بريطانيا jumper، وفي أمريكا sweater."
+    },
+    {
+      "group": "clothes",
+      "word": "shoes",
+      "ipa": "/ʃuːz/",
+      "arabic": "حذاء",
+      "example": null,
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "shoes",
+      "sentence": "These shoes are more comfortable than my old ones.",
+      "sentence_ar": "هذا الحذاء أريح من القديم.",
+      "usage_ar": "a pair of shoes: زوج أحذية — ومفرده shoe."
+    },
+    {
+      "group": "clothes",
+      "word": "trainers",
+      "ipa": "/ˈtreɪnəz/",
+      "arabic": "حذاء رياضي",
+      "example": null,
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "trainers",
+      "sentence": "I’m wearing trainers because I’m walking to work.",
+      "sentence_ar": "ألبس حذاءً رياضياً لأنني أمشي إلى العمل.",
+      "usage_ar": "في بريطانيا trainers، وفي أمريكا sneakers."
+    },
+    {
+      "group": "clothes",
+      "word": "boots",
+      "ipa": "/buːts/",
+      "arabic": "جزمة · بوت",
+      "example": null,
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "boots",
+      "sentence": "You need boots in the mountains.",
+      "sentence_ar": "تحتاج جزمة في الجبال.",
+      "usage_ar": "مفرده boot."
+    },
+    {
+      "group": "clothes",
+      "word": "hat",
+      "ipa": "/hæt/",
+      "arabic": "قبّعة",
+      "example": null,
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "hat",
+      "sentence": "The man in the photo is wearing a hat.",
+      "sentence_ar": "الرجل في الصورة يلبس قبّعة.",
+      "usage_ar": "صوت /æ/ المفتوح كما في cat."
+    },
+    {
+      "group": "clothes",
+      "word": "scarf",
+      "ipa": "/skɑːf/",
+      "arabic": "وشاح",
+      "example": null,
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "scarf",
+      "sentence": "She is wearing a blue scarf.",
+      "sentence_ar": "هي تلبس وشاحاً أزرق.",
+      "usage_ar": "scarf للعنق، و headscarf للرأس."
+    },
+    {
+      "group": "clothes",
+      "word": "tie",
+      "ipa": "/taɪ/",
+      "arabic": "ربطة عنق",
+      "example": null,
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "tie",
+      "sentence": "He is wearing a tie for the interview.",
+      "sentence_ar": "هو يلبس ربطة عنق للمقابلة.",
+      "usage_ar": "wear a tie — و tie أيضاً فعل: يربط."
+    },
+    {
+      "group": "clothes",
+      "word": "socks",
+      "ipa": "/sɒks/",
+      "arabic": "جوارب",
+      "example": null,
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "socks",
+      "sentence": "My socks are wet!",
+      "sentence_ar": "جواربي مبلولة!",
+      "usage_ar": "مفرده sock، والزوج a pair of socks."
+    },
+    {
+      "group": "clothes",
+      "word": "try on",
+      "ipa": "/ˌtraɪ ˈɒn/",
+      "arabic": "يجرّب (ملابس)",
+      "example": null,
+      "group_label_ar": "الملابس",
+      "group_label_en": "Clothes",
+      "target": "try on",
+      "sentence": "Can I try on this jacket?",
+      "sentence_ar": "هل أستطيع تجربة هذا الجاكيت؟",
+      "usage_ar": "مع الضمير بين الكلمتين: Can I try it on?"
     }
   ],
   "minimal_pairs": [
@@ -2013,69 +2272,235 @@
   "sections": [
     {
       "kind": "grammar",
-      "day_number": 4,
-      "title_ar": "القواعد",
-      "title_en": "Grammar — Comparatives and Superlatives",
+      "day_number": 1,
+      "title_ar": "القواعد — المقارنة والتفضيل: الصيغة",
+      "title_en": "Grammar — Comparatives and superlatives: the form",
       "payload": {
-        "rule_ar": "المقارنة بين **اثنين** تحتاج صيغة المقارنة و than. والصفة القصيرة تأخذ -er، والطويلة تسبقها more. والتفضيل بين ثلاثة فأكثر يأخذ the + -est أو the most. والخطأ العربي الثابت: bigger **from** بدل bigger **than**، لأن العربية تقول «أكبر من».",
-        "rule_en": "COMPARATIVE  =  comparing TWO things       ->  A is bigger THAN B.",
+        "rule_ar": "المقارنة بين اثنين: الصفة + -er أو more، ثم than. والتفضيل بين ثلاثة فأكثر: the + -est أو the most. والقاعدة بحسب طول الصفة: القصيرة تأخذ -er، والطويلة تسبقها more. والخطأ العربي الثابت: bigger from بدل bigger than، لأن العربية تقول «أكبر من».",
+        "spelling_rules": [
+          {
+            "case_en": "One syllable",
+            "rule_en": "-er · the -est",
+            "examples": "old → older → the oldest"
+          },
+          {
+            "case_en": "One syllable ending in -e",
+            "rule_en": "-r · the -st",
+            "examples": "safe → safer → the safest"
+          },
+          {
+            "case_en": "One vowel + one consonant",
+            "rule_en": "double + -er · -est",
+            "examples": "big → bigger → the biggest"
+          },
+          {
+            "case_en": "Two syllables ending in -y",
+            "rule_en": "y → ier · iest",
+            "examples": "easy → easier → the easiest"
+          },
+          {
+            "case_en": "Two or more syllables",
+            "rule_en": "more · the most",
+            "examples": "expensive → more expensive → the most expensive"
+          }
+        ],
         "common_errors": [
           {
-            "error_no": 1,
-            "wrong": "bigger from",
-            "right": "bigger than",
-            "arabic": "أكبر من",
-            "why_ar": "المقارنة بـthan"
+            "wrong": "Cairo is bigger from Alexandria.",
+            "right": "Cairo is bigger than Alexandria.",
+            "why_ar": "المقارنة بـthan — قل bigger than بصوت عالٍ عشرين مرة اليوم"
           },
           {
-            "error_no": 2,
-            "wrong": "very better",
-            "right": "much better",
-            "arabic": "أفضل بكثير",
-            "why_ar": "very لا تصلح مع صيغة المقارنة"
-          },
-          {
-            "error_no": 3,
-            "wrong": "more beautifuller",
-            "right": "more beautiful",
-            "arabic": "هذا أجمل",
+            "wrong": "This is more bigger.",
+            "right": "This is bigger.",
             "why_ar": "لا تجمع more مع -er"
           },
           {
-            "error_no": 4,
-            "wrong": "He is best",
+            "wrong": "He is best.",
             "right": "He is the best.",
-            "arabic": "هو الأفضل",
             "why_ar": "صيغة التفضيل تحتاج the"
-          },
-          {
-            "error_no": 5,
-            "wrong": "isn't as bigger as Cairo",
-            "right": "isn't as big as Cairo",
-            "arabic": "ليست كبيرة مثل القاهرة",
-            "why_ar": "الصفة مجرّدة داخل as … as"
-          },
-          {
-            "error_no": 6,
-            "wrong": "I prefer tea than coffee",
-            "right": "I prefer tea to coffee.",
-            "arabic": "أفضّل الشاي على القهوة",
-            "why_ar": "prefer X to Y"
-          },
-          {
-            "error_no": 7,
-            "wrong": "worser than",
-            "right": "worse than",
-            "arabic": "أسوأ من",
-            "why_ar": "worse صيغة مقارنة أصلاً"
           }
         ],
         "checklist_ar": [
           "than لا from بعد صيغة المقارنة",
           "الصفة القصيرة -er · الطويلة more",
           "التفضيل يسبقه the دائماً",
-          "الشاذة: good → better → the best",
-          "as … as للتساوي · not as … as لنفيه"
+          "الشاذة: good → better → the best"
+        ],
+        "lessons": [
+          {
+            "title_ar": "الصفات الستّ الشاذّة",
+            "title_en": "The six irregulars",
+            "explain_ar": "هذه الستّ لا تتبع قاعدة — احفظها اليوم.",
+            "table": {
+              "columns_ar": [
+                "الصفة",
+                "المقارنة",
+                "التفضيل",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "good",
+                  "better",
+                  "the best",
+                  "This is the best restaurant in the city."
+                ],
+                [
+                  "bad",
+                  "worse",
+                  "the worst",
+                  "Today was worse than yesterday."
+                ],
+                [
+                  "far",
+                  "further / farther",
+                  "the furthest",
+                  "The station is further than the bank."
+                ],
+                [
+                  "many / much",
+                  "more",
+                  "the most",
+                  "She has more time than me."
+                ],
+                [
+                  "little",
+                  "less",
+                  "the least",
+                  "I spend less money now."
+                ],
+                [
+                  "old (family)",
+                  "elder",
+                  "the eldest",
+                  "My elder brother lives in Dubai."
+                ]
+              ],
+              "say": 3
+            },
+            "errors": [
+              {
+                "wrong": "worser than",
+                "right": "worse than",
+                "why_ar": "worse صيغة مقارنة أصلاً"
+              },
+              {
+                "wrong": "more better",
+                "right": "better",
+                "why_ar": "better صيغة مقارنة أصلاً"
+              }
+            ],
+            "tip_ar": "gooder و bader و worser لا وجود لها. و elder للعائلة وحدها وقبل الاسم: my elder brother — ولا تأتي مع than: He is older than me."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 3,
+      "title_ar": "القواعد — as … as وقوّة المقارنة",
+      "title_en": "Grammar — as … as, much and a bit",
+      "payload": {
+        "rule_ar": "للتساوي: as + الصفة + as. ولنفيه: not as … as، ومعناه أن الأول أقلّ: Alexandria isn’t as big as Cairo = Alexandria is smaller than Cairo. والصفة داخل as … as مجرّدة دائماً.",
+        "common_errors": [
+          {
+            "wrong": "isn’t as bigger as Cairo",
+            "right": "isn’t as big as Cairo",
+            "why_ar": "الصفة مجرّدة داخل as … as"
+          },
+          {
+            "wrong": "very better",
+            "right": "much better",
+            "why_ar": "very لا تصلح مع صيغة المقارنة"
+          },
+          {
+            "wrong": "more beautifuller",
+            "right": "more beautiful",
+            "why_ar": "لا تجمع more مع -er"
+          },
+          {
+            "wrong": "I prefer tea than coffee.",
+            "right": "I prefer tea to coffee.",
+            "why_ar": "prefer X to Y"
+          }
+        ],
+        "checklist_ar": [
+          "as … as للتساوي · not as … as لنفيه",
+          "الصفة مجرّدة داخل as … as",
+          "much bigger لا very bigger",
+          "prefer X to Y"
+        ],
+        "lessons": [
+          {
+            "title_ar": "as … as — التساوي ونفيه",
+            "title_en": "as … as",
+            "explain_ar": "as + الصفة المجرّدة + as. وفي النفي not as … as: الأول أقلّ من الثاني.",
+            "examples": [
+              {
+                "en": "My flat is as big as yours.",
+                "ar": "شقّتي كبيرة مثل شقّتك"
+              },
+              {
+                "en": "Alexandria isn’t as big as Cairo.",
+                "ar": "الإسكندرية ليست كبيرة مثل القاهرة"
+              },
+              {
+                "en": "The train isn’t as fast as the plane.",
+                "ar": "القطار ليس سريعاً مثل الطائرة"
+              }
+            ]
+          },
+          {
+            "title_ar": "تقوية المقارنة وتخفيفها",
+            "title_en": "Making a comparison stronger or weaker",
+            "explain_ar": "كلمة واحدة قبل صيغة المقارنة تغيّر قوّتها.",
+            "table": {
+              "columns_ar": [
+                "القوّة",
+                "الكلمة",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "قويّة",
+                  "much · far · a lot",
+                  "It is much cheaper."
+                ],
+                [
+                  "بلا تغيير",
+                  "—",
+                  "It is cheaper."
+                ],
+                [
+                  "خفيفة",
+                  "a bit · a little · slightly",
+                  "It is a bit more expensive."
+                ],
+                [
+                  "متساوية",
+                  "just as … as",
+                  "It is just as good."
+                ],
+                [
+                  "تأكيد التفضيل",
+                  "by far",
+                  "It is by far the best."
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                0
+              ]
+            },
+            "errors": [
+              {
+                "wrong": "very bigger",
+                "right": "much bigger",
+                "why_ar": "very مع الصفة المجرّدة وحدها: very big"
+              }
+            ]
+          }
         ]
       }
     },

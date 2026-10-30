@@ -461,6 +461,112 @@
           "المستقبل: will · going to · المستمر",
           "النفي والسؤال لكل زمن بفعله المساعد",
           "العشرة أخطاء الممنوعة تُقرأ يومياً"
+        ],
+        "table": {
+          "columns_ar": [
+            "الزمن",
+            "الإثبات",
+            "النفي",
+            "السؤال"
+          ],
+          "rows": [
+            [
+              "المضارع البسيط",
+              "He works.",
+              "He doesn’t work.",
+              "Does he work?"
+            ],
+            [
+              "المضارع المستمر",
+              "He is working.",
+              "He isn’t working.",
+              "Is he working?"
+            ],
+            [
+              "الماضي — be",
+              "He was here.",
+              "He wasn’t here.",
+              "Was he here?"
+            ],
+            [
+              "الماضي — قياسي",
+              "He worked.",
+              "He didn’t work.",
+              "Did he work?"
+            ],
+            [
+              "الماضي — شاذّ",
+              "He went.",
+              "He didn’t go.",
+              "Did he go?"
+            ],
+            [
+              "going to",
+              "He is going to work.",
+              "He isn’t going to work.",
+              "Is he going to work?"
+            ],
+            [
+              "will",
+              "He will work.",
+              "He won’t work.",
+              "Will he work?"
+            ]
+          ],
+          "say": 1,
+          "ar_cols": [
+            0
+          ]
+        },
+        "lessons": [
+          {
+            "title_ar": "أيّ زمن؟ ستة أسئلة بالترتيب",
+            "title_en": "Which tense? The decision tree",
+            "explain_ar": "اسأل نفسك بالترتيب، وأوّل «نعم» تختار زمنك:",
+            "table": {
+              "columns_ar": [
+                "السؤال",
+                "الزمن",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "انتهى في الماضي؟",
+                  "Past Simple",
+                  "I worked yesterday."
+                ],
+                [
+                  "يحدث الآن، أو مؤقّت؟",
+                  "Present Continuous",
+                  "I am working today."
+                ],
+                [
+                  "عادة أو روتين أو حقيقة دائمة؟",
+                  "Present Simple",
+                  "I work in a bank."
+                ],
+                [
+                  "خطة مقرّرة سلفاً؟",
+                  "going to",
+                  "I am going to change jobs."
+                ],
+                [
+                  "موعد بتاريخ ومع أشخاص؟",
+                  "Present Continuous",
+                  "I am meeting her at six."
+                ],
+                [
+                  "رأي أو عرض أو وعد أو قرار لحظيّ؟",
+                  "will",
+                  "I will help you."
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                0
+              ]
+            }
+          }
         ]
       }
     },

@@ -3,8 +3,13 @@
   "after_week": 6,
   "title_ar": "اختبار المستوى A1",
   "title_en": "A1 Level Test",
-  "minutes": 35,
+  "minutes": 48,
   "pass_percent": 60,
+  "section_min_percent": 40,
+  "requires": {
+    "week": 6,
+    "kind": "conversation"
+  },
   "modeled_on": "Cambridge A1 Movers / Flyers task styles, CEFR A1 can-do descriptors",
   "tips_ar": [
     "اقرأ السؤال قبل أن تسمع أو تقرأ النصّ.",
@@ -264,6 +269,94 @@
                   "5",
                   "five"
                 ]
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "امرأة في فندق، وموظّف الاستقبال.",
+          "audio": [
+            {
+              "g": "m",
+              "text": "Good morning. Welcome to the Nile Hotel. What's your name, please?"
+            },
+            {
+              "g": "f",
+              "text": "Good morning. My name is Lina Haddad."
+            },
+            {
+              "g": "m",
+              "text": "How do you spell your first name?"
+            },
+            {
+              "g": "f",
+              "text": "L-I-N-A. Lina."
+            },
+            {
+              "g": "m",
+              "text": "And your surname?"
+            },
+            {
+              "g": "f",
+              "text": "H-A-double D-A-D. Haddad."
+            },
+            {
+              "g": "m",
+              "text": "Thank you. Here is your key. Room twelve."
+            },
+            {
+              "g": "f",
+              "text": "Thanks. Is it cold outside?"
+            },
+            {
+              "g": "m",
+              "text": "No, it isn't. It's sunny and warm today."
+            }
+          ],
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "How does the woman spell her surname?",
+              "payload": {
+                "options": [
+                  "HADAD",
+                  "HEDDAD",
+                  "HADDAD"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Which letter is double in her surname?",
+              "payload": {
+                "options": [
+                  "A",
+                  "D",
+                  "H"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "What is the weather like today?",
+              "payload": {
+                "options": [
+                  "Cold and rainy",
+                  "Sunny and warm",
+                  "Cloudy and windy"
+                ]
+              },
+              "answer": {
+                "correct": 1
               },
               "points": 1
             }
@@ -643,6 +736,164 @@
               "points": 1
             }
           ]
+        },
+        {
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "This is my sister. ___ name is Huda.",
+              "payload": {
+                "options": [
+                  "His",
+                  "Her",
+                  "She"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Do you like apples? — Yes, I like ___.",
+              "payload": {
+                "options": [
+                  "they",
+                  "their",
+                  "them"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "___ are my children.",
+              "payload": {
+                "options": [
+                  "This",
+                  "These",
+                  "That"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "My brother ___ two cars.",
+              "payload": {
+                "options": [
+                  "have",
+                  "has",
+                  "haves"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "I don't work ___ Friday.",
+              "payload": {
+                "options": [
+                  "in",
+                  "at",
+                  "on"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Waiter: What would you like? — ___ a coffee, please.",
+              "payload": {
+                "options": [
+                  "I like",
+                  "I'd like",
+                  "I'm like"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "She has ___ hair.",
+              "payload": {
+                "options": [
+                  "long",
+                  "a long",
+                  "longs"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "These trousers ___ cheap.",
+              "payload": {
+                "options": [
+                  "is",
+                  "are",
+                  "am"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Look! It ___ .",
+              "payload": {
+                "options": [
+                  "rains",
+                  "is raining",
+                  "raining"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "I like ___ .",
+              "payload": {
+                "options": [
+                  "cat",
+                  "the cats",
+                  "cats"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            }
+          ]
         }
       ]
     },
@@ -802,6 +1053,177 @@
                   "tennis",
                   "chess",
                   "sofa"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «أزرق»",
+              "payload": {
+                "options": [
+                  "blue",
+                  "brown",
+                  "black"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the number: 90",
+              "payload": {
+                "options": [
+                  "nineteen",
+                  "ninety",
+                  "nine hundred"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Complete:",
+              "payload": {
+                "before": "I'm from Jordan. I'm ",
+                "after": "."
+              },
+              "answer": {
+                "accepted": [
+                  "Jordanian"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Complete:",
+              "payload": {
+                "before": "one child, two ",
+                "after": ""
+              },
+              "answer": {
+                "accepted": [
+                  "children"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Complete:",
+              "payload": {
+                "before": "We live on the ",
+                "after": " floor. (3)"
+              },
+              "answer": {
+                "accepted": [
+                  "third",
+                  "3rd"
+                ]
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «قميص»",
+              "payload": {
+                "options": [
+                  "shirt",
+                  "skirt",
+                  "shoes"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «أسنان»",
+              "payload": {
+                "options": [
+                  "tooths",
+                  "teeth",
+                  "teeths"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «طويل (للأشخاص)»",
+              "payload": {
+                "options": [
+                  "long",
+                  "high",
+                  "tall"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «الشتاء»",
+              "payload": {
+                "options": [
+                  "summer",
+                  "winter",
+                  "spring"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «حصان»",
+              "payload": {
+                "options": [
+                  "horse",
+                  "house",
+                  "camel"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Choose the English word for: «مطر»",
+              "payload": {
+                "options": [
+                  "snow",
+                  "wind",
+                  "rain"
                 ]
               },
               "answer": {
@@ -981,6 +1403,57 @@
                 "accepted": [
                   "don't",
                   "do not"
+                ]
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "instructions_ar": "رتّب الكلمات لتصنع جملة.",
+          "items": [
+            {
+              "type": "order_words",
+              "prompt": "Put the words in order.",
+              "payload": {
+                "words": [
+                  "have",
+                  "house.",
+                  "We",
+                  "white",
+                  "a"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "We",
+                  "have",
+                  "a",
+                  "white",
+                  "house."
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "order_words",
+              "prompt": "Put the words in order.",
+              "payload": {
+                "words": [
+                  "brother's",
+                  "big.",
+                  "room",
+                  "My",
+                  "is"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "My",
+                  "brother's",
+                  "room",
+                  "is",
+                  "big."
                 ]
               },
               "points": 1

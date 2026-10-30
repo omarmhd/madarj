@@ -23,6 +23,8 @@ interface TestRow {
   minutes: number;
   items: number;
   available: boolean;
+  /** The week note the test still waits for, e.g. the week 6 conversation */
+  needs_note: { week: number; kind: string } | null;
   passed: boolean;
   best: number | null;
   certificate: string | null;
@@ -109,7 +111,9 @@ export default function Index({ tests, current_week }: { tests: TestRow[]; curre
                 {!t.available ? (
                   <p className="flex items-center gap-1.5 text-sm text-slate-500">
                     <Lock aria-hidden size={15} />
-                    {tr('يُفتح حين تصل إلى الأسبوع :w. أنت الآن في الأسبوع :c.', { w: t.after_week, c: current_week })}
+                    {t.needs_note && current_week >= t.after_week
+                      ? tr('يُفتح بعد أن تُجري «أوّل محادثة» في الأسبوع :w وتكتب ما جرى فيها. الاختبار لا يسمع كلامك، فالمحادثة هي دليل التحدّث.', { w: t.needs_note.week })
+                      : tr('يُفتح حين تصل إلى الأسبوع :w. أنت الآن في الأسبوع :c.', { w: t.after_week, c: current_week })}
                   </p>
                 ) : waiting ? (
                   <p className="text-sm text-amber-700">

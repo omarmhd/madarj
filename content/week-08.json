@@ -157,12 +157,18 @@
         },
         {
           "order": 2,
-          "label": "الأفعال الشاذة الثمانون",
-          "minutes": 25,
-          "ref": "vocab:the_80_irregular_verbs"
+          "label": "القواعد — النفي بـdidn’t",
+          "minutes": 10,
+          "ref": "section:grammar"
         },
         {
           "order": 3,
+          "label": "الأفعال الشاذة الثمانون",
+          "minutes": 15,
+          "ref": "vocab:the_80_irregular_verbs"
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
@@ -171,10 +177,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
@@ -183,16 +189,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 10,
           "ref": "watch:jy88ejZrPWw"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:error_hunt"
@@ -201,7 +207,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -217,12 +223,18 @@
         },
         {
           "order": 2,
-          "label": "الأفعال الشاذة الثمانون",
-          "minutes": 25,
-          "ref": "vocab:the_80_irregular_verbs"
+          "label": "القواعد — السؤال بـdid",
+          "minutes": 10,
+          "ref": "section:grammar"
         },
         {
           "order": 3,
+          "label": "الأفعال الشاذة الثمانون",
+          "minutes": 15,
+          "ref": "vocab:the_80_irregular_verbs"
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
@@ -231,10 +243,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
@@ -243,16 +255,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "قصة اليوم",
           "minutes": 10,
           "ref": "story:oak-and-reeds"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
@@ -261,7 +273,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -2318,69 +2330,207 @@
   "sections": [
     {
       "kind": "grammar",
-      "day_number": 4,
-      "title_ar": "القواعد",
-      "title_en": "Grammar — Past Negatives and Questions",
+      "day_number": 2,
+      "title_ar": "القواعد — النفي في الماضي: didn’t",
+      "title_en": "Grammar — Past negatives: didn’t",
       "payload": {
-        "rule_ar": "الأفعال الشاذة لا قاعدة لها — تُحفظ. لكن السؤال والنفي في الماضي لهما قاعدة واحدة تُريحك: مع did و didn’t يعود الفعل **مجرّداً** دائماً، لأن الزمن انتقل إلى did. فمن يقول I didn’t went يضع الماضي مرتين.",
-        "rule_en": "EVERY subject:   SUBJECT + didn't + BASE VERB",
+        "rule_ar": "الأفعال الشاذة لا قاعدة لها — تُحفظ. لكن النفي في الماضي له قاعدة واحدة تُريحك منها: بعد didn’t يعود الفعل مجرّداً دائماً، لأن الزمن انتقل إلى did. فمن يقول I didn’t went يضع الماضي مرتين. ومعنى هذا أنك لا تحتاج الصيغة الشاذة إلا في الإثبات.",
+        "table": {
+          "columns_ar": [
+            "الإثبات",
+            "النفي"
+          ],
+          "rows": [
+            [
+              "I went to Spain.",
+              "I didn’t go to Spain."
+            ],
+            [
+              "She saw the film.",
+              "She didn’t see the film."
+            ],
+            [
+              "They bought a car.",
+              "They didn’t buy a car."
+            ],
+            [
+              "He worked yesterday.",
+              "He didn’t work yesterday."
+            ]
+          ],
+          "say": 1
+        },
+        "article_rule_ar": "الاستثناء: was و were لا تأخذان didn’t. نفيهما wasn’t و weren’t — I wasn’t tired لا I didn’t be tired.",
+        "negation_ar": "لكل الفاعلين: الفاعل + didn’t + فعل مجرّد — I didn’t go · He didn’t go · They didn’t go",
         "common_errors": [
           {
-            "error_no": 1,
-            "wrong": "I didn't went",
-            "right": "I didn't go.",
-            "arabic": "لم أذهب",
+            "wrong": "I didn’t went.",
+            "right": "I didn’t go.",
             "why_ar": "فعل مجرّد بعد didn’t"
           },
           {
-            "error_no": 2,
-            "wrong": "Did you went?",
-            "right": "Did you go?",
-            "arabic": "هل ذهبت؟",
-            "why_ar": "فعل مجرّد بعد did"
+            "wrong": "He didn’t worked.",
+            "right": "He didn’t work.",
+            "why_ar": "الماضي في did وحدها، لا في الفعل"
           },
           {
-            "error_no": 3,
-            "wrong": "Where you went?",
-            "right": "Where did you go?",
-            "arabic": "أين ذهبت؟",
-            "why_ar": "السؤال يحتاج did"
-          },
-          {
-            "error_no": 4,
-            "wrong": "I didn't be tired",
-            "right": "I wasn't tired.",
-            "arabic": "لم أكن متعباً",
+            "wrong": "I didn’t be tired.",
+            "right": "I wasn’t tired.",
             "why_ar": "فعل be لا يستخدم did"
           },
           {
-            "error_no": 5,
-            "wrong": "Did you be there?",
-            "right": "Were you there?",
-            "arabic": "هل كنت هناك؟",
-            "why_ar": "السبب نفسه"
-          },
-          {
-            "error_no": 6,
-            "wrong": "Yes, I went. (as a short answer)",
-            "right": "Yes, I did.",
-            "arabic": "نعم، ذهبت",
-            "why_ar": "الجواب القصير بـdid"
-          },
-          {
-            "error_no": 7,
-            "wrong": "He buyed a car",
+            "wrong": "He buyed a car.",
             "right": "He bought a car.",
-            "arabic": "هو اشترى سيارة",
-            "why_ar": "buy فعل شاذّ"
+            "why_ar": "buy فعل شاذّ — يُحفظ"
           }
         ],
         "checklist_ar": [
           "بعد didn’t فعل مجرّد: didn’t go لا didn’t went",
+          "was و were بلا did: wasn’t · weren’t",
+          "الصيغة الشاذة للإثبات وحده: I went · I didn’t go"
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 3,
+      "title_ar": "القواعد — السؤال في الماضي: did وأدوات الاستفهام",
+      "title_en": "Grammar — Past questions with did",
+      "payload": {
+        "rule_ar": "السؤال بنعم أو لا: Did + الفاعل + فعل مجرّد؟ والجواب القصير بـdid لا بالفعل: Yes, I did · No, I didn’t. ومع أداة الاستفهام: الأداة + did + الفاعل + فعل مجرّد. والعربية تسأل بلا فعل مساعد — «أين ذهبت؟» — فيخرج Where you went? وهو أشهر أخطاء هذا الأسبوع.",
+        "table": {
+          "columns_ar": [
+            "السؤال",
+            "نعم",
+            "لا"
+          ],
+          "rows": [
+            [
+              "Did you enjoy the trip?",
+              "Yes, I did.",
+              "No, I didn’t."
+            ],
+            [
+              "Did he buy a ticket?",
+              "Yes, he did.",
+              "No, he didn’t."
+            ],
+            [
+              "Were you tired?",
+              "Yes, I was.",
+              "No, I wasn’t."
+            ]
+          ],
+          "say": 0
+        },
+        "question_words": [
+          {
+            "en": "What",
+            "ar": "ماذا",
+            "example": "What did you do last weekend?"
+          },
+          {
+            "en": "Where",
+            "ar": "أين",
+            "example": "Where did you go?"
+          },
+          {
+            "en": "When",
+            "ar": "متى",
+            "example": "When did you arrive?"
+          },
+          {
+            "en": "Who",
+            "ar": "مَن · مع مَن",
+            "example": "Who did you go with?"
+          },
+          {
+            "en": "Why",
+            "ar": "لماذا",
+            "example": "Why did you leave early?"
+          },
+          {
+            "en": "How",
+            "ar": "كيف",
+            "example": "How did you travel?"
+          },
+          {
+            "en": "How long",
+            "ar": "كم من الوقت",
+            "example": "How long did it take?"
+          },
+          {
+            "en": "How much",
+            "ar": "بكم",
+            "example": "How much did it cost?"
+          }
+        ],
+        "common_errors": [
+          {
+            "wrong": "Did you went?",
+            "right": "Did you go?",
+            "why_ar": "فعل مجرّد بعد did"
+          },
+          {
+            "wrong": "Where you went?",
+            "right": "Where did you go?",
+            "why_ar": "السؤال يحتاج did"
+          },
+          {
+            "wrong": "Did you be there?",
+            "right": "Were you there?",
+            "why_ar": "فعل be لا يستخدم did"
+          },
+          {
+            "wrong": "Yes, I went. (as a short answer)",
+            "right": "Yes, I did.",
+            "why_ar": "الجواب القصير بـdid"
+          }
+        ],
+        "checklist_ar": [
           "السؤال: Did + فاعل + فعل مجرّد",
           "الجواب القصير: Yes, I did · No, I didn’t",
-          "أدوات الاستفهام الثماني تعمل كلها مع did",
+          "أدوات الاستفهام الثماني: الأداة + did + فاعل + فعل",
           "الأفعال الشاذة تُحفظ بالنطق لا بالإملاء"
+        ],
+        "lessons": [
+          {
+            "title_ar": "الصورة الكاملة في جدول واحد",
+            "title_en": "The complete picture",
+            "explain_ar": "اقرأ هذا الجدول بصوت عالٍ حتى يصير النمط تلقائياً — هو الماضي البسيط كلّه في ثلاثة أسطر.",
+            "table": {
+              "columns_ar": [
+                "النوع",
+                "الإثبات",
+                "النفي",
+                "السؤال"
+              ],
+              "rows": [
+                [
+                  "be",
+                  "I was tired.",
+                  "I wasn’t tired.",
+                  "Was I tired?"
+                ],
+                [
+                  "قياسي",
+                  "I worked.",
+                  "I didn’t work.",
+                  "Did I work?"
+                ],
+                [
+                  "شاذّ",
+                  "I went.",
+                  "I didn’t go.",
+                  "Did I go?"
+                ]
+              ],
+              "say": 1,
+              "ar_cols": [
+                0
+              ]
+            }
+          }
         ]
       }
     },

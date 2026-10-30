@@ -13,7 +13,7 @@ class LevelTestAttempt extends Model
 
     protected $fillable = [
         'user_id', 'level_test_id', 'started_at', 'deadline_at', 'submitted_at',
-        'answers', 'score', 'max', 'sections', 'focus_lost', 'passed',
+        'answers', 'score', 'max', 'sections', 'self_assessment', 'focus_lost', 'passed',
     ];
 
     protected $casts = [
@@ -22,6 +22,7 @@ class LevelTestAttempt extends Model
         'submitted_at' => 'datetime',
         'answers'      => 'array',
         'sections'     => 'array',
+        'self_assessment' => 'array',
         'passed'       => 'boolean',
         'focus_lost'   => 'integer',
         'score'        => 'integer',

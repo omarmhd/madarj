@@ -3,7 +3,7 @@
   "after_week": 24,
   "title_ar": "اختبار المستوى B1",
   "title_en": "B1 Level Test",
-  "minutes": 60,
+  "minutes": 75,
   "pass_percent": 60,
   "modeled_on": "Cambridge A2 Key / B1 Preliminary, CEFR A2–B1",
   "tips_ar": [
@@ -11,7 +11,8 @@
     "في النص الطويل، لا تحتاج إلى فهم كل كلمة.",
     "انتبه إلى زمن الفعل: هل الحدث تمّ، أم يجري، أم هو خيال؟",
     "لا تقف طويلاً عند سؤال واحد. ارجع إليه في النهاية.",
-    "النجاح من 60%. هدفك الفهم لا الكمال."
+    "النجاح من 60%. هدفك الفهم لا الكمال.",
+    "اترك خمس عشرة دقيقة على الأقل للرسالة في آخر الاختبار."
   ],
   "sections": [
     {
@@ -447,7 +448,7 @@
       "title_en": "Grammar",
       "instructions_ar": "اختر الكلمة الصحيحة أو أكمل الجملة.",
       "advice_ar": [
-        "راجع قسم القواعد في الأسابيع 19–22: المبني للمجهول، أزمنة السرد، الشرط الثاني، الكلام المنقول.",
+        "راجع قسم القواعد في الأسابيع 19–23: المبني للمجهول، أزمنة السرد، الشرط الثاني، الكلام المنقول، -ing أم to، have been doing، والسؤال المهذّب.",
         "العب صيد الغلط وركّز على He said me وIf it will وwho he.",
         "احكِ قصة قصيرة بصوتك كل يوم بـ was doing وhad done."
       ],
@@ -559,6 +560,51 @@
                 "correct": 1
               },
               "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "I really enjoy ___ to work in the morning.",
+              "payload": {
+                "options": [
+                  "to walk",
+                  "walking",
+                  "walk"
+                ]
+              },
+              "answer": {
+                "correct": 1
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "How long ___ for this company?",
+              "payload": {
+                "options": [
+                  "are you working",
+                  "do you work",
+                  "have you been working"
+                ]
+              },
+              "answer": {
+                "correct": 2
+              },
+              "points": 1
+            },
+            {
+              "type": "multiple_choice",
+              "prompt": "Excuse me, could you tell me where ___?",
+              "payload": {
+                "options": [
+                  "the museum is",
+                  "is the museum",
+                  "does the museum"
+                ]
+              },
+              "answer": {
+                "correct": 0
+              },
+              "points": 1
             }
           ]
         },
@@ -635,6 +681,34 @@
                   "when",
                   "while",
                   "as"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Complete:",
+              "payload": {
+                "before": "I've been waiting here ",
+                "after": " half past nine."
+              },
+              "answer": {
+                "accepted": [
+                  "since"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "type": "fill_blank",
+              "prompt": "Complete:",
+              "payload": {
+                "before": "Would you mind ",
+                "after": " the door, please? (open)"
+              },
+              "answer": {
+                "accepted": [
+                  "opening"
                 ]
               },
               "points": 1
@@ -994,5 +1068,101 @@
         }
       ]
     }
-  ]
+  ],
+  "free_writing": {
+    "title_ar": "الكتابة الحرّة",
+    "instructions_ar": "اكتب رسالة إلكترونية كما في الجزء الأول من كتابة B1 Preliminary. لا تُصحَّح آلياً: بعد التسليم ترى نموذج إجابة وجدول تقييم، وتقيّم رسالتك بنفسك. ولا تدخل في درجتك ولا في الشهادة — هي لك.",
+    "task_en": "You moved to a new city for work three months ago. Your English friend Alex has written to you:\n\n\"How's life in your new city? What's the job like? I might have a few days free next month — any ideas?\"\n\nWrite an email to Alex. Write 100–140 words.",
+    "task_ar": "انتقلتَ إلى مدينة جديدة للعمل قبل ثلاثة أشهر، وكتب لك صديقك يسأل عن حياتك وعملك، ويقول إن لديه أياماً فارغة الشهر القادم. اكتب له رسالة من 100 إلى 140 كلمة فيها النقاط الثلاث.",
+    "points": [
+      {
+        "en": "Say how the job is going",
+        "ar": "كيف يسير عملك"
+      },
+      {
+        "en": "Tell Alex about something you have enjoyed in the city",
+        "ar": "شيء استمتعت به في المدينة"
+      },
+      {
+        "en": "Invite Alex and suggest what you could do together",
+        "ar": "ادعُه واقترح ما تفعلانه معاً"
+      }
+    ],
+    "min_words": 100,
+    "max_words": 140,
+    "model_en": "Hi Alex,\n\nThanks for your email — it was great to hear from you!\n\nI've been working here for three months now, and I'm really enjoying it. The job is harder than my old one, but my colleagues are friendly and I've learned a lot. Last week my manager asked me to lead a small project, so I'm a bit nervous!\n\nThe best thing about the city is the old market. I go there every Saturday morning, and I've already tried about ten kinds of bread.\n\nYou should definitely come next month. You could stay at my flat — it isn't big, but there's a spare bed. If the weather is good, we could take a boat along the river and have lunch in the market.\n\nLet me know which days suit you.\n\nBest wishes,\nKarim",
+    "model_notes_ar": [
+      "كل نقطة في فقرة: العمل، ثم السوق، ثم الدعوة.",
+      "I've been working · I've learned · I've already tried — التامّ لما بدأ وما زال، أو لما حدث بلا وقت محدّد.",
+      "Last week my manager asked me — الماضي البسيط مع وقت محدّد.",
+      "You could stay · we could take · If the weather is good — اقتراح بأدب، وشرط أوّل.",
+      "روابط متنوّعة: and · but · so · If."
+    ],
+    "before_rating_ar": [
+      "اقرأ رسالتك مرة بصوت مرتفع قبل أن تقيّمها.",
+      "ابحث فيها عن الأخطاء العشرين: He work · since three years · He said me · I am agree.",
+      "قارنها بالنموذج نقطةً نقطة، لا كلمةً كلمة: رسالتك لا يجب أن تشبهه.",
+      "كن صادقاً: التقييم لك وحدك، ولا يراه أحد غيرك."
+    ],
+    "rubric": [
+      {
+        "key": "content",
+        "title_ar": "المحتوى",
+        "title_en": "Content",
+        "levels_ar": [
+          "لم تذكر أيّاً من النقاط الثلاث، أو كتبت عن موضوع آخر.",
+          "ذكرت نقطة أو اثنتين فقط.",
+          "ذكرت النقاط الثلاث، لكن واحدة منها جملة قصيرة بلا تفصيل.",
+          "ذكرت النقاط الثلاث كلها، وأضفت تفصيلاً لكل واحدة."
+        ]
+      },
+      {
+        "key": "communication",
+        "title_ar": "الرسالة كرسالة",
+        "title_en": "Communicative achievement",
+        "levels_ar": [
+          "لا تبدو رسالة إلى صديق.",
+          "فيها تحية أو ختام فقط.",
+          "تحية وختام، لكن النبرة جافّة أو رسمية أحياناً.",
+          "تحية وختام ونبرة ودّية من أولها إلى آخرها، ويعرف صديقك ما المطلوب منه."
+        ]
+      },
+      {
+        "key": "organisation",
+        "title_ar": "الترتيب والربط",
+        "title_en": "Organisation",
+        "levels_ar": [
+          "جمل متفرّقة بلا ترتيب.",
+          "جمل قصيرة مربوطة بـand وحدها.",
+          "فقرات واضحة، وروابط مثل because وbut وso.",
+          "فقرة لكل نقطة، وروابط متنوّعة مثل although وwhen وif."
+        ]
+      },
+      {
+        "key": "language",
+        "title_ar": "اللغة",
+        "title_en": "Language",
+        "levels_ar": [
+          "أخطاء كثيرة تمنع الفهم.",
+          "زمن واحد في الغالب، وأخطاء تُربك القارئ أحياناً.",
+          "زمنان أو ثلاثة صحيحة في الغالب، وأخطاء قليلة لا تمنع الفهم.",
+          "أزمنة متنوّعة (الماضي والتامّ والمستقبل أو الشرط) وكلمات من الوحدة الرابعة، وأخطاء نادرة."
+        ]
+      }
+    ],
+    "verdicts": [
+      {
+        "min": 9,
+        "ar": "كتابتك في مستوى B1: رسالة كاملة ومرتّبة بلغة متنوّعة."
+      },
+      {
+        "min": 6,
+        "ar": "قريبة من B1. ارجع إلى أضعف معيار عندك، واكتب مهمة الكتابة في أحد الأسابيع 19–23 من جديد."
+      },
+      {
+        "min": 0,
+        "ar": "تحتاج تدريباً على الكتابة. اكتب مهام الأسابيع 19–23 كلها، واقرأ نماذجها قبل أن تبدأ."
+      }
+    ]
+  }
 }

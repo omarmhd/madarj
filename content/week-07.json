@@ -157,24 +157,30 @@
         },
         {
           "order": 2,
+          "label": "القواعد — was و were",
+          "minutes": 10,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
           "label": "تعبيرات الزمن الماضي",
-          "minutes": 25,
+          "minutes": 15,
           "ref": "vocab:past_time_expressions"
         },
         {
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
@@ -183,16 +189,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 10,
           "ref": "watch:V_BnhRJmxtA"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:error_hunt"
@@ -201,7 +207,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -217,12 +223,18 @@
         },
         {
           "order": 2,
-          "label": "النطق",
-          "minutes": 25,
-          "ref": "section:phonics"
+          "label": "القواعد — الأفعال القياسية",
+          "minutes": 10,
+          "ref": "section:grammar"
         },
         {
           "order": 3,
+          "label": "النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
@@ -231,10 +243,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
@@ -243,16 +255,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "قصة اليوم",
           "minutes": 10,
           "ref": "story:crow-and-pitcher"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
@@ -261,7 +273,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -343,12 +355,18 @@
         },
         {
           "order": 2,
-          "label": "النطق",
-          "minutes": 25,
-          "ref": "section:phonics"
+          "label": "الحيوانات والطبيعة",
+          "minutes": 10,
+          "ref": "vocab:animals_and_nature"
         },
         {
           "order": 3,
+          "label": "النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
@@ -357,10 +375,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
@@ -369,16 +387,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 15,
           "ref": "watch:NntaZma-GxA"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
@@ -387,7 +405,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -480,43 +498,49 @@
           "order": 2
         },
         {
+          "order": 3,
+          "label": "القواعد — ربط الجمل",
+          "minutes": 5,
+          "ref": "section:grammar"
+        },
+        {
           "label": "الكتابة",
           "minutes": 10,
           "ref": "writing:1",
-          "order": 3
+          "order": 4
         },
         {
           "label": "التحدّث",
           "minutes": 10,
           "ref": "record",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
         },
         {
-          "order": 9,
+          "order": 10,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
@@ -525,7 +549,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 10
+          "order": 11
         }
       ]
     }
@@ -1830,6 +1854,266 @@
       "sentence": "We had a good time at the party.",
       "sentence_ar": "قضينا وقتاً جميلاً في الحفلة.",
       "usage_ar": "نقول have a good time، وتقول للمسافر: Have a good time!"
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "animal",
+      "ipa": "/ˈænɪml/",
+      "arabic": "حيوان",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "animals",
+      "sentence": "There were a lot of animals on my grandfather’s farm.",
+      "sentence_ar": "كانت هناك حيوانات كثيرة في مزرعة جدّي.",
+      "usage_ar": "الجمع animals."
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "dog",
+      "ipa": "/dɒɡ/",
+      "arabic": "كلب",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "dog",
+      "sentence": "We owned a small dog when I was a child.",
+      "sentence_ar": "كان عندنا كلب صغير حين كنت طفلاً.",
+      "usage_ar": "عن الحيوان الأليف نقول have a dog."
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "cat",
+      "ipa": "/kæt/",
+      "arabic": "قطّة",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "cat",
+      "sentence": "Our cat liked to sleep in the sun.",
+      "sentence_ar": "كانت قطّتنا تحبّ النوم في الشمس.",
+      "usage_ar": "cat للذكر والأنثى."
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "horse",
+      "ipa": "/hɔːs/",
+      "arabic": "حصان",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "horse",
+      "sentence": "My uncle travelled to the market on a horse.",
+      "sentence_ar": "سافر عمّي إلى السوق على حصان.",
+      "usage_ar": "on a horse: على حصان — on لا by."
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "cow",
+      "ipa": "/kaʊ/",
+      "arabic": "بقرة",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "cows",
+      "sentence": "My grandmother milked the cows every morning.",
+      "sentence_ar": "كانت جدّتي تحلب البقرات كل صباح.",
+      "usage_ar": "لحمها beef وحليبها milk."
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "sheep",
+      "ipa": "/ʃiːp/",
+      "arabic": "خروف · غنم",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "sheep",
+      "sentence": "There were sheep in the field behind our house.",
+      "sentence_ar": "كانت هناك أغنام في الحقل خلف بيتنا.",
+      "usage_ar": "sheep مفرد وجمع معاً: one sheep · ten sheep — لا sheeps."
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "goat",
+      "ipa": "/ɡəʊt/",
+      "arabic": "ماعز",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "goats",
+      "sentence": "The goats climbed the hill every evening.",
+      "sentence_ar": "كانت الماعز تصعد التلّ كل مساء.",
+      "usage_ar": "الجمع goats."
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "donkey",
+      "ipa": "/ˈdɒŋki/",
+      "arabic": "حمار",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "donkey",
+      "sentence": "Juha’s donkey was very clever.",
+      "sentence_ar": "كان حمار جحا ذكياً جداً.",
+      "usage_ar": "donkey هي الكلمة اليومية للحمار."
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "camel",
+      "ipa": "/ˈkæml/",
+      "arabic": "جمل",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "camels",
+      "sentence": "We travelled across the desert on camels.",
+      "sentence_ar": "عبرنا الصحراء على الجمال.",
+      "usage_ar": "on a camel كما on a horse."
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "bird",
+      "ipa": "/bɜːd/",
+      "arabic": "طائر",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "birds",
+      "sentence": "The birds started singing at five in the morning.",
+      "sentence_ar": "بدأت الطيور تغرّد في الخامسة صباحاً.",
+      "usage_ar": "صوت /ɜː/ من الأسبوع الثامن — بلا r."
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "tree",
+      "ipa": "/triː/",
+      "arabic": "شجرة",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "tree",
+      "sentence": "There was a big tree in front of our house.",
+      "sentence_ar": "كانت هناك شجرة كبيرة أمام بيتنا.",
+      "usage_ar": "الطائر in the tree: في الشجرة."
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "flower",
+      "ipa": "/ˈflaʊə(r)/",
+      "arabic": "زهرة",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "flowers",
+      "sentence": "My mother planted flowers in the garden.",
+      "sentence_ar": "زرعت أمّي زهوراً في الحديقة.",
+      "usage_ar": "plant flowers: يزرع زهوراً."
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "river",
+      "ipa": "/ˈrɪvə(r)/",
+      "arabic": "نهر",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "river",
+      "sentence": "We played in the river every summer.",
+      "sentence_ar": "كنّا نلعب في النهر كل صيف.",
+      "usage_ar": "أسماء الأنهار بـthe: the Nile."
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "sea",
+      "ipa": "/siː/",
+      "arabic": "بحر",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "sea",
+      "sentence": "The sea was very cold in March.",
+      "sentence_ar": "كان البحر بارداً جداً في مارس.",
+      "usage_ar": "تُنطق مثل see تماماً."
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "beach",
+      "ipa": "/biːtʃ/",
+      "arabic": "شاطئ",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "beach",
+      "sentence": "We walked on the beach after dinner.",
+      "sentence_ar": "تمشّينا على الشاطئ بعد العشاء.",
+      "usage_ar": "on the beach — on لا in. ومدّ /iː/ طويلاً."
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "mountain",
+      "ipa": "/ˈmaʊntən/",
+      "arabic": "جبل",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "mountain",
+      "sentence": "We climbed a mountain near the village.",
+      "sentence_ar": "تسلّقنا جبلاً قرب القرية.",
+      "usage_ar": "climb a mountain: يتسلّق جبلاً."
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "field",
+      "ipa": "/fiːld/",
+      "arabic": "حقل",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "fields",
+      "sentence": "My father worked in the fields all day.",
+      "sentence_ar": "عمل أبي في الحقول طوال اليوم.",
+      "usage_ar": "in the field: في الحقل."
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "farm",
+      "ipa": "/fɑːm/",
+      "arabic": "مزرعة",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "farm",
+      "sentence": "My grandparents lived on a farm.",
+      "sentence_ar": "عاش جدّاي في مزرعة.",
+      "usage_ar": "on a farm — on لا in. وصاحبها farmer."
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "lake",
+      "ipa": "/leɪk/",
+      "arabic": "بحيرة",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "lake",
+      "sentence": "There was a small lake near the school.",
+      "sentence_ar": "كانت هناك بحيرة صغيرة قرب المدرسة.",
+      "usage_ar": "lake ماء تحيط به الأرض، و sea أكبر ومالح."
+    },
+    {
+      "group": "animals_and_nature",
+      "word": "desert",
+      "ipa": "/ˈdezət/",
+      "arabic": "صحراء",
+      "example": null,
+      "group_label_ar": "الحيوانات والطبيعة",
+      "group_label_en": "Animals and Nature",
+      "target": "desert",
+      "sentence": "It was very hot in the desert.",
+      "sentence_ar": "كان الجوّ حارّاً جداً في الصحراء.",
+      "usage_ar": "النبر على الأول: DEsert — غير dessert /dɪˈzɜːt/ الحلوى."
     }
   ],
   "minimal_pairs": [
@@ -2042,69 +2326,318 @@
   "sections": [
     {
       "kind": "grammar",
-      "day_number": 4,
-      "title_ar": "القواعد",
-      "title_en": "Grammar — The Past Simple (Part One)",
+      "day_number": 2,
+      "title_ar": "القواعد — was و were",
+      "title_en": "Grammar — The Past Simple (1): was / were",
       "payload": {
-        "rule_ar": "الماضي البسيط زمن الحدث المنتهي في وقت معلوم. وفعل الكون له صيغتان فقط: was مع I و he و she و it، و were مع you و we و they. أما الأفعال القياسية فتأخذ -ed، وتُنطق نهايتها ثلاثة أشكال بحسب الصوت الذي قبلها — وإضافة مقطع حيث لا مقطع أوضح علامة مبتدئ.",
-        "rule_en": "I / He / She / It   ->  was     I was tired.   She was at home.",
+        "rule_ar": "فعل الكون في الماضي له صيغتان فقط: was مع I و he و she و it، و were مع you و we و they. والقاعدة تعرفها مسبقاً: was مع من يأخذ am و is، و were مع من يأخذ are. فإن عرفت المضارع عرفت الماضي.",
+        "table": {
+          "columns_ar": [
+            "الضمير",
+            "الفعل",
+            "مثال",
+            "بالعربية"
+          ],
+          "rows": [
+            [
+              "I",
+              "was",
+              "I was tired.",
+              "كنت متعباً"
+            ],
+            [
+              "He / She / It",
+              "was",
+              "She was at home.",
+              "كانت في البيت"
+            ],
+            [
+              "You",
+              "were",
+              "You were late.",
+              "كنتَ متأخّراً"
+            ],
+            [
+              "We",
+              "were",
+              "We were tired.",
+              "كنّا متعبين"
+            ],
+            [
+              "They",
+              "were",
+              "They were happy.",
+              "كانوا سعداء"
+            ]
+          ],
+          "say": 2,
+          "ar_cols": [
+            3
+          ]
+        },
+        "arabic_contrast_ar": "you تأخذ were دائماً ولو كان المخاطَب شخصاً واحداً: You were right. وأشيع خطأ They was، لأن was تبدو «الماضي» كلّه — وهي نصفه.",
+        "negation_ar": "النفي: wasn’t · weren’t — I wasn’t tired · They weren’t at home",
+        "question_ar": "السؤال: Was he at work? — Yes, he was / No, he wasn’t · Were they happy? — Yes, they were / No, they weren’t",
         "common_errors": [
           {
-            "error_no": 1,
-            "wrong": "I was tired yesterday ✓",
-            "right": "I was tired yesterday.",
-            "arabic": "كنت متعباً",
-            "why_ar": "هذه صحيحة — be يعمل بالطريقة نفسها"
-          },
-          {
-            "error_no": 2,
-            "wrong": "They was at home",
+            "wrong": "They was at home.",
             "right": "They were at home.",
-            "arabic": "هم كانوا في البيت",
             "why_ar": "they تأخذ were"
           },
           {
-            "error_no": 3,
-            "wrong": "He worked**s** here",
-            "right": "He worked here.",
-            "arabic": "هو عمل هنا",
-            "why_ar": "لا -s في الماضي أبداً"
-          },
-          {
-            "error_no": 4,
-            "wrong": "ago two years",
-            "right": "two years ago",
-            "arabic": "منذ سنتين",
-            "why_ar": "ago تأتي بعد المدّة"
-          },
-          {
-            "error_no": 5,
-            "wrong": "I studyed English",
-            "right": "I studied English.",
-            "arabic": "درست الإنجليزية",
-            "why_ar": "ساكن + y ← ied"
-          },
-          {
-            "error_no": 6,
-            "wrong": "The car stoped",
-            "right": "The car stopped.",
-            "arabic": "توقفت السيارة",
-            "why_ar": "ضاعف الساكن الأخير"
-          },
-          {
-            "error_no": 7,
-            "wrong": "I lived there since 3 years",
-            "right": "I lived there for three years.",
-            "arabic": "عشت هناك ٣ سنوات",
-            "why_ar": "for + مدّة زمنية"
+            "wrong": "You was right.",
+            "right": "You were right.",
+            "why_ar": "you تأخذ were ولو كان المخاطَب واحداً"
           }
         ],
         "checklist_ar": [
-          "was مع المفرد · were مع الجمع و you",
-          "النفي بـwasn’t و weren’t — وبـdidn’t مع بقية الأفعال",
-          "بعد didn’t فعل مجرّد لا ماضٍ",
-          "إملاء -ed: study → studied · stop → stopped",
+          "was مع I و he و she و it · were مع you و we و they",
+          "النفي wasn’t و weren’t · السؤال يبدأ بـWas أو Were",
+          "ago بعد المدّة: two years ago"
+        ],
+        "lessons": [
+          {
+            "title_ar": "من المضارع إلى الماضي: is ← was",
+            "title_en": "Present → past",
+            "explain_ar": "كل am و is تصير was، وكل are تصير were — و there is و there are كذلك.",
+            "table": {
+              "columns_ar": [
+                "المضارع",
+                "الماضي"
+              ],
+              "rows": [
+                [
+                  "I am a student.",
+                  "I was a student."
+                ],
+                [
+                  "He is at home.",
+                  "He was at home."
+                ],
+                [
+                  "We are tired.",
+                  "We were tired."
+                ],
+                [
+                  "There is a shop.",
+                  "There was a shop."
+                ],
+                [
+                  "There are two shops.",
+                  "There were two shops."
+                ]
+              ],
+              "say": 1
+            }
+          },
+          {
+            "title_ar": "أين يقع تعبير الزمن؟ و ago",
+            "title_en": "Past time expressions: where they go",
+            "explain_ar": "تعبير الزمن الماضي في آخر الجملة عادةً، وفي أوّلها إن أردت التأكيد — والاثنان صحيحان. و ago تأتي بعد المدّة لا قبلها. وإن أردت كم استمرّ الشيء فاستعمل for مع المدّة.",
+            "examples": [
+              {
+                "en": "I visited my parents yesterday.",
+                "ar": "في آخر الجملة — الأشيع"
+              },
+              {
+                "en": "Yesterday I visited my parents.",
+                "ar": "في أوّلها — للتأكيد"
+              },
+              {
+                "en": "Two years ago we moved to this city.",
+                "ar": "قبل سنتين انتقلنا إلى هذه المدينة"
+              },
+              {
+                "en": "When I was a child, I lived in a village.",
+                "ar": "حين كنت طفلاً عشت في قرية"
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "ago two years",
+                "right": "two years ago",
+                "why_ar": "ago بعد المدّة"
+              },
+              {
+                "wrong": "I lived there since 3 years.",
+                "right": "I lived there for three years.",
+                "why_ar": "for + مدّة زمنية"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 3,
+      "title_ar": "القواعد — الأفعال القياسية: -ed",
+      "title_en": "Grammar — The Past Simple (2): regular verbs",
+      "payload": {
+        "rule_ar": "الفعل القياسي في الماضي يأخذ -ed، وصيغته واحدة لكل الفاعلين. وهذه البشرى: في المضارع كان عليك تذكّر -s مع he و she و it، وفي الماضي لا شيء تتذكّره. الصعوبة في الإملاء وحده، وله خمس قواعد. أمّا النطق فـ-ed تُكتب واحدة وتُنطق ثلاثاً — وهي في قسم النطق.",
+        "table": {
+          "columns_ar": [
+            "الضمير",
+            "الفعل",
+            "مثال"
+          ],
+          "rows": [
+            [
+              "I",
+              "worked",
+              "I worked until nine."
+            ],
+            [
+              "You",
+              "worked",
+              "You worked very hard."
+            ],
+            [
+              "He",
+              "worked",
+              "He worked in a bank."
+            ],
+            [
+              "She",
+              "worked",
+              "She worked from home."
+            ],
+            [
+              "We",
+              "worked",
+              "We worked together."
+            ],
+            [
+              "They",
+              "worked",
+              "They worked at night."
+            ]
+          ],
+          "say": 2
+        },
+        "spelling_rules": [
+          {
+            "case_en": "Most verbs",
+            "rule_en": "add -ed",
+            "examples": "work → worked, play → played, watch → watched"
+          },
+          {
+            "case_en": "Ends in -e",
+            "rule_en": "add -d only",
+            "examples": "live → lived, close → closed, decide → decided"
+          },
+          {
+            "case_en": "Consonant + y",
+            "rule_en": "y → ied",
+            "examples": "study → studied, carry → carried, try → tried"
+          },
+          {
+            "case_en": "Vowel + y",
+            "rule_en": "just add -ed",
+            "examples": "play → played, stay → stayed, enjoy → enjoyed"
+          },
+          {
+            "case_en": "One vowel + one consonant (stressed)",
+            "rule_en": "double the consonant",
+            "examples": "stop → stopped, plan → planned, travel → travelled"
+          }
+        ],
+        "common_errors": [
+          {
+            "wrong": "He workeds here.",
+            "right": "He worked here.",
+            "why_ar": "لا -s في الماضي أبداً"
+          },
+          {
+            "wrong": "I studyed English.",
+            "right": "I studied English.",
+            "why_ar": "ساكن + y ← ied"
+          },
+          {
+            "wrong": "She plaied tennis.",
+            "right": "She played tennis.",
+            "why_ar": "حرف علّة + y: أضف -ed فقط"
+          },
+          {
+            "wrong": "The car stoped.",
+            "right": "The car stopped.",
+            "why_ar": "حرف علّة واحد + ساكن واحد: ضاعف الساكن"
+          }
+        ],
+        "checklist_ar": [
+          "كل الفاعلين صيغة واحدة: worked — بلا -s",
+          "إملاء -ed: study → studied · stop → stopped · play → played",
           "نطق -ed ثلاثة: /t/ · /d/ · /ɪd/"
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 7,
+      "title_ar": "القواعد — ربط الجمل: then · because · so · but",
+      "title_en": "Grammar — Linking sentences in a story",
+      "payload": {
+        "rule_ar": "قصة من جمل قصيرة منفصلة تبدو قائمة لا قصة. وستّ كلمات تكفي لتربطها: and للإضافة، و but للمخالفة، و because للسبب، و so للنتيجة، و then و after that للترتيب، و finally للنهاية. وهي ما يقيسه جدول تقييم تسجيلك هذا الأسبوع.",
+        "table": {
+          "columns_ar": [
+            "الكلمة",
+            "الوظيفة",
+            "مثال"
+          ],
+          "say": 2,
+          "ar_cols": [
+            1
+          ],
+          "rows": [
+            [
+              "and",
+              "إضافة",
+              "I visited my aunt and we cooked together."
+            ],
+            [
+              "but",
+              "مخالفة",
+              "The hotel was nice, but it was very expensive."
+            ],
+            [
+              "because",
+              "السبب",
+              "I stayed at home because I was tired."
+            ],
+            [
+              "so",
+              "النتيجة",
+              "I was tired, so I stayed at home."
+            ],
+            [
+              "then · after that",
+              "الترتيب",
+              "We cooked lunch. Then we walked to the beach. After that we watched a film."
+            ],
+            [
+              "finally",
+              "النهاية",
+              "Finally we arrived home at midnight."
+            ]
+          ]
+        },
+        "arabic_contrast_ar": "العربية تصل الجمل بالواو كثيراً: «وذهبنا… وأكلنا… ونمنا». والإنجليزية تملّ من and المتكرّرة — فنوّع: then · after that · finally. وانتبه: because قبل السبب، و so قبل النتيجة — فالجملتان تتبادلان المكان.",
+        "common_errors": [
+          {
+            "wrong": "Because I was tired.",
+            "right": "I stayed at home because I was tired.",
+            "why_ar": "because تربط جملتين — لا تقف وحدها في الكتابة"
+          },
+          {
+            "wrong": "I was tired, because I stayed at home.",
+            "right": "I was tired, so I stayed at home.",
+            "why_ar": "so قبل النتيجة · because قبل السبب"
+          }
+        ],
+        "checklist_ar": [
+          "because قبل السبب · so قبل النتيجة",
+          "then · after that · finally لترتيب الأحداث",
+          "نوّع ولا تكرّر and"
         ]
       }
     },
@@ -4618,6 +5151,124 @@
         "correct": false
       },
       "explanation": "في النصّ: thousands visit every year"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "أدوات الربط",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "I stayed at home ___ I was ill.",
+      "payload": {
+        "options": [
+          "because",
+          "so",
+          "but",
+          "then"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "because قبل السبب: كنت مريضاً"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "أدوات الربط",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "It was raining, ___ we stayed inside.",
+      "payload": {
+        "options": [
+          "because",
+          "so",
+          "but",
+          "finally"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "so قبل النتيجة: بقينا في الداخل"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "أدوات الربط",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "The flat was small, ___ it was very clean.",
+      "payload": {
+        "options": [
+          "but",
+          "so",
+          "because",
+          "then"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "but للمخالفة: صغيرة لكنها نظيفة"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "أدوات الربط",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "First we cleaned the house. ___ we cooked dinner.",
+      "payload": {
+        "options": [
+          "Then",
+          "Because",
+          "But",
+          "So"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "then للترتيب: بعد ذلك"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "أدوات الربط",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "We walked for six hours. ___ we arrived at the village.",
+      "payload": {
+        "options": [
+          "Finally",
+          "Because",
+          "But",
+          "First"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "finally للنهاية: وأخيراً"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "أدوات الربط",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I was hungry, ______ I cooked some eggs.",
+      "payload": {
+        "before": "I was hungry, ",
+        "after": " I cooked some eggs."
+      },
+      "answer": {
+        "accepted": [
+          "so"
+        ]
+      },
+      "explanation": "so قبل النتيجة"
     }
   ]
 }

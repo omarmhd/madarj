@@ -157,24 +157,30 @@
         },
         {
           "order": 2,
+          "label": "القواعد — الأفعال المركّبة",
+          "minutes": 10,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
           "label": "الأفعال المركّبة بـOUT و OFF",
-          "minutes": 25,
+          "minutes": 15,
           "ref": "vocab:out_and_off"
         },
         {
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
@@ -183,16 +189,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 15,
           "ref": "watch:9iO29NsoYWw"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:error_hunt"
@@ -201,7 +207,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -217,24 +223,30 @@
         },
         {
           "order": 2,
+          "label": "القواعد — معنى الحرف",
+          "minutes": 10,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
           "label": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
-          "minutes": 25,
+          "minutes": 15,
           "ref": "vocab:on_in_down_back_over_into"
         },
         {
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
@@ -243,16 +255,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "قصة اليوم",
           "minutes": 10,
           "ref": "story:elephant-and-rope"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
@@ -261,7 +273,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -337,12 +349,18 @@
         },
         {
           "order": 2,
-          "label": "حوار: Reporting a Conversation",
-          "minutes": 25,
-          "ref": "dialogue:1"
+          "label": "القواعد — say و tell",
+          "minutes": 10,
+          "ref": "section:grammar"
         },
         {
           "order": 3,
+          "label": "حوار: Reporting a Conversation",
+          "minutes": 15,
+          "ref": "dialogue:1"
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
@@ -351,10 +369,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
@@ -363,16 +381,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 15,
           "ref": "watch:zL4PI-pWfi8"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
@@ -381,7 +399,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -1561,76 +1579,356 @@
   "sections": [
     {
       "kind": "grammar",
-      "day_number": 4,
-      "title_ar": "القواعد",
-      "title_en": "Grammar — How Phrasal Verbs Work",
+      "day_number": 2,
+      "title_ar": "القواعد — الأفعال المركّبة: أين يقع المفعول؟",
+      "title_en": "Grammar — Phrasal verbs: where the object goes",
       "payload": {
-        "rule_ar": "الفعل المركّب فعل + حرف = معنى جديد لا يُحدس من الكلمتين. وفي نقل الكلام يتراجع الزمن خطوة إلى الوراء: is → was، وwill → would. وأشهر خطأ عربي: He **said me**، والصواب He told me أو He said that — لأن say لا تأخذ مفعولاً غير مباشر مباشرة.",
-        "rule_en": "VERB + PARTICLE  =  a new verb with a new meaning",
+        "rule_ar": "الفعل المركّب فعل + حرف = معنى جديد لا يُحدس من الكلمتين: give up = يكفّ عن المحاولة. والقاعدة الوحيدة الصعبة: في الفعل القابل للفصل يجوز وضع المفعول في الوسط أو بعده، لكن الضمير يجب أن يقع في الوسط: Turn it off لا Turn off it. وفي غير القابل للفصل يأتي المفعول بعده دائماً: I ran into him. والاختصار العملي: ضع الاسم بعد الفعل كلّه، والضمير في الوسط.",
+        "table": {
+          "columns_ar": [
+            "النوع",
+            "أمثلة",
+            "القاعدة"
+          ],
+          "rows": [
+            [
+              "يُفصل",
+              "turn off · pick up · put off · write down · fill in · give up",
+              "المفعول قبل الحرف أو بعده — والضمير في الوسط"
+            ],
+            [
+              "لا يُفصل",
+              "look after · look for · run into · get over · look forward to",
+              "المفعول بعد الحرف دائماً"
+            ]
+          ],
+          "say": 1,
+          "ar_cols": [
+            0,
+            2
+          ]
+        },
         "common_errors": [
           {
-            "error_no": 1,
-            "wrong": "He said me he is tired",
-            "right": "He told me he was tired.",
-            "arabic": "قال لي إنه متعب",
-            "why_ar": "tell تأخذ شخصاً، والزمن يتراجع"
-          },
-          {
-            "error_no": 2,
-            "wrong": "He asked me where do I live",
-            "right": "He asked me where I lived.",
-            "arabic": "سألني أين أسكن",
-            "why_ar": "ترتيب الجملة الخبرية"
-          },
-          {
-            "error_no": 3,
-            "wrong": "He asked me am I ready",
-            "right": "He asked me if I was ready.",
-            "arabic": "سألني هل أنا جاهز",
-            "why_ar": "if لأسئلة نعم/لا"
-          },
-          {
-            "error_no": 4,
-            "wrong": "He asked me that I wait",
-            "right": "He asked me to wait.",
-            "arabic": "طلب مني أن أنتظر",
-            "why_ar": "to + فعل مجرّد"
-          },
-          {
-            "error_no": 5,
-            "wrong": "He told me don't be late",
-            "right": "He told me not to be late.",
-            "arabic": "قال لي ألا أتأخر",
-            "why_ar": "not to للأمر المنفيّ"
-          },
-          {
-            "error_no": 6,
-            "wrong": "He explained me the problem",
-            "right": "He explained to me the problem.",
-            "arabic": "شرح لي المشكلة",
-            "why_ar": "explain تحتاج to"
-          },
-          {
-            "error_no": 7,
-            "wrong": "I ran him into",
-            "right": "I ran into him.",
-            "arabic": "صادفته أمس",
-            "why_ar": "فعل مركّب لا يُفصل"
-          },
-          {
-            "error_no": 8,
-            "wrong": "Turn off it",
+            "wrong": "Turn off it.",
             "right": "Turn it off.",
-            "arabic": "أطفئه",
             "why_ar": "الضمير يوضع في الوسط"
+          },
+          {
+            "wrong": "I ran him into.",
+            "right": "I ran into him.",
+            "why_ar": "فعل مركّب لا يُفصل"
           }
         ],
         "checklist_ar": [
           "الفعل المركّب معناه من مجموعه لا من كلماته",
-          "tell تأخذ مفعولاً · say لا تأخذه مباشرة",
+          "الضمير في الوسط: turn it off · pick me up"
+        ],
+        "lessons": [
+          {
+            "title_ar": "رسميّ أم يوميّ؟",
+            "title_en": "Formal or informal?",
+            "explain_ar": "العمودان صحيحان: الأيسر ما يقوله الناس، والأيمن ما يُكتب في الوثائق الرسمية. تكلّم بالأول، واعرف الثاني.",
+            "table": {
+              "columns_ar": [
+                "الفعل المركّب",
+                "المقابل الرسمي"
+              ],
+              "rows": [
+                [
+                  "put off",
+                  "postpone"
+                ],
+                [
+                  "find out",
+                  "discover"
+                ],
+                [
+                  "set up",
+                  "establish"
+                ],
+                [
+                  "get over",
+                  "recover from"
+                ],
+                [
+                  "look into",
+                  "investigate"
+                ],
+                [
+                  "carry on",
+                  "continue"
+                ]
+              ],
+              "say": 0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 3,
+      "title_ar": "القواعد — احزر المعنى من الحرف",
+      "title_en": "Grammar — Guessing from the particle",
+      "payload": {
+        "rule_ar": "الحروف ليست عشوائية: لكلٍّ اتجاه معنى تقريبي يدلّك على أفعال لم ترها. to knuckle down لم تلقها قطّ، لكن down توحي بالتركيز — ومعناها أن تبدأ العمل بجدّ. الحدس يقرّبك بما يكفي لتتابع الجملة، وهذا هو المطلوب.",
+        "table": {
+          "columns_ar": [
+            "الحرف",
+            "المعنى التقريبي",
+            "أمثلة"
+          ],
+          "rows": [
+            [
+              "up",
+              "إتمام · زيادة · ظهور",
+              "finish up · speak up · show up"
+            ],
+            [
+              "down",
+              "تقليل · توقّف · كتابة",
+              "slow down · break down · write down"
+            ],
+            [
+              "out",
+              "إزالة · اكتشاف · نفاد",
+              "find out · run out · sort out"
+            ],
+            [
+              "off",
+              "انفصال · مغادرة · إلغاء",
+              "take off · set off · call off"
+            ],
+            [
+              "on",
+              "استمرار · اتصال",
+              "go on · carry on · hold on"
+            ],
+            [
+              "over",
+              "مراجعة · تعافٍ",
+              "go over · get over · think over"
+            ],
+            [
+              "back",
+              "عودة",
+              "come back · call back · pay back"
+            ],
+            [
+              "into",
+              "دخول · مصادفة",
+              "run into · look into · turn into"
+            ]
+          ],
+          "say": 2,
+          "ar_cols": [
+            1
+          ]
+        },
+        "checklist_ar": [
+          "up إتمام · out اكتشاف أو نفاد · off إلغاء أو مغادرة",
+          "back عودة · on استمرار"
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 4,
+      "title_ar": "القواعد — نقل الكلام: الزمن والسؤال والأمر",
+      "title_en": "Grammar — Reported speech",
+      "payload": {
+        "rule_ar": "حين تنقل كلام غيرك يتراجع الزمن غالباً خطوة: \"I am tired\" ← He said he was tired. وتتغيّر الضمائر وكلمات الزمان والمكان. والسؤال المنقول يعود إلى ترتيب الخبر، بلا do ولا علامة استفهام: He asked where I lived. وسؤال نعم/لا بـif. والأمر بـtold / asked + شخص + to.",
+        "table": {
+          "columns_ar": [
+            "الكلام المباشر",
+            "الكلام المنقول"
+          ],
+          "rows": [
+            [
+              "I work here.",
+              "He said he worked here."
+            ],
+            [
+              "I am working.",
+              "He said he was working."
+            ],
+            [
+              "I worked. / I have worked.",
+              "He said he had worked."
+            ],
+            [
+              "I will call you.",
+              "He said he would call me."
+            ],
+            [
+              "I can help.",
+              "He said he could help."
+            ],
+            [
+              "I must go.",
+              "He said he had to go."
+            ]
+          ],
+          "say": 1
+        },
+        "common_errors": [
+          {
+            "wrong": "He asked me where do I live.",
+            "right": "He asked me where I lived.",
+            "why_ar": "ترتيب الجملة الخبرية"
+          },
+          {
+            "wrong": "He asked me am I ready.",
+            "right": "He asked me if I was ready.",
+            "why_ar": "if لأسئلة نعم/لا"
+          },
+          {
+            "wrong": "He asked me that I wait.",
+            "right": "He asked me to wait.",
+            "why_ar": "to + فعل مجرّد"
+          },
+          {
+            "wrong": "He told me don’t be late.",
+            "right": "He told me not to be late.",
+            "why_ar": "not to للأمر المنفيّ"
+          }
+        ],
+        "checklist_ar": [
           "الزمن يتراجع خطوة في النقل",
-          "الضمائر وكلمات الزمن تتغيّر أيضاً",
-          "النبر على الحرف: give UP لا GIVE up"
+          "السؤال المنقول بترتيب الخبر",
+          "الأمر: told me to · told me not to"
+        ],
+        "lessons": [
+          {
+            "title_ar": "ما الذي يتغيّر أيضاً؟",
+            "title_en": "What else changes",
+            "explain_ar": "تغيّر المتكلّم والمكان والزمان، فتتغيّر الكلمات معها:",
+            "table": {
+              "columns_ar": [
+                "المباشر",
+                "المنقول"
+              ],
+              "rows": [
+                [
+                  "I / my",
+                  "he / his"
+                ],
+                [
+                  "here",
+                  "there"
+                ],
+                [
+                  "now",
+                  "then"
+                ],
+                [
+                  "today",
+                  "that day"
+                ],
+                [
+                  "tomorrow",
+                  "the next day"
+                ],
+                [
+                  "yesterday",
+                  "the day before"
+                ],
+                [
+                  "ago",
+                  "before"
+                ]
+              ],
+              "say": 1
+            },
+            "tip_ar": "إن كان ما قيل ما زال صحيحاً فكثيراً ما يبقى المضارع: She said she lives in Cairo صحيحة إن كانت ما تزال تسكنها."
+          },
+          {
+            "title_ar": "نقل السؤال والأمر",
+            "title_en": "Reporting questions and orders",
+            "explain_ar": "لم يعد سؤالاً: صار خبراً عن سؤال.",
+            "examples": [
+              {
+                "en": "\"Where do you live?\" → He asked where I lived.",
+                "ar": "بلا do وبترتيب الخبر"
+              },
+              {
+                "en": "\"Are you coming?\" → She asked if I was coming.",
+                "ar": "نعم/لا ← if"
+              },
+              {
+                "en": "\"Sit down.\" → He told me to sit down.",
+                "ar": "الأمر ← to"
+              },
+              {
+                "en": "\"Don’t be late.\" → He told me not to be late.",
+                "ar": "النهي ← not to"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 5,
+      "title_ar": "القواعد — say · tell · ask · explain",
+      "title_en": "Grammar — say, tell, ask, explain",
+      "payload": {
+        "rule_ar": "القاعدة ذات السطر الواحد: tell يأتي بعدها شخص فوراً، و say لا تأخذه. وهذا الفرق وحده وراء أكثر أخطاء النقل في هذا المستوى. و explain تحتاج to قبل الشخص: He explained the problem to me.",
+        "table": {
+          "columns_ar": [
+            "الفعل",
+            "النمط",
+            "صحيح"
+          ],
+          "rows": [
+            [
+              "say",
+              "say (that) + كلام",
+              "He said that he was tired."
+            ],
+            [
+              "tell",
+              "tell + شخص + كلام",
+              "He told me he was tired."
+            ],
+            [
+              "ask",
+              "ask (+ شخص) + if / what / to",
+              "She asked me if I was ready."
+            ],
+            [
+              "explain",
+              "explain + شيء + to + شخص",
+              "He explained the problem to me."
+            ]
+          ],
+          "say": 2,
+          "ar_cols": [
+            1
+          ]
+        },
+        "common_errors": [
+          {
+            "wrong": "He said me he is tired.",
+            "right": "He told me he was tired.",
+            "why_ar": "tell تأخذ شخصاً، والزمن يتراجع"
+          },
+          {
+            "wrong": "He told that he was tired.",
+            "right": "He said that he was tired.",
+            "why_ar": "tell تحتاج شخصاً بعدها"
+          },
+          {
+            "wrong": "He explained me the problem.",
+            "right": "He explained the problem to me.",
+            "why_ar": "explain تحتاج to قبل الشخص"
+          }
+        ],
+        "checklist_ar": [
+          "tell + شخص · say بلا شخص",
+          "explain something to someone"
         ]
       }
     },

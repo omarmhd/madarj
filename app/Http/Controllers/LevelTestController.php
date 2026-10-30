@@ -42,6 +42,9 @@ class LevelTestController extends Controller
     /** Hours before a failed test can be sat again — time to study the weak section, not to memorise */
     public const RETRY_HOURS = 24;
 
+    /** The answers key the free writing is saved under — not an item, never graded */
+    public const WRITING = 'free_writing';
+
     public function __construct(protected ProgressService $progress) {}
 
     public function index(Request $request): Response
@@ -69,6 +72,8 @@ class LevelTestController extends Controller
                     'minutes'     => $t->minutes,
                     'items'       => count($t->items()),
                     'available'   => $this->available($user, $t),
+                    // The proof still missing, if any — so a locked card says why
+                    'needs_note'  => $this->noteMet($user, $t) ? null : $t->requiredNote(),
                     'passed'      => $mine->contains('passed', true),
                     'best'        => $mine->max(fn ($a) => $a->percent()),
                     'last_id'     => $mine->first()?->id,
@@ -191,8 +196,10 @@ class LevelTestController extends Controller
             return true;
         }
 
-        return ($user->enrollment?->current_week ?? 1) >= $test->after_week
+        $reached = ($user->enrollment?->current_week ?? 1) >= $test->after_week
             || $user->enrollment?->completed_at !== null;
+
+        return $reached && $this->noteMet($user, $test);
     }
 
     /** When a failed test may be sat again, or null if it may now */
@@ -222,7 +229,60 @@ class LevelTestController extends Controller
     /** Keep only answers to items in this test — nothing else is stored */
     protected function clean(LevelTestAttempt $attempt, array $answers): array
     {
-        return array_intersect_key($answers, $attempt->test->items());
+        $kept = array_intersect_key($answers, $attempt->test->items());
+
+        // The free writing travels with the answers, though nothing grades it
+        if ($attempt->test->freeWriting() && is_string($answers[self::WRITING] ?? null)) {
+            $kept[self::WRITING] = mb_substr($answers[self::WRITING], 0, 4000);
+        }
+
+        return $kept;
+    }
+
+    /** The learner rates their own free writing, after the test — any number of times */
+    public function selfAssess(Request $request, LevelTestAttempt $attempt): RedirectResponse
+    {
+        abort_unless($attempt->user_id === $request->user()->id, 404);
+        abort_unless($attempt->submitted_at && ($w = $attempt->test->freeWriting()), 409);
+
+        $rules = [];
+        $max = 0;
+        foreach ($w['rubric'] as $c) {
+            $top = count($c['levels_ar']) - 1;
+            $rules['scores.'.$c['key']] = ['required', 'integer', 'min:0', 'max:'.$top];
+            $max += $top;
+        }
+        $data = $request->validate($rules);
+
+        $attempt->update(['self_assessment' => [
+            'scores' => $data['scores'],
+            'total'  => array_sum($data['scores']),
+            'max'    => $max,
+            'at'     => now()->toIso8601String(),
+        ]]);
+
+        return redirect()->route('tests.attempt', $attempt);
+    }
+
+    /** The free writing on the result page: their text, the model, the rubric, their rating */
+    protected function writingResult(LevelTestAttempt $attempt): ?array
+    {
+        $w = $attempt->test->freeWriting();
+
+        if (! $w) {
+            return null;
+        }
+
+        $text = (string) (($attempt->answers ?? [])[self::WRITING] ?? '');
+
+        return array_intersect_key($w, array_flip([
+            'title_ar', 'task_en', 'task_ar', 'points', 'min_words', 'max_words',
+            'model_en', 'model_notes_ar', 'before_rating_ar', 'rubric', 'verdicts',
+        ])) + [
+            'text'  => $text,
+            'words' => LevelTest::wordCount($text),
+            'self'  => $attempt->self_assessment,
+        ];
     }
 
     /**
@@ -257,7 +317,8 @@ class LevelTestController extends Controller
             }
         }
 
-        $passed = $max > 0 && $score * 100 >= $test->pass_percent * $max;
+        $passed = $max > 0 && $score * 100 >= $test->pass_percent * $max
+            && $this->sectionsShort($test, $sections) === [];
 
         $attempt->update([
             'submitted_at' => now(),
@@ -276,6 +337,42 @@ class LevelTestController extends Controller
         if ($passed) {
             \App\Models\Certificate::issueFor($attempt->fresh(['test', 'user']));
         }
+    }
+
+    /** Keys of the sections under the test's per-section minimum — never for placement */
+    protected function sectionsShort(LevelTest $test, array $sections): array
+    {
+        $min = $test->sectionMin();
+
+        if ($min <= 0 || $test->after_week === 0) {
+            return [];
+        }
+
+        return array_keys(array_filter(
+            $sections,
+            fn ($s) => $s['max'] > 0 && $s['score'] * 100 < $min * $s['max'],
+        ));
+    }
+
+    /** Whether the proof the test waits for (a week note) is there */
+    protected function noteMet(User $user, LevelTest $test): bool
+    {
+        $need = $test->requiredNote();
+
+        if (! $need) {
+            return true;
+        }
+
+        $note = \App\Models\WeekNote::where('user_id', $user->id)
+            ->where('kind', $need['kind'])
+            ->whereHas('week', fn ($q) => $q->where('number', $need['week']))
+            ->first();
+
+        // Choosing a plan saves the note too; only an English sentence from
+        // the debrief (three words or more) is proof the conversation happened
+        return $note !== null && collect($note->answers ?? [])
+            ->except('plan')
+            ->contains(fn ($a) => is_string($a) && preg_match('/[A-Za-z]{2,}(?:\W+[A-Za-z]+){2,}/', $a));
     }
 
     /** Everything the result page shows, answers included — the test is over */
@@ -305,6 +402,9 @@ class LevelTestController extends Controller
             ];
         })->values();
 
+        $short = $this->sectionsShort($test, $attempt->sections ?? []);
+        $sections = $sections->map(fn ($s) => $s + ['short' => in_array($s['key'], $short, true)]);
+
         $weakest = $sections->sortBy('percent')->first();
 
         return [
@@ -316,6 +416,7 @@ class LevelTestController extends Controller
             'passed'     => $attempt->passed,
             'band'       => $this->band($percent),
             'pass_percent' => $test->pass_percent,
+            'section_min' => $test->sectionMin(),
             // An expired sitting is graded when next opened, maybe days later — the time used ends at the deadline
             'minutes_used' => (int) ceil($attempt->started_at->diffInSeconds($attempt->submitted_at->min($attempt->deadline_at)) / 60),
             'focus_lost' => $attempt->focus_lost,
@@ -326,6 +427,7 @@ class LevelTestController extends Controller
             'estimate'   => $test->after_week === 0 ? $this->estimate($items, $answers) : null,
             'certificate' => \App\Models\Certificate::where('user_id', $attempt->user_id)
                 ->where('level_test_id', $test->id)->value('code'),
+            'free_writing' => $this->writingResult($attempt),
         ];
     }
 

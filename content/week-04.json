@@ -44,49 +44,85 @@
     }
   ],
   "writing": {
-    "title_ar": null,
+    "title_ar": "الكتابة — أين أسكن",
     "title_en": "Writing — Where I Live",
-    "task_ar": null,
+    "task_ar": "اكتب 90–110 كلمة تصف فيها بيتك وحيّك. اذكر: نوع البيت، وعدد الغرف، وشيئاً واحداً تحبّه، وشيئاً واحداً ينقصه، ومكانين قريبين منك مع موقع كلٍّ منهما.",
     "task_en": "Write 90–110 words describing your home and your neighbourhood. Include: the type of home, how many rooms, one thing you like, one thing that is missing, and two places near you with their position.",
     "min_words": 90,
     "max_words": 110,
     "templates": [
       {
         "en": "I live in a ____________ in ____________ .",
-        "ar": null
+        "ar": "أسكن في ___ في ___."
       },
       {
         "en": "There are ______ rooms: ____________ .",
-        "ar": null
+        "ar": "يوجد ___ غرف: ___.",
+        "note_ar": "There are مع الجمع (rooms)، وThere is مع المفرد (one bathroom)"
       },
       {
         "en": "My favourite room is ____________ because ____________ .",
-        "ar": null
+        "ar": "غرفتي المفضّلة هي ___ لأنّ ___."
       },
       {
         "en": "There is / There isn't ____________ .",
-        "ar": null
+        "ar": "يوجد / لا يوجد ___.",
+        "note_ar": "لا تقل Have a garden — قل There is a garden، وفي النفي There isn't a …"
       },
       {
         "en": "My neighbourhood is ____________ .",
-        "ar": null
+        "ar": "حيّي ___."
       },
       {
         "en": "Near my home there is ____________ . It is ____________ my building.",
-        "ar": null
+        "ar": "قرب بيتي يوجد ___. إنّه ___ مبناي.",
+        "note_ar": "opposite بلا to، أمّا in front of فلا تُحذف منها of"
       },
       {
         "en": "At the end of the street there is ____________ .",
-        "ar": null
+        "ar": "في آخر الشارع يوجد ___."
       },
       {
         "en": "The only problem is that there aren't any ____________ .",
-        "ar": null
+        "ar": "المشكلة الوحيدة أنّه لا يوجد أيّ ___."
       }
     ],
-    "checklist": [],
-    "model_answer": "I live in a small flat on the third floor of an old building. There are four rooms: two bedrooms, a living room and a kitchen. There is one bathroom.",
-    "model_words": 30
+    "target_errors": [
+      {
+        "wrong": "Have a park near my house.",
+        "right": "There is a park near my house."
+      },
+      {
+        "wrong": "There is four rooms.",
+        "right": "There are four rooms."
+      },
+      {
+        "wrong": "There is not lift.",
+        "right": "There isn't a lift."
+      }
+    ],
+    "checklist": [
+      {
+        "ar": "هل استخدمت There is مع المفرد وThere are مع الجمع في كل مرة؟"
+      },
+      {
+        "ar": "هل استخدمت some في الإثبات وany في النفي والسؤال؟"
+      },
+      {
+        "ar": "هل استخدمت أربعة حروف جرّ مختلفة للمكان على الأقل؟"
+      },
+      {
+        "ar": "هل استخدمت it is فقط لشيء ذكرته من قبل؟"
+      },
+      {
+        "ar": "هل تجنّبت have بمعنى «يوجد»؟"
+      },
+      {
+        "ar": "هل المجموع بين 90 و110 كلمة؟"
+      }
+    ],
+    "model_answer": "I live in a small flat on the third floor of an old building. There are four rooms: two bedrooms, a living room and a kitchen. There is one bathroom. My favourite room is the living room because there are three big windows and a lot of light. There isn't a garden, but there is a balcony and I sit there every evening. My neighbourhood is busy but friendly. Opposite my building there is a small market, and next to it there is a bakery. At the end of the street there is a park. The only problem is that there aren't any good restaurants near here.",
+    "model_words": 107
   },
   "days": [
     {
@@ -283,7 +319,7 @@
           "order": 2,
           "label": "ظروف المكان",
           "minutes": 25,
-          "ref": "vocab:prepositions_of_place"
+          "ref": "vocab:prepositions_of_place,colours"
         },
         {
           "label": "مراجعة الإملاء",
@@ -401,8 +437,8 @@
         },
         {
           "label": "الكلمات",
-          "minutes": 10,
-          "ref": "vocab:giving_directions",
+          "minutes": 15,
+          "ref": "vocab:giving_directions,weather_and_seasons",
           "order": 2
         },
         {
@@ -506,12 +542,6 @@
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
-        },
-        {
-          "order": 8,
-          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record:baseline"
         },
         {
           "order": 9,
@@ -1828,6 +1858,331 @@
       "sentence": "Giving directions: Follow this street to the end.",
       "sentence_ar": "وأنت تدل الطريق: اتبع هذا الشارع حتى نهايته.",
       "usage_ar": "تعني امشِ في هذا الشارع ولا تنعطف."
+    },
+    {
+      "group": "colours",
+      "word": "colour",
+      "ipa": "/ˈkʌlə(r)/",
+      "arabic": "لون",
+      "example": "What colour is your car?",
+      "group_label_ar": "الألوان",
+      "group_label_en": "Colours",
+      "target": "colour",
+      "sentence": "What colour is your car?",
+      "sentence_ar": "ما لون سيارتك؟",
+      "usage_ar": "بالبريطانية colour، وبالأمريكية color."
+    },
+    {
+      "group": "colours",
+      "word": "red",
+      "ipa": "/red/",
+      "arabic": "أحمر",
+      "example": "We have a red door.",
+      "group_label_ar": "الألوان",
+      "group_label_en": "Colours",
+      "target": "red",
+      "sentence": "We have a red door.",
+      "sentence_ar": "عندنا باب أحمر.",
+      "usage_ar": "الصفة قبل الاسم: a red door."
+    },
+    {
+      "group": "colours",
+      "word": "blue",
+      "ipa": "/bluː/",
+      "arabic": "أزرق",
+      "example": "My bedroom is blue.",
+      "group_label_ar": "الألوان",
+      "group_label_en": "Colours",
+      "target": "blue",
+      "sentence": "My bedroom is blue.",
+      "sentence_ar": "غرفة نومي زرقاء.",
+      "usage_ar": "بعد is تأتي وحدها: It is blue."
+    },
+    {
+      "group": "colours",
+      "word": "green",
+      "ipa": "/ɡriːn/",
+      "arabic": "أخضر",
+      "example": "There is a green sofa in the living room.",
+      "group_label_ar": "الألوان",
+      "group_label_en": "Colours",
+      "target": "green",
+      "sentence": "There is a green sofa in the living room.",
+      "sentence_ar": "هناك أريكة خضراء في غرفة الجلوس.",
+      "usage_ar": "ee ممدودة: /iː/ كما في sheep."
+    },
+    {
+      "group": "colours",
+      "word": "yellow",
+      "ipa": "/ˈjeləʊ/",
+      "arabic": "أصفر",
+      "example": "The kitchen is yellow.",
+      "group_label_ar": "الألوان",
+      "group_label_en": "Colours",
+      "target": "yellow",
+      "sentence": "The kitchen is yellow.",
+      "sentence_ar": "المطبخ أصفر.",
+      "usage_ar": "النبرة على الأول: YEL-low."
+    },
+    {
+      "group": "colours",
+      "word": "white",
+      "ipa": "/waɪt/",
+      "arabic": "أبيض",
+      "example": "The walls are white.",
+      "group_label_ar": "الألوان",
+      "group_label_en": "Colours",
+      "target": "white",
+      "sentence": "The walls are white.",
+      "sentence_ar": "الجدران بيضاء.",
+      "usage_ar": "لا تُنطق h: /waɪt/."
+    },
+    {
+      "group": "colours",
+      "word": "black",
+      "ipa": "/blæk/",
+      "arabic": "أسود",
+      "example": "I have a black chair.",
+      "group_label_ar": "الألوان",
+      "group_label_en": "Colours",
+      "target": "black",
+      "sentence": "I have a black chair.",
+      "sentence_ar": "عندي كرسي أسود.",
+      "usage_ar": "bl- معاً بلا حركة بينهما."
+    },
+    {
+      "group": "colours",
+      "word": "brown",
+      "ipa": "/braʊn/",
+      "arabic": "بنّي",
+      "example": "The table is brown.",
+      "group_label_ar": "الألوان",
+      "group_label_en": "Colours",
+      "target": "brown",
+      "sentence": "The table is brown.",
+      "sentence_ar": "الطاولة بنّية.",
+      "usage_ar": "لون الخشب والقهوة."
+    },
+    {
+      "group": "colours",
+      "word": "grey",
+      "ipa": "/ɡreɪ/",
+      "arabic": "رمادي",
+      "example": "Our building is grey.",
+      "group_label_ar": "الألوان",
+      "group_label_en": "Colours",
+      "target": "grey",
+      "sentence": "Our building is grey.",
+      "sentence_ar": "عمارتنا رمادية.",
+      "usage_ar": "بالأمريكية gray."
+    },
+    {
+      "group": "colours",
+      "word": "pink",
+      "ipa": "/pɪŋk/",
+      "arabic": "وردي",
+      "example": "My daughter's room is pink.",
+      "group_label_ar": "الألوان",
+      "group_label_en": "Colours",
+      "target": "pink",
+      "sentence": "My daughter's room is pink.",
+      "sentence_ar": "غرفة ابنتي وردية.",
+      "usage_ar": "p لا b: /pɪŋk/."
+    },
+    {
+      "group": "colours",
+      "word": "dark",
+      "ipa": "/dɑːk/",
+      "arabic": "غامق · مظلم",
+      "example": "The hall is dark.",
+      "group_label_ar": "الألوان",
+      "group_label_en": "Colours",
+      "target": "dark",
+      "sentence": "The hall is dark.",
+      "sentence_ar": "الممرّ مظلم.",
+      "usage_ar": "dark blue = أزرق غامق."
+    },
+    {
+      "group": "colours",
+      "word": "light",
+      "ipa": "/laɪt/",
+      "arabic": "فاتح · ضوء",
+      "example": "There is a lot of light in this room.",
+      "group_label_ar": "الألوان",
+      "group_label_en": "Colours",
+      "target": "light",
+      "sentence": "There is a lot of light in this room.",
+      "sentence_ar": "في هذه الغرفة ضوء كثير.",
+      "usage_ar": "light blue = أزرق فاتح، و light أيضاً = ضوء."
+    },
+    {
+      "group": "weather_and_seasons",
+      "word": "weather",
+      "ipa": "/ˈweðə(r)/",
+      "arabic": "طقس",
+      "example": "What's the weather like in your city? — It's sunny.",
+      "group_label_ar": "الطقس والفصول",
+      "group_label_en": "Weather & Seasons",
+      "target": "weather",
+      "sentence": "What's the weather like in your city? — It's sunny.",
+      "sentence_ar": "كيف الطقس في مدينتك؟ — مشمس.",
+      "usage_ar": "What's the weather like? = كيف الطقس؟ — و like هنا ليست «يحبّ». و weather بلا a: لا a weather."
+    },
+    {
+      "group": "weather_and_seasons",
+      "word": "sunny",
+      "ipa": "/ˈsʌni/",
+      "arabic": "مشمس",
+      "example": "It is often sunny in our city.",
+      "group_label_ar": "الطقس والفصول",
+      "group_label_en": "Weather & Seasons",
+      "target": "sunny",
+      "sentence": "It is often sunny in our city.",
+      "sentence_ar": "الجوّ مشمس غالباً في مدينتنا.",
+      "usage_ar": "sun اسم (شمس) و sunny صفة بـ nn مضاعفة: It is sunny — لا It is sun."
+    },
+    {
+      "group": "weather_and_seasons",
+      "word": "hot",
+      "ipa": "/hɒt/",
+      "arabic": "حارّ",
+      "example": "It is hot in summer.",
+      "group_label_ar": "الطقس والفصول",
+      "group_label_en": "Weather & Seasons",
+      "target": "hot",
+      "sentence": "It is hot in summer.",
+      "sentence_ar": "الجوّ حارّ في الصيف.",
+      "usage_ar": "العربية تقول «حارّ اليوم» بلا فاعل، والإنجليزية تحتاج It: It is hot today — لا Is hot today."
+    },
+    {
+      "group": "weather_and_seasons",
+      "word": "warm",
+      "ipa": "/wɔːm/",
+      "arabic": "دافئ",
+      "example": "Our flat is warm in winter.",
+      "group_label_ar": "الطقس والفصول",
+      "group_label_en": "Weather & Seasons",
+      "target": "warm",
+      "sentence": "Our flat is warm in winter.",
+      "sentence_ar": "شقّتنا دافئة في الشتاء.",
+      "usage_ar": "warm أخفّ من hot: دفء لطيف. و ar ممدودة بلا r: /wɔːm/."
+    },
+    {
+      "group": "weather_and_seasons",
+      "word": "cold",
+      "ipa": "/kəʊld/",
+      "arabic": "بارد",
+      "example": "It is cold at night in the desert.",
+      "group_label_ar": "الطقس والفصول",
+      "group_label_en": "Weather & Seasons",
+      "target": "cold",
+      "sentence": "It is cold at night in the desert.",
+      "sentence_ar": "الجوّ بارد ليلاً في الصحراء.",
+      "usage_ar": "«أنا بردان» = I am cold بـ am — لا I have cold."
+    },
+    {
+      "group": "weather_and_seasons",
+      "word": "rain",
+      "ipa": "/reɪn/",
+      "arabic": "مطر · تمطر",
+      "example": "It rains a lot in November.",
+      "group_label_ar": "الطقس والفصول",
+      "group_label_en": "Weather & Seasons",
+      "target": "rain",
+      "sentence": "It rains a lot in November.",
+      "sentence_ar": "تمطر كثيراً في نوفمبر.",
+      "usage_ar": "rain اسم وفعل: There is a lot of rain (اسم) · It rains a lot (فعل) — ومع الفعل فاعله It دائماً."
+    },
+    {
+      "group": "weather_and_seasons",
+      "word": "snow",
+      "ipa": "/snəʊ/",
+      "arabic": "ثلج",
+      "example": "There isn't any snow in my city.",
+      "group_label_ar": "الطقس والفصول",
+      "group_label_en": "Weather & Seasons",
+      "target": "snow",
+      "sentence": "There isn't any snow in my city.",
+      "sentence_ar": "لا يوجد ثلج في مدينتي.",
+      "usage_ar": "snow غير معدود: some snow · a lot of snow — لا a snow."
+    },
+    {
+      "group": "weather_and_seasons",
+      "word": "wind",
+      "ipa": "/wɪnd/",
+      "arabic": "ريح · هواء",
+      "example": "The wind is cold in the morning.",
+      "group_label_ar": "الطقس والفصول",
+      "group_label_en": "Weather & Seasons",
+      "target": "wind",
+      "sentence": "The wind is cold in the morning.",
+      "sentence_ar": "الريح باردة في الصباح.",
+      "usage_ar": "i قصيرة: /wɪnd/. والصفة windy: It is windy today."
+    },
+    {
+      "group": "weather_and_seasons",
+      "word": "cloudy",
+      "ipa": "/ˈklaʊdi/",
+      "arabic": "غائم",
+      "example": "It is cloudy, but it isn't cold.",
+      "group_label_ar": "الطقس والفصول",
+      "group_label_en": "Weather & Seasons",
+      "target": "cloudy",
+      "sentence": "It is cloudy, but it isn't cold.",
+      "sentence_ar": "الجوّ غائم، لكنه ليس بارداً.",
+      "usage_ar": "cloud اسم (غيمة) و cloudy صفة: It is cloudy — و ou تُنطق /aʊ/ كما في house."
+    },
+    {
+      "group": "weather_and_seasons",
+      "word": "spring",
+      "ipa": "/sprɪŋ/",
+      "arabic": "الربيع",
+      "example": "The park is green in spring.",
+      "group_label_ar": "الطقس والفصول",
+      "group_label_en": "Weather & Seasons",
+      "target": "spring",
+      "sentence": "The park is green in spring.",
+      "sentence_ar": "الحديقة خضراء في الربيع.",
+      "usage_ar": "spr- ثلاثة سواكن معاً بلا ألف قبلها: لا «إسبرنغ»."
+    },
+    {
+      "group": "weather_and_seasons",
+      "word": "summer",
+      "ipa": "/ˈsʌmə(r)/",
+      "arabic": "الصيف",
+      "example": "There are a lot of people on the beach in summer.",
+      "group_label_ar": "الطقس والفصول",
+      "group_label_en": "Weather & Seasons",
+      "target": "summer",
+      "sentence": "There are a lot of people on the beach in summer.",
+      "sentence_ar": "على الشاطئ ناس كثيرون في الصيف.",
+      "usage_ar": "in + الفصل: in summer = في الصيف، و in the summer صحيحة أيضاً — ولا on summer."
+    },
+    {
+      "group": "weather_and_seasons",
+      "word": "autumn",
+      "ipa": "/ˈɔːtəm/",
+      "arabic": "الخريف",
+      "example": "The trees in our street are yellow in autumn.",
+      "group_label_ar": "الطقس والفصول",
+      "group_label_en": "Weather & Seasons",
+      "target": "autumn",
+      "sentence": "The trees in our street are yellow in autumn.",
+      "sentence_ar": "أشجار شارعنا صفراء في الخريف.",
+      "usage_ar": "n في آخرها صامتة: /ˈɔːtəm/. وبالأمريكية fall."
+    },
+    {
+      "group": "weather_and_seasons",
+      "word": "winter",
+      "ipa": "/ˈwɪntə(r)/",
+      "arabic": "الشتاء",
+      "example": "There is a lot of rain in winter.",
+      "group_label_ar": "الطقس والفصول",
+      "group_label_en": "Weather & Seasons",
+      "target": "winter",
+      "sentence": "There is a lot of rain in winter.",
+      "sentence_ar": "في الشتاء مطر كثير.",
+      "usage_ar": "الفصول بحرف صغير: winter لا Winter — بعكس الأيام والشهور."
     }
   ],
   "minimal_pairs": [],
@@ -2009,46 +2364,46 @@
       "title_ar": "القواعد",
       "title_en": "Grammar — There is / There are",
       "payload": {
-        "rule_ar": "تقول There is و There are لتخبر أن شيئاً **موجود** في مكان. وهذا التركيب هو ما تحتاجه لوصف أي غرفة أو بيت أو شارع أو مدينة. والعربية تقول «يوجد» أو «هناك» بلا فعل كون ظاهر، فيميل المتحدّث بالعربية إلى قول Have a park بدل There is a park — وهذا أشهر خطأ في هذا الفصل.",
+        "rule_ar": "تقول There is و There are لتخبر أن شيئاً موجود في مكان. وهذا التركيب هو ما تحتاجه لوصف أي غرفة أو بيت أو شارع أو مدينة. والعربية تقول «يوجد» أو «هناك» بلا فعل كون ظاهر، فيميل المتحدّث بالعربية إلى قول Have a park بدل There is a park — وهذا أشهر خطأ في هذا الفصل.",
         "rule_en": "You use There is and There are to say that something exists in a place. This is the structure you need for describing any room, house, street or town.",
         "common_errors": [
           {
-            "error_no": 1,
+            "error_no": 7,
             "wrong": "Have a park near my house",
             "right": "There is a park near my house.",
             "arabic": "يوجد حديقة قرب بيتي",
             "why_ar": "الإنجليزية لا تستخدم have للوجود"
           },
           {
-            "error_no": 2,
+            "error_no": null,
             "wrong": "There is four rooms",
             "right": "There are four rooms.",
             "arabic": "يوجد أربع غرف",
             "why_ar": "الجمع يأخذ are"
           },
           {
-            "error_no": 3,
+            "error_no": null,
             "wrong": "There is not lift",
             "right": "There isn't a lift.",
             "arabic": "لا يوجد مصعد",
             "why_ar": "المفرد المعدود يحتاج a"
           },
           {
-            "error_no": 4,
+            "error_no": null,
             "wrong": "Is have a bank here?",
             "right": "Is there a bank here?",
             "arabic": "هل يوجد بنك هنا؟",
             "why_ar": "اقلب there is لتصنع السؤال"
           },
           {
-            "error_no": 5,
+            "error_no": null,
             "wrong": "The house is front the school",
             "right": "…is in front of the school.",
             "arabic": "البيت أمام المدرسة",
             "why_ar": "in front of ثلاث كلمات"
           },
           {
-            "error_no": 6,
+            "error_no": null,
             "wrong": "opposite to the hotel",
             "right": "…opposite the hotel.",
             "arabic": "المطعم مقابل الفندق",
@@ -2060,7 +2415,333 @@
           "النفي: There isn’t · There aren’t",
           "السؤال يبدأ بـIs there أو Are there",
           "لا تقل Have a… للوجود — تلك ملكية لا وجود",
-          "It is للإشارة إلى شيء معروف · There is لإثبات وجوده"
+          "It is للإشارة إلى شيء معروف · There is لإثبات وجوده",
+          "How many + جمع + are there?",
+          "المالك + 's + المملوك: my brother's room",
+          "الصفة قبل الاسم ولا تُجمع: two red cars"
+        ],
+        "table": {
+          "columns_ar": [
+            "الصيغة",
+            "There is / are",
+            "مثال"
+          ],
+          "rows": [
+            [
+              "إثبات · مفرد",
+              "There is",
+              "There is a park near my house."
+            ],
+            [
+              "إثبات · جمع",
+              "There are",
+              "There are three bedrooms."
+            ],
+            [
+              "نفي · مفرد",
+              "There isn't",
+              "There isn't a lift."
+            ],
+            [
+              "نفي · جمع",
+              "There aren't",
+              "There aren't any restaurants."
+            ],
+            [
+              "سؤال · مفرد",
+              "Is there",
+              "Is there a bank near here?"
+            ],
+            [
+              "سؤال · جمع",
+              "Are there",
+              "Are there any shops?"
+            ],
+            [
+              "جواب قصير",
+              "Yes, there is.",
+              "No, there aren't."
+            ]
+          ],
+          "say": 2,
+          "ar_cols": [
+            0
+          ]
+        },
+        "arabic_contrast_ar": "العربية تقول «في» أو «يوجد» أو «عندنا»: «في حديقة قرب بيتي» · «عندنا مصعد». فيترجم المتحدّث بالعربية «عندنا» إلى have فيقول Have a park. والقاعدة: الوجود في مكان = There is / There are، والملكية لشخص = have (I have a car).",
+        "contrast_table": [
+          {
+            "ar": "في حديقة قرب بيتي",
+            "literal": "Have a park near my house",
+            "right": "There is a park near my house.",
+            "rule_ar": "الوجود بـ There is لا have"
+          },
+          {
+            "ar": "فيه أربع غرف",
+            "literal": "There is four rooms",
+            "right": "There are four rooms.",
+            "rule_ar": "الجمع يأخذ There are"
+          },
+          {
+            "ar": "ما في مصعد",
+            "literal": "No lift",
+            "right": "There isn't a lift.",
+            "rule_ar": "النفي isn't + a مع المفرد"
+          },
+          {
+            "ar": "في بنك هنا؟",
+            "literal": "Have bank here?",
+            "right": "Is there a bank here?",
+            "rule_ar": "السؤال بقلب there is"
+          }
+        ],
+        "negation_ar": "النفي: There isn't a… مع المفرد · There aren't any… مع الجمع · There isn't any… مع غير المعدود (milk · water · furniture)",
+        "question_ar": "السؤال: Is there a…? · Are there any…? · How many… are there? — والجواب القصير: Yes, there is · No, there aren't",
+        "lessons": [
+          {
+            "title_ar": "some · any · How many…are there?",
+            "title_en": "some / any with there is / are",
+            "explain_ar": "كما في الأسبوع الثالث: some في الإثبات، و any في النفي والسؤال — مع الجمع ومع غير المعدود. وللسؤال عن العدد: How many + اسم جمع + are there?",
+            "examples": [
+              {
+                "en": "There are some books on the shelf.",
+                "ar": "هناك بعض الكتب على الرف."
+              },
+              {
+                "en": "There isn't any milk in the fridge.",
+                "ar": "لا يوجد حليب في الثلاجة."
+              },
+              {
+                "en": "Are there any shops near here?",
+                "ar": "هل توجد محلات قريبة؟"
+              },
+              {
+                "en": "How many bedrooms are there? — There are two.",
+                "ar": "كم غرفة نوم؟ — اثنتان."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "There aren't some shops.",
+                "right": "There aren't any shops.",
+                "why_ar": "النفي يأخذ any"
+              },
+              {
+                "wrong": "How many rooms there are?",
+                "right": "How many rooms are there?",
+                "why_ar": "في السؤال تأتي are قبل there"
+              },
+              {
+                "wrong": "There are some furnitures.",
+                "right": "There is some furniture.",
+                "why_ar": "furniture غير معدودة: لا تُجمع وتأخذ is"
+              }
+            ]
+          },
+          {
+            "title_ar": "ملكية الأشخاص: my brother's room",
+            "title_en": "Possessive 's",
+            "explain_ar": "العربية تقدّم المملوك: «غرفة أخي» · «سيارة سامي». والإنجليزية بالعكس: المالك + 's ثم المملوك: my brother's room · Sami's car. والجمع المنتهي بـ s تكفيه الفاصلة: my parents' house. والجمع الشاذّ يأخذ 's: the children's room.",
+            "table": {
+              "columns_ar": [
+                "المالك",
+                "الصيغة",
+                "مثال",
+                "بالعربية"
+              ],
+              "rows": [
+                [
+                  "Sami",
+                  "Sami's",
+                  "Sami's flat is small.",
+                  "شقة سامي صغيرة"
+                ],
+                [
+                  "my brother",
+                  "my brother's",
+                  "My brother's room is big.",
+                  "غرفة أخي كبيرة"
+                ],
+                [
+                  "my parents",
+                  "my parents'",
+                  "My parents' house is old.",
+                  "بيت والديّ قديم"
+                ],
+                [
+                  "the children",
+                  "the children's",
+                  "The children's room is next to ours.",
+                  "غرفة الأطفال بجانب غرفتنا"
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                3
+              ]
+            },
+            "errors": [
+              {
+                "wrong": "the room of my brother",
+                "right": "my brother's room",
+                "why_ar": "المالك أولاً + 's"
+              },
+              {
+                "wrong": "Sami car",
+                "right": "Sami's car",
+                "why_ar": "لا ملكية بلا 's"
+              }
+            ],
+            "tip_ar": "'s لها معنيان: Sami's car (ملكية) و Sami's here = Sami is here. إن جاء بعدها اسم فهي ملكية."
+          },
+          {
+            "title_ar": "حروف المكان مع العربية",
+            "title_en": "Prepositions of place",
+            "explain_ar": "أغلبها يقابل العربية مباشرة. وثلاثة تُخطئ فيها الترجمة: in front of ثلاث كلمات (أمام)، و opposite بلا to (مقابل)، و next to بـ to دائماً (بجانب).",
+            "table": {
+              "columns_ar": [
+                "بالعربية",
+                "الحرف",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "في · داخل",
+                  "in",
+                  "The milk is in the fridge."
+                ],
+                [
+                  "على",
+                  "on",
+                  "The books are on the shelf."
+                ],
+                [
+                  "تحت",
+                  "under",
+                  "The bag is under the bed."
+                ],
+                [
+                  "فوق بلا لمس",
+                  "above",
+                  "The mirror is above the sink."
+                ],
+                [
+                  "بجانب",
+                  "next to",
+                  "The bank is next to the hotel."
+                ],
+                [
+                  "بين",
+                  "between",
+                  "The café is between the bank and the pharmacy."
+                ],
+                [
+                  "خلف",
+                  "behind",
+                  "The garden is behind the house."
+                ],
+                [
+                  "أمام",
+                  "in front of",
+                  "The car is in front of the door."
+                ],
+                [
+                  "مقابل",
+                  "opposite",
+                  "The park is opposite my building."
+                ],
+                [
+                  "قرب",
+                  "near",
+                  "My flat is near the market."
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                0
+              ]
+            },
+            "errors": [
+              {
+                "wrong": "opposite to the hotel",
+                "right": "opposite the hotel",
+                "why_ar": "opposite بلا to"
+              },
+              {
+                "wrong": "front the school",
+                "right": "in front of the school",
+                "why_ar": "in front of ثلاث كلمات"
+              },
+              {
+                "wrong": "next the bank",
+                "right": "next to the bank",
+                "why_ar": "next to بـ to دائماً"
+              }
+            ],
+            "tip_ar": "on = على وملامس · above = فوق بلا لمس. The lamp is on the table، لكن المصباح المعلّق above the table."
+          },
+          {
+            "title_ar": "الألوان، والصفة قبل الاسم",
+            "title_en": "Colours and adjective position",
+            "explain_ar": "العربية تؤخّر الصفة: «باب أزرق» · «سيارتان حمراوان». والإنجليزية تقدّمها، ولا تجمعها: a blue door · two red cars. ومع be تأتي بعد الفعل: The door is blue.",
+            "examples": [
+              {
+                "en": "We have a blue door and a big window.",
+                "ar": "عندنا باب أزرق ونافذة كبيرة."
+              },
+              {
+                "en": "There are two red cars in front of the house.",
+                "ar": "هناك سيارتان حمراوان أمام البيت."
+              },
+              {
+                "en": "What colour is your sofa? — It is grey.",
+                "ar": "ما لون أريكتك؟ — رمادية."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "a door blue",
+                "right": "a blue door",
+                "why_ar": "الصفة قبل الاسم"
+              },
+              {
+                "wrong": "two cars reds",
+                "right": "two red cars",
+                "why_ar": "الصفة لا تُجمع ولا تتأخّر"
+              }
+            ]
+          },
+          {
+            "title_ar": "الأمر في الدلالة على الطريق",
+            "title_en": "The imperative for directions",
+            "explain_ar": "الدلالة على الطريق بصيغة الأمر: الفعل مجرّداً، بلا فاعل ولا to — Turn left · Go straight on · Cross the road. والنفي Don't + فعل: Don't cross here. والأمر كاملاً درس الأسبوع الخامس.",
+            "examples": [
+              {
+                "en": "Go straight on to the end of this street.",
+                "ar": "امشِ مستقيماً حتى آخر الشارع."
+              },
+              {
+                "en": "Take the second right.",
+                "ar": "خذ ثاني شارع على اليمين."
+              },
+              {
+                "en": "Don't turn left — turn right.",
+                "ar": "لا تنعطف يساراً — انعطف يميناً."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "To turn left.",
+                "right": "Turn left.",
+                "why_ar": "الأمر بلا to"
+              },
+              {
+                "wrong": "No cross here.",
+                "right": "Don't cross here.",
+                "why_ar": "النفي في الأمر بـ Don't"
+              }
+            ]
+          }
         ]
       }
     },
@@ -2222,7 +2903,9 @@
             "note_ar": "proud of something"
           }
         ],
-        "questions": []
+        "questions": [],
+        "notice_ar": "القصّة تحكي ما حدث سنة 1961، ففيها أفعال ماضية: was (كان) · moved (انتقل) · wanted (أراد) · went (ذهب). ستدرس الماضي في الأسبوع السابع؛ افهمها الآن من السياق والمسرد، وركّز على There is وThere are في النص.",
+        "find_task_ar": "ابحث في النص عن: خمس جمل بـ There is / There are · ستة حروف جرّ للمكان · أربع كلمات نبرها على المقطع الثاني · كلمتين فيهما حرف صامت."
       }
     },
     {
@@ -2901,7 +3584,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "مثال: The hospital is next to the bank.",
       "points": 1
     },
     {
@@ -2921,7 +3604,7 @@
       "answer": {
         "correct": 3
       },
-      "explanation": null,
+      "explanation": "مثال: Is there a pharmacy near here?",
       "points": 1
     },
     {
@@ -2941,7 +3624,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "مثال: There is a market on Fridays.",
       "points": 1
     },
     {
@@ -2961,7 +3644,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "مثال: I'm looking for the post office.",
       "points": 1
     },
     {
@@ -2981,7 +3664,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "مثال: The bank is on the corner.",
       "points": 1
     },
     {
@@ -3001,7 +3684,7 @@
       "answer": {
         "correct": 3
       },
-      "explanation": null,
+      "explanation": "مثال: My neighbourhood is quiet.",
       "points": 1
     },
     {
@@ -3021,7 +3704,7 @@
           "there is"
         ]
       },
-      "explanation": null
+      "explanation": "اسم مفرد بعدها — أو غير معدود — فتقول There is."
     },
     {
       "day_number": 3,
@@ -3040,7 +3723,7 @@
           "there are"
         ]
       },
-      "explanation": null
+      "explanation": "اسم جمع بعدها (bedrooms · hospitals · windows) فتقول There are."
     },
     {
       "day_number": 3,
@@ -3059,7 +3742,7 @@
           "there is"
         ]
       },
-      "explanation": null
+      "explanation": "milk غير معدودة فتأخذ There is، ولو جاءت معها some."
     },
     {
       "day_number": 3,
@@ -3078,7 +3761,7 @@
           "there is"
         ]
       },
-      "explanation": null
+      "explanation": "اسم مفرد بعدها — أو غير معدود — فتقول There is."
     },
     {
       "day_number": 3,
@@ -3097,7 +3780,7 @@
           "there are"
         ]
       },
-      "explanation": null
+      "explanation": "اسم جمع بعدها (bedrooms · hospitals · windows) فتقول There are."
     },
     {
       "day_number": 3,
@@ -3116,7 +3799,7 @@
           "there is"
         ]
       },
-      "explanation": null
+      "explanation": "traffic غير معدودة — a lot of لا يجعلها جمعاً — فتقول There is."
     },
     {
       "day_number": 3,
@@ -3135,7 +3818,7 @@
           "are there"
         ]
       },
-      "explanation": null
+      "explanation": "سؤال عن جمع (chairs) فتقلب: Are there — و any في السؤال."
     },
     {
       "day_number": 3,
@@ -3154,7 +3837,7 @@
           "there is"
         ]
       },
-      "explanation": null
+      "explanation": "اسم مفرد بعدها — أو غير معدود — فتقول There is."
     },
     {
       "day_number": 3,
@@ -3173,7 +3856,7 @@
           "there are"
         ]
       },
-      "explanation": null
+      "explanation": "اسم جمع بعدها (bedrooms · hospitals · windows) فتقول There are."
     },
     {
       "day_number": 3,
@@ -3192,7 +3875,7 @@
           "there is"
         ]
       },
-      "explanation": null
+      "explanation": "furniture غير معدودة في الإنجليزية، فتأخذ There is لا There are."
     },
     {
       "day_number": 3,
@@ -3211,7 +3894,7 @@
           "are there"
         ]
       },
-      "explanation": null
+      "explanation": "سؤال عن جمع (shops) فتقلب: Are there."
     },
     {
       "day_number": 3,
@@ -3230,7 +3913,7 @@
           "there is"
         ]
       },
-      "explanation": null
+      "explanation": "اسم مفرد بعدها — أو غير معدود — فتقول There is."
     },
     {
       "day_number": 3,
@@ -3244,10 +3927,12 @@
       },
       "answer": {
         "accepted": [
-          "There isn't a garden."
+          "There isn't a garden.",
+          "There is not a garden.",
+          "There's not a garden."
         ]
       },
-      "explanation": null
+      "explanation": "النفي مع المفرد: There isn't + a."
     },
     {
       "day_number": 3,
@@ -3261,10 +3946,11 @@
       },
       "answer": {
         "accepted": [
-          "There aren't any shops near here."
+          "There aren't any shops near here.",
+          "There are not any shops near here."
         ]
       },
-      "explanation": null
+      "explanation": "النفي مع الجمع: There aren't — و some تصير any."
     },
     {
       "day_number": 3,
@@ -3278,10 +3964,12 @@
       },
       "answer": {
         "accepted": [
-          "There isn't a lift in the building."
+          "There isn't a lift in the building.",
+          "There is not a lift in the building.",
+          "There's not a lift in the building."
         ]
       },
-      "explanation": null
+      "explanation": "النفي مع المفرد: There isn't + a."
     },
     {
       "day_number": 3,
@@ -3295,10 +3983,11 @@
       },
       "answer": {
         "accepted": [
-          "There aren't two bathrooms."
+          "There aren't two bathrooms.",
+          "There are not two bathrooms."
         ]
       },
-      "explanation": null
+      "explanation": "النفي مع الجمع: There aren't. والعدد يبقى كما هو."
     },
     {
       "day_number": 3,
@@ -3312,10 +4001,12 @@
       },
       "answer": {
         "accepted": [
-          "There isn't any water in the bottle."
+          "There isn't any water in the bottle.",
+          "There is not any water in the bottle.",
+          "There's not any water in the bottle."
         ]
       },
-      "explanation": null
+      "explanation": "غير المعدود (water) نفيه There isn't — و some تصير any."
     },
     {
       "day_number": 3,
@@ -3325,14 +4016,15 @@
       "type": "correct_error",
       "prompt": "التحويل إلى النفي",
       "payload": {
-        "sentence": "There are any children in the park."
+        "sentence": "There are some children in the park."
       },
       "answer": {
         "accepted": [
-          "There aren't any children in the park."
+          "There aren't any children in the park.",
+          "There are not any children in the park."
         ]
       },
-      "explanation": null
+      "explanation": "النفي مع الجمع: There aren't — و some تصير any."
     },
     {
       "day_number": 3,
@@ -3346,10 +4038,12 @@
       },
       "answer": {
         "accepted": [
-          "There isn't a bank on the corner."
+          "There isn't a bank on the corner.",
+          "There is not a bank on the corner.",
+          "There's not a bank on the corner."
         ]
       },
-      "explanation": null
+      "explanation": "النفي مع المفرد: There isn't + a."
     },
     {
       "day_number": 3,
@@ -3363,10 +4057,11 @@
       },
       "answer": {
         "accepted": [
-          "There aren't any books on the shelf."
+          "There aren't any books on the shelf.",
+          "There are not any books on the shelf."
         ]
       },
-      "explanation": null
+      "explanation": "النفي مع الجمع: There aren't — و some تصير any."
     },
     {
       "day_number": 3,
@@ -3383,7 +4078,7 @@
           "Is there a pharmacy near here?"
         ]
       },
-      "explanation": null
+      "explanation": "السؤال بقلب there is: Is there…?"
     },
     {
       "day_number": 3,
@@ -3400,7 +4095,7 @@
           "Are there any restaurants in this street?"
         ]
       },
-      "explanation": null
+      "explanation": "السؤال بقلب there are — و some تصير any في السؤال."
     },
     {
       "day_number": 3,
@@ -3417,7 +4112,7 @@
           "Is there a balcony?"
         ]
       },
-      "explanation": null
+      "explanation": "السؤال بقلب there is: Is there…?"
     },
     {
       "day_number": 3,
@@ -3434,7 +4129,7 @@
           "Are there three floors?"
         ]
       },
-      "explanation": null
+      "explanation": "السؤال بقلب there are: Are there…?"
     },
     {
       "day_number": 3,
@@ -3444,14 +4139,14 @@
       "type": "correct_error",
       "prompt": "التحويل إلى سؤال",
       "payload": {
-        "sentence": "There is any sugar in the kitchen."
+        "sentence": "There is some sugar in the kitchen."
       },
       "answer": {
         "accepted": [
           "Is there any sugar in the kitchen?"
         ]
       },
-      "explanation": null
+      "explanation": "غير المعدود (sugar) سؤاله Is there — و some تصير any."
     },
     {
       "day_number": 3,
@@ -3468,7 +4163,7 @@
           "Are there any students in the library?"
         ]
       },
-      "explanation": null
+      "explanation": "السؤال بقلب there are — و some تصير any في السؤال."
     },
     {
       "day_number": 3,
@@ -3485,18 +4180,25 @@
           "Is there a bus stop opposite the bank?"
         ]
       },
-      "explanation": null
+      "explanation": "السؤال بقلب there is: Is there…?"
     },
     {
       "day_number": 4,
       "exercise_no": 4,
       "focus_ar": "اختيار ظرف المكان",
       "points": 1,
-      "type": "free_text",
-      "prompt": "Choose from: in · on · under · above · next to · between · behind · in front of · opposite · near · at the end of · around the corner",
-      "payload": {},
-      "answer": {},
-      "explanation": "الجواب النموذجي: on"
+      "type": "fill_blank",
+      "prompt": "The books are ______ the shelf.",
+      "payload": {
+        "before": "The books are",
+        "after": "the shelf."
+      },
+      "answer": {
+        "accepted": [
+          "on"
+        ]
+      },
+      "explanation": "على سطح شيء وملامس له: on."
     },
     {
       "day_number": 4,
@@ -3511,10 +4213,10 @@
       },
       "answer": {
         "accepted": [
-          "under"
+          "on"
         ]
       },
-      "explanation": null
+      "explanation": "المصباح على الطاولة وملامس لها: on."
     },
     {
       "day_number": 4,
@@ -3529,10 +4231,10 @@
       },
       "answer": {
         "accepted": [
-          "between"
+          "under"
         ]
       },
-      "explanation": null
+      "explanation": "لا تراها لأنها تحت السرير: under."
     },
     {
       "day_number": 4,
@@ -3547,10 +4249,10 @@
       },
       "answer": {
         "accepted": [
-          "opposite"
+          "between"
         ]
       },
-      "explanation": null
+      "explanation": "بين شيئين اثنين: between… and…"
     },
     {
       "day_number": 4,
@@ -3565,10 +4267,10 @@
       },
       "answer": {
         "accepted": [
-          "behind"
+          "opposite"
         ]
       },
-      "explanation": null
+      "explanation": "عبر الشارع ووجهاً لوجه: opposite — بلا to."
     },
     {
       "day_number": 4,
@@ -3583,10 +4285,10 @@
       },
       "answer": {
         "accepted": [
-          "in"
+          "behind"
         ]
       },
-      "explanation": null
+      "explanation": "at the back = في الخلف: behind."
     },
     {
       "day_number": 4,
@@ -3601,10 +4303,10 @@
       },
       "answer": {
         "accepted": [
-          "above"
+          "in"
         ]
       },
-      "explanation": null
+      "explanation": "داخل شيء مغلق: in the fridge."
     },
     {
       "day_number": 4,
@@ -3619,10 +4321,10 @@
       },
       "answer": {
         "accepted": [
-          "around the corner"
+          "above"
         ]
       },
-      "explanation": null
+      "explanation": "على الجدار فوق الحوض بلا لمس: above."
     },
     {
       "day_number": 4,
@@ -3637,10 +4339,10 @@
       },
       "answer": {
         "accepted": [
-          "near"
+          "around the corner"
         ]
       },
-      "explanation": null
+      "explanation": "ثلاثون ثانية = بعد المنعطف مباشرة: around the corner."
     },
     {
       "day_number": 4,
@@ -3655,10 +4357,11 @@
       },
       "answer": {
         "accepted": [
-          "at the end of"
+          "near",
+          "close to"
         ]
       },
-      "explanation": null
+      "explanation": "دقيقتان فقط = قريب: near."
     },
     {
       "day_number": 4,
@@ -3673,10 +4376,10 @@
       },
       "answer": {
         "accepted": [
-          "in front of"
+          "at the end of"
         ]
       },
-      "explanation": null
+      "explanation": "في آخر الشارع: at the end of."
     },
     {
       "day_number": 4,
@@ -3691,97 +4394,110 @@
       },
       "answer": {
         "accepted": [
-          "next to"
+          "in front of"
         ]
       },
-      "explanation": null
+      "explanation": "السيارة أمام الباب فلا تستطيع الخروج: in front of — ثلاث كلمات."
     },
     {
       "day_number": 4,
       "exercise_no": 4,
       "focus_ar": "اختيار ظرف المكان",
       "points": 1,
-      "type": "free_text",
-      "prompt": "Come and sit …… me.",
-      "payload": {},
-      "answer": {},
-      "explanation": null
+      "type": "fill_blank",
+      "prompt": "Come and sit ______ me.",
+      "payload": {
+        "before": "Come and sit",
+        "after": "me."
+      },
+      "answer": {
+        "accepted": [
+          "next to",
+          "beside",
+          "near"
+        ]
+      },
+      "explanation": "بجانبي: next to me — أو beside me."
     },
     {
       "day_number": 4,
       "exercise_no": 4,
       "focus_ar": "There is أم It is؟",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "______ a new restaurant in my street. ______ very good.",
       "payload": {
-        "before": "",
-        "after": " a new restaurant in my street. ______ very good."
-      },
-      "answer": {
-        "accepted": [
+        "options": [
           "There is … It is",
-          "there is … it is"
+          "It is … There is",
+          "There are … It is",
+          "It is … It is"
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "There is أولاً لتخبر أن الشيء موجود، ثم It is لتصفه بعد أن صار معروفاً."
     },
     {
       "day_number": 4,
       "exercise_no": 4,
       "focus_ar": "There is أم It is؟",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "______ a park near my house. ______ big and quiet.",
       "payload": {
-        "before": "",
-        "after": " a park near my house. ______ big and quiet."
-      },
-      "answer": {
-        "accepted": [
+        "options": [
           "There is … It is",
-          "there is … it is"
+          "It is … There is",
+          "There are … It is",
+          "It is … It is"
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "There is أولاً لتخبر أن الشيء موجود، ثم It is لتصفه بعد أن صار معروفاً."
     },
     {
       "day_number": 4,
       "exercise_no": 4,
       "focus_ar": "There is أم It is؟",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "______ a lift in the building, but ______ always broken.",
       "payload": {
-        "before": "",
-        "after": " a lift in the building, but ______ always broken."
-      },
-      "answer": {
-        "accepted": [
+        "options": [
           "There is … it is",
-          "there is … it is"
+          "It is … there is",
+          "There are … it is",
+          "It is … it is"
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "There is أولاً لتخبر أن الشيء موجود، ثم It is لتصفه بعد أن صار معروفاً."
     },
     {
       "day_number": 4,
       "exercise_no": 4,
       "focus_ar": "There is أم It is؟",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "______ a mosque on the corner. ______ very old.",
       "payload": {
-        "before": "",
-        "after": " a mosque on the corner. ______ very old."
-      },
-      "answer": {
-        "accepted": [
+        "options": [
           "There is … It is",
-          "there is … it is"
+          "It is … There is",
+          "There are … It is",
+          "It is … It is"
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "There is أولاً لتخبر أن الشيء موجود، ثم It is لتصفه بعد أن صار معروفاً."
     },
     {
       "day_number": 4,
@@ -3795,10 +4511,11 @@
       },
       "answer": {
         "accepted": [
+          "There are four rooms in my flat.",
           "There are four rooms."
         ]
       },
-      "explanation": null
+      "explanation": "four rooms جمع فتأخذ There are."
     },
     {
       "day_number": 4,
@@ -3812,10 +4529,12 @@
       },
       "answer": {
         "accepted": [
-          "There is a park near my house."
+          "There is a park near my house.",
+          "There's a park near my house."
         ]
       },
-      "explanation": null
+      "explanation": "الوجود في مكان بـ There is — لا Have. وهذا الخطأ السابع في الكتاب.",
+      "error_no": 7
     },
     {
       "day_number": 4,
@@ -3829,10 +4548,15 @@
       },
       "answer": {
         "accepted": [
-          "There isn't a lift."
+          "There isn't a lift in this building.",
+          "There isn't a lift.",
+          "There is not a lift in this building.",
+          "There's not a lift in this building.",
+          "There is not a lift.",
+          "There's not a lift."
         ]
       },
-      "explanation": null
+      "explanation": "المفرد المعدود يحتاج a بعد There isn't."
     },
     {
       "day_number": 4,
@@ -3849,7 +4573,8 @@
           "Is there a bank here?"
         ]
       },
-      "explanation": null
+      "explanation": "السؤال بقلب there is: Is there…? — لا have.",
+      "error_no": 7
     },
     {
       "day_number": 4,
@@ -3863,10 +4588,11 @@
       },
       "answer": {
         "accepted": [
-          "There is some furniture in the room."
+          "There is some furniture in the room.",
+          "There's some furniture in the room."
         ]
       },
-      "explanation": null
+      "explanation": "furniture غير معدودة: لا تُجمع (furnitures خطأ) وتأخذ There is."
     },
     {
       "day_number": 4,
@@ -3880,10 +4606,10 @@
       },
       "answer": {
         "accepted": [
-          "…opposite the station."
+          "The hotel is opposite the station."
         ]
       },
-      "explanation": null
+      "explanation": "opposite بلا to."
     },
     {
       "day_number": 4,
@@ -3897,10 +4623,12 @@
       },
       "answer": {
         "accepted": [
-          "There is a new hospital in my city."
+          "There is a new hospital in my city.",
+          "There's a new hospital in my city."
         ]
       },
-      "explanation": null
+      "explanation": "تخبر أن الشيء موجود لأول مرة فتقول There is — و It is للشيء المعروف.",
+      "error_no": 7
     },
     {
       "day_number": 4,
@@ -3914,10 +4642,11 @@
       },
       "answer": {
         "accepted": [
-          "There aren't any shops near here."
+          "There aren't any shops near here.",
+          "There are not any shops near here."
         ]
       },
-      "explanation": null
+      "explanation": "النفي يأخذ any لا some: There aren't any."
     },
     {
       "day_number": 4,
@@ -3934,7 +4663,7 @@
           "The car is in front of the door."
         ]
       },
-      "explanation": null
+      "explanation": "in front of ثلاث كلمات: in front of the door."
     },
     {
       "day_number": 4,
@@ -3951,327 +4680,327 @@
           "There are two bathrooms."
         ]
       },
-      "explanation": null
+      "explanation": "two bathrooms جمع فتأخذ There are."
     },
     {
       "day_number": 5,
       "exercise_no": 5,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "How many windows are in the living room? ______",
       "payload": {
-        "before": "How many windows are in the living room?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
+        "options": [
+          "Two.",
           "Three.",
-          "Three",
-          "three."
+          "Four.",
+          "One."
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "قال سامي: there are three windows."
     },
     {
       "day_number": 5,
       "exercise_no": 5,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "What can you see from the balcony? ______",
       "payload": {
-        "before": "What can you see from the balcony?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
+        "options": [
+          "The sea.",
           "The park.",
-          "The park",
-          "the park."
+          "The market.",
+          "The school."
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "قال: A small one. You can see the park."
     },
     {
       "day_number": 5,
       "exercise_no": 5,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "How many bedrooms are there? ______",
       "payload": {
-        "before": "How many bedrooms are there?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
+        "options": [
+          "One.",
           "Two.",
-          "Two",
-          "two."
+          "Three.",
+          "Four."
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "قال: Two. This one is ours, and the children share the other one."
     },
     {
       "day_number": 5,
       "exercise_no": 5,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "Is there a garden? ______",
       "payload": {
-        "before": "Is there a garden?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
+        "options": [
+          "Yes, there is.",
           "No, there isn't.",
-          "No, there isn't",
-          "no, there isn't."
+          "Yes, there are.",
+          "No, there aren't."
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "قال: No, there isn't — والجواب القصير بـ isn't لأن garden مفرد."
     },
     {
       "day_number": 5,
       "exercise_no": 5,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "What is opposite the building? ______",
       "payload": {
-        "before": "What is opposite the building?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
+        "options": [
           "A big park.",
-          "A big park",
-          "a big park."
+          "A bank.",
+          "A mosque.",
+          "A school."
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "قال: there's a big park opposite the building."
     },
     {
       "day_number": 5,
       "exercise_no": 5,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "When is the street noisy? ______",
       "payload": {
-        "before": "When is the street noisy?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
+        "options": [
+          "At night.",
           "In the morning, because of the traffic.",
-          "In the morning, because of the traffic",
-          "in the morning, because of the traffic."
+          "On Fridays.",
+          "In the evening."
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "قال: Very quiet at night. There's a lot of traffic in the morning."
     },
     {
       "day_number": 6,
       "exercise_no": 6,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "Which floor does he live on? ______",
       "payload": {
-        "before": "Which floor does he live on?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
+        "options": [
+          "The first floor.",
+          "The second floor.",
           "The fourth floor.",
-          "The fourth floor",
-          "the fourth floor."
+          "The tenth floor."
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "في النصّ: on the fourth floor — والطابق بالترتيبيّ."
     },
     {
       "day_number": 6,
       "exercise_no": 6,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "Why does he walk up the stairs? ______",
       "payload": {
-        "before": "Why does he walk up the stairs?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
+        "options": [
           "Because there isn't a lift.",
-          "Because there isn't a lift",
-          "because there isn't a lift."
+          "Because he loves exercise.",
+          "Because the lift is slow.",
+          "Because he lives on the first floor."
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "في النصّ: There isn't a lift, so I walk up the stairs. أمّا التمرين فرأي جيرانه لا رأيه."
     },
     {
       "day_number": 6,
       "exercise_no": 6,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "How many bedrooms are there? ______",
       "payload": {
-        "before": "How many bedrooms are there?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
+        "options": [
+          "One.",
           "Two.",
-          "Two",
-          "two."
+          "Three.",
+          "Four."
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "في النصّ: There are two bedrooms."
     },
     {
       "day_number": 6,
       "exercise_no": 6,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "What does he do on the balcony? ______",
       "payload": {
-        "before": "What does he do on the balcony?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
+        "options": [
+          "He reads the newspaper.",
           "He sits with a cup of tea and watches the street.",
-          "He sits with a cup of tea and watches the street",
-          "he sits with a cup of tea and watches the street."
+          "He sleeps.",
+          "He talks to his neighbours."
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "في النصّ: I sit outside with a cup of tea and watch the street."
     },
     {
       "day_number": 6,
       "exercise_no": 6,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "What shops are in his neighbourhood? ______",
       "payload": {
-        "before": "What shops are in his neighbourhood?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
+        "options": [
           "A bakery, a pharmacy and two supermarkets.",
-          "A bakery, a pharmacy and two supermarkets",
-          "a bakery, a pharmacy and two supermarkets."
+          "A bank and a post office.",
+          "A bakery and a restaurant.",
+          "Two pharmacies and a market."
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "في النصّ: a bakery, a pharmacy and two supermarkets."
     },
     {
       "day_number": 6,
       "exercise_no": 6,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "When is the market? ______",
       "payload": {
-        "before": "When is the market?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
+        "options": [
+          "Every day.",
           "On Fridays.",
-          "On Fridays",
-          "on fridays."
+          "On Saturdays.",
+          "In the evening."
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "في النصّ: a big market on Fridays."
     },
     {
       "day_number": 6,
       "exercise_no": 6,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "Where is the market? ______",
       "payload": {
-        "before": "Where is the market?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
+        "options": [
+          "Next to the library.",
           "Opposite his building.",
-          "Opposite his building",
-          "opposite his building."
+          "At the end of his street.",
+          "In the city centre."
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "في النصّ: The market is opposite my building."
     },
     {
       "day_number": 6,
       "exercise_no": 6,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "What is next to the park? ______",
       "payload": {
-        "before": "What is next to the park?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
+        "options": [
+          "A school.",
+          "A café.",
           "A library.",
-          "A library",
-          "a library."
+          "A mosque."
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "في النصّ: Next to the park there is a library."
     },
     {
       "day_number": 6,
       "exercise_no": 6,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "Why does he go to the library? ______",
       "payload": {
-        "before": "Why does he go to the library?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
+        "options": [
+          "Because he likes books.",
           "Because it is the only quiet place.",
-          "Because it is the only quiet place",
-          "because it is the only quiet place."
+          "Because his son goes there.",
+          "Because it is near the café."
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "في النصّ: because it is the only quiet place in the neighbourhood."
     },
     {
       "day_number": 6,
       "exercise_no": 6,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
+      "type": "multiple_choice",
       "prompt": "What is the only problem with the area? ______",
       "payload": {
-        "before": "What is the only problem with the area?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
+        "options": [
+          "There isn't a lift.",
           "There aren't any restaurants.",
-          "There aren't any restaurants",
-          "there aren't any restaurants."
+          "The market is noisy.",
+          "The park is small."
         ]
       },
-      "explanation": null
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "في النصّ: There aren't any restaurants near here, and that is the only problem."
     },
     {
       "day_number": 6,
@@ -4286,10 +5015,11 @@
       },
       "answer": {
         "accepted": [
-          "isn't"
+          "isn't",
+          "is not"
         ]
       },
-      "explanation": null
+      "explanation": "في النصّ: There isn't a lift — المفرد المنفيّ."
     },
     {
       "day_number": 6,
@@ -4307,7 +5037,7 @@
           "is"
         ]
       },
-      "explanation": null
+      "explanation": "في النصّ: there is a balcony — مفرد."
     },
     {
       "day_number": 6,
@@ -4325,7 +5055,7 @@
           "are"
         ]
       },
-      "explanation": null
+      "explanation": "two bedrooms جمع فتأخذ are."
     },
     {
       "day_number": 6,
@@ -4340,10 +5070,11 @@
       },
       "answer": {
         "accepted": [
-          "aren't"
+          "aren't",
+          "are not"
         ]
       },
-      "explanation": null
+      "explanation": "في النصّ: There aren't any restaurants — any مع النفي."
     },
     {
       "day_number": 6,
@@ -4361,7 +5092,7 @@
           "is"
         ]
       },
-      "explanation": null
+      "explanation": "في النصّ: there is a park — مفرد."
     },
     {
       "day_number": 6,
@@ -4379,7 +5110,7 @@
           "are"
         ]
       },
-      "explanation": null
+      "explanation": "shops جمع فتأخذ are — و a lot of لا تغيّر ذلك."
     },
     {
       "day_number": 7,
@@ -4405,7 +5136,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: The city wanted a new road."
     },
     {
       "day_number": 7,
@@ -4431,7 +5162,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: The house travelled about seventy metres."
     },
     {
       "day_number": 7,
@@ -4457,7 +5188,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: at the end of a quiet street, next to a church."
     },
     {
       "day_number": 7,
@@ -4470,7 +5201,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: Inside there is a small shop on the ground floor."
     },
     {
       "day_number": 7,
@@ -4484,6 +5215,413 @@
         "correct": false
       },
       "explanation": "في النصّ: they are proud of it"
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 4,
+      "type": "fill_blank",
+      "prompt": "How many bedrooms ______ there?",
+      "payload": {
+        "before": "How many bedrooms",
+        "after": "there?"
+      },
+      "answer": {
+        "accepted": [
+          "are"
+        ]
+      },
+      "explanation": "How many + جمع + are there?",
+      "focus_ar": "some · any · How many",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 5,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "How many rooms there are?"
+      },
+      "answer": {
+        "accepted": [
+          "How many rooms are there?"
+        ]
+      },
+      "explanation": "في السؤال تتقدّم are على there.",
+      "focus_ar": "some · any · How many",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 6,
+      "type": "fill_blank",
+      "prompt": "There isn't ______ milk in the fridge.",
+      "payload": {
+        "before": "There isn't",
+        "after": "milk in the fridge."
+      },
+      "answer": {
+        "accepted": [
+          "any"
+        ]
+      },
+      "explanation": "غير المعدود في النفي يأخذ any.",
+      "focus_ar": "some · any · How many",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "prompt": "أي جملة صحيحة؟",
+      "payload": {
+        "options": [
+          "The bank is next the hotel.",
+          "The bank is next to the hotel.",
+          "The bank is next of the hotel.",
+          "The bank is opposite to the hotel."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "next to بـ to دائماً، و opposite بلا to.",
+      "focus_ar": "حروف المكان",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 6,
+      "type": "fill_blank",
+      "prompt": "I have a ______ car. (أحمر)",
+      "payload": {
+        "before": "I have a",
+        "after": "car. (أحمر)"
+      },
+      "answer": {
+        "accepted": [
+          "red"
+        ]
+      },
+      "explanation": "red = أحمر، ويأتي قبل الاسم: a red car.",
+      "focus_ar": "الألوان والصفة قبل الاسم",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 7,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "I have two cars reds."
+      },
+      "answer": {
+        "accepted": [
+          "I have two red cars."
+        ]
+      },
+      "explanation": "الصفة قبل الاسم ولا تُجمع: two red cars.",
+      "focus_ar": "الألوان والصفة قبل الاسم",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 8,
+      "type": "multiple_choice",
+      "prompt": "كيف تقول «باب أزرق»؟",
+      "payload": {
+        "options": [
+          "a door blue",
+          "a blue door",
+          "a blues door",
+          "door a blue"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "الصفة قبل الاسم في الإنجليزية — بعكس العربية.",
+      "focus_ar": "الألوان والصفة قبل الاسم",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 6,
+      "type": "fill_blank",
+      "prompt": "This is ______ room. (my brother)",
+      "payload": {
+        "before": "This is",
+        "after": "room. (my brother)"
+      },
+      "answer": {
+        "accepted": [
+          "my brother's"
+        ]
+      },
+      "explanation": "المالك + 's ثم المملوك: my brother's room = غرفة أخي.",
+      "focus_ar": "ملكية الأشخاص — 's",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 7,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "The car of Sami is new."
+      },
+      "answer": {
+        "accepted": [
+          "Sami's car is new."
+        ]
+      },
+      "explanation": "الإنجليزية تقدّم المالك: Sami's car — لا the car of Sami.",
+      "focus_ar": "ملكية الأشخاص — 's",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 8,
+      "type": "multiple_choice",
+      "prompt": "My ______ house is old. (والداي)",
+      "payload": {
+        "options": [
+          "parent's",
+          "parents'",
+          "parents's",
+          "parent"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "parents جمع ينتهي بـ s، فتكفيه الفاصلة: parents'.",
+      "focus_ar": "ملكية الأشخاص — 's",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 7,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "No cross the road here."
+      },
+      "answer": {
+        "accepted": [
+          "Don't cross the road here.",
+          "Do not cross the road here."
+        ]
+      },
+      "explanation": "النفي في الأمر بـ Don't + فعل مجرّد.",
+      "focus_ar": "الأمر في الدلالة على الطريق",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 8,
+      "type": "fill_blank",
+      "prompt": "______ left at the bank.",
+      "payload": {
+        "before": "",
+        "after": "left at the bank."
+      },
+      "answer": {
+        "accepted": [
+          "Turn"
+        ]
+      },
+      "explanation": "الأمر فعل مجرّد بلا فاعل ولا to: Turn left.",
+      "focus_ar": "الأمر في الدلالة على الطريق",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 9,
+      "type": "fill_blank",
+      "prompt": "The books are on the ______. (shelf — جمع)",
+      "payload": {
+        "before": "The books are on the",
+        "after": ". (shelf — جمع)"
+      },
+      "answer": {
+        "accepted": [
+          "shelves"
+        ]
+      },
+      "explanation": "f تصير ves في الجمع: shelf ← shelves — درس الجمع في الأسبوع الأول.",
+      "focus_ar": "الجمع — f ← ves",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 9,
+      "type": "fill_blank",
+      "prompt": "______ house is next to the mosque. (Sami)",
+      "payload": {
+        "before": "",
+        "after": "house is next to the mosque. (Sami)"
+      },
+      "answer": {
+        "accepted": [
+          "Sami's"
+        ]
+      },
+      "explanation": "المالك + 's ثم المملوك: Sami's house = بيت سامي.",
+      "focus_ar": "ملكية الأشخاص — 's",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 10,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "My sister car is new."
+      },
+      "answer": {
+        "accepted": [
+          "My sister's car is new."
+        ]
+      },
+      "explanation": "لا ملكية بلا 's: my sister's car.",
+      "focus_ar": "ملكية الأشخاص — 's",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 9,
+      "type": "multiple_choice",
+      "prompt": "What colour is the sky?",
+      "payload": {
+        "options": [
+          "It is green.",
+          "It is blue.",
+          "It is a blue.",
+          "It blues."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "اللون بعد is بلا a: It is blue.",
+      "focus_ar": "الألوان والصفة قبل الاسم",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 10,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "We have a house white."
+      },
+      "answer": {
+        "accepted": [
+          "We have a white house."
+        ]
+      },
+      "explanation": "الصفة قبل الاسم: a white house.",
+      "focus_ar": "الألوان والصفة قبل الاسم",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 11,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "Is very hot today."
+      },
+      "answer": {
+        "accepted": [
+          "It is very hot today.",
+          "It's very hot today."
+        ]
+      },
+      "explanation": "العربية تقول «حارّ جداً اليوم» بلا فاعل، والإنجليزية لا جملة فيها بلا فاعل: It is very hot today. و It هنا لا تعني شيئاً — تملأ مكان الفاعل فقط.",
+      "focus_ar": "الطقس والفصول — الفاعل It",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 11,
+      "type": "fill_blank",
+      "prompt": "There ______ a lot of snow in winter.",
+      "payload": {
+        "before": "There",
+        "after": "a lot of snow in winter."
+      },
+      "answer": {
+        "accepted": [
+          "is",
+          "'s"
+        ]
+      },
+      "explanation": "snow غير معدود فيأخذ is: There is a lot of snow. ولا تقل Have a lot of snow — الخطأ السابع.",
+      "focus_ar": "الطقس والفصول — There is",
+      "error_no": 7,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 11,
+      "type": "multiple_choice",
+      "prompt": "الخريف",
+      "payload": {
+        "options": [
+          "spring",
+          "autumn",
+          "winter",
+          "summer"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "مثال: The trees in our street are yellow in autumn.",
+      "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 11,
+      "type": "multiple_choice",
+      "prompt": "ما معنى: What's the weather like?",
+      "payload": {
+        "options": [
+          "هل تحبّ الطقس؟",
+          "كيف الطقس؟",
+          "أيّ طقس تحبّ؟",
+          "هل الطقس مثل أمس؟"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "like هنا ليست «يحبّ»: What's … like? = كيف هو؟ والجواب بفاعل It: It's sunny · It's cold.",
+      "focus_ar": "الطقس والفصول — What's the weather like?",
+      "error_no": null,
+      "points": 1
     }
   ]
 }

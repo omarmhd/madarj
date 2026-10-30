@@ -561,6 +561,9 @@ main { animation: page-in .22s ease-out both; }
   background-size: 100% var(--line);
 }
 .ruled-text > * { line-height: var(--line); }
+/* A phone fits fewer words per line, so a sentence wraps more: tighter
+   rules keep a story from running three screens long */
+@media (max-width: 639px) { .ruled-text { --line: 2.4rem; } }
 
 /* The margin needs its own room; a card's padding utility must not
    pull the text back onto the red line */

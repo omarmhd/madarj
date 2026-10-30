@@ -56,6 +56,23 @@ const INSTRUCTIONS: Record<ExerciseData['type'], string> = {
   true_false: 'اقرأ الجملة — هل تطابق ما ورد في الحوار؟',
 };
 
+/** A run of underscores in the text is one more blank */
+const BLANK = /_{3,}/;
+
+/**
+ * A fill-in sentence as text pieces with a blank between each.
+ *
+ * The first blank sits between `before` and `after`; any other blank is
+ * written as underscores inside them ("If it ___ (rain), we ______ (stay)").
+ * One box per blank — a single box for two answers made the learner guess
+ * how to type both, and the right words in the wrong format were marked wrong.
+ */
+function blankPieces(payload: Record<string, any> | null): string[] {
+  const before = String(payload?.before ?? '').split(BLANK);
+  const after = String(payload?.after ?? '').split(BLANK);
+  return [...before, ...after];
+}
+
 export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props) {
   const tr = useT();
   const [index, setIndex] = useState(0);
@@ -79,7 +96,11 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
    * a second tap on «تحقّق» added nothing but a delay. So `check` takes
    * the value directly instead of waiting for state to settle.
    */
-  const check = async (v: any = value) => {
+  const check = async (input: any = value) => {
+    // Several blanks travel as one answer, "rains / will stay", in their order
+    const v = Array.isArray(input)
+      ? input.some((b) => !String(b ?? '').trim()) ? '' : input.map((b) => b.trim()).join(' / ')
+      : input;
     if (v === '' || v === null || checking) return;
 
     setChecking(true);
@@ -247,30 +268,46 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
 
       {/* ============ حسب النوع ============ */}
 
-      {current.type === 'fill_blank' && (
-        <div>
-          <p className="mb-4 text-lg" dir="ltr">
-            <span>{current.payload?.before} </span>
-            <input
-              value={value}
-              onChange={(e) => setValue(e.target.value)}
-              onKeyDown={(e) => e.key === 'Enter' && !answered && check()}
-              disabled={locked}
-              autoFocus
-              className={`mx-1 w-28 rounded-md border-b-2 bg-slate-50 px-2 py-1
-                          text-center font-semibold outline-none transition ${
-                answered
-                  ? result.correct
-                    ? 'border-emerald-500 text-emerald-700'
-                    : 'border-rose-400 text-rose-700'
-                  : 'border-slate-300 focus:border-violet-500'
-              }`}
-              placeholder="…"
-            />
-            <span> {current.payload?.after}</span>
-          </p>
-        </div>
-      )}
+      {current.type === 'fill_blank' && (() => {
+        const pieces = blankPieces(current.payload);
+        const many = pieces.length > 2;
+        const blanks: string[] = many
+          ? Array.from({ length: pieces.length - 1 }, (_, k) => (Array.isArray(value) ? value[k] ?? '' : ''))
+          : [typeof value === 'string' ? value : ''];
+        const setBlank = (k: number, s: string) =>
+          setValue(many ? blanks.map((b, j) => (j === k ? s : b)) : s);
+
+        return (
+          <div>
+            <p className="mb-4 text-lg leading-loose" dir="ltr">
+              {pieces.map((piece, k) => (
+                <span key={k}>
+                  {piece && <span>{piece}</span>}
+                  {k < pieces.length - 1 && (
+                    <input
+                      value={blanks[k]}
+                      onChange={(e) => setBlank(k, e.target.value)}
+                      onKeyDown={(e) => e.key === 'Enter' && !answered && check()}
+                      disabled={locked}
+                      autoFocus={k === 0}
+                      aria-label={many ? tr('الفراغ :n', { n: k + 1 }) : undefined}
+                      className={`mx-1 w-28 rounded-md border-b-2 bg-slate-50 px-2 py-1
+                                  text-center font-semibold outline-none transition ${
+                        answered
+                          ? result.correct
+                            ? 'border-emerald-500 text-emerald-700'
+                            : 'border-rose-400 text-rose-700'
+                          : 'border-slate-300 focus:border-violet-500'
+                      }`}
+                      placeholder="…"
+                    />
+                  )}
+                </span>
+              ))}
+            </p>
+          </div>
+        );
+      })()}
 
       {current.type === 'correct_error' && (
         <div>

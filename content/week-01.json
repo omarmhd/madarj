@@ -1001,6 +1001,58 @@
     },
     {
       "group": "numbers",
+      "word": "sixteen",
+      "ipa": "/ˌsɪksˈtiːn/",
+      "arabic": "ستة عشر",
+      "example": "My son is sixteen.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers",
+      "target": "sixteen",
+      "sentence": "My son is sixteen.",
+      "sentence_ar": "ابني في السادسة عشرة.",
+      "usage_ar": "النبرة على الآخر: six-TEEN."
+    },
+    {
+      "group": "numbers",
+      "word": "seventeen",
+      "ipa": "/ˌsevnˈtiːn/",
+      "arabic": "سبعة عشر",
+      "example": "She is seventeen.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers",
+      "target": "seventeen",
+      "sentence": "She is seventeen.",
+      "sentence_ar": "هي في السابعة عشرة.",
+      "usage_ar": "النبرة على الآخر: seven-TEEN."
+    },
+    {
+      "group": "numbers",
+      "word": "eighteen",
+      "ipa": "/ˌeɪˈtiːn/",
+      "arabic": "ثمانية عشر",
+      "example": "I am eighteen.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers",
+      "target": "eighteen",
+      "sentence": "I am eighteen.",
+      "sentence_ar": "أنا في الثامنة عشرة.",
+      "usage_ar": "تُكتب بـ t واحدة: eighteen."
+    },
+    {
+      "group": "numbers",
+      "word": "nineteen",
+      "ipa": "/ˌnaɪnˈtiːn/",
+      "arabic": "تسعة عشر",
+      "example": "My sister is nineteen.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers",
+      "target": "nineteen",
+      "sentence": "My sister is nineteen.",
+      "sentence_ar": "أختي في التاسعة عشرة.",
+      "usage_ar": "النبرة على الآخر: nine-TEEN."
+    },
+    {
+      "group": "numbers",
       "word": "twenty",
       "ipa": "/ˈtwenti/",
       "arabic": "عشرون",
@@ -1053,6 +1105,58 @@
     },
     {
       "group": "numbers",
+      "word": "sixty",
+      "ipa": "/ˈsɪksti/",
+      "arabic": "ستون",
+      "example": "My father is sixty.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers",
+      "target": "sixty",
+      "sentence": "My father is sixty.",
+      "sentence_ar": "أبي في الستين.",
+      "usage_ar": "النبرة على الأول: SIX-ty — بعكس sixteen."
+    },
+    {
+      "group": "numbers",
+      "word": "seventy",
+      "ipa": "/ˈsevnti/",
+      "arabic": "سبعون",
+      "example": "My grandfather is seventy.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers",
+      "target": "seventy",
+      "sentence": "My grandfather is seventy.",
+      "sentence_ar": "جدّي في السبعين.",
+      "usage_ar": "النبرة على الأول: SEV-en-ty."
+    },
+    {
+      "group": "numbers",
+      "word": "eighty",
+      "ipa": "/ˈeɪti/",
+      "arabic": "ثمانون",
+      "example": "My grandmother is eighty.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers",
+      "target": "eighty",
+      "sentence": "My grandmother is eighty.",
+      "sentence_ar": "جدّتي في الثمانين.",
+      "usage_ar": "تُكتب بـ t واحدة: eighty."
+    },
+    {
+      "group": "numbers",
+      "word": "ninety",
+      "ipa": "/ˈnaɪnti/",
+      "arabic": "تسعون",
+      "example": "It is ninety pounds.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers",
+      "target": "ninety",
+      "sentence": "It is ninety pounds.",
+      "sentence_ar": "إنه بتسعين جنيهاً.",
+      "usage_ar": "تُكتب بـ e: ninety لا ninty."
+    },
+    {
+      "group": "numbers",
       "word": "a hundred",
       "ipa": "/ə ˈhʌndrəd/",
       "arabic": "مئة",
@@ -1063,6 +1167,19 @@
       "sentence": "My grandmother is almost a hundred.",
       "sentence_ar": "جدتي عمرها تقريباً 100 سنة.",
       "usage_ar": "نقول a hundred أو one hundred، ولا نجمعها: two hundred."
+    },
+    {
+      "group": "numbers",
+      "word": "a thousand",
+      "ipa": "/ə ˈθaʊznd/",
+      "arabic": "ألف",
+      "example": "It is a thousand dollars.",
+      "group_label_ar": "الأرقام",
+      "group_label_en": "Numbers",
+      "target": "a thousand",
+      "sentence": "It is a thousand dollars.",
+      "sentence_ar": "إنه بألف دولار.",
+      "usage_ar": "لا تُجمع بعد رقم: two thousand لا two thousands."
     },
     {
       "group": "days_months",
@@ -2234,6 +2351,101 @@
                 "when_ar": "تتحقّق أنك قلتها صحيحة"
               }
             ]
+          },
+          {
+            "label_ar": "الحروف وتهجئة اسمك",
+            "items": [
+              {
+                "en": "A, H, J, K",
+                "ipa": "/eɪ/ /eɪtʃ/ /dʒeɪ/ /keɪ/",
+                "ar": "صوت /eɪ/ مثل say — أربعة حروف على قافية واحدة",
+                "when_ar": "A اسمه «إيه» لا «آ»"
+              },
+              {
+                "en": "B, C, D, E, G, P, T, V",
+                "ipa": "/biː/ /siː/ /diː/ /iː/ /dʒiː/ /piː/ /tiː/ /viː/",
+                "ar": "صوت /iː/ مثل see — ثمانية حروف تنتهي بـ«إي» طويلة",
+                "when_ar": "E وG هنا، لا مع I ولا مع J"
+              },
+              {
+                "en": "F, L, M, N, S, X, Z",
+                "ipa": "/ef/ /el/ /em/ /en/ /es/ /eks/ /zed/",
+                "ar": "صوت /e/ القصير في أوّلها ثم الحرف",
+                "when_ar": "Z في البريطانية zed، وفي الأمريكية zee"
+              },
+              {
+                "en": "I, Y",
+                "ipa": "/aɪ/ /waɪ/",
+                "ar": "صوت /aɪ/ مثل my",
+                "when_ar": "I اسمه «آي» لا «إي»"
+              },
+              {
+                "en": "O",
+                "ipa": "/əʊ/",
+                "ar": "صوت /əʊ/ مثل no",
+                "when_ar": "وحده في مجموعته"
+              },
+              {
+                "en": "Q, U, W",
+                "ipa": "/kjuː/ /juː/ /ˈdʌbəljuː/",
+                "ar": "صوت /uː/ مثل you",
+                "when_ar": "W اسمه double U — أي «U مضاعفة»"
+              },
+              {
+                "en": "R",
+                "ipa": "/ɑː/",
+                "ar": "صوت /ɑː/ مثل car",
+                "when_ar": "في البريطانية «آ» طويلة بلا r تُسمع"
+              },
+              {
+                "en": "How do you spell your name?",
+                "ipa": "/haʊ du ju spel jɔː neɪm/",
+                "ar": "كيف تتهجّى اسمك؟",
+                "when_ar": "في الاستقبال وعلى الهاتف — يسألك ليكتب اسمك صحيحاً"
+              },
+              {
+                "en": "It's Sami. S, A, M, I.",
+                "ipa": "/ɪts ˈsɑːmi/ /es eɪ em aɪ/",
+                "ar": "اسمي سامي: S، A، M، I",
+                "when_ar": "قل الاسم أولاً، ثم حروفه واحداً واحداً"
+              },
+              {
+                "en": "Hassan. H, A, double S, A, N.",
+                "ipa": "/ˈhæsən/ /eɪtʃ eɪ ˈdʌbl es eɪ en/",
+                "ar": "حسن: حرفان متتاليان متشابهان تقول لهما double S",
+                "when_ar": "double L، double S، double O — لا two S"
+              },
+              {
+                "en": "Sorry, is that E or I?",
+                "ipa": "/ˈsɒri ɪz ðæt iː ɔːr aɪ/",
+                "ar": "عذراً، هل هو E أم I؟",
+                "when_ar": "حين لا تتأكّد من حرف — سؤال ينقذك على الهاتف"
+              },
+              {
+                "en": "E, I",
+                "ipa": "/iː/ /aɪ/",
+                "ar": "فخّ: E اسمه «إي» وI اسمه «آي» — والمتحدّث بالعربية يعكسهما: يسمع «إي» فيكتب I",
+                "when_ar": "E مع B وC وD، وI مع Y"
+              },
+              {
+                "en": "A, E",
+                "ipa": "/eɪ/ /iː/",
+                "ar": "فخّ: A اسمه «إيه» لا «آ»، وE اسمه «إي»",
+                "when_ar": "A على قافية say، وE على قافية see"
+              },
+              {
+                "en": "G, J",
+                "ipa": "/dʒiː/ /dʒeɪ/",
+                "ar": "فخّ: G «جي» وJ «جيه» — يتبادلان باستمرار",
+                "when_ar": "G على قافية E، وJ على قافية A"
+              },
+              {
+                "en": "I'm Sami. I'm from Cairo.",
+                "ipa": "/aɪm ˈsɑːmi aɪm frəm ˈkaɪrəʊ/",
+                "ar": "الاسم والمدينة يبدآن بحرف كبير دائماً، في أوّل الجملة ووسطها",
+                "when_ar": "Sami وCairo بحرف كبير — وI وحدها كبيرة دائماً"
+              }
+            ]
           }
         ],
         "why_first_ar": "المبتدئ الذي يستطيع قول Could you repeat that? يبقى في المحادثة. والذي لا يستطيع يصمت ويتوقّف عن التعلّم. هذه العبارات أثمن من خمسين كلمة مفردة."
@@ -2371,7 +2583,742 @@
           "a أو an قبل كل مهنة",
           "is مع he / she / it — و are مع we / you / they",
           "العمر بـ be لا have",
-          "الجواب القصير الموجب بلا اختصار: Yes, I am"
+          "الجواب القصير الموجب بلا اختصار: Yes, I am",
+          "my · your · his · her · our · their قبل الاسم — بحسب المالك",
+          "this / that للمفرد · these / those للجمع",
+          "الجمع بـ s، والصفة لا تُجمع",
+          "البلد والجنسية واللغة بحرف كبير"
+        ],
+        "lessons": [
+          {
+            "title_ar": "to be: النفي والسؤال والجواب القصير",
+            "title_en": "to be — negatives, questions, short answers",
+            "explain_ar": "النفي بـ not بعد الفعل: I am not · He is not (isn't) · They are not (aren't). والسؤال بتقديم الفعل على الفاعل: You are… ← Are you…? والجواب القصير يكرّر الفعل وحده بلا بقية الجملة: Yes, I am · No, I'm not. وأسئلة الاستفهام: كلمة السؤال ثم الفعل ثم الفاعل — Where are you from?",
+            "table": {
+              "columns_ar": [
+                "الصيغة",
+                "الفعل",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "نفي",
+                  "am not",
+                  "I'm not a doctor."
+                ],
+                [
+                  "نفي",
+                  "isn't",
+                  "She isn't from Egypt."
+                ],
+                [
+                  "نفي",
+                  "aren't",
+                  "They aren't at home."
+                ],
+                [
+                  "سؤال",
+                  "Are",
+                  "Are you a student?"
+                ],
+                [
+                  "سؤال",
+                  "Is",
+                  "Is he married?"
+                ],
+                [
+                  "جواب قصير",
+                  "Yes, I am.",
+                  "Yes, I am."
+                ],
+                [
+                  "جواب قصير",
+                  "No, he isn't.",
+                  "No, he isn't."
+                ],
+                [
+                  "استفهام",
+                  "What is",
+                  "What is your name?"
+                ],
+                [
+                  "استفهام",
+                  "Where are",
+                  "Where are you from?"
+                ],
+                [
+                  "استفهام",
+                  "How old are",
+                  "How old are you?"
+                ],
+                [
+                  "استفهام",
+                  "Who is",
+                  "Who is that?"
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                0
+              ]
+            },
+            "errors": [
+              {
+                "wrong": "You are a student?",
+                "right": "Are you a student?",
+                "why_ar": "السؤال بتقديم الفعل — لا برفع الصوت وحده"
+              },
+              {
+                "wrong": "Where you are from?",
+                "right": "Where are you from?",
+                "why_ar": "كلمة السؤال ثم الفعل ثم الفاعل"
+              },
+              {
+                "wrong": "Yes, I'm.",
+                "right": "Yes, I am.",
+                "why_ar": "لا اختصار في آخر الجواب الموجب"
+              },
+              {
+                "wrong": "I amn't tired.",
+                "right": "I'm not tired.",
+                "why_ar": "لا توجد amn't — قل I'm not"
+              },
+              {
+                "wrong": "How many years you have?",
+                "right": "How old are you?",
+                "why_ar": "العمر بـ be — الخطأ الثاني"
+              }
+            ],
+            "tip_ar": "الجواب المنفي له اختصاران صحيحان: No, he isn't = No, he's not. أمّا الموجب فلا يُختصر: Yes, he is."
+          },
+          {
+            "title_ar": "الملكية: my · your · his · her",
+            "title_en": "Possessive adjectives",
+            "explain_ar": "العربية تُلصق الملكية بآخر الاسم: كتابي، كتابه، كتابها. والإنجليزية تضع كلمة مستقلّة قبل الاسم: my book · his book · her book. والكلمة تتبع المالك لا الشيء المملوك: his sister = أخته، و her brother = أخوها.",
+            "table": {
+              "columns_ar": [
+                "الضمير",
+                "الملكية",
+                "مثال",
+                "بالعربية"
+              ],
+              "rows": [
+                [
+                  "I",
+                  "my",
+                  "My name is Sami.",
+                  "اسمي سامي"
+                ],
+                [
+                  "you",
+                  "your",
+                  "What is your name?",
+                  "ما اسمك؟"
+                ],
+                [
+                  "he",
+                  "his",
+                  "His wife is a doctor.",
+                  "زوجته طبيبة"
+                ],
+                [
+                  "she",
+                  "her",
+                  "Her son is ten.",
+                  "ابنها في العاشرة"
+                ],
+                [
+                  "it",
+                  "its",
+                  "Its name is Cairo.",
+                  "اسمها القاهرة"
+                ],
+                [
+                  "we",
+                  "our",
+                  "Our house is small.",
+                  "بيتنا صغير"
+                ],
+                [
+                  "they",
+                  "their",
+                  "Their children are at school.",
+                  "أطفالهم في المدرسة"
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                3
+              ]
+            },
+            "errors": [
+              {
+                "wrong": "This is my sister. His name is Huda.",
+                "right": "This is my sister. Her name is Huda.",
+                "why_ar": "المالك امرأة فتقول her — و his للرجل وحده"
+              },
+              {
+                "wrong": "What is you name?",
+                "right": "What is your name?",
+                "why_ar": "you ضمير، و your هي الملكية قبل الاسم"
+              },
+              {
+                "wrong": "It's name is Cairo.",
+                "right": "Its name is Cairo.",
+                "why_ar": "its بلا فاصلة عليا = ملكية، و it's = it is"
+              }
+            ],
+            "tip_ar": "سؤال واحد يحسمها: مَن المالك؟ رجل ← his، امرأة ← her. ولا يهمّ جنس الشيء المملوك."
+          },
+          {
+            "title_ar": "الإشارة: this · that · these · those",
+            "title_en": "Demonstratives",
+            "explain_ar": "كلمتان للقريب وكلمتان للبعيد، واحدة للمفرد وواحدة للجمع. ولا فرق بين المذكّر والمؤنث: this man و this woman. والفعل يتبعها: this is · these are.",
+            "table": {
+              "columns_ar": [
+                "المسافة",
+                "الكلمة",
+                "مثال",
+                "بالعربية"
+              ],
+              "rows": [
+                [
+                  "قريب · مفرد",
+                  "this",
+                  "This is my brother.",
+                  "هذا أخي"
+                ],
+                [
+                  "بعيد · مفرد",
+                  "that",
+                  "That is our school.",
+                  "تلك مدرستنا"
+                ],
+                [
+                  "قريب · جمع",
+                  "these",
+                  "These are my children.",
+                  "هؤلاء أطفالي"
+                ],
+                [
+                  "بعيد · جمع",
+                  "those",
+                  "Those are my parents.",
+                  "أولئك والداي"
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                0,
+                3
+              ]
+            },
+            "errors": [
+              {
+                "wrong": "This are my parents.",
+                "right": "These are my parents.",
+                "why_ar": "الجمع يأخذ these و are"
+              },
+              {
+                "wrong": "These is my book.",
+                "right": "This is my book.",
+                "why_ar": "المفرد يأخذ this و is"
+              }
+            ],
+            "tip_ar": "الكلمات الأربع تبدأ بـ/ð/ — وهو صوت «ذ» في «هذا» تماماً: ذِس · ذات · ذيز · ذوز. لا تقلبه إلى «د» أو «ز»."
+          },
+          {
+            "title_ar": "الجمع: book ← books",
+            "title_en": "Plural nouns — the rules",
+            "explain_ar": "الإنجليزية أبسط من العربية هنا: لا مثنّى أبداً — two books — ولا جموع تكسير كثيرة. القاعدة أن تُضيف s، وبعد كل رقم أكبر من واحد يأتي الجمع. والصفة لا تُجمع: two big houses لا bigs. وللقاعدة خمس حالات في الكتابة:",
+            "table": {
+              "columns_ar": [
+                "الحالة",
+                "القاعدة",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "أغلب الأسماء",
+                  "+ s",
+                  "one book, two books"
+                ],
+                [
+                  "ينتهي بـ s · ss · sh · ch · x",
+                  "+ es",
+                  "one bus, two buses"
+                ],
+                [
+                  "ينتهي بـ s · ss · sh · ch · x",
+                  "+ es",
+                  "one class, two classes"
+                ],
+                [
+                  "ينتهي بـ s · ss · sh · ch · x",
+                  "+ es",
+                  "one box, two boxes"
+                ],
+                [
+                  "ساكن + y",
+                  "y → ies",
+                  "one city, two cities"
+                ],
+                [
+                  "ساكن + y",
+                  "y → ies",
+                  "one family, two families"
+                ],
+                [
+                  "حركة + y",
+                  "+ s",
+                  "one day, two days"
+                ],
+                [
+                  "حركة + y",
+                  "+ s",
+                  "one key, two keys"
+                ],
+                [
+                  "ساكن + o",
+                  "+ es",
+                  "one tomato, two tomatoes"
+                ],
+                [
+                  "ينتهي بـ f أو fe",
+                  "f → ves",
+                  "one wife, two wives"
+                ],
+                [
+                  "ينتهي بـ f أو fe",
+                  "f → ves",
+                  "one shelf, two shelves"
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                0
+              ]
+            },
+            "errors": [
+              {
+                "wrong": "three friend",
+                "right": "three friends",
+                "why_ar": "بعد كل رقم أكبر من واحد يأتي الجمع"
+              },
+              {
+                "wrong": "two boxs",
+                "right": "two boxes",
+                "why_ar": "بعد x تأتي es"
+              },
+              {
+                "wrong": "two citys",
+                "right": "two cities",
+                "why_ar": "ساكن + y تصير ies"
+              },
+              {
+                "wrong": "two knifes",
+                "right": "two knives",
+                "why_ar": "f و fe تصير ves"
+              },
+              {
+                "wrong": "My children are happys.",
+                "right": "My children are happy.",
+                "why_ar": "الصفة لا تُجمع أبداً"
+              }
+            ],
+            "tip_ar": "تُنطق s الجمع كما تُنطق s الفعل في الأسبوع الثاني: books بـ/s/ · friends بـ/z/ · buses بـ/ɪz/ — وفي الحالة الأخيرة وحدها يزيد مقطع: BUS-iz. واستثناءان لـ o يُحفظان: photo ← photos و piano ← pianos."
+          },
+          {
+            "title_ar": "الجمع الشاذّ — يُحفظ ولا يُقاس",
+            "title_en": "Irregular plurals",
+            "explain_ar": "كلمات قليلة لا تأخذ s بل تتغيّر من داخلها، كجمع التكسير في العربية (رجل ← رجال). عددها قليل لكنها من أكثر الكلمات استعمالاً، فاحفظها مثنى مثنى. ولاحظ أن children و people و men و women جموع كاملة: فعلها are، ولا تُضاف إليها s.",
+            "table": {
+              "columns_ar": [
+                "المفرد",
+                "الجمع",
+                "مثال",
+                "بالعربية"
+              ],
+              "rows": [
+                [
+                  "man",
+                  "men",
+                  "Two men work here.",
+                  "رجل ← رجال"
+                ],
+                [
+                  "woman",
+                  "women",
+                  "The women are teachers.",
+                  "امرأة ← نساء"
+                ],
+                [
+                  "child",
+                  "children",
+                  "The children are at school.",
+                  "طفل ← أطفال"
+                ],
+                [
+                  "person",
+                  "people",
+                  "People are very friendly here.",
+                  "شخص ← ناس"
+                ],
+                [
+                  "foot",
+                  "feet",
+                  "My feet are cold.",
+                  "قدم ← أقدام"
+                ],
+                [
+                  "tooth",
+                  "teeth",
+                  "Brush your teeth.",
+                  "سنّ ← أسنان"
+                ],
+                [
+                  "mouse",
+                  "mice",
+                  "There are mice in the kitchen!",
+                  "فأر ← فئران"
+                ],
+                [
+                  "fish",
+                  "fish",
+                  "I have two fish.",
+                  "سمكة ← سمك — بلا تغيير"
+                ],
+                [
+                  "sheep",
+                  "sheep",
+                  "The farmer has ten sheep.",
+                  "خروف ← خراف — بلا تغيير"
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                3
+              ]
+            },
+            "errors": [
+              {
+                "wrong": "two childs",
+                "right": "two children",
+                "why_ar": "child جمعه شاذّ"
+              },
+              {
+                "wrong": "two womans",
+                "right": "two women",
+                "why_ar": "woman ← women: يتغيّر a إلى e"
+              },
+              {
+                "wrong": "childrens · peoples",
+                "right": "children · people",
+                "why_ar": "هي جموع أصلاً فلا تُضاف s"
+              },
+              {
+                "wrong": "The children is at home.",
+                "right": "The children are at home.",
+                "why_ar": "children جمع ففعلها are"
+              },
+              {
+                "wrong": "People is nice.",
+                "right": "People are nice.",
+                "why_ar": "people جمع person ففعلها are"
+              }
+            ],
+            "tip_ar": "انتبه للنطق: women تُنطق «ويمِن» /ˈwɪmɪn/ — الحرف o يُنطق /ɪ/. و man و men يفرّقهما صوت واحد: /æ/ ثم /e/. والحيوانات القليلة مثل fish و sheep جمعها كمفردها: سياق الجملة يقول لك العدد."
+          },
+          {
+            "title_ar": "البلد والجنسية: I'm from Egypt · I'm Egyptian",
+            "title_en": "Countries and nationalities",
+            "explain_ar": "على Where are you from? تُجيب بالبلد بعد from، أو بالجنسية بلا from — ولا تجمع بينهما: لا تقل I'm from Egyptian. والبلد والجنسية واللغة تبدأ دائماً بحرف كبير، والعربية لا تعرف الحروف الكبيرة فيُنسى هذا كثيراً.",
+            "table": {
+              "columns_ar": [
+                "البلد",
+                "الجنسية",
+                "مثال",
+                "بالعربية"
+              ],
+              "rows": [
+                [
+                  "Egypt",
+                  "Egyptian",
+                  "I'm from Egypt. I'm Egyptian.",
+                  "مصر"
+                ],
+                [
+                  "Saudi Arabia",
+                  "Saudi",
+                  "She's from Saudi Arabia.",
+                  "السعودية"
+                ],
+                [
+                  "Jordan",
+                  "Jordanian",
+                  "He's Jordanian.",
+                  "الأردن"
+                ],
+                [
+                  "Morocco",
+                  "Moroccan",
+                  "We're Moroccan.",
+                  "المغرب"
+                ],
+                [
+                  "Algeria",
+                  "Algerian",
+                  "She's Algerian.",
+                  "الجزائر"
+                ],
+                [
+                  "Tunisia",
+                  "Tunisian",
+                  "They're Tunisian.",
+                  "تونس"
+                ],
+                [
+                  "Iraq",
+                  "Iraqi",
+                  "My colleague is Iraqi.",
+                  "العراق"
+                ],
+                [
+                  "Syria",
+                  "Syrian",
+                  "My neighbour is Syrian.",
+                  "سوريا"
+                ],
+                [
+                  "Lebanon",
+                  "Lebanese",
+                  "Her husband is Lebanese.",
+                  "لبنان"
+                ],
+                [
+                  "Palestine",
+                  "Palestinian",
+                  "I'm Palestinian.",
+                  "فلسطين"
+                ],
+                [
+                  "Sudan",
+                  "Sudanese",
+                  "Our teacher is Sudanese.",
+                  "السودان"
+                ],
+                [
+                  "the UAE",
+                  "Emirati",
+                  "He's Emirati.",
+                  "الإمارات"
+                ],
+                [
+                  "the UK",
+                  "British",
+                  "My friend is British.",
+                  "بريطانيا"
+                ],
+                [
+                  "the USA",
+                  "American",
+                  "My cousin is American.",
+                  "أمريكا"
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                3
+              ]
+            },
+            "examples": [
+              {
+                "en": "Where are you from?",
+                "ar": "من أين أنت؟"
+              },
+              {
+                "en": "I speak Arabic and a little English.",
+                "ar": "أتكلّم العربية وقليلاً من الإنجليزية."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "I'm from Egyptian.",
+                "right": "I'm from Egypt. / I'm Egyptian.",
+                "why_ar": "from مع البلد، وبلا from مع الجنسية"
+              },
+              {
+                "wrong": "i am from jordan.",
+                "right": "I am from Jordan.",
+                "why_ar": "I والبلدان والجنسيات بحرف كبير دائماً"
+              },
+              {
+                "wrong": "I speak arabic.",
+                "right": "I speak Arabic.",
+                "why_ar": "اللغات بحرف كبير أيضاً"
+              }
+            ],
+            "tip_ar": "اللغة كلمة واحدة لكل العرب: Arabic. والشخص an Arab، والصفة Arabic أو Arab: Arabic food · an Arab country."
+          },
+          {
+            "title_ar": "الأرقام حتى الألف",
+            "title_en": "Numbers to 1,000",
+            "explain_ar": "العربية تقول «واحد وعشرون» والإنجليزية بالعكس: twenty-one — العشرات أولاً وبينهما شرطة. وبعد المئة تأتي and: a hundred and five. ولا تُجمع hundred ولا thousand بعد رقم: two hundred لا two hundreds. والنبرة تفرّق 13 عن 30: thirTEEN و THIRty.",
+            "table": {
+              "columns_ar": [
+                "الرقم",
+                "بالإنجليزية",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "16",
+                  "sixteen",
+                  "My son is sixteen."
+                ],
+                [
+                  "60",
+                  "sixty",
+                  "My father is sixty."
+                ],
+                [
+                  "21",
+                  "twenty-one",
+                  "I am twenty-one."
+                ],
+                [
+                  "45",
+                  "forty-five",
+                  "She is forty-five."
+                ],
+                [
+                  "100",
+                  "a hundred",
+                  "a hundred people"
+                ],
+                [
+                  "105",
+                  "a hundred and five",
+                  "a hundred and five pounds"
+                ],
+                [
+                  "350",
+                  "three hundred and fifty",
+                  "three hundred and fifty dinars"
+                ],
+                [
+                  "1,000",
+                  "a thousand",
+                  "a thousand dollars"
+                ]
+              ],
+              "say": 2
+            },
+            "errors": [
+              {
+                "wrong": "one and twenty",
+                "right": "twenty-one",
+                "why_ar": "العشرات أولاً ثم الآحاد"
+              },
+              {
+                "wrong": "two hundreds",
+                "right": "two hundred",
+                "why_ar": "hundred لا تُجمع بعد رقم"
+              },
+              {
+                "wrong": "fourty",
+                "right": "forty",
+                "why_ar": "four لها u، و forty بلا u"
+              }
+            ]
+          },
+          {
+            "title_ar": "الترتيب والتاريخ: first · second · third",
+            "title_en": "Ordinal numbers and dates",
+            "explain_ar": "الترتيبيّ هو الرقم + th: four ← fourth · six ← sixth. وثلاثة شاذّة تُحفظ: first · second · third، ويُختصر 1st · 2nd · 3rd · 4th. وتحتاجه لشيئين: التاريخ (My birthday is on the 3rd of May) ورقم الطابق (the fourth floor).",
+            "table": {
+              "columns_ar": [
+                "الرقم",
+                "الترتيبي",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "1st",
+                  "first",
+                  "the first day"
+                ],
+                [
+                  "2nd",
+                  "second",
+                  "the second floor"
+                ],
+                [
+                  "3rd",
+                  "third",
+                  "the third of May"
+                ],
+                [
+                  "4th",
+                  "fourth",
+                  "the fourth floor"
+                ],
+                [
+                  "5th",
+                  "fifth",
+                  "the fifth of June"
+                ],
+                [
+                  "8th",
+                  "eighth",
+                  "the eighth of March"
+                ],
+                [
+                  "9th",
+                  "ninth",
+                  "the ninth of August"
+                ],
+                [
+                  "12th",
+                  "twelfth",
+                  "the twelfth of July"
+                ],
+                [
+                  "20th",
+                  "twentieth",
+                  "the twentieth of April"
+                ],
+                [
+                  "21st",
+                  "twenty-first",
+                  "the twenty-first of October"
+                ]
+              ],
+              "say": 2
+            },
+            "examples": [
+              {
+                "en": "My birthday is on the fifth of May.",
+                "ar": "عيد ميلادي في الخامس من مايو."
+              },
+              {
+                "en": "We are on the second floor.",
+                "ar": "نحن في الطابق الثاني."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "the five floor",
+                "right": "the fifth floor",
+                "why_ar": "الطابق والتاريخ بالترتيبي لا بالعدد"
+              },
+              {
+                "wrong": "fiveth · twelveth",
+                "right": "fifth · twelfth",
+                "why_ar": "ve تصير f قبل th"
+              }
+            ]
+          }
         ]
       }
     },
@@ -3611,6 +4558,833 @@
         ]
       },
       "explanation": "النص يقول He is twenty-eight years old — بـ is لا have.",
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 9,
+      "type": "fill_blank",
+      "prompt": "This is my sister. ______ name is Huda.",
+      "payload": {
+        "before": "This is my sister.",
+        "after": "name is Huda."
+      },
+      "answer": {
+        "accepted": [
+          "Her"
+        ]
+      },
+      "explanation": "المالك امرأة (my sister) فتقول her — و his للرجل وحده.",
+      "focus_ar": "الملكية — my · your · his · her",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 10,
+      "type": "fill_blank",
+      "prompt": "Sami is an engineer. ______ wife is a doctor.",
+      "payload": {
+        "before": "Sami is an engineer.",
+        "after": "wife is a doctor."
+      },
+      "answer": {
+        "accepted": [
+          "His"
+        ]
+      },
+      "explanation": "المالك رجل (Sami) فتقول his — ولو كان المملوك امرأة.",
+      "focus_ar": "الملكية — my · your · his · her",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 11,
+      "type": "multiple_choice",
+      "prompt": "We love ______ children.",
+      "payload": {
+        "options": [
+          "we",
+          "our",
+          "us",
+          "they"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "our قبل الاسم = «ـنا»: our children = أطفالنا.",
+      "focus_ar": "الملكية — my · your · his · her",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 12,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "What is you name?"
+      },
+      "answer": {
+        "accepted": [
+          "What is your name?",
+          "What's your name?"
+        ]
+      },
+      "explanation": "you ضمير الفاعل، و your هي الملكية قبل الاسم.",
+      "focus_ar": "الملكية — my · your · his · her",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 13,
+      "type": "multiple_choice",
+      "prompt": "والداك أمامك الآن. أي جملة صحيحة؟",
+      "payload": {
+        "options": [
+          "This are my parents.",
+          "These are my parents.",
+          "These is my parents.",
+          "That are my parents."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "parents جمع وقريب فتأخذ these، والجمع يأخذ are.",
+      "focus_ar": "الإشارة — this · that · these · those",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 14,
+      "type": "fill_blank",
+      "prompt": "______ is our school, over there.",
+      "payload": {
+        "before": "",
+        "after": "is our school, over there."
+      },
+      "answer": {
+        "accepted": [
+          "That"
+        ]
+      },
+      "explanation": "مفرد وبعيد (over there) فتقول that.",
+      "focus_ar": "الإشارة — this · that · these · those",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 4,
+      "type": "fill_blank",
+      "prompt": "I have two ______. (child)",
+      "payload": {
+        "before": "I have two",
+        "after": ". (child)"
+      },
+      "answer": {
+        "accepted": [
+          "children"
+        ]
+      },
+      "explanation": "child جمعه شاذّ: children — لا childs.",
+      "focus_ar": "الجمع — s و es والشاذّ",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "prompt": "They are good ______. (friend)",
+      "payload": {
+        "before": "They are good",
+        "after": ". (friend)"
+      },
+      "answer": {
+        "accepted": [
+          "friends"
+        ]
+      },
+      "explanation": "they جمع فالاسم جمع: friends. والصفة good لا تتغيّر.",
+      "focus_ar": "الجمع — s و es والشاذّ",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 6,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "My children are happys."
+      },
+      "answer": {
+        "accepted": [
+          "My children are happy."
+        ]
+      },
+      "explanation": "الصفة لا تُجمع في الإنجليزية: happy لكل الأعداد.",
+      "focus_ar": "الجمع — s و es والشاذّ",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 7,
+      "type": "multiple_choice",
+      "prompt": "ما جمع city؟",
+      "payload": {
+        "options": [
+          "citys",
+          "cities",
+          "cityes",
+          "city"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "ساكن + y تصبح ies: city ← cities. أما day فحركة + y: days.",
+      "focus_ar": "الجمع — s و es والشاذّ",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 8,
+      "type": "fill_blank",
+      "prompt": "I'm from Egypt. I'm ______.",
+      "payload": {
+        "before": "I'm from Egypt. I'm",
+        "after": "."
+      },
+      "answer": {
+        "accepted": [
+          "Egyptian"
+        ]
+      },
+      "explanation": "البلد Egypt والجنسية Egyptian — وكلاهما بحرف كبير.",
+      "focus_ar": "البلد والجنسية",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 9,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "She is from Jordanian."
+      },
+      "answer": {
+        "accepted": [
+          "She is from Jordan.",
+          "She is Jordanian.",
+          "She's from Jordan.",
+          "She's Jordanian."
+        ]
+      },
+      "explanation": "from مع البلد (Jordan)، وبلا from مع الجنسية (Jordanian).",
+      "focus_ar": "البلد والجنسية",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "prompt": "كيف تقول 45؟",
+      "payload": {
+        "options": [
+          "four-five",
+          "forty-five",
+          "five and forty",
+          "fourty-five"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "العشرات أولاً ثم الآحاد بشرطة — و forty بلا u.",
+      "focus_ar": "الأرقام والترتيب",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "multiple_choice",
+      "prompt": "كيف تقول 105؟",
+      "payload": {
+        "options": [
+          "one hundred five",
+          "a hundred and five",
+          "five and hundred",
+          "a hundreds and five"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "بعد المئة تأتي and، و hundred لا تُجمع.",
+      "focus_ar": "الأرقام والترتيب",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 7,
+      "type": "fill_blank",
+      "prompt": "He lives on the ______ floor. (3)",
+      "payload": {
+        "before": "He lives on the",
+        "after": "floor. (3)"
+      },
+      "answer": {
+        "accepted": [
+          "third",
+          "3rd"
+        ]
+      },
+      "explanation": "3 ← third، شاذّة مثل first و second.",
+      "focus_ar": "الأرقام والترتيب",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 8,
+      "type": "fill_blank",
+      "prompt": "My birthday is on the ______ of May. (5)",
+      "payload": {
+        "before": "My birthday is on the",
+        "after": "of May. (5)"
+      },
+      "answer": {
+        "accepted": [
+          "fifth",
+          "5th"
+        ]
+      },
+      "explanation": "five ← fifth: تتحوّل ve إلى f قبل th.",
+      "focus_ar": "الأرقام والترتيب",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 10,
+      "type": "fill_blank",
+      "prompt": "Two ______ are in the office. (woman)",
+      "payload": {
+        "before": "Two",
+        "after": "are in the office. (woman)"
+      },
+      "answer": {
+        "accepted": [
+          "women"
+        ]
+      },
+      "explanation": "woman ← women: الجمع شاذّ، ويُنطق «ويمِن».",
+      "focus_ar": "الجمع — s و es والشاذّ",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 11,
+      "type": "fill_blank",
+      "prompt": "I have three ______. (box)",
+      "payload": {
+        "before": "I have three",
+        "after": ". (box)"
+      },
+      "answer": {
+        "accepted": [
+          "boxes"
+        ]
+      },
+      "explanation": "ما ينتهي بـ x يأخذ es: boxes.",
+      "focus_ar": "الجمع — s و es والشاذّ",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 12,
+      "type": "fill_blank",
+      "prompt": "My uncle has two ______. (wife)",
+      "payload": {
+        "before": "My uncle has two",
+        "after": ". (wife)"
+      },
+      "answer": {
+        "accepted": [
+          "wives"
+        ]
+      },
+      "explanation": "fe تصير ves: wife ← wives.",
+      "focus_ar": "الجمع — s و es والشاذّ",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 13,
+      "type": "multiple_choice",
+      "prompt": "ما جمع person؟",
+      "payload": {
+        "options": [
+          "persons",
+          "people",
+          "peoples",
+          "personas"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "جمع person في الكلام اليومي people. و persons في اللغة الرسمية والقانونية وحدها.",
+      "focus_ar": "الجمع — s و es والشاذّ",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 14,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "The children is at school."
+      },
+      "answer": {
+        "accepted": [
+          "The children are at school."
+        ]
+      },
+      "explanation": "children جمع ففعلها are — ولو لم تنتهِ بـ s.",
+      "focus_ar": "الجمع — s و es والشاذّ",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 9,
+      "type": "multiple_choice",
+      "prompt": "ما جمع fish؟",
+      "payload": {
+        "options": [
+          "fishs",
+          "fishes",
+          "fish",
+          "fishies"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "جمع fish كمفردها: one fish, two fish.",
+      "focus_ar": "الجمع — s و es والشاذّ",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 10,
+      "type": "multiple_choice",
+      "prompt": "أي كلمة جمعها شاذّ لا يأخذ s؟",
+      "payload": {
+        "options": [
+          "book",
+          "man",
+          "day",
+          "friend"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "man ← men. والباقي يأخذ s: books · days · friends.",
+      "focus_ar": "الجمع — s و es والشاذّ",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 11,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "There are two mans and three womans here."
+      },
+      "answer": {
+        "accepted": [
+          "There are two men and three women here."
+        ]
+      },
+      "explanation": "man ← men و woman ← women: جمعان شاذّان.",
+      "focus_ar": "الجمع — s و es والشاذّ",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 15,
+      "type": "multiple_choice",
+      "prompt": "Are you a student? — Yes, ___.",
+      "payload": {
+        "options": [
+          "I am",
+          "I'm",
+          "I are",
+          "am I"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "الجواب القصير الموجب بلا اختصار: Yes, I am — لا Yes, I'm.",
+      "focus_ar": "to be — النفي والسؤال",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 16,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "You are from Jordan?"
+      },
+      "answer": {
+        "accepted": [
+          "Are you from Jordan?"
+        ]
+      },
+      "explanation": "السؤال بتقديم الفعل على الفاعل: Are you…?",
+      "focus_ar": "to be — النفي والسؤال",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 15,
+      "type": "fill_blank",
+      "prompt": "______ your brother married?",
+      "payload": {
+        "before": "",
+        "after": "your brother married?"
+      },
+      "answer": {
+        "accepted": [
+          "Is"
+        ]
+      },
+      "explanation": "your brother = he، والسؤال بتقديم is.",
+      "focus_ar": "to be — النفي والسؤال",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 16,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "Where you are from?"
+      },
+      "answer": {
+        "accepted": [
+          "Where are you from?"
+        ]
+      },
+      "explanation": "كلمة السؤال ثم الفعل ثم الفاعل: Where are you…?",
+      "focus_ar": "to be — النفي والسؤال",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 12,
+      "type": "fill_blank",
+      "prompt": "Is she a teacher? — No, she ______.",
+      "payload": {
+        "before": "Is she a teacher? — No, she",
+        "after": "."
+      },
+      "answer": {
+        "accepted": [
+          "isn't",
+          "is not"
+        ]
+      },
+      "explanation": "الجواب القصير المنفي: No, she isn't.",
+      "focus_ar": "to be — النفي والسؤال",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 13,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "I amn't tired."
+      },
+      "answer": {
+        "accepted": [
+          "I'm not tired.",
+          "I am not tired."
+        ]
+      },
+      "explanation": "لا توجد amn't في الإنجليزية: I'm not.",
+      "focus_ar": "to be — النفي والسؤال",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 14,
+      "type": "multiple_choice",
+      "prompt": "اختر السؤال الصحيح عن العمر:",
+      "payload": {
+        "options": [
+          "How many years you have?",
+          "How old are you?",
+          "How old you are?",
+          "What is your years?"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "العمر بـ be: How old are you? — والفعل قبل الفاعل.",
+      "focus_ar": "to be — النفي والسؤال",
+      "error_no": 2,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 17,
+      "type": "fill_blank",
+      "prompt": "______ are my books, here on the table.",
+      "payload": {
+        "before": "",
+        "after": "are my books, here on the table."
+      },
+      "answer": {
+        "accepted": [
+          "These"
+        ]
+      },
+      "explanation": "جمع وقريب (here) فتقول these.",
+      "focus_ar": "الإشارة — this · that · these · those",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 18,
+      "type": "multiple_choice",
+      "prompt": "البيت بعيد، في آخر الشارع: ___ is my house.",
+      "payload": {
+        "options": [
+          "This",
+          "That",
+          "These",
+          "Those"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "مفرد وبعيد فتقول that.",
+      "focus_ar": "الإشارة — this · that · these · those",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 15,
+      "type": "fill_blank",
+      "prompt": "He is from Morocco. He is ______.",
+      "payload": {
+        "before": "He is from Morocco. He is",
+        "after": "."
+      },
+      "answer": {
+        "accepted": [
+          "Moroccan"
+        ]
+      },
+      "explanation": "Morocco ← Moroccan، بحرف كبير.",
+      "focus_ar": "البلد والجنسية",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 16,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "We are from saudi arabia."
+      },
+      "answer": {
+        "accepted": [
+          "We are from Saudi Arabia.",
+          "We're from Saudi Arabia."
+        ]
+      },
+      "explanation": "البلدان بحرف كبير في كل كلمة: Saudi Arabia.",
+      "focus_ar": "البلد والجنسية",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 17,
+      "type": "fill_blank",
+      "prompt": "January is the ______ month of the year.",
+      "payload": {
+        "before": "January is the",
+        "after": "month of the year."
+      },
+      "answer": {
+        "accepted": [
+          "first",
+          "1st"
+        ]
+      },
+      "explanation": "الترتيب: one ← first، شاذّة تُحفظ.",
+      "focus_ar": "الأرقام والترتيب",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 18,
+      "type": "fill_blank",
+      "prompt": "Today is the ______ of March. (21)",
+      "payload": {
+        "before": "Today is the",
+        "after": "of March. (21)"
+      },
+      "answer": {
+        "accepted": [
+          "twenty-first",
+          "21st",
+          "twenty first"
+        ]
+      },
+      "explanation": "في الأرقام المركّبة يتغيّر الأخير وحده: twenty-one ← twenty-first.",
+      "focus_ar": "الأرقام والترتيب",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 3,
+      "type": "multiple_choice",
+      "prompt": "Which letter has the same sound as A?",
+      "payload": {
+        "options": [
+          "E",
+          "H",
+          "I"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "A وH على قافية واحدة: /eɪ/ و/eɪtʃ/. والفخّ أن تظنّ A «آ» فتقرنها بغيرها — وE صوته /iː/ لا /eɪ/.",
+      "focus_ar": "الحروف والتهجئة",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "prompt": "How do you say the letter I?",
+      "payload": {
+        "options": [
+          "/iː/",
+          "/eɪ/",
+          "/aɪ/"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "I اسمه /aɪ/ «آي» مثل my. والمتحدّث بالعربية يعكس E وI: /iː/ «إي» هو اسم E لا I.",
+      "focus_ar": "الحروف والتهجئة",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "prompt": "How do you say the letter G?",
+      "payload": {
+        "options": [
+          "/dʒiː/",
+          "/dʒeɪ/",
+          "/ɡiː/"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "G اسمه /dʒiː/ «جي» على قافية E. أمّا /dʒeɪ/ «جيه» فهو J — والحرفان يتبادلان باستمرار. و/ɡiː/ صوت G في go لا اسمه.",
+      "focus_ar": "الحروف والتهجئة",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 6,
+      "type": "multiple_choice",
+      "prompt": "Hassan spells his name: H – A – … – A – N.",
+      "payload": {
+        "options": [
+          "two S",
+          "SS twice",
+          "double S"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "الحرفان المتتاليان المتشابهان يقال لهما double: double S، double L. ولا يقال two S.",
+      "focus_ar": "الحروف والتهجئة",
+      "error_no": null,
+      "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 7,
+      "type": "fill_blank",
+      "prompt": "How do you ______ your name?",
+      "payload": {
+        "before": "How do you",
+        "after": "your name?"
+      },
+      "answer": {
+        "accepted": [
+          "spell"
+        ]
+      },
+      "explanation": "How do you spell your name? تطلب بها حروف الاسم. والفخّ أن تقول How do you write your name? — المقصود الحروف واحداً واحداً، والفعل spell.",
+      "focus_ar": "الحروف والتهجئة",
+      "error_no": null,
       "points": 1
     }
   ]

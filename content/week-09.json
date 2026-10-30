@@ -97,24 +97,30 @@
         },
         {
           "order": 2,
+          "label": "القواعد — تركيب المضارع المستمر",
+          "minutes": 10,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
           "label": "المهن",
-          "minutes": 25,
+          "minutes": 15,
           "ref": "vocab:jobs"
         },
         {
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
@@ -123,16 +129,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 10,
           "ref": "watch:UdEasleUc54"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
@@ -141,7 +147,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -157,24 +163,30 @@
         },
         {
           "order": 2,
+          "label": "القواعد — أيّ الزمنين؟",
+          "minutes": 10,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
           "label": "مكان العمل",
-          "minutes": 25,
+          "minutes": 15,
           "ref": "vocab:the_workplace"
         },
         {
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:2"
@@ -183,16 +195,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 15,
           "ref": "watch:x8tF2aQoukY"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:error_hunt"
@@ -201,7 +213,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -217,12 +229,18 @@
         },
         {
           "order": 2,
-          "label": "النطق",
-          "minutes": 25,
-          "ref": "section:phonics"
+          "label": "التقنية والتواصل",
+          "minutes": 10,
+          "ref": "vocab:technology_and_communication"
         },
         {
           "order": 3,
+          "label": "النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
@@ -231,10 +249,10 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:3"
@@ -243,16 +261,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "قصة اليوم",
           "minutes": 10,
           "ref": "story:farmer-and-horse"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
@@ -261,7 +279,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -343,24 +361,30 @@
         },
         {
           "order": 2,
+          "label": "القواعد — الماضي المستمر",
+          "minutes": 10,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
           "label": "الآن والمؤقّت",
-          "minutes": 25,
+          "minutes": 15,
           "ref": "vocab:now_and_temporary"
         },
         {
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:5"
@@ -369,16 +393,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 15,
           "ref": "watch:rKFUD1Nn5ZU"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
@@ -387,7 +411,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -1824,6 +1848,188 @@
       "sentence": "He is still waiting for the bus.",
       "sentence_ar": "هو ما زال ينتظر الحافلة.",
       "usage_ar": "تأتي بعد is/am/are: he is still waiting."
+    },
+    {
+      "group": "technology_and_communication",
+      "word": "laptop",
+      "ipa": "/ˈlæptɒp/",
+      "arabic": "حاسوب محمول",
+      "example": null,
+      "group_label_ar": "التقنية والتواصل",
+      "group_label_en": "Technology and Communication",
+      "target": "laptop",
+      "sentence": "I’m working on my laptop at the moment.",
+      "sentence_ar": "أعمل على حاسوبي المحمول الآن.",
+      "usage_ar": "on my laptop: على حاسوبي — on لا in."
+    },
+    {
+      "group": "technology_and_communication",
+      "word": "mobile phone",
+      "ipa": "/ˌməʊbaɪl ˈfəʊn/",
+      "arabic": "هاتف محمول",
+      "example": null,
+      "group_label_ar": "التقنية والتواصل",
+      "group_label_en": "Technology and Communication",
+      "target": "mobile phone",
+      "sentence": "She is talking on her mobile phone.",
+      "sentence_ar": "هي تتكلّم في هاتفها المحمول.",
+      "usage_ar": "في بريطانيا mobile، وفي أمريكا cell phone. و on the phone: في الهاتف."
+    },
+    {
+      "group": "technology_and_communication",
+      "word": "internet",
+      "ipa": "/ˈɪntənet/",
+      "arabic": "الإنترنت",
+      "example": null,
+      "group_label_ar": "التقنية والتواصل",
+      "group_label_en": "Technology and Communication",
+      "target": "internet",
+      "sentence": "The internet isn’t working today.",
+      "sentence_ar": "الإنترنت لا يعمل اليوم.",
+      "usage_ar": "دائماً the internet، و on the internet."
+    },
+    {
+      "group": "technology_and_communication",
+      "word": "website",
+      "ipa": "/ˈwebsaɪt/",
+      "arabic": "موقع إلكتروني",
+      "example": null,
+      "group_label_ar": "التقنية والتواصل",
+      "group_label_en": "Technology and Communication",
+      "target": "website",
+      "sentence": "I’m looking at the company’s website.",
+      "sentence_ar": "أنظر في موقع الشركة.",
+      "usage_ar": "on the website: في الموقع."
+    },
+    {
+      "group": "technology_and_communication",
+      "word": "online",
+      "ipa": "/ˌɒnˈlaɪn/",
+      "arabic": "عبر الإنترنت",
+      "example": null,
+      "group_label_ar": "التقنية والتواصل",
+      "group_label_en": "Technology and Communication",
+      "target": "online",
+      "sentence": "My brother is studying online this year.",
+      "sentence_ar": "أخي يدرس عبر الإنترنت هذا العام.",
+      "usage_ar": "صفة وظرف: an online course · study online."
+    },
+    {
+      "group": "technology_and_communication",
+      "word": "app",
+      "ipa": "/æp/",
+      "arabic": "تطبيق",
+      "example": null,
+      "group_label_ar": "التقنية والتواصل",
+      "group_label_en": "Technology and Communication",
+      "target": "app",
+      "sentence": "I’m using an app to learn English.",
+      "sentence_ar": "أستعمل تطبيقاً لأتعلّم الإنجليزية.",
+      "usage_ar": "اختصار application، و an app لأنها تبدأ بصوت علّة."
+    },
+    {
+      "group": "technology_and_communication",
+      "word": "message",
+      "ipa": "/ˈmesɪdʒ/",
+      "arabic": "رسالة",
+      "example": null,
+      "group_label_ar": "التقنية والتواصل",
+      "group_label_en": "Technology and Communication",
+      "target": "message",
+      "sentence": "I’m writing a message to my boss.",
+      "sentence_ar": "أكتب رسالة إلى مديري.",
+      "usage_ar": "send a message · get a message."
+    },
+    {
+      "group": "technology_and_communication",
+      "word": "text",
+      "ipa": "/tekst/",
+      "arabic": "يراسل نصّياً · رسالة نصّية",
+      "example": null,
+      "group_label_ar": "التقنية والتواصل",
+      "group_label_en": "Technology and Communication",
+      "target": "texting",
+      "sentence": "She is texting her friend right now.",
+      "sentence_ar": "هي تراسل صديقتها الآن.",
+      "usage_ar": "فعل واسم: I’ll text you · I got your text."
+    },
+    {
+      "group": "technology_and_communication",
+      "word": "video call",
+      "ipa": "/ˈvɪdiəʊ kɔːl/",
+      "arabic": "مكالمة فيديو",
+      "example": null,
+      "group_label_ar": "التقنية والتواصل",
+      "group_label_en": "Technology and Communication",
+      "target": "video call",
+      "sentence": "We are on a video call with the client.",
+      "sentence_ar": "نحن في مكالمة فيديو مع العميل.",
+      "usage_ar": "be on a video call · have a video call."
+    },
+    {
+      "group": "technology_and_communication",
+      "word": "Wi-Fi",
+      "ipa": "/ˈwaɪ faɪ/",
+      "arabic": "شبكة الواي فاي",
+      "example": null,
+      "group_label_ar": "التقنية والتواصل",
+      "group_label_en": "Technology and Communication",
+      "target": "Wi-Fi",
+      "sentence": "Is the Wi-Fi working in your room?",
+      "sentence_ar": "هل الواي فاي يعمل في غرفتك؟",
+      "usage_ar": "the Wi-Fi password: كلمة سرّ الشبكة."
+    },
+    {
+      "group": "technology_and_communication",
+      "word": "keyboard",
+      "ipa": "/ˈkiːbɔːd/",
+      "arabic": "لوحة المفاتيح",
+      "example": null,
+      "group_label_ar": "التقنية والتواصل",
+      "group_label_en": "Technology and Communication",
+      "target": "keyboard",
+      "sentence": "My keyboard isn’t working, so I’m using my phone.",
+      "sentence_ar": "لوحة مفاتيحي لا تعمل، فأستعمل هاتفي.",
+      "usage_ar": "key مفتاح، و board لوح."
+    },
+    {
+      "group": "technology_and_communication",
+      "word": "printer",
+      "ipa": "/ˈprɪntə(r)/",
+      "arabic": "طابعة",
+      "example": null,
+      "group_label_ar": "التقنية والتواصل",
+      "group_label_en": "Technology and Communication",
+      "target": "printer",
+      "sentence": "Someone is using the printer, so I’m waiting.",
+      "sentence_ar": "أحدهم يستعمل الطابعة، فأنا أنتظر.",
+      "usage_ar": "print يطبع، و printer الطابعة."
+    },
+    {
+      "group": "technology_and_communication",
+      "word": "file",
+      "ipa": "/faɪl/",
+      "arabic": "ملفّ",
+      "example": null,
+      "group_label_ar": "التقنية والتواصل",
+      "group_label_en": "Technology and Communication",
+      "target": "file",
+      "sentence": "I’m sending you the file now.",
+      "sentence_ar": "أرسل لك الملفّ الآن.",
+      "usage_ar": "open a file · save a file · send a file."
+    },
+    {
+      "group": "technology_and_communication",
+      "word": "log in",
+      "ipa": "/ˌlɒɡ ˈɪn/",
+      "arabic": "يسجّل الدخول",
+      "example": null,
+      "group_label_ar": "التقنية والتواصل",
+      "group_label_en": "Technology and Communication",
+      "target": "log in",
+      "sentence": "I’m trying to log in, but it isn’t working.",
+      "sentence_ar": "أحاول تسجيل الدخول لكنه لا يعمل.",
+      "usage_ar": "log in to a website — وعكسها log out."
     }
   ],
   "minimal_pairs": [
@@ -2032,69 +2238,312 @@
   "sections": [
     {
       "kind": "grammar",
-      "day_number": 4,
-      "title_ar": "القواعد",
-      "title_en": "Grammar — The Present Continuous",
+      "day_number": 1,
+      "title_ar": "القواعد — المضارع المستمر: التركيب",
+      "title_en": "Grammar — The Present Continuous: the form",
       "payload": {
-        "rule_ar": "المضارع المستمر لما يحدث **الآن** أو لحالة مؤقّتة. وتركيبه: am/is/are + الفعل + -ing. والخلط بينه وبين المضارع البسيط أشهر أخطاء هذا المستوى: I work تعني مهنتي، وI am working تعني أنني أعمل في هذه اللحظة. وهناك اثنا عشر فعلاً لا تُستعمل معه أبداً — أفعال الحالة مثل know و want و like.",
-        "rule_en": "SUBJECT  +  am / is / are  +  VERB-ing",
+        "rule_ar": "المضارع المستمر لما يحدث الآن أو لحالة مؤقّتة، وتركيبه: am / is / are + الفعل + -ing. وأنت تعرف نصفيه: am و is و are من الأسبوع الأول، و-ing من الأسبوع الخامس — وهذا الزمن هو الاثنان معاً. وفعل be فيه إجباريّ، و-ing إجبارية.",
+        "table": {
+          "columns_ar": [
+            "الضمير",
+            "الفعل",
+            "مثال",
+            "المختصر"
+          ],
+          "rows": [
+            [
+              "I",
+              "am working",
+              "I am working.",
+              "I’m working."
+            ],
+            [
+              "He / She / It",
+              "is working",
+              "He is working.",
+              "He’s working."
+            ],
+            [
+              "You / We / They",
+              "are working",
+              "They are working.",
+              "They’re working."
+            ]
+          ],
+          "say": 2
+        },
+        "negation_ar": "النفي: I’m not working · He isn’t working · They aren’t working",
+        "question_ar": "السؤال: Is he working? — Yes, he is / No, he isn’t · Are they working? — Yes, they are / No, they aren’t",
+        "spelling_rules": [
+          {
+            "case_en": "Most verbs",
+            "rule_en": "add -ing",
+            "examples": "work → working, read → reading, wait → waiting"
+          },
+          {
+            "case_en": "Ends in -e",
+            "rule_en": "drop the e",
+            "examples": "write → writing, drive → driving, prepare → preparing"
+          },
+          {
+            "case_en": "One vowel + one consonant",
+            "rule_en": "double it",
+            "examples": "sit → sitting, run → running, plan → planning"
+          },
+          {
+            "case_en": "Ends in -ie",
+            "rule_en": "ie → -ying",
+            "examples": "lie → lying, die → dying"
+          }
+        ],
         "common_errors": [
           {
-            "error_no": 1,
-            "wrong": "I work now",
-            "right": "I am working now.",
-            "arabic": "أنا أعمل الآن",
-            "why_ar": "now تستدعي المستمر"
-          },
-          {
-            "error_no": 2,
-            "wrong": "I am working in a bank (as a job)",
-            "right": "I work in a bank.",
-            "arabic": "أنا أعمل في بنك",
-            "why_ar": "العمل الدائم عادة لا لحظة"
-          },
-          {
-            "error_no": 3,
-            "wrong": "I am knowing the answer",
-            "right": "I know the answer.",
-            "arabic": "أنا أعرف الإجابة",
-            "why_ar": "know فعل حالة"
-          },
-          {
-            "error_no": 4,
-            "wrong": "I am wanting water",
-            "right": "I want water.",
-            "arabic": "أريد ماءً",
-            "why_ar": "want فعل حالة"
-          },
-          {
-            "error_no": 5,
-            "wrong": "She teaching now",
+            "wrong": "She teaching now.",
             "right": "She is teaching now.",
-            "arabic": "هي تدرّس الآن",
             "why_ar": "فعل be إجباري"
           },
           {
-            "error_no": 6,
-            "wrong": "They are live in Cairo",
-            "right": "They live in Cairo.",
-            "arabic": "هم يعيشون في القاهرة",
-            "why_ar": "إمّا live وإمّا are living — لا خلط بينهما"
+            "wrong": "He is sleep.",
+            "right": "He is sleeping.",
+            "why_ar": "صيغة -ing إجبارية"
           },
           {
-            "error_no": 7,
-            "wrong": "He is sleep",
-            "right": "He is sleeping.",
-            "arabic": "هو ينام",
-            "why_ar": "صيغة -ing إجبارية"
+            "wrong": "They are live in Cairo.",
+            "right": "They live in Cairo.",
+            "why_ar": "إمّا live وإمّا are living — لا خلط بينهما"
           }
         ],
         "checklist_ar": [
           "am/is/are + الفعل + -ing في كل جملة",
-          "البسيط للعادة · المستمر للحظة والمؤقّت",
-          "لا -ing مع know و want و like و need",
           "النفي: am not / isn’t / aren’t + -ing",
+          "إملاء -ing: write → writing · sit → sitting"
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 2,
+      "title_ar": "القواعد — أيّ الزمنين؟ وأفعال الحالة",
+      "title_en": "Grammar — Simple or continuous? Stative verbs",
+      "payload": {
+        "rule_ar": "هذا قلب الفصل. والاختبار سؤال واحد: هل هو صحيح في هذه اللحظة بالذات، وسينتهي؟ نعم ← المستمر: I am reading. لا ← البسيط: I read every night. البسيط للعادة والروتين والحقيقة الدائمة، والمستمر للحظة وللفترة المؤقّتة.",
+        "table": {
+          "columns_ar": [
+            "",
+            "المضارع البسيط",
+            "المضارع المستمر"
+          ],
+          "rows": [
+            [
+              "العمل",
+              "I work in a bank.",
+              "I am working from home today."
+            ],
+            [
+              "التدريس",
+              "She teaches English.",
+              "She is teaching a class right now."
+            ],
+            [
+              "السكن",
+              "They live in Cairo.",
+              "They are living with friends until June."
+            ],
+            [
+              "كلمات الزمن",
+              "always · usually · every day",
+              "now · at the moment · today · this week"
+            ]
+          ],
+          "say": 2,
+          "ar_cols": [
+            0
+          ]
+        },
+        "arabic_contrast_ar": "العربية تقول «أنا أعمل» للمعنيين: مهنتي، وما أفعله الآن — فلا يعينك حدسك هنا، والتمييز يُبنى عمداً. جملة عربية واحدة، وجملتان إنجليزيتان.",
+        "common_errors": [
+          {
+            "wrong": "I work now.",
+            "right": "I am working now.",
+            "why_ar": "now تستدعي المستمر"
+          },
+          {
+            "wrong": "I am working in a bank. (as a job)",
+            "right": "I work in a bank.",
+            "why_ar": "العمل الدائم عادة لا لحظة"
+          }
+        ],
+        "checklist_ar": [
+          "البسيط للعادة · المستمر للحظة والمؤقّت",
+          "الاختبار: صحيح الآن وسينتهي؟ ← المستمر",
+          "لا -ing مع know و want و like و need",
           "نطق /ŋ/ بلا /g/ في النهاية"
+        ],
+        "lessons": [
+          {
+            "title_ar": "أفعال الحالة — أفعال ترفض -ing",
+            "title_en": "Stative verbs",
+            "explain_ar": "بعض الأفعال تصف حالة لا حدثاً، والحالة لا «تجري» — فلا تأخذ المستمر في الغالب ولو كانت صحيحة الآن. احفظها في خمس مجموعات:",
+            "table": {
+              "columns_ar": [
+                "المجموعة",
+                "الأفعال",
+                "الصحيح"
+              ],
+              "rows": [
+                [
+                  "التفكير",
+                  "know · understand · remember · believe · mean",
+                  "I know the answer."
+                ],
+                [
+                  "الشعور",
+                  "like · love · hate · want · need · prefer",
+                  "I want some water."
+                ],
+                [
+                  "الحواسّ",
+                  "see · hear · smell · taste",
+                  "I hear something."
+                ],
+                [
+                  "الملكية",
+                  "have · belong · own · cost",
+                  "She has a car."
+                ],
+                [
+                  "الكون",
+                  "be · seem",
+                  "He is tired."
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                0
+              ]
+            },
+            "errors": [
+              {
+                "wrong": "I am knowing the answer.",
+                "right": "I know the answer.",
+                "why_ar": "know فعل حالة"
+              },
+              {
+                "wrong": "I am wanting water.",
+                "right": "I want water.",
+                "why_ar": "want فعل حالة"
+              },
+              {
+                "wrong": "She is having a car.",
+                "right": "She has a car.",
+                "why_ar": "have بمعنى يملك فعل حالة"
+              }
+            ],
+            "tip_ar": "استثناء يستحقّ الحفظ: have تأخذ -ing حين تكون فعلاً لا ملكية — I am having lunch و I am having a shower صحيحتان. والاختبار: هل تستطيع وضع eat أو take مكانها؟"
+          },
+          {
+            "title_ar": "always مع المستمر: شكوى",
+            "title_en": "always + Present Continuous",
+            "explain_ar": "استعمال ستسمعه كثيراً: always مع المستمر تعني «وهذا يزعجني» أو تعجّباً. He always loses his keys خبر محايد، و He is always losing his keys شكوى.",
+            "examples": [
+              {
+                "en": "He is always losing his keys!",
+                "ar": "ضيق"
+              },
+              {
+                "en": "You are always working!",
+                "ar": "شكوى"
+              },
+              {
+                "en": "She is always helping people.",
+                "ar": "إعجاب"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 5,
+      "title_ar": "القواعد — الماضي المستمر: ماذا كنت تفعل؟",
+      "title_en": "Grammar — The Past Continuous (a first look)",
+      "payload": {
+        "rule_ar": "تعرف الآن am / is / are + -ing لما يحدث الآن. ضع was أو were مكانها فتحصل على ما كان يحدث في لحظة من الماضي: At nine last night I was watching TV. وأكثر ما يأتي مع الماضي البسيط: المستمر للخلفية الممتدّة، والبسيط للحدث القصير الذي قطعها. وستتعمّق فيه في الأسبوع العشرين — يكفيك الآن أن تصوغه وتفهمه.",
+        "table": {
+          "columns_ar": [
+            "الضمير",
+            "الفعل",
+            "مثال"
+          ],
+          "say": 2,
+          "rows": [
+            [
+              "I / He / She / It",
+              "was working",
+              "I was working at eight."
+            ],
+            [
+              "You / We / They",
+              "were working",
+              "They were working all night."
+            ]
+          ]
+        },
+        "arabic_contrast_ar": "العربية تقول «كنت أطبخ» — كان + فعل مضارع — وهذا هو الماضي المستمر تماماً: was + cooking. فالتركيب قريب منك، والخطأ الأشيع حذف -ing: I was cook.",
+        "negation_ar": "النفي: I wasn’t sleeping · They weren’t listening",
+        "question_ar": "السؤال: What were you doing at nine? — I was reading · Was it raining? — Yes, it was / No, it wasn’t",
+        "common_errors": [
+          {
+            "wrong": "I was cook dinner.",
+            "right": "I was cooking dinner.",
+            "why_ar": "-ing إجبارية"
+          },
+          {
+            "wrong": "They was watching TV.",
+            "right": "They were watching TV.",
+            "why_ar": "they تأخذ were"
+          },
+          {
+            "wrong": "I was knowing the answer.",
+            "right": "I knew the answer.",
+            "why_ar": "أفعال الحالة بلا -ing في الماضي أيضاً"
+          },
+          {
+            "wrong": "When the phone was ringing, I cooked.",
+            "right": "I was cooking when the phone rang.",
+            "why_ar": "الخلفية بالمستمر، والحدث القصير الذي قطعها بالبسيط"
+          }
+        ],
+        "checklist_ar": [
+          "was / were + الفعل + -ing",
+          "المستمر للخلفية · البسيط للحدث الذي قطعها",
+          "لا -ing مع أفعال الحالة في الماضي أيضاً"
+        ],
+        "lessons": [
+          {
+            "title_ar": "الخلفية والحدث: when و while",
+            "title_en": "Background and event",
+            "explain_ar": "المستمر يرسم ما كان جارياً، والبسيط يقطعه. وبعد while يأتي المستمر غالباً، وبعد when الحدث القصير.",
+            "examples": [
+              {
+                "en": "I was cooking when the phone rang.",
+                "ar": "كنت أطبخ حين رنّ الهاتف"
+              },
+              {
+                "en": "It was raining when we left the house.",
+                "ar": "كانت تمطر حين غادرنا البيت"
+              },
+              {
+                "en": "While I was waiting for the bus, I met an old friend.",
+                "ar": "بينما كنت أنتظر الحافلة قابلت صديقاً قديماً"
+              },
+              {
+                "en": "What were you doing at ten last night?",
+                "ar": "ماذا كنت تفعل في العاشرة ليلة أمس؟"
+              }
+            ]
+          }
         ]
       }
     },
@@ -4306,6 +4755,174 @@
         "correct": false
       },
       "explanation": "في النصّ: he says he is not building it to finish it"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "الماضي المستمر",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "At eight o’clock last night I ______ (watch) TV.",
+      "payload": {
+        "before": "At eight o’clock last night I ",
+        "after": " (watch) TV."
+      },
+      "answer": {
+        "accepted": [
+          "was watching"
+        ]
+      },
+      "explanation": "I + was + -ing"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "الماضي المستمر",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "They ______ (play) football when it started to rain.",
+      "payload": {
+        "before": "They ",
+        "after": " (play) football when it started to rain."
+      },
+      "answer": {
+        "accepted": [
+          "were playing"
+        ]
+      },
+      "explanation": "they + were + -ing: الخلفية"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "الماضي المستمر",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She ______ (not / sleep) when I called.",
+      "payload": {
+        "before": "She ",
+        "after": " (not / sleep) when I called."
+      },
+      "answer": {
+        "accepted": [
+          "wasn’t sleeping",
+          "was not sleeping"
+        ]
+      },
+      "explanation": "النفي: wasn’t + -ing"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "الماضي المستمر",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "What ______ you doing at nine yesterday?",
+      "payload": {
+        "before": "What ",
+        "after": " you doing at nine yesterday?"
+      },
+      "answer": {
+        "accepted": [
+          "were"
+        ]
+      },
+      "explanation": "you تأخذ were"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "الماضي المستمر",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I ______ (cook) dinner when the phone rang.",
+      "payload": {
+        "before": "I ",
+        "after": " (cook) dinner when the phone rang."
+      },
+      "answer": {
+        "accepted": [
+          "was cooking"
+        ]
+      },
+      "explanation": "المستمر للخلفية، و rang للحدث الذي قطعها"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "الماضي المستمر",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "While I ___ for the bus, I met an old friend.",
+      "payload": {
+        "options": [
+          "waited",
+          "was waiting",
+          "am waiting",
+          "were waiting"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "بعد while يأتي المستمر، و I تأخذ was"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "الماضي المستمر",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "When I looked out of the window, it ___ .",
+      "payload": {
+        "options": [
+          "was raining",
+          "rains",
+          "is raining",
+          "were raining"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "ما كان جارياً لحظة النظر: was raining"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "الماضي المستمر",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "I ___ the answer, so I put my hand up.",
+      "payload": {
+        "options": [
+          "knew",
+          "was knowing",
+          "know",
+          "were knowing"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "know فعل حالة: لا -ing ولو في الماضي"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "الماضي المستمر",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "I was cook dinner when you called."
+      },
+      "answer": {
+        "accepted": [
+          "I was cooking dinner when you called."
+        ]
+      },
+      "explanation": "was + cooking — -ing إجبارية"
     }
   ]
 }

@@ -1963,62 +1963,195 @@
   "sections": [
     {
       "kind": "grammar",
-      "day_number": 4,
-      "title_ar": "القواعد",
-      "title_en": "Grammar — The Passive Voice",
+      "day_number": 1,
+      "title_ar": "القواعد — المبني للمجهول: التركيب",
+      "title_en": "Grammar — The passive: the form",
       "payload": {
-        "rule_ar": "المبني للمجهول (be + اسم المفعول) يُستعمل حين يكون **الحدث أهمّ من فاعله**، أو حين يكون الفاعل مجهولاً أو بديهياً. وهو زمن الأخبار والتعليمات ووصف العمليات، ويملأ كل ورقة قراءة في اختبار B1. وby لا تُذكر إلا إذا كان الفاعل يهمّ فعلاً.",
-        "rule_en": "be  +  PAST PARTICIPLE",
+        "rule_ar": "المبني للمجهول be + اسم المفعول، و be هو الذي يحمل الزمن. مفعول جملة المعلوم يصير فاعلاً: Somebody built this house in 1890 ← This house was built in 1890. وكل مجهول يحتاج شيئين: be واسم المفعول — إن غاب أحدهما فليس مجهولاً. ولهذا يهمّ جدول أسماء المفعول من الأسبوع 13.",
+        "table": {
+          "columns_ar": [
+            "الزمن",
+            "المعلوم",
+            "المجهول"
+          ],
+          "rows": [
+            [
+              "Present Simple",
+              "They make it in Egypt.",
+              "It is made in Egypt."
+            ],
+            [
+              "Present (plural)",
+              "They make them here.",
+              "They are made here."
+            ],
+            [
+              "Past Simple",
+              "They built it in 1890.",
+              "It was built in 1890."
+            ],
+            [
+              "Past (plural)",
+              "They built them in 1890.",
+              "They were built in 1890."
+            ],
+            [
+              "Present Perfect",
+              "They have cancelled it.",
+              "It has been cancelled."
+            ],
+            [
+              "Future",
+              "They will deliver it.",
+              "It will be delivered."
+            ],
+            [
+              "Modal",
+              "You must sign it.",
+              "It must be signed."
+            ]
+          ],
+          "say": 2
+        },
         "common_errors": [
           {
-            "error_no": 1,
-            "wrong": "The house built in 1890",
+            "wrong": "The house built in 1890.",
             "right": "The house was built in 1890.",
-            "arabic": "بُني البيت عام 1890",
             "why_ar": "فعل be إجباري"
           },
           {
-            "error_no": 2,
-            "wrong": "My car stole",
+            "wrong": "My car stole.",
             "right": "My car was stolen.",
-            "arabic": "سُرقت سيارتي",
             "why_ar": "اسم المفعول لا صيغة الماضي"
           },
           {
-            "error_no": 3,
-            "wrong": "It make in Egypt",
+            "wrong": "It make in Egypt.",
             "right": "It is made in Egypt.",
-            "arabic": "يُصنع في مصر",
             "why_ar": "الجزءان مطلوبان"
           },
           {
-            "error_no": 4,
-            "wrong": "The flight has cancelled",
+            "wrong": "The flight has cancelled.",
             "right": "The flight has been cancelled.",
-            "arabic": "أُلغيت الرحلة",
             "why_ar": "been مطلوبة في التام"
           },
           {
-            "error_no": 5,
-            "wrong": "The form must sign",
+            "wrong": "The form must sign.",
             "right": "The form must be signed.",
-            "arabic": "يجب توقيع النموذج",
             "why_ar": "be بعد الفعل الناقص"
-          },
+          }
+        ],
+        "checklist_ar": [
+          "be + اسم المفعول — و be هو ما يحمل الزمن",
+          "المضارع: is/are made · الماضي: was/were made",
+          "المفعول يصير فاعلاً في المجهول"
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 2,
+      "title_ar": "القواعد — لماذا المجهول؟ ومتى by؟",
+      "title_en": "Grammar — Why the passive, and when to use by",
+      "payload": {
+        "rule_ar": "المجهول ليس صيغة «أرقى» من المعلوم. يختاره المتكلّم لأربعة أسباب: الفاعل مجهول، أو بديهي، أو لا يهمّ، أو الحدث أهمّ منه. و by لا تُذكر إلا إن كان الفاعل مهمّاً أو ضرورياً — ونحو ثمانين في المئة من جمل المجهول بلا by. فإن كتبت by somebody أو by people فاحذفها.",
+        "table": {
+          "columns_ar": [
+            "السبب",
+            "مثال",
+            "لماذا"
+          ],
+          "rows": [
+            [
+              "الفاعل مجهول",
+              "My car was stolen last night.",
+              "لا أعرف من سرقها"
+            ],
+            [
+              "الفاعل بديهي",
+              "He was arrested on Tuesday.",
+              "الشرطة طبعاً"
+            ],
+            [
+              "الفاعل لا يهمّ",
+              "The road is being repaired.",
+              "أيّ شركة؟ لا يهمّ"
+            ],
+            [
+              "الحدث أهمّ",
+              "Penicillin was discovered in 1928.",
+              "الاكتشاف أهمّ من صاحبه"
+            ]
+          ],
+          "say": 1,
+          "ar_cols": [
+            0,
+            2
+          ]
+        },
+        "common_errors": [
           {
-            "error_no": 6,
-            "wrong": "stolen by somebody",
+            "wrong": "My car was stolen by somebody.",
             "right": "My car was stolen.",
-            "arabic": "سُرقت سيارتي من قبل شخص ما",
             "why_ar": "احذف by إن لم تعنِ شيئاً"
           }
         ],
         "checklist_ar": [
-          "be + اسم المفعول — وbe هو ما يحمل الزمن",
-          "المضارع: is/are made · الماضي: was/were made",
           "by فقط حين يهمّ الفاعل",
-          "لا تنسَ be: The house built ← was built",
-          "المفعول يصير فاعلاً في المجهول"
+          "المجهول للأخبار والتعليمات والعمليات"
+        ],
+        "lessons": [
+          {
+            "title_ar": "by حين يهمّ الفاعل",
+            "title_en": "Good uses of by",
+            "explain_ar": "هنا الفاعل معلومة مفيدة:",
+            "examples": [
+              {
+                "en": "The book was written by a fourteen-year-old.",
+                "ar": "كتبه فتى في الرابعة عشرة"
+              },
+              {
+                "en": "It was designed by the same architect as the museum.",
+                "ar": "صمّمه مهندس المتحف نفسه"
+              }
+            ]
+          },
+          {
+            "title_ar": "أين ستلقى المجهول؟",
+            "title_en": "Where you will meet the passive",
+            "explain_ar": "تحتاجه للفهم أكثر من الكلام: لا تُقرأ نشرة أخبار ولا دليل استعمال ولا عقد بدونه.",
+            "table": {
+              "columns_ar": [
+                "النصّ",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "الأخبار",
+                  "Three people were injured."
+                ],
+                [
+                  "التعليمات",
+                  "The form must be signed."
+                ],
+                [
+                  "العلوم والتقارير",
+                  "The samples were tested twice."
+                ],
+                [
+                  "اللافتات",
+                  "Smoking is not allowed."
+                ],
+                [
+                  "المنتجات",
+                  "Made in Turkey."
+                ]
+              ],
+              "say": 1,
+              "ar_cols": [
+                0
+              ]
+            }
+          }
         ]
       }
     },

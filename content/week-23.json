@@ -37,6 +37,10 @@
     {
       "en": "Recover when I do not understand, in any of the above",
       "ar": "أتصرّف حين لا أفهم — في أي من المواقف أعلاه"
+    },
+    {
+      "en": "Use -ing or to after common verbs, have been doing with for/since, and polite indirect questions",
+      "ar": "أستعمل -ing أو to بعد الأفعال الشائعة، وhave been doing مع for وsince، والسؤال المهذّب غير المباشر"
     }
   ],
   "writing": {
@@ -54,7 +58,7 @@
   "days": [
     {
       "number": 1,
-      "focus": "النطق",
+      "focus": "القواعد · النطق",
       "tasks": [
         {
           "order": 1,
@@ -64,9 +68,9 @@
         },
         {
           "order": 2,
-          "label": "النطق",
+          "label": "القواعد",
           "minutes": 25,
-          "ref": "section:phonics"
+          "ref": "section:grammar"
         },
         {
           "order": 3,
@@ -83,7 +87,7 @@
         {
           "order": 5,
           "label": "تمارين اليوم",
-          "minutes": 5,
+          "minutes": 10,
           "ref": "exercises:1"
         },
         {
@@ -234,7 +238,7 @@
     },
     {
       "number": 4,
-      "focus": "العبارات · النطق",
+      "focus": "القواعد · النطق",
       "tasks": [
         {
           "order": 1,
@@ -244,9 +248,9 @@
         },
         {
           "order": 2,
-          "label": "العبارات",
+          "label": "القواعد",
           "minutes": 25,
-          "ref": "section:phrases"
+          "ref": "section:grammar"
         },
         {
           "order": 3,
@@ -263,7 +267,7 @@
         {
           "order": 5,
           "label": "تمارين اليوم",
-          "minutes": 5,
+          "minutes": 10,
           "ref": "exercises:4"
         },
         {
@@ -294,7 +298,7 @@
     },
     {
       "number": 5,
-      "focus": "النطق",
+      "focus": "القواعد · النطق",
       "tasks": [
         {
           "order": 1,
@@ -304,9 +308,9 @@
         },
         {
           "order": 2,
-          "label": "النطق",
+          "label": "القواعد",
           "minutes": 25,
-          "ref": "section:phonics"
+          "ref": "section:grammar"
         },
         {
           "order": 3,
@@ -323,7 +327,7 @@
         {
           "order": 5,
           "label": "تمارين اليوم",
-          "minutes": 5,
+          "minutes": 10,
           "ref": "exercises:5"
         },
         {
@@ -420,7 +424,7 @@
     },
     {
       "number": 7,
-      "focus": "النطق",
+      "focus": "الكتابة · التحدّث · النطق",
       "tasks": [
         {
           "order": 1,
@@ -430,12 +434,18 @@
         },
         {
           "order": 2,
-          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
-          "minutes": 25,
-          "ref": "record:baseline"
+          "label": "الكتابة",
+          "minutes": 15,
+          "ref": "writing:1"
         },
         {
           "order": 3,
+          "label": "التحدّث",
+          "minutes": 10,
+          "ref": "record"
+        },
+        {
+          "order": 4,
           "label": "النطق: تدريب النطق",
           "minutes": 15,
           "ref": "section:phonics"
@@ -444,22 +454,22 @@
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 4
+          "order": 5
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 6,
+          "order": 7,
           "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
           "minutes": 5,
           "ref": "record:baseline"
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
@@ -468,7 +478,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 8
+          "order": 9
         }
       ]
     }
@@ -1334,7 +1344,7 @@
                 "heading_en": "What is your weakness?",
                 "text_en": "\"I take on too much. If somebody asks me for help, I say yes before I've checked my own workload. // It caused a real problem two years ago when I missed a deadline because of it. // Now I keep a list of what I've committed to, and I look at it before I agree to anything. It hasn't happened again.\"",
                 "extra": [
-                  "*Never say \"I'm a perfectionist\" or \"I work too hard\".*** Interviewers hear these every day and they read as evasion. A real weakness plus a real fix is far more impressive than a fake weakness."
+                  "Never say \"I'm a perfectionist\" or \"I work too hard\". Interviewers hear these every day and they read as evasion. A real weakness plus a real fix is far more impressive than a fake weakness."
                 ]
               },
               {
@@ -1429,7 +1439,7 @@
               {
                 "type": "note",
                 "heading_en": null,
-                "text_en": "**\"Can we go back a step?\" is worth memorising perfectly.** In a fast meeting in a second language you will lose the thread. That sentence buys you the whole context back, and nobody thinks less of you for asking.",
+                "text_en": "\"Can we go back a step?\" is worth memorising perfectly. In a fast meeting in a second language you will lose the thread. That sentence buys you the whole context back, and nobody thinks less of you for asking.",
                 "extra": []
               },
               {
@@ -2227,6 +2237,412 @@
               "هل كتبت a أو an قبل المهنة؟"
             ]
           }
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 1,
+      "title_ar": "القواعد — -ing أم to؟",
+      "title_en": "Grammar — Verb Patterns: -ing or to?",
+      "payload": {
+        "rule_ar": "بعض الأفعال يأتي بعدها الفعل الثاني بـ-ing، وبعضها بـto + المصدر. ولا منطق يحسم ذلك: يُحفظ الفعل مع ما بعده كما تُحفظ الكلمة. والقاعدة الوحيدة الثابتة: بعد حرف الجرّ دائماً -ing — Thank you for helping me.",
+        "rule_en": "enjoy · finish · mind · avoid · suggest + VERB-ing     want · decide · hope · need · would like + to VERB",
+        "table": {
+          "columns_ar": [
+            "الفعل",
+            "يأخذ",
+            "مثال",
+            "بالعربية"
+          ],
+          "rows": [
+            [
+              "enjoy",
+              "-ing",
+              "I enjoy cooking for my family.",
+              "أستمتع بالطبخ لعائلتي"
+            ],
+            [
+              "finish",
+              "-ing",
+              "Have you finished writing the report?",
+              "هل أنهيت كتابة التقرير؟"
+            ],
+            [
+              "mind",
+              "-ing",
+              "Would you mind closing the door?",
+              "هل تمانع أن تغلق الباب؟"
+            ],
+            [
+              "avoid",
+              "-ing",
+              "I avoid driving at night.",
+              "أتجنّب القيادة ليلاً"
+            ],
+            [
+              "suggest",
+              "-ing",
+              "She suggested meeting at six.",
+              "اقترحت أن نلتقي في السادسة"
+            ],
+            [
+              "want",
+              "to",
+              "I want to change my job.",
+              "أريد أن أغيّر عملي"
+            ],
+            [
+              "decide",
+              "to",
+              "We decided to stay at home.",
+              "قرّرنا أن نبقى في البيت"
+            ],
+            [
+              "hope",
+              "to",
+              "I hope to see you soon.",
+              "أرجو أن أراك قريباً"
+            ],
+            [
+              "need",
+              "to",
+              "You need to sign here.",
+              "تحتاج أن توقّع هنا"
+            ],
+            [
+              "would like",
+              "to",
+              "I'd like to book a table.",
+              "أودّ أن أحجز طاولة"
+            ]
+          ],
+          "say": 2,
+          "ar_cols": [
+            3
+          ]
+        },
+        "arabic_contrast_ar": "في العربية «أن + المضارع» تصلح بعد كل فعل: أحبّ أن، أريد أن، أنهيت أن… فيترجمها المتعلّم to في كل مكان ويقول I enjoy to cook. والإنجليزية تقسم الأفعال قسمين. وبعد حروف الجرّ (at · for · of · about · before · after · without) لا تأتي to أبداً — وهذا هو الخطأ التاسع: I am good at play.",
+        "contrast_table": [
+          {
+            "ar": "أستمتع أن أقرأ",
+            "literal": "I enjoy to read",
+            "right": "I enjoy reading.",
+            "rule_ar": "enjoy تأخذ -ing"
+          },
+          {
+            "ar": "أريد أذهب",
+            "literal": "I want go",
+            "right": "I want to go.",
+            "rule_ar": "want تحتاج to"
+          },
+          {
+            "ar": "شكراً على أن ساعدتني",
+            "literal": "Thank you for help me",
+            "right": "Thank you for helping me.",
+            "rule_ar": "بعد حرف الجرّ: -ing"
+          }
+        ],
+        "common_errors": [
+          {
+            "error_no": 1,
+            "wrong": "I enjoy to cook",
+            "right": "I enjoy cooking.",
+            "arabic": "أستمتع بالطبخ",
+            "why_ar": "enjoy + -ing"
+          },
+          {
+            "error_no": 2,
+            "wrong": "Would you mind to wait?",
+            "right": "Would you mind waiting?",
+            "arabic": "هل تمانع أن تنتظر؟",
+            "why_ar": "mind + -ing"
+          },
+          {
+            "error_no": 3,
+            "wrong": "I want go home",
+            "right": "I want to go home.",
+            "arabic": "أريد أن أذهب إلى البيت",
+            "why_ar": "want تحتاج to"
+          },
+          {
+            "error_no": 4,
+            "wrong": "We decided staying",
+            "right": "We decided to stay.",
+            "arabic": "قرّرنا أن نبقى",
+            "why_ar": "decide + to"
+          },
+          {
+            "error_no": 5,
+            "wrong": "She suggested to meet",
+            "right": "She suggested meeting.",
+            "arabic": "اقترحت أن نلتقي",
+            "why_ar": "suggest + -ing"
+          },
+          {
+            "error_no": 6,
+            "wrong": "I am good at play",
+            "right": "I am good at playing.",
+            "arabic": "أنا ماهر في اللعب",
+            "why_ar": "حرف جرّ ثم -ing"
+          }
+        ],
+        "checklist_ar": [
+          "enjoy · finish · mind · avoid · suggest ← -ing",
+          "want · decide · hope · need · would like ← to",
+          "بعد حرف الجرّ: -ing دائماً",
+          "like وlove وhate تقبل الاثنين: I like swimming = I like to swim",
+          "احفظ الفعل مع ما بعده: enjoy doing لا enjoy وحدها"
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 4,
+      "title_ar": "القواعد — منذ متى؟",
+      "title_en": "Grammar — How Long? The Present Perfect Continuous",
+      "payload": {
+        "rule_ar": "لحدثٍ بدأ في الماضي وما زال مستمرّاً الآن، ومعه غالباً for أو since أو How long. العربية تقول «أنتظر منذ ساعتين» بالمضارع، فيقول المتعلّم I am waiting since two hours — وفيها خطآن: الزمن، وsince مكان for. والإنجليزية ترى الحدث جسراً من الماضي إلى الآن، فتستعمل have been + -ing.",
+        "rule_en": "HAVE / HAS + BEEN + VERB-ing   (+ for / since)",
+        "table": {
+          "columns_ar": [
+            "الضمير",
+            "التركيب",
+            "مثال",
+            "بالعربية"
+          ],
+          "rows": [
+            [
+              "I",
+              "have been waiting",
+              "I have been waiting for forty minutes.",
+              "أنتظر منذ أربعين دقيقة"
+            ],
+            [
+              "You",
+              "have been learning",
+              "You have been learning English since March.",
+              "تتعلّم الإنجليزية منذ مارس"
+            ],
+            [
+              "He / She",
+              "has been working",
+              "She has been working here for five years.",
+              "تعمل هنا منذ خمس سنوات"
+            ],
+            [
+              "We",
+              "have been living",
+              "We have been living in this flat since 2021.",
+              "نسكن هذه الشقة منذ 2021"
+            ],
+            [
+              "They",
+              "have been trying",
+              "They have been trying to call you all morning.",
+              "يحاولون الاتصال بك طوال الصباح"
+            ],
+            [
+              "?",
+              "have you been…?",
+              "How long have you been working there?",
+              "منذ متى تعمل هناك؟"
+            ]
+          ],
+          "say": 2,
+          "ar_cols": [
+            3
+          ]
+        },
+        "arabic_contrast_ar": "«منذ» في العربية تغطّي معنيين تفصل بينهما الإنجليزية: for مع المدّة (for two hours · for five years)، وsince مع نقطة البداية (since nine o'clock · since 2021). وأفعال الحالة مثل know وlike وwant لا تأخذ -ing، فتبقى في التامّ البسيط: I have known him for years — لا I have been knowing (الخطأ 14).",
+        "contrast_table": [
+          {
+            "ar": "أنتظر منذ ساعتين",
+            "literal": "I am waiting since two hours",
+            "right": "I have been waiting for two hours.",
+            "rule_ar": "have been + -ing، وfor مع المدّة"
+          },
+          {
+            "ar": "أعمل هنا منذ 2020",
+            "literal": "I work here since 2020",
+            "right": "I have been working here since 2020.",
+            "rule_ar": "since مع نقطة البداية"
+          },
+          {
+            "ar": "أعرفه منذ سنوات",
+            "literal": "I am knowing him since years",
+            "right": "I have known him for years.",
+            "rule_ar": "know فعل حالة: بلا -ing"
+          }
+        ],
+        "common_errors": [
+          {
+            "error_no": 1,
+            "wrong": "I am waiting since an hour",
+            "right": "I have been waiting for an hour.",
+            "arabic": "أنتظر منذ ساعة",
+            "why_ar": "have been + -ing، وfor مع المدّة"
+          },
+          {
+            "error_no": 2,
+            "wrong": "She works here for five years",
+            "right": "She has been working here for five years.",
+            "arabic": "تعمل هنا منذ خمس سنوات",
+            "why_ar": "المضارع وحده لا يحمل المدّة"
+          },
+          {
+            "error_no": 3,
+            "wrong": "How long are you learning English?",
+            "right": "How long have you been learning English?",
+            "arabic": "منذ متى تتعلّم الإنجليزية؟",
+            "why_ar": "How long + have been"
+          },
+          {
+            "error_no": 4,
+            "wrong": "I have been knowing her since 2019",
+            "right": "I have known her since 2019.",
+            "arabic": "أعرفها منذ 2019",
+            "why_ar": "know لا تأخذ -ing"
+          },
+          {
+            "error_no": 5,
+            "wrong": "He has been work all day",
+            "right": "He has been working all day.",
+            "arabic": "يعمل طوال اليوم",
+            "why_ar": "-ing إجبارية بعد been"
+          },
+          {
+            "error_no": 6,
+            "wrong": "since three years",
+            "right": "for three years",
+            "arabic": "منذ ثلاث سنوات",
+            "why_ar": "المدّة بـfor"
+          }
+        ],
+        "checklist_ar": [
+          "have / has + been + -ing لما بدأ وما زال مستمرّاً",
+          "for + مدّة · since + نقطة بداية",
+          "How long have you been…? لا How long are you…?",
+          "know · like · want ← تامّ بسيط: I have known",
+          "في المقابلة: I have been working as… for… years"
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 5,
+      "title_ar": "القواعد — السؤال المهذّب",
+      "title_en": "Grammar — Polite Questions: Could you tell me where it is?",
+      "payload": {
+        "rule_ar": "السؤال المباشر قد يبدو جافّاً مع غريب أو في مكتب: Where is the station? والأدب أن تبدأ بـCould you tell me… أو Do you know… — وحين تفعل يعود ترتيب الجملة خبرياً: الفاعل قبل الفعل، وتختفي do وdoes وdid. وسؤال نعم/لا يأخذ if. وهو ما تعلّمته في نقل الأسئلة في الأسبوع 22، لكن في الحاضر وبلا تراجع في الزمن.",
+        "rule_en": "Could you tell me / Do you know  +  where / when / if  +  SUBJECT + VERB",
+        "table": {
+          "columns_ar": [
+            "السؤال المباشر",
+            "السؤال المهذّب",
+            "بالعربية"
+          ],
+          "rows": [
+            [
+              "Where is the station?",
+              "Could you tell me where the station is?",
+              "هل تخبرني أين المحطة؟"
+            ],
+            [
+              "What time does the bank open?",
+              "Do you know what time the bank opens?",
+              "هل تعرف متى يفتح البنك؟"
+            ],
+            [
+              "How much does it cost?",
+              "Could you tell me how much it costs?",
+              "هل تخبرني كم ثمنه؟"
+            ],
+            [
+              "When did the train leave?",
+              "Do you know when the train left?",
+              "هل تعرف متى غادر القطار؟"
+            ],
+            [
+              "Is the manager here?",
+              "Could you tell me if the manager is here?",
+              "هل تخبرني إن كان المدير هنا؟"
+            ],
+            [
+              "Can I pay by card?",
+              "Do you know if I can pay by card?",
+              "هل تعرف إن كان يمكنني الدفع بالبطاقة؟"
+            ]
+          ],
+          "say": 1,
+          "ar_cols": [
+            2
+          ]
+        },
+        "arabic_contrast_ar": "في العربية لا يتغيّر ترتيب الكلمات بين «أين المحطة؟» و«هل تعرف أين المحطة؟»، فينقل المتعلّم السؤال كما هو: Do you know where is the station? وهذا أشيع خطأ في هذا التركيب. فكّر هكذا: ما بعد where صار خبراً لا سؤالاً — the station is.",
+        "contrast_table": [
+          {
+            "ar": "هل تعرف أين المحطة؟",
+            "literal": "Do you know where is the station?",
+            "right": "Do you know where the station is?",
+            "rule_ar": "الفاعل قبل الفعل بعد where"
+          },
+          {
+            "ar": "هل تخبرني متى يبدأ الاجتماع؟",
+            "literal": "Could you tell me when does the meeting start?",
+            "right": "Could you tell me when the meeting starts?",
+            "rule_ar": "تختفي does وتعود s إلى الفعل"
+          },
+          {
+            "ar": "هل تعرف هل هو متاح؟",
+            "literal": "Do you know is he available?",
+            "right": "Do you know if he is available?",
+            "rule_ar": "نعم/لا تأخذ if"
+          }
+        ],
+        "common_errors": [
+          {
+            "error_no": 1,
+            "wrong": "Could you tell me where is the bank?",
+            "right": "Could you tell me where the bank is?",
+            "arabic": "هل تخبرني أين البنك؟",
+            "why_ar": "ترتيب الخبر بعد where"
+          },
+          {
+            "error_no": 2,
+            "wrong": "Do you know what time does it open?",
+            "right": "Do you know what time it opens?",
+            "arabic": "هل تعرف متى يفتح؟",
+            "why_ar": "لا does، والـs إلى الفعل"
+          },
+          {
+            "error_no": 3,
+            "wrong": "Can you tell me did he call?",
+            "right": "Can you tell me if he called?",
+            "arabic": "هل تخبرني إن كان قد اتصل؟",
+            "why_ar": "if، وdid تذوب في called"
+          },
+          {
+            "error_no": 4,
+            "wrong": "I don't know where does she live",
+            "right": "I don't know where she lives.",
+            "arabic": "لا أعرف أين تسكن",
+            "why_ar": "الترتيب نفسه بعد I don't know"
+          },
+          {
+            "error_no": 5,
+            "wrong": "I wonder where is he",
+            "right": "I wonder where he is.",
+            "arabic": "أتساءل أين هو",
+            "why_ar": "I wonder تأخذ الترتيب نفسه"
+          }
+        ],
+        "checklist_ar": [
+          "Could you tell me… · Do you know… · I'd like to know…",
+          "بعدها: كلمة السؤال + الفاعل + الفعل",
+          "لا do ولا does ولا did في الجزء الثاني",
+          "سؤال نعم/لا ← if",
+          "Excuse me في البداية تجعل السؤال أكثر أدباً"
         ]
       }
     }
@@ -3071,6 +3487,596 @@
       },
       "explanation": "مثال: The reset button",
       "points": 1
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الفعل بعد الفعل: -ing أم to؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I enjoy ______ (cook) for my family.",
+      "payload": {
+        "before": "I enjoy ",
+        "after": " (cook) for my family."
+      },
+      "answer": {
+        "accepted": [
+          "cooking"
+        ]
+      },
+      "explanation": "enjoy تأخذ -ing"
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الفعل بعد الفعل: -ing أم to؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "We decided ______ (stay) at home.",
+      "payload": {
+        "before": "We decided ",
+        "after": " (stay) at home."
+      },
+      "answer": {
+        "accepted": [
+          "to stay"
+        ]
+      },
+      "explanation": "decide تأخذ to"
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الفعل بعد الفعل: -ing أم to؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Would you mind ______ (close) the window?",
+      "payload": {
+        "before": "Would you mind ",
+        "after": " (close) the window?"
+      },
+      "answer": {
+        "accepted": [
+          "closing"
+        ]
+      },
+      "explanation": "mind تأخذ -ing"
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الفعل بعد الفعل: -ing أم to؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I'd like ______ (book) a table for two.",
+      "payload": {
+        "before": "I'd like ",
+        "after": " (book) a table for two."
+      },
+      "answer": {
+        "accepted": [
+          "to book"
+        ]
+      },
+      "explanation": "would like تأخذ to"
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الفعل بعد الفعل: -ing أم to؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Have you finished ______ (read) the report?",
+      "payload": {
+        "before": "Have you finished ",
+        "after": " (read) the report?"
+      },
+      "answer": {
+        "accepted": [
+          "reading"
+        ]
+      },
+      "explanation": "finish تأخذ -ing"
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الفعل بعد الفعل: -ing أم to؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She hopes ______ (find) a new job this year.",
+      "payload": {
+        "before": "She hopes ",
+        "after": " (find) a new job this year."
+      },
+      "answer": {
+        "accepted": [
+          "to find"
+        ]
+      },
+      "explanation": "hope تأخذ to"
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الفعل بعد الفعل: -ing أم to؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Thank you for ______ (help) me.",
+      "payload": {
+        "before": "Thank you for ",
+        "after": " (help) me."
+      },
+      "answer": {
+        "accepted": [
+          "helping"
+        ]
+      },
+      "explanation": "بعد حرف الجرّ for: -ing",
+      "error_no": 9
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الفعل بعد الفعل: -ing أم to؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I'm good at ______ (solve) problems.",
+      "payload": {
+        "before": "I'm good at ",
+        "after": " (solve) problems."
+      },
+      "answer": {
+        "accepted": [
+          "solving"
+        ]
+      },
+      "explanation": "بعد حرف الجرّ at: -ing",
+      "error_no": 9
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الفعل بعد الفعل: -ing أم to؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "You need ___ this form before Friday.",
+      "payload": {
+        "options": [
+          "filling",
+          "to fill",
+          "fill"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "need تأخذ to"
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الفعل بعد الفعل: -ing أم to؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "I avoid ___ in the city centre.",
+      "payload": {
+        "options": [
+          "to drive",
+          "drive",
+          "driving"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "avoid تأخذ -ing"
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "I want go to the bank."
+      },
+      "answer": {
+        "accepted": [
+          "I want to go to the bank."
+        ]
+      },
+      "explanation": "want تحتاج to"
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "He suggested to meet after work."
+      },
+      "answer": {
+        "accepted": [
+          "He suggested meeting after work."
+        ]
+      },
+      "explanation": "suggest تأخذ -ing"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "منذ متى؟ — have been + -ing",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I ______ (wait) for forty minutes.",
+      "payload": {
+        "before": "I ",
+        "after": " (wait) for forty minutes."
+      },
+      "answer": {
+        "accepted": [
+          "have been waiting",
+          "'ve been waiting"
+        ]
+      },
+      "explanation": "have been + -ing لما بدأ وما زال",
+      "error_no": 16
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "منذ متى؟ — have been + -ing",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She ______ (work) here since 2020.",
+      "payload": {
+        "before": "She ",
+        "after": " (work) here since 2020."
+      },
+      "answer": {
+        "accepted": [
+          "has been working",
+          "'s been working"
+        ]
+      },
+      "explanation": "has been + -ing مع he/she",
+      "error_no": 16
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "منذ متى؟ — have been + -ing",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "It ______ (rain) all morning, so the streets are wet.",
+      "payload": {
+        "before": "It ",
+        "after": " (rain) all morning, so the streets are wet."
+      },
+      "answer": {
+        "accepted": [
+          "has been raining",
+          "'s been raining"
+        ]
+      },
+      "explanation": "بدأ صباحاً وما زال أثره الآن"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "منذ متى؟ — have been + -ing",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "How long ___ English?",
+      "payload": {
+        "options": [
+          "are you learning",
+          "have you been learning",
+          "do you learn"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "How long + have you been",
+      "error_no": 16
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "منذ متى؟ — have been + -ing",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "We have been living here ______ 2021.",
+      "payload": {
+        "before": "We have been living here ",
+        "after": " 2021."
+      },
+      "answer": {
+        "accepted": [
+          "since"
+        ]
+      },
+      "explanation": "since مع نقطة البداية"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "منذ متى؟ — have been + -ing",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "They have been trying to call you ______ two hours.",
+      "payload": {
+        "before": "They have been trying to call you ",
+        "after": " two hours."
+      },
+      "answer": {
+        "accepted": [
+          "for"
+        ]
+      },
+      "explanation": "for مع المدّة"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "منذ متى؟ — have been + -ing",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I have known him ______ ten years.",
+      "payload": {
+        "before": "I have known him ",
+        "after": " ten years."
+      },
+      "answer": {
+        "accepted": [
+          "for"
+        ]
+      },
+      "explanation": "for مع المدّة"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "منذ متى؟ — have been + -ing",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "I ___ her since we were at school.",
+      "payload": {
+        "options": [
+          "have been knowing",
+          "know",
+          "have known"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "know فعل حالة: تامّ بسيط بلا -ing",
+      "error_no": 14
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "I am waiting since an hour."
+      },
+      "answer": {
+        "accepted": [
+          "I have been waiting for an hour.",
+          "I've been waiting for an hour."
+        ]
+      },
+      "explanation": "have been + -ing، وfor مع المدّة",
+      "error_no": 16
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "He works here for five years."
+      },
+      "answer": {
+        "accepted": [
+          "He has been working here for five years.",
+          "He's been working here for five years.",
+          "He has worked here for five years.",
+          "He's worked here for five years."
+        ]
+      },
+      "explanation": "المضارع البسيط لا يحمل المدّة",
+      "error_no": 16
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "السؤال المهذّب",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Could you tell me where ___?",
+      "payload": {
+        "options": [
+          "is the station",
+          "the station is",
+          "does the station"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "بعد where: الفاعل ثم الفعل"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "السؤال المهذّب",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Do you know what time ___?",
+      "payload": {
+        "options": [
+          "the bank opens",
+          "does the bank open",
+          "opens the bank"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "لا does، والـs إلى الفعل"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "السؤال المهذّب",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Can you tell me ___ the manager is in today?",
+      "payload": {
+        "options": [
+          "that",
+          "if",
+          "does"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "سؤال نعم/لا يأخذ if"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "السؤال المهذّب",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Excuse me, do you know when the next bus ___?",
+      "payload": {
+        "options": [
+          "leaves",
+          "does leave",
+          "leave"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "الفعل كما في الخبر: the bus leaves"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "السؤال المهذّب",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Could you tell me ______ I can park here?",
+      "payload": {
+        "before": "Could you tell me ",
+        "after": " I can park here?"
+      },
+      "answer": {
+        "accepted": [
+          "if",
+          "whether"
+        ]
+      },
+      "explanation": "سؤال نعم/لا يأخذ if"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "السؤال المهذّب",
+      "points": 1,
+      "type": "order_words",
+      "prompt": "رتّب السؤال المهذّب",
+      "payload": {
+        "words": [
+          "costs",
+          "how",
+          "Could",
+          "me",
+          "this",
+          "tell",
+          "much",
+          "you"
+        ]
+      },
+      "answer": {
+        "order": [
+          "Could",
+          "you",
+          "tell",
+          "me",
+          "how",
+          "much",
+          "this",
+          "costs"
+        ]
+      },
+      "explanation": "Could you tell me + how much + الفاعل + الفعل"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "Do you know where is the toilet?"
+      },
+      "answer": {
+        "accepted": [
+          "Do you know where the toilet is?"
+        ]
+      },
+      "explanation": "الفاعل قبل الفعل بعد where"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "Could you tell me when does the train leave?"
+      },
+      "answer": {
+        "accepted": [
+          "Could you tell me when the train leaves?"
+        ]
+      },
+      "explanation": "تختفي does وتعود s إلى الفعل"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "تصحيح الخطأ",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "I don't know where does she work."
+      },
+      "answer": {
+        "accepted": [
+          "I don't know where she works."
+        ]
+      },
+      "explanation": "الترتيب نفسه بعد I don't know"
     }
   ]
 }

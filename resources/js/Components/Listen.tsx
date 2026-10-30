@@ -3,6 +3,7 @@ import { useSpeechPrefs } from '@/lib/speechPrefs';
 import { iso } from '@/lib/bidi';
 import { usePage } from '@inertiajs/react';
 import { useSpeech, prefToGender, prefRateFactor, type Gender, type VoicePref } from '@/hooks/useSpeech';
+import { playClip } from '@/lib/clips';
 import { track } from '@/lib/tracker';
 import { useT } from '@/lib/i18n';
 
@@ -32,6 +33,8 @@ interface Props {
   slow?: boolean;
   /** صوت محدّد يتجاوز التفضيل — لأسطر الحوار بحسب جنس المتحدّث */
   gender?: Gender;
+  /** A recorded file (a dialogue line) — played instead of the browser's voice */
+  src?: string | null;
   /** سرعة محدّدة تتجاوز التفضيل — يستخدمها شريط السرعة في الصفحة */
   rate?: number;
   size?: 'sm' | 'md' | 'lg';
@@ -50,6 +53,7 @@ export default function Listen({
   label,
   slow = false,
   gender,
+  src,
   rate,
   size = 'md',
   prominent = false,
@@ -62,7 +66,7 @@ export default function Listen({
   const prefs = useSpeechPrefs(((props as any).prefs ?? {}) as { voice?: VoicePref; rate?: number });
 
   // بلا دعم في المتصفح: يُخفى الزرّ بدل أن يُعرض معطّلاً في كل سطر
-  if (!supported) return null;
+  if (!supported && !src) return null;
 
   const pref = prefs.voice;
   const base = rate ?? prefs.rate * prefRateFactor(pref);
@@ -75,6 +79,10 @@ export default function Listen({
     setPlaying(true);
     // إعادة سماع كلمة بعينها مراراً أصدق إشارة على صعوبتها من أي اختبار
     track(slow ? 'audio_slow' : 'audio_play', text.slice(0, 80));
+    if (src) {
+      playClip(src, slow ? Math.max(0.5, (rate ?? prefs.rate) * 0.7) : rate ?? prefs.rate, () => setPlaying(false));
+      return;
+    }
     speak(text, { rate: finalRate, gender: finalGender });
     // النطق الآلي لا يخبرنا متى ينتهي بدقّة في كل متصفح،
     // والوميض القصير يكفي ليعرف المتدرّب أن ضغطته وصلت

@@ -147,6 +147,8 @@ Route::middleware(['auth', 'verified', \App\Http\Middleware\RequireSetup::class,
     Route::post('/tests/attempt/{attempt}/focus', [LevelTestController::class, 'focus'])
         ->middleware('throttle:60,1')->name('tests.focus');
     Route::post('/tests/attempt/{attempt}/submit', [LevelTestController::class, 'submit'])->name('tests.submit');
+    Route::post('/tests/attempt/{attempt}/self-assess', [LevelTestController::class, 'selfAssess'])
+        ->middleware('throttle:30,1')->name('tests.self-assess');
 
     // تصحيح التمارين — على الخادم دائماً
     Route::post('/exercises/{exercise}/check', [ExerciseController::class, 'check'])

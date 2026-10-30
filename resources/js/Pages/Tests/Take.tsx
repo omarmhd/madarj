@@ -52,9 +52,25 @@ interface Section {
   parts: Part[];
 }
 
+/** Self-rated after the test — never graded, never part of the score */
+interface FreeWriting {
+  title_ar: string;
+  instructions_ar: string;
+  task_en: string;
+  task_ar: string;
+  points: { en: string; ar: string }[];
+  min_words: number;
+  max_words: number;
+}
+
+/** The answers key the writing is saved under (LevelTestController::WRITING) */
+const WRITING = 'free_writing';
+
+const countWords = (t: string) => t.trim().split(/\s+/).filter(Boolean).length;
+
 interface Props {
   attempt: { id: number; answers: Record<string, Answer>; focus_lost: number; seconds_left: number };
-  test: { slug: string; level: string; title_ar: string; minutes: number; sections: Section[] };
+  test: { slug: string; level: string; title_ar: string; minutes: number; sections: Section[]; free_writing: FreeWriting | null };
 }
 
 const MAX_PLAYS = 2;
@@ -108,7 +124,11 @@ export default function Take({ attempt, test }: Props) {
   const latest = useRef(answers);
   latest.current = answers;
 
-  const section = test.sections[step];
+  const fw = test.free_writing;
+  const steps = test.sections.length + (fw ? 1 : 0);
+  const onWriting = !!fw && step === test.sections.length;
+  const section = test.sections[Math.min(step, test.sections.length - 1)];
+  const words = countWords(String(answers[WRITING] ?? ''));
   const allItems = test.sections.flatMap((s) => s.parts.flatMap((p) => p.items));
   const answered = allItems.filter((i) => {
     const a = answers[i.id];
@@ -251,6 +271,16 @@ export default function Take({ attempt, test }: Props) {
               {tr(s.title_ar)}
             </button>
           ))}
+          {fw && (
+            <button
+              onClick={() => setStep(test.sections.length)}
+              className={`shrink-0 rounded-full px-3 py-1 text-sm font-semibold ${
+                onWriting ? 'bg-violet-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+              }`}
+            >
+              {tr(fw.title_ar)}
+            </button>
+          )}
         </div>
 
         {focusLost > 0 && (
@@ -262,11 +292,52 @@ export default function Take({ attempt, test }: Props) {
       </div>
 
       <main className="mx-auto max-w-3xl space-y-5 px-4 py-6">
-        {section.instructions_ar && (
+        {!onWriting && section.instructions_ar && (
           <p className="text-sm leading-relaxed text-slate-600">{section.instructions_ar}</p>
         )}
 
-        {section.parts.map((part, pi) => {
+        {fw && onWriting && (
+          <div className="space-y-4 rounded-2xl bg-white p-5 ring-1 ring-slate-200">
+            <p className="text-sm leading-relaxed text-slate-600">{fw.instructions_ar}</p>
+            <p dir="ltr" className="whitespace-pre-line rounded-xl bg-slate-50 p-4 text-base leading-relaxed text-slate-800">
+              {fw.task_en}
+            </p>
+            <p className="text-sm leading-relaxed text-slate-700">{fw.task_ar}</p>
+            <ul className="space-y-1.5">
+              {fw.points.map((p, i) => (
+                <li key={i} className="flex items-start gap-2 text-sm">
+                  <span aria-hidden className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-violet-500" />
+                  <span>
+                    <span dir="ltr" className="font-semibold text-slate-900">{p.en}</span>
+                    {' — '}
+                    <span className="text-slate-600">{p.ar}</span>
+                  </span>
+                </li>
+              ))}
+            </ul>
+            {/* No paste and no spellcheck: written here, as in the exam */}
+            <textarea
+              dir="ltr"
+              rows={12}
+              value={String(answers[WRITING] ?? '')}
+              onChange={(e) => setAnswer(WRITING, e.target.value)}
+              onPaste={(e) => e.preventDefault()}
+              onDrop={(e) => e.preventDefault()}
+              spellCheck={false}
+              autoComplete="off"
+              className="w-full select-text rounded-xl border-slate-300 text-base leading-relaxed focus:border-violet-500 focus:ring-violet-500"
+            />
+            <p
+              className={`text-sm font-semibold tabular-nums ${
+                words < fw.min_words ? 'text-amber-700' : words > fw.max_words ? 'text-rose-700' : 'text-emerald-700'
+              }`}
+            >
+              {tr(':n كلمة — المطلوب من :min إلى :max', { n: words, min: fw.min_words, max: fw.max_words })}
+            </p>
+          </div>
+        )}
+
+        {(onWriting ? [] : section.parts).map((part, pi) => {
           const key = `${section.key}-${pi}`;
           const used = plays[key] ?? 0;
 
@@ -314,7 +385,7 @@ export default function Take({ attempt, test }: Props) {
               {tr('السابق')}
             </button>
           )}
-          {step < test.sections.length - 1 ? (
+          {step < steps - 1 ? (
             <button
               onClick={() => {
                 setStep(step + 1);
@@ -362,6 +433,11 @@ export default function Take({ attempt, test }: Props) {
                 ? tr('بقي :n سؤالاً بلا إجابة. لا تستطيع التعديل بعد التسليم.', { n: allItems.length - answered })
                 : tr('أجبت عن كل الأسئلة. لا تستطيع التعديل بعد التسليم.')}
             </p>
+            {fw && words < fw.min_words && (
+              <p className="mt-2 text-sm font-semibold text-amber-700">
+                {tr('رسالتك :n كلمة، والمطلوب :min على الأقل.', { n: words, min: fw.min_words })}
+              </p>
+            )}
             <div className="mt-5 flex gap-3">
               <button onClick={() => setConfirmSubmit(false)} className="flex-1 rounded-xl py-3 text-sm font-semibold text-slate-700 ring-1 ring-slate-200">
                 {tr('رجوع')}
