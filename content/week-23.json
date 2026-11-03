@@ -3999,30 +3999,14 @@
       "exercise_no": 5,
       "focus_ar": "السؤال المهذّب",
       "points": 1,
-      "type": "order_words",
-      "prompt": "رتّب السؤال المهذّب",
+      "type": "correct_error",
+      "prompt": "رتّب الكلمات واكتب السؤال المهذّب كاملاً",
       "payload": {
-        "words": [
-          "costs",
-          "how",
-          "Could",
-          "me",
-          "this",
-          "tell",
-          "much",
-          "you"
-        ]
+        "sentence": "costs / how / Could / me / this / tell / much / you"
       },
       "answer": {
-        "order": [
-          "Could",
-          "you",
-          "tell",
-          "me",
-          "how",
-          "much",
-          "this",
-          "costs"
+        "accepted": [
+          "Could you tell me how much this costs?"
         ]
       },
       "explanation": "Could you tell me + how much + الفاعل + الفعل"

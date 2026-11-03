@@ -18,7 +18,7 @@ import { useT } from '@/lib/i18n';
 
 export interface ExerciseData {
   id: number;
-  type: 'fill_blank' | 'multiple_choice' | 'true_false' | 'correct_error';
+  type: 'fill_blank' | 'multiple_choice' | 'true_false' | 'correct_error' | 'free_text';
   prompt: string;
   payload: Record<string, any> | null;
   points: number;
@@ -54,6 +54,7 @@ const INSTRUCTIONS: Record<ExerciseData['type'], string> = {
   correct_error: 'أعد كتابة الجملة كاملة بعد تصحيح الخطأ',
   multiple_choice: 'اختر إجابة واحدة',
   true_false: 'اقرأ الجملة — هل تطابق ما ورد في الحوار؟',
+  free_text: 'اكتب إجابتك بنفسك، ثم قارنها بالنموذج إن ظهر',
 };
 
 /** A run of underscores in the text is one more blank */
@@ -90,6 +91,9 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
   const current = exercises[index];
   const total = exercises.length;
   const done = index >= total;
+  // Free writing is self-assessed: the server calls every answer right,
+  // so counting it would lift the score without measuring anything.
+  const graded = exercises.filter((e) => e.type !== 'free_text').length;
 
   /*
    * A choice question checks itself the moment an option is tapped —
@@ -113,7 +117,9 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
       setResult(data);
       setTries((t) => t + 1);
 
-      if (data.correct) {
+      if (current.type === 'free_text') {
+        // Saved, nothing to score
+      } else if (data.correct) {
         setScore((s) => s + 1);
         if (data.attempt_no === 1) setFirstTry((f) => f + 1);
       } else if (data.attempt_no === 1 && current.focus_ar) {
@@ -132,7 +138,7 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
 
   const next = () => {
     if (index + 1 >= total) {
-      onFinish?.(score, total);
+      onFinish?.(score, graded);
     }
     setIndex((i) => i + 1);
     setValue('');
@@ -149,7 +155,9 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
   // The second miss is final even without a reveal — no question may loop forever
   const final = ans && (result!.correct || tries >= 2);
   const autoMs = ans ? (result!.correct ? AUTO_RIGHT_MS : final ? AUTO_REVEAL_MS : AUTO_RETRY_MS) : 0;
-  useAutoAdvance(ans, autoMs, () => (final ? next() : retry()));
+  // A model answer is read against one's own at one's own pace, so no timer
+  const selfChecked = ans && current?.type === 'free_text';
+  useAutoAdvance(ans && !selfChecked, autoMs, () => (final ? next() : retry()));
 
   // Reports position to the parent's single progress bar. Must stay above
   // the early return below: a hook skipped on the result screen crashes
@@ -160,7 +168,7 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
 
   /* ---------- النتيجة ---------- */
   if (done) {
-    const percent = Math.round((score / total) * 100);
+    const percent = graded > 0 ? Math.round((score / graded) * 100) : 100;
     const missedFocus = missed;
 
     return (
@@ -170,7 +178,7 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
           {percent}%
         </div>
         <h3 className="mt-6 text-lg font-bold">
-          {tr(':a من :b', { a: score, b: total })}
+          {tr(':a من :b', { a: score, b: graded })}
         </h3>
         <p className="mt-2 text-sm text-slate-600">
           {tr(':n منها من المحاولة الأولى', { n: firstTry })}
@@ -291,7 +299,7 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
                       disabled={locked}
                       autoFocus={k === 0}
                       aria-label={many ? tr('الفراغ :n', { n: k + 1 }) : undefined}
-                      className={`mx-1 w-28 rounded-md border-b-2 bg-slate-50 px-2 py-1
+                      className={`mx-1 ${pieces.join('').trim().length < 12 ? 'w-full max-w-md' : 'w-28'} rounded-md border-b-2 bg-slate-50 px-2 py-1
                                   text-center font-semibold outline-none transition ${
                         answered
                           ? result.correct
@@ -403,9 +411,42 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
         </div>
       )}
 
+      {current.type === 'free_text' && (
+        <div>
+          <p className="mb-3 whitespace-pre-line text-base leading-relaxed text-slate-900" dir="auto">
+            {current.prompt}
+          </p>
+          <textarea
+            value={typeof value === 'string' ? value : ''}
+            onChange={(e) => setValue(e.target.value)}
+            disabled={answered}
+            autoFocus
+            rows={3}
+            dir="auto"
+            className="w-full rounded-lg border-2 border-slate-200 px-4 py-3 outline-none
+                       transition focus:border-violet-500"
+            placeholder={tr('اكتب هنا')}
+          />
+        </div>
+      )}
+
       {/* ============ التغذية الراجعة ============ */}
 
-      {answered && (
+      {answered && selfChecked && (
+        <div className="mt-5 rounded-lg border-s-4 border-violet-500 bg-violet-50 p-4">
+          <p className="font-semibold text-violet-900">{tr('حُفظت إجابتك')}</p>
+          {result.explanation && (
+            <>
+              <p className="mt-2 text-xs text-slate-600">{tr('قارن إجابتك بهذا:')}</p>
+              <p className="mt-1 whitespace-pre-line text-sm text-slate-800" dir="auto">
+                {result.explanation}
+              </p>
+            </>
+          )}
+        </div>
+      )}
+
+      {answered && !selfChecked && (
         <div
           className={`mt-5 rounded-lg border-s-4 p-4 ${
             result.correct
@@ -455,7 +496,7 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
       )}
 
       {/* The time left before moving on — no button needed */}
-      {answered && (
+      {answered && !selfChecked && (
         <div key={`${index}-${result.attempt_no}`}>
           <Countdown
             ms={autoMs}
@@ -472,6 +513,15 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
       {/* ============ الأزرار ============ */}
 
       <div className="mt-5 flex justify-end gap-2">
+        {selfChecked && (
+          <button
+            onClick={next}
+            className="rounded-lg bg-violet-600 px-6 py-2.5 font-medium text-white hover:bg-violet-700"
+          >
+            {index + 1 >= total ? tr('النتيجة') : tr('التالي')}
+          </button>
+        )}
+
         {/* Typed answers still need a press (or Enter); choices check on tap */}
         {!answered && !['multiple_choice', 'true_false'].includes(current.type) && (
           <button
@@ -480,7 +530,7 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
             className="rounded-lg bg-violet-600 px-6 py-2.5 font-medium text-white
                        hover:bg-violet-700 disabled:opacity-40"
           >
-            {checking ? '…' : tr('تحقّق')}
+            {checking ? '…' : current.type === 'free_text' ? tr('احفظ') : tr('تحقّق')}
           </button>
         )}
 

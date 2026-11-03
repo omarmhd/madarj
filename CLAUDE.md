@@ -459,7 +459,10 @@ table{columns_ar, rows, say, ar_cols}, examples[{en, ar}], errors[{wrong, right,
 | `correct_error` | `{ sentence }` | `{ accepted: [...] }` |
 | `match` | `{ left, right }` | `{ pairs: {...} }` |
 | `order_words` | `{ words: [...] }` | `{ order: [...] }` |
-| `free_text` | `{}` | لا يوجد — يُقيَّم ذاتياً |
+| `free_text` | `{}` | لا يوجد — يُقيَّم ذاتياً: يكتب ويرى `explanation` نموذجاً، ولا يدخل في النسبة |
+
+**`match` و`order_words` لا واجهة لهما في `ExerciseRunner`** وأيّ تمرين منهما يوقف المتدرّب
+عند سؤاله، فلا تستعملهما قبل بنائها.
 
 **التصحيح النصي متسامح** مع: حالة الأحرف، المسافات الزائدة، الترقيم
 الأخير، وأنواع الفاصلة العليا (`'` و `’`)، و**الاختصارات** (`haven't` = `have not`،

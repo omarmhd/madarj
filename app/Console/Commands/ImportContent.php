@@ -121,7 +121,9 @@ class ImportContent extends Command
              */
             $week->days()->delete();
             $week->dialogues()->delete();          // dialogue_lines تُحذف بالـ cascade
-            $week->sections()->delete();
+            // Not $week->sections(): that relation hides `selfcheck`, so its rows
+            // survived every import and piled up
+            Section::where('week_id', $week->id)->delete();
             $week->minimalPairs()->delete();
 
             $this->importDays($week, $raw['days'] ?? []);
@@ -175,10 +177,18 @@ class ImportContent extends Command
         // المفتاح الطبيعي: المجموعة والكلمة. الكلمة نفسها في المجموعة
         // نفسها هي المدخل نفسه، ولو تغيّرت ترجمتها أو مثالها.
         $seen = [];
+        $groupsInFile = collect($words)->pluck('group')->unique()->all();
 
         foreach ($words as $w) {
             $group = $w['group'];
             $positions[$group] = ($positions[$group] ?? 0) + 1;
+
+            // Splitting a group moves its words, it doesn't replace them: the
+            // row stays, and with it the learner's review card
+            $moved = $week->vocabulary()->where('word', $w['word'])->whereNotIn('group', $groupsInFile)->first();
+            if ($moved && ! $week->vocabulary()->where('group', $group)->where('word', $w['word'])->exists()) {
+                $moved->update(['group' => $group]);
+            }
 
             $row = $week->vocabulary()->updateOrCreate(
                 ['group' => $group, 'word' => $w['word']],

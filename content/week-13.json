@@ -3,79 +3,129 @@
   "module": 3,
   "title_en": "Experience — the Present Perfect & Connected Speech",
   "title_ar": "الخبرة — المضارع التام والكلام المتصل",
-  "pron_section": 5,
+  "pron_section": 4,
   "is_review": false,
   "objectives": [
     {
-      "en": "Form the Present Perfect in positive, negative and question forms",
-      "ar": "أصوغ المضارع التام في الإثبات والنفي والسؤال"
+      "en": "I can form the Present Perfect in positive, negative and question forms, with have/has and short answers.",
+      "ar": "أستطيع أن أصوغ المضارع التام إثباتاً ونفياً وسؤالاً، بـ have وhas، وأجيب بجواب قصير (Yes, I have)."
     },
     {
-      "en": "Produce the past participle of forty irregular verbs",
-      "ar": "أنتج اسم المفعول لأربعين فعلاً شاذاً"
+      "en": "I can produce the past participle of the forty irregular verbs of this week (15 of 18 in the day-1 drill).",
+      "ar": "أستطيع أن أكتب اسم المفعول للأفعال الشاذّة الأربعين في هذا الأسبوع (15 من 18 في تمرين اليوم الأول على الأقل)."
     },
     {
-      "en": "Talk about my life experiences with ever and never",
-      "ar": "أتحدّث عن تجارب حياتي بـ ever و never"
+      "en": "I can talk about my life experiences with ever, never, once, twice and How many times…?",
+      "ar": "أستطيع أن أتحدّث عن تجارب حياتي بـ ever وnever وonce وtwice، وأسأل How many times…؟"
     },
     {
-      "en": "Use have been to and have gone to correctly",
-      "ar": "أستخدم have been to و have gone to صحيحين"
+      "en": "I can choose between have been to and have gone to, and explain the difference.",
+      "ar": "أستطيع أن أختار بين have been to وhave gone to وأشرح الفرق: ذهب وعاد، أم ما زال هناك."
     },
     {
-      "en": "Ask someone about their experiences and follow up",
-      "ar": "أسأل أحداً عن تجاربه وأتابع الحديث معه"
+      "en": "I can ask someone about their experiences, show interest and follow up with questions in the Past Simple.",
+      "ar": "أستطيع أن أسأل شخصاً عن تجاربه، وأُظهر اهتمامي (Have you? · Me neither)، وأتابع بأسئلة في الماضي البسيط."
     },
     {
-      "en": "Hear and produce linking between words",
-      "ar": "أسمع الوصل بين الكلمات وأنتجه"
+      "en": "I can describe experiences with -ed and -ing adjectives (I was bored / It was boring).",
+      "ar": "أستطيع أن أصف التجارب بالصفات المنتهية بـ -ed و-ing دون خلط: I was bored لا I was boring."
     },
     {
-      "en": "Recognise the dropped /t/ and /d/ in fast speech",
-      "ar": "أميّز سقوط /t/ و/d/ في الكلام السريع"
+      "en": "I can talk about the best, worst and first experiences of my life (the best film I've ever seen; It's the first time I've…).",
+      "ar": "أستطيع أن أتحدّث عن أفضل تجاربي وأسوئها وأوّلها: the best film I've ever seen · It's the first time I've…"
     },
     {
-      "en": "Speak for 2 minutes about the most interesting things I have done",
-      "ar": "أتحدّث دقيقتين عن أهمّ ما فعلته في حياتي"
+      "en": "I can use common experience collocations (take a risk, make a mistake, go camping, win a prize).",
+      "ar": "أستطيع أن أستعمل تعابير التجارب الشائعة: take a risk · make a mistake · go camping · win a prize."
+    },
+    {
+      "en": "I can hear and produce linking between words.",
+      "ar": "أستطيع أن أسمع وصل الكلمات بعضها ببعض وأن أنطقه."
+    },
+    {
+      "en": "I can recognise the dropped /t/ and /d/ in fast speech, and hear the -ed ending that tells me the tense.",
+      "ar": "أستطيع أن أميّز سقوط /t/ و/d/ في الكلام السريع، وأن أسمع نهاية -ed التي تخبرني بالزمن."
+    },
+    {
+      "en": "I can write 120–140 words about what I have and have not done, switching to the Past Simple for details.",
+      "ar": "أستطيع أن أكتب 120–140 كلمة عمّا فعلته وما لم أفعله، وأنتقل إلى الماضي البسيط عند التفاصيل."
+    },
+    {
+      "en": "I can speak for 2 minutes about the most interesting things I have done.",
+      "ar": "أستطيع أن أتحدّث دقيقتين عن أهمّ ما فعلته في حياتي."
     }
   ],
   "writing": {
-    "title_ar": null,
+    "title_ar": "الكتابة — ما فعلته وما لم أفعله",
     "title_en": "Writing — Things I Have and Have Not Done",
-    "task_ar": null,
+    "task_ar": "اكتب 120–140 كلمة عن تجاربك. اذكر: ثلاثة أشياء فعلتها، وشيئين لم تفعلهما قطّ، وشيئاً لطالما أردت أن تفعله، وتفصيلاً واحداً بالماضي البسيط عن مناسبة محدّدة.",
     "task_en": "Write 120–140 words about your experience. Include: three things you have done, two things you have never done, one thing you have always wanted to do, and one detail in the Past Simple about a specific occasion.",
     "min_words": 120,
     "max_words": 140,
     "templates": [
       {
+        "en": "I have done a few interesting things in my life.",
+        "ar": "فعلت أشياء مثيرة للاهتمام في حياتي.",
+        "note_ar": "جملة افتتاح تقول للقارئ موضوع النصّ."
+      },
+      {
         "en": "I have ____________ , I have ____________ and I have ____________ .",
-        "ar": null
+        "ar": "فعلت ___، وفعلت ___، وفعلت ___.",
+        "note_ar": "بعد have اسم المفعول لا الماضي: I have visited · I have seen. واربط الثالث بـ and."
       },
       {
         "en": "The best of those was ____________ . I went in ______ and ____________ .",
-        "ar": null
+        "ar": "أفضلها كان ___. ذهبت سنة ___ و___.",
+        "note_ar": "هنا تنتقل إلى الماضي البسيط: معك تاريخ أو تفصيل محدّد. ورتّب التفاصيل بـ first · then · so."
+      },
+      {
+        "en": "There are also things I have never done.",
+        "ar": "وهناك أيضاً أشياء لم أفعلها قطّ.",
+        "note_ar": "also تربط فقرة جديدة بما قبلها."
       },
       {
         "en": "I have never ____________ , and I have never ____________ .",
-        "ar": null
+        "ar": "لم أفعل ___ قطّ، ولم أفعل ___ قطّ.",
+        "note_ar": "never وحدها تكفي نفياً: I have never — لا I haven't never."
       },
       {
         "en": "I have always wanted to ____________ , but ____________ .",
-        "ar": null
+        "ar": "لطالما أردت أن ___، لكن ___.",
+        "note_ar": "but للمقابلة، وbecause للسبب: … but I have never had the money, because…"
       },
       {
         "en": "This year I am going to ____________ .",
-        "ar": null
+        "ar": "هذه السنة سـ___.",
+        "note_ar": "going to للخطة (الأسبوع 11). ويمكنك أن تبدأها بـ Finally, للخاتمة."
       }
     ],
-    "checklist": [],
-    "model_answer": "I have done a few interesting things in my life. I have visited four countries, I have learned to cook properly, and I have changed career once.",
-    "model_words": 27
+    "checklist": [
+      {
+        "ar": "المحتوى: هل ذكرت ثلاثة أشياء فعلتها، وشيئين لم تفعلهما، وشيئاً لطالما أردته، وتفصيلاً بالماضي البسيط؟"
+      },
+      {
+        "ar": "تحقيق الغرض: هل يفهم القارئ ما جرّبته في حياتك وما تتمنّاه؟ وهل المجموع بين 120 و140 كلمة؟"
+      },
+      {
+        "ar": "التنظيم: هل قسّمت النصّ فقرات، وربطت الجمل بـ and · but · because · so · also · then · first · finally؟"
+      },
+      {
+        "ar": "اللغة: have مع I/you/we/they وhas مع he/she/it، واسم المفعول لا الماضي (seen لا saw)."
+      },
+      {
+        "ar": "اللغة: نفي واحد فقط — never أو not، لا الاثنتان."
+      },
+      {
+        "ar": "اللغة: انتقلت إلى الماضي البسيط حين ذكرت تاريخاً أو تفصيلاً، وbeen للزيارة والعودة وgone لمن ما زال غائباً."
+      }
+    ],
+    "model_answer": "I have done a few interesting things in my life. I have visited four countries, I have learned to cook properly, and I have changed career once.\n\nThe best of those was Turkey. I went in 2019 with my brother. We stayed for ten days and it rained for eight of them, but I still remember it as the best holiday I have had.\n\nThere are also things I have never done. I have never eaten alone in a restaurant, and I have never spoken English with a native speaker for more than five minutes.\n\nI have always wanted to live abroad for a year, but I have never had the right moment — first university, then work, then children.\n\nThis year I am going to fix the second one at least. I have booked my first English lesson.",
+    "model_words": 138
   },
   "days": [
     {
       "number": 1,
-      "focus": "أسماء المفعول · التمييز الصوتي",
+      "focus": "التركيب · أسماء المفعول",
       "tasks": [
         {
           "order": 1,
@@ -86,56 +136,62 @@
         {
           "order": 2,
           "label": "أسماء المفعول",
-          "minutes": 25,
+          "minutes": 20,
           "ref": "vocab:past_participles"
         },
         {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 3
+          "order": 3,
+          "label": "القواعد — have / has + اسم المفعول",
+          "minutes": 15,
+          "ref": "section:grammar"
         },
         {
           "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review"
+        },
+        {
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
-          "minutes": 5,
+          "minutes": 10,
           "ref": "exercises:1"
         },
         {
+          "order": 7,
           "label": "اكتب مثله",
           "minutes": 10,
-          "ref": "imitate",
-          "order": 6
+          "ref": "imitate"
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 10,
           "ref": "watch:i9GlEYf8_5I"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
         },
         {
+          "order": 10,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 9
+          "ref": "homework"
         }
       ]
     },
     {
       "number": 2,
-      "focus": "أسماء المفعول · التمييز الصوتي",
+      "focus": "المعنى: النتيجة الآن · أسماء المفعول",
       "tasks": [
         {
           "order": 1,
@@ -145,57 +201,63 @@
         },
         {
           "order": 2,
-          "label": "أسماء المفعول",
-          "minutes": 25,
-          "ref": "vocab:past_participles"
+          "label": "القواعد — المعنى: النتيجة الآن",
+          "minutes": 10,
+          "ref": "section:grammar"
         },
         {
           "order": 3,
+          "label": "أسماء المفعول",
+          "minutes": 15,
+          "ref": "vocab:past_participles"
+        },
+        {
+          "order": 4,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
+          "order": 5,
           "label": "مراجعة الإملاء",
           "minutes": 10,
-          "ref": "spell:review",
-          "order": 4
+          "ref": "spell:review"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
-          "minutes": 5,
+          "minutes": 15,
           "ref": "exercises:2"
         },
         {
+          "order": 7,
           "label": "اكتب مثله",
           "minutes": 10,
-          "ref": "imitate",
-          "order": 6
+          "ref": "imitate"
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 10,
           "ref": "watch:AKzqRMA_1lo"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:error_hunt"
         },
         {
+          "order": 10,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 9
+          "ref": "homework"
         }
       ]
     },
     {
       "number": 3,
-      "focus": "أسئلة التجربة وأجوبتها · التمييز الصوتي",
+      "focus": "التجربة: ever · never · كم مرّة",
       "tasks": [
         {
           "order": 1,
@@ -205,297 +267,327 @@
         },
         {
           "order": 2,
+          "label": "القواعد — ever و never",
+          "minutes": 10,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 3,
           "label": "أسئلة التجربة وأجوبتها",
-          "minutes": 25,
+          "minutes": 15,
           "ref": "vocab:experience_questions_and_answers"
         },
         {
+          "order": 4,
           "label": "مراجعة الإملاء",
           "minutes": 10,
-          "ref": "spell:review",
-          "order": 3
+          "ref": "spell:review"
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
-          "minutes": 5,
+          "minutes": 15,
           "ref": "exercises:3"
         },
         {
+          "order": 7,
           "label": "اكتب مثله",
           "minutes": 10,
-          "ref": "imitate",
-          "order": 6
+          "ref": "imitate"
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "قصة اليوم",
           "minutes": 10,
           "ref": "story:boy-who-cried-wolf"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
         },
         {
+          "order": 10,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 9
+          "ref": "homework"
         }
       ]
     },
     {
       "number": 4,
-      "focus": "النطق · التمييز الصوتي",
+      "focus": "been أم gone · النطق · تجارب الحياة",
       "tasks": [
         {
           "order": 1,
           "label": "مراجعة المفردات — تكرار متباعد",
-          "minutes": 10,
+          "minutes": 5,
           "ref": "review:vocab"
         },
         {
           "order": 2,
-          "label": "النطق",
-          "minutes": 25,
-          "ref": "section:phonics"
+          "label": "القواعد — been أم gone",
+          "minutes": 10,
+          "ref": "section:grammar"
         },
         {
           "order": 3,
+          "label": "النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "تجارب الحياة",
+          "minutes": 15,
+          "ref": "vocab:life_experiences"
+        },
+        {
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
+          "order": 6,
           "label": "مراجعة الإملاء",
           "minutes": 10,
-          "ref": "spell:review",
-          "order": 4
-        },
-        {
-          "order": 5,
-          "label": "تمارين اليوم",
-          "minutes": 5,
-          "ref": "exercises:4"
-        },
-        {
-          "label": "اكتب مثله",
-          "minutes": 10,
-          "ref": "imitate",
-          "order": 6
+          "ref": "spell:review"
         },
         {
           "order": 7,
-          "label": "حلقة اليوم",
-          "minutes": 10,
-          "ref": "watch:UZHZ5DepyWo"
+          "label": "تمارين اليوم",
+          "minutes": 15,
+          "ref": "exercises:4"
         },
         {
           "order": 8,
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate"
+        },
+        {
+          "order": 9,
+          "label": "حلقة اليوم",
+          "minutes": 5,
+          "ref": "watch:UZHZ5DepyWo"
+        },
+        {
+          "order": 10,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:error_hunt"
         },
         {
+          "order": 11,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 9
+          "ref": "homework"
         }
       ]
     },
     {
       "number": 5,
-      "focus": "تجارب الحياة · الحوار الأول · التمييز الصوتي",
+      "focus": "الحوار الأول · الاهتمام والمتابعة · bored أم boring",
       "tasks": [
         {
           "order": 1,
           "label": "مراجعة المفردات — تكرار متباعد",
-          "minutes": 10,
+          "minutes": 5,
           "ref": "review:vocab"
         },
         {
-          "label": "الكلمات",
-          "minutes": 15,
-          "ref": "vocab:life_experiences",
-          "order": 2
+          "order": 2,
+          "label": "القواعد — bored أم boring",
+          "minutes": 10,
+          "ref": "section:grammar"
         },
         {
+          "order": 3,
+          "label": "عبارات الاهتمام والمتابعة",
+          "minutes": 15,
+          "ref": "vocab:showing_interest"
+        },
+        {
+          "order": 4,
           "label": "الحوار",
           "minutes": 15,
-          "ref": "dialogue:1",
-          "order": 3
-        },
-        {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 4
+          "ref": "dialogue:1"
         },
         {
           "order": 5,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review"
+        },
+        {
+          "order": 6,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 6,
+          "order": 7,
           "label": "تمارين اليوم",
-          "minutes": 5,
+          "minutes": 25,
           "ref": "exercises:5"
         },
         {
+          "order": 8,
           "label": "اكتب مثله",
           "minutes": 10,
-          "ref": "imitate",
-          "order": 7
-        },
-        {
-          "order": 8,
-          "label": "حلقة اليوم",
-          "minutes": 20,
-          "ref": "watch:9i4z_qXdrX4"
+          "ref": "imitate"
         },
         {
           "order": 9,
+          "label": "حلقة اليوم",
+          "minutes": 5,
+          "ref": "watch:9i4z_qXdrX4"
+        },
+        {
+          "order": 10,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
         },
         {
+          "order": 11,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 10
+          "ref": "homework"
         }
       ]
     },
     {
       "number": 6,
-      "focus": "الحوار الثاني · الاستماع · التمييز الصوتي",
+      "focus": "الحوار الثاني · الاستماع · أفضل ما فعلته",
       "tasks": [
         {
           "order": 1,
           "label": "مراجعة المفردات — تكرار متباعد",
-          "minutes": 10,
+          "minutes": 5,
           "ref": "review:vocab"
         },
         {
+          "order": 2,
           "label": "الحوار",
-          "minutes": 15,
-          "ref": "dialogue:2",
-          "order": 2
+          "minutes": 10,
+          "ref": "dialogue:2"
         },
         {
+          "order": 3,
           "label": "الاستماع",
           "minutes": 15,
-          "ref": "section:listening",
-          "order": 3
+          "ref": "section:listening"
         },
         {
           "order": 4,
+          "label": "القواعد — the best … I've ever",
+          "minutes": 10,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
+          "order": 6,
           "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 5
+          "minutes": 5,
+          "ref": "spell:review"
         },
         {
-          "order": 6,
+          "order": 7,
           "label": "تمارين اليوم",
-          "minutes": 5,
+          "minutes": 30,
           "ref": "exercises:6"
         },
         {
+          "order": 8,
           "label": "اكتب مثله",
           "minutes": 10,
-          "ref": "imitate",
-          "order": 7
+          "ref": "imitate"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "قصة اليوم",
           "minutes": 10,
           "ref": "story:goose-golden-eggs"
         },
         {
-          "order": 9,
+          "order": 10,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:error_hunt"
         },
         {
+          "order": 11,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 10
+          "ref": "homework"
         }
       ]
     },
     {
       "number": 7,
-      "focus": "القراءة · الكتابة · التمييز الصوتي",
+      "focus": "تعابير التجارب · القراءة · الكتابة · التحدّث",
       "tasks": [
         {
           "order": 1,
           "label": "مراجعة المفردات — تكرار متباعد",
-          "minutes": 10,
+          "minutes": 5,
           "ref": "review:vocab"
         },
         {
+          "order": 2,
+          "label": "تعابير التجارب",
+          "minutes": 15,
+          "ref": "vocab:experience_collocations"
+        },
+        {
+          "order": 3,
           "label": "القراءة",
           "minutes": 10,
-          "ref": "section:reading",
-          "order": 2
+          "ref": "section:reading"
         },
         {
+          "order": 4,
           "label": "الكتابة",
-          "minutes": 10,
-          "ref": "writing:1",
-          "order": 3
-        },
-        {
-          "label": "التحدّث",
-          "minutes": 10,
-          "ref": "record",
-          "order": 4
+          "minutes": 15,
+          "ref": "writing:1"
         },
         {
           "order": 5,
+          "label": "التحدّث",
+          "minutes": 10,
+          "ref": "record"
+        },
+        {
+          "order": 6,
           "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
+          "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
+          "order": 7,
           "label": "مراجعة الإملاء",
           "minutes": 10,
-          "ref": "spell:review",
-          "order": 6
-        },
-        {
-          "order": 7,
-          "label": "تمارين اليوم",
-          "minutes": 5,
-          "ref": "exercises:7"
+          "ref": "spell:review"
         },
         {
           "order": 8,
-          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record:baseline"
+          "label": "تمارين اليوم",
+          "minutes": 10,
+          "ref": "exercises:7"
         },
         {
           "order": 9,
@@ -504,10 +596,10 @@
           "ref": "play:match_race"
         },
         {
+          "order": 10,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 10
+          "ref": "homework"
         }
       ]
     }
@@ -518,7 +610,7 @@
       "word": "cut → cut → cut",
       "ipa": null,
       "arabic": "يقطع",
-      "example": null,
+      "example": "I have cut my finger with a knife.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "cut",
@@ -531,7 +623,7 @@
       "word": "put → put → put",
       "ipa": null,
       "arabic": "يضع",
-      "example": null,
+      "example": "Where have you put my keys?",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "put",
@@ -544,7 +636,7 @@
       "word": "let → let → let",
       "ipa": null,
       "arabic": "يسمح / يترك",
-      "example": null,
+      "example": "My parents have let me stay out late tonight.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "let",
@@ -557,7 +649,7 @@
       "word": "cost → cost → cost",
       "ipa": null,
       "arabic": "يكلّف",
-      "example": null,
+      "example": "This trip has cost us a lot of money.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "cost",
@@ -570,7 +662,7 @@
       "word": "hurt → hurt → hurt",
       "ipa": null,
       "arabic": "يؤلم / يجرح",
-      "example": null,
+      "example": "I have hurt my back at the gym.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "hurt",
@@ -583,7 +675,7 @@
       "word": "read → read → read",
       "ipa": null,
       "arabic": "يقرأ",
-      "example": null,
+      "example": "Have you read this book?",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "read",
@@ -596,7 +688,7 @@
       "word": "buy → bought",
       "ipa": null,
       "arabic": "يشتري",
-      "example": null,
+      "example": "I have bought a new phone.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "bought",
@@ -609,7 +701,7 @@
       "word": "bring → brought",
       "ipa": null,
       "arabic": "يجلب",
-      "example": null,
+      "example": "Have you brought your passport?",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "brought",
@@ -622,7 +714,7 @@
       "word": "think → thought",
       "ipa": null,
       "arabic": "يفكّر / يظنّ",
-      "example": null,
+      "example": "I have thought about your idea.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "thought",
@@ -635,7 +727,7 @@
       "word": "teach → taught",
       "ipa": null,
       "arabic": "يعلّم",
-      "example": null,
+      "example": "She has taught English for ten years.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "taught",
@@ -648,12 +740,12 @@
       "word": "catch → caught",
       "ipa": null,
       "arabic": "يلتقط / يلحق بـ",
-      "example": null,
+      "example": "Have you ever caught a fish?",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "caught",
-      "sentence": "Have you caught the bus?",
-      "sentence_ar": "هل لحقتَ بالحافلة؟",
+      "sentence": "Have you ever caught a fish?",
+      "sentence_ar": "هل سبق أن اصطدت سمكة؟",
       "usage_ar": "catch تعني أيضاً اللحاق بوسيلة نقل: catch the bus."
     },
     {
@@ -661,7 +753,7 @@
       "word": "find → found",
       "ipa": null,
       "arabic": "يجد",
-      "example": null,
+      "example": "I have found my glasses.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "found",
@@ -674,7 +766,7 @@
       "word": "have → had",
       "ipa": null,
       "arabic": "يملك / لديه",
-      "example": null,
+      "example": "We have had a lot of rain this week.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "had",
@@ -687,7 +779,7 @@
       "word": "make → made",
       "ipa": null,
       "arabic": "يصنع / يجعل",
-      "example": null,
+      "example": "I have made a cake for your birthday.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "made",
@@ -700,7 +792,7 @@
       "word": "say → said",
       "ipa": null,
       "arabic": "يقول",
-      "example": null,
+      "example": "He has said nothing about the trip.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "said",
@@ -713,7 +805,7 @@
       "word": "tell → told",
       "ipa": null,
       "arabic": "يخبر",
-      "example": null,
+      "example": "My friend has told me the news.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "told",
@@ -726,7 +818,7 @@
       "word": "sell → sold",
       "ipa": null,
       "arabic": "يبيع",
-      "example": null,
+      "example": "They have sold their old car.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "sold",
@@ -739,7 +831,7 @@
       "word": "meet → met",
       "ipa": null,
       "arabic": "يلتقي",
-      "example": null,
+      "example": "Have you met my brother?",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "met",
@@ -752,7 +844,7 @@
       "word": "keep → kept",
       "ipa": null,
       "arabic": "يُبقي / يحتفظ بـ",
-      "example": null,
+      "example": "I have kept all your letters.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "kept",
@@ -765,7 +857,7 @@
       "word": "sleep → slept",
       "ipa": null,
       "arabic": "ينام",
-      "example": null,
+      "example": "I haven't slept well this week.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "slept",
@@ -778,7 +870,7 @@
       "word": "be → was / were → been",
       "ipa": null,
       "arabic": "يكون",
-      "example": null,
+      "example": "Have you been to London?",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "been",
@@ -791,7 +883,7 @@
       "word": "go → went → gone / been",
       "ipa": null,
       "arabic": "يذهب",
-      "example": null,
+      "example": "My brother has gone to work.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "gone",
@@ -804,7 +896,7 @@
       "word": "do → did → done",
       "ipa": null,
       "arabic": "يفعل",
-      "example": null,
+      "example": "Have you done your homework?",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "done",
@@ -817,7 +909,7 @@
       "word": "see → saw → seen",
       "ipa": null,
       "arabic": "يرى",
-      "example": null,
+      "example": "I have never seen snow.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "seen",
@@ -830,7 +922,7 @@
       "word": "take → took → taken",
       "ipa": null,
       "arabic": "يأخذ",
-      "example": null,
+      "example": "Someone has taken my umbrella.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "taken",
@@ -843,7 +935,7 @@
       "word": "give → gave → given",
       "ipa": null,
       "arabic": "يعطي",
-      "example": null,
+      "example": "My teacher has given us a lot of homework.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "given",
@@ -856,7 +948,7 @@
       "word": "eat → ate → eaten",
       "ipa": null,
       "arabic": "يأكل",
-      "example": null,
+      "example": "Have you eaten breakfast?",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "eaten",
@@ -869,7 +961,7 @@
       "word": "drink → drank → drunk",
       "ipa": null,
       "arabic": "يشرب",
-      "example": null,
+      "example": "I have drunk three cups of coffee today.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "drunk",
@@ -882,7 +974,7 @@
       "word": "write → wrote → written",
       "ipa": null,
       "arabic": "يكتب",
-      "example": null,
+      "example": "She has written a long email.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "written",
@@ -895,7 +987,7 @@
       "word": "speak → spoke → spoken",
       "ipa": null,
       "arabic": "يتحدث",
-      "example": null,
+      "example": "Have you spoken to the manager?",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "spoken",
@@ -908,7 +1000,7 @@
       "word": "break → broke → broken",
       "ipa": null,
       "arabic": "يكسر",
-      "example": null,
+      "example": "I have broken my glasses.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "broken",
@@ -921,7 +1013,7 @@
       "word": "choose → chose → chosen",
       "ipa": null,
       "arabic": "يختار",
-      "example": null,
+      "example": "Have you chosen a colour?",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "chosen",
@@ -934,7 +1026,7 @@
       "word": "drive → drove → driven",
       "ipa": null,
       "arabic": "يقود",
-      "example": null,
+      "example": "He has driven a bus for years.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "driven",
@@ -947,7 +1039,7 @@
       "word": "ride → rode → ridden",
       "ipa": null,
       "arabic": "يركب",
-      "example": null,
+      "example": "Have you ever ridden a horse?",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "ridden",
@@ -960,7 +1052,7 @@
       "word": "forget → forgot → forgotten",
       "ipa": null,
       "arabic": "ينسى",
-      "example": null,
+      "example": "I have forgotten his name.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "forgotten",
@@ -973,7 +1065,7 @@
       "word": "know → knew → known",
       "ipa": null,
       "arabic": "يعرف",
-      "example": null,
+      "example": "I have known her for five years.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "known",
@@ -986,7 +1078,7 @@
       "word": "grow → grew → grown",
       "ipa": null,
       "arabic": "ينمو",
-      "example": null,
+      "example": "This tree has grown very fast.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "grown",
@@ -999,7 +1091,7 @@
       "word": "fly → flew → flown",
       "ipa": null,
       "arabic": "يطير",
-      "example": null,
+      "example": "Have you ever flown in a small plane?",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "flown",
@@ -1012,7 +1104,7 @@
       "word": "swim → swam → swum",
       "ipa": null,
       "arabic": "يسبح",
-      "example": null,
+      "example": "I have never swum in the sea.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "swum",
@@ -1025,7 +1117,7 @@
       "word": "begin → began → begun",
       "ipa": null,
       "arabic": "يبدأ",
-      "example": null,
+      "example": "The film has already begun.",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
       "target": "begun",
@@ -1428,11 +1520,11 @@
       "word": "Have you ever…?",
       "ipa": null,
       "arabic": "هل سبق أن…؟",
-      "example": null,
+      "example": "Have you ever been to Egypt?",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": null,
-      "sentence": "Ask a friend about their life: Have you ever been to Egypt?",
+      "sentence": "Have you ever been to Egypt?",
       "sentence_ar": "اسأل صديقك عن حياته: هل سبق أن زرتَ مصر؟",
       "usage_ar": "للسؤال عن تجربة في أي وقت من الحياة، وبعدها التصريف الثالث."
     },
@@ -1441,7 +1533,7 @@
       "word": "Yes, I have.",
       "ipa": null,
       "arabic": "نعم",
-      "example": null,
+      "example": "Have you seen this film? Yes, I have.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": "Yes, I have",
@@ -1454,7 +1546,7 @@
       "word": "No, I haven't.",
       "ipa": null,
       "arabic": "لا",
-      "example": null,
+      "example": "Have you met him? No, I haven't.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": "No, I haven't",
@@ -1467,7 +1559,7 @@
       "word": "Never.",
       "ipa": null,
       "arabic": "أبداً",
-      "example": null,
+      "example": "Have you ridden a camel? Never.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": "Never",
@@ -1480,7 +1572,7 @@
       "word": "Not yet.",
       "ipa": null,
       "arabic": "ليس بعد",
-      "example": null,
+      "example": "Have you finished? Not yet.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": "Not yet",
@@ -1493,7 +1585,7 @@
       "word": "Only once.",
       "ipa": null,
       "arabic": "مرة واحدة فقط",
-      "example": null,
+      "example": "Have you been to Rome? Only once.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": "Only once",
@@ -1506,7 +1598,7 @@
       "word": "Twice.",
       "ipa": null,
       "arabic": "مرتين",
-      "example": null,
+      "example": "How many times have you flown? Twice.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": "Twice",
@@ -1519,7 +1611,7 @@
       "word": "Several times.",
       "ipa": null,
       "arabic": "عدة مرات",
-      "example": null,
+      "example": "I've been to that café several times.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": "Several times",
@@ -1532,7 +1624,7 @@
       "word": "Many times.",
       "ipa": null,
       "arabic": "مرات كثيرة",
-      "example": null,
+      "example": "I've watched this film many times.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": "Many times",
@@ -1545,7 +1637,7 @@
       "word": "A few times.",
       "ipa": null,
       "arabic": "بضع مرات",
-      "example": null,
+      "example": "I've tried sushi a few times.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": "A few times",
@@ -1558,7 +1650,7 @@
       "word": "I've always wanted to.",
       "ipa": null,
       "arabic": "لطالما أردت ذلك",
-      "example": null,
+      "example": "Have you been to Japan? No, but I've always wanted to.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": null,
@@ -1571,7 +1663,7 @@
       "word": "I'd love to.",
       "ipa": null,
       "arabic": "أود ذلك جداً",
-      "example": null,
+      "example": "Do you want to come with us? I'd love to.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": "I'd love to",
@@ -1584,7 +1676,7 @@
       "word": "What was it like?",
       "ipa": null,
       "arabic": "كيف كان؟",
-      "example": null,
+      "example": "You visited Turkey? What was it like?",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": null,
@@ -1597,12 +1689,12 @@
       "word": "It was amazing.",
       "ipa": null,
       "arabic": "كان مذهلاً",
-      "example": null,
+      "example": "How was the film? It was amazing.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": "It was amazing",
-      "sentence": "How was the concert? It was amazing.",
-      "sentence_ar": "كيف كان الحفل؟ كان مذهلاً.",
+      "sentence": "How was the film? It was amazing.",
+      "sentence_ar": "كيف كان الفيلم؟ كان مذهلاً.",
       "usage_ar": "لوصف تجربة ماضية جميلة جداً بالماضي البسيط."
     },
     {
@@ -1610,7 +1702,7 @@
       "word": "It was terrible.",
       "ipa": null,
       "arabic": "كان فظيعاً",
-      "example": null,
+      "example": "How was the hotel? It was terrible.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": "It was terrible",
@@ -1623,7 +1715,7 @@
       "word": "It was worth it.",
       "ipa": null,
       "arabic": "كان يستحق",
-      "example": null,
+      "example": "The trip was expensive, but it was worth it.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": null,
@@ -1636,7 +1728,7 @@
       "word": "When did that happen?",
       "ipa": null,
       "arabic": "متى حدث ذلك؟",
-      "example": null,
+      "example": "I broke my arm once. When did that happen?",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": null,
@@ -1649,7 +1741,7 @@
       "word": "About five years ago.",
       "ipa": null,
       "arabic": "قبل خمس سنوات تقريباً",
-      "example": null,
+      "example": "When did you go there? About five years ago.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": null,
@@ -1662,7 +1754,7 @@
       "word": "Really? Tell me more.",
       "ipa": null,
       "arabic": "حقاً؟ أخبرني المزيد",
-      "example": null,
+      "example": "I've climbed a mountain. Really? Tell me more.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": null,
@@ -1675,7 +1767,7 @@
       "word": "How come?",
       "ipa": null,
       "arabic": "كيف ذلك؟",
-      "example": null,
+      "example": "I've never eaten pizza. How come?",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": "How come",
@@ -1688,7 +1780,7 @@
       "word": "I can't believe it!",
       "ipa": null,
       "arabic": "لا أصدّق!",
-      "example": null,
+      "example": "I've won the competition! I can't believe it!",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": null,
@@ -1701,7 +1793,7 @@
       "word": "That sounds amazing.",
       "ipa": null,
       "arabic": "يبدو ذلك مذهلاً",
-      "example": null,
+      "example": "I've swum with dolphins. That sounds amazing.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": "That sounds amazing",
@@ -1714,7 +1806,7 @@
       "word": "I've heard about that.",
       "ipa": null,
       "arabic": "سمعت عن ذلك",
-      "example": null,
+      "example": "The new museum? I've heard about that.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": null,
@@ -1727,7 +1819,7 @@
       "word": "I've no idea.",
       "ipa": null,
       "arabic": "ليست لدي فكرة",
-      "example": null,
+      "example": "Where is the station? Sorry, I've no idea.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": "I've no idea",
@@ -1740,7 +1832,7 @@
       "word": "The best thing I've done",
       "ipa": null,
       "arabic": "أفضل شيء فعلته",
-      "example": null,
+      "example": "The best thing I've done is learning to swim.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": null,
@@ -1753,7 +1845,7 @@
       "word": "The worst thing I've done",
       "ipa": null,
       "arabic": "أسوأ شيء فعلته",
-      "example": null,
+      "example": "The worst thing I've done is lose my passport.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": null,
@@ -1766,7 +1858,7 @@
       "word": "I've been meaning to…",
       "ipa": null,
       "arabic": "كنت أنوي أن…",
-      "example": null,
+      "example": "I've been meaning to call you all week.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": null,
@@ -1779,7 +1871,7 @@
       "word": "It's on my list.",
       "ipa": null,
       "arabic": "إنه في قائمتي",
-      "example": null,
+      "example": "I haven't visited Petra yet, but it's on my list.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": null,
@@ -1792,7 +1884,7 @@
       "word": "Have you been there?",
       "ipa": null,
       "arabic": "هل ذهبت إلى هناك؟",
-      "example": null,
+      "example": "I love Istanbul. Have you been there?",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": null,
@@ -1805,39 +1897,466 @@
       "word": "Not that I remember.",
       "ipa": null,
       "arabic": "لا أتذكّر ذلك",
-      "example": null,
+      "example": "Have we met before? Not that I remember.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": null,
       "sentence": "Have we met before? Not that I remember.",
       "sentence_ar": "هل التقينا من قبل؟ لا أتذكّر ذلك.",
       "usage_ar": "جواب مهذّب حين لا تتذكّر شيئاً."
+    },
+    {
+      "group": "showing_interest",
+      "word": "Have you?",
+      "ipa": null,
+      "arabic": "حقّاً؟ (فعلتَ ذلك؟)",
+      "example": "I've been to Petra. — Have you? What was it like?",
+      "group_label_ar": "عبارات الاهتمام والمتابعة",
+      "group_label_en": "Showing interest & following up",
+      "target": "Have you?",
+      "sentence": "I've been to Petra. — Have you? What was it like?",
+      "sentence_ar": "— لقد زرت البتراء. — حقّاً؟ كيف كانت؟",
+      "usage_ar": "سؤال الصدى يكرّر الفعل المساعد: I've been ← Have you? ولا يُترجم «هل أنت؟»."
+    },
+    {
+      "group": "showing_interest",
+      "word": "Did you?",
+      "ipa": null,
+      "arabic": "حقّاً؟ (عن حدث ماضٍ)",
+      "example": "I went to the cinema alone. — Did you? How was it?",
+      "group_label_ar": "عبارات الاهتمام والمتابعة",
+      "group_label_en": "Showing interest & following up",
+      "target": "Did you?",
+      "sentence": "I went to the cinema alone. — Did you? How was it?",
+      "sentence_ar": "— ذهبت إلى السينما وحدي. — حقّاً؟ كيف كان؟",
+      "usage_ar": "مع الماضي البسيط يكون الصدى Did you? ومع المضارع التام Have you?"
+    },
+    {
+      "group": "showing_interest",
+      "word": "Me too.",
+      "ipa": null,
+      "arabic": "وأنا كذلك",
+      "example": "I've been to Jordan. — Me too!",
+      "group_label_ar": "عبارات الاهتمام والمتابعة",
+      "group_label_en": "Showing interest & following up",
+      "target": "Me too",
+      "sentence": "I've been to Jordan. — Me too!",
+      "sentence_ar": "— زرت الأردن. — وأنا كذلك!",
+      "usage_ar": "بعد جملة مثبتة فقط. بعد جملة منفية قل Me neither."
+    },
+    {
+      "group": "showing_interest",
+      "word": "Me neither.",
+      "ipa": null,
+      "arabic": "ولا أنا",
+      "example": "I've never flown. — Me neither.",
+      "group_label_ar": "عبارات الاهتمام والمتابعة",
+      "group_label_en": "Showing interest & following up",
+      "target": "Me neither",
+      "sentence": "I've never flown. — Me neither.",
+      "sentence_ar": "— لم أركب طائرة قطّ. — ولا أنا.",
+      "usage_ar": "بعد جملة منفية (never · haven't). «Me too» هنا خطأ شائع."
+    },
+    {
+      "group": "showing_interest",
+      "word": "So have I.",
+      "ipa": null,
+      "arabic": "وأنا أيضاً (فعلت)",
+      "example": "I've seen that film three times. — So have I.",
+      "group_label_ar": "عبارات الاهتمام والمتابعة",
+      "group_label_en": "Showing interest & following up",
+      "target": "So have I",
+      "sentence": "I've seen that film three times. — So have I.",
+      "sentence_ar": "— شاهدت ذلك الفيلم ثلاث مرات. — وأنا أيضاً.",
+      "usage_ar": "So + الفعل المساعد + أنا: I've seen ← So have I."
+    },
+    {
+      "group": "showing_interest",
+      "word": "Neither have I.",
+      "ipa": null,
+      "arabic": "ولا أنا (لم أفعل)",
+      "example": "I haven't finished my homework. — Neither have I.",
+      "group_label_ar": "عبارات الاهتمام والمتابعة",
+      "group_label_en": "Showing interest & following up",
+      "target": "Neither have I",
+      "sentence": "I haven't finished my homework. — Neither have I.",
+      "sentence_ar": "— لم أُنهِ واجبي. — ولا أنا.",
+      "usage_ar": "بعد النفي: Neither + have + I، والفعل مثبت بعدها لا منفي."
+    },
+    {
+      "group": "showing_interest",
+      "word": "How did you feel?",
+      "ipa": null,
+      "arabic": "بماذا شعرت؟",
+      "example": "You spoke in front of 100 people? How did you feel?",
+      "group_label_ar": "عبارات الاهتمام والمتابعة",
+      "group_label_en": "Showing interest & following up",
+      "target": "How did you feel",
+      "sentence": "You spoke in front of 100 people? How did you feel?",
+      "sentence_ar": "تكلّمت أمام مئة شخص؟ بماذا شعرت؟",
+      "usage_ar": "سؤال المتابعة عن مناسبة محدّدة يكون بالماضي البسيط."
+    },
+    {
+      "group": "showing_interest",
+      "word": "Who did you go with?",
+      "ipa": null,
+      "arabic": "مع من ذهبت؟",
+      "example": "You went to Turkey? Who did you go with?",
+      "group_label_ar": "عبارات الاهتمام والمتابعة",
+      "group_label_en": "Showing interest & following up",
+      "target": "Who did you go with",
+      "sentence": "You went to Turkey? Who did you go with?",
+      "sentence_ar": "ذهبت إلى تركيا؟ مع من ذهبت؟",
+      "usage_ar": "حرف الجرّ with في آخر السؤال، لا With who…"
+    },
+    {
+      "group": "showing_interest",
+      "word": "How long did you stay?",
+      "ipa": null,
+      "arabic": "كم بقيت هناك؟",
+      "example": "I've been to London once. — How long did you stay?",
+      "group_label_ar": "عبارات الاهتمام والمتابعة",
+      "group_label_en": "Showing interest & following up",
+      "target": "How long did you stay",
+      "sentence": "I've been to London once. — How long did you stay?",
+      "sentence_ar": "— زرت لندن مرة. — كم بقيت؟",
+      "usage_ar": "How long للمدّة، والجواب: For two weeks."
+    },
+    {
+      "group": "showing_interest",
+      "word": "What was the best part?",
+      "ipa": null,
+      "arabic": "ما أجمل ما فيها؟",
+      "example": "The trip sounds great. What was the best part?",
+      "group_label_ar": "عبارات الاهتمام والمتابعة",
+      "group_label_en": "Showing interest & following up",
+      "target": "What was the best part",
+      "sentence": "The trip sounds great. What was the best part?",
+      "sentence_ar": "تبدو الرحلة رائعة. ما أجمل ما فيها؟",
+      "usage_ar": "سؤال يفتح الحديث، فالمحدّث لا يكتفي بنعم أو لا."
+    },
+    {
+      "group": "showing_interest",
+      "word": "Do you want to go back?",
+      "ipa": null,
+      "arabic": "هل تريد أن تعود إليها؟",
+      "example": "You loved Istanbul. Do you want to go back?",
+      "group_label_ar": "عبارات الاهتمام والمتابعة",
+      "group_label_en": "Showing interest & following up",
+      "target": "Do you want to go back",
+      "sentence": "You loved Istanbul. Do you want to go back?",
+      "sentence_ar": "أحببت إسطنبول. هل تريد أن تعود إليها؟",
+      "usage_ar": "go back = يعود إلى مكان زاره."
+    },
+    {
+      "group": "showing_interest",
+      "word": "Wow, that's interesting!",
+      "ipa": null,
+      "arabic": "واو، هذا مثير للاهتمام!",
+      "example": "I've worked in five countries. — Wow, that's interesting!",
+      "group_label_ar": "عبارات الاهتمام والمتابعة",
+      "group_label_en": "Showing interest & following up",
+      "target": "that's interesting",
+      "sentence": "I've worked in five countries. — Wow, that's interesting!",
+      "sentence_ar": "— عملت في خمسة بلدان. — واو، هذا مثير للاهتمام!",
+      "usage_ar": "interesting بـ -ing لأنها تصف الخبر، لا شعورك أنت."
+    },
+    {
+      "group": "showing_interest",
+      "word": "Lucky you!",
+      "ipa": null,
+      "arabic": "يا لحظّك!",
+      "example": "I've won two tickets to the final. — Lucky you!",
+      "group_label_ar": "عبارات الاهتمام والمتابعة",
+      "group_label_en": "Showing interest & following up",
+      "target": "Lucky you",
+      "sentence": "I've won two tickets to the final. — Lucky you!",
+      "sentence_ar": "— ربحت تذكرتين للمباراة النهائية. — يا لحظّك!",
+      "usage_ar": "لخبر سعيد. وللخبر السيّئ: Oh no!"
+    },
+    {
+      "group": "showing_interest",
+      "word": "Oh no! What happened?",
+      "ipa": null,
+      "arabic": "يا إلهي! ماذا حدث؟",
+      "example": "I've broken my arm. — Oh no! What happened?",
+      "group_label_ar": "عبارات الاهتمام والمتابعة",
+      "group_label_en": "Showing interest & following up",
+      "target": "What happened",
+      "sentence": "I've broken my arm. — Oh no! What happened?",
+      "sentence_ar": "— كسرت ذراعي. — يا إلهي! ماذا حدث؟",
+      "usage_ar": "What happened بلا did: السؤال عن الفاعل نفسه."
+    },
+    {
+      "group": "showing_interest",
+      "word": "I know what you mean.",
+      "ipa": null,
+      "arabic": "أفهم ما تقصده",
+      "example": "Long flights are terrible. — I know what you mean.",
+      "group_label_ar": "عبارات الاهتمام والمتابعة",
+      "group_label_en": "Showing interest & following up",
+      "target": "I know what you mean",
+      "sentence": "Long flights are terrible. — I know what you mean.",
+      "sentence_ar": "— الرحلات الطويلة فظيعة. — أفهم ما تقصده.",
+      "usage_ar": "لتُظهر أنك مررت بالتجربة نفسها."
+    },
+    {
+      "group": "showing_interest",
+      "word": "Really? I didn't know that.",
+      "ipa": null,
+      "arabic": "حقّاً؟ لم أكن أعرف ذلك",
+      "example": "Sara has lived in Japan. — Really? I didn't know that.",
+      "group_label_ar": "عبارات الاهتمام والمتابعة",
+      "group_label_en": "Showing interest & following up",
+      "target": "I didn't know that",
+      "sentence": "Sara has lived in Japan. — Really? I didn't know that.",
+      "sentence_ar": "— عاشت سارة في اليابان. — حقّاً؟ لم أكن أعرف ذلك.",
+      "usage_ar": "didn't know بالماضي: لم أكن أعرف قبل أن تخبرني."
+    },
+    {
+      "group": "experience_collocations",
+      "word": "go skydiving",
+      "ipa": null,
+      "arabic": "يقفز بالمظلّة",
+      "example": "Have you ever been skydiving?",
+      "group_label_ar": "تعابير التجارب",
+      "group_label_en": "Experience collocations",
+      "target": "skydiving",
+      "sentence": "Have you ever been skydiving?",
+      "sentence_ar": "هل سبق أن قفزت بالمظلّة؟",
+      "usage_ar": "go + نشاط بـ -ing: go skydiving · go swimming. وفي المضارع التام: have been skydiving."
+    },
+    {
+      "group": "experience_collocations",
+      "word": "go camping",
+      "ipa": null,
+      "arabic": "يخيّم",
+      "example": "We've never been camping in the desert.",
+      "group_label_ar": "تعابير التجارب",
+      "group_label_en": "Experience collocations",
+      "target": "camping",
+      "sentence": "We've never been camping in the desert.",
+      "sentence_ar": "لم نخيّم في الصحراء قطّ.",
+      "usage_ar": "go camping لا do camping."
+    },
+    {
+      "group": "experience_collocations",
+      "word": "try something new",
+      "ipa": null,
+      "arabic": "يجرّب شيئاً جديداً",
+      "example": "I try something new every month.",
+      "group_label_ar": "تعابير التجارب",
+      "group_label_en": "Experience collocations",
+      "target": "try something new",
+      "sentence": "I try something new every month.",
+      "sentence_ar": "أجرّب شيئاً جديداً كل شهر.",
+      "usage_ar": "try + اسم: try sushi · try something new."
+    },
+    {
+      "group": "experience_collocations",
+      "word": "make a mistake",
+      "ipa": null,
+      "arabic": "يرتكب خطأً",
+      "example": "I've made a lot of mistakes, but I've learned from them.",
+      "group_label_ar": "تعابير التجارب",
+      "group_label_en": "Experience collocations",
+      "target": "made",
+      "sentence": "I've made a lot of mistakes, but I've learned from them.",
+      "sentence_ar": "ارتكبت أخطاء كثيرة، لكنّي تعلّمت منها.",
+      "usage_ar": "make a mistake لا do a mistake — خطأ شائع جداً."
+    },
+    {
+      "group": "experience_collocations",
+      "word": "make friends",
+      "ipa": null,
+      "arabic": "يكوّن صداقات",
+      "example": "She has made a lot of friends at her new school.",
+      "group_label_ar": "تعابير التجارب",
+      "group_label_en": "Experience collocations",
+      "target": "made",
+      "sentence": "She has made a lot of friends at her new school.",
+      "sentence_ar": "كوّنت أصدقاء كثيرين في مدرستها الجديدة.",
+      "usage_ar": "make friends لا do friends ولا take friends."
+    },
+    {
+      "group": "experience_collocations",
+      "word": "take a risk",
+      "ipa": null,
+      "arabic": "يخاطر",
+      "example": "Have you ever taken a big risk?",
+      "group_label_ar": "تعابير التجارب",
+      "group_label_en": "Experience collocations",
+      "target": "taken",
+      "sentence": "Have you ever taken a big risk?",
+      "sentence_ar": "هل سبق أن خاطرت مخاطرة كبيرة؟",
+      "usage_ar": "take a risk لا do a risk. take → took → taken."
+    },
+    {
+      "group": "experience_collocations",
+      "word": "take a photo",
+      "ipa": null,
+      "arabic": "يلتقط صورة",
+      "example": "I've taken hundreds of photos of my children.",
+      "group_label_ar": "تعابير التجارب",
+      "group_label_en": "Experience collocations",
+      "target": "taken",
+      "sentence": "I've taken hundreds of photos of my children.",
+      "sentence_ar": "التقطت مئات الصور لأطفالي.",
+      "usage_ar": "take a photo لا make a photo."
+    },
+    {
+      "group": "experience_collocations",
+      "word": "have an accident",
+      "ipa": null,
+      "arabic": "يتعرّض لحادث",
+      "example": "He has never had an accident.",
+      "group_label_ar": "تعابير التجارب",
+      "group_label_en": "Experience collocations",
+      "target": "had",
+      "sentence": "He has never had an accident.",
+      "sentence_ar": "لم يتعرّض لحادث قطّ.",
+      "usage_ar": "have an accident لا make an accident."
+    },
+    {
+      "group": "experience_collocations",
+      "word": "have fun",
+      "ipa": null,
+      "arabic": "يستمتع",
+      "example": "We had a lot of fun at the beach.",
+      "group_label_ar": "تعابير التجارب",
+      "group_label_en": "Experience collocations",
+      "target": "fun",
+      "sentence": "We had a lot of fun at the beach.",
+      "sentence_ar": "استمتعنا كثيراً على الشاطئ.",
+      "usage_ar": "have fun لا make fun (make fun of = يسخر من)."
+    },
+    {
+      "group": "experience_collocations",
+      "word": "win a prize",
+      "ipa": null,
+      "arabic": "يفوز بجائزة",
+      "example": "My sister has won a prize for her painting.",
+      "group_label_ar": "تعابير التجارب",
+      "group_label_en": "Experience collocations",
+      "target": "won",
+      "sentence": "My sister has won a prize for her painting.",
+      "sentence_ar": "فازت أختي بجائزة عن لوحتها.",
+      "usage_ar": "win → won → won. ونفوز بجائزة لكن نهزم شخصاً: beat a team."
+    },
+    {
+      "group": "experience_collocations",
+      "word": "get lost",
+      "ipa": null,
+      "arabic": "يضيع / يتوه",
+      "example": "Have you ever got lost in a big city?",
+      "group_label_ar": "تعابير التجارب",
+      "group_label_en": "Experience collocations",
+      "target": "lost",
+      "sentence": "Have you ever got lost in a big city?",
+      "sentence_ar": "هل سبق أن تهت في مدينة كبيرة؟",
+      "usage_ar": "get lost = يتوه. والأمريكية تقول have gotten lost."
+    },
+    {
+      "group": "experience_collocations",
+      "word": "miss a flight",
+      "ipa": null,
+      "arabic": "تفوته رحلة",
+      "example": "I've missed a flight once, in Dubai.",
+      "group_label_ar": "تعابير التجارب",
+      "group_label_en": "Experience collocations",
+      "target": "missed",
+      "sentence": "I've missed a flight once, in Dubai.",
+      "sentence_ar": "فاتتني رحلة مرة، في دبي.",
+      "usage_ar": "miss = تفوته (رحلة، حافلة). وmiss someone = يشتاق إليه."
+    },
+    {
+      "group": "experience_collocations",
+      "word": "keep a promise",
+      "ipa": null,
+      "arabic": "يفي بوعد",
+      "example": "He has always kept his promises.",
+      "group_label_ar": "تعابير التجارب",
+      "group_label_en": "Experience collocations",
+      "target": "kept",
+      "sentence": "He has always kept his promises.",
+      "sentence_ar": "وفى بوعوده دائماً.",
+      "usage_ar": "keep → kept → kept."
+    },
+    {
+      "group": "experience_collocations",
+      "word": "break a promise",
+      "ipa": null,
+      "arabic": "يُخلف وعداً",
+      "example": "I've never broken a promise to my mother.",
+      "group_label_ar": "تعابير التجارب",
+      "group_label_en": "Experience collocations",
+      "target": "broken",
+      "sentence": "I've never broken a promise to my mother.",
+      "sentence_ar": "لم أُخلف وعداً لأمّي قطّ.",
+      "usage_ar": "break a promise عكس keep a promise."
+    },
+    {
+      "group": "experience_collocations",
+      "word": "ride a camel",
+      "ipa": null,
+      "arabic": "يركب جملاً",
+      "example": "Have you ever ridden a camel?",
+      "group_label_ar": "تعابير التجارب",
+      "group_label_en": "Experience collocations",
+      "target": "ridden",
+      "sentence": "Have you ever ridden a camel?",
+      "sentence_ar": "هل سبق أن ركبت جملاً؟",
+      "usage_ar": "ride → rode → ridden، ونركب الخيل والجمال والدرّاجات بـ ride."
     }
   ],
   "minimal_pairs": [
     {
-      "group_label": "Linking and Disappearing Sounds",
-      "ipa": null,
-      "word_a": "last",
-      "word_b": "lust",
-      "group_label_ar": "الوصل والأصوات المختفية",
-      "hint_ar": "الأصوات تختفي مع السرعة: next day تُسمع «neks day»، وwant to تصير «wanna». هذه قاعدة لا إهمال — ومن يتوقّع كل صوت لا يفهم الكلام السريع."
+      "group_label": "-ed at the join: past or present?",
+      "group_label_ar": "نهاية -ed: ماضٍ أم مضارع؟",
+      "ipa": "/pleɪd ə/ — /pleɪ ə/",
+      "word_a": "We played a lot.",
+      "word_b": "We play a lot.",
+      "hint_ar": "النهاية -ed وحدها تخبرك بالزمن: played ماضٍ وplay مضارع. وحين تأتي بعدها كلمة تبدأ بحركة تلتصق /d/ أو /t/ بها فتُسمع: We played a lot تُسمع «play-da-lot». أمّا قبل ساكن (I walked to work) فتكاد تختفي، فاستمع لكلمة الوقت لتعرف الزمن."
     },
     {
-      "group_label": "Linking and Disappearing Sounds",
-      "ipa": null,
-      "word_a": "next",
-      "word_b": "necks",
-      "group_label_ar": "الوصل والأصوات المختفية",
-      "hint_ar": "الأصوات تختفي مع السرعة: next day تُسمع «neks day»، وwant to تصير «wanna». هذه قاعدة لا إهمال — ومن يتوقّع كل صوت لا يفهم الكلام السريع."
+      "group_label": "-ed at the join: past or present?",
+      "group_label_ar": "نهاية -ed: ماضٍ أم مضارع؟",
+      "ipa": "/kliːnd ɪt/ — /kliːn ɪt/",
+      "word_a": "They cleaned it.",
+      "word_b": "They clean it.",
+      "hint_ar": "النهاية -ed وحدها تخبرك بالزمن: played ماضٍ وplay مضارع. وحين تأتي بعدها كلمة تبدأ بحركة تلتصق /d/ أو /t/ بها فتُسمع: We played a lot تُسمع «play-da-lot». أمّا قبل ساكن (I walked to work) فتكاد تختفي، فاستمع لكلمة الوقت لتعرف الزمن."
     },
     {
-      "group_label": "Linking and Disappearing Sounds",
-      "ipa": null,
-      "word_a": "must",
-      "word_b": "mussed",
-      "group_label_ar": "الوصل والأصوات المختفية",
-      "hint_ar": "الأصوات تختفي مع السرعة: next day تُسمع «neks day»، وwant to تصير «wanna». هذه قاعدة لا إهمال — ومن يتوقّع كل صوت لا يفهم الكلام السريع."
+      "group_label": "-ed at the join: past or present?",
+      "group_label_ar": "نهاية -ed: ماضٍ أم مضارع؟",
+      "ipa": "/mɪst ɪt/ — /mɪs ɪt/",
+      "word_a": "I missed it.",
+      "word_b": "I miss it.",
+      "hint_ar": "النهاية -ed وحدها تخبرك بالزمن: played ماضٍ وplay مضارع. وحين تأتي بعدها كلمة تبدأ بحركة تلتصق /d/ أو /t/ بها فتُسمع: We played a lot تُسمع «play-da-lot». أمّا قبل ساكن (I walked to work) فتكاد تختفي، فاستمع لكلمة الوقت لتعرف الزمن."
+    },
+    {
+      "group_label": "-ed at the join: past or present?",
+      "group_label_ar": "نهاية -ed: ماضٍ أم مضارع؟",
+      "ipa": "/wɔːkt evri/ — /wɔːk evri/",
+      "word_a": "I walked every day.",
+      "word_b": "I walk every day.",
+      "hint_ar": "النهاية -ed وحدها تخبرك بالزمن: played ماضٍ وplay مضارع. وحين تأتي بعدها كلمة تبدأ بحركة تلتصق /d/ أو /t/ بها فتُسمع: We played a lot تُسمع «play-da-lot». أمّا قبل ساكن (I walked to work) فتكاد تختفي، فاستمع لكلمة الوقت لتعرف الزمن."
+    },
+    {
+      "group_label": "-ed at the join: past or present?",
+      "group_label_ar": "نهاية -ed: ماضٍ أم مضارع؟",
+      "ipa": "/lɪvd əˈbrɔːd/ — /lɪv əˈbrɔːd/",
+      "word_a": "I lived abroad.",
+      "word_b": "I live abroad.",
+      "hint_ar": "النهاية -ed وحدها تخبرك بالزمن: played ماضٍ وplay مضارع. وحين تأتي بعدها كلمة تبدأ بحركة تلتصق /d/ أو /t/ بها فتُسمع: We played a lot تُسمع «play-da-lot». أمّا قبل ساكن (I walked to work) فتكاد تختفي، فاستمع لكلمة الوقت لتعرف الزمن."
+    },
+    {
+      "group_label": "-ed at the join: past or present?",
+      "group_label_ar": "نهاية -ed: ماضٍ أم مضارع؟",
+      "ipa": "/ˈəʊpənd ɪt/ — /ˈəʊpən ɪt/",
+      "word_a": "They opened it.",
+      "word_b": "They open it.",
+      "hint_ar": "النهاية -ed وحدها تخبرك بالزمن: played ماضٍ وplay مضارع. وحين تأتي بعدها كلمة تبدأ بحركة تلتصق /d/ أو /t/ بها فتُسمع: We played a lot تُسمع «play-da-lot». أمّا قبل ساكن (I walked to work) فتكاد تختفي، فاستمع لكلمة الوقت لتعرف الزمن."
     }
   ],
   "dialogues": [
@@ -1936,7 +2455,7 @@
     {
       "number": 2,
       "title": "A Job Interview, Part Two",
-      "situation_en": "",
+      "situation_en": "Khaled is in a job interview. The manager asks about his experience.",
       "situation_ar": "مقابلة عمل — الجزء الثاني: أسئلة عن الخبرة.",
       "speaker_genders": {
         "MANAGER": "m",
@@ -2019,69 +2538,830 @@
   "sections": [
     {
       "kind": "grammar",
-      "day_number": 4,
-      "title_ar": "القواعد",
-      "title_en": "Grammar — The Present Perfect",
+      "day_number": 1,
+      "title_ar": "القواعد — التركيب: have / has + اسم المفعول",
+      "title_en": "Grammar — The Present Perfect: the form",
       "payload": {
-        "rule_ar": "المضارع التام (have/has + اسم المفعول) يربط الماضي بالحاضر: يتحدّث عن تجربة حدثت في وقت **غير محدّد**، وأثرها باقٍ الآن. ولهذا لا يُستعمل مع وقت محدّد: تقول I have seen it أو I saw it yesterday، ولا تجمع بينهما.",
-        "rule_en": "SUBJECT  +  have / has  +  PAST PARTICIPLE",
+        "rule_ar": "المضارع التام = have أو has + اسم المفعول (التصريف الثالث للفعل). have مع I وyou وwe وthey، وhas مع he وshe وit. وفي الكلام يُختصر: I've · she's. وفي النفي haven't وhasn't، وفي السؤال تتقدّم have أو has على الفاعل.",
+        "rule_en": "SUBJECT + have / has + PAST PARTICIPLE",
+        "table": {
+          "columns_ar": [
+            "الصيغة",
+            "I · you · we · they",
+            "he · she · it"
+          ],
+          "rows": [
+            [
+              "الإثبات",
+              "I have seen it.",
+              "She has seen it."
+            ],
+            [
+              "المختصر",
+              "I've seen it.",
+              "She's seen it."
+            ],
+            [
+              "النفي",
+              "I haven't seen it.",
+              "She hasn't seen it."
+            ],
+            [
+              "السؤال",
+              "Have you seen it?",
+              "Has she seen it?"
+            ],
+            [
+              "نعم",
+              "Yes, I have.",
+              "Yes, she has."
+            ],
+            [
+              "لا",
+              "No, I haven't.",
+              "No, she hasn't."
+            ]
+          ],
+          "say": 1,
+          "ar_cols": [
+            0
+          ]
+        },
+        "arabic_contrast_ar": "العربية ليس فيها زمن يقابل المضارع التام، ولا فعل مساعد مثل have في هذا الموضع. فيترجم المتعلّم «رأيتُه» إلى I saw it دائماً، وإن تذكّر have وضع بعدها الماضي: I have saw it. والقاعدة: بعد have وhas لا يأتي إلا اسم المفعول — seen لا saw، وbroken لا broke، وeaten لا ate.",
+        "contrast_table": [
+          {
+            "ar": "هي رأت الفيلم.",
+            "literal": "She have seen the film.",
+            "right": "She has seen the film.",
+            "rule_ar": "he وshe وit تأخذ has"
+          },
+          {
+            "ar": "أنا رأيته.",
+            "literal": "I have saw it.",
+            "right": "I have seen it.",
+            "rule_ar": "بعد have اسم المفعول لا الماضي"
+          }
+        ],
         "common_errors": [
           {
-            "error_no": 1,
-            "wrong": "Did you ever visit Turkey? (life experience)",
-            "right": "Have you ever visited Turkey?",
-            "arabic": "هل سبق أن زرت تركيا؟",
-            "why_ar": "تجربة بلا تاريخ ← المضارع التام"
-          },
-          {
-            "error_no": 2,
-            "wrong": "I lost my keys (and they are still lost)",
-            "right": "I have lost my keys.",
-            "arabic": "فقدت مفاتيحي",
-            "why_ar": "النتيجة تهمّ الآن"
-          },
-          {
-            "error_no": 3,
-            "wrong": "I haven't never been",
-            "right": "I have never been.",
-            "arabic": "لم أذهب أبداً",
-            "why_ar": "نفي واحد فقط"
-          },
-          {
-            "error_no": 4,
-            "wrong": "He has been to Cairo (and is still there)",
-            "right": "He has gone to Cairo.",
-            "arabic": "هو ذهب إلى القاهرة",
-            "why_ar": "gone = ما زال غائباً"
-          },
-          {
-            "error_no": 5,
-            "wrong": "She have seen it",
+            "wrong": "She have seen it.",
             "right": "She has seen it.",
-            "arabic": "هي رأت الفيلم",
-            "why_ar": "he و she و it تأخذ has"
+            "arabic": "هي رأته.",
+            "why_ar": "he وshe وit تأخذ has"
           },
           {
-            "error_no": 6,
-            "wrong": "I have saw it",
+            "wrong": "I have saw it.",
             "right": "I have seen it.",
-            "arabic": "أنا رأيته",
+            "arabic": "رأيته.",
             "why_ar": "اسم المفعول لا صيغة الماضي"
           },
           {
-            "error_no": 7,
-            "wrong": "Did you finish? (right now)",
-            "right": "Have you finished?",
-            "arabic": "هل انتهيت؟",
-            "why_ar": "النتيجة تهمّ الآن"
+            "wrong": "She has broke her arm.",
+            "right": "She has broken her arm.",
+            "arabic": "كسرت ذراعها.",
+            "why_ar": "break → broke → broken"
+          },
+          {
+            "wrong": "They has finished.",
+            "right": "They have finished.",
+            "arabic": "انتهوا.",
+            "why_ar": "they تأخذ have"
+          },
+          {
+            "wrong": "Have you seen it? — Yes, I saw.",
+            "right": "Have you seen it? — Yes, I have.",
+            "arabic": "هل رأيته؟ — نعم.",
+            "why_ar": "الجواب القصير يكرّر have لا الفعل"
           }
         ],
+        "negation_ar": "النفي: haven't أو hasn't + اسم المفعول — I haven't seen it · She hasn't finished.",
+        "question_ar": "السؤال: Have أو Has قبل الفاعل — Have you seen it? · Has she finished? والجواب القصير: Yes, I have · No, she hasn't.",
         "checklist_ar": [
           "have مع I/you/we/they · has مع he/she/it",
           "بعدهما اسم المفعول لا الماضي البسيط",
-          "لا وقت محدّد مع المضارع التام",
-          "have been to = ذهبت وعدت · have gone to = ذهب ولم يعد",
-          "السؤال بـHave/Has في أوّله"
+          "الجواب القصير يكرّر have أو has",
+          "'s بعدها اسم مفعول = has"
+        ],
+        "lessons": [
+          {
+            "title_ar": "اسم المفعول: ثلاث مجموعات",
+            "title_en": "Past participles: three groups",
+            "explain_ar": "في الأفعال المنتظمة اسم المفعول هو الماضي نفسه: worked → worked. وفي الشاذّة تحفظه — والخبر الجيّد أن ثلثها تقريباً مثل الماضي. ولاحظ المجموعة الثالثة: معظمها ينتهي بـ -en أو -n (taken · given · written · spoken · broken · known · flown)، فتصير عشرون صيغة قاعدةً واحدة باستثناءات قليلة.",
+            "table": {
+              "columns_ar": [
+                "المجموعة",
+                "أمثلة",
+                "القاعدة"
+              ],
+              "rows": [
+                [
+                  "الثلاث واحدة",
+                  "cut · put · let · cost · hurt · read",
+                  "لا تتغيّر"
+                ],
+                [
+                  "الماضي = اسم المفعول",
+                  "bought · thought · found · made · told · met",
+                  "احفظ الماضي تعرف الثالث"
+                ],
+                [
+                  "ثلاث صيغ مختلفة",
+                  "seen · taken · given · written · known · flown",
+                  "أكثرها بـ -en أو -n"
+                ],
+                [
+                  "المنتظمة",
+                  "worked · visited · played · tried",
+                  "مثل الماضي: -ed"
+                ]
+              ],
+              "say": 1,
+              "ar_cols": [
+                0,
+                2
+              ]
+            },
+            "examples": [
+              {
+                "en": "I have cut my finger.",
+                "ar": "جرحت إصبعي."
+              },
+              {
+                "en": "She has bought a new car.",
+                "ar": "اشترت سيارة جديدة."
+              },
+              {
+                "en": "We have written to the manager.",
+                "ar": "كتبنا إلى المدير."
+              },
+              {
+                "en": "They have visited us twice.",
+                "ar": "زارونا مرّتين."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "I have ate already.",
+                "right": "I have already eaten.",
+                "why_ar": "eat → ate → eaten"
+              },
+              {
+                "wrong": "He has buyed a car.",
+                "right": "He has bought a car.",
+                "why_ar": "buy شاذّ: bought في الماضي واسم المفعول (الخطأ 13)"
+              }
+            ],
+            "tip_ar": "read تُكتب كما هي في الثلاث، لكن الماضي واسم المفعول يُنطقان مثل red."
+          },
+          {
+            "title_ar": "'s: هل هي is أم has؟",
+            "title_en": "'s = is or has",
+            "explain_ar": "'s لها معنيان. She's a doctor = she is. وShe's seen it = she has. وتعرف الفرق بما يأتي بعدها: إن جاء اسم مفعول فهي has، وإن جاء اسم أو صفة أو فعل بـ -ing فهي is.",
+            "table": {
+              "columns_ar": [
+                "الجملة",
+                "المعنى",
+                "بعد 's"
+              ],
+              "rows": [
+                [
+                  "She's a doctor.",
+                  "she is",
+                  "اسم"
+                ],
+                [
+                  "He's tired.",
+                  "he is",
+                  "صفة"
+                ],
+                [
+                  "She's working.",
+                  "she is",
+                  "فعل بـ -ing"
+                ],
+                [
+                  "She's seen it.",
+                  "she has",
+                  "اسم مفعول"
+                ],
+                [
+                  "He's gone home.",
+                  "he has",
+                  "اسم مفعول"
+                ]
+              ],
+              "say": 0,
+              "ar_cols": [
+                2
+              ]
+            },
+            "examples": [
+              {
+                "en": "It's cold today.",
+                "ar": "it is — الجو بارد اليوم."
+              },
+              {
+                "en": "It's stopped raining.",
+                "ar": "it has — توقّف المطر."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "She's saw it.",
+                "right": "She's seen it.",
+                "why_ar": "'s هنا has، فبعدها اسم المفعول"
+              }
+            ],
+            "tip_ar": "في السؤال والجواب القصير لا تختصر has: Has she seen it? — Yes, she has."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 2,
+      "title_ar": "القواعد — المعنى: النتيجة الآن",
+      "title_en": "Grammar — What the Present Perfect actually means",
+      "payload": {
+        "rule_ar": "المضارع التام ليس زمناً ماضياً: هو زمن حاضر يتكلّم عن نتيجةٍ الآن لشيء حدث قبلُ، أو عن رصيد حياتك حتى اليوم. والاختبار الذي ينجح: إن كانت الجملة تجيب «ما الوضع الآن؟» فالمضارع التام، وإن أجابت «ماذا حدث، ومتى؟» فالماضي البسيط. ولهذا لا يجتمع المضارع التام مع وقت منتهٍ (yesterday · last year · ago · in 2019).",
+        "table": {
+          "columns_ar": [
+            "الجملة",
+            "المعنى الحقيقي"
+          ],
+          "rows": [
+            [
+              "I have lost my keys.",
+              "المفاتيح ضائعة الآن — وهذا هو المقصود"
+            ],
+            [
+              "I lost my keys yesterday.",
+              "حدث انتهى أمس — وربما وجدتها بعده"
+            ],
+            [
+              "She has broken her arm.",
+              "ذراعها مكسورة الآن"
+            ],
+            [
+              "He has gone to Cairo.",
+              "هو في القاهرة الآن، لا هنا"
+            ],
+            [
+              "I have finished.",
+              "أنا متفرّغ الآن"
+            ]
+          ],
+          "say": 0,
+          "ar_cols": [
+            1
+          ]
+        },
+        "arabic_contrast_ar": "هنا لا تعينك العربية: «فقدتُ مفاتيحي» و«فقدتُها أمس» فعل ماضٍ واحد عندنا، والإنجليزية تفصل بينهما. فالمتعلّم يقع في خطأين: يضع وقتاً منتهياً مع المضارع التام (I have seen him two days ago)، أو يستعمل المضارع البسيط لما بدأ في الماضي وما زال (We know each other for years) لأن العربية تقول «نعرف بعضنا منذ سنوات». ولا تتوقّع أن يصير طبيعياً هذا الأسبوع — يتّضح في الأسبوع 14 حين تقارنه بالماضي البسيط.",
+        "contrast_table": [
+          {
+            "ar": "رأيته قبل يومين.",
+            "literal": "I have seen him two days ago.",
+            "right": "I saw him two days ago.",
+            "rule_ar": "مع ago وقت منتهٍ، فالماضي البسيط (الخطأ 17)"
+          },
+          {
+            "ar": "نعرف بعضنا منذ سنوات.",
+            "literal": "We know each other for years.",
+            "right": "We have known each other for years.",
+            "rule_ar": "بدأ في الماضي وما زال: المضارع التام (الخطأ 16)"
+          }
+        ],
+        "common_errors": [
+          {
+            "error_no": 17,
+            "wrong": "I have seen him two days ago.",
+            "right": "I saw him two days ago.",
+            "arabic": "رأيته قبل يومين.",
+            "why_ar": "ago وyesterday وlast… أوقات منتهية: الماضي البسيط"
+          },
+          {
+            "error_no": 16,
+            "wrong": "We know each other for years.",
+            "right": "We have known each other for years.",
+            "arabic": "نعرف بعضنا منذ سنوات.",
+            "why_ar": "ما بدأ في الماضي وما زال مستمراً مع for: المضارع التام"
+          },
+          {
+            "wrong": "I have lost my keys yesterday.",
+            "right": "I lost my keys yesterday.",
+            "arabic": "أضعت مفاتيحي أمس.",
+            "why_ar": "yesterday وقت منتهٍ"
+          }
+        ],
+        "negation_ar": "النفي يحمل المعنى نفسه: I haven't finished = لم أنتهِ بعد، وما زلت أعمل الآن.",
+        "question_ar": "السؤال عن الوضع الآن: Have you finished? (هل أنت متفرّغ؟) — والسؤال عن وقت منتهٍ: Did you finish it yesterday?",
+        "checklist_ar": [
+          "ما الوضع الآن؟ ← المضارع التام",
+          "ماذا حدث، ومتى؟ ← الماضي البسيط",
+          "لا ago ولا yesterday ولا last… مع have"
+        ],
+        "lessons": [
+          {
+            "title_ar": "البريطانية والأمريكية",
+            "title_en": "British and American English",
+            "explain_ar": "في الإنجليزية الأمريكية ستسمع I lost my keys وDid you finish? بمعنى «النتيجة الآن» أيضاً، وهذا ليس خطأً هناك. أمّا البريطانية فتستعمل المضارع التام: I've lost my keys · Have you finished? — وهو صحيح في الاثنتين، فتعلّمه أولاً. لكن مع وقت منتهٍ (yesterday · ago) يكون الماضي البسيط وحده الصحيح في كل مكان.",
+            "examples": [
+              {
+                "en": "I've lost my keys. Can you help me look?",
+                "ar": "أضعت مفاتيحي. هل تساعدني في البحث؟"
+              },
+              {
+                "en": "Have you finished? Then let's go.",
+                "ar": "هل انتهيت؟ إذن لنذهب."
+              },
+              {
+                "en": "I lost my keys yesterday, but I found them this morning.",
+                "ar": "أضعت مفاتيحي أمس، لكنّي وجدتها هذا الصباح."
+              }
+            ],
+            "tip_ar": "إن ذكرت متى ← الماضي البسيط. وإن لم تذكر وكان المهمّ الآن ← المضارع التام."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 3,
+      "title_ar": "القواعد — التجربة في حياتك: ever · never · How many times",
+      "title_en": "Grammar — Experience: ever, never, once, How many times…?",
+      "payload": {
+        "rule_ar": "أسهل استعمالات المضارع التام وأهمّها هذا الأسبوع: حياتك حتى الآن، بلا ذكر متى. ever = «في أي وقت من حياتك» وتأتي في السؤال قبل اسم المفعول. never = «لم… قطّ» وتأتي قبل اسم المفعول، وفيها النفي أصلاً فلا تجمعها مع not. وonce وtwice وthree times في آخر الجملة. فإن ذكرت متى انتقلت إلى الماضي البسيط.",
+        "table": {
+          "columns_ar": [
+            "الكلمة",
+            "موضعها",
+            "مثال"
+          ],
+          "rows": [
+            [
+              "ever",
+              "في السؤال، قبل اسم المفعول",
+              "Have you ever flown?"
+            ],
+            [
+              "never",
+              "في الإثبات، قبل اسم المفعول",
+              "I have never flown."
+            ],
+            [
+              "once · twice · three times",
+              "في آخر الجملة",
+              "I've been there twice."
+            ],
+            [
+              "How many times…?",
+              "في أول السؤال",
+              "How many times have you flown?"
+            ]
+          ],
+          "say": 2,
+          "ar_cols": [
+            1
+          ]
+        },
+        "arabic_contrast_ar": "العربية تقول «لم أذهب أبداً» بأداتين: لم + أبداً، فيخرج I haven't never been — نفي مزدوج. وnever وحدها تكفي: I have never been. وتقول «هل سبق أن زرت؟» بفعل ماضٍ، فيضع المتعلّم الماضي بعد have: Have you ever went? والصواب اسم المفعول: Have you ever been?",
+        "contrast_table": [
+          {
+            "ar": "لم أذهب أبداً.",
+            "literal": "I haven't never been.",
+            "right": "I have never been.",
+            "rule_ar": "نفي واحد فقط"
+          },
+          {
+            "ar": "هل سبق أن زرت تركيا؟",
+            "literal": "Have you ever visit Turkey?",
+            "right": "Have you ever visited Turkey?",
+            "rule_ar": "التجربة بلا تاريخ: have + اسم المفعول"
+          }
+        ],
+        "common_errors": [
+          {
+            "wrong": "I haven't never been to Europe.",
+            "right": "I have never been to Europe.",
+            "arabic": "لم أذهب إلى أوروبا أبداً.",
+            "why_ar": "never تعني «لا» أصلاً — نفي واحد. ويصحّ أيضاً I haven't ever been."
+          },
+          {
+            "wrong": "I have been never to Europe.",
+            "right": "I have never been to Europe.",
+            "arabic": "لم أذهب إلى أوروبا قطّ.",
+            "why_ar": "never قبل اسم المفعول"
+          },
+          {
+            "wrong": "I have ever been to Turkey.",
+            "right": "I have been to Turkey.",
+            "arabic": "ذهبت إلى تركيا.",
+            "why_ar": "ever للسؤال، لا للإثبات"
+          },
+          {
+            "wrong": "Have you ever went to Turkey?",
+            "right": "Have you ever been to Turkey?",
+            "arabic": "هل سبق أن ذهبت إلى تركيا؟",
+            "why_ar": "بعد have اسم المفعول، وللزيارة been"
+          }
+        ],
+        "negation_ar": "النفي بـ never: I have never eaten sushi. أو بـ not … ever: I haven't ever eaten sushi. واحدة منهما لا الاثنتان.",
+        "question_ar": "السؤال: Have you ever + اسم المفعول؟ — Yes, I have. / No, I haven't. / No, never. وعن العدد: How many times have you…? — Twice. / Only once.",
+        "checklist_ar": [
+          "ever في السؤال · never في الإثبات",
+          "never بلا not",
+          "once · twice في آخر الجملة",
+          "ذكرت متى؟ ← الماضي البسيط"
+        ],
+        "lessons": [
+          {
+            "title_ar": "كم مرّة؟ How many times have you…?",
+            "title_en": "How many times have you…?",
+            "explain_ar": "لتسأل عن عدد التجارب: How many times + have/has + الفاعل + اسم المفعول؟ والجواب قصير غالباً: Once · Twice · Three times · Many times · Never. ولا تذكر وقتاً منتهياً: العدد عن حياتك كلّها حتى الآن.",
+            "table": {
+              "columns_ar": [
+                "السؤال",
+                "الجواب",
+                "بالعربية"
+              ],
+              "rows": [
+                [
+                  "How many times have you been to Cairo?",
+                  "Twice.",
+                  "كم مرة ذهبت إلى القاهرة؟ — مرّتين."
+                ],
+                [
+                  "How many times has she flown?",
+                  "Only once.",
+                  "كم مرة ركبت الطائرة؟ — مرة واحدة فقط."
+                ],
+                [
+                  "How many countries have you visited?",
+                  "Four.",
+                  "كم بلداً زرت؟ — أربعة."
+                ]
+              ],
+              "say": 0,
+              "ar_cols": [
+                2
+              ]
+            },
+            "examples": [
+              {
+                "en": "Have you ever been to Turkey? — Yes, I have. Twice.",
+                "ar": "هل سبق أن ذهبت إلى تركيا؟ — نعم، مرّتين."
+              },
+              {
+                "en": "I have never eaten sushi.",
+                "ar": "لم آكل السوشي قطّ."
+              },
+              {
+                "en": "She has visited four countries.",
+                "ar": "زارت أربعة بلدان."
+              },
+              {
+                "en": "We have met before, I think.",
+                "ar": "التقينا من قبل، على ما أظن."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "How many times you have been to Cairo?",
+                "right": "How many times have you been to Cairo?",
+                "why_ar": "في السؤال تتقدّم have على الفاعل (قارن الخطأ 5)"
+              },
+              {
+                "wrong": "How many times have you went there?",
+                "right": "How many times have you been there?",
+                "why_ar": "بعد have اسم المفعول"
+              }
+            ],
+            "tip_ar": "سؤال مفتوح يقود المحادثة: Have you ever…? ثم How many times? ثم When was that? — وهنا تنتقل إلى الماضي."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 4,
+      "title_ar": "القواعد — been أم gone؟",
+      "title_en": "Grammar — been vs gone",
+      "payload": {
+        "rule_ar": "للفعل go اسما مفعول. He has gone to Cairo: ذهب وهو في القاهرة الآن، ليس هنا. He has been to Cairo: زارها في وقتٍ ما ثم عاد. والسؤال الذي يحسمها: أين هو الآن؟",
+        "table": {
+          "columns_ar": [
+            "الجملة",
+            "أين هو الآن؟"
+          ],
+          "rows": [
+            [
+              "My brother has gone to London.",
+              "في لندن"
+            ],
+            [
+              "My brother has been to London.",
+              "هنا — ذهب وعاد"
+            ],
+            [
+              "Where's Sara? She's gone to the bank.",
+              "في البنك"
+            ],
+            [
+              "Sara has been to the bank.",
+              "عادت إلى المكتب ومعها المال"
+            ]
+          ],
+          "say": 0,
+          "ar_cols": [
+            1
+          ]
+        },
+        "arabic_contrast_ar": "العربية تقول «ذهب إلى القاهرة» في الحالتين، فلا يفرّق المتعلّم بين من رجع ومن لم يرجع. والإنجليزية تفرّق باسم المفعول: gone لمن ما زال غائباً، وbeen لمن زار ورجع. ولهذا يكون سؤال التجربة دائماً بـ been: Have you ever been to…? — فأنت هنا تجيب، لا هناك.",
+        "contrast_table": [
+          {
+            "ar": "هو ذهب إلى القاهرة (وما زال هناك).",
+            "literal": "He has been to Cairo.",
+            "right": "He has gone to Cairo.",
+            "rule_ar": "gone = ما زال غائباً"
+          }
+        ],
+        "common_errors": [
+          {
+            "wrong": "He has been to Cairo. (and he is still there)",
+            "right": "He has gone to Cairo.",
+            "arabic": "ذهب إلى القاهرة.",
+            "why_ar": "gone = ما زال غائباً"
+          },
+          {
+            "wrong": "I have gone to Turkey twice.",
+            "right": "I have been to Turkey twice.",
+            "arabic": "ذهبت إلى تركيا مرّتين.",
+            "why_ar": "أنت هنا تتكلّم، إذن رجعت: been"
+          },
+          {
+            "wrong": "Have you ever gone to Jordan?",
+            "right": "Have you ever been to Jordan?",
+            "arabic": "هل سبق أن ذهبت إلى الأردن؟",
+            "why_ar": "سؤال التجربة بـ been"
+          }
+        ],
+        "negation_ar": "النفي: I have never been to Europe = لم أزرها قطّ. وHe hasn't gone yet = لم يغادر بعد، ما زال هنا.",
+        "question_ar": "السؤال: Have you ever been to…? للتجربة. وWhere has he gone? لمن غاب — والجواب: He's gone to the shop.",
+        "checklist_ar": [
+          "have been to = ذهب وعاد",
+          "have gone to = ذهب ولم يعد",
+          "سؤال التجربة دائماً بـ been"
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 5,
+      "title_ar": "القواعد — bored أم boring؟ صفات -ed و-ing",
+      "title_en": "Grammar — -ed and -ing adjectives",
+      "payload": {
+        "rule_ar": "صفات كثيرة تأتي بصيغتين. -ed تصف شعورك أنت، ما في داخلك: I was bored = شعرت بالملل. و-ing تصف الشيء أو الشخص الذي سبّب الشعور: The film was boring = الفيلم مملّ. وفي حديث التجارب تحتاجهما معاً: It was amazing — I was amazed.",
+        "table": {
+          "columns_ar": [
+            "الشعور (-ed)",
+            "السبب (-ing)",
+            "مثال",
+            "بالعربية"
+          ],
+          "rows": [
+            [
+              "bored",
+              "boring",
+              "I was bored. The lesson was boring.",
+              "مللت · الدرس مملّ"
+            ],
+            [
+              "interested",
+              "interesting",
+              "I'm interested in history. It's interesting.",
+              "مهتمّ · مثير للاهتمام"
+            ],
+            [
+              "excited",
+              "exciting",
+              "We were excited. The match was exciting.",
+              "متحمّسون · مثيرة"
+            ],
+            [
+              "tired",
+              "tiring",
+              "I'm tired. The trip was tiring.",
+              "متعب · مُرهِقة"
+            ],
+            [
+              "surprised",
+              "surprising",
+              "She was surprised. The news was surprising.",
+              "متفاجئة · مفاجئ"
+            ],
+            [
+              "amazed",
+              "amazing",
+              "I was amazed. The view was amazing.",
+              "منبهر · مذهل"
+            ]
+          ],
+          "say": 2,
+          "ar_cols": [
+            3
+          ]
+        },
+        "arabic_contrast_ar": "هنا يقع الخطأ: العربية تفرّق بين «ملول» و«مملّ» و«متعَب» و«مُتعِب» بالحركات، والمتعلّم لا يرى هذا الفرق في الإنجليزية فيقول I am boring وهو يقصد «أشعر بالملل» — لكنها تعني «أنا شخص مملّ»! والسؤال الذي يحسمها: هل أصف ما أشعر به؟ ← -ed. هل أصف ما سبّب الشعور؟ ← -ing.",
+        "contrast_table": [
+          {
+            "ar": "أنا ملول في هذا الدرس.",
+            "literal": "I am boring in this lesson.",
+            "right": "I am bored in this lesson.",
+            "rule_ar": "شعورك أنت: -ed"
+          },
+          {
+            "ar": "أنا مهتمّ بكرة القدم.",
+            "literal": "I'm interesting in football.",
+            "right": "I'm interested in football.",
+            "rule_ar": "interested in لشعورك"
+          }
+        ],
+        "common_errors": [
+          {
+            "wrong": "I am boring. I have nothing to do.",
+            "right": "I am bored. I have nothing to do.",
+            "arabic": "أشعر بالملل. ليس عندي ما أفعله.",
+            "why_ar": "boring تصف ما يسبّب الملل؛ وأنت تشعر به: bored"
+          },
+          {
+            "wrong": "The film was bored.",
+            "right": "The film was boring.",
+            "arabic": "كان الفيلم مملّاً.",
+            "why_ar": "الفيلم لا يشعر؛ هو سبب الملل: -ing"
+          },
+          {
+            "wrong": "I'm very interesting in football.",
+            "right": "I'm very interested in football.",
+            "arabic": "أنا مهتمّ جداً بكرة القدم.",
+            "why_ar": "شعورك: interested in"
+          },
+          {
+            "wrong": "We were very exciting about the trip.",
+            "right": "We were very excited about the trip.",
+            "arabic": "كنّا متحمّسين جداً للرحلة.",
+            "why_ar": "شعورك: excited about"
+          }
+        ],
+        "checklist_ar": [
+          "أصف شعوري ← -ed (bored · tired · amazed)",
+          "أصف الشيء الذي سبّبه ← -ing (boring · tiring · amazing)",
+          "interested in · excited about"
+        ],
+        "lessons": [
+          {
+            "title_ar": "الأشخاص أيضاً قد يكونون -ing",
+            "title_en": "People can be -ing too",
+            "explain_ar": "صفة -ing تصف الشخص إن كان هو سبب الشعور عند الآخرين: He is boring = هو شخص مملّ يُشعر الناس بالملل. وShe is interesting = حديثها ممتع. فانتبه: I am boring جملة صحيحة نحواً، لكنها تقول عن نفسك ما لا تقصده.",
+            "examples": [
+              {
+                "en": "Our new teacher is very interesting.",
+                "ar": "معلّمنا الجديد ممتع جداً."
+              },
+              {
+                "en": "I was so tired after the trip.",
+                "ar": "كنت متعباً جداً بعد الرحلة."
+              },
+              {
+                "en": "Have you ever been really surprised?",
+                "ar": "هل سبق أن تفاجأت حقّاً؟"
+              },
+              {
+                "en": "It was the most exciting day of my life.",
+                "ar": "كان أكثر أيام حياتي إثارة."
+              }
+            ],
+            "tip_ar": "مع التجارب: What was it like? — It was amazing. / How did you feel? — I was amazed."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 6,
+      "title_ar": "القواعد — the best … I've ever · It's the first time I've…",
+      "title_en": "Grammar — Superlative + Present Perfect",
+      "payload": {
+        "rule_ar": "لتتحدّث عن أفضل تجاربك أو أسوئها أو أوّلها: صيغة التفضيل + اسم + الفاعل + have + ever + اسم المفعول: It's the best film I've ever seen. وIt's the first time I've… لشيء تفعله الآن أول مرة في حياتك. في الحالتين المقارنة مع حياتك كلّها حتى الآن، فالزمن مضارع تام.",
+        "table": {
+          "columns_ar": [
+            "التركيب",
+            "مثال",
+            "بالعربية"
+          ],
+          "rows": [
+            [
+              "the best … I've ever …",
+              "It's the best film I've ever seen.",
+              "أفضل فيلم شاهدته في حياتي"
+            ],
+            [
+              "the worst … I've ever …",
+              "It's the worst meal I've ever eaten.",
+              "أسوأ وجبة أكلتها في حياتي"
+            ],
+            [
+              "the most … I've ever …",
+              "She's the most interesting person I've ever met.",
+              "أمتع شخص قابلته في حياتي"
+            ],
+            [
+              "the -est … I've ever …",
+              "It's the longest flight I've ever taken.",
+              "أطول رحلة جوية ركبتها"
+            ],
+            [
+              "It's the first time I've …",
+              "It's the first time I've seen snow.",
+              "هذه أول مرة أرى فيها الثلج"
+            ]
+          ],
+          "say": 1,
+          "ar_cols": [
+            0,
+            2
+          ]
+        },
+        "arabic_contrast_ar": "العربية تقول «هذه أول مرة أرى فيها الثلج» بفعل مضارع، فيخرج It's the first time I see snow — والإنجليزية تحتاج المضارع التام: It's the first time I've seen snow، لأنها تعدّ تجاربك حتى الآن. وانتبه إلى ever لا never: the best film I've never seen تعني «أفضل فيلم لم أشاهده»!",
+        "contrast_table": [
+          {
+            "ar": "هذه أول مرة أرى فيها الثلج.",
+            "literal": "It's the first time I see snow.",
+            "right": "It's the first time I've seen snow.",
+            "rule_ar": "the first time + المضارع التام"
+          },
+          {
+            "ar": "هي ألطف شخص قابلته.",
+            "literal": "She's the kindest person I have ever meet.",
+            "right": "She's the kindest person I have ever met.",
+            "rule_ar": "بعد have اسم المفعول"
+          }
+        ],
+        "common_errors": [
+          {
+            "wrong": "It's the first time I see snow.",
+            "right": "It's the first time I've seen snow.",
+            "arabic": "هذه أول مرة أرى فيها الثلج.",
+            "why_ar": "the first time + المضارع التام"
+          },
+          {
+            "wrong": "This is the best film I have never seen.",
+            "right": "This is the best film I have ever seen.",
+            "arabic": "هذا أفضل فيلم شاهدته.",
+            "why_ar": "ever لا never — never تقلب المعنى"
+          },
+          {
+            "wrong": "She's the kindest person I have ever meet.",
+            "right": "She's the kindest person I have ever met.",
+            "arabic": "هي ألطف شخص قابلته.",
+            "why_ar": "meet → met → met"
+          },
+          {
+            "wrong": "It's the more beautiful place I've ever visited.",
+            "right": "It's the most beautiful place I've ever visited.",
+            "arabic": "إنه أجمل مكان زرته.",
+            "why_ar": "التفضيل: the most لا the more (الأسبوع 10)"
+          }
+        ],
+        "checklist_ar": [
+          "the best / the most … + I've ever + اسم المفعول",
+          "ever لا never في هذا التركيب",
+          "It's the first time I've + اسم المفعول"
+        ],
+        "lessons": [
+          {
+            "title_ar": "أمثلة للحديث عن حياتك",
+            "title_en": "Talking about your best and first experiences",
+            "explain_ar": "هذه الجمل تفتح حديثاً حقيقياً: تقول أفضل شيء ثم تنتقل إلى الماضي البسيط للتفاصيل — متى وأين ومع من.",
+            "examples": [
+              {
+                "en": "It's the best holiday I've ever had. We went to Turkey in 2019.",
+                "ar": "إنها أفضل عطلة قضيتها. ذهبنا إلى تركيا سنة 2019."
+              },
+              {
+                "en": "That's the most difficult exam I've ever taken.",
+                "ar": "ذلك أصعب امتحان قدّمته في حياتي."
+              },
+              {
+                "en": "Is this the first time you've been to Egypt?",
+                "ar": "هل هذه أول مرة تزور فيها مصر؟"
+              },
+              {
+                "en": "What's the strangest food you've ever tried?",
+                "ar": "ما أغرب طعام جرّبته في حياتك؟"
+              }
+            ],
+            "tip_ar": "سؤال المحادثة الذهبي: What's the best … you've ever …? ثم تابع بـ When was that? و What was it like?"
+          }
         ]
       }
     },
@@ -2091,9 +3371,75 @@
       "title_ar": "النطق",
       "title_en": "Pronunciation — Linking and Disappearing Sounds",
       "payload": {
-        "intro_ar": "في الكلام السريع تختفي حدود الكلمات وتسقط أصوات كاملة. last night تصير «لاس نايت»، وnext day تصير «نيكس داي» — والحرف لم يُنطق أصلاً.",
-        "symbols": [],
-        "tip_ar": "لا تحاول نطقها كاملة ثم تسريعها. الطريقة الأسرع: اسمع الجملة عشر مرات ثم قلّدها ككتلة واحدة بلا تحليل."
+        "intro_ar": "في الكلام السريع تختفي حدود الكلمات وتسقط أصوات كاملة. last night تصير «las night»، وnext day تصير «nex day»، و I've always wanted to — خمس كلمات — تُسمع كأنها كلمتان. وفي المضارع التام هذا لا مفرّ منه: have تُختصر وتلتصق بما حولها.",
+        "symbols": [
+          {
+            "ipa": "ساكن ← حركة",
+            "arabic_hint": "الكلمة المنتهية بساكن تلتصق بالتي تبدأ بحركة: an office تُسمع «a-noffice»",
+            "examples": [
+              "an office",
+              "an hour",
+              "We have arrived",
+              "She has eaten it"
+            ],
+            "note_ar": "التوقّف بين الكلمات يجعل الكلام مقطّعاً وبطيئاً.",
+            "fix_ar": "انقل الساكن الأخير إلى أوّل الكلمة التالية: We have arrived ← «Wee-va-rived»."
+          },
+          {
+            "ipa": "ساكن + الساكن نفسه",
+            "arabic_hint": "إذا انتهت الكلمة بالصوت الذي تبدأ به التالية نُطق مرّة واحدة: black car ← «bla-car»",
+            "examples": [
+              "black car",
+              "bus stop",
+              "good day"
+            ]
+          },
+          {
+            "ipa": "حركة ← حركة: /w/ · /j/",
+            "arabic_hint": "بين حركتين يظهر صوت صغير: go out ← «go-w-out»، she is ← «she-y-is»",
+            "examples": [
+              "go out",
+              "do it",
+              "she is",
+              "the end"
+            ]
+          },
+          {
+            "ipa": "/t/ تسقط",
+            "arabic_hint": "/t/ بين ساكنين تسقط عند المتحدّث الأصلي: last night «las night» · next day «nex day» · must be «mus be»",
+            "examples": [
+              "last night",
+              "next day",
+              "must be",
+              "about the"
+            ],
+            "note_ar": "تنتظر سماع t فلا تجدها، فتظنّ أنها كلمة أخرى.",
+            "fix_ar": "هذه مهارة سماع أولاً: لا يلزمك أن تُسقطها في كلامك — نطق كل /t/ صحيح وواضح."
+          },
+          {
+            "ipa": "/d/ تسقط · نهاية -ed",
+            "arabic_hint": "handbag تُسمع «hanbag». ونهاية -ed قبل ساكن تكاد تختفي: I walked to work، فاعرف الزمن من كلمة الوقت",
+            "examples": [
+              "handbag",
+              "old friend",
+              "I walked to work",
+              "We played a lot"
+            ],
+            "note_ar": "قبل حركة تُسمع -ed بوضوح لأنها تلتصق بما بعدها: We played a lot ← «play-da-lot». وهذا تمرين لعبة التمييز هذا الأسبوع."
+          },
+          {
+            "ipa": "اندماج كامل",
+            "arabic_hint": "عبارات شائعة تندمج: I don't know ← «I dunno» · want to ← «wanna»",
+            "examples": [
+              "I don't know",
+              "want to",
+              "I've always wanted to",
+              "Have you ever been"
+            ],
+            "note_ar": "I've always wanted to ← «I-va-vall-ways-wan-ted-to»، وHave you ever been ← «Ha-vyou-we-ver-been»."
+          }
+        ],
+        "tip_ar": "لا تحاول نطقها كاملة ثم تسريعها. الطريقة الأسرع: اسمع الجملة عشر مرات ثم قلّدها كتلةً واحدة. وقل كل سطر خمس مرات بلا توقّف بين الكلمات: I've always wanted to visit Egypt · Have you ever eaten it? · She has arrived at the airport · We have another hour."
       }
     },
     {
@@ -2130,15 +3476,62 @@
             "ar": "لم آكل وحدي في مطعم قطّ. أردت ذلك. ووقفت خارج ثلاثة أو أربعة منها، ونظرت إلى الداخل، ثم عدت إلى بيتي مشياً."
           },
           {
-            "en": "Last month I did one thing from the list. I went to a concert alone. I bought one ticket, I sat between two groups of strangers, and it was completely fine. Nobody looked at me. Nobody cared. I walked home feeling stupid — not because I went, but because I have avoided it for twenty years for no reason at all.",
-            "ar": "في الشهر الماضي فعلت شيئاً من القائمة. ذهبت إلى حفل موسيقي وحدي. اشتريت تذكرة واحدة، وجلست بين مجموعتين من الغرباء، وكان الأمر عادياً تماماً. لم ينظر إليّ أحد. ولم يهتمّ أحد. وعدت إلى البيت أشعر بالحماقة — لا لأنني ذهبت، بل لأنني تجنّبت ذلك عشرين سنة بلا أي سبب."
+            "en": "Last month I did one thing from the list. I went to the cinema alone. I bought one ticket, I sat between two groups of strangers, and it was completely fine. Nobody looked at me. Nobody cared. I walked home feeling stupid — not because I went, but because I have avoided it for twenty years for no reason at all.",
+            "ar": "في الشهر الماضي فعلت شيئاً من القائمة. ذهبت إلى السينما وحدي. اشتريت تذكرة واحدة، وجلست بين مجموعتين من الغرباء، وكان الأمر عادياً تماماً. لم ينظر إليّ أحد. ولم يهتمّ أحد. وعدت إلى البيت أشعر بالحماقة — لا لأنني ذهبت، بل لأنني تجنّبت ذلك عشرين سنة بلا أي سبب."
           },
           {
             "en": "So this year I am going to learn to swim. I have said this before. But this time I have told other people, which apparently makes a difference.",
             "ar": "فهذه السنة سأتعلّم السباحة. قلت هذا من قبل. لكنني هذه المرة أخبرت أشخاصاً آخرين، وهذا يُحدث فرقاً على ما يبدو."
           }
         ],
-        "questions": []
+        "questions": [
+          {
+            "q_ar": "عمّ يتحدّث النصّ في جملة واحدة؟",
+            "a_ar": "عن قائمة أشياء لم يفعلها الكاتب قطّ، وعن شيء واحد منها فعله أخيراً — وخطّته لهذه السنة."
+          },
+          {
+            "q_ar": "كم بلداً زار؟",
+            "a_ar": "أحد عشر بلداً."
+          },
+          {
+            "q_ar": "كم مرة غيّر مساره المهني؟",
+            "a_ar": "مرّتين."
+          },
+          {
+            "q_ar": "لماذا لم يتعلّم السباحة قطّ؟",
+            "a_ar": "حاول أبوه أن يعلّمه وهو في السادسة، فأصابه الذعر وصرخ أبوه، ولم يذكر أحدهما الأمر منذ ذلك اليوم."
+          },
+          {
+            "q_ar": "ماذا يفعل كل صيف؟",
+            "a_ar": "يجلس على الشاطئ ويشاهد أولاده يسبحون، ويقول لنفسه إنه سيبدأ في سبتمبر."
+          },
+          {
+            "q_ar": "ما الذي لم يخبر به أمّه قطّ؟",
+            "a_ar": "أنه لم يكن يريد أن يصير مهندساً."
+          },
+          {
+            "q_ar": "لماذا يقول إن هذا الأمر ربما لا يُحتسب؟",
+            "a_ar": "لأن الوقت تأخّر كثيراً، والأمور سارت بخير في النهاية."
+          },
+          {
+            "q_ar": "ماذا فعل أمام المطاعم؟",
+            "a_ar": "وقف خارج ثلاثة أو أربعة منها، ونظر إلى الداخل، ثم عاد إلى بيته."
+          },
+          {
+            "q_ar": "ماذا فعل في الشهر الماضي؟",
+            "a_ar": "ذهب إلى السينما وحده.",
+            "hint_ar": "انتبه: Last month ← الماضي البسيط (went)."
+          },
+          {
+            "q_ar": "بماذا شعر بعدها، ولماذا؟",
+            "a_ar": "بالحماقة — لا لأنه ذهب، بل لأنه تجنّب ذلك عشرين سنة بلا أي سبب."
+          },
+          {
+            "q_ar": "ما الجديد في خطّته هذه المرة؟",
+            "a_ar": "أنه أخبر أشخاصاً آخرين بها.",
+            "hint_ar": "But this time I have told other people"
+          }
+        ]
       }
     },
     {
@@ -2183,67 +3576,67 @@
             "en": "review",
             "ipa": "/rɪˈvjuː/",
             "ar": "يراجع / تقييم",
-            "note_ar": "Both a verb and a noun"
+            "note_ar": "فعل واسم معاً"
           },
           {
             "en": "rank",
             "ipa": "/ræŋk/",
             "ar": "يرتّب",
-            "note_ar": "Contains /ŋ/"
+            "note_ar": "فيها الصوت /ŋ/"
           },
           {
             "en": "surface",
             "ipa": "/ˈsɜːfɪs/",
             "ar": "سطح",
-            "note_ar": "Contains /ɜː/"
+            "note_ar": "فيها الصوت /ɜː/"
           },
           {
             "en": "armrest",
             "ipa": "/ˈɑːmrest/",
             "ar": "مسند ذراع",
-            "note_ar": "Compound noun"
+            "note_ar": "اسم مركّب: arm + rest"
           },
           {
             "en": "bench",
             "ipa": "/bentʃ/",
             "ar": "مقعد طويل",
-            "note_ar": "—"
+            "note_ar": null
           },
           {
             "en": "puzzle",
             "ipa": "/ˈpʌzl/",
             "ar": "لغز",
-            "note_ar": "—"
+            "note_ar": null
           },
           {
             "en": "by accident",
             "ipa": "/baɪ ˈæksɪdənt/",
             "ar": "بالصدفة",
-            "note_ar": "A fixed phrase"
+            "note_ar": "عبارة ثابتة"
           },
           {
             "en": "connection",
             "ipa": "/kəˈnekʃn/",
             "ar": "رحلة متصلة",
-            "note_ar": "Here: a connecting flight"
+            "note_ar": "هنا: رحلة جوية موصّلة"
           },
           {
             "en": "terminal",
             "ipa": "/ˈtɜːmɪnl/",
             "ar": "صالة المطار",
-            "note_ar": "Contains /ɜː/"
+            "note_ar": "فيها الصوت /ɜː/"
           },
           {
             "en": "reply",
             "ipa": "/rɪˈplaɪ/",
             "ar": "يردّ",
-            "note_ar": "Past: replied"
+            "note_ar": "الماضي: replied"
           },
           {
             "en": "cover",
             "ipa": "/ˈkʌvə(r)/",
             "ar": "يغطّي",
-            "note_ar": "Here: includes"
+            "note_ar": "هنا: يشمل"
           },
           {
             "en": "offer",
@@ -2255,16 +3648,46 @@
             "en": "worthless",
             "ipa": "/ˈwɜːθləs/",
             "ar": "بلا قيمة",
-            "note_ar": "From worth + -less"
+            "note_ar": "من worth + -less"
           },
           {
             "en": "refuse",
             "ipa": "/rɪˈfjuːz/",
             "ar": "يرفض",
-            "note_ar": "Stress on the second"
+            "note_ar": "النبر على المقطع الثاني"
           }
         ],
-        "questions": []
+        "questions": [
+          {
+            "q_ar": "ماذا يقيّم دونالد بالضبط؟",
+            "a_ar": "المطارات نفسها — المباني ومدى راحتها للنوم، لا الرحلات ولا شركات الطيران."
+          },
+          {
+            "q_ar": "كيف بدأت هوايته؟",
+            "a_ar": "بالمصادفة سنة 1996: فاتته رحلة موصّلة في سنغافورة فانتظر إحدى عشرة ساعة، فوجد حديقة هادئة ونام جيداً."
+          },
+          {
+            "q_ar": "لماذا يقول إن المساند «هي العدوّ»؟",
+            "a_ar": "لأن المقعد الطويل بلا مساند يصير سريراً، ومعها لا يستطيع أن يستلقي عليه."
+          },
+          {
+            "q_ar": "لماذا لا يأخذ مالاً من المطارات؟",
+            "a_ar": "لأن تقييماته تصير بلا قيمة في اللحظة التي يأخذ فيها مالهم."
+          },
+          {
+            "q_ar": "لماذا جاء He has slept in more than a hundred وجاء It started in 1996 بزمن آخر؟",
+            "a_ar": "الأولى حصيلة حياته حتى الآن بلا تاريخ: مضارع تام. والثانية حدث محدّد منتهٍ بتاريخ: ماضٍ بسيط.",
+            "hint_ar": "اسأل: ما الوضع الآن؟ أم ماذا حدث ومتى؟"
+          },
+          {
+            "q_ar": "للنقاش: ما أغرب مكان نمت فيه؟ What is the strangest place you have ever slept?",
+            "a_ar": "لا جواب واحد. نموذج: The strangest place I have ever slept is a bus station. I slept there in 2018 when I missed the last bus."
+          },
+          {
+            "q_ar": "للنقاش: هل لك هواية يراها الناس غريبة؟ What hobby have you had that other people found strange?",
+            "a_ar": "لا جواب واحد. نموذج: I have collected old keys for ten years. My friends think it is strange, but every key has a story."
+          }
+        ]
       }
     },
     {
@@ -2293,12 +3716,12 @@
           {
             "can_ar": "أسأل خمسة أسئلة بـHave you ever…؟ بلا تردّد",
             "can_en": "Ask five Have you ever…? questions without hesitating?",
-            "proof_ar": "تمارين اليوم 4"
+            "proof_ar": "تمارين اليوم 3"
           },
           {
             "can_ar": "أشرح الفرق بين been to و gone to",
             "can_en": "Explain the difference between been to and gone to?",
-            "proof_ar": "تمارين اليوم 3"
+            "proof_ar": "تمارين اليوم 4"
           },
           {
             "can_ar": "أتجنّب النفي المزدوج مع never",
@@ -2331,7 +3754,7 @@
       "title_ar": "التحدّث",
       "title_en": "The Most Interesting Things I Have Done",
       "payload": {
-        "task_ar": "تحدّث دقيقتين عن أكثر ما فعلته إثارةً في حياتك",
+        "task_ar": "سجّل دقيقتين عن أكثر ما فعلته إثارةً في حياتك: ثلاثة أشياء فعلتها، وواحد منها بالتفصيل بالماضي البسيط، وشيئان لم تفعلهما، وما تريده هذه السنة.",
         "target_seconds": 120,
         "is_baseline": false,
         "title_en": "The Most Interesting Things I Have Done",
@@ -2367,57 +3790,57 @@
         ],
         "rubric": [
           {
-            "label_en": "have / has",
-            "label_ar": null,
+            "label_en": "Range",
+            "label_ar": "تنوّع اللغة",
             "levels": [
-              "Mixed up",
-              "Mostly correct",
-              "Always correct"
+              "جمل قليلة متكرّرة بـ I have",
+              "ever · never · once وبعض تعابير التجارب",
+              "تراكيب متنوّعة: the best … I've ever، صفات -ed/-ing، تعابير التجارب"
             ]
           },
           {
-            "label_en": "Participles",
-            "label_ar": null,
+            "label_en": "Accuracy",
+            "label_ar": "الدقّة",
             "levels": [
-              "Past form used instead",
-              "A few errors",
-              "All correct"
+              "خلط have وhas، والماضي بعد have",
+              "أخطاء قليلة في اسم المفعول أو never",
+              "have/has واسم المفعول وnever صحيحة دائماً"
             ]
           },
           {
-            "label_en": "never / ever",
-            "label_ar": null,
+            "label_en": "Fluency",
+            "label_ar": "الطلاقة",
             "levels": [
-              "Double negatives or wrong position",
-              "Mostly right",
-              "Natural"
+              "كلمة كلمة بتوقّف طويل",
+              "توقّفات قصيرة، وبعض الوصل",
+              "متّصل، وI've والوصل طبيعيان"
             ]
           },
           {
-            "label_en": "Tense switch",
-            "label_ar": null,
+            "label_en": "Coherence",
+            "label_ar": "الترابط",
             "levels": [
-              "One tense throughout",
-              "One switch",
-              "Switches naturally for details"
+              "زمن واحد طوال التسجيل، بلا روابط",
+              "انتقال واحد إلى الماضي، وand · but",
+              "ينتقل إلى الماضي للتفاصيل، ويرتّب بـ first · then · because · so"
             ]
           },
           {
-            "label_en": "Linking",
-            "label_ar": "وصل الكلمات",
+            "label_en": "Interaction",
+            "label_ar": "مخاطبة السامع",
             "levels": [
-              "Word by word",
-              "Some linking",
-              "I've and joins sound natural"
+              "لا يلتفت إلى السامع",
+              "سؤال واحد للسامع",
+              "يسأل السامع Have you ever…? ويعلّق على التجربة (It was amazing…)"
             ]
           },
           {
             "label_en": "Length",
             "label_ar": "الطول",
             "levels": [
-              "Under 60 sec",
-              "60–100 sec",
-              "100–120 sec"
+              "أقل من 60 ثانية",
+              "60–100 ثانية",
+              "100–120 ثانية"
             ]
           }
         ],
@@ -2747,306 +4170,325 @@
       "exercise_no": 1,
       "focus_ar": "كتابة اسم المفعول",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "كتابة اسم المفعول",
+      "type": "fill_blank",
+      "prompt": "اكتب اسم المفعول (التصريف الثالث)",
       "payload": {
-        "sentence": "go"
+        "before": "go → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
-          "gone/been"
+          "gone",
+          "been"
         ]
       },
-      "explanation": null
+      "explanation": "go → went → gone (ذهب وما زال هناك) أو been (ذهب وعاد)"
     },
     {
       "day_number": 1,
       "exercise_no": 1,
       "focus_ar": "كتابة اسم المفعول",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "كتابة اسم المفعول",
+      "type": "fill_blank",
+      "prompt": "اكتب اسم المفعول (التصريف الثالث)",
       "payload": {
-        "sentence": "see"
+        "before": "see → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "seen"
         ]
       },
-      "explanation": null
+      "explanation": "see → saw → seen"
     },
     {
       "day_number": 1,
       "exercise_no": 1,
       "focus_ar": "كتابة اسم المفعول",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "كتابة اسم المفعول",
+      "type": "fill_blank",
+      "prompt": "اكتب اسم المفعول (التصريف الثالث)",
       "payload": {
-        "sentence": "do"
+        "before": "do → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "done"
         ]
       },
-      "explanation": null
+      "explanation": "do → did → done"
     },
     {
       "day_number": 1,
       "exercise_no": 1,
       "focus_ar": "كتابة اسم المفعول",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "كتابة اسم المفعول",
+      "type": "fill_blank",
+      "prompt": "اكتب اسم المفعول (التصريف الثالث)",
       "payload": {
-        "sentence": "take"
+        "before": "take → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "taken"
         ]
       },
-      "explanation": null
+      "explanation": "take → took → taken"
     },
     {
       "day_number": 1,
       "exercise_no": 1,
       "focus_ar": "كتابة اسم المفعول",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "كتابة اسم المفعول",
+      "type": "fill_blank",
+      "prompt": "اكتب اسم المفعول (التصريف الثالث)",
       "payload": {
-        "sentence": "give"
+        "before": "give → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "given"
         ]
       },
-      "explanation": null
+      "explanation": "give → gave → given"
     },
     {
       "day_number": 1,
       "exercise_no": 1,
       "focus_ar": "كتابة اسم المفعول",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "كتابة اسم المفعول",
+      "type": "fill_blank",
+      "prompt": "اكتب اسم المفعول (التصريف الثالث)",
       "payload": {
-        "sentence": "eat"
+        "before": "eat → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "eaten"
         ]
       },
-      "explanation": null
+      "explanation": "eat → ate → eaten"
     },
     {
       "day_number": 1,
       "exercise_no": 1,
       "focus_ar": "كتابة اسم المفعول",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "كتابة اسم المفعول",
+      "type": "fill_blank",
+      "prompt": "اكتب اسم المفعول (التصريف الثالث)",
       "payload": {
-        "sentence": "write"
+        "before": "write → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "written"
         ]
       },
-      "explanation": null
+      "explanation": "write → wrote → written"
     },
     {
       "day_number": 1,
       "exercise_no": 1,
       "focus_ar": "كتابة اسم المفعول",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "كتابة اسم المفعول",
+      "type": "fill_blank",
+      "prompt": "اكتب اسم المفعول (التصريف الثالث)",
       "payload": {
-        "sentence": "speak"
+        "before": "speak → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "spoken"
         ]
       },
-      "explanation": null
+      "explanation": "speak → spoke → spoken"
     },
     {
       "day_number": 1,
       "exercise_no": 1,
       "focus_ar": "كتابة اسم المفعول",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "كتابة اسم المفعول",
+      "type": "fill_blank",
+      "prompt": "اكتب اسم المفعول (التصريف الثالث)",
       "payload": {
-        "sentence": "break"
+        "before": "break → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "broken"
         ]
       },
-      "explanation": null
+      "explanation": "break → broke → broken"
     },
     {
       "day_number": 1,
       "exercise_no": 1,
       "focus_ar": "كتابة اسم المفعول",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "كتابة اسم المفعول",
+      "type": "fill_blank",
+      "prompt": "اكتب اسم المفعول (التصريف الثالث)",
       "payload": {
-        "sentence": "know"
+        "before": "know → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "known"
         ]
       },
-      "explanation": null
+      "explanation": "know → knew → known"
     },
     {
       "day_number": 1,
       "exercise_no": 1,
       "focus_ar": "كتابة اسم المفعول",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "كتابة اسم المفعول",
+      "type": "fill_blank",
+      "prompt": "اكتب اسم المفعول (التصريف الثالث)",
       "payload": {
-        "sentence": "fly"
+        "before": "fly → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "flown"
         ]
       },
-      "explanation": null
+      "explanation": "fly → flew → flown"
     },
     {
       "day_number": 1,
       "exercise_no": 1,
       "focus_ar": "كتابة اسم المفعول",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "كتابة اسم المفعول",
+      "type": "fill_blank",
+      "prompt": "اكتب اسم المفعول (التصريف الثالث)",
       "payload": {
-        "sentence": "swim"
+        "before": "swim → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "swum"
         ]
       },
-      "explanation": null
+      "explanation": "swim → swam → swum"
     },
     {
       "day_number": 1,
       "exercise_no": 1,
       "focus_ar": "كتابة اسم المفعول",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "كتابة اسم المفعول",
+      "type": "fill_blank",
+      "prompt": "اكتب اسم المفعول (التصريف الثالث)",
       "payload": {
-        "sentence": "buy"
+        "before": "buy → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "bought"
         ]
       },
-      "explanation": null
+      "explanation": "buy → bought → bought"
     },
     {
       "day_number": 1,
       "exercise_no": 1,
       "focus_ar": "كتابة اسم المفعول",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "كتابة اسم المفعول",
+      "type": "fill_blank",
+      "prompt": "اكتب اسم المفعول (التصريف الثالث)",
       "payload": {
-        "sentence": "think"
+        "before": "think → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "thought"
         ]
       },
-      "explanation": null
+      "explanation": "think → thought → thought"
     },
     {
       "day_number": 1,
       "exercise_no": 1,
       "focus_ar": "كتابة اسم المفعول",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "كتابة اسم المفعول",
+      "type": "fill_blank",
+      "prompt": "اكتب اسم المفعول (التصريف الثالث)",
       "payload": {
-        "sentence": "find"
+        "before": "find → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "found"
         ]
       },
-      "explanation": null
+      "explanation": "find → found → found"
     },
     {
       "day_number": 1,
       "exercise_no": 1,
       "focus_ar": "كتابة اسم المفعول",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "كتابة اسم المفعول",
+      "type": "fill_blank",
+      "prompt": "اكتب اسم المفعول (التصريف الثالث)",
       "payload": {
-        "sentence": "be"
+        "before": "be → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "been"
         ]
       },
-      "explanation": null
+      "explanation": "be → was / were → been"
     },
     {
       "day_number": 1,
       "exercise_no": 1,
       "focus_ar": "كتابة اسم المفعول",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "كتابة اسم المفعول",
+      "type": "fill_blank",
+      "prompt": "اكتب اسم المفعول (التصريف الثالث)",
       "payload": {
-        "sentence": "have"
+        "before": "have → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "had"
         ]
       },
-      "explanation": null
+      "explanation": "have → had → had"
     },
     {
       "day_number": 1,
       "exercise_no": 1,
       "focus_ar": "كتابة اسم المفعول",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "كتابة اسم المفعول",
+      "type": "fill_blank",
+      "prompt": "اكتب اسم المفعول (التصريف الثالث)",
       "payload": {
-        "sentence": "drive"
+        "before": "drive → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "driven"
         ]
       },
-      "explanation": null
+      "explanation": "drive → drove → driven"
     },
     {
       "day_number": 2,
@@ -3416,141 +4858,162 @@
       "exercise_no": 3,
       "focus_ar": "صياغة السؤال بـever",
       "points": 1,
-      "type": "free_text",
-      "prompt": "Example: (fly / in a helicopter) → Have you ever flown in a helicopter?",
-      "payload": {},
-      "answer": {},
-      "explanation": "الجواب النموذجي: Have you ever been to Europe?"
+      "type": "fill_blank",
+      "prompt": "كوّن سؤالاً بـ Have you ever…؟",
+      "payload": {
+        "before": "(fly / in a helicopter) → ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Have you ever flown in a helicopter?"
+        ]
+      },
+      "explanation": "Have you ever + اسم المفعول: Have you ever flown in a helicopter?"
     },
     {
       "day_number": 3,
       "exercise_no": 3,
       "focus_ar": "صياغة السؤال بـever",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "صياغة السؤال بـever",
+      "type": "fill_blank",
+      "prompt": "كوّن سؤالاً بـ Have you ever…؟",
       "payload": {
-        "sentence": "(be / to Europe)"
+        "before": "(be / to Europe) → ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Have you ever been to Europe?"
+        ]
+      },
+      "explanation": "Have you ever + اسم المفعول: Have you ever been to Europe?"
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "صياغة السؤال بـever",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "كوّن سؤالاً بـ Have you ever…؟",
+      "payload": {
+        "before": "(eat / Japanese food) → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "Have you ever eaten Japanese food?"
         ]
       },
-      "explanation": null
+      "explanation": "Have you ever + اسم المفعول: Have you ever eaten Japanese food?"
     },
     {
       "day_number": 3,
       "exercise_no": 3,
       "focus_ar": "صياغة السؤال بـever",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "صياغة السؤال بـever",
+      "type": "fill_blank",
+      "prompt": "كوّن سؤالاً بـ Have you ever…؟",
       "payload": {
-        "sentence": "(eat / Japanese food)"
+        "before": "(lose / your phone) → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "Have you ever lost your phone?"
         ]
       },
-      "explanation": null
+      "explanation": "Have you ever + اسم المفعول: Have you ever lost your phone?"
     },
     {
       "day_number": 3,
       "exercise_no": 3,
       "focus_ar": "صياغة السؤال بـever",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "صياغة السؤال بـever",
+      "type": "fill_blank",
+      "prompt": "كوّن سؤالاً بـ Have you ever…؟",
       "payload": {
-        "sentence": "(lose / your phone)"
+        "before": "(meet / a famous person) → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "Have you ever met a famous person?"
         ]
       },
-      "explanation": null
+      "explanation": "Have you ever + اسم المفعول: Have you ever met a famous person?"
     },
     {
       "day_number": 3,
       "exercise_no": 3,
       "focus_ar": "صياغة السؤال بـever",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "صياغة السؤال بـever",
+      "type": "fill_blank",
+      "prompt": "كوّن سؤالاً بـ Have you ever…؟",
       "payload": {
-        "sentence": "(meet / a famous person)"
+        "before": "(break / a bone) → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "Have you ever broken a bone?"
         ]
       },
-      "explanation": null
+      "explanation": "Have you ever + اسم المفعول: Have you ever broken a bone?"
     },
     {
       "day_number": 3,
       "exercise_no": 3,
       "focus_ar": "صياغة السؤال بـever",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "صياغة السؤال بـever",
+      "type": "fill_blank",
+      "prompt": "كوّن سؤالاً بـ Have you ever…؟",
       "payload": {
-        "sentence": "(break / a bone)"
+        "before": "(drive / a motorbike) → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "Have you ever driven a motorbike?"
         ]
       },
-      "explanation": null
+      "explanation": "Have you ever + اسم المفعول: Have you ever driven a motorbike?"
     },
     {
       "day_number": 3,
       "exercise_no": 3,
       "focus_ar": "صياغة السؤال بـever",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "صياغة السؤال بـever",
+      "type": "fill_blank",
+      "prompt": "كوّن سؤالاً بـ Have you ever…؟",
       "payload": {
-        "sentence": "(drive / a motorbike)"
+        "before": "(swim / in the sea at night) → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "Have you ever swum in the sea at night?"
         ]
       },
-      "explanation": null
+      "explanation": "Have you ever + اسم المفعول: Have you ever swum in the sea at night?"
     },
     {
       "day_number": 3,
       "exercise_no": 3,
       "focus_ar": "صياغة السؤال بـever",
       "points": 1,
-      "type": "correct_error",
-      "prompt": "صياغة السؤال بـever",
+      "type": "fill_blank",
+      "prompt": "كوّن سؤالاً بـ Have you ever…؟",
       "payload": {
-        "sentence": "(swim / in the sea at night)"
+        "before": "(forget / an important birthday) → ",
+        "after": ""
       },
       "answer": {
         "accepted": [
           "Have you ever forgotten an important birthday?"
         ]
       },
-      "explanation": null
-    },
-    {
-      "day_number": 3,
-      "exercise_no": 3,
-      "focus_ar": "صياغة السؤال بـever",
-      "points": 1,
-      "type": "free_text",
-      "prompt": "(forget / an important birthday)  →  ……",
-      "payload": {},
-      "answer": {},
-      "explanation": null
+      "explanation": "Have you ever + اسم المفعول: Have you ever forgotten an important birthday?"
     },
     {
       "day_number": 4,
@@ -3567,7 +5030,7 @@
           "She has seen it."
         ]
       },
-      "explanation": null
+      "explanation": "he/she/it تأخذ has"
     },
     {
       "day_number": 4,
@@ -3584,7 +5047,7 @@
           "I have seen that film."
         ]
       },
-      "explanation": null
+      "explanation": "بعد have اسم المفعول: seen"
     },
     {
       "day_number": 4,
@@ -3598,10 +5061,11 @@
       },
       "answer": {
         "accepted": [
-          "I have never been to Europe."
+          "I have never been to Europe.",
+          "I haven't ever been to Europe."
         ]
       },
-      "explanation": null
+      "explanation": "never تكفي نفياً — نفي واحد"
     },
     {
       "day_number": 4,
@@ -3618,7 +5082,7 @@
           "Have you ever been to Turkey?"
         ]
       },
-      "explanation": null
+      "explanation": "بعد have اسم المفعول، وللزيارة been"
     },
     {
       "day_number": 4,
@@ -3632,10 +5096,12 @@
       },
       "answer": {
         "accepted": [
-          "He has been to Cairo twice."
+          "He has been to Cairo twice.",
+          "He has been to Cairo twice and he is here now.",
+          "He has been to Cairo twice, and he is here now."
         ]
       },
-      "explanation": null
+      "explanation": "رجع وهو هنا الآن: been لا gone"
     },
     {
       "day_number": 4,
@@ -3652,7 +5118,7 @@
           "They have finished."
         ]
       },
-      "explanation": null
+      "explanation": "they تأخذ have"
     },
     {
       "day_number": 4,
@@ -3666,10 +5132,11 @@
       },
       "answer": {
         "accepted": [
-          "I have eaten already."
+          "I have eaten already.",
+          "I have already eaten."
         ]
       },
-      "explanation": null
+      "explanation": "eat → ate → eaten"
     },
     {
       "day_number": 4,
@@ -3679,14 +5146,14 @@
       "type": "correct_error",
       "prompt": "تصحيح الخطأ",
       "payload": {
-        "sentence": "Did you ever try sushi? (life experience)"
+        "sentence": "Have you ever try sushi?"
       },
       "answer": {
         "accepted": [
           "Have you ever tried sushi?"
         ]
       },
-      "explanation": null
+      "explanation": "بعد have اسم المفعول: tried."
     },
     {
       "day_number": 4,
@@ -3703,7 +5170,7 @@
           "We have known each other for years."
         ]
       },
-      "explanation": null
+      "explanation": "know → knew → known"
     },
     {
       "day_number": 4,
@@ -3720,7 +5187,7 @@
           "She has broken her arm."
         ]
       },
-      "explanation": null
+      "explanation": "break → broke → broken"
     },
     {
       "day_number": 5,
@@ -3731,7 +5198,7 @@
       "prompt": "How many countries has Sami visited?  ……",
       "payload": {},
       "answer": {},
-      "explanation": null
+      "explanation": "الجواب النموذجي: Two. He has been to Turkey and to Jordan."
     },
     {
       "day_number": 5,
@@ -3742,7 +5209,7 @@
       "prompt": "What does he say about the rain?  ……",
       "payload": {},
       "answer": {},
-      "explanation": null
+      "explanation": "الجواب النموذجي: He has never seen so much rain in his life."
     },
     {
       "day_number": 5,
@@ -3753,7 +5220,7 @@
       "prompt": "What happened with the strange food?  ……",
       "payload": {},
       "answer": {},
-      "explanation": null
+      "explanation": "الجواب النموذجي: He ate something strange once. He doesn't know what it was, and nobody told him."
     },
     {
       "day_number": 5,
@@ -3764,7 +5231,7 @@
       "prompt": "What does he regret?  ……",
       "payload": {},
       "answer": {},
-      "explanation": null
+      "explanation": "الجواب النموذجي: That he finished it."
     },
     {
       "day_number": 5,
@@ -3775,7 +5242,7 @@
       "prompt": "Has Lina been abroad?  ……",
       "payload": {},
       "answer": {},
-      "explanation": null
+      "explanation": "الجواب النموذجي: No, she hasn't. She has never been abroad, not once."
     },
     {
       "day_number": 5,
@@ -3786,7 +5253,7 @@
       "prompt": "Why not?  ……",
       "payload": {},
       "answer": {},
-      "explanation": null
+      "explanation": "الجواب النموذجي: She has never had the money at the same time as the holiday."
     },
     {
       "day_number": 5,
@@ -3794,10 +5261,10 @@
       "focus_ar": "ملاحظة تغيّر الزمن",
       "points": 1,
       "type": "free_text",
-      "prompt": "Find in the dialogue:",
+      "prompt": "In Dialogue 1, find six sentences in the Present Perfect and write them.",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: Present Perfect: Have you ever done…?"
+      "explanation": "الجواب النموذجي: Have you ever done something you regret? · Have you ever been abroad? · I've been to Turkey and to Jordan. · I've never seen so much rain in my life. · I've never been abroad. · I've always wanted to."
     },
     {
       "day_number": 5,
@@ -3805,10 +5272,10 @@
       "focus_ar": "ملاحظة تغيّر الزمن",
       "points": 1,
       "type": "free_text",
-      "prompt": "Six Present Perfect sentences",
+      "prompt": "In Dialogue 1, find two questions in the Past Simple and write them.",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: Have you ever been abroad?"
+      "explanation": "الجواب النموذجي: What was Turkey like? · Did you finish it?"
     },
     {
       "day_number": 5,
@@ -3816,10 +5283,10 @@
       "focus_ar": "ملاحظة تغيّر الزمن",
       "points": 1,
       "type": "free_text",
-      "prompt": "Two Past Simple sentences — and explain why the speaker switched",
+      "prompt": "Explain in one sentence why Lina switches from Have you ever…? to the Past Simple.",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: I've been to Turkey and Jordan"
+      "explanation": "الجواب النموذجي: Have you ever…? يفتح الموضوع — تجربة بلا تاريخ. ثم What was Turkey like? وDid you finish it? تسألان عن مناسبة واحدة محدّدة انتهت، فيتحوّل الزمن إلى الماضي البسيط. هذا نمط المحادثة الحقيقية، والأسبوع 14 كلّه عنه."
     },
     {
       "day_number": 5,
@@ -3827,10 +5294,10 @@
       "focus_ar": "ملاحظة تغيّر الزمن",
       "points": 1,
       "type": "free_text",
-      "prompt": "This is the pattern of real conversation. You open with the Present Perfect (Have you ever…?) and then switch to the Past Simple for the details (What was it like? Did you finish it?). Week 14 is entirely about this switch.",
+      "prompt": "Write a mini-conversation of four lines: ask Have you ever…?, answer, then switch to the Past Simple for the details (When did you go? What was it like?).",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: I've never seen so much rain"
+      "explanation": "نموذج: A: Have you ever been to Jordan? · B: Yes, I have. Once. · A: When did you go? · B: In 2021. It was amazing."
     },
     {
       "day_number": 6,
@@ -3838,10 +5305,10 @@
       "focus_ar": "لماذا المضارع التام؟",
       "points": 1,
       "type": "free_text",
-      "prompt": "For each sentence, explain why the speaker used the Present Perfect and not the Past Simple:",
+      "prompt": "Explain why Khaled uses the Present Perfect, not the Past Simple, in these lines from Dialogue 2: I've worked in teams of ten. · I've often felt invisible. · I've trained three junior designers. · I've learned from that. · I've never used it.",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: Experience over his whole career, no date given."
+      "explanation": "الجواب النموذجي: 1. خبرة على امتداد مسيرته بلا تاريخ. 2. شعور تكرّر حتى الآن. 3. إنجاز في حياته ما زال مهمّاً. 4. النتيجة: صار يعرف أفضل الآن. 5. تجربة حتى الآن مع never."
     },
     {
       "day_number": 6,
@@ -3856,9 +5323,10 @@
       },
       "answer": {
         "accepted": [
-          "Eleven.",
-          "Eleven",
-          "eleven."
+          "eleven",
+          "11",
+          "eleven countries",
+          "11 countries"
         ]
       },
       "explanation": null
@@ -3876,9 +5344,9 @@
       },
       "answer": {
         "accepted": [
-          "Twice.",
-          "Twice",
-          "twice."
+          "twice",
+          "two times",
+          "2 times"
         ]
       },
       "explanation": null
@@ -3888,160 +5356,88 @@
       "exercise_no": 6,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
-      "prompt": "Why has he never learned to swim? ______",
-      "payload": {
-        "before": "Why has he never learned to swim?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "He panicked at six, his father shouted, and neither has mentioned it since.",
-          "He panicked at six, his father shouted, and neither has mentioned it since",
-          "he panicked at six, his father shouted, and neither has mentioned it since."
-        ]
-      },
-      "explanation": null
+      "type": "free_text",
+      "prompt": "Why has he never learned to swim?",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: He panicked at six, his father shouted, and neither has mentioned it since."
     },
     {
       "day_number": 6,
       "exercise_no": 6,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
-      "prompt": "What does he do every summer? ______",
-      "payload": {
-        "before": "What does he do every summer?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "He sits on the beach and watches his children swim.",
-          "He sits on the beach and watches his children swim",
-          "he sits on the beach and watches his children swim."
-        ]
-      },
-      "explanation": null
+      "type": "free_text",
+      "prompt": "What does he do every summer?",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: He sits on the beach and watches his children swim."
     },
     {
       "day_number": 6,
       "exercise_no": 6,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
-      "prompt": "What has he never told his mother? ______",
-      "payload": {
-        "before": "What has he never told his mother?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "That he did not want to be an engineer.",
-          "That he did not want to be an engineer",
-          "that he did not want to be an engineer."
-        ]
-      },
-      "explanation": null
+      "type": "free_text",
+      "prompt": "What has he never told his mother?",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: That he did not want to be an engineer."
     },
     {
       "day_number": 6,
       "exercise_no": 6,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
-      "prompt": "Why does he say it does not count? ______",
-      "payload": {
-        "before": "Why does he say it does not count?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "Because it is too late and it worked out well.",
-          "Because it is too late and it worked out well",
-          "because it is too late and it worked out well."
-        ]
-      },
-      "explanation": null
+      "type": "free_text",
+      "prompt": "Why does he say it does not count?",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: Because it is too late and it worked out well."
     },
     {
       "day_number": 6,
       "exercise_no": 6,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
-      "prompt": "What has he done outside restaurants? ______",
-      "payload": {
-        "before": "What has he done outside restaurants?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "He has stood outside, looked in, and walked home.",
-          "He has stood outside, looked in, and walked home",
-          "he has stood outside, looked in, and walked home."
-        ]
-      },
-      "explanation": null
+      "type": "free_text",
+      "prompt": "What has he done outside restaurants?",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: He has stood outside, looked in, and walked home."
     },
     {
       "day_number": 6,
       "exercise_no": 6,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
-      "prompt": "What did he do last month? ______",
-      "payload": {
-        "before": "What did he do last month?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "He went to a concert alone.",
-          "He went to a concert alone",
-          "he went to a concert alone."
-        ]
-      },
-      "explanation": null
+      "type": "free_text",
+      "prompt": "What did he do last month?",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: He went to the cinema alone."
     },
     {
       "day_number": 6,
       "exercise_no": 6,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
-      "prompt": "How did he feel afterwards, and why? ______",
-      "payload": {
-        "before": "How did he feel afterwards, and why?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "Stupid — because he had avoided it for twenty years for no reason.",
-          "Stupid — because he had avoided it for twenty years for no reason",
-          "stupid — because he had avoided it for twenty years for no reason."
-        ]
-      },
-      "explanation": null
+      "type": "free_text",
+      "prompt": "How did he feel afterwards, and why?",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: Stupid — because he had avoided it for twenty years for no reason."
     },
     {
       "day_number": 6,
       "exercise_no": 6,
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
-      "type": "fill_blank",
-      "prompt": "What is different about his plan this time? ______",
-      "payload": {
-        "before": "What is different about his plan this time?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "He has told other people.",
-          "He has told other people",
-          "he has told other people."
-        ]
-      },
-      "explanation": null
+      "type": "free_text",
+      "prompt": "What is different about his plan this time?",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: He has told other people."
     },
     {
       "day_number": 6,
@@ -4049,10 +5445,10 @@
       "focus_ar": "تعقّب الأزمنة في النصّ",
       "points": 1,
       "type": "free_text",
-      "prompt": "The text switches deliberately between two tenses. Find:",
+      "prompt": "In the listening text, which tense does the speaker use for his life up to now, and which for one finished occasion (like last month)? Answer in one sentence.",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: Present Perfect: have travelled, have changed, have learned, have never learned, has mentioned, have never read, have never told, has spent, have never eaten, have wanted, have stood, have avoided, have said, have told.  Past Simple: tried, panicked, shouted, made, went, bought, sat, was, walked.  The rule: the Present Perfect covers his life up to now; the Past Simple appears the moment a specific finished occasion is described."
+      "explanation": "الجواب النموذجي: المضارع التام لحياته حتى الآن، والماضي البسيط لحظة يصف مناسبة محدّدة منتهية. The Present Perfect covers his life up to now; the Past Simple appears the moment a specific finished occasion is described."
     },
     {
       "day_number": 6,
@@ -4060,10 +5456,10 @@
       "focus_ar": "تعقّب الأزمنة في النصّ",
       "points": 1,
       "type": "free_text",
-      "prompt": "Present Perfect (his life up to now) : ……",
+      "prompt": "From the listening text, write five Present Perfect verbs (his life up to now).",
       "payload": {},
       "answer": {},
-      "explanation": null
+      "explanation": "الجواب النموذجي: have travelled, have changed, have learned, have never learned, has mentioned, have never read, have never told, has spent, have never eaten, have wanted, have stood, have avoided, have said, have told."
     },
     {
       "day_number": 6,
@@ -4071,10 +5467,10 @@
       "focus_ar": "تعقّب الأزمنة في النصّ",
       "points": 1,
       "type": "free_text",
-      "prompt": "Past Simple (specific finished events): ……",
+      "prompt": "From the listening text, write five Past Simple verbs (specific finished events).",
       "payload": {},
       "answer": {},
-      "explanation": null
+      "explanation": "الجواب النموذجي: tried, panicked, shouted, made, went, bought, sat, was, walked."
     },
     {
       "day_number": 7,
@@ -4179,6 +5575,1450 @@
         "correct": false
       },
       "explanation": "في النصّ: he refuses to name it"
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "'s = is أم has؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "She's seen that film twice. — 's هنا تعني:",
+      "payload": {
+        "options": [
+          "is",
+          "has"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "بعدها اسم مفعول (seen): has"
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "'s = is أم has؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "He's a teacher. — 's هنا تعني:",
+      "payload": {
+        "options": [
+          "is",
+          "has"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "بعدها اسم: is"
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "'s = is أم has؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "It's stopped raining. — 's هنا تعني:",
+      "payload": {
+        "options": [
+          "is",
+          "has"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "بعدها اسم مفعول (stopped): has"
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "'s = is أم has؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "She's working at home today. — 's هنا تعني:",
+      "payload": {
+        "options": [
+          "is",
+          "has"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "بعدها فعل بـ -ing: is"
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "'s = is أم has؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "He's gone to the bank. — 's هنا تعني:",
+      "payload": {
+        "options": [
+          "is",
+          "has"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "بعدها اسم مفعول (gone): has"
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "'s = is أم has؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "It's very cold today. — 's هنا تعني:",
+      "payload": {
+        "options": [
+          "is",
+          "has"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "بعدها صفة: is"
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "المعنى: المضارع التام أم الماضي البسيط؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I ______ (break) my arm twice in my life.",
+      "payload": {
+        "before": "I ",
+        "after": " (break) my arm twice in my life."
+      },
+      "answer": {
+        "accepted": [
+          "have broken"
+        ]
+      },
+      "explanation": "رصيد حياتك بلا تاريخ: المضارع التام"
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "المعنى: المضارع التام أم الماضي البسيط؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I ______ (break) my arm in 2015.",
+      "payload": {
+        "before": "I ",
+        "after": " (break) my arm in 2015."
+      },
+      "answer": {
+        "accepted": [
+          "broke"
+        ]
+      },
+      "explanation": "in 2015 وقت منتهٍ: الماضي البسيط"
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "المعنى: المضارع التام أم الماضي البسيط؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She knows Egypt well. She ______ (visit) it three times.",
+      "payload": {
+        "before": "She knows Egypt well. She ",
+        "after": " (visit) it three times."
+      },
+      "answer": {
+        "accepted": [
+          "has visited"
+        ]
+      },
+      "explanation": "عدد التجارب حتى الآن: المضارع التام"
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "المعنى: المضارع التام أم الماضي البسيط؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She ______ (visit) Egypt last summer.",
+      "payload": {
+        "before": "She ",
+        "after": " (visit) Egypt last summer."
+      },
+      "answer": {
+        "accepted": [
+          "visited"
+        ]
+      },
+      "explanation": "last summer وقت منتهٍ: الماضي البسيط"
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "المعنى: المضارع التام أم الماضي البسيط؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "He ______ (meet) my parents two days ago.",
+      "payload": {
+        "before": "He ",
+        "after": " (meet) my parents two days ago."
+      },
+      "answer": {
+        "accepted": [
+          "met"
+        ]
+      },
+      "explanation": "ago وقت منتهٍ: الماضي البسيط (الخطأ 17)"
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "المعنى: المضارع التام أم الماضي البسيط؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ you ever ______ (see) a camel?",
+      "payload": {
+        "before": "",
+        "after": " you ever ______ (see) a camel?"
+      },
+      "answer": {
+        "accepted": [
+          "have / seen"
+        ]
+      },
+      "explanation": "تجربة بلا تاريخ: Have you ever seen…?"
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "المعنى: المضارع التام أم الماضي البسيط؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "My brother ______ (never / drive) a car.",
+      "payload": {
+        "before": "My brother ",
+        "after": " (never / drive) a car."
+      },
+      "answer": {
+        "accepted": [
+          "has never driven"
+        ]
+      },
+      "explanation": "never + اسم المفعول: has never driven"
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "المعنى: المضارع التام أم الماضي البسيط؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Your friend's arm is in plaster now. She tells you:",
+      "payload": {
+        "options": [
+          "I've broken my arm.",
+          "I broke my arm in 2010.",
+          "I break my arm."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "النتيجة ظاهرة الآن: I've broken my arm."
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "المعنى: المضارع التام أم الماضي البسيط؟",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ",
+      "payload": {
+        "sentence": "I have seen him two days ago."
+      },
+      "answer": {
+        "accepted": [
+          "I saw him two days ago."
+        ]
+      },
+      "explanation": "ago وقت منتهٍ: الماضي البسيط (الخطأ 17)"
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "ever · never · How many times",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "اختر الجملة الصحيحة:",
+      "payload": {
+        "options": [
+          "I haven't never been to Paris.",
+          "I have never been to Paris.",
+          "I have been never to Paris."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "never وحدها تكفي، وتأتي قبل اسم المفعول."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "ever · never · How many times",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "اختر الجملة الصحيحة:",
+      "payload": {
+        "options": [
+          "Have you eaten ever sushi?",
+          "Did you ever have eaten sushi?",
+          "Have you ever eaten sushi?"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "ever بين الفاعل واسم المفعول."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "ever · never · How many times",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Have you ever been to Japan? — (لم تذهب)",
+      "payload": {
+        "options": [
+          "No, I didn't.",
+          "No, I haven't.",
+          "No, I haven't never."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "الجواب القصير يكرّر have: No, I haven't."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "ever · never · How many times",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How many times ______ you ______ (be) to Cairo?",
+      "payload": {
+        "before": "How many times ",
+        "after": " you ______ (be) to Cairo?"
+      },
+      "answer": {
+        "accepted": [
+          "have / been"
+        ]
+      },
+      "explanation": "How many times + have + الفاعل + اسم المفعول"
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "ever · never · How many times",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "How many times has she ______ (fly) this year?",
+      "payload": {
+        "before": "How many times has she ",
+        "after": " (fly) this year?"
+      },
+      "answer": {
+        "accepted": [
+          "flown"
+        ]
+      },
+      "explanation": "fly → flew → flown"
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "ever · never · How many times",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I've been to Jordan ______ — the first time in 2010 and the second time in 2020.",
+      "payload": {
+        "before": "I've been to Jordan ",
+        "after": " — the first time in 2010 and the second time in 2020."
+      },
+      "answer": {
+        "accepted": [
+          "twice",
+          "two times"
+        ]
+      },
+      "explanation": "مرّتان: twice"
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "ever · never · How many times",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ",
+      "payload": {
+        "sentence": "I have ever been to Turkey."
+      },
+      "answer": {
+        "accepted": [
+          "I have been to Turkey.",
+          "I have never been to Turkey."
+        ]
+      },
+      "explanation": "ever للسؤال لا للإثبات"
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "ever · never · How many times",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ",
+      "payload": {
+        "sentence": "How many times you have been there?"
+      },
+      "answer": {
+        "accepted": [
+          "How many times have you been there?"
+        ]
+      },
+      "explanation": "في السؤال تتقدّم have على الفاعل"
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "أجب عن نفسك",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Answer in a full sentence and add one extra detail: Have you ever been abroad?",
+      "payload": {},
+      "answer": {},
+      "explanation": "نموذج: Yes, I have. I have been to Turkey twice. I went there with my brother in 2019."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "أجب عن نفسك",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Answer in a full sentence and add one extra detail: Have you ever lost something important?",
+      "payload": {},
+      "answer": {},
+      "explanation": "نموذج: Yes, I have. I have lost my passport once. I found it two days later."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "أجب عن نفسك",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Answer in a full sentence: What have you never done but always wanted to do?",
+      "payload": {},
+      "answer": {},
+      "explanation": "نموذج: I have never ridden a horse, but I have always wanted to."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "been أم gone؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Ali has gone to Dubai. Where is Ali now?",
+      "payload": {
+        "options": [
+          "At home — he came back.",
+          "In Dubai."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "gone = ما زال هناك"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "been أم gone؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Ali has been to Dubai. Where is Ali now?",
+      "payload": {
+        "options": [
+          "Back home — he went and came back.",
+          "In Dubai."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "been = زار وعاد"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "صفات -ed و-ing",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I was so ______ (bore) that I fell asleep in the film.",
+      "payload": {
+        "before": "I was so ",
+        "after": " (bore) that I fell asleep in the film."
+      },
+      "answer": {
+        "accepted": [
+          "bored"
+        ]
+      },
+      "explanation": "شعوري أنا: -ed"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "صفات -ed و-ing",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Have you ever read an ______ (interest) book about space?",
+      "payload": {
+        "before": "Have you ever read an ",
+        "after": " (interest) book about space?"
+      },
+      "answer": {
+        "accepted": [
+          "interesting"
+        ]
+      },
+      "explanation": "الكتاب سبب الاهتمام: -ing"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "صفات -ed و-ing",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "We've never seen snow, so the children are very ______ (excite).",
+      "payload": {
+        "before": "We've never seen snow, so the children are very ",
+        "after": " (excite)."
+      },
+      "answer": {
+        "accepted": [
+          "excited"
+        ]
+      },
+      "explanation": "شعور الأطفال: -ed"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "صفات -ed و-ing",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "It has been a long, ______ (tire) day. I need to sleep.",
+      "payload": {
+        "before": "It has been a long, ",
+        "after": " (tire) day. I need to sleep."
+      },
+      "answer": {
+        "accepted": [
+          "tiring"
+        ]
+      },
+      "explanation": "اليوم سبب التعب: -ing"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "صفات -ed و-ing",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "My brother has won the competition! We were all very ___.",
+      "payload": {
+        "options": [
+          "surprised",
+          "surprising"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "شعورنا: surprised"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "صفات -ed و-ing",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Have you seen the view from the mountain? It's ___!",
+      "payload": {
+        "options": [
+          "amazed",
+          "amazing"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "المنظر سبب الانبهار: amazing"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "صفات -ed و-ing",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Sara says: \"I have nothing to do. I'm ___.\"",
+      "payload": {
+        "options": [
+          "boring",
+          "bored"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "I'm boring = أنا شخص مملّ. وهي تقصد شعورها: bored"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "صفات -ed و-ing",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "I'm not ___ in football. I never watch it.",
+      "payload": {
+        "options": [
+          "interested",
+          "interesting"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "شعوري: interested in"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "الاهتمام والمتابعة — ماذا تقول؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Your friend says: \"I've been to Petra.\" You want to show interest. You say:",
+      "payload": {
+        "options": [
+          "Me neither.",
+          "Have you? What was it like?",
+          "Are you? What was it like?"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "سؤال الصدى يكرّر الفعل المساعد: I've been ← Have you?"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "الاهتمام والمتابعة — ماذا تقول؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Your friend says: \"I've never flown.\" You haven't flown either. You say:",
+      "payload": {
+        "options": [
+          "Me too.",
+          "So have I.",
+          "Me neither."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "بعد جملة منفية: Me neither أو Neither have I."
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "الاهتمام والمتابعة — ماذا تقول؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Your friend says: \"I've seen that film three times.\" You have seen it too. You say:",
+      "payload": {
+        "options": [
+          "So have I.",
+          "Neither have I.",
+          "So did I."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "So + have + I، لأن جملته بـ have"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "الاهتمام والمتابعة — ماذا تقول؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Your friend says: \"I went to the cinema alone last month.\" You say:",
+      "payload": {
+        "options": [
+          "Have you? How do you feel?",
+          "Did you? How did you feel?",
+          "Were you? How did you feel?"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "جملته بالماضي البسيط (went)، فالصدى Did you?"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "الاهتمام والمتابعة — ماذا تقول؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Your friend says: \"I've won two tickets to the final!\" You say:",
+      "payload": {
+        "options": [
+          "Oh no! What happened?",
+          "I've no idea.",
+          "Lucky you!"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "لخبر سعيد: Lucky you!"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "الاهتمام والمتابعة — ماذا تقول؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Your friend says: \"I've broken my arm.\" You say:",
+      "payload": {
+        "options": [
+          "Oh no! What happened?",
+          "Lucky you!",
+          "That sounds amazing."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "لخبر سيّئ: Oh no! What happened?"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "الاهتمام والمتابعة — ماذا تقول؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Your friend says: \"I went to Turkey for two weeks.\" You want one more detail. You ask:",
+      "payload": {
+        "options": [
+          "Who have you gone with?",
+          "Who did you go with?",
+          "With who you went?"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "المتابعة عن رحلة منتهية بالماضي البسيط: Who did you go with?"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "الاهتمام والمتابعة — ماذا تقول؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Your friend says: \"I haven't finished my homework.\" You haven't finished either. You say:",
+      "payload": {
+        "options": [
+          "Neither have I.",
+          "So have I.",
+          "Me too haven't."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "بعد النفي: Neither have I."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "the best … I've ever · the first time",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "It's the best film I ______ ever ______ (see).",
+      "payload": {
+        "before": "It's the best film I ",
+        "after": " ever ______ (see)."
+      },
+      "answer": {
+        "accepted": [
+          "have / seen"
+        ]
+      },
+      "explanation": "the best … I have ever + اسم المفعول"
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "the best … I've ever · the first time",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "This is the most beautiful place I've ever ______ (visit).",
+      "payload": {
+        "before": "This is the most beautiful place I've ever ",
+        "after": " (visit)."
+      },
+      "answer": {
+        "accepted": [
+          "visited"
+        ]
+      },
+      "explanation": "بعد I've ever اسم المفعول"
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "the best … I've ever · the first time",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "He's the funniest person I've ever ______ (meet).",
+      "payload": {
+        "before": "He's the funniest person I've ever ",
+        "after": " (meet)."
+      },
+      "answer": {
+        "accepted": [
+          "met"
+        ]
+      },
+      "explanation": "meet → met → met"
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "the best … I've ever · the first time",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "It's the first time I ______ (eat) Japanese food.",
+      "payload": {
+        "before": "It's the first time I ",
+        "after": " (eat) Japanese food."
+      },
+      "answer": {
+        "accepted": [
+          "have eaten"
+        ]
+      },
+      "explanation": "the first time + المضارع التام"
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "the best … I've ever · the first time",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "It's the most difficult exam I ______ ever ______ (take).",
+      "payload": {
+        "before": "It's the most difficult exam I ",
+        "after": " ever ______ (take)."
+      },
+      "answer": {
+        "accepted": [
+          "have / taken"
+        ]
+      },
+      "explanation": "take → took → taken"
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "the best … I've ever · the first time",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "This is my first visit to London. It's the first time I ___ here.",
+      "payload": {
+        "options": [
+          "am",
+          "was",
+          "have been"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "the first time + المضارع التام: have been"
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "the best … I've ever · the first time",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ",
+      "payload": {
+        "sentence": "It's the first time I see snow."
+      },
+      "answer": {
+        "accepted": [
+          "It's the first time I have seen snow.",
+          "It is the first time I have seen snow."
+        ]
+      },
+      "explanation": "the first time + المضارع التام"
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "the best … I've ever · the first time",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ",
+      "payload": {
+        "sentence": "She's the kindest person I have ever meet."
+      },
+      "answer": {
+        "accepted": [
+          "She's the kindest person I have ever met.",
+          "She is the kindest person I have ever met."
+        ]
+      },
+      "explanation": "بعد have اسم المفعول: met"
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "أنتج",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Write three sentences about your life: the best … you've ever …, the worst … you've ever …, and It's the first time I've …",
+      "payload": {},
+      "answer": {},
+      "explanation": "نموذج: The best book I've ever read is about the sea. The worst trip I've ever had was to the airport in the rain. It's the first time I've studied English every day."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الاستماع — Things I Have Never Done",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "What is the listening text mainly about?",
+      "payload": {
+        "options": [
+          "How to learn to swim as an adult",
+          "Things the speaker has never done, and one he finally did",
+          "A holiday in eleven countries"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "النصّ قائمة أشياء لم يفعلها، وواحد منها فعله الشهر الماضي."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الاستماع — Things I Have Never Done",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "He has visited eleven countries.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "I have travelled to eleven countries."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الاستماع — Things I Have Never Done",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "His father taught him to swim when he was six.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "حاول أبوه، لكنه أُصيب بالذعر ولم يتعلّم قطّ."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الاستماع — Things I Have Never Done",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "He has read a book in one day.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "I have never read a book in one day."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الاستماع — Things I Have Never Done",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "His mother knows that he did not want to be an engineer.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "لم يخبرها قطّ: I have never told my mother."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الاستماع — Things I Have Never Done",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Last month he went to the cinema alone.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "I went to the cinema alone."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الاستماع — Things I Have Never Done",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "At the cinema, people looked at him.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "Nobody looked at me."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الاستماع — Things I Have Never Done",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "This time he has told other people about his plan.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "But this time I have told other people."
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "القراءة — الفكرة والاستنتاج والمعنى",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "What is the text mainly about?",
+      "payload": {
+        "options": [
+          "A man who works for an airline",
+          "The best airports for shopping",
+          "A man who reviews airports for sleeping"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "الفكرة العامة: يقيّم المطارات بحسب راحتها للنوم."
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "القراءة — الفكرة والاستنتاج والمعنى",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "What can we say about Donald's first night in Singapore?",
+      "payload": {
+        "options": [
+          "It was better than he expected.",
+          "It was terrible, as he expected.",
+          "He did not sleep at all."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "توقّع ليلة فظيعة، فنام أفضل من سريره."
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "القراءة — الفكرة والاستنتاج والمعنى",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Why does Donald refuse to name his worst airport?",
+      "payload": {
+        "options": [
+          "He has never been there.",
+          "He has already written enough bad things about it.",
+          "The airport paid him."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "because I have been rude enough about it in print already"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "القراءة — الفكرة والاستنتاج والمعنى",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "\"A bench with them is a puzzle.\" Here, puzzle means:",
+      "payload": {
+        "options": [
+          "a problem that is hard to solve",
+          "a game for children",
+          "a kind of bed"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "مع المساند يصير النوم على المقعد مشكلة صعبة الحلّ."
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "القراءة — الفكرة والاستنتاج والمعنى",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "\"The reviews are worthless.\" This means the reviews:",
+      "payload": {
+        "options": [
+          "cost a lot",
+          "have no value",
+          "are very long"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "worth + -less = بلا قيمة"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تعابير التجارب",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Have you ever ______ a big risk at work?",
+      "payload": {
+        "before": "Have you ever ",
+        "after": " a big risk at work?"
+      },
+      "answer": {
+        "accepted": [
+          "taken"
+        ]
+      },
+      "explanation": "take a risk ← have taken"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تعابير التجارب",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I've ______ a lot of mistakes, but I've learned from them.",
+      "payload": {
+        "before": "I've ",
+        "after": " a lot of mistakes, but I've learned from them."
+      },
+      "answer": {
+        "accepted": [
+          "made"
+        ]
+      },
+      "explanation": "make a mistake لا do a mistake"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تعابير التجارب",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "We've never ______ camping in the desert.",
+      "payload": {
+        "before": "We've never ",
+        "after": " camping in the desert."
+      },
+      "answer": {
+        "accepted": [
+          "been",
+          "gone"
+        ]
+      },
+      "explanation": "go camping ← have been / gone camping"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تعابير التجارب",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She has ______ a prize for her photos.",
+      "payload": {
+        "before": "She has ",
+        "after": " a prize for her photos."
+      },
+      "answer": {
+        "accepted": [
+          "won",
+          "got",
+          "received"
+        ]
+      },
+      "explanation": "win → won → won"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تعابير التجارب",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Have you ever ______ lost in a big city?",
+      "payload": {
+        "before": "Have you ever ",
+        "after": " lost in a big city?"
+      },
+      "answer": {
+        "accepted": [
+          "got",
+          "gotten",
+          "been"
+        ]
+      },
+      "explanation": "get lost ← have got lost"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تعابير التجارب",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I've ______ a lot of new friends at work.",
+      "payload": {
+        "before": "I've ",
+        "after": " a lot of new friends at work."
+      },
+      "answer": {
+        "accepted": [
+          "made",
+          "met"
+        ]
+      },
+      "explanation": "make friends"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تعابير التجارب",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "He left home too late, and now he has ______ his flight.",
+      "payload": {
+        "before": "He left home too late, and now he has ",
+        "after": " his flight."
+      },
+      "answer": {
+        "accepted": [
+          "missed"
+        ]
+      },
+      "explanation": "miss a flight"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تعابير التجارب",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Have you ever ______ a camel across the desert?",
+      "payload": {
+        "before": "Have you ever ",
+        "after": " a camel across the desert?"
+      },
+      "answer": {
+        "accepted": [
+          "ridden"
+        ]
+      },
+      "explanation": "ride → rode → ridden"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تعابير التجارب",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I've always ______ my promises.",
+      "payload": {
+        "before": "I've always ",
+        "after": " my promises."
+      },
+      "answer": {
+        "accepted": [
+          "kept"
+        ]
+      },
+      "explanation": "keep a promise ← have kept"
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "تعابير التجارب",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "He has never ___ an accident.",
+      "payload": {
+        "options": [
+          "made",
+          "had",
+          "done"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "have an accident"
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "'s = is أم has؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "He's lost his phone. — 's هنا تعني:",
+      "payload": {
+        "options": [
+          "is",
+          "has"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "بعدها اسم مفعول (lost): has"
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "'s = is أم has؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "She's very happy today. — 's هنا تعني:",
+      "payload": {
+        "options": [
+          "is",
+          "has"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "بعدها صفة: is"
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "أنتج",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Write two sentences about yourself: one in the Present Perfect about the situation now, and one in the Past Simple with a finished time (yesterday, last year, in 2019).",
+      "payload": {},
+      "answer": {},
+      "explanation": "نموذج: I have lost my glasses, so I can't read this. I bought them last year."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "أنتج",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Write two sentences: someone in your family who has gone somewhere and is still there, and a place you have been to and come back from.",
+      "payload": {},
+      "answer": {},
+      "explanation": "نموذج: My brother has gone to Dubai. I have been to Amman twice."
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "صفات -ed و-ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ",
+      "payload": {
+        "sentence": "The lesson was very bored."
+      },
+      "answer": {
+        "accepted": [
+          "The lesson was very boring."
+        ]
+      },
+      "explanation": "الدرس سبب الملل: -ing"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "صفات -ed و-ing",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ",
+      "payload": {
+        "sentence": "I'm very interesting in this book."
+      },
+      "answer": {
+        "accepted": [
+          "I'm very interested in this book."
+        ]
+      },
+      "explanation": "شعورك: interested in"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "أنتج",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Write two sentences about a trip or a film: one with an -ed adjective and one with an -ing adjective.",
+      "payload": {},
+      "answer": {},
+      "explanation": "نموذج: The film was very exciting. I was tired after it, but I was happy."
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "الاهتمام والمتابعة — أنتج",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Your friend says: I've been to Japan. Write your reaction and two follow-up questions in the Past Simple.",
+      "payload": {},
+      "answer": {},
+      "explanation": "نموذج: Have you? Wow! When did you go? Who did you go with?"
     }
   ]
 }

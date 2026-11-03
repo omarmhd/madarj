@@ -7,87 +7,126 @@
   "is_review": false,
   "objectives": [
     {
-      "en": "Use the Zero Conditional for facts and general truths",
-      "ar": "أستخدم الشرط الصفري للحقائق والأمور العامة"
+      "en": "I can state facts and general truths with the zero conditional (If you heat water, it boils).",
+      "ar": "أستطيع أن أقول حقائق عامة بالشرط الصفري (If you heat water, it boils)."
     },
     {
-      "en": "Use the First Conditional for real future possibilities",
-      "ar": "أستخدم الشرط الأول لاحتمالات المستقبل الواقعية"
+      "en": "I can talk about real future possibilities with the first conditional, with no will in the if-clause.",
+      "ar": "أستطيع أن أتحدّث عن احتمالات حقيقية في المستقبل بالشرط الأول، بلا will في جملة if."
     },
     {
-      "en": "Never put will in the if clause",
-      "ar": "لا أضع will في جملة if أبداً"
+      "en": "I can link two future events with when, before, after, until and as soon as.",
+      "ar": "أستطيع أن أربط حدثين في المستقبل بـ when و before و after و until و as soon as."
     },
     {
-      "en": "Choose correctly between if and when",
-      "ar": "أختار صحيحاً بين if و when"
+      "en": "I can choose between if (it might happen) and when (it will happen).",
+      "ar": "أستطيع أن أختار بين if (قد يحدث) و when (سيحدث حتماً)."
     },
     {
-      "en": "Use unless, as soon as and in case",
-      "ar": "أستخدم unless و as soon as و in case"
+      "en": "I can set conditions and take precautions with unless, as long as and in case.",
+      "ar": "أستطيع أن أضع شرطاً وأحتاط بـ unless و as long as و in case."
     },
     {
-      "en": "Warn, promise and threaten using conditionals",
-      "ar": "أحذّر وأَعِد وأتوعّد بأدوات الشرط"
+      "en": "I can say how sure I am about the future: will, will probably, might, may, probably won't.",
+      "ar": "أستطيع أن أقول كم أنا متأكّد من المستقبل: will و will probably و might و may و probably won't."
     },
     {
-      "en": "Use falling, rising and fall-rise intonation deliberately",
-      "ar": "أستخدم التنغيم الهابط والصاعد والهابط–الصاعد بقصد"
+      "en": "I can warn, promise, offer and negotiate, and arrange a time to meet (Shall I…? I'll… Be careful or…).",
+      "ar": "أستطيع أن أحذّر وأَعِد وأعرض وأتفاوض، وأن أرتّب موعداً (Shall I…? · I'll… · Be careful or…)."
     },
     {
-      "en": "Speak for 2 minutes about a decision and its consequences",
-      "ar": "أتحدّث دقيقتين عن قرار ونتائجه"
+      "en": "I can hear whether a sentence is a statement or a question from its intonation, and use falling, rising and fall-rise intonation.",
+      "ar": "أستطيع أن أميّز الخبر من السؤال بالتنغيم وحده، وأن أستعمل التنغيم الهابط والصاعد والهابط–الصاعد بقصد."
+    },
+    {
+      "en": "I can understand the main idea and the details of a short talk and a short article about everyday decisions.",
+      "ar": "أستطيع أن أفهم الفكرة الرئيسة والتفاصيل في حديث قصير ومقالة قصيرة عن قرارات الحياة اليومية."
+    },
+    {
+      "en": "I can write 130–150 linked words about a decision and its consequences.",
+      "ar": "أستطيع أن أكتب 130–150 كلمة مترابطة عن قرار ونتائجه."
+    },
+    {
+      "en": "I can speak for 2 minutes about a decision and its consequences.",
+      "ar": "أستطيع أن أتحدّث دقيقتين عن قرار ونتائجه."
     }
   ],
   "writing": {
-    "title_ar": null,
+    "title_ar": "الكتابة — قرار ونتائجه",
     "title_en": "Writing — A Decision and Its Consequences",
-    "task_ar": null,
+    "task_ar": "اكتب 130–150 كلمة عن قرار تواجهه الآن أو واجهته مؤخراً. ضمّن: ثلاث جمل من الشرط الأول، وجملة من الشرط الصفري، وجملة بـ unless، وجملة بـ as long as أو in case، وجملة بـ when لشيء أكيد. واربط أفكارك بـ because و so و but و then و finally.",
     "task_en": "Write 130–150 words about a decision you are facing or recently faced. Include: three First Conditionals, one Zero Conditional, one unless, one as long as or in case, and one when used for something certain.",
     "min_words": 130,
     "max_words": 150,
     "templates": [
       {
         "en": "I have a decision to make about ____________ .",
-        "ar": null
+        "ar": "عليّ أن أتّخذ قراراً بشأن …"
       },
       {
         "en": "If I ____________ , I'll ____________ .",
-        "ar": null
+        "ar": "إذا … فسوف …"
       },
       {
         "en": "But if I ____________ , I won't ____________ .",
-        "ar": null
+        "ar": "لكن إذا … فلن …"
       },
       {
         "en": "The problem is that if ____________ , ____________ .",
-        "ar": null
+        "ar": "المشكلة أنه إذا … فإنّ …"
       },
       {
         "en": "Unless ____________ , ____________ .",
-        "ar": null
+        "ar": "ما لم … فإنّ …"
       },
       {
         "en": "I'll ____________ as long as ____________ .",
-        "ar": null
+        "ar": "سوف … بشرط أن …"
       },
       {
         "en": "I'm going to ____________ in case ____________ .",
-        "ar": null
+        "ar": "سأفعل … احتياطاً تحسّباً لأن …"
       },
       {
         "en": "When I ____________ , I'll know more.",
-        "ar": null
+        "ar": "عندما … سأعرف أكثر."
+      },
+      {
+        "en": "I can't decide yet because ____________ , so ____________ .",
+        "ar": "لا أستطيع أن أقرّر بعد لأن … ، لذلك … (because للسبب و so للنتيجة)"
+      },
+      {
+        "en": "First, ____________ . Then ____________ . Finally, ____________ .",
+        "ar": "أولاً … ثم … وأخيراً … (لترتيب الخطوات)"
       }
     ],
-    "checklist": [],
-    "model_answer": "I have a decision to make about my job. There is an opening in another company, and I have until the end of the month to apply.",
-    "model_words": 27
+    "checklist": [
+      {
+        "ar": "المحتوى: هل ذكرت القرار، وما يحدث إن فعلت وإن لم تفعل، وما يتوقّف عليه القرار؟"
+      },
+      {
+        "ar": "تحقيق الغرض: هل يفهم القارئ قرارك ونتائجه بلا سؤال؟ وهل النصّ بين 130 و150 كلمة؟"
+      },
+      {
+        "ar": "التنظيم: هل قسّمت النصّ فقرات، وربطت الأفكار بـ because و so و but و then و finally؟"
+      },
+      {
+        "ar": "اللغة: لا will في جملة if، ولا بعد when و unless و as soon as و until."
+      },
+      {
+        "ar": "اللغة: unless بلا نفي ثانٍ، و in case للاحتياط لا للشرط، و when لما هو أكيد و if لما هو محتمل."
+      },
+      {
+        "ar": "اللغة: ثلاث جمل من الشرط الأول، وجملة من الصفري، و unless، و as long as أو in case."
+      }
+    ],
+    "model_answer": "I have a decision to make about my job. There is an opening in another company, and I have until the end of the month to apply.\n\nIf I apply and they offer it to me, I'll have to move to another city. If I don't apply, I'll stay where I am, which is comfortable and slightly boring.\n\nThe problem is that if I stay another two years, I won't learn anything new. If I stop learning, I stop being useful — that is simply how this industry works.\n\nUnless my wife finds work in that city, we can't move, so everything depends on that.\n\nI'll apply as long as she agrees, and I'm going to keep my current job until everything is signed, in case it falls through.\n\nWhen I hear from them, I'll know more. Until then I am trying not to think about it.",
+    "model_words": 146
   },
   "days": [
     {
       "number": 1,
-      "focus": "القواعد · النطق",
+      "focus": "الشرط الصفري والأول · السبب والنتيجة · خبر أم سؤال",
       "tasks": [
         {
           "order": 1,
@@ -97,57 +136,63 @@
         },
         {
           "order": 2,
-          "label": "القواعد",
-          "minutes": 25,
-          "ref": "section:grammar"
+          "label": "السبب والنتيجة",
+          "minutes": 15,
+          "ref": "vocab:cause_effect_and_consequence"
         },
         {
           "order": 3,
-          "label": "النطق: تدريب النطق",
-          "minutes": 15,
-          "ref": "section:phonics"
+          "label": "القواعد: الشرط الصفري والأول",
+          "minutes": 20,
+          "ref": "section:grammar"
         },
         {
-          "label": "مراجعة الإملاء",
+          "order": 4,
+          "label": "لعبة التمييز الصوتي: خبر أم سؤال؟",
           "minutes": 10,
-          "ref": "spell:review",
-          "order": 4
+          "ref": "game:minimal_pairs"
         },
         {
           "order": 5,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review"
+        },
+        {
+          "order": 6,
           "label": "تمارين اليوم",
-          "minutes": 5,
+          "minutes": 15,
           "ref": "exercises:1"
         },
         {
+          "order": 7,
           "label": "اكتب مثله",
           "minutes": 10,
-          "ref": "imitate",
-          "order": 6
+          "ref": "imitate"
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 10,
           "ref": "watch:gxaTP6zF9Vc"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
         },
         {
+          "order": 10,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 9
+          "ref": "homework"
         }
       ]
     },
     {
       "number": 2,
-      "focus": "القواعد · النطق",
+      "focus": "if أم when · كلمات الزمن · التقنية ومشكلاتها",
       "tasks": [
         {
           "order": 1,
@@ -157,285 +202,45 @@
         },
         {
           "order": 2,
-          "label": "القواعد",
-          "minutes": 25,
+          "label": "التقنية ومشكلاتها اليومية",
+          "minutes": 15,
+          "ref": "vocab:technology_and_everyday_problems"
+        },
+        {
+          "order": 3,
+          "label": "القواعد: if أم when؟ وكلمات الزمن",
+          "minutes": 20,
           "ref": "section:grammar"
         },
         {
-          "order": 3,
-          "label": "النطق: تدريب النطق",
-          "minutes": 15,
-          "ref": "section:phonics"
-        },
-        {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 4
-        },
-        {
-          "order": 5,
-          "label": "تمارين اليوم",
-          "minutes": 5,
-          "ref": "exercises:2"
-        },
-        {
-          "label": "اكتب مثله",
-          "minutes": 10,
-          "ref": "imitate",
-          "order": 6
-        },
-        {
-          "order": 7,
-          "label": "حلقة اليوم",
-          "minutes": 15,
-          "ref": "watch:PT85QlyEjQI"
-        },
-        {
-          "order": 8,
-          "label": "تحدّي اليوم",
-          "minutes": 3,
-          "ref": "play:error_hunt"
-        },
-        {
-          "label": "مغامرة اليوم",
-          "minutes": 10,
-          "ref": "homework",
-          "order": 9
-        }
-      ]
-    },
-    {
-      "number": 3,
-      "focus": "القواعد · النطق",
-      "tasks": [
-        {
-          "order": 1,
-          "label": "مراجعة المفردات — تكرار متباعد",
-          "minutes": 10,
-          "ref": "review:vocab"
-        },
-        {
-          "order": 2,
-          "label": "القواعد",
-          "minutes": 25,
-          "ref": "section:grammar"
-        },
-        {
-          "order": 3,
-          "label": "النطق: تدريب النطق",
-          "minutes": 15,
-          "ref": "section:phonics"
-        },
-        {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 4
-        },
-        {
-          "order": 5,
-          "label": "تمارين اليوم",
-          "minutes": 5,
-          "ref": "exercises:3"
-        },
-        {
-          "label": "اكتب مثله",
-          "minutes": 10,
-          "ref": "imitate",
-          "order": 6
-        },
-        {
-          "order": 7,
-          "label": "قصة اليوم",
-          "minutes": 10,
-          "ref": "story:the-stone-in-the-road"
-        },
-        {
-          "order": 8,
-          "label": "تحدّي اليوم",
-          "minutes": 3,
-          "ref": "play:match_race"
-        },
-        {
-          "label": "مغامرة اليوم",
-          "minutes": 10,
-          "ref": "homework",
-          "order": 9
-        }
-      ]
-    },
-    {
-      "number": 4,
-      "focus": "اليقين والشكّ · النطق",
-      "tasks": [
-        {
-          "order": 1,
-          "label": "مراجعة المفردات — تكرار متباعد",
-          "minutes": 10,
-          "ref": "review:vocab"
-        },
-        {
-          "order": 2,
-          "label": "اليقين والشكّ",
-          "minutes": 25,
-          "ref": "vocab:certainty_and_doubt"
-        },
-        {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 3
-        },
-        {
           "order": 4,
-          "label": "النطق: تدريب النطق",
-          "minutes": 15,
-          "ref": "section:phonics"
+          "label": "لعبة التمييز الصوتي: خبر أم سؤال؟",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
         },
         {
           "order": 5,
-          "label": "تمارين اليوم",
-          "minutes": 5,
-          "ref": "exercises:4"
-        },
-        {
-          "label": "اكتب مثله",
-          "minutes": 10,
-          "ref": "imitate",
-          "order": 6
-        },
-        {
-          "order": 7,
-          "label": "حلقة اليوم",
-          "minutes": 20,
-          "ref": "watch:FofANnMlD8w"
-        },
-        {
-          "order": 8,
-          "label": "تحدّي اليوم",
-          "minutes": 3,
-          "ref": "play:error_hunt"
-        },
-        {
-          "label": "مغامرة اليوم",
-          "minutes": 10,
-          "ref": "homework",
-          "order": 9
-        }
-      ]
-    },
-    {
-      "number": 5,
-      "focus": "الحوار الأول · النطق",
-      "tasks": [
-        {
-          "order": 1,
-          "label": "مراجعة المفردات — تكرار متباعد",
-          "minutes": 10,
-          "ref": "review:vocab"
-        },
-        {
-          "order": 2,
-          "label": "حوار: Negotiating a Deadline",
-          "minutes": 25,
-          "ref": "dialogue:1"
-        },
-        {
-          "order": 3,
-          "label": "النطق: تدريب النطق",
-          "minutes": 15,
-          "ref": "section:phonics"
-        },
-        {
           "label": "مراجعة الإملاء",
           "minutes": 10,
-          "ref": "spell:review",
-          "order": 4
-        },
-        {
-          "order": 5,
-          "label": "تمارين اليوم",
-          "minutes": 5,
-          "ref": "exercises:5"
-        },
-        {
-          "label": "اكتب مثله",
-          "minutes": 10,
-          "ref": "imitate",
-          "order": 6
-        },
-        {
-          "order": 7,
-          "label": "حلقة اليوم",
-          "minutes": 20,
-          "ref": "watch:6XkLU9zofZw"
-        },
-        {
-          "order": 8,
-          "label": "تحدّي اليوم",
-          "minutes": 3,
-          "ref": "play:match_race"
-        },
-        {
-          "label": "مغامرة اليوم",
-          "minutes": 10,
-          "ref": "homework",
-          "order": 9
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "focus": "الحوار الثاني · الاستماع · النطق",
-      "tasks": [
-        {
-          "order": 1,
-          "label": "مراجعة المفردات — تكرار متباعد",
-          "minutes": 10,
-          "ref": "review:vocab"
-        },
-        {
-          "label": "الحوار",
-          "minutes": 15,
-          "ref": "dialogue:2",
-          "order": 2
-        },
-        {
-          "label": "الاستماع",
-          "minutes": 15,
-          "ref": "section:listening",
-          "order": 3
-        },
-        {
-          "order": 4,
-          "label": "النطق: تدريب النطق",
-          "minutes": 15,
-          "ref": "section:phonics"
-        },
-        {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 5
+          "ref": "spell:review"
         },
         {
           "order": 6,
           "label": "تمارين اليوم",
-          "minutes": 5,
-          "ref": "exercises:6"
+          "minutes": 10,
+          "ref": "exercises:2"
         },
         {
+          "order": 7,
           "label": "اكتب مثله",
           "minutes": 10,
-          "ref": "imitate",
-          "order": 7
+          "ref": "imitate"
         },
         {
           "order": 8,
-          "label": "قصة اليوم",
+          "label": "حلقة اليوم",
           "minutes": 10,
-          "ref": "story:the-two-seeds"
+          "ref": "watch:PT85QlyEjQI"
         },
         {
           "order": 9,
@@ -444,16 +249,304 @@
           "ref": "play:error_hunt"
         },
         {
+          "order": 10,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 10
+          "ref": "homework"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "focus": "unless و in case · عبارات الشرط · أفعال التقنية",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 5,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "عبارات الشرط",
+          "minutes": 10,
+          "ref": "vocab:conditional_phrases"
+        },
+        {
+          "order": 3,
+          "label": "أفعال التقنية وتعابيرها",
+          "minutes": 10,
+          "ref": "vocab:tech_phrasal_verbs_and_collocations"
+        },
+        {
+          "order": 4,
+          "label": "القواعد: unless و in case و as long as",
+          "minutes": 20,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 5,
+          "label": "لعبة التمييز الصوتي: خبر أم سؤال؟",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 6,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review"
+        },
+        {
+          "order": 7,
+          "label": "تمارين اليوم",
+          "minutes": 20,
+          "ref": "exercises:3"
+        },
+        {
+          "order": 8,
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate"
+        },
+        {
+          "order": 9,
+          "label": "قصة اليوم",
+          "minutes": 10,
+          "ref": "story:the-stone-in-the-road"
+        },
+        {
+          "order": 10,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:match_race"
+        },
+        {
+          "order": 11,
+          "label": "مغامرة اليوم",
+          "minutes": 10,
+          "ref": "homework"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "focus": "اليقين والشكّ · might و may · التنغيم",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 5,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "اليقين والشكّ",
+          "minutes": 10,
+          "ref": "vocab:certainty_and_doubt"
+        },
+        {
+          "order": 3,
+          "label": "القواعد: might و may و will probably",
+          "minutes": 15,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 4,
+          "label": "لعبة التمييز الصوتي: خبر أم سؤال؟",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
+          "label": "النطق: التنغيم",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 6,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review"
+        },
+        {
+          "order": 7,
+          "label": "تمارين اليوم",
+          "minutes": 10,
+          "ref": "exercises:4"
+        },
+        {
+          "order": 8,
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate"
+        },
+        {
+          "order": 9,
+          "label": "حلقة اليوم",
+          "minutes": 10,
+          "ref": "watch:FofANnMlD8w"
+        },
+        {
+          "order": 10,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:error_hunt"
+        },
+        {
+          "order": 11,
+          "label": "مغامرة اليوم",
+          "minutes": 10,
+          "ref": "homework"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "focus": "العرض والوعد والتحذير · الحوار الأول",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 5,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "العرض والوعد والتحذير",
+          "minutes": 15,
+          "ref": "vocab:offers_promises_and_warnings"
+        },
+        {
+          "order": 3,
+          "label": "القواعد: الشرط في الحياة",
+          "minutes": 10,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 4,
+          "label": "حوار: Negotiating a Deadline",
+          "minutes": 15,
+          "ref": "dialogue:1"
+        },
+        {
+          "order": 5,
+          "label": "لعبة التمييز الصوتي: خبر أم سؤال؟",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 6,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review"
+        },
+        {
+          "order": 7,
+          "label": "تمارين اليوم",
+          "minutes": 20,
+          "ref": "exercises:5"
+        },
+        {
+          "order": 8,
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate"
+        },
+        {
+          "order": 9,
+          "label": "حلقة اليوم",
+          "minutes": 10,
+          "ref": "watch:6XkLU9zofZw"
+        },
+        {
+          "order": 10,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:match_race"
+        },
+        {
+          "order": 11,
+          "label": "مغامرة اليوم",
+          "minutes": 10,
+          "ref": "homework"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "focus": "الحوار الثاني · الاستماع · لحن جملة الشرط",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 5,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:2"
+        },
+        {
+          "order": 3,
+          "label": "الاستماع",
+          "minutes": 15,
+          "ref": "section:listening"
+        },
+        {
+          "order": 4,
+          "label": "لعبة التمييز الصوتي: خبر أم سؤال؟",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
+          "label": "النطق: لحن جملة الشرط",
+          "minutes": 10,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 6,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review"
+        },
+        {
+          "order": 7,
+          "label": "تمارين اليوم",
+          "minutes": 20,
+          "ref": "exercises:6"
+        },
+        {
+          "order": 8,
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate"
+        },
+        {
+          "order": 9,
+          "label": "قصة اليوم",
+          "minutes": 10,
+          "ref": "story:the-two-seeds"
+        },
+        {
+          "order": 10,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:error_hunt"
+        },
+        {
+          "order": 11,
+          "label": "مغامرة اليوم",
+          "minutes": 10,
+          "ref": "homework"
         }
       ]
     },
     {
       "number": 7,
-      "focus": "القراءة · الكتابة · النطق",
+      "focus": "القراءة · الكتابة · التحدّث",
       "tasks": [
         {
           "order": 1,
@@ -462,39 +555,39 @@
           "ref": "review:vocab"
         },
         {
+          "order": 2,
           "label": "القراءة",
-          "minutes": 10,
-          "ref": "section:reading",
-          "order": 2
+          "minutes": 15,
+          "ref": "section:reading"
         },
         {
+          "order": 3,
           "label": "الكتابة",
-          "minutes": 10,
-          "ref": "writing:1",
-          "order": 3
+          "minutes": 15,
+          "ref": "writing:1"
         },
         {
+          "order": 4,
           "label": "التحدّث",
           "minutes": 10,
-          "ref": "record",
-          "order": 4
+          "ref": "record"
         },
         {
           "order": 5,
-          "label": "النطق: تدريب النطق",
-          "minutes": 15,
-          "ref": "section:phonics"
+          "label": "لعبة التمييز الصوتي: خبر أم سؤال؟",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
         },
         {
+          "order": 6,
           "label": "مراجعة الإملاء",
           "minutes": 10,
-          "ref": "spell:review",
-          "order": 6
+          "ref": "spell:review"
         },
         {
           "order": 7,
           "label": "تمارين اليوم",
-          "minutes": 5,
+          "minutes": 15,
           "ref": "exercises:7"
         },
         {
@@ -510,10 +603,10 @@
           "ref": "play:match_race"
         },
         {
+          "order": 10,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 10
+          "ref": "homework"
         }
       ]
     }
@@ -550,7 +643,7 @@
       "word": "when",
       "ipa": "/wen/",
       "arabic": "عندما",
-      "example": "When I finish, I'll call.",
+      "example": "When I finish, I'll call you.",
       "group_label_ar": "السبب والنتيجة",
       "group_label_en": "Cause, Effect and Consequence",
       "target": "when",
@@ -615,7 +708,7 @@
       "word": "therefore",
       "ipa": "/ˈðeəfɔː(r)/",
       "arabic": "لذلك (رسمي)",
-      "example": "Formal written English.",
+      "example": "The shop was closed. Therefore, we went home.",
       "group_label_ar": "السبب والنتيجة",
       "group_label_en": "Cause, Effect and Consequence",
       "target": "therefore",
@@ -667,7 +760,7 @@
       "word": "affect",
       "ipa": "/əˈfekt/",
       "arabic": "يؤثر على",
-      "example": "It affected everybody.",
+      "example": "The rain affected everybody's plans.",
       "group_label_ar": "السبب والنتيجة",
       "group_label_en": "Cause, Effect and Consequence",
       "target": "affect",
@@ -745,7 +838,7 @@
       "word": "happen",
       "ipa": "/ˈhæpən/",
       "arabic": "يحدث",
-      "example": "What will happen if…?",
+      "example": "What will happen if we miss the train?",
       "group_label_ar": "السبب والنتيجة",
       "group_label_en": "Cause, Effect and Consequence",
       "target": "happen",
@@ -836,7 +929,7 @@
       "word": "as long as",
       "ipa": "/əz ˈlɒŋ əz/",
       "arabic": "طالما",
-      "example": "As long as you tell me first.",
+      "example": "You can borrow my car as long as you bring it back tonight.",
       "group_label_ar": "السبب والنتيجة",
       "group_label_en": "Cause, Effect and Consequence",
       "target": "as long as",
@@ -849,7 +942,7 @@
       "word": "device",
       "ipa": "/dɪˈvaɪs/",
       "arabic": "جهاز",
-      "example": null,
+      "example": "Please turn off every device during the exam.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "device",
@@ -862,7 +955,7 @@
       "word": "screen",
       "ipa": "/skriːn/",
       "arabic": "شاشة",
-      "example": null,
+      "example": "The screen on my phone is broken.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "screen",
@@ -875,7 +968,7 @@
       "word": "battery",
       "ipa": "/ˈbætri/",
       "arabic": "بطارية",
-      "example": null,
+      "example": "If the battery runs out, the phone turns off.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "battery",
@@ -888,7 +981,7 @@
       "word": "charger",
       "ipa": "/ˈtʃɑːdʒə(r)/",
       "arabic": "شاحن",
-      "example": null,
+      "example": "Can I borrow your charger? My phone is almost dead.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "charger",
@@ -901,7 +994,7 @@
       "word": "password",
       "ipa": "/ˈpɑːswɜːd/",
       "arabic": "كلمة مرور",
-      "example": null,
+      "example": "Don't tell anyone your password.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "password",
@@ -914,7 +1007,7 @@
       "word": "account",
       "ipa": "/əˈkaʊnt/",
       "arabic": "حساب",
-      "example": null,
+      "example": "I can't open my email account.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "account",
@@ -927,7 +1020,7 @@
       "word": "update",
       "ipa": "/ˌʌpˈdeɪt/",
       "arabic": "تحديث",
-      "example": null,
+      "example": "My laptop is installing an update.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "update",
@@ -940,7 +1033,7 @@
       "word": "download",
       "ipa": "/ˈdaʊnləʊd/",
       "arabic": "تنزيل",
-      "example": null,
+      "example": "The download will take ten minutes.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "download",
@@ -953,7 +1046,7 @@
       "word": "connection",
       "ipa": "/kəˈnekʃn/",
       "arabic": "اتصال",
-      "example": null,
+      "example": "The internet connection is very slow today.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "connection",
@@ -966,7 +1059,7 @@
       "word": "signal",
       "ipa": "/ˈsɪɡnəl/",
       "arabic": "إشارة",
-      "example": null,
+      "example": "There's no signal in this room.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "signal",
@@ -979,7 +1072,7 @@
       "word": "crash",
       "ipa": "/kræʃ/",
       "arabic": "يتعطّل",
-      "example": null,
+      "example": "If the computer crashes, you'll lose your work.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "crash",
@@ -992,7 +1085,7 @@
       "word": "freeze",
       "ipa": "/friːz/",
       "arabic": "يتجمّد",
-      "example": null,
+      "example": "My screen freezes when I open too many apps.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "freeze",
@@ -1005,7 +1098,7 @@
       "word": "delete",
       "ipa": "/dɪˈliːt/",
       "arabic": "يحذف",
-      "example": null,
+      "example": "Don't delete that file — I need it.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "delete",
@@ -1018,7 +1111,7 @@
       "word": "save",
       "ipa": "/seɪv/",
       "arabic": "يحفظ",
-      "example": null,
+      "example": "Save your work every ten minutes.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "save",
@@ -1031,7 +1124,7 @@
       "word": "back up",
       "ipa": "/ˈbæk ʌp/",
       "arabic": "ينسخ احتياطياً",
-      "example": null,
+      "example": "I back up my photos every week.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "back up",
@@ -1044,7 +1137,7 @@
       "word": "restart",
       "ipa": "/ˌriːˈstɑːt/",
       "arabic": "يعيد التشغيل",
-      "example": null,
+      "example": "If it freezes, restart it.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "restart",
@@ -1057,7 +1150,7 @@
       "word": "fix",
       "ipa": "/fɪks/",
       "arabic": "يصلّح",
-      "example": null,
+      "example": "Can you fix my laptop?",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "fix",
@@ -1070,7 +1163,7 @@
       "word": "replace",
       "ipa": "/rɪˈpleɪs/",
       "arabic": "يستبدل",
-      "example": null,
+      "example": "We need to replace the old battery.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "replace",
@@ -1083,7 +1176,7 @@
       "word": "break down",
       "ipa": "/breɪk ˈdaʊn/",
       "arabic": "يتعطّل",
-      "example": null,
+      "example": "Our car broke down on the way to Alexandria.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "break down",
@@ -1096,7 +1189,7 @@
       "word": "run out",
       "ipa": "/rʌn ˈaʊt/",
       "arabic": "ينفد",
-      "example": null,
+      "example": "We've run out of milk.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "run out",
@@ -1109,7 +1202,7 @@
       "word": "lock",
       "ipa": "/lɒk/",
       "arabic": "يقفل",
-      "example": null,
+      "example": "Lock your phone with a password.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "lock",
@@ -1122,7 +1215,7 @@
       "word": "unlock",
       "ipa": "/ʌnˈlɒk/",
       "arabic": "يفتح القفل",
-      "example": null,
+      "example": "I can't unlock the door.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "unlock",
@@ -1135,7 +1228,7 @@
       "word": "warn",
       "ipa": "/wɔːn/",
       "arabic": "يحذّر",
-      "example": null,
+      "example": "I warned him about the traffic.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "warn",
@@ -1148,7 +1241,7 @@
       "word": "remind",
       "ipa": "/rɪˈmaɪnd/",
       "arabic": "يذكّر",
-      "example": null,
+      "example": "Remind me to call my mother.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "remind",
@@ -1161,7 +1254,7 @@
       "word": "check",
       "ipa": "/tʃek/",
       "arabic": "يتفقّد",
-      "example": null,
+      "example": "Check your email before the meeting.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "check",
@@ -1174,7 +1267,7 @@
       "word": "ignore",
       "ipa": "/ɪɡˈnɔː(r)/",
       "arabic": "يتجاهل",
-      "example": null,
+      "example": "Don't ignore the warning on the screen.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "ignore",
@@ -1187,7 +1280,7 @@
       "word": "urgent",
       "ipa": "/ˈɜːdʒənt/",
       "arabic": "عاجل",
-      "example": null,
+      "example": "This message is urgent — please read it now.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "urgent",
@@ -1200,7 +1293,7 @@
       "word": "serious",
       "ipa": "/ˈsɪəriəs/",
       "arabic": "خطير",
-      "example": null,
+      "example": "It's a small problem, not a serious one.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "serious",
@@ -1213,7 +1306,7 @@
       "word": "safe",
       "ipa": "/seɪf/",
       "arabic": "آمن",
-      "example": null,
+      "example": "Is it safe to download this file?",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "safe",
@@ -1226,7 +1319,7 @@
       "word": "dangerous",
       "ipa": "/ˈdeɪndʒərəs/",
       "arabic": "خطر",
-      "example": null,
+      "example": "It's dangerous to use your phone while you drive.",
       "group_label_ar": "التقنية ومشكلاتها اليومية",
       "group_label_en": "Technology and Everyday Problems",
       "target": "dangerous",
@@ -1239,7 +1332,7 @@
       "word": "If you like…",
       "ipa": null,
       "arabic": "إن أردت…",
-      "example": "Offering",
+      "example": "If you like, I'll drive you to the station.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1252,7 +1345,7 @@
       "word": "If you want…",
       "ipa": null,
       "arabic": "إن شئت…",
-      "example": "Offering",
+      "example": "If you want, we can watch a film tonight.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1265,7 +1358,7 @@
       "word": "If I have time…",
       "ipa": null,
       "arabic": "إن توفّر لي وقت…",
-      "example": "Conditional promise",
+      "example": "If I have time, I'll call you this evening.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1278,7 +1371,7 @@
       "word": "If necessary…",
       "ipa": null,
       "arabic": "إن لزم الأمر…",
-      "example": "Neutral",
+      "example": "If necessary, we'll work on Saturday.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1291,7 +1384,7 @@
       "word": "If possible…",
       "ipa": null,
       "arabic": "إن أمكن…",
-      "example": "Polite request",
+      "example": "Please reply today, if possible.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1304,7 +1397,7 @@
       "word": "If not…",
       "ipa": null,
       "arabic": "وإن لم…",
-      "example": "Alternative",
+      "example": "Are you free on Monday? If not, we can meet on Tuesday.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1317,7 +1410,7 @@
       "word": "If so…",
       "ipa": null,
       "arabic": "وإن كان كذلك…",
-      "example": "Follow-up",
+      "example": "Is the shop open? If so, I'll go now.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1330,7 +1423,7 @@
       "word": "What if…?",
       "ipa": null,
       "arabic": "ماذا لو…؟",
-      "example": "Raising a possibility",
+      "example": "What if it rains tomorrow?",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1343,7 +1436,7 @@
       "word": "What happens if…?",
       "ipa": null,
       "arabic": "ماذا يحدث إذا…؟",
-      "example": "Asking about consequences",
+      "example": "What happens if I press this button?",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1356,7 +1449,7 @@
       "word": "Only if…",
       "ipa": null,
       "arabic": "فقط إذا…",
-      "example": "Setting a condition",
+      "example": "I'll go only if you come with me.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1369,7 +1462,7 @@
       "word": "As long as…",
       "ipa": null,
       "arabic": "طالما…",
-      "example": "Setting a condition",
+      "example": "You can stay as long as you're quiet.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1382,7 +1475,7 @@
       "word": "Provided that…",
       "ipa": null,
       "arabic": "بشرط أن…",
-      "example": "Formal condition",
+      "example": "You can use the room provided that you clean it.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1395,7 +1488,7 @@
       "word": "Unless…",
       "ipa": null,
       "arabic": "ما لم…",
-      "example": "Negative condition",
+      "example": "Unless you hurry, you'll miss the bus.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1408,7 +1501,7 @@
       "word": "Otherwise…",
       "ipa": null,
       "arabic": "وإلا…",
-      "example": "Warning",
+      "example": "Take a map. Otherwise, you'll get lost.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1421,7 +1514,7 @@
       "word": "In that case…",
       "ipa": null,
       "arabic": "في تلك الحالة…",
-      "example": "Responding",
+      "example": "The train is late? In that case, I'll take a taxi.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1434,7 +1527,7 @@
       "word": "It depends.",
       "ipa": null,
       "arabic": "يعتمد",
-      "example": "Refusing to commit",
+      "example": "Will you come on Friday? — It depends.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": "It depends",
@@ -1447,7 +1540,7 @@
       "word": "That depends on…",
       "ipa": null,
       "arabic": "ذلك يعتمد على…",
-      "example": "Refusing to commit",
+      "example": "That depends on the weather.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1460,7 +1553,7 @@
       "word": "I'll let you know.",
       "ipa": null,
       "arabic": "سأعلمك",
-      "example": "Conditional promise",
+      "example": "I'm not sure yet. I'll let you know tomorrow.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1473,7 +1566,7 @@
       "word": "Just in case",
       "ipa": null,
       "arabic": "تحسّباً",
-      "example": "Precaution",
+      "example": "Take some money, just in case.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": "Just in case",
@@ -1486,7 +1579,7 @@
       "word": "To be safe",
       "ipa": null,
       "arabic": "من باب الأمان",
-      "example": "Precaution",
+      "example": "To be safe, I always leave an hour early.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": "To be safe",
@@ -1499,7 +1592,7 @@
       "word": "Or else",
       "ipa": null,
       "arabic": "وإلا",
-      "example": "Informal warning",
+      "example": "Hurry up, or else we'll miss the start.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": "Or else",
@@ -1512,7 +1605,7 @@
       "word": "Then again…",
       "ipa": null,
       "arabic": "ومن جهة أخرى…",
-      "example": "Second thought",
+      "example": "The job pays well. Then again, it's very far.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1525,7 +1618,7 @@
       "word": "On the other hand…",
       "ipa": null,
       "arabic": "من ناحية أخرى…",
-      "example": "Balancing",
+      "example": "The flat is small. On the other hand, it's cheap.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1538,7 +1631,7 @@
       "word": "Either way…",
       "ipa": null,
       "arabic": "في كلتا الحالتين…",
-      "example": "Closing a discussion",
+      "example": "We can walk or take a taxi. Either way, we'll be late.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": null,
@@ -1551,7 +1644,7 @@
       "word": "We'll see.",
       "ipa": null,
       "arabic": "سنرى",
-      "example": "Non-committal",
+      "example": "Can we go to the beach tomorrow? — We'll see.",
       "group_label_ar": "عبارات الشرط",
       "group_label_en": "Conditional Phrases",
       "target": "We'll see",
@@ -1562,9 +1655,9 @@
     {
       "group": "certainty_and_doubt",
       "word": "definitely",
-      "ipa": null,
+      "ipa": "/ˈdefɪnətli/",
       "arabic": "بالتأكيد / حتماً",
-      "example": null,
+      "example": "I'll definitely come to your party.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": "definitely",
@@ -1575,9 +1668,9 @@
     {
       "group": "certainty_and_doubt",
       "word": "probably",
-      "ipa": null,
+      "ipa": "/ˈprɒbəbli/",
       "arabic": "على الأرجح",
-      "example": null,
+      "example": "It will probably rain tomorrow.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": "probably",
@@ -1590,7 +1683,7 @@
       "word": "maybe / perhaps",
       "ipa": null,
       "arabic": "ربّما",
-      "example": null,
+      "example": "Maybe I'll call him tonight.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": "maybe",
@@ -1601,9 +1694,9 @@
     {
       "group": "certainty_and_doubt",
       "word": "certainly",
-      "ipa": null,
+      "ipa": "/ˈsɜːtnli/",
       "arabic": "قطعاً",
-      "example": null,
+      "example": "She will certainly pass the exam.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": "certainly",
@@ -1613,23 +1706,10 @@
     },
     {
       "group": "certainty_and_doubt",
-      "word": "likely",
-      "ipa": null,
-      "arabic": "مرجّح",
-      "example": null,
-      "group_label_ar": "اليقين والشكّ",
-      "group_label_en": "Certainty and Doubt",
-      "target": "likely",
-      "sentence": "He is likely to be late again.",
-      "sentence_ar": "من المرجّح أن يتأخر مرة أخرى.",
-      "usage_ar": "likely صفة لا ظرف، فنقول is likely to."
-    },
-    {
-      "group": "certainty_and_doubt",
       "word": "possibly",
-      "ipa": null,
+      "ipa": "/ˈpɒsəbli/",
       "arabic": "من الممكن",
-      "example": null,
+      "example": "We'll possibly move next year.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": "possibly",
@@ -1642,7 +1722,7 @@
       "word": "of course",
       "ipa": null,
       "arabic": "طبعاً",
-      "example": null,
+      "example": "Can I sit here? — Of course.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": "of course",
@@ -1655,7 +1735,7 @@
       "word": "I expect so",
       "ipa": null,
       "arabic": "أتوقّع ذلك",
-      "example": null,
+      "example": "Will the shop be open? — I expect so.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": "I expect so",
@@ -1668,7 +1748,7 @@
       "word": "I doubt it",
       "ipa": null,
       "arabic": "أشكّ في ذلك",
-      "example": null,
+      "example": "Will he say sorry? — I doubt it.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": "I doubt it",
@@ -1681,7 +1761,7 @@
       "word": "without doubt",
       "ipa": null,
       "arabic": "بلا شكّ",
-      "example": null,
+      "example": "She is without doubt the best player in the team.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": "without doubt",
@@ -1694,7 +1774,7 @@
       "word": "I think so",
       "ipa": null,
       "arabic": "أظنّ ذلك",
-      "example": null,
+      "example": "Is the meeting at ten? — I think so.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": "I think so",
@@ -1707,7 +1787,7 @@
       "word": "I'm not sure",
       "ipa": null,
       "arabic": "لست متأكّداً",
-      "example": null,
+      "example": "I'm not sure, but I think it's at ten.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": "I'm not sure",
@@ -1720,7 +1800,7 @@
       "word": "I'm sure",
       "ipa": null,
       "arabic": "أنا متأكّد",
-      "example": null,
+      "example": "I'm sure you'll pass.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": "I'm sure",
@@ -1733,7 +1813,7 @@
       "word": "It looks like it",
       "ipa": null,
       "arabic": "يبدو كذلك",
-      "example": null,
+      "example": "Is it going to rain? — It looks like it.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": null,
@@ -1746,7 +1826,7 @@
       "word": "It's hard to say",
       "ipa": null,
       "arabic": "من الصعب الجزم",
-      "example": null,
+      "example": "Who will win? — It's hard to say.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": null,
@@ -1759,7 +1839,7 @@
       "word": "no question",
       "ipa": null,
       "arabic": "بلا نقاش",
-      "example": null,
+      "example": "He's the best teacher here — no question.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": "no question",
@@ -1772,7 +1852,7 @@
       "word": "most of the time",
       "ipa": null,
       "arabic": "في معظم الأوقات",
-      "example": null,
+      "example": "Most of the time, I walk to work.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": null,
@@ -1785,7 +1865,7 @@
       "word": "it depends",
       "ipa": null,
       "arabic": "يعتمد على الحال",
-      "example": null,
+      "example": "Do you work on Saturdays? — It depends.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": "it depends",
@@ -1796,9 +1876,9 @@
     {
       "group": "certainty_and_doubt",
       "word": "always",
-      "ipa": null,
+      "ipa": "/ˈɔːlweɪz/",
       "arabic": "دائماً",
-      "example": null,
+      "example": "If you heat water to 100 degrees, it always boils.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": "always",
@@ -1809,9 +1889,9 @@
     {
       "group": "certainty_and_doubt",
       "word": "usually",
-      "ipa": null,
+      "ipa": "/ˈjuːʒuəli/",
       "arabic": "عادةً",
-      "example": null,
+      "example": "I usually take the bus to work.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": "usually",
@@ -1822,18 +1902,291 @@
     {
       "group": "certainty_and_doubt",
       "word": "sometimes",
-      "ipa": null,
+      "ipa": "/ˈsʌmtaɪmz/",
       "arabic": "أحياناً",
-      "example": null,
+      "example": "Sometimes I work from home.",
       "group_label_ar": "اليقين والشكّ",
       "group_label_en": "Certainty and Doubt",
       "target": "sometimes",
       "sentence": "Sometimes the internet is very slow.",
       "sentence_ar": "أحياناً يكون الإنترنت بطيئاً جداً.",
       "usage_ar": "sometimes تأتي في أول الجملة أو قبل الفعل."
+    },
+    {
+      "group": "offers_promises_and_warnings",
+      "word": "Shall I…?",
+      "ipa": null,
+      "arabic": "هل أ…؟ (عرض مساعدة)",
+      "example": "Shall I open the window?"
+    },
+    {
+      "group": "offers_promises_and_warnings",
+      "word": "I'll do it.",
+      "ipa": null,
+      "arabic": "سأفعلها أنا",
+      "example": "Don't worry, I'll do it."
+    },
+    {
+      "group": "offers_promises_and_warnings",
+      "word": "Let me help you.",
+      "ipa": null,
+      "arabic": "دعني أساعدك",
+      "example": "That bag looks heavy. Let me help you."
+    },
+    {
+      "group": "offers_promises_and_warnings",
+      "word": "Would you like me to…?",
+      "ipa": null,
+      "arabic": "أتريدني أن…؟",
+      "example": "Would you like me to call a taxi?"
+    },
+    {
+      "group": "offers_promises_and_warnings",
+      "word": "I promise I'll…",
+      "ipa": null,
+      "arabic": "أعدك أنني سـ…",
+      "example": "I promise I'll call you tonight."
+    },
+    {
+      "group": "offers_promises_and_warnings",
+      "word": "I won't forget.",
+      "ipa": null,
+      "arabic": "لن أنسى",
+      "example": "Your birthday is on Friday? I won't forget."
+    },
+    {
+      "group": "offers_promises_and_warnings",
+      "word": "You can count on me.",
+      "ipa": null,
+      "arabic": "اعتمد عليّ",
+      "example": "Do you need help on Saturday? You can count on me."
+    },
+    {
+      "group": "offers_promises_and_warnings",
+      "word": "Be careful!",
+      "ipa": null,
+      "arabic": "انتبه!",
+      "example": "Be careful! The floor is wet."
+    },
+    {
+      "group": "offers_promises_and_warnings",
+      "word": "Watch out!",
+      "ipa": null,
+      "arabic": "احترس!",
+      "example": "Watch out! There's a car coming."
+    },
+    {
+      "group": "offers_promises_and_warnings",
+      "word": "Be careful or…",
+      "ipa": null,
+      "arabic": "انتبه وإلّا…",
+      "example": "Be careful or you'll fall."
+    },
+    {
+      "group": "offers_promises_and_warnings",
+      "word": "Don't forget to…",
+      "ipa": null,
+      "arabic": "لا تنسَ أن…",
+      "example": "Don't forget to back up your files."
+    },
+    {
+      "group": "offers_promises_and_warnings",
+      "word": "Shall we…?",
+      "ipa": null,
+      "arabic": "هل نـ…؟ (اقتراح)",
+      "example": "Shall we meet at six?"
+    },
+    {
+      "group": "offers_promises_and_warnings",
+      "word": "Are you free on…?",
+      "ipa": null,
+      "arabic": "هل أنت متفرّغ يوم…؟",
+      "example": "Are you free on Friday evening?"
+    },
+    {
+      "group": "offers_promises_and_warnings",
+      "word": "How about…?",
+      "ipa": null,
+      "arabic": "ما رأيك في…؟",
+      "example": "How about Saturday morning?"
+    },
+    {
+      "group": "offers_promises_and_warnings",
+      "word": "Let's say…",
+      "ipa": null,
+      "arabic": "لنقل…",
+      "example": "Let's say ten o'clock at the café."
+    },
+    {
+      "group": "offers_promises_and_warnings",
+      "word": "That works for me.",
+      "ipa": null,
+      "arabic": "هذا يناسبني",
+      "example": "Six o'clock? That works for me."
+    },
+    {
+      "group": "offers_promises_and_warnings",
+      "word": "See you then.",
+      "ipa": null,
+      "arabic": "أراك حينها",
+      "example": "Great, see you then."
+    },
+    {
+      "group": "tech_phrasal_verbs_and_collocations",
+      "word": "turn on",
+      "ipa": null,
+      "arabic": "يشغّل",
+      "example": "Turn on the computer and wait a minute."
+    },
+    {
+      "group": "tech_phrasal_verbs_and_collocations",
+      "word": "turn off",
+      "ipa": null,
+      "arabic": "يطفئ",
+      "example": "Please turn off your phone in the cinema."
+    },
+    {
+      "group": "tech_phrasal_verbs_and_collocations",
+      "word": "plug in",
+      "ipa": null,
+      "arabic": "يوصل بالكهرباء",
+      "example": "Plug in the charger, please."
+    },
+    {
+      "group": "tech_phrasal_verbs_and_collocations",
+      "word": "charge your phone",
+      "ipa": null,
+      "arabic": "يشحن هاتفه",
+      "example": "I charge my phone every night."
+    },
+    {
+      "group": "tech_phrasal_verbs_and_collocations",
+      "word": "run out of battery",
+      "ipa": null,
+      "arabic": "تنفد البطارية",
+      "example": "My phone ran out of battery on the bus."
+    },
+    {
+      "group": "tech_phrasal_verbs_and_collocations",
+      "word": "log in",
+      "ipa": null,
+      "arabic": "يسجّل الدخول",
+      "example": "Log in with your email and password."
+    },
+    {
+      "group": "tech_phrasal_verbs_and_collocations",
+      "word": "log out",
+      "ipa": null,
+      "arabic": "يسجّل الخروج",
+      "example": "Always log out on a shared computer."
+    },
+    {
+      "group": "tech_phrasal_verbs_and_collocations",
+      "word": "install an update",
+      "ipa": null,
+      "arabic": "يثبّت تحديثاً",
+      "example": "The phone will restart when you install the update."
+    },
+    {
+      "group": "tech_phrasal_verbs_and_collocations",
+      "word": "download an app",
+      "ipa": null,
+      "arabic": "ينزّل تطبيقاً",
+      "example": "Download the app and open an account."
+    },
+    {
+      "group": "tech_phrasal_verbs_and_collocations",
+      "word": "back up your files",
+      "ipa": null,
+      "arabic": "ينسخ ملفاته احتياطياً",
+      "example": "If you don't back up your files, you'll lose them."
+    },
+    {
+      "group": "tech_phrasal_verbs_and_collocations",
+      "word": "the computer crashes",
+      "ipa": null,
+      "arabic": "يتعطّل الحاسوب",
+      "example": "Save your work in case the computer crashes."
+    },
+    {
+      "group": "tech_phrasal_verbs_and_collocations",
+      "word": "the screen freezes",
+      "ipa": null,
+      "arabic": "تتجمّد الشاشة",
+      "example": "If the screen freezes, restart the phone."
+    },
+    {
+      "group": "tech_phrasal_verbs_and_collocations",
+      "word": "lose the connection",
+      "ipa": null,
+      "arabic": "ينقطع الاتصال",
+      "example": "We lost the connection in the middle of the call."
+    },
+    {
+      "group": "tech_phrasal_verbs_and_collocations",
+      "word": "forget your password",
+      "ipa": null,
+      "arabic": "ينسى كلمة المرور",
+      "example": "If you forget your password, click here."
+    },
+    {
+      "group": "tech_phrasal_verbs_and_collocations",
+      "word": "make a call",
+      "ipa": null,
+      "arabic": "يجري مكالمة",
+      "example": "I can't make a call — there's no signal."
     }
   ],
-  "minimal_pairs": [],
+  "minimal_pairs": [
+    {
+      "group_label": "Statement or question?",
+      "group_label_ar": "خبر أم سؤال؟",
+      "ipa": "↘ vs ↗",
+      "word_a": "You're coming.",
+      "word_b": "You're coming?",
+      "hint_ar": "الكلمات نفسها، والفرق في آخر الجملة فقط: إن هبط الصوت فهي خبر (You're coming. = أنت آتٍ)، وإن صعد فهي سؤال يتحقّق أو يتعجّب (You're coming? = أأنت آتٍ حقاً؟). في الكلام لا علامة استفهام تراها — النغمة وحدها تقول لك. استمع إلى الكلمة الأخيرة."
+    },
+    {
+      "group_label": "Statement or question?",
+      "group_label_ar": "خبر أم سؤال؟",
+      "ipa": "↘ vs ↗",
+      "word_a": "It's finished.",
+      "word_b": "It's finished?",
+      "hint_ar": "الكلمات نفسها، والفرق في آخر الجملة فقط: إن هبط الصوت فهي خبر (You're coming. = أنت آتٍ)، وإن صعد فهي سؤال يتحقّق أو يتعجّب (You're coming? = أأنت آتٍ حقاً؟). في الكلام لا علامة استفهام تراها — النغمة وحدها تقول لك. استمع إلى الكلمة الأخيرة."
+    },
+    {
+      "group_label": "Statement or question?",
+      "group_label_ar": "خبر أم سؤال؟",
+      "ipa": "↘ vs ↗",
+      "word_a": "She's ready.",
+      "word_b": "She's ready?",
+      "hint_ar": "الكلمات نفسها، والفرق في آخر الجملة فقط: إن هبط الصوت فهي خبر (You're coming. = أنت آتٍ)، وإن صعد فهي سؤال يتحقّق أو يتعجّب (You're coming? = أأنت آتٍ حقاً؟). في الكلام لا علامة استفهام تراها — النغمة وحدها تقول لك. استمع إلى الكلمة الأخيرة."
+    },
+    {
+      "group_label": "Statement or question?",
+      "group_label_ar": "خبر أم سؤال؟",
+      "ipa": "↘ vs ↗",
+      "word_a": "He's at home.",
+      "word_b": "He's at home?",
+      "hint_ar": "الكلمات نفسها، والفرق في آخر الجملة فقط: إن هبط الصوت فهي خبر (You're coming. = أنت آتٍ)، وإن صعد فهي سؤال يتحقّق أو يتعجّب (You're coming? = أأنت آتٍ حقاً؟). في الكلام لا علامة استفهام تراها — النغمة وحدها تقول لك. استمع إلى الكلمة الأخيرة."
+    },
+    {
+      "group_label": "Statement or question?",
+      "group_label_ar": "خبر أم سؤال؟",
+      "ipa": "↘ vs ↗",
+      "word_a": "You've paid.",
+      "word_b": "You've paid?",
+      "hint_ar": "الكلمات نفسها، والفرق في آخر الجملة فقط: إن هبط الصوت فهي خبر (You're coming. = أنت آتٍ)، وإن صعد فهي سؤال يتحقّق أو يتعجّب (You're coming? = أأنت آتٍ حقاً؟). في الكلام لا علامة استفهام تراها — النغمة وحدها تقول لك. استمع إلى الكلمة الأخيرة."
+    },
+    {
+      "group_label": "Statement or question?",
+      "group_label_ar": "خبر أم سؤال؟",
+      "ipa": "↘ vs ↗",
+      "word_a": "It's free.",
+      "word_b": "It's free?",
+      "hint_ar": "الكلمات نفسها، والفرق في آخر الجملة فقط: إن هبط الصوت فهي خبر (You're coming. = أنت آتٍ)، وإن صعد فهي سؤال يتحقّق أو يتعجّب (You're coming? = أأنت آتٍ حقاً؟). في الكلام لا علامة استفهام تراها — النغمة وحدها تقول لك. استمع إلى الكلمة الأخيرة."
+    }
+  ],
   "dialogues": [
     {
       "number": 1,
@@ -2008,62 +2361,652 @@
   "sections": [
     {
       "kind": "grammar",
-      "day_number": 4,
-      "title_ar": "القواعد",
-      "title_en": "Grammar — Conditionals",
+      "day_number": 1,
+      "title_ar": "القواعد — الشرط الصفري والأول",
+      "title_en": "Grammar — Zero and first conditional",
       "payload": {
-        "rule_ar": "الشرط الصفري لحقيقة تتكرّر دائماً (If you heat water, it boils)، والشرط الأول لاحتمال واقعي في المستقبل (If it rains, we will stay). والقاعدة التي لا تُخرق: **لا will في جملة if أبداً** — الزمن فيها مضارع بسيط ولو كان المعنى مستقبلاً.",
-        "rule_en": "IF + PRESENT SIMPLE  ,  PRESENT SIMPLE",
+        "rule_ar": "الشرط الصفري لحقيقة تتكرّر كل مرة: if + مضارع ، مضارع — If you heat water to 100 degrees, it boils. والشرط الأول لاحتمال واقعي في المستقبل: if + مضارع ، will + فعل مجرّد — If it rains, we will stay at home. والقاعدة التي يكسرها الجميع: لا will في جملة if أبداً، ولا بعد when و as soon as و before و after و until و unless.",
+        "table": {
+          "columns_ar": [
+            "النوع",
+            "التركيب",
+            "مثال"
+          ],
+          "rows": [
+            [
+              "الصفري — حقيقة",
+              "if + present, present",
+              "If you heat water to 100 degrees, it boils."
+            ],
+            [
+              "الصفري — حقيقة",
+              "if + present, present",
+              "If the battery runs out, the phone turns off."
+            ],
+            [
+              "الأول — احتمال",
+              "if + present, will + verb",
+              "If it rains, we will stay at home."
+            ],
+            [
+              "الأول — نفي",
+              "if + doesn’t, won’t",
+              "If he doesn’t call, I won’t wait."
+            ],
+            [
+              "الأول — if ثانياً",
+              "will + verb + if + present",
+              "We’ll stay at home if it rains."
+            ]
+          ],
+          "say": 2,
+          "ar_cols": [
+            0
+          ]
+        },
+        "arabic_contrast_ar": "في العربية يأتي بعد «إذا» فعلٌ ماضٍ لفظاً مستقبلٌ معنىً («إذا نزل المطر»)، ويأتي الجواب بالسين أو «سوف» («سنبقى»). فيفكّر المتعلّم بالمعنى: المطر في المستقبل، إذن will — فيقول If it will rain. والإنجليزية تحكم باللفظ لا بالمعنى: جملة if مضارع بسيط دائماً، والمستقبل يُقال مرة واحدة في جملة الجواب: If it rains, we will stay. هذا هو الخطأ الثامن عشر من الأخطاء العشرين. وفي الترقيم: إن بدأت بـ if فضع فاصلة بعد الشرط، وإن جاءت if ثانياً فلا فاصلة: We’ll stay at home if it rains.",
         "common_errors": [
           {
-            "error_no": 1,
-            "wrong": "If it will rain, we will stay",
+            "error_no": 18,
+            "wrong": "If it will rain, we will stay.",
             "right": "If it rains, we will stay.",
-            "arabic": "إذا نزل المطر سنبقى",
             "why_ar": "مضارع في جملة if"
           },
           {
-            "error_no": 2,
-            "wrong": "When I will arrive",
-            "right": "When I arrive, I'll call.",
-            "arabic": "عندما أصل سأتصل",
-            "why_ar": "القاعدة نفسها بعد when"
+            "error_no": 18,
+            "wrong": "If you will help me, I finish faster.",
+            "right": "If you help me, I’ll finish faster.",
+            "why_ar": "will تخرج من جملة if وتدخل جملة الجواب"
           },
           {
-            "error_no": 3,
-            "wrong": "Unless you don't hurry",
-            "right": "Unless you hurry…",
-            "arabic": "ما لم تسرع",
-            "why_ar": "unless تعني «إن لم» أصلاً"
-          },
-          {
-            "error_no": 4,
-            "wrong": "I tell him if I see him (future)",
+            "wrong": "I tell him if I see him. (future)",
             "right": "I will tell him if I see him.",
-            "arabic": "سأخبره إذا رأيته",
             "why_ar": "جملة الجواب تحتاج will"
           },
           {
-            "error_no": 5,
-            "wrong": "Take an umbrella if it rains",
-            "right": "Take an umbrella in case it rains.",
-            "arabic": "خذ مظلة تحسّباً للمطر",
-            "why_ar": "احتياط لا شرط"
-          },
-          {
-            "error_no": 6,
-            "wrong": "It effects everybody",
-            "right": "It affects everybody.",
-            "arabic": "هذا يؤثر على الجميع",
-            "why_ar": "affect هي الفعل"
+            "wrong": "If you heat ice, it melt.",
+            "right": "If you heat ice, it melts.",
+            "why_ar": "الصفري مضارع بسيط في الشطرين، و it تأخذ s"
           }
         ],
         "checklist_ar": [
           "لا will بعد if أبداً",
-          "الصفري: if + مضارع ، مضارع",
-          "الأول: if + مضارع ، will + مجرّد",
+          "الصفري: if + مضارع ، مضارع — لما يحدث كل مرة",
+          "الأول: if + مضارع ، will + مجرّد — لاحتمال واحد في المستقبل",
+          "if أولاً ← فاصلة · if ثانياً ← بلا فاصلة"
+        ],
+        "contrast_table": [
+          {
+            "ar": "إذا نزل المطر سنبقى في البيت",
+            "literal": "If it will rain, we will stay at home.",
+            "right": "If it rains, we will stay at home.",
+            "rule_ar": "مضارع في جملة if ولو كان المعنى مستقبلاً"
+          },
+          {
+            "ar": "سأخبره إذا رأيته",
+            "literal": "I tell him if I see him.",
+            "right": "I will tell him if I see him.",
+            "rule_ar": "جملة الجواب هي التي تحمل will"
+          },
+          {
+            "ar": "إذا ساعدتني سأنتهي الليلة",
+            "literal": "If you will help me, I finish tonight.",
+            "right": "If you help me, I will finish tonight.",
+            "rule_ar": "will تنتقل من جملة if إلى الجواب"
+          },
+          {
+            "ar": "إذا لم يتّصل فلن أنتظر",
+            "literal": "If he doesn’t will call, I don’t wait.",
+            "right": "If he doesn’t call, I won’t wait.",
+            "rule_ar": "النفي في الشرط بـ doesn’t، وفي الجواب بـ won’t"
+          }
+        ],
+        "negation_ar": "النفي: في جملة if بـ don’t / doesn’t — If he doesn’t call…، وفي الجواب بـ won’t — …I won’t wait. ولا تجمعهما في كلمة واحدة: If he doesn’t will come خطأ، والصواب If he doesn’t come.",
+        "question_ar": "السؤال عن النتيجة: What will you do if it rains? · What happens if I press this? (للحقيقة الدائمة). وحتى في السؤال تبقى جملة if مضارعاً: What will you do if he doesn’t come? لا if he won’t come."
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 2,
+      "title_ar": "القواعد — if أم when؟ وكلمات الزمن",
+      "title_en": "Grammar — if or when? Time clauses",
+      "payload": {
+        "rule_ar": "if لما قد يقع (50٪)، و when لما سيقع حتماً (100٪). If I see him, I’ll tell him: ربما لا أراه. When I see him, I’ll tell him: سأراه قطعاً. والاختبار: هل هو مؤكّد؟ when. احتمال؟ if.",
+        "table": {
+          "columns_ar": [
+            "",
+            "if",
+            "when"
+          ],
+          "rows": [
+            [
+              "المعنى",
+              "قد يقع",
+              "سيقع حتماً"
+            ],
+            [
+              "مثال",
+              "If I see him, I’ll tell him.",
+              "When I see him, I’ll tell him."
+            ],
+            [
+              "مثال",
+              "If it rains…",
+              "When the sun sets…"
+            ]
+          ],
+          "say": 1,
+          "ar_cols": [
+            0
+          ]
+        },
+        "checklist_ar": [
           "when لما سيقع حتماً · if لما قد يقع",
-          "unless = if not · in case للاحتياط"
+          "بعد when و before و after و until و as soon as: مضارع بسيط",
+          "المستقبل يُقال مرة واحدة: في الجملة الأخرى"
+        ],
+        "arabic_contrast_ar": "العربية تقول «إذا» للأمرين: «إذا جاء الصيف سافرنا» (أكيد) و«إذا رأيته أخبرته» (محتمل). والإنجليزية تفصل بينهما: when لما سيقع حتماً، و if لما قد يقع. والخطأ الثاني: «عندما أصل سأتصل» معناها مستقبل، فيضع المتعلّم will بعد when — والقاعدة هي قاعدة if نفسها: بعد when و before و after و until و as soon as مضارع بسيط.",
+        "common_errors": [
+          {
+            "error_no": 18,
+            "wrong": "When I will arrive, I’ll call you.",
+            "right": "When I arrive, I’ll call you.",
+            "why_ar": "لا will بعد when"
+          },
+          {
+            "wrong": "If the sun sets, it gets cold here.",
+            "right": "When the sun sets, it gets cold here.",
+            "why_ar": "الشمس تغرب حتماً كل يوم ← when"
+          },
+          {
+            "error_no": 18,
+            "wrong": "I’ll wait until you will come back.",
+            "right": "I’ll wait until you come back.",
+            "why_ar": "لا will بعد until"
+          }
+        ],
+        "lessons": [
+          {
+            "title_ar": "كلمات الزمن: before · after · until · as soon as",
+            "title_en": "Future time clauses",
+            "explain_ar": "هذه الكلمات تربط حدثين في المستقبل، ولها قاعدة if نفسها: بعدها مضارع بسيط، و will في الجملة الأخرى فقط. before = قبل أن، و after = بعد أن، و until = حتى / إلى أن، و as soon as = حالما، و when = عندما.",
+            "table": {
+              "columns_ar": [
+                "الكلمة",
+                "المعنى",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "when",
+                  "عندما",
+                  "When I get home, I’ll call you."
+                ],
+                [
+                  "before",
+                  "قبل أن",
+                  "I’ll call you before I leave."
+                ],
+                [
+                  "after",
+                  "بعد أن",
+                  "After I finish work, I’ll go to the gym."
+                ],
+                [
+                  "until",
+                  "حتى / إلى أن",
+                  "I’ll wait here until you come back."
+                ],
+                [
+                  "as soon as",
+                  "حالما",
+                  "I’ll send it as soon as I arrive."
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                1
+              ]
+            },
+            "examples": [
+              {
+                "en": "We’ll have dinner after the film finishes.",
+                "ar": "سنتعشّى بعد أن ينتهي الفيلم."
+              },
+              {
+                "en": "Don’t go out until the rain stops.",
+                "ar": "لا تخرج حتى يتوقّف المطر."
+              },
+              {
+                "en": "Before you leave, check the windows.",
+                "ar": "قبل أن تخرج، تفقّد النوافذ."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "Before I will leave, I’ll call you.",
+                "right": "Before I leave, I’ll call you.",
+                "why_ar": "لا will بعد before"
+              },
+              {
+                "wrong": "After I finish, I call you. (tomorrow)",
+                "right": "After I finish, I’ll call you.",
+                "why_ar": "الجملة الأخرى تحمل will"
+              },
+              {
+                "wrong": "I’ll send it as soon as I will arrive.",
+                "right": "I’ll send it as soon as I arrive.",
+                "why_ar": "لا will بعد as soon as"
+              }
+            ],
+            "tip_ar": "المستقبل يُقال مرة واحدة في الجملة: في الجزء الذي ليس فيه if ولا when ولا before ولا after ولا until ولا as soon as."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 3,
+      "title_ar": "القواعد — unless · as soon as · in case · as long as",
+      "title_en": "Grammar — unless, as soon as, in case, as long as",
+      "payload": {
+        "rule_ar": "خمس كلمات توسّع الشرط: unless = if … not، و as soon as = حالما، و in case = تحسّباً، و as long as = بشرط أن، و otherwise = وإلّا. و unless فيها النفي أصلاً: Unless you don’t hurry نفي مزدوج يقلب المعنى.",
+        "table": {
+          "columns_ar": [
+            "الكلمة",
+            "المعنى",
+            "مثال"
+          ],
+          "rows": [
+            [
+              "unless",
+              "إن لم",
+              "Unless you hurry, you’ll miss the train."
+            ],
+            [
+              "as soon as",
+              "حالما",
+              "I’ll call you as soon as I arrive."
+            ],
+            [
+              "in case",
+              "تحسّباً لـ",
+              "Take an umbrella in case it rains."
+            ],
+            [
+              "as long as",
+              "بشرط أن",
+              "You can borrow it as long as you return it."
+            ],
+            [
+              "otherwise",
+              "وإلّا",
+              "Hurry up, otherwise we’ll be late."
+            ]
+          ],
+          "say": 2,
+          "ar_cols": [
+            1
+          ]
+        },
+        "common_errors": [
+          {
+            "wrong": "Unless you don’t hurry, you’ll miss it.",
+            "right": "Unless you hurry, you’ll miss it.",
+            "why_ar": "unless تعني «إن لم» أصلاً"
+          },
+          {
+            "error_no": 18,
+            "wrong": "Take an umbrella in case it will rain.",
+            "right": "Take an umbrella in case it rains.",
+            "why_ar": "بعد in case مضارع بسيط كما بعد if"
+          },
+          {
+            "error_no": 18,
+            "wrong": "You can borrow it as long as you will return it.",
+            "right": "You can borrow it as long as you return it.",
+            "why_ar": "بعد as long as مضارع بسيط"
+          }
+        ],
+        "checklist_ar": [
+          "unless = if not — بلا نفي ثانٍ",
+          "in case للاحتياط الآن · if لما تفعله حين يحدث",
+          "بعد unless و in case و as long as: مضارع بسيط"
+        ],
+        "lessons": [
+          {
+            "title_ar": "in case أم if؟ جملتان صحيحتان بمعنيين",
+            "title_en": "in case vs if",
+            "explain_ar": "الجملتان أدناه صحيحتان، لكن معناهما مختلف. مع if تفعل الشيء حين يحدث الشرط فقط: تنظر من النافذة، فإن كانت تمطر أخذت المظلة. ومع in case تفعله الآن قبل أن تعرف، احتياطاً لأنه قد يحدث.",
+            "examples": [
+              {
+                "en": "I’ll take an umbrella if it rains.",
+                "ar": "أنظر أولاً: إن كانت تمطر أخذتها، وإلّا تركتها."
+              },
+              {
+                "en": "I’ll take an umbrella in case it rains.",
+                "ar": "آخذها الآن احتياطاً، لأنها قد تمطر."
+              },
+              {
+                "en": "Save your work in case the computer crashes.",
+                "ar": "احفظ عملك الآن تحسّباً لتعطّل الحاسوب."
+              },
+              {
+                "en": "Call me if you need help.",
+                "ar": "اتّصل بي إن احتجت مساعدة — حين تحتاجها فقط."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "Take some money in case the card machine won’t work.",
+                "right": "Take some money in case the card machine doesn’t work.",
+                "why_ar": "بعد in case مضارع بسيط لا will"
+              }
+            ],
+            "tip_ar": "اسأل نفسك: هل أفعلها الآن احتياطاً؟ in case. أم بعد أن يحدث الشيء؟ if."
+          }
+        ],
+        "arabic_contrast_ar": "«ما لم» و«إن لم» تحملان النفي في داخلهما، وكذلك unless: فلا تضف not بعدها — Unless you hurry = If you don’t hurry. و«تحسّباً لـ» في العربية تأتي مع اسم («تحسّباً للمطر»)، أمّا in case فتأتي مع جملة كاملة بمضارع بسيط: in case it rains — لا in case it will rain ولا in case of rain في الكلام اليومي.",
+        "negation_ar": "unless + فعل مثبت = if + don’t / doesn’t: Unless you hurry = If you don’t hurry. اختر واحدة منهما، ولا تجمع النفيين."
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 4,
+      "title_ar": "القواعد — might · must · can’t: الاحتمال والاستنتاج",
+      "title_en": "Grammar — might, must, can’t",
+      "payload": {
+        "rule_ar": "الأفعال الناقصة تقول أيضاً كم أنت متأكّد. might و may و could للاحتمال: It might rain (ربما). و must للاستنتاج المؤكّد: She worked all night — she must be tired. و can’t لاستحالته: That can’t be Ahmed — he’s in London. والقاعدة نفسها: فعل مجرّد بعدها، بلا -s ولا to. ولدرجات اليقين عن المستقبل سلّم كامل: will (متأكّد) ← will probably (مرجّح) ← might / may (ربّما) ← probably won’t (غير مرجّح) ← won’t (متأكّد أنه لن يحدث). ومع الشرط: If it rains, we might stay at home = ربّما نبقى، لسنا متأكّدين.",
+        "table": {
+          "columns_ar": [
+            "اليقين",
+            "الفعل",
+            "مثال"
+          ],
+          "rows": [
+            [
+              "مؤكّد (مستقبل)",
+              "will",
+              "It will rain tomorrow."
+            ],
+            [
+              "مرجّح",
+              "will probably",
+              "It will probably rain tomorrow."
+            ],
+            [
+              "محتمل",
+              "might · may · could",
+              "It might rain tomorrow."
+            ],
+            [
+              "محتمل منفيّ",
+              "might not · may not",
+              "I might not come tomorrow."
+            ],
+            [
+              "غير مرجّح",
+              "probably won’t",
+              "It probably won’t rain tomorrow."
+            ],
+            [
+              "مؤكّد النفي",
+              "won’t",
+              "It won’t rain tomorrow."
+            ],
+            [
+              "مؤكّد (استنتاج عن الآن)",
+              "must",
+              "He must be at home — his car is outside."
+            ],
+            [
+              "مستحيل (استنتاج عن الآن)",
+              "can’t",
+              "That can’t be true."
+            ]
+          ],
+          "say": 2,
+          "ar_cols": [
+            0
+          ]
+        },
+        "arabic_contrast_ar": "«لا بدّ أنه متعب» = He must be tired، و«لا يمكن أن يكون هو» = It can’t be him. وانتبه: نفي must في الاستنتاج هو can’t لا mustn’t — mustn’t للمنع وحده. و«ربّما» في العربية تجتمع مع «سوف»: «ربّما سوف آتي»، فيقول المتعلّم Maybe I will might come. والإنجليزية تختار واحدة: Maybe I’ll come أو I might come. وموضع probably: بعد will وقبل won’t — I’ll probably come · I probably won’t come.",
+        "common_errors": [
+          {
+            "wrong": "He mights come tomorrow.",
+            "right": "He might come tomorrow.",
+            "why_ar": "لا -s مع الناقص"
+          },
+          {
+            "wrong": "It might to rain.",
+            "right": "It might rain.",
+            "why_ar": "لا to بعد الناقص"
+          },
+          {
+            "wrong": "That mustn’t be Ahmed.",
+            "right": "That can’t be Ahmed.",
+            "why_ar": "المستحيل بـcan’t — و mustn’t للمنع"
+          },
+          {
+            "error_no": 8,
+            "wrong": "I might to go to the party.",
+            "right": "I might go to the party.",
+            "why_ar": "مثل He can to swim: لا to بعد الناقص"
+          },
+          {
+            "wrong": "Maybe I will might come.",
+            "right": "I might come.",
+            "why_ar": "maybe مع will، أو might وحدها — لا الاثنتان"
+          },
+          {
+            "wrong": "I won’t probably come.",
+            "right": "I probably won’t come.",
+            "why_ar": "probably قبل won’t وبعد will"
+          }
+        ],
+        "checklist_ar": [
+          "will ← will probably ← might / may ← probably won’t ← won’t",
+          "might / may / could + فعل مجرّد: بلا to ولا s",
+          "maybe + will، أو might وحدها",
+          "must = لا بدّ (عن الآن) · can’t = مستحيل"
+        ],
+        "negation_ar": "النفي: might not / may not = ربّما لا (I might not come)، و probably won’t = على الأرجح لا. ولا تستعمل couldn’t هنا: She couldn’t be at home معناها «مستحيل»، لا «ربّما ليست».",
+        "question_ar": "السؤال عن الاحتمال: Do you think it will rain? — والجواب بدرجة يقينك: Definitely. · Probably. · It might. · I doubt it. · Probably not. ولا نسأل عادةً بـ might: Might it rain? نادرة جداً."
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 5,
+      "title_ar": "القواعد — جمل الشرط في الحياة: تحذير ووعد وعرض وتفاوض",
+      "title_en": "Grammar — What conditionals are really for",
+      "payload": {
+        "rule_ar": "جمل الشرط ليست تمريناً نحوياً: هي البنية التي تحذّر بها وتَعِد وتعرض وتتفاوض كل يوم — وأحياناً تهدّد. انظر كيف يصنع الحوار الأول كلّ ذلك: Unless they object, you have until Monday.",
+        "table": {
+          "columns_ar": [
+            "الوظيفة",
+            "مثال"
+          ],
+          "rows": [
+            [
+              "تحذير",
+              "If you don’t back up your files, you’ll lose them."
+            ],
+            [
+              "وعد",
+              "If you help me today, I’ll help you on Friday."
+            ],
+            [
+              "عرض",
+              "If you like, I’ll drive you to the station."
+            ],
+            [
+              "تفاوض",
+              "I’ll do it as long as you give me until Monday."
+            ],
+            [
+              "تهديد",
+              "If you do that again, I’ll call your father."
+            ]
+          ],
+          "say": 1,
+          "ar_cols": [
+            0
+          ]
+        },
+        "arabic_contrast_ar": "العرض في العربية بالمضارع: «أحمل عنك؟» «أوصلك؟»، وترجمته الحرفية Do I carry it? خطأ — العرض Shall I carry it? أو I’ll carry it. والقرار في لحظته «طيّب، آخذ الأحمر» = OK, I’ll take the red one، لا I take.",
+        "common_errors": [
+          {
+            "wrong": "If you will like, I’ll drive you.",
+            "right": "If you like, I’ll drive you.",
+            "error_no": 18,
+            "why_ar": "لا will في جملة if حتى في العرض"
+          },
+          {
+            "wrong": "Do I carry your bag?",
+            "right": "Shall I carry your bag?",
+            "why_ar": "العرض بـ Shall I"
+          }
+        ],
+        "checklist_ar": [
+          "التحذير: If you don’t…, you’ll… · Be careful or you’ll…",
+          "العرض: Shall I…? · I’ll… · If you like, I’ll…",
+          "التفاوض: I’ll… as long as… · I’ll… if…"
+        ],
+        "lessons": [
+          {
+            "title_ar": "أربع وظائف بجملة شرط واحدة",
+            "title_en": "What conditionals are really for",
+            "explain_ar": "هذا هو جدول الكتاب نفسه بعبارات أخرى: كل وظيفة بنيتها شرط، والجملة الأولى تقول الشرط والثانية تقول ما سيحدث.",
+            "table": {
+              "columns_ar": [
+                "الوظيفة",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "تحذير",
+                  "If you don’t back up your files, you’ll lose them."
+                ],
+                [
+                  "وعد",
+                  "If you help me today, I’ll help you on Friday."
+                ],
+                [
+                  "عرض",
+                  "If you like, I’ll drive you to the station."
+                ],
+                [
+                  "تفاوض",
+                  "I’ll do it as long as you give me until Monday."
+                ]
+              ],
+              "say": 1,
+              "ar_cols": [
+                0
+              ]
+            }
+          },
+          {
+            "title_ar": "عرض ووعد وتحذير وموعد — بلا if",
+            "title_en": "Offers, promises, warnings, arrangements",
+            "explain_ar": "أربع وظائف تحتاجها كل يوم، ولها عبارات قصيرة جاهزة. العرض: Shall I…? أو I’ll… (قرار في لحظته). الوعد: I promise I’ll… أو I won’t…, I promise. التحذير: Be careful or you’ll… · Don’t… or you’ll…. والموعد: Shall we…? · Are you free on…? · How about…? · Let’s say… · That works for me.",
+            "table": {
+              "columns_ar": [
+                "الوظيفة",
+                "العبارة",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "عرض",
+                  "Shall I…?",
+                  "Shall I open the window?"
+                ],
+                [
+                  "عرض",
+                  "I’ll…",
+                  "You look tired. I’ll make the tea."
+                ],
+                [
+                  "عرض",
+                  "If you like, I’ll…",
+                  "If you like, I’ll drive you home."
+                ],
+                [
+                  "وعد",
+                  "I promise I’ll…",
+                  "I promise I’ll call you tonight."
+                ],
+                [
+                  "وعد",
+                  "I won’t…, I promise.",
+                  "I won’t tell anyone, I promise."
+                ],
+                [
+                  "تحذير",
+                  "Be careful or…",
+                  "Be careful or you’ll fall."
+                ],
+                [
+                  "تحذير",
+                  "Don’t… or…",
+                  "Don’t touch that or you’ll burn your hand."
+                ],
+                [
+                  "موعد",
+                  "Shall we…?",
+                  "Shall we meet at six?"
+                ],
+                [
+                  "موعد",
+                  "Are you free on…?",
+                  "Are you free on Friday evening?"
+                ],
+                [
+                  "موعد",
+                  "Let’s say…",
+                  "Let’s say ten o’clock at the café."
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                0
+              ]
+            },
+            "examples": [
+              {
+                "en": "A: Are you free on Saturday? B: I think so. Shall we meet at ten?",
+                "ar": "أ: هل أنت متفرّغ السبت؟ ب: أظنّ ذلك. هل نلتقي في العاشرة؟"
+              },
+              {
+                "en": "A: Let’s say ten at the café. B: That works for me. See you then.",
+                "ar": "أ: لنقل العاشرة في المقهى. ب: يناسبني. أراك حينها."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "Do I help you?",
+                "right": "Shall I help you?",
+                "why_ar": "«أساعدك؟» في العربية بالمضارع، والعرض بالإنجليزية Shall I"
+              },
+              {
+                "wrong": "The phone is ringing. I answer it.",
+                "right": "The phone is ringing. I’ll answer it.",
+                "why_ar": "القرار في لحظته بـ will"
+              },
+              {
+                "wrong": "I promise I call you.",
+                "right": "I promise I’ll call you.",
+                "why_ar": "الوعد عن المستقبل يحتاج will"
+              },
+              {
+                "wrong": "Be careful or you fall.",
+                "right": "Be careful or you’ll fall.",
+                "why_ar": "النتيجة في المستقبل ← will"
+              }
+            ],
+            "tip_ar": "العرض والوعد يُقرّران في لحظة الكلام، فهما بـ will لا بـ going to: «الجرس يرنّ — سأفتح» = I’ll get it."
+          }
         ]
       }
     },
@@ -2098,7 +3041,7 @@
           },
           {
             "en": "But here is the thing. In forty years he never missed a flight, never lost a document, and never served a bad meal to a guest. And when the factory where he worked flooded in 1998, he was the only manager who had a copy of the plans at home.",
-            "ar": "لكن هذا هو الأمر: في أربعين سنة لم يفته طيران قطّ، ولم يفقد وثيقة قطّ، ولم يقدّم طعاماً سيّئاً لضيف قطّ. وحين غُرق المصنع الذي كان يعمل فيه سنة 1998، كان المدير الوحيد الذي عنده نسخة من المخطّطات في بيته."
+            "ar": "لكن هذا هو الأمر: في أربعين سنة لم تفته رحلة طيران قطّ، ولم يفقد وثيقة قطّ، ولم يقدّم طعاماً سيّئاً لضيف قطّ. وحين غمرت المياه المصنع الذي كان يعمل فيه سنة 1998، كان المدير الوحيد الذي عنده نسخة من المخطّطات في بيته."
           },
           {
             "en": "I ignored his rule for most of my twenties. Then I lost three months of work because my laptop died and I had never backed anything up. I remember sitting there thinking: he told me. He told me for twenty years.",
@@ -2109,7 +3052,53 @@
             "ar": "والآن أضبط منبّهين. إن كانت لي مقابلة فلي طريقان. وإن كان لي عرض فلي نسخة على ذاكرة ونسخة في بريدي. وهذا لا يكلّف شيئاً تقريباً، وإن فعلته مدة كافية فسينجيك يوماً من كل شيء."
           }
         ],
-        "questions": []
+        "questions": [
+          {
+            "q_ar": "عمّ يتحدّث النصّ في جملة واحدة؟",
+            "a_ar": "عن قاعدة الجدّ: إن كان الشيء مهمّاً فجهّز خطة ثانية (منبّهين)، وكيف تعلّمها الراوي بعد خسارة.",
+            "hint_ar": "سؤال الفكرة العامة — أجب بعد الاستماع الأول"
+          },
+          {
+            "q_ar": "ما قاعدة الجدّ؟",
+            "a_ar": "If something matters, you set two alarms — إن كان الأمر مهمّاً فاضبط منبّهين."
+          },
+          {
+            "q_ar": "ما كان عمله؟",
+            "a_ar": "مهندس يبني الجسور."
+          },
+          {
+            "q_ar": "ماذا قال عن جسر على دعامة واحدة؟",
+            "a_ar": "إنه ليس جسراً بل مقامرة (a bet)."
+          },
+          {
+            "q_ar": "اذكر مثالين لتطبيقه القاعدة.",
+            "a_ar": "يخرج قبل الاجتماع المهمّ بساعة · يصوّر الوثيقة نسختين · يطبخ الطبق الجديد قبل الضيوف بأسبوع."
+          },
+          {
+            "q_ar": "ماذا كانت ترى الأم؟",
+            "a_ar": "وجدت ذلك منهكاً، وقالت إنه يعيش كأن الكارثة على بعد عشر دقائق."
+          },
+          {
+            "q_ar": "اذكر شيئين لم يفعلهما في أربعين سنة.",
+            "a_ar": "لم تفته رحلة · لم يفقد وثيقة · لم يقدّم طعاماً سيّئاً لضيف."
+          },
+          {
+            "q_ar": "ماذا حدث سنة 1998؟",
+            "a_ar": "غمرت المياه المصنع الذي يعمل فيه."
+          },
+          {
+            "q_ar": "لماذا كان المدير الوحيد المستعدّ؟",
+            "a_ar": "لأن عنده نسخة من المخطّطات في بيته."
+          },
+          {
+            "q_ar": "ماذا خسر الراوي، ولماذا؟",
+            "a_ar": "ثلاثة أشهر من العمل، لأن حاسوبه تعطّل ولم يكن قد نسخ شيئاً احتياطياً."
+          },
+          {
+            "q_ar": "اذكر طريقتين يطبّق بهما القاعدة الآن.",
+            "a_ar": "منبّهان · طريقان إلى المقابلة · نسخة على ذاكرة ونسخة في بريده."
+          }
+        ]
       }
     },
     {
@@ -2121,8 +3110,8 @@
         "method_ar": "اقرأ مرتين. الأولى بلا توقّف، والثانية مع المسرد.",
         "story": [
           {
-            "en": "In 2011, a small experiment took place in a university coffee room. There was no cashier. There was a box, a price list and a sign asking people to pay honestly. This is called an honesty box, and they exist all over the world.",
-            "ar": "في سنة 2011 أُجريت تجربة صغيرة في غرفة قهوة جامعية. لم يكن هناك أمين صندوق. كان هناك صندوق وقائمة أسعار ولوحة تطلب من الناس أن يدفعوا بصدق. ويُسمّى هذا «صندوق الأمانة»، وهو موجود في العالم كله."
+            "en": "In 2006, a small experiment took place in a university coffee room. There was no cashier. There was a box, a price list and a sign asking people to pay honestly. This is called an honesty box, and they exist all over the world.",
+            "ar": "في سنة 2006 أُجريت تجربة صغيرة في غرفة قهوة جامعية. لم يكن هناك أمين صندوق. كان هناك صندوق وقائمة أسعار ولوحة تطلب من الناس أن يدفعوا بصدق. ويُسمّى هذا «صندوق الأمانة»، وهو موجود في العالم كله."
           },
           {
             "en": "The researchers changed one thing every week: the picture above the box. For one week it was a photograph of flowers. The next week it was a photograph of a pair of eyes.",
@@ -2137,8 +3126,8 @@
             "ar": "لم يكن أحد في الغرفة يعتقد أن الصورة تراقبه. كان الجميع يعرف أنها ورق. ومع ذلك تغيّر السلوك، أسبوعاً بعد أسبوع، عشرة أسابيع."
           },
           {
-            "en": "The researchers repeated the study in a supermarket, in a bus stop and in a car park. The result was the same every time. If people feel observed — even by a picture — they behave better.",
-            "ar": "أعاد الباحثون التجربة في سوق مركزي وفي موقف حافلات وفي مرآب سيارات. وكانت النتيجة نفسها في كل مرة: إن شعر الناس أنهم مراقَبون — ولو بصورة — تحسّن سلوكهم."
+            "en": "Later, other researchers tried pictures of eyes in other places, such as bicycle parks, and they often saw similar results. If people feel observed — even by a picture — they often behave better.",
+            "ar": "ثم جرّب باحثون آخرون صور العيون في أماكن أخرى، مثل مواقف الدرّاجات، وكثيراً ما رأوا نتائج مشابهة: إن شعر الناس أنهم مراقَبون — ولو بصورة — تحسّن سلوكهم في الغالب."
           },
           {
             "en": "The uncomfortable part of this study is not what it says about dishonest people. It is what it says about everybody. If nobody is watching, most of us pay a little less. Not nothing. A little less.",
@@ -2154,88 +3143,129 @@
             "en": "experiment",
             "ipa": "/ɪkˈsperɪmənt/",
             "ar": "تجربة",
-            "note_ar": "Stress on the second"
+            "note_ar": "النبر على المقطع الثاني"
           },
           {
             "en": "take place",
             "ipa": "/teɪk ˈpleɪs/",
             "ar": "يجري / يحدث",
-            "note_ar": "A fixed phrase"
+            "note_ar": "عبارة ثابتة"
           },
           {
             "en": "cashier",
             "ipa": "/kæˈʃɪə(r)/",
             "ar": "أمين صندوق",
-            "note_ar": "Stress on the second"
+            "note_ar": "النبر على المقطع الثاني"
           },
           {
             "en": "honesty",
             "ipa": "/ˈɒnəsti/",
             "ar": "أمانة",
-            "note_ar": "The h is silent"
+            "note_ar": "الهاء لا تُنطق"
           },
           {
             "en": "researcher",
             "ipa": "/rɪˈsɜːtʃə(r)/",
             "ar": "باحث",
-            "note_ar": "Seen in Week 10"
+            "note_ar": "مرّت في الأسبوع العاشر"
           },
           {
             "en": "nearly",
             "ipa": "/ˈnɪəli/",
             "ar": "تقريباً",
-            "note_ar": "—"
+            "note_ar": "مثل almost"
           },
           {
             "en": "behaviour",
             "ipa": "/bɪˈheɪvjə(r)/",
             "ar": "سلوك",
-            "note_ar": "American: behavior"
+            "note_ar": "بالأمريكية: behavior"
           },
           {
             "en": "repeat",
             "ipa": "/rɪˈpiːt/",
             "ar": "يكرّر",
-            "note_ar": "—"
+            "note_ar": "النبر على المقطع الثاني"
           },
           {
             "en": "observe",
             "ipa": "/əbˈzɜːv/",
             "ar": "يراقب",
-            "note_ar": "Contains /ɜː/"
+            "note_ar": "فيها الصوت /ɜː/"
           },
           {
             "en": "uncomfortable",
             "ipa": "/ʌnˈkʌmftəbl/",
             "ar": "مزعج / غير مريح",
-            "note_ar": "Four syllables"
+            "note_ar": "أربعة مقاطع"
           },
           {
             "en": "dishonest",
             "ipa": "/dɪsˈɒnɪst/",
             "ar": "غير أمين",
-            "note_ar": "Silent h again"
+            "note_ar": "الهاء صامتة هنا أيضاً"
           },
           {
             "en": "finding",
             "ipa": "/ˈfaɪndɪŋ/",
             "ar": "نتيجة بحث",
-            "note_ar": "From to find"
+            "note_ar": "من الفعل find"
           },
           {
             "en": "pessimistic",
             "ipa": "/ˌpesɪˈmɪstɪk/",
             "ar": "متشائم",
-            "note_ar": "Opposite: optimistic"
+            "note_ar": "عكسها optimistic"
           },
           {
             "en": "fixed",
             "ipa": "/fɪkst/",
             "ar": "ثابت",
-            "note_ar": "One syllable"
+            "note_ar": "مقطع واحد"
+          },
+          {
+            "en": "similar",
+            "ipa": "/ˈsɪmələ(r)/",
+            "ar": "مشابه",
+            "note_ar": "similar to = يشبه"
           }
         ],
-        "questions": []
+        "questions": [
+          {
+            "q_ar": "ما الفكرة الرئيسة للنصّ؟",
+            "a_ar": "أن الناس كثيراً ما يتصرّفون بأمانة أكبر حين يشعرون أن أحداً يراقبهم — ولو صورة.",
+            "hint_ar": "سؤال الفكرة العامة"
+          },
+          {
+            "q_ar": "أين جرت التجربة الأولى، ومتى؟",
+            "a_ar": "في غرفة قهوة في جامعة، سنة 2006، بلا أمين صندوق، فيها صندوق أمانة."
+          },
+          {
+            "q_ar": "ما الشيء الوحيد الذي غيّره الباحثون؟",
+            "a_ar": "الصورة فوق الصندوق: أزهار في أسبوع، وعينان في الأسبوع التالي."
+          },
+          {
+            "q_ar": "ماذا حدث حين كانت العينان هناك؟",
+            "a_ar": "دفع الناس نحو ثلاثة أضعاف."
+          },
+          {
+            "q_ar": "هل ظنّ الناس أن الصورة تراقبهم فعلاً؟",
+            "a_ar": "لا، كانوا يعرفون أنها ورق، ومع ذلك تغيّر سلوكهم."
+          },
+          {
+            "q_ar": "ما الجزء «المزعج» في الدراسة؟",
+            "a_ar": "أنها لا تتحدّث عن غير الأمناء وحدهم بل عن الجميع: إن لم يراقبنا أحد دفع معظمنا أقلّ قليلاً."
+          },
+          {
+            "q_ar": "هل جعلت النتيجة الباحث متشائماً؟ ولماذا؟",
+            "a_ar": "لا؛ لأنها تعني أن الأمانة ليست شيئاً ثابتاً، بل شيء يمكن بناؤه — ولو بلوحة."
+          },
+          {
+            "q_ar": "هل توافق أن الناس يتصرّفون أحسن حين يشعرون أنهم مراقَبون؟ أعطِ مثالاً، واكتب ثلاث جمل شرطية عن الأمانة في مدينتك.",
+            "a_ar": "جواب شخصي. مثال: If there is a camera in a shop, people don’t take things.",
+            "hint_ar": "للنقاش — لا جواب واحد"
+          }
+        ]
       }
     },
     {
@@ -2253,7 +3283,7 @@
           },
           {
             "can_ar": "أقول عشر جمل شرطية بلا will في جملة if",
-            "can_en": "Say ten conditionals with *no will** in the if* clause?",
+            "can_en": "Say ten conditionals with no will in the if clause?",
             "proof_ar": "تمارين اليوم 1"
           },
           {
@@ -2303,7 +3333,7 @@
       "title_ar": "النطق — التنغيم",
       "title_en": "Pronunciation — Intonation",
       "payload": {
-        "intro_ar": "التنغيم هو موسيقى الإنجليزية. الجملة نفسها بكلماتها نفسها تعني شيئين مختلفين بحسب صعود الصوت أو هبوطه — والمتحدّث بنغمة مسطّحة يفقد نصف ما يريد قوله.",
+        "intro_ar": "التنغيم هو موسيقى الإنجليزية. الجملة نفسها بكلماتها نفسها تعني شيئين مختلفين بحسب صعود الصوت أو هبوطه — والمتحدّث بنغمة مسطّحة يفقد نصف ما يريد قوله. ابدأ بلعبة التمييز «خبر أم سؤال؟»: أذنك أولاً، ثم صوتك.",
         "symbols": [
           {
             "ipa": "↘",
@@ -2335,6 +3365,17 @@
             "fix_ar": "قل «Maybe» ثلاث مرات: بهبوط (قرار)، بصعود (سؤال)، بهبوط ثم صعود (شكّ). الثالثة هي المقصودة."
           },
           {
+            "ipa": "It’s fine.",
+            "arabic_hint": "الكلمات نفسها بثلاث نغمات: بهبوط = فعلاً لا بأس · بصعود = هل هو بخير؟ · بهبوط ثم صعود = ليس بخير، لكنّي لن أقول",
+            "examples": [
+              "It’s fine.",
+              "It’s fine?",
+              "Yes.",
+              "Sorry."
+            ],
+            "fix_ar": "قل «It’s fine» ثلاث مرات بالنغمات الثلاث، ثم اطلب من أحد أن يخمّن أيّها قصدت."
+          },
+          {
             "ipa": "if ↗ … ↘",
             "arabic_hint": "في جملة الشرط: صعود في جملة if ثم هبوط في الجواب",
             "examples": [
@@ -2346,10 +3387,8 @@
             "ipa": "↗ … ↗ … ↘",
             "arabic_hint": "العدّ والقوائم — صعود في كل بند وهبوط في الأخير",
             "examples": [
-              "if",
-              "when",
-              "unless",
-              "otherwise"
+              "I need milk, eggs, bread and rice.",
+              "We can meet on Monday, Tuesday or Friday."
             ]
           },
           {
@@ -2406,48 +3445,57 @@
         ],
         "rubric": [
           {
-            "label_en": "if clause tense",
-            "label_ar": null,
-            "levels": [
-              "will used in the if clause",
-              "One or two errors",
-              "Always present tense"
-            ]
-          },
-          {
             "label_en": "Range",
-            "label_ar": null,
+            "label_ar": "التنوّع",
             "levels": [
-              "Only if",
-              "if plus one other",
-              "unless, as long as, in case used"
+              "if وحدها وكلمات قليلة تتكرّر",
+              "if مع أداة أو أداتين أخريين",
+              "unless و as long as و in case و when و might بثقة"
             ]
           },
           {
-            "label_en": "if vs when",
-            "label_ar": null,
+            "label_en": "Accuracy",
+            "label_ar": "الدقّة",
             "levels": [
-              "Confused",
-              "Mostly right",
-              "Deliberate and correct"
+              "will في جملة if كثيراً، و if مكان when",
+              "خطأ أو خطآن في الأزمنة، والمعنى واضح",
+              "جملة if بالمضارع دائماً، و if / when في موضعهما"
+            ]
+          },
+          {
+            "label_en": "Fluency",
+            "label_ar": "الطلاقة",
+            "levels": [
+              "توقّف طويل بعد كل جملة",
+              "توقّفات قصيرة للبحث عن الكلمة",
+              "كلام متّصل دقيقتين بتوقّفات طبيعية"
+            ]
+          },
+          {
+            "label_en": "Coherence",
+            "label_ar": "الترابط",
+            "levels": [
+              "جمل منفصلة بلا روابط",
+              "روابط بسيطة: and و but",
+              "روابط متنوّعة: because و so و then و when و finally"
+            ]
+          },
+          {
+            "label_en": "Interaction",
+            "label_ar": "مخاطبة المستمع",
+            "levels": [
+              "تقرأ كأنك وحدك",
+              "تنظر إلى المستمع أحياناً",
+              "تخاطبه وتسأله رأيه (What do you think?) بنغمة هابطة"
             ]
           },
           {
             "label_en": "Intonation",
             "label_ar": "التنغيم",
             "levels": [
-              "Flat throughout",
-              "Some rise and fall",
-              "Clear rise then fall on conditionals"
-            ]
-          },
-          {
-            "label_en": "Wh-questions",
-            "label_ar": null,
-            "levels": [
-              "Rising",
-              "Mixed",
-              "Falling"
+              "مسطّح طوال الوقت",
+              "بعض الصعود والهبوط",
+              "صعود في جملة if وهبوط في الجواب بوضوح"
             ]
           },
           {
@@ -2797,7 +3845,8 @@
           "rains / will stay"
         ]
       },
-      "explanation": null
+      "explanation": "جملة if بالمضارع البسيط، والنتيجة بـ will — أو بالمضارع إن كانت حقيقة تتكرّر.",
+      "error_no": 18
     },
     {
       "day_number": 1,
@@ -2812,10 +3861,12 @@
       },
       "answer": {
         "accepted": [
-          "heat / melts"
+          "heat / melts",
+          "heat / will melt"
         ]
       },
-      "explanation": null
+      "explanation": "جملة if بالمضارع البسيط، والنتيجة بـ will — أو بالمضارع إن كانت حقيقة تتكرّر.",
+      "error_no": 18
     },
     {
       "day_number": 1,
@@ -2833,7 +3884,8 @@
           "doesn't call / won't wait"
         ]
       },
-      "explanation": null
+      "explanation": "جملة if بالمضارع البسيط، والنتيجة بـ will — أو بالمضارع إن كانت حقيقة تتكرّر.",
+      "error_no": 18
     },
     {
       "day_number": 1,
@@ -2851,7 +3903,8 @@
           "will tell / know"
         ]
       },
-      "explanation": null
+      "explanation": "جملة if بالمضارع البسيط، والنتيجة بـ will — أو بالمضارع إن كانت حقيقة تتكرّر.",
+      "error_no": 18
     },
     {
       "day_number": 1,
@@ -2869,7 +3922,8 @@
           "help / will finish"
         ]
       },
-      "explanation": null
+      "explanation": "جملة if بالمضارع البسيط، والنتيجة بـ will — أو بالمضارع إن كانت حقيقة تتكرّر.",
+      "error_no": 18
     },
     {
       "day_number": 1,
@@ -2887,7 +3941,8 @@
           "hurries / will miss"
         ]
       },
-      "explanation": null
+      "explanation": "جملة if بالمضارع البسيط، والنتيجة بـ will — أو بالمضارع إن كانت حقيقة تتكرّر.",
+      "error_no": 18
     },
     {
       "day_number": 1,
@@ -2905,7 +3960,8 @@
           "get / will send"
         ]
       },
-      "explanation": null
+      "explanation": "جملة if بالمضارع البسيط، والنتيجة بـ will — أو بالمضارع إن كانت حقيقة تتكرّر.",
+      "error_no": 18
     },
     {
       "day_number": 1,
@@ -2920,10 +3976,12 @@
       },
       "answer": {
         "accepted": [
-          "runs / turns"
+          "runs / turns",
+          "runs / will turn"
         ]
       },
-      "explanation": null
+      "explanation": "جملة if بالمضارع البسيط، والنتيجة بـ will — أو بالمضارع إن كانت حقيقة تتكرّر.",
+      "error_no": 18
     },
     {
       "day_number": 1,
@@ -2941,7 +3999,8 @@
           "will go / is"
         ]
       },
-      "explanation": null
+      "explanation": "جملة if بالمضارع البسيط، والنتيجة بـ will — أو بالمضارع إن كانت حقيقة تتكرّر.",
+      "error_no": 18
     },
     {
       "day_number": 1,
@@ -2959,7 +4018,8 @@
           "don't back / will lose"
         ]
       },
-      "explanation": null
+      "explanation": "جملة if بالمضارع البسيط، والنتيجة بـ will — أو بالمضارع إن كانت حقيقة تتكرّر.",
+      "error_no": 18
     },
     {
       "day_number": 1,
@@ -2977,7 +4037,8 @@
           "will call / leave"
         ]
       },
-      "explanation": null
+      "explanation": "جملة if بالمضارع البسيط، والنتيجة بـ will — أو بالمضارع إن كانت حقيقة تتكرّر.",
+      "error_no": 18
     },
     {
       "day_number": 1,
@@ -2995,7 +4056,8 @@
           "offer / will take"
         ]
       },
-      "explanation": null
+      "explanation": "جملة if بالمضارع البسيط، والنتيجة بـ will — أو بالمضارع إن كانت حقيقة تتكرّر.",
+      "error_no": 18
     },
     {
       "day_number": 1,
@@ -3013,7 +4075,8 @@
           "will be / forget"
         ]
       },
-      "explanation": null
+      "explanation": "جملة if بالمضارع البسيط، والنتيجة بـ will — أو بالمضارع إن كانت حقيقة تتكرّر.",
+      "error_no": 18
     },
     {
       "day_number": 1,
@@ -3031,7 +4094,8 @@
           "have / will visit"
         ]
       },
-      "explanation": null
+      "explanation": "جملة if بالمضارع البسيط، والنتيجة بـ will — أو بالمضارع إن كانت حقيقة تتكرّر.",
+      "error_no": 18
     },
     {
       "day_number": 2,
@@ -3199,10 +4263,10 @@
       "answer": {
         "accepted": [
           "When",
-          "when"
+          "If"
         ]
       },
-      "explanation": null
+      "explanation": "حقيقة عامة: when و if كلتاهما صحيحتان هنا."
     },
     {
       "day_number": 2,
@@ -3417,10 +4481,12 @@
       },
       "answer": {
         "accepted": [
-          "If it rains, we will stay at home."
+          "If it rains, we will stay at home.",
+          "We will stay at home if it rains."
         ]
       },
-      "explanation": null
+      "explanation": null,
+      "error_no": 18
     },
     {
       "day_number": 3,
@@ -3434,10 +4500,12 @@
       },
       "answer": {
         "accepted": [
-          "When I finish, I will call you."
+          "When I finish, I will call you.",
+          "I will call you when I finish."
         ]
       },
-      "explanation": null
+      "explanation": null,
+      "error_no": 18
     },
     {
       "day_number": 3,
@@ -3451,7 +4519,9 @@
       },
       "answer": {
         "accepted": [
-          "Unless you hurry, you'll be late."
+          "Unless you hurry, you'll be late.",
+          "If you don't hurry, you'll be late.",
+          "You'll be late unless you hurry."
         ]
       },
       "explanation": null
@@ -3468,10 +4538,12 @@
       },
       "answer": {
         "accepted": [
-          "If you help me, I'll finish faster."
+          "If you help me, I'll finish faster.",
+          "I'll finish faster if you help me."
         ]
       },
-      "explanation": null
+      "explanation": null,
+      "error_no": 18
     },
     {
       "day_number": 3,
@@ -3485,10 +4557,12 @@
       },
       "answer": {
         "accepted": [
-          "I'll tell him if I see him."
+          "I'll tell him if I see him.",
+          "If I see him, I'll tell him."
         ]
       },
-      "explanation": null
+      "explanation": null,
+      "error_no": 18
     },
     {
       "day_number": 3,
@@ -3502,15 +4576,17 @@
       },
       "answer": {
         "accepted": [
-          "As soon as I arrive, I'll send a message."
+          "As soon as I arrive, I'll send a message.",
+          "I'll send a message as soon as I arrive."
         ]
       },
-      "explanation": null
+      "explanation": null,
+      "error_no": 18
     },
     {
       "day_number": 3,
       "exercise_no": 3,
-      "focus_ar": "تصحيح الخطأ",
+      "focus_ar": "affect أم effect؟",
       "points": 1,
       "type": "correct_error",
       "prompt": "تصحيح الخطأ",
@@ -3522,7 +4598,7 @@
           "It affects everybody in the office."
         ]
       },
-      "explanation": null
+      "explanation": "affect فعل (يؤثّر)، و effect اسم (أثر): It affects everybody · It has an effect on everybody."
     },
     {
       "day_number": 3,
@@ -3532,14 +4608,15 @@
       "type": "correct_error",
       "prompt": "تصحيح الخطأ",
       "payload": {
-        "sentence": "Take an umbrella if it rains — I mean, as a precaution."
+        "sentence": "Take an umbrella in case it will rain."
       },
       "answer": {
         "accepted": [
           "Take an umbrella in case it rains."
         ]
       },
-      "explanation": null
+      "explanation": "بعد in case مضارع بسيط كما بعد if.",
+      "error_no": 18
     },
     {
       "day_number": 3,
@@ -3553,10 +4630,12 @@
       },
       "answer": {
         "accepted": [
-          "If he doesn't come, we'll start without him."
+          "If he doesn't come, we'll start without him.",
+          "We'll start without him if he doesn't come."
         ]
       },
-      "explanation": null
+      "explanation": null,
+      "error_no": 18
     },
     {
       "day_number": 3,
@@ -3570,10 +4649,12 @@
       },
       "answer": {
         "accepted": [
-          "She will be angry if you forget again."
+          "She will be angry if you forget again.",
+          "If you forget again, she will be angry."
         ]
       },
-      "explanation": null
+      "explanation": null,
+      "error_no": 18
     },
     {
       "day_number": 4,
@@ -3606,7 +4687,7 @@
           "likely",
           "certainly",
           "probably",
-          "of course"
+          "possibly"
         ]
       },
       "answer": {
@@ -3625,8 +4706,8 @@
         "options": [
           "no question",
           "probably",
-          "I expect so",
-          "likely"
+          "I doubt it",
+          "always"
         ]
       },
       "answer": {
@@ -3664,7 +4745,7 @@
       "payload": {
         "options": [
           "probably",
-          "likely",
+          "sometimes",
           "always",
           "most of the time"
         ]
@@ -3685,7 +4766,7 @@
         "options": [
           "probably",
           "I think so",
-          "It looks like it",
+          "I'm not sure",
           "possibly"
         ]
       },
@@ -3701,7 +4782,7 @@
       "focus_ar": "التحذير والوعد والعرض والتفاوض",
       "points": 1,
       "type": "free_text",
-      "prompt": "Your colleague never saves his work.            (warning)",
+      "prompt": "Write one conditional sentence (warning). Situation: Your colleague never saves his work.",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: If you don't save your work, you'll lose everything."
@@ -3712,7 +4793,7 @@
       "focus_ar": "التحذير والوعد والعرض والتفاوض",
       "points": 1,
       "type": "free_text",
-      "prompt": "Your friend is worried about a deadline.        (offer)",
+      "prompt": "Write one conditional sentence (offer). Situation: Your friend is worried about a deadline.",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: If you like, I'll read it before you send it."
@@ -3723,7 +4804,7 @@
       "focus_ar": "التحذير والوعد والعرض والتفاوض",
       "points": 1,
       "type": "free_text",
-      "prompt": "Your child wants a new phone.                   (negotiating)",
+      "prompt": "Write one conditional sentence (negotiating). Situation: Your child wants a new phone.",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: I'll buy you a phone as long as you pay half."
@@ -3734,7 +4815,7 @@
       "focus_ar": "التحذير والوعد والعرض والتفاوض",
       "points": 1,
       "type": "free_text",
-      "prompt": "Your manager asks you to work on Saturday.      (negotiating)",
+      "prompt": "Write one conditional sentence (negotiating). Situation: Your manager asks you to work on Saturday.",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: I'll work on Saturday if I can take Monday off."
@@ -3745,7 +4826,7 @@
       "focus_ar": "التحذير والوعد والعرض والتفاوض",
       "points": 1,
       "type": "free_text",
-      "prompt": "Your brother is driving too fast.               (warning)",
+      "prompt": "Write one conditional sentence (warning). Situation: Your brother is driving too fast.",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: If you drive like that, you'll have an accident."
@@ -3756,10 +4837,10 @@
       "focus_ar": "التحذير والوعد والعرض والتفاوض",
       "points": 1,
       "type": "free_text",
-      "prompt": "A friend has asked you to keep a secret.        (promise)",
+      "prompt": "Write one conditional sentence (promise). Situation: A friend has asked you to keep a secret.",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: I won't tell anyone, I promise."
+      "explanation": "الجواب النموذجي: If you tell me your secret, I won't tell anyone. I promise."
     },
     {
       "day_number": 5,
@@ -3767,7 +4848,7 @@
       "focus_ar": "التحذير والوعد والعرض والتفاوض",
       "points": 1,
       "type": "free_text",
-      "prompt": "Someone is carrying too much.                   (offer)",
+      "prompt": "Write one conditional sentence (offer). Situation: Someone is carrying too much.",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: If you want, I'll carry one of those."
@@ -3778,7 +4859,7 @@
       "focus_ar": "التحذير والوعد والعرض والتفاوض",
       "points": 1,
       "type": "free_text",
-      "prompt": "A colleague keeps arriving late to meetings.    (warning)",
+      "prompt": "Write one conditional sentence (warning). Situation: A colleague keeps arriving late to meetings.",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: Unless you arrive on time, you won't be included next week."
@@ -3789,10 +4870,10 @@
       "focus_ar": "العثور على كل جمل الشرط",
       "points": 1,
       "type": "free_text",
-      "prompt": "There are seven conditional structures in this dialogue. Find them and label each one:",
+      "prompt": "Find in Dialogue 1 seven conditional sentences (if, what if, as long as, unless). Write each one and say what it does: warning, offer, promise or negotiating.",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: If I finish it by Thursday, it won't be good — negotiating."
+      "explanation": "الجواب النموذجي: If I finish it by Thursday, it won't be good — تفاوض · If we send something weak, they'll ask for changes — تحذير · What if you send the first half on Thursday? — عرض/تفاوض · That would work, as long as they understand… — تفاوض · Unless they object, you have until Monday — وعد مشروط · And if they do object? Then we'll both work on Sunday — نتيجة · If this happens again, tell me two weeks before — تحذير"
     },
     {
       "day_number": 5,
@@ -3800,19 +4881,28 @@
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "What does Sami want? ______",
+      "prompt": "Dialogue 1: Sami needs more time. He wants to finish the report by ______.",
       "payload": {
-        "before": "What does Sami want?  ",
-        "after": ""
+        "before": "Dialogue 1: Sami needs more time. He wants to finish the report by ",
+        "after": "."
       },
       "answer": {
         "accepted": [
-          "An extension until Monday.",
-          "An extension until Monday",
-          "an extension until monday."
+          "Monday"
         ]
       },
-      "explanation": null
+      "explanation": "I need until Monday."
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "فهم المسموع والمقروء",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Dialogue 1: Why does Sami want more time? Write his argument in one sentence.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: If he finishes by Thursday, the report will be weak, and the client will ask for changes anyway."
     },
     {
       "day_number": 5,
@@ -3820,19 +4910,17 @@
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "What is his argument? ______",
+      "prompt": "Dialogue 1: The manager's idea is that Sami sends the first ______ on Thursday.",
       "payload": {
-        "before": "What is his argument?  ",
-        "after": ""
+        "before": "Dialogue 1: The manager's idea is that Sami sends the first ",
+        "after": " on Thursday."
       },
       "answer": {
         "accepted": [
-          "That a rushed report will be weak and the client will ask for changes anyway.",
-          "That a rushed report will be weak and the client will ask for changes anyway",
-          "that a rushed report will be weak and the client will ask for changes anyway."
+          "half"
         ]
       },
-      "explanation": null
+      "explanation": "What if you send the first half on Thursday?"
     },
     {
       "day_number": 5,
@@ -3840,19 +4928,17 @@
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "What compromise does the manager suggest? ______",
+      "prompt": "Dialogue 1: If the client objects, they will both work on ______.",
       "payload": {
-        "before": "What compromise does the manager suggest?  ",
-        "after": ""
+        "before": "Dialogue 1: If the client objects, they will both work on ",
+        "after": "."
       },
       "answer": {
         "accepted": [
-          "Send the first half on Thursday.",
-          "Send the first half on Thursday",
-          "send the first half on thursday."
+          "Sunday"
         ]
       },
-      "explanation": null
+      "explanation": "Then we'll both work on Sunday."
     },
     {
       "day_number": 5,
@@ -3860,39 +4946,17 @@
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "What happens if the client objects? ______",
+      "prompt": "Dialogue 1: Next time, Sami must tell the manager two ______ before, not two days.",
       "payload": {
-        "before": "What happens if the client objects?  ",
-        "after": ""
+        "before": "Dialogue 1: Next time, Sami must tell the manager two ",
+        "after": " before, not two days."
       },
       "answer": {
         "accepted": [
-          "They will both work on Sunday.",
-          "They will both work on Sunday",
-          "they will both work on sunday."
+          "weeks"
         ]
       },
-      "explanation": null
-    },
-    {
-      "day_number": 5,
-      "exercise_no": 5,
-      "focus_ar": "فهم المسموع والمقروء",
-      "points": 1,
-      "type": "fill_blank",
-      "prompt": "What condition does the manager set for next time? ______",
-      "payload": {
-        "before": "What condition does the manager set for next time?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "That next time Sami tells him two weeks in advance, not two days.",
-          "That next time Sami tells him two weeks in advance, not two days",
-          "that next time omar tells him two weeks in advance, not two days."
-        ]
-      },
-      "explanation": null
+      "explanation": "tell me two weeks before, not two days"
     },
     {
       "day_number": 6,
@@ -3900,7 +4964,7 @@
       "focus_ar": "شجرة قراراتك",
       "points": 1,
       "type": "free_text",
-      "prompt": "If …… , I'll …… .",
+      "prompt": "Your own decision — complete with a real possibility: If …… , I'll …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -3911,7 +4975,7 @@
       "focus_ar": "شجرة قراراتك",
       "points": 1,
       "type": "free_text",
-      "prompt": "If …… , I won't …… .",
+      "prompt": "Your own decision — complete with a real possibility: If …… , I won't …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -3922,7 +4986,7 @@
       "focus_ar": "شجرة قراراتك",
       "points": 1,
       "type": "free_text",
-      "prompt": "What if …… ?",
+      "prompt": "Your own decision — complete with a real possibility: What if …… ?",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -3933,7 +4997,7 @@
       "focus_ar": "شجرة قراراتك",
       "points": 1,
       "type": "free_text",
-      "prompt": "As long as …… , I'll …… .",
+      "prompt": "Your own decision — complete with a real possibility: As long as …… , I'll …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -3944,7 +5008,7 @@
       "focus_ar": "شجرة قراراتك",
       "points": 1,
       "type": "free_text",
-      "prompt": "Unless …… , …… .",
+      "prompt": "Your own decision — complete with a real possibility: Unless …… , …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -3955,7 +5019,7 @@
       "focus_ar": "شجرة قراراتك",
       "points": 1,
       "type": "free_text",
-      "prompt": "I'll …… in case …… .",
+      "prompt": "Your own decision — complete with a real possibility: I'll …… in case …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -3963,19 +5027,35 @@
     {
       "day_number": 6,
       "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
+      "focus_ar": "فهم الاستماع — التفاصيل",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "What was the grandfather's rule? ______",
+      "prompt": "Listening: The grandfather's rule: if something matters, you set two ______.",
       "payload": {
-        "before": "What was the grandfather's rule?  ",
-        "after": ""
+        "before": "Listening: The grandfather's rule: if something matters, you set two ",
+        "after": "."
       },
       "answer": {
         "accepted": [
-          "If something matters, you set two alarms.",
-          "If something matters, you set two alarms",
-          "if something matters, you set two alarms."
+          "alarms"
+        ]
+      },
+      "explanation": "If something matters, you set two alarms."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم الاستماع — التفاصيل",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Listening: He was an ______ for forty years, and he built bridges.",
+      "payload": {
+        "before": "Listening: He was an ",
+        "after": " for forty years, and he built bridges."
+      },
+      "answer": {
+        "accepted": [
+          "engineer"
         ]
       },
       "explanation": null
@@ -3983,19 +5063,17 @@
     {
       "day_number": 6,
       "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
+      "focus_ar": "فهم الاستماع — التفاصيل",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "What was his job? ______",
+      "prompt": "Listening: A bridge with one support is not a bridge; it is a ______.",
       "payload": {
-        "before": "What was his job?  ",
-        "after": ""
+        "before": "Listening: A bridge with one support is not a bridge; it is a ",
+        "after": "."
       },
       "answer": {
         "accepted": [
-          "An engineer who built bridges.",
-          "An engineer who built bridges",
-          "an engineer who built bridges."
+          "bet"
         ]
       },
       "explanation": null
@@ -4003,19 +5081,17 @@
     {
       "day_number": 6,
       "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
+      "focus_ar": "فهم الاستماع — التفاصيل",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "What did he say about a bridge with one support? ______",
+      "prompt": "Listening: If he had an important meeting, he left an ______ early.",
       "payload": {
-        "before": "What did he say about a bridge with one support?  ",
-        "after": ""
+        "before": "Listening: If he had an important meeting, he left an ",
+        "after": " early."
       },
       "answer": {
         "accepted": [
-          "That it is not a bridge, it is a bet.",
-          "That it is not a bridge, it is a bet",
-          "that it is not a bridge, it is a bet."
+          "hour"
         ]
       },
       "explanation": null
@@ -4023,19 +5099,17 @@
     {
       "day_number": 6,
       "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
+      "focus_ar": "فهم الاستماع — التفاصيل",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "Give two examples of how he applied the rule. ______",
+      "prompt": "Listening: The narrator's mother found the rule ______.",
       "payload": {
-        "before": "Give two examples of how he applied the rule.  ",
-        "after": ""
+        "before": "Listening: The narrator's mother found the rule ",
+        "after": "."
       },
       "answer": {
         "accepted": [
-          "(any two) Left an hour early for meetings · made two copies of documents · cooked a new dish a week in advance.",
-          "(any two) Left an hour early for meetings · made two copies of documents · cooked a new dish a week in advance",
-          "(any two) left an hour early for meetings · made two copies of documents · cooked a new dish a week in advance."
+          "exhausting"
         ]
       },
       "explanation": null
@@ -4043,19 +5117,17 @@
     {
       "day_number": 6,
       "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
+      "focus_ar": "فهم الاستماع — التفاصيل",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "What did the mother think? ______",
+      "prompt": "Listening: In forty years he never missed a ______.",
       "payload": {
-        "before": "What did the mother think?  ",
-        "after": ""
+        "before": "Listening: In forty years he never missed a ",
+        "after": "."
       },
       "answer": {
         "accepted": [
-          "She found it exhausting and said he lived as if disaster was ten minutes away.",
-          "She found it exhausting and said he lived as if disaster was ten minutes away",
-          "she found it exhausting and said he lived as if disaster was ten minutes away."
+          "flight"
         ]
       },
       "explanation": null
@@ -4063,19 +5135,17 @@
     {
       "day_number": 6,
       "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
+      "focus_ar": "فهم الاستماع — التفاصيل",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "Name two things he never did in forty years. ______",
+      "prompt": "Listening: In 1998, the factory where he worked ______.",
       "payload": {
-        "before": "Name two things he never did in forty years.  ",
-        "after": ""
+        "before": "Listening: In 1998, the factory where he worked ",
+        "after": "."
       },
       "answer": {
         "accepted": [
-          "(any two) Never missed a flight · never lost a document · never served a bad meal.",
-          "(any two) Never missed a flight · never lost a document · never served a bad meal",
-          "(any two) never missed a flight · never lost a document · never served a bad meal."
+          "flooded"
         ]
       },
       "explanation": null
@@ -4083,19 +5153,17 @@
     {
       "day_number": 6,
       "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
+      "focus_ar": "فهم الاستماع — التفاصيل",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "What happened in 1998? ______",
+      "prompt": "Listening: He was the only manager who had a ______ of the plans at home.",
       "payload": {
-        "before": "What happened in 1998?  ",
-        "after": ""
+        "before": "Listening: He was the only manager who had a ",
+        "after": " of the plans at home."
       },
       "answer": {
         "accepted": [
-          "The factory flooded.",
-          "The factory flooded",
-          "the factory flooded."
+          "copy"
         ]
       },
       "explanation": null
@@ -4103,19 +5171,17 @@
     {
       "day_number": 6,
       "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
+      "focus_ar": "فهم الاستماع — التفاصيل",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "Why was he the only prepared manager? ______",
+      "prompt": "Listening: The narrator lost three ______ of work because his laptop died.",
       "payload": {
-        "before": "Why was he the only prepared manager?  ",
-        "after": ""
+        "before": "Listening: The narrator lost three ",
+        "after": " of work because his laptop died."
       },
       "answer": {
         "accepted": [
-          "He had a copy of the plans at home.",
-          "He had a copy of the plans at home",
-          "he had a copy of the plans at home."
+          "months"
         ]
       },
       "explanation": null
@@ -4123,39 +5189,17 @@
     {
       "day_number": 6,
       "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
+      "focus_ar": "فهم الاستماع — التفاصيل",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "What did the narrator lose, and why? ______",
+      "prompt": "Listening: Now, if he has an interview, he has two ______.",
       "payload": {
-        "before": "What did the narrator lose, and why?  ",
-        "after": ""
+        "before": "Listening: Now, if he has an interview, he has two ",
+        "after": "."
       },
       "answer": {
         "accepted": [
-          "Three months of work, because his laptop died and he had never backed anything up.",
-          "Three months of work, because his laptop died and he had never backed anything up",
-          "three months of work, because his laptop died and he had never backed anything up."
-        ]
-      },
-      "explanation": null
-    },
-    {
-      "day_number": 6,
-      "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
-      "points": 1,
-      "type": "fill_blank",
-      "prompt": "Give two ways he applies the rule now. ______",
-      "payload": {
-        "before": "Give two ways he applies the rule now.  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "Two alarms · two routes to an interview · a copy on a memory stick and in his email.",
-          "Two alarms · two routes to an interview · a copy on a memory stick and in his email",
-          "two alarms · two routes to an interview · a copy on a memory stick and in his email."
+          "routes"
         ]
       },
       "explanation": null
@@ -4166,10 +5210,10 @@
       "focus_ar": "تعقّب جمل الشرط",
       "points": 1,
       "type": "free_text",
-      "prompt": "The text contains more than eight conditionals. Find them and sort them:",
+      "prompt": "Find in the listening text 'The Rule of the Second Alarm' eight sentences with if, and sort them into three groups: always true (if + present, present), past habit (if + past, past), and the narrator's habits now.",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: Zero: If something matters, you set two alarms"
+      "explanation": "الجواب النموذجي — دائماً: If something matters, you set two alarms · If the support fails, everything fails · if you do it for long enough, one day it saves you everything. عادة في الماضي: If he had an important meeting, he left an hour early · If he needed a document, he made two copies · If he was cooking something new for guests, he cooked it once the week before. عادة الراوي الآن: If I have an interview, I have two routes · If I have a presentation, I have a copy on a memory stick."
     },
     {
       "day_number": 6,
@@ -4177,18 +5221,17 @@
       "focus_ar": "تعقّب جمل الشرط",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "Zero conditional (always true) : ______",
+      "prompt": "From the listening (always true): If the support ______, everything fails.",
       "payload": {
-        "before": "Zero conditional (always true) : ",
-        "after": ""
+        "before": "From the listening (always true): If the support ",
+        "after": ", everything fails."
       },
       "answer": {
         "accepted": [
-          "If the support fails, everything fails",
-          "if the support fails, everything fails"
+          "fails"
         ]
       },
-      "explanation": null
+      "explanation": "الصفري: مضارع في الشطرين."
     },
     {
       "day_number": 6,
@@ -4196,18 +5239,17 @@
       "focus_ar": "تعقّب جمل الشرط",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "First conditional (real future): ______",
+      "prompt": "From the listening (past habit): If he ______ an important meeting, he left an hour early.",
       "payload": {
-        "before": "First conditional (real future): ",
-        "after": ""
+        "before": "From the listening (past habit): If he ",
+        "after": " an important meeting, he left an hour early."
       },
       "answer": {
         "accepted": [
-          "If people feel observed, they behave better",
-          "if people feel observed, they behave better"
+          "had"
         ]
       },
-      "explanation": null
+      "explanation": "عادة في الماضي: if + ماضٍ، ماضٍ."
     },
     {
       "day_number": 6,
@@ -4215,18 +5257,17 @@
       "focus_ar": "تعقّب جمل الشرط",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "Past habit (used to / if + past): ______",
+      "prompt": "From the listening (the narrator now): If I ______ an interview, I have two routes.",
       "payload": {
-        "before": "Past habit (used to / if + past): ",
-        "after": ""
+        "before": "From the listening (the narrator now): If I ",
+        "after": " an interview, I have two routes."
       },
       "answer": {
         "accepted": [
-          "If you stop learning, you stop being useful.  First: if you do it for long enough, one day it saves you everything",
-          "if you stop learning, you stop being useful.  first: if you do it for long enough, one day it saves you everything"
+          "have"
         ]
       },
-      "explanation": null
+      "explanation": "عادة الآن: if + مضارع، مضارع."
     },
     {
       "day_number": 7,
@@ -4234,7 +5275,7 @@
       "focus_ar": "عن مستقبلك أنت",
       "points": 1,
       "type": "free_text",
-      "prompt": "If I have enough money next year, …… .",
+      "prompt": "About your own future — complete: If I have enough money next year, …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -4245,7 +5286,7 @@
       "focus_ar": "عن مستقبلك أنت",
       "points": 1,
       "type": "free_text",
-      "prompt": "If I don't pass the B1 exam, …… .",
+      "prompt": "About your own future — complete: If I don't pass the B1 exam, …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -4256,7 +5297,7 @@
       "focus_ar": "عن مستقبلك أنت",
       "points": 1,
       "type": "free_text",
-      "prompt": "When I finish this course, …… .",
+      "prompt": "About your own future — complete: When I finish this course, …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -4267,7 +5308,7 @@
       "focus_ar": "عن مستقبلك أنت",
       "points": 1,
       "type": "free_text",
-      "prompt": "Unless something changes, …… .",
+      "prompt": "About your own future — complete: Unless something changes, …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -4278,7 +5319,7 @@
       "focus_ar": "عن مستقبلك أنت",
       "points": 1,
       "type": "free_text",
-      "prompt": "As soon as I have time, …… .",
+      "prompt": "About your own future — complete: As soon as I have time, …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -4289,7 +5330,7 @@
       "focus_ar": "عن مستقبلك أنت",
       "points": 1,
       "type": "free_text",
-      "prompt": "I'll be happy as long as …… .",
+      "prompt": "About your own future — complete: I'll be happy as long as …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -4300,7 +5341,7 @@
       "focus_ar": "عن مستقبلك أنت",
       "points": 1,
       "type": "free_text",
-      "prompt": "If I could change one thing, …… .",
+      "prompt": "About your own future — complete: If I have a free day next week, …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -4311,7 +5352,7 @@
       "focus_ar": "عن مستقبلك أنت",
       "points": 1,
       "type": "free_text",
-      "prompt": "I'll save some money in case …… .",
+      "prompt": "About your own future — complete: I'll save some money in case …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -4374,12 +5415,12 @@
       "focus_ar": "صحّ أم خطأ",
       "points": 1,
       "type": "true_false",
-      "prompt": "The study was repeated in other places.",
+      "prompt": "Other researchers tried pictures of eyes in other places.",
       "payload": {},
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: other researchers tried pictures of eyes in other places, such as bicycle parks"
     },
     {
       "day_number": 7,
@@ -4387,12 +5428,12 @@
       "focus_ar": "صحّ أم خطأ",
       "points": 1,
       "type": "true_false",
-      "prompt": "The results were different each time.",
+      "prompt": "The other studies always gave exactly the same result.",
       "payload": {},
       "answer": {
         "correct": false
       },
-      "explanation": "في النصّ: the same every time"
+      "explanation": "في النصّ: they often saw similar results — كثيراً، لا دائماً"
     },
     {
       "day_number": 7,
@@ -4417,6 +5458,1210 @@
       "payload": {},
       "answer": {
         "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "might · must · can’t",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Take an umbrella. It ___ rain later — I’m not sure.",
+      "payload": {
+        "options": [
+          "might",
+          "must",
+          "can’t",
+          "should"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "غير متأكّد ← might"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "might · must · can’t",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "She worked twelve hours today. She ___ be tired.",
+      "payload": {
+        "options": [
+          "must",
+          "might not",
+          "can’t",
+          "mustn’t"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "استنتاج مؤكّد ← must"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "might · must · can’t",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "That ___ be Ahmed — he’s in London this week.",
+      "payload": {
+        "options": [
+          "can’t",
+          "must",
+          "might",
+          "should"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "مستحيل ← can’t"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "might · must · can’t",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "I don’t know where Sara is. She ___ be at the library.",
+      "payload": {
+        "options": [
+          "may",
+          "must",
+          "can’t",
+          "mustn’t"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "احتمال ← may"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "might · must · can’t",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The lights are off. They ______ be at home.",
+      "payload": {
+        "before": "The lights are off. They ",
+        "after": " be at home."
+      },
+      "answer": {
+        "accepted": [
+          "can’t",
+          "cannot"
+        ]
+      },
+      "explanation": "مستحيل ← can’t"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "might · must · can’t",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "He mights come tomorrow."
+      },
+      "answer": {
+        "accepted": [
+          "He might come tomorrow."
+        ]
+      },
+      "explanation": "لا -s مع الناقص"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "might · must · can’t",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "It might to rain."
+      },
+      "answer": {
+        "accepted": [
+          "It might rain."
+        ]
+      },
+      "explanation": "لا to بعد الناقص"
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الشرط الصفري والأول",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Choose the correct sentence.",
+      "payload": {
+        "options": [
+          "If it will rain, we will stay at home.",
+          "If it rains, we will stay at home.",
+          "If it rain, we will stay at home.",
+          "If it will rain, we stay at home."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "لا will في جملة if.",
+      "error_no": 18
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الشرط الصفري والأول",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Choose the correct sentence.",
+      "payload": {
+        "options": [
+          "If you will call me, I answer.",
+          "If you call me, I'll answer.",
+          "If you call me, I answering.",
+          "If you'll call me, I'll answer."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "if + مضارع، will في الجواب.",
+      "error_no": 18
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الشرط الصفري والأول",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "If you heat ice, it melts. — This sentence is about…",
+      "payload": {
+        "options": [
+          "something that is always true",
+          "one possible event next week"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "الشرط الصفري للحقيقة التي تتكرّر كل مرة."
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الشرط الصفري والأول",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "If I see Omar tomorrow, I ___ him.",
+      "payload": {
+        "options": [
+          "tell",
+          "will tell",
+          "told",
+          "telling"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "النتيجة في المستقبل ← will.",
+      "error_no": 18
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الشرط الصفري والأول",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Join the two sentences with if — You don't hurry. You'll miss the bus. → ______",
+      "payload": {
+        "before": "Join the two sentences with if — You don't hurry. You'll miss the bus. → ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "If you don't hurry, you'll miss the bus.",
+          "You'll miss the bus if you don't hurry."
+        ]
+      },
+      "explanation": "if + مضارع، will في الجواب.",
+      "error_no": 18
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الشرط الصفري والأول",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Join the two sentences with if — You help me. I'll finish tonight. → ______",
+      "payload": {
+        "before": "Join the two sentences with if — You help me. I'll finish tonight. → ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "If you help me, I'll finish tonight.",
+          "I'll finish tonight if you help me."
+        ]
+      },
+      "explanation": null,
+      "error_no": 18
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الشرط الصفري والأول",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Join the two sentences with if — The battery runs out. The phone turns off. → ______",
+      "payload": {
+        "before": "Join the two sentences with if — The battery runs out. The phone turns off. → ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "If the battery runs out, the phone turns off.",
+          "The phone turns off if the battery runs out.",
+          "If the battery runs out, the phone will turn off.",
+          "The phone will turn off if the battery runs out."
+        ]
+      },
+      "explanation": "حقيقة تتكرّر ← الصفري."
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الشرط الصفري والأول",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Write three true sentences about your body, your home or your city with the zero conditional (If I…, I… / If it…, it…).",
+      "payload": {},
+      "answer": {},
+      "explanation": "مثال: If I drink coffee after six, I don't sleep. · If it rains in my city, the streets get very busy."
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الشرط الصفري والأول",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Write three plans for this weekend that depend on something: If …, I'll … . Use won't in one of them.",
+      "payload": {},
+      "answer": {},
+      "explanation": "مثال: If it's sunny on Friday, I'll take the children to the park. If I'm tired, I won't go out."
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "كلمات الزمن: before · after · until · as soon as",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Choose the correct sentence.",
+      "payload": {
+        "options": [
+          "I'll call you before I will leave.",
+          "I'll call you before I leave.",
+          "I call you before I will leave.",
+          "I calling you before I leave."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "لا will بعد before.",
+      "error_no": 18
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "كلمات الزمن: before · after · until · as soon as",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "I'll wait here ___ you come back.",
+      "payload": {
+        "options": [
+          "until",
+          "before",
+          "unless",
+          "in case"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "until = إلى أن."
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "كلمات الزمن: before · after · until · as soon as",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "After I ______ (finish) work, I'll go to the gym.",
+      "payload": {
+        "before": "After I ",
+        "after": " (finish) work, I'll go to the gym."
+      },
+      "answer": {
+        "accepted": [
+          "finish"
+        ]
+      },
+      "explanation": "بعد after مضارع بسيط.",
+      "error_no": 18
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "كلمات الزمن: before · after · until · as soon as",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "We ______ (have) dinner after the film finishes.",
+      "payload": {
+        "before": "We ",
+        "after": " (have) dinner after the film finishes."
+      },
+      "answer": {
+        "accepted": [
+          "will have"
+        ]
+      },
+      "explanation": "الجملة الأخرى تحمل will."
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "كلمات الزمن: before · after · until · as soon as",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "As soon as she ______ (arrive), I ______ (tell) her.",
+      "payload": {
+        "before": "As soon as she ",
+        "after": " (arrive), I ______ (tell) her."
+      },
+      "answer": {
+        "accepted": [
+          "arrives / will tell"
+        ]
+      },
+      "explanation": "as soon as + مضارع، will في الجواب.",
+      "error_no": 18
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "كلمات الزمن: before · after · until · as soon as",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Don't go out ______ the rain stops.",
+      "payload": {
+        "before": "Don't go out ",
+        "after": " the rain stops."
+      },
+      "answer": {
+        "accepted": [
+          "until",
+          "before"
+        ]
+      },
+      "explanation": "until أو before — كلتاهما صحيحة."
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "كلمات الزمن: before · after · until · as soon as",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "I'll stay at home until the rain will stop."
+      },
+      "answer": {
+        "accepted": [
+          "I'll stay at home until the rain stops."
+        ]
+      },
+      "explanation": "لا will بعد until.",
+      "error_no": 18
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "كلمات الزمن: before · after · until · as soon as",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "After I will finish this course, I'll take the exam."
+      },
+      "answer": {
+        "accepted": [
+          "After I finish this course, I'll take the exam.",
+          "I'll take the exam after I finish this course."
+        ]
+      },
+      "explanation": "لا will بعد after.",
+      "error_no": 18
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "كلمات الزمن: before · after · until · as soon as",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Write three sentences about tomorrow with before, after and as soon as. Example: I'll have breakfast before I leave.",
+      "payload": {},
+      "answer": {},
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "unless · in case · as long as",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Rewrite with unless — If you don't hurry, you'll miss the train. → ______",
+      "payload": {
+        "before": "Rewrite with unless — If you don't hurry, you'll miss the train. → ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Unless you hurry, you'll miss the train.",
+          "You'll miss the train unless you hurry."
+        ]
+      },
+      "explanation": "unless = if … not، فلا نفي بعدها."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "unless · in case · as long as",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Rewrite with unless — If it doesn't rain, we'll walk. → ______",
+      "payload": {
+        "before": "Rewrite with unless — If it doesn't rain, we'll walk. → ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Unless it rains, we'll walk.",
+          "We'll walk unless it rains."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "unless · in case · as long as",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Rewrite with unless — I won't go if they don't invite me. → ______",
+      "payload": {
+        "before": "Rewrite with unless — I won't go if they don't invite me. → ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "I won't go unless they invite me.",
+          "Unless they invite me, I won't go."
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "unless · in case · as long as",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "I'll take an umbrella in case it rains. — What does this mean?",
+      "payload": {
+        "options": [
+          "I take it now, because it might rain.",
+          "I take it only if it is raining."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "in case = احتياطاً الآن."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "unless · in case · as long as",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "I'll take an umbrella if it rains. — What does this mean?",
+      "payload": {
+        "options": [
+          "I take it now, because it might rain.",
+          "I take it only if it is raining."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "if = حين يحدث فقط."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "unless · in case · as long as",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "Take a jacket in case it will be cold."
+      },
+      "answer": {
+        "accepted": [
+          "Take a jacket in case it is cold.",
+          "Take a jacket in case it gets cold."
+        ]
+      },
+      "explanation": "بعد in case مضارع بسيط.",
+      "error_no": 18
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "unless · in case · as long as",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Write three rules for using your phone or computer: one with unless, one with as long as and one with in case.",
+      "payload": {},
+      "answer": {},
+      "explanation": "مثال: Your phone won't work unless you charge it. · You can use my laptop as long as you log out. · Back up your files in case the computer crashes."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "أفعال التقنية وتعابيرها",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "My phone is dead. I need to ______ it in.",
+      "payload": {
+        "before": "My phone is dead. I need to ",
+        "after": " it in."
+      },
+      "answer": {
+        "accepted": [
+          "plug"
+        ]
+      },
+      "explanation": "plug in = يوصل بالكهرباء."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "أفعال التقنية وتعابيرها",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I can't open my email. I forgot my ______.",
+      "payload": {
+        "before": "I can't open my email. I forgot my ",
+        "after": "."
+      },
+      "answer": {
+        "accepted": [
+          "password"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "أفعال التقنية وتعابيرها",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Please ______ off your phones during the exam.",
+      "payload": {
+        "before": "Please ",
+        "after": " off your phones during the exam."
+      },
+      "answer": {
+        "accepted": [
+          "turn",
+          "switch"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "أفعال التقنية وتعابيرها",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Always ______ up your files — the computer might crash.",
+      "payload": {
+        "before": "Always ",
+        "after": " up your files — the computer might crash."
+      },
+      "answer": {
+        "accepted": [
+          "back"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "أفعال التقنية وتعابيرها",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "To read your messages, first log ______ with your password.",
+      "payload": {
+        "before": "To read your messages, first log ",
+        "after": " with your password."
+      },
+      "answer": {
+        "accepted": [
+          "in"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "أفعال التقنية وتعابيرها",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "If the screen ______, restart the phone.",
+      "payload": {
+        "before": "If the screen ",
+        "after": ", restart the phone."
+      },
+      "answer": {
+        "accepted": [
+          "freezes"
+        ]
+      },
+      "explanation": "the screen freezes = تتجمّد الشاشة."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "سلّم اليقين: will · probably · might",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Which sentence is the least certain?",
+      "payload": {
+        "options": [
+          "It will rain.",
+          "It will probably rain.",
+          "It might rain.",
+          "It won't rain."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "might = ربّما، أمّا won't فمؤكّد النفي."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "سلّم اليقين: will · probably · might",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "على الأرجح لن يأتي",
+      "payload": {
+        "options": [
+          "He probably won't come.",
+          "He won't probably come.",
+          "He might come.",
+          "He will come."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "probably قبل won't."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "سلّم اليقين: will · probably · might",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "Maybe I will might come to the party."
+      },
+      "answer": {
+        "accepted": [
+          "I might come to the party.",
+          "I may come to the party.",
+          "Maybe I will come to the party.",
+          "Perhaps I will come to the party."
+        ]
+      },
+      "explanation": "maybe مع will، أو might وحدها."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "سلّم اليقين: will · probably · might",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "I won't probably finish today."
+      },
+      "answer": {
+        "accepted": [
+          "I probably won't finish today."
+        ]
+      },
+      "explanation": "probably قبل won't وبعد will."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "سلّم اليقين: will · probably · might",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "If it rains tomorrow, we ______ stay at home — we aren't sure yet.",
+      "payload": {
+        "before": "If it rains tomorrow, we ",
+        "after": " stay at home — we aren't sure yet."
+      },
+      "answer": {
+        "accepted": [
+          "might",
+          "may",
+          "could"
+        ]
+      },
+      "explanation": "شرط أول بنتيجة غير مؤكّدة."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "سلّم اليقين: will · probably · might",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She ______ (probably / be) late — the traffic is terrible.",
+      "payload": {
+        "before": "She ",
+        "after": " (probably / be) late — the traffic is terrible."
+      },
+      "answer": {
+        "accepted": [
+          "will probably be"
+        ]
+      },
+      "explanation": "probably بعد will."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "سلّم اليقين: will · probably · might",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Write four sentences about next weekend: one with will, one with will probably, one with might and one with probably won't.",
+      "payload": {},
+      "answer": {},
+      "explanation": "مثال: I'll visit my parents. · I'll probably cook fish. · We might go to the beach. · I probably won't study."
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "عرض ووعد وتحذير وموعد",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Your friend's bags look heavy. What do you say?",
+      "payload": {
+        "options": [
+          "Shall I carry one?",
+          "Do I carry one?",
+          "Am I carry one?",
+          "I carrying one?"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "عرض ووعد وتحذير وموعد",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "The phone is ringing and you decide to answer it. What do you say?",
+      "payload": {
+        "options": [
+          "I answer it.",
+          "I'll answer it.",
+          "I'm answer it.",
+          "I answered it."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "القرار في لحظته بـ will."
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "عرض ووعد وتحذير وموعد",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Your friend is going to touch a hot pan. What do you say?",
+      "payload": {
+        "options": [
+          "Be careful or you'll burn your hand.",
+          "Be careful or you burn your hand.",
+          "If you will touch it, you burn.",
+          "Careful, you will to burn."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "عرض ووعد وتحذير وموعد",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "You want to meet a friend on Friday. What do you say?",
+      "payload": {
+        "options": [
+          "Shall we meet on Friday?",
+          "Do we meet on Friday?",
+          "Are we meet on Friday?",
+          "We meeting on Friday?"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "عرض ووعد وتحذير وموعد",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Your colleague is worried you will forget the meeting. What do you say?",
+      "payload": {
+        "options": [
+          "I promise I'll remember.",
+          "I promise I remember.",
+          "I promise I remembering.",
+          "I'm promise I'll remember."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "عرض ووعد وتحذير وموعد",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "It's cold in here. ______ I close the window?",
+      "payload": {
+        "before": "It's cold in here. ",
+        "after": " I close the window?"
+      },
+      "answer": {
+        "accepted": [
+          "Shall"
+        ]
+      },
+      "explanation": "عرض المساعدة: Shall I…?"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "عرض ووعد وتحذير وموعد",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Don't worry — I ______ (help) you with the report tomorrow. I promise.",
+      "payload": {
+        "before": "Don't worry — I ",
+        "after": " (help) you with the report tomorrow. I promise."
+      },
+      "answer": {
+        "accepted": [
+          "will help"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "عرض ووعد وتحذير وموعد",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Hurry up, ______ we'll miss the bus.",
+      "payload": {
+        "before": "Hurry up, ",
+        "after": " we'll miss the bus."
+      },
+      "answer": {
+        "accepted": [
+          "or",
+          "otherwise",
+          "or else"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "عرض ووعد وتحذير وموعد",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "A: Are you free on Saturday? B: Yes. How ______ ten o'clock at the café?",
+      "payload": {
+        "before": "A: Are you free on Saturday? B: Yes. How ",
+        "after": " ten o'clock at the café?"
+      },
+      "answer": {
+        "accepted": [
+          "about"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم الاستماع — الفكرة العامة",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Listening: What is the text mainly about?",
+      "payload": {
+        "options": [
+          "A rule: always have a second plan for important things.",
+          "How engineers build bridges.",
+          "Why the narrator's mother was angry.",
+          "A flood in a factory in 1998."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم الاستماع",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Listening: The grandfather was talking about real alarm clocks.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: He was not talking about clocks."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم الاستماع",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Listening: He built bridges for forty years.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "في النصّ: He was an engineer for forty years, and he built bridges."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم الاستماع",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Listening: He cooked new dishes for the first time on the day the guests came.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: he cooked it once the week before."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم الاستماع",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Listening: The narrator's mother liked the grandfather's rule.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: My mother found this exhausting."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم الاستماع",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Listening: In 1998 the grandfather had a copy of the plans at home.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "في النصّ: he was the only manager who had a copy of the plans at home."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم الاستماع",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Listening: The narrator always followed the rule in his twenties.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: I ignored his rule for most of my twenties."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم الاستماع",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Listening: Now the narrator keeps his presentations in two places.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "في النصّ: a copy on a memory stick and a copy in my email."
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "فهم القراءة — الفكرة العامة",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Reading: What is the main idea of the text?",
+      "payload": {
+        "options": [
+          "People often behave more honestly when they feel watched.",
+          "Coffee in universities is very expensive.",
+          "Pictures of flowers make people pay more.",
+          "Most people are dishonest all the time."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "فهم القراءة — التفاصيل",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Reading: What changed every week in the coffee room?",
+      "payload": {
+        "options": [
+          "the price list",
+          "the picture above the box",
+          "the box",
+          "the price of the coffee"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "فهم القراءة — الاستنتاج",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Reading: Why did people probably pay more with the eyes?",
+      "payload": {
+        "options": [
+          "They felt that someone was watching them.",
+          "They thought the picture could really see.",
+          "The coffee was cheaper in those weeks.",
+          "A cashier stood near the box."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "النصّ يقول إن أحداً لم يصدّق أن الصورة ترى، ومع ذلك تغيّر السلوك."
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "فهم القراءة — المعنى من السياق",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Reading: 'Not nothing. A little less.' — The writer means that most people…",
+      "payload": {
+        "options": [
+          "still pay, but a little less",
+          "don't pay at all",
+          "pay more",
+          "don't drink the coffee"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "فهم القراءة — معنى الكلمة",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Reading: In the text, 'observed' means…",
+      "payload": {
+        "options": [
+          "watched",
+          "helped",
+          "paid",
+          "changed"
+        ]
+      },
+      "answer": {
+        "correct": 0
       },
       "explanation": null
     }

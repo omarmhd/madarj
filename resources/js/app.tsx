@@ -41,7 +41,19 @@ function applyTheme(theme?: string) {
  * والحساب يقع مرّة لكل زيارة لا مرّة لكل رسم: `useMemo` مربوطة
  * بمرجع الخصائص، وInertia يعطي مرجعاً جديداً عند كل انتقال.
  */
+const wrappedPages = new WeakMap<object, ComponentType<any>>();
+
 function withBidi<P extends object>(Page: ComponentType<P>) {
+  /*
+   * One wrapper per page, for good. `resolve` runs on every visit, partial
+   * reloads included, and a new wrapper is a new component to React: it
+   * threw the page's state away and rebuilt it from the props of the first
+   * load. Saving a task and reloading `nav` put the learner back on the task
+   * just finished, with the next one locked until a full refresh.
+   */
+  const known = wrappedPages.get(Page);
+  if (known) return known;
+
   const Wrapped = (props: P) => {
     const fixed = useMemo(() => isolateDeep(props), [props]);
     return <Page {...fixed} />;
@@ -50,6 +62,7 @@ function withBidi<P extends object>(Page: ComponentType<P>) {
   Wrapped.displayName = `Bidi(${Page.displayName ?? Page.name ?? 'Page'})`;
   // التخطيطات الثابتة تُنقل كما هي وإلا فقدت الصفحة تخطيطها
   (Wrapped as any).layout = (Page as any).layout;
+  wrappedPages.set(Page, Wrapped);
 
   return Wrapped;
 }

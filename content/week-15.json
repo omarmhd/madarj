@@ -7,143 +7,204 @@
   "is_review": false,
   "objectives": [
     {
-      "en": "Give advice with should and shouldn't",
-      "ar": "أنصح بـ should و shouldn’t"
+      "en": "I can give advice with should and shouldn't.",
+      "ar": "أستطيع أن أنصح بـshould وshouldn’t."
     },
     {
-      "en": "Express strong obligation with must and have to",
-      "ar": "أعبّر عن إلزام قويّ بـ must و have to"
+      "en": "I can talk about obligation with must and have to, and say where it comes from.",
+      "ar": "أستطيع أن أعبّر عن الإلزام بـmust وhave to، وأبيّن مصدره: منّي أم من الخارج."
     },
     {
-      "en": "Explain the difference between mustn't and don't have to",
-      "ar": "أشرح الفرق بين mustn’t و don’t have to"
+      "en": "I can explain the difference between mustn't and don't have to.",
+      "ar": "أستطيع أن أفرّق بين mustn’t (ممنوع) وdon’t have to (غير مطلوب)."
     },
     {
-      "en": "Talk about rules at work, in a country and in a building",
-      "ar": "أتحدّث عن قواعد العمل وقواعد بلد وقواعد مبنى"
+      "en": "I can explain the rules at work, in my country and in a building.",
+      "ar": "أستطيع أن أشرح قواعد العمل وقواعد بلدي وقواعد مبنى لشخص جديد."
     },
     {
-      "en": "Ask for and give advice about a real problem",
-      "ar": "أطلب نصيحة وأعطيها في مشكلة حقيقية"
+      "en": "I can ask for advice about a real problem, and give it.",
+      "ar": "أستطيع أن أطلب نصيحة في مشكلة حقيقية وأن أعطيها."
     },
     {
-      "en": "Use had to for past obligation",
-      "ar": "أستخدم had to للإلزام في الماضي"
+      "en": "I can use had to for obligation in the past.",
+      "ar": "أستطيع أن أتحدّث عن إلزام في الماضي بـhad to."
     },
     {
-      "en": "Pronounce shouldn't, mustn't and have to at natural speed",
-      "ar": "أنطق shouldn’t و mustn’t و have to بسرعة طبيعية"
+      "en": "I can say shouldn't, mustn't and have to at natural speed.",
+      "ar": "أستطيع أن أنطق shouldn’t وmustn’t وhave to بسرعة طبيعية."
     },
     {
-      "en": "Speak for 2 minutes giving advice to someone in my situation",
-      "ar": "أتحدّث دقيقتين ناصحاً شخصاً في وضعي"
+      "en": "I can speak for two minutes giving advice to someone in my situation.",
+      "ar": "أستطيع أن أتحدّث دقيقتين ناصحاً شخصاً في وضعي."
+    },
+    {
+      "en": "I can say what is necessary and not necessary with need to and don't need to.",
+      "ar": "أستطيع أن أقول ما هو لازم وما ليس لازماً بـneed to وdon’t need to."
+    },
+    {
+      "en": "I can give a strong warning with you'd better.",
+      "ar": "أستطيع أن أحذّر بـyou’d better."
+    },
+    {
+      "en": "I can describe a problem with too and not enough.",
+      "ar": "أستطيع أن أصف مشكلة بـtoo وnot … enough."
+    },
+    {
+      "en": "I can ask for permission and make polite requests, and answer them.",
+      "ar": "أستطيع أن أستأذن وأطلب بلطف، وأن أردّ بالموافقة أو الرفض."
+    },
+    {
+      "en": "I can use make, do, take and have with the right nouns.",
+      "ar": "أستطيع أن أستعمل make وdo وtake وhave مع أسمائها الصحيحة."
     }
   ],
   "writing": {
-    "title_ar": null,
+    "title_ar": "الكتابة — نصائح لشخص جديد",
     "title_en": "Writing — Advice for a Newcomer",
-    "task_ar": null,
+    "task_ar": "اكتب 130–150 كلمة تنصح فيها شخصاً سينتقل إلى مدينتك أو سيبدأ العمل في مكان عملك. اذكر: شيئين عليه أن يفعلهما (have to)، وشيئاً واحداً ممنوعاً (mustn’t)، وشيئاً واحداً لست مضطراً له (don’t have to)، وثلاث نصائح بـshould أو shouldn’t، وقاعدة واحدة غير مكتوبة.",
     "task_en": "Write 130–150 words advising someone who is moving to your city or starting at your workplace. Include: two things they have to do, one thing they mustn't do, one thing they don't have to do, three pieces of advice with should/shouldn't, and one unwritten rule.",
     "min_words": 130,
     "max_words": 150,
     "templates": [
       {
+        "en": "Welcome! Here are a few things you should know before you arrive.",
+        "ar": "أهلاً بك! إليك بعض ما ينبغي أن تعرفه قبل وصولك."
+      },
+      {
         "en": "First, you have to ____________ , and you also have to ____________ .",
-        "ar": null
+        "ar": "أولاً، عليك أن ___، وعليك أيضاً أن ___.",
+        "note_ar": "First لأول فكرة، وalso للإضافة — وبعدها Finally لآخر فكرة."
       },
       {
         "en": "You mustn't ____________ . That one is serious.",
-        "ar": null
+        "ar": "ممنوع أن ___. وهذه جادّة."
       },
       {
         "en": "You don't have to ____________ , although most people do.",
-        "ar": null
+        "ar": "لست مضطراً أن ___، مع أن أكثر الناس يفعلون.",
+        "note_ar": "although = مع أنّ: تربط فكرتين متعاكستين. وبمعناها but: You don’t have to, but most people do."
       },
       {
         "en": "I think you should ____________ , because ____________ .",
-        "ar": null
+        "ar": "أظنّ أنه ينبغي أن ___، لأن ___.",
+        "note_ar": "because لسبب النصيحة. وso للنتيجة: so you should…"
       },
       {
         "en": "You shouldn't ____________ .",
-        "ar": null
+        "ar": "لا ينبغي أن ___."
       },
       {
         "en": "If I were you, I'd ____________ .",
-        "ar": null
+        "ar": "لو كنت مكانك لـ___."
+      },
+      {
+        "en": "The traffic is bad, so ____________ .",
+        "ar": "الزحام شديد، لذلك ___.",
+        "note_ar": "so = لذلك: بعدها النتيجة."
       },
       {
         "en": "And one thing nobody writes down: ____________ .",
-        "ar": null
+        "ar": "وشيء واحد لا يكتبه أحد: ___.",
+        "note_ar": "And في أول الجملة الأخيرة تقول للقارئ: هذه الأخيرة."
       }
     ],
-    "checklist": [],
-    "model_answer": "Welcome! Here are a few things you should know before you arrive.",
-    "model_words": 12
+    "checklist": [
+      {
+        "ar": "المحتوى: هل ذكرت كل ما تطلبه المهمّة — شيئين بـhave to، وشيئاً ممنوعاً، وشيئاً غير مطلوب، وثلاث نصائح بـshould أو shouldn’t، وقاعدة غير مكتوبة؟"
+      },
+      {
+        "ar": "تحقيق الغرض: هل يعرف القادم الجديد بعد قراءتها ما عليه فعله؟ هل النبرة ودودة ناصحة — ترحيب في أولها، ونصيحة لا أوامر؟"
+      },
+      {
+        "ar": "التنظيم: هل رتّبت الأفكار في فقرات قصيرة وربطتها: First · also · and · but · because · so · And finally؟"
+      },
+      {
+        "ar": "اللغة: فعل مجرّد بعد كل ناقص (بلا to ولا s ولا ing)، وmustn’t للممنوع وحده، وdon’t have to للاختياري وحده، وadvice بلا an، وhad to للماضي."
+      },
+      {
+        "ar": "الطول: بين 130 و150 كلمة."
+      }
+    ],
+    "model_answer": "Welcome! Here are a few things you should know before you arrive. First, you have to register at the local office in the first month, and you have to bring three copies of everything, because they will lose one. You mustn't take photographs near government buildings. That one is serious and people forget it. You don't have to speak Arabic to live here, although your life will be much easier if you learn a hundred words. I think you should live near your work rather than in a nicer area far away. The traffic here will take two hours of your day and you shouldn't underestimate what that does to you after a year. And one thing nobody writes down: if a shopkeeper offers you tea, you should accept it, even if you are in a hurry.",
+    "model_words": 137
   },
   "days": [
     {
       "number": 1,
-      "focus": "القواعد · التمييز الصوتي",
+      "focus": "الأفعال الناقصة · should · استمع أولاً",
       "tasks": [
         {
           "order": 1,
           "label": "مراجعة المفردات — تكرار متباعد",
-          "minutes": 10,
+          "minutes": 5,
           "ref": "review:vocab"
         },
         {
           "order": 2,
-          "label": "القواعد",
-          "minutes": 25,
-          "ref": "section:grammar"
+          "label": "كلمات: النصيحة والمشكلات",
+          "minutes": 15,
+          "ref": "vocab:advice_and_problems"
         },
         {
           "order": 3,
+          "label": "القواعد — الأفعال الناقصة و should",
+          "minutes": 20,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 4,
+          "label": "النطق — استمع أولاً",
+          "minutes": 10,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
+          "order": 6,
           "label": "مراجعة الإملاء",
           "minutes": 10,
-          "ref": "spell:review",
-          "order": 4
-        },
-        {
-          "order": 5,
-          "label": "تمارين اليوم",
-          "minutes": 5,
-          "ref": "exercises:1"
-        },
-        {
-          "label": "اكتب مثله",
-          "minutes": 10,
-          "ref": "imitate",
-          "order": 6
+          "ref": "spell:review"
         },
         {
           "order": 7,
-          "label": "حلقة اليوم",
+          "label": "تمارين اليوم",
           "minutes": 10,
-          "ref": "watch:2oumWdjA9hM"
+          "ref": "exercises:1"
         },
         {
           "order": 8,
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate"
+        },
+        {
+          "order": 9,
+          "label": "حلقة اليوم",
+          "minutes": 5,
+          "ref": "watch:2oumWdjA9hM"
+        },
+        {
+          "order": 10,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
         },
         {
+          "order": 11,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 9
+          "ref": "homework"
         }
       ]
     },
     {
       "number": 2,
-      "focus": "القواعد والإلزام · التمييز الصوتي",
+      "focus": "must و have to و had to · كلمات القواعد",
       "tasks": [
         {
           "order": 1,
@@ -153,15 +214,15 @@
         },
         {
           "order": 2,
-          "label": "القواعد والإلزام",
-          "minutes": 25,
-          "ref": "vocab:rules_and_obligation"
+          "label": "القواعد — must و have to و had to",
+          "minutes": 20,
+          "ref": "section:grammar"
         },
         {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 3
+          "order": 3,
+          "label": "كلمات: القواعد والإلزام",
+          "minutes": 15,
+          "ref": "vocab:rules_and_obligation"
         },
         {
           "order": 4,
@@ -171,243 +232,63 @@
         },
         {
           "order": 5,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review"
+        },
+        {
+          "order": 6,
           "label": "تمارين اليوم",
-          "minutes": 5,
+          "minutes": 10,
           "ref": "exercises:2"
         },
         {
+          "order": 7,
           "label": "اكتب مثله",
           "minutes": 10,
-          "ref": "imitate",
-          "order": 6
-        },
-        {
-          "order": 7,
-          "label": "حلقة اليوم",
-          "minutes": 10,
-          "ref": "watch:RLG8Nyve2vg"
+          "ref": "imitate"
         },
         {
           "order": 8,
+          "label": "حلقة اليوم",
+          "minutes": 5,
+          "ref": "watch:RLG8Nyve2vg"
+        },
+        {
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:error_hunt"
         },
         {
+          "order": 10,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 9
+          "ref": "homework"
         }
       ]
     },
     {
       "number": 3,
-      "focus": "القواعد · التمييز الصوتي",
+      "focus": "mustn’t أم don’t have to · need to",
       "tasks": [
         {
           "order": 1,
           "label": "مراجعة المفردات — تكرار متباعد",
-          "minutes": 10,
+          "minutes": 5,
           "ref": "review:vocab"
         },
         {
           "order": 2,
-          "label": "القواعد",
+          "label": "كلمات: مواقف يومية",
+          "minutes": 15,
+          "ref": "vocab:everyday_situations"
+        },
+        {
+          "order": 3,
+          "label": "القواعد — mustn’t أم don’t have to · need to",
           "minutes": 25,
           "ref": "section:grammar"
-        },
-        {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 10,
-          "ref": "game:minimal_pairs"
-        },
-        {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 4
-        },
-        {
-          "order": 5,
-          "label": "تمارين اليوم",
-          "minutes": 5,
-          "ref": "exercises:3"
-        },
-        {
-          "label": "اكتب مثله",
-          "minutes": 10,
-          "ref": "imitate",
-          "order": 6
-        },
-        {
-          "order": 7,
-          "label": "قصة اليوم",
-          "minutes": 10,
-          "ref": "story:butterfly-and-cocoon"
-        },
-        {
-          "order": 8,
-          "label": "تحدّي اليوم",
-          "minutes": 3,
-          "ref": "play:match_race"
-        },
-        {
-          "label": "مغامرة اليوم",
-          "minutes": 10,
-          "ref": "homework",
-          "order": 9
-        }
-      ]
-    },
-    {
-      "number": 4,
-      "focus": "عبارات النصح · الحوار الأول · التمييز الصوتي",
-      "tasks": [
-        {
-          "order": 1,
-          "label": "مراجعة المفردات — تكرار متباعد",
-          "minutes": 10,
-          "ref": "review:vocab"
-        },
-        {
-          "label": "الكلمات",
-          "minutes": 15,
-          "ref": "vocab:advice_phrases",
-          "order": 2
-        },
-        {
-          "label": "الحوار",
-          "minutes": 15,
-          "ref": "dialogue:1",
-          "order": 3
-        },
-        {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 4
-        },
-        {
-          "order": 5,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 10,
-          "ref": "game:minimal_pairs"
-        },
-        {
-          "order": 6,
-          "label": "تمارين اليوم",
-          "minutes": 5,
-          "ref": "exercises:4"
-        },
-        {
-          "label": "اكتب مثله",
-          "minutes": 10,
-          "ref": "imitate",
-          "order": 7
-        },
-        {
-          "order": 8,
-          "label": "حلقة اليوم",
-          "minutes": 20,
-          "ref": "watch:jFy0HyEgSBc"
-        },
-        {
-          "order": 9,
-          "label": "تحدّي اليوم",
-          "minutes": 3,
-          "ref": "play:error_hunt"
-        },
-        {
-          "label": "مغامرة اليوم",
-          "minutes": 10,
-          "ref": "homework",
-          "order": 10
-        }
-      ]
-    },
-    {
-      "number": 5,
-      "focus": "النطق · التمييز الصوتي",
-      "tasks": [
-        {
-          "order": 1,
-          "label": "مراجعة المفردات — تكرار متباعد",
-          "minutes": 10,
-          "ref": "review:vocab"
-        },
-        {
-          "order": 2,
-          "label": "النطق",
-          "minutes": 25,
-          "ref": "section:phonics"
-        },
-        {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 10,
-          "ref": "game:minimal_pairs"
-        },
-        {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 4
-        },
-        {
-          "order": 5,
-          "label": "تمارين اليوم",
-          "minutes": 5,
-          "ref": "exercises:5"
-        },
-        {
-          "label": "اكتب مثله",
-          "minutes": 10,
-          "ref": "imitate",
-          "order": 6
-        },
-        {
-          "order": 7,
-          "label": "حلقة اليوم",
-          "minutes": 20,
-          "ref": "watch:Pzjt1oVKze0"
-        },
-        {
-          "order": 8,
-          "label": "تحدّي اليوم",
-          "minutes": 3,
-          "ref": "play:match_race"
-        },
-        {
-          "label": "مغامرة اليوم",
-          "minutes": 10,
-          "ref": "homework",
-          "order": 9
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "focus": "الحوار الثاني · الاستماع · التمييز الصوتي",
-      "tasks": [
-        {
-          "order": 1,
-          "label": "مراجعة المفردات — تكرار متباعد",
-          "minutes": 10,
-          "ref": "review:vocab"
-        },
-        {
-          "label": "الحوار",
-          "minutes": 15,
-          "ref": "dialogue:2",
-          "order": 2
-        },
-        {
-          "label": "الاستماع",
-          "minutes": 15,
-          "ref": "section:listening",
-          "order": 3
         },
         {
           "order": 4,
@@ -416,94 +297,28 @@
           "ref": "game:minimal_pairs"
         },
         {
+          "order": 5,
           "label": "مراجعة الإملاء",
           "minutes": 10,
-          "ref": "spell:review",
-          "order": 5
+          "ref": "spell:review"
         },
         {
           "order": 6,
           "label": "تمارين اليوم",
-          "minutes": 5,
-          "ref": "exercises:6"
+          "minutes": 15,
+          "ref": "exercises:3"
         },
         {
+          "order": 7,
           "label": "اكتب مثله",
           "minutes": 10,
-          "ref": "imitate",
-          "order": 7
+          "ref": "imitate"
         },
         {
           "order": 8,
           "label": "قصة اليوم",
           "minutes": 10,
-          "ref": "story:the-woodcutter"
-        },
-        {
-          "order": 9,
-          "label": "تحدّي اليوم",
-          "minutes": 3,
-          "ref": "play:error_hunt"
-        },
-        {
-          "label": "مغامرة اليوم",
-          "minutes": 10,
-          "ref": "homework",
-          "order": 10
-        }
-      ]
-    },
-    {
-      "number": 7,
-      "focus": "القراءة · الكتابة · التمييز الصوتي",
-      "tasks": [
-        {
-          "order": 1,
-          "label": "مراجعة المفردات — تكرار متباعد",
-          "minutes": 10,
-          "ref": "review:vocab"
-        },
-        {
-          "label": "القراءة",
-          "minutes": 10,
-          "ref": "section:reading",
-          "order": 2
-        },
-        {
-          "label": "الكتابة",
-          "minutes": 10,
-          "ref": "writing:1",
-          "order": 3
-        },
-        {
-          "label": "التحدّث",
-          "minutes": 10,
-          "ref": "record",
-          "order": 4
-        },
-        {
-          "order": 5,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 15,
-          "ref": "game:minimal_pairs"
-        },
-        {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 6
-        },
-        {
-          "order": 7,
-          "label": "تمارين اليوم",
-          "minutes": 5,
-          "ref": "exercises:7"
-        },
-        {
-          "order": 8,
-          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record:baseline"
+          "ref": "story:butterfly-and-cocoon"
         },
         {
           "order": 9,
@@ -512,10 +327,298 @@
           "ref": "play:match_race"
         },
         {
+          "order": 10,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 10
+          "ref": "homework"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "focus": "عبارات النصح · الحوار الأول · you'd better",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 5,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "كلمات: عبارات النصح",
+          "minutes": 15,
+          "ref": "vocab:advice_phrases"
+        },
+        {
+          "order": 3,
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:1"
+        },
+        {
+          "order": 4,
+          "label": "القواعد — you'd better",
+          "minutes": 10,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 5,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 6,
+          "label": "مراجعة الإملاء",
+          "minutes": 5,
+          "ref": "spell:review"
+        },
+        {
+          "order": 7,
+          "label": "تمارين اليوم",
+          "minutes": 30,
+          "ref": "exercises:4"
+        },
+        {
+          "order": 8,
+          "label": "اكتب مثله",
+          "minutes": 5,
+          "ref": "imitate"
+        },
+        {
+          "order": 9,
+          "label": "حلقة اليوم",
+          "minutes": 10,
+          "ref": "watch:jFy0HyEgSBc"
+        },
+        {
+          "order": 10,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:error_hunt"
+        },
+        {
+          "order": 11,
+          "label": "مغامرة اليوم",
+          "minutes": 10,
+          "ref": "homework"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "focus": "النطق · too و enough · كلمات الإذن",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 5,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "كلمات: الإذن والطلب بلطف",
+          "minutes": 15,
+          "ref": "vocab:permission_and_requests"
+        },
+        {
+          "order": 3,
+          "label": "النطق",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
+          "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 5,
+          "label": "القواعد — too و enough",
+          "minutes": 10,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 6,
+          "label": "مراجعة الإملاء",
+          "minutes": 5,
+          "ref": "spell:review"
+        },
+        {
+          "order": 7,
+          "label": "تمارين اليوم",
+          "minutes": 30,
+          "ref": "exercises:5"
+        },
+        {
+          "order": 8,
+          "label": "اكتب مثله",
+          "minutes": 5,
+          "ref": "imitate"
+        },
+        {
+          "order": 9,
+          "label": "حلقة اليوم",
+          "minutes": 10,
+          "ref": "watch:Pzjt1oVKze0"
+        },
+        {
+          "order": 10,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:match_race"
+        },
+        {
+          "order": 11,
+          "label": "مغامرة اليوم",
+          "minutes": 10,
+          "ref": "homework"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "focus": "الحوار الثاني · الإذن والطلب · الاستماع",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 5,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:2"
+        },
+        {
+          "order": 3,
+          "label": "القواعد — الإذن: can · could · allowed to",
+          "minutes": 10,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 4,
+          "label": "الاستماع",
+          "minutes": 15,
+          "ref": "section:listening"
+        },
+        {
+          "order": 5,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 6,
+          "label": "مراجعة الإملاء",
+          "minutes": 5,
+          "ref": "spell:review"
+        },
+        {
+          "order": 7,
+          "label": "تمارين اليوم",
+          "minutes": 25,
+          "ref": "exercises:6"
+        },
+        {
+          "order": 8,
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate"
+        },
+        {
+          "order": 9,
+          "label": "قصة اليوم",
+          "minutes": 10,
+          "ref": "story:the-woodcutter"
+        },
+        {
+          "order": 10,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:error_hunt"
+        },
+        {
+          "order": 11,
+          "label": "مغامرة اليوم",
+          "minutes": 10,
+          "ref": "homework"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "focus": "القراءة · الكتابة · التحدّث · make و do و take",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 5,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "كلمات: make و do و take و have",
+          "minutes": 15,
+          "ref": "vocab:make_do_take_have"
+        },
+        {
+          "order": 3,
+          "label": "القراءة",
+          "minutes": 10,
+          "ref": "section:reading"
+        },
+        {
+          "order": 4,
+          "label": "الكتابة",
+          "minutes": 15,
+          "ref": "writing:1"
+        },
+        {
+          "order": 5,
+          "label": "التحدّث",
+          "minutes": 10,
+          "ref": "record"
+        },
+        {
+          "order": 6,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 7,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review"
+        },
+        {
+          "order": 8,
+          "label": "تمارين اليوم",
+          "minutes": 10,
+          "ref": "exercises:7"
+        },
+        {
+          "order": 9,
+          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
+          "minutes": 5,
+          "ref": "record:baseline"
+        },
+        {
+          "order": 10,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:match_race"
+        },
+        {
+          "order": 11,
+          "label": "مغامرة اليوم",
+          "minutes": 10,
+          "ref": "homework"
         }
       ]
     }
@@ -708,7 +811,7 @@
       "word": "uniform",
       "ipa": "/ˈjuːnɪfɔːm/",
       "arabic": "زي رسمي",
-      "example": "—",
+      "example": "Do you have to wear a uniform?",
       "group_label_ar": "القواعد والإلزام",
       "group_label_en": "Rules and Obligation",
       "target": "uniform",
@@ -799,7 +902,7 @@
       "word": "punish",
       "ipa": "/ˈpʌnɪʃ/",
       "arabic": "يعاقب",
-      "example": "—",
+      "example": "The school punished him for lying.",
       "group_label_ar": "القواعد والإلزام",
       "group_label_en": "Rules and Obligation",
       "target": "punish",
@@ -838,7 +941,7 @@
       "word": "break the rules",
       "ipa": "/breɪk ðə ˈruːlz/",
       "arabic": "يخالف القواعد",
-      "example": "—",
+      "example": "He broke the rules and got a fine.",
       "group_label_ar": "القواعد والإلزام",
       "group_label_en": "Rules and Obligation",
       "target": "break the rules",
@@ -851,7 +954,7 @@
       "word": "advice",
       "ipa": "/ədˈvaɪs/",
       "arabic": "نصيحة",
-      "example": null,
+      "example": "My father gave me some good advice.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "advice",
@@ -864,7 +967,7 @@
       "word": "advise",
       "ipa": "/ədˈvaɪz/",
       "arabic": "ينصح",
-      "example": null,
+      "example": "The doctor advised me to rest.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "advise",
@@ -877,7 +980,7 @@
       "word": "suggest",
       "ipa": "/səˈdʒest/",
       "arabic": "يقترح",
-      "example": null,
+      "example": "Can you suggest a good hotel?",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "suggest",
@@ -890,7 +993,7 @@
       "word": "suggestion",
       "ipa": "/səˈdʒestʃən/",
       "arabic": "اقتراح",
-      "example": null,
+      "example": "Do you have any suggestions?",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "suggestion",
@@ -903,7 +1006,7 @@
       "word": "recommend",
       "ipa": "/ˌrekəˈmend/",
       "arabic": "يوصي",
-      "example": null,
+      "example": "Can you recommend a good doctor?",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "recommend",
@@ -916,7 +1019,7 @@
       "word": "solution",
       "ipa": "/səˈluːʃn/",
       "arabic": "حل",
-      "example": null,
+      "example": "There is a simple solution.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "solution",
@@ -929,7 +1032,7 @@
       "word": "problem",
       "ipa": "/ˈprɒbləm/",
       "arabic": "مشكلة",
-      "example": null,
+      "example": "What's the problem?",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "problem",
@@ -942,7 +1045,7 @@
       "word": "issue",
       "ipa": "/ˈɪʃuː/",
       "arabic": "مسألة",
-      "example": null,
+      "example": "Money is a big issue for us.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "issue",
@@ -955,7 +1058,7 @@
       "word": "worry",
       "ipa": "/ˈwʌri/",
       "arabic": "يقلق",
-      "example": null,
+      "example": "My mother worries about me.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "worry",
@@ -968,7 +1071,7 @@
       "word": "stress",
       "ipa": "/stres/",
       "arabic": "ضغط نفسي",
-      "example": null,
+      "example": "Stress is bad for your health.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "stress",
@@ -981,7 +1084,7 @@
       "word": "tired",
       "ipa": "/ˈtaɪəd/",
       "arabic": "متعب",
-      "example": null,
+      "example": "You look tired. You should rest.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "tired",
@@ -994,7 +1097,7 @@
       "word": "exhausted",
       "ipa": "/ɪɡˈzɔːstɪd/",
       "arabic": "منهك",
-      "example": null,
+      "example": "I'm exhausted after work.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "exhausted",
@@ -1007,7 +1110,7 @@
       "word": "busy",
       "ipa": "/ˈbɪzi/",
       "arabic": "مشغول",
-      "example": null,
+      "example": "Sorry, I'm busy right now.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "busy",
@@ -1018,9 +1121,9 @@
     {
       "group": "advice_and_problems",
       "word": "free time",
-      "ipa": "—",
+      "ipa": "/ˌfriː ˈtaɪm/",
       "arabic": "وقت فراغ",
-      "example": null,
+      "example": "I read in my free time.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "free time",
@@ -1033,7 +1136,7 @@
       "word": "decide",
       "ipa": "/dɪˈsaɪd/",
       "arabic": "يقرّر",
-      "example": null,
+      "example": "I haven't decided yet.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "decide",
@@ -1046,7 +1149,7 @@
       "word": "choice",
       "ipa": "/tʃɔɪs/",
       "arabic": "خيار",
-      "example": null,
+      "example": "It's your choice.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "choice",
@@ -1059,7 +1162,7 @@
       "word": "mistake",
       "ipa": "/mɪˈsteɪk/",
       "arabic": "خطأ",
-      "example": null,
+      "example": "I made a big mistake.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "mistake",
@@ -1072,7 +1175,7 @@
       "word": "risk",
       "ipa": "/rɪsk/",
       "arabic": "مخاطرة",
-      "example": null,
+      "example": "It's a big risk.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "risk",
@@ -1085,7 +1188,7 @@
       "word": "careful",
       "ipa": "/ˈkeəfl/",
       "arabic": "حذر",
-      "example": null,
+      "example": "Be careful! The floor is wet.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "careful",
@@ -1098,7 +1201,7 @@
       "word": "sure",
       "ipa": "/ʃʊə(r)/",
       "arabic": "متأكد",
-      "example": null,
+      "example": "I'm not sure.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "sure",
@@ -1111,7 +1214,7 @@
       "word": "difficult",
       "ipa": "/ˈdɪfɪkəlt/",
       "arabic": "صعب",
-      "example": null,
+      "example": "This exercise is difficult.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "difficult",
@@ -1124,7 +1227,7 @@
       "word": "possible",
       "ipa": "/ˈpɒsəbl/",
       "arabic": "ممكن",
-      "example": null,
+      "example": "Call me as soon as possible.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "possible",
@@ -1137,7 +1240,7 @@
       "word": "improve",
       "ipa": "/ɪmˈpruːv/",
       "arabic": "يحسّن",
-      "example": null,
+      "example": "My English has improved a lot.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "improve",
@@ -1150,7 +1253,7 @@
       "word": "avoid",
       "ipa": "/əˈvɔɪd/",
       "arabic": "يتجنّب",
-      "example": null,
+      "example": "Try to avoid the city centre at five.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "avoid",
@@ -1163,7 +1266,7 @@
       "word": "deal with",
       "ipa": "/ˈdiːl wɪð/",
       "arabic": "يتعامل مع",
-      "example": null,
+      "example": "I'll deal with it tomorrow.",
       "group_label_ar": "النصيحة والمشكلات",
       "group_label_en": "Advice and Problems",
       "target": "deal with",
@@ -1176,7 +1279,7 @@
       "word": "You should…",
       "ipa": null,
       "arabic": "ينبغي أن…",
-      "example": "Normal advice",
+      "example": "You should see a doctor.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1189,7 +1292,7 @@
       "word": "You shouldn't…",
       "ipa": null,
       "arabic": "لا ينبغي أن…",
-      "example": "Normal advice",
+      "example": "You shouldn't work so late.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1202,7 +1305,7 @@
       "word": "I think you should…",
       "ipa": null,
       "arabic": "أظن أنه ينبغي…",
-      "example": "Softer",
+      "example": "I think you should talk to her first.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1215,7 +1318,7 @@
       "word": "Maybe you should…",
       "ipa": null,
       "arabic": "ربما ينبغي…",
-      "example": "Softer",
+      "example": "Maybe you should go to bed earlier.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1228,7 +1331,7 @@
       "word": "You could…",
       "ipa": null,
       "arabic": "يمكنك أن…",
-      "example": "A suggestion, not advice",
+      "example": "You could start with an evening course.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1241,7 +1344,7 @@
       "word": "Why don't you…?",
       "ipa": null,
       "arabic": "لماذا لا…؟",
-      "example": "Friendly suggestion",
+      "example": "Why don't you visit the city together?",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1254,7 +1357,7 @@
       "word": "How about…?",
       "ipa": null,
       "arabic": "ما رأيك بـ…؟",
-      "example": "Friendly suggestion",
+      "example": "How about going by train?",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1267,7 +1370,7 @@
       "word": "If I were you, I'd…",
       "ipa": null,
       "arabic": "لو كنت مكانك…",
-      "example": "Strong but polite",
+      "example": "If I were you, I'd speak to him in person.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1280,7 +1383,7 @@
       "word": "You'd better…",
       "ipa": null,
       "arabic": "من الأفضل أن…",
-      "example": "Strong — a warning",
+      "example": "You'd better tell your manager today.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1293,7 +1396,7 @@
       "word": "You must…",
       "ipa": null,
       "arabic": "يجب أن…",
-      "example": "Very strong",
+      "example": "You must try this cake!",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1306,20 +1409,20 @@
       "word": "You have to…",
       "ipa": null,
       "arabic": "عليك أن…",
-      "example": "A rule, not my opinion",
+      "example": "You have to sign in at reception.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
       "sentence": "You have to show your passport here.",
       "sentence_ar": "عليك أن تُظهر جواز سفرك هنا.",
-      "usage_ar": "قاعدة من الخارج لا رأيك، وبعدها to."
+      "usage_ar": "قاعدة من الخارج لا رأيك، وبعدها الفعل مجرّداً: You have to go."
     },
     {
       "group": "advice_phrases",
       "word": "You mustn't…",
       "ipa": null,
       "arabic": "يجب ألا…",
-      "example": "Prohibition",
+      "example": "You mustn't park here.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1332,7 +1435,7 @@
       "word": "You don't have to…",
       "ipa": null,
       "arabic": "لست مضطراً أن…",
-      "example": "No obligation",
+      "example": "You don't have to pay. It's free.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1345,7 +1448,7 @@
       "word": "It's a good idea to…",
       "ipa": null,
       "arabic": "من الجيد أن…",
-      "example": "Gentle",
+      "example": "It's a good idea to book early.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1357,21 +1460,21 @@
       "group": "advice_phrases",
       "word": "It's worth…",
       "ipa": null,
-      "arabic": "يستحق أن…",
-      "example": "Gentle",
+      "arabic": "يستحقّ… (وبعدها فعل بـing)",
+      "example": "It's worth visiting the old city.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
       "sentence": "The museum is worth visiting.",
       "sentence_ar": "المتحف يستحق الزيارة.",
-      "usage_ar": "بعد worth يأتي الفعل بـ ing: worth visiting."
+      "usage_ar": "بعد worth يأتي الفعل بـing لا بـto: It’s worth visiting — لا It’s worth to visit."
     },
     {
       "group": "advice_phrases",
       "word": "Have you thought about…?",
       "ipa": null,
       "arabic": "هل فكّرت في…؟",
-      "example": "Very gentle",
+      "example": "Have you thought about taking a course?",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1384,7 +1487,7 @@
       "word": "What do you think I should do?",
       "ipa": null,
       "arabic": "ماذا تظن أن عليّ فعله؟",
-      "example": "Asking",
+      "example": "My boss never listens. What do you think I should do?",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1397,7 +1500,7 @@
       "word": "Can I ask your advice?",
       "ipa": null,
       "arabic": "هل أستشيرك؟",
-      "example": "Asking",
+      "example": "Can I ask your advice about something?",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1409,13 +1512,13 @@
       "group": "advice_phrases",
       "word": "What would you do?",
       "ipa": null,
-      "arabic": "ماذا كنت ستفعل؟",
-      "example": "Asking",
+      "arabic": "ماذا كنت ستفعل لو كنت مكاني؟",
+      "example": "I've lost my keys. What would you do?",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
       "sentence": "My boss is angry with me. What would you do?",
-      "sentence_ar": "مديري غاضب مني. ماذا كنتَ ستفعل؟",
+      "sentence_ar": "مديري غاضب مني. ماذا كنتَ ستفعل لو كنتَ مكاني؟",
       "usage_ar": "تسأل بها شخصاً عما يفعله مكانك، احفظها عبارة كاملة."
     },
     {
@@ -1423,7 +1526,7 @@
       "word": "That's good advice.",
       "ipa": null,
       "arabic": "نصيحة جيدة",
-      "example": "Responding",
+      "example": "Leave earlier? That's good advice.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": "That's good advice",
@@ -1436,7 +1539,7 @@
       "word": "I'll think about it.",
       "ipa": null,
       "arabic": "سأفكر في الأمر",
-      "example": "Responding",
+      "example": "It's a good offer. I'll think about it.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1449,7 +1552,7 @@
       "word": "I'm not sure that would work.",
       "ipa": null,
       "arabic": "لست متأكداً أن ذلك سينجح",
-      "example": "Disagreeing politely",
+      "example": "Talk to him? I'm not sure that would work.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1462,7 +1565,7 @@
       "word": "I've already tried that.",
       "ipa": null,
       "arabic": "جرّبت ذلك بالفعل",
-      "example": "Disagreeing politely",
+      "example": "Go to bed earlier? I've already tried that.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1475,7 +1578,7 @@
       "word": "You're probably right.",
       "ipa": null,
       "arabic": "ربما أنت محق",
-      "example": "Agreeing",
+      "example": "You're probably right. I'll talk to her.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": "You're probably right",
@@ -1488,7 +1591,7 @@
       "word": "It depends.",
       "ipa": null,
       "arabic": "يعتمد",
-      "example": "Neutral",
+      "example": "Is it expensive? It depends.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": "It depends",
@@ -1501,7 +1604,7 @@
       "word": "It's up to you.",
       "ipa": null,
       "arabic": "الأمر عائد لك",
-      "example": "Neutral",
+      "example": "We can stay or go. It's up to you.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1514,7 +1617,7 @@
       "word": "I don't know what to do.",
       "ipa": null,
       "arabic": "لا أعرف ماذا أفعل",
-      "example": "Opening a problem",
+      "example": "I'm so tired. I don't know what to do.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1527,7 +1630,7 @@
       "word": "I'm in a difficult situation.",
       "ipa": null,
       "arabic": "أنا في وضع صعب",
-      "example": "Opening a problem",
+      "example": "Can I talk to you? I'm in a difficult situation.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1540,7 +1643,7 @@
       "word": "The problem is that…",
       "ipa": null,
       "arabic": "المشكلة أن…",
-      "example": "Explaining",
+      "example": "The problem is that my wife has a good job here.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1553,7 +1656,7 @@
       "word": "On the other hand…",
       "ipa": null,
       "arabic": "من ناحية أخرى…",
-      "example": "Explaining",
+      "example": "The city is expensive. On the other hand, the salary is better.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
       "target": null,
@@ -1566,7 +1669,7 @@
       "word": "queue",
       "ipa": "/kjuː/",
       "arabic": "طابور",
-      "example": null,
+      "example": "There's a long queue at the bank.",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "queue",
@@ -1579,7 +1682,7 @@
       "word": "ticket",
       "ipa": "/ˈtɪkɪt/",
       "arabic": "تذكرة",
-      "example": null,
+      "example": "I've lost my ticket.",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "ticket",
@@ -1592,7 +1695,7 @@
       "word": "passport",
       "ipa": "/ˈpɑːspɔːt/",
       "arabic": "جواز سفر",
-      "example": null,
+      "example": "Your passport, please.",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "passport",
@@ -1605,7 +1708,7 @@
       "word": "security",
       "ipa": "/sɪˈkjʊərəti/",
       "arabic": "أمن",
-      "example": null,
+      "example": "We went through security quickly.",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "security",
@@ -1618,7 +1721,7 @@
       "word": "seatbelt",
       "ipa": "/ˈsiːtbelt/",
       "arabic": "حزام الأمان",
-      "example": null,
+      "example": "Put on your seatbelt.",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "seatbelt",
@@ -1629,9 +1732,9 @@
     {
       "group": "everyday_situations",
       "word": "speed limit",
-      "ipa": "—",
+      "ipa": "/ˈspiːd lɪmɪt/",
       "arabic": "حد السرعة",
-      "example": null,
+      "example": "Don't drive over the speed limit.",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "speed limit",
@@ -1644,7 +1747,7 @@
       "word": "smoking",
       "ipa": "/ˈsməʊkɪŋ/",
       "arabic": "تدخين",
-      "example": null,
+      "example": "Smoking is bad for you.",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "smoking",
@@ -1657,7 +1760,7 @@
       "word": "noise",
       "ipa": "/nɔɪz/",
       "arabic": "ضجيج",
-      "example": null,
+      "example": "What's that noise?",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "noise",
@@ -1670,12 +1773,12 @@
       "word": "silence",
       "ipa": "/ˈsaɪləns/",
       "arabic": "صمت",
-      "example": null,
+      "example": "Silence, please!",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "silence",
-      "sentence": "You must keep silence in the library.",
-      "sentence_ar": "يجب أن تلتزم الصمت في المكتبة.",
+      "sentence": "Students must work in silence during the exam.",
+      "sentence_ar": "يجب أن يعمل الطلاب بصمت أثناء الامتحان.",
       "usage_ar": "نقول in silence بمعنى بصمت."
     },
     {
@@ -1683,7 +1786,7 @@
       "word": "entrance",
       "ipa": "/ˈentrəns/",
       "arabic": "مدخل",
-      "example": null,
+      "example": "Meet me at the main entrance.",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "entrance",
@@ -1696,7 +1799,7 @@
       "word": "exit",
       "ipa": "/ˈeksɪt/",
       "arabic": "مخرج",
-      "example": null,
+      "example": "The exit is at the back.",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "exit",
@@ -1709,7 +1812,7 @@
       "word": "emergency",
       "ipa": "/iˈmɜːdʒənsi/",
       "arabic": "طوارئ",
-      "example": null,
+      "example": "Use this door only in an emergency.",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "emergency",
@@ -1720,9 +1823,9 @@
     {
       "group": "everyday_situations",
       "word": "staff only",
-      "ipa": "—",
+      "ipa": "/ˌstɑːf ˈəʊnli/",
       "arabic": "للموظفين فقط",
-      "example": null,
+      "example": "Sorry, this area is staff only.",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "staff only",
@@ -1733,9 +1836,9 @@
     {
       "group": "everyday_situations",
       "word": "no entry",
-      "ipa": "—",
+      "ipa": "/ˌnəʊ ˈentri/",
       "arabic": "ممنوع الدخول",
-      "example": null,
+      "example": "The sign on the door says 'No entry'.",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "no entry",
@@ -1746,9 +1849,9 @@
     {
       "group": "everyday_situations",
       "word": "out of order",
-      "ipa": "—",
+      "ipa": "/ˌaʊt əv ˈɔːdə(r)/",
       "arabic": "خارج الخدمة",
-      "example": null,
+      "example": "The machine is out of order.",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "out of order",
@@ -1759,9 +1862,9 @@
     {
       "group": "everyday_situations",
       "word": "closed for repairs",
-      "ipa": "—",
+      "ipa": "/ˌkləʊzd fə rɪˈpeəz/",
       "arabic": "مغلق للصيانة",
-      "example": null,
+      "example": "The road is closed for repairs.",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "closed for repairs",
@@ -1774,7 +1877,7 @@
       "word": "appointment",
       "ipa": "/əˈpɔɪntmənt/",
       "arabic": "موعد",
-      "example": null,
+      "example": "I have an appointment at ten.",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "appointment",
@@ -1787,7 +1890,7 @@
       "word": "reception",
       "ipa": "/rɪˈsepʃn/",
       "arabic": "استقبال",
-      "example": null,
+      "example": "Wait at reception, please.",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "reception",
@@ -1798,9 +1901,9 @@
     {
       "group": "everyday_situations",
       "word": "identity card",
-      "ipa": "—",
+      "ipa": "/aɪˈdentəti kɑːd/",
       "arabic": "بطاقة هوية",
-      "example": null,
+      "example": "Show your identity card at the door.",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "identity card",
@@ -1813,13 +1916,429 @@
       "word": "registration",
       "ipa": "/ˌredʒɪˈstreɪʃn/",
       "arabic": "تسجيل",
-      "example": null,
+      "example": "Registration is free.",
       "group_label_ar": "مواقف يومية",
       "group_label_en": "Everyday Situations",
       "target": "registration",
       "sentence": "Registration starts at nine o'clock.",
       "sentence_ar": "يبدأ التسجيل في الساعة 9.",
       "usage_ar": "registration من الفعل register."
+    },
+    {
+      "group": "permission_and_requests",
+      "word": "Can I…?",
+      "ipa": null,
+      "arabic": "هل يمكنني…؟",
+      "example": "Can I sit here?",
+      "group_label_ar": "الإذن والطلب بلطف",
+      "group_label_en": "Permission and Polite Requests",
+      "target": "Can I",
+      "sentence": "Can I use your phone for a minute?",
+      "sentence_ar": "هل يمكنني أن أستعمل هاتفك دقيقة؟",
+      "usage_ar": "تستأذن لنفسك، وهي الأشيع. بعدها فعل مجرّد."
+    },
+    {
+      "group": "permission_and_requests",
+      "word": "Could I…?",
+      "ipa": null,
+      "arabic": "هل لي أن…؟",
+      "example": "Could I ask a question?",
+      "group_label_ar": "الإذن والطلب بلطف",
+      "group_label_en": "Permission and Polite Requests",
+      "target": "Could I",
+      "sentence": "Could I leave early today?",
+      "sentence_ar": "هل لي أن أغادر مبكراً اليوم؟",
+      "usage_ar": "ألطف من Can I، للمدير والغريب. could هنا ليست ماضياً."
+    },
+    {
+      "group": "permission_and_requests",
+      "word": "May I…?",
+      "ipa": null,
+      "arabic": "هل تسمح لي أن…؟",
+      "example": "May I come in?",
+      "group_label_ar": "الإذن والطلب بلطف",
+      "group_label_en": "Permission and Polite Requests",
+      "target": "May I",
+      "sentence": "May I see your ticket, please?",
+      "sentence_ar": "هل تسمح لي أن أرى تذكرتك؟",
+      "usage_ar": "رسمية، تسمعها من الموظّفين أكثر مما تقولها."
+    },
+    {
+      "group": "permission_and_requests",
+      "word": "Is it OK if I…?",
+      "ipa": null,
+      "arabic": "هل لا بأس إن…؟",
+      "example": "Is it OK if I open the window?",
+      "group_label_ar": "الإذن والطلب بلطف",
+      "group_label_en": "Permission and Polite Requests",
+      "target": "Is it OK if I",
+      "sentence": "Is it OK if I call you tonight?",
+      "sentence_ar": "هل لا بأس إن اتصلت بك الليلة؟",
+      "usage_ar": "بعدها فاعل وفعل في المضارع: if I open — لا if I to open."
+    },
+    {
+      "group": "permission_and_requests",
+      "word": "Do you mind if I…?",
+      "ipa": null,
+      "arabic": "هل يزعجك أن…؟",
+      "example": "Do you mind if I sit here?",
+      "group_label_ar": "الإذن والطلب بلطف",
+      "group_label_en": "Permission and Polite Requests",
+      "target": "Do you mind if I",
+      "sentence": "Do you mind if I close the door?",
+      "sentence_ar": "هل يزعجك أن أغلق الباب؟",
+      "usage_ar": "جواب الموافقة No, not at all — لأن السؤال «هل يزعجك؟»."
+    },
+    {
+      "group": "permission_and_requests",
+      "word": "Am I allowed to…?",
+      "ipa": null,
+      "arabic": "هل يُسمح لي أن…؟",
+      "example": "Am I allowed to take photos here?",
+      "group_label_ar": "الإذن والطلب بلطف",
+      "group_label_en": "Permission and Polite Requests",
+      "target": "Am I allowed to",
+      "sentence": "Am I allowed to park here?",
+      "sentence_ar": "هل يُسمح لي أن أركن هنا؟",
+      "usage_ar": "تسأل عن القاعدة لا عن رأي الشخص. ولا تقل Is it allowed to…?"
+    },
+    {
+      "group": "permission_and_requests",
+      "word": "You're allowed to…",
+      "ipa": null,
+      "arabic": "يُسمح لك أن…",
+      "example": "You're allowed to bring one bag.",
+      "group_label_ar": "الإذن والطلب بلطف",
+      "group_label_en": "Permission and Polite Requests",
+      "target": "You're allowed to",
+      "sentence": "You're allowed to use the gym after six.",
+      "sentence_ar": "يُسمح لك أن تستعمل النادي بعد السادسة.",
+      "usage_ar": "ونفيها You aren't allowed to = ممنوع، مثل mustn't."
+    },
+    {
+      "group": "permission_and_requests",
+      "word": "Can you…?",
+      "ipa": null,
+      "arabic": "هل يمكنك…؟",
+      "example": "Can you help me?",
+      "group_label_ar": "الإذن والطلب بلطف",
+      "group_label_en": "Permission and Polite Requests",
+      "target": "Can you",
+      "sentence": "Can you help me with this form?",
+      "sentence_ar": "هل يمكنك أن تساعدني في هذه الاستمارة؟",
+      "usage_ar": "تطلب من غيرك أن يفعل. لا تقل Can I help me."
+    },
+    {
+      "group": "permission_and_requests",
+      "word": "Could you…, please?",
+      "ipa": null,
+      "arabic": "هل يمكنك من فضلك…؟",
+      "example": "Could you close the door, please?",
+      "group_label_ar": "الإذن والطلب بلطف",
+      "group_label_en": "Permission and Polite Requests",
+      "target": null,
+      "sentence": "Could you speak more slowly, please?",
+      "sentence_ar": "هل يمكنك أن تتكلّم أبطأ من فضلك؟",
+      "usage_ar": "أدبُ الطلب: Could you مع please في آخرها."
+    },
+    {
+      "group": "permission_and_requests",
+      "word": "Could you possibly…?",
+      "ipa": null,
+      "arabic": "هل يمكنك لو سمحت…؟",
+      "example": "Could you possibly lend me your car?",
+      "group_label_ar": "الإذن والطلب بلطف",
+      "group_label_en": "Permission and Polite Requests",
+      "target": "Could you possibly",
+      "sentence": "Could you possibly help me move on Saturday?",
+      "sentence_ar": "هل يمكنك لو سمحت أن تساعدني في الانتقال يوم السبت؟",
+      "usage_ar": "لطلب كبير. possibly تجعله ألطف."
+    },
+    {
+      "group": "permission_and_requests",
+      "word": "Sure.",
+      "ipa": null,
+      "arabic": "طبعاً",
+      "example": "Can I sit here? — Sure.",
+      "group_label_ar": "الإذن والطلب بلطف",
+      "group_label_en": "Permission and Polite Requests",
+      "target": "Sure",
+      "sentence": "Can I borrow your pen? — Sure.",
+      "sentence_ar": "هل أستعير قلمك؟ — طبعاً.",
+      "usage_ar": "موافقة سريعة ودودة."
+    },
+    {
+      "group": "permission_and_requests",
+      "word": "Of course.",
+      "ipa": null,
+      "arabic": "بالتأكيد",
+      "example": "Could I ask a question? — Of course.",
+      "group_label_ar": "الإذن والطلب بلطف",
+      "group_label_en": "Permission and Polite Requests",
+      "target": "Of course",
+      "sentence": "Could I sit here? — Of course.",
+      "sentence_ar": "هل لي أن أجلس هنا؟ — بالتأكيد.",
+      "usage_ar": "موافقة مهذّبة."
+    },
+    {
+      "group": "permission_and_requests",
+      "word": "Go ahead.",
+      "ipa": null,
+      "arabic": "تفضّل",
+      "example": "Can I use your phone? — Go ahead.",
+      "group_label_ar": "الإذن والطلب بلطف",
+      "group_label_en": "Permission and Polite Requests",
+      "target": "Go ahead",
+      "sentence": "Is it OK if I open the window? — Go ahead.",
+      "sentence_ar": "هل لا بأس إن فتحت النافذة؟ — تفضّل.",
+      "usage_ar": "موافقة تعني «افعل»."
+    },
+    {
+      "group": "permission_and_requests",
+      "word": "No problem.",
+      "ipa": null,
+      "arabic": "لا مشكلة",
+      "example": "Could you wait a minute? — No problem.",
+      "group_label_ar": "الإذن والطلب بلطف",
+      "group_label_en": "Permission and Polite Requests",
+      "target": "No problem",
+      "sentence": "Could you send me the file? — No problem.",
+      "sentence_ar": "هل ترسل لي الملف؟ — لا مشكلة.",
+      "usage_ar": "جواب لطلب: سأفعله بسرور."
+    },
+    {
+      "group": "permission_and_requests",
+      "word": "Not at all.",
+      "ipa": null,
+      "arabic": "إطلاقاً (أي تفضّل)",
+      "example": "Do you mind if I sit here? — Not at all.",
+      "group_label_ar": "الإذن والطلب بلطف",
+      "group_label_en": "Permission and Polite Requests",
+      "target": "Not at all",
+      "sentence": "Do you mind if I smoke? — Not at all.",
+      "sentence_ar": "هل يزعجك أن أدخّن؟ — إطلاقاً.",
+      "usage_ar": "جواب Do you mind…? بالموافقة. Yes, I do تعني الرفض."
+    },
+    {
+      "group": "permission_and_requests",
+      "word": "I'm afraid not.",
+      "ipa": null,
+      "arabic": "للأسف لا",
+      "example": "Can I park here? — I'm afraid not.",
+      "group_label_ar": "الإذن والطلب بلطف",
+      "group_label_en": "Permission and Polite Requests",
+      "target": "I'm afraid not",
+      "sentence": "Could I pay by card? — I'm afraid not.",
+      "sentence_ar": "هل أدفع بالبطاقة؟ — للأسف لا.",
+      "usage_ar": "رفض مهذّب. لا تقل No وحدها."
+    },
+    {
+      "group": "permission_and_requests",
+      "word": "Sorry, you can't.",
+      "ipa": null,
+      "arabic": "آسف، لا يمكنك",
+      "example": "Can I go in? — Sorry, you can't. It's staff only.",
+      "group_label_ar": "الإذن والطلب بلطف",
+      "group_label_en": "Permission and Polite Requests",
+      "target": "Sorry, you can't",
+      "sentence": "Can I take this chair? — Sorry, you can't.",
+      "sentence_ar": "هل آخذ هذا الكرسي؟ — آسف، لا يمكنك.",
+      "usage_ar": "رفض واضح لطيف، ويحسن أن تذكر السبب بعده."
+    },
+    {
+      "group": "make_do_take_have",
+      "word": "make a decision",
+      "ipa": null,
+      "arabic": "يتّخذ قراراً",
+      "example": "I have to make a decision by Friday.",
+      "group_label_ar": "make و do و take و have",
+      "group_label_en": "Collocations: make, do, take, have",
+      "target": "make a decision",
+      "sentence": "Don't make a decision when you're tired.",
+      "sentence_ar": "لا تتّخذ قراراً وأنت متعب.",
+      "usage_ar": "نقول make a decision، وتُسمع take a decision في البريطانية. ولا نقول do a decision."
+    },
+    {
+      "group": "make_do_take_have",
+      "word": "make a mistake",
+      "ipa": null,
+      "arabic": "يرتكب خطأ",
+      "example": "Everyone makes mistakes.",
+      "group_label_ar": "make و do و take و have",
+      "group_label_en": "Collocations: make, do, take, have",
+      "target": "make a mistake",
+      "sentence": "It's OK to make a mistake.",
+      "sentence_ar": "لا بأس أن تخطئ.",
+      "usage_ar": "make لا do: make a mistake."
+    },
+    {
+      "group": "make_do_take_have",
+      "word": "make a choice",
+      "ipa": null,
+      "arabic": "يختار",
+      "example": "You have to make a choice.",
+      "group_label_ar": "make و do و take و have",
+      "group_label_en": "Collocations: make, do, take, have",
+      "target": "make a choice",
+      "sentence": "It's time to make a choice.",
+      "sentence_ar": "حان وقت الاختيار.",
+      "usage_ar": "make a choice = choose."
+    },
+    {
+      "group": "make_do_take_have",
+      "word": "make a suggestion",
+      "ipa": null,
+      "arabic": "يقدّم اقتراحاً",
+      "example": "Can I make a suggestion?",
+      "group_label_ar": "make و do و take و have",
+      "group_label_en": "Collocations: make, do, take, have",
+      "target": null,
+      "sentence": "She made a good suggestion.",
+      "sentence_ar": "قدّمت اقتراحاً جيداً.",
+      "usage_ar": "make a suggestion، والفعل suggest."
+    },
+    {
+      "group": "make_do_take_have",
+      "word": "make an effort",
+      "ipa": null,
+      "arabic": "يبذل جهداً",
+      "example": "You should make an effort to arrive on time.",
+      "group_label_ar": "make و do و take و have",
+      "group_label_en": "Collocations: make, do, take, have",
+      "target": null,
+      "sentence": "He made an effort to learn the rules.",
+      "sentence_ar": "بذل جهداً ليتعلّم القواعد.",
+      "usage_ar": "make an effort to + فعل."
+    },
+    {
+      "group": "make_do_take_have",
+      "word": "make the rules",
+      "ipa": null,
+      "arabic": "يضع القواعد",
+      "example": "At home, my parents make the rules.",
+      "group_label_ar": "make و do و take و have",
+      "group_label_en": "Collocations: make, do, take, have",
+      "target": null,
+      "sentence": "Who makes the rules here?",
+      "sentence_ar": "من يضع القواعد هنا؟",
+      "usage_ar": "make the rules · follow the rules · break the rules."
+    },
+    {
+      "group": "make_do_take_have",
+      "word": "do your best",
+      "ipa": null,
+      "arabic": "يبذل قصارى جهده",
+      "example": "Don't worry. Just do your best.",
+      "group_label_ar": "make و do و take و have",
+      "group_label_en": "Collocations: make, do, take, have",
+      "target": null,
+      "sentence": "I did my best in the exam.",
+      "sentence_ar": "بذلت قصارى جهدي في الامتحان.",
+      "usage_ar": "do لا make: do your best."
+    },
+    {
+      "group": "make_do_take_have",
+      "word": "do the right thing",
+      "ipa": null,
+      "arabic": "يفعل الصواب",
+      "example": "You should do the right thing and tell her.",
+      "group_label_ar": "make و do و take و have",
+      "group_label_en": "Collocations: make, do, take, have",
+      "target": null,
+      "sentence": "I hope he does the right thing.",
+      "sentence_ar": "أرجو أن يفعل الصواب.",
+      "usage_ar": "do مع thing وsomething وnothing."
+    },
+    {
+      "group": "make_do_take_have",
+      "word": "do a course",
+      "ipa": null,
+      "arabic": "يدرس دورة",
+      "example": "You could do an evening course.",
+      "group_label_ar": "make و do و take و have",
+      "group_label_en": "Collocations: make, do, take, have",
+      "target": null,
+      "sentence": "I'm doing an English course.",
+      "sentence_ar": "أدرس دورة إنجليزية.",
+      "usage_ar": "do a course لا make a course."
+    },
+    {
+      "group": "make_do_take_have",
+      "word": "take a break",
+      "ipa": null,
+      "arabic": "يأخذ استراحة",
+      "example": "You've worked all day. Take a break.",
+      "group_label_ar": "make و do و take و have",
+      "group_label_en": "Collocations: make, do, take, have",
+      "target": "take a break",
+      "sentence": "Let's take a break for ten minutes.",
+      "sentence_ar": "لنأخذ استراحة عشر دقائق.",
+      "usage_ar": "تُسمع have a break أيضاً في البريطانية."
+    },
+    {
+      "group": "make_do_take_have",
+      "word": "take a risk",
+      "ipa": null,
+      "arabic": "يخاطر",
+      "example": "Don't take a risk with your health.",
+      "group_label_ar": "make و do و take و have",
+      "group_label_en": "Collocations: make, do, take, have",
+      "target": null,
+      "sentence": "He took a big risk when he left his job.",
+      "sentence_ar": "خاطر كثيراً حين ترك عمله.",
+      "usage_ar": "take لا make: take a risk."
+    },
+    {
+      "group": "make_do_take_have",
+      "word": "take someone's advice",
+      "ipa": null,
+      "arabic": "يأخذ بنصيحة أحد",
+      "example": "I took my father's advice.",
+      "group_label_ar": "make و do و take و have",
+      "group_label_en": "Collocations: make, do, take, have",
+      "target": null,
+      "sentence": "You should take the doctor's advice.",
+      "sentence_ar": "ينبغي أن تأخذ بنصيحة الطبيب.",
+      "usage_ar": "take someone's advice = يعمل بها. وadvice بلا an."
+    },
+    {
+      "group": "make_do_take_have",
+      "word": "take your time",
+      "ipa": null,
+      "arabic": "على مهلك",
+      "example": "There's no hurry. Take your time.",
+      "group_label_ar": "make و do و take و have",
+      "group_label_en": "Collocations: make, do, take, have",
+      "target": "take your time",
+      "sentence": "You don't have to rush. Take your time.",
+      "sentence_ar": "لست مضطراً للاستعجال. على مهلك.",
+      "usage_ar": "تقولها لمن يستعجل."
+    },
+    {
+      "group": "make_do_take_have",
+      "word": "have a problem with",
+      "ipa": null,
+      "arabic": "عنده مشكلة مع",
+      "example": "I have a problem with my neighbour.",
+      "group_label_ar": "make و do و take و have",
+      "group_label_en": "Collocations: make, do, take, have",
+      "target": "have a problem with",
+      "sentence": "We have a problem with the internet.",
+      "sentence_ar": "عندنا مشكلة مع الإنترنت.",
+      "usage_ar": "have a problem with، ولا نقول I have problem بلا a."
+    },
+    {
+      "group": "make_do_take_have",
+      "word": "have a rest",
+      "ipa": null,
+      "arabic": "يرتاح",
+      "example": "You look tired. You should have a rest.",
+      "group_label_ar": "make و do و take و have",
+      "group_label_en": "Collocations: make, do, take, have",
+      "target": "have a rest",
+      "sentence": "I'm going to have a rest after lunch.",
+      "sentence_ar": "سأرتاح بعد الغداء.",
+      "usage_ar": "have a rest = rest. وتقابلها have a break."
     }
   ],
   "minimal_pairs": [
@@ -1829,7 +2348,7 @@
       "word_a": "can",
       "word_b": "can't",
       "group_label_ar": "المختصرات في السرعة",
-      "hint_ar": "المختصر مع السرعة يصير كتلة واحدة: I would have been تُسمع «I’d’ve been». والمطلوب أن تسمعها لا أن تقولها — من يميّزها يفهم الأفلام."
+      "hint_ar": "اسمع n’t في آخر الفعل: هي وحدها تقلب المعنى. can’t أطول وأقوى من can، وshouldn’t وmustn’t تنتهيان بـ«ـنْت» مكتومة، وdon’t have to تسبقها كلمة كاملة: don’t. ومن سمع can مكان can’t فهم العكس تماماً."
     },
     {
       "group_label": "Contractions at Speed",
@@ -1837,23 +2356,23 @@
       "word_a": "should",
       "word_b": "shouldn't",
       "group_label_ar": "المختصرات في السرعة",
-      "hint_ar": "المختصر مع السرعة يصير كتلة واحدة: I would have been تُسمع «I’d’ve been». والمطلوب أن تسمعها لا أن تقولها — من يميّزها يفهم الأفلام."
+      "hint_ar": "اسمع n’t في آخر الفعل: هي وحدها تقلب المعنى. can’t أطول وأقوى من can، وshouldn’t وmustn’t تنتهيان بـ«ـنْت» مكتومة، وdon’t have to تسبقها كلمة كاملة: don’t. ومن سمع can مكان can’t فهم العكس تماماً."
     },
     {
       "group_label": "Contractions at Speed",
       "ipa": null,
-      "word_a": "would",
-      "word_b": "wouldn't",
+      "word_a": "You should go.",
+      "word_b": "You shouldn't go.",
       "group_label_ar": "المختصرات في السرعة",
-      "hint_ar": "المختصر مع السرعة يصير كتلة واحدة: I would have been تُسمع «I’d’ve been». والمطلوب أن تسمعها لا أن تقولها — من يميّزها يفهم الأفلام."
+      "hint_ar": "اسمع n’t في آخر الفعل: هي وحدها تقلب المعنى. can’t أطول وأقوى من can، وshouldn’t وmustn’t تنتهيان بـ«ـنْت» مكتومة، وdon’t have to تسبقها كلمة كاملة: don’t. ومن سمع can مكان can’t فهم العكس تماماً."
     },
     {
       "group_label": "Contractions at Speed",
       "ipa": null,
-      "word_a": "could",
-      "word_b": "couldn't",
+      "word_a": "You have to pay.",
+      "word_b": "You don't have to pay.",
       "group_label_ar": "المختصرات في السرعة",
-      "hint_ar": "المختصر مع السرعة يصير كتلة واحدة: I would have been تُسمع «I’d’ve been». والمطلوب أن تسمعها لا أن تقولها — من يميّزها يفهم الأفلام."
+      "hint_ar": "اسمع n’t في آخر الفعل: هي وحدها تقلب المعنى. can’t أطول وأقوى من can، وshouldn’t وmustn’t تنتهيان بـ«ـنْت» مكتومة، وdon’t have to تسبقها كلمة كاملة: don’t. ومن سمع can مكان can’t فهم العكس تماماً."
     },
     {
       "group_label": "Contractions at Speed",
@@ -1861,7 +2380,23 @@
       "word_a": "must",
       "word_b": "mustn't",
       "group_label_ar": "المختصرات في السرعة",
-      "hint_ar": "المختصر مع السرعة يصير كتلة واحدة: I would have been تُسمع «I’d’ve been». والمطلوب أن تسمعها لا أن تقولها — من يميّزها يفهم الأفلام."
+      "hint_ar": "اسمع n’t في آخر الفعل: هي وحدها تقلب المعنى. can’t أطول وأقوى من can، وshouldn’t وmustn’t تنتهيان بـ«ـنْت» مكتومة، وdon’t have to تسبقها كلمة كاملة: don’t. ومن سمع can مكان can’t فهم العكس تماماً."
+    },
+    {
+      "group_label": "Contractions at Speed",
+      "group_label_ar": "المختصرات في السرعة",
+      "ipa": null,
+      "word_a": "You must park here.",
+      "word_b": "You mustn't park here.",
+      "hint_ar": "اسمع n’t في آخر الفعل: هي وحدها تقلب المعنى. can’t أطول وأقوى من can، وshouldn’t وmustn’t تنتهيان بـ«ـنْت» مكتومة، وdon’t have to تسبقها كلمة كاملة: don’t. ومن سمع can مكان can’t فهم العكس تماماً."
+    },
+    {
+      "group_label": "Contractions at Speed",
+      "group_label_ar": "المختصرات في السرعة",
+      "ipa": null,
+      "word_a": "She has to work.",
+      "word_b": "She doesn't have to work.",
+      "hint_ar": "اسمع n’t في آخر الفعل: هي وحدها تقلب المعنى. can’t أطول وأقوى من can، وshouldn’t وmustn’t تنتهيان بـ«ـنْت» مكتومة، وdon’t have to تسبقها كلمة كاملة: don’t. ومن سمع can مكان can’t فهم العكس تماماً."
     }
   ],
   "dialogues": [
@@ -2048,69 +2583,802 @@
   "sections": [
     {
       "kind": "grammar",
-      "day_number": 4,
-      "title_ar": "القواعد",
-      "title_en": "Grammar — The Modal Verbs",
+      "day_number": 1,
+      "title_ar": "القواعد — الأفعال الناقصة و should",
+      "title_en": "Grammar — Modal verbs and should",
       "payload": {
-        "rule_ar": "الأفعال الناقصة تكسر القواعد لصالحك: صيغة واحدة لكل الضمائر، وبعدها فعل مجرّد، ولا do معها. should للنصيحة، وmust للإلزام من المتحدّث نفسه، وhave to للإلزام من الخارج. وأخطر تقابل في الفصل: mustn’t تعني «ممنوع»، وdon’t have to تعني «غير مطلوب» — والخلط بينهما يسبّب سوء فهم حقيقي.",
-        "rule_en": "Modals are the easiest verbs in English, because they break all the rules in your favour:",
+        "rule_ar": "الأفعال الناقصة أسهل أفعال الإنجليزية لأنها تكسر القواعد لصالحك: الفاعل + الناقص + فعل مجرّد، ولا شيء غير ذلك. لا -s، ولا to، ولا do في السؤال — صيغة واحدة لكل الفاعلين. و should للنصيحة والرأي: ليست قاعدة، والسامع حرّ.",
+        "table": {
+          "columns_ar": [
+            "الصيغة",
+            "مثال",
+            "بالعربية"
+          ],
+          "rows": [
+            [
+              "إثبات",
+              "You should see a doctor.",
+              "ينبغي أن ترى طبيباً."
+            ],
+            [
+              "نفي",
+              "You shouldn't work so late.",
+              "لا ينبغي أن تعمل إلى هذا الوقت المتأخّر."
+            ],
+            [
+              "سؤال",
+              "Should I call him?",
+              "هل ينبغي أن أتصل به؟"
+            ],
+            [
+              "طلب نصيحة",
+              "What should I do?",
+              "ماذا ينبغي أن أفعل؟"
+            ]
+          ],
+          "ar_cols": [
+            0,
+            2
+          ],
+          "say": 1
+        },
         "common_errors": [
           {
-            "error_no": 1,
-            "wrong": "He musts go",
-            "right": "He must go.",
-            "arabic": "يجب أن يذهب",
+            "wrong": "He shoulds go.",
+            "right": "He should go.",
             "why_ar": "الأفعال الناقصة لا تأخذ -s أبداً"
           },
           {
-            "error_no": 2,
-            "wrong": "You should to go",
+            "wrong": "You should to go.",
             "right": "You should go.",
-            "arabic": "ينبغي أن تذهب",
             "why_ar": "لا to بعد الفعل الناقص"
           },
           {
-            "error_no": 3,
             "wrong": "Do I should call?",
             "right": "Should I call?",
-            "arabic": "هل ينبغي أن أتصل؟",
             "why_ar": "اقلب الناقص، بلا do"
           },
           {
-            "error_no": 4,
-            "wrong": "I must worked",
-            "right": "I had to work.",
-            "arabic": "كان عليّ أن أعمل",
-            "why_ar": "must بلا ماضٍ"
-          },
-          {
-            "error_no": 5,
-            "wrong": "You mustn't pay (meaning it is free)",
-            "right": "You don't have to pay.",
-            "arabic": "لست مضطراً للدفع",
-            "why_ar": "معنيان متعاكسان"
-          },
-          {
-            "error_no": 6,
-            "wrong": "Give me an advice",
+            "wrong": "Give me an advice.",
             "right": "Give me some advice.",
-            "arabic": "أعطني نصيحة",
             "why_ar": "advice غير معدودة"
-          },
-          {
-            "error_no": 7,
-            "wrong": "He has to working",
-            "right": "He has to work.",
-            "arabic": "هو يجب أن يعمل غداً",
-            "why_ar": "فعل مجرّد بعد have to"
           }
         ],
         "checklist_ar": [
           "بعد الناقص فعل مجرّد بلا to",
-          "لا s مع he/she/it: He must go",
-          "mustn’t = ممنوع · don’t have to = غير مطلوب",
-          "have to يتصرّف: has to · had to",
-          "السؤال بقلب الناقص لا بـdo"
+          "لا s مع he/she/it: He should go",
+          "السؤال بقلب الناقص لا بـdo: Should I…?",
+          "should نصيحة ورأي، لا قاعدة",
+          "advice بلا an وبلا s: some advice"
+        ],
+        "rule_en": "Modals are the easiest verbs in English, because they break all the rules in your favour: one form for every subject, a base verb after them, and no do in questions or negatives.",
+        "arabic_contrast_ar": "«ينبغي أن تذهب» فيها «أن»، فيضيف المتعلّم to: You should to go — والصواب You should go بلا to. وتعلّمت أن السؤال والنفي يحتاجان do، فيقول Do I should call? وHe doesn't should — والفعل الناقص لا يقبل do أبداً: Should I call? · He shouldn't. ولأن «ينبغي» لا تتصرّف في العربية يسهل أن تتذكّر: should لا تأخذ s أيضاً.",
+        "negation_ar": "النفي: shouldn't بعد الفاعل مباشرة: You shouldn't worry · He shouldn't drive. بلا do وبلا to.",
+        "question_ar": "السؤال: should قبل الفاعل: Should I call him? · What should I do? · Where should we meet?",
+        "lessons": [
+          {
+            "title_ar": "ما الذي يميّز الفعل الناقص",
+            "title_en": "What makes a modal different",
+            "explain_ar": "الأفعال الناقصة (should · must · can · could · will · would · might) أسهل أفعال الإنجليزية: صيغة واحدة لكل الفاعلين إلى الأبد. لا s مع he وshe وit، ولا to بعدها، ولا do في السؤال والنفي. الترتيب دائماً: الفاعل + الفعل الناقص + فعل مجرّد.",
+            "table": {
+              "columns_ar": [
+                "القاعدة",
+                "خطأ",
+                "صواب"
+              ],
+              "rows": [
+                [
+                  "صيغة واحدة لكل الفاعلين",
+                  "He shoulds go.",
+                  "He should go."
+                ],
+                [
+                  "لا to بعد الناقص",
+                  "He should to go.",
+                  "He should go."
+                ],
+                [
+                  "لا do في السؤال",
+                  "Does he should go?",
+                  "Should he go?"
+                ],
+                [
+                  "لا do في النفي",
+                  "He doesn't should go.",
+                  "He shouldn't go."
+                ]
+              ],
+              "ar_cols": [
+                0
+              ],
+              "say": 2
+            },
+            "examples": [
+              {
+                "en": "I should go. He should go. They should go.",
+                "ar": "ينبغي أن أذهب. ينبغي أن يذهب. ينبغي أن يذهبوا."
+              },
+              {
+                "en": "I must go. He must go. They must go.",
+                "ar": "يجب أن أذهب. يجب أن يذهب. يجب أن يذهبوا."
+              },
+              {
+                "en": "Should he go?",
+                "ar": "هل ينبغي أن يذهب؟"
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "He musts finish today.",
+                "right": "He must finish today.",
+                "why_ar": "الناقص لا يأخذ s أبداً"
+              },
+              {
+                "wrong": "He can to swim.",
+                "right": "He can swim.",
+                "why_ar": "الخطأ الثامن: لا to بعد الناقص"
+              },
+              {
+                "wrong": "Do I should call?",
+                "right": "Should I call?",
+                "why_ar": "نقدّم الناقص بلا do"
+              }
+            ],
+            "tip_ar": "بعد أربعة أزمنة تعلّمتها بتصريفاتها، هذه هدية: should وmust وcan لا تتغيّر مع أي فاعل."
+          },
+          {
+            "title_ar": "advice لا تُعدّ",
+            "title_en": "advice is uncountable",
+            "explain_ar": "advice اسم لا يُعدّ: لا an advice ولا advices. قل some advice، وa piece of advice للنصيحة الواحدة. وadvise هو الفعل. وانتبه للنطق: advice بصوت /s/ للاسم، وadvise بصوت /z/ للفعل.",
+            "examples": [
+              {
+                "en": "Can you give me some advice?",
+                "ar": "هل تعطيني نصيحة؟"
+              },
+              {
+                "en": "That's good advice.",
+                "ar": "نصيحة جيدة."
+              },
+              {
+                "en": "Let me give you a piece of advice.",
+                "ar": "دعني أعطيك نصيحة."
+              },
+              {
+                "en": "The doctor advised me to rest.",
+                "ar": "نصحني الطبيب بالراحة."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "Can you give me an advice?",
+                "right": "Can you give me some advice?",
+                "why_ar": "advice غير معدودة"
+              },
+              {
+                "wrong": "He gave me many advices.",
+                "right": "He gave me a lot of advice.",
+                "why_ar": "لا جمع لـadvice"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 2,
+      "title_ar": "القواعد — must و have to",
+      "title_en": "Grammar — must and have to",
+      "payload": {
+        "rule_ar": "الاثنان للإلزام، وكثيراً ما يتبادلان. لكن الفرق حقيقي: must إلزام من داخل المتحدّث (قرّرته أنا)، و have to إلزام من الخارج (قانون أو مدير أو قاعدة). و must بلا ماضٍ: في الماضي يصير الاثنان had to.",
+        "table": {
+          "columns_ar": [
+            "مصدر الإلزام",
+            "الجملة",
+            "بالعربية"
+          ],
+          "rows": [
+            [
+              "أنت قرّرت",
+              "I must stop smoking.",
+              "يجب أن أتوقّف عن التدخين — قرّرت ذلك."
+            ],
+            [
+              "توصية قويّة",
+              "You must see this film!",
+              "لا بدّ أن تشاهد هذا الفيلم!"
+            ],
+            [
+              "قاعدة الشركة",
+              "I have to wear a uniform.",
+              "عليّ أن أرتدي زيّاً رسمياً."
+            ],
+            [
+              "القانون",
+              "You have to show your passport.",
+              "عليك أن تُظهر جواز سفرك."
+            ],
+            [
+              "الماضي للاثنين",
+              "I had to work on Saturday.",
+              "كان عليّ أن أعمل يوم السبت."
+            ]
+          ],
+          "ar_cols": [
+            0,
+            2
+          ],
+          "say": 1
+        },
+        "common_errors": [
+          {
+            "wrong": "He musts go.",
+            "right": "He must go.",
+            "why_ar": "لا -s مع الناقص"
+          },
+          {
+            "wrong": "I must worked yesterday.",
+            "right": "I had to work yesterday.",
+            "why_ar": "must بلا ماضٍ"
+          },
+          {
+            "wrong": "He has to working.",
+            "right": "He has to work.",
+            "why_ar": "فعل مجرّد بعد have to"
+          }
+        ],
+        "checklist_ar": [
+          "must من داخلك · have to من الخارج",
+          "الماضي للاثنين: had to",
+          "have to يتصرّف: has to · doesn't have to · had to",
+          "بعد have to فعل مجرّد: He has to work"
+        ],
+        "lessons": [
+          {
+            "title_ar": "had to — الإلزام في الماضي",
+            "title_en": "had to for the past",
+            "explain_ar": "must لا ماضي لها. للماضي تصير must وhave to كلتاهما had to. والنفي didn't have to، والسؤال Did you have to…? — وبعدها فعل مجرّد دائماً.",
+            "examples": [
+              {
+                "en": "Yesterday I had to work until nine.",
+                "ar": "أمس كان عليّ أن أعمل حتى التاسعة."
+              },
+              {
+                "en": "When I was at school, we had to wear a uniform.",
+                "ar": "حين كنت في المدرسة كان علينا أن نرتدي زيّاً."
+              },
+              {
+                "en": "We didn't have to pay.",
+                "ar": "لم نكن مضطرّين للدفع."
+              },
+              {
+                "en": "Did you have to wait?",
+                "ar": "هل اضطررت إلى الانتظار؟"
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "Yesterday I must work late.",
+                "right": "Yesterday I had to work late.",
+                "why_ar": "must بلا ماضٍ"
+              },
+              {
+                "wrong": "I must worked.",
+                "right": "I had to work.",
+                "why_ar": "لا تُصرَّف must، بل تُستبدل بـhad to"
+              },
+              {
+                "wrong": "I didn't had to go.",
+                "right": "I didn't have to go.",
+                "why_ar": "بعد didn’t يأتي have مجرّداً — كالخطأ الثاني عشر"
+              }
+            ]
+          },
+          {
+            "title_ar": "have to فعل عادي",
+            "title_en": "have to is a normal verb",
+            "explain_ar": "have to ليست فعلاً ناقصاً: تصير has to مع he وshe وit، وتحتاج do وdoes وdid في السؤال والنفي، ولها ماضٍ had to. وبعدها فعل مجرّد.",
+            "table": {
+              "columns_ar": [
+                "مع",
+                "الصيغة",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "I · you · we · they",
+                  "have to",
+                  "They have to wear a uniform."
+                ],
+                [
+                  "he · she · it",
+                  "has to",
+                  "She has to work on Saturday."
+                ],
+                [
+                  "النفي",
+                  "don't / doesn't have to",
+                  "He doesn't have to come."
+                ],
+                [
+                  "السؤال",
+                  "Do / Does … have to?",
+                  "Does he have to work today?"
+                ],
+                [
+                  "الماضي",
+                  "had to · didn't have to",
+                  "We didn't have to pay."
+                ]
+              ],
+              "ar_cols": [
+                0
+              ],
+              "say": 2
+            },
+            "examples": [
+              {
+                "en": "He has to work tomorrow.",
+                "ar": "عليه أن يعمل غداً."
+              },
+              {
+                "en": "Does she have to wear a uniform?",
+                "ar": "هل عليها أن ترتدي زيّاً رسمياً؟"
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "He have to work.",
+                "right": "He has to work.",
+                "why_ar": "مع he تصير has to — كالخطأ الثالث"
+              },
+              {
+                "wrong": "She has to working on Saturday.",
+                "right": "She has to work on Saturday.",
+                "why_ar": "فعل مجرّد بعد have to"
+              },
+              {
+                "wrong": "Does he has to go?",
+                "right": "Does he have to go?",
+                "why_ar": "بعد does يأتي have لا has — كالخطأ الرابع"
+              }
+            ],
+            "tip_ar": "إن لم تكن متأكّداً فقل have to: هي الأشيع في الكلام اليومي، ونادراً ما تكون خطأً."
+          },
+          {
+            "title_ar": "can في الأزمنة الأخرى: be able to",
+            "title_en": "can → be able to",
+            "explain_ar": "can لا مستقبل لها ولا تام. فتستعمل be able to: I will be able to drive next year · I haven’t been able to sleep.",
+            "examples": [
+              {
+                "en": "I can swim.",
+                "ar": "أستطيع السباحة (الآن)."
+              },
+              {
+                "en": "I could swim when I was five.",
+                "ar": "كنت أستطيع السباحة وأنا في الخامسة (الماضي)."
+              },
+              {
+                "en": "I'll be able to drive next year.",
+                "ar": "سأستطيع القيادة السنة القادمة (المستقبل)."
+              },
+              {
+                "en": "I haven't been able to sleep this week.",
+                "ar": "لم أستطع النوم هذا الأسبوع (المضارع التام)."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "I will can drive next year.",
+                "right": "I'll be able to drive next year.",
+                "why_ar": "لا ناقصان معاً: will + be able to"
+              }
+            ]
+          }
+        ],
+        "arabic_contrast_ar": "العربية تقول «يجب» لـmust ولـhave to معاً، فلا تفرّق بين إلزام تقرّره أنت (I must) وإلزام يفرضه غيرك (I have to). وفي مستواك يتبادلان كثيراً، فهذا فرق صغير. أما الخطأ الكبير ففي الماضي: «كان يجب أن أعمل» تغري بـI must worked، وmust لا ماضي لها أصلاً — الماضي had to. و«عليه أن» تُترجم has to: الـs تذهب إلى has لا إلى الفعل بعدها.",
+        "negation_ar": "النفي: have to فعل عادي يُنفى بـdo: I don't have to · He doesn't have to · We didn't have to. ولا تقل I haven't to. وmustn't ليست نفي must بمعنى «غير مطلوب» — هي «ممنوع» (درس الغد).",
+        "question_ar": "السؤال: Do you have to work on Saturday? · Does she have to wear a uniform? · Did you have to wait? والسؤال بـmust نادر في الكلام: قل Do I have to…? بدل Must I…?"
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 3,
+      "title_ar": "القواعد — mustn’t أم don’t have to؟",
+      "title_en": "Grammar — mustn’t vs don’t have to",
+      "payload": {
+        "rule_ar": "أهمّ نقطة في الفصل: الاثنان متشابهان شكلاً ومتعاكسان معنىً. You mustn’t park here = ممنوع. You don’t have to park here = غير مطلوب، لك أن تفعل أو لا. والخطأ هنا يسبّب سوء فهم حقيقياً — احفظهما زوجاً.",
+        "table": {
+          "columns_ar": [
+            "الجملة",
+            "المعنى"
+          ],
+          "rows": [
+            [
+              "You mustn't tell anyone.",
+              "سرّ. ممنوع أن تخبر أحداً."
+            ],
+            [
+              "You don't have to tell anyone.",
+              "لك أن تخبر الناس أو لا. اختيارك."
+            ],
+            [
+              "You mustn't come tomorrow.",
+              "لا تأتِ غداً. غير مرحَّب بك."
+            ],
+            [
+              "You don't have to come tomorrow.",
+              "أنت حرّ — تعال إن شئت."
+            ],
+            [
+              "You mustn't pay.",
+              "الدفع غير مسموح."
+            ],
+            [
+              "You don't have to pay.",
+              "مجّاني."
+            ]
+          ],
+          "ar_cols": [
+            1
+          ],
+          "say": 0
+        },
+        "common_errors": [
+          {
+            "wrong": "You mustn’t pay. (meaning it is free)",
+            "right": "You don’t have to pay.",
+            "why_ar": "معنيان متعاكسان"
+          }
+        ],
+        "checklist_ar": [
+          "mustn't = ممنوع",
+          "don't have to = غير مطلوب",
+          "don't need to = don't have to",
+          "need فعل عادي: He needs to · Do I need to…?"
+        ],
+        "lessons": [
+          {
+            "title_ar": "السلّم الكامل",
+            "title_en": "The full scale",
+            "explain_ar": "من الإلزام إلى عدمه. لاحظ أن عكس must في المعنى ليس mustn't بل don't have to، وأن could اقتراح لا نصيحة، وcan للإذن.",
+            "table": {
+              "columns_ar": [
+                "القوّة",
+                "الإثبات",
+                "النفي"
+              ],
+              "rows": [
+                [
+                  "إلزام",
+                  "You must sign.",
+                  "You mustn’t sign. (ممنوع)"
+                ],
+                [
+                  "نصيحة",
+                  "You should sign.",
+                  "You shouldn’t sign."
+                ],
+                [
+                  "اقتراح",
+                  "You could sign.",
+                  "—"
+                ],
+                [
+                  "إذن",
+                  "You can sign.",
+                  "You can’t sign. (غير مسموح)"
+                ],
+                [
+                  "لا إلزام",
+                  "—",
+                  "You don’t have to sign."
+                ]
+              ],
+              "say": 1,
+              "ar_cols": [
+                0
+              ]
+            }
+          },
+          {
+            "title_ar": "need to و don’t need to",
+            "title_en": "need to / don't need to",
+            "explain_ar": "need to تعني «يحتاج أن / عليه أن»، وهي فعل عادي لا ناقص: تأخذ s مع he وshe، وتحتاج do في السؤال والنفي، وبعدها to + فعل. وأهمّ ما فيها نفيها: don't need to = don't have to = غير مطلوب. ستسمع أيضاً needn't بالمعنى نفسه.",
+            "table": {
+              "columns_ar": [
+                "الصيغة",
+                "مثال",
+                "بالعربية"
+              ],
+              "rows": [
+                [
+                  "إثبات",
+                  "I need to buy some milk.",
+                  "عليّ أن أشتري حليباً."
+                ],
+                [
+                  "مع he / she",
+                  "He needs to see a doctor.",
+                  "يحتاج أن يرى طبيباً."
+                ],
+                [
+                  "نفي",
+                  "You don't need to come.",
+                  "لا داعي لأن تأتي."
+                ],
+                [
+                  "سؤال",
+                  "Do I need to bring anything?",
+                  "هل يجب أن أُحضر شيئاً؟"
+                ],
+                [
+                  "الماضي",
+                  "We didn't need to wait.",
+                  "لم نحتج أن ننتظر."
+                ]
+              ],
+              "ar_cols": [
+                0,
+                2
+              ],
+              "say": 1
+            },
+            "examples": [
+              {
+                "en": "You don't need to bring food. There's a restaurant.",
+                "ar": "لا داعي لأن تُحضر طعاماً. هناك مطعم."
+              },
+              {
+                "en": "Do we need to book a table?",
+                "ar": "هل يجب أن نحجز طاولة؟"
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "You don't need come.",
+                "right": "You don't need to come.",
+                "why_ar": "need فعل عادي: بعدها to"
+              },
+              {
+                "wrong": "He need to leave now.",
+                "right": "He needs to leave now.",
+                "why_ar": "need تأخذ s مع he — كالخطأ الثالث"
+              },
+              {
+                "wrong": "Need I to bring my passport?",
+                "right": "Do I need to bring my passport?",
+                "why_ar": "السؤال بـdo"
+              }
+            ],
+            "tip_ar": "«لا داعي لأن» لها في الإنجليزية جملتان صحيحتان: don’t have to وdon’t need to. أما mustn’t فليست منهما."
+          }
+        ],
+        "arabic_contrast_ar": "هنا أخطر خطأ في الفصل. «لا يجب أن تدفع» تحتمل في العربية معنيين متعاكسين: «ممنوع أن تدفع» أو «لست مضطراً أن تدفع». والإنجليزية تفصل بينهما تماماً: You mustn't pay = ممنوع، وYou don't have to pay = مجّاني واختياري. فإن ترجمت «لا يجب» بـmustn't وأنت تقصد «لا داعي لأن» قلبت المعنى — وقولك لزميل You mustn't come to the meeting يعني أنه غير مرحَّب به. قل لنفسك: «ممنوع» ← mustn't، و«لا داعي لأن» ← don't have to.",
+        "negation_ar": "mustn't = ممنوع (لا تفعل). don't / doesn't have to = غير مطلوب (افعل إن شئت). وdon't need to بمعنى don't have to تماماً.",
+        "question_ar": "للسؤال عن الإلزام: Do I have to…? · Do I need to…? والجواب: Yes, you do / No, you don't."
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 4,
+      "title_ar": "القواعد — had better للتحذير",
+      "title_en": "Grammar — had better ('d better)",
+      "payload": {
+        "rule_ar": "You'd better + فعل مجرّد: نصيحة قويّة فيها تحذير — إن لم تفعل فستقع مشكلة الآن أو قريباً. أقوى من should وأقرب إلى الإنذار. ونفيها 'd better not. و'd هنا اختصار had، لكن المعنى عن الآن والمستقبل لا عن الماضي.",
+        "table": {
+          "columns_ar": [
+            "الصيغة",
+            "مثال",
+            "بالعربية"
+          ],
+          "rows": [
+            [
+              "إثبات",
+              "You'd better hurry, or you'll miss the train.",
+              "من الأفضل أن تُسرع وإلا فاتك القطار."
+            ],
+            [
+              "نفي",
+              "You'd better not be late again.",
+              "من الأفضل ألّا تتأخّر مرّة أخرى."
+            ],
+            [
+              "مع we",
+              "We'd better leave now.",
+              "من الأفضل أن نغادر الآن."
+            ],
+            [
+              "should للمقارنة",
+              "You should read more.",
+              "ينبغي أن تقرأ أكثر (نصيحة عامّة، بلا تحذير)."
+            ]
+          ],
+          "ar_cols": [
+            0,
+            2
+          ],
+          "say": 1
+        },
+        "arabic_contrast_ar": "«من الأفضل أن» في العربية لطيفة مهذّبة، أما You'd better فتحذير قد يُسمَع أمراً: لا تقلها لمديرك ولا لضيف. قل لهم I think you should… والعربية تضع «أن» فيضيف المتعلّم to: You'd better to go — والصواب You'd better go.",
+        "common_errors": [
+          {
+            "wrong": "You had better to call her.",
+            "right": "You'd better call her.",
+            "why_ar": "لا to بعد had better"
+          },
+          {
+            "wrong": "You'd not better forget.",
+            "right": "You'd better not forget.",
+            "why_ar": "not بعد better"
+          },
+          {
+            "wrong": "You have better go.",
+            "right": "You'd better go.",
+            "why_ar": "'d = had، لا have"
+          }
+        ],
+        "negation_ar": "النفي: You'd better not + فعل: You'd better not tell him.",
+        "question_ar": "نادراً ما تُسأل بها. للسؤال عن النصيحة قل: What should I do?",
+        "checklist_ar": [
+          "'d better + فعل مجرّد بلا to",
+          "النفي 'd better not",
+          "تحذير قويّ — لا تقلها لمن هو أعلى منك"
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 5,
+      "title_ar": "القواعد — too و enough",
+      "title_en": "Grammar — too and enough",
+      "payload": {
+        "rule_ar": "too قبل الصفة وتعني «أكثر من اللازم» — وهي مشكلة: It’s too hot to sleep. و enough بعد الصفة وتعني «بالقدر الكافي»: He isn’t old enough to drive. ومع الأسماء: too much للمفرد غير المعدود، و too many للجمع، و enough قبل الاسم.",
+        "table": {
+          "columns_ar": [
+            "التركيب",
+            "مثال",
+            "المعنى"
+          ],
+          "rows": [
+            [
+              "too + صفة",
+              "This coffee is too hot.",
+              "أسخن من أن يُشرب"
+            ],
+            [
+              "صفة + enough",
+              "This room isn’t big enough.",
+              "ليست كبيرة بالقدر الكافي"
+            ],
+            [
+              "too much + غير معدود",
+              "I drink too much coffee.",
+              "أكثر من اللازم"
+            ],
+            [
+              "too many + جمع",
+              "There are too many cars.",
+              "أكثر من اللازم"
+            ],
+            [
+              "enough + اسم",
+              "We don’t have enough time.",
+              "ما يكفي"
+            ]
+          ],
+          "say": 1,
+          "ar_cols": [
+            0,
+            2
+          ]
+        },
+        "arabic_contrast_ar": "«جداً» تُترجم very لا too: The test was very difficult (صعب جداً، ونجحت) — The test was too difficult (أصعب من أن أنجح). too فيها شكوى دائماً.",
+        "common_errors": [
+          {
+            "wrong": "This bag is enough big.",
+            "right": "This bag is big enough.",
+            "why_ar": "enough بعد الصفة"
+          },
+          {
+            "wrong": "The tea is too much hot.",
+            "right": "The tea is too hot.",
+            "why_ar": "too وحدها قبل الصفة"
+          },
+          {
+            "wrong": "I love you too much.",
+            "right": "I love you very much.",
+            "why_ar": "too فيها مشكلة — والحبّ ليس مشكلة"
+          }
+        ],
+        "checklist_ar": [
+          "too قبل الصفة · enough بعدها",
+          "too much + غير معدود · too many + جمع",
+          "very = جداً · too = أكثر من اللازم"
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 6,
+      "title_ar": "القواعد — الإذن والطلب بلطف",
+      "title_en": "Grammar — permission: can, could, be allowed to",
+      "payload": {
+        "rule_ar": "تطلب الإذن لنفسك بـCan I…? (عاديّة) وCould I…? (ألطف) وMay I…? (رسمية). وتطلب من غيرك أن يفعل شيئاً بـCan you…? وCould you…, please? وتسأل عن القاعدة بـAm I allowed to…? وتصفها بـYou're (not) allowed to… وcould هنا ليست ماضياً: هي الصيغة المهذّبة الآن. وبعدها كلّها فعل مجرّد، إلا allowed فبعدها to.",
+        "table": {
+          "columns_ar": [
+            "الوظيفة",
+            "السؤال",
+            "جواب بالموافقة",
+            "جواب بالرفض"
+          ],
+          "rows": [
+            [
+              "إذن لنفسك",
+              "Can I sit here?",
+              "Sure. / Of course.",
+              "Sorry, you can't."
+            ],
+            [
+              "إذن بلطف",
+              "Could I leave early today?",
+              "Yes, of course.",
+              "I'm afraid not."
+            ],
+            [
+              "إذن بلطف",
+              "Is it OK if I open the window?",
+              "Go ahead.",
+              "Sorry, I'm a bit cold."
+            ],
+            [
+              "عن القاعدة",
+              "Am I allowed to take photos here?",
+              "Yes, you are.",
+              "No, you aren't."
+            ],
+            [
+              "طلب من غيرك",
+              "Could you close the door, please?",
+              "No problem.",
+              "Sorry, I can't."
+            ]
+          ],
+          "ar_cols": [
+            0
+          ],
+          "say": 1
+        },
+        "arabic_contrast_ar": "العربية تقول «ممكن…؟» للأمرين: «ممكن أجلس؟» و«ممكن تساعدني؟». والإنجليزية تفرّق: Can I…? إن كنتَ أنت الفاعل، وCan you…? إن كان هو. و«هل مسموح أن أدخّن؟» لا تُترجم Is it allowed to smoke? بل Am I allowed to smoke here? أو Is smoking allowed here? أو Can I smoke here? وفي Do you mind if I…? يكون جواب الموافقة No, not at all — لأن السؤال «هل يزعجك؟».",
+        "common_errors": [
+          {
+            "wrong": "Could I to open the window?",
+            "right": "Could I open the window?",
+            "why_ar": "لا to بعد could"
+          },
+          {
+            "wrong": "Is it allowed to park here?",
+            "right": "Am I allowed to park here?",
+            "why_ar": "الفاعل شخص: I am allowed"
+          },
+          {
+            "wrong": "You are not allow to smoke here.",
+            "right": "You aren't allowed to smoke here.",
+            "why_ar": "allowed بـ-ed دائماً"
+          },
+          {
+            "wrong": "Can I help me with this bag?",
+            "right": "Can you help me with this bag?",
+            "why_ar": "الطلب من غيرك: Can you"
+          }
+        ],
+        "negation_ar": "النفي: You can't park here · You aren't allowed to park here · We weren't allowed to use phones.",
+        "question_ar": "السؤال: Can I…? · Could I…? · May I…? · Is it OK if I…? · Am I allowed to…? · Do you mind if I…?",
+        "checklist_ar": [
+          "Can I…? لنفسك · Can you…? لغيرك",
+          "could للتهذيب الآن، لا للماضي",
+          "be allowed to + فعل: Am I allowed to…?",
+          "Do you mind if I…? ← No, not at all = تفضّل"
         ]
       }
     },
@@ -2120,8 +3388,81 @@
       "title_ar": "النطق",
       "title_en": "Pronunciation — Contractions at Speed",
       "payload": {
-        "intro_ar": "shouldn’t و mustn’t و have to بسرعة طبيعية تتغيّر شكلاً: التاء في shouldn’t تكاد تختفي، وhave to تصير /hæftə/.",
-        "symbols": [],
+        "intro_ar": "الأفعال الناقصة تُقال بسرعة فيتغيّر شكلها: l صامتة في should وcould وwould، والتاء الأولى تسقط من mustn’t، وhave to تصير «هافتا». والأهمّ أن n’t في آخر الفعل هي وحدها التي تقلب المعنى — فاسمعها في اللعبة أولاً قبل أن تقولها.",
+        "symbols": [
+          {
+            "ipa": "/ʃʊd/ · /kʊd/ · /wʊd/",
+            "arabic_hint": "حرف l صامت: should تُنطق «شُد» على وزن good",
+            "examples": [
+              "should",
+              "could",
+              "would",
+              "walk",
+              "half",
+              "talk",
+              "calm"
+            ],
+            "note_ar": "يُنطق حرف l فتصير should «شولد».",
+            "fix_ar": "احذف l تماماً: should = /ʃʊd/ وcould = /kʊd/ وwould = /wʊd/ مثل wood."
+          },
+          {
+            "ipa": "/ˈʃʊdnt/",
+            "arabic_hint": "shouldn’t: التاء في آخرها تكاد تختفي، ويبقى n مكتوماً بعد d",
+            "examples": [
+              "shouldn't",
+              "couldn't",
+              "wouldn't",
+              "You shouldn't worry about it.",
+              "He couldn't find the address."
+            ],
+            "fix_ar": "قلها مقطعين قصيرين: «شُدْ-نْت»، والتاء لمسة خفيفة لا انفجار."
+          },
+          {
+            "ipa": "/ˈmʌsnt/",
+            "arabic_hint": "mustn’t: التاء الأولى صامتة — «مَسْ-نْت» لا «مَسْت-نْت»",
+            "examples": [
+              "mustn't",
+              "I mustn't forget my passport.",
+              "You mustn't park here."
+            ],
+            "note_ar": "تُنطق التاءان معاً فتثقل الكلمة، أو تُنطق u «يو».",
+            "fix_ar": "انتقل من s إلى n مباشرة: /ˈmʌsnt/، وحرف العلّة قصير مثل cup."
+          },
+          {
+            "ipa": "/ˈhæftə/",
+            "arabic_hint": "have to: الـv تصير f — «هافتا» لا «هاڤ تو»",
+            "examples": [
+              "have to",
+              "I have to go.",
+              "don't have to",
+              "You don't have to come if you're busy."
+            ],
+            "note_ar": "تُنطق /hæv tuː/ كلمتين كاملتين، فتبدو رسمية ومقطّعة.",
+            "fix_ar": "قلها كلمة واحدة: I hafta go. وهذا هو النطق القياسي لا العامّي."
+          },
+          {
+            "ipa": "/ˈhæstə/ · /ˈhætə/",
+            "arabic_hint": "has to تصير «هاستا»، وhad to تصير «هاتّا»",
+            "examples": [
+              "has to",
+              "She has to work.",
+              "had to",
+              "We had to wait."
+            ]
+          },
+          {
+            "ipa": "can · can't",
+            "arabic_hint": "can في وسط الجملة ضعيفة قصيرة /kən/، وcan’t قويّة طويلة /kɑːnt/ في البريطانية",
+            "examples": [
+              "can",
+              "can't",
+              "I can come.",
+              "I can't come."
+            ],
+            "note_ar": "تنتظر سماع التاء في can’t، وهي كثيراً ما تختفي في الكلام السريع.",
+            "fix_ar": "استمع إلى حرف العلّة: قصير مخفّف = can، وطويل مشدّد = can’t."
+          }
+        ],
         "tip_ar": "هذا ليس اختصاراً عامّياً بل هو النطق القياسي. ومن ينطق have to كلمتين منفصلتين يُسمَع مبالغاً في الرسمية."
       }
     },
@@ -2163,7 +3504,58 @@
             "ar": "أسكن هناك ستّ سنوات الآن. وما زلت أجد قواعد جديدة. في الشهر الماضي تعلّمت أنه ينبغي ألّا تكون أول من يترك حفلة، وأن هذه القاعدة قويّة إلى حدّ أن الحفلات تمتدّ أحياناً إلى الرابعة صباحاً لأن لا أحد يريد أن يكون ذلك الشخص."
           }
         ],
-        "questions": []
+        "questions": [
+          {
+            "q_ar": "كم صفحة كانت الوثيقة؟",
+            "a_ar": "أربعون صفحة.",
+            "hint_ar": "الفقرة الأولى"
+          },
+          {
+            "q_ar": "لماذا يقول إنها كانت بلا فائدة؟",
+            "a_ar": "لأنها لم تحتوِ أيّاً من القواعد التي تهمّ فعلاً.",
+            "hint_ar": "الفقرة الأولى"
+          },
+          {
+            "q_ar": "ماذا قالت عن التسجيل؟",
+            "a_ar": "أن عليه أن يسجّل في المكتب المحلّي خلال ثلاثين يوماً (had to register).",
+            "hint_ar": "الفقرة الثانية"
+          },
+          {
+            "q_ar": "ماذا لم تقل عن المكتب؟",
+            "a_ar": "أن من يصل بعد الحادية عشرة ينتظر أربع ساعات، وأن أهل البلد يصلون في الثامنة.",
+            "hint_ar": "الفقرة الثانية"
+          },
+          {
+            "q_ar": "ما القاعدة في مقاعد الحافلة؟",
+            "a_ar": "لا ينبغي أن تأخذ آخر مقعد إن كان مسنّ واقفاً.",
+            "hint_ar": "الفقرة الثالثة"
+          },
+          {
+            "q_ar": "ما الحقيقة في البقشيش؟",
+            "a_ar": "لست مضطراً أن تدفعه (don’t have to)، لكن الجميع يدفعه.",
+            "hint_ar": "الفقرة الرابعة"
+          },
+          {
+            "q_ar": "من شرح له القواعد الحقيقية؟",
+            "a_ar": "زميله، على فنجان قهوة، في عشر دقائق.",
+            "hint_ar": "الفقرة الخامسة"
+          },
+          {
+            "q_ar": "اذكر قاعدتين قالهما زميله.",
+            "a_ar": "أيّ اثنتين: قل مرحباً حين تدخل محلّاً صغيراً · لا تسأل الناس عن دخلهم · لست مضطراً للحضور في الموعد لدعوة عشاء.",
+            "hint_ar": "الفقرة الخامسة"
+          },
+          {
+            "q_ar": "منذ متى يعيش هناك؟",
+            "a_ar": "منذ ستّ سنوات (for six years).",
+            "hint_ar": "الفقرة الأخيرة"
+          },
+          {
+            "q_ar": "ماذا تعلّم في الشهر الماضي، وما النتيجة؟",
+            "a_ar": "ألّا يكون أول من يغادر حفلة، ولذلك تمتدّ الحفلات أحياناً إلى الرابعة صباحاً.",
+            "hint_ar": "الفقرة الأخيرة"
+          }
+        ]
       }
     },
     {
@@ -2297,7 +3689,47 @@
             "note_ar": "waste time / money"
           }
         ],
-        "questions": []
+        "questions": [
+          {
+            "q_ar": "لماذا اعتذرت شركة القطارات علناً سنة 2017؟",
+            "a_ar": "لأن قطاراً غادر المحطة قبل موعده بعشرين ثانية.",
+            "hint_ar": "الفقرة الثانية"
+          },
+          {
+            "q_ar": "هل وجد الركّاب اليابانيون الأمر مضحكاً؟",
+            "a_ar": "لا. الأجانب وجدوه مضحكاً، أما الركّاب فسببهم عمليّ.",
+            "hint_ar": "الفقرة الثالثة"
+          },
+          {
+            "q_ar": "ما السبب العمليّ للاعتذار؟",
+            "a_ar": "من وصل الرصيف في وقته فاته القطار، فقد يفوته القطار التالي ويتأخّر عن عمله.",
+            "hint_ar": "الفقرة الثالثة"
+          },
+          {
+            "q_ar": "كم متوسّط التأخير على خطّ طوكيو–أوساكا؟",
+            "a_ar": "أقلّ من دقيقة في السنة.",
+            "hint_ar": "الفقرة الرابعة"
+          },
+          {
+            "q_ar": "متى تصدر الشركة شهادة تأخير، وماذا يفعل بها الراكب؟",
+            "a_ar": "حين يتأخّر القطار أكثر من خمس دقائق، والراكب يجب أن يعرضها على صاحب عمله دليلاً.",
+            "hint_ar": "الفقرة الرابعة"
+          },
+          {
+            "q_ar": "لماذا لا ينبغي أن تصل قبل الاجتماع بربع ساعة؟",
+            "a_ar": "لأن مستضيفك سيضطرّ إلى ترك ما بيده، فهو محرج كالتأخّر خمس دقائق.",
+            "hint_ar": "الفقرة الخامسة"
+          },
+          {
+            "q_ar": "ما قاعدة رجل الأعمال؟",
+            "a_ar": "لا تضيّع وقتك، ولا تضيّع وقت غيرك أبداً.",
+            "hint_ar": "الفقرة الأخيرة"
+          },
+          {
+            "q_ar": "وأنت: ما القواعد غير المكتوبة التي تشرحها لزائر بلدك؟",
+            "a_ar": "جواب شخصيّ — استعمل should وmustn’t وdon’t have to."
+          }
+        ]
       }
     },
     {
@@ -2400,57 +3832,57 @@
         ],
         "rubric": [
           {
-            "label_en": "Modal form",
-            "label_ar": null,
-            "levels": [
-              "to or -s after modals",
-              "A few errors",
-              "All correct"
-            ]
-          },
-          {
-            "label_en": "mustn't vs don't have to",
-            "label_ar": null,
-            "levels": [
-              "Confused",
-              "Mostly right",
-              "Both used correctly"
-            ]
-          },
-          {
             "label_en": "Range",
-            "label_ar": null,
+            "label_ar": "المدى",
             "levels": [
-              "Only should",
-              "Two modals used",
-              "Four+ used naturally"
+              "should وحدها",
+              "نوعان أو ثلاثة: should · have to · mustn’t",
+              "أربعة أو أكثر بطبيعية، ومعها don’t have to وyou’d better"
             ]
           },
           {
-            "label_en": "Contractions",
-            "label_ar": null,
+            "label_en": "Accuracy",
+            "label_ar": "الدقّة",
             "levels": [
-              "Full forms throughout",
-              "Some used",
-              "shouldn't, mustn't natural"
+              "to أو s بعد الناقص، وخلط mustn’t وdon’t have to",
+              "أخطاء قليلة لا تغيّر المعنى",
+              "الصيغ صحيحة، وmustn’t وdon’t have to في موضعيهما"
             ]
           },
           {
-            "label_en": "have to",
-            "label_ar": null,
+            "label_en": "Fluency",
+            "label_ar": "الطلاقة",
             "levels": [
-              "/hæv tuː/ throughout",
-              "Sometimes reduced",
-              "Natural hafta"
+              "أقل من 60 ثانية وتوقّف طويل",
+              "60–100 ثانية مع توقّفات للتفكير",
+              "100–120 ثانية بإيقاع مريح"
             ]
           },
           {
-            "label_en": "Length",
-            "label_ar": "الطول",
+            "label_en": "Coherence",
+            "label_ar": "الترابط",
             "levels": [
-              "Under 60 sec",
-              "60–100 sec",
-              "100–120 sec"
+              "جمل منفصلة بلا رابط",
+              "First · and · but",
+              "تسلسل واضح: First · also · because · so · One last thing"
+            ]
+          },
+          {
+            "label_en": "Interaction",
+            "label_ar": "مخاطبة السامع",
+            "levels": [
+              "كلام عامّ لا يخاطب أحداً",
+              "يخاطب السامع أحياناً",
+              "يخاطبه مباشرة بنبرة ودودة: I think you should…"
+            ]
+          },
+          {
+            "label_en": "Pronunciation",
+            "label_ar": "النطق",
+            "levels": [
+              "الصيغ الكاملة، وhave to كلمتان /hæv tuː/",
+              "بعض الاختصار",
+              "shouldn’t وmustn’t مقتضبة، وhafta طبيعية"
             ]
           }
         ],
@@ -2939,7 +4371,7 @@
           "shouldn't"
         ]
       },
-      "explanation": null
+      "explanation": "shouldn't have + اسم المفعول: ندمٌ على شيء حدث وانتهى — لم يكن ينبغي أن أقوله. تعرّفها الآن فقط، فليست مطلوبة منك في كلامك بعد."
     },
     {
       "day_number": 1,
@@ -2975,7 +4407,7 @@
           "don't have to"
         ]
       },
-      "explanation": null
+      "explanation": "اختياري: لا عمل يوم الأحد، فلست مضطراً."
     },
     {
       "day_number": 3,
@@ -2993,7 +4425,7 @@
           "mustn't"
         ]
       },
-      "explanation": null
+      "explanation": "ممنوع في المستشفى."
     },
     {
       "day_number": 3,
@@ -3011,7 +4443,7 @@
           "don't have to"
         ]
       },
-      "explanation": null
+      "explanation": "الوجبة مجّانية: لست مضطراً للدفع."
     },
     {
       "day_number": 3,
@@ -3029,7 +4461,7 @@
           "mustn't"
         ]
       },
-      "explanation": null
+      "explanation": "مفاجأة: ممنوع أن تخبر أحداً."
     },
     {
       "day_number": 3,
@@ -3047,7 +4479,7 @@
           "don't have to"
         ]
       },
-      "explanation": null
+      "explanation": "المكتب غير رسميّ: ربطة العنق اختيارية."
     },
     {
       "day_number": 3,
@@ -3065,7 +4497,7 @@
           "mustn't"
         ]
       },
-      "explanation": null
+      "explanation": "ممنوع في الامتحان."
     },
     {
       "day_number": 3,
@@ -3083,7 +4515,7 @@
           "don't have to"
         ]
       },
-      "explanation": null
+      "explanation": "الوقت كافٍ: لسنا مضطرّين للاستعجال."
     },
     {
       "day_number": 3,
@@ -3101,7 +4533,7 @@
           "mustn't"
         ]
       },
-      "explanation": null
+      "explanation": "ممنوع وخطِر."
     },
     {
       "day_number": 3,
@@ -3119,7 +4551,7 @@
           "don't have to"
         ]
       },
-      "explanation": null
+      "explanation": "يوجد مصعد: لست مضطراً لحملها."
     },
     {
       "day_number": 3,
@@ -3137,7 +4569,7 @@
           "mustn't"
         ]
       },
-      "explanation": null
+      "explanation": "بلا جواز لا سفر: ممنوع أن تنساه."
     },
     {
       "day_number": 2,
@@ -3206,8 +4638,7 @@
       },
       "answer": {
         "accepted": [
-          "Do / have to",
-          "do / have to"
+          "Do / have to"
         ]
       },
       "explanation": null
@@ -3261,7 +4692,8 @@
       },
       "answer": {
         "accepted": [
-          "must / have to"
+          "must",
+          "have to"
         ]
       },
       "explanation": null
@@ -3326,7 +4758,7 @@
       "focus_ar": "أعطِ نصيحة",
       "points": 1,
       "type": "free_text",
-      "prompt": "\"I'm always late for work.\"",
+      "prompt": "Give advice with a different phrase each time. Your friend says: \"I'm always late for work.\"",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: You should leave home fifteen minutes earlier."
@@ -3337,7 +4769,7 @@
       "focus_ar": "أعطِ نصيحة",
       "points": 1,
       "type": "free_text",
-      "prompt": "\"I want to improve my English but I have no time.\"",
+      "prompt": "Give advice with a different phrase each time. Your friend says: \"I want to improve my English but I have no time.\"",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: Why don't you listen to a podcast while you drive?"
@@ -3348,7 +4780,7 @@
       "focus_ar": "أعطِ نصيحة",
       "points": 1,
       "type": "free_text",
-      "prompt": "\"My colleague never answers my emails.\"",
+      "prompt": "Give advice with a different phrase each time. Your friend says: \"My colleague never answers my emails.\"",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: If I were you, I'd speak to him in person."
@@ -3359,7 +4791,7 @@
       "focus_ar": "أعطِ نصيحة",
       "points": 1,
       "type": "free_text",
-      "prompt": "\"I've been offered a job in another city.\"",
+      "prompt": "Give advice with a different phrase each time. Your friend says: \"I've been offered a job in another city.\"",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: You should visit the city before you decide."
@@ -3370,7 +4802,7 @@
       "focus_ar": "أعطِ نصيحة",
       "points": 1,
       "type": "free_text",
-      "prompt": "\"I can't sleep before an important meeting.\"",
+      "prompt": "Give advice with a different phrase each time. Your friend says: \"I can't sleep before an important meeting.\"",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: Have you thought about writing your notes the night before?"
@@ -3381,7 +4813,7 @@
       "focus_ar": "أعطِ نصيحة",
       "points": 1,
       "type": "free_text",
-      "prompt": "\"I spend too much money every month.\"",
+      "prompt": "Give advice with a different phrase each time. Your friend says: \"I spend too much money every month.\"",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: It's a good idea to write down everything you spend for one month."
@@ -3392,7 +4824,7 @@
       "focus_ar": "أعطِ نصيحة",
       "points": 1,
       "type": "free_text",
-      "prompt": "\"My English teacher speaks too fast.\"",
+      "prompt": "Give advice with a different phrase each time. Your friend says: \"My English teacher speaks too fast.\"",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: You should ask her to slow down — teachers expect that."
@@ -3403,7 +4835,7 @@
       "focus_ar": "أعطِ نصيحة",
       "points": 1,
       "type": "free_text",
-      "prompt": "\"I want to change career but I'm thirty-eight.\"",
+      "prompt": "Give advice with a different phrase each time. Your friend says: \"I want to change career but I'm thirty-eight.\"",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: You could start with an evening course before you change anything."
@@ -3414,7 +4846,7 @@
       "focus_ar": "أعطِ نصيحة",
       "points": 1,
       "type": "free_text",
-      "prompt": "\"I have three deadlines on the same day.\"",
+      "prompt": "Give advice with a different phrase each time. Your friend says: \"I have three deadlines on the same day.\"",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: You'd better tell your manager today, not on the day."
@@ -3425,7 +4857,7 @@
       "focus_ar": "أعطِ نصيحة",
       "points": 1,
       "type": "free_text",
-      "prompt": "\"I'm nervous about my first English conversation.\"",
+      "prompt": "Give advice with a different phrase each time. Your friend says: \"I'm nervous about my first English conversation.\"",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: You shouldn't worry — the teacher has taught hundreds of beginners."
@@ -3493,7 +4925,8 @@
       },
       "answer": {
         "accepted": [
-          "Yesterday I had to work late."
+          "Yesterday I had to work late.",
+          "I had to work late yesterday."
         ]
       },
       "explanation": null
@@ -3527,7 +4960,9 @@
       },
       "answer": {
         "accepted": [
-          "Can you give me some advice?"
+          "Can you give me some advice?",
+          "Can you give me a piece of advice?",
+          "Can you give me advice?"
         ]
       },
       "explanation": null
@@ -3544,10 +4979,10 @@
       },
       "answer": {
         "accepted": [
-          "…so you don't have to pay."
+          "The dinner is free, so you don't have to pay."
         ]
       },
-      "explanation": null
+      "explanation": "المقصود «لست مضطراً» لا «ممنوع»: don’t have to."
     },
     {
       "day_number": 5,
@@ -3606,7 +5041,7 @@
       "focus_ar": "القواعد في مكانك",
       "points": 1,
       "type": "free_text",
-      "prompt": "In my country you have to …… .",
+      "prompt": "Complete with a true sentence about where you live or work: In my country you have to …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -3617,7 +5052,7 @@
       "focus_ar": "القواعد في مكانك",
       "points": 1,
       "type": "free_text",
-      "prompt": "In my country you mustn't …… .",
+      "prompt": "Complete with a true sentence about where you live or work: In my country you mustn't …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -3628,7 +5063,7 @@
       "focus_ar": "القواعد في مكانك",
       "points": 1,
       "type": "free_text",
-      "prompt": "At my work we have to …… .",
+      "prompt": "Complete with a true sentence about where you live or work: At my work we have to …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -3639,7 +5074,7 @@
       "focus_ar": "القواعد في مكانك",
       "points": 1,
       "type": "free_text",
-      "prompt": "At my work we don't have to …… .",
+      "prompt": "Complete with a true sentence about where you live or work: At my work we don't have to …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -3650,7 +5085,7 @@
       "focus_ar": "القواعد في مكانك",
       "points": 1,
       "type": "free_text",
-      "prompt": "When I was at school we had to …… .",
+      "prompt": "Complete with a true sentence about where you live or work: When I was at school we had to …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -3661,7 +5096,7 @@
       "focus_ar": "القواعد في مكانك",
       "points": 1,
       "type": "free_text",
-      "prompt": "In this building you mustn't …… .",
+      "prompt": "Complete with a true sentence about where you live or work: In this building you mustn't …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -3672,7 +5107,7 @@
       "focus_ar": "القواعد في مكانك",
       "points": 1,
       "type": "free_text",
-      "prompt": "Visitors must …… .",
+      "prompt": "Complete with a true sentence about where you live or work: Visitors must …… .",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -3683,7 +5118,7 @@
       "focus_ar": "القواعد في مكانك",
       "points": 1,
       "type": "free_text",
-      "prompt": "You should …… if you visit my city.",
+      "prompt": "Complete with a true sentence about where you live or work: You should …… if you visit my city.",
       "payload": {},
       "answer": {},
       "explanation": null
@@ -3691,19 +5126,78 @@
     {
       "day_number": 4,
       "exercise_no": 4,
-      "focus_ar": "فهم المسموع والمقروء",
+      "focus_ar": "فهم الحوار الأول",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "What is Khaled's opportunity? ______",
+      "prompt": "Khaled has been offered a job in ______.",
       "payload": {
-        "before": "What is Khaled's opportunity?  ",
-        "after": ""
+        "before": "Khaled has been offered a job in ",
+        "after": "."
       },
       "answer": {
         "accepted": [
-          "A job in Alexandria with a better salary and title.",
-          "A job in Alexandria with a better salary and title",
-          "a job in alexandria with a better salary and title."
+          "Alexandria"
+        ]
+      },
+      "explanation": "راتب أفضل ومنصب أفضل في الإسكندرية."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم الحوار الأول",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Dialogue 1: what are the two difficulties for Khaled? Write both.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: His wife has a good job here and his daughter starts school in September."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم الحوار الأول",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Dialogue 1: why hasn't Khaled talked to his wife properly?",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: He doesn't want to worry her before he decides."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم الحوار الأول",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Khaled has ______ to decide.",
+      "payload": {
+        "before": "Khaled has ",
+        "after": " to decide."
+      },
+      "answer": {
+        "accepted": [
+          "two weeks",
+          "2 weeks"
+        ]
+      },
+      "explanation": "Two weeks — until the fifteenth."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "فهم الحوار الأول",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Lina suggests that they ______ the city together.",
+      "payload": {
+        "before": "Lina suggests that they ",
+        "after": " the city together."
+      },
+      "answer": {
+        "accepted": [
+          "visit",
+          "go to",
+          "see"
         ]
       },
       "explanation": null
@@ -3711,102 +5205,13 @@
     {
       "day_number": 4,
       "exercise_no": 4,
-      "focus_ar": "فهم المسموع والمقروء",
+      "focus_ar": "فهم الحوار الأول",
       "points": 1,
-      "type": "fill_blank",
-      "prompt": "What are the two difficulties? ______",
-      "payload": {
-        "before": "What are the two difficulties?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "His wife has a good job there and his daughter starts school in September.",
-          "His wife has a good job there and his daughter starts school in September",
-          "his wife has a good job there and his daughter starts school in september."
-        ]
-      },
-      "explanation": null
-    },
-    {
-      "day_number": 4,
-      "exercise_no": 4,
-      "focus_ar": "فهم المسموع والمقروء",
-      "points": 1,
-      "type": "fill_blank",
-      "prompt": "Why hasn't he talked to his wife properly? ______",
-      "payload": {
-        "before": "Why hasn't he talked to his wife properly?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "He doesn't want to worry her before he decides.",
-          "He doesn't want to worry her before he decides",
-          "he doesn't want to worry her before he decides."
-        ]
-      },
-      "explanation": null
-    },
-    {
-      "day_number": 4,
-      "exercise_no": 4,
-      "focus_ar": "فهم المسموع والمقروء",
-      "points": 1,
-      "type": "fill_blank",
-      "prompt": "How long does he have to decide? ______",
-      "payload": {
-        "before": "How long does he have to decide?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "Two weeks — until the fifteenth.",
-          "Two weeks — until the fifteenth",
-          "two weeks — until the fifteenth."
-        ]
-      },
-      "explanation": null
-    },
-    {
-      "day_number": 4,
-      "exercise_no": 4,
-      "focus_ar": "فهم المسموع والمقروء",
-      "points": 1,
-      "type": "fill_blank",
-      "prompt": "What does Lina suggest they do? ______",
-      "payload": {
-        "before": "What does Lina suggest they do?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "Visit the city together.",
-          "Visit the city together",
-          "visit the city together."
-        ]
-      },
-      "explanation": null
-    },
-    {
-      "day_number": 4,
-      "exercise_no": 4,
-      "focus_ar": "فهم المسموع والمقروء",
-      "points": 1,
-      "type": "fill_blank",
-      "prompt": "What is her joke about Sunday evening? ______",
-      "payload": {
-        "before": "What is her joke about Sunday evening?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "That everything looks worse on a Sunday evening, so he shouldn't decide then.",
-          "That everything looks worse on a Sunday evening, so he shouldn't decide then",
-          "that everything looks worse on a sunday evening, so he shouldn't decide then."
-        ]
-      },
-      "explanation": null
+      "type": "free_text",
+      "prompt": "Dialogue 1: what is Lina's joke about Sunday evening?",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: Everything looks worse on a Sunday evening, so he shouldn't decide anything then."
     },
     {
       "day_number": 6,
@@ -3814,27 +5219,26 @@
       "focus_ar": "قاعدة أم نصيحة؟",
       "points": 1,
       "type": "free_text",
-      "prompt": "Sort every instruction in Dialogue 2 into the right column:",
+      "prompt": "Find every instruction in Dialogue 2 and write it in one of four groups: obligation (have to / must), prohibition (mustn't), no obligation (don't have to), advice (should / shouldn't).",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: Obligation: sign in at reception every morning"
+      "explanation": "الجواب النموذجي: Obligation: sign in at reception every morning · be here for the ten o'clock meeting. Prohibition: mustn't bring food into the server room · mustn't miss the ten o'clock. No obligation: don't have to sign out · don't have to wear anything formal · don't have to arrive at nine. Advice: shouldn't wear shorts · should never say the coffee is fine."
     },
     {
       "day_number": 6,
       "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
+      "focus_ar": "فهم المسموع",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "How long was the document? ______",
+      "prompt": "The document was ______ pages long.",
       "payload": {
-        "before": "How long was the document?  ",
-        "after": ""
+        "before": "The document was ",
+        "after": " pages long."
       },
       "answer": {
         "accepted": [
-          "Forty pages.",
-          "Forty pages",
-          "forty pages."
+          "forty",
+          "40"
         ]
       },
       "explanation": null
@@ -3842,19 +5246,29 @@
     {
       "day_number": 6,
       "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
+      "focus_ar": "فهم المسموع",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Listening: why does the writer say the document was useless?",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: It did not contain a single one of the rules that actually mattered."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "Why does he say it was useless? ______",
+      "prompt": "The document said he had to register within ______ days.",
       "payload": {
-        "before": "Why does he say it was useless?  ",
-        "after": ""
+        "before": "The document said he had to register within ",
+        "after": " days."
       },
       "answer": {
         "accepted": [
-          "It contained none of the rules that actually mattered.",
-          "It contained none of the rules that actually mattered",
-          "it contained none of the rules that actually mattered."
+          "thirty",
+          "30"
         ]
       },
       "explanation": null
@@ -3862,19 +5276,18 @@
     {
       "day_number": 6,
       "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
+      "focus_ar": "فهم المسموع",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "What did it say about registration? ______",
+      "prompt": "If you arrive at the office after eleven, you must expect to wait ______ hours.",
       "payload": {
-        "before": "What did it say about registration?  ",
-        "after": ""
+        "before": "If you arrive at the office after eleven, you must expect to wait ",
+        "after": " hours."
       },
       "answer": {
         "accepted": [
-          "That he had to register within thirty days.",
-          "That he had to register within thirty days",
-          "that he had to register within thirty days."
+          "four",
+          "4"
         ]
       },
       "explanation": null
@@ -3882,19 +5295,69 @@
     {
       "day_number": 6,
       "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
+      "focus_ar": "فهم المسموع",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Listening: what is the rule about seats on the bus?",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: You shouldn't take the last seat if an older person is standing."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Listening: what is the truth about tipping in restaurants?",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: You don't have to tip, but everybody does — and the waiter will remember your face."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "What did it fail to say about the office? ______",
+      "prompt": "His ______ explained the real rules over coffee.",
       "payload": {
-        "before": "What did it fail to say about the office?  ",
-        "after": ""
+        "before": "His ",
+        "after": " explained the real rules over coffee."
       },
       "answer": {
         "accepted": [
-          "That arriving after eleven means a four-hour wait.",
-          "That arriving after eleven means a four-hour wait",
-          "that arriving after eleven means a four-hour wait."
+          "colleague"
+        ]
+      },
+      "explanation": "In about ten minutes, over coffee."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Listening: name two rules his colleague told him.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: Any two: say hello when you enter a small shop · don't ask people how much they earn · you don't have to arrive on time for a dinner invitation."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "He has lived there for ______ years.",
+      "payload": {
+        "before": "He has lived there for ",
+        "after": " years."
+      },
+      "answer": {
+        "accepted": [
+          "six",
+          "6"
         ]
       },
       "explanation": null
@@ -3902,122 +5365,13 @@
     {
       "day_number": 6,
       "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
+      "focus_ar": "فهم المسموع",
       "points": 1,
-      "type": "fill_blank",
-      "prompt": "What is the rule about seats on the bus? ______",
-      "payload": {
-        "before": "What is the rule about seats on the bus?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "You shouldn't take the last seat if an older person is standing.",
-          "You shouldn't take the last seat if an older person is standing",
-          "you shouldn't take the last seat if an older person is standing."
-        ]
-      },
-      "explanation": null
-    },
-    {
-      "day_number": 6,
-      "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
-      "points": 1,
-      "type": "fill_blank",
-      "prompt": "What is the truth about tipping? ______",
-      "payload": {
-        "before": "What is the truth about tipping?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "You don't have to tip, but everybody does.",
-          "You don't have to tip, but everybody does",
-          "you don't have to tip, but everybody does."
-        ]
-      },
-      "explanation": null
-    },
-    {
-      "day_number": 6,
-      "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
-      "points": 1,
-      "type": "fill_blank",
-      "prompt": "Who explained the real rules? ______",
-      "payload": {
-        "before": "Who explained the real rules?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "A colleague, over coffee, in ten minutes.",
-          "A colleague, over coffee, in ten minutes",
-          "a colleague, over coffee, in ten minutes."
-        ]
-      },
-      "explanation": null
-    },
-    {
-      "day_number": 6,
-      "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
-      "points": 1,
-      "type": "fill_blank",
-      "prompt": "Name two rules his colleague told him. ______",
-      "payload": {
-        "before": "Name two rules his colleague told him.  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "(any two) Say hello in small shops · don't ask about earnings · don't arrive on time for dinner invitations.",
-          "(any two) Say hello in small shops · don't ask about earnings · don't arrive on time for dinner invitations",
-          "(any two) say hello in small shops · don't ask about earnings · don't arrive on time for dinner invitations."
-        ]
-      },
-      "explanation": null
-    },
-    {
-      "day_number": 6,
-      "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
-      "points": 1,
-      "type": "fill_blank",
-      "prompt": "How long has he lived there? ______",
-      "payload": {
-        "before": "How long has he lived there?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "Six years.",
-          "Six years",
-          "six years."
-        ]
-      },
-      "explanation": null
-    },
-    {
-      "day_number": 6,
-      "exercise_no": 6,
-      "focus_ar": "فهم المسموع والمقروء",
-      "points": 1,
-      "type": "fill_blank",
-      "prompt": "What did he learn last month, and what is the result? ______",
-      "payload": {
-        "before": "What did he learn last month, and what is the result?  ",
-        "after": ""
-      },
-      "answer": {
-        "accepted": [
-          "That you should never be the first to leave a party — so parties sometimes last until four in the morning.",
-          "That you should never be the first to leave a party — so parties sometimes last until four in the morning",
-          "that you should never be the first to leave a party — so parties sometimes last until four in the morning."
-        ]
-      },
-      "explanation": null
+      "type": "free_text",
+      "prompt": "Listening: what did he learn last month, and what is the result?",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: You should never be the first person to leave a party — so parties sometimes last until four in the morning."
     },
     {
       "day_number": 6,
@@ -4025,10 +5379,10 @@
       "focus_ar": "تعقّب الأفعال الناقصة",
       "points": 1,
       "type": "free_text",
-      "prompt": "Find and list every modal in the text, then sort them:",
+      "prompt": "Find every modal in the listening text and write them in four groups: obligation, prohibition, no obligation, advice.",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: Obligation: had to register"
+      "explanation": "الجواب النموذجي: Obligation: had to register · must expect to wait. Prohibition: mustn't park · mustn't ask people how much they earn. No obligation: didn't have to tip · don't have to arrive on time. Advice: should never take the last seat · should always say hello · shouldn't arrive on time · should never be the first to leave."
     },
     {
       "day_number": 6,
@@ -4036,18 +5390,17 @@
       "focus_ar": "تعقّب الأفعال الناقصة",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "Obligation : ______",
+      "prompt": "The document told me I ______ register with the local office within thirty days.",
       "payload": {
-        "before": "Obligation      : ",
-        "after": ""
+        "before": "The document told me I ",
+        "after": " register with the local office within thirty days."
       },
       "answer": {
         "accepted": [
-          "must expect to wait.  Prohibition: mustn't park",
-          "must expect to wait.  prohibition: mustn't park"
+          "had to"
         ]
       },
-      "explanation": null
+      "explanation": "إلزام في الماضي: had to."
     },
     {
       "day_number": 6,
@@ -4055,18 +5408,17 @@
       "focus_ar": "تعقّب الأفعال الناقصة",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "Prohibition : ______",
+      "prompt": "It told me I ______ park in certain streets on Tuesdays.",
       "payload": {
-        "before": "Prohibition     : ",
-        "after": ""
+        "before": "It told me I ",
+        "after": " park in certain streets on Tuesdays."
       },
       "answer": {
         "accepted": [
-          "mustn't ask people how much they earn.  No obligation: didn't have to tip",
-          "mustn't ask people how much they earn.  no obligation: didn't have to tip"
+          "mustn't"
         ]
       },
-      "explanation": null
+      "explanation": "منع: mustn’t."
     },
     {
       "day_number": 6,
@@ -4074,18 +5426,17 @@
       "focus_ar": "تعقّب الأفعال الناقصة",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "No obligation : ______",
+      "prompt": "It said I ______ tip in restaurants.",
       "payload": {
-        "before": "No obligation   : ",
-        "after": ""
+        "before": "It said I ",
+        "after": " tip in restaurants."
       },
       "answer": {
         "accepted": [
-          "don't have to arrive on time.  Advice: should never take the last seat",
-          "don't have to arrive on time.  advice: should never take the last seat"
+          "didn't have to"
         ]
       },
-      "explanation": null
+      "explanation": "لا إلزام في الماضي: didn’t have to."
     },
     {
       "day_number": 6,
@@ -4093,17 +5444,17 @@
       "focus_ar": "تعقّب الأفعال الناقصة",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "Advice : ______",
+      "prompt": "You ______ always say hello when you enter a small shop.",
       "payload": {
-        "before": "Advice          : ",
-        "after": ""
+        "before": "You ",
+        "after": " always say hello when you enter a small shop."
       },
       "answer": {
         "accepted": [
-          "should always say hello"
+          "should"
         ]
       },
-      "explanation": null
+      "explanation": "نصيحة: should."
     },
     {
       "day_number": 7,
@@ -4206,6 +5557,1618 @@
       "payload": {},
       "answer": {
         "correct": true
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "too و enough",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I can’t sleep. It’s ______ hot in here.",
+      "payload": {
+        "before": "I can’t sleep. It’s ",
+        "after": " hot in here."
+      },
+      "answer": {
+        "accepted": [
+          "too"
+        ]
+      },
+      "explanation": "too قبل الصفة: أكثر من اللازم"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "too و enough",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "He isn’t old ______ to drive.",
+      "payload": {
+        "before": "He isn’t old ",
+        "after": " to drive."
+      },
+      "answer": {
+        "accepted": [
+          "enough"
+        ]
+      },
+      "explanation": "enough بعد الصفة"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "too و enough",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "There are ___ people on this bus — let’s wait for the next one.",
+      "payload": {
+        "options": [
+          "too many",
+          "too much",
+          "enough",
+          "very"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "people جمع ← too many"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "too و enough",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "I drink ___ coffee. I should stop.",
+      "payload": {
+        "options": [
+          "too much",
+          "too many",
+          "enough",
+          "too"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "coffee غير معدود ← too much"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "too و enough",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Is your English good ___ for the job?",
+      "payload": {
+        "options": [
+          "enough",
+          "too",
+          "too much",
+          "very"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "enough بعد الصفة"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "too و enough",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "This bag is enough big."
+      },
+      "answer": {
+        "accepted": [
+          "This bag is big enough."
+        ]
+      },
+      "explanation": "enough بعد الصفة"
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "too و enough",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "The tea is too much hot."
+      },
+      "answer": {
+        "accepted": [
+          "The tea is too hot."
+        ]
+      },
+      "explanation": "too وحدها قبل الصفة"
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "لغة النصيحة في الحوار",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Find in Dialogue 1 and write: two sentences with should or shouldn't, two with have to, one with don't have to, one Why don't you…?, one If I were you…, and the phrase Khaled uses to ask for advice.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: I think you should talk to her first · you shouldn't decide anything on a Sunday evening · How long do you have to decide? · I have to give them an answer by the fifteenth · you don't have to rush · Why don't you visit the city together? · If I were you, I'd go and look · Can I ask your advice about something?"
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "اشرح قواعدك أنت",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "A new colleague starts at your workplace, or a visitor arrives in your country. Write eight rules for them: two with have to, two with mustn't, two with don't have to and two with should or shouldn't.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: You have to sign in at reception. You have to be on time for the morning meeting. You mustn't smoke in the building. You mustn't park in the manager's place. You don't have to wear a suit. You don't have to bring lunch. You should ask questions in your first week. You shouldn't drink the coffee."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "صحّ أم خطأ — الاستماع",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The document had forty pages.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "في النصّ: Forty pages."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "صحّ أم خطأ — الاستماع",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "The writer found the document very useful.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: It was completely useless."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "صحّ أم خطأ — الاستماع",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "Local people arrive at the office at eight.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "في النصّ: everybody local knows this and arrives at eight."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "صحّ أم خطأ — الاستماع",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "In that country you must tip in restaurants.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: you don't have to, but everybody does."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "صحّ أم خطأ — الاستماع",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "You should arrive exactly on time for a dinner invitation.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "في النصّ: You don't have to arrive on time for a dinner invitation — in fact you shouldn't."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "صحّ أم خطأ — الاستماع",
+      "points": 1,
+      "type": "true_false",
+      "prompt": "People stay late at parties because nobody wants to leave first.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "في النصّ: nobody wants to be that person."
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "نقاش",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Write three unwritten rules you would explain to a visitor to your country. Use should, mustn't and don't have to.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: You should accept tea if someone offers it. You mustn't eat in the street during Ramadan. You don't have to arrive on time for a family dinner."
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الفعل الناقص و should",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Which sentence is correct?",
+      "payload": {
+        "options": [
+          "He should go home.",
+          "He shoulds go home.",
+          "He should to go home.",
+          "He should going home."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "بعد الناقص فعل مجرّد، ولا s."
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الفعل الناقص و should",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Which question is correct?",
+      "payload": {
+        "options": [
+          "Do I should bring a present?",
+          "Should I bring a present?",
+          "Should I to bring a present?",
+          "Does I should bring a present?"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "نقدّم should بلا do."
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الفعل الناقص و should",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Can you give me ___?",
+      "payload": {
+        "options": [
+          "an advice",
+          "some advices",
+          "some advice",
+          "an advise"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "advice لا تُعدّ."
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الفعل الناقص و should",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ I call him? — Yes, you should. He has a right to know.",
+      "payload": {
+        "before": "",
+        "after": " I call him? — Yes, you should. He has a right to know."
+      },
+      "answer": {
+        "accepted": [
+          "Should"
+        ]
+      },
+      "explanation": "السؤال بقلب الناقص."
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الفعل الناقص و should",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I've lost my passport. What ______ I do?",
+      "payload": {
+        "before": "I've lost my passport. What ",
+        "after": " I do?"
+      },
+      "answer": {
+        "accepted": [
+          "should",
+          "shall",
+          "can"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الفعل الناقص و should",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "My father gave me a good piece of ______.",
+      "payload": {
+        "before": "My father gave me a good piece of ",
+        "after": "."
+      },
+      "answer": {
+        "accepted": [
+          "advice"
+        ]
+      },
+      "explanation": "a piece of advice — والاسم advice بـs."
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الفعل الناقص و should",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "She doesn't should eat so much sugar."
+      },
+      "answer": {
+        "accepted": [
+          "She shouldn't eat so much sugar."
+        ]
+      },
+      "explanation": "لا do مع الناقص."
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "focus_ar": "الفعل الناقص و should",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Your friend wants to improve her English. Write four pieces of advice for her: two with should and two with shouldn't.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: You should read a short story every day. You should talk to people in English. You shouldn't study only grammar. You shouldn't be afraid of mistakes."
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "must و have to و had to",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "\"I have to wear a uniform.\" Where does this obligation come from?",
+      "payload": {
+        "options": [
+          "A rule from my company.",
+          "My own decision.",
+          "My doctor's advice."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "have to: إلزام من الخارج."
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "must و have to و had to",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "\"I must stop eating so much sugar.\" Where does this obligation come from?",
+      "payload": {
+        "options": [
+          "A law.",
+          "My own decision.",
+          "My boss's rule."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "must: إلزام قرّرته أنت."
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "must و have to و had to",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "My sister ______ to work on Saturdays.",
+      "payload": {
+        "before": "My sister ",
+        "after": " to work on Saturdays."
+      },
+      "answer": {
+        "accepted": [
+          "has"
+        ]
+      },
+      "explanation": "مع she: has to."
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "must و have to و had to",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ she have to wear a uniform at work?",
+      "payload": {
+        "before": "",
+        "after": " she have to wear a uniform at work?"
+      },
+      "answer": {
+        "accepted": [
+          "Does"
+        ]
+      },
+      "explanation": "have to فعل عادي: Does … have to?"
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "must و have to و had to",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Last year I ______ to take two buses to work.",
+      "payload": {
+        "before": "Last year I ",
+        "after": " to take two buses to work."
+      },
+      "answer": {
+        "accepted": [
+          "had"
+        ]
+      },
+      "explanation": "الماضي: had to."
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "must و have to و had to",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "We ______ have to pay. It was free.",
+      "payload": {
+        "before": "We ",
+        "after": " have to pay. It was free."
+      },
+      "answer": {
+        "accepted": [
+          "didn't"
+        ]
+      },
+      "explanation": "نفي الماضي: didn’t have to."
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "must و have to و had to",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "Does he has to go?"
+      },
+      "answer": {
+        "accepted": [
+          "Does he have to go?"
+        ]
+      },
+      "explanation": "بعد does يأتي have."
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "must و have to و had to",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "I must worked late yesterday."
+      },
+      "answer": {
+        "accepted": [
+          "I had to work late yesterday.",
+          "Yesterday I had to work late."
+        ]
+      },
+      "explanation": "must بلا ماضٍ."
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "focus_ar": "must و have to و had to",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Write three things you have to do every week, one thing you had to do last week, and one thing you must do because you decided it yourself.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: I have to go to work five days a week. I have to cook dinner. I have to call my mother on Friday. Last week I had to go to the bank. I must stop drinking so much coffee."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "mustn’t أم don’t have to؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "\"You don't have to pay.\" This means…",
+      "payload": {
+        "options": [
+          "Paying is not allowed.",
+          "You must pay now.",
+          "It's free — paying is not necessary."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "don’t have to = غير مطلوب."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "mustn’t أم don’t have to؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "\"You mustn't tell anyone.\" This means…",
+      "payload": {
+        "options": [
+          "It's a secret — don't tell.",
+          "You can tell people if you want.",
+          "You should tell everyone."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "mustn’t = ممنوع."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "mustn’t أم don’t have to؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "A door says STAFF ONLY. What does it mean for a customer?",
+      "payload": {
+        "options": [
+          "You don't have to go in.",
+          "You mustn't go in.",
+          "You should go in."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "لافتة منع."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "mustn’t أم don’t have to؟",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "The museum is free. Which sentence is right?",
+      "payload": {
+        "options": [
+          "You mustn't pay to go in.",
+          "You must pay to go in.",
+          "You don't have to pay to go in."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "مجّاني = غير مطلوب، لا ممنوع."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "mustn’t أم don’t have to؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Don't park here. = You ______ park here.",
+      "payload": {
+        "before": "Don't park here. = You ",
+        "after": " park here."
+      },
+      "answer": {
+        "accepted": [
+          "mustn't"
+        ]
+      },
+      "explanation": "أمر بالمنع = mustn’t."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "mustn’t أم don’t have to؟",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "It isn't necessary to wear a tie. = You ______ wear a tie.",
+      "payload": {
+        "before": "It isn't necessary to wear a tie. = You ",
+        "after": " wear a tie."
+      },
+      "answer": {
+        "accepted": [
+          "don't have to",
+          "don't need to"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "mustn’t أم don’t have to؟",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Write two true sentences about your home or workplace with mustn't and two with don't have to.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: At home we mustn't wear shoes in the bedroom. At work we mustn't smoke in the building. I don't have to wear a suit. We don't have to work on Fridays."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "need to و don’t need to",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "\"You don't need to bring food. There's a restaurant.\" This means…",
+      "payload": {
+        "options": [
+          "Bringing food is not necessary.",
+          "Bringing food is not allowed.",
+          "You must bring food."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "don’t need to = don’t have to."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "need to و don’t need to",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "He ______ to see a doctor. He is very ill.",
+      "payload": {
+        "before": "He ",
+        "after": " to see a doctor. He is very ill."
+      },
+      "answer": {
+        "accepted": [
+          "needs",
+          "has"
+        ]
+      },
+      "explanation": "need فعل عادي: he needs to."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "need to و don’t need to",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "You ______ need to call me. I'll call you.",
+      "payload": {
+        "before": "You ",
+        "after": " need to call me. I'll call you."
+      },
+      "answer": {
+        "accepted": [
+          "don't"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "need to و don’t need to",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ I need to bring my passport?",
+      "payload": {
+        "before": "",
+        "after": " I need to bring my passport?"
+      },
+      "answer": {
+        "accepted": [
+          "Do"
+        ]
+      },
+      "explanation": "السؤال بـdo."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "need to و don’t need to",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She ______ need to work yesterday. It was a holiday.",
+      "payload": {
+        "before": "She ",
+        "after": " need to work yesterday. It was a holiday."
+      },
+      "answer": {
+        "accepted": [
+          "didn't"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "need to و don’t need to",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "You don't have to pay. = You don't ______ to pay.",
+      "payload": {
+        "before": "You don't have to pay. = You don't ",
+        "after": " to pay."
+      },
+      "answer": {
+        "accepted": [
+          "need"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "need to و don’t need to",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "You don't need come early."
+      },
+      "answer": {
+        "accepted": [
+          "You don't need to come early.",
+          "You needn't come early."
+        ]
+      },
+      "explanation": "need فعل عادي: بعدها to."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "need to و don’t need to",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "He need to leave now."
+      },
+      "answer": {
+        "accepted": [
+          "He needs to leave now."
+        ]
+      },
+      "explanation": "need تأخذ s مع he."
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "focus_ar": "need to و don’t need to",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Write three things you need to do this week and two things you don't need to do.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: I need to pay my phone bill. I need to buy a present for my sister. I need to finish my report. I don't need to cook on Friday. I don't need to get up early on Saturday."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "had better",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "\"You'd better hurry, or you'll miss the train.\" The speaker is…",
+      "payload": {
+        "options": [
+          "talking about the past.",
+          "giving a warning.",
+          "asking for permission."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "had better = نصيحة فيها تحذير."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "had better",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "In You'd better go, 'd means…",
+      "payload": {
+        "options": [
+          "would",
+          "did",
+          "had"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "'d هنا = had، والمعنى عن الآن."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "had better",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "It's going to rain. You ___ take an umbrella.",
+      "payload": {
+        "options": [
+          "'d better",
+          "'d better to",
+          "have better",
+          "'d better not to"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "had better + فعل مجرّد."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "had better",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "We'd ______ leave now. The film starts at eight.",
+      "payload": {
+        "before": "We'd ",
+        "after": " leave now. The film starts at eight."
+      },
+      "answer": {
+        "accepted": [
+          "better"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "had better",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Should I tell my manager today? — Yes, you'd better ______ her today, not on the day.",
+      "payload": {
+        "before": "Should I tell my manager today? — Yes, you'd better ",
+        "after": " her today, not on the day."
+      },
+      "answer": {
+        "accepted": [
+          "tell"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "had better",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The boss is angry. You'd better ______ late again.",
+      "payload": {
+        "before": "The boss is angry. You'd better ",
+        "after": " late again."
+      },
+      "answer": {
+        "accepted": [
+          "not be"
+        ]
+      },
+      "explanation": "النفي: ’d better not + فعل."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "had better",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "You had better to call her."
+      },
+      "answer": {
+        "accepted": [
+          "You had better call her."
+        ]
+      },
+      "explanation": "لا to بعد had better."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "had better",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "You'd not better forget your passport."
+      },
+      "answer": {
+        "accepted": [
+          "You'd better not forget your passport."
+        ]
+      },
+      "explanation": "not بعد better."
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "focus_ar": "had better",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Write three warnings with 'd better or 'd better not: for a friend who is always late, a friend who spends too much, and a colleague with three deadlines.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: You'd better leave home earlier. You'd better not buy anything this week. You'd better tell your manager today."
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "too و enough",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "The shoes are too small. = The shoes aren't big ______.",
+      "payload": {
+        "before": "The shoes are too small. = The shoes aren't big ",
+        "after": "."
+      },
+      "answer": {
+        "accepted": [
+          "enough"
+        ]
+      },
+      "explanation": "too small = not big enough."
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "too و enough",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I'm ______ tired to drive. Can you drive?",
+      "payload": {
+        "before": "I'm ",
+        "after": " tired to drive. Can you drive?"
+      },
+      "answer": {
+        "accepted": [
+          "too"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "too و enough",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "We don't have ______ chairs for everyone.",
+      "payload": {
+        "before": "We don't have ",
+        "after": " chairs for everyone."
+      },
+      "answer": {
+        "accepted": [
+          "enough"
+        ]
+      },
+      "explanation": "enough قبل الاسم."
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "focus_ar": "too و enough",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "Write two sentences about problems in your life with too, too much or too many, and two with not … enough. Then give yourself advice with should.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: I work too much. There are too many cars in my street. I don't sleep enough. My flat isn't big enough. I should go to bed earlier."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإذن والطلب بلطف",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "What do you say? You want to open the window in a colleague's office.",
+      "payload": {
+        "options": [
+          "Do you open the window?",
+          "Is it OK if I open the window?",
+          "You must open the window.",
+          "Can you to open the window?"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإذن والطلب بلطف",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "What do you say? You want your colleague to close the door.",
+      "payload": {
+        "options": [
+          "Could I close the door, please?",
+          "Am I allowed to close the door?",
+          "Could you close the door, please?",
+          "You mustn't close the door."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "تطلب من غيرك: Could you…?"
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإذن والطلب بلطف",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Someone asks: \"Can I sit here?\" The seat is free. You answer…",
+      "payload": {
+        "options": [
+          "I'm afraid not.",
+          "No, you mustn't.",
+          "Yes, you can to sit.",
+          "Sure, go ahead."
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإذن والطلب بلطف",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Someone asks: \"Can I park here?\" It is the hospital entrance. You answer…",
+      "payload": {
+        "options": [
+          "I'm afraid not. It's for ambulances.",
+          "Sure, go ahead.",
+          "No problem.",
+          "Not at all."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإذن والطلب بلطف",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Someone asks: \"Do you mind if I sit here?\" You are happy for them to sit. You answer…",
+      "payload": {
+        "options": [
+          "Yes, I do.",
+          "No, not at all.",
+          "I'm afraid not.",
+          "No, you can't."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "السؤال «هل يزعجك؟» فالموافقة بـNo."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإذن والطلب بلطف",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "You are in a museum. You want to know the rule about photos. You ask…",
+      "payload": {
+        "options": [
+          "Is it allowed to take photos here?",
+          "Do I allowed to take photos here?",
+          "Am I allowed to take photos here?",
+          "Must I take photos here?"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإذن والطلب بلطف",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ I use your phone, please? Mine is dead.",
+      "payload": {
+        "before": "",
+        "after": " I use your phone, please? Mine is dead."
+      },
+      "answer": {
+        "accepted": [
+          "Can",
+          "Could",
+          "May"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإذن والطلب بلطف",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Visitors aren't ______ to park here.",
+      "payload": {
+        "before": "Visitors aren't ",
+        "after": " to park here."
+      },
+      "answer": {
+        "accepted": [
+          "allowed"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإذن والطلب بلطف",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "______ you help me with this form, please?",
+      "payload": {
+        "before": "",
+        "after": " you help me with this form, please?"
+      },
+      "answer": {
+        "accepted": [
+          "Can",
+          "Could"
+        ]
+      },
+      "explanation": "تطلب من غيرك: Can you / Could you."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإذن والطلب بلطف",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "When I was at school, we ______ allowed to use phones in class.",
+      "payload": {
+        "before": "When I was at school, we ",
+        "after": " allowed to use phones in class."
+      },
+      "answer": {
+        "accepted": [
+          "weren't"
+        ]
+      },
+      "explanation": "الماضي: weren’t allowed to."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإذن والطلب بلطف",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "Is it allowed to smoke here?"
+      },
+      "answer": {
+        "accepted": [
+          "Is smoking allowed here?",
+          "Am I allowed to smoke here?",
+          "Are we allowed to smoke here?",
+          "Can I smoke here?",
+          "Can we smoke here?",
+          "Is it OK if I smoke here?"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإذن والطلب بلطف",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "Could I to leave early today?"
+      },
+      "answer": {
+        "accepted": [
+          "Could I leave early today?"
+        ]
+      },
+      "explanation": "لا to بعد could."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإذن والطلب بلطف",
+      "points": 1,
+      "type": "correct_error",
+      "prompt": "تصحيح الخطأ",
+      "payload": {
+        "sentence": "You are not allow to park here."
+      },
+      "answer": {
+        "accepted": [
+          "You are not allowed to park here."
+        ]
+      },
+      "explanation": "allowed بـ-ed."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "الإذن والطلب بلطف",
+      "points": 1,
+      "type": "free_text",
+      "prompt": "You start a new job tomorrow. Write four questions asking for permission (Can I…? Could I…? Is it OK if I…? Am I allowed to…?) and a polite answer to each.",
+      "payload": {},
+      "answer": {},
+      "explanation": "الجواب النموذجي: Can I leave my bag here? — Sure. Could I leave early on Thursday? — Yes, of course. Is it OK if I work from home on Friday? — I'm afraid not. Am I allowed to use the kitchen? — Yes, you are."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Listening: what is the main idea of the text?",
+      "payload": {
+        "options": [
+          "The writer hated his new job.",
+          "Tipping is always necessary in that country.",
+          "Parties in that country are boring.",
+          "The rules that really matter in a new country are often not written down."
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": "الفكرة العامّة: القواعد المهمّة غير مكتوبة."
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "focus_ar": "فهم المسموع",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Listening: why do local people arrive at the office at eight?",
+      "payload": {
+        "options": [
+          "After eleven, you have to wait four hours.",
+          "The office closes at nine.",
+          "The document tells them to.",
+          "They like to arrive early everywhere."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "make و do و take و have",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Don't worry about the exam. Just ______ your best.",
+      "payload": {
+        "before": "Don't worry about the exam. Just ",
+        "after": " your best."
+      },
+      "answer": {
+        "accepted": [
+          "do"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "make و do و take و have",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "You've worked for five hours. Let's ______ a break.",
+      "payload": {
+        "before": "You've worked for five hours. Let's ",
+        "after": " a break."
+      },
+      "answer": {
+        "accepted": [
+          "take",
+          "have"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "make و do و take و have",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Everyone ______ mistakes when they learn a language.",
+      "payload": {
+        "before": "Everyone ",
+        "after": " mistakes when they learn a language."
+      },
+      "answer": {
+        "accepted": [
+          "makes"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "make و do و take و have",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "I ______ a problem with my computer. Can you help?",
+      "payload": {
+        "before": "I ",
+        "after": " a problem with my computer. Can you help?"
+      },
+      "answer": {
+        "accepted": [
+          "have"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "make و do و take و have",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "He ______ a big risk when he left his job.",
+      "payload": {
+        "before": "He ",
+        "after": " a big risk when he left his job."
+      },
+      "answer": {
+        "accepted": [
+          "took"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "make و do و take و have",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "Can I ______ a suggestion? Why don't we meet on Tuesday?",
+      "payload": {
+        "before": "Can I ",
+        "after": " a suggestion? Why don't we meet on Tuesday?"
+      },
+      "answer": {
+        "accepted": [
+          "make"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "make و do و take و have",
+      "points": 1,
+      "type": "fill_blank",
+      "prompt": "She's ______ an evening course in English.",
+      "payload": {
+        "before": "She's ",
+        "after": " an evening course in English."
+      },
+      "answer": {
+        "accepted": [
+          "doing"
+        ]
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "make و do و take و have",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Which one is wrong?",
+      "payload": {
+        "options": [
+          "make a decision",
+          "do a mistake",
+          "take a break",
+          "have a rest"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "make a mistake لا do."
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "فهم المقروء",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Reading: what is the text mainly about?",
+      "payload": {
+        "options": [
+          "How to buy a train ticket in Japan.",
+          "A train accident in 2017.",
+          "Why people in Japan think time is so important.",
+          "Why foreigners like Japanese food."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "الفكرة العامّة."
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "فهم المقروء",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Reading: why did the company say sorry for a train that left only twenty seconds early?",
+      "payload": {
+        "options": [
+          "The train was dangerous.",
+          "Foreigners complained.",
+          "The driver was proud.",
+          "Some passengers who arrived on time missed it."
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": "استنتاج من الفقرة الثالثة."
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "فهم المقروء",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Reading: why shouldn't you arrive fifteen minutes before a meeting?",
+      "payload": {
+        "options": [
+          "Your host has to stop what they are doing.",
+          "The office is closed.",
+          "Trains are always late.",
+          "You will get a delay certificate."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "فهم المقروء",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Reading: according to the businessman, what is worse?",
+      "payload": {
+        "options": [
+          "Wasting your own time.",
+          "Wasting other people's time.",
+          "Arriving at the platform early.",
+          "Taking the train to work."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "استنتاج من الجملة الأخيرة."
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "فهم المقروء",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Reading: \"Foreigners found this hilarious.\" Hilarious means…",
+      "payload": {
+        "options": [
+          "very sad",
+          "very strange",
+          "very funny",
+          "very late"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "focus_ar": "فهم المقروء",
+      "points": 1,
+      "type": "multiple_choice",
+      "prompt": "Reading: \"…can be as awkward as arriving five minutes late.\" Awkward means…",
+      "payload": {
+        "options": [
+          "very fast",
+          "polite",
+          "boring",
+          "uncomfortable and embarrassing"
+        ]
+      },
+      "answer": {
+        "correct": 3
       },
       "explanation": null
     }

@@ -241,7 +241,7 @@ export default function SpeakingBrief({ speaking }: { speaking: SpeakingPayload 
                                 ? 'text-emerald-700'
                                 : 'text-slate-500'
                             }`}
-                            dir="ltr"
+                            dir="auto"
                           >
                             {lv}
                           </td>
