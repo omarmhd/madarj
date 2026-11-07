@@ -6,6 +6,7 @@ import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import { createRoot } from 'react-dom/client';
 import { useMemo, type ComponentType } from 'react';
 import { isolateDeep } from '@/lib/bidi';
+import { ensureDailyReminder } from '@/lib/reminder';
 
 const appName = import.meta.env.VITE_APP_NAME || 'مَدارِج';
 
@@ -83,6 +84,9 @@ createInertiaApp({
         const root = createRoot(el);
 
         root.render(<App {...props} />);
+
+        // Inside the Android/iOS app only; a no-op on the website
+        void ensureDailyReminder(document.documentElement.lang === 'en');
     },
     // The identity colour the admin chose (printed into <head> as
     // --accent), with a short delay so fast visits do not flash a bar

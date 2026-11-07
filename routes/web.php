@@ -79,6 +79,11 @@ Route::get('/certificates/{code}', [\App\Http\Controllers\CertificateController:
     ->where('code', 'MDJ-[A-Za-z0-9]{8}')
     ->name('certificates.show');
 
+// The privacy policy — public, because the app stores link to it
+Route::get('/privacy', fn () => \Inertia\Inertia::render('Privacy', [
+    'contact' => config('mail.from.address'),
+]))->name('privacy');
+
 Route::middleware(['auth', 'verified', \App\Http\Middleware\RequireSetup::class, \App\Http\Middleware\EnforceAccess::class])->group(function () {
     // The learner's certificates — earned, so open even after a trial ends
     Route::get('/certificates', [\App\Http\Controllers\CertificateController::class, 'index'])->name('certificates');

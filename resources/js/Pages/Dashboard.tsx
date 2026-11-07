@@ -6,6 +6,7 @@ import { useLocale, dirOf } from '@/lib/bilingual';
 import { useT } from '@/lib/i18n';
 import LevelCard, { type LevelData } from '@/Components/LevelCard';
 import { ArrowLeft, Award, BookOpen, CalendarCheck, Check, ChevronDown, ChevronLeft, ClipboardCheck, Flame, Gamepad2, Headphones, Lock, LockOpen, Mountain, Target, Trophy } from 'lucide-react';
+import { isNativeApp } from '@/lib/native';
 
 /** One tile style for everything optional, so the group reads as one */
 const TILE =
@@ -313,13 +314,13 @@ export default function Dashboard({
                 </p>
               </div>
 
-              <Link
+              {!isNativeApp() && <Link
                 href="/upgrade"
                 className="shrink-0 rounded-xl bg-white px-6 py-3 font-semibold text-violet-700
                            transition hover:bg-violet-50 active:scale-[.98]"
               >
                 {wall.pending ? tr('حالة طلبك') : <>{tr('اشترك للمتابعة')} <ArrowLeft aria-hidden size={15} className="inline-block align-[-3px]" /></>}
-              </Link>
+              </Link>}
             </div>
 
             {/* وأسبوعه الأول يبقى مفتوحاً — المراجعة خيرٌ من الانتظار */}

@@ -19,6 +19,7 @@ import DeleteUserForm from './Partials/DeleteUserForm';
 import UpdatePasswordForm from './Partials/UpdatePasswordForm';
 import UpdateProfileInformationForm from './Partials/UpdateProfileInformationForm';
 import { useT } from '@/lib/i18n';
+import { isNativeApp } from '@/lib/native';
 
 /**
  * The learner's account.
@@ -313,7 +314,7 @@ export default function Edit({
                 </dl>
 
                 {/* The way forward, when there is one to take */}
-                {(st === 'trial' || st === 'expired' || (sub.current && sub.current.days_left <= 7)) && (
+                {!isNativeApp() && (st === 'trial' || st === 'expired' || (sub.current && sub.current.days_left <= 7)) && (
                   <Link
                     href="/upgrade"
                     className="mt-4 block rounded-xl bg-violet-600 py-3 text-center text-sm font-semibold text-white hover:bg-violet-700"

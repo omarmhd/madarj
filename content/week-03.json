@@ -7,47 +7,51 @@
   "is_review": false,
   "objectives": [
     {
-      "en": "Ask and answer questions in the Present Simple with do and does",
-      "ar": "أسأل وأجيب في المضارع البسيط بـ do و does"
+      "en": "I can ask and answer simple questions about food and daily habits with do and does (Do you eat fish? — Yes, I do.)",
+      "ar": "أستطيع أن أسأل وأجيب أسئلة بسيطة عن الطعام والعادات بـ do و does (Do you eat fish? — Yes, I do.)"
     },
     {
-      "en": "Make negative sentences with don't and doesn't",
-      "ar": "أُكوّن جملاً منفية بـ don’t و doesn’t"
+      "en": "I can say what I and other people don't eat or drink, with no -s after doesn't",
+      "ar": "أستطيع أن أقول ما لا آكله ولا أشربه أنا وغيري، بلا s بعد doesn't"
     },
     {
-      "en": "Use the eight question words (what, where, when, who, why, how, how much, how many)",
-      "ar": "أستخدم أدوات الاستفهام الثمانية (what · where · when · who · why · how · how much · how many)"
+      "en": "I can use question words in the right order: What do you…? Where does she…?",
+      "ar": "أستطيع أن أستخدم أدوات الاستفهام بالترتيب الصحيح: What do you…? · Where does she…?"
     },
     {
-      "en": "Use a, an, some and any correctly with food",
-      "ar": "أستخدم a و an و some و any صحيحة مع الطعام"
+      "en": "I can use a, an, some and any with countable and uncountable food words, and choose how much or how many",
+      "ar": "أستطيع أن أستخدم a و an و some و any مع المعدود وغير المعدود، وأختار how much أو how many"
     },
     {
-      "en": "Order a meal in a restaurant from start to finish",
-      "ar": "أطلب وجبة في مطعم من البداية إلى النهاية"
+      "en": "I can ask for prices and quantities and understand the answer (How much are they? — Two pounds fifty. Half a kilo, please.)",
+      "ar": "أستطيع أن أسأل عن السعر والكمية وأفهم الجواب (How much are they? — Two pounds fifty. Half a kilo, please.)"
     },
     {
-      "en": "Ask about a price and understand the answer",
-      "ar": "أسأل عن السعر وأفهم الجواب"
+      "en": "I can order food and drink in a café or restaurant politely (I'd like…, Can I have…?) and ask for the bill",
+      "ar": "أستطيع أن أطلب طعاماً وشراباً في مقهى أو مطعم بأدب (I'd like… · Can I have…?) وأطلب الحساب"
     },
     {
-      "en": "Pronounce st-, sp-, sk-, str- without adding a vowel",
-      "ar": "أنطق st- و sp- و sk- و str- بلا إضافة حركة"
+      "en": "I can buy things in a shop or market: answer the seller, ask for an item, pay and take my change",
+      "ar": "أستطيع أن أشتري من متجر أو سوق: أردّ على البائع، وأطلب ما أريد، وأدفع وآخذ الباقي"
     },
     {
-      "en": "Write a message about food and shopping (80–100 words)",
-      "ar": "أكتب رسالة عن الطعام والتسوّق (80–100 كلمة)"
+      "en": "I can understand a short, slow text about shopping and find times, prices and quantities in it",
+      "ar": "أستطيع أن أفهم نصّاً قصيراً بطيئاً عن التسوّق وأجد فيه الأوقات والأسعار والكميات"
     },
     {
-      "en": "Perform a full restaurant role play from memory",
-      "ar": "أؤدّي مشهد المطعم كاملاً من الذاكرة"
+      "en": "I can write a short message (80–100 words) to a friend about food in my city, joining ideas with and, but, because and so",
+      "ar": "أستطيع أن أكتب رسالة قصيرة (80–100 كلمة) لصديق عن الطعام في مدينتي، وأربط الأفكار بـ and و but و because و so"
+    },
+    {
+      "en": "I can say st-, sp-, sk- and str- with no extra vowel (street, spoon, school)",
+      "ar": "أستطيع أن أنطق st- و sp- و sk- و str- بلا حركة زائدة (street · spoon · school)"
     }
   ],
   "writing": {
     "title_ar": "الكتابة — رسالة عن الطعام والتسوّق",
     "title_en": "Writing — A Message About Food",
-    "task_ar": "اكتب 80–100 كلمة عن طعامك وتسوّقك: أين تشتري، وماذا لا تشتري ولماذا، وما تحبّه وما لا تحبّه. استخدم النفي بـ don’t و doesn’t، و some و any.",
-    "task_en": "A friend is visiting your city next week and asks about food. Write 80–100 words. Include: where you shop, what you usually eat, one thing you don't eat, one question for your friend, and a recommendation.",
+    "task_ar": "صديق يزور مدينتك الأسبوع القادم ويسألك عن الطعام. اكتب له 80–100 كلمة: أين تتسوّق، وماذا تأكل عادةً، وشيئاً لا تأكله، وسؤالاً واحداً له، ومطعماً أو طبقاً تنصحه به. اربط أفكارك بـ and و but و because و so.",
+    "task_en": "A friend wants to visit your city next week and asks about food. Write 80–100 words. Include: where you shop, what you usually eat, one thing you don't eat, one question for your friend, and a recommendation.",
     "min_words": 80,
     "max_words": 100,
     "templates": [
@@ -61,47 +65,60 @@
       },
       {
         "en": "I usually buy my food at ____________ because ____________ .",
-        "ar": "عادةً أشتري طعامي من ___ لأن ___."
+        "ar": "عادةً أشتري طعامي من ___ لأن ___.",
+        "note_ar": "because = لأنّ: بعدها السبب في جملة كاملة"
       },
       {
-        "en": "For breakfast I normally have ____________ .",
-        "ar": "في الفطور آكل عادةً ___."
+        "en": "For breakfast I normally have ____________ and ____________ .",
+        "ar": "في الفطور آكل عادةً ___ و___.",
+        "note_ar": "and تجمع شيئين أو جملتين"
       },
       {
-        "en": "I don't eat ____________ .",
-        "ar": "أنا لا آكل ___."
+        "en": "I don't eat ____________ , but I ____________ .",
+        "ar": "لا آكل ___، لكنّي ___.",
+        "note_ar": "but = لكنْ: لفكرة عكس ما قبلها"
       },
       {
-        "en": "If you come, you must try ____________ . It is ____________ .",
-        "ar": "إن جئت فلا بدّ أن تجرّب ___. إنه ___."
+        "en": "When you come, try ____________ . It is ____________ .",
+        "ar": "حين تأتي جرّب ___. إنه ___."
+      },
+      {
+        "en": "It isn't expensive, so ____________ .",
+        "ar": "ليس غالياً، لذلك ___.",
+        "note_ar": "so = لذلك: بعدها النتيجة"
       },
       {
         "en": "Do you ____________ ?",
-        "ar": "هل ___؟"
+        "ar": "هل ___؟",
+        "note_ar": "السؤال بـ Do والفعل مجرّد"
+      },
+      {
+        "en": "See you soon,",
+        "ar": "أراك قريباً،"
       }
     ],
     "checklist": [
       {
-        "ar": "هل استخدمت don’t أو doesn’t مرّتين على الأقل، والفعل بعدها مجرّد بلا s؟"
+        "ar": "المحتوى: هل ذكرت الخمسة؟ أين تتسوّق · ماذا تأكل عادةً · شيئاً لا تأكله · سؤالاً لصديقك · مطعماً أو طبقاً تنصحه به"
       },
       {
-        "ar": "هل في سؤالك do أو does في مكانها الصحيح؟"
+        "ar": "تحقيق الغرض: هل هي رسالة لصديق — تحية في أولها (Hi …) وختام في آخرها (See you soon)؟ وهل يعرف صديقك بعدها أين يأكل؟"
       },
       {
-        "ar": "هل استخدمت some في جملة مثبتة و any في جملة منفية أو سؤال؟"
+        "ar": "التنظيم: هل ربطت الأفكار بـ and و but و because و so، ورتّبتها: التسوّق ثم الأكل ثم النصيحة ثم السؤال؟"
       },
       {
-        "ar": "هل استخدمت how much مع غير المعدود و how many مع المعدود؟"
+        "ar": "اللغة: don't و doesn't والفعل بعدهما بلا s · do أو does في السؤال · some في الإثبات و any في النفي والسؤال"
       },
       {
-        "ar": "هل بقيت الـ s في كل فعل مع he و she و it في الجمل المثبتة؟"
+        "ar": "اللغة: how much مع غير المعدود و how many مع المعدود · والـ s باقية مع he و she و it في الإثبات"
       },
       {
-        "ar": "هل المجموع بين 80 و100 كلمة؟"
+        "ar": "الطول: بين 80 و100 كلمة"
       }
     ],
-    "model_answer": "Hi Khaled, You ask about food here — it's very good! I usually buy my food at the old market because it is cheap and fresh. I don't go to the supermarket often. For breakfast I normally have bread, cheese and tea. I don't drink coffee. For lunch we usually eat rice with chicken or fish. When you come, you must try our fish restaurant near the sea. It isn't expensive — a full meal costs about twenty pounds. Do you eat spicy food? Some of our dishes are very hot! See you soon, Hani",
-    "model_words": 93,
+    "model_answer": "Hi Khaled,\nYou ask about food here. I usually buy my food at the old market because it is cheap and fresh. I don't go to the supermarket often. For breakfast I normally have bread, cheese and tea. I don't drink coffee, but my wife loves it. For lunch we usually eat rice with chicken or fish.\nWhen you come, try our fish restaurant near the sea. It isn't expensive, so we eat there a lot — a full meal costs about twenty pounds. Do you eat spicy food? Some of our dishes are very hot!\nSee you soon,\nHani",
+    "model_words": 99,
     "target_errors": [
       {
         "wrong": "He doesn't likes fish.",
@@ -135,19 +152,25 @@
           "ref": "vocab:food_and_drink"
         },
         {
+          "order": 3,
+          "label": "النطق — التجمّعات الساكنة",
+          "minutes": 15,
+          "ref": "section:phonics"
+        },
+        {
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 3
+          "order": 4
         },
         {
-          "order": 4,
+          "order": 5,
           "label": "لعبة التمييز الصوتي",
           "minutes": 10,
           "ref": "game:minimal_pairs"
         },
         {
-          "order": 5,
+          "order": 6,
           "label": "تمارين اليوم",
           "minutes": 5,
           "ref": "exercises:1"
@@ -156,16 +179,16 @@
           "label": "اكتب مثله",
           "minutes": 10,
           "ref": "imitate",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 10,
           "ref": "watch:S0S1M9bKlYk"
         },
         {
-          "order": 8,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
@@ -174,7 +197,7 @@
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 9
+          "order": 10
         }
       ]
     },
@@ -240,211 +263,25 @@
     },
     {
       "number": 3,
-      "focus": "القواعد · التمييز الصوتي",
+      "focus": "النفي والسؤال · تعابير الطعام · التمييز الصوتي",
       "tasks": [
         {
           "order": 1,
           "label": "مراجعة المفردات — تكرار متباعد",
-          "minutes": 10,
+          "minutes": 5,
           "ref": "review:vocab"
         },
         {
           "order": 2,
-          "label": "القواعد",
-          "minutes": 25,
-          "ref": "section:grammar"
+          "label": "تعابير الطعام",
+          "minutes": 15,
+          "ref": "vocab:food_collocations"
         },
         {
           "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 10,
-          "ref": "game:minimal_pairs"
-        },
-        {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 4
-        },
-        {
-          "order": 5,
-          "label": "تمارين اليوم",
-          "minutes": 5,
-          "ref": "exercises:3"
-        },
-        {
-          "label": "اكتب مثله",
-          "minutes": 10,
-          "ref": "imitate",
-          "order": 6
-        },
-        {
-          "order": 7,
-          "label": "قصة اليوم",
-          "minutes": 10,
-          "ref": "story:the-gingerbread-man"
-        },
-        {
-          "order": 8,
-          "label": "تحدّي اليوم",
-          "minutes": 3,
-          "ref": "play:match_race"
-        },
-        {
-          "label": "مغامرة اليوم",
-          "minutes": 10,
-          "ref": "homework",
-          "order": 9
-        }
-      ]
-    },
-    {
-      "number": 4,
-      "focus": "القواعد · التمييز الصوتي",
-      "tasks": [
-        {
-          "order": 1,
-          "label": "مراجعة المفردات — تكرار متباعد",
-          "minutes": 10,
-          "ref": "review:vocab"
-        },
-        {
-          "order": 2,
-          "label": "القواعد",
+          "label": "القواعد — النفي والسؤال",
           "minutes": 25,
           "ref": "section:grammar"
-        },
-        {
-          "order": 3,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 10,
-          "ref": "game:minimal_pairs"
-        },
-        {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 4
-        },
-        {
-          "order": 5,
-          "label": "تمارين اليوم",
-          "minutes": 5,
-          "ref": "exercises:4"
-        },
-        {
-          "label": "اكتب مثله",
-          "minutes": 10,
-          "ref": "imitate",
-          "order": 6
-        },
-        {
-          "order": 7,
-          "label": "حلقة اليوم",
-          "minutes": 10,
-          "ref": "watch:GlNbzAGZC2M"
-        },
-        {
-          "order": 8,
-          "label": "تحدّي اليوم",
-          "minutes": 3,
-          "ref": "play:error_hunt"
-        },
-        {
-          "label": "مغامرة اليوم",
-          "minutes": 10,
-          "ref": "homework",
-          "order": 9
-        }
-      ]
-    },
-    {
-      "number": 5,
-      "focus": "عبارات المطعم · الحوار الأول · التمييز الصوتي",
-      "tasks": [
-        {
-          "order": 1,
-          "label": "مراجعة المفردات — تكرار متباعد",
-          "minutes": 10,
-          "ref": "review:vocab"
-        },
-        {
-          "label": "الكلمات",
-          "minutes": 15,
-          "ref": "vocab:restaurant_phrases",
-          "order": 2
-        },
-        {
-          "label": "الحوار",
-          "minutes": 15,
-          "ref": "dialogue:1",
-          "order": 3
-        },
-        {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 4
-        },
-        {
-          "order": 5,
-          "label": "لعبة التمييز الصوتي",
-          "minutes": 10,
-          "ref": "game:minimal_pairs"
-        },
-        {
-          "order": 6,
-          "label": "تمارين اليوم",
-          "minutes": 5,
-          "ref": "exercises:5"
-        },
-        {
-          "label": "اكتب مثله",
-          "minutes": 10,
-          "ref": "imitate",
-          "order": 7
-        },
-        {
-          "order": 8,
-          "label": "حلقة اليوم",
-          "minutes": 15,
-          "ref": "watch:Xdw8AFxyC0k"
-        },
-        {
-          "order": 9,
-          "label": "تحدّي اليوم",
-          "minutes": 3,
-          "ref": "play:match_race"
-        },
-        {
-          "label": "مغامرة اليوم",
-          "minutes": 10,
-          "ref": "homework",
-          "order": 10
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "focus": "الحوار الثاني · الاستماع · التمييز الصوتي",
-      "tasks": [
-        {
-          "order": 1,
-          "label": "مراجعة المفردات — تكرار متباعد",
-          "minutes": 10,
-          "ref": "review:vocab"
-        },
-        {
-          "label": "الحوار",
-          "minutes": 15,
-          "ref": "dialogue:2",
-          "order": 2
-        },
-        {
-          "label": "الاستماع",
-          "minutes": 15,
-          "ref": "section:listening",
-          "order": 3
         },
         {
           "order": 4,
@@ -461,8 +298,8 @@
         {
           "order": 6,
           "label": "تمارين اليوم",
-          "minutes": 5,
-          "ref": "exercises:6"
+          "minutes": 20,
+          "ref": "exercises:3"
         },
         {
           "label": "اكتب مثله",
@@ -474,7 +311,73 @@
           "order": 8,
           "label": "قصة اليوم",
           "minutes": 10,
-          "ref": "story:fox-and-grapes"
+          "ref": "story:the-gingerbread-man"
+        },
+        {
+          "order": 9,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:match_race"
+        },
+        {
+          "label": "مغامرة اليوم",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "focus": "أدوات الاستفهام · المعدود وغير المعدود · التمييز الصوتي",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 10,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "الأوعية والكميات",
+          "minutes": 15,
+          "ref": "vocab:containers_and_quantities"
+        },
+        {
+          "order": 3,
+          "label": "القواعد — أدوات الاستفهام والمعدود",
+          "minutes": 20,
+          "ref": "section:grammar"
+        },
+        {
+          "order": 4,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 5
+        },
+        {
+          "order": 6,
+          "label": "تمارين اليوم",
+          "minutes": 25,
+          "ref": "exercises:4"
+        },
+        {
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 7
+        },
+        {
+          "order": 8,
+          "label": "حلقة اليوم",
+          "minutes": 5,
+          "ref": "watch:GlNbzAGZC2M"
         },
         {
           "order": 9,
@@ -491,8 +394,152 @@
       ]
     },
     {
+      "number": 5,
+      "focus": "عبارات المطعم · الحوار الأول · الطلب المؤدّب",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 5,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "عبارات المطعم",
+          "minutes": 15,
+          "ref": "vocab:restaurant_phrases"
+        },
+        {
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:1",
+          "order": 3
+        },
+        {
+          "order": 4,
+          "label": "القواعد — الطلب المؤدّب والسعر",
+          "minutes": 15,
+          "ref": "section:grammar"
+        },
+        {
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 5
+        },
+        {
+          "order": 6,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "order": 7,
+          "label": "تمارين اليوم",
+          "minutes": 15,
+          "ref": "exercises:5"
+        },
+        {
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 8
+        },
+        {
+          "order": 9,
+          "label": "حلقة اليوم",
+          "minutes": 10,
+          "ref": "watch:Xdw8AFxyC0k"
+        },
+        {
+          "order": 10,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:match_race"
+        },
+        {
+          "label": "مغامرة اليوم",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 11
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "focus": "في المتجر · الحوار الثاني · الاستماع",
+      "tasks": [
+        {
+          "order": 1,
+          "label": "مراجعة المفردات — تكرار متباعد",
+          "minutes": 5,
+          "ref": "review:vocab"
+        },
+        {
+          "order": 2,
+          "label": "في المتجر",
+          "minutes": 15,
+          "ref": "vocab:in_a_shop"
+        },
+        {
+          "label": "الحوار",
+          "minutes": 15,
+          "ref": "dialogue:2",
+          "order": 3
+        },
+        {
+          "label": "الاستماع",
+          "minutes": 15,
+          "ref": "section:listening",
+          "order": 4
+        },
+        {
+          "order": 5,
+          "label": "لعبة التمييز الصوتي",
+          "minutes": 10,
+          "ref": "game:minimal_pairs"
+        },
+        {
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review",
+          "order": 6
+        },
+        {
+          "order": 7,
+          "label": "تمارين اليوم",
+          "minutes": 10,
+          "ref": "exercises:6"
+        },
+        {
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate",
+          "order": 8
+        },
+        {
+          "order": 9,
+          "label": "قصة اليوم",
+          "minutes": 10,
+          "ref": "story:fox-and-grapes"
+        },
+        {
+          "order": 10,
+          "label": "تحدّي اليوم",
+          "minutes": 3,
+          "ref": "play:error_hunt"
+        },
+        {
+          "label": "مغامرة اليوم",
+          "minutes": 10,
+          "ref": "homework",
+          "order": 11
+        }
+      ]
+    },
+    {
       "number": 7,
-      "focus": "القراءة · الكتابة · التمييز الصوتي",
+      "focus": "القراءة · الكتابة · التحدّث · إنتاج النطق",
       "tasks": [
         {
           "order": 1,
@@ -525,15 +572,21 @@
           "ref": "game:minimal_pairs"
         },
         {
+          "order": 6,
+          "label": "إنتاج التجمّعات الساكنة",
+          "minutes": 10,
+          "ref": "pron:production"
+        },
+        {
           "label": "مراجعة الإملاء",
           "minutes": 10,
           "ref": "spell:review",
-          "order": 6
+          "order": 7
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "تمارين اليوم",
-          "minutes": 5,
+          "minutes": 15,
           "ref": "exercises:7"
         },
         {
@@ -661,7 +714,7 @@
       "word": "butter",
       "ipa": "/ˈbʌtə(r)/",
       "arabic": "زبدة",
-      "example": "Bread and butter.",
+      "example": "I have bread and butter for breakfast.",
       "group_label_ar": "الطعام والشراب",
       "group_label_en": "Food and Drink",
       "target": "butter",
@@ -700,7 +753,7 @@
       "word": "oil",
       "ipa": "/ɔɪl/",
       "arabic": "زيت",
-      "example": "We cook with olive oil.",
+      "example": "A bottle of olive oil costs ten pounds.",
       "group_label_ar": "الطعام والشراب",
       "group_label_en": "Food and Drink",
       "target": "oil",
@@ -765,7 +818,7 @@
       "word": "coffee",
       "ipa": "/ˈkɒfi/",
       "arabic": "قهوة",
-      "example": "He drinks black coffee.",
+      "example": "I'd like a black coffee, please.",
       "group_label_ar": "الطعام والشراب",
       "group_label_en": "Food and Drink",
       "target": "coffee",
@@ -791,7 +844,7 @@
       "word": "apple",
       "ipa": "/ˈæpl/",
       "arabic": "تفاحة",
-      "example": "An apple a day.",
+      "example": "I eat an apple every day.",
       "group_label_ar": "الطعام والشراب",
       "group_label_en": "Food and Drink",
       "target": "apple",
@@ -843,7 +896,7 @@
       "word": "tomato",
       "ipa": "/təˈmɑːtəʊ/",
       "arabic": "طماطم",
-      "example": "Plural: tomatoes.",
+      "example": "I need two kilos of tomatoes.",
       "group_label_ar": "الطعام والشراب",
       "group_label_en": "Food and Drink",
       "target": "tomato",
@@ -856,7 +909,7 @@
       "word": "potato",
       "ipa": "/pəˈteɪtəʊ/",
       "arabic": "بطاطس",
-      "example": "Plural: potatoes.",
+      "example": "We don't have any potatoes.",
       "group_label_ar": "الطعام والشراب",
       "group_label_en": "Food and Drink",
       "target": "potato",
@@ -882,7 +935,7 @@
       "word": "vegetable",
       "ipa": "/ˈvedʒtəbl/",
       "arabic": "خضار",
-      "example": "Eat your vegetables!",
+      "example": "Vegetables are cheap at the market.",
       "group_label_ar": "الطعام والشراب",
       "group_label_en": "Food and Drink",
       "target": "vegetable",
@@ -1324,7 +1377,7 @@
       "word": "bottle",
       "ipa": "/ˈbɒtl/",
       "arabic": "زجاجة",
-      "example": "A bottle of water.",
+      "example": "Where is my bottle of water?",
       "group_label_ar": "التسوّق والمال",
       "group_label_en": "Shopping and Money",
       "target": "bottle",
@@ -1402,7 +1455,7 @@
       "word": "A table for two, please.",
       "ipa": null,
       "arabic": "طاولة لشخصين من فضلك",
-      "example": "Customer",
+      "example": "Good evening. A table for two, please.",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": null,
@@ -1415,7 +1468,7 @@
       "word": "Can I see the menu, please?",
       "ipa": null,
       "arabic": "هل يمكنني رؤية القائمة؟",
-      "example": "Customer",
+      "example": "Excuse me, can I see the menu, please?",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": null,
@@ -1428,7 +1481,7 @@
       "word": "Are you ready to order?",
       "ipa": null,
       "arabic": "هل أنت مستعد للطلب؟",
-      "example": "Waiter",
+      "example": "Are you ready to order? — Yes. I'd like the fish, please.",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": null,
@@ -1441,7 +1494,7 @@
       "word": "I'd like the chicken, please.",
       "ipa": null,
       "arabic": "أريد الدجاج من فضلك",
-      "example": "Customer",
+      "example": "I'd like the chicken, please, with rice.",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": null,
@@ -1454,7 +1507,7 @@
       "word": "Can I have a salad, please?",
       "ipa": null,
       "arabic": "هل يمكنني الحصول على سلطة؟",
-      "example": "Customer",
+      "example": "Can I have a salad, please? No onions.",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": null,
@@ -1467,7 +1520,7 @@
       "word": "Anything to drink?",
       "ipa": null,
       "arabic": "أي شيء للشرب؟",
-      "example": "Waiter",
+      "example": "Anything to drink? — Just water, please.",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": null,
@@ -1480,7 +1533,7 @@
       "word": "Just water, please.",
       "ipa": null,
       "arabic": "ماء فقط من فضلك",
-      "example": "Customer",
+      "example": "I don't want juice. Just water, please.",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": null,
@@ -1493,7 +1546,7 @@
       "word": "Is it spicy?",
       "ipa": null,
       "arabic": "هل هو حار؟",
-      "example": "Customer",
+      "example": "Is it spicy? My son doesn't like spicy food.",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": "Is it spicy",
@@ -1506,7 +1559,7 @@
       "word": "I don't eat meat.",
       "ipa": null,
       "arabic": "أنا لا آكل اللحم",
-      "example": "Customer",
+      "example": "I don't eat meat. Do you have any fish?",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": null,
@@ -1519,7 +1572,7 @@
       "word": "What do you recommend?",
       "ipa": null,
       "arabic": "بماذا تنصح؟",
-      "example": "Customer",
+      "example": "What do you recommend? — The chicken is very good.",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": null,
@@ -1532,7 +1585,7 @@
       "word": "Enjoy your meal.",
       "ipa": null,
       "arabic": "بالهناء والشفاء",
-      "example": "Waiter",
+      "example": "Here is your food. Enjoy your meal.",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": "Enjoy your meal",
@@ -1545,7 +1598,7 @@
       "word": "Excuse me!",
       "ipa": null,
       "arabic": "من فضلك / لو سمحت",
-      "example": "Customer (calling the waiter)",
+      "example": "Excuse me! Can I have some water, please?",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": "Excuse me",
@@ -1558,7 +1611,7 @@
       "word": "Can we have the bill, please?",
       "ipa": null,
       "arabic": "الحساب من فضلك",
-      "example": "Customer",
+      "example": "Excuse me, can we have the bill, please?",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": null,
@@ -1571,7 +1624,7 @@
       "word": "How much is it?",
       "ipa": null,
       "arabic": "كم سعره؟",
-      "example": "Customer",
+      "example": "How much is it? — It's five pounds.",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": null,
@@ -1584,7 +1637,7 @@
       "word": "Do you take cards?",
       "ipa": null,
       "arabic": "هل تقبلون البطاقات؟",
-      "example": "Customer",
+      "example": "Do you take cards? — Yes, of course.",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": null,
@@ -1597,7 +1650,7 @@
       "word": "Keep the change.",
       "ipa": null,
       "arabic": "احتفظ بالباقي",
-      "example": "Customer",
+      "example": "Here's twenty pounds. Keep the change.",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": "Keep the change",
@@ -1610,7 +1663,7 @@
       "word": "How much is this?",
       "ipa": null,
       "arabic": "بكم هذا؟",
-      "example": "Shopping",
+      "example": "How much is this? — It's three pounds fifty.",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": null,
@@ -1623,7 +1676,7 @@
       "word": "That's too expensive.",
       "ipa": null,
       "arabic": "هذا غالٍ جداً",
-      "example": "Shopping",
+      "example": "Fifty pounds? That's too expensive.",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": "That's too expensive",
@@ -1636,7 +1689,7 @@
       "word": "Do you have any…?",
       "ipa": null,
       "arabic": "هل لديكم …؟",
-      "example": "Shopping",
+      "example": "Do you have any fresh bread?",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": null,
@@ -1649,7 +1702,7 @@
       "word": "I'll take it.",
       "ipa": null,
       "arabic": "سآخذه",
-      "example": "Shopping",
+      "example": "Only ten pounds? OK, I'll take it.",
       "group_label_ar": "عبارات المطعم",
       "group_label_en": "Restaurant Phrases",
       "target": "I'll take it",
@@ -1662,7 +1715,7 @@
       "word": "a bottle of",
       "ipa": null,
       "arabic": "قنينة من",
-      "example": "a bottle of water",
+      "example": "We need a bottle of oil.",
       "group_label_ar": "المكاييل والعلب",
       "group_label_en": "Containers and Quantities",
       "target": "a bottle of",
@@ -1675,7 +1728,7 @@
       "word": "a cup of",
       "ipa": null,
       "arabic": "فنجان من",
-      "example": "a cup of tea",
+      "example": "I have a cup of tea every morning.",
       "group_label_ar": "المكاييل والعلب",
       "group_label_en": "Containers and Quantities",
       "target": "a cup of",
@@ -1688,7 +1741,7 @@
       "word": "a glass of",
       "ipa": null,
       "arabic": "كأس من",
-      "example": "a glass of juice",
+      "example": "Can I have a glass of juice, please?",
       "group_label_ar": "المكاييل والعلب",
       "group_label_en": "Containers and Quantities",
       "target": "a glass of",
@@ -1701,7 +1754,7 @@
       "word": "a piece of",
       "ipa": null,
       "arabic": "قطعة من",
-      "example": "a piece of cake",
+      "example": "Would you like a piece of cake?",
       "group_label_ar": "المكاييل والعلب",
       "group_label_en": "Containers and Quantities",
       "target": "a piece of",
@@ -1714,7 +1767,7 @@
       "word": "a kilo of",
       "ipa": null,
       "arabic": "كيلو من",
-      "example": "a kilo of rice",
+      "example": "A kilo of rice costs two pounds.",
       "group_label_ar": "المكاييل والعلب",
       "group_label_en": "Containers and Quantities",
       "target": "a kilo of",
@@ -1727,7 +1780,7 @@
       "word": "a slice of",
       "ipa": null,
       "arabic": "شريحة من",
-      "example": "a slice of bread",
+      "example": "I eat a slice of bread with cheese.",
       "group_label_ar": "المكاييل والعلب",
       "group_label_en": "Containers and Quantities",
       "target": "a slice of",
@@ -1740,7 +1793,7 @@
       "word": "a packet of",
       "ipa": null,
       "arabic": "كيس / علبة من",
-      "example": "a packet of sugar",
+      "example": "We need a packet of sugar.",
       "group_label_ar": "المكاييل والعلب",
       "group_label_en": "Containers and Quantities",
       "target": "a packet of",
@@ -1753,7 +1806,7 @@
       "word": "a bag of",
       "ipa": null,
       "arabic": "كيس من",
-      "example": "a bag of apples",
+      "example": "She buys a bag of apples.",
       "group_label_ar": "المكاييل والعلب",
       "group_label_en": "Containers and Quantities",
       "target": "a bag of",
@@ -1766,7 +1819,7 @@
       "word": "a box of",
       "ipa": null,
       "arabic": "صندوق من",
-      "example": "a box of eggs",
+      "example": "A box of eggs, please.",
       "group_label_ar": "المكاييل والعلب",
       "group_label_en": "Containers and Quantities",
       "target": "a box of",
@@ -1779,7 +1832,7 @@
       "word": "a can of",
       "ipa": null,
       "arabic": "علبة معدنية من",
-      "example": "a can of cola",
+      "example": "He drinks a can of cola with his lunch.",
       "group_label_ar": "المكاييل والعلب",
       "group_label_en": "Containers and Quantities",
       "target": "a can of",
@@ -1792,7 +1845,7 @@
       "word": "a lot of",
       "ipa": null,
       "arabic": "كثير من",
-      "example": "a lot of fruit",
+      "example": "We eat a lot of fruit.",
       "group_label_ar": "المكاييل والعلب",
       "group_label_en": "Containers and Quantities",
       "target": "a lot of",
@@ -1805,7 +1858,7 @@
       "word": "a little",
       "ipa": null,
       "arabic": "قليل من — لغير المعدود",
-      "example": "a little salt",
+      "example": "I put a little salt in the soup.",
       "group_label_ar": "المكاييل والعلب",
       "group_label_en": "Containers and Quantities",
       "target": "a little",
@@ -1818,7 +1871,7 @@
       "word": "a few",
       "ipa": null,
       "arabic": "قليل من — للمعدود",
-      "example": "a few tomatoes",
+      "example": "I need a few tomatoes.",
       "group_label_ar": "المكاييل والعلب",
       "group_label_en": "Containers and Quantities",
       "target": "a few",
@@ -1831,7 +1884,7 @@
       "word": "half a",
       "ipa": null,
       "arabic": "نصف",
-      "example": "half a kilo",
+      "example": "Half a kilo of onions, please.",
       "group_label_ar": "المكاييل والعلب",
       "group_label_en": "Containers and Quantities",
       "target": "half a",
@@ -1844,7 +1897,7 @@
       "word": "some",
       "ipa": null,
       "arabic": "بعض",
-      "example": "some bread",
+      "example": "I want some bread, please.",
       "group_label_ar": "المكاييل والعلب",
       "group_label_en": "Containers and Quantities",
       "target": "some",
@@ -2007,6 +2060,188 @@
       "sentence": "I want a hat for my son.",
       "sentence_ar": "أريد قبّعة لابني.",
       "usage_ar": "تُنطق /hæt/ بفتحة واسعة — وليست hot (حارّ)."
+    },
+    {
+      "group": "food_collocations",
+      "word": "go shopping",
+      "ipa": null,
+      "arabic": "يذهب للتسوّق",
+      "example": "We go shopping on Friday morning."
+    },
+    {
+      "group": "food_collocations",
+      "word": "do the shopping",
+      "ipa": null,
+      "arabic": "يشتري حاجات البيت",
+      "example": "My wife and I do the shopping together."
+    },
+    {
+      "group": "food_collocations",
+      "word": "eat out",
+      "ipa": null,
+      "arabic": "يأكل خارج البيت (في مطعم)",
+      "example": "We eat out once a week."
+    },
+    {
+      "group": "food_collocations",
+      "word": "make tea",
+      "ipa": null,
+      "arabic": "يُعِدّ الشاي",
+      "example": "My father makes tea every evening."
+    },
+    {
+      "group": "food_collocations",
+      "word": "make a sandwich",
+      "ipa": null,
+      "arabic": "يُعِدّ شطيرة",
+      "example": "I make a sandwich for lunch."
+    },
+    {
+      "group": "food_collocations",
+      "word": "have lunch",
+      "ipa": null,
+      "arabic": "يتغدّى",
+      "example": "We have lunch at two o'clock."
+    },
+    {
+      "group": "food_collocations",
+      "word": "pay by card",
+      "ipa": null,
+      "arabic": "يدفع بالبطاقة",
+      "example": "I always pay by card at the supermarket."
+    },
+    {
+      "group": "food_collocations",
+      "word": "pay in cash",
+      "ipa": null,
+      "arabic": "يدفع نقداً",
+      "example": "Mario's customers pay in cash."
+    },
+    {
+      "group": "food_collocations",
+      "word": "fast food",
+      "ipa": null,
+      "arabic": "الوجبات السريعة",
+      "example": "My children love fast food."
+    },
+    {
+      "group": "food_collocations",
+      "word": "black coffee",
+      "ipa": null,
+      "arabic": "قهوة بلا حليب",
+      "example": "He drinks black coffee with no sugar."
+    },
+    {
+      "group": "food_collocations",
+      "word": "fresh fruit",
+      "ipa": null,
+      "arabic": "فاكهة طازجة",
+      "example": "The small shop sells fresh fruit."
+    },
+    {
+      "group": "food_collocations",
+      "word": "olive oil",
+      "ipa": null,
+      "arabic": "زيت الزيتون",
+      "example": "We cook with olive oil."
+    },
+    {
+      "group": "in_a_shop",
+      "word": "Can I help you?",
+      "ipa": null,
+      "arabic": "هل أساعدك؟ (يقولها البائع)",
+      "example": "Can I help you? — Yes. How much is this bag?"
+    },
+    {
+      "group": "in_a_shop",
+      "word": "I'm just looking, thank you.",
+      "ipa": null,
+      "arabic": "أتفرّج فقط، شكراً",
+      "example": "Can I help you? — I'm just looking, thank you."
+    },
+    {
+      "group": "in_a_shop",
+      "word": "How much are they?",
+      "ipa": null,
+      "arabic": "بكم هي؟ (للجمع)",
+      "example": "I like these shoes. How much are they?"
+    },
+    {
+      "group": "in_a_shop",
+      "word": "It's two pounds fifty.",
+      "ipa": null,
+      "arabic": "بجنيهين وخمسين قرشاً",
+      "example": "How much is the milk? — It's two pounds fifty."
+    },
+    {
+      "group": "in_a_shop",
+      "word": "Anything else?",
+      "ipa": null,
+      "arabic": "أيّ شيء آخر؟",
+      "example": "Two kilos of onions. Anything else?"
+    },
+    {
+      "group": "in_a_shop",
+      "word": "That's all, thank you.",
+      "ipa": null,
+      "arabic": "هذا كل شيء، شكراً",
+      "example": "Anything else? — No, that's all, thank you."
+    },
+    {
+      "group": "in_a_shop",
+      "word": "Cash or card?",
+      "ipa": null,
+      "arabic": "نقداً أم بالبطاقة؟",
+      "example": "That's twelve pounds. Cash or card?"
+    },
+    {
+      "group": "in_a_shop",
+      "word": "By card, please.",
+      "ipa": null,
+      "arabic": "بالبطاقة من فضلك",
+      "example": "Cash or card? — By card, please."
+    },
+    {
+      "group": "in_a_shop",
+      "word": "Here you are.",
+      "ipa": null,
+      "arabic": "تفضّل (وأنت تعطي شيئاً)",
+      "example": "That's five pounds. — Here you are."
+    },
+    {
+      "group": "in_a_shop",
+      "word": "Here's your change.",
+      "ipa": null,
+      "arabic": "هذا باقي نقودك",
+      "example": "Thank you. Here's your change."
+    },
+    {
+      "group": "in_a_shop",
+      "word": "Two of these, please.",
+      "ipa": null,
+      "arabic": "اثنان من هذه من فضلك",
+      "example": "These apples look good. Two of these, please."
+    },
+    {
+      "group": "in_a_shop",
+      "word": "It's too big.",
+      "ipa": null,
+      "arabic": "إنه كبير أكثر من اللازم",
+      "example": "This shirt is nice, but it's too big."
+    },
+    {
+      "group": "in_a_shop",
+      "word": "Do you have a small one?",
+      "ipa": null,
+      "arabic": "هل عندك واحد صغير؟",
+      "example": "This jacket is too big. Do you have a small one?"
+    },
+    {
+      "group": "in_a_shop",
+      "word": "Where is the milk, please?",
+      "ipa": null,
+      "arabic": "أين الحليب من فضلك؟",
+      "example": "Excuse me, where is the milk, please? — It's over there."
     }
   ],
   "minimal_pairs": [
@@ -2055,24 +2290,8 @@
       "group_label_ar": "تجمّع السواكن",
       "hint_ar": "الإنجليزية تجمع ساكنين وثلاثة بلا حركة بينها: street و asked. والعربية تُدخل حركة فتصير «إستريت» — والمطلوب ألّا تُدخلها. ابدأ بطيئاً موصولاً ثم أسرع.",
       "ipa": null,
-      "word_a": "plight",
-      "word_b": "polite"
-    },
-    {
-      "group_label": "Consonant Clusters",
-      "group_label_ar": "تجمّع السواكن",
-      "hint_ar": "الإنجليزية تجمع ساكنين وثلاثة بلا حركة بينها: street و asked. والعربية تُدخل حركة فتصير «إستريت» — والمطلوب ألّا تُدخلها. ابدأ بطيئاً موصولاً ثم أسرع.",
-      "ipa": null,
       "word_a": "prayed",
       "word_b": "parade"
-    },
-    {
-      "group_label": "Consonant Clusters",
-      "group_label_ar": "تجمّع السواكن",
-      "hint_ar": "الإنجليزية تجمع ساكنين وثلاثة بلا حركة بينها: street و asked. والعربية تُدخل حركة فتصير «إستريت» — والمطلوب ألّا تُدخلها. ابدأ بطيئاً موصولاً ثم أسرع.",
-      "ipa": null,
-      "word_a": "steam",
-      "word_b": "esteem"
     },
     {
       "group_label": "Consonant Clusters",
@@ -2213,7 +2432,7 @@
     {
       "number": 2,
       "title": "At the Market",
-      "situation_en": "",
+      "situation_en": "Sami buys vegetables and chicken at the market. He asks about prices and quantities, and pays.",
       "situation_ar": "حوار في السوق: السؤال عن الأسعار والكميات والشراء.",
       "speaker_genders": {
         "SAMI": "m",
@@ -2291,7 +2510,7 @@
       "title_en": "Grammar — Negatives and Questions",
       "payload": {
         "rule_ar": "المضارع البسيط لا يُنفى ولا يُسأل به مباشرة. يحتاج فعلاً مساعداً: do مع I و you و we و they، و does مع he و she و it. والقاعدة الحاسمة: بعد do أو does يأتي الفعل مجرّداً — لأن الـ s تنتقل إلى does.",
-        "rule_en": "I / You / We / They  +  don't   +  base verb",
+        "rule_en": "I / You / We / They + don't + base verb · He / She / It + doesn't + base verb · Do / Does + subject + base verb? · Question word + do / does + subject + base verb?",
         "table": {
           "columns_ar": [
             "الضمير",
@@ -2336,7 +2555,7 @@
             ]
           ]
         },
-        "arabic_contrast_ar": "العربية تنفي بحرف واحد: «لا أعمل». والإنجليزية تحتاج فعلاً مساعداً كاملاً. ولهذا يقول المتحدث بالعربية «I not work» أو «Where you work?» — يترجم البنية العربية حرفياً.",
+        "arabic_contrast_ar": "العربية تنفي بحرف واحد: «لا أعمل»، وتسأل بلا فعل مساعد: «أين تعمل؟». والإنجليزية تحتاج فعلاً مساعداً كاملاً في النفي والسؤال: I don't work · Where do you work? ولهذا يقول المتحدث بالعربية «I not work» أو «Where you work?» — يترجم البنية العربية حرفياً. والفخّ الثاني في الأسماء: «أريد خبزاً» و«معلومات» و«أموال» تُعدّ في العربية، وbread و information و money لا تُعدّ في الإنجليزية، فلا تأخذ a ولا s، ونسأل عنها بـ how much.",
         "question_words": [
           {
             "en": "what",
@@ -2405,6 +2624,34 @@
             "wrong": "How much apples?",
             "right": "How many apples?",
             "why_ar": "apples معدودة"
+          },
+          {
+            "error_no": null,
+            "wrong": "She not eat breakfast.",
+            "right": "She doesn't eat breakfast.",
+            "arabic": "هي لا تأكل الفطور",
+            "why_ar": "النفي يحتاج doesn't، ولا تكفي not وحدها"
+          },
+          {
+            "error_no": 5,
+            "wrong": "What time does open the shop?",
+            "right": "What time does the shop open?",
+            "arabic": "متى يفتح المتجر؟",
+            "why_ar": "الترتيب: أداة + does + الفاعل + الفعل"
+          },
+          {
+            "error_no": null,
+            "wrong": "I want a bread.",
+            "right": "I want some bread.",
+            "arabic": "أريد خبزاً",
+            "why_ar": "bread لا تُعدّ فلا تأخذ a"
+          },
+          {
+            "error_no": null,
+            "wrong": "We don't have some money.",
+            "right": "We don't have any money.",
+            "arabic": "ليس معنا أيّ مال",
+            "why_ar": "في النفي any لا some"
           }
         ],
         "negation_ar": "النفي: I don’t like · He doesn’t like — والفعل بعدهما مجرّد",
@@ -2417,7 +2664,9 @@
           "any في النفي والسؤال · some في الإثبات",
           "بعد الفعل: me · him · her · it · us · them — ولا يُحذف المفعول",
           "الكلام العامّ بلا the: I like coffee",
-          "I'd like للطلب المؤدّب · Would you like…? للعرض"
+          "I'd like للطلب المؤدّب · Would you like…? للعرض",
+          "في السؤال: الأداة ثم do/does ثم الفاعل ثم الفعل",
+          "للسعر: How much is…? للمفرد · How much are…? للجمع"
         ],
         "lessons": [
           {
@@ -2738,6 +2987,417 @@
               }
             ],
             "tip_ar": "والاختبار كما في درس how much: إن لم تستطع أن تقول «two ___» فالكلمة لا تُجمع. two informations؟ لا ← information لا تُجمع."
+          },
+          {
+            "title_ar": "ترتيب السؤال: الأداة + do/does + الفاعل + الفعل",
+            "title_en": "Word order in questions",
+            "explain_ar": "العربية تسأل بالأداة ثم الفعل مباشرة: «أين تعمل؟». والإنجليزية تضع بين الأداة والفاعل فعلاً مساعداً: Where do you work? والترتيب ثابت: أداة الاستفهام، ثم do أو does، ثم الفاعل، ثم الفعل المجرّد. وإن كان في السؤال is أو are فلا do: Where is the market? · How much is it?",
+            "table": {
+              "columns_ar": [
+                "الأداة",
+                "do / does",
+                "الفاعل",
+                "الفعل",
+                "السؤال كاملاً"
+              ],
+              "rows": [
+                [
+                  "What",
+                  "do",
+                  "you",
+                  "eat",
+                  "What do you eat for breakfast?"
+                ],
+                [
+                  "Where",
+                  "does",
+                  "she",
+                  "work",
+                  "Where does she work?"
+                ],
+                [
+                  "When",
+                  "does",
+                  "the shop",
+                  "open",
+                  "When does the shop open?"
+                ],
+                [
+                  "What time",
+                  "do",
+                  "they",
+                  "close",
+                  "What time do they close?"
+                ],
+                [
+                  "How many eggs",
+                  "do",
+                  "you",
+                  "want",
+                  "How many eggs do you want?"
+                ],
+                [
+                  "How much",
+                  "does",
+                  "it",
+                  "cost",
+                  "How much does it cost?"
+                ]
+              ],
+              "say": 4
+            },
+            "errors": [
+              {
+                "wrong": "Where you work?",
+                "right": "Where do you work?",
+                "why_ar": "لا سؤال بلا do في المضارع البسيط"
+              },
+              {
+                "wrong": "What time does open the shop?",
+                "right": "What time does the shop open?",
+                "why_ar": "الفاعل قبل الفعل"
+              },
+              {
+                "wrong": "Where does she works?",
+                "right": "Where does she work?",
+                "why_ar": "الـ s في does، فالفعل مجرّد"
+              },
+              {
+                "wrong": "How much costs it?",
+                "right": "How much does it cost?",
+                "why_ar": "cost فعل فيحتاج does"
+              }
+            ],
+            "tip_ar": "إذا كانت who هي الفاعل فلا do: Who cooks in your family? — والجواب My mother. ويبقى الـ s في cooks."
+          },
+          {
+            "title_ar": "how much أم how many؟ المعدود وغير المعدود",
+            "title_en": "Countable and uncountable: how much / how many",
+            "explain_ar": "المعدود ما تستطيع أن تضع قبله رقماً: two eggs · three apples، وله مفرد وجمع. وغير المعدود سائل أو مسحوق أو شيء لا تعدّه قطعةً قطعة: water · sugar · rice · bread · money، فلا يُجمع ولا يأخذ a. ومع المعدود نسأل How many…? ومع غير المعدود How much…? وعن السعر دائماً How much: How much is it?",
+            "table": {
+              "columns_ar": [
+                "",
+                "معدود",
+                "غير معدود"
+              ],
+              "rows": [
+                [
+                  "أمثلة",
+                  "eggs · apples · bottles",
+                  "water · rice · money"
+                ],
+                [
+                  "السؤال",
+                  "How many eggs do you want?",
+                  "How much rice do you want?"
+                ],
+                [
+                  "الجواب",
+                  "Six, please.",
+                  "A kilo, please."
+                ],
+                [
+                  "قليل",
+                  "a few eggs",
+                  "a little rice"
+                ],
+                [
+                  "كثير",
+                  "a lot of eggs",
+                  "a lot of rice"
+                ]
+              ],
+              "say": 1,
+              "ar_cols": [
+                0
+              ]
+            },
+            "errors": [
+              {
+                "wrong": "How many money do you have?",
+                "right": "How much money do you have?",
+                "why_ar": "money لا تُعدّ"
+              },
+              {
+                "wrong": "How much eggs do you want?",
+                "right": "How many eggs do you want?",
+                "why_ar": "eggs معدودة"
+              },
+              {
+                "wrong": "a few rice",
+                "right": "a little rice",
+                "why_ar": "a little لغير المعدود"
+              },
+              {
+                "wrong": "a little tomatoes",
+                "right": "a few tomatoes",
+                "why_ar": "a few للمعدود الجمع"
+              }
+            ],
+            "tip_ar": "fruit غالباً غير معدودة: I eat a lot of fruit — لا a lot of fruits."
+          },
+          {
+            "title_ar": "الكمية: a few · a little · a lot of",
+            "title_en": "Quantities: a few, a little, a lot of / lots of",
+            "explain_ar": "للكمية كلمات تتغيّر بحسب نوع الاسم. a few (بضعة، قليل من) مع المعدود الجمع: a few eggs · a few friends. وa little (قليل من) مع غير المعدود: a little milk · a little time. أمّا a lot of وlots of (كثير من) فمع النوعين: a lot of books · a lot of water، وlots of أخفّ في الكلام. وفي النفي والسؤال نقول غالباً much مع غير المعدود وmany مع المعدود: I don't have much time · Do you have many friends? وإن لم يأتِ بعدها اسم سقطت of: I like it a lot. وهنا الفرق عن العربية: «قليل» و«كثير» عندنا كلمة واحدة لكل الأسماء، والإنجليزية تسأل أولاً: هل تعدّه؟",
+            "table": {
+              "columns_ar": [
+                "",
+                "معدود (جمع)",
+                "غير معدود"
+              ],
+              "rows": [
+                [
+                  "قليل",
+                  "a few eggs",
+                  "a little milk"
+                ],
+                [
+                  "كثير",
+                  "a lot of eggs",
+                  "a lot of milk"
+                ],
+                [
+                  "كثير (في الكلام)",
+                  "lots of eggs",
+                  "lots of milk"
+                ],
+                [
+                  "في النفي",
+                  "not many eggs",
+                  "not much milk"
+                ],
+                [
+                  "في السؤال",
+                  "How many eggs?",
+                  "How much milk?"
+                ]
+              ],
+              "say": 1,
+              "ar_cols": [
+                0
+              ]
+            },
+            "examples": [
+              {
+                "en": "I have a few friends in this city.",
+                "ar": "لي بضعة أصدقاء في هذه المدينة."
+              },
+              {
+                "en": "Can I have a little sugar, please?",
+                "ar": "هل لي بقليل من السكر من فضلك؟"
+              },
+              {
+                "en": "She drinks a lot of water.",
+                "ar": "تشرب كثيراً من الماء."
+              },
+              {
+                "en": "We don't have much money.",
+                "ar": "ليس معنا مال كثير."
+              },
+              {
+                "en": "He doesn't eat many sweets.",
+                "ar": "لا يأكل حلويات كثيرة."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "I eat a lot fruit.",
+                "right": "I eat a lot of fruit.",
+                "why_ar": "قبل الاسم a lot of، ولا تسقط of."
+              },
+              {
+                "wrong": "I like it a lot of.",
+                "right": "I like it a lot.",
+                "why_ar": "بلا اسم بعدها: a lot وحدها."
+              },
+              {
+                "wrong": "We need a few water.",
+                "right": "We need a little water.",
+                "why_ar": "water لا تُعدّ: a little."
+              },
+              {
+                "wrong": "She has a little friends.",
+                "right": "She has a few friends.",
+                "why_ar": "friends معدودة جمع: a few."
+              },
+              {
+                "wrong": "I have much friends.",
+                "right": "I have a lot of friends.",
+                "why_ar": "much لغير المعدود، وفي الإثبات نقول a lot of."
+              }
+            ],
+            "tip_ar": "a few وa little معناهما «قليل لكنه موجود»: I have a little money = معي بعض المال. وa lot of تصلح دائماً، فإن تردّدت فاخترها."
+          },
+          {
+            "title_ar": "a / an · some · any",
+            "title_en": "a / an, some, any",
+            "explain_ar": "a أو an لشيء واحد معدود: a tomato · an egg (و an قبل صوت حركة). و some لكمية غير محدّدة في الجملة المثبتة، مع الجمع وغير المعدود: some eggs · some bread. و any في النفي والسؤال: I don't have any eggs · Do you have any bread? والعربية لا تحتاج كلمة هنا: «أريد خبزاً»، أمّا الإنجليزية فتقول I want some bread.",
+            "table": {
+              "columns_ar": [
+                "الكلمة",
+                "متى",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "a / an",
+                  "شيء واحد معدود",
+                  "I'd like an apple."
+                ],
+                [
+                  "some",
+                  "إثبات: جمع أو غير معدود",
+                  "We have some eggs."
+                ],
+                [
+                  "any",
+                  "نفي",
+                  "We don't have any milk."
+                ],
+                [
+                  "any",
+                  "سؤال",
+                  "Do you have any onions?"
+                ],
+                [
+                  "some",
+                  "عرض أو طلب بأدب",
+                  "Would you like some tea?"
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                1
+              ]
+            },
+            "errors": [
+              {
+                "wrong": "I want a bread.",
+                "right": "I want some bread.",
+                "why_ar": "bread لا تأخذ a"
+              },
+              {
+                "wrong": "We don't have some money.",
+                "right": "We don't have any money.",
+                "why_ar": "النفي بـ any"
+              },
+              {
+                "wrong": "I'd like a rice, please.",
+                "right": "I'd like some rice, please.",
+                "why_ar": "rice لا تُعدّ"
+              },
+              {
+                "wrong": "She wants an tomato.",
+                "right": "She wants a tomato.",
+                "why_ar": "tomato تبدأ بساكن: a"
+              }
+            ],
+            "tip_ar": "في العرض والطلب المؤدّب تبقى some ولو كان سؤالاً: Would you like some tea? · Can I have some water?"
+          },
+          {
+            "title_ar": "السعر والكمية: How much is it? · a kilo of",
+            "title_en": "Prices and quantities",
+            "explain_ar": "للسعر: How much is…? مع المفرد و How much are…? مع الجمع، والجواب It's… أو They're…: How much are the tomatoes? — They're two pounds a kilo. والسعر يُقرأ هكذا: £2.50 = two pounds fifty. وللكمية: العدد ثم الوعاء ثم of ثم الاسم: two kilos of rice · a bottle of water · half a kilo of meat. ومع العدد فوق الواحد تُجمع الوحدة: two kilos لا two kilo.",
+            "table": {
+              "columns_ar": [
+                "السؤال أو الكمية",
+                "الجواب أو المثال",
+                "بالعربية"
+              ],
+              "rows": [
+                [
+                  "How much is this shirt?",
+                  "It's ten pounds.",
+                  "بكم هذا القميص؟ — بعشرة جنيهات"
+                ],
+                [
+                  "How much are the tomatoes?",
+                  "They're two pounds a kilo.",
+                  "بكم الطماطم؟ — بجنيهين للكيلو"
+                ],
+                [
+                  "£2.50",
+                  "two pounds fifty",
+                  "جنيهان وخمسون قرشاً"
+                ],
+                [
+                  "two kilos of",
+                  "two kilos of rice",
+                  "كيلوان من الأرز"
+                ],
+                [
+                  "half a kilo of",
+                  "half a kilo of meat",
+                  "نصف كيلو لحم"
+                ],
+                [
+                  "a bottle of",
+                  "a bottle of water",
+                  "زجاجة ماء"
+                ]
+              ],
+              "say": 1,
+              "ar_cols": [
+                2
+              ]
+            },
+            "errors": [
+              {
+                "wrong": "How much is the tomatoes?",
+                "right": "How much are the tomatoes?",
+                "why_ar": "tomatoes جمع: are"
+              },
+              {
+                "wrong": "Two kilo tomatoes, please.",
+                "right": "Two kilos of tomatoes, please.",
+                "why_ar": "kilos جمع، وبعدها of"
+              },
+              {
+                "wrong": "a bottle water",
+                "right": "a bottle of water",
+                "why_ar": "لا تُحذف of بعد الوعاء"
+              }
+            ],
+            "tip_ar": "How much is it? و How much does it cost? صحيحان معاً، والأول أكثر في المتجر."
+          }
+        ],
+        "contrast_table": [
+          {
+            "ar": "أين تعمل؟",
+            "literal": "Where you work?",
+            "right": "Where do you work?",
+            "rule_ar": "السؤال يحتاج do"
+          },
+          {
+            "ar": "هو لا يحبّ القهوة",
+            "literal": "He not like coffee.",
+            "right": "He doesn't like coffee.",
+            "rule_ar": "النفي يحتاج don't أو doesn't"
+          },
+          {
+            "ar": "هي لا تأكل اللحم",
+            "literal": "She doesn't eats meat.",
+            "right": "She doesn't eat meat.",
+            "rule_ar": "لا s بعد doesn't"
+          },
+          {
+            "ar": "هل تحبّ السمك؟ نعم أحبّ",
+            "literal": "Yes, I like.",
+            "right": "Yes, I do.",
+            "rule_ar": "الجواب القصير بـ do"
+          },
+          {
+            "ar": "كم بيضة؟",
+            "literal": "How much eggs?",
+            "right": "How many eggs?",
+            "rule_ar": "البيض معدود: how many"
+          },
+          {
+            "ar": "أريد خبزاً",
+            "literal": "I want a bread.",
+            "right": "I want some bread.",
+            "rule_ar": "bread لا تُعدّ: some"
           }
         ]
       }
@@ -2793,6 +3453,28 @@
             ],
             "note_ar": "ثلاثة سواكن متتالية، وهي الأصعب على المتحدّث بالعربية.",
             "fix_ar": "تدرّب عليها أخيراً بعد أن تتقن st- و sp-. street لا «إستريت»."
+          },
+          {
+            "ipa": "sl- · sm- · sn-",
+            "arabic_hint": "سين ثم لام أو ميم أو نون",
+            "examples": [
+              "sleep",
+              "small",
+              "snack"
+            ],
+            "note_ar": "small تصير «إسمول» بحركة قبل السين.",
+            "fix_ar": "امدد السين ثم انزلق إلى الميم بلا فتح الفم: سسسـمول."
+          },
+          {
+            "ipa": "-st · -sts",
+            "arabic_hint": "في آخر الكلمة بلا حركة بعدها",
+            "examples": [
+              "breakfast",
+              "first",
+              "costs"
+            ],
+            "note_ar": "يسقط الـ t في الآخر أو تُضاف بعده حركة: breakfast تصير «بريكفاس» أو «بريكفاستو».",
+            "fix_ar": "انطق s ثم t واقطع الصوت بعدها مباشرة. costs: s ثم t ثم s بلا حركة بينها."
           }
         ],
         "tip_ar": "تدريب عملي: قل الكلمة مبتدئاً بالسين ممدودة (سسسـتريت) ثم قصّرها تدريجياً. هذا أسهل من محاولة النطق الصحيح من أول مرة."
@@ -2813,28 +3495,28 @@
         "warning_ar": "لا تقرأ النصّ قبل الخطوة الثالثة.",
         "transcript": [
           {
-            "en": "Every Friday morning my wife and I go shopping together. We don't go to the supermarket — we prefer the old market in the city centre. It is cheaper and the food is fresher.",
-            "ar": "كل صباح جمعة أذهب أنا وزوجتي للتسوّق معاً. لا نذهب إلى السوبرماركت — نفضّل السوق القديم في وسط المدينة. هو أرخص والطعام فيه أطزج."
+            "en": "Every Friday morning my wife and I go shopping together. We don't go to the supermarket. We go to the old market in the city centre. It is cheap and the food is very fresh.",
+            "ar": "كل صباح جمعة أذهب أنا وزوجتي للتسوّق معاً. لا نذهب إلى السوبرماركت. نذهب إلى السوق القديم في وسط المدينة. هو رخيص والطعام فيه طازج جداً."
           },
           {
-            "en": "We always start at the vegetable stall. My wife buys two kilos of tomatoes, some onions and a lot of green vegetables. She doesn't buy potatoes there because they are expensive; she buys them in the supermarket later.",
-            "ar": "نبدأ دائماً من بسطة الخضار. تشتري زوجتي كيلوين من الطماطم وبعض البصل وكثيراً من الخضار الأخضر. لا تشتري البطاطا هناك لأنها غالية؛ تشتريها من السوبرماركت لاحقاً."
+            "en": "We always start at the vegetable stall. My wife buys two kilos of tomatoes, some onions and a lot of green vegetables. She doesn't buy potatoes there because they are expensive.",
+            "ar": "نبدأ دائماً من بسطة الخضار. تشتري زوجتي كيلوين من الطماطم وبعض البصل وكثيراً من الخضار الخضراء. ولا تشتري البطاطا هناك لأنها غالية."
           },
           {
-            "en": "Then we go to the butcher. I usually buy one kilo of chicken and half a kilo of meat. The butcher knows us well and he sometimes gives us a good price. He never sells frozen meat — everything is fresh.",
-            "ar": "ثم نذهب إلى الجزّار. أشتري عادةً كيلو دجاج ونصف كيلو لحم. الجزّار يعرفنا جيداً ويعطينا سعراً جيداً أحياناً. ولا يبيع لحماً مجمّداً أبداً — كل شيء طازج."
+            "en": "Then we go to the butcher. I usually buy one kilo of chicken and half a kilo of meat. He never sells frozen meat — everything is fresh.",
+            "ar": "ثم نذهب إلى الجزّار. أشتري عادةً كيلو دجاج ونصف كيلو لحم. ولا يبيع لحماً مجمّداً أبداً — كل شيء طازج."
           },
           {
-            "en": "After that we visit the bakery. The bread there is famous in our city. It costs one pound and it is still hot. We buy six pieces: four for us and two for my mother.",
-            "ar": "بعد ذلك نزور المخبز. الخبز هناك مشهور في مدينتنا. يكلّف جنيهاً واحداً وما زال حاراً. نشتري ستّ أرغفة: أربعة لنا واثنان لأمّي."
+            "en": "After that we go to the bakery. The bread there is famous in our city. It costs one pound. We buy six pieces: four for us and two for my mother.",
+            "ar": "بعد ذلك نذهب إلى المخبز. الخبز هناك مشهور في مدينتنا. يكلّف جنيهاً واحداً. نشتري ستّة أرغفة: أربعة لنا واثنين لأمّي."
           },
           {
-            "en": "We don't buy any fruit at the market. My wife says the fruit is better at the small shop near our house. So we stop there on the way home and buy some apples, oranges and bananas.",
-            "ar": "لا نشتري أي فاكهة من السوق. تقول زوجتي إن الفاكهة أفضل في الدكّان الصغير قرب بيتنا. فنتوقّف هناك في طريق العودة ونشتري بعض التفاح والبرتقال والموز."
+            "en": "We don't buy any fruit at the market. My wife likes the fruit at the small shop near our house. So we stop there on the way home and buy some apples, oranges and bananas.",
+            "ar": "لا نشتري أيّ فاكهة من السوق. زوجتي تحبّ فاكهة الدكّان الصغير قرب بيتنا. فنتوقّف هناك في طريق العودة ونشتري بعض التفاح والبرتقال والموز."
           },
           {
-            "en": "The whole shopping takes about two hours and costs around eighty pounds. Then we go home, drink tea, and my wife starts cooking. Friday lunch is the best meal of the week.",
-            "ar": "التسوّق كله يستغرق ساعتين تقريباً ويكلّف نحو ثمانين جنيهاً. ثم نعود إلى البيت ونشرب الشاي وتبدأ زوجتي الطبخ. غداء الجمعة أفضل وجبة في الأسبوع."
+            "en": "Our shopping takes about two hours and costs about eighty pounds. Then we go home and drink tea, and my wife starts cooking. Friday lunch is our favourite meal.",
+            "ar": "يستغرق تسوّقنا ساعتين تقريباً ويكلّف نحو ثمانين جنيهاً. ثم نعود إلى البيت ونشرب الشاي، وتبدأ زوجتي الطبخ. غداء الجمعة وجبتنا المفضّلة."
           }
         ],
         "questions": [
@@ -2844,9 +3526,9 @@
             "hint_ar": "الفقرة الأولى"
           },
           {
-            "q_ar": "لماذا يفضّلان السوق القديم؟",
-            "a_ar": "أرخص والطعام أطزج",
-            "hint_ar": "cheaper and fresher"
+            "q_ar": "لماذا يذهبان إلى السوق القديم؟",
+            "a_ar": "لأنه رخيص والطعام طازج جداً",
+            "hint_ar": "cheap · very fresh"
           },
           {
             "q_ar": "لماذا لا تشتري البطاطا من السوق؟",
@@ -2872,6 +3554,21 @@
             "q_ar": "كم يستغرق التسوّق وكم يكلّف؟",
             "a_ar": "ساعتان تقريباً ونحو ثمانين جنيهاً",
             "hint_ar": "الفقرة الأخيرة"
+          },
+          {
+            "q_ar": "هل يبيع الجزّار لحماً مجمّداً؟",
+            "a_ar": "لا، كل شيء عنده طازج",
+            "hint_ar": "never"
+          },
+          {
+            "q_ar": "كم سعر الخبز؟",
+            "a_ar": "جنيه واحد",
+            "hint_ar": "الفقرة الرابعة"
+          },
+          {
+            "q_ar": "متى يشتريان الفاكهة؟",
+            "a_ar": "في طريق العودة إلى البيت",
+            "hint_ar": "on the way home"
           }
         ],
         "shadowing_ar": "خُذ الفقرة الأولى فقط. تكلّم مع الصوت في الوقت نفسه، عشر مرات. ركّز على don’t و doesn’t — وهما موضوع هذا الأسبوع."
@@ -2886,28 +3583,28 @@
         "method_ar": "اقرأ مرتين. الأولى بلا توقّف، والثانية مع المسرد.",
         "story": [
           {
-            "en": "In a narrow street in Naples there is a small restaurant called Da Mario. It has eight tables and no menu. Many tourists don't understand this. They sit down, they look for the menu, and the waiter smiles and says: \"We don't have one.\"",
-            "ar": "في شارع ضيّق في نابولي مطعم صغير يُسمّى Da Mario. فيه ثماني طاولات ولا قائمة طعام. كثير من السيّاح لا يفهمون هذا. يجلسون ويبحثون عن القائمة، فيبتسم النادل ويقول: «ليس لدينا واحدة»."
+            "en": "Da Mario is a small restaurant in a narrow street in Naples. It has eight tables and no menu. Many tourists don't understand this. They sit down and look for the menu, and the waiter smiles and says: \"We don't have one.\"",
+            "ar": "Da Mario مطعم صغير في شارع ضيّق في نابولي. فيه ثماني طاولات ولا قائمة طعام. كثير من السيّاح لا يفهمون هذا. يجلسون ويبحثون عن القائمة، فيبتسم النادل ويقول: «ليس لدينا واحدة»."
           },
           {
             "en": "Mario, the owner, goes to the market every morning at five o'clock. He buys what is fresh that day — fish, vegetables, sometimes meat. He doesn't plan the food in advance. \"The market decides,\" he says. \"I don't.\"",
-            "ar": "ماريو، صاحب المطعم، يذهب إلى السوق كل صباح في الخامسة. يشتري ما هو طازج ذلك اليوم — سمك، خضار، لحم أحياناً. لا يخطّط للطعام مسبقاً. يقول: «السوق يقرّر، لا أنا»."
+            "ar": "ماريو، صاحب المطعم، يذهب إلى السوق كل صباح في الخامسة. يشتري ما هو طازج ذلك اليوم — سمكاً وخضاراً ولحماً أحياناً. لا يخطّط للطعام مسبقاً. يقول: «السوق يقرّر، لا أنا»."
           },
           {
-            "en": "So when you arrive, the waiter tells you what Mario is cooking today. Perhaps there are three dishes. Perhaps only two. You choose one, and twenty minutes later it arrives.",
-            "ar": "فحين تصل، يخبرك النادل بما يطبخه ماريو اليوم. ربما ثلاثة أطباق، وربما اثنان فقط. تختار واحداً، وبعد عشرين دقيقة يصل."
+            "en": "So when you arrive, the waiter tells you the dishes of the day. Perhaps Mario has three dishes. Perhaps only two. You choose one, and it arrives twenty minutes later.",
+            "ar": "فحين تصل، يخبرك النادل بأطباق اليوم. ربما عند ماريو ثلاثة أطباق، وربما اثنان فقط. تختار واحداً، فيصل بعد عشرين دقيقة."
           },
           {
-            "en": "The prices are not on a board, but nobody worries. A full meal costs about fifteen euros, and it never changes. Mario doesn't take cards — only cash. He doesn't have a website and he doesn't answer the telephone.",
-            "ar": "الأسعار ليست على لوحة، لكن لا أحد يقلق. الوجبة الكاملة تكلّف نحو خمسة عشر يورو، ولا تتغيّر أبداً. وماريو لا يقبل البطاقات — نقداً فقط. ولا موقع له ولا يجيب الهاتف."
+            "en": "The prices are not on a board, but nobody worries. A full meal costs about fifteen euros. Mario doesn't take cards — only cash. He doesn't have a website and he doesn't answer the telephone.",
+            "ar": "الأسعار ليست على لوحة، لكن لا أحد يقلق. الوجبة الكاملة تكلّف نحو خمسة عشر يورو. وماريو لا يقبل البطاقات — نقداً فقط. ولا موقع له ولا يجيب الهاتف."
           },
           {
             "en": "Does this system work? The restaurant is full every night, and people wait outside in the street. Mario is seventy-one years old and he works six days a week.",
             "ar": "هل ينجح هذا النظام؟ المطعم ممتلئ كل ليلة، والناس ينتظرون في الشارع. ماريو في الحادية والسبعين ويعمل ستة أيام في الأسبوع."
           },
           {
-            "en": "\"People ask me why I don't open a bigger place,\" he says. \"I don't want a bigger place. I want good food and happy customers. That's all.\"",
-            "ar": "يقول: «يسألني الناس لماذا لا أفتح مكاناً أكبر. لا أريد مكاناً أكبر. أريد طعاماً جيداً وعملاء سعداء. هذا كل شيء»."
+            "en": "\"People ask me: Why don't you open a big restaurant?\" he says. \"I don't want a big restaurant. I want good food and happy customers. That's all.\"",
+            "ar": "يقول: «يسألني الناس: لماذا لا تفتح مطعماً كبيراً؟ لا أريد مطعماً كبيراً. أريد طعاماً جيداً وزبائن سعداء. هذا كل شيء»."
           }
         ],
         "glossary": [
@@ -3002,8 +3699,20 @@
             "a_ar": "لا يقبل البطاقات ولا موقع له ولا يجيب الهاتف"
           },
           {
-            "q_ar": "لماذا لا يفتح مكاناً أكبر؟",
-            "a_ar": "يريد طعاماً جيداً وعملاء سعداء لا أكثر"
+            "q_ar": "لماذا لا يفتح مطعماً كبيراً؟",
+            "a_ar": "يريد طعاماً جيداً وزبائن سعداء فقط"
+          },
+          {
+            "q_ar": "متى يذهب ماريو إلى السوق؟",
+            "a_ar": "كل صباح في الساعة الخامسة"
+          },
+          {
+            "q_ar": "كم عمر ماريو، وكم يوماً يعمل؟",
+            "a_ar": "71 سنة، ويعمل ستة أيام في الأسبوع"
+          },
+          {
+            "q_ar": "كيف تعرف أن الناس يحبّون المطعم؟",
+            "a_ar": "هو ممتلئ كل ليلة والناس ينتظرون في الشارع"
           }
         ],
         "find_task_ar": "ابحث في النصّ عن: خمس جمل منفية بـ don’t أو doesn’t · سؤالاً واحداً · ثلاثة أمثلة على some أو any.",
@@ -3086,92 +3795,101 @@
           {
             "part_en": "Arriving",
             "say_en": "Good evening. A table for two, please.",
-            "seconds": null
+            "seconds": 15
           },
           {
             "part_en": "Getting the menu",
             "say_en": "Can I see the menu, please?",
-            "seconds": null
+            "seconds": 10
           },
           {
             "part_en": "Asking a question",
             "say_en": "Do you have any…? / Is it spicy? / What do you recommend?",
-            "seconds": null
+            "seconds": 20
           },
           {
             "part_en": "Ordering food",
             "say_en": "I'd like the… please. / Can I have… ?",
-            "seconds": null
+            "seconds": 20
           },
           {
             "part_en": "Ordering a drink",
             "say_en": "Just water, please. / And a tea, no sugar.",
-            "seconds": null
+            "seconds": 15
           },
           {
             "part_en": "Calling the waiter",
             "say_en": "Excuse me!",
-            "seconds": null
+            "seconds": 10
           },
           {
             "part_en": "Paying",
             "say_en": "Can we have the bill, please? Do you take cards?",
-            "seconds": null
+            "seconds": 30
           }
         ],
         "rubric": [
           {
-            "label_en": "Questions",
-            "label_ar": "الأسئلة",
+            "label_en": "Range",
+            "label_ar": "المدى — الكلمات والعبارات",
             "levels": [
-              "Missing do/does",
-              "Some correct",
-              "Correct word order throughout"
+              "كلمات مفردة وعبارات قليلة",
+              "عبارات المطعم المحفوظة",
+              "عبارات المطعم والسوق، وتغيّر الطعام والسعر بنفسك"
             ]
           },
           {
-            "label_en": "Negatives",
-            "label_ar": null,
+            "label_en": "Accuracy",
+            "label_ar": "الدقّة — السؤال والنفي",
             "levels": [
-              "Missing or with -s",
-              "Mostly right",
-              "Always correct"
+              "do/does غائبة أو s بعد doesn't",
+              "أكثر الأسئلة والنفي صحيح",
+              "السؤال والنفي و some/any صحيحة دائماً تقريباً"
             ]
           },
           {
-            "label_en": "some / any",
-            "label_ar": null,
+            "label_en": "Fluency",
+            "label_ar": "الطلاقة",
             "levels": [
-              "Not used",
-              "Used once or twice",
-              "Used naturally"
+              "توقّف طويل داخل الجملة",
+              "تردّد أحياناً",
+              "التوقّف بين الأفكار فقط"
+            ]
+          },
+          {
+            "label_en": "Interaction",
+            "label_ar": "التفاعل — إتمام المشهد",
+            "levels": [
+              "لم يكتمل المشهد",
+              "اكتمل بالنظر إلى النصّ",
+              "اكتمل من الذاكرة، وحُلّت مشكلة «الطبق نفد»"
+            ]
+          },
+          {
+            "label_en": "Coherence",
+            "label_ar": "الترابط — في حديث الدقيقتين",
+            "levels": [
+              "جمل متفرّقة",
+              "ربط بـ and وحدها",
+              "ربط بـ and و but و because و then"
             ]
           },
           {
             "label_en": "s-clusters",
-            "label_ar": null,
+            "label_ar": "النطق — التجمّعات الساكنة",
             "levels": [
-              "Extra vowel added",
-              "Sometimes clean",
-              "Clean and consistent"
-            ]
-          },
-          {
-            "label_en": "Transaction",
-            "label_ar": null,
-            "levels": [
-              "Could not complete it",
-              "Completed with help",
-              "Completed fluently"
+              "حركة زائدة قبل s",
+              "نظيفة أحياناً",
+              "نظيفة دائماً تقريباً"
             ]
           },
           {
             "label_en": "Length",
             "label_ar": "الطول",
             "levels": [
-              "Under 60 sec",
-              "60–100 sec",
-              "100–120 sec"
+              "أقل من 60 ثانية",
+              "60–100 ثانية",
+              "100–120 ثانية"
             ]
           }
         ],
@@ -3560,7 +4278,7 @@
       "prompt": "I drink tea without ______. (سكر)",
       "payload": {
         "before": "I drink tea without",
-        "after": "."
+        "after": ". (سكر)"
       },
       "answer": {
         "accepted": [
@@ -3571,8 +4289,8 @@
       "points": 1
     },
     {
-      "day_number": 2,
-      "exercise_no": 2,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
       "focus_ar": "some في الإثبات",
       "prompt": "I want ______ bread, please.",
@@ -3589,8 +4307,8 @@
       "points": 1
     },
     {
-      "day_number": 2,
-      "exercise_no": 2,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
       "focus_ar": "any في النفي",
       "prompt": "I don't have ______ money.",
@@ -3607,8 +4325,8 @@
       "points": 1
     },
     {
-      "day_number": 2,
-      "exercise_no": 2,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "multiple_choice",
       "focus_ar": "how much مقابل how many",
       "prompt": "أي سؤال صحيح؟",
@@ -3627,8 +4345,8 @@
       "points": 1
     },
     {
-      "day_number": 2,
-      "exercise_no": 2,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
       "focus_ar": "how much مع غير المعدود",
       "prompt": "How ______ sugar do you want?",
@@ -3645,8 +4363,8 @@
       "points": 1
     },
     {
-      "day_number": 2,
-      "exercise_no": 2,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "multiple_choice",
       "focus_ar": "a مقابل an — المعيار هو الصوت",
       "prompt": "أي عبارة صحيحة؟",
@@ -3665,8 +4383,8 @@
       "points": 1
     },
     {
-      "day_number": 3,
-      "exercise_no": 3,
+      "day_number": 5,
+      "exercise_no": 5,
       "type": "true_false",
       "focus_ar": "فهم الحوار الأول — At the Restaurant",
       "prompt": "Sami and Lina go to the restaurant before work.",
@@ -3678,8 +4396,8 @@
       "points": 1
     },
     {
-      "day_number": 3,
-      "exercise_no": 3,
+      "day_number": 5,
+      "exercise_no": 5,
       "type": "multiple_choice",
       "focus_ar": "عبارات المطعم — طلب الحساب",
       "prompt": "كيف تطلب الحساب في مطعم؟",
@@ -3780,7 +4498,7 @@
       "prompt": "I ______ like fish. (not like)",
       "payload": {
         "before": "I",
-        "after": "like fish."
+        "after": "like fish. (منفيّة: لا أحبّ السمك)"
       },
       "answer": {
         "accepted": [
@@ -3800,7 +4518,7 @@
       "prompt": "He ______ drink coffee. (not drink)",
       "payload": {
         "before": "He",
-        "after": "drink coffee."
+        "after": "drink coffee. (منفيّة: لا يشرب القهوة)"
       },
       "answer": {
         "accepted": [
@@ -3870,8 +4588,8 @@
       "points": 1
     },
     {
-      "day_number": 5,
-      "exercise_no": 5,
+      "day_number": 6,
+      "exercise_no": 6,
       "type": "true_false",
       "focus_ar": "فهم الحوار الثاني — At the Market",
       "prompt": "الحوار الثاني يحدث في مطعم.",
@@ -4063,8 +4781,8 @@
       "points": 1
     },
     {
-      "day_number": 4,
-      "exercise_no": 5,
+      "day_number": 7,
+      "exercise_no": 7,
       "type": "fill_blank",
       "prompt": "Do you like apples? — Yes, I like ______.",
       "payload": {
@@ -4082,8 +4800,8 @@
       "points": 1
     },
     {
-      "day_number": 4,
-      "exercise_no": 6,
+      "day_number": 7,
+      "exercise_no": 7,
       "type": "fill_blank",
       "prompt": "Lina is my colleague. I know ______ well.",
       "payload": {
@@ -4101,7 +4819,7 @@
       "points": 1
     },
     {
-      "day_number": 4,
+      "day_number": 7,
       "exercise_no": 7,
       "type": "correct_error",
       "prompt": "صحّح الخطأ في هذه الجملة",
@@ -4119,8 +4837,8 @@
       "points": 1
     },
     {
-      "day_number": 4,
-      "exercise_no": 8,
+      "day_number": 7,
+      "exercise_no": 7,
       "type": "multiple_choice",
       "prompt": "My father calls ______ every day.",
       "payload": {
@@ -4140,8 +4858,8 @@
       "points": 1
     },
     {
-      "day_number": 4,
-      "exercise_no": 9,
+      "day_number": 5,
+      "exercise_no": 5,
       "type": "multiple_choice",
       "prompt": "تقصد أنك تحبّ القهوة عموماً. أي جملة صحيحة؟",
       "payload": {
@@ -4161,8 +4879,8 @@
       "points": 1
     },
     {
-      "day_number": 4,
-      "exercise_no": 10,
+      "day_number": 5,
+      "exercise_no": 5,
       "type": "correct_error",
       "prompt": "صحّح الخطأ في هذه الجملة",
       "payload": {
@@ -4180,7 +4898,7 @@
     },
     {
       "day_number": 5,
-      "exercise_no": 6,
+      "exercise_no": 5,
       "type": "fill_blank",
       "prompt": "I'd ______ a glass of water, please.",
       "payload": {
@@ -4199,7 +4917,7 @@
     },
     {
       "day_number": 5,
-      "exercise_no": 7,
+      "exercise_no": 5,
       "type": "multiple_choice",
       "prompt": "النادل يسأل: Would you like some tea? وأنت تريده. ماذا تقول؟",
       "payload": {
@@ -4220,7 +4938,7 @@
     },
     {
       "day_number": 5,
-      "exercise_no": 8,
+      "exercise_no": 5,
       "type": "correct_error",
       "prompt": "صحّح الخطأ في هذه الجملة",
       "payload": {
@@ -4239,7 +4957,7 @@
     },
     {
       "day_number": 5,
-      "exercise_no": 9,
+      "exercise_no": 5,
       "type": "fill_blank",
       "prompt": "I'd like ______ pay, please.",
       "payload": {
@@ -4258,7 +4976,7 @@
     },
     {
       "day_number": 5,
-      "exercise_no": 10,
+      "exercise_no": 5,
       "type": "true_false",
       "prompt": "Do you like fish? و Would you like fish? لهما المعنى نفسه.",
       "payload": {},
@@ -4272,7 +4990,7 @@
     },
     {
       "day_number": 1,
-      "exercise_no": 2,
+      "exercise_no": 1,
       "type": "fill_blank",
       "prompt": "A kilo of ______, please. (tomato)",
       "payload": {
@@ -4291,7 +5009,7 @@
     },
     {
       "day_number": 1,
-      "exercise_no": 3,
+      "exercise_no": 1,
       "type": "fill_blank",
       "prompt": "Two kilos of ______, please. (potato)",
       "payload": {
@@ -4310,7 +5028,7 @@
     },
     {
       "day_number": 4,
-      "exercise_no": 11,
+      "exercise_no": 4,
       "type": "correct_error",
       "prompt": "صحّح الخطأ في هذه الجملة",
       "payload": {
@@ -4328,7 +5046,7 @@
     },
     {
       "day_number": 4,
-      "exercise_no": 12,
+      "exercise_no": 4,
       "type": "multiple_choice",
       "prompt": "أي جملة صحيحة؟",
       "payload": {
@@ -4349,7 +5067,7 @@
     },
     {
       "day_number": 4,
-      "exercise_no": 13,
+      "exercise_no": 4,
       "type": "correct_error",
       "prompt": "صحّح الخطأ في هذه الجملة",
       "payload": {
@@ -4369,7 +5087,7 @@
     },
     {
       "day_number": 4,
-      "exercise_no": 14,
+      "exercise_no": 4,
       "type": "multiple_choice",
       "prompt": "The news ______ good today.",
       "payload": {
@@ -4389,8 +5107,8 @@
       "points": 1
     },
     {
-      "day_number": 4,
-      "exercise_no": 15,
+      "day_number": 3,
+      "exercise_no": 3,
       "type": "fill_blank",
       "prompt": "Do you like fish? — Yes, I ______.",
       "payload": {
@@ -4408,8 +5126,8 @@
       "points": 1
     },
     {
-      "day_number": 4,
-      "exercise_no": 16,
+      "day_number": 3,
+      "exercise_no": 3,
       "type": "fill_blank",
       "prompt": "Does he eat meat? — No, he ______.",
       "payload": {
@@ -4428,8 +5146,8 @@
       "points": 1
     },
     {
-      "day_number": 4,
-      "exercise_no": 17,
+      "day_number": 3,
+      "exercise_no": 3,
       "type": "correct_error",
       "prompt": "صحّح الخطأ في هذه الجملة",
       "payload": {
@@ -4446,8 +5164,8 @@
       "points": 1
     },
     {
-      "day_number": 4,
-      "exercise_no": 18,
+      "day_number": 3,
+      "exercise_no": 3,
       "type": "multiple_choice",
       "prompt": "Do they have children? — ___",
       "payload": {
@@ -4468,7 +5186,7 @@
     },
     {
       "day_number": 5,
-      "exercise_no": 11,
+      "exercise_no": 5,
       "type": "multiple_choice",
       "prompt": "I have a son. ___ son is ten.",
       "payload": {
@@ -4489,7 +5207,7 @@
     },
     {
       "day_number": 5,
-      "exercise_no": 12,
+      "exercise_no": 5,
       "type": "fill_blank",
       "prompt": "Can I see ______ menu, please?",
       "payload": {
@@ -4508,7 +5226,7 @@
     },
     {
       "day_number": 5,
-      "exercise_no": 13,
+      "exercise_no": 5,
       "type": "multiple_choice",
       "prompt": "تتكلّم عن الماء عموماً: ___ is good for you.",
       "payload": {
@@ -4529,7 +5247,7 @@
     },
     {
       "day_number": 2,
-      "exercise_no": 3,
+      "exercise_no": 2,
       "type": "correct_error",
       "focus_ar": "جمع دائماً: trousers · jeans · shoes",
       "prompt": "صحّح الخطأ في هذه الجملة",
@@ -4546,7 +5264,7 @@
     },
     {
       "day_number": 2,
-      "exercise_no": 4,
+      "exercise_no": 2,
       "type": "fill_blank",
       "focus_ar": "How much is / are",
       "prompt": "How much ______ these shoes?",
@@ -4564,7 +5282,7 @@
     },
     {
       "day_number": 2,
-      "exercise_no": 5,
+      "exercise_no": 2,
       "type": "multiple_choice",
       "focus_ar": "جمع دائماً: trousers · jeans · shoes",
       "prompt": "ما معنى «بنطلون» بالإنجليزية؟",
@@ -4584,7 +5302,7 @@
     },
     {
       "day_number": 2,
-      "exercise_no": 6,
+      "exercise_no": 2,
       "type": "correct_error",
       "focus_ar": "جمع دائماً: trousers · jeans · shoes",
       "prompt": "صحّح الخطأ في هذه الجملة",
@@ -4600,6 +5318,2677 @@
       },
       "explanation": "jeans جمع فلا يأخذ a: some jeans أو a pair of jeans. والعربية «جينز» مفرد — وهنا الفخّ.",
       "points": 1
+    },
+    {
+      "day_number": 1,
+      "type": "multiple_choice",
+      "prompt": "أي كلمة تعني «جبن»؟",
+      "payload": {
+        "options": [
+          "butter",
+          "milk",
+          "cheese",
+          "bread"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "cheese = جبن · butter = زبدة · milk = حليب.",
+      "points": 1,
+      "exercise_no": 1
+    },
+    {
+      "day_number": 1,
+      "type": "multiple_choice",
+      "prompt": "أي كلمة تعني «عطشان»؟",
+      "payload": {
+        "options": [
+          "hungry",
+          "thirsty",
+          "sweet",
+          "spicy"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "thirsty = عطشان · hungry = جائع.",
+      "points": 1,
+      "exercise_no": 1
+    },
+    {
+      "day_number": 1,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "I am very",
+        "after": ". I want some water. (عطشان)"
+      },
+      "answer": {
+        "accepted": [
+          "thirsty"
+        ]
+      },
+      "explanation": "thirsty /ˈθɜːsti/ = عطشان، ومعها نطلب الماء.",
+      "points": 1,
+      "exercise_no": 1
+    },
+    {
+      "day_number": 1,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "We have",
+        "after": "with chicken for lunch. (أرز)"
+      },
+      "answer": {
+        "accepted": [
+          "rice"
+        ]
+      },
+      "explanation": "rice = أرز، ولا تُجمع: rice لا rices.",
+      "points": 1,
+      "exercise_no": 1
+    },
+    {
+      "day_number": 1,
+      "type": "multiple_choice",
+      "prompt": "أي كلمة تبدأ بساكنين بلا حركة بينهما؟",
+      "payload": {
+        "options": [
+          "salad",
+          "soup",
+          "sugar",
+          "spicy"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": "spicy تبدأ بـ sp-: سين ثم باء الإنجليزية /p/ بلا حركة. والبقية تبدأ بسين بعدها حركة.",
+      "points": 1,
+      "exercise_no": 1
+    },
+    {
+      "day_number": 1,
+      "type": "true_false",
+      "prompt": "في كلمة spoon يأتي /p/ بعد /s/ مباشرة بلا حركة بينهما.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "spoon /spuːn/ — لا «إسبون» ولا «سبون» بالباء.",
+      "points": 1,
+      "exercise_no": 1
+    },
+    {
+      "day_number": 2,
+      "type": "multiple_choice",
+      "prompt": "أي كلمة عكس expensive؟",
+      "payload": {
+        "options": [
+          "fresh",
+          "cheap",
+          "free",
+          "closed"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "cheap = رخيص، و expensive = غالٍ. و free = مجاني.",
+      "points": 1,
+      "exercise_no": 2
+    },
+    {
+      "day_number": 2,
+      "type": "multiple_choice",
+      "prompt": "تريد ورقة تثبت أنك دفعت. ماذا تطلب؟",
+      "payload": {
+        "options": [
+          "the change",
+          "the menu",
+          "a receipt",
+          "a bag"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "receipt = إيصال، والـ p فيها صامتة: /rɪˈsiːt/.",
+      "points": 1,
+      "exercise_no": 2
+    },
+    {
+      "day_number": 2,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "The shop is",
+        "after": "on Sunday. (مغلق)"
+      },
+      "answer": {
+        "accepted": [
+          "closed"
+        ]
+      },
+      "explanation": "closed = مغلق، وعكسها open.",
+      "points": 1,
+      "exercise_no": 2
+    },
+    {
+      "day_number": 2,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "Do you want to pay in cash or by",
+        "after": "? (بطاقة)"
+      },
+      "answer": {
+        "accepted": [
+          "card"
+        ]
+      },
+      "explanation": "by card = بالبطاقة · in cash = نقداً.",
+      "points": 1,
+      "exercise_no": 2
+    },
+    {
+      "day_number": 2,
+      "type": "multiple_choice",
+      "prompt": "من أين تشتري الخبز الطازج؟",
+      "payload": {
+        "options": [
+          "the waiter",
+          "the bakery",
+          "the bill",
+          "the change"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "bakery = مخبز.",
+      "points": 1,
+      "exercise_no": 2
+    },
+    {
+      "day_number": 2,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "These",
+        "after": "are too small for my son. (حذاء)"
+      },
+      "answer": {
+        "accepted": [
+          "shoes"
+        ]
+      },
+      "explanation": "shoes جمع دائماً، فنقول These shoes are…",
+      "points": 1,
+      "exercise_no": 2
+    },
+    {
+      "day_number": 2,
+      "type": "true_false",
+      "prompt": "كلمة receipt تُنطق بلا صوت p.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "receipt /rɪˈsiːt/ — الـ p صامتة.",
+      "points": 1,
+      "exercise_no": 2
+    },
+    {
+      "day_number": 3,
+      "type": "multiple_choice",
+      "prompt": "أي جملة صحيحة؟",
+      "payload": {
+        "options": [
+          "He don't like fish.",
+          "He doesn't likes fish.",
+          "He doesn't like fish.",
+          "He not like fish."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "he تأخذ doesn't، والفعل بعدها مجرّد: doesn't like.",
+      "points": 1,
+      "error_no": 4,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "true_false",
+      "prompt": "بعد doesn't يأتي الفعل بلا s.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "الـ s انتقلت إلى does: She doesn't eat — لا doesn't eats.",
+      "points": 1,
+      "error_no": 4,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "multiple_choice",
+      "prompt": "أي سؤال صحيح؟",
+      "payload": {
+        "options": [
+          "Do she work here?",
+          "Does she work here?",
+          "Does she works here?",
+          "She works here?"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "Does مع she، والفعل بعدها مجرّد.",
+      "points": 1,
+      "error_no": 4,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "I eat meat. → I",
+        "after": "meat. (اجعلها منفيّة)"
+      },
+      "answer": {
+        "accepted": [
+          "don't eat",
+          "do not eat"
+        ]
+      },
+      "explanation": "مع I و you و we و they والجمع: don't + الفعل.",
+      "points": 1,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "She likes coffee. → She",
+        "after": "coffee. (اجعلها منفيّة)"
+      },
+      "answer": {
+        "accepted": [
+          "doesn't like",
+          "does not like"
+        ]
+      },
+      "explanation": "مع he و she و it ومفرد الغائب: doesn't + الفعل بلا s.",
+      "points": 1,
+      "error_no": 4,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "They work on Fridays. → They",
+        "after": "on Fridays. (اجعلها منفيّة)"
+      },
+      "answer": {
+        "accepted": [
+          "don't work",
+          "do not work"
+        ]
+      },
+      "explanation": "مع I و you و we و they والجمع: don't + الفعل.",
+      "points": 1,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "He goes to the market. → He",
+        "after": "to the market. (اجعلها منفيّة)"
+      },
+      "answer": {
+        "accepted": [
+          "doesn't go",
+          "does not go"
+        ]
+      },
+      "explanation": "مع he و she و it ومفرد الغائب: doesn't + الفعل بلا s.",
+      "points": 1,
+      "error_no": 4,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "We have some money. → We",
+        "after": "any money. (اجعلها منفيّة)"
+      },
+      "answer": {
+        "accepted": [
+          "don't have",
+          "do not have"
+        ]
+      },
+      "explanation": "مع I و you و we و they والجمع: don't + الفعل. وفي النفي any لا some.",
+      "points": 1,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "My father cooks dinner. → My father",
+        "after": "dinner. (اجعلها منفيّة)"
+      },
+      "answer": {
+        "accepted": [
+          "doesn't cook",
+          "does not cook"
+        ]
+      },
+      "explanation": "مع he و she و it ومفرد الغائب: doesn't + الفعل بلا s.",
+      "points": 1,
+      "error_no": 4,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "The shop opens early. → The shop",
+        "after": "early. (اجعلها منفيّة)"
+      },
+      "answer": {
+        "accepted": [
+          "doesn't open",
+          "does not open"
+        ]
+      },
+      "explanation": "مع he و she و it ومفرد الغائب: doesn't + الفعل بلا s.",
+      "points": 1,
+      "error_no": 4,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "You drink tea. → You",
+        "after": "tea. (اجعلها منفيّة)"
+      },
+      "answer": {
+        "accepted": [
+          "don't drink",
+          "do not drink"
+        ]
+      },
+      "explanation": "مع I و you و we و they والجمع: don't + الفعل.",
+      "points": 1,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "Sara eats breakfast. → Sara",
+        "after": "breakfast. (اجعلها منفيّة)"
+      },
+      "answer": {
+        "accepted": [
+          "doesn't eat",
+          "does not eat"
+        ]
+      },
+      "explanation": "مع he و she و it ومفرد الغائب: doesn't + الفعل بلا s.",
+      "points": 1,
+      "error_no": 4,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "The children like vegetables. → The children",
+        "after": "vegetables. (اجعلها منفيّة)"
+      },
+      "answer": {
+        "accepted": [
+          "don't like",
+          "do not like"
+        ]
+      },
+      "explanation": "مع I و you و we و they والجمع: don't + الفعل.",
+      "points": 1,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "You like fish. →",
+        "after": "you ______ fish? (اجعلها سؤالاً)"
+      },
+      "answer": {
+        "accepted": [
+          "Do / like"
+        ]
+      },
+      "explanation": "Do + الفاعل + الفعل.",
+      "points": 1,
+      "error_no": 5,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "She works in a shop. →",
+        "after": "she ______ in a shop? (اجعلها سؤالاً)"
+      },
+      "answer": {
+        "accepted": [
+          "Does / work"
+        ]
+      },
+      "explanation": "Does + الفاعل + الفعل بلا s.",
+      "points": 1,
+      "error_no": 4,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "They sell fresh bread. →",
+        "after": "they ______ fresh bread? (اجعلها سؤالاً)"
+      },
+      "answer": {
+        "accepted": [
+          "Do / sell"
+        ]
+      },
+      "explanation": "Do + الفاعل + الفعل.",
+      "points": 1,
+      "error_no": 5,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "He drinks coffee. →",
+        "after": "he ______ coffee? (اجعلها سؤالاً)"
+      },
+      "answer": {
+        "accepted": [
+          "Does / drink"
+        ]
+      },
+      "explanation": "Does + الفاعل + الفعل بلا s.",
+      "points": 1,
+      "error_no": 4,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "The restaurant opens at six. →",
+        "after": "the restaurant ______ at six? (اجعلها سؤالاً)"
+      },
+      "answer": {
+        "accepted": [
+          "Does / open"
+        ]
+      },
+      "explanation": "Does + الفاعل + الفعل بلا s.",
+      "points": 1,
+      "error_no": 4,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "You take cards. →",
+        "after": "you ______ cards? (اجعلها سؤالاً)"
+      },
+      "answer": {
+        "accepted": [
+          "Do / take"
+        ]
+      },
+      "explanation": "Do + الفاعل + الفعل.",
+      "points": 1,
+      "error_no": 5,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "Your brother cooks. →",
+        "after": "your brother ______? (اجعلها سؤالاً)"
+      },
+      "answer": {
+        "accepted": [
+          "Does / cook"
+        ]
+      },
+      "explanation": "Does + الفاعل + الفعل بلا s.",
+      "points": 1,
+      "error_no": 4,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "We need some milk. →",
+        "after": "we ______ any milk? (اجعلها سؤالاً)"
+      },
+      "answer": {
+        "accepted": [
+          "Do / need"
+        ]
+      },
+      "explanation": "Do + الفاعل + الفعل.",
+      "points": 1,
+      "error_no": 5,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "It costs ten pounds. →",
+        "after": "it ______ ten pounds? (اجعلها سؤالاً)"
+      },
+      "answer": {
+        "accepted": [
+          "Does / cost"
+        ]
+      },
+      "explanation": "Does + الفاعل + الفعل بلا s.",
+      "points": 1,
+      "error_no": 4,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "Your parents live here. →",
+        "after": "your parents ______ here? (اجعلها سؤالاً)"
+      },
+      "answer": {
+        "accepted": [
+          "Do / live"
+        ]
+      },
+      "explanation": "Do + الفاعل + الفعل.",
+      "points": 1,
+      "error_no": 5,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "Does she drink tea? — Yes, she",
+        "after": "."
+      },
+      "answer": {
+        "accepted": [
+          "does"
+        ]
+      },
+      "explanation": "الجواب القصير يكرّر does: Yes, she does.",
+      "points": 1,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "Do your children eat fish? — No, they",
+        "after": "."
+      },
+      "answer": {
+        "accepted": [
+          "don't",
+          "do not"
+        ]
+      },
+      "explanation": "they تأخذ don't: No, they don't.",
+      "points": 1,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "multiple_choice",
+      "prompt": "Do you eat breakfast? — ___",
+      "payload": {
+        "options": [
+          "Yes, I eat.",
+          "Yes, I do.",
+          "Yes, I does.",
+          "Yes, do I."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "Yes + I + do. ولا يأتي الفعل eat في الجواب القصير.",
+      "points": 1,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "Does your father cook? — No, he don't."
+      },
+      "answer": {
+        "accepted": [
+          "No, he doesn't.",
+          "No he doesn't.",
+          "Does your father cook? — No, he doesn't.",
+          "Does your father cook? — No he doesn't."
+        ]
+      },
+      "explanation": "he تأخذ doesn't في السؤال والجواب.",
+      "points": 1,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 3,
+      "type": "free_text",
+      "prompt": "اكتب أربعة أسئلة تسأل بها صديقاً عن طعامه بـ Do you…? أو Does your…? ثم أجب عنها بأجوبة قصيرة صادقة عنك.",
+      "payload": {},
+      "answer": null,
+      "explanation": "مثال: Do you eat fish? — Yes, I do. · Do you drink coffee? — No, I don't. · Does your mother cook every day? — Yes, she does. · Does your brother like vegetables? — No, he doesn't.",
+      "points": 1,
+      "exercise_no": 3
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "",
+        "after": "do you buy your bread? — At the bakery."
+      },
+      "answer": {
+        "accepted": [
+          "Where"
+        ]
+      },
+      "explanation": "where = أين، والجواب مكان.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "",
+        "after": "does the shop open? — At eight o'clock."
+      },
+      "answer": {
+        "accepted": [
+          "When",
+          "What time"
+        ]
+      },
+      "explanation": "when أو what time للوقت.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "",
+        "after": "is this? — Five pounds."
+      },
+      "answer": {
+        "accepted": [
+          "How much"
+        ]
+      },
+      "explanation": "how much للسعر.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "",
+        "after": "eggs do you want? — Six, please."
+      },
+      "answer": {
+        "accepted": [
+          "How many"
+        ]
+      },
+      "explanation": "eggs معدودة: how many.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "",
+        "after": "do you eat for breakfast? — Bread and cheese."
+      },
+      "answer": {
+        "accepted": [
+          "What"
+        ]
+      },
+      "explanation": "what = ماذا، والجواب شيء.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "",
+        "after": "cooks in your family? — My mother."
+      },
+      "answer": {
+        "accepted": [
+          "Who"
+        ]
+      },
+      "explanation": "who = مَن، والجواب شخص. وهي الفاعل هنا فلا do.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "",
+        "after": "don't you eat meat? — Because I don't like it."
+      },
+      "answer": {
+        "accepted": [
+          "Why"
+        ]
+      },
+      "explanation": "why = لماذا، والجواب يبدأ بـ Because.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "",
+        "after": "do you make this soup? — With tomatoes and onions."
+      },
+      "answer": {
+        "accepted": [
+          "How"
+        ]
+      },
+      "explanation": "how = كيف.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "",
+        "after": "sugar do you want? — Just a little."
+      },
+      "answer": {
+        "accepted": [
+          "How much"
+        ]
+      },
+      "explanation": "sugar لا تُعدّ: how much.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "",
+        "after": "do they live? — In Cairo."
+      },
+      "answer": {
+        "accepted": [
+          "Where"
+        ]
+      },
+      "explanation": "where للمكان.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "What you eat for breakfast?"
+      },
+      "answer": {
+        "accepted": [
+          "What do you eat for breakfast?"
+        ]
+      },
+      "explanation": "الترتيب: أداة + do + الفاعل + الفعل.",
+      "points": 1,
+      "error_no": 5,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "When the market opens?"
+      },
+      "answer": {
+        "accepted": [
+          "When does the market open?"
+        ]
+      },
+      "explanation": "When + does + the market + open — والفعل بلا s بعد does.",
+      "points": 1,
+      "error_no": 5,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "I would like",
+        "after": "apple. (a · an · some · any)"
+      },
+      "answer": {
+        "accepted": [
+          "an"
+        ]
+      },
+      "explanation": "an قبل صوت حركة: an apple.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "We don't have",
+        "after": "milk. (a · an · some · any)"
+      },
+      "answer": {
+        "accepted": [
+          "any"
+        ]
+      },
+      "explanation": "النفي بـ any.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "Do you have",
+        "after": "bread? (a · an · some · any)"
+      },
+      "answer": {
+        "accepted": [
+          "any",
+          "some"
+        ]
+      },
+      "explanation": "السؤال بـ any.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "She wants",
+        "after": "tomato. (a · an · some · any)"
+      },
+      "answer": {
+        "accepted": [
+          "a"
+        ]
+      },
+      "explanation": "tomato معدود مفرد يبدأ بساكن: a.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "We have",
+        "after": "rice in the kitchen. (a · an · some · any)"
+      },
+      "answer": {
+        "accepted": [
+          "some"
+        ]
+      },
+      "explanation": "إثبات مع غير المعدود: some.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "I don't want",
+        "after": "sugar in my tea. (a · an · some · any)"
+      },
+      "answer": {
+        "accepted": [
+          "any"
+        ]
+      },
+      "explanation": "النفي بـ any.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "Can I have",
+        "after": "egg, please? (a · an · some · any)"
+      },
+      "answer": {
+        "accepted": [
+          "an"
+        ]
+      },
+      "explanation": "egg تبدأ بحركة: an egg.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "They sell",
+        "after": "fresh vegetables. (a · an · some · any)"
+      },
+      "answer": {
+        "accepted": [
+          "some"
+        ]
+      },
+      "explanation": "إثبات مع الجمع: some.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "Do we have",
+        "after": "water? I'm thirsty. (a · an · some · any)"
+      },
+      "answer": {
+        "accepted": [
+          "any"
+        ]
+      },
+      "explanation": "السؤال بـ any.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "He eats",
+        "after": "banana every morning. (a · an · some · any)"
+      },
+      "answer": {
+        "accepted": [
+          "a"
+        ]
+      },
+      "explanation": "banana معدود مفرد: a banana.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "true_false",
+      "prompt": "bread لا تُعدّ في الإنجليزية، فلا نقول a bread.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "قل some bread أو a slice of bread.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "multiple_choice",
+      "prompt": "أي جملة صحيحة؟",
+      "payload": {
+        "options": [
+          "I'd like a rice, please.",
+          "I'd like rices, please.",
+          "I'd like some rice, please.",
+          "I'd like many rice, please."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "rice لا تُعدّ: some rice.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "How much",
+        "after": "do you need? (مال)"
+      },
+      "answer": {
+        "accepted": [
+          "money"
+        ]
+      },
+      "explanation": "money لا تُعدّ، فنسأل How much money…?",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "free_text",
+      "prompt": "ستذهب إلى السوق غداً. اكتب أربعة أسئلة للبائع: سؤالاً بـ How much عن سعر، وسؤالاً بـ How many، وسؤالاً بـ Do you have any…؟ وسؤالاً بـ When أو What time.",
+      "payload": {},
+      "answer": null,
+      "explanation": "مثال: How much are the tomatoes? · How many eggs are in the box? · Do you have any fresh fish? · What time does the market close?",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 5,
+      "type": "multiple_choice",
+      "prompt": "___ apples do you want?",
+      "payload": {
+        "options": [
+          "How much",
+          "How many"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "معدود (تستطيع أن تقول two ___) ← How many.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "multiple_choice",
+      "prompt": "___ is the chicken?",
+      "payload": {
+        "options": [
+          "How much",
+          "How many"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "غير معدود أو سعر ← How much.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "multiple_choice",
+      "prompt": "___ water do you drink every day?",
+      "payload": {
+        "options": [
+          "How much",
+          "How many"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "غير معدود أو سعر ← How much.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "multiple_choice",
+      "prompt": "___ people are in your family?",
+      "payload": {
+        "options": [
+          "How much",
+          "How many"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "معدود (تستطيع أن تقول two ___) ← How many.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "multiple_choice",
+      "prompt": "___ money do you have?",
+      "payload": {
+        "options": [
+          "How much",
+          "How many"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "غير معدود أو سعر ← How much.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "multiple_choice",
+      "prompt": "___ eggs are in the box?",
+      "payload": {
+        "options": [
+          "How much",
+          "How many"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "معدود (تستطيع أن تقول two ___) ← How many.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "multiple_choice",
+      "prompt": "___ sugar do you put in your tea?",
+      "payload": {
+        "options": [
+          "How much",
+          "How many"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "غير معدود أو سعر ← How much.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "multiple_choice",
+      "prompt": "___ bottles do we need?",
+      "payload": {
+        "options": [
+          "How much",
+          "How many"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "معدود (تستطيع أن تقول two ___) ← How many.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "Where do they want to sit? — Near the",
+        "after": ". (الحوار الأول)"
+      },
+      "answer": {
+        "accepted": [
+          "window"
+        ]
+      },
+      "explanation": "في الحوار: Near the window, if possible.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "What does Lina order? — The fish with a",
+        "after": ". (الحوار الأول)"
+      },
+      "answer": {
+        "accepted": [
+          "salad"
+        ]
+      },
+      "explanation": "في الحوار: I'd like the fish, please, with a salad.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "Why doesn't Sami order the fish? — Because he doesn't eat",
+        "after": ". (الحوار الأول)"
+      },
+      "answer": {
+        "accepted": [
+          "fish"
+        ]
+      },
+      "explanation": "في الحوار: I don't eat fish.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "What does the waiter recommend? — The chicken with",
+        "after": ". (الحوار الأول)"
+      },
+      "answer": {
+        "accepted": [
+          "rice"
+        ]
+      },
+      "explanation": "في الحوار: The chicken with rice is very good.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "How does Sami take his tea? — With no",
+        "after": ". (الحوار الأول)"
+      },
+      "answer": {
+        "accepted": [
+          "sugar"
+        ]
+      },
+      "explanation": "في الحوار: And a tea, please. No sugar.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "How much is the bill? — Twenty-four",
+        "after": ". (الحوار الأول)"
+      },
+      "answer": {
+        "accepted": [
+          "pounds"
+        ]
+      },
+      "explanation": "في الحوار: That's twenty-four pounds.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "multiple_choice",
+      "prompt": "تدخل المطعم مع صديق. ماذا تقول للنادل؟",
+      "payload": {
+        "options": [
+          "Two tables, please.",
+          "A table for two, please.",
+          "I want sit.",
+          "Give me table."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "A table for two, please. = طاولة لشخصين.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "multiple_choice",
+      "prompt": "تريد أن تعرف أطيب طبق عند النادل. ماذا تسأل؟",
+      "payload": {
+        "options": [
+          "What you recommend?",
+          "Recommend me.",
+          "What do you recommend?",
+          "What is good you?"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "What do you recommend? — ولا يسقط do.",
+      "points": 1,
+      "error_no": 5,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "multiple_choice",
+      "prompt": "النادل يسأل: Anything to drink? وأنت لا تريد إلا الماء.",
+      "payload": {
+        "options": [
+          "Just water, please.",
+          "Water only me.",
+          "I drink always water.",
+          "No water."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "Just water, please. = ماء فقط من فضلك.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "multiple_choice",
+      "prompt": "تريد أن تنادي النادل بأدب.",
+      "payload": {
+        "options": [
+          "Hey you!",
+          "Come here!",
+          "Sorry me!",
+          "Excuse me!"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": "Excuse me! هي الطريقة المؤدّبة.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "multiple_choice",
+      "prompt": "الحساب 18 جنيهاً، أعطيت النادل 20 ولا تريد الباقي.",
+      "payload": {
+        "options": [
+          "Give me change.",
+          "Keep the change.",
+          "Take the money.",
+          "No change me."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "Keep the change. = احتفظ بالباقي.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "multiple_choice",
+      "prompt": "النادل يضع الطعام أمامك. ماذا يقول؟",
+      "payload": {
+        "options": [
+          "Eat now.",
+          "Your food is.",
+          "Enjoy your meal.",
+          "Good food you."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "Enjoy your meal. = بالهناء والشفاء.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "",
+        "after": "you like some tea? — Yes, please."
+      },
+      "answer": {
+        "accepted": [
+          "Would"
+        ]
+      },
+      "explanation": "Would you like…? للعرض المؤدّب، وجوابه Yes, please.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "multiple_choice",
+      "prompt": "تقدّم القهوة لضيف الآن. ماذا تسأل؟",
+      "payload": {
+        "options": [
+          "Do you like coffee?",
+          "Would you like some coffee?",
+          "Do you like some coffee?",
+          "You like coffee?"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "Would you like…? = هل تريد الآن؟ أمّا Do you like…? فعن حبّك له عموماً.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "I'd like",
+        "after": "order, please."
+      },
+      "answer": {
+        "accepted": [
+          "to"
+        ]
+      },
+      "explanation": "I'd like + to + فعل: I'd like to order.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "Excuse me, can we have",
+        "after": "bill, please?"
+      },
+      "answer": {
+        "accepted": [
+          "the"
+        ]
+      },
+      "explanation": "الحساب معروف للطرفين: the bill.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "multiple_choice",
+      "prompt": "We have a dog. ___ dog is very small.",
+      "payload": {
+        "options": [
+          "A",
+          "An",
+          "The",
+          "— (بلا أداة)"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "ذُكر الكلب قبلُ فصار معروفاً: The dog.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 5,
+      "type": "multiple_choice",
+      "prompt": "تتكلّم عن الشاي عموماً: I like ___.",
+      "payload": {
+        "options": [
+          "the tea",
+          "tea",
+          "a tea",
+          "teas"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "الكلام العامّ بلا the: I like tea.",
+      "points": 1,
+      "exercise_no": 5
+    },
+    {
+      "day_number": 6,
+      "type": "multiple_choice",
+      "prompt": "استمع إلى النصّ كاملاً. عمّ يتحدّث؟",
+      "payload": {
+        "options": [
+          "رحلة إلى مطعم في المدينة",
+          "تسوّق عائلة من السوق كل جمعة",
+          "يوم عمل في مخبز",
+          "طريقة طبخ غداء الجمعة"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "النصّ عن تسوّق الزوجين كل صباح جمعة: الخضار ثم الجزّار ثم المخبز ثم الفاكهة.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "true_false",
+      "prompt": "They go shopping every Friday morning.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "Every Friday morning my wife and I go shopping together.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "true_false",
+      "prompt": "The butcher sells frozen meat.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "He never sells frozen meat — everything is fresh.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "true_false",
+      "prompt": "The bread costs one pound.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "It costs one pound.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "true_false",
+      "prompt": "They buy six pieces of bread.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "We buy six pieces: four for us and two for my mother.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "true_false",
+      "prompt": "They buy fruit at the market.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "We don't buy any fruit at the market — يشتريانها من الدكّان قرب البيت.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "multiple_choice",
+      "prompt": "How much chicken does he buy?",
+      "payload": {
+        "options": [
+          "half a kilo",
+          "two kilos",
+          "one kilo",
+          "three kilos"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "I usually buy one kilo of chicken.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "multiple_choice",
+      "prompt": "How long does the shopping take?",
+      "payload": {
+        "options": [
+          "about one hour",
+          "about two hours",
+          "about three hours",
+          "all day"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "Our shopping takes about two hours.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "Two kilos of tomatoes at two pounds a kilo =",
+        "after": "pounds. (الحوار الثاني)"
+      },
+      "answer": {
+        "accepted": [
+          "4",
+          "four"
+        ]
+      },
+      "explanation": "2 × 2 = 4 pounds.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "One kilo of chicken =",
+        "after": "pounds. (الحوار الثاني)"
+      },
+      "answer": {
+        "accepted": [
+          "12",
+          "twelve"
+        ]
+      },
+      "explanation": "Twelve pounds a kilo.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "The total is seventeen pounds. So half a kilo of onions =",
+        "after": "pound. (الحوار الثاني)"
+      },
+      "answer": {
+        "accepted": [
+          "1",
+          "one"
+        ]
+      },
+      "explanation": "17 − 4 − 12 = 1. فمجموع البائع صحيح.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "multiple_choice",
+      "prompt": "البائع يقول: Can I help you? وأنت تتفرّج فقط.",
+      "payload": {
+        "options": [
+          "I look only.",
+          "I'm just looking, thank you.",
+          "No help.",
+          "I don't look."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "I'm just looking, thank you. = أتفرّج فقط، شكراً.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "multiple_choice",
+      "prompt": "تريد أن تعرف سعر الطماطم.",
+      "payload": {
+        "options": [
+          "How much is they?",
+          "How many are they?",
+          "How much they are?",
+          "How much are they?"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": "tomatoes جمع: How much are they?",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "multiple_choice",
+      "prompt": "البائع يسأل: Anything else? وأنت انتهيت.",
+      "payload": {
+        "options": [
+          "That's all, thank you.",
+          "Nothing else me.",
+          "All is finish.",
+          "No more anything."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "That's all, thank you. = هذا كل شيء، شكراً.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "multiple_choice",
+      "prompt": "البائع يسأل: Cash or card? وتريد الدفع بالبطاقة.",
+      "payload": {
+        "options": [
+          "In card.",
+          "Card me.",
+          "By card, please.",
+          "On card, please."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "by card = بالبطاقة · in cash = نقداً.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "multiple_choice",
+      "prompt": "تعطي البائع المال. ماذا تقول؟",
+      "payload": {
+        "options": [
+          "Here are you.",
+          "Here you are.",
+          "Take you.",
+          "You are here."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "Here you are. = تفضّل.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "multiple_choice",
+      "prompt": "القميص أكبر من مقاسك.",
+      "payload": {
+        "options": [
+          "It's a big.",
+          "It's too much big.",
+          "It's too big.",
+          "It's big very."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "too big = كبير أكثر من اللازم.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "multiple_choice",
+      "prompt": "الجاكيت كبير، وتريد مقاساً صغيراً.",
+      "payload": {
+        "options": [
+          "You have small one?",
+          "Do you have small?",
+          "Have small one?",
+          "Do you have a small one?"
+        ]
+      },
+      "answer": {
+        "correct": 3
+      },
+      "explanation": "Do you have a small one? — one بدل تكرار jacket.",
+      "points": 1,
+      "error_no": 5,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "£2.50 — It's two pounds",
+        "after": "."
+      },
+      "answer": {
+        "accepted": [
+          "fifty"
+        ]
+      },
+      "explanation": "£2.50 = two pounds fifty.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "Thank you. Here's your",
+        "after": ". (الباقي)"
+      },
+      "answer": {
+        "accepted": [
+          "change"
+        ]
+      },
+      "explanation": "change = باقي النقود.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "How much",
+        "after": "the tomatoes? — Two pounds a kilo."
+      },
+      "answer": {
+        "accepted": [
+          "are"
+        ]
+      },
+      "explanation": "tomatoes جمع: How much are…?",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "How much",
+        "after": "this shirt? — Ten pounds."
+      },
+      "answer": {
+        "accepted": [
+          "is"
+        ]
+      },
+      "explanation": "shirt مفرد: How much is…?",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "multiple_choice",
+      "prompt": "كيف تقرأ £3.50؟",
+      "payload": {
+        "options": [
+          "three fifty pounds",
+          "pounds three fifty",
+          "three pounds fifty",
+          "three and fifty pound"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "£3.50 = three pounds fifty.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "I'd like half",
+        "after": "kilo of onions, please."
+      },
+      "answer": {
+        "accepted": [
+          "a"
+        ]
+      },
+      "explanation": "half a kilo = نصف كيلو، و a بعد half.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "multiple_choice",
+      "prompt": "a ______ of bread",
+      "payload": {
+        "options": [
+          "slice",
+          "glass",
+          "bottle",
+          "can"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "a slice of bread = شريحة خبز.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "multiple_choice",
+      "prompt": "a ______ of juice",
+      "payload": {
+        "options": [
+          "slice",
+          "piece",
+          "glass",
+          "kilo"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "a glass of juice = كأس عصير.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "multiple_choice",
+      "prompt": "I need ___ salt.",
+      "payload": {
+        "options": [
+          "a few",
+          "a little"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "salt لا تُعدّ: a little.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 6,
+      "type": "multiple_choice",
+      "prompt": "I need ___ tomatoes.",
+      "payload": {
+        "options": [
+          "a few",
+          "a little"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "tomatoes معدودة جمع: a few.",
+      "points": 1,
+      "exercise_no": 6
+    },
+    {
+      "day_number": 7,
+      "type": "multiple_choice",
+      "prompt": "ما الفكرة الرئيسة للنصّ؟",
+      "payload": {
+        "options": [
+          "مطعم كبير غالٍ في نابولي",
+          "سائح يبحث عن عمل في مطعم",
+          "مطعم صغير بلا قائمة يطبخ كل يوم ما في السوق",
+          "سوق السمك في نابولي"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "النصّ كله عن Da Mario: لا قائمة، والسوق يقرّر الطعام كل يوم.",
+      "points": 1,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "true_false",
+      "prompt": "The restaurant has a printed menu.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "It has eight tables and no menu.",
+      "points": 1,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "true_false",
+      "prompt": "Mario goes to the market in the afternoon.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "He goes every morning at five o'clock.",
+      "points": 1,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "true_false",
+      "prompt": "The waiter tells you the dishes of the day.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "So when you arrive, the waiter tells you the dishes of the day.",
+      "points": 1,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "true_false",
+      "prompt": "The restaurant is usually empty.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "The restaurant is full every night.",
+      "points": 1,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "true_false",
+      "prompt": "Mario wants to open a big restaurant.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "I don't want a big restaurant.",
+      "points": 1,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "multiple_choice",
+      "prompt": "لماذا ينتظر الناس في الشارع؟",
+      "payload": {
+        "options": [
+          "لأن المطعم مغلق",
+          "لأن المطعم ممتلئ والناس يحبّون طعامه",
+          "لأن الأسعار على لوحة في الخارج",
+          "لأن ماريو لا يحبّ الزبائن"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "الاستنتاج: المطعم ممتلئ كل ليلة، فالناس يحبّونه وينتظرون مكاناً.",
+      "points": 1,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "multiple_choice",
+      "prompt": "«The market decides» — ماذا يقصد ماريو؟",
+      "payload": {
+        "options": [
+          "السوق قريب من المطعم",
+          "طعام كل يوم بحسب ما يجده طازجاً في السوق",
+          "السوق يملك المطعم",
+          "يشتري من السوق مرّة في الأسبوع"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "He buys what is fresh that day — فالسوق هو الذي «يقرّر» الطبق.",
+      "points": 1,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "He doesn't likes fish."
+      },
+      "answer": {
+        "accepted": [
+          "He doesn't like fish."
+        ]
+      },
+      "explanation": "لا s بعد doesn't.",
+      "points": 1,
+      "error_no": 4,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "Where you work?"
+      },
+      "answer": {
+        "accepted": [
+          "Where do you work?"
+        ]
+      },
+      "explanation": "السؤال يحتاج do.",
+      "points": 1,
+      "error_no": 5,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "She not eat breakfast."
+      },
+      "answer": {
+        "accepted": [
+          "She doesn't eat breakfast."
+        ]
+      },
+      "explanation": "النفي بـ doesn't، ولا تكفي not.",
+      "points": 1,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "Do you like tea? — Yes, I like."
+      },
+      "answer": {
+        "accepted": [
+          "Yes, I do.",
+          "Yes I do.",
+          "Do you like tea? — Yes, I do.",
+          "Do you like tea? — Yes I do.",
+          "Yes, I like it.",
+          "Yes I like it.",
+          "Do you like tea? — Yes, I like it.",
+          "Do you like tea? — Yes I like it."
+        ]
+      },
+      "explanation": "الجواب القصير Yes, I do — أو Yes, I like it بالمفعول.",
+      "points": 1,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "How much eggs do you want?"
+      },
+      "answer": {
+        "accepted": [
+          "How many eggs do you want?"
+        ]
+      },
+      "explanation": "eggs معدودة: how many.",
+      "points": 1,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "I want a bread, please."
+      },
+      "answer": {
+        "accepted": [
+          "I want some bread, please.",
+          "I want some bread please.",
+          "I want bread, please.",
+          "I want bread please."
+        ]
+      },
+      "explanation": "bread لا تُعدّ: some bread.",
+      "points": 1,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "Does he goes to the market?"
+      },
+      "answer": {
+        "accepted": [
+          "Does he go to the market?"
+        ]
+      },
+      "explanation": "بعد does فعل مجرّد.",
+      "points": 1,
+      "error_no": 4,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "We don't have some money."
+      },
+      "answer": {
+        "accepted": [
+          "We don't have any money."
+        ]
+      },
+      "explanation": "النفي بـ any.",
+      "points": 1,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "What time does open the shop?"
+      },
+      "answer": {
+        "accepted": [
+          "What time does the shop open?"
+        ]
+      },
+      "explanation": "الفاعل the shop قبل الفعل open.",
+      "points": 1,
+      "error_no": 5,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "I would like a rice, please."
+      },
+      "answer": {
+        "accepted": [
+          "I would like some rice, please.",
+          "I would like some rice please.",
+          "I would like rice, please.",
+          "I would like rice please."
+        ]
+      },
+      "explanation": "rice لا تُعدّ: some rice.",
+      "points": 1,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "These apples are good. I buy",
+        "after": "every week."
+      },
+      "answer": {
+        "accepted": [
+          "them"
+        ]
+      },
+      "explanation": "apples جمع، ومفعولها them.",
+      "points": 1,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "My brother lives in London. I call",
+        "after": "on Fridays."
+      },
+      "answer": {
+        "accepted": [
+          "him"
+        ]
+      },
+      "explanation": "brother مذكّر: him.",
+      "points": 1,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "multiple_choice",
+      "prompt": "Sara and I are hungry. Can you help ___?",
+      "payload": {
+        "options": [
+          "we",
+          "our",
+          "us",
+          "they"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "Sara and I = we، ومفعولها us.",
+      "points": 1,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 7,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "She loves he."
+      },
+      "answer": {
+        "accepted": [
+          "She loves him."
+        ]
+      },
+      "explanation": "بعد الفعل ضمير المفعول him لا he.",
+      "points": 1,
+      "exercise_no": 7
+    },
+    {
+      "day_number": 4,
+      "type": "multiple_choice",
+      "prompt": "I drink ___ water every day — eight glasses.",
+      "payload": {
+        "options": [
+          "a few",
+          "a lot of",
+          "a little",
+          "many of"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "ثمانية أكواب كمية كبيرة، وa lot of تصلح لغير المعدود.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "multiple_choice",
+      "prompt": "We have ___ apples. Do you want one?",
+      "payload": {
+        "options": [
+          "a few",
+          "a little",
+          "much",
+          "a lot"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "apples معدودة جمع: a few.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "multiple_choice",
+      "prompt": "Can I have ___ milk in my tea, please? Not much.",
+      "payload": {
+        "options": [
+          "a few",
+          "a little",
+          "many",
+          "a lot"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "milk لا تُعدّ، والمطلوب قليل: a little.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "multiple_choice",
+      "prompt": "She doesn't have ___ money this month.",
+      "payload": {
+        "options": [
+          "many",
+          "much",
+          "a few",
+          "lots"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "money لا تُعدّ، وفي النفي much.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "multiple_choice",
+      "prompt": "He doesn't have ___ friends here.",
+      "payload": {
+        "options": [
+          "much",
+          "many",
+          "a little",
+          "lot"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "friends معدودة، وفي النفي many.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "Do you eat a lot",
+        "after": "rice?"
+      },
+      "answer": {
+        "accepted": [
+          "of"
+        ]
+      },
+      "explanation": "قبل الاسم a lot of.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "I know a",
+        "after": "French words — maybe ten."
+      },
+      "answer": {
+        "accepted": [
+          "few"
+        ]
+      },
+      "explanation": "words معدودة جمع: a few.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "Add a",
+        "after": "salt to the soup — just a small amount."
+      },
+      "answer": {
+        "accepted": [
+          "little"
+        ]
+      },
+      "explanation": "salt لا تُعدّ: a little.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "I eat a lot fruit."
+      },
+      "answer": {
+        "accepted": [
+          "I eat a lot of fruit.",
+          "I eat lots of fruit."
+        ]
+      },
+      "explanation": "قبل الاسم a lot of أو lots of.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "We need a few bread."
+      },
+      "answer": {
+        "accepted": [
+          "We need a little bread.",
+          "We need some bread."
+        ]
+      },
+      "explanation": "bread لا تُعدّ: a little أو some.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "She has a little brothers."
+      },
+      "answer": {
+        "accepted": [
+          "She has a few brothers."
+        ]
+      },
+      "explanation": "brothers معدودة جمع: a few.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "true_false",
+      "prompt": "I have lots of books. = I have a lot of books.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "lots of وa lot of بمعنى واحد، وlots of أخفّ في الكلام.",
+      "points": 1,
+      "exercise_no": 4
     }
   ]
 }

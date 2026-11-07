@@ -2,6 +2,15 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useSpeechPrefs } from '@/lib/speechPrefs';
 import { strip } from '@/lib/bidi';
 import { usePage } from '@inertiajs/react';
+import { TextToSpeech } from '@capacitor-community/text-to-speech';
+import { isNativeApp } from '@/lib/native';
+
+/*
+ * Inside the app, speech goes through the phone's own engine. The
+ * browser one is missing or patchy in an app's web view on Android, and
+ * a word that stays silent is a lesson that stops.
+ */
+const NATIVE = isNativeApp();
 
 /**
  * نطق الكلمات عبر Web Speech API.
@@ -164,6 +173,7 @@ export function useSpeech() {
   const [supported, setSupported] = useState(true);
 
   useEffect(() => {
+    if (NATIVE) return;
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
       setSupported(false);
       return;
@@ -222,6 +232,17 @@ export function useSpeech() {
     (text: string, opts: SpeechOptions = {}) => {
       if (!supported) return;
 
+      if (NATIVE) {
+        seqRef.current++;
+        setSpeaking(true);
+        void TextToSpeech.stop()
+          .catch(() => {})
+          .then(() => TextToSpeech.speak({ text: strip(text), lang: opts.lang ?? 'en-GB', rate: opts.rate ?? 0.85 }))
+          .catch(() => {})
+          .finally(() => setSpeaking(false));
+        return;
+      }
+
       // إبطال أي سلسلة جارية ثم إلغاء الكلام — يمنع تراكم الطوابير
       seqRef.current++;
       window.speechSynthesis.cancel();
@@ -258,6 +279,29 @@ export function useSpeech() {
       const { rate = 0.85, lang = 'en-GB', gapMs = 400, onLine, onDone } = opts;
 
       const token = ++seqRef.current;
+
+      if (NATIVE) {
+        setSpeaking(true);
+        void (async () => {
+          await TextToSpeech.stop().catch(() => {});
+          for (let i = 0; i < lines.length; i++) {
+            if (token !== seqRef.current) return;
+            onLine?.(i);
+            await TextToSpeech.speak({ text: strip(lines[i].text), lang, rate }).catch(() => {});
+            await new Promise((r) => window.setTimeout(r, gapMs));
+          }
+          if (token !== seqRef.current) return;
+          setSpeaking(false);
+          onDone?.();
+        })();
+
+        return () => {
+          seqRef.current++;
+          void TextToSpeech.stop().catch(() => {});
+          setSpeaking(false);
+        };
+      }
+
       window.speechSynthesis.cancel();
       setSpeaking(true);
 
@@ -307,7 +351,8 @@ export function useSpeech() {
 
   const stop = useCallback(() => {
     seqRef.current++;
-    if (supported) window.speechSynthesis.cancel();
+    if (NATIVE) void TextToSpeech.stop().catch(() => {});
+    else if (supported) window.speechSynthesis.cancel();
     setSpeaking(false);
   }, [supported]);
 

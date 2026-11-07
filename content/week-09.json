@@ -380,7 +380,7 @@
         },
         {
           "label": "تمارين اليوم",
-          "minutes": 10,
+          "minutes": 15,
           "ref": "exercises:4",
           "order": 7
         },
@@ -3459,6 +3459,114 @@
               ]
             },
             "tip_ar": "أرقام الهاتف تُقال رقماً رقماً، والصفر oh: 079 ← oh seven nine."
+          },
+          {
+            "title_ar": "ضمائر الانعكاس: myself · yourself …",
+            "title_en": "Reflexive pronouns: myself, yourself…",
+            "explain_ar": "حين يقع الفعل على فاعله نفسه نستعمل ضمير الانعكاس، وتقابله في العربية كلمة «نفس»: I hurt myself = آذيت نفسي. ومفرده ينتهي بـself وجمعه بـselves. وby myself معناها «وحدي، بلا أحد»: I live by myself. ويأتي للتوكيد أيضاً: I made it myself = صنعته بنفسي. ولا تنقل «نفسي» من العربية إلى كل فعل: I feel tired لا I feel myself tired. وبالعكس، enjoy لا يقف وحده: إمّا شيء بعده (I enjoyed the party) وإمّا ضمير انعكاس (I enjoyed myself).",
+            "table": {
+              "columns_ar": [
+                "الضمير",
+                "ضمير الانعكاس",
+                "مثال",
+                "المعنى"
+              ],
+              "rows": [
+                [
+                  "I",
+                  "myself",
+                  "I'm teaching myself to cook.",
+                  "أعلّم نفسي الطبخ."
+                ],
+                [
+                  "you",
+                  "yourself",
+                  "Help yourself to some tea.",
+                  "تفضّل، خذ من الشاي."
+                ],
+                [
+                  "he",
+                  "himself",
+                  "He cut himself in the kitchen.",
+                  "جرح نفسه في المطبخ."
+                ],
+                [
+                  "she",
+                  "herself",
+                  "She is looking at herself in the mirror.",
+                  "تنظر إلى نفسها في المرآة."
+                ],
+                [
+                  "it",
+                  "itself",
+                  "The door closes by itself.",
+                  "يُغلق الباب وحده."
+                ],
+                [
+                  "we",
+                  "ourselves",
+                  "We enjoyed ourselves at the wedding.",
+                  "استمتعنا في العرس."
+                ],
+                [
+                  "you (جمع)",
+                  "yourselves",
+                  "Please help yourselves.",
+                  "تفضّلوا، خذوا ما شئتم."
+                ],
+                [
+                  "they",
+                  "themselves",
+                  "They built the house themselves.",
+                  "بنوا البيت بأنفسهم."
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                3
+              ]
+            },
+            "examples": [
+              {
+                "en": "I live by myself.",
+                "ar": "أعيش وحدي."
+              },
+              {
+                "en": "Did you make this cake yourself?",
+                "ar": "هل صنعت هذه الكعكة بنفسك؟"
+              },
+              {
+                "en": "Take care of yourself.",
+                "ar": "اعتنِ بنفسك."
+              },
+              {
+                "en": "He is talking to himself.",
+                "ar": "يكلّم نفسه."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "We enjoyed at the party.",
+                "right": "We enjoyed ourselves at the party.",
+                "why_ar": "enjoy يحتاج مفعولاً: the party أو ourselves."
+              },
+              {
+                "wrong": "He hurt hisself.",
+                "right": "He hurt himself.",
+                "why_ar": "الصيغة himself لا hisself."
+              },
+              {
+                "wrong": "I feel myself tired.",
+                "right": "I feel tired.",
+                "why_ar": "feel مع الصفة بلا ضمير انعكاس."
+              },
+              {
+                "wrong": "She lives by her.",
+                "right": "She lives by herself.",
+                "why_ar": "«وحدها» = by herself."
+              }
+            ],
+            "tip_ar": "في الضيافة وعلى الهاتف: Help yourself = تفضّل، وTake care of yourself = اعتنِ بنفسك، عبارتان تسمعهما كل يوم."
           }
         ]
       }
@@ -7696,6 +7804,210 @@
       "payload": {},
       "answer": {},
       "explanation": "نموذج: Hi Lina, my son is ill, so I'm staying at home today. I'm working on the report now. Could you send me the numbers, please? Thanks, Sami"
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "I fell and hurt",
+        "after": "on the stairs."
+      },
+      "answer": {
+        "accepted": [
+          "myself"
+        ]
+      },
+      "explanation": "الفاعل I، فالانعكاس myself.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "She lives by",
+        "after": "in a small flat."
+      },
+      "answer": {
+        "accepted": [
+          "herself"
+        ]
+      },
+      "explanation": "by herself = وحدها.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "The children made the cake",
+        "after": "— nobody helped them."
+      },
+      "answer": {
+        "accepted": [
+          "themselves"
+        ]
+      },
+      "explanation": "للتوكيد: themselves = بأنفسهم.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "Please help",
+        "after": "to some coffee, Mr Ali."
+      },
+      "answer": {
+        "accepted": [
+          "yourself"
+        ]
+      },
+      "explanation": "شخص واحد: help yourself = تفضّل.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "We enjoyed",
+        "after": "at the party last night."
+      },
+      "answer": {
+        "accepted": [
+          "ourselves"
+        ]
+      },
+      "explanation": "enjoy يحتاج مفعولاً، والفاعل we.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "fill_blank",
+      "prompt": "أكمل الفراغ",
+      "payload": {
+        "before": "He is looking at",
+        "after": "in the mirror."
+      },
+      "answer": {
+        "accepted": [
+          "himself"
+        ]
+      },
+      "explanation": "الفاعل he: himself.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "multiple_choice",
+      "prompt": "Ahmed and Sara, please help ___ to some food.",
+      "payload": {
+        "options": [
+          "yourself",
+          "yourselves",
+          "themselves",
+          "ourselves"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "تخاطب شخصين: yourselves.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "multiple_choice",
+      "prompt": "The light turns off by ___.",
+      "payload": {
+        "options": [
+          "itself",
+          "himself",
+          "themselves",
+          "it"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "the light شيء مفرد: by itself.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "He hurt hisself at work."
+      },
+      "answer": {
+        "accepted": [
+          "He hurt himself at work."
+        ]
+      },
+      "explanation": "الصيغة himself لا hisself.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "Did you enjoy at the wedding?"
+      },
+      "answer": {
+        "accepted": [
+          "Did you enjoy yourself at the wedding?",
+          "Did you enjoy yourselves at the wedding?",
+          "Did you enjoy the wedding?"
+        ]
+      },
+      "explanation": "enjoy لا يقف وحده: yourself أو the wedding.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "correct_error",
+      "prompt": "صحّح الخطأ في هذه الجملة",
+      "payload": {
+        "sentence": "I feel myself tired today."
+      },
+      "answer": {
+        "accepted": [
+          "I feel tired today.",
+          "I am feeling tired today.",
+          "I am tired today."
+        ]
+      },
+      "explanation": "feel مع الصفة بلا ضمير انعكاس.",
+      "points": 1,
+      "exercise_no": 4
+    },
+    {
+      "day_number": 4,
+      "type": "true_false",
+      "prompt": "I live by myself. = أعيش وحدي.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "by myself = وحدي، بلا أحد معي.",
+      "points": 1,
+      "exercise_no": 4
     }
   ]
 }

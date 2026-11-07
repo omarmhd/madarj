@@ -5,47 +5,133 @@
   "title_ar": "مراجعة واختبار الوحدة الأولى",
   "pron_section": 5,
   "is_review": true,
-  "objectives": [],
-  "writing": null,
+  "objectives": [
+    {
+      "en": "I can introduce myself and other people: name, age, city, job and family.",
+      "ar": "أعرّف بنفسي وبغيري: الاسم والعمر والمدينة والعمل والأسرة"
+    },
+    {
+      "en": "I can describe my day, my home and my town in short, correct sentences.",
+      "ar": "أصف يومي وبيتي ومدينتي بجمل قصيرة صحيحة"
+    },
+    {
+      "en": "I can ask and answer simple questions with be, do / does, can and there is / there are.",
+      "ar": "أسأل وأجيب أسئلة بسيطة بـbe وdo / does وcan وthere is / there are"
+    },
+    {
+      "en": "I can order food, ask about prices, and ask for and follow simple directions.",
+      "ar": "أطلب الطعام، وأسأل عن الثمن، وأسأل عن الطريق وأفهم الجواب"
+    },
+    {
+      "en": "I can follow a short, slow talk about someone's life and catch numbers, times and places.",
+      "ar": "أفهم حديثاً قصيراً بطيئاً عن حياة شخص، وألتقط الأرقام والأوقات والأماكن"
+    },
+    {
+      "en": "I can read a short simple text and signs, and find the main idea and the details.",
+      "ar": "أقرأ نصاً قصيراً بسيطاً ولافتات، وأجد الفكرة العامّة والتفاصيل"
+    },
+    {
+      "en": "I can write 80–100 words about myself, linked with and, but, because and then.",
+      "ar": "أكتب 80–100 كلمة عن نفسي، وأربط الجمل بـand وbut وbecause وthen"
+    },
+    {
+      "en": "I can speak for up to three minutes about my life, and have a first short conversation.",
+      "ar": "أتحدّث عن حياتي حتى ثلاث دقائق، وأُجري أوّل محادثة قصيرة"
+    },
+    {
+      "en": "I can find my score out of 100 and name my two weakest areas for Module 2.",
+      "ar": "أعرف درجتي من 100، وأحدّد أضعف جانبين أحملهما إلى الوحدة الثانية"
+    }
+  ],
+  "writing": {
+    "title_ar": "اختبار الكتابة — عرّف بنفسك لزميل جديد",
+    "title_en": "Module 1 Test — Writing: Introduce Yourself to a New Colleague",
+    "task_en": "Write 80–100 words to a new colleague. Introduce yourself. Include all six: your name, age, city and job; your family; your day, with at least two times; your home, with there is / there are; something you can do and something you can't; what you like doing in your free time.",
+    "task_ar": "اكتب 80–100 كلمة إلى زميل جديد في العمل تعرّفه فيها بنفسك. اذكر النقاط الستّ كلها: اسمك وعمرك ومدينتك وعملك · أسرتك · يومك مع وقتين على الأقل · بيتك بـthere is / there are · شيئاً تستطيعه وشيئاً لا تستطيعه · ما تحبّ فعله في وقت فراغك.",
+    "min_words": 80,
+    "max_words": 100,
+    "templates": [
+      {
+        "en": "Hi …, my name is … I'm … years old and I'm a / an … ",
+        "ar": "التحية، ثم الاسم والعمر والعمل — ولا تنسَ am وa / an"
+      },
+      {
+        "en": "I live in … with my … ",
+        "ar": "المدينة والأسرة"
+      },
+      {
+        "en": "I usually get up at … I start work at … and I finish at … ",
+        "ar": "يومك بوقتين على الأقل، وusually قبل الفعل"
+      },
+      {
+        "en": "My flat is … There is a … and there are two … ",
+        "ar": "بيتك: there is للمفرد وthere are للجمع"
+      },
+      {
+        "en": "I can …, but I can't … ",
+        "ar": "ما تستطيعه وما لا تستطيعه — فعل مجرّد بعد can"
+      },
+      {
+        "en": "In my free time I like …ing. See you on …! ",
+        "ar": "الفراغ بـlike + -ing، ثم ختام الرسالة"
+      }
+    ],
+    "checklist": [
+      {
+        "ar": "المحتوى — 3 درجات: هل ذكرت النقاط الستّ كلها؟ نصف درجة لكل نقطة."
+      },
+      {
+        "ar": "تحقيق الغرض — درجتان: هل تصلح رسالة إلى زميل جديد، بتحية في أوّلها وختام في آخرها؟ وهل هي بين 80 و100 كلمة؟"
+      },
+      {
+        "ar": "التنظيم — درجتان: هل رتّبت النقاط فقرات قصيرة، وربطت الجمل بـand · but · because · then؟"
+      },
+      {
+        "ar": "اللغة — 3 درجات: هل خلت من الأخطاء العشرة: am / is / are في كل جملة، و-s مع he وshe، وthere is للوجود، وفعل مجرّد بعد can؟"
+      }
+    ],
+    "model_answer": "Hi Sara,\n\nMy name is Huda. I'm twenty-six years old and I'm an engineer. I'm from Irbid, but now I live in Amman with my parents and my little brother. He is a student.\n\nI usually get up at half past six. I start work at eight and I finish at four.\n\nOur flat is small, but it is very nice. There are two bedrooms, and there is a big balcony.\n\nI can drive, but I can't swim. In my free time I like cooking and reading.\n\nSee you on Monday!\nHuda",
+    "model_words": 93
+  },
   "days": [
     {
       "number": 1,
-      "focus": "مراجعة الوحدة الأولى واختبارها — اليوم 1",
+      "focus": "المفردات — كلمات الأسابيع الخمسة",
       "tasks": [
         {
           "order": 1,
           "label": "مراجعة المفردات — الوحدة كلها",
-          "minutes": 25,
+          "minutes": 15,
           "ref": "review:vocab"
         },
         {
           "order": 2,
-          "label": "ترسيخ المفردات — الخمسمئة كلمة كلها",
+          "label": "اختبار الكلمات — الخمسمئة كلمة",
           "minutes": 25,
           "ref": "section:word_test"
         },
         {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 3
-        },
-        {
-          "order": 4,
-          "label": "تمارين المراجعة",
-          "minutes": 5,
+          "order": 3,
+          "label": "تمارين المفردات والكلمات المتلازمة",
+          "minutes": 15,
           "ref": "exercises:1"
         },
         {
+          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review"
+        },
+        {
+          "order": 5,
           "label": "اكتب مثله",
           "minutes": 10,
-          "ref": "imitate",
-          "order": 5
+          "ref": "imitate"
         },
         {
           "order": 6,
           "label": "حلقة اليوم",
-          "minutes": 20,
+          "minutes": 15,
           "ref": "watch:l4SeFcqN2Wo"
         },
         {
@@ -55,46 +141,46 @@
           "ref": "play:match_race"
         },
         {
+          "order": 8,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 8
+          "ref": "homework"
         }
       ]
     },
     {
       "number": 2,
-      "focus": "القواعد",
+      "focus": "القواعد — الوحدة في صفحة والأسبوعان 1 و2",
       "tasks": [
         {
           "order": 1,
           "label": "مراجعة المفردات — الوحدة كلها",
-          "minutes": 25,
+          "minutes": 15,
           "ref": "review:vocab"
         },
         {
           "order": 2,
-          "label": "ترسيخ القواعد + تمارين مختلطة",
+          "label": "الوحدة في صفحة · الأخطاء العشرة · الأسبوعان 1 و2",
           "minutes": 25,
           "ref": "section:grammar"
         },
         {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 3
-        },
-        {
-          "order": 4,
-          "label": "تمارين المراجعة",
-          "minutes": 5,
+          "order": 3,
+          "label": "تمارين مختلطة — ضع الفعل في صيغته",
+          "minutes": 15,
           "ref": "exercises:2"
         },
         {
+          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review"
+        },
+        {
+          "order": 5,
           "label": "اكتب مثله",
           "minutes": 10,
-          "ref": "imitate",
-          "order": 5
+          "ref": "imitate"
         },
         {
           "order": 6,
@@ -109,280 +195,292 @@
           "ref": "play:error_hunt"
         },
         {
+          "order": 8,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 8
+          "ref": "homework"
         }
       ]
     },
     {
       "number": 3,
-      "focus": "القواعد",
+      "focus": "القواعد والنطق — الأسابيع 3–5",
       "tasks": [
         {
           "order": 1,
           "label": "مراجعة المفردات — الوحدة كلها",
-          "minutes": 25,
+          "minutes": 10,
           "ref": "review:vocab"
         },
         {
           "order": 2,
-          "label": "ترسيخ النطق — المشكلات التسع كلها",
-          "minutes": 25,
+          "label": "الأسئلة والكمّيات والمكان والقدرة",
+          "minutes": 15,
           "ref": "section:grammar"
         },
         {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 3
+          "order": 3,
+          "label": "ترسيخ النطق — المشكلات التسع",
+          "minutes": 15,
+          "ref": "section:phonics"
         },
         {
           "order": 4,
-          "label": "تمارين المراجعة",
-          "minutes": 5,
+          "label": "الفقرة الجامعة — اقرأها مسجّلاً صوتك",
+          "minutes": 10,
+          "ref": "section:reading"
+        },
+        {
+          "order": 5,
+          "label": "تمارين مختلطة — صحّح الخطأ واكتب السؤال",
+          "minutes": 25,
           "ref": "exercises:3"
         },
         {
-          "label": "اكتب مثله",
-          "minutes": 10,
-          "ref": "imitate",
-          "order": 5
+          "order": 6,
+          "label": "مراجعة الإملاء",
+          "minutes": 5,
+          "ref": "spell:review"
         },
         {
-          "order": 6,
+          "order": 7,
+          "label": "اكتب مثله",
+          "minutes": 5,
+          "ref": "imitate"
+        },
+        {
+          "order": 8,
           "label": "قصة اليوم",
           "minutes": 10,
           "ref": "story:ali-baba-and-the-magic-word"
         },
         {
-          "order": 7,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
         },
         {
+          "order": 10,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 8
+          "ref": "homework"
         }
       ]
     },
     {
       "number": 4,
-      "focus": "القواعد",
+      "focus": "اختبار الوحدة — القواعد والمفردات والنطق",
       "tasks": [
         {
           "order": 1,
           "label": "مراجعة المفردات — الوحدة كلها",
-          "minutes": 25,
+          "minutes": 10,
           "ref": "review:vocab"
         },
         {
           "order": 2,
-          "label": "اختبار الوحدة، الأقسام أ–ج (كتابي)",
-          "minutes": 25,
-          "ref": "section:grammar"
-        },
-        {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 3
-        },
-        {
-          "order": 4,
-          "label": "تمارين المراجعة",
-          "minutes": 5,
+          "label": "الاختبار: القواعد · المفردات · النطق (من 60)",
+          "minutes": 30,
           "ref": "exercises:4"
         },
         {
-          "label": "اكتب مثله",
-          "minutes": 10,
-          "ref": "imitate",
-          "order": 5
+          "order": 3,
+          "label": "مراجعة الإملاء",
+          "minutes": 5,
+          "ref": "spell:review"
         },
         {
-          "order": 6,
+          "order": 4,
+          "label": "اكتب مثله",
+          "minutes": 10,
+          "ref": "imitate"
+        },
+        {
+          "order": 5,
           "label": "حلقة اليوم",
           "minutes": 10,
           "ref": "watch:P7BlpW1KjAU"
         },
         {
-          "order": 7,
+          "order": 6,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:error_hunt"
         },
         {
+          "order": 7,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 8
+          "ref": "homework"
         }
       ]
     },
     {
       "number": 5,
-      "focus": "القواعد",
+      "focus": "اختبار الوحدة — الاستماع والقراءة والكتابة والتحدّث",
       "tasks": [
         {
           "order": 1,
-          "label": "مراجعة المفردات — الوحدة كلها",
-          "minutes": 25,
-          "ref": "review:vocab"
+          "label": "اختبار الاستماع — مرّتان فقط",
+          "minutes": 10,
+          "ref": "section:listening"
         },
         {
           "order": 2,
-          "label": "اختبار الوحدة، الأقسام د–و (المهارات)",
-          "minutes": 25,
-          "ref": "section:grammar"
-        },
-        {
-          "label": "مراجعة الإملاء",
+          "label": "اختبار القراءة — اقرأ النصّ",
           "minutes": 10,
-          "ref": "spell:review",
-          "order": 3
+          "ref": "section:reading"
         },
         {
-          "order": 4,
-          "label": "تمارين المراجعة",
-          "minutes": 5,
+          "order": 3,
+          "label": "الاختبار: الاستماع · القراءة (من 30)",
+          "minutes": 10,
           "ref": "exercises:5"
         },
         {
-          "label": "اكتب مثله",
-          "minutes": 10,
-          "ref": "imitate",
-          "order": 5
+          "order": 4,
+          "label": "اختبار الكتابة — عرّف بنفسك لزميل جديد",
+          "minutes": 25,
+          "ref": "writing:1"
+        },
+        {
+          "order": 5,
+          "label": "سجّل ثلاث دقائق عن حياتك",
+          "minutes": 15,
+          "ref": "record"
         },
         {
           "order": 6,
+          "label": "مراجعة الإملاء",
+          "minutes": 5,
+          "ref": "spell:review"
+        },
+        {
+          "order": 7,
+          "label": "اكتب مثله",
+          "minutes": 5,
+          "ref": "imitate"
+        },
+        {
+          "order": 8,
           "label": "حلقة اليوم",
           "minutes": 10,
           "ref": "watch:S_8M83PSncE"
         },
         {
-          "order": 7,
+          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
         },
         {
+          "order": 10,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 8
+          "ref": "homework"
         }
       ]
     },
     {
       "number": 6,
-      "focus": "القواعد",
+      "focus": "درجتك وتشخيصك — وأوّل محادثة",
       "tasks": [
         {
           "order": 1,
           "label": "مراجعة المفردات — الوحدة كلها",
-          "minutes": 25,
+          "minutes": 10,
           "ref": "review:vocab"
         },
         {
           "order": 2,
-          "label": "صحّح كل شيء، وشخّص مواضع ضعفك",
-          "minutes": 25,
+          "label": "اجمع درجتك من 100 وشخّص أضعف قسمين",
+          "minutes": 15,
           "ref": "section:grammar"
         },
         {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 3
-        },
-        {
-          "order": 4,
-          "label": "تمارين المراجعة",
+          "order": 3,
+          "label": "ماذا تقول حين…؟ — لغة المحادثة",
           "minutes": 5,
           "ref": "exercises:6"
         },
         {
-          "label": "اكتب مثله",
-          "minutes": 10,
-          "ref": "imitate",
-          "order": 5
+          "order": 4,
+          "label": "أوّل محادثة — بالإنجليزية مع شخص حقيقيّ",
+          "minutes": 35,
+          "ref": "section:conversation"
+        },
+        {
+          "order": 5,
+          "label": "مراجعة الإملاء",
+          "minutes": 5,
+          "ref": "spell:review"
         },
         {
           "order": 6,
+          "label": "اكتب مثله",
+          "minutes": 5,
+          "ref": "imitate"
+        },
+        {
+          "order": 7,
           "label": "قصة اليوم",
           "minutes": 10,
           "ref": "story:crow-and-cheese"
         },
         {
-          "order": 7,
+          "order": 8,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:error_hunt"
         },
         {
+          "order": 9,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 8
+          "ref": "homework"
         }
       ]
     },
     {
       "number": 7,
-      "focus": "مراجعة الوحدة الأولى واختبارها — اليوم 7",
+      "focus": "المقارنة الكبرى وخطّة الوحدة الثانية",
       "tasks": [
         {
           "order": 1,
           "label": "مراجعة المفردات — الوحدة كلها",
-          "minutes": 25,
+          "minutes": 15,
           "ref": "review:vocab"
         },
         {
           "order": 2,
-          "label": "المقارنة الكبرى + خطّط للوحدة الثانية",
-          "minutes": 25,
+          "label": "المقارنة الكبرى: تسجيل Week01 وتسجيل Week06",
+          "minutes": 30,
           "ref": "section:comparison"
         },
         {
-          "label": "مراجعة الإملاء",
-          "minutes": 10,
-          "ref": "spell:review",
-          "order": 3
-        },
-        {
-          "order": 4,
-          "label": "تمارين المراجعة",
+          "order": 3,
+          "label": "ماذا تقول حين…؟ وخطّتك",
           "minutes": 5,
           "ref": "exercises:7"
         },
         {
-          "order": 5,
-          "label": "سجّل تسجيل نهاية الوحدة — وقارنه بتسجيلاتك السابقة",
-          "minutes": 5,
-          "ref": "record"
+          "order": 4,
+          "label": "مراجعة الإملاء",
+          "minutes": 10,
+          "ref": "spell:review"
         },
         {
-          "order": 6,
+          "order": 5,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
         },
         {
-          "order": 7,
-          "label": "أوّل محادثة — بالإنجليزية مع شخص حقيقيّ",
-          "minutes": 20,
-          "ref": "section:conversation"
-        },
-        {
+          "order": 6,
           "label": "مغامرة اليوم",
           "minutes": 10,
-          "ref": "homework",
-          "order": 8
+          "ref": "homework"
         }
       ]
     }
@@ -393,133 +491,256 @@
   "sections": [
     {
       "kind": "grammar",
-      "day_number": 4,
-      "title_ar": "القواعد",
-      "title_en": "Grammar Consolidation",
+      "day_number": 2,
+      "title_ar": "القواعد — الوحدة الأولى في صفحة واحدة",
+      "title_en": "Grammar Consolidation — Module 1 on One Page",
       "payload": {
-        "rule_ar": "هذه عشرة أخطاء تجمع أغلب ما يقع فيه المتحدّث بالعربية في مستوى A1. اقرأ الجدول بصوت عالٍ كل يوم هذا الأسبوع: تصحيحها يساوي أكثر من تعلّم خمسين كلمة جديدة.",
-        "rule_en": "Read this table aloud every day this week. These ten account for the large majority of errors an A1 Arabic speaker makes. Fixing them is worth more than learning fifty new words.",
+        "rule_ar": "خمسة تراكيب هي عمود الوحدة الأولى: to be، والمضارع البسيط، وhave، وthere is / there are، وcan. اقرأ الجدول بصوت عالٍ كل يوم هذا الأسبوع: الإثبات ثم النفي ثم السؤال. ولاحظ أن be وcan وthere is تقلب نفسها في السؤال، وأن الأفعال الأخرى تحتاج do أو does. وتحت الجدول الأخطاء العشرة، ثم دروس الأسبوعين 1 و2. وباقي الوحدة في درس الغد.",
+        "rule_en": "Read this table aloud every day this week: positive, negative, question. Below it are the ten mistakes that make up most of an Arabic speaker's errors at A1.",
+        "table": {
+          "columns_ar": [
+            "التركيب",
+            "الإثبات",
+            "النفي",
+            "السؤال"
+          ],
+          "rows": [
+            [
+              "to be",
+              "She is a teacher.",
+              "She isn't a teacher.",
+              "Is she a teacher?"
+            ],
+            [
+              "المضارع البسيط — he / she / it",
+              "He works here.",
+              "He doesn't work here.",
+              "Does he work here?"
+            ],
+            [
+              "المضارع البسيط — I / you / we / they",
+              "They work here.",
+              "They don't work here.",
+              "Do they work here?"
+            ],
+            [
+              "have",
+              "We have a car.",
+              "We don't have a car.",
+              "Do you have a car?"
+            ],
+            [
+              "there is / there are",
+              "There is a park.",
+              "There isn't a park.",
+              "Is there a park?"
+            ],
+            [
+              "can",
+              "I can swim.",
+              "I can't swim.",
+              "Can you swim?"
+            ]
+          ],
+          "say": 1,
+          "ar_cols": [
+            0
+          ]
+        },
+        "arabic_contrast_ar": "ستّة أماكن تجرّك فيها العربية في هذه الوحدة. الجملة الاسمية العربية تقوم بلا فعل («أنا مهندس»)، فتقول I engineer، والإنجليزية لا تقوم جملتها بلا فعل: I am an engineer. والمضارع العربي يتغيّر في أوّله (يعمل · تعمل)، والإنجليزي يتغيّر في آخره مع he وshe وit وحدها: He works. والسؤال العربي يكفيه «هل» أو نبرة الصوت، فتقول Where you work?، والإنجليزية تحتاج do أو does. و«عندنا حديقة» تدفعك إلى have للوجود، والإنجليزية تقول There is a park. و«يستطيع أن يسبح» فيها «أن»، فتقول can to swim، ولا شيء بين can والفعل. والظرف العربي يتنقّل في الجملة («أستيقظ دائماً باكراً»)، والإنجليزي له موضع ثابت: قبل الفعل وبعد am / is / are.",
+        "contrast_table": [
+          {
+            "ar": "أنا مهندس.",
+            "literal": "I engineer.",
+            "right": "I am an engineer.",
+            "rule_ar": "لا جملة بلا فعل، والمهنة تأخذ a أو an"
+          },
+          {
+            "ar": "عمري ثلاثون سنة.",
+            "literal": "I have 30 years.",
+            "right": "I am 30 years old.",
+            "rule_ar": "العمر بـbe"
+          },
+          {
+            "ar": "هو يعمل هنا.",
+            "literal": "He work here.",
+            "right": "He works here.",
+            "rule_ar": "-s مع he وshe وit"
+          },
+          {
+            "ar": "أين تعمل؟",
+            "literal": "Where you work?",
+            "right": "Where do you work?",
+            "rule_ar": "السؤال يحتاج do أو does"
+          },
+          {
+            "ar": "توجد حديقة قرب بيتي.",
+            "literal": "Have a park near my house.",
+            "right": "There is a park near my house.",
+            "rule_ar": "الوجود بـthere is"
+          },
+          {
+            "ar": "يستطيع أن يسبح.",
+            "literal": "He can to swim.",
+            "right": "He can swim.",
+            "rule_ar": "لا to بعد can"
+          }
+        ],
         "common_errors": [
           {
             "error_no": 1,
             "wrong": "I engineer.",
             "right": "I am an engineer.",
+            "arabic": "أنا مهندس.",
             "why_ar": "كل جملة إنجليزية تحتاج فعلاً، وكل مهنة تحتاج أداة"
           },
           {
             "error_no": 2,
             "wrong": "I have 30 years.",
             "right": "I am 30 years old.",
+            "arabic": "عمري ثلاثون سنة.",
             "why_ar": "العمر بـbe لا have"
           },
           {
             "error_no": 3,
             "wrong": "He work here.",
             "right": "He works here.",
-            "why_ar": "he و she و it تأخذ -s دائماً"
+            "arabic": "يعمل هنا.",
+            "why_ar": "he وshe وit تأخذ -s دائماً"
           },
           {
             "error_no": 4,
             "wrong": "He doesn't likes fish.",
             "right": "He doesn't like fish.",
-            "why_ar": "لا -s بعد does و doesn’t"
+            "arabic": "لا يحبّ السمك.",
+            "why_ar": "لا -s بعد does وdoesn't"
           },
           {
             "error_no": 5,
             "wrong": "Where you work?",
             "right": "Where do you work?",
+            "arabic": "أين تعمل؟",
             "why_ar": "السؤال يحتاج do أو does"
           },
           {
             "error_no": 6,
             "wrong": "I wake up always early.",
             "right": "I always wake up early.",
+            "arabic": "أستيقظ دائماً باكراً.",
             "why_ar": "الظرف قبل الفعل العادي وبعد be"
           },
           {
             "error_no": 7,
             "wrong": "Have a park near my house.",
             "right": "There is a park near my house.",
+            "arabic": "توجد حديقة قرب بيتي.",
             "why_ar": "الوجود بـthere is لا have"
           },
           {
             "error_no": 8,
             "wrong": "He can to swim.",
             "right": "He can swim.",
+            "arabic": "يستطيع السباحة.",
             "why_ar": "لا to ولا -s ولا -ing بعد can"
           },
           {
             "error_no": 9,
             "wrong": "I am good at play.",
             "right": "I am good at playing.",
+            "arabic": "أنا بارع في اللعب.",
             "why_ar": "بعد حرف الجرّ صيغة -ing"
           },
           {
             "error_no": 10,
-            "wrong": "She sings good.",
-            "right": "She sings well.",
-            "why_ar": "good صفة و well حال"
+            "wrong": "She cooks good.",
+            "right": "She cooks well.",
+            "arabic": "تطبخ جيداً.",
+            "why_ar": "good صفة للاسم، وwell تصف الفعل"
           }
         ],
+        "negation_ar": "النفي في صيغتين. be وcan وthere is تأخذ not مباشرة: isn't · can't · there isn't. والأفعال الأخرى تأخذ don't أو doesn't، والفعل بعدها مجرّد: He doesn't work.",
+        "question_ar": "السؤال في صيغتين. be وcan وthere is تتقدّم على الفاعل: Is she…? · Can you…? · Is there…? والأفعال الأخرى يتقدّمها do أو does: Do you work? · Does he work? وكلمة السؤال قبلهما: Where do you work?",
         "checklist_ar": [
-          "كل جملة فيها فعل — ولو كان am/is/are",
-          "الـs مع he و she و it في المضارع البسيط",
-          "بعد don’t و doesn’t فعل مجرّد",
+          "كل جملة فيها فعل — ولو كان am / is / are",
+          "-s مع he وshe وit في المضارع البسيط",
+          "بعد don't وdoesn't فعل مجرّد",
           "العمر بـbe لا have",
-          "There is/are للوجود لا have",
+          "there is / there are للوجود لا have",
           "my / his / her قبل الاسم · me / him / them بعد الفعل",
-          "الجمع بـ s والصفة قبل الاسم بلا s",
+          "الجمع بـ-s، والصفة قبل الاسم بلا -s",
           "الأرقام حتى الألف، والترتيبيّ للتاريخ والطابق"
         ],
         "lessons": [
           {
-            "title_ar": "الوحدة الأولى في جدول واحد",
-            "title_en": "Module 1 on one page",
-            "explain_ar": "خمسة تراكيب هي عمود الوحدة. اقرأ كل سطر بصوت عالٍ: الإثبات ثم النفي ثم السؤال. ولاحظ أن be و can و there is تقلب نفسها في السؤال، وأن الأفعال الأخرى تحتاج do أو does.",
+            "title_ar": "الأسبوع 1: be للعمر والمهنة والجنسية",
+            "title_en": "Week 1: be for age, job and nationality",
+            "explain_ar": "be هي الفعل الذي تحتاجه حين لا ترى فعلاً في الجملة العربية: للاسم والعمر والمهنة والبلد والصفة. am مع I، وis مع he وshe وit، وare مع you وwe وthey. والمهنة المفردة تأخذ a أو an، والجنسية صفة بلا from: I'm Moroccan.",
             "table": {
               "columns_ar": [
-                "التركيب",
-                "الإثبات",
-                "النفي",
-                "السؤال"
+                "ماذا تقول؟",
+                "مثال",
+                "بالعربية"
               ],
               "rows": [
                 [
-                  "to be",
-                  "I am a teacher.",
-                  "I'm not a teacher.",
-                  "Are you a teacher?"
+                  "العمر",
+                  "I am thirty years old.",
+                  "عمري ثلاثون سنة"
                 ],
                 [
-                  "المضارع البسيط",
-                  "He works here.",
-                  "He doesn't work here.",
-                  "Does he work here?"
+                  "المهنة",
+                  "She is a doctor. He is an engineer.",
+                  "هي طبيبة. هو مهندس"
                 ],
                 [
-                  "have",
-                  "They have a car.",
-                  "They don't have a car.",
-                  "Do they have a car?"
+                  "البلد",
+                  "We are from Jordan.",
+                  "نحن من الأردن"
                 ],
                 [
-                  "There is / are",
-                  "There is a bank.",
-                  "There isn't a bank.",
-                  "Is there a bank?"
+                  "الجنسية",
+                  "They are Jordanian.",
+                  "هم أردنيون"
                 ],
                 [
-                  "can",
-                  "She can swim.",
-                  "She can't swim.",
-                  "Can she swim?"
+                  "الجمع",
+                  "These are my children.",
+                  "هؤلاء أولادي"
                 ]
               ],
               "say": 1,
               "ar_cols": [
-                0
+                2
               ]
-            }
+            },
+            "examples": [
+              {
+                "en": "Are you a student? — No, I'm not. I'm a teacher.",
+                "ar": "هل أنت طالب؟ — لا. أنا معلّم."
+              },
+              {
+                "en": "My father is sixty, and my mother is fifty-five.",
+                "ar": "أبي في الستين، وأمّي في الخامسة والخمسين."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "I teacher.",
+                "right": "I am a teacher.",
+                "why_ar": "لا جملة بلا فعل، والمهنة تأخذ a"
+              },
+              {
+                "wrong": "I have 30 years.",
+                "right": "I am 30 years old.",
+                "why_ar": "العمر بـbe"
+              },
+              {
+                "wrong": "I'm from Moroccan.",
+                "right": "I'm Moroccan.",
+                "why_ar": "from قبل البلد لا قبل الجنسية"
+              }
+            ],
+            "tip_ar": "a قبل صوت ساكن (a doctor)، وan قبل صوت علّة (an engineer · an office)."
           },
           {
             "title_ar": "الضمائر الثلاثة معاً",
@@ -571,7 +792,873 @@
                 ]
               ],
               "say": 3
-            }
+            },
+            "examples": [
+              {
+                "en": "This is my brother. His name is Sami. I call him every day.",
+                "ar": "هذا أخي. اسمه سامي. أتصل به كل يوم."
+              },
+              {
+                "en": "Our neighbours are nice. We often visit them.",
+                "ar": "جيراننا لطفاء. نزورهم كثيراً."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "I don't know he.",
+                "right": "I don't know him.",
+                "why_ar": "بعد الفعل ضمير المفعول"
+              },
+              {
+                "wrong": "She is my sister. Her lives in Cairo.",
+                "right": "She is my sister. She lives in Cairo.",
+                "why_ar": "قبل الفعل ضمير الفاعل"
+              },
+              {
+                "wrong": "Her husband name is Adel.",
+                "right": "Her husband's name is Adel.",
+                "why_ar": "الملكية للاسم بـ's"
+              }
+            ],
+            "tip_ar": "اسم الشخص يأخذ 's للملكية: Sami's car · my mother's kitchen."
+          },
+          {
+            "title_ar": "الأسبوع 1: الجمع",
+            "title_en": "Week 1: plurals",
+            "explain_ar": "الجمع في الإنجليزية بـ-s في الغالب: book ← books. وبعد s وsh وch وx تُضاف -es: watch ← watches. وبعد ساكن + y تصير -ies: city ← cities. وكلمات قليلة شاذّة تُحفظ. وبعض الكلمات لا تُجمع أبداً لأنها لا تُعدّ: information · bread · money.",
+            "table": {
+              "columns_ar": [
+                "القاعدة",
+                "المفرد",
+                "الجمع"
+              ],
+              "rows": [
+                [
+                  "+ s",
+                  "book",
+                  "books"
+                ],
+                [
+                  "+ es",
+                  "watch",
+                  "watches"
+                ],
+                [
+                  "y ← ies",
+                  "city",
+                  "cities"
+                ],
+                [
+                  "شاذّ",
+                  "man",
+                  "men"
+                ],
+                [
+                  "شاذّ",
+                  "woman",
+                  "women"
+                ],
+                [
+                  "شاذّ",
+                  "child",
+                  "children"
+                ],
+                [
+                  "شاذّ",
+                  "person",
+                  "people"
+                ]
+              ],
+              "say": 2
+            },
+            "examples": [
+              {
+                "en": "There are three men and two women in the office.",
+                "ar": "في المكتب ثلاثة رجال وامرأتان."
+              },
+              {
+                "en": "My children are at school.",
+                "ar": "أولادي في المدرسة."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "The childrens are in the garden.",
+                "right": "The children are in the garden.",
+                "why_ar": "children جمع أصلاً"
+              },
+              {
+                "wrong": "I have two informations.",
+                "right": "I have some information.",
+                "why_ar": "information لا تُجمع"
+              }
+            ]
+          },
+          {
+            "title_ar": "الأسبوع 2: -s في المضارع — كتابتها ونطقها",
+            "title_en": "Week 2: the -s ending — spelling and sound",
+            "explain_ar": "مع he وshe وit يأخذ الفعل -s، وقواعد كتابتها هي قواعد الجمع نفسها: works · watches · studies. وثلاثة أفعال تُحفظ: have ← has · go ← goes · do ← does. وتُنطق -s ثلاثة أصوات: /s/ بعد الأصوات المهموسة (works)، و/z/ بعد المجهورة وأصوات العلّة (plays)، و/ɪz/ بعد s وsh وch (watches) — وهي وحدها تزيد مقطعاً.",
+            "table": {
+              "columns_ar": [
+                "القاعدة",
+                "الفعل",
+                "مع he / she",
+                "النطق"
+              ],
+              "rows": [
+                [
+                  "+ s",
+                  "work",
+                  "works",
+                  "/s/"
+                ],
+                [
+                  "+ s",
+                  "play",
+                  "plays",
+                  "/z/"
+                ],
+                [
+                  "+ es",
+                  "watch",
+                  "watches",
+                  "/ɪz/"
+                ],
+                [
+                  "y ← ies",
+                  "study",
+                  "studies",
+                  "/z/"
+                ],
+                [
+                  "شاذّ",
+                  "have",
+                  "has",
+                  "/z/"
+                ],
+                [
+                  "+ es",
+                  "go",
+                  "goes",
+                  "/z/"
+                ]
+              ],
+              "say": 2
+            },
+            "examples": [
+              {
+                "en": "She studies English and watches the news every evening.",
+                "ar": "تدرس الإنجليزية وتشاهد الأخبار كل مساء."
+              },
+              {
+                "en": "My brother has a car, but he goes to work by bus.",
+                "ar": "عند أخي سيارة، لكنه يذهب إلى العمل بالحافلة."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "She studys at university.",
+                "right": "She studies at university.",
+                "why_ar": "ساكن + y ← ies"
+              },
+              {
+                "wrong": "He haves two children.",
+                "right": "He has two children.",
+                "why_ar": "have ← has"
+              },
+              {
+                "wrong": "My mother cook very well.",
+                "right": "My mother cooks very well.",
+                "why_ar": "my mother = she ← cooks"
+              }
+            ]
+          },
+          {
+            "title_ar": "الأسبوع 2: always وnever · at وon وin",
+            "title_en": "Week 2: adverbs of frequency · at, on, in for time",
+            "explain_ar": "ظرف التكرار قبل الفعل العادي (I always get up early) وبعد am / is / are (I am always tired). أمّا every day وtwice a week فمكانها آخر الجملة. وللوقت ثلاثة حروف: at مع الساعة (at seven)، وon مع اليوم (on Monday)، وin مع الشهر والسنة وأجزاء اليوم (in May · in the morning)، إلا at night.",
+            "table": {
+              "columns_ar": [
+                "الحرف",
+                "مع",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "at",
+                  "الساعة · night · midnight",
+                  "I start work at nine o'clock."
+                ],
+                [
+                  "on",
+                  "الأيام",
+                  "The meeting is on Monday."
+                ],
+                [
+                  "in",
+                  "الشهور · السنوات · أجزاء اليوم",
+                  "My birthday is in May."
+                ]
+              ],
+              "say": 2,
+              "ar_cols": [
+                1
+              ]
+            },
+            "examples": [
+              {
+                "en": "I usually have breakfast at seven.",
+                "ar": "عادةً أفطر في السابعة."
+              },
+              {
+                "en": "She is never late on Mondays.",
+                "ar": "لا تتأخّر أبداً أيام الاثنين."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "I wake up always early.",
+                "right": "I always wake up early.",
+                "why_ar": "قبل الفعل العادي"
+              },
+              {
+                "wrong": "I always am tired.",
+                "right": "I am always tired.",
+                "why_ar": "بعد am / is / are"
+              },
+              {
+                "wrong": "My birthday is on May.",
+                "right": "My birthday is in May.",
+                "why_ar": "in مع الشهر"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 3,
+      "title_ar": "القواعد — الأسئلة والكمّيات والمكان والقدرة",
+      "title_en": "Grammar Consolidation — Questions, Quantities, Place and Ability",
+      "payload": {
+        "rule_ar": "النصف الثاني من الوحدة: كلمات السؤال مع do وdoes، والمعدود وغير المعدود (a · an · some · any · how much · how many)، وthere is / there are مع حروف المكان، وcan، والفعل + -ing، والصفة والحال، والأمر والطلب بأدب. اقرأ كل جدول بصوت عالٍ، ثم افتح التمارين.",
+        "table": {
+          "columns_ar": [
+            "كلمة السؤال",
+            "مثال",
+            "بالعربية"
+          ],
+          "rows": [
+            [
+              "What",
+              "What do you do?",
+              "ما عملك؟"
+            ],
+            [
+              "Where",
+              "Where do you live?",
+              "أين تسكن؟"
+            ],
+            [
+              "When",
+              "When does the shop open?",
+              "متى يفتح المحلّ؟"
+            ],
+            [
+              "What time",
+              "What time do you get up?",
+              "في أيّ ساعة تنهض؟"
+            ],
+            [
+              "Who",
+              "Who is your teacher?",
+              "مَن معلّمك؟"
+            ],
+            [
+              "Why",
+              "Why do you like this café?",
+              "لماذا تحبّ هذا المقهى؟"
+            ],
+            [
+              "How",
+              "How do you go to work?",
+              "كيف تذهب إلى العمل؟"
+            ],
+            [
+              "How often",
+              "How often do you swim?",
+              "كم مرّة تسبح؟"
+            ],
+            [
+              "How much",
+              "How much is this bag?",
+              "بكم هذه الحقيبة؟"
+            ],
+            [
+              "How many",
+              "How many brothers do you have?",
+              "كم أخاً لك؟"
+            ]
+          ],
+          "say": 1,
+          "ar_cols": [
+            2
+          ]
+        },
+        "arabic_contrast_ar": "أربعة أماكن تجرّك فيها العربية في الأسابيع 3–5. العربية تجمع «معلومات» و«أخبار» وتعدّ «خبزة»، فتقول informations وa bread، والإنجليزية لا تجمع ما لا يُعدّ: some information · some bread. و«بيت أبيض» الصفة فيه بعد الاسم وتُجمع معه، فتقول house white وwhites houses، والإنجليزية تضع الصفة قبل الاسم ولا تجمعها: white houses. و«جيداً» بعد الفعل تدفعك إلى good، والإنجليزية تقول well. و«بارع في اللعب» فيها مصدر بعد الحرف، والإنجليزية تضع بعد الحرف صيغة -ing: good at playing.",
+        "lessons": [
+          {
+            "title_ar": "الأسبوع 3: كلمة السؤال + do / does",
+            "title_en": "Week 3: question word + do / does",
+            "explain_ar": "ترتيب السؤال ثابت: كلمة السؤال، ثم do أو does، ثم الفاعل، ثم الفعل مجرّداً. وdoes مع he وshe وit تأخذ الـs من الفعل، فلا يأخذها الفعل مرّة ثانية. ومع be وcan لا do: Where are you from? · What can you cook?",
+            "table": {
+              "columns_ar": [
+                "كلمة السؤال",
+                "do / does",
+                "الفاعل",
+                "الفعل"
+              ],
+              "rows": [
+                [
+                  "Where",
+                  "do",
+                  "you",
+                  "work?"
+                ],
+                [
+                  "What time",
+                  "does",
+                  "she",
+                  "get up?"
+                ],
+                [
+                  "How",
+                  "do",
+                  "they",
+                  "go to school?"
+                ]
+              ],
+              "say": 3
+            },
+            "examples": [
+              {
+                "en": "What time does the bank open? — At nine.",
+                "ar": "متى يفتح البنك؟ — في التاسعة."
+              },
+              {
+                "en": "Do you eat meat? — No, I don't.",
+                "ar": "هل تأكل اللحم؟ — لا."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "Where you live?",
+                "right": "Where do you live?",
+                "why_ar": "السؤال يحتاج do"
+              },
+              {
+                "wrong": "What time does he gets up?",
+                "right": "What time does he get up?",
+                "why_ar": "فعل مجرّد بعد does"
+              },
+              {
+                "wrong": "Do you like tea? — Yes, I like.",
+                "right": "Do you like tea? — Yes, I do.",
+                "why_ar": "الجواب القصير بـdo"
+              }
+            ]
+          },
+          {
+            "title_ar": "الأسبوع 3: a · an · some · any · how much · how many",
+            "title_en": "Week 3: countable and uncountable",
+            "explain_ar": "الاسم المعدود (apple · egg · bottle) له مفرد بـa أو an وجمع بـ-s، ونسأل عنه بـHow many. وغير المعدود (bread · milk · water · money · information) لا a قبله ولا -s بعده، ونسأل عنه بـHow much. وsome في الإثبات والطلب، وany في النفي والسؤال: There's some milk. · There isn't any milk. · Is there any milk?",
+            "table": {
+              "columns_ar": [
+                "",
+                "معدود",
+                "غير معدود"
+              ],
+              "rows": [
+                [
+                  "إثبات",
+                  "an apple · some apples",
+                  "some bread"
+                ],
+                [
+                  "نفي",
+                  "There aren't any eggs.",
+                  "There isn't any milk."
+                ],
+                [
+                  "سؤال",
+                  "How many eggs do you want?",
+                  "How much sugar do you want?"
+                ],
+                [
+                  "كمّية",
+                  "two bottles of water",
+                  "a piece of cake"
+                ]
+              ],
+              "say": 1,
+              "ar_cols": [
+                0
+              ]
+            },
+            "examples": [
+              {
+                "en": "I'd like some bread and two eggs, please.",
+                "ar": "أريد بعض الخبز وبيضتين من فضلك."
+              },
+              {
+                "en": "How much is a kilo of tomatoes?",
+                "ar": "بكم كيلو الطماطم؟"
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "I want a bread, please.",
+                "right": "I want some bread, please.",
+                "why_ar": "bread لا تُعدّ"
+              },
+              {
+                "wrong": "How much eggs do you want?",
+                "right": "How many eggs do you want?",
+                "why_ar": "eggs معدودة"
+              },
+              {
+                "wrong": "There aren't some shops here.",
+                "right": "There aren't any shops here.",
+                "why_ar": "any في النفي"
+              }
+            ],
+            "tip_ar": "price سؤاله دائماً How much: How much is it? · How much are they?"
+          },
+          {
+            "title_ar": "الأسبوع 4: there is / there are وحروف المكان",
+            "title_en": "Week 4: there is / there are and prepositions of place",
+            "explain_ar": "there is للمفرد ولغير المعدود، وthere are للجمع، وتقول بهما ما يوجد في مكان. ثم يأتي حرف المكان: in · on · under · next to · between · behind · in front of · opposite · near. وopposite وnear بلا to ولا of، وnext to وin front of تحتاجان to وof.",
+            "table": {
+              "columns_ar": [
+                "الحرف",
+                "مثال",
+                "بالعربية"
+              ],
+              "rows": [
+                [
+                  "in",
+                  "There is a lamp in the bedroom.",
+                  "يوجد مصباح في غرفة النوم"
+                ],
+                [
+                  "on",
+                  "There are two books on the table.",
+                  "يوجد كتابان على الطاولة"
+                ],
+                [
+                  "under",
+                  "The cat is under the bed.",
+                  "القطّة تحت السرير"
+                ],
+                [
+                  "next to",
+                  "The bank is next to the hotel.",
+                  "البنك بجانب الفندق"
+                ],
+                [
+                  "between",
+                  "The café is between the bank and the park.",
+                  "المقهى بين البنك والحديقة"
+                ],
+                [
+                  "opposite",
+                  "The pharmacy is opposite the station.",
+                  "الصيدلية مقابل المحطة"
+                ],
+                [
+                  "in front of",
+                  "There is a bus stop in front of my house.",
+                  "يوجد موقف حافلات أمام بيتي"
+                ]
+              ],
+              "say": 1,
+              "ar_cols": [
+                2
+              ]
+            },
+            "examples": [
+              {
+                "en": "Is there a lift in your building? — No, there isn't.",
+                "ar": "هل في عمارتك مصعد؟ — لا."
+              },
+              {
+                "en": "Go straight on. The museum is on your left.",
+                "ar": "امشِ إلى الأمام. المتحف على يسارك."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "Have a park near my house.",
+                "right": "There is a park near my house.",
+                "why_ar": "الوجود بـthere is"
+              },
+              {
+                "wrong": "There is four rooms.",
+                "right": "There are four rooms.",
+                "why_ar": "الجمع بـthere are"
+              },
+              {
+                "wrong": "The bank is opposite of the hotel.",
+                "right": "The bank is opposite the hotel.",
+                "why_ar": "opposite بلا of"
+              }
+            ]
+          },
+          {
+            "title_ar": "الأسبوع 5: can · like + -ing · good at + -ing",
+            "title_en": "Week 5: can, like + -ing, good at + -ing",
+            "explain_ar": "can واحدة مع كل الضمائر، وبعدها فعل مجرّد بلا to ولا -s: She can swim. ونفيها can't، وسؤالها Can you…? وبعد like وlove وhate وenjoy يأتي الفعل بـ-ing: I love cooking. وبعد حرف الجرّ (good at · bad at) يأتي -ing أيضاً: I'm good at drawing.",
+            "table": {
+              "columns_ar": [
+                "التركيب",
+                "مثال",
+                "بالعربية"
+              ],
+              "rows": [
+                [
+                  "can + فعل",
+                  "My son can ride a bike.",
+                  "يستطيع ابني ركوب الدرّاجة"
+                ],
+                [
+                  "can't + فعل",
+                  "I can't swim.",
+                  "لا أستطيع السباحة"
+                ],
+                [
+                  "like + -ing",
+                  "She likes reading.",
+                  "تحبّ القراءة"
+                ],
+                [
+                  "good at + -ing",
+                  "He is good at drawing.",
+                  "هو بارع في الرسم"
+                ],
+                [
+                  "not very good at",
+                  "I'm not very good at cooking.",
+                  "لست بارعاً جداً في الطبخ"
+                ]
+              ],
+              "say": 1,
+              "ar_cols": [
+                2
+              ]
+            },
+            "examples": [
+              {
+                "en": "Can you cook? — Yes, I can. I'm quite good at it.",
+                "ar": "هل تستطيع الطبخ؟ — نعم. أنا بارع فيه إلى حدّ ما."
+              },
+              {
+                "en": "What do you do in your free time? — I love walking.",
+                "ar": "ماذا تفعل في وقت فراغك؟ — أحبّ المشي."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "He can to swim.",
+                "right": "He can swim.",
+                "why_ar": "لا to بعد can"
+              },
+              {
+                "wrong": "She cans drive.",
+                "right": "She can drive.",
+                "why_ar": "can بلا -s"
+              },
+              {
+                "wrong": "I am good at draw.",
+                "right": "I am good at drawing.",
+                "why_ar": "-ing بعد at"
+              }
+            ]
+          },
+          {
+            "title_ar": "الأسبوعان 4 و5: الصفة قبل الاسم · والحال بعد الفعل",
+            "title_en": "Weeks 4–5: adjectives and adverbs of manner",
+            "explain_ar": "الصفة تصف الاسم وتأتي قبله ولا تُجمع: a white house · two white houses. والحال تصف الفعل وتأتي بعده، وأكثرها صفة + ly: slow ← slowly · careful ← carefully. وشاذّتها: good ← well · fast ← fast · hard ← hard.",
+            "table": {
+              "columns_ar": [
+                "الصفة",
+                "الحال",
+                "مثال"
+              ],
+              "rows": [
+                [
+                  "slow",
+                  "slowly",
+                  "Please speak slowly."
+                ],
+                [
+                  "careful",
+                  "carefully",
+                  "She drives very carefully."
+                ],
+                [
+                  "bad",
+                  "badly",
+                  "I sleep badly in summer."
+                ],
+                [
+                  "good",
+                  "well",
+                  "He cooks very well."
+                ],
+                [
+                  "fast",
+                  "fast",
+                  "My brother runs fast."
+                ]
+              ],
+              "say": 2
+            },
+            "examples": [
+              {
+                "en": "She is a good cook. She cooks well.",
+                "ar": "هي طبّاخة ماهرة. تطبخ جيداً."
+              },
+              {
+                "en": "We have a big green garden.",
+                "ar": "عندنا حديقة خضراء كبيرة."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "We have a house white.",
+                "right": "We have a white house.",
+                "why_ar": "الصفة قبل الاسم"
+              },
+              {
+                "wrong": "He speaks English very good.",
+                "right": "He speaks English very well.",
+                "why_ar": "well تصف الفعل"
+              }
+            ]
+          },
+          {
+            "title_ar": "الأسابيع 3–5: الأمر والطلب بأدب",
+            "title_en": "Weeks 3–5: the imperative and polite requests",
+            "explain_ar": "الأمر فعل مجرّد بلا فاعل: Sit down. · Turn left. ونفيه Don't + فعل: Don't worry. ونجعله مهذّباً بـplease في أوّله أو آخره. ولطلب شيء الآن نقول I'd like… أو Can I have…?، أمّا I like فمعناها «أحبّ» عموماً.",
+            "table": {
+              "columns_ar": [
+                "ماذا تريد؟",
+                "مثال",
+                "بالعربية"
+              ],
+              "rows": [
+                [
+                  "أمر",
+                  "Turn right at the bank.",
+                  "انعطف يميناً عند البنك"
+                ],
+                [
+                  "نهي",
+                  "Don't park here.",
+                  "لا توقف سيارتك هنا"
+                ],
+                [
+                  "طلب",
+                  "I'd like the chicken, please.",
+                  "أريد الدجاج من فضلك"
+                ],
+                [
+                  "طلب",
+                  "Can I have the bill, please?",
+                  "هل يمكنني الحصول على الحساب؟"
+                ],
+                [
+                  "عرض",
+                  "Would you like some tea?",
+                  "هل تحبّ بعض الشاي؟"
+                ]
+              ],
+              "say": 1,
+              "ar_cols": [
+                2
+              ]
+            },
+            "examples": [
+              {
+                "en": "Would you like a coffee? — Yes, please.",
+                "ar": "هل تحبّ قهوة؟ — نعم، من فضلك."
+              }
+            ],
+            "errors": [
+              {
+                "wrong": "Please you sit down.",
+                "right": "Please sit down.",
+                "why_ar": "الأمر بلا فاعل"
+              },
+              {
+                "wrong": "Don't to park here.",
+                "right": "Don't park here.",
+                "why_ar": "لا to بعد don't"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "kind": "grammar",
+      "day_number": 6,
+      "title_ar": "درجتك من 100 — وتشخيص مواضع ضعفك",
+      "title_en": "Your Module 1 Score and Diagnosis",
+      "payload": {
+        "rule_ar": "اجمع درجتك من 100: نتيجة اليوم الرابع من 60 (قواعد 30 · مفردات 20 · نطق 10)، ونتيجة اليوم الخامس من 30 (استماع 15 · قراءة 15)، والكتابة من 10 بمعاييرها الأربعة. واحسب ما صحّ من المحاولة الأولى وحده، فهو الرقم الذي تعرضه النتيجة. والرسالة القصيرة لا تُحسب. والتسجيل يُقيَّم وحده من 10، و7 فأكثر تعني أن كلامك في مستوى A1 متين.",
+        "checklist_ar": [
+          "80–100: A1 متين وأنت على باب A2. انتقل إلى الأسبوع 7، وفكّر في المسار B إن كنت في المسار A.",
+          "65–79: A1، وهي النتيجة الطبيعية. انتقل، ودرّب أضعف قسمين عشر دقائق يومياً.",
+          "50–64: A1 غير مكتمل، وفي الأساس ثغرات ستظهر في الأسبوع 9. خذ أسبوعاً إضافياً: أعد تمارين اليومين 2 و3 وأضعف أسبوعين.",
+          "أقل من 50: لم تكتمل الوحدة بعد. أعدها في ثلاثة أسابيع، متكلّماً بصوت عالٍ لا قارئاً بصمت.",
+          "الدرجة المنخفضة معلومة لا فشل. وأشيع أسبابها الدراسة الصامتة: قراءة الدروس بدل قولها بصوت عالٍ."
+        ],
+        "lessons": [
+          {
+            "title_ar": "أضعف قسم عندك — ماذا تفعل قبل الأسبوع 7",
+            "title_en": "Section diagnosis",
+            "explain_ar": "انظر إلى الأقسام التي أخطأت فيها في نتيجة اليومين 4 و5، واختر أضعف قسمين، ثم افعل ما يقابلهما في الجدول عشر دقائق يومياً طوال الوحدة الثانية. وأهمّها كلّها الكتابة والتحدّث: من ضعف فيهما فليسجّل دقيقة كل يوم أسبوعين لا مرّة في الأسبوع. والاستماع يتحسّن بالساعات لا بالتمارين.",
+            "table": {
+              "columns_ar": [
+                "القسم",
+                "أضعف قسم",
+                "ماذا تفعل يومياً"
+              ],
+              "rows": [
+                [
+                  "Grammar",
+                  "القواعد",
+                  "الأخطاء العشرة بصوت عالٍ، وتمرين «صحّح الخطأ» مرّة أخرى"
+                ],
+                [
+                  "Vocabulary",
+                  "المفردات",
+                  "اختبار الكلمات من جديد، وكل كلمة منسية في جملة"
+                ],
+                [
+                  "Pronunciation",
+                  "النطق",
+                  "الصوتان الضعيفان عشر دقائق، ثم «الفقرة الجامعة»"
+                ],
+                [
+                  "Listening",
+                  "الاستماع",
+                  "حلقة اليوم كاملة، والحوار مرّتين قبل نصّه"
+                ],
+                [
+                  "Reading",
+                  "القراءة",
+                  "قصة قصيرة كل ليلة، ربع ساعة"
+                ],
+                [
+                  "Writing and speaking",
+                  "الكتابة والتحدّث",
+                  "تسجيل دقيقة كل يوم، وخمس جمل عن يومك"
+                ]
+              ],
+              "say": 0,
+              "ar_cols": [
+                1,
+                2
+              ]
+            },
+            "examples": [],
+            "errors": [],
+            "tip_ar": "أضف كل كلمة نسيتها في الاختبار إلى «كلماتك» من زرّ الذاكرة لتراجعها."
+          },
+          {
+            "title_ar": "قبل أن تبدأ الأسبوع 7",
+            "title_en": "Before you start Week 7",
+            "explain_ar": "قل كل جملة بصوت عالٍ، وأشّر عليها إن كانت صحيحة عنك. فإن بقيت جملة غير صحيحة فأكملها قبل الأسبوع 7.",
+            "examples": [
+              {
+                "en": "My score is 65 or more, or I have an extra week of review.",
+                "ar": "درجتي 65 فأكثر، أو أخذت أسبوعاً إضافياً للمراجعة."
+              },
+              {
+                "en": "I know my two weakest sections, and I have a daily plan for them.",
+                "ar": "أعرف أضعف قسمين عندي، ولي خطّة يومية لهما."
+              },
+              {
+                "en": "I have six recordings: Week01 to Week06.",
+                "ar": "عندي ستّة تسجيلات محفوظة: من Week01 إلى Week06."
+              },
+              {
+                "en": "I have my three sentences from the Big Comparison.",
+                "ar": "كتبت الجمل الثلاث في المقارنة الكبرى."
+              },
+              {
+                "en": "I read a short story every week.",
+                "ar": "أقرأ قصة قصيرة من صفحة القصص كل أسبوع."
+              },
+              {
+                "en": "I have a day for my next conversation.",
+                "ar": "حدّدت موعد محادثتي القادمة."
+              }
+            ],
+            "errors": []
+          },
+          {
+            "title_ar": "ما ينتظرك في الوحدة الثانية",
+            "title_en": "What comes next — Module 2",
+            "explain_ar": "الوحدة الثانية (الأسابيع 7–12) تنقلك من A1 إلى A2، وكل ما فيها مبنيّ على المضارع البسيط وto be. والأساس الضعيف لا يبقى مختبئاً: يظهر في الأسبوع 9 ويوقفك.",
+            "table": {
+              "columns_ar": [
+                "الأسبوع",
+                "القواعد",
+                "ما تستطيعه بعده"
+              ],
+              "rows": [
+                [
+                  "7",
+                  "Past Simple: was, were, -ed",
+                  "تتكلّم عن الأمس"
+                ],
+                [
+                  "8",
+                  "Past Simple: irregular verbs",
+                  "الأفعال الشاذّة الشائعة"
+                ],
+                [
+                  "9",
+                  "Present Continuous",
+                  "الفرق بين I work وI am working"
+                ],
+                [
+                  "10",
+                  "Comparatives and superlatives",
+                  "bigger · better · the best"
+                ],
+                [
+                  "11",
+                  "going to · will",
+                  "الخطط والمواعيد والتوقّعات"
+                ],
+                [
+                  "12",
+                  "Review and the A2 test",
+                  "أوّل محادثة حقيقيّة"
+                ]
+              ],
+              "say": 1,
+              "ar_cols": [
+                2
+              ]
+            },
+            "examples": [],
+            "errors": []
           }
         ]
       }
@@ -582,21 +1669,24 @@
       "title_ar": "ترسيخ النطق — مشكلات الوحدة الأولى التسع",
       "title_en": "Pronunciation Consolidation",
       "payload": {
-        "intro_ar": "تسع مشكلات جمعتها الأسابيع الخمسة الأولى. راجعها كلها في يوم واحد، ثم اختبر نفسك: أي واحدة ما زالت تخطئ فيها هي التي تدرّبها في الوحدة الثانية.",
+        "intro_ar": "تسع مشكلات جمعتها الأسابيع الخمسة الأولى. اضغط كل مثال واسمعه ثلاث مرّات أوّلاً، ثم قله — التمييز قبل الإنتاج. وراجع كل مجموعة وحدها: لا تخلط زوجاً من مجموعة بزوج من أخرى.",
         "symbols": [
           {
             "ipa": "/ɪ/ ↔ /iː/",
-            "arabic_hint": "القصيرة والممدودة — ship و sheep",
+            "arabic_hint": "القصيرة والممدودة — كالفرق بين الكسرة والياء الممدودة",
             "examples": [
               "ship",
               "sheep",
               "live",
-              "leave"
-            ]
+              "leave",
+              "sit",
+              "seat"
+            ],
+            "fix_ar": "مدّ /iː/ وابتسم قليلاً، واقطع /ɪ/ قصيرة مرتخية."
           },
           {
             "ipa": "/ʊ/ ↔ /uː/",
-            "arabic_hint": "full و fool — الحرفان نفسهما والنطق مختلف",
+            "arabic_hint": "الحرفان نفسهما في الكتابة والنطق مختلف — كالضمّة والواو الممدودة",
             "examples": [
               "full",
               "fool",
@@ -605,77 +1695,254 @@
             ]
           },
           {
-            "ipa": "/æ/",
-            "arabic_hint": "صوت لا مقابل عربي له — بين الفتحة والكسرة",
+            "ipa": "/æ/ ↔ /ɑː/",
+            "arabic_hint": "/æ/ فتحة مفتوحة نحو الإمالة، و/ɑː/ ألف طويلة من آخر الفم",
             "examples": [
               "cat",
-              "bad",
-              "man",
-              "hat"
+              "cart",
+              "hat",
+              "heart"
             ]
           },
           {
             "ipa": "/p/ ↔ /b/",
-            "arabic_hint": "العربية لا تملك /p/ فيُبدَل بـ/b/",
+            "arabic_hint": "العربية لا تملك /p/ فتُبدَل بـ/b/ — /p/ بنفخة هواء بلا صوت من الحنجرة",
             "examples": [
               "pen",
               "Ben",
-              "pig",
-              "big"
-            ]
+              "pat",
+              "bat",
+              "cap",
+              "cab"
+            ],
+            "fix_ar": "ضع ورقة أمام فمك: تتحرّك مع /p/ ولا تتحرّك مع /b/."
           },
           {
             "ipa": "/v/ ↔ /f/",
-            "arabic_hint": "العربية لا تملك /v/ فيُبدَل بـ/f/",
+            "arabic_hint": "العربية لا تملك /v/ فتُبدَل بـ/f/ — /v/ هي /f/ مع اهتزاز الحنجرة",
             "examples": [
               "van",
               "fan",
               "very",
-              "ferry"
-            ]
+              "ferry",
+              "save",
+              "safe"
+            ],
+            "fix_ar": "الأسنان العليا على الشفة السفلى، وضع يدك على حلقك: مع /v/ تشعر بالاهتزاز."
           },
           {
-            "ipa": "ساكنان",
-            "arabic_hint": "العربية لا تبدأ بساكنين، فتُدخَل حركة: «إستريت»",
+            "ipa": "ساكنان في البداية",
+            "arabic_hint": "العربية لا تبدأ بساكنين، فتُدخَل همزة: «إستريت»",
             "examples": [
               "street",
-              "spoon",
               "school",
-              "small"
-            ]
-          },
-          {
-            "ipa": "/θ/ ↔ /s/",
-            "arabic_hint": "think لا sink — اللسان بين الأسنان",
-            "examples": [
-              "think",
-              "sink",
-              "three",
-              "tree"
-            ]
-          },
-          {
-            "ipa": "/ð/ ↔ /z/",
-            "arabic_hint": "this لا zis",
-            "examples": [
-              "this",
-              "that",
-              "they",
-              "the"
-            ]
+              "spoon",
+              "spicy",
+              "breakfast"
+            ],
+            "fix_ar": "ابدأ بالـs نفسها ممدودة: sss-treet، بلا همزة قبلها."
           },
           {
             "ipa": "ˈ النبر",
-            "arabic_hint": "المقطع المنبور — أهمّ ما في نطق الكلمة",
+            "arabic_hint": "مقطع واحد أقوى وأطول من غيره — أهمّ ما في نطق الكلمة",
             "examples": [
               "hotel",
               "computer",
-              "engineer",
-              "photograph"
+              "library",
+              "university"
+            ],
+            "note_ar": "hoTEL · comPUter · LIbrary · uniVERsity"
+          },
+          {
+            "ipa": "/θ/ و /ð/",
+            "arabic_hint": "كالثاء والذال العربيتين: اللسان بين الأسنان — think لا sink، وthey لا day",
+            "examples": [
+              "think",
+              "sink",
+              "they",
+              "day",
+              "mother"
+            ],
+            "fix_ar": "أخرج طرف لسانك قليلاً بين أسنانك، ولا تقل s ولا t ولا z ولا d."
+          },
+          {
+            "ipa": "-s ×3",
+            "arabic_hint": "/s/ بعد المهموس، و/z/ بعد المجهور، و/ɪz/ بعد s وsh وch — وهي وحدها تزيد مقطعاً",
+            "examples": [
+              "books",
+              "dogs",
+              "watches"
             ]
           }
         ],
-        "tip_ar": "اختبار الثلاثين زوجاً في الكتاب هو المقياس: 24 من 30 يعني أن أذنك جاهزة للوحدة الثانية."
+        "tip_ar": "اسمع كل مجموعة، ثم قل أزواجها، ثم اختبر نفسك: هل يسمعها غيرك مختلفة؟ وأيّ مجموعة ما زلت تخلط بين صوتيها هي التي تدرّبها عشر دقائق يومياً في الوحدة الثانية. ثم افتح «الفقرة الجامعة»."
+      }
+    },
+    {
+      "kind": "reading",
+      "day_number": 3,
+      "title_ar": "الفقرة الجامعة — كل أصوات الوحدة",
+      "title_en": "The Everything Passage",
+      "payload": {
+        "method_ar": "في هذه الفقرة كل أصوات الوحدة الأولى. استمع إليها مرّة، ثم اقرأها بصوت عالٍ مسجّلاً نفسك على جوالك، ثم استمع إلى تسجيلك وأجب عن الأسئلة تحتها واحداً واحداً.",
+        "story": [
+          {
+            "en": "My brother Peter is a very busy person. He works in a big hospital in the city centre, and he lives in a small flat with three rooms. He takes the stairs every morning because there isn't a lift in his building.",
+            "ar": "أخي بيتر شخص مشغول جداً. يعمل في مستشفى كبير في وسط المدينة، ويسكن في شقّة صغيرة من ثلاث غرف. ويصعد الدرج كل صباح لأنه لا مصعد في عمارته."
+          },
+          {
+            "en": "He starts work at half past seven and he finishes at five. He usually walks to the hospital because the street is quiet and it only takes fifteen minutes. He never drives. He says the traffic is terrible.",
+            "ar": "يبدأ عمله في السابعة والنصف وينتهي في الخامسة. وعادةً يمشي إلى المستشفى لأن الشارع هادئ والطريق لا يأخذ إلا ربع ساعة. ولا يقود أبداً، فهو يقول إن الزحام فظيع."
+          },
+          {
+            "en": "Peter can speak three languages, and he plays tennis very well, but he can't cook at all. He thinks cooking is boring. His wife thinks that is very funny.",
+            "ar": "يتكلّم بيتر ثلاث لغات، ويلعب التنس جيداً جداً، لكنه لا يعرف الطبخ أبداً. يرى الطبخ مملّاً، وزوجته ترى ذلك مضحكاً جداً."
+          },
+          {
+            "en": "On Fridays they visit the market opposite the station. They buy fresh bread, vegetables and fish. Then they walk through the park with their two children and watch the boats.",
+            "ar": "وأيام الجمعة يزوران السوق المقابل للمحطة. يشتريان خبزاً طازجاً وخضاراً وسمكاً. ثم يمشيان في الحديقة مع ولديهما ويشاهدون القوارب."
+          }
+        ],
+        "questions": [
+          {
+            "q_ar": "busy · person · three · tennis — هل فرّقت بين الصوت القصير والطويل؟",
+            "a_ar": "/ɪ/ قصيرة في busy، و/iː/ طويلة في three وPeter."
+          },
+          {
+            "q_ar": "Peter · person · park · plays — هل /p/ واضحة بنفخة، لا /b/؟",
+            "a_ar": "ضع ورقة أمام فمك: يجب أن تتحرّك مع كل /p/."
+          },
+          {
+            "q_ar": "very · visit · vegetables · lives — هل /v/ واضحة، لا /f/؟",
+            "a_ar": "الأسنان على الشفة السفلى، مع اهتزاز الحنجرة."
+          },
+          {
+            "q_ar": "street · starts · stairs · station — هل بدأت بلا همزة قبل s؟",
+            "a_ar": "street لا «إستريت»."
+          },
+          {
+            "q_ar": "hospital · terrible · languages · opposite — هل النبر في موضعه؟",
+            "a_ar": "HOSpital · TERrible · LANguages · OPposite — كلها على المقطع الأوّل."
+          },
+          {
+            "q_ar": "brother · three · thinks · through · with — هل نطقت TH واللسان بين الأسنان؟",
+            "a_ar": "three ليست tree، وbrother ليست «برازر»."
+          },
+          {
+            "q_ar": "works · lives · takes · watches — هل سمعت ثلاثة أصوات للـs؟",
+            "a_ar": "works وtakes بـ/s/، وlives بـ/z/، وwatches بـ/ɪz/."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "listening",
+      "day_number": 5,
+      "title_ar": "اختبار الاستماع — ليلى",
+      "title_en": "Module 1 Test — Listening",
+      "payload": {
+        "method_ar": [
+          "لا تقرأ النصّ قبل أن تستمع. اضبط السرعة على 0.8 إن استطعت.",
+          "استمع مرّتين فقط، واكتب على ورقة الأرقام والأوقات والأماكن.",
+          "ثم افتح «القراءة» واقرأ نصّها، ثم افتح الاختبار: الاستماع أوّلاً، ثم القراءة. والدرجة ما صحّ من المحاولة الأولى.",
+          "بعد التصحيح فقط اقرأ نصّ الاستماع وأنت تسمعه."
+        ],
+        "warning_ar": "النصّ ظاهر تحت الأزرار — مرّر الشاشة بعيداً عنه، أو غطِّه، حتى تنتهي من الأسئلة. ومن قرأه فقد ألغى اختباره.",
+        "transcript": [
+          {
+            "en": "Hello. My name is Layla and I am twenty-eight years old. I am from Tunis, but now I live in Marseille. I am a nurse at a big hospital.",
+            "ar": "مرحباً. اسمي ليلى وعمري ثمانٍ وعشرون سنة. أنا من تونس، لكنني أسكن الآن في مرسيليا. أعمل ممرّضة في مستشفى كبير."
+          },
+          {
+            "en": "I live in a small flat on the second floor. There isn't a garden, but there is a small balcony, and I grow tomatoes there. My flat isn't expensive because it is far from the centre.",
+            "ar": "أسكن في شقّة صغيرة في الطابق الثاني. ليس فيها حديقة، لكن فيها شرفة صغيرة أزرع فيها الطماطم. وشقّتي ليست غالية لأنها بعيدة عن الوسط."
+          },
+          {
+            "en": "I wake up at five o'clock and I take the train to work. I start at seven and I finish at three. I usually have lunch at the hospital with my colleagues.",
+            "ar": "أستيقظ في الخامسة وأركب القطار إلى العمل. أبدأ في السابعة وأنتهي في الثالثة. وعادةً أتغدّى في المستشفى مع زملائي."
+          },
+          {
+            "en": "In my free time I love reading, and I go swimming twice a week. I can't drive. I would like to learn, but the lessons are very expensive here.",
+            "ar": "في وقت فراغي أحبّ القراءة، وأسبح مرّتين في الأسبوع. لا أعرف القيادة. أودّ أن أتعلّم، لكن الدروس غالية جداً هنا."
+          },
+          {
+            "en": "On Sundays I don't work. I usually call my parents in Tunis, and then I walk to the market. There is a very good bakery there, and the bread costs one euro.",
+            "ar": "لا أعمل أيام الأحد. عادةً أتصل بوالديّ في تونس، ثم أمشي إلى السوق. فيه مخبز جيد جداً، والخبز بيورو واحد."
+          }
+        ],
+        "questions": [
+          {
+            "q_ar": "كيف تذهب ليلى إلى كل مكان؟ ولماذا؟",
+            "a_ar": "بالقطار أو مشياً، لأنها لا تعرف القيادة."
+          },
+          {
+            "q_ar": "كم ساعة تعمل ليلى في اليوم؟",
+            "a_ar": "ثماني ساعات: من السابعة إلى الثالثة."
+          },
+          {
+            "q_ar": "ماذا يوجد في السوق يوم الأحد؟",
+            "a_ar": "مخبز جيد جداً، والخبز فيه بيورو واحد."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "reading",
+      "day_number": 5,
+      "title_ar": "اختبار القراءة — دكّان الشاي",
+      "title_en": "Module 1 Test — Reading",
+      "payload": {
+        "method_ar": "القصة خيالية. اقرأها مرّتين: الأولى بلا توقّف لتفهم الفكرة، والثانية للتفاصيل. ثم افتح الاختبار، ويمكنك الرجوع إلى النصّ من خريطة اليوم. لا قاموس. والإعلانات القصيرة في أوّل أسئلة القراءة مكتوبة في السؤال نفسه.",
+        "story": [
+          {
+            "en": "In the centre of Istanbul there is a very small shop. There isn't a door, just a window on the street. The shop sells only one thing: tea.",
+            "ar": "في وسط إسطنبول دكّان صغير جداً. ليس له باب، بل نافذة على الشارع. ولا يبيع الدكّان إلا شيئاً واحداً: الشاي."
+          },
+          {
+            "en": "The owner is an old man called Mehmet. He opens the shop at six o'clock every morning, six days a week, and he doesn't take holidays.",
+            "ar": "صاحبه رجل عجوز اسمه محمد. يفتح الدكّان في السادسة كل صباح، ستّة أيام في الأسبوع، ولا يأخذ إجازات."
+          },
+          {
+            "en": "The tea is very cheap, and Mehmet doesn't make much money. But he isn't interested in money. He is interested in people.",
+            "ar": "الشاي رخيص جداً، ولا يكسب محمد مالاً كثيراً. لكنه لا يهتمّ بالمال، بل يهتمّ بالناس."
+          },
+          {
+            "en": "Every morning the same customers come: taxi drivers, men from the market and students. Mehmet knows all their names and all their news.",
+            "ar": "يأتي كل صباح الزبائن أنفسهم: سائقو سيارات الأجرة، ورجال السوق، والطلاب. ويعرف محمد أسماءهم كلها وأخبارهم كلها."
+          },
+          {
+            "en": "\"This isn't a shop,\" a young customer says. \"It's a newspaper. Mehmet knows everything in this street first.\"",
+            "ar": "يقول زبون شابّ: «هذا ليس دكّاناً، بل جريدة. فمحمد يعرف كل ما في هذا الشارع قبل غيره»."
+          },
+          {
+            "en": "There are four big modern cafés in the same street, with comfortable chairs and big TVs. But in the morning the cafés are almost empty, and there are always a lot of people at Mehmet's window.",
+            "ar": "وفي الشارع نفسه أربعة مقاهٍ كبيرة حديثة، فيها كراسٍ مريحة وشاشات كبيرة. لكن المقاهي في الصباح شبه فارغة، وعند نافذة محمد دائماً ناس كثيرون."
+          }
+        ],
+        "glossary": [
+          {
+            "en": "owner",
+            "ar": "صاحب المحلّ"
+          },
+          {
+            "en": "customer",
+            "ar": "زبون"
+          },
+          {
+            "en": "almost empty",
+            "ar": "شبه فارغ"
+          }
+        ],
+        "questions": [
+          {
+            "q_ar": "ما الفرق بين دكّان محمد والمقاهي الأربعة؟",
+            "a_ar": "المقاهي كبيرة وفيها كراسٍ مريحة وشاشات، ودكّان محمد نافذة صغيرة — لكن الناس يأتون إليه هو."
+          },
+          {
+            "q_ar": "لماذا يأتي الناس إلى محمد لا إلى المقاهي؟",
+            "a_ar": "لأنه يعرفهم ويهتمّ بهم، والشاي عنده رخيص."
+          }
+        ]
       }
     },
     {
@@ -684,40 +1951,45 @@
       "title_ar": "اختبار الوحدة — أين أنت الآن",
       "title_en": "Module Test — Self-Check",
       "payload": {
-        "intro_ar": "صحّح اختبارك أولاً، ثم أشّر هنا. كن صادقاً: هذا يحدّد هل تنتقل أم تعيد.",
+        "intro_ar": "اجمع درجتك من 100 أوّلاً (درس «درجتك» في اليوم السادس)، ثم أشّر هنا بصدق. وبعد إنهاء الأسبوع يظهر لك اختبار المستوى A1: هو الذي يفتح الوحدة الثانية ويعطيك الشهادة.",
         "items": [
           {
-            "can_ar": "أقول عشر جمل بـam/is/are بلا خطأ",
-            "proof_ar": "تمارين اختبار هذا الأسبوع"
+            "can_ar": "أعرّف بنفسي وبأسرتي بـam / is / are بلا خطأ",
+            "proof_ar": "اختبار القواعد وتسجيلك"
           },
           {
-            "can_ar": "أصوغ المضارع البسيط نفياً وسؤالاً",
-            "proof_ar": "تمارين اختبار هذا الأسبوع"
+            "can_ar": "أصوغ المضارع البسيط إثباتاً ونفياً وسؤالاً",
+            "proof_ar": "اختبار القواعد 1 و2"
           },
           {
-            "can_ar": "أستخدم There is/are صحيحة",
-            "proof_ar": "تمارين اختبار هذا الأسبوع"
+            "can_ar": "أستعمل there is / there are وحروف المكان صحيحة",
+            "proof_ar": "اختبار القواعد وكتابتك"
           },
           {
-            "can_ar": "أنطق /p/ و/v/ و/θ/ متميّزة",
-            "proof_ar": "تمارين اختبار هذا الأسبوع"
+            "can_ar": "أطلب الطعام وأسأل عن الثمن والطريق",
+            "proof_ar": "اختبار المفردات 2"
           },
           {
-            "can_ar": "أضع النبر في موضعه في عشرين كلمة",
-            "proof_ar": "تمارين اختبار هذا الأسبوع"
+            "can_ar": "ألتقط الأرقام والأوقات والأماكن ممّا أسمع",
+            "proof_ar": "اختبار الاستماع 11 من 15 فأكثر"
           },
           {
-            "can_ar": "أتذكّر 400 من 500 كلمة من العربية",
-            "proof_ar": "تمارين اختبار هذا الأسبوع"
+            "can_ar": "أفهم لافتة قصيرة ونصاً بسيطاً",
+            "proof_ar": "اختبار القراءة 11 من 15 فأكثر"
           },
           {
-            "can_ar": "أتحدّث دقيقتين عن نفسي بلا توقّف طويل",
-            "proof_ar": "تمارين اختبار هذا الأسبوع"
+            "can_ar": "أقول 80% من كلمات الوحدة من العربية في ثلاث ثوانٍ",
+            "proof_ar": "اختبار الكلمات في اليوم الأول"
+          },
+          {
+            "can_ar": "أتحدّث عن حياتي دقيقتين على الأقل بلا توقّف طويل",
+            "proof_ar": "تسجيل Week06"
           }
         ],
-        "pass_ar": "6–7 ✓ → نجحت — انتقل إلى الوحدة الثانية",
-        "partial_ar": "4–5 ✓ → مقبول — انتقل وراجع أضعف قسمين خلال الأسابيع القادمة",
-        "fail_ar": "أقل من 4 → أعد الوحدة الأولى — الوحدة الثانية تبني عليها مباشرة"
+        "pass_ar": "7–8 ✓ → جاهز لاختبار المستوى A1",
+        "partial_ar": "5–6 ✓ → تقدّم للاختبار، ودرّب أضعف قسمين يومياً",
+        "fail_ar": "أقل من 5 → خذ أسبوعاً إضافياً قبل اختبار المستوى",
+        "keep_recording_ar": "من الوحدة الثانية سجّل ثلاث مرّات في الأسبوع لا مرّة، واحتفظ بكل ملفّ."
       }
     },
     {
@@ -725,22 +1997,105 @@
       "title_ar": "التحدّث",
       "title_en": "Three Minutes About My Life",
       "payload": {
-        "task_ar": "سجّل ثلاث دقائق متّصلة عن «حياتي» — بلا ورقة وبلا توقّف",
+        "task_ar": "سجّل ثلاث دقائق متّصلة عن «حياتي» — بلا ورقة وبلا توقّف طويل",
         "target_seconds": 180,
         "is_baseline": false,
         "title_en": "Three Minutes About My Life",
-        "intro_ar": "هذا اختبار الوحدة الأولى شفهياً: ثلاث دقائق متّصلة، بلا ورقة وبلا توقّف، تغطّي النقاط الستّ نفسها التي كتبتَها.",
+        "intro_ar": "هذا اختبار الوحدة الأولى شفهياً: ثلاث دقائق متّصلة تغطّي النقاط الستّ نفسها التي كتبتها. الموضوع قريب ممّا سجّلته في الأسبوع الأوّل لتصحّ المقارنة في اليوم السابع. والدرجة من 10 خارج درجة الاختبار: 7 فأكثر تعني أن كلامك في مستوى A1 متين.",
         "cover_ar": [
           "اسمك وعمرك ومدينتك وعملك",
           "أسرتك",
-          "يومك مع ذكر وقتين على الأقل",
-          "بيتك — بـ there is / there are",
+          "يومك، مع ذكر وقتين على الأقل",
+          "بيتك — بـthere is / there are",
           "شيء تستطيعه وشيء لا تستطيعه",
-          "ما تحبّ فعله في فراغك"
+          "ما تحبّ فعله في وقت فراغك"
         ],
-        "model_en": null,
-        "outline": [],
-        "rubric": [],
+        "model_en": "Hello. My name is Ahmed. I'm thirty years old and I'm an engineer. I'm from Irbid, but now I live in Amman. //\nI have a big family. My father is a teacher, and my mother works at home. I have two sisters and one brother. My brother is a student at university. //\nI usually get up at six o'clock. I pray, I have breakfast, and then I take the bus to work. I start work at eight and I finish at four. In the evening I have dinner with my family, and I go to bed at eleven. //\nI live in a small flat on the third floor. There are two bedrooms, a living room and a small kitchen. There isn't a garden, but there is a nice balcony. There is a park near my building. //\nI can drive and I can cook quite well, but I can't swim. I'm not very good at drawing. //\nIn my free time I like reading and walking. I sometimes play football with my friends on Fridays. I love cooking for my family, too. //",
+        "outline": [
+          {
+            "part_en": "Who I am",
+            "part_ar": "من أنت",
+            "say_en": "My name is… I'm … years old. I'm a / an… I live in…",
+            "seconds": 30
+          },
+          {
+            "part_en": "My family",
+            "part_ar": "أسرتك",
+            "say_en": "I have… My father is… My sister works…",
+            "seconds": 25
+          },
+          {
+            "part_en": "My day",
+            "part_ar": "يومك",
+            "say_en": "I usually get up at… I start work at… In the evening I…",
+            "seconds": 35
+          },
+          {
+            "part_en": "My home",
+            "part_ar": "بيتك",
+            "say_en": "I live in… There are… There isn't… There is a … near…",
+            "seconds": 30
+          },
+          {
+            "part_en": "Can and can't",
+            "part_ar": "ما تستطيعه",
+            "say_en": "I can…, but I can't… I'm good at …ing.",
+            "seconds": 25
+          },
+          {
+            "part_en": "My free time",
+            "part_ar": "فراغك",
+            "say_en": "In my free time I like …ing. I sometimes…",
+            "seconds": 35
+          }
+        ],
+        "rubric": [
+          {
+            "label_en": "Range",
+            "label_ar": "المدى",
+            "levels": [
+              "0: نقطتان أو ثلاث من الستّ",
+              "1: أربع نقاط أو خمس",
+              "2: النقاط الستّ، بأكثر من تركيب: be · المضارع · there is · can"
+            ]
+          },
+          {
+            "label_en": "Accuracy",
+            "label_ar": "الدقّة",
+            "levels": [
+              "0: كثير من الأخطاء العشرة",
+              "1: أخطاء قليلة لا تغيّر المعنى",
+              "2: لا يكاد يقع خطأ من العشرة"
+            ]
+          },
+          {
+            "label_en": "Fluency",
+            "label_ar": "الطلاقة",
+            "levels": [
+              "0: أقل من 90 ثانية ووقفات طويلة",
+              "1: من 90 إلى 150 ثانية مع وقفات",
+              "2: من 150 إلى 180 ثانية، والوقفات بين الأفكار وحدها"
+            ]
+          },
+          {
+            "label_en": "Pronunciation",
+            "label_ar": "النطق",
+            "levels": [
+              "0: الأصوات والنبر غير واضحة",
+              "1: واضح في أغلبه",
+              "2: /p/ و/v/ وTH واضحة، والنبر في موضعه"
+            ]
+          },
+          {
+            "label_en": "Coherence",
+            "label_ar": "الترابط",
+            "levels": [
+              "0: كلمات وجمل منفصلة",
+              "1: and · but",
+              "2: أيضاً because · then · sometimes"
+            ]
+          }
+        ],
         "steps": [],
         "save_as": "Week06"
       }
@@ -754,7 +2109,7 @@
         "target_percent": 80,
         "seconds_per_word": 3,
         "method_ar": [
-          "افتح بطاقات مفردات الأسابيع 1–5.",
+          "افتح بطاقات مفردات الأسابيع 1–5 في «مراجعة المفردات».",
           "اقرأ العربية وقُل الإنجليزية بصوت مسموع. لا تكتب — المطلوب أن تنطقها.",
           "ضع علامة على كل كلمة لم تخرج منك في ثلاث ثوانٍ.",
           "ارجع إلى المعلَّمة وحدها، وقُل كلّاً منها خمس مرّات في جملة كاملة.",
@@ -772,79 +2127,79 @@
             {
               "prompt": "be",
               "answer": null,
-              "ipa": null,
+              "ipa": "/biː/",
               "ours": false
             },
             {
               "prompt": "have",
               "answer": null,
-              "ipa": null,
+              "ipa": "/hæv/",
               "ours": false
             },
             {
               "prompt": "do",
               "answer": null,
-              "ipa": null,
+              "ipa": "/duː/",
               "ours": false
             },
             {
               "prompt": "go",
               "answer": null,
-              "ipa": null,
+              "ipa": "/ɡəʊ/",
               "ours": false
             },
             {
               "prompt": "come",
               "answer": null,
-              "ipa": null,
+              "ipa": "/kʌm/",
               "ours": false
             },
             {
               "prompt": "make",
               "answer": null,
-              "ipa": null,
+              "ipa": "/meɪk/",
               "ours": false
             },
             {
               "prompt": "take",
               "answer": null,
-              "ipa": null,
+              "ipa": "/teɪk/",
               "ours": false
             },
             {
               "prompt": "get",
               "answer": null,
-              "ipa": null,
+              "ipa": "/ɡet/",
               "ours": false
             },
             {
               "prompt": "know",
               "answer": null,
-              "ipa": null,
+              "ipa": "/nəʊ/",
               "ours": false
             },
             {
               "prompt": "think",
               "answer": null,
-              "ipa": null,
+              "ipa": "/θɪŋk/",
               "ours": false
             },
             {
               "prompt": "see",
               "answer": null,
-              "ipa": null,
+              "ipa": "/siː/",
               "ours": false
             },
             {
               "prompt": "want",
               "answer": null,
-              "ipa": "/ˈwɒntɪd/",
+              "ipa": "/wɒnt/",
               "ours": false
             },
             {
               "prompt": "like",
               "answer": null,
-              "ipa": "/laɪkt/",
+              "ipa": "/laɪk/",
               "ours": false
             },
             {
@@ -856,37 +2211,37 @@
             {
               "prompt": "live",
               "answer": null,
-              "ipa": "/lɪvd/",
+              "ipa": "/lɪv/",
               "ours": false
             },
             {
               "prompt": "say",
               "answer": null,
-              "ipa": null,
+              "ipa": "/seɪ/",
               "ours": false
             },
             {
               "prompt": "give",
               "answer": null,
-              "ipa": null,
+              "ipa": "/ɡɪv/",
               "ours": false
             },
             {
               "prompt": "find",
               "answer": null,
-              "ipa": null,
+              "ipa": "/faɪnd/",
               "ours": false
             },
             {
               "prompt": "use",
               "answer": null,
-              "ipa": null,
+              "ipa": "/juːz/",
               "ours": false
             },
             {
               "prompt": "need",
               "answer": null,
-              "ipa": "/ˈniːdɪd/",
+              "ipa": "/niːd/",
               "ours": false
             },
             {
@@ -904,7 +2259,7 @@
             {
               "prompt": "help",
               "answer": null,
-              "ipa": "/helpt/",
+              "ipa": "/help/",
               "ours": false
             },
             {
@@ -976,7 +2331,7 @@
             {
               "prompt": "now",
               "answer": null,
-              "ipa": null,
+              "ipa": "/naʊ/",
               "ours": false
             },
             {
@@ -1030,43 +2385,43 @@
             {
               "prompt": "with",
               "answer": null,
-              "ipa": null,
+              "ipa": "/wɪð/",
               "ours": false
             },
             {
               "prompt": "about",
               "answer": null,
-              "ipa": null,
+              "ipa": "/əˈbaʊt/",
               "ours": false
             },
             {
               "prompt": "people",
               "answer": null,
-              "ipa": null,
+              "ipa": "/ˈpiːpl/",
               "ours": false
             },
             {
               "prompt": "time",
               "answer": null,
-              "ipa": null,
+              "ipa": "/taɪm/",
               "ours": false
             },
             {
               "prompt": "day",
               "answer": null,
-              "ipa": null,
+              "ipa": "/deɪ/",
               "ours": false
             },
             {
               "prompt": "thing",
               "answer": null,
-              "ipa": null,
+              "ipa": "/θɪŋ/",
               "ours": false
             },
             {
               "prompt": "place",
               "answer": null,
-              "ipa": null,
+              "ipa": "/pleɪs/",
               "ours": false
             }
           ]
@@ -1098,8 +2453,8 @@
             "kind": "number"
           },
           {
-            "label_en": "Number of different tenses used",
-            "label_ar": "عدد الأزمنة المستخدمة",
+            "label_en": "Number of different structures used",
+            "label_ar": "عدد التراكيب المستعملة (am / is / are · المضارع · there is · can)",
             "unit_ar": null,
             "kind": "number"
           },
@@ -1351,7 +2706,7 @@
               },
               {
                 "word": "well",
-                "ar": "«جيداً» بعد الفعل هي well لا good: swim well. «She sings good» خطأ."
+                "ar": "«جيداً» بعد الفعل هي well لا good: swim well. «She cooks good» خطأ."
               },
               {
                 "word": "good at drawing",
@@ -1389,8 +2744,8 @@
                 "ar": "توجد غرفتا نوم في شقّتنا."
               },
               {
-                "en": "I can play the guitar, and I love reading.",
-                "ar": "أستطيع العزف على الغيتار، وأحبّ القراءة."
+                "en": "I can drive, and I love reading.",
+                "ar": "أستطيع القيادة، وأحبّ القراءة."
               }
             ],
             "pattern_en": "I am ___. I usually ___. There are ___. I can ___.",
@@ -1406,12 +2761,12 @@
                 "ar": "لوجود أشياء كثيرة: There are two bedrooms. ومع الواحد There is."
               },
               {
-                "word": "the guitar",
-                "ar": "مع الآلات الموسيقية نقول the: play the guitar. ومع الرياضة بلا the: play football."
+                "word": "can drive",
+                "ar": "بعد can الفعل مجرّداً بلا to: I can drive. والنفي can't: I can't swim."
               },
               {
                 "word": "and",
-                "ar": "تربط جملتين قصيرتين في جملة واحدة: I can play the guitar, and I love reading."
+                "ar": "تربط جملتين قصيرتين في جملة واحدة: I can drive, and I love reading."
               }
             ],
             "check_ar": [
@@ -1669,10 +3024,10 @@
   ],
   "exercises": [
     {
-      "day_number": 1,
-      "exercise_no": 1,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "correct_error",
-      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "focus_ar": "اختبار القواعد 2 — صحّح الخطأ",
       "prompt": "صحّح الجملة",
       "payload": {
         "sentence": "Where you live?"
@@ -1687,10 +3042,10 @@
       "error_no": 5
     },
     {
-      "day_number": 1,
-      "exercise_no": 1,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "correct_error",
-      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "focus_ar": "اختبار القواعد 2 — صحّح الخطأ",
       "prompt": "صحّح الجملة",
       "payload": {
         "sentence": "There is five rooms."
@@ -1701,13 +3056,14 @@
         ]
       },
       "explanation": "five rooms جمع فتأخذ There are.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 1,
-      "exercise_no": 1,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "correct_error",
-      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "focus_ar": "اختبار القواعد 2 — صحّح الخطأ",
       "prompt": "صحّح الجملة",
       "payload": {
         "sentence": "I always am tired."
@@ -1723,10 +3079,10 @@
       "error_no": 6
     },
     {
-      "day_number": 1,
-      "exercise_no": 1,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "correct_error",
-      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "focus_ar": "اختبار القواعد 2 — صحّح الخطأ",
       "prompt": "صحّح الجملة",
       "payload": {
         "sentence": "My mother cook very well."
@@ -1741,10 +3097,10 @@
       "error_no": 3
     },
     {
-      "day_number": 1,
-      "exercise_no": 1,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "correct_error",
-      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "focus_ar": "اختبار القواعد 2 — صحّح الخطأ",
       "prompt": "صحّح الجملة",
       "payload": {
         "sentence": "I am good at draw."
@@ -1760,10 +3116,10 @@
       "error_no": 9
     },
     {
-      "day_number": 1,
-      "exercise_no": 1,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "correct_error",
-      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "focus_ar": "اختبار القواعد 2 — صحّح الخطأ",
       "prompt": "صحّح الجملة",
       "payload": {
         "sentence": "How much people are there?"
@@ -1774,13 +3130,14 @@
         ]
       },
       "explanation": "people جمع person ومعدودة، فتأخذ How many.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 1,
-      "exercise_no": 1,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "correct_error",
-      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "focus_ar": "اختبار القواعد 2 — صحّح الخطأ",
       "prompt": "صحّح الجملة",
       "payload": {
         "sentence": "He speaks English very good."
@@ -1795,10 +3152,10 @@
       "error_no": 10
     },
     {
-      "day_number": 1,
-      "exercise_no": 1,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A3)",
+      "focus_ar": "اختبار القواعد 3 — اختر الصحيح",
       "prompt": "I start work ______ (at / on / in) nine o'clock.",
       "payload": {
         "before": "I start work ",
@@ -1810,13 +3167,14 @@
         ]
       },
       "explanation": "at مع الساعات: at nine o'clock.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 2,
-      "exercise_no": 2,
+      "day_number": 3,
+      "exercise_no": 3,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A3)",
+      "focus_ar": "مراجعة — الأدوات وحروف الجرّ",
       "prompt": "______ (How much / How many) sugar do you want?",
       "payload": {
         "before": "",
@@ -1829,16 +3187,17 @@
         ]
       },
       "explanation": "sugar غير معدودة فتأخذ How much.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 2,
-      "exercise_no": 2,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "focus_ar": "اختبار المفردات 1 — من العربية إلى الإنجليزية",
       "prompt": "جار = ______",
       "payload": {
-        "before": "جار =",
+        "before": "جار = ",
         "after": ""
       },
       "answer": {
@@ -1848,16 +3207,17 @@
         ]
       },
       "explanation": "جار = neighbour",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 2,
-      "exercise_no": 2,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "focus_ar": "اختبار المفردات 1 — من العربية إلى الإنجليزية",
       "prompt": "زوجة = ______",
       "payload": {
-        "before": "زوجة =",
+        "before": "زوجة = ",
         "after": ""
       },
       "answer": {
@@ -1866,16 +3226,17 @@
         ]
       },
       "explanation": "زوجة = wife",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 2,
-      "exercise_no": 2,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "focus_ar": "اختبار المفردات 1 — من العربية إلى الإنجليزية",
       "prompt": "مطبخ = ______",
       "payload": {
-        "before": "مطبخ =",
+        "before": "مطبخ = ",
         "after": ""
       },
       "answer": {
@@ -1884,34 +3245,37 @@
         ]
       },
       "explanation": "مطبخ = kitchen",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 2,
-      "exercise_no": 2,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "focus_ar": "اختبار المفردات 1 — من العربية إلى الإنجليزية",
       "prompt": "يستيقظ = ______",
       "payload": {
-        "before": "يستيقظ =",
+        "before": "يستيقظ = ",
         "after": ""
       },
       "answer": {
         "accepted": [
-          "wake up"
+          "wake up",
+          "wakes up"
         ]
       },
       "explanation": "يستيقظ = wake up",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 2,
-      "exercise_no": 2,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "focus_ar": "اختبار المفردات 1 — من العربية إلى الإنجليزية",
       "prompt": "حافلة = ______",
       "payload": {
-        "before": "حافلة =",
+        "before": "حافلة = ",
         "after": ""
       },
       "answer": {
@@ -1920,16 +3284,17 @@
         ]
       },
       "explanation": "حافلة = bus",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 2,
-      "exercise_no": 2,
+      "day_number": 1,
+      "exercise_no": 1,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
       "prompt": "خبز = ______",
       "payload": {
-        "before": "خبز =",
+        "before": "خبز = ",
         "after": ""
       },
       "answer": {
@@ -1938,16 +3303,17 @@
         ]
       },
       "explanation": "خبز = bread",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 2,
-      "exercise_no": 2,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "focus_ar": "اختبار المفردات 1 — من العربية إلى الإنجليزية",
       "prompt": "رخيص = ______",
       "payload": {
-        "before": "رخيص =",
+        "before": "رخيص = ",
         "after": ""
       },
       "answer": {
@@ -1956,13 +3322,14 @@
         ]
       },
       "explanation": "رخيص = cheap",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 3,
-      "exercise_no": 3,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "focus_ar": "اختبار القواعد 1 — ضع الفعل في صيغته",
       "prompt": "I ______ (be) from Morocco.",
       "payload": {
         "before": "I ",
@@ -1974,13 +3341,14 @@
         ]
       },
       "explanation": "I تأخذ am دائماً.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 3,
-      "exercise_no": 3,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "focus_ar": "اختبار القواعد 1 — ضع الفعل في صيغته",
       "prompt": "She ______ (work) in a bank.",
       "payload": {
         "before": "She ",
@@ -1996,10 +3364,10 @@
       "error_no": 3
     },
     {
-      "day_number": 3,
-      "exercise_no": 3,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "focus_ar": "اختبار القواعد 1 — ضع الفعل في صيغته",
       "prompt": "They ______ (not / like) spicy food.",
       "payload": {
         "before": "They ",
@@ -2012,13 +3380,14 @@
         ]
       },
       "explanation": "they تأخذ don't + فعل مجرّد.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 3,
-      "exercise_no": 3,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "focus_ar": "اختبار القواعد 1 — ضع الفعل في صيغته",
       "prompt": "______ there a pharmacy near here?",
       "payload": {
         "before": "",
@@ -2031,17 +3400,18 @@
         ]
       },
       "explanation": "pharmacy مفرد: Is there…?",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 3,
-      "exercise_no": 3,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
-      "prompt": "He ______ (can / not) play the guitar.",
+      "focus_ar": "اختبار القواعد 1 — ضع الفعل في صيغته",
+      "prompt": "He ______ (can / not) ride a bike.",
       "payload": {
         "before": "He ",
-        "after": " (can / not) play the guitar."
+        "after": " (can / not) ride a bike."
       },
       "answer": {
         "accepted": [
@@ -2049,14 +3419,15 @@
           "cannot"
         ]
       },
-      "explanation": "نفي can هو can't، والفعل بعده مجرّد.",
-      "points": 1
+      "explanation": "النفي بـcan't أو cannot، والفعل بعدها مجرّد.",
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 3,
-      "exercise_no": 3,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "multiple_choice",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "focus_ar": "اختبار القواعد 1 — ضع الفعل في صيغته",
       "prompt": "What time ______ you ______ (get) up?",
       "payload": {
         "options": [
@@ -2070,13 +3441,14 @@
         "correct": 0
       },
       "explanation": "you تأخذ do، والفعل بعدها مجرّد: What time do you get up?",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 3,
-      "exercise_no": 3,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "focus_ar": "اختبار القواعد 1 — ضع الفعل في صيغته",
       "prompt": "There ______ (be) three bedrooms in our house.",
       "payload": {
         "before": "There ",
@@ -2088,13 +3460,14 @@
         ]
       },
       "explanation": "three bedrooms جمع فتأخذ There are.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 3,
-      "exercise_no": 3,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "focus_ar": "اختبار القواعد 1 — ضع الفعل في صيغته",
       "prompt": "My father ______ (go) to the mosque every Friday.",
       "payload": {
         "before": "My father ",
@@ -2110,10 +3483,10 @@
       "error_no": 3
     },
     {
-      "day_number": 3,
-      "exercise_no": 3,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "multiple_choice",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "focus_ar": "اختبار القواعد 1 — ضع الفعل في صيغته",
       "prompt": "______ your brother ______ (speak) English?",
       "payload": {
         "options": [
@@ -2131,10 +3504,10 @@
       "error_no": 4
     },
     {
-      "day_number": 3,
-      "exercise_no": 3,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "focus_ar": "اختبار القواعد 1 — ضع الفعل في صيغته",
       "prompt": "We ______ (not / be) at home this evening.",
       "payload": {
         "before": "We ",
@@ -2147,13 +3520,14 @@
         ]
       },
       "explanation": "we تأخذ are، ونفيها aren't.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 3,
-      "exercise_no": 3,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "focus_ar": "اختبار القواعد 1 — ضع الفعل في صيغته",
       "prompt": "The children ______ (watch) TV every day.",
       "payload": {
         "before": "The children ",
@@ -2165,13 +3539,14 @@
         ]
       },
       "explanation": "the children جمع (they) فلا s في الفعل: watch.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 3,
-      "exercise_no": 3,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "focus_ar": "اختبار القواعد 1 — ضع الفعل في صيغته",
       "prompt": "There ______ (not / be) any milk in the fridge.",
       "payload": {
         "before": "There ",
@@ -2184,13 +3559,14 @@
         ]
       },
       "explanation": "milk غير معدودة فتأخذ There isn't.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 3,
-      "exercise_no": 3,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "focus_ar": "اختبار القواعد 1 — ضع الفعل في صيغته",
       "prompt": "I ______ (be) good at swimming.",
       "payload": {
         "before": "I ",
@@ -2202,13 +3578,14 @@
         ]
       },
       "explanation": "I تأخذ am — و good at + -ing.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 3,
-      "exercise_no": 3,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "focus_ar": "اختبار القواعد 1 — ضع الفعل في صيغته",
       "prompt": "She ______ (study) at university.",
       "payload": {
         "before": "She ",
@@ -2220,13 +3597,14 @@
         ]
       },
       "explanation": "ساكن + y تصير ies: studies.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 3,
-      "exercise_no": 3,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "multiple_choice",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "focus_ar": "اختبار القواعد 1 — ضع الفعل في صيغته",
       "prompt": "______ you ______ (want) some tea?",
       "payload": {
         "options": [
@@ -2240,13 +3618,14 @@
         "correct": 0
       },
       "explanation": "you تأخذ Do، والفعل بعدها مجرّد.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
       "day_number": 4,
       "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "focus_ar": "اختبار المفردات 2 — أكمل العبارة",
       "prompt": "Nice to ______ you.",
       "payload": {
         "before": "Nice to ",
@@ -2258,13 +3637,14 @@
         ]
       },
       "explanation": "العبارة الثابتة في أول لقاء: Nice to meet you.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
       "day_number": 4,
       "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "focus_ar": "اختبار المفردات 2 — أكمل العبارة",
       "prompt": "I'm ______ for the post office.",
       "payload": {
         "before": "I'm ",
@@ -2276,13 +3656,14 @@
         ]
       },
       "explanation": "I'm looking for… = أبحث عن…",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
       "day_number": 4,
       "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "focus_ar": "اختبار المفردات 2 — أكمل العبارة",
       "prompt": "Can we have the ______, please?",
       "payload": {
         "before": "Can we have the ",
@@ -2294,13 +3675,14 @@
         ]
       },
       "explanation": "Can we have the bill, please? = الحساب من فضلك.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 4,
-      "exercise_no": 4,
+      "day_number": 1,
+      "exercise_no": 1,
       "type": "multiple_choice",
-      "focus_ar": "اختبار المراجعة — المفردات (B3)",
+      "focus_ar": "الكلمة الغريبة",
       "prompt": "أي كلمة لا تنتمي إلى المجموعة؟",
       "payload": {
         "options": [
@@ -2315,13 +3697,14 @@
         "correct": 2
       },
       "explanation": "noisy صفة، والباقي حروف مكان.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 4,
-      "exercise_no": 4,
+      "day_number": 1,
+      "exercise_no": 1,
       "type": "multiple_choice",
-      "focus_ar": "اختبار المراجعة — المفردات (B3)",
+      "focus_ar": "الكلمة الغريبة",
       "prompt": "أي كلمة لا تنتمي إلى المجموعة؟",
       "payload": {
         "options": [
@@ -2336,13 +3719,14 @@
         "correct": 3
       },
       "explanation": "pharmacy محلّ في المدينة، والباقي غرف في البيت.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 4,
-      "exercise_no": 4,
+      "day_number": 1,
+      "exercise_no": 1,
       "type": "multiple_choice",
-      "focus_ar": "اختبار المراجعة — المفردات (B3)",
+      "focus_ar": "الكلمة الغريبة",
       "prompt": "أي كلمة لا تنتمي إلى المجموعة؟",
       "payload": {
         "options": [
@@ -2357,13 +3741,14 @@
         "correct": 4
       },
       "explanation": "quickly حال طريقة، والباقي ظروف تكرار.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 4,
-      "exercise_no": 4,
+      "day_number": 1,
+      "exercise_no": 1,
       "type": "multiple_choice",
-      "focus_ar": "اختبار المراجعة — المفردات (B3)",
+      "focus_ar": "الكلمة الغريبة",
       "prompt": "أي كلمة لا تنتمي إلى المجموعة؟",
       "payload": {
         "options": [
@@ -2378,34 +3763,36 @@
         "correct": 2
       },
       "explanation": "fridge جهاز، والباقي طعام.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 4,
-      "exercise_no": 4,
+      "day_number": 1,
+      "exercise_no": 1,
       "type": "multiple_choice",
-      "focus_ar": "اختبار المراجعة — المفردات (B3)",
+      "focus_ar": "الكلمة الغريبة",
       "prompt": "أي كلمة لا تنتمي إلى المجموعة؟",
       "payload": {
         "options": [
           "swim",
           "run",
-          "dance",
+          "climb",
           "chair",
-          "sing"
+          "jump"
         ]
       },
       "answer": {
         "correct": 3
       },
-      "explanation": "chair اسم، والباقي أفعال.",
-      "points": 1
+      "explanation": "chair اسم، والباقي أفعال حركة.",
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 5,
-      "exercise_no": 5,
+      "day_number": 2,
+      "exercise_no": 2,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "focus_ar": "مراجعة — المضارع البسيط و there is",
       "prompt": "It ______ (take) twenty minutes by bus.",
       "payload": {
         "before": "It ",
@@ -2421,10 +3808,10 @@
       "error_no": 3
     },
     {
-      "day_number": 5,
-      "exercise_no": 5,
+      "day_number": 2,
+      "exercise_no": 2,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "focus_ar": "مراجعة — المضارع البسيط و there is",
       "prompt": "My parents ______ (live) in Alexandria.",
       "payload": {
         "before": "My parents ",
@@ -2436,13 +3823,14 @@
         ]
       },
       "explanation": "my parents جمع (they) فلا s: live.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 5,
-      "exercise_no": 5,
+      "day_number": 2,
+      "exercise_no": 2,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "focus_ar": "مراجعة — المضارع البسيط و there is",
       "prompt": "He ______ (finish) work at six o'clock.",
       "payload": {
         "before": "He ",
@@ -2458,10 +3846,10 @@
       "error_no": 3
     },
     {
-      "day_number": 5,
-      "exercise_no": 5,
+      "day_number": 2,
+      "exercise_no": 2,
       "type": "multiple_choice",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "focus_ar": "مراجعة — المضارع البسيط و there is",
       "prompt": "______ they ______ (have) any children?",
       "payload": {
         "options": [
@@ -2475,13 +3863,14 @@
         "correct": 0
       },
       "explanation": "they تأخذ Do، و have يبقى مجرّداً.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 5,
-      "exercise_no": 5,
+      "day_number": 2,
+      "exercise_no": 2,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A1)",
+      "focus_ar": "مراجعة — المضارع البسيط و there is",
       "prompt": "There ______ (be) a lot of traffic in the morning.",
       "payload": {
         "before": "There ",
@@ -2493,13 +3882,14 @@
         ]
       },
       "explanation": "traffic غير معدودة فتأخذ There is.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 5,
-      "exercise_no": 5,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "correct_error",
-      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "focus_ar": "اختبار القواعد 2 — صحّح الخطأ",
       "prompt": "صحّح الجملة",
       "payload": {
         "sentence": "I am teacher."
@@ -2515,10 +3905,10 @@
       "error_no": 1
     },
     {
-      "day_number": 5,
-      "exercise_no": 5,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "correct_error",
-      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "focus_ar": "اختبار القواعد 2 — صحّح الخطأ",
       "prompt": "صحّح الجملة",
       "payload": {
         "sentence": "She don't like coffee."
@@ -2534,10 +3924,10 @@
       "error_no": 4
     },
     {
-      "day_number": 5,
-      "exercise_no": 5,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "correct_error",
-      "focus_ar": "اختبار المراجعة — القواعد (A2)",
+      "focus_ar": "اختبار القواعد 2 — صحّح الخطأ",
       "prompt": "صحّح الجملة",
       "payload": {
         "sentence": "He can to drive a car."
@@ -2552,10 +3942,10 @@
       "error_no": 8
     },
     {
-      "day_number": 6,
-      "exercise_no": 6,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A3)",
+      "focus_ar": "اختبار القواعد 3 — اختر الصحيح",
       "prompt": "The bank is ______ (opposite / in front / front) the station.",
       "payload": {
         "before": "The bank is ",
@@ -2567,13 +3957,14 @@
         ]
       },
       "explanation": "opposite بلا to ولا of: opposite the station.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 6,
-      "exercise_no": 6,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A3)",
+      "focus_ar": "اختبار القواعد 3 — اختر الصحيح",
       "prompt": "There aren't ______ (some / any / a) shops near here.",
       "payload": {
         "before": "There aren't ",
@@ -2585,17 +3976,18 @@
         ]
       },
       "explanation": "النفي يأخذ any: There aren't any.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 6,
-      "exercise_no": 6,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A3)",
-      "prompt": "I'd like ______ (a / an / some) bread, please.",
+      "focus_ar": "اختبار القواعد 3 — اختر الصحيح",
+      "prompt": "Can I have ______ (a / an / some) bread, please?",
       "payload": {
-        "before": "I'd like ",
-        "after": " (a / an / some) bread, please."
+        "before": "Can I have ",
+        "after": " (a / an / some) bread, please?"
       },
       "answer": {
         "accepted": [
@@ -2603,13 +3995,14 @@
         ]
       },
       "explanation": "bread غير معدودة، فلا a — بل some.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 6,
-      "exercise_no": 6,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A3)",
+      "focus_ar": "اختبار القواعد 3 — اختر الصحيح",
       "prompt": "My birthday is ______ (at / on / in) May.",
       "payload": {
         "before": "My birthday is ",
@@ -2621,32 +4014,34 @@
         ]
       },
       "explanation": "الشهور تأخذ in: in May.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 6,
-      "exercise_no": 6,
+      "day_number": 3,
+      "exercise_no": 3,
       "type": "multiple_choice",
-      "focus_ar": "اختبار المراجعة — القواعد (A3)",
-      "prompt": "She plays ______ (the / a / —) piano.",
+      "focus_ar": "مراجعة — الأدوات وحروف الجرّ",
+      "prompt": "I'd like ______ (a / an / some) apple, please.",
       "payload": {
         "options": [
-          "the",
           "a",
-          "— (بلا أداة)"
+          "an",
+          "some"
         ]
       },
       "answer": {
-        "correct": 0
+        "correct": 1
       },
-      "explanation": "الآلات الموسيقية تأخذ the: play the piano.",
-      "points": 1
+      "explanation": "apple تبدأ بصوت علّة ← an apple.",
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 6,
-      "exercise_no": 6,
+      "day_number": 3,
+      "exercise_no": 3,
       "type": "multiple_choice",
-      "focus_ar": "اختبار المراجعة — القواعد (A3)",
+      "focus_ar": "مراجعة — الأدوات وحروف الجرّ",
       "prompt": "He plays ______ (the / a / —) football.",
       "payload": {
         "options": [
@@ -2659,13 +4054,14 @@
         "correct": 2
       },
       "explanation": "الرياضات بلا أداة: play football.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 6,
-      "exercise_no": 6,
+      "day_number": 3,
+      "exercise_no": 3,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A3)",
+      "focus_ar": "مراجعة — الأدوات وحروف الجرّ",
       "prompt": "The meeting is ______ (at / on / in) Monday.",
       "payload": {
         "before": "The meeting is ",
@@ -2677,13 +4073,14 @@
         ]
       },
       "explanation": "الأيام تأخذ on: on Monday.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 6,
-      "exercise_no": 6,
+      "day_number": 3,
+      "exercise_no": 3,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — القواعد (A3)",
+      "focus_ar": "مراجعة — الأدوات وحروف الجرّ",
       "prompt": "I am good ______ (in / at / on) cooking.",
       "payload": {
         "before": "I am good ",
@@ -2699,13 +4096,13 @@
       "error_no": 9
     },
     {
-      "day_number": 7,
-      "exercise_no": 7,
+      "day_number": 1,
+      "exercise_no": 1,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
       "prompt": "مقابل = ______",
       "payload": {
-        "before": "مقابل =",
+        "before": "مقابل = ",
         "after": ""
       },
       "answer": {
@@ -2714,13 +4111,14 @@
         ]
       },
       "explanation": "مقابل = opposite",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 7,
-      "exercise_no": 7,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "focus_ar": "اختبار المفردات 2 — أكمل العبارة",
       "prompt": "______ much is this?",
       "payload": {
         "before": "",
@@ -2733,13 +4131,14 @@
         ]
       },
       "explanation": "How much is this? = بكم هذا؟",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 7,
-      "exercise_no": 7,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "focus_ar": "اختبار المفردات 2 — أكمل العبارة",
       "prompt": "Can I ______ the menu, please?",
       "payload": {
         "before": "Can I ",
@@ -2751,13 +4150,14 @@
         ]
       },
       "explanation": "Can I see the menu, please? = هل أرى قائمة الطعام؟",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 7,
-      "exercise_no": 7,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "focus_ar": "اختبار المفردات 2 — أكمل العبارة",
       "prompt": "Sorry, could you ______ that?",
       "payload": {
         "before": "Sorry, could you ",
@@ -2769,13 +4169,14 @@
         ]
       },
       "explanation": "Sorry, could you repeat that? = عفواً، هل تعيد ذلك؟",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 7,
-      "exercise_no": 7,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "focus_ar": "اختبار المفردات 2 — أكمل العبارة",
       "prompt": "How do you ______ your name?",
       "payload": {
         "before": "How do you ",
@@ -2787,13 +4188,14 @@
         ]
       },
       "explanation": "How do you spell your name? = كيف تتهجّى اسمك؟",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 7,
-      "exercise_no": 7,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "focus_ar": "اختبار المفردات 2 — أكمل العبارة",
       "prompt": "I'd ______ the chicken, please.",
       "payload": {
         "before": "I'd ",
@@ -2805,13 +4207,14 @@
         ]
       },
       "explanation": "I'd like = أريد بأدب.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 7,
-      "exercise_no": 7,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "focus_ar": "اختبار المفردات 2 — أكمل العبارة",
       "prompt": "Go ______ on to the end of the street.",
       "payload": {
         "before": "Go ",
@@ -2823,13 +4226,14 @@
         ]
       },
       "explanation": "Go straight on = امشِ مستقيماً.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 7,
-      "exercise_no": 7,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
-      "focus_ar": "اختبار المراجعة — المفردات (B2)",
+      "focus_ar": "اختبار المفردات 2 — أكمل العبارة",
       "prompt": "It's five minutes' ______ from here.",
       "payload": {
         "before": "It's five minutes' ",
@@ -2841,15 +4245,16 @@
         ]
       },
       "explanation": "It's five minutes' walk = خمس دقائق مشياً.",
-      "points": 1
+      "points": 1,
+      "error_no": null
     },
     {
-      "day_number": 2,
-      "exercise_no": 3,
+      "day_number": 1,
+      "exercise_no": 1,
       "type": "fill_blank",
       "prompt": "صيدلية = ______",
       "payload": {
-        "before": "صيدلية =",
+        "before": "صيدلية = ",
         "after": ""
       },
       "answer": {
@@ -2858,17 +4263,17 @@
         ]
       },
       "explanation": "صيدلية = pharmacy",
-      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
       "error_no": null,
       "points": 1
     },
     {
-      "day_number": 2,
+      "day_number": 4,
       "exercise_no": 4,
       "type": "fill_blank",
       "prompt": "مصعد = ______",
       "payload": {
-        "before": "مصعد =",
+        "before": "مصعد = ",
         "after": ""
       },
       "answer": {
@@ -2878,17 +4283,17 @@
         ]
       },
       "explanation": "مصعد = lift — و elevator بالأمريكية.",
-      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "focus_ar": "اختبار المفردات 1 — من العربية إلى الإنجليزية",
       "error_no": null,
       "points": 1
     },
     {
-      "day_number": 2,
-      "exercise_no": 5,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
       "prompt": "غالي = ______",
       "payload": {
-        "before": "غالي =",
+        "before": "غالي = ",
         "after": ""
       },
       "answer": {
@@ -2897,17 +4302,17 @@
         ]
       },
       "explanation": "غالي = expensive، وعكسه cheap.",
-      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "focus_ar": "اختبار المفردات 1 — من العربية إلى الإنجليزية",
       "error_no": null,
       "points": 1
     },
     {
-      "day_number": 2,
-      "exercise_no": 6,
+      "day_number": 1,
+      "exercise_no": 1,
       "type": "fill_blank",
       "prompt": "الحساب (في المطعم) = ______",
       "payload": {
-        "before": "الحساب (في المطعم) =",
+        "before": "الحساب (في المطعم) = ",
         "after": ""
       },
       "answer": {
@@ -2917,17 +4322,17 @@
         ]
       },
       "explanation": "الحساب = the bill — و check بالأمريكية.",
-      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
       "error_no": null,
       "points": 1
     },
     {
-      "day_number": 2,
-      "exercise_no": 7,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
       "prompt": "هواية = ______",
       "payload": {
-        "before": "هواية =",
+        "before": "هواية = ",
         "after": ""
       },
       "answer": {
@@ -2936,36 +4341,39 @@
         ]
       },
       "explanation": "هواية = hobby، وجمعها hobbies.",
-      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "focus_ar": "اختبار المفردات 1 — من العربية إلى الإنجليزية",
       "error_no": null,
       "points": 1
     },
     {
-      "day_number": 2,
-      "exercise_no": 8,
+      "day_number": 4,
+      "exercise_no": 4,
       "type": "fill_blank",
       "prompt": "يتمرّن = ______",
       "payload": {
-        "before": "يتمرّن =",
+        "before": "يتمرّن = ",
         "after": ""
       },
       "answer": {
         "accepted": [
-          "exercise"
+          "exercise",
+          "practise",
+          "practice",
+          "train"
         ]
       },
-      "explanation": "يتمرّن = exercise.",
-      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "explanation": "يتمرّن = exercise (رياضةً) أو practise (تدريباً على مهارة).",
+      "focus_ar": "اختبار المفردات 1 — من العربية إلى الإنجليزية",
       "error_no": null,
       "points": 1
     },
     {
-      "day_number": 2,
-      "exercise_no": 9,
+      "day_number": 1,
+      "exercise_no": 1,
       "type": "fill_blank",
       "prompt": "متعب = ______",
       "payload": {
-        "before": "متعب =",
+        "before": "متعب = ",
         "after": ""
       },
       "answer": {
@@ -2974,13 +4382,13 @@
         ]
       },
       "explanation": "متعب = tired.",
-      "focus_ar": "اختبار المراجعة — المفردات (B1)",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
       "error_no": null,
       "points": 1
     },
     {
       "day_number": 2,
-      "exercise_no": 10,
+      "exercise_no": 2,
       "type": "multiple_choice",
       "prompt": "These ______ my children.",
       "payload": {
@@ -3001,7 +4409,7 @@
     },
     {
       "day_number": 2,
-      "exercise_no": 11,
+      "exercise_no": 2,
       "type": "correct_error",
       "prompt": "صحّح الخطأ في هذه الجملة",
       "payload": {
@@ -3018,12 +4426,12 @@
       "points": 1
     },
     {
-      "day_number": 3,
-      "exercise_no": 4,
+      "day_number": 2,
+      "exercise_no": 2,
       "type": "fill_blank",
       "prompt": "I don't know ______. (he)",
       "payload": {
-        "before": "I don't know",
+        "before": "I don't know ",
         "after": ". (he)"
       },
       "answer": {
@@ -3037,13 +4445,13 @@
       "points": 1
     },
     {
-      "day_number": 3,
-      "exercise_no": 5,
+      "day_number": 2,
+      "exercise_no": 2,
       "type": "fill_blank",
       "prompt": "My ______ are teachers. (sister)",
       "payload": {
-        "before": "My",
-        "after": "are teachers. (sister)"
+        "before": "My ",
+        "after": " are teachers. (sister)"
       },
       "answer": {
         "accepted": [
@@ -3056,8 +4464,8 @@
       "points": 1
     },
     {
-      "day_number": 4,
-      "exercise_no": 5,
+      "day_number": 2,
+      "exercise_no": 2,
       "type": "multiple_choice",
       "prompt": "I'm from Morocco. I'm ______.",
       "payload": {
@@ -3077,13 +4485,13 @@
       "points": 1
     },
     {
-      "day_number": 4,
-      "exercise_no": 6,
+      "day_number": 2,
+      "exercise_no": 2,
       "type": "fill_blank",
       "prompt": "We are on the ______ floor. (2)",
       "payload": {
-        "before": "We are on the",
-        "after": "floor. (2)"
+        "before": "We are on the ",
+        "after": " floor. (2)"
       },
       "answer": {
         "accepted": [
@@ -3097,8 +4505,8 @@
       "points": 1
     },
     {
-      "day_number": 5,
-      "exercise_no": 6,
+      "day_number": 3,
+      "exercise_no": 3,
       "type": "correct_error",
       "prompt": "صحّح الخطأ في هذه الجملة",
       "payload": {
@@ -3118,8 +4526,8 @@
       "points": 1
     },
     {
-      "day_number": 5,
-      "exercise_no": 7,
+      "day_number": 3,
+      "exercise_no": 3,
       "type": "multiple_choice",
       "prompt": "We have a ______.",
       "payload": {
@@ -3139,8 +4547,8 @@
       "points": 1
     },
     {
-      "day_number": 6,
-      "exercise_no": 7,
+      "day_number": 3,
+      "exercise_no": 3,
       "type": "correct_error",
       "prompt": "صحّح الخطأ في هذه الجملة",
       "payload": {
@@ -3158,12 +4566,12 @@
       "points": 1
     },
     {
-      "day_number": 6,
-      "exercise_no": 8,
+      "day_number": 3,
+      "exercise_no": 3,
       "type": "fill_blank",
       "prompt": "She drives very ______. (careful)",
       "payload": {
-        "before": "She drives very",
+        "before": "She drives very ",
         "after": ". (careful)"
       },
       "answer": {
@@ -3177,13 +4585,13 @@
       "points": 1
     },
     {
-      "day_number": 3,
-      "exercise_no": 6,
+      "day_number": 2,
+      "exercise_no": 2,
       "type": "fill_blank",
       "prompt": "Two ______ live next door. (man)",
       "payload": {
-        "before": "Two",
-        "after": "live next door. (man)"
+        "before": "Two ",
+        "after": " live next door. (man)"
       },
       "answer": {
         "accepted": [
@@ -3196,8 +4604,8 @@
       "points": 1
     },
     {
-      "day_number": 3,
-      "exercise_no": 7,
+      "day_number": 2,
+      "exercise_no": 2,
       "type": "correct_error",
       "prompt": "صحّح الخطأ في هذه الجملة",
       "payload": {
@@ -3215,7 +4623,7 @@
     },
     {
       "day_number": 3,
-      "exercise_no": 8,
+      "exercise_no": 3,
       "type": "correct_error",
       "prompt": "صحّح الخطأ في هذه الجملة",
       "payload": {
@@ -3224,13 +4632,2475 @@
       "answer": {
         "accepted": [
           "I have some information for you.",
-          "I have two pieces of information for you."
+          "I have two pieces of information for you.",
+          "I have information for you."
         ]
       },
       "explanation": "information لا تُجمع. تعدّها بـ pieces of.",
       "focus_ar": "مراجعة — كلمات لا تُجمع",
       "error_no": null,
       "points": 1
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار النطق 1 — أين النبر؟",
+      "prompt": "أين النبر في: hotel",
+      "payload": {
+        "options": [
+          "1st: ho",
+          "2nd: tel"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "قلها بصوت عالٍ مرّتين، وضع القوّة على المقطع المنبور وحده.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار النطق 1 — أين النبر؟",
+      "prompt": "أين النبر في: computer",
+      "payload": {
+        "options": [
+          "1st: com",
+          "2nd: pu",
+          "3rd: ter"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "قلها بصوت عالٍ مرّتين، وضع القوّة على المقطع المنبور وحده.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار النطق 1 — أين النبر؟",
+      "prompt": "أين النبر في: library",
+      "payload": {
+        "options": [
+          "1st: li",
+          "2nd: bra",
+          "3rd: ry"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "قلها بصوت عالٍ مرّتين، وضع القوّة على المقطع المنبور وحده.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار النطق 1 — أين النبر؟",
+      "prompt": "أين النبر في: university",
+      "payload": {
+        "options": [
+          "1st: u",
+          "2nd: ni",
+          "3rd: ver",
+          "4th: si"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "قلها بصوت عالٍ مرّتين، وضع القوّة على المقطع المنبور وحده.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار النطق 1 — أين النبر؟",
+      "prompt": "أين النبر في: pharmacy",
+      "payload": {
+        "options": [
+          "1st: phar",
+          "2nd: ma",
+          "3rd: cy"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "قلها بصوت عالٍ مرّتين، وضع القوّة على المقطع المنبور وحده.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار النطق 2 — صوت -s",
+      "prompt": "كيف تُنطق -s في: books",
+      "payload": {
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "بعد صوت مهموس مثل /k/ تُنطق /s/.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار النطق 2 — صوت -s",
+      "prompt": "كيف تُنطق -s في: watches",
+      "payload": {
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "بعد ch و sh و s و x تُضاف مقطعاً: /ɪz/.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار النطق 2 — صوت -s",
+      "prompt": "كيف تُنطق -s في: plays",
+      "payload": {
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "بعد صوت حرف علّة تُنطق /z/.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار النطق 2 — صوت -s",
+      "prompt": "كيف تُنطق -s في: stops",
+      "payload": {
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "بعد /p/ المهموسة تُنطق /s/.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 4,
+      "exercise_no": 4,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار النطق 2 — صوت -s",
+      "prompt": "كيف تُنطق -s في: dogs",
+      "payload": {
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "بعد /g/ المجهورة تُنطق /z/.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "ابنة = ______",
+      "payload": {
+        "before": "ابنة = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "daughter"
+        ]
+      },
+      "explanation": "ابنة = daughter",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "الأربعاء = ______",
+      "payload": {
+        "before": "الأربعاء = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "Wednesday"
+        ]
+      },
+      "explanation": "الأربعاء = Wednesday",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "غداً = ______",
+      "payload": {
+        "before": "غداً = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "tomorrow"
+        ]
+      },
+      "explanation": "غداً = tomorrow",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "يرتدي ملابسه = ______",
+      "payload": {
+        "before": "يرتدي ملابسه = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "get dressed",
+          "gets dressed"
+        ]
+      },
+      "explanation": "يرتدي ملابسه = get dressed",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "نادراً = ______",
+      "payload": {
+        "before": "نادراً = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "rarely"
+        ]
+      },
+      "explanation": "نادراً = rarely",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "وجه = ______",
+      "payload": {
+        "before": "وجه = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "face"
+        ]
+      },
+      "explanation": "وجه = face",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "نحيف = ______",
+      "payload": {
+        "before": "نحيف = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "slim",
+          "thin"
+        ]
+      },
+      "explanation": "نحيف = slim",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "جائع = ______",
+      "payload": {
+        "before": "جائع = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "hungry"
+        ]
+      },
+      "explanation": "جائع = hungry",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "إيصال = ______",
+      "payload": {
+        "before": "إيصال = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "receipt"
+        ]
+      },
+      "explanation": "إيصال = receipt",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "بنطال = ______",
+      "payload": {
+        "before": "بنطال = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "trousers",
+          "pants"
+        ]
+      },
+      "explanation": "بنطال = trousers",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "خضار = ______",
+      "payload": {
+        "before": "خضار = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "vegetables",
+          "vegetable"
+        ]
+      },
+      "explanation": "خضار = vegetables",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "خزانة ملابس = ______",
+      "payload": {
+        "before": "خزانة ملابس = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "wardrobe"
+        ]
+      },
+      "explanation": "خزانة ملابس = wardrobe",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "جسر = ______",
+      "payload": {
+        "before": "جسر = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "bridge"
+        ]
+      },
+      "explanation": "جسر = bridge",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "بين = ______",
+      "payload": {
+        "before": "بين = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "between"
+        ]
+      },
+      "explanation": "بين = between",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "رمادي = ______",
+      "payload": {
+        "before": "رمادي = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "grey",
+          "gray"
+        ]
+      },
+      "explanation": "رمادي = grey",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "غائم = ______",
+      "payload": {
+        "before": "غائم = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "cloudy"
+        ]
+      },
+      "explanation": "غائم = cloudy",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "يتسلّق = ______",
+      "payload": {
+        "before": "يتسلّق = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "climb"
+        ]
+      },
+      "explanation": "يتسلّق = climb",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "ببطء = ______",
+      "payload": {
+        "before": "ببطء = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "slowly"
+        ]
+      },
+      "explanation": "ببطء = slowly",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "مملّ = ______",
+      "payload": {
+        "before": "مملّ = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "boring"
+        ]
+      },
+      "explanation": "مملّ = boring",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "fill_blank",
+      "focus_ar": "من العربية إلى الإنجليزية — الأسابيع 1–5",
+      "prompt": "جمل (الحيوان) = ______",
+      "payload": {
+        "before": "جمل (الحيوان) = ",
+        "after": ""
+      },
+      "answer": {
+        "accepted": [
+          "camel"
+        ]
+      },
+      "explanation": "جمل (الحيوان) = camel",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "كلمات تأتي معاً",
+      "prompt": "I ______ a shower every morning.",
+      "payload": {
+        "options": [
+          "take",
+          "make",
+          "do"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "take a shower",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "كلمات تأتي معاً",
+      "prompt": "We ______ breakfast at seven.",
+      "payload": {
+        "options": [
+          "take",
+          "have",
+          "do"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "have breakfast · have lunch · have dinner",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "كلمات تأتي معاً",
+      "prompt": "I ______ to bed at eleven.",
+      "payload": {
+        "options": [
+          "make",
+          "sleep",
+          "go"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "go to bed",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "كلمات تأتي معاً",
+      "prompt": "She ______ the bus to work.",
+      "payload": {
+        "options": [
+          "takes",
+          "does",
+          "makes"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "take the bus · take the train",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "كلمات تأتي معاً",
+      "prompt": "He ______ football on Fridays.",
+      "payload": {
+        "options": [
+          "goes",
+          "plays",
+          "does"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "play مع الرياضة: play football · play tennis",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "كلمات تأتي معاً",
+      "prompt": "We ______ swimming twice a week.",
+      "payload": {
+        "options": [
+          "play",
+          "make",
+          "go"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "go + -ing للنشاط: go swimming · go cycling",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 1,
+      "exercise_no": 1,
+      "type": "multiple_choice",
+      "focus_ar": "كلمات تأتي معاً",
+      "prompt": "Can I ______ by card?",
+      "payload": {
+        "options": [
+          "pay",
+          "buy",
+          "cost"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "pay by card · pay in cash",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 1 — ضع الفعل في صيغته",
+      "prompt": "My sister ______ (be) a doctor.",
+      "payload": {
+        "before": "My sister ",
+        "after": " (be) a doctor."
+      },
+      "answer": {
+        "accepted": [
+          "is"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 1 — ضع الفعل في صيغته",
+      "prompt": "They ______ (not / live) in Cairo.",
+      "payload": {
+        "before": "They ",
+        "after": " (not / live) in Cairo."
+      },
+      "answer": {
+        "accepted": [
+          "don't live"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 1 — ضع الفعل في صيغته",
+      "prompt": "______ there any milk in the fridge?",
+      "payload": {
+        "before": "",
+        "after": " there any milk in the fridge?"
+      },
+      "answer": {
+        "accepted": [
+          "Is"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 1 — ضع الفعل في صيغته",
+      "prompt": "He ______ (can / not) drive.",
+      "payload": {
+        "before": "He ",
+        "after": " (can / not) drive."
+      },
+      "answer": {
+        "accepted": [
+          "can't",
+          "cannot"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 1 — ضع الفعل في صيغته",
+      "prompt": "What time ______ the shop ______ (open)?",
+      "payload": {
+        "before": "What time ",
+        "after": " the shop ______ (open)?"
+      },
+      "answer": {
+        "accepted": [
+          "does / open"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 1 — ضع الفعل في صيغته",
+      "prompt": "There ______ (be) four rooms in my flat.",
+      "payload": {
+        "before": "There ",
+        "after": " (be) four rooms in my flat."
+      },
+      "answer": {
+        "accepted": [
+          "are"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 1 — ضع الفعل في صيغته",
+      "prompt": "She ______ (study) English every evening.",
+      "payload": {
+        "before": "She ",
+        "after": " (study) English every evening."
+      },
+      "answer": {
+        "accepted": [
+          "studies"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 1 — ضع الفعل في صيغته",
+      "prompt": "______ you like fish?",
+      "payload": {
+        "before": "",
+        "after": " you like fish?"
+      },
+      "answer": {
+        "accepted": [
+          "Do"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 1 — ضع الفعل في صيغته",
+      "prompt": "I ______ (not / be) very good at cooking.",
+      "payload": {
+        "before": "I ",
+        "after": " (not / be) very good at cooking."
+      },
+      "answer": {
+        "accepted": [
+          "am not"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 1 — ضع الفعل في صيغته",
+      "prompt": "My parents ______ (be) in Jordan.",
+      "payload": {
+        "before": "My parents ",
+        "after": " (be) in Jordan."
+      },
+      "answer": {
+        "accepted": [
+          "are"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 1 — ضع الفعل في صيغته",
+      "prompt": "He ______ (go) to the gym twice a week.",
+      "payload": {
+        "before": "He ",
+        "after": " (go) to the gym twice a week."
+      },
+      "answer": {
+        "accepted": [
+          "goes"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 1 — ضع الفعل في صيغته",
+      "prompt": "There ______ (not / be) any shops near here.",
+      "payload": {
+        "before": "There ",
+        "after": " (not / be) any shops near here."
+      },
+      "answer": {
+        "accepted": [
+          "aren't"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 1 — ضع الفعل في صيغته",
+      "prompt": "______ she speak French?",
+      "payload": {
+        "before": "",
+        "after": " she speak French?"
+      },
+      "answer": {
+        "accepted": [
+          "Does"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 1 — ضع الفعل في صيغته",
+      "prompt": "We ______ (have) dinner at eight.",
+      "payload": {
+        "before": "We ",
+        "after": " (have) dinner at eight."
+      },
+      "answer": {
+        "accepted": [
+          "have"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 1 — ضع الفعل في صيغته",
+      "prompt": "The children ______ (watch) TV every evening.",
+      "payload": {
+        "before": "The children ",
+        "after": " (watch) TV every evening."
+      },
+      "answer": {
+        "accepted": [
+          "watch"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة — at · on · in والوقت",
+      "prompt": "The shop closes ______ midnight.",
+      "payload": {
+        "before": "The shop closes ",
+        "after": " midnight."
+      },
+      "answer": {
+        "accepted": [
+          "at"
+        ]
+      },
+      "explanation": "at مع الساعة ومع midnight و noon.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة — at · on · in والوقت",
+      "prompt": "I don't work ______ Fridays.",
+      "payload": {
+        "before": "I don't work ",
+        "after": " Fridays."
+      },
+      "answer": {
+        "accepted": [
+          "on"
+        ]
+      },
+      "explanation": "on مع الأيام.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة — at · on · in والوقت",
+      "prompt": "We pray ______ the evening.",
+      "payload": {
+        "before": "We pray ",
+        "after": " the evening."
+      },
+      "answer": {
+        "accepted": [
+          "in"
+        ]
+      },
+      "explanation": "in the morning · in the afternoon · in the evening — لكن at night.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "focus_ar": "مراجعة — at · on · in والوقت",
+      "prompt": "8:15 بالإنجليزية:",
+      "payload": {
+        "options": [
+          "a quarter past eight",
+          "a quarter to eight",
+          "eight past fifteen"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "past = بعد · to = قبل.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 2,
+      "exercise_no": 2,
+      "type": "multiple_choice",
+      "focus_ar": "مراجعة — at · on · in والوقت",
+      "prompt": "6:40 بالإنجليزية:",
+      "payload": {
+        "options": [
+          "twenty past six",
+          "twenty to seven",
+          "forty to six"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "بعد النصف نعدّ إلى الساعة التالية: twenty to seven.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "correct_error",
+      "focus_ar": "مراجعة مختلطة 2 — صحّح الخطأ",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "I am engineer."
+      },
+      "answer": {
+        "accepted": [
+          "I am an engineer."
+        ]
+      },
+      "explanation": "المهنة تحتاج a أو an، وengineer تبدأ بصوت علّة فتأخذ an.",
+      "points": 1,
+      "error_no": 1
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "correct_error",
+      "focus_ar": "مراجعة مختلطة 2 — صحّح الخطأ",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "He have 25 years."
+      },
+      "answer": {
+        "accepted": [
+          "He is 25 years old.",
+          "He is twenty-five years old.",
+          "He is 25.",
+          "He is twenty-five."
+        ]
+      },
+      "explanation": "العمر بـbe لا have.",
+      "points": 1,
+      "error_no": 2
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "correct_error",
+      "focus_ar": "مراجعة مختلطة 2 — صحّح الخطأ",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "She go to work at seven."
+      },
+      "answer": {
+        "accepted": [
+          "She goes to work at seven."
+        ]
+      },
+      "explanation": "she ← goes.",
+      "points": 1,
+      "error_no": 3
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "correct_error",
+      "focus_ar": "مراجعة مختلطة 2 — صحّح الخطأ",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "He doesn't eats meat."
+      },
+      "answer": {
+        "accepted": [
+          "He doesn't eat meat."
+        ]
+      },
+      "explanation": "بعد doesn't فعل مجرّد.",
+      "points": 1,
+      "error_no": 4
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "correct_error",
+      "focus_ar": "مراجعة مختلطة 2 — صحّح الخطأ",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "Where she lives?"
+      },
+      "answer": {
+        "accepted": [
+          "Where does she live?"
+        ]
+      },
+      "explanation": "السؤال يحتاج does، والفعل بعدها مجرّد.",
+      "points": 1,
+      "error_no": 5
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "correct_error",
+      "focus_ar": "مراجعة مختلطة 2 — صحّح الخطأ",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "I never eat always breakfast."
+      },
+      "answer": {
+        "accepted": [
+          "I never eat breakfast.",
+          "I always eat breakfast."
+        ]
+      },
+      "explanation": "ظرف تكرار واحد، وقبل الفعل.",
+      "points": 1,
+      "error_no": 6
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "correct_error",
+      "focus_ar": "مراجعة مختلطة 2 — صحّح الخطأ",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "Have three windows in my room."
+      },
+      "answer": {
+        "accepted": [
+          "There are three windows in my room.",
+          "My room has three windows."
+        ]
+      },
+      "explanation": "الوجود بـthere is / there are.",
+      "points": 1,
+      "error_no": 7
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "correct_error",
+      "focus_ar": "مراجعة مختلطة 2 — صحّح الخطأ",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "They can to speak English."
+      },
+      "answer": {
+        "accepted": [
+          "They can speak English."
+        ]
+      },
+      "explanation": "لا to بعد can.",
+      "points": 1,
+      "error_no": 8
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "correct_error",
+      "focus_ar": "مراجعة مختلطة 2 — صحّح الخطأ",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "I am good at cook."
+      },
+      "answer": {
+        "accepted": [
+          "I am good at cooking."
+        ]
+      },
+      "explanation": "بعد at صيغة -ing.",
+      "points": 1,
+      "error_no": 9
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "correct_error",
+      "focus_ar": "مراجعة مختلطة 2 — صحّح الخطأ",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "She plays tennis very good."
+      },
+      "answer": {
+        "accepted": [
+          "She plays tennis very well."
+        ]
+      },
+      "explanation": "تصف الفعل plays فتأتي well.",
+      "points": 1,
+      "error_no": 10
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "correct_error",
+      "focus_ar": "مراجعة مختلطة 2 — صحّح الخطأ",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "There is four bedrooms."
+      },
+      "answer": {
+        "accepted": [
+          "There are four bedrooms."
+        ]
+      },
+      "explanation": "four bedrooms جمع ← There are.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "correct_error",
+      "focus_ar": "مراجعة مختلطة 2 — صحّح الخطأ",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "How much eggs do you want?"
+      },
+      "answer": {
+        "accepted": [
+          "How many eggs do you want?"
+        ]
+      },
+      "explanation": "eggs معدودة ← How many.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "correct_error",
+      "focus_ar": "مراجعة مختلطة 2 — صحّح الخطأ",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "The bank is opposite of the hotel."
+      },
+      "answer": {
+        "accepted": [
+          "The bank is opposite the hotel."
+        ]
+      },
+      "explanation": "opposite بلا of.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "correct_error",
+      "focus_ar": "مراجعة مختلطة 2 — صحّح الخطأ",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "Do you like tea? Yes, I like."
+      },
+      "answer": {
+        "accepted": [
+          "Do you like tea? Yes, I do.",
+          "Yes, I do."
+        ]
+      },
+      "explanation": "الجواب القصير يعيد do: Yes, I do.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "correct_error",
+      "focus_ar": "مراجعة مختلطة 2 — صحّح الخطأ",
+      "prompt": "صحّح الجملة",
+      "payload": {
+        "sentence": "I want a bread, please."
+      },
+      "answer": {
+        "accepted": [
+          "I want some bread, please.",
+          "I'd like some bread, please.",
+          "I want bread, please.",
+          "I'd like bread, please."
+        ]
+      },
+      "explanation": "bread لا تُعدّ ← some bread.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 3 — اكتب السؤال",
+      "prompt": "______ are you from? — I'm from Egypt.",
+      "payload": {
+        "before": "",
+        "after": " are you from? — I'm from Egypt."
+      },
+      "answer": {
+        "accepted": [
+          "Where"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 3 — اكتب السؤال",
+      "prompt": "How ______ are you? — I'm thirty-two.",
+      "payload": {
+        "before": "How ",
+        "after": " are you? — I'm thirty-two."
+      },
+      "answer": {
+        "accepted": [
+          "old"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 3 — اكتب السؤال",
+      "prompt": "What ______ you do? — I'm an engineer.",
+      "payload": {
+        "before": "What ",
+        "after": " you do? — I'm an engineer."
+      },
+      "answer": {
+        "accepted": [
+          "do"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 3 — اكتب السؤال",
+      "prompt": "What time ______ you get up? — At half past six.",
+      "payload": {
+        "before": "What time ",
+        "after": " you get up? — At half past six."
+      },
+      "answer": {
+        "accepted": [
+          "do"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 3 — اكتب السؤال",
+      "prompt": "______ do you go to work? — By bus.",
+      "payload": {
+        "before": "",
+        "after": " do you go to work? — By bus."
+      },
+      "answer": {
+        "accepted": [
+          "How"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 3 — اكتب السؤال",
+      "prompt": "Is ______ a park near here? — Yes, there is. It's at the end of the street.",
+      "payload": {
+        "before": "Is ",
+        "after": " a park near here? — Yes, there is. It's at the end of the street."
+      },
+      "answer": {
+        "accepted": [
+          "there"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 3 — اكتب السؤال",
+      "prompt": "______ you swim? — No, I can't. I'm afraid of water.",
+      "payload": {
+        "before": "",
+        "after": " you swim? — No, I can't. I'm afraid of water."
+      },
+      "answer": {
+        "accepted": [
+          "Can"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 3 — اكتب السؤال",
+      "prompt": "How ______ kilos of apples do you want? — Two kilos, please.",
+      "payload": {
+        "before": "How ",
+        "after": " kilos of apples do you want? — Two kilos, please."
+      },
+      "answer": {
+        "accepted": [
+          "many"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 3 — اكتب السؤال",
+      "prompt": "How ______ is it? — Five pounds.",
+      "payload": {
+        "before": "How ",
+        "after": " is it? — Five pounds."
+      },
+      "answer": {
+        "accepted": [
+          "much"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 3,
+      "exercise_no": 3,
+      "type": "fill_blank",
+      "focus_ar": "مراجعة مختلطة 3 — اكتب السؤال",
+      "prompt": "What do you do in your free ______? — I read and I play with my children.",
+      "payload": {
+        "before": "What do you do in your free ",
+        "after": "? — I read and I play with my children."
+      },
+      "answer": {
+        "accepted": [
+          "time"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "focus_ar": "اختبار الاستماع 1 — ليلى",
+      "prompt": "Layla is ______ years old.",
+      "payload": {
+        "before": "Layla is ",
+        "after": " years old."
+      },
+      "answer": {
+        "accepted": [
+          "28",
+          "twenty-eight"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار الاستماع 1 — ليلى",
+      "prompt": "Where is Layla from?",
+      "payload": {
+        "options": [
+          "Marseille",
+          "Cairo",
+          "Tunis"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار الاستماع 1 — ليلى",
+      "prompt": "What is her job?",
+      "payload": {
+        "options": [
+          "She is a nurse.",
+          "She is a teacher.",
+          "She is a doctor."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "fill_blank",
+      "focus_ar": "اختبار الاستماع 1 — ليلى",
+      "prompt": "She lives on the ______ floor.",
+      "payload": {
+        "before": "She lives on the ",
+        "after": " floor."
+      },
+      "answer": {
+        "accepted": [
+          "second",
+          "2nd"
+        ]
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار الاستماع 1 — ليلى",
+      "prompt": "What does she grow on her balcony?",
+      "payload": {
+        "options": [
+          "Potatoes.",
+          "Tomatoes.",
+          "Flowers."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار الاستماع 1 — ليلى",
+      "prompt": "Why is her flat cheap?",
+      "payload": {
+        "options": [
+          "It is very old.",
+          "It doesn't have a kitchen.",
+          "It is far from the centre."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار الاستماع 1 — ليلى",
+      "prompt": "How does she go to work?",
+      "payload": {
+        "options": [
+          "By train.",
+          "By bus.",
+          "By car."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار الاستماع 1 — ليلى",
+      "prompt": "How often does she go swimming?",
+      "payload": {
+        "options": [
+          "Every day.",
+          "Twice a week.",
+          "Once a week."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار الاستماع 1 — ليلى",
+      "prompt": "Why doesn't she learn to drive?",
+      "payload": {
+        "options": [
+          "She doesn't like cars.",
+          "She doesn't have time.",
+          "The lessons are very expensive."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار الاستماع 1 — ليلى",
+      "prompt": "What does she do on Sundays?",
+      "payload": {
+        "options": [
+          "She calls her parents and walks to the market.",
+          "She works at the hospital.",
+          "She goes swimming with her colleagues."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "true_false",
+      "focus_ar": "اختبار الاستماع 2 — صح أم خطأ",
+      "prompt": "There is a garden at her flat.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "There isn't a garden, but there is a small balcony.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "true_false",
+      "focus_ar": "اختبار الاستماع 2 — صح أم خطأ",
+      "prompt": "She starts work at five o'clock.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "تستيقظ في الخامسة وتبدأ في السابعة.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "true_false",
+      "focus_ar": "اختبار الاستماع 2 — صح أم خطأ",
+      "prompt": "She usually has lunch with her colleagues.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "true_false",
+      "focus_ar": "اختبار الاستماع 2 — صح أم خطأ",
+      "prompt": "She can drive a car.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "I can't drive.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "true_false",
+      "focus_ar": "اختبار الاستماع 2 — صح أم خطأ",
+      "prompt": "The bread at the market costs one euro.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار القراءة 1 — لافتات ورسائل قصيرة",
+      "prompt": "اللافتة: PHARMACY — OPEN EVERY DAY, 8 A.M.–10 P.M. — ما الصحيح؟",
+      "payload": {
+        "options": [
+          "The pharmacy is closed on Friday.",
+          "You can buy medicine here on Sunday.",
+          "The pharmacy closes at 8 p.m."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار القراءة 1 — لافتات ورسائل قصيرة",
+      "prompt": "اللافتة: NO PARKING IN FRONT OF THIS DOOR. — ما معناها؟",
+      "payload": {
+        "options": [
+          "You can park your car here.",
+          "This door is always closed.",
+          "Don't leave your car here."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار القراءة 1 — لافتات ورسائل قصيرة",
+      "prompt": "الرسالة: Sami, Mum is at the market. There's chicken in the fridge for lunch. Dad — لماذا كتب الأب؟",
+      "payload": {
+        "options": [
+          "To tell Sami about his lunch.",
+          "To ask Sami to go to the market.",
+          "To say that Mum is ill."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار القراءة 1 — لافتات ورسائل قصيرة",
+      "prompt": "اللافتة: LIBRARY — PLEASE BE QUIET. NO PHONES. — ما الصحيح؟",
+      "payload": {
+        "options": [
+          "The library is closed today.",
+          "You can't talk on the phone here.",
+          "You can buy a phone here."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار القراءة 2 — دكّان الشاي",
+      "prompt": "What is the text mainly about?",
+      "payload": {
+        "options": [
+          "The big cafés of Istanbul.",
+          "How to make Turkish tea.",
+          "A small tea shop and its owner."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": "الفكرة العامّة.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "true_false",
+      "focus_ar": "اختبار القراءة 2 — دكّان الشاي",
+      "prompt": "The shop has a door.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "There isn't a door, just a window.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "true_false",
+      "focus_ar": "اختبار القراءة 2 — دكّان الشاي",
+      "prompt": "Mehmet opens the shop at six every morning.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "true_false",
+      "focus_ar": "اختبار القراءة 2 — دكّان الشاي",
+      "prompt": "He takes a long holiday every year.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "He doesn't take holidays.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "true_false",
+      "focus_ar": "اختبار القراءة 2 — دكّان الشاي",
+      "prompt": "He knows his customers well.",
+      "payload": {},
+      "answer": {
+        "correct": true
+      },
+      "explanation": "He knows all their names.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "true_false",
+      "focus_ar": "اختبار القراءة 2 — دكّان الشاي",
+      "prompt": "There are no other cafés in the street.",
+      "payload": {},
+      "answer": {
+        "correct": false
+      },
+      "explanation": "There are four big modern cafés.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار القراءة 2 — دكّان الشاي",
+      "prompt": "How big is the shop?",
+      "payload": {
+        "options": [
+          "It is very small.",
+          "It is very big.",
+          "It has four rooms."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "a very small shop",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار القراءة 2 — دكّان الشاي",
+      "prompt": "What does the shop sell?",
+      "payload": {
+        "options": [
+          "Newspapers.",
+          "Only tea.",
+          "Tea and food."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار القراءة 2 — دكّان الشاي",
+      "prompt": "Why isn't Mehmet interested in money?",
+      "payload": {
+        "options": [
+          "He is very rich.",
+          "His tea is very expensive.",
+          "He is interested in people."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار القراءة 2 — دكّان الشاي",
+      "prompt": "Why does the young customer call the shop \"a newspaper\"?",
+      "payload": {
+        "options": [
+          "Mehmet knows the news of the street first.",
+          "The shop sells newspapers.",
+          "The customers read there every morning."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": "استنتاج: Mehmet knows everything in this street first.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "multiple_choice",
+      "focus_ar": "اختبار القراءة 2 — دكّان الشاي",
+      "prompt": "In the text, \"customers\" are…",
+      "payload": {
+        "options": [
+          "people who drive taxis",
+          "people who buy something in a shop",
+          "people who work in a shop"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": "المعنى من السياق.",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 5,
+      "exercise_no": 5,
+      "type": "free_text",
+      "focus_ar": "اكتب رسالة قصيرة (لا تُحسب في الدرجة)",
+      "prompt": "Your new friend Tom wants to visit you on Saturday. Write a message to Tom (25 words or more). Say: where your home is, how he can get there, and what time he can come.",
+      "payload": {},
+      "answer": {},
+      "explanation": "نموذج: Hi Tom, my flat is in King Street, opposite the bank. Take the number 5 bus and get off at the station. It's five minutes' walk from there. Come at four o'clock. See you! Omar",
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "multiple_choice",
+      "focus_ar": "ماذا تقول حين…؟",
+      "prompt": "يقول لك شخص جديد: Hi, I'm Sara. — ماذا تقول؟",
+      "payload": {
+        "options": [
+          "See you tomorrow.",
+          "Yes, I can.",
+          "Nice to meet you. I'm Ali."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "multiple_choice",
+      "focus_ar": "ماذا تقول حين…؟",
+      "prompt": "لم تفهم ما قاله المتحدّث.",
+      "payload": {
+        "options": [
+          "Sorry, can you say that again?",
+          "I'm fine, thanks.",
+          "Nice to meet you."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "multiple_choice",
+      "focus_ar": "ماذا تقول حين…؟",
+      "prompt": "تريد أن تعرف ثمن قميص.",
+      "payload": {
+        "options": [
+          "What time is this shirt?",
+          "How much is this shirt?",
+          "How many is this shirt?"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "multiple_choice",
+      "focus_ar": "ماذا تقول حين…؟",
+      "prompt": "تريد الحساب في المطعم.",
+      "payload": {
+        "options": [
+          "A table for two, please.",
+          "Enjoy your meal.",
+          "Can we have the bill, please?"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "multiple_choice",
+      "focus_ar": "ماذا تقول حين…؟",
+      "prompt": "تسأل عن الطريق إلى المحطة.",
+      "payload": {
+        "options": [
+          "Excuse me, how do I get to the station?",
+          "Excuse me, is the station big?",
+          "Excuse me, do you like the station?"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "multiple_choice",
+      "focus_ar": "ماذا تقول حين…؟",
+      "prompt": "يسألك النادل: Anything to drink?",
+      "payload": {
+        "options": [
+          "It's on your left.",
+          "Just water, please.",
+          "Yes, I can."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "multiple_choice",
+      "focus_ar": "ماذا تقول حين…؟",
+      "prompt": "صاحبك يتكلّم بسرعة.",
+      "payload": {
+        "options": [
+          "Quickly, please.",
+          "Goodbye.",
+          "Slowly, please."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "multiple_choice",
+      "focus_ar": "ماذا تقول حين…؟",
+      "prompt": "لا تعرف كيف تُكتب كلمة.",
+      "payload": {
+        "options": [
+          "How do you spell that?",
+          "How do you do?",
+          "How old are you?"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "multiple_choice",
+      "focus_ar": "ماذا تقول حين…؟",
+      "prompt": "يسألك أحدهم: How are you?",
+      "payload": {
+        "options": [
+          "I'm from Egypt.",
+          "I'm fine, thanks. And you?",
+          "I'm thirty."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 6,
+      "exercise_no": 6,
+      "type": "multiple_choice",
+      "focus_ar": "ماذا تقول حين…؟",
+      "prompt": "يسألك صديق: Would you like to join? — وتريد أن توافق.",
+      "payload": {
+        "options": [
+          "I'm lost.",
+          "Sorry, I don't know.",
+          "Yes, that sounds fun."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "type": "multiple_choice",
+      "focus_ar": "ماذا تقول حين…؟ — بلا خطأ",
+      "prompt": "يسألك موظّف الفندق عن اسمك.",
+      "payload": {
+        "options": [
+          "My name is Omar. O-M-A-R.",
+          "I am from Omar.",
+          "I have Omar."
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "type": "multiple_choice",
+      "focus_ar": "ماذا تقول حين…؟ — بلا خطأ",
+      "prompt": "تسأل زميلاً عن عمله.",
+      "payload": {
+        "options": [
+          "What are you do?",
+          "What do you do?",
+          "What you do?"
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": 5
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "type": "multiple_choice",
+      "focus_ar": "ماذا تقول حين…؟ — بلا خطأ",
+      "prompt": "تسأل: هل قرب الفندق صيدلية؟",
+      "payload": {
+        "options": [
+          "Have a pharmacy near here?",
+          "Are there a pharmacy near here?",
+          "Is there a pharmacy near here?"
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": 7
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "type": "multiple_choice",
+      "focus_ar": "ماذا تقول حين…؟ — بلا خطأ",
+      "prompt": "تسأل صديقاً عن عادته في السباحة.",
+      "payload": {
+        "options": [
+          "How often do you go swimming?",
+          "How often you go swimming?",
+          "How often are you go swimming?"
+        ]
+      },
+      "answer": {
+        "correct": 0
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": 5
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "type": "multiple_choice",
+      "focus_ar": "ماذا تقول حين…؟ — بلا خطأ",
+      "prompt": "تقول إنك لا تجيد الرسم.",
+      "payload": {
+        "options": [
+          "I'm not very well at drawing.",
+          "I'm not very good at drawing.",
+          "I'm not very good at draw."
+        ]
+      },
+      "answer": {
+        "correct": 1
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": 9
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "type": "multiple_choice",
+      "focus_ar": "ماذا تقول حين…؟ — بلا خطأ",
+      "prompt": "يسألك أحدهم: Can you drive? — والجواب نعم.",
+      "payload": {
+        "options": [
+          "Yes, I do.",
+          "Yes, I am.",
+          "Yes, I can."
+        ]
+      },
+      "answer": {
+        "correct": 2
+      },
+      "explanation": null,
+      "points": 1,
+      "error_no": null
+    },
+    {
+      "day_number": 7,
+      "exercise_no": 7,
+      "type": "free_text",
+      "focus_ar": "خطّتك للوحدة الثانية",
+      "prompt": "اكتب خطّتك للوحدة الثانية في ثلاث جمل بالإنجليزية: My two weakest sections are … · Every day I … for ten minutes. · My next conversation is on … with …",
+      "payload": {},
+      "answer": {},
+      "explanation": "نموذج: My two weakest sections are listening and pronunciation. Every day I listen to a dialogue for ten minutes. My next conversation is on Saturday with my cousin.",
+      "points": 1,
+      "error_no": null
     }
   ]
 }

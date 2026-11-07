@@ -14,6 +14,7 @@
         "check:voice": "node scripts/voice-rank-check.cjs"
     },
     "devDependencies": {
+        "@capacitor/cli": "^7.6.10",
         "@headlessui/react": "^2.0.0",
         "@inertiajs/react": "^2.0.0",
         "@tailwindcss/forms": "^0.5.3",
@@ -40,6 +41,10 @@
         "@laravel/multiplex": "^0.4.1"
     },
     "dependencies": {
+        "@capacitor-community/text-to-speech": "^6.1.0",
+        "@capacitor/android": "^7.6.10",
+        "@capacitor/core": "^7.6.10",
+        "@capacitor/local-notifications": "^7.0.7",
         "lucide-react": "^1.50.0"
     }
 }

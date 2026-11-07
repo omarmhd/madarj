@@ -42,7 +42,8 @@ interface List {
   task_ar: string;
   note_ar: string;
   minutes: number;
-  ask: 'say' | 'past' | 'participle';
+  /** `meaning`: the English is shown and its Arabic meaning is the answer */
+  ask: 'say' | 'past' | 'participle' | 'meaning';
   words: Word[];
 }
 
@@ -279,7 +280,7 @@ export default function WordTest({ payload }: { payload: WordTestPayload }) {
         {current.answer && (
           <div className="mt-4">
             {shown ? (
-              <p className="rounded-xl bg-violet-50 py-3 text-xl font-bold text-violet-900" dir="ltr">
+              <p className="rounded-xl bg-violet-50 py-3 text-xl font-bold text-violet-900" dir="auto">
                 {current.answer}
               </p>
             ) : (

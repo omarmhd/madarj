@@ -1,6 +1,7 @@
 import { Link, usePage } from '@inertiajs/react';
 import BrandMark from '@/Components/BrandMark';
 import { useT } from '@/lib/i18n';
+import { isNativeApp } from '@/lib/native';
 
 /**
  * The footer — on every page that carries the nav, under its content.
@@ -38,7 +39,8 @@ export default function AppFooter() {
       links: [
         { href: '/profile', label: tr('حسابي') },
         { href: '/setup', label: tr('الصوت والوضع والترجمة') },
-        { href: '/upgrade', label: tr('الاشتراك') },
+        // Not inside the app: the stores forbid sending users to pay elsewhere
+        ...(isNativeApp() ? [] : [{ href: '/upgrade', label: tr('الاشتراك') }]),
       ],
     },
   ];

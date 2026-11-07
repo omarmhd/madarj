@@ -5,6 +5,7 @@ import MemoryLauncher from '@/Components/Memory/MemoryLauncher';
 import { Link, usePage } from '@inertiajs/react';
 import { useT } from '@/lib/i18n';
 import { BookOpen, ChartNoAxesColumn, ClipboardCheck, Crosshair, Lock, Flame, LogOut, Play, Settings2, UserRound } from 'lucide-react';
+import { isNativeApp } from '@/lib/native';
 
 /**
  * شريط التنقّل المشترك.
@@ -107,7 +108,7 @@ export default function AppNav() {
         a learner who meets the wall without warning reads it as a
         trick, one who was told reads it as a deadline.
       */}
-      {access?.status === 'trial' && access.days_left !== null && access.days_left <= 3 && (
+      {!isNativeApp() && access?.status === 'trial' && access.days_left !== null && access.days_left <= 3 && (
         <Link
           href="/upgrade"
           className="block bg-amber-50 px-4 py-2 text-center text-sm font-semibold text-amber-900 hover:bg-amber-100"

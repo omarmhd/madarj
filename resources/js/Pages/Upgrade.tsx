@@ -7,6 +7,7 @@ import axios from 'axios';
 import AppNav from '@/Components/AppNav';
 import { useLocale, dirOf } from '@/lib/bilingual';
 import { useT } from '@/lib/i18n';
+import { isNativeApp } from '@/lib/native';
 
 /**
  * The wall at the end of the free trial.
@@ -53,7 +54,7 @@ const METHODS: { value: string; label: string; icon: ReactNode }[] = [
   { value: 'call', label: 'اتصال هاتفي', icon: <Phone size={18} /> },
 ];
 
-export default function Upgrade({
+function UpgradeOnWeb({
   plans = [],
   pending = null,
   trialWeeks = 1,
@@ -312,4 +313,36 @@ export default function Upgrade({
       <AppFooter />
     </div>
   );
+}
+
+/**
+ * The same wall inside the Android/iOS app — without prices or contacts.
+ *
+ * The stores forbid an app to send its users to pay elsewhere: no plan,
+ * no price, no "call us". Subscriptions are activated outside the app,
+ * and an activated account opens everything here at once.
+ */
+function UpgradeInApp() {
+  const tr = useT();
+
+  return (
+    <>
+      <Head title={tr('حسابك')} />
+      <AppNav />
+      <main className="mx-auto max-w-md px-4 py-12 text-center">
+        <CircleCheck aria-hidden size={40} className="mx-auto text-violet-600" />
+        <h1 className="mt-4 text-xl font-bold text-slate-900">{tr('انتهت فترتك التجريبية')}</h1>
+        <p className="mt-3 text-sm leading-relaxed text-slate-600">
+          {tr('حسابك غير مفعّل حالياً. ما أنجزته محفوظ كاملاً، ويعود كما تركته حين يُفعَّل الحساب.')}
+        </p>
+        <Link href="/profile" className="mt-6 inline-block rounded-xl bg-slate-900 px-5 py-2.5 text-sm font-medium text-white">
+          {tr('حسابي')}
+        </Link>
+      </main>
+    </>
+  );
+}
+
+export default function Upgrade(props: Parameters<typeof UpgradeOnWeb>[0]) {
+  return isNativeApp() ? <UpgradeInApp /> : <UpgradeOnWeb {...props} />;
 }
