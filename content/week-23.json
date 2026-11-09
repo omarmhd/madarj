@@ -744,7 +744,7 @@
       "group": "when_you_do_not_understand",
       "word": "Could you speak a bit more slowly?",
       "ipa": null,
-      "arabic": "هل تتحدث ببطء أكثر قليلاً؟",
+      "arabic": "هل تتكلّم أبطأ قليلاً؟",
       "example": "Could you speak a bit more slowly, please? My English isn't very good.",
       "group_label_ar": "حين لا تفهم",
       "group_label_en": "When You Do Not Understand",
@@ -757,7 +757,7 @@
       "group": "when_you_do_not_understand",
       "word": "Sorry, I didn't catch the last part.",
       "ipa": null,
-      "arabic": "عذراً، لم ألتقط الجزء الأخير",
+      "arabic": "عذراً، فاتني الجزء الأخير",
       "example": "Sorry, I didn't catch the last part. Which platform did you say?",
       "group_label_ar": "حين لا تفهم",
       "group_label_en": "When You Do Not Understand",
@@ -874,7 +874,7 @@
       "group": "when_you_need_time",
       "word": "Well, it depends.",
       "ipa": null,
-      "arabic": "حسناً، يعتمد",
+      "arabic": "حسناً، هذا يعتمد",
       "example": "Is Cairo expensive? Well, it depends. Hotels are expensive, but food is cheap.",
       "group_label_ar": "حين تحتاج وقتاً",
       "group_label_en": "When You Need Time",
@@ -1511,7 +1511,7 @@
       "group": "polite_requests",
       "word": "Is it all right if…?",
       "ipa": null,
-      "arabic": "هل لا بأس إن…؟",
+      "arabic": "هل من بأس إن…؟",
       "example": "Is it all right if I pay by card?",
       "group_label_ar": "الطلب بأدب",
       "group_label_en": "Polite Requests and Softeners",
@@ -2479,7 +2479,7 @@
         {
           "speaker": "SAMI",
           "en": "Sorry, I didn't catch the time. Could you speak a bit more slowly?",
-          "ar": "عذراً، لم ألتقط الوقت. هل تتكلّمين أبطأ قليلاً؟"
+          "ar": "عذراً، لم أسمع الوقت جيداً. هل تتكلّمين أبطأ قليلاً؟"
         },
         {
           "speaker": "AGENT",
@@ -2761,7 +2761,7 @@
         {
           "speaker": "KHALED",
           "en": "Not really. I've been coughing all night, and it hurts when I eat.",
-          "ar": "ليس كثيراً. أسعل طوال الليل، ويؤلمني الأكل."
+          "ar": "لا، ليس جيداً. أسعل طوال الليل، ويؤلمني الأكل."
         },
         {
           "speaker": "DOCTOR",
@@ -2939,7 +2939,7 @@
           },
           {
             "en": "The same is true of \"please\" and \"thank you\", and of all the extra words that people put around a request. A British colleague will not say, \"Send me the report.\" She will say, \"I was wondering if you could possibly send me the report.\" The real request does not start until the eighth word.",
-            "ar": "والأمر نفسه في «please» و«thank you»، وفي كل الكلمات الزائدة التي يضعها الناس حول الطلب. فزميلتك البريطانية لن تقول «أرسلي لي التقرير»، بل: «I was wondering if you could possibly send me the report». والطلب الحقيقي لا يبدأ إلا عند الكلمة الثامنة."
+            "ar": "والأمر نفسه في «please» و«thank you»، وفي كل الكلمات الزائدة التي يضعها الناس حول الطلب. فزميلتك البريطانية لن تقول «أرسل لي التقرير»، بل: «I was wondering if you could possibly send me the report». والطلب الحقيقي لا يبدأ إلا عند الكلمة الثامنة."
           },
           {
             "en": "This matters, because learners can sound abrupt, or even rude, without knowing it. It isn't because of what they say. It's because of what they leave out. A nurse once told me that a patient had shouted at her. I asked what he had said. \"Give me water,\" she replied. He hadn't shouted at all. He just hadn't said please, and nobody had told him that it mattered.",
@@ -3278,7 +3278,7 @@
               },
               {
                 "en": "Could I speak to a manager?",
-                "ar": "هل أتحدث مع مدير؟"
+                "ar": "هل يمكنني أن أتحدّث إلى المدير؟"
               }
             ]
           },
@@ -3804,7 +3804,7 @@
                     "I've missed my connection.",
                     "فاتتني رحلة الربط",
                     "Who should I speak to?",
-                    "مع من يجب أن أتحدث؟"
+                    "إلى من ينبغي أن أتحدّث؟"
                   ],
                   [
                     "My luggage hasn't arrived.",
@@ -3832,7 +3832,7 @@
                   ],
                   [
                     "Could I speak to a manager?",
-                    "هل أتحدث مع مدير؟",
+                    "هل يمكنني أن أتحدّث إلى المدير؟",
                     "Thank you for your help.",
                     "شكراً لمساعدتك"
                   ]
@@ -4386,7 +4386,7 @@
                     "How do you know [host]?",
                     "كيف تعرف [المضيف]؟",
                     "I should say hello to a few people.",
-                    "يجب أن أسلّم على بعض الناس"
+                    "ينبغي أن أسلّم على بعض الناس"
                   ],
                   [
                     "Did you come far?",
@@ -4809,7 +4809,7 @@
             "rule_ar": "enjoy تأخذ -ing"
           },
           {
-            "ar": "أريد أذهب",
+            "ar": "أريد أن أذهب",
             "literal": "I want go",
             "right": "I want to go.",
             "rule_ar": "want تحتاج to"
@@ -5281,7 +5281,7 @@
           {
             "title_ar": "سلّم الأدب: من Can you إلى I was wondering if",
             "title_en": "The politeness scale",
-            "explain_ar": "الطلب الواحد له درجات، وتختار الدرجة بحسب الشخص والموقف: مع صديق Can you…? يكفي، ومع موظّف أو غريب Could you…?، وحين تطلب شيئاً كبيراً أو تزعج أحداً فاصعد درجة: Would you mind + -ing؟ ثم I was wondering if you could…. والعربية تؤدّب بالنبرة والدعاء (لو سمحت، الله يخلّيك)، والإنجليزية تؤدّب بطول التركيب — فما يبدو لك حشواً يُسمَع عندهم أدباً عادياً.",
+            "explain_ar": "الطلب الواحد له درجات، وتختار الدرجة بحسب الشخص والموقف: مع صديق Can you…? يكفي، ومع موظّف أو غريب Could you…?، وحين تطلب شيئاً كبيراً أو تزعج أحداً فاصعد درجة: Would you mind + -ing؟ ثم I was wondering if you could…. والعربية تؤدّب بالنبرة والدعاء (لو سمحت، من فضلك، تفضّل)، والإنجليزية تؤدّب بطول التركيب — فما يبدو لك حشواً يُسمَع عندهم أدباً عادياً.",
             "table": {
               "columns_ar": [
                 "الدرجة",
@@ -5483,7 +5483,7 @@
       "exercise_no": 1,
       "type": "multiple_choice",
       "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
-      "prompt": "هل تتحدث ببطء أكثر قليلاً؟",
+      "prompt": "هل تتكلّم أبطأ قليلاً؟",
       "payload": {
         "options": [
           "So, just to be clear — … ?",
@@ -5623,7 +5623,7 @@
       "exercise_no": 2,
       "type": "multiple_choice",
       "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
-      "prompt": "حسناً، يعتمد",
+      "prompt": "حسناً، هذا يعتمد",
       "payload": {
         "options": [
           "Just a moment, please.",
@@ -5783,7 +5783,7 @@
       "exercise_no": 4,
       "type": "multiple_choice",
       "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
-      "prompt": "عذراً، لم ألتقط الجزء الأخير",
+      "prompt": "عذراً، فاتني الجزء الأخير",
       "payload": {
         "options": [
           "Could you speak a bit more slowly?",
@@ -5963,7 +5963,7 @@
       "exercise_no": 5,
       "type": "multiple_choice",
       "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
-      "prompt": "حسناً، يعتمد",
+      "prompt": "حسناً، هذا يعتمد",
       "payload": {
         "options": [
           "That's a good question.",
@@ -6123,7 +6123,7 @@
       "exercise_no": 7,
       "type": "multiple_choice",
       "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
-      "prompt": "عذراً، لم ألتقط الجزء الأخير",
+      "prompt": "عذراً، فاتني الجزء الأخير",
       "payload": {
         "options": [
           "Do you mean … ?",
@@ -6163,7 +6163,7 @@
       "exercise_no": 7,
       "type": "multiple_choice",
       "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
-      "prompt": "هل تتحدث ببطء أكثر قليلاً؟",
+      "prompt": "هل تتكلّم أبطأ قليلاً؟",
       "payload": {
         "options": [
           "Sorry, I didn't catch the last part.",
@@ -6451,7 +6451,10 @@
       },
       "answer": {
         "accepted": [
-          "He suggested meeting after work."
+          "He suggested meeting after work.",
+          "He suggested that we meet after work.",
+          "He suggested we meet after work.",
+          "He suggested that we should meet after work."
         ]
       },
       "explanation": "suggest تأخذ -ing"
@@ -6462,15 +6465,17 @@
       "focus_ar": "منذ متى؟ — have been + -ing",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "I ______ (wait) for forty minutes.",
+      "prompt": "I ______ (wait) for forty minutes, and the bus still isn't here.",
       "payload": {
         "before": "I ",
-        "after": " (wait) for forty minutes."
+        "after": " (wait) for forty minutes, and the bus still isn't here."
       },
       "answer": {
         "accepted": [
           "have been waiting",
-          "'ve been waiting"
+          "'ve been waiting",
+          "have waited",
+          "'ve waited"
         ]
       },
       "explanation": "have been + -ing لما بدأ وما زال",
@@ -6490,10 +6495,12 @@
       "answer": {
         "accepted": [
           "has been working",
-          "'s been working"
+          "'s been working",
+          "has worked",
+          "'s worked"
         ]
       },
-      "explanation": "has been + -ing مع he/she",
+      "explanation": "بدأ في 2020 وما زال: has been working أو has worked",
       "error_no": 16
     },
     {
@@ -6502,18 +6509,20 @@
       "focus_ar": "منذ متى؟ — have been + -ing",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "It ______ (rain) all morning, so the streets are wet.",
+      "prompt": "It ______ (rain) since eight o'clock, and it still hasn't stopped.",
       "payload": {
         "before": "It ",
-        "after": " (rain) all morning, so the streets are wet."
+        "after": " (rain) since eight o'clock, and it still hasn't stopped."
       },
       "answer": {
         "accepted": [
           "has been raining",
-          "'s been raining"
+          "'s been raining",
+          "has rained",
+          "'s rained"
         ]
       },
-      "explanation": "بدأ صباحاً وما زال أثره الآن"
+      "explanation": "بدأ في الثامنة وما زال مستمرّاً: has been raining"
     },
     {
       "day_number": 4,
@@ -6622,7 +6631,11 @@
       "answer": {
         "accepted": [
           "I have been waiting for an hour.",
-          "I've been waiting for an hour."
+          "I've been waiting for an hour.",
+          "I have waited for an hour.",
+          "I've waited for an hour.",
+          "I have been waiting for one hour.",
+          "I've been waiting for one hour."
         ]
       },
       "explanation": "have been + -ing، وfor مع المدّة",
@@ -6937,10 +6950,11 @@
       },
       "answer": {
         "accepted": [
-          "signing"
+          "signing",
+          "you sign"
         ]
       },
-      "explanation": "بعد before فعل بـ-ing"
+      "explanation": "بعد before فعل بـ-ing، أو before you sign"
     },
     {
       "day_number": 1,
@@ -7174,7 +7188,8 @@
       },
       "answer": {
         "accepted": [
-          "point"
+          "point",
+          "comment"
         ]
       },
       "explanation": "That's a fair point: نقطة منصفة"
@@ -7373,10 +7388,11 @@
       },
       "answer": {
         "accepted": [
-          "luggage"
+          "luggage",
+          "baggage"
         ]
       },
-      "explanation": "hand luggage، وluggage لا تُجمع"
+      "explanation": "hand luggage (أو hand baggage)، وluggage لا تُجمع"
     },
     {
       "day_number": 3,
@@ -7534,10 +7550,11 @@
       },
       "answer": {
         "accepted": [
-          "already"
+          "already",
+          "just"
         ]
       },
-      "explanation": "already: بالفعل، أسرع من المتوقّع"
+      "explanation": "already: بالفعل، أسرع من المتوقّع (وjust تصحّ: للتوّ)"
     },
     {
       "day_number": 4,
@@ -7552,7 +7569,9 @@
       },
       "answer": {
         "accepted": [
-          "was charged"
+          "was charged",
+          "have been charged",
+          "'ve been charged"
         ]
       },
       "explanation": "مبني للمجهول: was + p.p."
@@ -7570,7 +7589,10 @@
       },
       "answer": {
         "accepted": [
-          "have been waiting"
+          "have been waiting",
+          "'ve been waiting",
+          "have waited",
+          "'ve waited"
         ]
       },
       "explanation": "have been + -ing لما بدأ وما زال",
@@ -7591,7 +7613,9 @@
           "I have been waiting here for an hour.",
           "I've been waiting here for an hour.",
           "I have been waiting here for one hour.",
-          "I've been waiting here for one hour."
+          "I've been waiting here for one hour.",
+          "I have waited here for an hour.",
+          "I've waited here for an hour."
         ]
       },
       "explanation": "have been + -ing، وfor مع المدّة",
@@ -7610,7 +7634,9 @@
       "answer": {
         "accepted": [
           "It still hasn't arrived.",
-          "It still has not arrived."
+          "It still has not arrived.",
+          "It hasn't arrived yet.",
+          "It has not arrived yet."
         ]
       },
       "explanation": "still قبل hasn't، والمضارع التامّ"
@@ -8107,9 +8133,9 @@
       "prompt": "Why didn't the speaker ask the question in a simpler way?",
       "payload": {
         "options": [
-          "She wanted to see what he would do.",
-          "She didn't notice the problem.",
-          "She thought the question was easy."
+          "The speaker wanted to see what he would do.",
+          "The speaker didn't notice the problem.",
+          "The speaker thought the question was easy."
         ]
       },
       "answer": {
@@ -8465,10 +8491,11 @@
       },
       "answer": {
         "accepted": [
-          "faithfully"
+          "faithfully",
+          "truly"
         ]
       },
-      "explanation": "Yours faithfully مع Dear Sir or Madam"
+      "explanation": "Yours faithfully مع Dear Sir or Madam (وفي الأمريكية Yours truly)"
     },
     {
       "day_number": 7,
@@ -8565,7 +8592,7 @@
       "prompt": "Write a story of about 100 words. Your story must begin with this sentence: \"When I got to the airport, I realised that my passport was not in my bag.\"",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: When I got to the airport, I realised that my passport was not in my bag. I had left it on the kitchen table. My flight was leaving in two hours, and my flat was forty minutes away. While I was trying to find a taxi, my phone rang. It was my neighbour. She had seen the passport through my window and had taken it from my sister. \"I'm coming,\" she said. Luckily, the roads were empty. By the time she arrived, they were calling my flight. I ran to the gate. Since then, I've always checked my bag twice."
+      "explanation": "الجواب النموذجي: When I got to the airport, I realised that my passport was not in my bag. I had left it on the kitchen table. My flight was leaving in two hours, and my flat was forty minutes away. While I was trying to find a taxi, my phone rang. It was my neighbour. She had seen the passport through my window, and my sister had given it to her. \"I'm coming,\" she said. Luckily, the roads were empty. By the time she arrived, they were calling my flight. I ran to the gate. Since then, I've always checked my bag twice."
     }
   ]
 }

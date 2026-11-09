@@ -613,22 +613,16 @@
           "order": 7
         },
         {
-          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record:baseline",
-          "order": 8
-        },
-        {
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race",
-          "order": 9
+          "order": 8
         },
         {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 10
+          "order": 9
         }
       ]
     }
@@ -639,7 +633,7 @@
       "word": "engineer",
       "ipa": "/ˌendʒɪˈnɪə(r)/",
       "arabic": "مهندس",
-      "example": "designs and builds things",
+      "example": "An engineer designs and builds things.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "engineer",
@@ -652,7 +646,7 @@
       "word": "doctor",
       "ipa": "/ˈdɒktə(r)/",
       "arabic": "طبيب",
-      "example": "treats ill people",
+      "example": "A doctor treats ill people.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "doctor",
@@ -665,7 +659,7 @@
       "word": "nurse",
       "ipa": "/nɜːs/",
       "arabic": "ممرض",
-      "example": "looks after patients",
+      "example": "A nurse looks after patients.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "nurse",
@@ -678,7 +672,7 @@
       "word": "teacher",
       "ipa": "/ˈtiːtʃə(r)/",
       "arabic": "معلّم",
-      "example": "teaches students",
+      "example": "A teacher teaches students.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "teacher",
@@ -691,7 +685,7 @@
       "word": "lawyer",
       "ipa": "/ˈlɔɪə(r)/",
       "arabic": "محامٍ",
-      "example": "gives legal advice",
+      "example": "A lawyer gives legal advice.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "lawyer",
@@ -704,7 +698,7 @@
       "word": "accountant",
       "ipa": "/əˈkaʊntənt/",
       "arabic": "محاسب",
-      "example": "manages money and taxes",
+      "example": "An accountant manages money and taxes.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "accountant",
@@ -717,7 +711,7 @@
       "word": "manager",
       "ipa": "/ˈmænɪdʒə(r)/",
       "arabic": "مدير",
-      "example": "leads a team",
+      "example": "A manager leads a team.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "manager",
@@ -730,7 +724,7 @@
       "word": "designer",
       "ipa": "/dɪˈzaɪnə(r)/",
       "arabic": "مصمم",
-      "example": "creates how things look",
+      "example": "A designer creates how things look.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "designer",
@@ -743,7 +737,7 @@
       "word": "programmer",
       "ipa": "/ˈprəʊɡræmə(r)/",
       "arabic": "مبرمج",
-      "example": "writes software",
+      "example": "A programmer writes software.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "programmer",
@@ -756,7 +750,7 @@
       "word": "journalist",
       "ipa": "/ˈdʒɜːnəlɪst/",
       "arabic": "صحفي",
-      "example": "writes news",
+      "example": "A journalist writes news.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "journalist",
@@ -769,7 +763,7 @@
       "word": "driver",
       "ipa": "/ˈdraɪvə(r)/",
       "arabic": "سائق",
-      "example": "drives a vehicle",
+      "example": "A driver drives a vehicle.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "driver",
@@ -782,7 +776,7 @@
       "word": "pilot",
       "ipa": "/ˈpaɪlət/",
       "arabic": "طيّار",
-      "example": "flies a plane",
+      "example": "A pilot flies a plane.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "pilot",
@@ -793,9 +787,9 @@
     {
       "group": "jobs",
       "word": "chef / cook",
-      "ipa": "/ʃef/",
+      "ipa": "/ʃef/ · /kʊk/",
       "arabic": "طاهٍ",
-      "example": "cooks in a restaurant",
+      "example": "A chef cooks in a restaurant.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "chef",
@@ -808,7 +802,7 @@
       "word": "waiter",
       "ipa": "/ˈweɪtə(r)/",
       "arabic": "نادل",
-      "example": "serves customers",
+      "example": "A waiter serves customers.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "waiter",
@@ -821,7 +815,7 @@
       "word": "shop assistant",
       "ipa": "/ˈʃɒp əsɪstənt/",
       "arabic": "بائع",
-      "example": "helps people in a shop",
+      "example": "A shop assistant helps people in a shop.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "shop assistant",
@@ -834,7 +828,7 @@
       "word": "receptionist",
       "ipa": "/rɪˈsepʃənɪst/",
       "arabic": "موظف استقبال",
-      "example": "welcomes visitors",
+      "example": "A receptionist welcomes visitors.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "receptionist",
@@ -847,7 +841,7 @@
       "word": "secretary",
       "ipa": "/ˈsekrətri/",
       "arabic": "سكرتير",
-      "example": "organises an office",
+      "example": "A secretary organises an office.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "secretary",
@@ -860,7 +854,7 @@
       "word": "electrician",
       "ipa": "/ɪlekˈtrɪʃn/",
       "arabic": "كهربائي",
-      "example": "repairs electrical systems",
+      "example": "An electrician repairs electrical systems.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "electrician",
@@ -873,7 +867,7 @@
       "word": "plumber",
       "ipa": "/ˈplʌmə(r)/",
       "arabic": "سبّاك",
-      "example": "repairs water pipes (silent b)",
+      "example": "A plumber repairs water pipes.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "plumber",
@@ -886,7 +880,7 @@
       "word": "mechanic",
       "ipa": "/məˈkænɪk/",
       "arabic": "ميكانيكي",
-      "example": "repairs cars",
+      "example": "A mechanic repairs cars.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "mechanic",
@@ -899,7 +893,7 @@
       "word": "builder",
       "ipa": "/ˈbɪldə(r)/",
       "arabic": "بنّاء",
-      "example": "builds houses",
+      "example": "A builder builds houses.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "builder",
@@ -912,7 +906,7 @@
       "word": "farmer",
       "ipa": "/ˈfɑːmə(r)/",
       "arabic": "مزارع",
-      "example": "grows food",
+      "example": "A farmer grows food.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "farmer",
@@ -925,7 +919,7 @@
       "word": "soldier",
       "ipa": "/ˈsəʊldʒə(r)/",
       "arabic": "جندي",
-      "example": "serves in the army",
+      "example": "A soldier serves in the army.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "soldier",
@@ -938,7 +932,7 @@
       "word": "police officer",
       "ipa": "/pəˈliːs ɒfɪsə/",
       "arabic": "ضابط شرطة",
-      "example": "keeps people safe",
+      "example": "A police officer keeps people safe.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "police officer",
@@ -951,7 +945,7 @@
       "word": "scientist",
       "ipa": "/ˈsaɪəntɪst/",
       "arabic": "عالِم",
-      "example": "does research",
+      "example": "A scientist does research.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "scientist",
@@ -964,7 +958,7 @@
       "word": "researcher",
       "ipa": "/rɪˈsɜːtʃə(r)/",
       "arabic": "باحث",
-      "example": "studies a subject deeply",
+      "example": "A researcher studies a subject deeply.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "researcher",
@@ -977,7 +971,7 @@
       "word": "translator",
       "ipa": "/trænzˈleɪtə(r)/",
       "arabic": "مترجم",
-      "example": "translates languages",
+      "example": "A translator translates languages.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "translator",
@@ -990,7 +984,7 @@
       "word": "photographer",
       "ipa": "/fəˈtɒɡrəfə(r)/",
       "arabic": "مصوّر",
-      "example": "takes photographs",
+      "example": "A photographer takes photographs.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "photographer",
@@ -1003,7 +997,7 @@
       "word": "dentist",
       "ipa": "/ˈdentɪst/",
       "arabic": "طبيب أسنان",
-      "example": "treats teeth",
+      "example": "A dentist treats teeth.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "dentist",
@@ -1016,7 +1010,7 @@
       "word": "pharmacist",
       "ipa": "/ˈfɑːməsɪst/",
       "arabic": "صيدلي",
-      "example": "prepares medicine",
+      "example": "A pharmacist prepares medicine.",
       "group_label_ar": "المهن",
       "group_label_en": "Jobs",
       "target": "pharmacist",
@@ -1860,7 +1854,7 @@
       "group": "now_and_temporary",
       "word": "Be quiet!",
       "ipa": null,
-      "arabic": "اهدأ!",
+      "arabic": "الزم الهدوء!",
       "example": "Be quiet! The baby is sleeping.",
       "group_label_ar": "الآن والمؤقّت",
       "group_label_en": "Now and Temporary",
@@ -1887,7 +1881,7 @@
       "word": "more and more",
       "ipa": null,
       "arabic": "أكثر فأكثر",
-      "example": "Prices are getting more and more expensive.",
+      "example": "More and more people are working from home.",
       "group_label_ar": "الآن والمؤقّت",
       "group_label_en": "Now and Temporary",
       "target": "more and more",
@@ -1900,7 +1894,7 @@
       "word": "nowadays",
       "ipa": null,
       "arabic": "في أيامنا",
-      "example": "A lot of people are working from home nowadays.",
+      "example": "Nowadays, many people are shopping online.",
       "group_label_ar": "الآن والمؤقّت",
       "group_label_en": "Now and Temporary",
       "target": "nowadays",
@@ -2588,7 +2582,7 @@
       "number": 1,
       "title": "A Phone Call to the Office",
       "situation_en": "Lina calls Sami, but he is not at his desk.",
-      "situation_ar": "لينا تتّصل بالمكتب، وسامي ليس على مكتبه.",
+      "situation_ar": "لينا تتّصل بسامي، وهو ليس على مكتبه.",
       "speaker_genders": {
         "LINA": "f",
         "SAMI": "m"
@@ -2927,7 +2921,7 @@
           {
             "wrong": "He is sleep.",
             "right": "He is sleeping.",
-            "arabic": "هو ينام.",
+            "arabic": "هو نائم.",
             "why_ar": "صيغة -ing إجبارية"
           },
           {
@@ -2958,7 +2952,7 @@
             "rule_ar": "be إجباري ولو لم تقابله كلمة في العربية"
           },
           {
-            "ar": "هو ينام.",
+            "ar": "هو نائم.",
             "literal": "He is sleep.",
             "right": "He is sleeping.",
             "rule_ar": "-ing إجبارية بعد be"
@@ -3661,7 +3655,7 @@
       "title_ar": "القواعد — الخلفية والحدث: when و while",
       "title_en": "Grammar — Past Continuous with when and while",
       "payload": {
-        "rule_ar": "حين نحكي حدثاً نستعمل الزمنين معاً: الماضي المستمر للخلفية الممتدّة، والماضي البسيط للحدث القصير الذي قطعها. وبعد while يأتي المستمر غالباً، وبعد when يأتي الحدث القصير. وإن بدأت الجملة بـ when أو while فضع فاصلة بعد الجزء الأول.",
+        "rule_ar": "حين نحكي حدثاً نستعمل الزمنين معاً: الماضي المستمر للخلفية الممتدّة، والماضي البسيط للحدث القصير الذي قطعها. وبعد while يأتي المستمر غالباً، وبعد when يأتي الحدث القصير في الغالب. وإن بدأت الجملة بـ when أو while فضع فاصلة بعد الجزء الأول.",
         "table": {
           "columns_ar": [
             "الخلفية",
@@ -3867,15 +3861,15 @@
         "transcript": [
           {
             "en": "It is eleven o'clock at night and I am still sitting at my desk. Outside the window the city is quiet. Two floors below, a cleaner is emptying the bins and talking on her phone. I can hear her through the floor.",
-            "ar": "الساعة الحادية عشرة ليلاً وما زلت جالساً إلى مكتبي. خارج النافذة المدينة هادئة. وفي الطابقين تحتي عاملة نظافة تفرّغ سلال المهملات وتتحدّث في هاتفها. أسمعها عبر الأرض."
+            "ar": "الساعة الحادية عشرة ليلاً وما زلت جالساً إلى مكتبي. خارج النافذة المدينة هادئة. وتحتي بطابقين عاملة نظافة تفرّغ سلال المهملات وتتحدّث في هاتفها. أسمعها عبر الأرض."
           },
           {
             "en": "I am not usually here at this hour. I normally leave at six. But we are preparing a new product for Monday and nothing is ready. My colleague Ahmed is sleeping on the sofa in the meeting room. He is not lazy. He arrived at seven this morning.",
             "ar": "لا أكون هنا في هذه الساعة عادةً. أخرج في السادسة في المعتاد. لكننا نحضّر منتجاً جديداً ليوم الاثنين ولا شيء جاهز. وزميلي أحمد نائم على أريكة غرفة الاجتماعات. ليس كسولاً. وصل في السابعة صباح اليوم."
           },
           {
-            "en": "I am looking at a long file with four thousand numbers. Somewhere in this file there is one wrong number, and it is changing every total in the report. I am checking them one by one. I found three small mistakes this evening, but I am still looking for the big one.",
-            "ar": "أنظر إلى ملفّ طويل فيه أربعة آلاف رقم. في مكان ما من هذا الملفّ رقم واحد خاطئ، وهو يغيّر كل مجموع في التقرير. أفحصها واحداً واحداً. وجدت ثلاثة أخطاء صغيرة هذا المساء، لكنني ما زلت أبحث عن الخطأ الكبير."
+            "en": "I am looking at a long file with four thousand numbers. Somewhere in this file there is one wrong number, and it is making every total in the report wrong. I am checking them one by one. I found three small mistakes this evening, but I am still looking for the big one.",
+            "ar": "أنظر إلى ملفّ طويل فيه أربعة آلاف رقم. في مكان ما من هذا الملفّ رقم واحد خاطئ، وهو يجعل كل مجموع في التقرير خاطئاً. أفحصها واحداً واحداً. وجدت ثلاثة أخطاء صغيرة هذا المساء، لكنني ما زلت أبحث عن الخطأ الكبير."
           },
           {
             "en": "My wife is calling me. I am not answering, because I know what she wants to say, and she is right.",
@@ -4917,7 +4911,8 @@
       },
       "answer": {
         "accepted": [
-          "aren't travelling"
+          "aren't travelling",
+          "aren't traveling"
         ]
       },
       "explanation": "we + are + not + -ing"
@@ -5299,7 +5294,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "wait = ينتظر، ونضيف -ing مباشرة: waiting",
       "points": 1
     },
     {
@@ -5319,7 +5314,7 @@
       "answer": {
         "correct": 3
       },
-      "explanation": null,
+      "explanation": "look for = يبحث عن، و-ing على الفعل لا على for: looking for",
       "points": 1
     },
     {
@@ -5339,7 +5334,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "drink = يشرب: drinking",
       "points": 1
     },
     {
@@ -5359,7 +5354,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "walk = يمشي: walking",
       "points": 1
     },
     {
@@ -5379,7 +5374,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "sit = يجلس، ونضاعف t: sitting",
       "points": 1
     },
     {
@@ -5399,7 +5394,7 @@
       "answer": {
         "correct": 3
       },
-      "explanation": null,
+      "explanation": "run = يجري، ونضاعف n: running",
       "points": 1
     },
     {
@@ -5563,7 +5558,8 @@
       },
       "answer": {
         "accepted": [
-          "She is working in a bank now."
+          "She is working in a bank now.",
+          "She works in a bank now."
         ]
       },
       "explanation": "be إجباري مع -ing"
@@ -5580,7 +5576,8 @@
       },
       "answer": {
         "accepted": [
-          "He is sleeping at the moment."
+          "He is sleeping at the moment.",
+          "He is asleep at the moment."
         ]
       },
       "explanation": "-ing إجبارية بعد be"
@@ -5632,7 +5629,8 @@
       },
       "answer": {
         "accepted": [
-          "I want a coffee."
+          "I want a coffee.",
+          "I would like a coffee."
         ]
       },
       "explanation": "want فعل حالة",
@@ -5702,7 +5700,8 @@
       },
       "answer": {
         "accepted": [
-          "He is a teacher at a school."
+          "He is a teacher at a school.",
+          "He is a teacher in a school."
         ]
       },
       "explanation": "المهنة تحتاج a",
@@ -6017,7 +6016,7 @@
       "focus_ar": "الاستماع — التفاصيل",
       "points": 1,
       "type": "multiple_choice",
-      "prompt": "How much does he see his children these days?",
+      "prompt": "How much time does he spend with his children these days?",
       "payload": {
         "options": [
           "About twenty minutes a day",
@@ -6342,7 +6341,7 @@
       "focus_ar": "when و while",
       "points": 1,
       "type": "multiple_choice",
-      "prompt": "I ___ the answer, so I put my hand up.",
+      "prompt": "I ___ the answer, so I raised my hand.",
       "payload": {
         "options": [
           "knew",
@@ -6517,7 +6516,8 @@
       },
       "answer": {
         "accepted": [
-          "Are you working now?"
+          "Are you working now?",
+          "Do you work now?"
         ]
       },
       "explanation": "مع -ing نستعمل be لا do"
@@ -6696,7 +6696,8 @@
       },
       "answer": {
         "accepted": [
-          "She isn't working today."
+          "She isn't working today.",
+          "She doesn't work today."
         ]
       },
       "explanation": "مع -ing نستعمل be لا do"
@@ -6899,7 +6900,8 @@
       },
       "answer": {
         "accepted": [
-          "He has a big house."
+          "He has a big house.",
+          "He has got a big house."
         ]
       },
       "explanation": "have بمعنى يملك",
@@ -7141,7 +7143,8 @@
       },
       "answer": {
         "accepted": [
-          "calling"
+          "calling",
+          "speaking"
         ]
       },
       "explanation": "Who's calling?"
@@ -7266,7 +7269,9 @@
       },
       "answer": {
         "accepted": [
-          "making"
+          "making",
+          "on",
+          "taking"
         ]
       },
       "explanation": "make a phone call"
@@ -7753,7 +7758,8 @@
       },
       "answer": {
         "accepted": [
-          "because"
+          "because",
+          "as"
         ]
       },
       "explanation": "because للسبب"
@@ -7789,7 +7795,11 @@
       },
       "answer": {
         "accepted": [
-          "also"
+          "also",
+          "now",
+          "currently",
+          "even",
+          "already"
         ]
       },
       "explanation": "also بعد am"

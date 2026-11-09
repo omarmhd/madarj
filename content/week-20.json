@@ -649,7 +649,7 @@
       "target": "occur",
       "sentence": "Accidents often occur on this road.",
       "sentence_ar": "كثيراً ما تقع الحوادث على هذا الطريق.",
-      "usage_ar": "أرسم من happen، يكثر في الأخبار."
+      "usage_ar": "أكثر رسميةً من happen، ويكثر في الأخبار."
     },
     {
       "group": "storytelling_verbs",
@@ -1143,7 +1143,7 @@
       "target": "At that moment",
       "sentence": "At that moment, the phone rang.",
       "sentence_ar": "في تلك اللحظة، رنّ الهاتف.",
-      "usage_ar": "لنقطة التحوّل — لنقطة التحول في القصة."
+      "usage_ar": "لنقطة التحوّل — اللحظة التي وقع فيها الحدث المهمّ."
     },
     {
       "group": "narrative_connectors",
@@ -1182,7 +1182,7 @@
       "target": "Luckily",
       "sentence": "Luckily, someone found my wallet.",
       "sentence_ar": "لحسن الحظ، وجد أحدهم محفظتي.",
-      "usage_ar": "للارتياح — للارتياح بعد مشكلة. بعده فاصلة."
+      "usage_ar": "للارتياح بعد مشكلة. بعده فاصلة."
     },
     {
       "group": "narrative_connectors",
@@ -1195,7 +1195,7 @@
       "target": "Unfortunately",
       "sentence": "Unfortunately, the last train had already left.",
       "sentence_ar": "لسوء الحظ، كان آخر قطار قد غادر.",
-      "usage_ar": "للمشكلة — لخبر سيئ. تكتب بحرفي n في وسطها."
+      "usage_ar": "للمشكلة — لخبر سيئ. تُبنى: un + fortunate + ly."
     },
     {
       "group": "narrative_connectors",
@@ -1208,7 +1208,7 @@
       "target": "In the end",
       "sentence": "In the end, we took a taxi home.",
       "sentence_ar": "في النهاية، أخذنا سيارة أجرة إلى البيت.",
-      "usage_ar": "للحلّ والنهاية — لنهاية القصة. أما at the end of فهي «في آخر» شيء."
+      "usage_ar": "للحلّ والنهاية. أما at the end of فهي «في آخر» شيء."
     },
     {
       "group": "narrative_connectors",
@@ -1260,7 +1260,7 @@
       "target": "Anyway",
       "sentence": "Anyway, we finally got to the hotel.",
       "sentence_ar": "على أي حال، وصلنا أخيراً إلى الفندق.",
-      "usage_ar": "للعودة إلى القصة — للرجوع إلى القصة بعد خروج عنها."
+      "usage_ar": "للرجوع إلى القصة بعد خروج عنها."
     },
     {
       "group": "narrative_connectors",
@@ -1409,13 +1409,13 @@
       "group": "emotions_in_a_story",
       "word": "ashamed",
       "ipa": "/əˈʃeɪmd/",
-      "arabic": "خجلان (من فعلٍ أخطأ فيه)",
+      "arabic": "خجِل (من خطأ ارتكبه)",
       "example": "He was ashamed of his lie.",
       "group_label_ar": "المشاعر في القصة",
       "group_label_en": "Emotions in a Story",
       "target": "ashamed",
       "sentence": "He was ashamed of his lie.",
-      "sentence_ar": "كان خجلاً من كذبته.",
+      "sentence_ar": "كان خجِلاً من كذبته.",
       "usage_ar": "ashamed of، لخطأ أخلاقي. أقوى من embarrassed."
     },
     {
@@ -1539,7 +1539,7 @@
       "group": "emotions_in_a_story",
       "word": "desperate",
       "ipa": "/ˈdespərət/",
-      "arabic": "يائس",
+      "arabic": "يائس / في حاجة شديدة",
       "example": "He was desperate to find a job.",
       "group_label_ar": "المشاعر في القصة",
       "group_label_en": "Emotions in a Story",
@@ -1591,7 +1591,7 @@
       "group": "emotions_in_a_story",
       "word": "guilty",
       "ipa": "/ˈɡɪlti/",
-      "arabic": "مذنب",
+      "arabic": "يشعر بالذنب / مذنب",
       "example": "I felt guilty about forgetting her birthday.",
       "group_label_ar": "المشاعر في القصة",
       "group_label_en": "Emotions in a Story",
@@ -1702,7 +1702,7 @@
       "target": "As",
       "sentence": "As I opened the door, the cat ran out.",
       "sentence_ar": "حين فتحت الباب، هربت القطة.",
-      "usage_ar": "لحدثين في اللحظة نفسها، أرسم من when."
+      "usage_ar": "لحدثين في اللحظة نفسها، وهو أكثر رسميةً من when."
     },
     {
       "group": "time_in_a_story",
@@ -1721,20 +1721,20 @@
       "group": "time_in_a_story",
       "word": "at the same time",
       "ipa": null,
-      "arabic": "في نفس الوقت",
+      "arabic": "في الوقت نفسه",
       "example": "We both spoke at the same time.",
       "group_label_ar": "الزمن في القصة",
       "group_label_en": "Time in a Story",
       "target": "at the same time",
       "sentence": "We both spoke at the same time.",
-      "sentence_ar": "تكلّمنا كلانا في نفس الوقت.",
+      "sentence_ar": "تكلّمنا كلانا في الوقت نفسه.",
       "usage_ar": "the قبل same دائماً."
     },
     {
       "group": "time_in_a_story",
       "word": "just as",
       "ipa": null,
-      "arabic": "في نفس اللحظة التي",
+      "arabic": "في اللحظة نفسها التي",
       "example": "The bus left just as I arrived.",
       "group_label_ar": "الزمن في القصة",
       "group_label_en": "Time in a Story",
@@ -1792,7 +1792,7 @@
       "group_label_en": "Time in a Story",
       "target": "The moment",
       "sentence": "The moment I saw her, I knew something was wrong.",
-      "sentence_ar": "حين رأيتها عرفت أن شيئاً ما خطأ.",
+      "sentence_ar": "في اللحظة التي رأيتها فيها عرفت أن شيئاً ما خطأ.",
       "usage_ar": "بمعنى as soon as لكنه أقوى في القصة."
     },
     {
@@ -2156,7 +2156,7 @@
       "group_label_en": "Reacting to a Story",
       "target": "What a surprise",
       "sentence": "What a surprise! I thought he had left the city.",
-      "sentence_ar": "يا لها من مفاجأة! ظننت أنه غادر المدينة.",
+      "sentence_ar": "يا لها من مفاجأة! ظننت أنه كان قد غادر المدينة.",
       "usage_ar": "What a + اسم مفرد: What a surprise! لا What surprise!"
     },
     {
@@ -2176,13 +2176,13 @@
       "group": "reacting_to_a_story",
       "word": "Poor you!",
       "ipa": null,
-      "arabic": "مسكين! / يا للمسكين!",
+      "arabic": "يا لك من مسكين!",
       "example": "Poor you! Did you get any sleep?",
       "group_label_ar": "التفاعل مع القصة",
       "group_label_en": "Reacting to a Story",
       "target": "Poor you",
       "sentence": "Poor you! Did you get any sleep?",
-      "sentence_ar": "مسكين! هل نمت قليلاً؟",
+      "sentence_ar": "يا لك من مسكين! هل استطعت أن تنام قليلاً؟",
       "usage_ar": "تعاطف مع مشكلة صغيرة حدثت للمتحدّث."
     },
     {
@@ -2248,7 +2248,7 @@
       "target": "fortunately",
       "sentence": "Fortunately, the driver saw me in time.",
       "sentence_ar": "لحسن الحظّ رآني السائق في الوقت المناسب.",
-      "usage_ar": "fortune → fortunate → fortunately. أرسم قليلاً من luckily."
+      "usage_ar": "fortune → fortunate → fortunately. أكثر رسميةً قليلاً من luckily."
     },
     {
       "group": "attitude_adverbs",
@@ -2456,7 +2456,7 @@
       "target": "broke down",
       "sentence": "Our car broke down in the middle of the desert.",
       "sentence_ar": "تعطّلت سيارتنا في وسط الصحراء.",
-      "usage_ar": "عبارة ثابتة تحفظها كاملة. للأشخاص لا: break down = ينهار باكياً."
+      "usage_ar": "عبارة ثابتة تحفظها كاملة. ومع الأشخاص معناها «ينهار باكياً»: She broke down."
     },
     {
       "group": "story_collocations",
@@ -2601,7 +2601,7 @@
     {
       "group_label": "Hearing 'd: had or not?",
       "group_label_ar": "سماع 'd: هل قبلها had؟",
-      "ipa": "/ʃiːd left/ — /ʃiː left/",
+      "ipa": "/wiːd met/ — /wiː met/",
       "word_a": "We'd met before.",
       "word_b": "We met before.",
       "hint_ar": "had بعد الضمير تُختصر إلى صوت /d/ واحد يلتصق به: She'd left = «شيدْ لِفت». وهذا الصوت الصغير وحده يقول إن الحدث وقع قبل حدث آخر. استمع: هل بين الضمير والفعل /d/؟ وفي بعض الأزواج يتغيّر الفعل نفسه أيضاً: they'd gone أم they went، I'd seen أم I saw."
@@ -2609,7 +2609,7 @@
     {
       "group_label": "Hearing 'd: had or not?",
       "group_label_ar": "سماع 'd: هل قبلها had؟",
-      "ipa": "/ʃiːd left/ — /ʃiː left/",
+      "ipa": "/hiːd kɔːld/ — /hiː kɔːld/",
       "word_a": "He'd called me.",
       "word_b": "He called me.",
       "hint_ar": "had بعد الضمير تُختصر إلى صوت /d/ واحد يلتصق به: She'd left = «شيدْ لِفت». وهذا الصوت الصغير وحده يقول إن الحدث وقع قبل حدث آخر. استمع: هل بين الضمير والفعل /d/؟ وفي بعض الأزواج يتغيّر الفعل نفسه أيضاً: they'd gone أم they went، I'd seen أم I saw."
@@ -2617,7 +2617,7 @@
     {
       "group_label": "Hearing 'd: had or not?",
       "group_label_ar": "سماع 'd: هل قبلها had؟",
-      "ipa": "/ʃiːd left/ — /ʃiː left/",
+      "ipa": "/ðeɪd ɡɒn/ — /ðeɪ went/",
       "word_a": "They'd gone home.",
       "word_b": "They went home.",
       "hint_ar": "had بعد الضمير تُختصر إلى صوت /d/ واحد يلتصق به: She'd left = «شيدْ لِفت». وهذا الصوت الصغير وحده يقول إن الحدث وقع قبل حدث آخر. استمع: هل بين الضمير والفعل /d/؟ وفي بعض الأزواج يتغيّر الفعل نفسه أيضاً: they'd gone أم they went، I'd seen أم I saw."
@@ -2625,7 +2625,7 @@
     {
       "group_label": "Hearing 'd: had or not?",
       "group_label_ar": "سماع 'd: هل قبلها had؟",
-      "ipa": "/ʃiːd left/ — /ʃiː left/",
+      "ipa": "/aɪd siːn/ — /aɪ sɔː/",
       "word_a": "I'd seen it.",
       "word_b": "I saw it.",
       "hint_ar": "had بعد الضمير تُختصر إلى صوت /d/ واحد يلتصق به: She'd left = «شيدْ لِفت». وهذا الصوت الصغير وحده يقول إن الحدث وقع قبل حدث آخر. استمع: هل بين الضمير والفعل /d/؟ وفي بعض الأزواج يتغيّر الفعل نفسه أيضاً: they'd gone أم they went، I'd seen أم I saw."
@@ -2633,7 +2633,7 @@
     {
       "group_label": "Hearing 'd: had or not?",
       "group_label_ar": "سماع 'd: هل قبلها had؟",
-      "ipa": "/ʃiːd left/ — /ʃiː left/",
+      "ipa": "/juːd təʊld/ — /juː təʊld/",
       "word_a": "You'd told me.",
       "word_b": "You told me.",
       "hint_ar": "had بعد الضمير تُختصر إلى صوت /d/ واحد يلتصق به: She'd left = «شيدْ لِفت». وهذا الصوت الصغير وحده يقول إن الحدث وقع قبل حدث آخر. استمع: هل بين الضمير والفعل /d/؟ وفي بعض الأزواج يتغيّر الفعل نفسه أيضاً: they'd gone أم they went، I'd seen أم I saw."
@@ -2641,7 +2641,7 @@
     {
       "group_label": "Hearing 'd: had or not?",
       "group_label_ar": "سماع 'd: هل قبلها had؟",
-      "ipa": "/ʃiːd left/ — /ʃiː left/",
+      "ipa": "/aɪd ˈiːtn/ — /aɪ eɪt/",
       "word_a": "I'd eaten.",
       "word_b": "I ate.",
       "hint_ar": "had بعد الضمير تُختصر إلى صوت /d/ واحد يلتصق به: She'd left = «شيدْ لِفت». وهذا الصوت الصغير وحده يقول إن الحدث وقع قبل حدث آخر. استمع: هل بين الضمير والفعل /d/؟ وفي بعض الأزواج يتغيّر الفعل نفسه أيضاً: they'd gone أم they went، I'd seen أم I saw."
@@ -2793,12 +2793,12 @@
         {
           "speaker": "MANAGER",
           "en": "By whom?",
-          "ar": "من قبل من؟"
+          "ar": "ومن اختبره؟"
         },
         {
           "speaker": "KHALED",
           "en": "By me, mostly. That matters later.",
-          "ar": "من قبلي في الأغلب. هذا مهم لاحقاً."
+          "ar": "أنا، في الغالب. وهذا سيهمّ فيما بعد."
         },
         {
           "speaker": "MANAGER",
@@ -2818,7 +2818,7 @@
         {
           "speaker": "KHALED",
           "en": "For an Arabic site. And it had been like that for six weeks. Nobody had checked that page because it was built last.",
-          "ar": "لموقع عربي. وكانت كذلك منذ ستة أسابيع. لم يفحص أحد تلك الصفحة لأنها بُنيت أخيراً."
+          "ar": "لموقع عربي. وكانت كذلك منذ ستة أسابيع. لم يفحص أحد تلك الصفحة لأنها آخر ما بُني."
         },
         {
           "speaker": "MANAGER",
@@ -2838,7 +2838,7 @@
         {
           "speaker": "KHALED",
           "en": "We delayed the launch by four days. The client was angry for one day and grateful for the rest.",
-          "ar": "أجّلنا الإطلاق أربعة أيام. غضب العميل يوماً واحداً وكان ممتناً لبقية الوقت."
+          "ar": "أجّلنا الإطلاق أربعة أيام. غضب العميل يوماً واحداً، ثم بقي ممتنّاً بعد ذلك."
         },
         {
           "speaker": "MANAGER",
@@ -4042,7 +4042,7 @@
         "transcript": [
           {
             "en": "A few years ago I went to a funeral I was not invited to, and I did not realise it for forty minutes.",
-            "ar": "قبل سنوات قليلة حضرت عزاءً لم أكن مدعوّاً إليه، ولم أُدرك ذلك أربعين دقيقة."
+            "ar": "قبل سنوات قليلة حضرت عزاءً لم أكن مدعوّاً إليه، ولم أنتبه إلى ذلك طوال أربعين دقيقة."
           },
           {
             "en": "My colleague's father had died, and the ceremony was at eleven in a large hall on the other side of the city. I had never been there before, and I was driving slowly because I was looking for the sign. When I arrived, the street was already full. Cars were stopping, people in dark clothes were walking towards a building, and I followed them.",
@@ -4304,8 +4304,8 @@
             "proof_ar": "تمارين اليوم 6"
           },
           {
-            "can_ar": "أفهم النقاط الرئيسية والتفاصيل في قصة مسموعة من 400 كلمة",
-            "can_en": "Follow the main points and details of a 400-word story I hear?",
+            "can_ar": "أفهم النقاط الرئيسية والتفاصيل في قصة مسموعة من نحو 350 كلمة",
+            "can_en": "Follow the main points and details of a 350-word story I hear?",
             "proof_ar": "الاستماع"
           },
           {
@@ -4516,7 +4516,7 @@
                 "ar": "وبينما كنا ننتظر على جانب الطريق بدأ المطر."
               },
               {
-                "en": "Half an hour later, another bus came, and we finally got home.",
+                "en": "Half an hour later, another bus came, and we finally arrived.",
                 "ar": "وبعد نصف ساعة جاءت حافلة أخرى، ووصلنا أخيراً."
               }
             ],
@@ -4538,7 +4538,7 @@
               },
               {
                 "word": "finally",
-                "ar": "معناها «أخيراً» بعد انتظار، وتأتي قبل الفعل: we finally got home."
+                "ar": "معناها «أخيراً» بعد انتظار، وتأتي قبل الفعل: we finally arrived."
               }
             ],
             "check_ar": [
@@ -4702,7 +4702,7 @@
               },
               {
                 "en": "He was angry because I had given him the wrong change.",
-                "ar": "كان غاضباً لأنني أعطيته الباقي خطأً."
+                "ar": "كان غاضباً لأنني كنت قد أعطيته الباقي خطأً."
               },
               {
                 "en": "I checked the money, and it turned out that he was right.",
@@ -4813,10 +4813,13 @@
       },
       "answer": {
         "accepted": [
-          "was reading / was watching"
+          "was reading / was watching",
+          "was reading / watched",
+          "read / was watching",
+          "read / watched"
         ]
       },
-      "explanation": "شيئان طويلان جرَيا معاً: المستمر في الجهتين."
+      "explanation": "شيئان طويلان جرَيا معاً: المستمر في الجهتين أوضح، والبسيط فيهما أو في أحدهما صحيح أيضاً."
     },
     {
       "day_number": 1,
@@ -4867,10 +4870,11 @@
       },
       "answer": {
         "accepted": [
-          "wasn't listening / missed"
+          "wasn't listening / missed",
+          "didn't listen / missed"
         ]
       },
-      "explanation": "عدم الإصغاء خلفية، وفوات الإعلان نتيجتها."
+      "explanation": "عدم الإصغاء خلفية (wasn't listening)، وفوات الإعلان نتيجتها. وdidn't listen صحيحة أيضاً."
     },
     {
       "day_number": 1,
@@ -4996,11 +5000,10 @@
       },
       "answer": {
         "accepted": [
-          "came / was working",
-          "came / were working"
+          "came / was working"
         ]
       },
-      "explanation": "everybody مفرد: was working. وwere working مقبولة في الكلام."
+      "explanation": "everybody مفرد: was working. والعمل كان جارياً حين دخل المدير."
     },
     {
       "day_number": 2,
@@ -5008,10 +5011,10 @@
       "focus_ar": "while · when · as · during — أيّها يصلح؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "______ I was cooking, the phone rang.",
+      "prompt": "______ I was cooking, the phone rang. (while / during / for)",
       "payload": {
         "before": "",
-        "after": " I was cooking, the phone rang."
+        "after": " I was cooking, the phone rang. (while / during / for)"
       },
       "answer": {
         "accepted": [
@@ -5028,10 +5031,10 @@
       "focus_ar": "while · when · as · during — أيّها يصلح؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "The phone rang ______ I was cooking.",
+      "prompt": "The phone rang ______ I was cooking. (while / during / for)",
       "payload": {
         "before": "The phone rang ",
-        "after": " I was cooking."
+        "after": " I was cooking. (while / during / for)"
       },
       "answer": {
         "accepted": [
@@ -5048,10 +5051,10 @@
       "focus_ar": "while · when · as · during — أيّها يصلح؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "It happened ______ the meeting.",
+      "prompt": "It happened ______ the meeting. (while / during / for)",
       "payload": {
         "before": "It happened ",
-        "after": " the meeting."
+        "after": " the meeting. (while / during / for)"
       },
       "answer": {
         "accepted": [
@@ -5066,10 +5069,10 @@
       "focus_ar": "while · when · as · during — أيّها يصلح؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "______ I was leaving, I noticed the door was open.",
+      "prompt": "______ I was leaving, I noticed the door was open. (while / during / for)",
       "payload": {
         "before": "",
-        "after": " I was leaving, I noticed the door was open."
+        "after": " I was leaving, I noticed the door was open. (while / during / for)"
       },
       "answer": {
         "accepted": [
@@ -5086,10 +5089,10 @@
       "focus_ar": "while · when · as · during — أيّها يصلح؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "He fell asleep ______ the film.",
+      "prompt": "He fell asleep ______ the film. (while / during / for)",
       "payload": {
         "before": "He fell asleep ",
-        "after": " the film."
+        "after": " the film. (while / during / for)"
       },
       "answer": {
         "accepted": [
@@ -5104,10 +5107,10 @@
       "focus_ar": "while · when · as · during — أيّها يصلح؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "______ we were waiting, it started to rain.",
+      "prompt": "______ we were waiting, it started to rain. (while / during / for)",
       "payload": {
         "before": "",
-        "after": " we were waiting, it started to rain."
+        "after": " we were waiting, it started to rain. (while / during / for)"
       },
       "answer": {
         "accepted": [
@@ -5124,10 +5127,10 @@
       "focus_ar": "while · when · as · during — أيّها يصلح؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "I met her ______ my first year at university.",
+      "prompt": "I met her ______ my first year at university. (while / during / for)",
       "payload": {
         "before": "I met her ",
-        "after": " my first year at university."
+        "after": " my first year at university. (while / during / for)"
       },
       "answer": {
         "accepted": [
@@ -5142,10 +5145,10 @@
       "focus_ar": "while · when · as · during — أيّها يصلح؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "She called me ______ I was in the shower.",
+      "prompt": "She called me ______ I was in the shower. (while / during / for)",
       "payload": {
         "before": "She called me ",
-        "after": " I was in the shower."
+        "after": " I was in the shower. (while / during / for)"
       },
       "answer": {
         "accepted": [
@@ -5162,10 +5165,10 @@
       "focus_ar": "while · when · as · during — أيّها يصلح؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "Nothing happened ______ the whole journey.",
+      "prompt": "Nothing happened ______ the whole journey. (while / during / for)",
       "payload": {
         "before": "Nothing happened ",
-        "after": " the whole journey."
+        "after": " the whole journey. (while / during / for)"
       },
       "answer": {
         "accepted": [
@@ -5205,7 +5208,8 @@
       },
       "answer": {
         "accepted": [
-          "had already started"
+          "had already started",
+          "had started"
         ]
       },
       "explanation": "الفيلم بدأ قبل وصولنا، وalready بين had والتصريف الثالث."
@@ -5241,10 +5245,11 @@
       },
       "answer": {
         "accepted": [
-          "had forgotten"
+          "had forgotten",
+          "forgot"
         ]
       },
-      "explanation": "النسيان وقع قبل محاولة الدخول، وهو السبب."
+      "explanation": "النسيان وقع قبل محاولة الدخول، وهو السبب: had forgotten أوضح، وforgot مقبولة لأن because تبيّن الترتيب."
     },
     {
       "day_number": 3,
@@ -5259,10 +5264,11 @@
       },
       "answer": {
         "accepted": [
-          "was / hadn't slept"
+          "was / hadn't slept",
+          "was / didn't sleep"
         ]
       },
-      "explanation": "كانت متعبة لأنها لم تكن قد نامت قبل ذلك."
+      "explanation": "كانت متعبة لأنها لم تكن قد نامت: hadn't slept أدقّ، وdidn't sleep مقبولة."
     },
     {
       "day_number": 3,
@@ -5297,10 +5303,11 @@
       "answer": {
         "accepted": [
           "had seen",
-          "had already seen"
+          "had already seen",
+          "saw"
         ]
       },
-      "explanation": "المشاهدة الأولى وقعت قبل الرفض، وهي سببه."
+      "explanation": "المشاهدة الأولى وقعت قبل الرفض، وهي سببه: had seen أوضح، وsaw … before مقبولة في الأمريكية."
     },
     {
       "day_number": 3,
@@ -5352,10 +5359,11 @@
       },
       "answer": {
         "accepted": [
-          "had changed"
+          "had changed",
+          "changed"
         ]
       },
-      "explanation": "التغيّر وقع قبل اللقاء، وهو سبب عدم التعرّف."
+      "explanation": "التغيّر وقع قبل اللقاء، وهو سبب عدم التعرّف: had changed أوضح، وchanged مقبولة."
     },
     {
       "day_number": 3,
@@ -5748,7 +5756,7 @@
       "prompt": "Why did he follow the people in dark clothes?",
       "payload": {
         "options": [
-          "A friend told him to.",
+          "A friend showed him the way.",
           "He had never been to the hall before.",
           "He wanted to find a parking space."
         ]
@@ -5769,7 +5777,7 @@
         "options": [
           "He had only met the family once.",
           "He thought everybody was late.",
-          "His colleague had told him to sit at the back."
+          "His colleague was sitting at the back."
         ]
       },
       "answer": {
@@ -5787,7 +5795,7 @@
       "payload": {
         "options": [
           "Everybody was very quiet.",
-          "The man said his brother was a fisherman.",
+          "A man spoke about his brother's fifty-one years as a fisherman.",
           "The hall was on the other side of the city."
         ]
       },
@@ -6689,10 +6697,10 @@
       "focus_ar": "أكمل بكلمة واحدة",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "It happened ______ my holiday.",
+      "prompt": "It happened ______ my holiday. (while / during / for)",
       "payload": {
         "before": "It happened ",
-        "after": " my holiday."
+        "after": " my holiday. (while / during / for)"
       },
       "answer": {
         "accepted": [
@@ -6707,10 +6715,10 @@
       "focus_ar": "أكمل بكلمة واحدة",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "It happened ______ I was on holiday.",
+      "prompt": "It happened ______ I was on holiday. (while / during / for)",
       "payload": {
         "before": "It happened ",
-        "after": " I was on holiday."
+        "after": " I was on holiday. (while / during / for)"
       },
       "answer": {
         "accepted": [
@@ -6726,10 +6734,10 @@
       "focus_ar": "أكمل بكلمة واحدة",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "He waited ______ two hours, and then he went home.",
+      "prompt": "He waited ______ two hours, and then he went home. (while / during / for)",
       "payload": {
         "before": "He waited ",
-        "after": " two hours, and then he went home."
+        "after": " two hours, and then he went home. (while / during / for)"
       },
       "answer": {
         "accepted": [
@@ -6744,10 +6752,10 @@
       "focus_ar": "أكمل بكلمة واحدة",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "I fell asleep ______ I was watching the film.",
+      "prompt": "I fell asleep ______ I was watching the film. (while / during / for)",
       "payload": {
         "before": "I fell asleep ",
-        "after": " I was watching the film."
+        "after": " I was watching the film. (while / during / for)"
       },
       "answer": {
         "accepted": [
@@ -7095,10 +7103,12 @@
       },
       "answer": {
         "accepted": [
-          "had already had"
+          "had already had",
+          "already had",
+          "had had"
         ]
       },
-      "explanation": "had + التصريف الثالث لـhave = had had."
+      "explanation": "had + التصريف الثالث لـhave = had had. وalready had مقبولة في الأمريكية."
     },
     {
       "day_number": 3,
@@ -7113,10 +7123,11 @@
       },
       "answer": {
         "accepted": [
-          "had / seen"
+          "had / seen",
+          "did / see"
         ]
       },
-      "explanation": "سؤال: Had + الفاعل + seen."
+      "explanation": "سؤال الماضي التامّ: Had + الفاعل + seen. وDid you ever see مقبولة في الأمريكية."
     },
     {
       "day_number": 3,
@@ -7186,10 +7197,11 @@
       },
       "answer": {
         "accepted": [
-          "had gone"
+          "had gone",
+          "went"
         ]
       },
-      "explanation": "go → went → gone."
+      "explanation": "go → went → gone: had gone أوضح، وwent مقبولة لأن because تبيّن السبب."
     },
     {
       "day_number": 3,
@@ -7204,10 +7216,11 @@
       },
       "answer": {
         "accepted": [
-          "had met"
+          "had met",
+          "met"
         ]
       },
-      "explanation": "meet → met → met."
+      "explanation": "meet → met → met: had met يبيّن أن اللقاء سبق، وmet مقبولة مع the week before."
     },
     {
       "day_number": 3,
@@ -7623,10 +7636,13 @@
       },
       "answer": {
         "accepted": [
-          "worst"
+          "worst",
+          "hardest",
+          "most difficult",
+          "most boring"
         ]
       },
-      "explanation": "The worst part was = أسوأ جزء كان."
+      "explanation": "The worst part was = أسوأ جزء كان. وhardest أو most boring صحيحة أيضاً."
     },
     {
       "day_number": 4,
@@ -8301,10 +8317,11 @@
       },
       "answer": {
         "accepted": [
-          "was sleeping"
+          "was sleeping",
+          "slept"
         ]
       },
-      "explanation": "while + خلفية: was sleeping."
+      "explanation": "while + خلفية: was sleeping، وslept صحيحة أيضاً."
     },
     {
       "day_number": 6,
@@ -8373,10 +8390,11 @@
       },
       "answer": {
         "accepted": [
-          "hadn't taken"
+          "hadn't taken",
+          "didn't take"
         ]
       },
-      "explanation": "take → took → taken."
+      "explanation": "take → took → taken: hadn't taken، وdidn't take صحيحة أيضاً."
     },
     {
       "day_number": 6,
@@ -8692,7 +8710,8 @@
       },
       "answer": {
         "accepted": [
-          "but"
+          "but",
+          "yet"
         ]
       },
       "explanation": "but للمقابلة: بحثت لكنني لم أجد."
@@ -8728,10 +8747,11 @@
       },
       "answer": {
         "accepted": [
-          "was"
+          "was",
+          "felt"
         ]
       },
-      "explanation": "ماضي be مع she: was."
+      "explanation": "ماضي be مع she: was، وfelt صحيحة أيضاً."
     },
     {
       "day_number": 7,
@@ -8889,7 +8909,7 @@
     {
       "day_number": 6,
       "type": "correct_error",
-      "prompt": "صحّح الخطأ في هذه الجملة",
+      "prompt": "صحّح الخطأ واكتب الجملة كاملة.",
       "payload": {
         "sentence": "It was very hot that we couldn't sleep."
       },
@@ -8906,7 +8926,7 @@
     {
       "day_number": 6,
       "type": "correct_error",
-      "prompt": "صحّح الخطأ في هذه الجملة",
+      "prompt": "صحّح الخطأ واكتب الجملة كاملة.",
       "payload": {
         "sentence": "He was such clever that he finished first."
       },
@@ -8923,7 +8943,7 @@
     {
       "day_number": 6,
       "type": "correct_error",
-      "prompt": "صحّح الخطأ في هذه الجملة",
+      "prompt": "صحّح الخطأ واكتب الجملة كاملة.",
       "payload": {
         "sentence": "We had such a terrible weather that we stayed inside."
       },
@@ -8944,7 +8964,7 @@
       "prompt": "اكتب ثلاث جمل من قصة: واحدة بـso … that، وواحدة بـsuch a … that، وواحدة بـso many … that.",
       "payload": {},
       "answer": {},
-      "explanation": "نموذج: The road was so narrow that the bus stopped. It was such a long night that nobody slept. There were so many stars that the sky looked white.",
+      "explanation": "نموذج: The road was so narrow that the bus couldn't pass. It was such a long night that nobody slept. There were so many stars that the sky looked white.",
       "points": 1,
       "exercise_no": 6
     }

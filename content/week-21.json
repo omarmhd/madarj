@@ -1000,7 +1000,7 @@
       "word": "mistake",
       "ipa": "/mɪˈsteɪk/",
       "arabic": "خطأ",
-      "example": "Everyone makes a mistake sometimes.",
+      "example": "Everyone makes mistakes.",
       "group_label_ar": "الحسرة والاحتمال",
       "group_label_en": "Regret and Possibility",
       "target": "mistake",
@@ -1155,7 +1155,7 @@
       "group": "regret_and_possibility",
       "word": "sensible",
       "ipa": "/ˈsensəbl/",
-      "arabic": "حكيم",
+      "arabic": "معقول / حكيم",
       "example": "Saving money is a sensible idea.",
       "group_label_ar": "الحسرة والاحتمال",
       "group_label_en": "Regret and Possibility",
@@ -1233,7 +1233,7 @@
       "group": "regret_and_possibility",
       "word": "free",
       "ipa": "/friː/",
-      "arabic": "حر",
+      "arabic": "حرّ / غير مشغول",
       "example": "Are you free on Saturday evening?",
       "group_label_ar": "الحسرة والاحتمال",
       "group_label_en": "Regret and Possibility",
@@ -1740,7 +1740,7 @@
       "group": "talking_about_yourself_hypothetically",
       "word": "I would probably",
       "ipa": null,
-      "arabic": "ربما كنت",
+      "arabic": "على الأرجح كنت سـ…",
       "example": "If I won, I would probably buy a house.",
       "group_label_ar": "الحديث عن نفسك افتراضاً",
       "group_label_en": "Talking About Yourself Hypothetically",
@@ -1779,7 +1779,7 @@
       "group": "talking_about_yourself_hypothetically",
       "word": "I'd have to",
       "ipa": null,
-      "arabic": "سأضطر أن",
+      "arabic": "كنت سأضطرّ إلى",
       "example": "If I moved, I'd have to find a new job.",
       "group_label_ar": "الحديث عن نفسك افتراضاً",
       "group_label_en": "Talking About Yourself Hypothetically",
@@ -2039,7 +2039,7 @@
       "group": "advice_and_suggestions",
       "word": "Let's…",
       "ipa": null,
-      "arabic": "هيّا لـ… / لنفعل…",
+      "arabic": "هيّا نـ… / لِنـ…",
       "example": "Let's meet at six.",
       "group_label_ar": "النصيحة والاقتراح",
       "group_label_en": "Advice and Suggestions",
@@ -2411,7 +2411,7 @@
       "number": 1,
       "title": "Advice About a Decision",
       "situation_en": "Khaled asks Lina a \"hypothetical\" question about a job offer. It is not really hypothetical.",
-      "situation_ar": "نصيحة في قرار صعب — ماذا كنت ستفعل لو كنت مكاني؟",
+      "situation_ar": "خالد يسأل لينا سؤالاً «افتراضياً» عن عرض عمل، وهو ليس افتراضياً في الحقيقة.",
       "speaker_genders": {
         "KHALED": "m",
         "LINA": "f"
@@ -2430,7 +2430,7 @@
         {
           "speaker": "KHALED",
           "en": "If you were offered a job with double the salary but you'd hate the work, would you take it?",
-          "ar": "لو عُرضت عليك وظيفة بضعف الراتب لكنك ستكرهين العمل، هل ستقبلينها؟"
+          "ar": "لو عُرضت عليكِ وظيفة بضعف الراتب لكنك ستكرهين العمل، هل كنتِ ستقبلينها؟"
         },
         {
           "speaker": "LINA",
@@ -2498,7 +2498,7 @@
       "number": 2,
       "title": "The Lottery Question",
       "situation_en": "Lina asks Sami the classic question: what would you do if you won ten million pounds?",
-      "situation_ar": "سؤال اليانصيب: ماذا لو ربحت مبلغاً كبيراً؟",
+      "situation_ar": "لينا تسأل سامي السؤال المعروف: ماذا كنت ستفعل لو ربحت عشرة ملايين جنيه؟",
       "speaker_genders": {
         "LINA": "f",
         "SAMI": "m"
@@ -2507,7 +2507,7 @@
         {
           "speaker": "LINA",
           "en": "Classic question. If you won ten million pounds tomorrow, what would you do?",
-          "ar": "سؤال كلاسيكي. لو ربحت عشرة ملايين جنيه غداً، ماذا ستفعل؟"
+          "ar": "سؤال معروف. لو ربحت عشرة ملايين جنيه غداً، ماذا كنت ستفعل؟"
         },
         {
           "speaker": "SAMI",
@@ -2517,17 +2517,17 @@
         {
           "speaker": "LINA",
           "en": "That's the most boring answer I've ever heard.",
-          "ar": "هذه أمل إجابة سمعتها في حياتي."
+          "ar": "هذه أكثر إجابة مملّة سمعتها في حياتي."
         },
         {
           "speaker": "SAMI",
           "en": "I'd buy my parents a house. I'd keep working.",
-          "ar": "سأشتري لوالديّ بيتاً. وسأستمر في العمل."
+          "ar": "كنت سأشتري لوالديّ بيتاً، وكنت سأستمرّ في العمل."
         },
         {
           "speaker": "LINA",
           "en": "You'd keep working? Nobody keeps working.",
-          "ar": "ستستمر في العمل؟ لا أحد يستمر في العمل."
+          "ar": "كنت ستستمرّ في العمل؟ لا أحد يستمرّ في العمل."
         },
         {
           "speaker": "SAMI",
@@ -2537,7 +2537,7 @@
         {
           "speaker": "LINA",
           "en": "Travel. I'd go everywhere.",
-          "ar": "أسافر. سأذهب إلى كل مكان."
+          "ar": "أسافر. كنت سأذهب إلى كل مكان."
         },
         {
           "speaker": "SAMI",
@@ -2547,7 +2547,7 @@
         {
           "speaker": "LINA",
           "en": "All right, fine. Eventually I'd get bored.",
-          "ar": "حسناً، معك حق. في النهاية سأشعر بالملل."
+          "ar": "حسناً، معك حق. في النهاية كنت سأشعر بالملل."
         },
         {
           "speaker": "SAMI",
@@ -2557,12 +2557,12 @@
         {
           "speaker": "LINA",
           "en": "So you're saying you wouldn't change anything?",
-          "ar": "إذن تقول إنك لن تغيّر شيئاً؟"
+          "ar": "إذن تقول إنك ما كنت لتغيّر شيئاً؟"
         },
         {
           "speaker": "SAMI",
           "en": "I'd change one thing. I wouldn't worry about money. That's different from having it.",
-          "ar": "سأغيّر شيئاً واحداً. لن أقلق بشأن المال. وهذا مختلف عن امتلاكه."
+          "ar": "كنت سأغيّر شيئاً واحداً: ما كنت سأقلق بشأن المال. وهذا مختلف عن امتلاكه."
         },
         {
           "speaker": "LINA",
@@ -3089,7 +3089,7 @@
           {
             "wrong": "You should to see a doctor.",
             "right": "You should see a doctor.",
-            "arabic": "يجب أن ترى طبيباً",
+            "arabic": "ينبغي أن تراجع طبيباً",
             "why_ar": "لا to بعد should"
           }
         ],
@@ -3608,8 +3608,8 @@
             "ar": "وأكثر من عشر سنوات لم يكن أحد تقريباً يعرف. كانت الجامعات والمستشفيات تُعطى ملايين الدولارات من متبرّع مجهول، وكان على من يتلقّى المال أن يعد بألّا يقول من أين جاء. وفي 1988 وضعت مجلّة أمريكية مشهورة اسم فيني في قائمة أغنى أغنياء البلاد، ولم تكن تعرف أنه كان قد أعطى ثروته كلها."
           },
           {
-            "en": "The secret became public in 1997, when the company was sold. There was a legal dispute, and his name was going to appear in court, so he called two reporters and told them the story himself.",
-            "ar": "وصار السرّ علنياً سنة 1997 حين بيعت الشركة. كان هناك نزاع قانوني، وكان اسمه سيظهر في المحكمة، فاتّصل بصحفيَّين وحكى لهما القصة بنفسه."
+            "en": "The secret became public in 1997, when the company was sold. There was a legal dispute, and his name was going to appear in court, so he decided to tell the story to a newspaper himself.",
+            "ar": "وصار السرّ علنياً سنة 1997 حين بيعت الشركة. كان هناك نزاع قانوني، وكان اسمه سيظهر في المحكمة، فقرّر أن يحكي القصة لصحيفة بنفسه."
           },
           {
             "en": "People were surprised when they met him. He did not own a house or a car. He lived in a rented flat in San Francisco, he flew economy for most of his life, and he wore a cheap plastic watch. He carried his papers in a plastic bag.",
@@ -3644,7 +3644,7 @@
           },
           {
             "q_ar": "لماذا صار السرّ علنياً سنة 1997؟",
-            "a_ar": "بيعت الشركة وحدث نزاع قانوني، وكان اسمه سيظهر في المحكمة، فحكى القصة بنفسه لصحفيَّين."
+            "a_ar": "بيعت الشركة وحدث نزاع قانوني، وكان اسمه سيظهر في المحكمة، فحكى القصة بنفسه لصحيفة."
           },
           {
             "q_ar": "اذكر ثلاث علامات على بساطة عيشه.",
@@ -3679,7 +3679,7 @@
           },
           {
             "en": "When people think about last week, they often regret something they did: an angry message, an expensive pair of shoes, a bad decision. Actions like these are easy to remember and easy to feel bad about. But when people look back on their whole lives, many of them give a different answer. They regret the things they did not do: the course they did not take, the friend they did not call, the country they never visited.",
-            "ar": "حين يفكّر الناس في الأسبوع الماضي يندمون غالباً على شيء فعلوه: رسالة غاضبة، أو حذاء غالٍ، أو قرار سيّئ. أفعال كهذه يسهل تذكّرها ويسهل الشعور بالسوء منها. لكن حين ينظر الناس إلى حياتهم كلها يجيب كثير منهم جواباً آخر: يندمون على ما لم يفعلوه — الدراسة التي لم يبدؤوها، والصديق الذي لم يتّصلوا به، والبلد الذي لم يزوروه قطّ."
+            "ar": "حين يفكّر الناس في الأسبوع الماضي يندمون غالباً على شيء فعلوه: رسالة غاضبة، أو حذاء غالٍ، أو قرار سيّئ. أفعال كهذه يسهل تذكّرها ويسهل الشعور بالسوء منها. لكن حين ينظر الناس إلى حياتهم كلها يجيب كثير منهم جواباً آخر: يندمون على ما لم يفعلوه — الدورة التي لم يلتحقوا بها، والصديق الذي لم يتّصلوا به، والبلد الذي لم يزوروه قطّ."
           },
           {
             "en": "Why does this happen? One explanation is that a bad action has an ending. You did something, it went wrong, and after some time you apologised or forgot about it. A thing you did not do has no ending. You can always imagine how wonderful life would be if you had one more chance. And the imagined life improves every year, because it never has to meet real life.",
@@ -4299,10 +4299,10 @@
       "focus_ar": "إكمال الشرط الثاني",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "If I ______ (have) more money, I ______ (travel) more.",
+      "prompt": "If I ______ (have) more money, I ______ (travel) more. (unreal)",
       "payload": {
         "before": "If I ",
-        "after": " (have) more money, I ______ (travel) more."
+        "after": " (have) more money, I ______ (travel) more. (unreal)"
       },
       "answer": {
         "accepted": [
@@ -4317,10 +4317,10 @@
       "focus_ar": "إكمال الشرط الثاني",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "If she ______ (know) the answer, she ______ (tell) us.",
+      "prompt": "If she ______ (know) the answer, she ______ (tell) us. (unreal)",
       "payload": {
         "before": "If she ",
-        "after": " (know) the answer, she ______ (tell) us."
+        "after": " (know) the answer, she ______ (tell) us. (unreal)"
       },
       "answer": {
         "accepted": [
@@ -4335,10 +4335,10 @@
       "focus_ar": "إكمال الشرط الثاني",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "What ______ you ______ (do) if you ______ (lose) your job?",
+      "prompt": "What ______ you ______ (do) if you ______ (lose) your job? (unreal)",
       "payload": {
         "before": "What ",
-        "after": " you ______ (do) if you ______ (lose) your job?"
+        "after": " you ______ (do) if you ______ (lose) your job? (unreal)"
       },
       "answer": {
         "accepted": [
@@ -4371,10 +4371,10 @@
       "focus_ar": "إكمال الشرط الثاني",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "He ______ (not / say) that if he ______ (understand) the situation.",
+      "prompt": "He ______ (not / say) that if he ______ (understand) the situation. (unreal)",
       "payload": {
         "before": "He ",
-        "after": " (not / say) that if he ______ (understand) the situation."
+        "after": " (not / say) that if he ______ (understand) the situation. (unreal)"
       },
       "answer": {
         "accepted": [
@@ -4389,10 +4389,10 @@
       "focus_ar": "إكمال الشرط الثاني",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "If we ______ (live) nearer, we ______ (see) each other more.",
+      "prompt": "If we ______ (live) nearer, we ______ (see) each other more. (unreal)",
       "payload": {
         "before": "If we ",
-        "after": " (live) nearer, we ______ (see) each other more."
+        "after": " (live) nearer, we ______ (see) each other more. (unreal)"
       },
       "answer": {
         "accepted": [
@@ -4407,10 +4407,10 @@
       "focus_ar": "إكمال الشرط الثاني",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "I ______ (buy) it if it ______ (not / be) so expensive.",
+      "prompt": "I ______ (buy) it if it ______ (not / be) so expensive. (unreal)",
       "payload": {
         "before": "I ",
-        "after": " (buy) it if it ______ (not / be) so expensive."
+        "after": " (buy) it if it ______ (not / be) so expensive. (unreal)"
       },
       "answer": {
         "accepted": [
@@ -4426,10 +4426,10 @@
       "focus_ar": "إكمال الشرط الثاني",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "If they ______ (offer) me the job, I ______ (take) it.",
+      "prompt": "If they ______ (offer) me the job, I ______ (take) it. (unreal)",
       "payload": {
         "before": "If they ",
-        "after": " (offer) me the job, I ______ (take) it."
+        "after": " (offer) me the job, I ______ (take) it. (unreal)"
       },
       "answer": {
         "accepted": [
@@ -4444,10 +4444,10 @@
       "focus_ar": "إكمال الشرط الثاني",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "She ______ (be) happier if she ______ (change) jobs.",
+      "prompt": "She ______ (be) happier if she ______ (change) jobs. (unreal)",
       "payload": {
         "before": "She ",
-        "after": " (be) happier if she ______ (change) jobs."
+        "after": " (be) happier if she ______ (change) jobs. (unreal)"
       },
       "answer": {
         "accepted": [
@@ -4462,10 +4462,10 @@
       "focus_ar": "إكمال الشرط الثاني",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "If I ______ (speak) better English, I ______ (apply) abroad.",
+      "prompt": "If I ______ (speak) better English, I ______ (apply) abroad. (unreal)",
       "payload": {
         "before": "If I ",
-        "after": " (speak) better English, I ______ (apply) abroad."
+        "after": " (speak) better English, I ______ (apply) abroad. (unreal)"
       },
       "answer": {
         "accepted": [
@@ -4480,10 +4480,10 @@
       "focus_ar": "إكمال الشرط الثاني",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "What ______ you ______ (say) if he ______ (ask) you?",
+      "prompt": "What ______ you ______ (say) if he ______ (ask) you? (unreal)",
       "payload": {
         "before": "What ",
-        "after": " you ______ (say) if he ______ (ask) you?"
+        "after": " you ______ (say) if he ______ (ask) you? (unreal)"
       },
       "answer": {
         "accepted": [
@@ -4498,10 +4498,10 @@
       "focus_ar": "إكمال الشرط الثاني",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "If there ______ (be) no traffic, the journey ______ (take) twenty minutes.",
+      "prompt": "If there ______ (be) no traffic, the journey ______ (take) twenty minutes. (unreal)",
       "payload": {
         "before": "If there ",
-        "after": " (be) no traffic, the journey ______ (take) twenty minutes."
+        "after": " (be) no traffic, the journey ______ (take) twenty minutes. (unreal)"
       },
       "answer": {
         "accepted": [
@@ -4886,10 +4886,11 @@
       },
       "answer": {
         "accepted": [
-          "didn't"
+          "didn't",
+          "wouldn't"
         ]
       },
-      "explanation": "عكس الواقع: يدخّن ← didn't smoke."
+      "explanation": "عكس الواقع: يدخّن ← didn't smoke. وwouldn't smoke صحيحة أيضاً: عادة مزعجة عند غيرك."
     },
     {
       "day_number": 4,
@@ -4994,7 +4995,9 @@
       },
       "answer": {
         "accepted": [
-          "If I had more money, I would travel."
+          "If I had more money, I would travel.",
+          "I would travel if I had more money.",
+          "If I have more money, I will travel."
         ]
       },
       "explanation": "في جملة if الماضي لا المضارع: had."
@@ -5028,7 +5031,9 @@
       },
       "answer": {
         "accepted": [
-          "If I had time, I'd call you."
+          "If I had time, I'd call you.",
+          "I would call you if I had time.",
+          "If I have time, I will call you."
         ]
       },
       "explanation": "لا would في جملة if أبداً."
@@ -5063,7 +5068,8 @@
       "answer": {
         "accepted": [
           "I wish I studied more.",
-          "I wish I could study more."
+          "I wish I could study more.",
+          "I wish I had studied more."
         ]
       },
       "explanation": "wish + would لعادات غيرك، لا لنفسك."
@@ -5097,7 +5103,8 @@
       },
       "answer": {
         "accepted": [
-          "I would go if I could."
+          "I would go if I could.",
+          "If I could, I would go."
         ]
       },
       "explanation": "لا to بعد would."
@@ -5115,7 +5122,8 @@
       "answer": {
         "accepted": [
           "If she knew, she would tell us.",
-          "She would tell us if she knew."
+          "She would tell us if she knew.",
+          "If she knows, she will tell us."
         ]
       },
       "explanation": "لا would في جملة if."
@@ -5150,7 +5158,9 @@
       "answer": {
         "accepted": [
           "If I were rich, I would buy a boat.",
-          "If I was rich, I would buy a boat."
+          "If I was rich, I would buy a boat.",
+          "I would buy a boat if I were rich.",
+          "If I am rich, I will buy a boat."
         ]
       },
       "explanation": "الشرط الثاني: if + ماضٍ (were)، لا will."
@@ -5282,7 +5292,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "لينا: two years of unhappiness buys you something. Ten years becomes your life."
     },
     {
       "day_number": 4,
@@ -5320,7 +5330,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "If I were you, I'd write down what you'd do with the money."
     },
     {
       "day_number": 4,
@@ -5358,7 +5368,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "البرنامج كلّه عن فيني: صار غنياً ثم أعطى ثروته سرّاً."
     },
     {
       "day_number": 6,
@@ -5377,7 +5387,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "شركته Duty Free Shoppers باعت للمسافرين في المطارات والمناطق السياحية."
     },
     {
       "day_number": 6,
@@ -5396,7 +5406,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "In 1984… he secretly gave his whole share of the company to the foundation."
     },
     {
       "day_number": 6,
@@ -5415,7 +5425,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "ذُكرت الساعة البلاستيكية والدرجة الاقتصادية، ولم يُذكر الهاتف."
     },
     {
       "day_number": 6,
@@ -5434,7 +5444,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "the people who received the money had to promise not to say where it came from."
     },
     {
       "day_number": 6,
@@ -5453,7 +5463,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "The magazine had no idea that he had already given his fortune away."
     },
     {
       "day_number": 6,
@@ -5472,7 +5482,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "his name was going to appear in court, so he decided to tell the story himself."
     },
     {
       "day_number": 6,
@@ -5491,7 +5501,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "not one of them has his name on it."
     },
     {
       "day_number": 6,
@@ -5510,7 +5520,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "More than eight billion dollars had been given away. ومليونان هما ما بقي معه."
     },
     {
       "day_number": 6,
@@ -5529,7 +5539,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "give while you live: أن ترى أثر مالك في الناس وأنت حيّ."
     },
     {
       "day_number": 7,
@@ -5542,7 +5552,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "In 1994 two American psychologists… published a famous study."
     },
     {
       "day_number": 7,
@@ -5568,7 +5578,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "When people think about last week, they often regret something they did."
     },
     {
       "day_number": 7,
@@ -5671,7 +5681,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "If she knew…: الماضي يعني أنها لا تعرف الآن."
     },
     {
       "day_number": 1,
@@ -5690,7 +5700,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "I'd go if I could: لا أستطيع، فلن أذهب."
     },
     {
       "day_number": 1,
@@ -5728,7 +5738,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "في السؤال would قبل الفاعل، وبعدها فعل مجرّد: would you do."
     },
     {
       "day_number": 1,
@@ -5747,7 +5757,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "if + ماضٍ (lived) يأخذ would في النتيجة."
     },
     {
       "day_number": 1,
@@ -5804,7 +5814,7 @@
           "could swim"
         ]
       },
-      "explanation": null
+      "explanation": "If I lived… يأخذ would (أو could) + فعل مجرّد: would swim."
     },
     {
       "day_number": 1,
@@ -5841,7 +5851,7 @@
           "would take"
         ]
       },
-      "explanation": null
+      "explanation": "if + ماضٍ (didn't have) يأخذ would + فعل مجرّد: would take."
     },
     {
       "day_number": 1,
@@ -5856,7 +5866,9 @@
       "answer": {
         "accepted": [
           "If I were rich, I would help you.",
-          "If I was rich, I would help you."
+          "If I was rich, I would help you.",
+          "I would help you if I were rich.",
+          "If I am rich, I will help you."
         ]
       },
       "explanation": "في جملة if الماضي (were) لا would."
@@ -5874,7 +5886,8 @@
       "answer": {
         "accepted": [
           "If she called me, I would be happy.",
-          "I would be happy if she called me."
+          "I would be happy if she called me.",
+          "If she calls me, I will be happy."
         ]
       },
       "explanation": "في جملة if الماضي: called."
@@ -5891,7 +5904,8 @@
       },
       "answer": {
         "accepted": [
-          "He wouldn't say that if he knew."
+          "He wouldn't say that if he knew.",
+          "If he knew, he wouldn't say that."
         ]
       },
       "explanation": "لا to بعد would."
@@ -5923,7 +5937,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "لا تظنّ أنك ستربح: الشرط الثاني."
     },
     {
       "day_number": 2,
@@ -5941,7 +5955,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "المطر مرجّح: الشرط الأول."
     },
     {
       "day_number": 2,
@@ -5959,7 +5973,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "لا يسقط الثلج في مدينتك: متخيَّل، فالشرط الثاني."
     },
     {
       "day_number": 2,
@@ -5977,7 +5991,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "درس جيداً والنجاح ممكن: الشرط الأول."
     },
     {
       "day_number": 2,
@@ -5995,7 +6009,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "لست رئيساً: متخيَّل، فالشرط الثاني بـ were."
     },
     {
       "day_number": 2,
@@ -6033,7 +6047,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "الشرط الثاني يعني أن المتكلّم يراه بعيداً."
     },
     {
       "day_number": 2,
@@ -6052,7 +6066,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "الشرط الأول يعني أن المتكلّم يراه ممكناً فعلاً."
     },
     {
       "day_number": 2,
@@ -6085,7 +6099,8 @@
       },
       "answer": {
         "accepted": [
-          "If I see him, I will tell him."
+          "If I see him, I will tell him.",
+          "I will tell him if I see him."
         ]
       },
       "explanation": "ممكن: if + مضارع، ثم will."
@@ -6118,7 +6133,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "If I were you + I'd + فعل مجرّد."
     },
     {
       "day_number": 3,
@@ -6162,14 +6177,15 @@
       "focus_ar": "النصيحة",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "He gave me some very good ______.",
+      "prompt": "\"Practise every day,\" he said. He gave me some very good ______ (نصيحة).",
       "payload": {
-        "before": "He gave me some very good ",
-        "after": "."
+        "before": "\"Practise every day,\" he said. He gave me some very good ",
+        "after": " (نصيحة)."
       },
       "answer": {
         "accepted": [
-          "advice"
+          "advice",
+          "tips"
         ]
       },
       "explanation": "advice اسم لا يُعدّ: some advice، لا an advice."
@@ -6282,7 +6298,7 @@
           "had"
         ]
       },
-      "explanation": null
+      "explanation": "You'd better = You had better: نصيحة قوية فيها تحذير."
     },
     {
       "day_number": 4,
@@ -6318,7 +6334,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "ليس عندك سيارة: غير واقعي، فـ wish + ماضٍ."
     },
     {
       "day_number": 4,
@@ -6337,7 +6353,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "I wish I spoke…: الواقع عكسها، فهو لا يتكلّم الفرنسية."
     },
     {
       "day_number": 4,
@@ -6375,7 +6391,7 @@
           "was"
         ]
       },
-      "explanation": null
+      "explanation": "wish + were (أو was) لعكس الواقع الآن."
     },
     {
       "day_number": 4,
@@ -6393,7 +6409,7 @@
           "could"
         ]
       },
-      "explanation": null
+      "explanation": "can ← could بعد wish."
     },
     {
       "day_number": 4,
@@ -6412,7 +6428,7 @@
           "called"
         ]
       },
-      "explanation": null
+      "explanation": "عادة مزعجة عند غيرك: wish + would call، أو wish + called."
     },
     {
       "day_number": 4,
@@ -6477,7 +6493,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "would rather + فعل مجرّد بلا to ولا ing."
     },
     {
       "day_number": 5,
@@ -6515,7 +6531,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "I'd rather not = أفضّل ألّا… فهو لا يريد الكلام."
     },
     {
       "day_number": 5,
@@ -6533,7 +6549,7 @@
           "walk"
         ]
       },
-      "explanation": null
+      "explanation": "would rather + فعل مجرّد: walk."
     },
     {
       "day_number": 5,
@@ -6551,7 +6567,7 @@
           "to sit"
         ]
       },
-      "explanation": null
+      "explanation": "would prefer + to + فعل: to sit."
     },
     {
       "day_number": 5,
@@ -6569,7 +6585,7 @@
           "not"
         ]
       },
-      "explanation": null
+      "explanation": "النفي: I'd rather not + فعل مجرّد."
     },
     {
       "day_number": 5,
@@ -6587,7 +6603,7 @@
           "than"
         ]
       },
-      "explanation": null
+      "explanation": "would rather A than B."
     },
     {
       "day_number": 5,
@@ -6623,7 +6639,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "Would you…? سؤال يطلب بلطف."
     },
     {
       "day_number": 5,
@@ -6697,7 +6713,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "Why don't we + فعل مجرّد، وdon't قبل الفاعل."
     },
     {
       "day_number": 5,
@@ -6735,7 +6751,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "Good idea! للقبول، والباقي رفض أو شكّ."
     },
     {
       "day_number": 5,
@@ -6772,7 +6788,7 @@
           "trying"
         ]
       },
-      "explanation": null
+      "explanation": "How about + فعل بـ ing."
     },
     {
       "day_number": 5,
@@ -6790,7 +6806,7 @@
           "ask"
         ]
       },
-      "explanation": null
+      "explanation": "Why don't you + فعل مجرّد."
     },
     {
       "day_number": 5,
@@ -6808,7 +6824,7 @@
           "meet"
         ]
       },
-      "explanation": null
+      "explanation": "Let's + فعل مجرّد بلا to."
     },
     {
       "day_number": 5,
@@ -6886,7 +6902,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "He lived in a rented flat in San Francisco."
     },
     {
       "day_number": 6,
@@ -6899,7 +6915,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "the foundation closed in 2020."
     },
     {
       "day_number": 6,
@@ -6918,7 +6934,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "I'd buy my parents a house. I'd keep working."
     },
     {
       "day_number": 6,
@@ -6937,7 +6953,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "Eventually I'd get bored — فاعترفت أن السفر وحده لا يكفي."
     },
     {
       "day_number": 6,
@@ -6956,7 +6972,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "I wouldn't worry about money. That's different from having it."
     },
     {
       "day_number": 6,
@@ -6971,10 +6987,11 @@
       },
       "answer": {
         "accepted": [
-          "make"
+          "make",
+          "take"
         ]
       },
-      "explanation": "make a decision، لا do a decision."
+      "explanation": "make a decision (وtake a decision في البريطانية)، لا do a decision."
     },
     {
       "day_number": 6,
@@ -6992,7 +7009,7 @@
           "take"
         ]
       },
-      "explanation": null
+      "explanation": "take a risk = يخاطر."
     },
     {
       "day_number": 6,
@@ -7010,7 +7027,7 @@
           "living"
         ]
       },
-      "explanation": null
+      "explanation": "earn a living = يكسب رزقه."
     },
     {
       "day_number": 6,
@@ -7028,7 +7045,7 @@
           "on"
         ]
       },
-      "explanation": null
+      "explanation": "spend money on + الشيء."
     },
     {
       "day_number": 6,
@@ -7046,7 +7063,7 @@
           "from"
         ]
       },
-      "explanation": null
+      "explanation": "borrow money from + الشخص."
     },
     {
       "day_number": 6,
@@ -7064,7 +7081,7 @@
           "in"
         ]
       },
-      "explanation": null
+      "explanation": "be in debt = يكون مديناً."
     },
     {
       "day_number": 6,
@@ -7082,7 +7099,7 @@
           "worth"
         ]
       },
-      "explanation": null
+      "explanation": "be worth it = يستحقّ العناء."
     },
     {
       "day_number": 6,
@@ -7112,7 +7129,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "regret changes with time — وهذه فكرة المقال كلّه."
     },
     {
       "day_number": 7,
@@ -7131,7 +7148,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "سلمى: I still wonder. If I had the chance again, I'd go."
     },
     {
       "day_number": 7,
@@ -7150,7 +7167,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "طارق اقترض وفتح متجراً ففشل: فعلٌ فعله."
     },
     {
       "day_number": 7,
@@ -7169,7 +7186,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "منى: I think I'll call him tonight. Why wait?"
     },
     {
       "day_number": 7,
@@ -7188,7 +7205,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "wonder = يتساءل: تفكّر كيف كانت حياتها ستكون."
     },
     {
       "day_number": 7,
@@ -7207,7 +7224,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "we wouldn't worry so much about small mistakes… what would you try if you weren't afraid?"
     },
     {
       "day_number": 7,
@@ -7225,7 +7242,7 @@
           "could"
         ]
       },
-      "explanation": null
+      "explanation": "لا أستطيع المجيء: wish + could."
     },
     {
       "day_number": 7,
@@ -7244,7 +7261,7 @@
           "was"
         ]
       },
-      "explanation": null
+      "explanation": "if + were (أو was) ثم I'd."
     },
     {
       "day_number": 7,
@@ -7262,7 +7279,7 @@
           "but"
         ]
       },
-      "explanation": null
+      "explanation": "but يربط الرغبة بالسبب في الرفض المهذّب."
     },
     {
       "day_number": 7,
@@ -7277,10 +7294,11 @@
       },
       "answer": {
         "accepted": [
-          "don't"
+          "don't",
+          "can't"
         ]
       },
-      "explanation": null
+      "explanation": "Why don't we + فعل مجرّد: اقتراح."
     },
     {
       "day_number": 7,
@@ -7288,17 +7306,17 @@
       "focus_ar": "مراجعة الأسبوع — رسالة قصيرة",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "How about ______ to that new café near the park?",
+      "prompt": "How about ______ (go) to that new café near the park?",
       "payload": {
         "before": "How about ",
-        "after": " to that new café near the park?"
+        "after": " (go) to that new café near the park?"
       },
       "answer": {
         "accepted": [
           "going"
         ]
       },
-      "explanation": null
+      "explanation": "How about + فعل بـ ing."
     },
     {
       "day_number": 7,

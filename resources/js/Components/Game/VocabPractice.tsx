@@ -3,7 +3,7 @@ import { Check, PenLine, Quote } from 'lucide-react';
 import SpellInput, { SpellMarks } from '@/Components/Game/SpellInput';
 import { useMySpeech } from '@/hooks/useSpeech';
 import { arrowPrompt, checkSpelling, formsOf, type SpellResult } from '@/lib/spelling';
-import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS, AUTO_RETRY_MS } from '@/lib/autoAdvance';
+import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS, AUTO_RETRY_MS, MissNext } from '@/lib/autoAdvance';
 import { useT } from '@/lib/i18n';
 import { reportMiss } from '@/lib/wordMisses';
 import type { Word } from '@/Components/Game/Flashcards';
@@ -109,11 +109,7 @@ export default function VocabPractice({ words, onComplete }: { words: Word[]; on
   };
 
   // Right → on in 3s; first miss → second try; second miss → read it, then on
-  useAutoAdvance(
-    result !== null,
-    result?.verdict === 'right' ? AUTO_RIGHT_MS : final ? AUTO_REVEAL_MS : AUTO_RETRY_MS,
-    () => (final ? advance() : retry()),
-  );
+  useAutoAdvance(result?.verdict === 'right', AUTO_RIGHT_MS, () => advance());
 
   const check = () => {
     if (!current || !typed.trim() || result) return;
@@ -231,11 +227,13 @@ export default function VocabPractice({ words, onComplete }: { words: Word[]; on
         )}
       </div>
 
-      {result && (
+      {result && result.verdict === 'right' && (
         <div key={`${phase}-${index}-${attempt}`}>
-          <Countdown ms={result.verdict === 'right' ? AUTO_RIGHT_MS : final ? AUTO_REVEAL_MS : AUTO_RETRY_MS}
-            tone={result.verdict === 'right' ? 'emerald' : 'rose'} />
+          <Countdown ms={AUTO_RIGHT_MS} tone="emerald" />
         </div>
+      )}
+      {result && result.verdict !== 'right' && (
+        <MissNext label={final ? tr('التالي') : tr('حاول مرة أخرى')} onClick={() => (final ? advance() : retry())} />
       )}
     </div>
   );

@@ -625,18 +625,12 @@
         },
         {
           "order": 9,
-          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record:baseline"
-        },
-        {
-          "order": 10,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
         },
         {
-          "order": 11,
+          "order": 10,
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework"
@@ -2716,8 +2710,8 @@
         },
         {
           "speaker": "SAMI",
-          "en": "In my third year we moved to a new school. It was much better.",
-          "ar": "في سنتي الثالثة انتقلنا إلى مدرسة جديدة. كانت أفضل بكثير."
+          "en": "In my third year we moved to a new school. I loved it.",
+          "ar": "في سنتي الثالثة انتقلنا إلى مدرسة جديدة. وأحببتها كثيراً."
         },
         {
           "speaker": "LINA",
@@ -3273,10 +3267,10 @@
             3
           ]
         },
-        "arabic_contrast_ar": "العربية تقول «كان عندنا حديقة» و«كان فيه سوق»، فيترجمها المتعلّم Had a park أو Was a market بلا فاعل. والجملة الإنجليزية تحتاج there في أوّلها. وتقول العربية «كان هناك رجلان» بفعل مفرد قبل الجمع، فيقول المتعلّم There was two men. وفي الإنجليزية الفعل يتبع ما بعده: were مع الجمع.",
+        "arabic_contrast_ar": "العربية تقول «كانت لدينا حديقة» و«كان في القرية سوق»، فيترجمها المتعلّم Had a park أو Was a market بلا فاعل. والجملة الإنجليزية تحتاج there في أوّلها. وتقول العربية «كان هناك رجلان» بفعل مفرد قبل الجمع، فيقول المتعلّم There was two men. وفي الإنجليزية الفعل يتبع ما بعده: were مع الجمع.",
         "contrast_table": [
           {
-            "ar": "كان هناك حديقة قرب بيتنا.",
+            "ar": "كانت هناك حديقة قرب بيتنا.",
             "literal": "Had a park near our house.",
             "right": "There was a park near our house.",
             "rule_ar": "لوجود الشيء نقول There was لا Had."
@@ -3299,7 +3293,7 @@
             "error_no": 7,
             "wrong": "Had a park near our house.",
             "right": "There was a park near our house.",
-            "arabic": "كان هناك حديقة قرب بيتنا.",
+            "arabic": "كانت هناك حديقة قرب بيتنا.",
             "why_ar": "لوجود الشيء في مكان: There was"
           },
           {
@@ -4250,7 +4244,7 @@
         "title_en": "My Life Five Years Ago",
         "intro_ar": "احكِ عن حياتك قبل خمس سنوات كما تحكي لصديق: أين كنت، وماذا كنت تفعل، وما الذي تغيّر.",
         "cover_ar": null,
-        "model_en": "Five years ago my life was very different. // I was twenty-seven and I lived in a small flat with two friends. It wasn't comfortable, but it was cheap. //\nI worked in a shop near the station. The salary was low and the hours were long, but the people were kind. I started at eight and I finished at seven. // Every evening I studied for two hours because I wanted a better job. //\nAt the weekend I played football with my friends. We played every Friday morning for three years. // I was fitter then! //\nI wasn't married, and I couldn't drive, so I walked everywhere. There weren't any buses near our flat. But I travelled a lot — I visited four countries in one year. //\nIt was a difficult time and I was often worried about money. But when I remember it now, I think I was happy. // What about you? Where were you five years ago? //",
+        "model_en": "Five years ago my life was very different. // I was twenty-seven and I lived in a small flat with two friends. It wasn't comfortable, but it was cheap. //\nI worked in a shop near the station. The salary was low and the hours were long, but the people were kind. I started at eight and I finished at seven. // Every evening I studied for two hours because I wanted a new job. //\nAt the weekend I played football with my friends. We played every Friday morning for three years. // I was very fit then! //\nI wasn't married, and I couldn't drive, so I walked everywhere. There weren't any buses near our flat. But I travelled a lot — I visited four countries in one year. //\nIt was a difficult time and I was often worried about money. But when I remember it now, I think I was happy. // What about you? Where were you five years ago? //",
         "outline": [
           {
             "part_en": "The situation",
@@ -4680,7 +4674,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "لعب = play، والماضي played.",
       "points": 1
     },
     {
@@ -4700,7 +4694,7 @@
       "answer": {
         "correct": 3
       },
-      "explanation": null,
+      "explanation": "ساعد = help، والماضي helped.",
       "points": 1
     },
     {
@@ -4720,7 +4714,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "توقّف = stop، والماضي stopped بمضاعفة p.",
       "points": 1
     },
     {
@@ -4740,7 +4734,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "أجاب = answer، والماضي answered.",
       "points": 1
     },
     {
@@ -4760,7 +4754,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "احتاج = need، والماضي needed.",
       "points": 1
     },
     {
@@ -4780,7 +4774,7 @@
       "answer": {
         "correct": 3
       },
-      "explanation": null,
+      "explanation": "فتح = open، والماضي opened.",
       "points": 1
     },
     {
@@ -4796,7 +4790,8 @@
       },
       "answer": {
         "accepted": [
-          "was"
+          "was",
+          "wasn't"
         ]
       },
       "explanation": "was مع المفرد و I، وwere مع الجمع و you."
@@ -4814,7 +4809,8 @@
       },
       "answer": {
         "accepted": [
-          "were"
+          "were",
+          "weren't"
         ]
       },
       "explanation": "was مع المفرد و I، وwere مع الجمع و you.",
@@ -4833,7 +4829,8 @@
       },
       "answer": {
         "accepted": [
-          "was"
+          "was",
+          "wasn't"
         ]
       },
       "explanation": "was مع المفرد و I، وwere مع الجمع و you."
@@ -4851,7 +4848,8 @@
       },
       "answer": {
         "accepted": [
-          "were"
+          "were",
+          "weren't"
         ]
       },
       "explanation": "was مع المفرد و I، وwere مع الجمع و you.",
@@ -4870,7 +4868,8 @@
       },
       "answer": {
         "accepted": [
-          "were"
+          "were",
+          "weren't"
         ]
       },
       "explanation": "was مع المفرد و I، وwere مع الجمع و you.",
@@ -4889,7 +4888,8 @@
       },
       "answer": {
         "accepted": [
-          "was"
+          "was",
+          "wasn't"
         ]
       },
       "explanation": "was مع المفرد و I، وwere مع الجمع و you."
@@ -4907,7 +4907,8 @@
       },
       "answer": {
         "accepted": [
-          "were"
+          "were",
+          "weren't"
         ]
       },
       "explanation": "was مع المفرد و I، وwere مع الجمع و you.",
@@ -4926,7 +4927,8 @@
       },
       "answer": {
         "accepted": [
-          "was"
+          "was",
+          "wasn't"
         ]
       },
       "explanation": "was مع المفرد و I، وwere مع الجمع و you."
@@ -4944,7 +4946,8 @@
       },
       "answer": {
         "accepted": [
-          "were"
+          "were",
+          "weren't"
         ]
       },
       "explanation": "was مع المفرد و I، وwere مع الجمع و you.",
@@ -4963,7 +4966,8 @@
       },
       "answer": {
         "accepted": [
-          "were"
+          "were",
+          "weren't"
         ]
       },
       "explanation": "was مع المفرد و I، وwere مع الجمع و you.",
@@ -4982,7 +4986,8 @@
       },
       "answer": {
         "accepted": [
-          "Was"
+          "Was",
+          "Wasn't"
         ]
       },
       "explanation": "was مع المفرد و I، وwere مع الجمع و you."
@@ -5000,7 +5005,8 @@
       },
       "answer": {
         "accepted": [
-          "Were"
+          "Were",
+          "Weren't"
         ]
       },
       "explanation": "was مع المفرد و I، وwere مع الجمع و you.",
@@ -5021,7 +5027,7 @@
           "I wasn't at home."
         ]
       },
-      "explanation": null
+      "explanation": "was not = wasn't."
     },
     {
       "day_number": 2,
@@ -5038,7 +5044,7 @@
           "They weren't happy."
         ]
       },
-      "explanation": null
+      "explanation": "were not = weren't."
     },
     {
       "day_number": 2,
@@ -5055,7 +5061,7 @@
           "She wasn't a teacher."
         ]
       },
-      "explanation": null
+      "explanation": "was not = wasn't."
     },
     {
       "day_number": 2,
@@ -5072,7 +5078,7 @@
           "We weren't late."
         ]
       },
-      "explanation": null
+      "explanation": "were not = weren't."
     },
     {
       "day_number": 2,
@@ -5089,7 +5095,7 @@
           "There wasn't a garden."
         ]
       },
-      "explanation": null
+      "explanation": "there was not = there wasn't."
     },
     {
       "day_number": 2,
@@ -5124,7 +5130,7 @@
           "It wasn't easy."
         ]
       },
-      "explanation": null
+      "explanation": "was not = wasn't."
     },
     {
       "day_number": 2,
@@ -5141,7 +5147,7 @@
           "You weren't tired."
         ]
       },
-      "explanation": null
+      "explanation": "you تأخذ were: you weren't."
     },
     {
       "day_number": 1,
@@ -5430,7 +5436,7 @@
           "worked"
         ]
       },
-      "explanation": null
+      "explanation": "أغلب الأفعال: أضف -ed."
     },
     {
       "day_number": 1,
@@ -5448,7 +5454,7 @@
           "studied"
         ]
       },
-      "explanation": null
+      "explanation": "ساكن + y: تصير ied."
     },
     {
       "day_number": 1,
@@ -5467,7 +5473,7 @@
           "traveled"
         ]
       },
-      "explanation": null
+      "explanation": "البريطانية تضاعف l (travelled)، والأمريكية لا (traveled)."
     },
     {
       "day_number": 1,
@@ -5485,7 +5491,7 @@
           "arrived"
         ]
       },
-      "explanation": null
+      "explanation": "ينتهي بـ e: أضف -d فقط."
     },
     {
       "day_number": 1,
@@ -5503,7 +5509,7 @@
           "stopped"
         ]
       },
-      "explanation": null
+      "explanation": "مقطع واحد، علّة واحدة + ساكن واحد: ضاعف الساكن."
     },
     {
       "day_number": 1,
@@ -5521,7 +5527,7 @@
           "cooked"
         ]
       },
-      "explanation": null
+      "explanation": "أغلب الأفعال: أضف -ed."
     },
     {
       "day_number": 1,
@@ -5539,7 +5545,7 @@
           "listened"
         ]
       },
-      "explanation": null
+      "explanation": "listen مقطعان والنبر على الأول: أضف -ed بلا مضاعفة."
     },
     {
       "day_number": 1,
@@ -5557,7 +5563,7 @@
           "played"
         ]
       },
-      "explanation": null
+      "explanation": "حرف علّة + y: أضف -ed فقط."
     },
     {
       "day_number": 1,
@@ -5575,7 +5581,7 @@
           "decided"
         ]
       },
-      "explanation": null
+      "explanation": "ينتهي بـ e: أضف -d فقط."
     },
     {
       "day_number": 1,
@@ -5593,7 +5599,7 @@
           "lived"
         ]
       },
-      "explanation": null
+      "explanation": "ينتهي بـ e: أضف -d فقط."
     },
     {
       "day_number": 1,
@@ -5611,7 +5617,7 @@
           "called"
         ]
       },
-      "explanation": null
+      "explanation": "أغلب الأفعال: أضف -ed."
     },
     {
       "day_number": 1,
@@ -5629,7 +5635,7 @@
           "moved"
         ]
       },
-      "explanation": null
+      "explanation": "ينتهي بـ e: أضف -d فقط."
     },
     {
       "day_number": 4,
@@ -5809,10 +5815,10 @@
       "focus_ar": "العثور على صيغ الماضي",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "Sami worked until nine o'clock ______ night.",
+      "prompt": "Sami worked until nine o'clock ______ night, so he was tired this morning.",
       "payload": {
         "before": "Sami worked until nine o'clock ",
-        "after": " night."
+        "after": " night, so he was tired this morning."
       },
       "answer": {
         "accepted": [
@@ -5947,7 +5953,9 @@
       },
       "answer": {
         "accepted": [
-          "There was a shop here before."
+          "There was a shop here before.",
+          "Before there was a shop here.",
+          "Before, there was a shop here."
         ]
       },
       "explanation": "there is ← there was."
@@ -6115,10 +6123,10 @@
       "focus_ar": "تعبيرات الزمن",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "The film started ______ eight o'clock.",
+      "prompt": "The film started ______ eight o'clock exactly.",
       "payload": {
         "before": "The film started ",
-        "after": " eight o'clock."
+        "after": " eight o'clock exactly."
       },
       "answer": {
         "accepted": [
@@ -6140,7 +6148,8 @@
       },
       "answer": {
         "accepted": [
-          "on"
+          "on",
+          "last"
         ]
       },
       "explanation": "on مع اليوم."
@@ -6154,7 +6163,7 @@
       "prompt": "My brother called me three days ______.",
       "payload": {
         "before": "My brother called me three days ",
-        "after": "."
+        "after": " (قبل ثلاثة أيام من اليوم)."
       },
       "answer": {
         "accepted": [
@@ -6169,9 +6178,9 @@
       "focus_ar": "تعبيرات الزمن",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "I worked in that company ______ 2015 to 2020.",
+      "prompt": "I worked at that company ______ 2015 to 2020.",
       "payload": {
-        "before": "I worked in that company ",
+        "before": "I worked at that company ",
         "after": " 2015 to 2020."
       },
       "answer": {
@@ -6558,7 +6567,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "He walked about thirty kilometres every day."
     },
     {
       "day_number": 7,
@@ -6571,7 +6580,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "One April morning he tripped on a stone."
     },
     {
       "day_number": 7,
@@ -6610,7 +6619,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "He finished in 1912, when he was seventy-six."
     },
     {
       "day_number": 7,
@@ -6623,7 +6632,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "A very strange building, with animals, towers and faces all over it."
     },
     {
       "day_number": 7,
@@ -6684,7 +6693,7 @@
       "focus_ar": "أدوات الربط",
       "points": 1,
       "type": "multiple_choice",
-      "prompt": "The flat was small, ___ it was very clean.",
+      "prompt": "The flat was old, ___ it was very clean.",
       "payload": {
         "options": [
           "but",
@@ -6696,7 +6705,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": "but للمخالفة: صغيرة لكنها نظيفة"
+      "explanation": "but للمخالفة: قديمة لكنها نظيفة."
     },
     {
       "day_number": 7,
@@ -6751,7 +6760,8 @@
       },
       "answer": {
         "accepted": [
-          "so"
+          "so",
+          "and"
         ]
       },
       "explanation": "so قبل النتيجة"
@@ -7211,7 +7221,8 @@
       },
       "answer": {
         "accepted": [
-          "were"
+          "were",
+          "weren't"
         ]
       },
       "explanation": "two cinemas جمع.",
@@ -7230,7 +7241,8 @@
       },
       "answer": {
         "accepted": [
-          "was"
+          "was",
+          "wasn't"
         ]
       },
       "explanation": "a problem مفرد."
@@ -7284,7 +7296,8 @@
       },
       "answer": {
         "accepted": [
-          "Was"
+          "Was",
+          "Wasn't"
         ]
       },
       "explanation": "a hospital مفرد."
@@ -7302,7 +7315,8 @@
       },
       "answer": {
         "accepted": [
-          "Were"
+          "Were",
+          "Weren't"
         ]
       },
       "explanation": "any children جمع."
@@ -7713,10 +7727,11 @@
       },
       "answer": {
         "accepted": [
-          "can / couldn't"
+          "can / couldn't",
+          "can't / could"
         ]
       },
-      "explanation": "now ← can · five years ago ← couldn’t."
+      "explanation": "now ← can أو can’t · five years ago ← could أو couldn’t، والمعنيان متخالفان بسبب but."
     },
     {
       "day_number": 5,
@@ -8322,7 +8337,8 @@
       },
       "answer": {
         "accepted": [
-          "were"
+          "were",
+          "weren't"
         ]
       },
       "explanation": "we تأخذ were.",
@@ -8377,10 +8393,11 @@
       },
       "answer": {
         "accepted": [
-          "could"
+          "could",
+          "couldn't"
         ]
       },
-      "explanation": "القدرة في الماضي."
+      "explanation": "القدرة في الماضي: could أو couldn’t، وبعدها فعل مجرّد."
     },
     {
       "day_number": 7,
@@ -8391,7 +8408,7 @@
       "prompt": "I moved to this city five years ______.",
       "payload": {
         "before": "I moved to this city five years ",
-        "after": "."
+        "after": " (قبل خمس سنوات من الآن)."
       },
       "answer": {
         "accepted": [

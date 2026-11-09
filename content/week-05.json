@@ -128,8 +128,8 @@
         "ar": "اللغة: هل الفعل بعد can مجرّد بلا to ولا s؟ وبعد like و love و hate و good at بـ -ing؟ وهل استخدمت good صفةً و well حالاً، والرياضات بلا the (play football)؟"
       }
     ],
-    "model_answer": "In my free time I usually read and cook. I can cook quite well — my family says my rice is very, very good. I can also draw a little, but only cats and trees. I can't swim at all. I am afraid of deep water, and I think it is too late to learn. My wife says that isn't true. I love reading before I sleep. I read about thirty minutes every night. I don't like watching television much, and I hate waiting — in queues, in traffic, anywhere. This year I would like to learn photography.",
-    "model_words": 96
+    "model_answer": "In my free time I usually read and cook. I can cook quite well — my family says my rice is very, very good. I can also draw a little, but only cats and trees. I can't swim at all. I am afraid of deep water, and I think it is too late to learn. My wife says that isn't true. I love reading before I sleep. I read for about thirty minutes every night. I don't like watching television much, and I hate waiting — in queues, in traffic, anywhere. This year I would like to learn photography.",
+    "model_words": 99
   },
   "days": [
     {
@@ -1040,7 +1040,7 @@
     {
       "group": "hobbies_and_sports",
       "word": "camera",
-      "ipa": "/ˈkæmrə/",
+      "ipa": "/ˈkæmərə/",
       "arabic": "كاميرا",
       "example": "I have a new camera.",
       "group_label_ar": "الهوايات والرياضة",
@@ -1067,7 +1067,7 @@
       "group": "hobbies_and_sports",
       "word": "painting",
       "ipa": "/ˈpeɪntɪŋ/",
-      "arabic": "رسم",
+      "arabic": "رسم بالألوان",
       "example": "Painting is my favourite hobby.",
       "group_label_ar": "الهوايات والرياضة",
       "group_label_en": "Hobbies and Sports",
@@ -1405,7 +1405,7 @@
       "group": "how_well_you_do_it",
       "word": "badly",
       "ipa": "/ˈbædli/",
-      "arabic": "بشكل سيء",
+      "arabic": "بشكل سيّئ",
       "example": "I draw badly.",
       "group_label_ar": "إلى أي حدّ تُتقنه",
       "group_label_en": "How Well You Do It",
@@ -1899,13 +1899,13 @@
       "group": "useful_phrases",
       "word": "Not really, no.",
       "ipa": null,
-      "arabic": "ليس تماماً، لا",
+      "arabic": "ليس كثيراً، لا",
       "example": "Do you like golf? — Not really, no.",
       "group_label_ar": "عبارات نافعة",
       "group_label_en": "Useful Phrases",
       "target": "Not really, no",
       "sentence": "Do you like golf? — Not really, no.",
-      "sentence_ar": "هل تحب الغولف؟ — ليس تماماً، لا.",
+      "sentence_ar": "هل تحب الغولف؟ — ليس كثيراً، لا.",
       "usage_ar": "رفض مهذب وناعم بدل No وحدها."
     },
     {
@@ -2329,7 +2329,7 @@
         {
           "speaker": "LINA",
           "en": "Yes, I play tennis. I'm not very good, but I really enjoy it.",
-          "ar": "نعم، ألعب التنس. لست بارعة جداً، لكني أستمتع بها حقاً."
+          "ar": "نعم، ألعب التنس. لست بارعة جداً، لكني أستمتع به حقاً."
         },
         {
           "speaker": "SAMI",
@@ -3004,8 +3004,8 @@
                 "ar": "أحبّ القراءة. واليوم أودّ أن أقرأ كتاباً جديداً."
               },
               {
-                "en": "Would you like to play tennis with us? — Yes, please!",
-                "ar": "هل تودّ أن تلعب التنس معنا؟ — نعم، من فضلك!"
+                "en": "Would you like to play tennis with us? — Yes, I'd love to!",
+                "ar": "هل تودّ أن تلعب التنس معنا؟ — نعم، بكلّ سرور!"
               }
             ],
             "errors": [
@@ -3434,7 +3434,7 @@
             3
           ]
         },
-        "arabic_contrast_ar": "العربية لا فعل كون فيها في المضارع: «هو يقرأ الآن» — فيُسقط المتعلّم is ويقول He reading now. والإنجليزية تحتاج am / is / are قبل -ing دائماً. والعربية تقول «أقرأ» للعادة وللآن، والإنجليزية تفرّق: I read every day · I am reading now. وأفعال الحالة (know · like · want) لا تأخذ -ing — الخطأ الرابع عشر.",
+        "arabic_contrast_ar": "العربية لا فعل كون فيها في المضارع: «هو يقرأ الآن» — فيُسقط المتعلّم is ويقول He reading now. والإنجليزية تحتاج am / is / are قبل -ing دائماً. والعربية تقول «أقرأ» للعادة وللآن، والإنجليزية تفرّق: I read every day · I am reading now. وأفعال الحالة (know · like · want) لا تأتي بصيغة am / is / are + -ing: I know لا I am knowing — الخطأ الرابع عشر.",
         "contrast_table": [
           {
             "ar": "هو يقرأ كتاباً الآن.",
@@ -3468,7 +3468,7 @@
             "wrong": "I am knowing the answer.",
             "right": "I know the answer.",
             "arabic": "أعرف الجواب.",
-            "why_ar": "know و like و want لا تأخذ -ing — الخطأ الرابع عشر."
+            "why_ar": "know و like و want لا تأتي بصيغة am / is / are + -ing — الخطأ الرابع عشر."
           },
           {
             "error_no": null,
@@ -3481,7 +3481,7 @@
         "checklist_ar": [
           "الآن: am / is / are + -ing",
           "العادة: المضارع البسيط — I read every day",
-          "know · like · want بلا -ing"
+          "know · like · want بلا am / is / are + -ing: I know لا I am knowing"
         ],
         "lessons": [
           {
@@ -3598,7 +3598,7 @@
           },
           {
             "en": "One day, her granddaughter asks, \"Grandma, why don't you learn?\" Mariam laughs. \"I'm too old!\"",
-            "ar": "وفي يوم من الأيام تسألها حفيدتها: «جدّتي، لماذا لا تتعلّمين؟» فتضحك مريم: «أنا كبيرة جدّاً!»"
+            "ar": "وفي يوم من الأيام تسألها حفيدتها: «جدّتي، لماذا لا تتعلّمين؟» فتضحك مريم: «كبرتُ على هذا!»"
           },
           {
             "en": "The next week, she goes to a class for beginners at the swimming pool in her town. Everybody in the class is young — students, and mothers with small children.",
@@ -3703,7 +3703,7 @@
             "en": "customer",
             "ipa": "/ˈkʌstəmə(r)/",
             "ar": "زبون",
-            "note_ar": "رأيتها في الأسبوع الثالث"
+            "note_ar": "رأيتها في قراءة الأسبوع الثاني"
           },
           {
             "en": "online",
@@ -3811,7 +3811,7 @@
           },
           {
             "can_ar": "أكتب صيغة -ing لعشرة من اثني عشر فعلاً",
-            "can_en": "Write the -ing form of 10 of the 12 verbs in Exercise 3?",
+            "can_en": "Write the -ing form of 10 of the 12 verbs in Day 4's exercises?",
             "proof_ar": "تمارين اليوم 4"
           },
           {
@@ -3835,8 +3835,8 @@
             "proof_ar": "الحوار الثاني"
           },
           {
-            "can_ar": "أتذكّر 80 من 100 كلمة من العربية",
-            "can_en": "Recall 80 of the 100 words from the Arabic?",
+            "can_ar": "أتذكّر 80% من كلمات الأسبوع من العربية",
+            "can_en": "Recall 80% of this week's words from the Arabic?",
             "proof_ar": "جلسة المراجعة المتباعدة — تقول لك الرقم"
           },
           {
@@ -5125,10 +5125,11 @@
       },
       "answer": {
         "accepted": [
-          "travelling"
+          "travelling",
+          "traveling"
         ]
       },
-      "explanation": "البريطانية تضاعف l: travelling — والأمريكية traveling."
+      "explanation": "البريطانية تضاعف l: travelling — والأمريكية traveling، وكلتاهما صحيحة."
     },
     {
       "day_number": 4,
@@ -5235,7 +5236,8 @@
       },
       "answer": {
         "accepted": [
-          "travelling"
+          "travelling",
+          "traveling"
         ]
       },
       "explanation": "بعد enjoy يأتي -ing دائماً — لا to — و travel ← travelling."
@@ -5301,10 +5303,10 @@
       "focus_ar": "good أم well؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "She is a very ______ teacher.",
+      "prompt": "She is a very ______ teacher. (good / well)",
       "payload": {
         "before": "She is a very ",
-        "after": " teacher."
+        "after": " teacher. (good / well)"
       },
       "answer": {
         "accepted": [
@@ -5319,10 +5321,10 @@
       "focus_ar": "good أم well؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "He plays tennis very ______ .",
+      "prompt": "He plays tennis very ______. (good / well)",
       "payload": {
         "before": "He plays tennis very ",
-        "after": "."
+        "after": ". (good / well)"
       },
       "answer": {
         "accepted": [
@@ -5338,10 +5340,10 @@
       "focus_ar": "good أم well؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "I am not ______ at maths.",
+      "prompt": "I am not ______ at maths. (good / well)",
       "payload": {
         "before": "I am not ",
-        "after": " at maths."
+        "after": " at maths. (good / well)"
       },
       "answer": {
         "accepted": [
@@ -5356,10 +5358,10 @@
       "focus_ar": "good أم well؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "My father cooks ______ .",
+      "prompt": "My father cooks ______. (good / well)",
       "payload": {
         "before": "My father cooks ",
-        "after": "."
+        "after": ". (good / well)"
       },
       "answer": {
         "accepted": [
@@ -5375,10 +5377,10 @@
       "focus_ar": "good أم well؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "This is a ______ book.",
+      "prompt": "This is a ______ book. (good / well)",
       "payload": {
         "before": "This is a ",
-        "after": " book."
+        "after": " book. (good / well)"
       },
       "answer": {
         "accepted": [
@@ -5393,10 +5395,10 @@
       "focus_ar": "good أم well؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "They speak English quite ______ .",
+      "prompt": "They speak English quite ______. (good / well)",
       "payload": {
         "before": "They speak English quite ",
-        "after": "."
+        "after": ". (good / well)"
       },
       "answer": {
         "accepted": [
@@ -5412,10 +5414,10 @@
       "focus_ar": "good أم well؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "Are you ______ at chess?",
+      "prompt": "Are you ______ at chess? (good / well)",
       "payload": {
         "before": "Are you ",
-        "after": " at chess?"
+        "after": " at chess? (good / well)"
       },
       "answer": {
         "accepted": [
@@ -5430,10 +5432,10 @@
       "focus_ar": "good أم well؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "She draws really ______ .",
+      "prompt": "She draws really ______. (good / well)",
       "payload": {
         "before": "She draws really ",
-        "after": "."
+        "after": ". (good / well)"
       },
       "answer": {
         "accepted": [
@@ -5537,10 +5539,10 @@
       "focus_ar": "العثور على صيغ الأمر",
       "points": 1,
       "type": "free_text",
-      "prompt": "في الحوار الثاني ستّ جمل أمر. اكتبها كلّها، وضع علامة عند الجملة المنفيّة (النهي).",
+      "prompt": "في الحوار الثاني سبع جمل أمر. اكتبها كلّها، وضع علامة عند الجملة المنفيّة (النهي).",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: Sit down. · Hold the pencil like this. · Don't press too hard. (المنفيّة) · Put this finger here. · Now try again. · Practise every day. — وفي السطر قبل الأخير أمر سابع: practise ten minutes a day, and…"
+      "explanation": "الجواب النموذجي: Sit down. · Hold the pencil like this. · Don't press too hard. (المنفيّة) · Put this finger here. · Now try again. · Practise every day. · practise ten minutes a day (في السطر قبل الأخير)."
     },
     {
       "day_number": 6,
@@ -5863,7 +5865,7 @@
       "type": "fill_blank",
       "prompt": "Can you swim? — Yes, I ______.",
       "payload": {
-        "before": "Can you swim? — Yes, I",
+        "before": "Can you swim? — Yes, I ",
         "after": "."
       },
       "answer": {
@@ -5921,7 +5923,7 @@
       "type": "fill_blank",
       "prompt": "Please speak ______. (slow)",
       "payload": {
-        "before": "Please speak",
+        "before": "Please speak ",
         "after": ". (slow)"
       },
       "answer": {
@@ -5944,7 +5946,8 @@
       },
       "answer": {
         "accepted": [
-          "He speaks English well."
+          "He speaks English well.",
+          "He speaks good English."
         ]
       },
       "explanation": "الحال بعد الفعل ومفعوله: speaks English well.",
@@ -6017,10 +6020,10 @@
       "day_number": 6,
       "exercise_no": 6,
       "type": "fill_blank",
-      "prompt": "______ late! The class starts at nine.",
+      "prompt": "______ late! The class starts at nine. (لا تتأخّر)",
       "payload": {
         "before": "",
-        "after": "late! The class starts at nine."
+        "after": " late! The class starts at nine. (لا تتأخّر)"
       },
       "answer": {
         "accepted": [
@@ -6044,7 +6047,9 @@
       "answer": {
         "accepted": [
           "In general, I like cats.",
-          "I like cats in general."
+          "I like cats in general.",
+          "In general I like cats.",
+          "I like cats."
         ]
       },
       "explanation": "للحديث عن نوع بشكل عام: الجمع بلا the — «أحبّ القطط عموماً» = I like cats. والعربية تضع «الـ» هنا، والإنجليزية لا.",
@@ -6098,10 +6103,10 @@
       "day_number": 4,
       "exercise_no": 4,
       "type": "fill_blank",
-      "prompt": "I can ______ a horse.",
+      "prompt": "I can ______ a horse. (أركب)",
       "payload": {
-        "before": "I can",
-        "after": "a horse."
+        "before": "I can ",
+        "after": " a horse. (أركب)"
       },
       "answer": {
         "accepted": [
@@ -6119,8 +6124,8 @@
       "type": "fill_blank",
       "prompt": "Look! The children ______ in the garden. (play)",
       "payload": {
-        "before": "Look! The children",
-        "after": "in the garden. (play)"
+        "before": "Look! The children ",
+        "after": " in the garden. (play)"
       },
       "answer": {
         "accepted": [
@@ -6186,7 +6191,7 @@
           "I know her."
         ]
       },
-      "explanation": "know لا تأخذ -ing ولو كان المعنى الآن — الخطأ الرابع عشر. ومثلها like و want.",
+      "explanation": "know لا تأتي بصيغة am / is / are + -ing ولو كان المعنى الآن — الخطأ الرابع عشر. ومثلها like و want: لا I am liking.",
       "focus_ar": "نظرة أولى: am / is / are + -ing",
       "error_no": 14,
       "points": 1
@@ -6810,10 +6815,10 @@
       "exercise_no": 5,
       "type": "fill_blank",
       "focus_ar": "الحال بـ ly",
-      "prompt": "Please drive ______ . (careful)",
+      "prompt": "Please drive ______. (careful)",
       "payload": {
         "before": "Please drive ",
-        "after": " . (careful)"
+        "after": ". (careful)"
       },
       "answer": {
         "accepted": [
@@ -6829,10 +6834,10 @@
       "exercise_no": 5,
       "type": "fill_blank",
       "focus_ar": "الحال بـ ly",
-      "prompt": "He can do this puzzle ______ . (easy)",
+      "prompt": "He can do this puzzle ______. (easy)",
       "payload": {
         "before": "He can do this puzzle ",
-        "after": " . (easy)"
+        "after": ". (easy)"
       },
       "answer": {
         "accepted": [
@@ -6867,10 +6872,10 @@
       "exercise_no": 5,
       "type": "fill_blank",
       "focus_ar": "الحال بـ ly",
-      "prompt": "She runs very ______ . (سريعاً)",
+      "prompt": "She runs very ______. (سريعاً)",
       "payload": {
         "before": "She runs very ",
-        "after": " . (سريعاً)"
+        "after": ". (سريعاً)"
       },
       "answer": {
         "accepted": [
@@ -6894,7 +6899,8 @@
       "answer": {
         "accepted": [
           "I can't swim at all.",
-          "I cannot swim at all."
+          "I cannot swim at all.",
+          "I can swim."
         ]
       },
       "explanation": "at all في الجملة المنفيّة فقط.",
@@ -6912,7 +6918,8 @@
       },
       "answer": {
         "accepted": [
-          "She speaks English very well."
+          "She speaks English very well.",
+          "She speaks very good English."
         ]
       },
       "explanation": "الحال بعد الفعل ومفعوله: speaks English very well.",
@@ -7030,7 +7037,8 @@
       "answer": {
         "accepted": [
           "Please open the window.",
-          "Open the window, please."
+          "Open the window, please.",
+          "Open the window please."
         ]
       },
       "explanation": "لا فاعل في الأمر.",
@@ -7222,10 +7230,10 @@
       "exercise_no": 7,
       "type": "fill_blank",
       "focus_ar": "نظرة أولى: am / is / are + -ing",
-      "prompt": "Be quiet! The baby ______ . (sleep)",
+      "prompt": "Be quiet! The baby ______. (sleep)",
       "payload": {
         "before": "Be quiet! The baby ",
-        "after": " . (sleep)"
+        "after": ". (sleep)"
       },
       "answer": {
         "accepted": [

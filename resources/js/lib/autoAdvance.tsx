@@ -1,13 +1,13 @@
 import { useEffect, useRef } from 'react';
 
 /**
- * Move on by itself after an answer — no "Next" button.
+ * Move on by itself after a RIGHT answer — and only then.
  *
- * The learner asked for it: a button after every answer is a press that
- * teaches nothing. A correct answer waits 3 seconds (hear the word, see
- * the tick); a revealed correction waits longer, since that is the moment
- * that has to be read. The bar shows the time left, so the move is never
- * a surprise.
+ * A right answer needs no press: 3 seconds to hear the word and see the
+ * tick. A miss is different. It is the moment the learner must read why,
+ * and a timer that takes the correction away before it is read wastes
+ * the one lesson in the item. So after a miss the screen waits, with a
+ * button (MissNext) for when the learner is ready.
  */
 export const AUTO_RIGHT_MS = 3000;
 export const AUTO_REVEAL_MS = 5000;
@@ -23,6 +23,25 @@ export function useAutoAdvance(active: boolean, ms: number, go: () => void) {
     const id = window.setTimeout(() => fn.current(), ms);
     return () => window.clearTimeout(id);
   }, [active, ms]);
+}
+
+/**
+ * The way on after a miss: try again, or the next item.
+ * Focused on mount, so Enter works as it did with the timer.
+ */
+export function MissNext({ label, onClick }: { label: string; onClick: () => void }) {
+  const ref = useRef<HTMLButtonElement>(null);
+  useEffect(() => { ref.current?.focus({ preventScroll: true }); }, []);
+
+  return (
+    <button
+      ref={ref}
+      onClick={onClick}
+      className="mt-4 min-h-12 w-full rounded-xl bg-slate-900 text-sm font-semibold text-white transition hover:bg-slate-800"
+    >
+      {label}
+    </button>
+  );
 }
 
 /** A thin bar that empties over `ms` — keyed so it restarts per answer */

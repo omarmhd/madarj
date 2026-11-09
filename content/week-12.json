@@ -501,7 +501,7 @@
       "title_ar": "القواعد — الأزمنة في صفحة واحدة والماضي",
       "title_en": "Grammar Consolidation",
       "payload": {
-        "rule_ar": "الأزمنة كلها في صفحة واحدة: ثمانية صفوف وأربعة وعشرون جملة. اقرأ الجدول بصوت عالٍ كل يوم هذا الأسبوع، فإن أنتجتها بلا تردّد فأنت تملك نواة قواعد مستوى A2. وتحت الجدول الأخطاء العشرة، وشجرة اختيار الزمن، ومراجعة الأسبوعين 7 و8. وباقي الوحدة في درس الغد.",
+        "rule_ar": "الأزمنة كلها في صفحة واحدة: ثمانية صفوف وأربع وعشرون جملة. اقرأ الجدول بصوت عالٍ كل يوم هذا الأسبوع، فإن أنتجتها بلا تردّد فأنت تملك نواة قواعد مستوى A2. وتحت الجدول الأخطاء العشرة، وشجرة اختيار الزمن، ومراجعة الأسبوعين 7 و8. وباقي الوحدة في درس الغد.",
         "rule_en": "Read this table aloud every day this week. Eight rows. If you can produce all twenty-four sentences without hesitating, you have the grammatical core of English A2.",
         "common_errors": [
           {
@@ -647,7 +647,7 @@
         },
         "lessons": [
           {
-            "title_ar": "أيّ زمن؟ ستة أسئلة بالترتيب",
+            "title_ar": "أيّ زمن؟ سبعة أسئلة بالترتيب",
             "title_en": "Which tense? The decision tree",
             "explain_ar": "اسأل نفسك بالترتيب، وأوّل «نعم» تختار زمنك. ثم تأكّد من كلمة الوقت في الجملة: yesterday وago للماضي، وnow وat the moment للمستمر، وevery day للبسيط، وnext year للمستقبل.",
             "table": {
@@ -658,14 +658,14 @@
               ],
               "rows": [
                 [
-                  "انتهى في الماضي؟",
-                  "Past Simple",
-                  "I worked yesterday."
-                ],
-                [
                   "كان جارياً في لحظة من الماضي؟",
                   "Past Continuous",
                   "I was working at nine last night."
+                ],
+                [
+                  "انتهى في الماضي؟",
+                  "Past Simple",
+                  "I worked yesterday."
                 ],
                 [
                   "يحدث الآن، أو مؤقّت؟",
@@ -678,14 +678,14 @@
                   "I work in a bank."
                 ],
                 [
-                  "خطة مقرّرة سلفاً؟",
-                  "going to",
-                  "I am going to change jobs."
-                ],
-                [
                   "موعد بتاريخ ومع أشخاص؟",
                   "Present Continuous",
                   "I am meeting her at six."
+                ],
+                [
+                  "خطة مقرّرة سلفاً؟",
+                  "going to",
+                  "I am going to change jobs."
                 ],
                 [
                   "رأي أو عرض أو وعد أو قرار لحظيّ؟",
@@ -1094,7 +1094,7 @@
       "title_ar": "درجتك في الاختبار — أين أنت الآن",
       "title_en": "Your A2 Test Score",
       "payload": {
-        "rule_ar": "اجمع درجتك من 100: نتيجة اليوم الرابع من 60 (قراءة 20 · قواعد 25 · مفردات 15)، ونتيجة اليوم الخامس من 30 (استماع 15 · نطق 10 · كتابة 5)، والكتابة الطويلة من 10 بمعاييرها الأربعة. واحسب ما صحّ من المحاولة الأولى وحده، فهو الرقم الذي تعرضه النتيجة. والتسجيل يُقيَّم وحده من 10، و7 فأكثر تعني أن كلامك في مستوى A2.",
+        "rule_ar": "اجمع درجتك من 100: نتيجة اليوم الرابع من 60 (قراءة 14 · قواعد 31 · مفردات 15)، ونتيجة اليوم الخامس من 30 (استماع 15 · نطق 10 · كتابة 5)، والكتابة الطويلة من 10 بمعاييرها الأربعة. واحسب ما صحّ من المحاولة الأولى وحده، فهو الرقم الذي تعرضه النتيجة. والتسجيل يُقيَّم وحده من 10، و7 فأكثر تعني أن كلامك في مستوى A2.",
         "checklist_ar": [
           "85–100: مستوى A2 متين. انتقل، وفكّر في المسار B إن كنت في المسار A.",
           "70–84: مستوى A2، وهي النتيجة الطبيعية. درّب أضعف قسمين عشر دقائق يومياً.",
@@ -1140,12 +1140,12 @@
               "working",
               "going",
               "thing",
-              "sing"
+              "long"
             ]
           },
           {
             "ipa": "الشوا /ə/",
-            "arabic_hint": "أكثر أصوات الإنجليزية شيوعاً — كل مقطع غير منبور",
+            "arabic_hint": "أكثر أصوات الإنجليزية شيوعاً — تأتي في كثير من المقاطع غير المنبورة",
             "examples": [
               "about",
               "teacher",
@@ -1164,7 +1164,7 @@
           },
           {
             "ipa": "الصيغ الضعيفة",
-            "arabic_hint": "was و were و did و to تُسحق إلى الشوا",
+            "arabic_hint": "was و were و to و for تضعف حركتها إلى الشوا حين لا تُنبر",
             "examples": [
               "was",
               "were",
@@ -1206,14 +1206,14 @@
           },
           {
             "ipa": "اختبار 3: won't",
-            "arabic_hint": "اسمع الزوج مرّتين، ثم قله.",
+            "arabic_hint": "اسمع الزوج مرّتين، ثم قله: won't غير want، وI'll غير I.",
             "examples": [
               "won't",
               "want",
               "I'll",
-              "aisle",
+              "I",
               "we'll",
-              "wheel"
+              "we"
             ]
           },
           {
@@ -1222,8 +1222,8 @@
             "examples": [
               "thin",
               "thing",
-              "sin",
-              "sing",
+              "win",
+              "wing",
               "ban",
               "bang"
             ]
@@ -1241,8 +1241,8 @@
         "method_ar": "استمع إليها مرّة، ثم اقرأها بصوت عالٍ مسجّلاً نفسك على جوالك، ثم استمع إلى تسجيلك وأجب عن الأسئلة تحتها واحداً واحداً.",
         "story": [
           {
-            "en": "Last year I worked in a small office near the station. I started at eight every morning and I usually walked, because the traffic was worse than the walk. I wanted a better job, so I studied every evening for three months.",
-            "ar": "في السنة الماضية عملت في مكتب صغير قرب المحطة. كنت أبدأ في الثامنة كل صباح وأذهب ماشياً عادةً، لأن الزحام كان أسوأ من المشي. وكنت أريد عملاً أفضل، فدرست كل مساء ثلاثة أشهر."
+            "en": "Last year I worked in a small office near the station. I started at eight every morning and I usually walked, because the traffic was bad and the bus was worse. I wanted a better job, so I studied every evening for three months.",
+            "ar": "في السنة الماضية عملت في مكتب صغير قرب المحطة. كنت أبدأ في الثامنة كل صباح وأذهب ماشياً عادةً، لأن الزحام كان شديداً والحافلة أسوأ. وكنت أريد عملاً أفضل، فدرست كل مساء ثلاثة أشهر."
           },
           {
             "en": "In March a company was looking for an engineer. I applied, and they called me a week later. The interview was much harder than I expected, but they offered me the job.",
@@ -1299,7 +1299,7 @@
       "title_ar": "درجتك في الاختبار — أين أنت الآن",
       "title_en": "Module Test — Self-Check",
       "payload": {
-        "intro_ar": "اجمع درجتك من 100: اختبار اليوم الرابع من 60 (قراءة 20 · قواعد 25 · مفردات 15)، واختبار اليوم الخامس من 30 (استماع 15 · نطق 10 · كتابة 5)، والكتابة الطويلة من 10. واحسب ما صحّ من المحاولة الأولى وحده. 85–100: A2 متين، انتقل وفكّر في المسار B. 70–84: A2، النتيجة الطبيعية، فدرّب أضعف قسمين عشر دقائق يومياً. 50–69: A2 غير مكتمل، خذ أسبوعاً إضافياً على القواعد. أقل من 50: ما زلت في A1+، أعد الأسابيع 7–11 متحدّثاً بصوت عالٍ. ثم أشّر هنا بصدق. وبعد إنهاء اليوم يظهر لك اختبار المستوى A2: هو الذي يفتح الوحدة الثالثة ويعطيك الشهادة.",
+        "intro_ar": "اجمع درجتك من 100: اختبار اليوم الرابع من 60 (قراءة 14 · قواعد 31 · مفردات 15)، واختبار اليوم الخامس من 30 (استماع 15 · نطق 10 · كتابة 5)، والكتابة الطويلة من 10. واحسب ما صحّ من المحاولة الأولى وحده. 85–100: A2 متين، انتقل وفكّر في المسار B. 70–84: A2، النتيجة الطبيعية، فدرّب أضعف قسمين عشر دقائق يومياً. 50–69: A2 غير مكتمل، خذ أسبوعاً إضافياً على القواعد. أقل من 50: ما زلت في A1+، أعد الأسابيع 7–11 متحدّثاً بصوت عالٍ. ثم أشّر هنا بصدق. وبعد إنهاء اليوم يظهر لك اختبار المستوى A2: هو الذي يفتح الوحدة الثالثة ويعطيك الشهادة.",
         "items": [
           {
             "can_ar": "أحكي ما حدث في الماضي بأفعال قياسية وشاذّة",
@@ -1319,7 +1319,7 @@
           },
           {
             "can_ar": "أفهم إعلاناً ورسالة وقصة قصيرة",
-            "proof_ar": "اختبار القراءة 15 من 20 فأكثر"
+            "proof_ar": "اختبار القراءة 11 من 14 فأكثر"
           },
           {
             "can_ar": "ألتقط الأوقات والأماكن والفكرة الرئيسة ممّا أسمع",
@@ -1837,8 +1837,8 @@
               "ours": false
             },
             {
-              "prompt": "sing",
-              "answer": "sang",
+              "prompt": "shake",
+              "answer": "shook",
               "ipa": null,
               "ours": false
             },
@@ -2147,7 +2147,7 @@
                 "ولا يتفاعل مع نبرتك إلا إنسان"
               ]
             ],
-            "closing_ar": "والصورة الصحيحة: الذكاء الاصطناعيّ هو التمرين في الصالة، والمحادثة الحقيقيّة هي المباراة. تحتاج الصالة أكثر بكثير — لكن من يتمرّن فيها عمره كلّه ولا يلعب مباراة لم يلعب قطّ.",
+            "closing_ar": "والصورة الصحيحة: الذكاء الاصطناعيّ هو التمرين في الصالة، والمحادثة الحقيقيّة هي المباراة. تحتاج الصالة أكثر بكثير — لكن من قضى عمره في الصالة ولم يدخل مباراةً فما لعب قطّ.",
             "table": {
               "head_ar": [
                 "الأداة",
@@ -2168,7 +2168,7 @@
                 [
                   "ELSA Speak",
                   "للنطق وحده — يعطي درجةً لكل صوت",
-                  "أقوى أداة متاحة لأصوات قسم النطق في كل فصل"
+                  "من أقوى الأدوات لأصوات قسم النطق في كل فصل"
                 ],
                 [
                   "Speechling",
@@ -2180,7 +2180,7 @@
           },
           {
             "code_ar": "ج — تدريب بلا شريك",
-            "lead_ar": "طريقٌ يُبخَس حقّه، وهو متاح للجميع الليلة: بلا حساب وبلا شريك. وكل أسلوب هنا يستعمله المترجمون المحترفون.",
+            "lead_ar": "طريقٌ يُبخَس حقّه، وهو متاح للجميع الليلة: بلا حساب وبلا شريك. وأوّلها — الظلّ — يتدرّب به المترجمون الفوريّون.",
             "closing_ar": "الظلّ مع تسجيل نفسك أقوى خلطة مجّانيّة موجودة. الظلّ يبني الإيقاع والسرعة، والتسجيل يبني الدقّة لأنك تسمع أخطاءك سماعاً لا يتيسّر لك وأنت تتكلّم. عشرون دقيقة منهما يوميّاً تعطيك أكثر من درس أسبوعيّ وحده.",
             "table": {
               "head_ar": [
@@ -2289,8 +2289,8 @@
         "before": {
           "title_ar": "قبل المحادثة — عشرون دقيقة",
           "steps_ar": [
-            "اكتب ستّ جمل عن نفسك وقُلها بصوت عالٍ خمس مرّات: اسمك، وعملك، وأسرتك، ولماذا تتعلّم الإنجليزية، ومنذ متى، وشيء فعلته الأسبوع الماضي. هذه افتتاحيّتك.",
-            "اكتب خمسة أسئلة تسألها: من أين أنت؟ منذ متى تُدرّس؟ ماذا تفعل في وقت فراغك؟ أين تعلّمت العربية؟ ما أصعب شيء في الإنجليزية على العرب برأيك؟",
+            "اكتب ستّ جمل عن نفسك وقُلها بصوت عالٍ خمس مرّات: اسمك، وعملك، وأسرتك، ولماذا تتعلّم الإنجليزية، ومتى بدأت، وشيء فعلته الأسبوع الماضي. هذه افتتاحيّتك.",
+            "اكتب خمسة أسئلة تسألها: من أين أنت؟ متى بدأت التدريس؟ ماذا تفعل في وقت فراغك؟ أين تعلّمت العربية؟ ما أصعب شيء في الإنجليزية على العرب برأيك؟",
             "اكتب عبارات النجاة وضعها أمام عينيك.",
             "جرّب الميكروفون والكاميرا قبل الموعد بعشر دقائق. والذعر التقنيّ أسوأ بداية ممكنة.",
             "اجلس في مكان هادئ وإضاءته جيّدة. ضع ماءً بجانبك، وأغلق كل نافذة أخرى على شاشتك."
@@ -2583,7 +2583,7 @@
               },
               {
                 "word": "What is he like?",
-                "ar": "سؤال عن الشخصية لا عن الحبّ. والجواب صفات: He is quiet."
+                "ar": "سؤال عن الشخصية لا عمّا يحبّه. والجواب صفات: He is quiet."
               },
               {
                 "word": "than",
@@ -2988,7 +2988,7 @@
           "thought"
         ]
       },
-      "explanation": null,
+      "explanation": "think ← thought: فعل شاذّ يُحفظ.",
       "points": 1,
       "error_no": 13
     },
@@ -3007,7 +3007,7 @@
           "took"
         ]
       },
-      "explanation": null,
+      "explanation": "take ← took: فعل شاذّ يُحفظ.",
       "points": 1,
       "error_no": 13
     },
@@ -3026,7 +3026,7 @@
           "wrote"
         ]
       },
-      "explanation": null,
+      "explanation": "write ← wrote: فعل شاذّ يُحفظ.",
       "points": 1,
       "error_no": 13
     },
@@ -3045,7 +3045,7 @@
           "childhood"
         ]
       },
-      "explanation": null,
+      "explanation": "طفولة = childhood.",
       "points": 1,
       "error_no": null
     },
@@ -3064,7 +3064,7 @@
           "flight"
         ]
       },
-      "explanation": null,
+      "explanation": "رحلة جوية = flight.",
       "points": 1,
       "error_no": null
     },
@@ -3080,10 +3080,11 @@
       },
       "answer": {
         "accepted": [
-          "luggage"
+          "luggage",
+          "baggage"
         ]
       },
-      "explanation": null,
+      "explanation": "أمتعة = luggage.",
       "points": 1,
       "error_no": null
     },
@@ -3102,7 +3103,7 @@
           "appointment"
         ]
       },
-      "explanation": null,
+      "explanation": "موعد = appointment.",
       "points": 1,
       "error_no": null
     },
@@ -3118,10 +3119,11 @@
       },
       "answer": {
         "accepted": [
-          "postpone"
+          "postpone",
+          "put off"
         ]
       },
-      "explanation": null,
+      "explanation": "يؤجّل = postpone.",
       "points": 1,
       "error_no": null
     },
@@ -3447,7 +3449,7 @@
           "ago"
         ]
       },
-      "explanation": null,
+      "explanation": "ago بعد المدّة: two years ago.",
       "points": 1,
       "error_no": null
     },
@@ -3482,7 +3484,8 @@
       },
       "answer": {
         "accepted": [
-          "to"
+          "to",
+          "over"
         ]
       },
       "explanation": "prefer … to …",
@@ -3501,10 +3504,11 @@
       },
       "answer": {
         "accepted": [
-          "check"
+          "check",
+          "look at"
         ]
       },
-      "explanation": null,
+      "explanation": "Let me check my diary = دعني أنظر في مفكّرتي.",
       "points": 1,
       "error_no": null
     },
@@ -3520,10 +3524,11 @@
       },
       "answer": {
         "accepted": [
-          "cheap"
+          "cheap",
+          "inexpensive"
         ]
       },
-      "explanation": null,
+      "explanation": "عكس expensive هو cheap.",
       "points": 1,
       "error_no": null
     },
@@ -3542,7 +3547,7 @@
           "impatient"
         ]
       },
-      "explanation": null,
+      "explanation": "عكس patient هو impatient.",
       "points": 1,
       "error_no": null
     },
@@ -3559,10 +3564,11 @@
       "answer": {
         "accepted": [
           "shy",
-          "nervous"
+          "nervous",
+          "unconfident"
         ]
       },
-      "explanation": null,
+      "explanation": "عكس confident هو shy.",
       "points": 1,
       "error_no": null
     },
@@ -3582,7 +3588,7 @@
           "forecast"
         ]
       },
-      "explanation": null,
+      "explanation": "توقعات الطقس = weather forecast.",
       "points": 1,
       "error_no": null
     },
@@ -3602,7 +3608,7 @@
           "elevator"
         ]
       },
-      "explanation": null,
+      "explanation": "مصعد = lift.",
       "points": 1,
       "error_no": null
     },
@@ -3621,7 +3627,7 @@
           "village"
         ]
       },
-      "explanation": null,
+      "explanation": "قرية = village.",
       "points": 1,
       "error_no": null
     },
@@ -3638,10 +3644,12 @@
       "answer": {
         "accepted": [
           "book",
-          "buy"
+          "buy",
+          "get",
+          "reserve"
         ]
       },
-      "explanation": null,
+      "explanation": "book a ticket = يحجز تذكرة.",
       "points": 1,
       "error_no": null
     },
@@ -3660,7 +3668,7 @@
           "delayed"
         ]
       },
-      "explanation": null,
+      "explanation": "delayed = تأخّر عن موعده.",
       "points": 1,
       "error_no": null
     },
@@ -3678,10 +3686,12 @@
         "accepted": [
           "free",
           "available",
-          "busy"
+          "busy",
+          "working",
+          "off"
         ]
       },
-      "explanation": null,
+      "explanation": "Are you free on…? سؤال عن وقت الفراغ.",
       "points": 1,
       "error_no": null
     },
@@ -3962,7 +3972,7 @@
           "went"
         ]
       },
-      "explanation": null,
+      "explanation": "go ← went: فعل شاذّ يُحفظ.",
       "points": 1,
       "error_no": 13
     },
@@ -3981,7 +3991,7 @@
           "bought"
         ]
       },
-      "explanation": null,
+      "explanation": "buy ← bought: فعل شاذّ يُحفظ.",
       "points": 1,
       "error_no": 13
     },
@@ -4000,7 +4010,7 @@
           "paid"
         ]
       },
-      "explanation": null,
+      "explanation": "pay ← paid: فعل شاذّ يُحفظ.",
       "points": 1,
       "error_no": 13
     },
@@ -4019,7 +4029,7 @@
           "left"
         ]
       },
-      "explanation": null,
+      "explanation": "leave ← left: فعل شاذّ يُحفظ.",
       "points": 1,
       "error_no": 13
     },
@@ -4038,7 +4048,7 @@
           "slept"
         ]
       },
-      "explanation": null,
+      "explanation": "sleep ← slept: فعل شاذّ يُحفظ.",
       "points": 1,
       "error_no": 13
     },
@@ -4057,7 +4067,7 @@
           "knew"
         ]
       },
-      "explanation": null,
+      "explanation": "know ← knew: فعل شاذّ يُحفظ.",
       "points": 1,
       "error_no": 13
     },
@@ -4096,7 +4106,7 @@
           "journey"
         ]
       },
-      "explanation": null,
+      "explanation": "رحلة = trip.",
       "points": 1,
       "error_no": null
     },
@@ -4112,10 +4122,11 @@
       },
       "answer": {
         "accepted": [
-          "interview"
+          "interview",
+          "job interview"
         ]
       },
-      "explanation": null,
+      "explanation": "مقابلة عمل = interview.",
       "points": 1,
       "error_no": null
     },
@@ -4131,10 +4142,11 @@
       },
       "answer": {
         "accepted": [
-          "salary"
+          "salary",
+          "wage"
         ]
       },
-      "explanation": null,
+      "explanation": "راتب = salary.",
       "points": 1,
       "error_no": null
     },
@@ -4153,7 +4165,7 @@
           "patient"
         ]
       },
-      "explanation": null,
+      "explanation": "صبور = patient.",
       "points": 1,
       "error_no": null
     },
@@ -4172,7 +4184,7 @@
           "generous"
         ]
       },
-      "explanation": null,
+      "explanation": "كريم = generous.",
       "points": 1,
       "error_no": null
     },
@@ -4191,7 +4203,7 @@
           "shy"
         ]
       },
-      "explanation": null,
+      "explanation": "خجول = shy.",
       "points": 1,
       "error_no": null
     },
@@ -4207,10 +4219,11 @@
       },
       "answer": {
         "accepted": [
-          "crowded"
+          "crowded",
+          "busy"
         ]
       },
-      "explanation": null,
+      "explanation": "مزدحم = crowded.",
       "points": 1,
       "error_no": null
     },
@@ -4227,10 +4240,11 @@
       "answer": {
         "accepted": [
           "selfish",
-          "mean"
+          "mean",
+          "stingy"
         ]
       },
-      "explanation": null,
+      "explanation": "عكس generous هو selfish.",
       "points": 1,
       "error_no": null
     },
@@ -4250,7 +4264,7 @@
           "depart"
         ]
       },
-      "explanation": null,
+      "explanation": "عكس arrive هو leave.",
       "points": 1,
       "error_no": null
     },
@@ -4269,7 +4283,7 @@
           "took"
         ]
       },
-      "explanation": null,
+      "explanation": "take photos = يلتقط صوراً، وماضيها took.",
       "points": 1,
       "error_no": null
     },
@@ -4288,7 +4302,7 @@
           "missed"
         ]
       },
-      "explanation": null,
+      "explanation": "miss a train = فاته القطار.",
       "points": 1,
       "error_no": null
     },
@@ -4308,7 +4322,7 @@
           "book"
         ]
       },
-      "explanation": null,
+      "explanation": "make an appointment = يحدّد موعداً.",
       "points": 1,
       "error_no": null
     },
@@ -4328,7 +4342,7 @@
           "spent"
         ]
       },
-      "explanation": null,
+      "explanation": "wait أو spend + المدّة: I waited two hours.",
       "points": 1,
       "error_no": null
     },
@@ -4347,7 +4361,7 @@
           "try"
         ]
       },
-      "explanation": null,
+      "explanation": "try on = يقيس الملابس.",
       "points": 1,
       "error_no": null
     },
@@ -4367,7 +4381,7 @@
           "were"
         ]
       },
-      "explanation": null,
+      "explanation": "got married = تزوّج.",
       "points": 1,
       "error_no": null
     },
@@ -4808,7 +4822,9 @@
       "answer": {
         "accepted": [
           "First / Finally",
-          "First / After that"
+          "First / After that",
+          "First / Lastly",
+          "First / In the end"
         ]
       },
       "explanation": "First للبداية وFinally للنهاية.",
@@ -5120,7 +5136,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "CLOSED ON MONDAYS = مغلق أيام الاثنين.",
       "points": 1,
       "error_no": null
     },
@@ -5140,7 +5156,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "isn't at 3 now. It's at 4. Same room: تغيّر الوقت لا المكان.",
       "points": 1,
       "error_no": null
     },
@@ -5160,7 +5176,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "BUY YOUR TICKET BEFORE YOU GET ON: التذكرة قبل الركوب.",
       "points": 1,
       "error_no": null
     },
@@ -5180,7 +5196,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "I'm flying to Dubai that morning: تسافر يوم السبت.",
       "points": 1,
       "error_no": null
     },
@@ -5200,7 +5216,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "ALL JUMPERS HALF PRICE THIS WEEK.",
       "points": 1,
       "error_no": null
     },
@@ -5276,7 +5292,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null,
+      "explanation": "Now the bus visits five villages every week.",
       "points": 1,
       "error_no": null
     },
@@ -5296,7 +5312,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "Yusuf stopped near the schools and read stories aloud.",
       "points": 1,
       "error_no": null
     },
@@ -5356,7 +5372,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "I'm a happier man now.",
       "points": 1,
       "error_no": null
     },
@@ -5376,7 +5392,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "have a good time تعبير ثابت: had a lovely time.",
       "points": 1,
       "error_no": null
     },
@@ -5396,7 +5412,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "comfortable = مريح، وهي صفة تناسب الغرف.",
       "points": 1,
       "error_no": null
     },
@@ -5416,7 +5432,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "take a train = يركب القطار، وماضيها took.",
       "points": 1,
       "error_no": null
     },
@@ -5435,7 +5451,7 @@
           "to"
         ]
       },
-      "explanation": null,
+      "explanation": "write to someone = يكتب إلى أحد.",
       "points": 1,
       "error_no": null
     },
@@ -5454,7 +5470,7 @@
           "were"
         ]
       },
-      "explanation": null,
+      "explanation": "a lot of people جمع ← there were.",
       "points": 1,
       "error_no": null
     },
@@ -5473,7 +5489,7 @@
           "to"
         ]
       },
-      "explanation": null,
+      "explanation": "going to + فعل مجرّد.",
       "points": 1,
       "error_no": null
     },
@@ -5492,7 +5508,7 @@
           "was"
         ]
       },
-      "explanation": null,
+      "explanation": "a big tree مفرد ← there was.",
       "points": 1,
       "error_no": 7
     },
@@ -5511,7 +5527,7 @@
           "couldn't"
         ]
       },
-      "explanation": null,
+      "explanation": "نفي can في الماضي ← couldn't.",
       "points": 1,
       "error_no": null
     },
@@ -5530,7 +5546,7 @@
           "didn't go"
         ]
       },
-      "explanation": null,
+      "explanation": "last night ← didn't + فعل مجرّد.",
       "points": 1,
       "error_no": 12
     },
@@ -5549,7 +5565,7 @@
           "was reading"
         ]
       },
-      "explanation": null,
+      "explanation": "حدث جارٍ قطعه حدث قصير ← was reading.",
       "points": 1,
       "error_no": null
     },
@@ -5568,7 +5584,7 @@
           "was cooking"
         ]
       },
-      "explanation": null,
+      "explanation": "بعد while الخلفية بالماضي المستمر.",
       "points": 1,
       "error_no": null
     },
@@ -5587,7 +5603,7 @@
           "drives / is taking"
         ]
       },
-      "explanation": null,
+      "explanation": "usually ← المضارع البسيط، وtoday ← وضع مؤقّت بالمستمر.",
       "points": 1,
       "error_no": null
     },
@@ -5606,7 +5622,7 @@
           "cheaper"
         ]
       },
-      "explanation": null,
+      "explanation": "قبل than صيغة المقارنة: cheaper.",
       "points": 1,
       "error_no": null
     },
@@ -5625,7 +5641,7 @@
           "best"
         ]
       },
-      "explanation": null,
+      "explanation": "good ← the best: تفضيل شاذّ.",
       "points": 1,
       "error_no": null
     },
@@ -5645,7 +5661,7 @@
           "am going to see"
         ]
       },
-      "explanation": null,
+      "explanation": "موعد مكتوب في المفكّرة ← المضارع المستمر.",
       "points": 1,
       "error_no": null
     },
@@ -5664,7 +5680,7 @@
           "get"
         ]
       },
-      "explanation": null,
+      "explanation": "بعد when مضارع لا will.",
       "points": 1,
       "error_no": 18
     },
@@ -5682,7 +5698,7 @@
           "I didn't buy any milk."
         ]
       },
-      "explanation": null,
+      "explanation": "بعد didn't فعل مجرّد: buy.",
       "points": 1,
       "error_no": 12
     },
@@ -5700,7 +5716,7 @@
           "He took a taxi to the airport."
         ]
       },
-      "explanation": null,
+      "explanation": "take فعل شاذّ: ماضيه took.",
       "points": 1,
       "error_no": 13
     },
@@ -5718,7 +5734,7 @@
           "Who called you last night?"
         ]
       },
-      "explanation": null,
+      "explanation": "Who هنا فاعل، فلا did.",
       "points": 1,
       "error_no": null
     },
@@ -5736,7 +5752,7 @@
           "I want a cup of tea."
         ]
       },
-      "explanation": null,
+      "explanation": "want فعل حالة لا يأخذ -ing.",
       "points": 1,
       "error_no": 14
     },
@@ -5755,7 +5771,7 @@
           "My sister is taller than I am."
         ]
       },
-      "explanation": null,
+      "explanation": "tall صفة قصيرة: taller لا more tall.",
       "points": 1,
       "error_no": 15
     },
@@ -5773,7 +5789,7 @@
           "She speaks English very well."
         ]
       },
-      "explanation": null,
+      "explanation": "بعد الفعل ظرف: well لا good.",
       "points": 1,
       "error_no": 10
     },
@@ -5792,7 +5808,7 @@
           "We will stay at home if it rains tomorrow."
         ]
       },
-      "explanation": null,
+      "explanation": "بعد if مضارع لا will.",
       "points": 1,
       "error_no": 18
     },
@@ -5812,7 +5828,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "Who فاعل ← broke بلا did.",
       "points": 1,
       "error_no": null
     },
@@ -5832,7 +5848,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "للوجود there were مع الجمع.",
       "points": 1,
       "error_no": null
     },
@@ -5852,7 +5868,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "this week ← وضع مؤقّت بالمستمر.",
       "points": 1,
       "error_no": null
     },
@@ -5872,7 +5888,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "عرض مساعدة في لحظته ← will.",
       "points": 1,
       "error_no": null
     },
@@ -5892,7 +5908,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "بين as وas صفة مجرّدة.",
       "points": 1,
       "error_no": null
     },
@@ -5912,7 +5928,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "قدرة منفية في الماضي ← couldn't.",
       "points": 1,
       "error_no": null
     },
@@ -5932,7 +5948,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "الظرف يصف الفعل drives: carefully.",
       "points": 1,
       "error_no": null
     },
@@ -5952,7 +5968,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "حدث جارٍ في لحظة ماضية ← were you doing.",
       "points": 1,
       "error_no": null
     },
@@ -5968,10 +5984,12 @@
       },
       "answer": {
         "accepted": [
-          "colleague"
+          "colleague",
+          "co-worker",
+          "coworker"
         ]
       },
-      "explanation": null,
+      "explanation": "زميل = colleague.",
       "points": 1,
       "error_no": null
     },
@@ -5990,7 +6008,7 @@
           "passport"
         ]
       },
-      "explanation": null,
+      "explanation": "جواز سفر = passport.",
       "points": 1,
       "error_no": null
     },
@@ -6009,7 +6027,7 @@
           "lazy"
         ]
       },
-      "explanation": null,
+      "explanation": "كسول = lazy.",
       "points": 1,
       "error_no": null
     },
@@ -6028,7 +6046,7 @@
           "headache"
         ]
       },
-      "explanation": null,
+      "explanation": "صداع = headache.",
       "points": 1,
       "error_no": null
     },
@@ -6047,7 +6065,7 @@
           "suitcase"
         ]
       },
-      "explanation": null,
+      "explanation": "حقيبة سفر = suitcase.",
       "points": 1,
       "error_no": null
     },
@@ -6066,7 +6084,7 @@
           "deadline"
         ]
       },
-      "explanation": null,
+      "explanation": "موعد نهائي للتسليم = deadline.",
       "points": 1,
       "error_no": null
     },
@@ -6085,7 +6103,7 @@
           "try"
         ]
       },
-      "explanation": null,
+      "explanation": "try on = يقيس الملابس.",
       "points": 1,
       "error_no": null
     },
@@ -6105,7 +6123,7 @@
           "show"
         ]
       },
-      "explanation": null,
+      "explanation": "tell me the way أو show me the way = دُلّني على الطريق.",
       "points": 1,
       "error_no": null
     },
@@ -6124,7 +6142,7 @@
           "up"
         ]
       },
-      "explanation": null,
+      "explanation": "grow up = نشأ، وماضيها grew up.",
       "points": 1,
       "error_no": null
     },
@@ -6140,10 +6158,11 @@
       },
       "answer": {
         "accepted": [
-          "time"
+          "time",
+          "day"
         ]
       },
-      "explanation": null,
+      "explanation": "Maybe another time = ربما في وقت آخر.",
       "points": 1,
       "error_no": null
     },
@@ -6159,10 +6178,12 @@
       },
       "answer": {
         "accepted": [
-          "free"
+          "free",
+          "empty",
+          "available"
         ]
       },
-      "explanation": null,
+      "explanation": "Is this seat free? = هل هذا المقعد شاغر؟",
       "points": 1,
       "error_no": null
     },
@@ -6182,7 +6203,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "patient = صبور لا يغضب.",
       "points": 1,
       "error_no": null
     },
@@ -6202,7 +6223,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "because of the storm… we stayed at home ← أُلغيت الرحلة.",
       "points": 1,
       "error_no": null
     },
@@ -6222,7 +6243,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "There were no free tables ← crowded = مزدحم.",
       "points": 1,
       "error_no": null
     },
@@ -6242,7 +6263,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "feel well = يشعر بخير.",
       "points": 1,
       "error_no": null
     },
@@ -6262,7 +6283,7 @@
           "twenty"
         ]
       },
-      "explanation": null,
+      "explanation": "The nine forty train to Aswan is twenty minutes late.",
       "points": 1,
       "error_no": null
     },
@@ -6282,7 +6303,7 @@
           "six"
         ]
       },
-      "explanation": null,
+      "explanation": "It will leave from platform six, not platform two.",
       "points": 1,
       "error_no": null
     },
@@ -6302,7 +6323,7 @@
           "eight"
         ]
       },
-      "explanation": null,
+      "explanation": "Can we meet at half past eight…?",
       "points": 1,
       "error_no": null
     },
@@ -6311,9 +6332,9 @@
       "exercise_no": 5,
       "type": "fill_blank",
       "focus_ar": "اختبار الاستماع 1 — أكمل الملاحظات",
-      "prompt": "They are going to meet at the café next to the ______.",
+      "prompt": "Karim wants to meet at the café next to the ______.",
       "payload": {
-        "before": "They are going to meet at the café next to the ",
+        "before": "Karim wants to meet at the café next to the ",
         "after": "."
       },
       "answer": {
@@ -6321,7 +6342,7 @@
           "bank"
         ]
       },
-      "explanation": null,
+      "explanation": "…at the café next to the bank?",
       "points": 1,
       "error_no": null
     },
@@ -6340,7 +6361,7 @@
           "Thursday"
         ]
       },
-      "explanation": null,
+      "explanation": "Your appointment is on Thursday the fourteenth.",
       "points": 1,
       "error_no": null
     },
@@ -6360,7 +6381,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "last year my life changed completely… I want to open a small bakery.",
       "points": 1,
       "error_no": null
     },
@@ -6402,7 +6423,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null,
+      "explanation": "I slept about five hours a night.",
       "points": 1,
       "error_no": null
     },
@@ -6416,7 +6437,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null,
+      "explanation": "In November I left the company.",
       "points": 1,
       "error_no": null
     },
@@ -6464,7 +6485,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "I spent all my money on an oven.",
       "points": 1,
       "error_no": null
     },
@@ -6504,7 +6525,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "I'm tired all the time… and I'm happier than I was.",
       "points": 1,
       "error_no": null
     },
@@ -6524,7 +6545,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "بعد صوت مهموس مثل /p/ تُنطق /t/.",
       "points": 1,
       "error_no": null
     },
@@ -6544,7 +6565,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "بعد صوت مجهور مثل /v/ تُنطق /d/.",
       "points": 1,
       "error_no": null
     },
@@ -6564,7 +6585,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "بعد /d/ مقطع زائد /ɪd/.",
       "points": 1,
       "error_no": null
     },
@@ -6584,7 +6605,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "بعد /k/ تُنطق /t/.",
       "points": 1,
       "error_no": null
     },
@@ -6604,7 +6625,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "بعد /t/ مقطع زائد /ɪd/.",
       "points": 1,
       "error_no": null
     },
@@ -6624,7 +6645,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "en-gi-NEER: النبر على المقطع الأخير.",
       "points": 1,
       "error_no": null
     },
@@ -6644,7 +6665,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "COM-for-ta-ble: النبر على الأول.",
       "points": 1,
       "error_no": null
     },
@@ -6664,7 +6685,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "pho-TO-gra-pher: النبر على الثاني.",
       "points": 1,
       "error_no": null
     },
@@ -6684,7 +6705,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "ap-POINT-ment: النبر على الثاني.",
       "points": 1,
       "error_no": null
     },
@@ -6704,7 +6725,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "im-POR-tant: النبر على الثاني.",
       "points": 1,
       "error_no": null
     },
@@ -6777,7 +6798,8 @@
       },
       "answer": {
         "accepted": [
-          "First"
+          "First",
+          "First of all"
         ]
       },
       "explanation": "بداية التسلسل ← First.",
@@ -6833,7 +6855,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "Really? Did you…? تُظهر الاهتمام.",
       "points": 1,
       "error_no": null
     },
@@ -6853,7 +6875,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "Could I speak to…, please? طلب مهذّب على الهاتف.",
       "points": 1,
       "error_no": null
     },
@@ -6873,7 +6895,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "على الهاتف تقول اسمك بـIt's… أو This is…",
       "points": 1,
       "error_no": null
     },
@@ -6893,7 +6915,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "Just a moment, please = لحظة من فضلك.",
       "points": 1,
       "error_no": null
     },
@@ -6913,7 +6935,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "Could you…, please? للطلب بأدب.",
       "points": 1,
       "error_no": null
     },
@@ -6933,7 +6955,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "Sorry, could you repeat that? حين لا تسمع.",
       "points": 1,
       "error_no": null
     },
@@ -6953,7 +6975,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "What does … mean? بـdoes وفعل مجرّد.",
       "points": 1,
       "error_no": null
     },
@@ -6973,7 +6995,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "How was…? سؤال عن الماضي، فالجواب بالماضي.",
       "points": 1,
       "error_no": null
     },
@@ -6993,7 +7015,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "That's great news! للتهنئة بخبر سعيد.",
       "points": 1,
       "error_no": null
     },
@@ -7013,7 +7035,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "Shall I…? لعرض المساعدة.",
       "points": 1,
       "error_no": null
     },
@@ -7033,7 +7055,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "How do I get to…? لسؤال الطريق.",
       "points": 1,
       "error_no": null
     },
@@ -7053,7 +7075,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "Go straight on and turn left at… لوصف الطريق.",
       "points": 1,
       "error_no": null
     },
@@ -7073,7 +7095,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "A return to… = تذكرة ذهاب وعودة.",
       "points": 1,
       "error_no": null
     },
@@ -7093,7 +7115,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "I have a reservation for… = عندي حجز.",
       "points": 1,
       "error_no": null
     },
@@ -7113,7 +7135,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "مع الضمير: try this on أو try it on، لا try on it.",
       "points": 1,
       "error_no": null
     },
@@ -7133,7 +7155,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "How much is…? للسعر.",
       "points": 1,
       "error_no": null
     },
@@ -7153,7 +7175,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "What does she look like? سؤال عن الشكل.",
       "points": 1,
       "error_no": null
     },
@@ -7173,7 +7195,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "Would you like to…? للدعوة.",
       "points": 1,
       "error_no": null
     },
@@ -7193,7 +7215,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "I'm afraid I can't. Maybe another time. اعتذار مهذّب.",
       "points": 1,
       "error_no": null
     },
@@ -7213,7 +7235,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "Why don't we…? للاقتراح، بترتيب السؤال.",
       "points": 1,
       "error_no": null
     },
@@ -7317,7 +7339,8 @@
       },
       "answer": {
         "accepted": [
-          "the oldest"
+          "the oldest",
+          "the eldest"
         ]
       },
       "explanation": "التفضيل يحتاج the.",
@@ -7379,7 +7402,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "Yes, I'd love to. للقبول بسرور.",
       "points": 1,
       "error_no": null
     }

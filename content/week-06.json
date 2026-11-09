@@ -91,7 +91,7 @@
       }
     ],
     "model_answer": "Hi Sara,\n\nMy name is Huda. I'm twenty-six years old and I'm an engineer. I'm from Irbid, but now I live in Amman with my parents and my little brother. He is a student.\n\nI usually get up at half past six. I start work at eight and I finish at four.\n\nOur flat is small, but it is very nice. There are two bedrooms, and there is a big balcony.\n\nI can drive, but I can't swim. In my free time I like cooking and reading.\n\nSee you on Monday!\nHuda",
-    "model_words": 93
+    "model_words": 92
   },
   "days": [
     {
@@ -1481,7 +1481,7 @@
                 [
                   "عرض",
                   "Would you like some tea?",
-                  "هل تحبّ بعض الشاي؟"
+                  "هل تريد بعض الشاي؟"
                 ]
               ],
               "say": 1,
@@ -1492,7 +1492,7 @@
             "examples": [
               {
                 "en": "Would you like a coffee? — Yes, please.",
-                "ar": "هل تحبّ قهوة؟ — نعم، من فضلك."
+                "ar": "هل تريد قهوة؟ — نعم، من فضلك."
               }
             ],
             "errors": [
@@ -1604,8 +1604,8 @@
                 "ar": "أقرأ قصة قصيرة من صفحة القصص كل أسبوع."
               },
               {
-                "en": "I have a day for my next conversation.",
-                "ar": "حدّدت موعد محادثتي القادمة."
+                "en": "I know the day of my next conversation.",
+                "ar": "أعرف موعد محادثتي القادمة."
               }
             ],
             "errors": []
@@ -1686,7 +1686,7 @@
           },
           {
             "ipa": "/ʊ/ ↔ /uː/",
-            "arabic_hint": "الحرفان نفسهما في الكتابة والنطق مختلف — كالضمّة والواو الممدودة",
+            "arabic_hint": "القصيرة والممدودة — كالفرق بين الضمّة والواو الممدودة",
             "examples": [
               "full",
               "fool",
@@ -1800,13 +1800,13 @@
           },
           {
             "en": "On Fridays they visit the market opposite the station. They buy fresh bread, vegetables and fish. Then they walk through the park with their two children and watch the boats.",
-            "ar": "وأيام الجمعة يزوران السوق المقابل للمحطة. يشتريان خبزاً طازجاً وخضاراً وسمكاً. ثم يمشيان في الحديقة مع ولديهما ويشاهدون القوارب."
+            "ar": "وأيام الجمعة يزوران السوق المقابل للمحطة. يشتريان خبزاً طازجاً وخضاراً وسمكاً. ثم يمشيان في الحديقة مع ولديهما ويشاهدان القوارب."
           }
         ],
         "questions": [
           {
-            "q_ar": "busy · person · three · tennis — هل فرّقت بين الصوت القصير والطويل؟",
-            "a_ar": "/ɪ/ قصيرة في busy، و/iː/ طويلة في three وPeter."
+            "q_ar": "busy · Peter · three · tennis — هل فرّقت بين الصوت القصير والطويل؟",
+            "a_ar": "/ɪ/ قصيرة في busy وtennis، و/iː/ طويلة في three وPeter."
           },
           {
             "q_ar": "Peter · person · park · plays — هل /p/ واضحة بنفخة، لا /b/؟",
@@ -1867,7 +1867,7 @@
           },
           {
             "en": "On Sundays I don't work. I usually call my parents in Tunis, and then I walk to the market. There is a very good bakery there, and the bread costs one euro.",
-            "ar": "لا أعمل أيام الأحد. عادةً أتصل بوالديّ في تونس، ثم أمشي إلى السوق. فيه مخبز جيد جداً، والخبز بيورو واحد."
+            "ar": "لا أعمل أيام الأحد. عادةً أتصل بوالديّ في تونس، ثم أمشي إلى السوق. فيه مخبز جيد جداً، وثمن الخبز فيه يورو واحد."
           }
         ],
         "questions": [
@@ -1967,7 +1967,7 @@
           },
           {
             "can_ar": "أطلب الطعام وأسأل عن الثمن والطريق",
-            "proof_ar": "اختبار المفردات 2"
+            "proof_ar": "عبارات اختبار اليوم الرابع وأسئلة «ماذا تقول حين…؟»"
           },
           {
             "can_ar": "ألتقط الأرقام والأوقات والأماكن ممّا أسمع",
@@ -2472,9 +2472,9 @@
           }
         ],
         "stems_en": [
-          "Six weeks ago I could not …",
+          "In my Week 1 recording, I …",
           "Now I can …",
-          "By Week 12 I want to be able to …"
+          "By Week 12, I want to …"
         ],
         "closing_ar": "هذه المقارنة أهمّ من درجة الاختبار. الاختبار يقيس ما تعرفه، وهي تقيس ما تغيّر — والتغيّر وحده يُنبئ بمن يصل."
       }
@@ -3416,7 +3416,8 @@
       "answer": {
         "accepted": [
           "can't",
-          "cannot"
+          "cannot",
+          "can not"
         ]
       },
       "explanation": "النفي بـcan't أو cannot، والفعل بعدها مجرّد.",
@@ -3671,10 +3672,11 @@
       },
       "answer": {
         "accepted": [
-          "bill"
+          "bill",
+          "check"
         ]
       },
-      "explanation": "Can we have the bill, please? = الحساب من فضلك.",
+      "explanation": "Can we have the bill, please? = الحساب من فضلك. وبالأمريكية check.",
       "points": 1,
       "error_no": null
     },
@@ -3740,7 +3742,7 @@
       "answer": {
         "correct": 4
       },
-      "explanation": "quickly حال طريقة، والباقي ظروف تكرار.",
+      "explanation": "quickly تقول كيف يحدث الفعل، والباقي ظروف تكرار تقول كم مرّة.",
       "points": 1,
       "error_no": null
     },
@@ -3803,7 +3805,7 @@
           "takes"
         ]
       },
-      "explanation": "It = he / she / it فيأخذ الفعل s: takes.",
+      "explanation": "it مثل he وshe، فيأخذ الفعل s: takes.",
       "points": 1,
       "error_no": 3
     },
@@ -4146,10 +4148,11 @@
       },
       "answer": {
         "accepted": [
-          "see"
+          "see",
+          "have"
         ]
       },
-      "explanation": "Can I see the menu, please? = هل أرى قائمة الطعام؟",
+      "explanation": "Can I see the menu, please? أو Can I have the menu, please? = هل يمكنني رؤية قائمة الطعام؟",
       "points": 1,
       "error_no": null
     },
@@ -4165,7 +4168,8 @@
       },
       "answer": {
         "accepted": [
-          "repeat"
+          "repeat",
+          "say"
         ]
       },
       "explanation": "Sorry, could you repeat that? = عفواً، هل تعيد ذلك؟",
@@ -4291,9 +4295,9 @@
       "day_number": 4,
       "exercise_no": 4,
       "type": "fill_blank",
-      "prompt": "غالي = ______",
+      "prompt": "غالٍ = ______",
       "payload": {
-        "before": "غالي = ",
+        "before": "غالٍ = ",
         "after": ""
       },
       "answer": {
@@ -4301,7 +4305,7 @@
           "expensive"
         ]
       },
-      "explanation": "غالي = expensive، وعكسه cheap.",
+      "explanation": "غالٍ = expensive، وعكسه cheap.",
       "focus_ar": "اختبار المفردات 1 — من العربية إلى الإنجليزية",
       "error_no": null,
       "points": 1
@@ -4517,7 +4521,9 @@
           "I'd like a tea, please.",
           "I'd like some tea, please.",
           "I would like a tea, please.",
-          "I would like some tea, please."
+          "I would like some tea, please.",
+          "I'd like a tea please.",
+          "I'd like some tea please."
         ]
       },
       "explanation": "للطلب الآن: I'd like — و I like معناها أحبّ عموماً.",
@@ -4557,7 +4563,9 @@
       "answer": {
         "accepted": [
           "Please sit down.",
-          "Sit down, please."
+          "Sit down, please.",
+          "Please, sit down.",
+          "Sit down please."
         ]
       },
       "explanation": "الأمر بلا فاعل: Sit down.",
@@ -5381,7 +5389,7 @@
           "is"
         ]
       },
-      "explanation": null,
+      "explanation": "my sister = she، فتأخذ is.",
       "points": 1,
       "error_no": null
     },
@@ -5397,10 +5405,11 @@
       },
       "answer": {
         "accepted": [
-          "don't live"
+          "don't live",
+          "do not live"
         ]
       },
-      "explanation": null,
+      "explanation": "they تأخذ don't + فعل مجرّد: don't live.",
       "points": 1,
       "error_no": null
     },
@@ -5419,7 +5428,7 @@
           "Is"
         ]
       },
-      "explanation": null,
+      "explanation": "milk غير معدودة فتأخذ Is there…?",
       "points": 1,
       "error_no": null
     },
@@ -5436,10 +5445,11 @@
       "answer": {
         "accepted": [
           "can't",
-          "cannot"
+          "cannot",
+          "can not"
         ]
       },
-      "explanation": null,
+      "explanation": "النفي بـcan't أو cannot، والفعل بعدها مجرّد.",
       "points": 1,
       "error_no": null
     },
@@ -5458,7 +5468,7 @@
           "does / open"
         ]
       },
-      "explanation": null,
+      "explanation": "the shop = it فتأخذ does، والفعل بعدها مجرّد: What time does the shop open?",
       "points": 1,
       "error_no": null
     },
@@ -5477,7 +5487,7 @@
           "are"
         ]
       },
-      "explanation": null,
+      "explanation": "four rooms جمع فتأخذ There are.",
       "points": 1,
       "error_no": null
     },
@@ -5496,7 +5506,7 @@
           "studies"
         ]
       },
-      "explanation": null,
+      "explanation": "ساكن + y تصير ies: studies.",
       "points": 1,
       "error_no": null
     },
@@ -5515,7 +5525,7 @@
           "Do"
         ]
       },
-      "explanation": null,
+      "explanation": "you تأخذ Do في السؤال.",
       "points": 1,
       "error_no": null
     },
@@ -5534,7 +5544,7 @@
           "am not"
         ]
       },
-      "explanation": null,
+      "explanation": "I تأخذ am، ونفيها am not.",
       "points": 1,
       "error_no": null
     },
@@ -5553,7 +5563,7 @@
           "are"
         ]
       },
-      "explanation": null,
+      "explanation": "my parents = they فتأخذ are.",
       "points": 1,
       "error_no": null
     },
@@ -5572,7 +5582,7 @@
           "goes"
         ]
       },
-      "explanation": null,
+      "explanation": "go مع he تصير goes.",
       "points": 1,
       "error_no": null
     },
@@ -5588,10 +5598,11 @@
       },
       "answer": {
         "accepted": [
-          "aren't"
+          "aren't",
+          "are not"
         ]
       },
-      "explanation": null,
+      "explanation": "shops جمع فتأخذ There aren't.",
       "points": 1,
       "error_no": null
     },
@@ -5610,7 +5621,7 @@
           "Does"
         ]
       },
-      "explanation": null,
+      "explanation": "she تأخذ Does، والفعل بعدها مجرّد: speak.",
       "points": 1,
       "error_no": null
     },
@@ -5629,7 +5640,7 @@
           "have"
         ]
       },
-      "explanation": null,
+      "explanation": "we لا تأخذ s ولا has: we have.",
       "points": 1,
       "error_no": null
     },
@@ -5648,7 +5659,7 @@
           "watch"
         ]
       },
-      "explanation": null,
+      "explanation": "the children جمع (they) فلا s: watch.",
       "points": 1,
       "error_no": null
     },
@@ -6000,7 +6011,9 @@
       "answer": {
         "accepted": [
           "Do you like tea? Yes, I do.",
-          "Yes, I do."
+          "Yes, I do.",
+          "Do you like tea? Yes I do.",
+          "Yes I do."
         ]
       },
       "explanation": "الجواب القصير يعيد do: Yes, I do.",
@@ -6021,7 +6034,9 @@
           "I want some bread, please.",
           "I'd like some bread, please.",
           "I want bread, please.",
-          "I'd like bread, please."
+          "I'd like bread, please.",
+          "I want some bread please.",
+          "I'd like some bread please."
         ]
       },
       "explanation": "bread لا تُعدّ ← some bread.",
@@ -6043,7 +6058,7 @@
           "Where"
         ]
       },
-      "explanation": null,
+      "explanation": "السؤال عن البلد: Where are you from?",
       "points": 1,
       "error_no": null
     },
@@ -6062,7 +6077,7 @@
           "old"
         ]
       },
-      "explanation": null,
+      "explanation": "السؤال عن العمر: How old are you?",
       "points": 1,
       "error_no": null
     },
@@ -6081,7 +6096,7 @@
           "do"
         ]
       },
-      "explanation": null,
+      "explanation": "السؤال عن العمل: What do you do? — do الأولى للسؤال والثانية هي الفعل.",
       "points": 1,
       "error_no": null
     },
@@ -6100,7 +6115,7 @@
           "do"
         ]
       },
-      "explanation": null,
+      "explanation": "you تأخذ do في السؤال: What time do you get up?",
       "points": 1,
       "error_no": null
     },
@@ -6119,7 +6134,7 @@
           "How"
         ]
       },
-      "explanation": null,
+      "explanation": "السؤال عن الوسيلة بـHow: How do you go to work? — By bus.",
       "points": 1,
       "error_no": null
     },
@@ -6138,7 +6153,7 @@
           "there"
         ]
       },
-      "explanation": null,
+      "explanation": "السؤال عن الوجود: Is there…? — Yes, there is.",
       "points": 1,
       "error_no": null
     },
@@ -6157,7 +6172,7 @@
           "Can"
         ]
       },
-      "explanation": null,
+      "explanation": "الجواب No, I can't يدلّ على Can.",
       "points": 1,
       "error_no": null
     },
@@ -6176,7 +6191,7 @@
           "many"
         ]
       },
-      "explanation": null,
+      "explanation": "kilos معدودة فتأخذ How many.",
       "points": 1,
       "error_no": null
     },
@@ -6195,7 +6210,7 @@
           "much"
         ]
       },
-      "explanation": null,
+      "explanation": "السؤال عن الثمن دائماً How much.",
       "points": 1,
       "error_no": null
     },
@@ -6214,7 +6229,7 @@
           "time"
         ]
       },
-      "explanation": null,
+      "explanation": "free time = وقت الفراغ.",
       "points": 1,
       "error_no": null
     },
@@ -6231,10 +6246,11 @@
       "answer": {
         "accepted": [
           "28",
-          "twenty-eight"
+          "twenty-eight",
+          "twenty eight"
         ]
       },
-      "explanation": null,
+      "explanation": "في النصّ: I am twenty-eight years old.",
       "points": 1,
       "error_no": null
     },
@@ -6254,7 +6270,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "في النصّ: I am from Tunis, but now I live in Marseille — فهي من تونس وتسكن مرسيليا.",
       "points": 1,
       "error_no": null
     },
@@ -6274,7 +6290,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "في النصّ: I am a nurse at a big hospital.",
       "points": 1,
       "error_no": null
     },
@@ -6294,7 +6310,7 @@
           "2nd"
         ]
       },
-      "explanation": null,
+      "explanation": "في النصّ: a small flat on the second floor.",
       "points": 1,
       "error_no": null
     },
@@ -6314,7 +6330,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "في النصّ: I grow tomatoes there.",
       "points": 1,
       "error_no": null
     },
@@ -6334,7 +6350,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "في النصّ: My flat isn't expensive because it is far from the centre.",
       "points": 1,
       "error_no": null
     },
@@ -6354,7 +6370,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "في النصّ: I take the train to work.",
       "points": 1,
       "error_no": null
     },
@@ -6374,7 +6390,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "في النصّ: I go swimming twice a week.",
       "points": 1,
       "error_no": null
     },
@@ -6394,7 +6410,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "في النصّ: the lessons are very expensive here.",
       "points": 1,
       "error_no": null
     },
@@ -6414,7 +6430,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "في النصّ: I usually call my parents in Tunis, and then I walk to the market.",
       "points": 1,
       "error_no": null
     },
@@ -6456,7 +6472,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null,
+      "explanation": "في النصّ: I usually have lunch at the hospital with my colleagues.",
       "points": 1,
       "error_no": null
     },
@@ -6484,7 +6500,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null,
+      "explanation": "في النصّ: the bread costs one euro.",
       "points": 1,
       "error_no": null
     },
@@ -6504,7 +6520,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "EVERY DAY تعني كل الأيام، ومنها الأحد. ويغلق في العاشرة مساءً لا الثامنة.",
       "points": 1,
       "error_no": null
     },
@@ -6524,7 +6540,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "NO PARKING = لا تترك سيارتك هنا.",
       "points": 1,
       "error_no": null
     },
@@ -6544,7 +6560,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "الأب يقول إن في الثلاجة دجاجاً للغداء: There's chicken in the fridge for lunch.",
       "points": 1,
       "error_no": null
     },
@@ -6564,7 +6580,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "NO PHONES = لا تتكلّم بالهاتف هنا.",
       "points": 1,
       "error_no": null
     },
@@ -6612,7 +6628,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null,
+      "explanation": "في النصّ: He opens the shop at six o'clock every morning.",
       "points": 1,
       "error_no": null
     },
@@ -6694,7 +6710,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "في النصّ: The shop sells only one thing: tea.",
       "points": 1,
       "error_no": null
     },
@@ -6703,18 +6719,18 @@
       "exercise_no": 5,
       "type": "multiple_choice",
       "focus_ar": "اختبار القراءة 2 — دكّان الشاي",
-      "prompt": "Why isn't Mehmet interested in money?",
+      "prompt": "What is Mehmet interested in?",
       "payload": {
         "options": [
-          "He is very rich.",
-          "His tea is very expensive.",
-          "He is interested in people."
+          "Money.",
+          "Big TVs.",
+          "People."
         ]
       },
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "في النصّ: He is interested in people — لا بالمال.",
       "points": 1,
       "error_no": null
     },
@@ -6786,7 +6802,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "الردّ على التعارف: Nice to meet you، ثم اسمك.",
       "points": 1,
       "error_no": null
     },
@@ -6806,7 +6822,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "حين لا تفهم: Sorry, can you say that again?",
       "points": 1,
       "error_no": null
     },
@@ -6826,7 +6842,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "السؤال عن الثمن بـHow much.",
       "points": 1,
       "error_no": null
     },
@@ -6846,7 +6862,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "الحساب = the bill: Can we have the bill, please?",
       "points": 1,
       "error_no": null
     },
@@ -6866,7 +6882,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "السؤال عن الطريق: How do I get to…?",
       "points": 1,
       "error_no": null
     },
@@ -6886,7 +6902,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "Anything to drink? = هل تشرب شيئاً؟ والجواب اسم مشروب.",
       "points": 1,
       "error_no": null
     },
@@ -6895,7 +6911,7 @@
       "exercise_no": 6,
       "type": "multiple_choice",
       "focus_ar": "ماذا تقول حين…؟",
-      "prompt": "صاحبك يتكلّم بسرعة.",
+      "prompt": "صديقك يتكلّم بسرعة.",
       "payload": {
         "options": [
           "Quickly, please.",
@@ -6906,7 +6922,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "تطلب منه أن يبطئ: Slowly, please.",
       "points": 1,
       "error_no": null
     },
@@ -6926,7 +6942,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "السؤال عن كتابة الكلمة: How do you spell that?",
       "points": 1,
       "error_no": null
     },
@@ -6946,7 +6962,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "جواب How are you? هو I'm fine, thanks.",
       "points": 1,
       "error_no": null
     },
@@ -6955,7 +6971,7 @@
       "exercise_no": 6,
       "type": "multiple_choice",
       "focus_ar": "ماذا تقول حين…؟",
-      "prompt": "يسألك صديق: Would you like to join? — وتريد أن توافق.",
+      "prompt": "يسألك صديق: Would you like to come to the park with us? — وتريد أن توافق.",
       "payload": {
         "options": [
           "I'm lost.",
@@ -6966,7 +6982,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "تقبل الدعوة: Yes, that sounds fun.",
       "points": 1,
       "error_no": null
     },
@@ -6986,7 +7002,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "تقول اسمك ثم تتهجّاه حرفاً حرفاً.",
       "points": 1,
       "error_no": null
     },
@@ -7006,7 +7022,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "What do you do? = ما عملك؟ — والسؤال يحتاج do.",
       "points": 1,
       "error_no": 5
     },
@@ -7026,7 +7042,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "pharmacy مفرد: Is there…? — لا have ولا are.",
       "points": 1,
       "error_no": 7
     },
@@ -7046,7 +7062,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "السؤال يحتاج do: How often do you go…?",
       "points": 1,
       "error_no": 5
     },
@@ -7066,7 +7082,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "good at + -ing: I'm not very good at drawing.",
       "points": 1,
       "error_no": 9
     },
@@ -7086,7 +7102,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "السؤال بـCan، فالجواب Yes, I can.",
       "points": 1,
       "error_no": null
     },

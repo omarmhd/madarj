@@ -620,18 +620,12 @@
         },
         {
           "order": 8,
-          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record:baseline"
-        },
-        {
-          "order": 9,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
         },
         {
-          "order": 10,
+          "order": 9,
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework"
@@ -774,7 +768,7 @@
       "group": "describing_appearance",
       "word": "pretty",
       "ipa": "/ˈprɪti/",
-      "arabic": "حلوة",
+      "arabic": "جميلة",
       "example": "Your little daughter is very pretty.",
       "group_label_ar": "وصف الهيئة",
       "group_label_en": "Describing Appearance",
@@ -839,7 +833,7 @@
       "group": "describing_personality",
       "word": "unkind",
       "ipa": "/ʌnˈkaɪnd/",
-      "arabic": "قاسٍ",
+      "arabic": "غير لطيف، قاسٍ",
       "example": "It was unkind to laugh at him.",
       "group_label_ar": "وصف الشخصية",
       "group_label_en": "Describing Personality",
@@ -930,7 +924,7 @@
       "group": "describing_personality",
       "word": "honest",
       "ipa": "/ˈɒnɪst/",
-      "arabic": "صادق (silent h)",
+      "arabic": "صادق (لا تُنطق h)",
       "example": "He is an honest man.",
       "group_label_ar": "وصف الشخصية",
       "group_label_en": "Describing Personality",
@@ -1073,7 +1067,7 @@
       "group": "describing_personality",
       "word": "calm",
       "ipa": "/kɑːm/",
-      "arabic": "هادئ الطباع (silent l)",
+      "arabic": "هادئ الطباع (لا تُنطق l)",
       "example": "Stay calm and listen to me.",
       "group_label_ar": "وصف الشخصية",
       "group_label_en": "Describing Personality",
@@ -1112,7 +1106,7 @@
       "group": "describing_personality",
       "word": "helpful",
       "ipa": "/ˈhelpfl/",
-      "arabic": "مساعد",
+      "arabic": "متعاون، يحبّ المساعدة",
       "example": "The staff were very helpful.",
       "group_label_ar": "وصف الشخصية",
       "group_label_en": "Describing Personality",
@@ -1411,7 +1405,7 @@
       "group": "adjectives_for_comparing",
       "word": "popular",
       "ipa": "/ˈpɒpjələ(r)/",
-      "arabic": "شائع",
+      "arabic": "محبوب، رائج",
       "example": "Football is very popular in my country.",
       "group_label_ar": "صفات المقارنة",
       "group_label_en": "Adjectives for Comparing",
@@ -1476,7 +1470,7 @@
       "group": "adjectives_for_comparing",
       "word": "bad",
       "ipa": "/bæd/",
-      "arabic": "سيء",
+      "arabic": "سيّئ",
       "example": "The weather is bad today.",
       "group_label_ar": "صفات المقارنة",
       "group_label_en": "Adjectives for Comparing",
@@ -1528,7 +1522,7 @@
       "group": "comparison_phrases",
       "word": "… than …",
       "ipa": null,
-      "arabic": "من / عن",
+      "arabic": "من (بعد المقارنة)",
       "example": "Cairo is bigger than Alexandria.",
       "group_label_ar": "عبارات المقارنة",
       "group_label_en": "Comparison Phrases",
@@ -1606,7 +1600,7 @@
       "group": "comparison_phrases",
       "word": "exactly the same",
       "ipa": null,
-      "arabic": "نفس الشيء تماماً",
+      "arabic": "متطابق تماماً",
       "example": "They are exactly the same.",
       "group_label_ar": "عبارات المقارنة",
       "group_label_en": "Comparison Phrases",
@@ -1762,7 +1756,7 @@
       "group": "comparison_phrases",
       "word": "it depends",
       "ipa": null,
-      "arabic": "يعتمد",
+      "arabic": "حسب الأحوال",
       "example": "Which is better? It depends.",
       "group_label_ar": "عبارات المقارنة",
       "group_label_en": "Comparison Phrases",
@@ -2165,7 +2159,7 @@
       "group": "describing_people_and_places",
       "word": "the same age as",
       "ipa": null,
-      "arabic": "في سنّ …",
+      "arabic": "في عمر … نفسه",
       "example": "My friend is the same age as me.",
       "group_label_ar": "وصف الأشخاص والأماكن",
       "group_label_en": "Describing People and Places",
@@ -2665,7 +2659,7 @@
         {
           "speaker": "LINA",
           "en": "He's more patient than most people, so don't rush. And he hates small talk.",
-          "ar": "إنه أكثر صبراً من معظم الناس، فلا تستعجل. ويكره الحديث الجانبي."
+          "ar": "إنه أكثر صبراً من معظم الناس، فلا تستعجل. ويكره أحاديث المجاملة."
         }
       ]
     },
@@ -3560,7 +3554,7 @@
           },
           {
             "ipa": "-er /ə/",
-            "arabic_hint": "كل مقارنة تنتهي بالشوا، بلا راء في النطق البريطاني",
+            "arabic_hint": "كل مقارنة بـ-er تنتهي بالشوا، بلا راء في النطق البريطاني",
             "examples": [
               "bigger",
               "cheaper",
@@ -3583,7 +3577,7 @@
               "This one is a lot cheaper than the other one."
             ],
             "note_ar": "تُقال than بقوة /ðæn/ كأنها كلمة مهمّة.",
-            "fix_ar": "النبر على الصفة لا على than. وbigger than Cairo فيها ثلاث شوات: /ˈbɪɡə ðən ˈkaɪrəʊ/."
+            "fix_ar": "النبر على الصفة لا على than. وbigger than Cairo فيها شوَتان: /ˈbɪɡə ðən ˈkaɪrəʊ/."
           },
           {
             "ipa": "as /əz/",
@@ -4138,7 +4132,7 @@
               }
             ],
             "pattern_en": "My ___ is a ___. The work is ___, but it is ___.",
-            "prompt_ar": "اكتب 4 جمل عن عمل شخص تعرفه: ما عمله، وأين، وكيف هو. ثم اقرأ جملك بصوت عالٍ واسحق المقاطع الضعيفة.",
+            "prompt_ar": "اكتب 4 جمل عن عمل شخص تعرفه: ما عمله، وأين، وكيف هو. ثم اقرأ جملك بصوت عالٍ وخفّف المقاطع الضعيفة.",
             "min_sentences": 4,
             "notes": [
               {
@@ -4921,14 +4915,16 @@
       "focus_ar": "إعادة الصياغة بـas … as",
       "points": 1,
       "type": "correct_error",
-      "prompt": "الجملة صحيحة. أعد صياغتها بـisn’t as … as بالمعنى نفسه.",
+      "prompt": "الجملة صحيحة. أعد صياغتها بـnot as … as (isn’t أو wasn’t) بالمعنى نفسه.",
       "payload": {
         "sentence": "My flat is smaller than yours."
       },
       "answer": {
         "accepted": [
           "My flat isn’t as big as yours.",
-          "Your flat isn’t as small as mine."
+          "Your flat isn’t as small as mine.",
+          "My flat isn’t as large as yours.",
+          "Mine isn’t as big as yours."
         ]
       },
       "explanation": "الصفة داخل as … as مجرّدة."
@@ -4939,14 +4935,15 @@
       "focus_ar": "إعادة الصياغة بـas … as",
       "points": 1,
       "type": "correct_error",
-      "prompt": "الجملة صحيحة. أعد صياغتها بـisn’t as … as بالمعنى نفسه.",
+      "prompt": "الجملة صحيحة. أعد صياغتها بـnot as … as (isn’t أو wasn’t) بالمعنى نفسه.",
       "payload": {
         "sentence": "The bus is slower than the train."
       },
       "answer": {
         "accepted": [
           "The bus isn’t as fast as the train.",
-          "The train isn’t as slow as the bus."
+          "The train isn’t as slow as the bus.",
+          "The bus isn’t as quick as the train."
         ]
       },
       "explanation": "الصفة داخل as … as مجرّدة."
@@ -4957,14 +4954,16 @@
       "focus_ar": "إعادة الصياغة بـas … as",
       "points": 1,
       "type": "correct_error",
-      "prompt": "الجملة صحيحة. أعد صياغتها بـisn’t as … as بالمعنى نفسه.",
+      "prompt": "الجملة صحيحة. أعد صياغتها بـnot as … as (isn’t أو wasn’t) بالمعنى نفسه.",
       "payload": {
         "sentence": "This restaurant is cheaper than that one."
       },
       "answer": {
         "accepted": [
           "That restaurant isn’t as cheap as this one.",
-          "This restaurant isn’t as expensive as that one."
+          "This restaurant isn’t as expensive as that one.",
+          "That one isn’t as cheap as this one.",
+          "That restaurant isn’t as cheap as this restaurant."
         ]
       },
       "explanation": "الصفة داخل as … as مجرّدة."
@@ -4975,7 +4974,7 @@
       "focus_ar": "إعادة الصياغة بـas … as",
       "points": 1,
       "type": "correct_error",
-      "prompt": "الجملة صحيحة. أعد صياغتها بـisn’t as … as بالمعنى نفسه.",
+      "prompt": "الجملة صحيحة. أعد صياغتها بـnot as … as (isn’t أو wasn’t) بالمعنى نفسه.",
       "payload": {
         "sentence": "English is easier than Chinese."
       },
@@ -4994,7 +4993,7 @@
       "focus_ar": "إعادة الصياغة بـas … as",
       "points": 1,
       "type": "correct_error",
-      "prompt": "الجملة صحيحة. أعد صياغتها بـisn’t as … as بالمعنى نفسه.",
+      "prompt": "الجملة صحيحة. أعد صياغتها بـnot as … as (isn’t أو wasn’t) بالمعنى نفسه.",
       "payload": {
         "sentence": "My old job was worse than this one."
       },
@@ -5003,7 +5002,9 @@
           "This job isn’t as bad as my old one.",
           "This one isn’t as bad as my old one.",
           "This job isn’t as bad as my old job.",
-          "My old job wasn’t as good as this one."
+          "My old job wasn’t as good as this one.",
+          "This job isn’t as bad as my old job was.",
+          "My old job wasn’t as good as this job."
         ]
       },
       "explanation": "الصفة داخل as … as مجرّدة."
@@ -5014,7 +5015,7 @@
       "focus_ar": "إعادة الصياغة بـas … as",
       "points": 1,
       "type": "correct_error",
-      "prompt": "الجملة صحيحة. أعد صياغتها بـisn’t as … as بالمعنى نفسه.",
+      "prompt": "الجملة صحيحة. أعد صياغتها بـnot as … as (isn’t أو wasn’t) بالمعنى نفسه.",
       "payload": {
         "sentence": "Today is colder than yesterday."
       },
@@ -5022,7 +5023,8 @@
         "accepted": [
           "Yesterday wasn’t as cold as today.",
           "Today isn’t as warm as yesterday.",
-          "Today isn’t as hot as yesterday."
+          "Today isn’t as hot as yesterday.",
+          "Yesterday was not as cold as today."
         ]
       },
       "explanation": "الصفة داخل as … as مجرّدة."
@@ -5033,7 +5035,7 @@
       "focus_ar": "إعادة الصياغة بـas … as",
       "points": 1,
       "type": "correct_error",
-      "prompt": "الجملة صحيحة. أعد صياغتها بـisn’t as … as بالمعنى نفسه.",
+      "prompt": "الجملة صحيحة. أعد صياغتها بـnot as … as (isn’t أو wasn’t) بالمعنى نفسه.",
       "payload": {
         "sentence": "The old road is more dangerous than the new one."
       },
@@ -5051,14 +5053,15 @@
       "focus_ar": "إعادة الصياغة بـas … as",
       "points": 1,
       "type": "correct_error",
-      "prompt": "الجملة صحيحة. أعد صياغتها بـisn’t as … as بالمعنى نفسه.",
+      "prompt": "الجملة صحيحة. أعد صياغتها بـnot as … as (isn’t أو wasn’t) بالمعنى نفسه.",
       "payload": {
         "sentence": "Her English is better than mine."
       },
       "answer": {
         "accepted": [
           "My English isn’t as good as hers.",
-          "My English isn’t as good as her English."
+          "My English isn’t as good as her English.",
+          "Mine isn’t as good as hers."
         ]
       },
       "explanation": "better تعود إلى good داخل as … as."
@@ -5080,7 +5083,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "short = قصير، وعكسه tall.",
       "points": 1
     },
     {
@@ -5100,7 +5103,7 @@
       "answer": {
         "correct": 3
       },
-      "explanation": null,
+      "explanation": "elderly = مسنّ، وهي ألطف من old للأشخاص.",
       "points": 1
     },
     {
@@ -5120,7 +5123,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "curly = مجعّد، وعكسه straight.",
       "points": 1
     },
     {
@@ -5140,7 +5143,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "old = كبير السن، وعكسه young.",
       "points": 1
     },
     {
@@ -5160,7 +5163,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "hair = شعر.",
       "points": 1
     },
     {
@@ -5180,7 +5183,7 @@
       "answer": {
         "correct": 3
       },
-      "explanation": null,
+      "explanation": "thin = نحيف، وعكسه heavy.",
       "points": 1
     },
     {
@@ -5214,7 +5217,10 @@
       "answer": {
         "accepted": [
           "This is better.",
-          "This is much better."
+          "This is much better.",
+          "This is far better.",
+          "This is a lot better.",
+          "This is even better."
         ]
       },
       "explanation": "better مقارنة أصلاً، فلا more معها."
@@ -5254,8 +5260,7 @@
           "My car is much faster than yours.",
           "My car is far faster than yours.",
           "My car is a lot faster than yours.",
-          "My car is faster than yours.",
-          "My car is a bit faster than yours."
+          "My car is faster than yours."
         ]
       },
       "explanation": "لا very مع المقارنة."
@@ -5290,7 +5295,9 @@
       "answer": {
         "accepted": [
           "She is better at maths.",
-          "She is good at maths."
+          "She is good at maths.",
+          "She is better at math.",
+          "She is good at math."
         ]
       },
       "explanation": "gooder لا وجود لها."
@@ -5341,7 +5348,9 @@
       },
       "answer": {
         "accepted": [
-          "I prefer tea to coffee."
+          "I prefer tea to coffee.",
+          "I like tea more than coffee.",
+          "I like tea better than coffee."
         ]
       },
       "explanation": "prefer X to Y."
@@ -5377,10 +5386,11 @@
       "answer": {
         "accepted": [
           "My flat is different from yours.",
-          "My flat is different to yours."
+          "My flat is different to yours.",
+          "My flat is different than yours."
         ]
       },
-      "explanation": "different from مع from."
+      "explanation": "different from (وتُقبل to في البريطانية وthan في الأمريكية)، لا of."
     },
     {
       "day_number": 5,
@@ -5437,7 +5447,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "في النصّ: Youssef is taller than me, stronger than me."
     },
     {
       "day_number": 6,
@@ -5457,7 +5467,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "في النصّ: I was the quiet one at the back with a book."
     },
     {
       "day_number": 6,
@@ -5477,7 +5487,7 @@
       "answer": {
         "correct": 3
       },
-      "explanation": null
+      "explanation": "في النصّ: He fell and broke his arm."
     },
     {
       "day_number": 6,
@@ -5497,7 +5507,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "في النصّ: I was better at school than him."
     },
     {
       "day_number": 6,
@@ -5517,7 +5527,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "في النصّ: My teachers liked me more."
     },
     {
       "day_number": 6,
@@ -5537,7 +5547,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "في النصّ: Now he is a doctor and I am an engineer."
     },
     {
       "day_number": 6,
@@ -5557,7 +5567,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "في النصّ: His job is harder than mine."
     },
     {
       "day_number": 6,
@@ -5577,7 +5587,7 @@
       "answer": {
         "correct": 3
       },
-      "explanation": null
+      "explanation": "في النصّ: He earns less money than I do."
     },
     {
       "day_number": 6,
@@ -5597,7 +5607,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "في النصّ: we are closer now than we were as children."
     },
     {
       "day_number": 6,
@@ -5641,7 +5651,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: Singapore, Zurich, Hong Kong, New York."
     },
     {
       "day_number": 7,
@@ -5667,7 +5677,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: Finland is much more expensive than Spain."
     },
     {
       "day_number": 7,
@@ -5693,7 +5703,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: about seventeen thousand wallets … in forty countries."
     },
     {
       "day_number": 7,
@@ -5706,7 +5716,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: In Switzerland, Norway and Denmark, about seven out of ten wallets came back."
     },
     {
       "day_number": 7,
@@ -5892,7 +5902,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": "مع المدّة of."
+      "explanation": "مع فترة زمنية مثل my life وthe year نقول of."
     },
     {
       "day_number": 2,
@@ -6032,7 +6042,9 @@
       },
       "answer": {
         "accepted": [
-          "She is the tallest girl in the school."
+          "She is the tallest girl in the school.",
+          "She is the tallest girl at the school.",
+          "She is the tallest girl in her school."
         ]
       },
       "explanation": "-est للقصيرة، ومع المكان in."
@@ -6308,7 +6320,8 @@
           "a lot",
           "a bit",
           "a little",
-          "slightly"
+          "slightly",
+          "even"
         ]
       },
       "explanation": "كل هذه تصلح إلا very."
@@ -6326,7 +6339,8 @@
       },
       "answer": {
         "accepted": [
-          "twice"
+          "twice",
+          "two times"
         ]
       },
       "explanation": "twice as big = ضعف الحجم."
@@ -6364,8 +6378,7 @@
           "This road is much better than the old one.",
           "This road is far better than the old one.",
           "This road is a lot better than the old one.",
-          "This road is better than the old one.",
-          "This road is a bit better than the old one."
+          "This road is better than the old one."
         ]
       },
       "explanation": "لا very مع المقارنة."
@@ -6422,10 +6435,11 @@
       "answer": {
         "accepted": [
           "from",
-          "to"
+          "to",
+          "than"
         ]
       },
-      "explanation": "different from."
+      "explanation": "different from (وتُقبل to في البريطانية وthan في الأمريكية)."
     },
     {
       "day_number": 3,
@@ -6458,7 +6472,8 @@
       },
       "answer": {
         "accepted": [
-          "exactly"
+          "exactly",
+          "just"
         ]
       },
       "explanation": "exactly the same."
@@ -6475,7 +6490,10 @@
       },
       "answer": {
         "accepted": [
-          "My phone is the same as yours."
+          "My phone is the same as yours.",
+          "My phone is like yours.",
+          "My phone is just like yours.",
+          "My phone is exactly the same as yours."
         ]
       },
       "explanation": "the same as: مع the ومع as."
@@ -6493,10 +6511,11 @@
       "answer": {
         "accepted": [
           "This city is different from my town.",
-          "This city is different to my town."
+          "This city is different to my town.",
+          "This city is different than my town."
         ]
       },
-      "explanation": "different from."
+      "explanation": "different from (وتُقبل to وthan)، لا of."
     },
     {
       "day_number": 3,
@@ -6509,7 +6528,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في الحوار: it's closer to work."
     },
     {
       "day_number": 3,
@@ -6646,7 +6665,7 @@
       "answer": {
         "correct": 3
       },
-      "explanation": null
+      "explanation": "What is he like? عن الشخصية."
     },
     {
       "day_number": 4,
@@ -6666,7 +6685,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "What does he look like? عن الشكل."
     },
     {
       "day_number": 4,
@@ -6686,7 +6705,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "What is it like? للمكان أيضاً، لا How … like."
     },
     {
       "day_number": 4,
@@ -6706,7 +6725,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "What's it like? يُجاب بالوصف."
     },
     {
       "day_number": 4,
@@ -6757,7 +6776,8 @@
       },
       "answer": {
         "accepted": [
-          "is"
+          "is",
+          "was"
         ]
       },
       "explanation": "What is … like?"
@@ -6775,7 +6795,8 @@
       },
       "answer": {
         "accepted": [
-          "are"
+          "are",
+          "were"
         ]
       },
       "explanation": "people جمع."
@@ -6843,7 +6864,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في الحوار: About fifty years old."
     },
     {
       "day_number": 4,
@@ -6856,7 +6877,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في الحوار: Always very smart."
     },
     {
       "day_number": 4,
@@ -6900,7 +6921,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "honest = صادق."
     },
     {
       "day_number": 5,
@@ -6920,7 +6941,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "patient = صبور."
     },
     {
       "day_number": 5,
@@ -6940,7 +6961,7 @@
       "answer": {
         "correct": 3
       },
-      "explanation": null
+      "explanation": "generous = كريم."
     },
     {
       "day_number": 5,
@@ -7260,7 +7281,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "في النصّ: two years apart."
     },
     {
       "day_number": 6,
@@ -7300,7 +7321,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "في النصّ: I always call him first."
     },
     {
       "day_number": 6,
@@ -7320,7 +7341,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "I'm just looking, thanks = أتفرّج فقط."
     },
     {
       "day_number": 6,
@@ -7348,7 +7369,7 @@
       "focus_ar": "لغة التسوّق",
       "points": 1,
       "type": "multiple_choice",
-      "prompt": "You try some trousers, but they are small. You say…",
+      "prompt": "You try on some trousers, but they are small. You say…",
       "payload": {
         "options": [
           "Do you have these in a bigger size?",
@@ -7360,7 +7381,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "Do you have these in a bigger size? — والجمع لأن trousers جمع."
     },
     {
       "day_number": 6,
@@ -7380,7 +7401,7 @@
       "answer": {
         "correct": 3
       },
-      "explanation": null
+      "explanation": "How much للسعر، وare لأن shoes جمع."
     },
     {
       "day_number": 6,
@@ -7400,7 +7421,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "anything cheaper = شيء أرخص."
     },
     {
       "day_number": 6,
@@ -7420,7 +7441,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "I'll take it = سآخذه."
     },
     {
       "day_number": 6,
@@ -7440,7 +7461,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "pay by card = الدفع بالبطاقة."
     },
     {
       "day_number": 6,
@@ -7460,7 +7481,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "السؤال عن المقاس: Medium."
     },
     {
       "day_number": 6,
@@ -7522,10 +7543,10 @@
       "focus_ar": "لغة التسوّق",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "Here's your ______ . Have a nice day.",
+      "prompt": "The assistant gives you a small piece of paper with the price on it: \"Here's your ______ . Have a nice day.\"",
       "payload": {
-        "before": "Here's your ",
-        "after": " . Have a nice day."
+        "before": "The assistant gives you a small piece of paper with the price on it: \"Here's your ",
+        "after": " . Have a nice day.\""
       },
       "answer": {
         "accepted": [
@@ -7545,7 +7566,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في الحوار: eighty pounds مقابل sixty."
     },
     {
       "day_number": 6,

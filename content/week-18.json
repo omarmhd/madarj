@@ -42,7 +42,7 @@
   "writing": {
     "title_ar": "اختبار الوحدة و — اكتب رأيك",
     "title_en": "Module 3 Test F — Writing an Opinion",
-    "task_en": "Write 150–170 words giving your opinion on one of these: Is it better to learn a language as an adult or as a child? Should everyone be required to learn a second language? Is it better to change jobs often or to stay in one place?",
+    "task_en": "Write 150–170 words giving your opinion on one of these: Is it better to learn a language as an adult or as a child? Should everyone have to learn a second language? Is it better to change jobs often or to stay in one place?",
     "task_ar": "اكتب 150–170 كلمة برأيك في واحد من ثلاثة: هل الأفضل أن تتعلّم لغة وأنت كبير أم وأنت طفل؟ · هل يجب أن يتعلّم كل الناس لغة ثانية؟ · هل الأفضل أن تغيّر عملك كثيراً أم أن تبقى في مكان واحد؟",
     "min_words": 150,
     "max_words": 170,
@@ -537,10 +537,10 @@
           },
           {
             "error_no": 6,
-            "wrong": "You mustn't pay (it's free).",
-            "right": "You don't have to pay.",
-            "arabic": "لا يلزمك أن تدفع (إنه مجاني).",
-            "why_ar": "ممنوع مقابل غير مطلوب"
+            "wrong": "It's free, so you mustn't pay.",
+            "right": "It's free, so you don't have to pay.",
+            "arabic": "إنه مجاني، فلا يلزمك أن تدفع.",
+            "why_ar": "mustn't = ممنوع، وdon't have to = غير مطلوب"
           },
           {
             "error_no": 7,
@@ -1012,7 +1012,7 @@
                 [
                   "although",
                   "Although it was late, we kept working.",
-                  "رغم أن الوقت متأخر واصلنا العمل"
+                  "رغم أن الوقت كان متأخراً واصلنا العمل"
                 ],
                 [
                   "However,",
@@ -1083,11 +1083,11 @@
       "title_ar": "ترسيخ النطق — ملامح الوحدة الثالثة",
       "title_en": "Pronunciation Consolidation",
       "payload": {
-        "intro_ar": "الوحدة الثالثة نقلتك من نطق الكلمة إلى موسيقى الجملة: الوصل والسقوط والصيغ الضعيفة واللام الصامتة والتنغيم والنبر. استمع إلى كل مثال قبل أن تقوله — التمييز قبل الإنتاج.",
+        "intro_ar": "الوحدة الثالثة نقلتك من نطق الكلمة إلى إيقاع الجملة: الوصل والسقوط والصيغ الضعيفة واللام الصامتة والتنغيم والنبر. استمع إلى كل مثال قبل أن تقوله — التمييز قبل الإنتاج.",
         "symbols": [
           {
             "ipa": "الوصل",
-            "arabic_hint": "حدود الكلمات تختفي: an office تُسمع «a-noffice»، وI've always «I-va-vall-ways»",
+            "arabic_hint": "حدود الكلمات تختفي: an office تُسمع «a-noffice»، وI've always «I-vall-ways»",
             "examples": [
               "an office",
               "I've always",
@@ -1331,7 +1331,7 @@
           {
             "part_en": "Close",
             "part_ar": "الخاتمة: نتيجتك أو نصيحتك لغيرك",
-            "say_en": "Overall… If I were starting again, I'd…",
+            "say_en": "Overall… My advice is… If you…, you'll…",
             "seconds": 20
           }
         ],
@@ -1773,7 +1773,7 @@
               },
               {
                 "en": "I have known my best friend for twenty years.",
-                "ar": "أعرف أعزّ أصدقائي منذ عشرين سنة."
+                "ar": "أعرف أعزّ صديق لي منذ عشرين سنة."
               },
               {
                 "en": "We met at school.",
@@ -1961,7 +1961,7 @@
               },
               {
                 "en": "I have studied English for eighteen weeks, and I have learned about 1,500 words.",
-                "ar": "درست الإنجليزية 18 أسبوعاً، وتعلّمت نحو 1500 كلمة."
+                "ar": "أدرس الإنجليزية منذ 18 أسبوعاً، وتعلّمت نحو 1500 كلمة."
               },
               {
                 "en": "I still have to practise speaking every day.",
@@ -2019,8 +2019,8 @@
             "ar": "أعمل في هذا المبنى منذ ست سنوات، ولم أتحدّث مع أحد في المصعد قطّ. وأمس مساءً كلّمت أخيراً الرجل الذي يعمل في الطابق الثالث. إنه هنا منذ مدّة أطول منّي."
           },
           {
-            "en": "He said I shouldn't take the stairs, which is what I usually do, because the lift is the only place where people in this building talk to each other. I said I have to take the stairs, otherwise I don't move all day.",
-            "ar": "قال إنه لا ينبغي أن أصعد الدرج — وهو ما أفعله عادةً — لأن المصعد هو المكان الوحيد الذي يتحدّث فيه الناس في هذا المبنى بعضهم مع بعض. فقلت إنني مضطرّ إلى الدرج، وإلا فلن أتحرّك طوال اليوم."
+            "en": "His advice was simple: I shouldn't take the stairs, which is what I usually do, because the lift is the only place where people in this building talk to each other. My answer was simple too: I have to take the stairs, otherwise I don't move all day.",
+            "ar": "كانت نصيحته بسيطة: لا ينبغي أن أصعد الدرج — وهو ما أفعله عادةً — لأن المصعد هو المكان الوحيد الذي يتحدّث فيه الناس في هذا المبنى بعضهم مع بعض. وكان جوابي بسيطاً أيضاً: أنا مضطرّ إلى صعود الدرج، وإلا فلا أتحرّك طوال اليوم."
           },
           {
             "en": "\"If you keep taking the stairs,\" he said, \"you'll be very healthy and you won't know anybody.\"",
@@ -2053,8 +2053,8 @@
             "a_ar": "تُنطق «shud»."
           },
           {
-            "q_ar": "If you keep taking the stairs ↗ you'll be healthy ↘ — هل صعد اللحن ثم هبط؟",
-            "a_ar": "يصعد في آخر جملة الشرط، ويهبط في آخر النتيجة."
+            "q_ar": "If you keep taking the stairs ↗ you'll be healthy ↘ — هل صعدت النغمة ثم هبط؟",
+            "a_ar": "تصعد في آخر جملة الشرط، وتهبط في آخر النتيجة."
           },
           {
             "q_ar": "who works · where people talk · which I usually do — هل جرت الجمل الموصولة بلا توقّف؟",
@@ -2082,8 +2082,8 @@
             "ar": "أدرّس الإنجليزية منذ تسع عشرة سنة، وقد غيّرت رأيي في كل شيء تقريباً كنت أؤمن به حين بدأت."
           },
           {
-            "en": "When I began in 2007, I thought grammar was the centre of everything. If a student made a mistake, I corrected it immediately. I had a red pen and I was proud of it.",
-            "ar": "حين بدأت سنة 2007 كنت أظنّ أن القواعد مركز كل شيء. إذا أخطأ طالب صحّحت خطأه فوراً. كان معي قلم أحمر، وكنت فخورة به."
+            "en": "When I began, nineteen years ago, I thought grammar was the centre of everything. If a student made a mistake, I corrected it immediately. I had a red pen and I was proud of it.",
+            "ar": "حين بدأت قبل تسع عشرة سنة كنت أظنّ أن القواعد مركز كل شيء. إذا أخطأ طالب صحّحت خطأه فوراً. كان معي قلم أحمر، وكنت فخورة به."
           },
           {
             "en": "Then I noticed something. The students who improved fastest were not the ones with the best grammar. They were the ones who talked the most, and they made more mistakes than anybody.",
@@ -2105,7 +2105,7 @@
           },
           {
             "q_ar": "When did she begin? — متى بدأت؟",
-            "a_ar": "In 2007."
+            "a_ar": "Nineteen years ago. — قبل تسع عشرة سنة."
           },
           {
             "q_ar": "What did she believe at first? — بماذا كانت تؤمن أولاً؟",
@@ -2148,11 +2148,11 @@
       "title_ar": "اختبار هـ — القراءة",
       "title_en": "Module 3 Test E — Reading",
       "payload": {
-        "method_ar": "اقرأ مرّتين: الأولى بلا توقّف، والثانية لتجيب. حلّ هـ1 — صحيح أم خطأ — في تمارين اليوم، وأجب عن سؤالي هـ2 بكلماتك على ورقة ثم قارن بالنموذج.",
+        "method_ar": "القصّة متخيَّلة. اقرأ مرّتين: الأولى بلا توقّف، والثانية لتجيب. حلّ هـ1 — صحيح أم خطأ — في تمارين اليوم، وأجب عن سؤالي هـ2 بكلماتك على ورقة ثم قارن بالنموذج.",
         "story": [
           {
-            "en": "In 1962, a Norwegian ship's cook called Alfred kept a diary that nobody read until 2015, when his granddaughter found it in a box.",
-            "ar": "في سنة 1962 كتب طبّاخ سفينة نرويجيّ اسمه ألفريد يوميّاتٍ لم يقرأها أحد حتى سنة 2015، حين وجدتها حفيدته في صندوق."
+            "en": "In 1962, a Norwegian ship's cook called Alfred started a diary that nobody read until 2015, when his granddaughter found it in a box.",
+            "ar": "في سنة 1962 بدأ طبّاخ سفينة نرويجيّ اسمه ألفريد يكتب يوميّاتٍ لم يقرأها أحد حتى سنة 2015، حين وجدتها حفيدته في صندوق."
           },
           {
             "en": "The diary is not interesting because of what happened. Almost nothing happened. He cooked, he cleaned, the ship moved. He wrote about the weather nearly every day.",
@@ -2160,18 +2160,18 @@
           },
           {
             "en": "It is interesting because of one habit. At the end of every entry, he wrote a single sentence beginning \"Today I learned…\". He did this for eleven years without missing a day.",
-            "ar": "إنها مثيرة بسبب عادة واحدة: في آخر كل صفحة كان يكتب جملة واحدة تبدأ بـ«تعلّمت اليوم…». وفعل ذلك إحدى عشرة سنة دون أن يفوّت يوماً."
+            "ar": "إنها مثيرة بسبب عادة واحدة: في ختام ما كتبه كل يوم كان يكتب جملة واحدة تبدأ بـ«تعلّمت اليوم…». وفعل ذلك إحدى عشرة سنة دون أن يفوّت يوماً."
           },
           {
-            "en": "Most entries are small. \"Today I learned that if you add salt too early, the beans stay hard.\" \"Today I learned that the new engineer, whose father was also a sailor, is not as confident as he pretends.\"",
-            "ar": "ومعظم ما كتبه صغير: «تعلّمت اليوم أنك إن أضفت الملح مبكراً بقي الفول قاسياً». «تعلّمت اليوم أن المهندس الجديد، الذي كان أبوه بحّاراً أيضاً، ليس واثقاً كما يتظاهر»."
+            "en": "Most entries are small. \"Today I learned that if you cook rice in too much water, it goes soft.\" \"Today I learned that the new engineer, whose father was also a sailor, is not as confident as he pretends.\"",
+            "ar": "ومعظم ما كتبه صغير: «تعلّمت اليوم أنك إن طبخت الأرز في ماء كثير صار طريّاً أكثر من اللازم». «تعلّمت اليوم أن المهندس الجديد، الذي كان أبوه بحّاراً أيضاً، ليس واثقاً كما يتظاهر»."
           },
           {
             "en": "The granddaughter, who is a teacher, has published a selection. She says the value is not in any single line but in the accumulation. \"Four thousand small things,\" she said. \"None of them important. Together they are a mind.\"",
             "ar": "ونشرت الحفيدة، وهي معلّمة، مختارات منها. وتقول إن القيمة ليست في سطر بعينه بل في التراكم: «أربعة آلاف شيء صغير، لا شيء منها مهمّ. ومعاً هي عقل»."
           },
           {
-            "en": "The final entry, written three days before he left the sea, says: \"Today I learned that I have been happy here, which I did not know until I decided to leave.\"",
+            "en": "The final entry, which he wrote three days before he left the sea, says: \"Today I learned that I have been happy here, which I did not know until I decided to leave.\"",
             "ar": "وآخر ما كتبه، قبل أن يترك البحر بثلاثة أيام، يقول: «تعلّمت اليوم أنني كنت سعيداً هنا، ولم أكن أعرف ذلك حتى قرّرت أن أرحل»."
           }
         ],
@@ -2227,7 +2227,9 @@
       },
       "answer": {
         "accepted": [
-          "have to"
+          "have to",
+          "must",
+          "need to"
         ]
       },
       "explanation": "قاعدة يفرضها البلد من الخارج ← have to.",
@@ -2245,7 +2247,10 @@
       },
       "answer": {
         "accepted": [
-          "mustn't"
+          "mustn't",
+          "can't",
+          "shouldn't",
+          "aren't allowed to"
         ]
       },
       "explanation": "سرّ: ممنوع أن تخبر أحداً ← mustn't.",
@@ -2263,7 +2268,8 @@
       },
       "answer": {
         "accepted": [
-          "had to"
+          "had to",
+          "needed to"
         ]
       },
       "explanation": "الماضي من have to هو had to — لا must في الماضي.",
@@ -2281,7 +2287,8 @@
       },
       "answer": {
         "accepted": [
-          "rains / won't go"
+          "rains / won't go",
+          "rains / don't go"
         ]
       },
       "explanation": "لا will بعد if: rains، والنتيجة won't go.",
@@ -2374,7 +2381,8 @@
       },
       "answer": {
         "accepted": [
-          "has risen"
+          "has risen",
+          "has been rising"
         ]
       },
       "explanation": "recently ← المضارع التام، وrise تصريفه الثالث risen.",
@@ -2411,7 +2419,9 @@
       },
       "answer": {
         "accepted": [
-          "should"
+          "should",
+          "had better",
+          "ought to"
         ]
       },
       "explanation": "نصيحة ← should.",
@@ -2510,7 +2520,11 @@
           "This is the school which I studied at.",
           "This is the school that I studied at.",
           "This is the school I studied at.",
-          "This is the school at which I studied."
+          "This is the school at which I studied.",
+          "This is the school which I studied in.",
+          "This is the school that I studied in.",
+          "This is the school I studied in.",
+          "This is the school in which I studied."
         ]
       },
       "explanation": "مكان ← where، ولا تكرّر there.",
@@ -2570,7 +2584,9 @@
       },
       "answer": {
         "accepted": [
-          "experience"
+          "experience",
+          "experiment",
+          "an experience"
         ]
       },
       "explanation": null,
@@ -2589,7 +2605,8 @@
       "answer": {
         "accepted": [
           "advice",
-          "a piece of advice"
+          "a piece of advice",
+          "tip"
         ]
       },
       "explanation": null,
@@ -2625,7 +2642,8 @@
       },
       "answer": {
         "accepted": [
-          "achievement"
+          "achievement",
+          "accomplishment"
         ]
       },
       "explanation": null,
@@ -2643,7 +2661,9 @@
       },
       "answer": {
         "accepted": [
-          "don't have to"
+          "don't have to",
+          "don't need to",
+          "needn't"
         ]
       },
       "explanation": "مجاني: لست مضطراً، لا ممنوعاً ← don't have to.",
@@ -2661,7 +2681,9 @@
       },
       "answer": {
         "accepted": [
-          "mustn't"
+          "mustn't",
+          "can't",
+          "aren't allowed to"
         ]
       },
       "explanation": "ممنوع ← mustn't.",
@@ -2679,7 +2701,8 @@
       },
       "answer": {
         "accepted": [
-          "had to"
+          "had to",
+          "needed to"
         ]
       },
       "explanation": "أمس ← had to.",
@@ -2698,7 +2721,8 @@
       "answer": {
         "accepted": [
           "must",
-          "have to"
+          "have to",
+          "need to"
         ]
       },
       "explanation": "قاعدة إلزامية للزوّار ← must أو have to.",
@@ -2716,7 +2740,10 @@
       },
       "answer": {
         "accepted": [
-          "shouldn't"
+          "shouldn't",
+          "don't need to",
+          "don't have to",
+          "needn't"
         ]
       },
       "explanation": "نصيحة بالنفي ← shouldn't.",
@@ -2735,7 +2762,10 @@
       "answer": {
         "accepted": [
           "Should",
-          "should"
+          "should",
+          "Shall",
+          "Can",
+          "Could"
         ]
       },
       "explanation": "طلب النصيحة في سؤال ← Should I…?",
@@ -2934,7 +2964,9 @@
       },
       "answer": {
         "accepted": [
-          "point"
+          "point",
+          "idea",
+          "question"
         ]
       },
       "explanation": "That's a good point = نقطة جيدة.",
@@ -3057,10 +3089,10 @@
       "exercise_no": 4,
       "type": "fill_blank",
       "focus_ar": "اختبار أ1 — التامّ أم الماضي البسيط؟",
-      "prompt": "When ______ she ______ (start) her new job?",
+      "prompt": "When ______ she ______ (start) her new job? — Last month.",
       "payload": {
         "before": "When ",
-        "after": " she ______ (start) her new job?"
+        "after": " she ______ (start) her new job? — Last month."
       },
       "answer": {
         "accepted": [
@@ -3100,7 +3132,8 @@
       },
       "answer": {
         "accepted": [
-          "advantage"
+          "advantage",
+          "benefit"
         ]
       },
       "explanation": null,
@@ -3118,7 +3151,8 @@
       },
       "answer": {
         "accepted": [
-          "disadvantage"
+          "disadvantage",
+          "drawback"
         ]
       },
       "explanation": null,
@@ -3155,7 +3189,9 @@
       "answer": {
         "accepted": [
           "point of view",
-          "viewpoint"
+          "viewpoint",
+          "view",
+          "opinion"
         ]
       },
       "explanation": null,
@@ -3299,10 +3335,10 @@
       "exercise_no": 1,
       "type": "fill_blank",
       "focus_ar": "تمرين المراجعة 1 — اختر الصيغة الصحيحة",
-      "prompt": "When ______ you ______ (go) there?",
+      "prompt": "When ______ you ______ (go) there? — Last summer.",
       "payload": {
         "before": "When ",
-        "after": " you ______ (go) there?"
+        "after": " you ______ (go) there? — Last summer."
       },
       "answer": {
         "accepted": [
@@ -3398,7 +3434,8 @@
       },
       "answer": {
         "accepted": [
-          "rains / will stay"
+          "rains / will stay",
+          "rains / stay"
         ]
       },
       "explanation": "لا will بعد if.",
@@ -3715,7 +3752,9 @@
       "answer": {
         "accepted": [
           "The dinner is free so you don't have to pay.",
-          "The dinner is free, so you don't have to pay."
+          "The dinner is free, so you don't have to pay.",
+          "The dinner is free so you don't need to pay.",
+          "The dinner is free so you needn't pay."
         ]
       },
       "explanation": "مجاني: لست مضطراً ← don't have to. وmustn't تعني ممنوع.",
@@ -3849,7 +3888,8 @@
       },
       "answer": {
         "accepted": [
-          "Have you ever been there?"
+          "Have you ever been there?",
+          "Have you ever gone there?"
         ]
       },
       "explanation": "بعد have تصريف ثالث: been.",
@@ -3884,7 +3924,9 @@
       "answer": {
         "accepted": [
           "Yesterday I had to work late.",
-          "I had to work late yesterday."
+          "I had to work late yesterday.",
+          "Yesterday I needed to work late.",
+          "I needed to work late yesterday."
         ]
       },
       "explanation": "لا must في الماضي ← had to.",
@@ -4047,10 +4089,12 @@
       "answer": {
         "accepted": [
           "I usually drink tea every morning.",
-          "I drink tea every morning."
+          "I drink tea every morning.",
+          "I used to drink tea every morning.",
+          "I am used to drinking tea every morning."
         ]
       },
-      "explanation": "العادة الآن ← المضارع البسيط، لا use to.",
+      "explanation": "use to لا تأتي وحدها في جملة مثبتة: للعادة الآن ← المضارع البسيط (I usually drink)، وللعادة التي انتهت ← used to.",
       "points": 1
     },
     {
@@ -4121,7 +4165,8 @@
       "answer": {
         "accepted": [
           "I have been learning English since January.",
-          "I have learned English since January."
+          "I have learned English since January.",
+          "I have learnt English since January."
         ]
       },
       "explanation": "since ← المضارع التام (المستمر)، لا am learning.",
@@ -4176,7 +4221,8 @@
       },
       "answer": {
         "accepted": [
-          "don't need to"
+          "don't need to",
+          "needn't"
         ]
       },
       "explanation": "لا داعي ← don't need to.",
@@ -4212,7 +4258,8 @@
       },
       "answer": {
         "accepted": [
-          "You'd better call her now."
+          "You'd better call her now.",
+          "You had better call her now."
         ]
       },
       "explanation": "لا to بعد had better.",
@@ -4224,17 +4271,17 @@
       "exercise_no": 3,
       "type": "fill_blank",
       "focus_ar": "مراجعة الأسبوع 15 — too و enough",
-      "prompt": "I can't sleep. My room is ______ hot.",
+      "prompt": "I can't sleep. My room is ______ hot to sleep in.",
       "payload": {
         "before": "I can't sleep. My room is ",
-        "after": " hot."
+        "after": " hot to sleep in."
       },
       "answer": {
         "accepted": [
           "too"
         ]
       },
-      "explanation": "أكثر من اللازم ← too قبل الصفة.",
+      "explanation": "أكثر من اللازم فلا يمكن ← too + صفة + to. ولا تقال very hot to sleep in.",
       "points": 1
     },
     {
@@ -4421,7 +4468,7 @@
       "exercise_no": 5,
       "type": "true_false",
       "focus_ar": "اختبار د2 — الاستماع: صحيح أم خطأ",
-      "prompt": "The best students made very few mistakes.",
+      "prompt": "The students who improved fastest made very few mistakes.",
       "payload": {},
       "answer": {
         "correct": false
@@ -4452,7 +4499,7 @@
       "answer": {
         "correct": false
       },
-      "explanation": "You don't have to be correct to be understood.",
+      "explanation": "قالت العكس: You don't have to be correct to be understood.",
       "points": 1
     },
     {
@@ -4465,7 +4512,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": "One student, who is now a friend…",
+      "explanation": "في النصّ: One student, who is now a friend… — صارت صديقتها.",
       "points": 1
     },
     {
@@ -4473,7 +4520,7 @@
       "exercise_no": 5,
       "type": "true_false",
       "focus_ar": "اختبار هـ1 — القراءة: صحيح أم خطأ",
-      "prompt": "The diary was found in 2015.",
+      "prompt": "His granddaughter found the diary in 2015.",
       "payload": {},
       "answer": {
         "correct": true
@@ -4486,12 +4533,12 @@
       "exercise_no": 5,
       "type": "true_false",
       "focus_ar": "اختبار هـ1 — القراءة: صحيح أم خطأ",
-      "prompt": "A great deal happened on the ship.",
+      "prompt": "A lot happened on the ship.",
       "payload": {},
       "answer": {
         "correct": false
       },
-      "explanation": "Almost nothing happened.",
+      "explanation": "في النصّ: Almost nothing happened — لم يحدث شيء تقريباً.",
       "points": 1
     },
     {
@@ -4504,7 +4551,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": "for eleven years without missing a day.",
+      "explanation": "في النصّ: for eleven years without missing a day — إحدى عشرة سنة بلا انقطاع.",
       "points": 1
     },
     {
@@ -4525,12 +4572,12 @@
       "exercise_no": 5,
       "type": "true_false",
       "focus_ar": "اختبار هـ1 — القراءة: صحيح أم خطأ",
-      "prompt": "The final entry was written after he left the sea.",
+      "prompt": "He wrote the final entry after he left the sea.",
       "payload": {},
       "answer": {
         "correct": false
       },
-      "explanation": "كُتبت قبل أن يترك البحر بثلاثة أيام.",
+      "explanation": "كتبها قبل أن يترك البحر بثلاثة أيام: three days before he left the sea.",
       "points": 1
     },
     {
@@ -4993,7 +5040,9 @@
           "Although it was cold, we swam.",
           "Although it was cold we swam.",
           "Despite the cold, we swam.",
-          "Despite the cold we swam."
+          "Despite the cold we swam.",
+          "Even though it was cold, we swam.",
+          "Despite the cold weather, we swam."
         ]
       },
       "explanation": "despite + اسم، وalthough + جملة.",
@@ -5106,7 +5155,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "Really? What was it like? تُظهر الاهتمام وتطلب التفاصيل. وIt depends وYes, I am لا تردّان على خبره.",
       "points": 1
     },
     {
@@ -5125,7 +5174,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "للموافقة على جملة منفية ← Me neither. أمّا Me too وSo do I فللجملة المثبتة.",
       "points": 1
     },
     {
@@ -5144,7 +5193,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "What have you been up to? = ماذا كنت تفعل في هذه المدّة؟ والثاني بلا قلب في السؤال، والثالث يجمع المضارع المستمر مع yesterday.",
       "points": 1
     },
     {
@@ -5163,7 +5212,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "Is it OK if I…? طلب إذن مهذّب. وI open the window خبر لا طلب، وYou must أمر.",
       "points": 1
     },
     {
@@ -5182,7 +5231,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "I'm afraid not = للأسف لا، رفض مهذّب. وYes, you mustn't تناقض نفسها.",
       "points": 1
     },
     {
@@ -5201,7 +5250,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "Shall I…? للعرض: «هل أساعدك؟». وWill you help me? تطلب أنت المساعدة.",
       "points": 1
     },
     {
@@ -5220,7 +5269,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "الوعد بالمستقبل ← I'll: I promise I'll bring it back. ولا تأتي promise مع -ing.",
       "points": 1
     },
     {
@@ -5239,7 +5288,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "التحذير: Be careful, or you'll fall. ولا to بعد might، ولا will بعد if.",
       "points": 1
     },
     {
@@ -5258,7 +5307,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "What do you mean by that? لطلب التوضيح. وWhat you mean? بلا do خطأ.",
       "points": 1
     },
     {
@@ -5277,7 +5326,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "Sorry to interrupt, but… مقاطعة مهذّبة. والخياران الآخران فظّان، وWait, I talk now خطأ أيضاً.",
       "points": 1
     },
     {
@@ -5426,7 +5475,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": "the reason for — لا of كما في «سبب كذا».",
+      "explanation": "the reason for — مع أنّ العربية تقول «سبب التأخير» بلا حرف جرّ، فلا تترجمها بـof.",
       "points": 1
     }
   ]

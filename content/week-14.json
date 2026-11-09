@@ -89,7 +89,7 @@
       },
       {
         "en": "I still haven't ____________ , but I hope to ____________ .",
-        "ar": "ما زلت لم … بعد، لكنّي أتمنّى أن …."
+        "ar": "لم … بعد، لكنّي أتمنّى أن …."
       },
       {
         "en": "I used to ____________ , but now I ____________ .",
@@ -565,22 +565,16 @@
           "order": 8
         },
         {
-          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record:baseline",
-          "order": 9
-        },
-        {
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race",
-          "order": 10
+          "order": 9
         },
         {
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework",
-          "order": 11
+          "order": 10
         }
       ]
     }
@@ -941,7 +935,7 @@
       "group": "change_and_progress",
       "word": "decrease",
       "ipa": "/dɪˈkriːs/",
-      "arabic": "ينقص",
+      "arabic": "يقلّ · ينخفض",
       "example": "The number of smokers has decreased.",
       "group_label_ar": "التغيّر والتقدّم",
       "group_label_en": "Change and Progress",
@@ -1175,7 +1169,7 @@
       "group": "news_and_current_events",
       "word": "report",
       "ipa": "/rɪˈpɔːt/",
-      "arabic": "يفيد / تقرير",
+      "arabic": "تقرير · يُبلغ عن",
       "example": "The report says that the economy is growing.",
       "group_label_ar": "الأخبار والأحداث",
       "group_label_en": "News and Current Events",
@@ -1630,7 +1624,7 @@
       "group": "reacting_to_news",
       "word": "How long has it been?",
       "ipa": null,
-      "arabic": "منذ متى وهو كذلك؟",
+      "arabic": "كم مضى من الوقت؟",
       "example": "Hello, Mona! How long has it been? Five years?",
       "group_label_ar": "الردّ على الأخبار",
       "group_label_en": "Reacting to News",
@@ -1695,7 +1689,7 @@
       "group": "reacting_to_news",
       "word": "What have you been up to?",
       "ipa": null,
-      "arabic": "ماذا كنت تفعل؟",
+      "arabic": "ماذا كنت تفعل في هذه المدّة؟",
       "example": "Long time no see! What have you been up to?",
       "group_label_ar": "الردّ على الأخبار",
       "group_label_en": "Reacting to News",
@@ -1798,7 +1792,7 @@
     {
       "group": "word_formation",
       "word": "an increase",
-      "ipa": "/ən ˈɪŋkriːs/",
+      "ipa": "/ən ˈɪnkriːs/",
       "arabic": "زيادة (اسم)",
       "example": "There has been an increase in prices.",
       "group_label_ar": "تكوين الكلمات: التغيّر",
@@ -1995,7 +1989,7 @@
         {
           "speaker": "KHALED",
           "en": "Over a year, I think. What have you been up to?",
-          "ar": "أكثر من سنة على ما أظن. ماذا كنت تفعل؟"
+          "ar": "أكثر من سنة على ما أظن. ماذا كنت تفعل في هذه المدّة؟"
         },
         {
           "speaker": "SAMI",
@@ -2025,7 +2019,7 @@
         {
           "speaker": "KHALED",
           "en": "That's great news. Have you moved house as well?",
-          "ar": "خبر رائع. هل انتقلت من البيت أيضاً؟"
+          "ar": "خبر رائع. هل انتقلت إلى بيت جديد أيضاً؟"
         },
         {
           "speaker": "SAMI",
@@ -2049,8 +2043,8 @@
         },
         {
           "speaker": "SAMI",
-          "en": "She usually is. And you? Anything happened?",
-          "ar": "عادةً كذلك. وأنت؟ هل حدث شيء؟"
+          "en": "She usually is. And you? Has anything happened?",
+          "ar": "هي محقّة عادةً. وأنت؟ هل حدث شيء؟"
         },
         {
           "speaker": "KHALED",
@@ -2072,7 +2066,7 @@
     {
       "number": 2,
       "title": "Have You Heard?",
-      "situation_en": "",
+      "situation_en": "Lina has surprising news about the project she and Sami have worked on.",
       "situation_ar": "خبر جديد ينتقل بين اثنين: هل سمعت؟",
       "speaker_genders": {
         "LINA": "f",
@@ -2218,12 +2212,6 @@
             "why_ar": "when تمنع المضارع التام"
           },
           {
-            "wrong": "She lived here for ten years. (she still lives here)",
-            "right": "She has lived here for ten years.",
-            "arabic": "تسكن هنا منذ عشر سنوات وما زالت",
-            "why_ar": "الماضي البسيط يعني أنها رحلت"
-          },
-          {
             "error_no": 17,
             "wrong": "I have went to Turkey last summer.",
             "right": "I went to Turkey last summer.",
@@ -2240,14 +2228,14 @@
         "checklist_ar": [
           "وقت منتهٍ (yesterday · ago · last year · in 2019) ← الماضي البسيط",
           "وقت مستمرّ أو غير مذكور ← المضارع التام",
-          "لا ago ولا when مع المضارع التام أبداً",
+          "لا ago ولا السؤال بـWhen…? مع المضارع التام (أمّا Since when…? فتأخذه)",
           "السؤال الأول بالتام، والتفاصيل بالبسيط"
         ],
         "lessons": [
           {
             "title_ar": "كلمات تفرض الزمن",
             "title_en": "Time words that decide the tense",
-            "explain_ar": "بعض كلمات الزمن تختار الزمن وحدها. كلمات العمود الأول تعني فترة لم تنتهِ أو وقتاً غير مذكور ← المضارع التام. وكلمات العمود الثاني تذكر وقتاً انتهى ← الماضي البسيط. وأوثق قاعدة في الفصل: when وago لا تجتمعان مع المضارع التام أبداً — إن استطعت أن تقول متى، فالزمن هو الماضي البسيط.",
+            "explain_ar": "بعض كلمات الزمن تختار الزمن وحدها. كلمات العمود الأول تعني فترة لم تنتهِ أو وقتاً غير مذكور ← المضارع التام. وكلمات العمود الثاني تذكر وقتاً انتهى ← الماضي البسيط. وأوثق قاعدة في الفصل: ago والسؤال بـWhen…? لا يجتمعان مع المضارع التام — إن استطعت أن تقول متى، فالزمن هو الماضي البسيط. أمّا Since when…? فتسأل عن نقطة البداية وتأخذ المضارع التام.",
             "table": {
               "columns_ar": [
                 "تفرض المضارع التام",
@@ -2416,12 +2404,6 @@
             "literal": "I work here for five years.",
             "right": "I have worked here for five years.",
             "rule_ar": "بدأ في الماضي وما زال صحيحاً"
-          },
-          {
-            "ar": "تسكن هنا منذ عشر سنوات (وما زالت)",
-            "literal": "She lived here for ten years. (she still lives here)",
-            "right": "She has lived here for ten years.",
-            "rule_ar": "الماضي البسيط يعني أنها رحلت"
           }
         ],
         "negation_ar": "النفي في المضارع التام: haven't أو hasn't ثم اسم المفعول، وyet في الآخر: I haven't finished yet. وفي الماضي البسيط: didn't ثم المصدر: I didn't finish it yesterday. ولا تخلط: I haven't went وI didn't went كلاهما خطأ.",
@@ -2545,7 +2527,7 @@
                 ],
                 [
                   "It has been raining all morning.",
-                  "تمطر طوال الصباح."
+                  "تمطر منذ الصباح."
                 ],
                 [
                   "I've known him for ten years.",
@@ -2589,7 +2571,7 @@
       "title_ar": "القواعد — already · yet · just · still",
       "title_en": "Grammar — already, yet, just, still",
       "payload": {
-        "rule_ar": "أربع كلمات تعيش مع المضارع التام، ولكلٍّ موضعها: already و just قبل اسم المفعول، و yet في آخر الجملة (في النفي والسؤال)، و still قبل haven’t. والفرق بين yet و still: He hasn’t arrived yet محايدة، و He still hasn’t arrived فيها نفاد صبر — كان يجب أن يصل.",
+        "rule_ar": "أربع كلمات تعيش مع المضارع التام، ولكلٍّ موضعها: already و just قبل اسم المفعول (وتصحّ already في آخر الجملة أيضاً: I've finished it already)، و yet في آخر الجملة (في النفي والسؤال)، و still قبل haven’t. والفرق بين yet و still: He hasn’t arrived yet محايدة، و He still hasn’t arrived فيها نفاد صبر — كان يجب أن يصل.",
         "table": {
           "columns_ar": [
             "الكلمة",
@@ -2781,7 +2763,7 @@
         "transcript": [
           {
             "en": "I have worked at the same desk for ten years. The chair has broken twice and they have repaired it twice, which tells you something about this company.",
-            "ar": "أعمل على المكتب نفسه عشر سنوات. انكسر الكرسي مرّتين وأصلحوه مرّتين، وهذا يقول لك شيئاً عن هذه الشركة."
+            "ar": "أعمل على المكتب نفسه منذ عشر سنوات. انكسر الكرسي مرّتين وأصلحوه مرّتين، وهذا يقول لك شيئاً عن هذه الشركة."
           },
           {
             "en": "When I started in 2016, there were eleven of us in this room. Since then, nine have left. Two of them have come back. One came back and left again in the same month, which we still talk about.",
@@ -2792,8 +2774,8 @@
             "ar": "في عشر سنوات كان لي خمسة مديرين. الأول علّمني كل ما أعرفه تقريباً ثم رحل بعد أربعة عشر شهراً. والثاني لم يتعلّم اسمي قطّ. والثالث نسيته تماماً، وهذا عدل على الأرجح."
           },
           {
-            "en": "The building has changed more than the work. They have painted the walls three times, they have moved the kitchen twice, and last year they finally fixed the window that had been broken since I arrived.",
-            "ar": "تغيّر البناء أكثر ممّا تغيّر العمل. دهنوا الجدران ثلاث مرات، ونقلوا المطبخ مرّتين، وأصلحوا في السنة الماضية أخيراً النافذة التي كانت مكسورة منذ وصولي."
+            "en": "The building has changed more than the work. They have painted the walls three times, they have moved the kitchen twice, and last year they finally fixed the window that was broken when I arrived.",
+            "ar": "تغيّر المبنى أكثر ممّا تغيّر العمل. دهنوا الجدران ثلاث مرات، ونقلوا المطبخ مرّتين، وأصلحوا في السنة الماضية أخيراً النافذة التي كانت مكسورة حين وصلت."
           },
           {
             "en": "People ask me why I have stayed. I have thought about it a lot and the honest answer is that I have never had a reason strong enough to leave. That is not the same as being happy, and I know it.",
@@ -2830,7 +2812,7 @@
             "a_ar": "علّمه كل ما يعرفه تقريباً، ثم رحل بعد أربعة عشر شهراً."
           },
           {
-            "q_ar": "اذكر تغييرين في البناء.",
+            "q_ar": "اذكر تغييرين في المبنى.",
             "a_ar": "دهنوا الجدران ثلاث مرات، ونقلوا المطبخ مرّتين، وأصلحوا النافذة السنة الماضية."
           },
           {
@@ -2862,8 +2844,8 @@
         "method_ar": "اقرأ مرتين. الأولى بلا توقّف، والثانية مع المسرد.",
         "story": [
           {
-            "en": "There is a bakery in Naples that has not closed its doors since 1936. Not for a holiday, not for a wedding, not during the war. Four generations of the same family have kept it open every single day for almost ninety years.",
-            "ar": "في نابولي مخبز لم يغلق أبوابه منذ 1936. لا في عطلة، ولا في زفاف، ولا خلال الحرب. أربعة أجيال من العائلة نفسها أبقوه مفتوحاً كل يوم قرابة تسعين سنة."
+            "en": "There is a bakery in a small Italian town that has not closed its doors since 1936. Not for a holiday, not for a wedding, not during the war. Four generations of the same family have kept it open every single day for almost ninety years.",
+            "ar": "في بلدة إيطالية صغيرة مخبز لم يغلق أبوابه منذ 1936. لا في عطلة، ولا في زفاف، ولا خلال الحرب. أربعة أجيال من العائلة نفسها أبقوه مفتوحاً كل يوم قرابة تسعين سنة."
           },
           {
             "en": "The current owner is Rosa, who is seventy-two. She has worked there since she was nine years old. \"I have never had a day off,\" she says, and then corrects herself. \"That is not true. I had one day in 1974.\"",
@@ -2891,85 +2873,85 @@
             "en": "generation",
             "ipa": "/ˌdʒenəˈreɪʃn/",
             "ar": "جيل",
-            "note_ar": "Stress before -tion"
+            "note_ar": "النبرة على المقطع الذي قبل -tion"
           },
           {
             "en": "current",
             "ipa": "/ˈkʌrənt/",
             "ar": "الحالي",
-            "note_ar": "—"
+            "note_ar": "صفة: the current owner"
           },
           {
             "en": "day off",
             "ipa": "/deɪ ˈɒf/",
             "ar": "يوم إجازة",
-            "note_ar": "Two words"
+            "note_ar": "كلمتان"
           },
           {
             "en": "correct",
             "ipa": "/kəˈrekt/",
             "ar": "يصحّح",
-            "note_ar": "Here: correct herself"
+            "note_ar": "هنا: correct herself — صحّحت نفسها"
           },
           {
             "en": "recipe",
             "ipa": "/ˈresəpi/",
             "ar": "وصفة",
-            "note_ar": "Three syllables — RES-uh-pee"
+            "note_ar": "ثلاثة مقاطع: RES-uh-pee"
           },
           {
             "en": "oven",
             "ipa": "/ˈʌvn/",
             "ar": "فرن",
-            "note_ar": "Seen in Week 4"
+            "note_ar": "مرّت في الأسبوع الرابع"
           },
           {
             "en": "refuse",
             "ipa": "/rɪˈfjuːz/",
             "ar": "يرفض",
-            "note_ar": "Stress on the second"
+            "note_ar": "النبرة على المقطع الثاني"
           },
           {
             "en": "modernise",
             "ipa": "/ˈmɒdənaɪz/",
             "ar": "يحدّث",
-            "note_ar": "From modern"
+            "note_ar": "من modern"
           },
           {
             "en": "offer",
             "ipa": "/ˈɒfə(r)/",
             "ar": "عرض",
-            "note_ar": "Both noun and verb"
+            "note_ar": "اسم وفعل"
           },
           {
             "en": "reply",
             "ipa": "/rɪˈplaɪ/",
             "ar": "يردّ",
-            "note_ar": "reply to a letter"
+            "note_ar": "reply to a letter — يردّ على رسالة"
           },
           {
             "en": "queue",
             "ipa": "/kjuː/",
             "ar": "طابور",
-            "note_ar": "Pronounced like the letter Q"
+            "note_ar": "تُنطق مثل الحرف Q"
           },
           {
             "en": "mixed feelings",
             "ipa": "/mɪkst ˈfiːlɪŋz/",
             "ar": "مشاعر متضاربة",
-            "note_ar": "A fixed phrase"
+            "note_ar": "عبارة ثابتة"
           },
           {
             "en": "take over",
             "ipa": "/teɪk ˈəʊvə(r)/",
             "ar": "يتولّى",
-            "note_ar": "A phrasal verb"
+            "note_ar": "فعل مركّب"
           },
           {
             "en": "forgive",
             "ipa": "/fəˈɡɪv/",
             "ar": "يسامح",
-            "note_ar": "Participle: forgiven"
+            "note_ar": "اسم المفعول: forgiven"
           }
         ],
         "questions": [
@@ -3305,7 +3287,7 @@
               },
               {
                 "word": "last week",
-                "ar": "معناها «الأسبوع الماضي». بلا in وبلا the: last week لا in the last week."
+                "ar": "معناها «الأسبوع الماضي». بلا in وبلا the: I visited him last week. (أمّا in the last week فمعناها «في الأيام السبعة الأخيرة» وتأتي مع المضارع التام.)"
               },
               {
                 "word": "ago",
@@ -3522,8 +3504,8 @@
                 "ar": "انتقلت إلى مدينة جديدة."
               },
               {
-                "en": "I started a new job in 2023.",
-                "ar": "بدأت عملاً جديداً سنة 2023."
+                "en": "I started a new job in 2024.",
+                "ar": "بدأت عملاً جديداً سنة 2024."
               },
               {
                 "en": "I have worked there for two years.",
@@ -3543,8 +3525,8 @@
                 "ar": "معناها «في السنوات الثلاث الأخيرة». هي مدّة لم تنتهِ، فمعها has changed."
               },
               {
-                "word": "in 2023",
-                "ar": "التاريخ يحوّلك إلى الماضي البسيط: I started in 2023، لا I have started in 2023."
+                "word": "in 2024",
+                "ar": "التاريخ يحوّلك إلى الماضي البسيط: I started in 2024، لا I have started in 2024."
               },
               {
                 "word": "hasn't",
@@ -3663,7 +3645,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "مثال: I saw her last month.",
       "points": 1
     },
     {
@@ -3702,7 +3684,7 @@
           "saw"
         ]
       },
-      "explanation": null
+      "explanation": "last night وقت منتهٍ ← الماضي البسيط: saw."
     },
     {
       "day_number": 2,
@@ -3720,7 +3702,7 @@
           "have seen"
         ]
       },
-      "explanation": null
+      "explanation": "three times بلا وقت محدّد، تجربة حتى الآن ← have seen."
     },
     {
       "day_number": 2,
@@ -3735,10 +3717,11 @@
       },
       "answer": {
         "accepted": [
-          "has lived"
+          "has lived",
+          "has been living"
         ]
       },
-      "explanation": null,
+      "explanation": "since وما زالت في القاهرة ← has lived.",
       "error_no": 16
     },
     {
@@ -3757,7 +3740,7 @@
           "lived"
         ]
       },
-      "explanation": null
+      "explanation": "from 2015 to 2019 فترة انتهت ← lived."
     },
     {
       "day_number": 2,
@@ -3775,7 +3758,7 @@
           "have / been"
         ]
       },
-      "explanation": null
+      "explanation": "تجربة في العمر بلا وقت ← Have you ever been…?"
     },
     {
       "day_number": 2,
@@ -3793,7 +3776,7 @@
           "did / go"
         ]
       },
-      "explanation": null
+      "explanation": "When تسأل عن وقت منتهٍ ← did … go."
     },
     {
       "day_number": 2,
@@ -3811,7 +3794,7 @@
           "hasn't finished"
         ]
       },
-      "explanation": null
+      "explanation": "yet في النفي مع المضارع التام ← hasn't finished."
     },
     {
       "day_number": 2,
@@ -3829,7 +3812,7 @@
           "finished"
         ]
       },
-      "explanation": null,
+      "explanation": "an hour ago وقت منتهٍ ← finished.",
       "error_no": 17
     },
     {
@@ -3848,7 +3831,7 @@
           "have known"
         ]
       },
-      "explanation": null,
+      "explanation": "المعرفة بدأت وما زالت، وknow لا تأخذ ing ← have known.",
       "error_no": 16
     },
     {
@@ -3867,7 +3850,7 @@
           "met"
         ]
       },
-      "explanation": null
+      "explanation": "in 2014 وقت منتهٍ ← met."
     },
     {
       "day_number": 2,
@@ -3885,7 +3868,7 @@
           "has just arrived"
         ]
       },
-      "explanation": null
+      "explanation": "just بين has واسم المفعول ← has just arrived."
     },
     {
       "day_number": 2,
@@ -3900,10 +3883,11 @@
       },
       "answer": {
         "accepted": [
-          "has risen"
+          "has risen",
+          "has been rising"
         ]
       },
-      "explanation": null
+      "explanation": "recently والنتيجة تهمّ الآن ← has risen."
     },
     {
       "day_number": 2,
@@ -3921,7 +3905,7 @@
           "rose"
         ]
       },
-      "explanation": null
+      "explanation": "last March وقت منتهٍ ← rose."
     },
     {
       "day_number": 2,
@@ -3939,7 +3923,7 @@
           "have / done"
         ]
       },
-      "explanation": null
+      "explanation": "yet في السؤال مع المضارع التام ← Have you done … yet?"
     },
     {
       "day_number": 2,
@@ -3957,7 +3941,7 @@
           "have never eaten"
         ]
       },
-      "explanation": null
+      "explanation": "تجربة في العمر بـnever ← have never eaten."
     },
     {
       "day_number": 2,
@@ -3975,7 +3959,7 @@
           "ate"
         ]
       },
-      "explanation": null
+      "explanation": "once when I was in Dubai وقت منتهٍ ← ate."
     },
     {
       "day_number": 2,
@@ -3990,10 +3974,11 @@
       },
       "answer": {
         "accepted": [
-          "has worked"
+          "has worked",
+          "has been working"
         ]
       },
-      "explanation": null,
+      "explanation": "since وما زالت تعمل هنا ← has worked.",
       "error_no": 16
     },
     {
@@ -4012,7 +3997,7 @@
           "have already left"
         ]
       },
-      "explanation": null
+      "explanation": "already بين have واسم المفعول ← have already left."
     },
     {
       "day_number": 3,
@@ -4030,7 +4015,7 @@
           "for"
         ]
       },
-      "explanation": null
+      "explanation": "six years مدّة تُعدّ ← for."
     },
     {
       "day_number": 3,
@@ -4048,7 +4033,7 @@
           "since"
         ]
       },
-      "explanation": null
+      "explanation": "2020 نقطة بداية ← since."
     },
     {
       "day_number": 3,
@@ -4066,7 +4051,7 @@
           "since"
         ]
       },
-      "explanation": null
+      "explanation": "we were children لحظة بداية ← since."
     },
     {
       "day_number": 3,
@@ -4084,7 +4069,7 @@
           "for"
         ]
       },
-      "explanation": null
+      "explanation": "three days مدّة تُعدّ ← for."
     },
     {
       "day_number": 3,
@@ -4102,7 +4087,7 @@
           "since"
         ]
       },
-      "explanation": null
+      "explanation": "Monday نقطة بداية ← since."
     },
     {
       "day_number": 3,
@@ -4120,7 +4105,7 @@
           "for"
         ]
       },
-      "explanation": null
+      "explanation": "a long time مدّة ← for."
     },
     {
       "day_number": 3,
@@ -4138,7 +4123,7 @@
           "since"
         ]
       },
-      "explanation": null
+      "explanation": "the wedding حدث هو نقطة البداية ← since."
     },
     {
       "day_number": 3,
@@ -4156,7 +4141,7 @@
           "for"
         ]
       },
-      "explanation": null
+      "explanation": "two weeks مدّة تُعدّ ← for."
     },
     {
       "day_number": 3,
@@ -4174,7 +4159,7 @@
           "since"
         ]
       },
-      "explanation": null
+      "explanation": "last year نقطة بداية ← since."
     },
     {
       "day_number": 3,
@@ -4192,7 +4177,7 @@
           "for"
         ]
       },
-      "explanation": null
+      "explanation": "ages مدّة طويلة ← for ages."
     },
     {
       "day_number": 4,
@@ -4206,10 +4191,11 @@
       },
       "answer": {
         "accepted": [
-          "I have already finished the report."
+          "I have already finished the report.",
+          "I have finished the report already."
         ]
       },
-      "explanation": "already وjust قبل اسم المفعول، وyet في آخر الجملة، وstill قبل haven't."
+      "explanation": "already وjust قبل اسم المفعول (وتصحّ already في آخر الجملة أيضاً)، وyet في آخر الجملة، وstill قبل haven't."
     },
     {
       "day_number": 4,
@@ -4291,10 +4277,11 @@
       },
       "answer": {
         "accepted": [
-          "We have already seen three flats."
+          "We have already seen three flats.",
+          "We have seen three flats already."
         ]
       },
-      "explanation": "already وjust قبل اسم المفعول، وyet في آخر الجملة، وstill قبل haven't."
+      "explanation": "already وjust قبل اسم المفعول (وتصحّ already في آخر الجملة أيضاً)، وyet في آخر الجملة، وstill قبل haven't."
     },
     {
       "day_number": 4,
@@ -4359,10 +4346,11 @@
       },
       "answer": {
         "accepted": [
-          "I have already read that book."
+          "I have already read that book.",
+          "I have read that book already."
         ]
       },
-      "explanation": "already وjust قبل اسم المفعول، وyet في آخر الجملة، وstill قبل haven't."
+      "explanation": "already وjust قبل اسم المفعول (وتصحّ already في آخر الجملة أيضاً)، وyet في آخر الجملة، وstill قبل haven't."
     },
     {
       "day_number": 4,
@@ -4387,9 +4375,9 @@
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "How long has it been since they met? ______",
+      "prompt": "How long has it been since they last met? ______",
       "payload": {
-        "before": "How long has it been since they met? ",
+        "before": "How long has it been since they last met? ",
         "after": ""
       },
       "answer": {
@@ -4401,7 +4389,7 @@
           "A year"
         ]
       },
-      "explanation": null
+      "explanation": "في الحوار: Over a year, I think."
     },
     {
       "day_number": 5,
@@ -4420,7 +4408,7 @@
           "March"
         ]
       },
-      "explanation": null
+      "explanation": "في الحوار: In March."
     },
     {
       "day_number": 5,
@@ -4428,9 +4416,9 @@
       "focus_ar": "فهم المسموع والمقروء",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "How long has he been at the new one? ______",
+      "prompt": "How long has Sami been at his new job? ______",
       "payload": {
-        "before": "How long has he been at the new one? ",
+        "before": "How long has Sami been at his new job? ",
         "after": ""
       },
       "answer": {
@@ -4441,7 +4429,7 @@
           "For 6 months"
         ]
       },
-      "explanation": null
+      "explanation": "في الحوار: I've been there for six months now."
     },
     {
       "day_number": 5,
@@ -4462,7 +4450,7 @@
           "4 flats"
         ]
       },
-      "explanation": null
+      "explanation": "في الحوار: We've looked at four flats."
     },
     {
       "day_number": 5,
@@ -4481,7 +4469,7 @@
           "January"
         ]
       },
-      "explanation": null
+      "explanation": "في الحوار: Since January."
     },
     {
       "day_number": 5,
@@ -4557,7 +4545,7 @@
           "For 10 years"
         ]
       },
-      "explanation": null
+      "explanation": "في النصّ: I have worked at the same desk for ten years."
     },
     {
       "day_number": 6,
@@ -4589,7 +4577,7 @@
           "11 people"
         ]
       },
-      "explanation": null
+      "explanation": "في النصّ: there were eleven of us in this room."
     },
     {
       "day_number": 6,
@@ -4610,7 +4598,7 @@
           "9 people"
         ]
       },
-      "explanation": null
+      "explanation": "في النصّ: Since then, nine have left."
     },
     {
       "day_number": 6,
@@ -4631,7 +4619,7 @@
           "5 managers"
         ]
       },
-      "explanation": null
+      "explanation": "في النصّ: In ten years I have had five managers."
     },
     {
       "day_number": 6,
@@ -4682,10 +4670,11 @@
           "Studying at night",
           "He started studying at night",
           "To study at night",
-          "studying"
+          "studying",
+          "Night classes"
         ]
       },
-      "explanation": null
+      "explanation": "في النصّ: Two months ago I started studying at night."
     },
     {
       "day_number": 6,
@@ -4708,7 +4697,7 @@
           "No one here"
         ]
       },
-      "explanation": null
+      "explanation": "في النصّ: I have not told anyone here."
     },
     {
       "day_number": 6,
@@ -4737,7 +4726,7 @@
           "I have been living here since 2020."
         ]
       },
-      "explanation": null,
+      "explanation": "since مع حالة ما زالت ← المضارع التام (الخطأ 16).",
       "error_no": 16
     },
     {
@@ -4756,7 +4745,7 @@
           "I saw him 2 years ago."
         ]
       },
-      "explanation": null,
+      "explanation": "ago تمنع المضارع التام ← I saw (الخطأ 17).",
       "error_no": 17
     },
     {
@@ -4774,7 +4763,7 @@
           "When did you finish?"
         ]
       },
-      "explanation": null
+      "explanation": "When تسأل عن وقت منتهٍ ← When did you finish?"
     },
     {
       "day_number": 7,
@@ -4793,7 +4782,7 @@
           "She has been living here for ten years."
         ]
       },
-      "explanation": null
+      "explanation": "ten years مدّة ← for لا since."
     },
     {
       "day_number": 7,
@@ -4807,10 +4796,11 @@
       },
       "answer": {
         "accepted": [
-          "I have already eaten."
+          "I have already eaten.",
+          "I have eaten already."
         ]
       },
-      "explanation": null
+      "explanation": "already بين have واسم المفعول: I have already eaten."
     },
     {
       "day_number": 7,
@@ -4820,15 +4810,14 @@
       "type": "correct_error",
       "prompt": "صحّح الخطأ واكتب الجملة كاملة.",
       "payload": {
-        "sentence": "Have you finished already? (a neutral question: is it done or not?)"
+        "sentence": "Have you yet finished?"
       },
       "answer": {
         "accepted": [
-          "Have you finished yet?",
-          "Haven't you finished yet?"
+          "Have you finished yet?"
         ]
       },
-      "explanation": "already في السؤال تعني الدهشة من السرعة؛ والسؤال المحايد بـyet في الآخر."
+      "explanation": "yet في آخر السؤال: Have you finished yet?"
     },
     {
       "day_number": 7,
@@ -4847,7 +4836,7 @@
           "He has been working here for five years."
         ]
       },
-      "explanation": null,
+      "explanation": "for مع عمل ما زال مستمراً ← has worked (الخطأ 16).",
       "error_no": 16
     },
     {
@@ -4865,7 +4854,7 @@
           "I went to Turkey last summer."
         ]
       },
-      "explanation": null,
+      "explanation": "last summer وقت منتهٍ ← went وحدها بلا have.",
       "error_no": 17
     },
     {
@@ -4883,7 +4872,7 @@
           "Have you ever been to Japan?"
         ]
       },
-      "explanation": null
+      "explanation": "been اسم مفعول يحتاج have ← Have you ever been…?"
     },
     {
       "day_number": 7,
@@ -4900,7 +4889,7 @@
           "We have known each other since university."
         ]
       },
-      "explanation": null,
+      "explanation": "since ← المضارع التام، وknow لا تأخذ ing.",
       "error_no": 16
     },
     {
@@ -4918,7 +4907,7 @@
           "She has just left."
         ]
       },
-      "explanation": null
+      "explanation": "بعد has يأتي اسم المفعول: left لا leave."
     },
     {
       "day_number": 7,
@@ -4937,7 +4926,7 @@
           "I haven't seen him in three weeks."
         ]
       },
-      "explanation": null
+      "explanation": "three weeks مدّة ← for لا since."
     },
     {
       "day_number": 5,
@@ -5038,7 +5027,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: has not closed its doors since 1936."
     },
     {
       "day_number": 7,
@@ -5064,7 +5053,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: She has worked there since she was nine years old."
     },
     {
       "day_number": 7,
@@ -5116,7 +5105,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: They photograph the bread. They do not eat it."
     },
     {
       "day_number": 7,
@@ -5129,7 +5118,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: they now accept cards."
     },
     {
       "day_number": 2,
@@ -5570,14 +5559,14 @@
       "payload": {
         "options": [
           "It happened last year.",
-          "No time is given, and the result matters now.",
+          "There is no time in the sentence, and the result matters now.",
           "It is a habit."
         ]
       },
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "لا وقت في الجملة، والمهمّ أنه في عمل جديد الآن ← المضارع التام.",
       "points": 1
     },
     {
@@ -5596,7 +5585,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "When تسأل عن وقت منتهٍ ← الماضي البسيط.",
       "points": 1
     },
     {
@@ -5615,7 +5604,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "for six months مدّة حتى الآن، وما زال هناك ← المضارع التام.",
       "points": 1
     },
     {
@@ -5634,7 +5623,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "in October وقت منتهٍ مذكور ← الماضي البسيط.",
       "points": 1
     },
     {
@@ -5653,7 +5642,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "خبر سعيد ← Congratulations!",
       "points": 1
     },
     {
@@ -5672,7 +5661,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "خبر محزن ← I'm sorry to hear that.",
       "points": 1
     },
     {
@@ -5691,7 +5680,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "بعد غياب طويل ← Long time no see!",
       "points": 1
     },
     {
@@ -5710,7 +5699,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "لا جديد عندك ← Nothing much. Same as usual.",
       "points": 1
     },
     {
@@ -5729,7 +5718,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "Guess what! تفتح بها خبراً مفاجئاً.",
       "points": 1
     },
     {
@@ -5748,7 +5737,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "Since when? تسأل عن نقطة البداية.",
       "points": 1
     },
     {
@@ -5767,7 +5756,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "How did it happen? تطلب التفاصيل بالماضي البسيط.",
       "points": 1
     },
     {
@@ -5786,7 +5775,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "Apparently تعني «يبدو أن»، لخبر سمعته من غيرك.",
       "points": 1
     },
     {
@@ -5823,7 +5812,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "النصّ عن عشر سنوات في المكتب نفسه، وفي آخره: I have begun to think about what I will do next.",
       "points": 1
     },
     {
@@ -5836,7 +5825,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null,
+      "explanation": "في النصّ: I have worked at the same desk for ten years.",
       "points": 1
     },
     {
@@ -5862,7 +5851,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null,
+      "explanation": "في النصّ: Two of them have come back.",
       "points": 1
     },
     {
@@ -5907,7 +5896,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null,
+      "explanation": "في النصّ: last year they finally fixed the window.",
       "points": 1
     },
     {
@@ -5939,7 +5928,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "النصّ عن مخبز لم يتغيّر منذ 1936: الوصفة نفسها والفرن نفسه.",
       "points": 1
     },
     {
@@ -5958,7 +5947,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": "نستنتجها: رفضوا كل عرض لتحديث المخبز، ولم تردّ على من أراد شراء الاسم.",
+      "explanation": "نستنتجها: رفضت العائلة كل عرض لتغيير المخبز، ولم تردّ روزا على من أراد شراء الاسم.",
       "points": 1
     },
     {
@@ -5990,7 +5979,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "mixed تعني «مختلط»: شعور طيّب وشعور سيّئ معاً.",
       "points": 1
     },
     {
@@ -6009,7 +5998,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "take over تعني أن يتولّى العمل بعد غيره.",
       "points": 1
     },
     {
@@ -6114,7 +6103,8 @@
       },
       "answer": {
         "accepted": [
-          "make"
+          "make",
+          "take"
         ]
       },
       "explanation": "make a decision.",

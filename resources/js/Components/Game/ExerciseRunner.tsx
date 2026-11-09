@@ -1,7 +1,7 @@
 import { Check } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS, AUTO_RETRY_MS } from '@/lib/autoAdvance';
+import { useAutoAdvance, Countdown, MissNext, AUTO_RIGHT_MS, AUTO_REVEAL_MS, AUTO_RETRY_MS } from '@/lib/autoAdvance';
 import { commonError } from '@/lib/commonErrors';
 import { useT } from '@/lib/i18n';
 
@@ -157,7 +157,7 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
   const autoMs = ans ? (result!.correct ? AUTO_RIGHT_MS : final ? AUTO_REVEAL_MS : AUTO_RETRY_MS) : 0;
   // A model answer is read against one's own at one's own pace, so no timer
   const selfChecked = ans && current?.type === 'free_text';
-  useAutoAdvance(ans && !selfChecked, autoMs, () => (final ? next() : retry()));
+  useAutoAdvance(ans && !selfChecked && result!.correct, autoMs, () => next());
 
   // Reports position to the parent's single progress bar. Must stay above
   // the early return below: a hook skipped on the result screen crashes
@@ -496,7 +496,14 @@ export default function ExerciseRunner({ exercises, onFinish, onProgress}: Props
       )}
 
       {/* The time left before moving on — no button needed */}
-      {answered && !selfChecked && (
+      {answered && !selfChecked && !result.correct && (
+        <MissNext
+          label={final ? (index + 1 >= total ? tr('النتيجة') : tr('التالي')) : tr('حاول مرة أخرى')}
+          onClick={() => (final ? next() : retry())}
+        />
+      )}
+
+      {answered && !selfChecked && result.correct && (
         <div key={`${index}-${result.attempt_no}`}>
           <Countdown
             ms={autoMs}

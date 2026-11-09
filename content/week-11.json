@@ -604,18 +604,12 @@
         },
         {
           "order": 9,
-          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record:baseline"
-        },
-        {
-          "order": 10,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
         },
         {
-          "order": 11,
+          "order": 10,
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework"
@@ -810,8 +804,8 @@
       "group": "future_time_expressions",
       "word": "soon after",
       "ipa": null,
-      "arabic": "بعد قليل من",
-      "example": "We left soon after.",
+      "arabic": "بعد … بقليل",
+      "example": "We're leaving soon after lunch.",
       "group_label_ar": "تعبيرات المستقبل",
       "group_label_en": "Future Time Expressions",
       "target": "soon after",
@@ -1213,7 +1207,7 @@
       "group": "weather_and_predictions",
       "word": "forecast",
       "ipa": "/ˈfɔːkɑːst/",
-      "arabic": "توقعات",
+      "arabic": "النشرة الجوية · توقّعات الطقس",
       "example": "The forecast says it will rain.",
       "group_label_ar": "الطقس والتوقّعات",
       "group_label_en": "Weather and Predictions",
@@ -1551,7 +1545,7 @@
       "group": "making_arrangements",
       "word": "Could we make it later?",
       "ipa": null,
-      "arabic": "هل نجعله في وقت أبعد؟",
+      "arabic": "هل نجعله في وقت لاحق؟",
       "example": "Six is early for me. Could we make it later?",
       "group_label_ar": "ترتيب المواعيد",
       "group_label_en": "Making Arrangements",
@@ -1668,7 +1662,7 @@
       "group": "making_arrangements",
       "word": "Don't worry, I'll do it.",
       "ipa": null,
-      "arabic": "لا تقلق، سأفعلها",
+      "arabic": "لا تقلق، سأقوم بذلك",
       "example": "The kitchen is dirty? Don't worry, I'll do it.",
       "group_label_ar": "ترتيب المواعيد",
       "group_label_en": "Making Arrangements",
@@ -2254,7 +2248,7 @@
       "word": "make a promise",
       "ipa": null,
       "arabic": "يقطع وعداً",
-      "example": "I'm going to make a promise to my son.",
+      "example": "I made a promise to my son: we're going to the beach on Friday.",
       "group_label_ar": "تعبيرات الخطط",
       "group_label_en": "Collocations for Plans",
       "target": "make a promise",
@@ -2344,7 +2338,7 @@
       "group": "plans_collocations",
       "word": "miss the bus",
       "ipa": null,
-      "arabic": "يفوته الحافلة",
+      "arabic": "تفوته الحافلة",
       "example": "Hurry up, or we'll miss the bus.",
       "group_label_ar": "تعبيرات الخطط",
       "group_label_en": "Collocations for Plans",
@@ -2531,7 +2525,7 @@
         {
           "speaker": "CLIENT",
           "en": "Oh dear. Do you need to cancel?",
-          "ar": "يا للأسف. هل تحتاج للإلغاء؟"
+          "ar": "يا للأسف. هل تحتاج إلى الإلغاء؟"
         },
         {
           "speaker": "SAMI",
@@ -2546,7 +2540,7 @@
         {
           "speaker": "SAMI",
           "en": "No, a small operation. He'll be home on Wednesday.",
-          "ar": "لا، عملية صغيرة. سيعود للبيت الأربعاء."
+          "ar": "لا، عملية صغيرة. سيعود إلى البيت يوم الأربعاء."
         },
         {
           "speaker": "CLIENT",
@@ -2579,7 +2573,7 @@
       "number": 2,
       "title": "Plans for the Year",
       "situation_en": "Lina asks Sami about his plans for next year.",
-      "situation_ar": "حديث عن خطط السنة القادمة.",
+      "situation_ar": "لينا تسأل سامي عن خططه للسنة القادمة.",
       "speaker_genders": {
         "LINA": "f",
         "SAMI": "m"
@@ -2613,7 +2607,7 @@
         {
           "speaker": "SAMI",
           "en": "I'm going to finish this English course first. Then I'll apply abroad.",
-          "ar": "سأنهي دورة الإنجليزية أولاً. ثم سأتقدّم للخارج."
+          "ar": "سأنهي دورة الإنجليزية أولاً. ثم سأتقدّم لوظيفة في الخارج."
         },
         {
           "speaker": "LINA",
@@ -2633,7 +2627,7 @@
         {
           "speaker": "SAMI",
           "en": "She's nervous, but she agrees. We're going to visit in the summer.",
-          "ar": "إنها متوترة، لكنها موافقة. سنزور في الصيف."
+          "ar": "إنها متوترة، لكنها موافقة. سنزورها في الصيف."
         },
         {
           "speaker": "LINA",
@@ -2914,7 +2908,7 @@
               },
               {
                 "en": "I’m going to finish it by Friday.",
-                "ar": "سأنهيه يوم الجمعة على الأكثر."
+                "ar": "سأنهيه في موعد أقصاه يوم الجمعة."
               },
               {
                 "en": "I’m going to stay until Friday.",
@@ -3872,11 +3866,11 @@
           },
           {
             "en": "Paul Ehrlich was a biologist. His famous book about the world's population sold more than two million copies. His idea was simple: there will be too many people, food and metals will run out, and prices will go up.",
-            "ar": "كان بول إيرليش عالم أحياء. وبيع من كتابه الشهير عن سكّان العالم أكثر من مليوني نسخة. وفكرته بسيطة: سيكثر الناس كثيراً، وسينفد الغذاء والمعادن، وسترتفع الأسعار."
+            "ar": "كان بول إيرليش عالم أحياء. وبيع من كتابه الشهير عن سكّان العالم أكثر من مليوني نسخة. وفكرته بسيطة: سيزيد عدد الناس أكثر ممّا ينبغي، وسينفد الغذاء والمعادن، وسترتفع الأسعار."
           },
           {
             "en": "Julian Simon was an economist. He did not agree. His idea was different: people have mouths, but they also have brains. When something is hard to find, people will invent something better, and prices will go down.",
-            "ar": "وكان جوليان سايمون اقتصادياً. ولم يوافق. وفكرته مختلفة: للناس أفواه، لكن لهم أدمغة أيضاً. فحين يصعب الحصول على شيء سيخترع الناس ما هو أفضل، وستنخفض الأسعار."
+            "ar": "وكان جوليان سايمون عالمَ اقتصاد. ولم يوافق. وفكرته مختلفة: للناس أفواه، لكن لهم أدمغة أيضاً. فحين يصعب الحصول على شيء سيخترع الناس ما هو أفضل، وستنخفض الأسعار."
           },
           {
             "en": "So Simon offered a bet, and Ehrlich chose five metals. The rules were clear: if the prices go up in ten years, Simon will pay. If they go down, Ehrlich will pay.",
@@ -3891,12 +3885,12 @@
             "ar": "وبعد عشر سنوات، في 1990، كانت أسعار المعادن الخمسة كلها أقلّ. فخسر إيرليش. وكتب شيكاً بخمسمئة وستّة وسبعين دولاراً وأرسله إلى سايمون. ولم تكن معه رسالة."
           },
           {
-            "en": "But the story is not simple. In those ten years, the world's population grew by about eight hundred million people. So Ehrlich was right about that, but he was wrong about prices.",
-            "ar": "لكن القصة ليست بسيطة. ففي تلك السنوات العشر زاد سكّان العالم نحو ثمانمئة مليون إنسان. فكان إيرليش محقّاً في ذلك، لكنه أخطأ في الأسعار."
+            "en": "But the story is not simple. In those ten years, the world's population grew by more than eight hundred million people. So Ehrlich was right about that, but he was wrong about prices.",
+            "ar": "لكن القصة ليست بسيطة. ففي تلك السنوات العشر زاد سكّان العالم أكثر من ثمانمئة مليون إنسان. فكان إيرليش محقّاً في ذلك، لكنه أخطأ في الأسعار."
           },
           {
             "en": "Economists still argue about who really won. But most people agree on one thing: it is very difficult to predict the future, and feeling sure is not the same as being right.",
-            "ar": "وما زال الاقتصاديون يتجادلون في من فاز فعلاً. لكن معظم الناس يتّفقون على شيء واحد: التنبّؤ بالمستقبل صعب جداً، والشعور باليقين ليس هو الصواب."
+            "ar": "وما زال الاقتصاديون يتجادلون في من فاز فعلاً. لكن معظم الناس يتّفقون على شيء واحد: التنبّؤ بالمستقبل صعب جداً، والشعور باليقين لا يعني أنك على صواب."
           }
         ],
         "glossary": [
@@ -3921,7 +3915,7 @@
           {
             "en": "economist",
             "ipa": "/ɪˈkɒnəmɪst/",
-            "ar": "اقتصادي",
+            "ar": "عالم اقتصاد",
             "note_ar": "من economy"
           },
           {
@@ -3996,7 +3990,7 @@
           },
           {
             "q_ar": "في أيّ شيء كان إيرليش محقّاً؟",
-            "a_ar": "في زيادة سكّان العالم: نحو ثمانمئة مليون."
+            "a_ar": "في زيادة سكّان العالم: أكثر من ثمانمئة مليون."
           },
           {
             "q_ar": "ما الدرس في آخر النصّ؟",
@@ -4080,7 +4074,7 @@
         "title_en": "My Plans for the Next Year",
         "intro_ar": null,
         "cover_ar": null,
-        "model_en": "I have three plans for this year. // The first one is this English course. I'm going to finish it — all twenty-four weeks. I started a course like this two years ago and I stopped after a month, so this time I'm not going to stop. //\nThe second is work. I'm going to look for a new job. I decided last month. I'm not unhappy, but I'm not learning anything new, and that's a problem. //\nThe third is fixed. We're flying to Germany on the third of July for ten days. The tickets are booked. It's a holiday, but I'm also going to visit two companies there. //\nI'm not going to move this year. My children are at school and my wife likes her job here. // When I finish the course, I'll take the B1 exam. If I pass it, I'll start looking for work abroad. If I don't, I'll study for six more months. //\nIn five years? I think I'll live and work in another country. But I said that five years ago too. //\nAnd you? What are you going to do this year? //",
+        "model_en": "I have three plans for next year. // The first one is this English course. I'm going to finish it — all twenty-four weeks. I started a course like this two years ago and I stopped after a month, so this time I'm not going to stop. //\nThe second is work. I'm going to look for a new job. I decided last month. I'm not unhappy, but I'm not learning anything new, and that's a problem. //\nThe third is fixed. We're flying to Germany on the third of July for ten days. The tickets are booked. It's a holiday, but I'm also going to visit two companies there. //\nI'm not going to move next year. My children are at school and my wife likes her job here. // When I finish the course, I'll take the B1 exam. If I pass it, I'll start looking for work abroad. If I don't, I'll study for six more months. //\nIn five years? I think I'll live and work in another country. But I said that five years ago too. //\nAnd you? What are you going to do next year? //",
         "outline": [
           {
             "part_en": "Intention one",
@@ -4492,10 +4486,10 @@
       "focus_ar": "will أم going to؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "Look at those clouds! It ______ rain.",
+      "prompt": "Look at those clouds! It ______ rain. (will / going to)",
       "payload": {
         "before": "Look at those clouds! It ",
-        "after": " rain."
+        "after": " rain. (will / going to)"
       },
       "answer": {
         "accepted": [
@@ -4510,10 +4504,10 @@
       "focus_ar": "will أم going to؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "A: The phone is ringing. B: Don't worry, I ______ answer it.",
+      "prompt": "A: The phone is ringing. B: Don't worry, I ______ answer it. (will / going to)",
       "payload": {
         "before": "A: The phone is ringing. B: Don't worry, I ",
-        "after": " answer it."
+        "after": " answer it. (will / going to)"
       },
       "answer": {
         "accepted": [
@@ -4528,10 +4522,10 @@
       "focus_ar": "will أم going to؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "I ______ start a new course in September. I already paid.",
+      "prompt": "I ______ start a new course in September. I already paid. (will / going to)",
       "payload": {
         "before": "I ",
-        "after": " start a new course in September. I already paid."
+        "after": " start a new course in September. I already paid. (will / going to)"
       },
       "answer": {
         "accepted": [
@@ -4546,10 +4540,10 @@
       "focus_ar": "will أم going to؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "I think prices ______ rise next year.",
+      "prompt": "I think prices ______ rise next year. (will / going to)",
       "payload": {
         "before": "I think prices ",
-        "after": " rise next year."
+        "after": " rise next year. (will / going to)"
       },
       "answer": {
         "accepted": [
@@ -4565,10 +4559,10 @@
       "focus_ar": "will أم going to؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "A: I don't understand this. B: I ______ help you.",
+      "prompt": "A: I don't understand this. B: I ______ help you. (will / going to)",
       "payload": {
         "before": "A: I don't understand this. B: I ",
-        "after": " help you."
+        "after": " help you. (will / going to)"
       },
       "answer": {
         "accepted": [
@@ -4583,10 +4577,10 @@
       "focus_ar": "will أم going to؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "We ______ move house next month. We found a flat already.",
+      "prompt": "We ______ move house next month. We found a flat already. (will / going to)",
       "payload": {
         "before": "We ",
-        "after": " move house next month. We found a flat already."
+        "after": " move house next month. We found a flat already. (will / going to)"
       },
       "answer": {
         "accepted": [
@@ -4601,10 +4595,10 @@
       "focus_ar": "will أم going to؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "I promise I ______ tell anybody.",
+      "prompt": "I promise I ______ tell anybody. (will / going to)",
       "payload": {
         "before": "I promise I ",
-        "after": " tell anybody."
+        "after": " tell anybody. (will / going to)"
       },
       "answer": {
         "accepted": [
@@ -4619,10 +4613,10 @@
       "focus_ar": "will أم going to؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "Be careful! You ______ fall!",
+      "prompt": "Be careful! You ______ fall! (will / going to)",
       "payload": {
         "before": "Be careful! You ",
-        "after": " fall!"
+        "after": " fall! (will / going to)"
       },
       "answer": {
         "accepted": [
@@ -4638,10 +4632,10 @@
       "focus_ar": "will أم going to؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "A: Are you free tonight? B: No, I ______ visit my parents.",
+      "prompt": "A: Are you free tonight? B: No, I ______ visit my parents. (will / going to)",
       "payload": {
         "before": "A: Are you free tonight? B: No, I ",
-        "after": " visit my parents."
+        "after": " visit my parents. (will / going to)"
       },
       "answer": {
         "accepted": [
@@ -4656,10 +4650,10 @@
       "focus_ar": "will أم going to؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "I'm sure she ______ pass the exam.",
+      "prompt": "I'm sure she ______ pass the exam. (will / going to)",
       "payload": {
         "before": "I'm sure she ",
-        "after": " pass the exam."
+        "after": " pass the exam. (will / going to)"
       },
       "answer": {
         "accepted": [
@@ -4675,10 +4669,10 @@
       "focus_ar": "will أم going to؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "A: We need bread. B: OK, I ______ buy some.",
+      "prompt": "A: We need bread. B: OK, I ______ buy some. (will / going to)",
       "payload": {
         "before": "A: We need bread. B: OK, I ",
-        "after": " buy some."
+        "after": " buy some. (will / going to)"
       },
       "answer": {
         "accepted": [
@@ -4693,10 +4687,10 @@
       "focus_ar": "will أم going to؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "He ______ look for a new job. He decided last week.",
+      "prompt": "He ______ look for a new job. He decided last week. (will / going to)",
       "payload": {
         "before": "He ",
-        "after": " look for a new job. He decided last week."
+        "after": " look for a new job. He decided last week. (will / going to)"
       },
       "answer": {
         "accepted": [
@@ -4711,10 +4705,10 @@
       "focus_ar": "will أم going to؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "Maybe I ______ call him later. I'm not sure yet.",
+      "prompt": "Maybe I ______ call him later. I'm not sure yet. (will / going to)",
       "payload": {
         "before": "Maybe I ",
-        "after": " call him later. I'm not sure yet."
+        "after": " call him later. I'm not sure yet. (will / going to)"
       },
       "answer": {
         "accepted": [
@@ -4729,10 +4723,10 @@
       "focus_ar": "will أم going to؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "The car is very old. It ______ break down soon.",
+      "prompt": "The car is very old. It ______ break down soon. (will / going to)",
       "payload": {
         "before": "The car is very old. It ",
-        "after": " break down soon."
+        "after": " break down soon. (will / going to)"
       },
       "answer": {
         "accepted": [
@@ -4773,7 +4767,9 @@
       },
       "answer": {
         "accepted": [
-          "rains / won't go"
+          "rains / won't go",
+          "rains / aren't going to go",
+          "rains / 're not going to go"
         ]
       },
       "explanation": "المضارع بعد if، وwon't في الجزء الآخر.",
@@ -4792,7 +4788,8 @@
       },
       "answer": {
         "accepted": [
-          "leave / 'll have"
+          "leave / 'll have",
+          "leave / 're going to have"
         ]
       },
       "explanation": "المضارع بعد before."
@@ -4810,7 +4807,8 @@
       },
       "answer": {
         "accepted": [
-          "finish / 'll send"
+          "finish / 'll send",
+          "finish / 'm going to send"
         ]
       },
       "explanation": "المضارع بعد as soon as."
@@ -4828,7 +4826,8 @@
       },
       "answer": {
         "accepted": [
-          "gets / 'll decide"
+          "gets / 'll decide",
+          "gets / 's going to decide"
         ]
       },
       "explanation": "المضارع بعد after مع -s لأن الفاعل he."
@@ -4892,14 +4891,15 @@
       "type": "correct_error",
       "prompt": "صحّح الخطأ",
       "payload": {
-        "sentence": "If it will rain, we stay at home."
+        "sentence": "If it will rain tomorrow, we stay at home."
       },
       "answer": {
         "accepted": [
-          "If it rains, we'll stay at home."
+          "If it rains tomorrow, we'll stay at home.",
+          "If it rains tomorrow, we're going to stay at home."
         ]
       },
-      "explanation": "بعد if المضارع، وفي الجزء الآخر will.",
+      "explanation": "بعد if المضارع rains، وtomorrow تجعل الجزء الآخر مستقبلاً: we'll stay.",
       "error_no": 18
     },
     {
@@ -5558,7 +5558,7 @@
       "focus_ar": "فهم المسموع",
       "points": 1,
       "type": "multiple_choice",
-      "prompt": "How many of the four things did he do, in a different way?",
+      "prompt": "In the end, how many of the four things did he do?",
       "payload": {
         "options": [
           "one",
@@ -5739,7 +5739,7 @@
       "answer": {
         "correct": false
       },
-      "explanation": "في النصّ: it grew by about 800 million"
+      "explanation": "في النصّ: it grew by more than eight hundred million"
     },
     {
       "day_number": 7,
@@ -5934,7 +5934,8 @@
       },
       "answer": {
         "accepted": [
-          "am going to visit"
+          "am going to visit",
+          "am visiting"
         ]
       },
       "explanation": "I + am going to + الفعل."
@@ -5952,7 +5953,8 @@
       },
       "answer": {
         "accepted": [
-          "is going to start"
+          "is going to start",
+          "is starting"
         ]
       },
       "explanation": "she + is going to، والفعل بلا -s."
@@ -5970,7 +5972,8 @@
       },
       "answer": {
         "accepted": [
-          "aren't going to come"
+          "aren't going to come",
+          "aren't coming"
         ]
       },
       "explanation": "النفي: aren't going to."
@@ -5988,7 +5991,8 @@
       },
       "answer": {
         "accepted": [
-          "Are / going to call"
+          "Are / going to call",
+          "Are / calling"
         ]
       },
       "explanation": "السؤال: Are + الفاعل + going to."
@@ -6006,7 +6010,8 @@
       },
       "answer": {
         "accepted": [
-          "are / going to do"
+          "are / going to do",
+          "are / doing"
         ]
       },
       "explanation": "What + are + you + going to do."
@@ -6024,7 +6029,8 @@
       },
       "answer": {
         "accepted": [
-          "is he going to stay"
+          "is he going to stay",
+          "is he staying"
         ]
       },
       "explanation": "is قبل الفاعل في السؤال."
@@ -6096,7 +6102,8 @@
       },
       "answer": {
         "accepted": [
-          "next"
+          "next",
+          "this"
         ]
       },
       "explanation": "next month بلا the وبلا in."
@@ -6107,10 +6114,10 @@
       "focus_ar": "كلمات الوقت",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "I'm going to finish this report ______ Friday. After that I'm free.",
+      "prompt": "I'm going to finish this report ______ Friday at the latest. After that I'm free.",
       "payload": {
         "before": "I'm going to finish this report ",
-        "after": " Friday. After that I'm free."
+        "after": " Friday at the latest. After that I'm free."
       },
       "answer": {
         "accepted": [
@@ -6423,7 +6430,8 @@
       },
       "answer": {
         "accepted": [
-          "won't tell"
+          "won't tell",
+          "'m not going to tell"
         ]
       },
       "explanation": "الوعد المنفيّ: won't."
@@ -6441,7 +6449,10 @@
       },
       "answer": {
         "accepted": [
-          "Will / help"
+          "Will / help",
+          "Can / help",
+          "Could / help",
+          "Are / going to help"
         ]
       },
       "explanation": "Will قبل الفاعل."
@@ -6496,7 +6507,8 @@
       },
       "answer": {
         "accepted": [
-          "will probably be"
+          "will probably be",
+          "are probably going to be"
         ]
       },
       "explanation": "probably بعد will وقبل الفعل."
@@ -6514,7 +6526,8 @@
       },
       "answer": {
         "accepted": [
-          "think"
+          "think",
+          "believe"
         ]
       },
       "explanation": "الأشيع نفي think."
@@ -6532,7 +6545,8 @@
       },
       "answer": {
         "accepted": [
-          "toothache"
+          "toothache",
+          "tooth"
         ]
       },
       "explanation": "ألم الأسنان: toothache."
@@ -6550,7 +6564,8 @@
       },
       "answer": {
         "accepted": [
-          "matter"
+          "matter",
+          "problem"
         ]
       },
       "explanation": "What's the matter? = ما بك؟"
@@ -6568,7 +6583,9 @@
       },
       "answer": {
         "accepted": [
-          "medicine"
+          "medicine",
+          "pill",
+          "tablet"
         ]
       },
       "explanation": "take medicine."
@@ -6586,7 +6603,11 @@
       },
       "answer": {
         "accepted": [
-          "throat"
+          "throat",
+          "mouth",
+          "tooth",
+          "jaw",
+          "tongue"
         ]
       },
       "explanation": "الحلق: throat."
@@ -6838,7 +6859,8 @@
       },
       "answer": {
         "accepted": [
-          "Are / doing"
+          "Are / doing",
+          "Are / going to do"
         ]
       },
       "explanation": "Are + الفاعل + الفعل بـ -ing."
@@ -6856,7 +6878,8 @@
       },
       "answer": {
         "accepted": [
-          "are / meeting"
+          "are / meeting",
+          "are / going to meet"
         ]
       },
       "explanation": "are قبل you."
@@ -6950,7 +6973,8 @@
       },
       "answer": {
         "accepted": [
-          "cancel"
+          "cancel",
+          "postpone"
         ]
       },
       "explanation": "cancel = يلغي."
@@ -6968,7 +6992,9 @@
       },
       "answer": {
         "accepted": [
-          "busy"
+          "busy",
+          "working",
+          "away"
         ]
       },
       "explanation": "busy = مشغول."
@@ -6979,10 +7005,10 @@
       "focus_ar": "كلمات المواعيد",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "Please ______ your appointment by phone.",
+      "prompt": "Please ______ your appointment by phone: just say \"Yes, I'm coming.\"",
       "payload": {
         "before": "Please ",
-        "after": " your appointment by phone."
+        "after": " your appointment by phone: just say \"Yes, I'm coming.\""
       },
       "answer": {
         "accepted": [
@@ -7386,7 +7412,8 @@
       },
       "answer": {
         "accepted": [
-          "will send / land"
+          "will send / land",
+          "'m going to send / land"
         ]
       },
       "explanation": "will في الرئيسة، والمضارع بعد after."
@@ -7404,7 +7431,8 @@
       },
       "answer": {
         "accepted": [
-          "won't start / arrives"
+          "won't start / arrives",
+          "aren't going to start / arrives"
         ]
       },
       "explanation": "won't في الرئيسة، والمضارع بعد before."
@@ -7422,7 +7450,8 @@
       },
       "answer": {
         "accepted": [
-          "doesn't come / will call"
+          "doesn't come / will call",
+          "doesn't come / 'm going to call"
         ]
       },
       "explanation": "النفي بالمضارع بعد if.",
@@ -7529,7 +7558,9 @@
       },
       "answer": {
         "accepted": [
-          "rainy"
+          "rainy",
+          "wet",
+          "stormy"
         ]
       },
       "explanation": "صفة: rainy."
@@ -7547,7 +7578,8 @@
       },
       "answer": {
         "accepted": [
-          "forecast"
+          "forecast",
+          "report"
         ]
       },
       "explanation": "the weather forecast."
@@ -7565,7 +7597,8 @@
       },
       "answer": {
         "accepted": [
-          "windy"
+          "windy",
+          "stormy"
         ]
       },
       "explanation": "صفة من wind."
@@ -7968,7 +8001,8 @@
       },
       "answer": {
         "accepted": [
-          "love"
+          "love",
+          "like"
         ]
       },
       "explanation": "I'd love to, but…"
@@ -7986,7 +8020,10 @@
       },
       "answer": {
         "accepted": [
-          "shall"
+          "shall",
+          "can",
+          "do",
+          "should"
         ]
       },
       "explanation": "Shall we لترتيب اللقاء."
@@ -8172,7 +8209,9 @@
       },
       "answer": {
         "accepted": [
-          "mind"
+          "mind",
+          "plans",
+          "plan"
         ]
       },
       "explanation": "change your mind = يغيّر رأيه."

@@ -3,7 +3,7 @@ import { useEffect, useCallback, useMemo, useRef, useState } from 'react';
 import Listen from '@/Components/Listen';
 import { useMySpeech } from '@/hooks/useSpeech';
 import { useT } from '@/lib/i18n';
-import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS } from '@/lib/autoAdvance';
+import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS, MissNext } from '@/lib/autoAdvance';
 import SayIt, { type SayItem } from '@/Components/Game/SayIt';
 import MouthDiagram from '@/Components/Game/MouthDiagram';
 import { soundsIn } from '@/lib/articulation';
@@ -177,7 +177,7 @@ export default function MinimalPairGame({ groups, target: targetProp, onFinish, 
     if (index > 0 && phase === 'idle' && current) play();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [index]);
-  useAutoAdvance(phase === 'answered', autoMs, () => nextRef.current?.());
+  useAutoAdvance(phase === 'answered' && autoMs === AUTO_RIGHT_MS, autoMs, () => nextRef.current?.());
 
   const next = () => {
     if (index + 1 >= total) {
@@ -479,9 +479,13 @@ export default function MinimalPairGame({ groups, target: targetProp, onFinish, 
               </button>
             ) : null;
           })()}
-          <div key={index}>
-            <Countdown ms={autoMs} tone={right ? 'emerald' : 'rose'} />
-          </div>
+          {right ? (
+            <div key={index}>
+              <Countdown ms={autoMs} tone="emerald" />
+            </div>
+          ) : (
+            <MissNext label={tr('التالي')} onClick={() => nextRef.current?.()} />
+          )}
         </div>
       )}
     </div>

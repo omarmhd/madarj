@@ -533,7 +533,7 @@
       "group": "routine_verbs",
       "word": "brush",
       "ipa": "/brʌʃ/",
-      "arabic": "يفرّش",
+      "arabic": "يُنظّف بالفرشاة",
       "example": "I brush my teeth twice a day.",
       "group_label_ar": "أفعال الروتين اليومي",
       "group_label_en": "Routine Verbs",
@@ -897,7 +897,7 @@
       "group": "time_and_frequency",
       "word": "usually",
       "ipa": "/ˈjuːʒuəli/",
-      "arabic": "عادةً (80%)",
+      "arabic": "عادةً (90%)",
       "example": "She usually walks to work.",
       "group_label_ar": "الوقت والتكرار",
       "group_label_en": "Time and Frequency",
@@ -910,7 +910,7 @@
       "group": "time_and_frequency",
       "word": "often",
       "ipa": "/ˈɒfn/",
-      "arabic": "غالباً (60%)",
+      "arabic": "غالباً (70%)",
       "example": "We often eat together.",
       "group_label_ar": "الوقت والتكرار",
       "group_label_en": "Time and Frequency",
@@ -923,7 +923,7 @@
       "group": "time_and_frequency",
       "word": "sometimes",
       "ipa": "/ˈsʌmtaɪmz/",
-      "arabic": "أحياناً (40%)",
+      "arabic": "أحياناً (50%)",
       "example": "He sometimes works late.",
       "group_label_ar": "الوقت والتكرار",
       "group_label_en": "Time and Frequency",
@@ -1366,7 +1366,7 @@
       "word": "project",
       "ipa": "/ˈprɒdʒekt/",
       "arabic": "مشروع",
-      "example": "We work on a new project this month.",
+      "example": "We often work on a big project together.",
       "group_label_ar": "أماكن يومك وأشياؤه",
       "group_label_en": "Places and Things in Your Day",
       "target": "project",
@@ -2065,8 +2065,8 @@
     {
       "group_label": "/f/ against /v/",
       "ipa": "/f/ vs /v/",
-      "word_a": "life",
-      "word_b": "live",
+      "word_a": "belief",
+      "word_b": "believe",
       "group_label_ar": "الفاء المهموسة والمجهورة",
       "hint_ar": "/f/ هي فاء العربية. و/v/ الموضع نفسه لكن مع صوت من الحلق: ضع إصبعك على حلقك تجده يرتجف. ولا تُبدلها فاءً — فـvan ليست fan."
     }
@@ -2076,7 +2076,7 @@
       "number": 1,
       "title": "Asking About a Routine",
       "situation_en": "Lina and Sami are having tea during a break at work.",
-      "situation_ar": "لينا وسامي يشربان الشاي في فسحة من العمل.",
+      "situation_ar": "لينا وسامي يشربان الشاي في استراحة من العمل.",
       "speaker_genders": {
         "LINA": "f",
         "SAMI": "m"
@@ -2192,7 +2192,7 @@
         {
           "speaker": "SAMI",
           "en": "That's very unusual. Do you like it?",
-          "ar": "هذا غير معتاد. هل تحبه؟"
+          "ar": "هذا غير معتاد جداً. هل تحبه؟"
         },
         {
           "speaker": "PETER",
@@ -2217,7 +2217,7 @@
         {
           "speaker": "PETER",
           "en": "Yes! On Fridays and Saturdays we always spend the day together.",
-          "ar": "نعم! في الجمعة والسبت نقضي اليوم معاً دائماً."
+          "ar": "نعم! أيام الجمعة والسبت نقضي اليوم معاً دائماً."
         }
       ]
     }
@@ -2470,7 +2470,7 @@
                 "why_ar": "he / she / it تأخذ has"
               },
               {
-                "wrong": "I haven't a car.",
+                "wrong": "I not have a car.",
                 "right": "I don't have a car.",
                 "why_ar": "النفي بـ don't have كأي فعل في المضارع البسيط"
               },
@@ -2506,7 +2506,7 @@
                 [
                   "الأيام",
                   "on",
-                  "I don't work on Friday."
+                  "I don't work on Fridays."
                 ],
                 [
                   "التاريخ",
@@ -2561,7 +2561,7 @@
                 "why_ar": "لا حرف قبل every و next و last"
               }
             ],
-            "tip_ar": "رتّبها بالحجم: at (نقطة) ← on (يوم) ← in (أكبر). واستثناءان يُحفظان: at night و in the morning."
+            "tip_ar": "رتّبها بالحجم: at (نقطة) ← on (يوم) ← in (أكبر). واستثناء واحد يُحفظ: at night — مع in the morning و in the evening."
           },
           {
             "title_ar": "قراءة الساعة: past و to",
@@ -2690,19 +2690,20 @@
             },
             "errors": [
               {
-                "wrong": "I wake up and I pray and I have breakfast and I go to work.",
-                "right": "I wake up, pray, have breakfast and go to work.",
-                "why_ar": "فاصلة بين الأفعال، و and قبل الأخير وحده"
+                "wrong": "First I wake up, after I pray.",
+                "right": "First I wake up, then I pray.",
+                "why_ar": "«بعدها» بالإنجليزية then أو after that — لا after وحدها"
               },
               {
-                "wrong": "I like fish but I like meat.",
-                "right": "I like fish and I like meat.",
-                "why_ar": "but للتعاكس وحده"
-              },
-              {
-                "wrong": "Because I am tired.",
+                "wrong": "I go to bed early. Because I am tired.",
                 "right": "I go to bed early because I am tired.",
-                "why_ar": "because لا تقف وحدها: تربط السبب بجملته"
+                "why_ar": "في الكتابة لا تفصل because عن جملتها بنقطة: السبب جزء منها"
+              }
+            ],
+            "examples": [
+              {
+                "en": "I wake up, pray, have breakfast and go to work.",
+                "ar": "أستيقظ وأصلّي وأفطر وأذهب إلى العمل — فاصلة بين الأفعال، و and قبل الأخير وحده."
               }
             ]
           },
@@ -2817,8 +2818,8 @@
             },
             "examples": [
               {
-                "en": "I am always tired on Sunday.",
-                "ar": "أنا متعب دائماً يوم الأحد — بعد am."
+                "en": "I am always tired on Sundays.",
+                "ar": "أنا متعب دائماً أيام الأحد — بعد am."
               },
               {
                 "en": "How often do you exercise? — Twice a week.",
@@ -2952,11 +2953,11 @@
           },
           {
             "en": "I leave the house at seven. I don't drive — I walk to the school because it is near. It takes about fifteen minutes. School starts at half past seven. I teach five lessons every day. My students are ten years old and they are very noisy, but I love my job.",
-            "ar": "أخرج من البيت في السابعة. لا أقود — أمشي إلى المدرسة لأنها قريبة. يستغرق ذلك خمس عشرة دقيقة. المدرسة تبدأ في السابعة والنصف. أُعلّم خمس حصص كل يوم. طلابي في العاشرة من عمرهم وهم صاخبون جداً، لكني أحبّ عملي."
+            "ar": "أخرج من البيت في السابعة. لا أقود — أمشي إلى المدرسة لأنها قريبة. يستغرق ذلك خمس عشرة دقيقة. المدرسة تبدأ في السابعة والنصف. أُدرّس خمس حصص كل يوم. طلابي في العاشرة من عمرهم وهم صاخبون جداً، لكني أحبّ عملي."
           },
           {
-            "en": "At twelve o'clock we have lunch. I usually eat with the other teachers in a small room. We often talk about our students. After lunch I teach two more lessons and I finish at two thirty.",
-            "ar": "في الثانية عشرة نتغدّى. آكل عادةً مع المدرّسات الأخريات في غرفة صغيرة. نتحدّث كثيراً عن طلابنا. بعد الغداء أُعلّم حصتين أخريين وأنتهي في الثانية والنصف."
+            "en": "At twelve o'clock we have lunch. I usually eat with the other teachers in a small room. We often talk about our students. After lunch I teach my last two lessons and I finish at two thirty.",
+            "ar": "في الثانية عشرة نتغدّى. آكل عادةً مع المعلّمين الآخرين في غرفة صغيرة. نتحدّث كثيراً عن طلابنا. بعد الغداء أُدرّس آخر حصتين وأنتهي في الثانية والنصف."
           },
           {
             "en": "In the afternoon I go home and I rest for an hour. Then I help my son Adam with his homework. He is six and he studies very hard. At six o'clock I cook dinner. We eat together at eight — this is my favourite time of the day.",
@@ -2989,7 +2990,7 @@
             "hint_ar": "because it is near"
           },
           {
-            "q_ar": "كم حصة تُعلّم كل يوم؟",
+            "q_ar": "كم حصةً تُدرّس كل يوم؟",
             "a_ar": "خمس حصص",
             "hint_ar": "الفقرة الثانية"
           },
@@ -3000,11 +3001,11 @@
           },
           {
             "q_ar": "أين تتغدّى؟",
-            "a_ar": "في غرفة صغيرة مع المدرّسات",
+            "a_ar": "في غرفة صغيرة مع المعلّمين الآخرين",
             "hint_ar": "الفقرة الثالثة"
           },
           {
-            "q_ar": "ماذا تفعل بعد الغداء في البيت؟",
+            "q_ar": "ماذا تفعل حين تعود إلى البيت بعد الظهر؟",
             "a_ar": "ترتاح ساعة ثم تساعد ابنها",
             "hint_ar": "الفقرة الرابعة"
           },
@@ -3060,85 +3061,85 @@
             "en": "village",
             "ipa": "/ˈvɪlɪdʒ/",
             "ar": "قرية",
-            "note_ar": "Smaller than a town"
+            "note_ar": "أصغر من المدينة"
           },
           {
             "en": "unusual",
             "ipa": "/ʌnˈjuːʒuəl/",
             "ar": "غير معتاد",
-            "note_ar": "Opposite of usual"
+            "note_ar": "عكس usual (معتاد)"
           },
           {
             "en": "baker",
             "ipa": "/ˈbeɪkə(r)/",
             "ar": "خبّاز",
-            "note_ar": "A bakery is the shop"
+            "note_ar": "ومحلّه bakery (مخبز)"
           },
           {
             "en": "asleep",
             "ipa": "/əˈsliːp/",
             "ar": "نائم",
-            "note_ar": "Adjective, used with be"
+            "note_ar": "صفة تأتي بعد be: he is asleep"
           },
           {
             "en": "alarm clock",
             "ipa": "/əˈlɑːm klɒk/",
             "ar": "منبّه",
-            "note_ar": "Two words"
+            "note_ar": "كلمتان"
           },
           {
             "en": "prepare",
             "ipa": "/prɪˈpeə(r)/",
             "ar": "يحضّر",
-            "note_ar": "Contains /p/ and /r/"
+            "note_ar": "فيها /p/ — انتبه لها"
           },
           {
             "en": "pastry",
             "ipa": "/ˈpeɪstri/",
             "ar": "معجنات",
-            "note_ar": "Plural: pastries"
+            "note_ar": "الجمع: pastries"
           },
           {
             "en": "oven",
             "ipa": "/ˈʌvn/",
             "ar": "فرن",
-            "note_ar": "Note the /v/"
+            "note_ar": "انتبه إلى /v/ فيها"
           },
           {
             "en": "smell",
             "ipa": "/smel/",
             "ar": "رائحة",
-            "note_ar": "Also a verb: it smells good"
+            "note_ar": "وفعلٌ أيضاً: it smells good"
           },
           {
             "en": "fresh",
             "ipa": "/freʃ/",
             "ar": "طازج",
-            "note_ar": "Opposite: stale"
+            "note_ar": "عكسها: stale (بائت)"
           },
           {
             "en": "customer",
             "ipa": "/ˈkʌstəmə(r)/",
             "ar": "زبون",
-            "note_ar": "A person who buys"
+            "note_ar": "من يشتري من المتجر"
           },
           {
             "en": "free",
             "ipa": "/friː/",
             "ar": "مجاني",
-            "note_ar": "Also means not busy"
+            "note_ar": "وتعني أيضاً «غير مشغول»"
           },
           {
             "en": "agree",
             "ipa": "/əˈɡriː/",
             "ar": "يوافق",
-            "note_ar": "Negative: I don't agree"
+            "note_ar": "النفي: I don't agree"
           },
           {
             "en": "lucky",
             "ipa": "/ˈlʌki/",
             "ar": "محظوظ",
-            "note_ar": "Noun: luck"
+            "note_ar": "الاسم: luck (حظّ)"
           }
         ],
         "questions": [
@@ -3185,7 +3186,7 @@
           },
           {
             "can_ar": "تقول الوقت بطريقتين",
-            "proof_ar": "مجموعة «تعبيرات الوقت» — 20 تعبيراً"
+            "proof_ar": "مجموعة «قراءة الساعة» — عشرة تعبيرات"
           },
           {
             "can_ar": "تضع ظرف التكرار في موضعه الصحيح",
@@ -3265,7 +3266,7 @@
           },
           {
             "label_en": "The -s ending",
-            "label_ar": null,
+            "label_ar": "نهاية -s",
             "levels": [
               "Usually missing",
               "Half correct",
@@ -3292,7 +3293,7 @@
           },
           {
             "label_en": "/p/ and /v/",
-            "label_ar": null,
+            "label_ar": "/p/ و /v/",
             "levels": [
               "Replaced with ب and ف",
               "Sometimes correct",
@@ -3301,7 +3302,7 @@
           },
           {
             "label_en": "Flow",
-            "label_ar": null,
+            "label_ar": "الطلاقة",
             "levels": [
               "Long pauses inside sentences",
               "Some hesitation",
@@ -3467,11 +3468,11 @@
               },
               {
                 "word": "the same",
-                "ar": "معناها «نفس الـ». تأتي دائماً مع the: the same office."
+                "ar": "معناها «نفسه»: the same office = المكتب نفسه. وتأتي دائماً مع the."
               },
               {
                 "word": "have lunch",
-                "ar": "نقول have lunch للأكل، لا eat lunch. ومثلها have breakfast · have dinner."
+                "ar": "نقول عادةً have lunch، و eat lunch صحيحة أيضاً. ومثلها have breakfast · have dinner."
               }
             ],
             "check_ar": [
@@ -3531,8 +3532,8 @@
             "title_ar": "عطلة نهاية الأسبوع",
             "model": [
               {
-                "en": "On Friday, I go to the mosque.",
-                "ar": "يوم الجمعة أذهب إلى المسجد."
+                "en": "On Fridays, I go to the mosque.",
+                "ar": "أيام الجمعة أذهب إلى المسجد."
               },
               {
                 "en": "In the evening, I read a book.",
@@ -3553,7 +3554,7 @@
             "notes": [
               {
                 "word": "on",
-                "ar": "مع الأيام نقول on: on Friday · on Monday."
+                "ar": "مع الأيام نقول on: on Friday · on Fridays (كل جمعة)."
               },
               {
                 "word": "in the evening",
@@ -3651,7 +3652,7 @@
       },
       {
         "en": "I ___ to work. It takes ___ minutes.",
-        "ar": "أذهب إلى العمل بـ___. يستغرق ___ دقيقة."
+        "ar": "___ إلى العمل (أمشي / أقود / …). يستغرق ذلك ___ دقيقة."
       },
       {
         "en": "I usually have lunch at ___.",
@@ -3778,7 +3779,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": "van فيها /v/ — وهو مجهور، تهتزّ به حلقك. أما /f/ فمهموس.",
+      "explanation": "van فيها /v/ — وهو مجهور، يهتزّ به حلقك. أما /f/ فمهموس.",
       "points": 1
     },
     {
@@ -3786,10 +3787,10 @@
       "exercise_no": 2,
       "type": "multiple_choice",
       "focus_ar": "قول الوقت — الطريقة الطبيعية",
-      "prompt": "كيف تقول 7:30 بالطريقة الطبيعية؟",
+      "prompt": "كيف تقول 7:30؟",
       "payload": {
         "options": [
-          "seven thirty",
+          "seven and a half",
           "half past seven",
           "thirty past seven",
           "a quarter past seven"
@@ -3798,7 +3799,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": "half past seven هي الطريقة الطبيعية، و seven thirty هي الرقمية. كلتاهما صحيحة.",
+      "explanation": "half past seven — ويصحّ أيضاً seven thirty. أما seven and a half فترجمة حرفية من العربية لا تُقال في الوقت.",
       "points": 1
     },
     {
@@ -3851,7 +3852,12 @@
       },
       "answer": {
         "accepted": [
-          "at"
+          "at",
+          "before",
+          "after",
+          "around",
+          "about",
+          "by"
         ]
       },
       "explanation": "at مع الساعات · on مع الأيام · in مع الشهور والفصول.",
@@ -3896,7 +3902,10 @@
       },
       "answer": {
         "accepted": [
-          "do"
+          "do",
+          "can",
+          "will",
+          "did"
         ]
       },
       "explanation": "السؤال في المضارع البسيط يحتاج do — لا يصحّ What time you wake up?",
@@ -3929,7 +3938,7 @@
       "prompt": "He ______ at a bank. (work)",
       "payload": {
         "before": "He",
-        "after": "at a bank."
+        "after": "at a bank. (work)"
       },
       "answer": {
         "accepted": [
@@ -3947,7 +3956,7 @@
       "prompt": "She ______ television every evening. (watch)",
       "payload": {
         "before": "She",
-        "after": "television every evening."
+        "after": "television every evening. (watch)"
       },
       "answer": {
         "accepted": [
@@ -3965,7 +3974,7 @@
       "prompt": "He ______ medicine at university. (study)",
       "payload": {
         "before": "He",
-        "after": "medicine at university."
+        "after": "medicine at university. (study)"
       },
       "answer": {
         "accepted": [
@@ -3983,11 +3992,12 @@
       "prompt": "She ______ two children. (have)",
       "payload": {
         "before": "She",
-        "after": "two children."
+        "after": "two children. (have)"
       },
       "answer": {
         "accepted": [
-          "has"
+          "has",
+          "has got"
         ]
       },
       "explanation": "have شاذّ: he/she/it → has لا haves.",
@@ -4075,10 +4085,10 @@
       "exercise_no": 5,
       "type": "fill_blank",
       "focus_ar": "النفي بـ don’t",
-      "prompt": "I ______ work on Fridays. (not work)",
+      "prompt": "I ______ work on Fridays. (not)",
       "payload": {
         "before": "I",
-        "after": "work on Fridays."
+        "after": "work on Fridays. (not)"
       },
       "answer": {
         "accepted": [
@@ -4114,7 +4124,7 @@
           "I work in Monday.",
           "I work at Monday.",
           "I work on Monday.",
-          "I work Monday."
+          "I work in the Monday."
         ]
       },
       "answer": {
@@ -4141,7 +4151,7 @@
       "exercise_no": 6,
       "type": "multiple_choice",
       "focus_ar": "فهم نص الاستماع — التفاصيل",
-      "prompt": "كم حصة تُعلّم منى كل يوم؟",
+      "prompt": "كم حصةً تُدرّس منى كل يوم؟",
       "payload": {
         "options": [
           "ثلاث",
@@ -4165,7 +4175,7 @@
       "prompt": "Mona ______ five lessons every day. (teach)",
       "payload": {
         "before": "Mona",
-        "after": "five lessons every day."
+        "after": "five lessons every day. (teach)"
       },
       "answer": {
         "accepted": [
@@ -4236,7 +4246,7 @@
       "prompt": "Paul ______ every customer by name. (know)",
       "payload": {
         "before": "Paul",
-        "after": "every customer by name."
+        "after": "every customer by name. (know)"
       },
       "answer": {
         "accepted": [
@@ -4275,7 +4285,8 @@
       },
       "answer": {
         "accepted": [
-          "has"
+          "has",
+          "has got"
         ]
       },
       "explanation": "my brother = he، و he تأخذ has لا haves.",
@@ -4289,15 +4300,17 @@
       "type": "correct_error",
       "prompt": "صحّح الخطأ في هذه الجملة",
       "payload": {
-        "sentence": "I haven't a car."
+        "sentence": "I not have a car."
       },
       "answer": {
         "accepted": [
           "I don't have a car.",
-          "I do not have a car."
+          "I do not have a car.",
+          "I haven't got a car.",
+          "I have not got a car."
         ]
       },
-      "explanation": "النفي في المضارع البسيط بـ don't + have، كأي فعل.",
+      "explanation": "النفي في المضارع البسيط بـ don't قبل الفعل، و have فعل كغيره: I don't have a car.",
       "focus_ar": "have و has",
       "error_no": null,
       "points": 1
@@ -4334,7 +4347,8 @@
       },
       "answer": {
         "accepted": [
-          "in"
+          "in",
+          "during"
         ]
       },
       "explanation": "أجزاء اليوم تأخذ in: in the morning · in the evening.",
@@ -4372,7 +4386,9 @@
       },
       "answer": {
         "accepted": [
-          "in"
+          "in",
+          "before",
+          "after"
         ]
       },
       "explanation": "الشهور تأخذ in. والأيام on، والساعات at.",
@@ -4448,10 +4464,12 @@
       },
       "answer": {
         "accepted": [
-          "She never eats meat."
+          "She never eats meat.",
+          "She doesn't eat meat.",
+          "She does not eat meat."
         ]
       },
-      "explanation": "never نفيٌ بنفسها، فلا تضف doesn't — ويعود الفعل إلى eats.",
+      "explanation": "never نفيٌ بنفسها، فلا تجمعها مع doesn't: She never eats meat — أو بلا never: She doesn't eat meat.",
       "focus_ar": "موضع ظرف التكرار",
       "error_no": null,
       "points": 1
@@ -4511,7 +4529,9 @@
           "It's half past six.",
           "It is half past six.",
           "It's six thirty.",
-          "It is six thirty."
+          "It is six thirty.",
+          "It's half six.",
+          "It is half six."
         ]
       },
       "explanation": "النصف بـ half past: half past six.",
@@ -4569,7 +4589,9 @@
       },
       "answer": {
         "accepted": [
-          "because"
+          "because",
+          "as",
+          "since"
         ]
       },
       "explanation": "الجملة الثانية سبب الأولى: because.",
@@ -4706,7 +4728,8 @@
       },
       "answer": {
         "accepted": [
-          "My father has two feet."
+          "My father has two feet.",
+          "My father has got two feet."
         ]
       },
       "explanation": "الجمع شاذّ: one foot · two feet — ومثلها tooth · teeth. لا تُضاف s.",

@@ -11,8 +11,8 @@
       "ar": "أفهم النقاط الرئيسة في الكلام الواضح عن موضوعات مألوفة، ومنها مقابلة إذاعية قصيرة بين متحدّثَين"
     },
     {
-      "en": "I can read a text of about 400 words on a familiar subject and find the main idea, the details and the writer's meaning.",
-      "ar": "أقرأ نصّاً من نحو 400 كلمة عن موضوع مألوف، فأجد فكرته العامّة وتفاصيله وما يقصده الكاتب"
+      "en": "I can read a text of about 350 words on a familiar subject and find the main idea, the details and the writer's meaning.",
+      "ar": "أقرأ نصّاً من نحو 350 كلمة عن موضوع مألوف، فأجد فكرته العامّة وتفاصيله وما يقصده الكاتب"
     },
     {
       "en": "I can use the passive to describe how things are made and to report news.",
@@ -95,7 +95,7 @@
       }
     ],
     "model_answer": "Six months ago, I could only say a few sentences about myself. Before that, I had never studied English seriously, and I was sure that I was too old to start.\n\nSince then, I have learned about two thousand words, and I have had six real conversations with people who speak English every day. I have also learned that mistakes are not the problem. Silence is the problem.\n\nMy first piece of advice is simple: you should study a little every day, even when you are tired. Twenty minutes every day is better than three hours on Saturday. Also, if I were you, I would find a person who is happy to talk to you every week, and I would start in the first month, not the sixth.\n\nIf I started again, I would record myself much more, because the recordings show the progress that you cannot feel. However, I would not change the daily plan, although it was hard at times.\n\nIn the end, I think you will be surprised. The first weeks are the hardest, but if you keep going, you will understand much more than you expect.",
-    "model_words": 194
+    "model_words": 190
   },
   "days": [
     {
@@ -1193,7 +1193,7 @@
             [
               "شكوى",
               "I'm afraid there's a problem with my bill.",
-              "أخشى أن في فاتورتي خطأً"
+              "أخشى أن في فاتورتي مشكلةً"
             ]
           ],
           "say": 1,
@@ -1316,7 +1316,7 @@
                 [
                   "لا ينفصل",
                   "It took me a week to get over the flu.",
-                  "احتجت أسبوعاً لأتعافى من الزكام"
+                  "احتجت أسبوعاً لأتعافى من الإنفلونزا"
                 ],
                 [
                   "ثلاث كلمات",
@@ -1485,7 +1485,7 @@
                 [
                   "على الهاتف",
                   "Could I leave a message, please?",
-                  "هل أترك رسالة من فضلك؟"
+                  "هل يمكنني أن أترك رسالة من فضلك؟"
                 ],
                 [
                   "شكوى",
@@ -1555,7 +1555,7 @@
           },
           {
             "ipa": "السواكن",
-            "arabic_hint": "/p/ و/v/ و/θ/ و/ð/ و/ŋ/ — أصوات لا مقابل لها في العربية",
+            "arabic_hint": "/p/ و/v/ و/ŋ/ لا مقابل لها في العربية، و/θ/ و/ð/ هما الثاء والذال، فلا تقلبهما سيناً وزاياً",
             "examples": [
               "pen",
               "van",
@@ -1688,7 +1688,7 @@
             ]
           }
         ],
-        "tip_ar": "في الاختبارات الخمسة 26 مثالاً، والهدف أن تخطئ في خمسة على الأكثر — أي 80%. فإن كثر خطؤك في اختبار منها فدرّبه عشر دقائق يومياً بعد الدورة. ثم افتح «الفقرة الجامعة» وسجّلها، وشغّل بعدها تسجيل الأسبوع الأول: هذه المقارنة أصدق تقييم ستحصل عليه."
+        "tip_ar": "في الاختبارات الخمسة 28 مثالاً، والهدف أن تخطئ في خمسة على الأكثر — نحو 80%. فإن كثر خطؤك في اختبار منها فدرّبه عشر دقائق يومياً بعد الدورة. ثم افتح «الفقرة الجامعة» وسجّلها، وشغّل بعدها تسجيل الأسبوع الأول: هذه المقارنة أصدق تقييم ستحصل عليه."
       }
     },
     {
@@ -1722,12 +1722,12 @@
         ],
         "questions": [
           {
-            "q_ar": "asked · worked · looked — هل جاءت -ed صوت /t/ بلا مقطع زائد؟",
+            "q_ar": "asked · worked — هل جاءت -ed صوت /t/ بلا مقطع زائد؟",
             "a_ar": "كل كلمة مقطع واحد: «آسكت» لا «آسكيد»."
           },
           {
-            "q_ar": "needed · waited — هل جاءت -ed مقطعاً زائداً /ɪd/؟",
-            "a_ar": "نعم، لأن الفعل ينتهي بـd أو t."
+            "q_ar": "needed — هل جاءت -ed مقطعاً زائداً /ɪd/؟",
+            "a_ar": "نعم، لأن الفعل ينتهي بـd."
           },
           {
             "q_ar": "broke down · came out · pull over — هل نبرت الحرف لا الفعل؟",
@@ -1742,7 +1742,7 @@
             "a_ar": "الاختصار هو النطق الطبيعي في الكلام."
           },
           {
-            "q_ar": "think · thank · thought — هل جاءت /θ/ ولسانك بين أسنانك؟",
+            "q_ar": "thank · thought — هل جاءت /θ/ ولسانك بين أسنانك؟",
             "a_ar": "لا «سينك» ولا «تينك»."
           },
           {
@@ -1765,7 +1765,7 @@
             "proof_ar": "اختبار الاستماع 18 من 25 فأكثر"
           },
           {
-            "can_ar": "أفهم نصّاً من نحو 400 كلمة، وإعلانات ورسائل قصيرة",
+            "can_ar": "أفهم نصّاً من نحو 350 كلمة، وإعلانات ورسائل قصيرة",
             "proof_ar": "اختبار القراءة 18 من 25 فأكثر"
           },
           {
@@ -1816,7 +1816,7 @@
           "شيء كنت ستفعله بطريقة أخرى: الشرط الثاني",
           "ماذا بعد B1: going to وwill"
         ],
-        "model_en": "Today I want to talk about learning English, and what I would tell somebody who is starting today. //\nSix months ago, I could only say my name, my job and where I lived. Before that, I had studied English at school, but I had never really used it, and I was sure that I was too old to learn. //\nSince then, a lot has changed. I have learned about two thousand words, and I have had several real conversations with people who speak English every day. I have also recorded myself every few weeks, and when I listen to my first recording now, I can hardly believe it was me. //\nSo, what would I tell a beginner? First, you should study a little every day. Twenty minutes every morning is better than three hours on Saturday, because your brain needs the repetition. Second, if I were you, I would find a real person to talk to as soon as possible. You will make mistakes, of course, but nobody minds. The people who help you are usually happy that you are trying. //\nIf I started again, I would speak much earlier. I waited until week twelve for my first real conversation, and I wish I hadn't waited so long. — Sorry, I mean: I wish I had started sooner. I was afraid of something that wasn't dangerous at all. //\nWhat comes next for me? I'm going to keep one conversation a week, and I'm going to read one book every month. I think I'll take the B1 Preliminary exam next summer. And in a year, I hope I'll listen to this recording and think: that wasn't bad, but I've come a long way since then. //",
+        "model_en": "Today I want to talk about learning English, and what I would tell somebody who is starting today. //\nSix months ago, I could only say my name, my job and where I lived. Before that, I had studied English at school, but I had never really used it, and I was sure that I was too old to learn. //\nSince then, a lot has changed. I have learned about two thousand words, and I have had several real conversations with people who speak English every day. I have also recorded myself every few weeks, and when I listen to my first recording now, I can hardly believe it was me. //\nSo, what would I tell a beginner? First, you should study a little every day. Twenty minutes every morning is better than three hours on Saturday, because your brain needs the repetition. Second, if I were you, I would find a real person to talk to as soon as possible. You will make mistakes, of course, but nobody minds. The people who help you are usually happy that you are trying. //\nIf I started again, I would speak much earlier. I waited until week twelve — sorry, I mean week ten — for my first real conversation, and that was much too late. I was afraid of something that wasn't dangerous at all. //\nWhat comes next for me? I'm going to keep one conversation a week, and I'm going to read one book every month. I think I'll take the B1 Preliminary exam next summer. And in a year, I hope I'll listen to this recording and think: that wasn't bad, but I've come a long way since then. //",
         "outline": [
           {
             "part_en": "Where I started",
@@ -2692,7 +2692,7 @@
           },
           {
             "en": "Reem: Exactly. I asked him if he would help other people, and he said yes. We started with two tables in the library. On the first Saturday, only three people came.",
-            "ar": "ريم: بالضبط. سألته إن كان يساعد غيري، فقال نعم. وبدأنا بطاولتين في المكتبة. وفي السبت الأول لم يأتِ إلا ثلاثة أشخاص."
+            "ar": "ريم: بالضبط. سألته إن كان سيساعد غيري، فقال نعم. وبدأنا بطاولتين في المكتبة. وفي السبت الأول لم يأتِ إلا ثلاثة أشخاص."
           },
           {
             "en": "Presenter: And now?",
@@ -2708,7 +2708,7 @@
           },
           {
             "en": "Reem: No, it's free. But there's a box by the door, and people can give something if they want. That pays for the tools and the tea.",
-            "ar": "ريم: لا، الإصلاح مجّاني. لكن عند الباب صندوقاً يضع فيه الناس شيئاً إن أرادوا، وهو ما ندفع منه ثمن الأدوات والشاي."
+            "ar": "ريم: لا، الإصلاح مجّاني. لكنّ عند الباب صندوقاً يضع فيه الناس شيئاً إن أرادوا، وهو ما ندفع منه ثمن الأدوات والشاي."
           },
           {
             "en": "Presenter: What's the biggest problem?",
@@ -3085,7 +3085,7 @@
           {
             "title_ar": "الصفحة الأخيرة",
             "title_en": "Last page",
-            "explain_ar": "قبل أربعة وعشرين أسبوعاً سجّلت دقيقتين عن نفسك، وكان ذلك صعباً. عندك ذلك الملفّ، فشغّله مرّة أخيرة. الجزء الصعب خلفك: الأسابيع الستة الأولى كانت أصعب من كل ما بعدها، وقد أنهيتها. ولم تنتهِ بعد، وهذا هو الخبر الحسن: كما قالت سلمى في الاختبار، تعلّم اللغة لا ينتهي، وليس مفروضاً أن ينتهي. والتسجيلات هي الدليل: لا التمارين ولا الاختبارات، بل ملفّات تُظهر إنساناً صار يقول ما يريد بلغة كانت مغلقة أمامه. وكما قالت ليلى في قصة القراءة: الأخطاء لم تكن المشكلة قطّ. فاستمرّ.",
+            "explain_ar": "قبل أربعة وعشرين أسبوعاً سجّلت دقيقة ونصفاً عن نفسك، وكان ذلك صعباً. عندك ذلك الملفّ، فشغّله مرّة أخيرة. الجزء الصعب خلفك: الأسابيع الستة الأولى كانت أصعب من كل ما بعدها، وقد أنهيتها. ولم تنتهِ بعد، وهذا هو الخبر الحسن: كما قالت سلمى في الاختبار، تعلّم اللغة لا ينتهي، وليس مفروضاً أن ينتهي. والتسجيلات هي الدليل: لا التمارين ولا الاختبارات، بل ملفّات تُظهر إنساناً صار يقول ما يريد بلغة كانت مغلقة أمامه. وكما فعلت ليلى في قصة القراءة: دوّن أخطاءك ولا تخَفها. فاستمرّ.",
             "examples": [
               {
                 "en": "The hard part is behind you.",
@@ -3154,7 +3154,8 @@
       "answer": {
         "accepted": [
           "This is better.",
-          "This is much better."
+          "This is much better.",
+          "This is even better."
         ]
       },
       "explanation": "better مقارنة بنفسها، فلا more قبلها.",
@@ -3234,7 +3235,9 @@
         "accepted": [
           "If it rains, we will stay at home.",
           "If it rains, we stay at home.",
-          "If it rains, we are going to stay at home."
+          "If it rains, we are going to stay at home.",
+          "If it rains, we will stay home.",
+          "If it rains, we stay home."
         ]
       },
       "explanation": "لا will بعد if: المضارع بعدها، وwill في الجواب.",
@@ -3253,7 +3256,9 @@
       "answer": {
         "accepted": [
           "When I arrive, I will call.",
-          "When I arrive, I will call you."
+          "When I arrive, I will call you.",
+          "I will call when I arrive.",
+          "I will call you when I arrive."
         ]
       },
       "explanation": "when للمستقبل مثل if: المضارع بعدها.",
@@ -3371,7 +3376,7 @@
           "neighbor"
         ]
       },
-      "explanation": null,
+      "explanation": "neighbour بالبريطانية وneighbor بالأمريكية: الجار.",
       "points": 1,
       "error_no": null
     },
@@ -3391,7 +3396,7 @@
           "baggage"
         ]
       },
-      "explanation": null,
+      "explanation": "luggage وbaggage لا تُعدّان: some luggage، لا luggages.",
       "points": 1,
       "error_no": null
     },
@@ -3410,7 +3415,7 @@
           "job interview"
         ]
       },
-      "explanation": null,
+      "explanation": "a job interview: مقابلة عمل؛ وjob تحدّد نوع المقابلة.",
       "points": 1,
       "error_no": null
     },
@@ -3429,7 +3434,7 @@
           "salary"
         ]
       },
-      "explanation": null,
+      "explanation": "salary: الأجر الثابت الذي تأخذه كل شهر.",
       "points": 1,
       "error_no": null
     },
@@ -3448,7 +3453,7 @@
           "deadline"
         ]
       },
-      "explanation": null,
+      "explanation": "deadline: آخر موعد لتسليم العمل: The deadline is Friday.",
       "points": 1,
       "error_no": null
     },
@@ -3467,7 +3472,7 @@
           "ran"
         ]
       },
-      "explanation": null,
+      "explanation": "run into = يصادف شخصاً بلا موعد، وماضيه ran.",
       "points": 1,
       "error_no": null
     },
@@ -3486,7 +3491,7 @@
           "run"
         ]
       },
-      "explanation": null,
+      "explanation": "run out of = ينفد. وبعد We have التصريف الثالث: run · ran · run.",
       "points": 1,
       "error_no": null
     },
@@ -3505,7 +3510,7 @@
           "gave"
         ]
       },
-      "explanation": null,
+      "explanation": "give up = يُقلع عن، وماضيه gave، وبعده -ing: gave up smoking.",
       "points": 1,
       "error_no": null
     },
@@ -3524,7 +3529,7 @@
           "go"
         ]
       },
-      "explanation": null,
+      "explanation": "go back = يرجع؛ Can we go back a step? نرجع خطوة في النقاش.",
       "points": 1,
       "error_no": null
     },
@@ -3548,7 +3553,7 @@
           "okay"
         ]
       },
-      "explanation": null,
+      "explanation": "isn't acceptable أو isn't good enough: شكوى مهذّبة وحازمة.",
       "points": 1,
       "error_no": null
     },
@@ -3587,7 +3592,7 @@
           "find out"
         ]
       },
-      "explanation": null,
+      "explanation": "find out = يكتشف، وهي أشيع في الكلام من discover.",
       "points": 1,
       "error_no": null
     },
@@ -3606,7 +3611,7 @@
           "look into"
         ]
       },
-      "explanation": null,
+      "explanation": "look into = يبحث في الأمر ويتحقّق منه.",
       "points": 1,
       "error_no": null
     },
@@ -3647,7 +3652,7 @@
           "have been living"
         ]
       },
-      "explanation": null,
+      "explanation": "بدأ سنة 2019 وما زال: المضارع التامّ مع since.",
       "points": 1,
       "error_no": 16
     },
@@ -3666,7 +3671,7 @@
           "moved"
         ]
       },
-      "explanation": null,
+      "explanation": "in 2019 وقت منتهٍ محدّد: الماضي البسيط.",
       "points": 1,
       "error_no": 17
     },
@@ -3685,7 +3690,7 @@
           "is raining"
         ]
       },
-      "explanation": null,
+      "explanation": "Look! تدلّ على أنه يحدث الآن: المضارع المستمر.",
       "points": 1,
       "error_no": null
     },
@@ -3704,7 +3709,7 @@
           "rains"
         ]
       },
-      "explanation": null,
+      "explanation": "usually لعادة متكرّرة: المضارع البسيط، وit تأخذ -s.",
       "points": 1,
       "error_no": 3
     },
@@ -3724,7 +3729,7 @@
           "had started already"
         ]
       },
-      "explanation": null,
+      "explanation": "بدأ الفيلم قبل الوصول: had + التصريف الثالث، وalready بينهما.",
       "points": 1,
       "error_no": null
     },
@@ -3743,7 +3748,7 @@
           "was walking / saw"
         ]
       },
-      "explanation": null,
+      "explanation": "الخلفية الجارية بالماضي المستمر، والحدث القصير بالماضي البسيط.",
       "points": 1,
       "error_no": null
     },
@@ -3762,7 +3767,7 @@
           "was built"
         ]
       },
-      "explanation": null,
+      "explanation": "البيت لا يبني نفسه: المجهول was + built.",
       "points": 1,
       "error_no": null
     },
@@ -3781,7 +3786,7 @@
           "Have / been"
         ]
       },
-      "explanation": null,
+      "explanation": "ever للتجربة في العمر كله: Have you ever been…?",
       "points": 1,
       "error_no": null
     },
@@ -3800,7 +3805,7 @@
           "did / go"
         ]
       },
-      "explanation": null,
+      "explanation": "When تسأل عن وقت منتهٍ: الماضي البسيط did + فعل مجرّد.",
       "points": 1,
       "error_no": null
     },
@@ -3820,7 +3825,7 @@
           "rains / are going to cancel"
         ]
       },
-      "explanation": null,
+      "explanation": "الشرط الأول: المضارع بعد if، وwill في الجواب.",
       "points": 1,
       "error_no": 18
     },
@@ -3840,7 +3845,7 @@
           "had / could travel"
         ]
       },
-      "explanation": null,
+      "explanation": "الشرط الثاني: الماضي بعد if، وwould في الجواب.",
       "points": 1,
       "error_no": null
     },
@@ -3860,7 +3865,7 @@
           "has not finished"
         ]
       },
-      "explanation": null,
+      "explanation": "yet مع النفي في المضارع التامّ: hasn't + التصريف الثالث.",
       "points": 1,
       "error_no": null
     },
@@ -3880,7 +3885,7 @@
           "has been working"
         ]
       },
-      "explanation": null,
+      "explanation": "بدأ قبل عشر سنوات وما زال: المضارع التامّ أو التامّ المستمر.",
       "points": 1,
       "error_no": 16
     },
@@ -3899,7 +3904,7 @@
           "had to"
         ]
       },
-      "explanation": null,
+      "explanation": "ماضي have to هو had to.",
       "points": 1,
       "error_no": null
     },
@@ -3918,7 +3923,7 @@
           "must be sent"
         ]
       },
-      "explanation": null,
+      "explanation": "التقرير لا يُرسل نفسه: must be + التصريف الثالث.",
       "points": 1,
       "error_no": null
     },
@@ -3937,7 +3942,7 @@
           "was"
         ]
       },
-      "explanation": null,
+      "explanation": "في النقل يتراجع الزمن خطوة: am ← was.",
       "points": 1,
       "error_no": null
     },
@@ -3976,7 +3981,7 @@
           "knew"
         ]
       },
-      "explanation": null,
+      "explanation": "بعد wish ماضٍ لأمنية في الحاضر: know ← knew.",
       "points": 1,
       "error_no": null
     },
@@ -3996,7 +4001,7 @@
           "are going to fly"
         ]
       },
-      "explanation": null,
+      "explanation": "موعد مرتّب (التذاكر محجوزة): المضارع المستمر أو going to.",
       "points": 1,
       "error_no": null
     },
@@ -4015,7 +4020,7 @@
           "was cooking / rang"
         ]
       },
-      "explanation": null,
+      "explanation": "بعد while الخلفية بالمستمر، والحدث القصير بالماضي البسيط.",
       "points": 1,
       "error_no": null
     },
@@ -4259,7 +4264,7 @@
           "patient"
         ]
       },
-      "explanation": null,
+      "explanation": "patient: صبور، وضدّها impatient.",
       "points": 1,
       "error_no": null
     },
@@ -4278,7 +4283,7 @@
           "generous"
         ]
       },
-      "explanation": null,
+      "explanation": "generous: كريم يعطي بسخاء.",
       "points": 1,
       "error_no": null
     },
@@ -4316,7 +4321,7 @@
           "point"
         ]
       },
-      "explanation": null,
+      "explanation": "I take your point: أفهم وجهة نظرك، ولا يعني أني أوافق.",
       "points": 1,
       "error_no": null
     },
@@ -4335,7 +4340,7 @@
           "hand"
         ]
       },
-      "explanation": null,
+      "explanation": "On the one hand… On the other hand: من جهة… ومن جهة أخرى.",
       "points": 1,
       "error_no": null
     },
@@ -4374,7 +4379,7 @@
           "repeat"
         ]
       },
-      "explanation": null,
+      "explanation": "Could you repeat that? هل تعيد ما قلت؟ وdidn't catch: لم ألتقط.",
       "points": 1,
       "error_no": null
     },
@@ -4393,7 +4398,7 @@
           "forward"
         ]
       },
-      "explanation": null,
+      "explanation": "look forward to = يتشوّق إلى.",
       "points": 1,
       "error_no": null
     },
@@ -4412,7 +4417,7 @@
           "consequence"
         ]
       },
-      "explanation": null,
+      "explanation": "consequence: نتيجة، وكثيراً ما تكون سيّئة.",
       "points": 1,
       "error_no": null
     },
@@ -4431,7 +4436,7 @@
           "advantage"
         ]
       },
-      "explanation": null,
+      "explanation": "advantage: ميزة، وتبدأ بحركة فيسبقها an.",
       "points": 1,
       "error_no": null
     },
@@ -4450,7 +4455,7 @@
           "disadvantage"
         ]
       },
-      "explanation": null,
+      "explanation": "disadvantage: عيب؛ dis- تقلب المعنى.",
       "points": 1,
       "error_no": null
     },
@@ -4469,7 +4474,7 @@
           "experience"
         ]
       },
-      "explanation": null,
+      "explanation": "work experience: الخبرة في العمل.",
       "points": 1,
       "error_no": null
     },
@@ -4488,7 +4493,7 @@
           "compromise"
         ]
       },
-      "explanation": null,
+      "explanation": "compromise: حلّ يتنازل فيه كل طرف قليلاً.",
       "points": 1,
       "error_no": null
     },
@@ -4504,10 +4509,11 @@
       },
       "answer": {
         "accepted": [
-          "ambition"
+          "ambition",
+          "ambitious"
         ]
       },
-      "explanation": null,
+      "explanation": "ambition: الطموح (اسم)، وambitious: طموح (صفة).",
       "points": 1,
       "error_no": null
     },
@@ -4526,7 +4532,7 @@
           "opportunity"
         ]
       },
-      "explanation": null,
+      "explanation": "opportunity: فرصة، وتبدأ بحركة فيسبقها an.",
       "points": 1,
       "error_no": null
     },
@@ -4542,7 +4548,9 @@
       },
       "answer": {
         "accepted": [
-          "called off"
+          "called off",
+          "cancelled",
+          "canceled"
         ]
       },
       "explanation": "call off = يُلغي، وهنا في المجهول: was called off.",
@@ -4565,7 +4573,7 @@
           "take care of"
         ]
       },
-      "explanation": null,
+      "explanation": "look after = take care of = يعتني بـ.",
       "points": 1,
       "error_no": null
     },
@@ -4585,7 +4593,7 @@
           "recover from"
         ]
       },
-      "explanation": null,
+      "explanation": "get over = recover from = يتعافى من.",
       "points": 1,
       "error_no": null
     },
@@ -4605,7 +4613,7 @@
           "switch off"
         ]
       },
-      "explanation": null,
+      "explanation": "turn off = switch off = يُطفئ، وضدّها turn on.",
       "points": 1,
       "error_no": null
     },
@@ -4621,10 +4629,12 @@
       },
       "answer": {
         "accepted": [
-          "turned down"
+          "turned down",
+          "refused",
+          "rejected"
         ]
       },
-      "explanation": null,
+      "explanation": "turn down = يرفض عرضاً، وماضيه turned down.",
       "points": 1,
       "error_no": null
     },
@@ -4660,10 +4670,11 @@
       "answer": {
         "accepted": [
           "fill in",
-          "fill out"
+          "fill out",
+          "complete"
         ]
       },
-      "explanation": null,
+      "explanation": "fill in بالبريطانية وfill out بالأمريكية: يملأ استمارة.",
       "points": 1,
       "error_no": null
     },
@@ -4683,7 +4694,7 @@
           "get along"
         ]
       },
-      "explanation": null,
+      "explanation": "get on with وget along with: ينسجم مع.",
       "points": 1,
       "error_no": null
     },
@@ -4702,7 +4713,7 @@
           "success"
         ]
       },
-      "explanation": null,
+      "explanation": "بعد a great اسم: succeed ← success.",
       "points": 1,
       "error_no": null
     },
@@ -4721,7 +4732,7 @@
           "explanation"
         ]
       },
-      "explanation": null,
+      "explanation": "بعد your اسم: explain ← explanation.",
       "points": 1,
       "error_no": null
     },
@@ -4740,7 +4751,7 @@
           "decision"
         ]
       },
-      "explanation": null,
+      "explanation": "make a decision: يتّخذ قراراً، وdecide ← decision.",
       "points": 1,
       "error_no": null
     },
@@ -4759,7 +4770,7 @@
           "comfortable"
         ]
       },
-      "explanation": null,
+      "explanation": "بعد very صفة: comfort ← comfortable.",
       "points": 1,
       "error_no": null
     },
@@ -4778,7 +4789,7 @@
           "dangerous"
         ]
       },
-      "explanation": null,
+      "explanation": "بعد It's صفة: danger ← dangerous.",
       "points": 1,
       "error_no": null
     },
@@ -4817,7 +4828,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "make a complaint: يقدّم شكوى.",
       "points": 1,
       "error_no": null
     },
@@ -4837,7 +4848,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "pay attention: ينتبه.",
       "points": 1,
       "error_no": null
     },
@@ -4857,7 +4868,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "make mistakes: يخطئ، لا do mistakes.",
       "points": 1,
       "error_no": null
     },
@@ -4877,7 +4888,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "take responsibility: يتحمّل المسؤولية.",
       "points": 1,
       "error_no": null
     },
@@ -4897,7 +4908,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "make progress: يتقدّم.",
       "points": 1,
       "error_no": null
     },
@@ -4917,7 +4928,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "do your best: يبذل أقصى جهده.",
       "points": 1,
       "error_no": null
     },
@@ -4937,7 +4948,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "recycle: يعيد تدوير الشيء ليُستعمل من جديد.",
       "points": 1,
       "error_no": null
     },
@@ -4957,7 +4968,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "relieved: مرتاح بعد قلق؛ وجد جوازه بعد بحث طويل.",
       "points": 1,
       "error_no": null
     },
@@ -4977,7 +4988,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "afford: يقدر على ثمن الشيء: I can't afford it.",
       "points": 1,
       "error_no": null
     },
@@ -4997,7 +5008,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "regret: يندم على، وبعدها -ing.",
       "points": 1,
       "error_no": null
     },
@@ -5017,7 +5028,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "realise: يدرك فجأة. replied: ردّ، وreturned: رجع.",
       "points": 1,
       "error_no": null
     },
@@ -5037,7 +5048,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "produce: يُنتج؛ والمصنع يُنتج السيارات.",
       "points": 1,
       "error_no": null
     },
@@ -5056,7 +5067,7 @@
           "is grown"
         ]
       },
-      "explanation": null,
+      "explanation": "الأرز لا يزرع نفسه، والحقيقة دائمة: is + grown.",
       "points": 1,
       "error_no": null
     },
@@ -5075,7 +5086,7 @@
           "was stolen"
         ]
       },
-      "explanation": null,
+      "explanation": "سُرق ولا نعرف السارق: was + التصريف الثالث stolen.",
       "points": 1,
       "error_no": null
     },
@@ -5095,7 +5106,7 @@
           "was not cleaned"
         ]
       },
-      "explanation": null,
+      "explanation": "نفي المجهول في الماضي: wasn't + التصريف الثالث.",
       "points": 1,
       "error_no": null
     },
@@ -5114,7 +5125,7 @@
           "can be bought"
         ]
       },
-      "explanation": null,
+      "explanation": "المجهول مع can: can be + التصريف الثالث.",
       "points": 1,
       "error_no": null
     },
@@ -5133,7 +5144,7 @@
           "was designed"
         ]
       },
-      "explanation": null,
+      "explanation": "مجهول في الماضي، والفاعل بعد by: was designed.",
       "points": 1,
       "error_no": null
     },
@@ -5173,7 +5184,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "سؤال المجهول في الماضي: When was it built?",
       "points": 1,
       "error_no": null
     },
@@ -5229,7 +5240,7 @@
           "had already started"
         ]
       },
-      "explanation": null,
+      "explanation": "بدأ الفيلم قبل وصولنا: بعد by the time ماضٍ بسيط، وفي الجملة الأخرى ماضٍ تامّ.",
       "points": 1,
       "error_no": null
     },
@@ -5267,7 +5278,7 @@
           "was sleeping"
         ]
       },
-      "explanation": null,
+      "explanation": "كان نائماً حين رنّ الهاتف: الماضي المستمر للخلفية.",
       "points": 1,
       "error_no": null
     },
@@ -5306,7 +5317,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "أكل أخي قبل وصولي: الماضي التامّ had eaten.",
       "points": 1,
       "error_no": null
     },
@@ -5346,7 +5357,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "until = إلى أن: انتظرنا إلى أن جاءت الحافلة.",
       "points": 1,
       "error_no": null
     },
@@ -5366,7 +5377,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "used to + فعل مجرّد لعادة ماضية انتهت.",
       "points": 1,
       "error_no": null
     },
@@ -5424,7 +5435,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "قصة مفاجئة تحتاج تفاعلاً: Oh no! ثم سؤال.",
       "points": 1,
       "error_no": null
     },
@@ -5444,7 +5455,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "Looking back = حين أنظر إلى الوراء: لختم القصة بما تعلّمته.",
       "points": 1,
       "error_no": null
     },
@@ -5464,7 +5475,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "حدث حسن بعد مشكلة: Luckily.",
       "points": 1,
       "error_no": null
     },
@@ -5476,7 +5487,7 @@
       "prompt": "Write a story of about 100 words. It must begin with this sentence: 'When I opened the door, I couldn't believe my eyes.' Use the past continuous, the past perfect and at least two of these: when, while, as soon as, by the time, luckily, in the end.",
       "payload": {},
       "answer": {},
-      "explanation": "نموذج: When I opened the door, I couldn't believe my eyes. My little brother was standing in the kitchen, and there was flour everywhere. He had tried to make a cake for our mother's birthday, but he had forgotten to close the mixer. While I was looking at the walls, our mother's car stopped outside. As soon as we heard it, we started cleaning as fast as we could. By the time she came in, the kitchen was almost clean, but the cake was a disaster. Luckily, she laughed. In the end, we went out and bought a cake together, and she said it was her best birthday.",
+      "explanation": "نموذج: When I opened the door, I couldn't believe my eyes. My little brother was standing in the kitchen, and there was flour everywhere. He had tried to make a cake for our mother's birthday, but he had forgotten to put the lid on the mixer. While I was looking at the walls, our mother's car stopped outside. As soon as we heard it, we started cleaning as fast as we could. By the time she came in, the kitchen was almost clean, but the cake was a disaster. Luckily, she laughed. In the end, we went out and bought a cake together, and she said it was her best birthday.",
       "points": 1,
       "error_no": null
     },
@@ -5496,7 +5507,7 @@
           "was"
         ]
       },
-      "explanation": null,
+      "explanation": "الشرط الثاني مع be: were، وwas تُسمع في الكلام.",
       "points": 1,
       "error_no": null
     },
@@ -5516,7 +5527,7 @@
           "spoke / could get"
         ]
       },
-      "explanation": null,
+      "explanation": "الشرط الثاني: الماضي بعد if، وwould أو could في الجواب.",
       "points": 1,
       "error_no": null
     },
@@ -5535,7 +5546,7 @@
           "had"
         ]
       },
-      "explanation": null,
+      "explanation": "بعد wish ماضٍ لأمنية في الحاضر: have ← had.",
       "points": 1,
       "error_no": null
     },
@@ -5554,7 +5565,7 @@
           "could"
         ]
       },
-      "explanation": null,
+      "explanation": "بعد wish ماضي can: could.",
       "points": 1,
       "error_no": null
     },
@@ -5633,7 +5644,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "النصيحة: If I were you, I'd + فعل مجرّد.",
       "points": 1,
       "error_no": null
     },
@@ -5653,7 +5664,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "I'd love to, but… رفض مهذّب. ولا to بعد I'd rather.",
       "points": 1,
       "error_no": null
     },
@@ -5691,7 +5702,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "المفعول ضمير، فيقع بين الفعل والحرف: take them off.",
       "points": 1,
       "error_no": null
     },
@@ -5729,7 +5740,7 @@
           "out"
         ]
       },
-      "explanation": null,
+      "explanation": "fill in أو fill out، والضمير it بين الفعل والحرف.",
       "points": 1,
       "error_no": null
     },
@@ -5749,7 +5760,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "look after = يعتني بـ.",
       "points": 1,
       "error_no": null
     },
@@ -5768,7 +5779,7 @@
           "was"
         ]
       },
-      "explanation": null,
+      "explanation": "في النقل يتراجع الزمن: am working ← was working.",
       "points": 1,
       "error_no": null
     },
@@ -5788,7 +5799,7 @@
           "whether"
         ]
       },
-      "explanation": null,
+      "explanation": "سؤال نعم أو لا يُنقل بـif أو whether.",
       "points": 1,
       "error_no": null
     },
@@ -5827,7 +5838,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "السؤال المنقول بترتيب الخبر: where the station was.",
       "points": 1,
       "error_no": null
     },
@@ -5847,7 +5858,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "لنقل أمر: told + شخص + to.",
       "points": 1,
       "error_no": null
     },
@@ -5867,7 +5878,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "موافقة على نفي في الماضي: Neither did I.",
       "points": 1,
       "error_no": null
     },
@@ -5887,7 +5898,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "موافقة على إثبات بـcan: So can I.",
       "points": 1,
       "error_no": null
     },
@@ -5924,7 +5935,7 @@
           "opens"
         ]
       },
-      "explanation": null,
+      "explanation": "بعد Do you know ترتيب الخبر بلا does: the shop opens.",
       "points": 1,
       "error_no": null
     },
@@ -5944,7 +5955,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "enjoy + -ing.",
       "points": 1,
       "error_no": null
     },
@@ -5964,7 +5975,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "decide + to.",
       "points": 1,
       "error_no": null
     },
@@ -5983,7 +5994,7 @@
           "have been waiting"
         ]
       },
-      "explanation": null,
+      "explanation": "مدّة تصل إلى الآن: have been + -ing.",
       "points": 1,
       "error_no": null
     },
@@ -6003,7 +6014,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "work ينتهي بصوت مهموس /k/، فتُنطق -ed صوت /t/.",
       "points": 1,
       "error_no": null
     },
@@ -6023,7 +6034,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "play ينتهي بصوت مجهور، فتُنطق -ed صوت /d/.",
       "points": 1,
       "error_no": null
     },
@@ -6043,7 +6054,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "want ينتهي بـt، فتُنطق -ed مقطعاً زائداً /ɪd/.",
       "points": 1,
       "error_no": null
     },
@@ -6063,7 +6074,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "decide ينتهي بـd، فتُنطق -ed مقطعاً زائداً /ɪd/.",
       "points": 1,
       "error_no": null
     },
@@ -6123,7 +6134,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "phoTOgrapher: اللاحقة -er تنقل النبر إلى المقطع الثاني، بخلاف PHOtograph.",
       "points": 1,
       "error_no": null
     },
@@ -6143,7 +6154,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "COMfortable: النبر على المقطع الأول.",
       "points": 1,
       "error_no": null
     },
@@ -6164,10 +6175,10 @@
       "exercise_no": 4,
       "type": "multiple_choice",
       "focus_ar": "اختبار القراءة 1 — إعلانات ورسائل قصيرة",
-      "prompt": "الإعلان: LIBRARY NOTICE — All books must be returned by Friday 30 June. Books returned late will be charged 20p a day. — ما الصحيح؟",
+      "prompt": "الإعلان: LIBRARY NOTICE — All books must be returned by 30 June. Books returned late will be charged 20p a day. — ما الصحيح؟",
       "payload": {
         "options": [
-          "The library will be closed on Friday.",
+          "The library will be closed on 30 June.",
           "You can borrow books until the end of July.",
           "You will pay if you bring a book back after 30 June."
         ]
@@ -6175,7 +6186,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "returned late = أُرجع بعد الموعد، وwill be charged = ستدفع مالاً.",
       "points": 1,
       "error_no": null
     },
@@ -6195,7 +6206,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "Can you tell Omar? = تطلب من سام أن ينقل الرسالة إلى عمر.",
       "points": 1,
       "error_no": null
     },
@@ -6215,7 +6226,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "or nearest offer = يقبل عرضاً قريباً من 60 جنيهاً.",
       "points": 1,
       "error_no": null
     },
@@ -6235,7 +6246,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "Please use the lift at the other end = استعمل مصعداً آخر.",
       "points": 1,
       "error_no": null
     },
@@ -6255,7 +6266,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "If I finish early, I'll come for dinner = قد تأتي مساءً.",
       "points": 1,
       "error_no": null
     },
@@ -6295,7 +6306,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "her company was moving its office to Germany.",
       "points": 1,
       "error_no": null
     },
@@ -6323,7 +6334,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null,
+      "explanation": "an old German novel that somebody had left on a seat.",
       "points": 1,
       "error_no": null
     },
@@ -6343,7 +6354,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "She just underlined the words that came back again and again.",
       "points": 1,
       "error_no": null
     },
@@ -6383,7 +6394,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "If I waited until my German was good, I would never open my mouth.",
       "points": 1,
       "error_no": null
     },
@@ -6437,7 +6448,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "And I'm still learning that one too: التعلّم لا ينتهي.",
       "points": 1,
       "error_no": null
     },
@@ -6457,7 +6468,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "move into = ينتقل إلى بيت جديد، وبعد we've التصريف الثالث.",
       "points": 1,
       "error_no": null
     },
@@ -6477,7 +6488,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "مقارنة بين اثنين: closer، لا more close.",
       "points": 1,
       "error_no": null
     },
@@ -6497,7 +6508,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "look forward to + -ing، لأن to هنا حرف جرّ.",
       "points": 1,
       "error_no": null
     },
@@ -6517,7 +6528,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "المضارع بعد if لشيء ممكن، ولا will بعدها.",
       "points": 1,
       "error_no": null
     },
@@ -6537,7 +6548,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "It depends on: يتوقّف على.",
       "points": 1,
       "error_no": null
     },
@@ -6556,7 +6567,7 @@
           "was"
         ]
       },
-      "explanation": null,
+      "explanation": "مجهول في الماضي: was opened.",
       "points": 1,
       "error_no": null
     },
@@ -6576,7 +6587,7 @@
           "that"
         ]
       },
-      "explanation": null,
+      "explanation": "who أو that للأشخاص، وهي الفاعل هنا.",
       "points": 1,
       "error_no": null
     },
@@ -6595,7 +6606,7 @@
           "since"
         ]
       },
-      "explanation": null,
+      "explanation": "since + بداية المدّة: since I was ten.",
       "points": 1,
       "error_no": null
     },
@@ -6614,7 +6625,7 @@
           "would"
         ]
       },
-      "explanation": null,
+      "explanation": "الشرط الثاني: closed بعد if، فـwould في الجواب.",
       "points": 1,
       "error_no": null
     },
@@ -6633,7 +6644,7 @@
           "than"
         ]
       },
-      "explanation": null,
+      "explanation": "«من» بعد المقارنة = than.",
       "points": 1,
       "error_no": null
     },
@@ -6652,7 +6663,7 @@
           "was built"
         ]
       },
-      "explanation": null,
+      "explanation": "مجهول في الماضي، والفاعل بعد by: was built.",
       "points": 1,
       "error_no": null
     },
@@ -6672,7 +6683,7 @@
           "must be switched off"
         ]
       },
-      "explanation": null,
+      "explanation": "المجهول مع must: must be + التصريف الثالث.",
       "points": 1,
       "error_no": null
     },
@@ -6692,7 +6703,7 @@
           "had already left"
         ]
       },
-      "explanation": null,
+      "explanation": "by the time + ماضٍ بسيط، وفي الجملة الأخرى ماضٍ تامّ: had left.",
       "points": 1,
       "error_no": null
     },
@@ -6711,7 +6722,7 @@
           "was sleeping"
         ]
       },
-      "explanation": null,
+      "explanation": "كنت نائماً حين بدأ الزلزال: الماضي المستمر للخلفية.",
       "points": 1,
       "error_no": null
     },
@@ -6731,7 +6742,7 @@
           "lived / could go"
         ]
       },
-      "explanation": null,
+      "explanation": "الشرط الثاني: lived بعد if، وwould أو could في الجواب.",
       "points": 1,
       "error_no": null
     },
@@ -6751,7 +6762,7 @@
           "did not have to"
         ]
       },
-      "explanation": null,
+      "explanation": "wish + ماضي have to: didn't have to.",
       "points": 1,
       "error_no": null
     },
@@ -6770,7 +6781,7 @@
           "have known"
         ]
       },
-      "explanation": null,
+      "explanation": "know فعل حالة لا يأخذ -ing، ومع since المضارع التامّ: have known.",
       "points": 1,
       "error_no": 16
     },
@@ -6788,7 +6799,7 @@
           "If I see him, I will tell him."
         ]
       },
-      "explanation": null,
+      "explanation": "لا will بعد if: If I see him, I will tell him.",
       "points": 1,
       "error_no": 18
     },
@@ -6806,7 +6817,7 @@
           "My car was stolen last night."
         ]
       },
-      "explanation": null,
+      "explanation": "steal · stole · stolen: المجهول بالتصريف الثالث.",
       "points": 1,
       "error_no": null
     },
@@ -6829,7 +6840,7 @@
           "She told us she was tired."
         ]
       },
-      "explanation": null,
+      "explanation": "tell + شخص (told me)، وsay بلا شخص (said that).",
       "points": 1,
       "error_no": 20
     },
@@ -6847,7 +6858,7 @@
           "Could you tell me what time the bank opens?"
         ]
       },
-      "explanation": null,
+      "explanation": "السؤال غير المباشر بترتيب الخبر بلا does: the bank opens.",
       "points": 1,
       "error_no": null
     },
@@ -6867,7 +6878,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "سؤال نعم أو لا يُنقل بـif.",
       "points": 1,
       "error_no": null
     },
@@ -6887,7 +6898,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "موافقة على نفي في المضارع: Neither do I.",
       "points": 1,
       "error_no": null
     },
@@ -6907,7 +6918,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "بعد حرف الجرّ about فعل بـ-ing.",
       "points": 1,
       "error_no": null
     },
@@ -6927,7 +6938,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "I'd rather + فعل مجرّد بلا to.",
       "points": 1,
       "error_no": null
     },
@@ -6946,7 +6957,7 @@
           "responsibility"
         ]
       },
-      "explanation": null,
+      "explanation": "responsibility: مسؤولية.",
       "points": 1,
       "error_no": null
     },
@@ -6965,7 +6976,7 @@
           "decision"
         ]
       },
-      "explanation": null,
+      "explanation": "decision: قرار، ونقول make a decision.",
       "points": 1,
       "error_no": null
     },
@@ -6984,7 +6995,7 @@
           "get over"
         ]
       },
-      "explanation": null,
+      "explanation": "get over: يتعافى من مرض أو حزن.",
       "points": 1,
       "error_no": null
     },
@@ -7003,7 +7014,7 @@
           "factory"
         ]
       },
-      "explanation": null,
+      "explanation": "factory: مصنع.",
       "points": 1,
       "error_no": null
     },
@@ -7022,7 +7033,7 @@
           "called"
         ]
       },
-      "explanation": null,
+      "explanation": "call off = يُلغي، وفي المجهول was called off.",
       "points": 1,
       "error_no": null
     },
@@ -7041,7 +7052,7 @@
           "put"
         ]
       },
-      "explanation": null,
+      "explanation": "put off = يؤجّل، والمفعول بين الفعل والحرف: put the meeting off.",
       "points": 1,
       "error_no": null
     },
@@ -7060,7 +7071,7 @@
           "grew"
         ]
       },
-      "explanation": null,
+      "explanation": "grow up = ينشأ، وماضيه grew up.",
       "points": 1,
       "error_no": null
     },
@@ -7080,7 +7091,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "disappointed: خائب الأمل حين لا يحدث ما تمنّيته.",
       "points": 1,
       "error_no": null
     },
@@ -7100,7 +7111,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "lend = يُقرض (تعطي)، وborrow = يقترض (تأخذ).",
       "points": 1,
       "error_no": null
     },
@@ -7120,7 +7131,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "advice اسم لا يُعدّ، وadvise فعل.",
       "points": 1,
       "error_no": null
     },
@@ -7144,7 +7155,7 @@
           "11.00"
         ]
       },
-      "explanation": null,
+      "explanation": "The next train to Liverpool will leave at eleven o'clock.",
       "points": 1,
       "error_no": null
     },
@@ -7164,7 +7175,7 @@
           "four"
         ]
       },
-      "explanation": null,
+      "explanation": "from platform four.",
       "points": 1,
       "error_no": null
     },
@@ -7183,7 +7194,7 @@
           "Thursday"
         ]
       },
-      "explanation": null,
+      "explanation": "Could you come on Thursday at twenty to five instead?",
       "points": 1,
       "error_no": null
     },
@@ -7202,7 +7213,7 @@
           "passport"
         ]
       },
-      "explanation": null,
+      "explanation": "please remember to bring your passport",
       "points": 1,
       "error_no": null
     },
@@ -7222,7 +7233,7 @@
           "eighteen"
         ]
       },
-      "explanation": null,
+      "explanation": "It was built in eighteen months.",
       "points": 1,
       "error_no": null
     },
@@ -7242,7 +7253,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "تكلّم مع إنسان مبكراً، وتعلّم اللغة لا ينتهي.",
       "points": 1,
       "error_no": null
     },
@@ -7262,7 +7273,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "I started learning English at thirty-four.",
       "points": 1,
       "error_no": null
     },
@@ -7282,7 +7293,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "I have now been teaching it for eleven years.",
       "points": 1,
       "error_no": null
     },
@@ -7302,7 +7313,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "I had told about twenty people that I was learning.",
       "points": 1,
       "error_no": null
     },
@@ -7316,7 +7327,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null,
+      "explanation": "I nearly stopped four times.",
       "points": 1,
       "error_no": null
     },
@@ -7344,7 +7355,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null,
+      "explanation": "I understood almost nothing for the first ten minutes.",
       "points": 1,
       "error_no": null
     },
@@ -7364,7 +7375,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "we were talking about her cat.",
       "points": 1,
       "error_no": null
     },
@@ -7384,7 +7395,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "I would speak to a person in month one, not month eight.",
       "points": 1,
       "error_no": null
     },
@@ -7418,7 +7429,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "repair café: مكان يصلح فيه المتطوّعون أشياء الناس مجّاناً.",
       "points": 1,
       "error_no": null
     },
@@ -7438,7 +7449,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "they're repaired for free by volunteers.",
       "points": 1,
       "error_no": null
     },
@@ -7458,7 +7469,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "the assistant told me… that I should buy a new one. I was really annoyed.",
       "points": 1,
       "error_no": null
     },
@@ -7478,7 +7489,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "my neighbour, who used to be an electrician",
       "points": 1,
       "error_no": null
     },
@@ -7512,7 +7523,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "we have twelve volunteers",
       "points": 1,
       "error_no": null
     },
@@ -7526,7 +7537,7 @@
       "answer": {
         "correct": false
       },
-      "explanation": null,
+      "explanation": "No, it's free.",
       "points": 1,
       "error_no": null
     },
@@ -7546,7 +7557,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "That pays for the tools and the tea.",
       "points": 1,
       "error_no": null
     },
@@ -7566,7 +7577,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "If we had a bigger room, we would open twice a month.",
       "points": 1,
       "error_no": null
     },
@@ -7599,7 +7610,7 @@
           "was built"
         ]
       },
-      "explanation": null,
+      "explanation": "المجهول في الماضي: was + التصريف الثالث.",
       "points": 1,
       "error_no": null
     },
@@ -7619,7 +7630,7 @@
           "had / would"
         ]
       },
-      "explanation": null,
+      "explanation": "الشرط الثاني: had بعد if، وcould أو would في الجواب.",
       "points": 1,
       "error_no": null
     },
@@ -7638,7 +7649,7 @@
           "was"
         ]
       },
-      "explanation": null,
+      "explanation": "في النقل يتراجع الزمن: am ← was.",
       "points": 1,
       "error_no": null
     },
@@ -7657,7 +7668,7 @@
           "could"
         ]
       },
-      "explanation": null,
+      "explanation": "لقدرة غير موجودة: wish + could.",
       "points": 1,
       "error_no": null
     },
@@ -7676,7 +7687,7 @@
           "had"
         ]
       },
-      "explanation": null,
+      "explanation": "أكلنا قبل وصول الضيوف: الماضي التامّ had eaten.",
       "points": 1,
       "error_no": null
     },
@@ -7708,7 +7719,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "If I were you, I'd + فعل مجرّد: نصيحة مهذّبة.",
       "points": 1,
       "error_no": null
     },
@@ -7728,7 +7739,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "asked me to tell you that…: لنقل رسالة.",
       "points": 1,
       "error_no": null
     },
@@ -7748,7 +7759,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "To make things worse = وزاد الأمر سوءاً.",
       "points": 1,
       "error_no": null
     },
@@ -7768,7 +7779,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "You're joking! تفاعل مع خبر مدهش، ثم سؤال.",
       "points": 1,
       "error_no": null
     },
@@ -7788,7 +7799,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "Why don't we…? اقتراح. ولا to بعد Let's.",
       "points": 1,
       "error_no": null
     },
@@ -7808,7 +7819,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "رفض مهذّب: I'd love to, but… مع السبب.",
       "points": 1,
       "error_no": null
     },
@@ -7828,7 +7839,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "سؤال خيالي: would في السؤال، والماضي بعد if.",
       "points": 1,
       "error_no": null
     },
@@ -7848,7 +7859,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "موافقة على نفي في المضارع التامّ: Neither have I.",
       "points": 1,
       "error_no": null
     },
@@ -7868,7 +7879,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "طريقة الصنع بالمجهول: are + التصريف الثالث picked.",
       "points": 1,
       "error_no": null
     },
@@ -7888,7 +7899,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "So you mean…? للتأكّد من أنك فهمت.",
       "points": 1,
       "error_no": null
     },
@@ -7908,7 +7919,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "منذ الاثنين وما زال: I've had. وhave بمعنى «عندي» لا تأتي مع -ing.",
       "points": 1,
       "error_no": 16
     },
@@ -7928,7 +7939,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "I'd like to… طلب مهذّب بجملة كاملة.",
       "points": 1,
       "error_no": null
     },
@@ -7948,7 +7959,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "جواب مناسب: مهنتك، ثم خبرتك بـhave been working.",
       "points": 1,
       "error_no": null
     },
@@ -7968,7 +7979,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "Could I leave a message? حين لا يكون الشخص موجوداً.",
       "points": 1,
       "error_no": 20
     },
@@ -7988,7 +7999,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "I'm afraid there's a problem: شكوى مهذّبة.",
       "points": 1,
       "error_no": null
     },
@@ -8008,7 +8019,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "السؤال المهذّب بترتيب الخبر: where the station is.",
       "points": 1,
       "error_no": null
     },
@@ -8028,7 +8039,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "جملة كاملة بالماضي، ثم سؤال: Who should I speak to?",
       "points": 1,
       "error_no": null
     },
@@ -8048,7 +8059,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null,
+      "explanation": "Sorry, I didn't catch…: طلب إعادة مهذّب.",
       "points": 1,
       "error_no": null
     },
@@ -8068,7 +8079,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null,
+      "explanation": "It's the thing you use to…: تصف الشيء حين لا تعرف اسمه.",
       "points": 1,
       "error_no": null
     },
@@ -8088,7 +8099,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null,
+      "explanation": "look forward to + -ing.",
       "points": 1,
       "error_no": null
     },
@@ -8109,17 +8120,17 @@
       "exercise_no": 2,
       "type": "fill_blank",
       "focus_ar": "الأسبوع 19: لغة الأخبار",
-      "prompt": "Breaking news: a new hospital ______ (has / open) in the city centre.",
+      "prompt": "Breaking news: a new hospital ______ (has / open) by the Minister of Health.",
       "payload": {
         "before": "Breaking news: a new hospital ",
-        "after": " (has / open) in the city centre."
+        "after": " (has / open) by the Minister of Health."
       },
       "answer": {
         "accepted": [
           "has been opened"
         ]
       },
-      "explanation": "خبر حديث نتيجته الآن: has been + التصريف الثالث.",
+      "explanation": "خبر حديث نتيجته الآن، والفاعل بعد by: has been + التصريف الثالث.",
       "points": 1,
       "error_no": null
     },

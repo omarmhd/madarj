@@ -6,7 +6,7 @@ import { useMySpeech } from '@/hooks/useSpeech';
 import { checkSpelling, type SpellResult } from '@/lib/spelling';
 import { useT } from '@/lib/i18n';
 import { reportMiss } from '@/lib/wordMisses';
-import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS } from '@/lib/autoAdvance';
+import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS, MissNext } from '@/lib/autoAdvance';
 
 /**
  * بطاقات المفردات.
@@ -123,8 +123,7 @@ export default function Flashcards({ words, groupLabel, onFinish, onProgress}: P
   const touched = useRef(false);
 
   // A typed answer moves on by itself: right in 3s, wrong in 5s (read the letters)
-  useAutoAdvance(revealed && !!result, result?.verdict === 'right' ? AUTO_RIGHT_MS : AUTO_REVEAL_MS,
-    () => result && rate(result.verdict === 'right'));
+  useAutoAdvance(revealed && result?.verdict === 'right', AUTO_RIGHT_MS, () => rate(true));
   useEffect(() => {
     if (!touched.current) return;
     if (revealed) nextBtn.current?.focus();
@@ -280,11 +279,13 @@ export default function Flashcards({ words, groupLabel, onFinish, onProgress}: P
         </div>
       )}
 
-      {revealed && result && (
+      {revealed && result && result.verdict === 'right' && (
         <div key={index}>
-          <Countdown ms={result.verdict === 'right' ? AUTO_RIGHT_MS : AUTO_REVEAL_MS}
-            tone={result.verdict === 'right' ? 'emerald' : 'rose'} />
+          <Countdown ms={AUTO_RIGHT_MS} tone="emerald" />
         </div>
+      )}
+      {revealed && result && result.verdict !== 'right' && (
+        <MissNext label={tr('التالي')} onClick={() => rate(false)} />
       )}
 
       {/* التقييم الذاتي — لمن كشف بلا كتابة */}

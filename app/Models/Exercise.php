@@ -86,6 +86,28 @@ class Exercise extends Model
             $s = trim(mb_strtolower($s));
             $s = str_replace(['’', '‘', '`'], "'", $s);   // توحيد الفاصلة العليا
             $s = preg_replace('/\s*\/\s*/u', ' / ', $s);  // blanks joined as "a / b"
+            // Punctuation inside the answer is not what an item tests: a
+            // learner who leaves out an optional comma, or types - for a
+            // dash, knows the English
+            $s = preg_replace('/\s*[-\x{2013}\x{2014}]\s*/u', ' - ', $s);
+            $s = str_replace(',', ' ', $s);
+            // A phone keyboard often drops the apostrophe: dont, isnt, im
+            $s = preg_replace(
+                '/\b(do|does|did|is|are|was|were|has|have|had|ca|wo|could|should|would|must)nt\b/u',
+                "$1n't",
+                $s
+            );
+            $s = preg_replace(
+                ['/\bim\b/u', '/\bive\b/u', '/\byoure\b/u', '/\btheyre\b/u', '/\bthats\b/u', '/\bwhats\b/u',
+                 '/\btheres\b/u', '/\bheres\b/u', '/\bwheres\b/u', '/\blets\b/u', '/\bweve\b/u', '/\btheyve\b/u', '/\byouve\b/u'],
+                ["i'm", "i've", "you're", "they're", "that's", "what's",
+                 "there's", "here's", "where's", "let's", "we've", "they've", "you've"],
+                $s
+            );
+            // café = cafe: an accent the keyboard has no key for is not English
+            if (class_exists(\Normalizer::class)) {
+                $s = preg_replace('/\p{Mn}+/u', '', \Normalizer::normalize($s, \Normalizer::FORM_D));
+            }
             $s = preg_replace('/\s+/u', ' ', $s);          // مسافة واحدة
             $s = rtrim($s, ".!?؟");                        // تجاهل الترقيم الأخير
 
@@ -116,6 +138,14 @@ class Exercise extends Model
      */
     protected static function contractionForms(string $s): array
     {
+        // In a question the subject comes before "not": "Why don't we…?" is
+        // "Why do we not…?", never "Why do not we…?"
+        $pron = '(i|you|we|they|he|she|it)';
+        $s = preg_replace(
+            ["/\bwon't $pron\b/u", "/\bcan't $pron\b/u", "/\b(\w+)n't $pron\b/u"],
+            ['will $1 not', 'can $1 not', '$1 $2 not'],
+            $s
+        );
         $s = preg_replace(
             ["/\bwon't\b/u", "/\bshan't\b/u", "/\bcan't\b/u", "/\bcan not\b/u", "/\bain't\b/u"],
             ['will not', 'shall not', 'cannot', 'cannot', 'is not'],
@@ -133,7 +163,8 @@ class Exercise extends Model
             foreach ($forms as $f) {
                 $next[] = $f;   // a possessive 's stays as written
                 foreach ($long as $l) {
-                    $next[] = preg_replace('/(?<=\w)'.preg_quote($short, '/').'\b/u', ' '.$l, $f);
+                    // After a word, or at the start of a blank ("'s sleeping")
+                    $next[] = preg_replace('/(?<![^\w\s])'.preg_quote($short, '/').'\b/u', ' '.$l, $f);
                 }
             }
             $forms = $next;

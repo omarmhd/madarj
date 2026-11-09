@@ -92,7 +92,7 @@
       {
         "en": "Near my home there is ____________ . It is ____________ my building.",
         "ar": "قرب بيتي يوجد ___. إنّه ___ مبناي.",
-        "note_ar": "opposite بلا to، أمّا in front of فلا تُحذف منها of"
+        "note_ar": "opposite بلا of، أمّا in front of فلا تُحذف منها of"
       },
       {
         "en": "At the end of the street there is ____________ .",
@@ -812,7 +812,7 @@
     {
       "group": "the_home",
       "word": "lift / elevator",
-      "ipa": "/lɪft/",
+      "ipa": "/lɪft/  /ˈelɪveɪtə(r)/",
       "arabic": "مصعد",
       "example": "The lift doesn't work today.",
       "group_label_ar": "البيت",
@@ -1054,7 +1054,7 @@
       "target": "shelf",
       "sentence": "There is a book on the shelf.",
       "sentence_ar": "يوجد كتاب على الرف.",
-      "usage_ar": "جمعها shelves: تتحول f إلى ves. والجمع shelves."
+      "usage_ar": "جمعها shelves: تتحوّل f إلى ves."
     },
     {
       "group": "the_home",
@@ -1080,7 +1080,7 @@
       "target": "quiet",
       "sentence": "My street is very quiet.",
       "sentence_ar": "شارعي هادئ جداً.",
-      "usage_ar": "انتبه: quiet هادئ، وquite «تماماً»."
+      "usage_ar": "انتبه: quiet هادئ، وquite «إلى حدٍّ ما»."
     },
     {
       "group": "the_home",
@@ -2452,12 +2452,12 @@
       "word": "go upstairs",
       "ipa": "/ɡəʊ ˌʌpˈsteəz/",
       "arabic": "يصعد إلى الطابق العلوي",
-      "example": "My bedroom is on the first floor, so I go upstairs at night.",
+      "example": "My bedroom is on the top floor, so I go upstairs at night.",
       "group_label_ar": "أفعال البيت والمدينة",
       "group_label_en": "Home and Town Verbs",
       "target": "go upstairs",
-      "sentence": "My bedroom is on the first floor, so I go upstairs at night.",
-      "sentence_ar": "غرفة نومي في الطابق الأول، فأصعد إليها ليلاً.",
+      "sentence": "My bedroom is on the top floor, so I go upstairs at night.",
+      "sentence_ar": "غرفة نومي في الطابق العلويّ، فأصعد إليها ليلاً.",
       "usage_ar": "بلا to: go upstairs لا go to upstairs."
     },
     {
@@ -2549,7 +2549,7 @@
       "target": "clean the kitchen",
       "sentence": "We clean the kitchen on Fridays.",
       "sentence_ar": "ننظّف المطبخ أيام الجمعة.",
-      "usage_ar": "clean فعل واسم صفة: a clean room."
+      "usage_ar": "clean فعل وصفة: a clean room = غرفة نظيفة."
     },
     {
       "group": "home_and_town_verbs",
@@ -2608,12 +2608,12 @@
       "word": "walk to the station",
       "ipa": "/wɔːk tə ðə ˈsteɪʃn/",
       "arabic": "يمشي إلى المحطة",
-      "example": "The station is near, so I walk to the station.",
+      "example": "The station is near my house, so I walk to the station.",
       "group_label_ar": "أفعال البيت والمدينة",
       "group_label_en": "Home and Town Verbs",
       "target": "walk to the station",
-      "sentence": "The station is near, so I walk to the station.",
-      "sentence_ar": "المحطة قريبة، فأمشي إليها.",
+      "sentence": "The station is near my house, so I walk to the station.",
+      "sentence_ar": "المحطة قريبة من بيتي، فأمشي إليها.",
       "usage_ar": "walk to + مكان. وwalk home بلا to."
     },
     {
@@ -2717,7 +2717,7 @@
         {
           "speaker": "LINA",
           "en": "There's a lot of light in here.",
-          "ar": "يوجد الكثير من الإضاءة هنا."
+          "ar": "الضوء هنا كثير."
         },
         {
           "speaker": "SAMI",
@@ -2727,7 +2727,7 @@
         {
           "speaker": "LINA",
           "en": "Is there a view?",
-          "ar": "هل يوجد إطلالة؟"
+          "ar": "هل توجد إطلالة؟"
         },
         {
           "speaker": "SAMI",
@@ -2742,17 +2742,17 @@
         {
           "speaker": "SAMI",
           "en": "Two. This one is ours, and the children share the other one.",
-          "ar": "اثنتان. هذه لنا، والأطفال يتشاركان الأخرى."
+          "ar": "اثنتان. هذه لنا، ويتشارك الأطفال الأخرى."
         },
         {
           "speaker": "LINA",
           "en": "And is there a garden?",
-          "ar": "وهل يوجد حديقة؟"
+          "ar": "وهل توجد حديقة؟"
         },
         {
           "speaker": "SAMI",
           "en": "No, there isn't. But there's a big park opposite the building.",
-          "ar": "لا، لا يوجد. لكن هناك حديقة كبيرة مقابل المبنى."
+          "ar": "لا، لا توجد. لكن هناك حديقة كبيرة مقابل المبنى."
         },
         {
           "speaker": "LINA",
@@ -2829,7 +2829,7 @@
         {
           "speaker": "WOMAN",
           "en": "Take the second right. Go past the pharmacy.",
-          "ar": "خذ ثاني يمين. تجاوز الصيدلية."
+          "ar": "خذ الشارع الثاني على اليمين. تجاوز الصيدلية."
         },
         {
           "speaker": "SAMI",
@@ -2873,14 +2873,14 @@
             "error_no": 7,
             "wrong": "Have a park near my house",
             "right": "There is a park near my house.",
-            "arabic": "يوجد حديقة قرب بيتي",
+            "arabic": "توجد حديقة قرب بيتي",
             "why_ar": "الإنجليزية لا تستخدم have للوجود"
           },
           {
             "error_no": null,
             "wrong": "There is four rooms",
             "right": "There are four rooms.",
-            "arabic": "يوجد أربع غرف",
+            "arabic": "توجد أربع غرف",
             "why_ar": "الجمع يأخذ are"
           },
           {
@@ -2906,10 +2906,10 @@
           },
           {
             "error_no": null,
-            "wrong": "opposite to the hotel",
+            "wrong": "opposite of the hotel",
             "right": "…opposite the hotel.",
             "arabic": "المطعم مقابل الفندق",
-            "why_ar": "opposite بلا to"
+            "why_ar": "opposite بلا of"
           },
           {
             "error_no": 7,
@@ -2986,28 +2986,28 @@
             0
           ]
         },
-        "arabic_contrast_ar": "العربية تقول «في» أو «يوجد» أو «عندنا»: «في حديقة قرب بيتي» · «عندنا مصعد». فيترجم المتحدّث بالعربية «عندنا» إلى have فيقول Have a park. والقاعدة: الوجود في مكان = There is / There are، والملكية لشخص = have (I have a car).",
+        "arabic_contrast_ar": "العربية تقول «يوجد» أو «عندنا»: «توجد حديقة قرب بيتي» · «عندنا مصعد». فيترجم المتحدّث بالعربية «عندنا» إلى have فيقول Have a park. والقاعدة: الوجود في مكان = There is / There are، والملكية لشخص = have (I have a car).",
         "contrast_table": [
           {
-            "ar": "في حديقة قرب بيتي",
+            "ar": "توجد حديقة قرب بيتي",
             "literal": "Have a park near my house",
             "right": "There is a park near my house.",
             "rule_ar": "الوجود بـ There is لا have"
           },
           {
-            "ar": "فيه أربع غرف",
+            "ar": "في الشقّة أربع غرف",
             "literal": "There is four rooms",
             "right": "There are four rooms.",
             "rule_ar": "الجمع يأخذ There are"
           },
           {
-            "ar": "ما في مصعد",
+            "ar": "لا مصعد",
             "literal": "No lift",
             "right": "There isn't a lift.",
             "rule_ar": "النفي isn't + a مع المفرد"
           },
           {
-            "ar": "في بنك هنا؟",
+            "ar": "هل يوجد بنك هنا؟",
             "literal": "Have bank here?",
             "right": "Is there a bank here?",
             "rule_ar": "السؤال بقلب there is"
@@ -3115,7 +3115,7 @@
           {
             "title_ar": "حروف المكان مع العربية",
             "title_en": "Prepositions of place",
-            "explain_ar": "أغلبها يقابل العربية مباشرة. وثلاثة تُخطئ فيها الترجمة: in front of ثلاث كلمات (أمام)، و opposite بلا to (مقابل)، و next to بـ to دائماً (بجانب).",
+            "explain_ar": "أغلبها يقابل العربية مباشرة. وثلاثة تُخطئ فيها الترجمة: in front of ثلاث كلمات (أمام)، و opposite بلا of (مقابل)، و next to بـ to دائماً (بجانب).",
             "table": {
               "columns_ar": [
                 "بالعربية",
@@ -3181,9 +3181,9 @@
             },
             "errors": [
               {
-                "wrong": "opposite to the hotel",
+                "wrong": "opposite of the hotel",
                 "right": "opposite the hotel",
-                "why_ar": "opposite بلا to"
+                "why_ar": "opposite بلا of"
               },
               {
                 "wrong": "front the school",
@@ -3240,7 +3240,7 @@
               },
               {
                 "en": "Take the second right.",
-                "ar": "خذ ثاني شارع على اليمين."
+                "ar": "خذ الشارع الثاني على اليمين."
               },
               {
                 "en": "Don't turn left — turn right.",
@@ -3288,7 +3288,7 @@
                   "أشياء جديدة",
                   "There are…",
                   "There are two parks near here.",
-                  "توجد حديقتان قرب هنا"
+                  "توجد حديقتان بالقرب من هنا"
                 ],
                 [
                   "الأشياء نفسها",
@@ -3440,7 +3440,7 @@
           },
           {
             "en": "At the end of my street there is a small park, and my son goes there every afternoon. Next to the park there is a library. I go there on Saturdays because it is the only quiet place in the neighbourhood.",
-            "ar": "في آخر شارعي حديقة صغيرة، وابني يذهب إليها كل بعد ظهر. وبجانب الحديقة مكتبة. أذهب إليها أيام السبت لأنها المكان الهادئ الوحيد في الحيّ."
+            "ar": "في آخر شارعي حديقة صغيرة، وابني يذهب إليها كل يوم بعد الظهر. وبجانب الحديقة مكتبة. أذهب إليها أيام السبت لأنها المكان الهادئ الوحيد في الحيّ."
           },
           {
             "en": "There aren't any restaurants near here, and that is the only problem. But there is a very good café around the corner.",
@@ -3521,7 +3521,7 @@
           },
           {
             "en": "Are you free next week? Come and see my new home!",
-            "ar": "هل أنتِ غير مشغولة الأسبوع القادم؟ تعالي وانظري بيتي الجديد!"
+            "ar": "هل أنتِ غير مشغولة الأسبوع القادم؟ تعالي لتري بيتي الجديد!"
           },
           {
             "en": "Love, Huda",
@@ -3550,7 +3550,7 @@
           {
             "en": "take the stairs",
             "ipa": "/teɪk ðə steəz/",
-            "ar": "يصعد بالدرج",
+            "ar": "يستعمل الدرج (لا المصعد)",
             "note_ar": "وعكسها take the lift"
           },
           {
@@ -4708,7 +4708,8 @@
         "accepted": [
           "There isn't a garden.",
           "There is not a garden.",
-          "There's not a garden."
+          "There's not a garden.",
+          "There is no garden."
         ]
       },
       "explanation": "النفي مع المفرد: There isn't + a."
@@ -4726,7 +4727,8 @@
       "answer": {
         "accepted": [
           "There aren't any shops near here.",
-          "There are not any shops near here."
+          "There are not any shops near here.",
+          "There are no shops near here."
         ]
       },
       "explanation": "النفي مع الجمع: There aren't — و some تصير any."
@@ -4745,7 +4747,8 @@
         "accepted": [
           "There isn't a lift in the building.",
           "There is not a lift in the building.",
-          "There's not a lift in the building."
+          "There's not a lift in the building.",
+          "There is no lift in the building."
         ]
       },
       "explanation": "النفي مع المفرد: There isn't + a."
@@ -4782,7 +4785,8 @@
         "accepted": [
           "There isn't any water in the bottle.",
           "There is not any water in the bottle.",
-          "There's not any water in the bottle."
+          "There's not any water in the bottle.",
+          "There is no water in the bottle."
         ]
       },
       "explanation": "غير المعدود (water) نفيه There isn't — و some تصير any."
@@ -4800,7 +4804,8 @@
       "answer": {
         "accepted": [
           "There aren't any children in the park.",
-          "There are not any children in the park."
+          "There are not any children in the park.",
+          "There are no children in the park."
         ]
       },
       "explanation": "النفي مع الجمع: There aren't — و some تصير any."
@@ -4819,7 +4824,8 @@
         "accepted": [
           "There isn't a bank on the corner.",
           "There is not a bank on the corner.",
-          "There's not a bank on the corner."
+          "There's not a bank on the corner.",
+          "There is no bank on the corner."
         ]
       },
       "explanation": "النفي مع المفرد: There isn't + a."
@@ -4837,7 +4843,8 @@
       "answer": {
         "accepted": [
           "There aren't any books on the shelf.",
-          "There are not any books on the shelf."
+          "There are not any books on the shelf.",
+          "There are no books on the shelf."
         ]
       },
       "explanation": "النفي مع الجمع: There aren't — و some تصير any."
@@ -4871,7 +4878,8 @@
       },
       "answer": {
         "accepted": [
-          "Are there any restaurants in this street?"
+          "Are there any restaurants in this street?",
+          "Are there any restaurants on this street?"
         ]
       },
       "explanation": "السؤال بقلب there are — و some تصير any في السؤال."
@@ -5003,10 +5011,10 @@
       "focus_ar": "اختيار ظرف المكان",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "The bag is ______ the bed. (لا تراها)",
+      "prompt": "The bag is ______ the bed. (تحت — لا تراها)",
       "payload": {
         "before": "The bag is ",
-        "after": " the bed. (لا تراها)"
+        "after": " the bed. (تحت — لا تراها)"
       },
       "answer": {
         "accepted": [
@@ -5049,7 +5057,7 @@
           "opposite"
         ]
       },
-      "explanation": "عبر الشارع ووجهاً لوجه: opposite — بلا to."
+      "explanation": "عبر الشارع ووجهاً لوجه: opposite — والاسم بعدها مباشرة، بلا of."
     },
     {
       "day_number": 4,
@@ -5100,7 +5108,8 @@
       },
       "answer": {
         "accepted": [
-          "above"
+          "above",
+          "over"
         ]
       },
       "explanation": "على الجدار فوق الحوض بلا لمس: above."
@@ -5118,7 +5127,8 @@
       },
       "answer": {
         "accepted": [
-          "around the corner"
+          "around the corner",
+          "round the corner"
         ]
       },
       "explanation": "ثلاثون ثانية = بعد المنعطف مباشرة: around the corner."
@@ -5137,7 +5147,8 @@
       "answer": {
         "accepted": [
           "near",
-          "close to"
+          "close to",
+          "near to"
         ]
       },
       "explanation": "دقيقتان فقط = قريب: near."
@@ -5166,10 +5177,10 @@
       "focus_ar": "اختيار ظرف المكان",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "There is a car ______ the garage door.",
+      "prompt": "There is a car ______ the garage door. (أمام)",
       "payload": {
         "before": "There is a car ",
-        "after": " the garage door."
+        "after": " the garage door. (أمام)"
       },
       "answer": {
         "accepted": [
@@ -5193,7 +5204,9 @@
         "accepted": [
           "next to",
           "beside",
-          "near"
+          "near",
+          "by",
+          "with"
         ]
       },
       "explanation": "بجانبي: next to me — أو beside me."
@@ -5332,7 +5345,9 @@
           "There is not a lift in this building.",
           "There's not a lift in this building.",
           "There is not a lift.",
-          "There's not a lift."
+          "There's not a lift.",
+          "There is no lift in this building.",
+          "There's no lift in this building."
         ]
       },
       "explanation": "المفرد المعدود يحتاج a بعد There isn't."
@@ -5381,14 +5396,14 @@
       "type": "correct_error",
       "prompt": "صحّح الخطأ في هذه الجملة.",
       "payload": {
-        "sentence": "The hotel is opposite to the station."
+        "sentence": "The hotel is opposite of the station."
       },
       "answer": {
         "accepted": [
           "The hotel is opposite the station."
         ]
       },
-      "explanation": "opposite بلا to."
+      "explanation": "opposite يأتي بعده الاسم مباشرة، بلا of: opposite the station."
     },
     {
       "day_number": 4,
@@ -5422,7 +5437,8 @@
       "answer": {
         "accepted": [
           "There aren't any shops near here.",
-          "There are not any shops near here."
+          "There are not any shops near here.",
+          "There are no shops near here."
         ]
       },
       "explanation": "النفي يأخذ any لا some: There aren't any."
@@ -6043,7 +6059,8 @@
       },
       "answer": {
         "accepted": [
-          "any"
+          "any",
+          "much"
         ]
       },
       "explanation": "غير المعدود في النفي يأخذ any.",
@@ -6061,13 +6078,13 @@
           "The bank is next the hotel.",
           "The bank is next to the hotel.",
           "The bank is next of the hotel.",
-          "The bank is opposite to the hotel."
+          "The bank is opposite of the hotel."
         ]
       },
       "answer": {
         "correct": 1
       },
-      "explanation": "next to بـ to دائماً، و opposite بلا to.",
+      "explanation": "next to بـ to دائماً، و opposite بلا of.",
       "focus_ar": "حروف المكان",
       "error_no": null,
       "points": 1
@@ -6433,7 +6450,8 @@
       },
       "answer": {
         "accepted": [
-          "living"
+          "living",
+          "sitting"
         ]
       },
       "explanation": "غرفة المعيشة: living room — والنبر على LIV.",
@@ -6472,7 +6490,8 @@
       "answer": {
         "accepted": [
           "bed",
-          "bedroom"
+          "bedroom",
+          "room"
         ]
       },
       "explanation": "أنام في سريري (bed) أو في غرفة نومي (bedroom).",
@@ -6530,7 +6549,8 @@
       "answer": {
         "accepted": [
           "pharmacy",
-          "chemist's"
+          "chemist's",
+          "chemist"
         ]
       },
       "explanation": "الدواء من الصيدلية: pharmacy (وفي بريطانيا chemist's أيضاً).",
@@ -6701,7 +6721,7 @@
       "exercise_no": 2,
       "type": "multiple_choice",
       "focus_ar": "أفعال البيت والمدينة",
-      "prompt": "My bedroom is on the first floor, so at night I go ______.",
+      "prompt": "My bedroom is on the top floor, so at night I go ______.",
       "payload": {
         "options": [
           "upstairs",
@@ -6713,7 +6733,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": "الطابق الأول فوق الأرضيّ، فتصعد: go upstairs — بلا to.",
+      "explanation": "غرفة النوم في الطابق العلويّ، فتصعد: go upstairs — بلا to.",
       "error_no": null,
       "points": 1
     },
@@ -6955,7 +6975,7 @@
       "payload": {
         "options": [
           "Make yourself at home.",
-          "My home is your home.",
+          "Make you at home.",
           "Do your home.",
           "Make your house."
         ]

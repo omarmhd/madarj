@@ -73,7 +73,7 @@
     "templates": [
       {
         "en": "Last ____________ I had a conversation with ____________ .",
-        "ar": "الماضي ____ جرت بيني وبين ____ محادثة.",
+        "ar": "في ____ الماضي جرت بيني وبين ____ محادثة.",
         "note_ar": "الفقرة الأولى: متى ومع من. Last Tuesday · Last week."
       },
       {
@@ -612,18 +612,12 @@
         },
         {
           "order": 9,
-          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record:baseline"
-        },
-        {
-          "order": 10,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
         },
         {
-          "order": 11,
+          "order": 10,
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework"
@@ -741,7 +735,7 @@
       "word": "fill in / fill up",
       "ipa": null,
       "arabic": "يملأ",
-      "example": "Fill in this form.",
+      "example": "Fill up the car before the trip.",
       "group_label_ar": "الأفعال المركّبة بـUP",
       "group_label_en": "UP",
       "target": "fill up",
@@ -1130,7 +1124,7 @@
       "group": "on_in_down_back_over_into",
       "word": "give in",
       "ipa": null,
-      "arabic": "يستسلم",
+      "arabic": "يرضخ / يتراجع ويقبل",
       "example": "In the end, his parents gave in.",
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
       "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
@@ -1299,7 +1293,7 @@
       "group": "on_in_down_back_over_into",
       "word": "look back",
       "ipa": null,
-      "arabic": "ينظر للوراء",
+      "arabic": "يستعيد الماضي / ينظر إلى الوراء",
       "example": "Looking back, I was lucky.",
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
       "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
@@ -1312,7 +1306,7 @@
       "group": "on_in_down_back_over_into",
       "word": "get over",
       "ipa": null,
-      "arabic": "يتجاوز",
+      "arabic": "يتعافى من / يتجاوز",
       "example": "She got over the flu quickly.",
       "group_label_ar": "الأفعال المركّبة بـON و IN و DOWN وغيرها",
       "group_label_en": "ON, IN, DOWN, BACK, OVER, INTO",
@@ -1494,7 +1488,7 @@
       "group": "passing_on_messages",
       "word": "Can I take a message?",
       "ipa": null,
-      "arabic": "هل أدوّن له رسالة؟",
+      "arabic": "هل أدوّن رسالة؟",
       "example": "I'm afraid she's out. Can I take a message?",
       "group_label_ar": "نقل الرسائل",
       "group_label_en": "Passing On Messages",
@@ -1585,7 +1579,7 @@
       "group": "passing_on_messages",
       "word": "He said to call him back.",
       "ipa": null,
-      "arabic": "قال أن تعاود الاتصال به",
+      "arabic": "طلب أن تعاود الاتصال به",
       "example": "He said to call him back after lunch.",
       "group_label_ar": "نقل الرسائل",
       "group_label_en": "Passing On Messages",
@@ -1754,7 +1748,7 @@
       "group": "say_tell_ask_collocations",
       "word": "tell the difference",
       "ipa": null,
-      "arabic": "يميّز الفرق",
+      "arabic": "يفرّق بين شيئين",
       "example": "I can't tell the difference between the twins.",
       "group_label_ar": "say و tell و ask مع كلماتها",
       "group_label_en": "say, tell, ask: Collocations",
@@ -1871,7 +1865,7 @@
       "group": "say_tell_ask_collocations",
       "word": "make a promise",
       "ipa": null,
-      "arabic": "يعد وعداً",
+      "arabic": "يقطع وعداً",
       "example": "He made a promise to his son.",
       "group_label_ar": "say و tell و ask مع كلماتها",
       "group_label_en": "say, tell, ask: Collocations",
@@ -2048,7 +2042,7 @@
         {
           "speaker": "KHALED",
           "en": "Somebody called for you while you were out.",
-          "ar": "اتصل بك أحدهم بينما كنت خارجاً."
+          "ar": "اتصل بكِ أحدهم بينما كنتِ في الخارج."
         },
         {
           "speaker": "LINA",
@@ -2088,12 +2082,12 @@
         {
           "speaker": "KHALED",
           "en": "He asked if you could call him back before five, and he said not to email.",
-          "ar": "سأل إن كان بإمكانك معاودة الاتصال قبل الخامسة، وقال ألا ترسلي بريداً."
+          "ar": "سأل إن كان بإمكانكِ أن تعاودي الاتصال به قبل الخامسة، وقال ألّا ترسلي بريداً."
         },
         {
           "speaker": "LINA",
           "en": "Why not email?",
-          "ar": "لماذا لا بريد؟"
+          "ar": "ولماذا لا أراسله بالبريد؟"
         },
         {
           "speaker": "KHALED",
@@ -3154,7 +3148,7 @@
       "title_ar": "القواعد — So do I · Neither do I: الموافقة القصيرة",
       "title_en": "Grammar — So do I, Neither do I",
       "payload": {
-        "rule_ar": "حين يقول أحدهم شيئاً وأنت مثله، لا تكرّر جملته: قل So + الفعل المساعد + أنا. بعد الجملة المثبتة So: \"I like tea.\" — \"So do I.\" وبعد المنفية Neither: \"I can't swim.\" — \"Neither can I.\" والفعل المساعد يأتي من جملة المتكلّم: am ← So am I · can ← So can I · have ← So have I · will ← So will I، وإن لم يكن فيها مساعد (مضارع أو ماضٍ بسيط) فـ do/does/did: \"I went home early.\" — \"So did I.\" وإن كنت مختلفاً فلا So ولا Neither: \"I like tea.\" — \"I don't.\" · \"I didn't go.\" — \"I did.\" وفي الكلام اليومي Me too و Me neither صحيحتان وأخفّ.",
+        "rule_ar": "حين يقول أحدهم شيئاً وأنت مثله، لا تكرّر جملته: قل So + الفعل المساعد + الفاعل. بعد الجملة المثبتة So: \"I like tea.\" — \"So do I.\" وبعد المنفية Neither: \"I can't swim.\" — \"Neither can I.\" والفعل المساعد يأتي من جملة المتكلّم: am ← So am I · can ← So can I · have ← So have I · will ← So will I، وإن لم يكن فيها مساعد (مضارع أو ماضٍ بسيط) فـ do/does/did: \"I went home early.\" — \"So did I.\" وإن كنت مختلفاً فلا So ولا Neither: \"I like tea.\" — \"I don't.\" · \"I didn't go.\" — \"I did.\" وفي الكلام اليومي Me too و Me neither صحيحتان وأخفّ.",
         "table": {
           "columns_ar": [
             "المتكلّم يقول",
@@ -3372,7 +3366,7 @@
           },
           {
             "en": "The hospital apologised, and he was offered money, which he turned down. His brother asked him why he was refusing it. Tom said he didn't want to spend another year thinking about the hospital.",
-            "ar": "اعتذرت المستشفى وعُرض عليه مال، فرفضه. فسأله أخوه لماذا يرفضه، فقال توم إنه لا يريد أن يقضي سنة أخرى يفكّر في المستشفى."
+            "ar": "اعتذر المستشفى وعُرض عليه مال، فرفضه. فسأله أخوه لماذا يرفضه، فقال توم إنه لا يريد أن يقضي سنة أخرى يفكّر في المستشفى."
           },
           {
             "en": "Journalists asked him whether he was angry. He said he had been furious for about two weeks, and then it had passed. He explained that he had spent eighteen months doing exactly what he wanted, and that almost nobody gets to do that.",
@@ -3567,7 +3561,7 @@
           },
           {
             "q_ar": "ما الفرق بين لعبة السيدة كريمي ولعبة الأطفال؟",
-            "a_ar": "الطالبة الأولى قرأت رسالة مكتوبة، ثم نقلها كل طالب بكلماته، لا بالهمس."
+            "a_ar": "الطالبة الأولى قرأت رسالة مكتوبة بدل أن تسمعها، ثم نقلها كل طالب إلى التالي بكلماته هو."
           },
           {
             "q_ar": "ماذا كانت تقول الرسالة الأصلية؟",
@@ -3689,7 +3683,7 @@
               "I gave up."
             ],
             "note_ar": "يُنبر الفعل كما في الفعل العادي: GIVE up، فيبدو الكلام مترجماً.",
-            "fix_ar": "قلها كأنها كلمة واحدة نبرها في آخرها: «گِڤ-ÀP»."
+            "fix_ar": "قلها كأنها كلمة واحدة نبرها في آخرها: give-UP."
           },
           {
             "ipa": "الضمير في الوسط خفيف",
@@ -3762,7 +3756,7 @@
       "title_ar": "التحدّث",
       "title_en": "Report a Conversation",
       "payload": {
-        "task_ar": "انقل دقيقتين محادثةً جرت بينك وبين أحدهم",
+        "task_ar": "انقل في دقيقتين محادثةً جرت بينك وبين أحدهم",
         "target_seconds": 120,
         "is_baseline": false,
         "title_en": "Report a Conversation",
@@ -4080,7 +4074,7 @@
               },
               {
                 "en": "He asked me to write it down and send it by Friday.",
-                "ar": "طلب مني أن أكتبه وأرسله حتى يوم الجمعة."
+                "ar": "طلب مني أن أكتبه وأرسله بحلول يوم الجمعة."
               }
             ],
             "pattern_en": "He asked me if ___. She asked me to ___.",
@@ -4345,7 +4339,7 @@
           "switch off"
         ]
       },
-      "explanation": null
+      "explanation": "turn off = يطفئ، ومثلها switch off."
     },
     {
       "day_number": 3,
@@ -4371,17 +4365,17 @@
       "focus_ar": "أكمل بالفعل المركّب في صيغته الصحيحة",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "He ______ smoking three years ago. (أقلع عن)",
+      "prompt": "He ______ smoking three years ago. (فعل مركّب: أقلع عن)",
       "payload": {
         "before": "He ",
-        "after": " smoking three years ago. (أقلع عن)"
+        "after": " smoking three years ago. (فعل مركّب: أقلع عن)"
       },
       "answer": {
         "accepted": [
           "gave up"
         ]
       },
-      "explanation": "give up + -ing."
+      "explanation": "المطلوب الفعل المركّب: gave up. وstopped وquit صحيحة في الكلام، لكن التمرين يدرّب على الفعل المركّب."
     },
     {
       "day_number": 3,
@@ -4414,7 +4408,8 @@
       },
       "answer": {
         "accepted": [
-          "looks after"
+          "looks after",
+          "takes care of"
         ]
       },
       "explanation": "she ← looks."
@@ -4425,17 +4420,17 @@
       "focus_ar": "أكمل بالفعل المركّب في صيغته الصحيحة",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "They've ______ the wedding until next spring. (أجّلوا)",
+      "prompt": "They've ______ the wedding until next spring. (فعل مركّب: أجّلوا)",
       "payload": {
         "before": "They've ",
-        "after": " the wedding until next spring. (أجّلوا)"
+        "after": " the wedding until next spring. (فعل مركّب: أجّلوا)"
       },
       "answer": {
         "accepted": [
           "put off"
         ]
       },
-      "explanation": "put off = postpone."
+      "explanation": "المطلوب الفعل المركّب: put off. وpostponed صحيحة في الكلام، لكن التمرين يدرّب على الفعل المركّب."
     },
     {
       "day_number": 3,
@@ -4487,10 +4482,12 @@
       "answer": {
         "accepted": [
           "get on with",
-          "get on well with"
+          "get on well with",
+          "get along with",
+          "get along well with"
         ]
       },
-      "explanation": null
+      "explanation": "get on with = ينسجم مع، ومثلها get along with."
     },
     {
       "day_number": 3,
@@ -5166,7 +5163,7 @@
           "me whether I had finished"
         ]
       },
-      "explanation": null
+      "explanation": "سؤال نعم/لا ← if أو whether، و have finished ← had finished."
     },
     {
       "day_number": 5,
@@ -5260,7 +5257,7 @@
           "whether I could help him"
         ]
       },
-      "explanation": null
+      "explanation": "Can you…? طلب، فيُنقل asked me to help him، أو سؤالاً: if I could help him."
     },
     {
       "day_number": 5,
@@ -5278,7 +5275,7 @@
           "not to be"
         ]
       },
-      "explanation": null
+      "explanation": "النهي المنقول: not to + الفعل."
     },
     {
       "day_number": 5,
@@ -5312,7 +5309,9 @@
       },
       "answer": {
         "accepted": [
-          "said"
+          "said",
+          "replied",
+          "answered"
         ]
       },
       "explanation": "لا شخص ← said.",
@@ -5335,7 +5334,7 @@
           "asked"
         ]
       },
-      "explanation": null
+      "explanation": "told أو asked + شخص + to + الفعل."
     },
     {
       "day_number": 5,
@@ -5386,10 +5385,11 @@
       },
       "answer": {
         "accepted": [
-          "told"
+          "told",
+          "read"
         ]
       },
-      "explanation": "tell a story."
+      "explanation": "tell a story — و read us a story صحيحة أيضاً."
     },
     {
       "day_number": 5,
@@ -5444,7 +5444,7 @@
           "asked"
         ]
       },
-      "explanation": null
+      "explanation": "told أو asked + شخص + not to."
     },
     {
       "day_number": 5,
@@ -5462,7 +5462,7 @@
           "said"
         ]
       },
-      "explanation": null
+      "explanation": "say بلا شخص: Nobody said anything."
     },
     {
       "day_number": 5,
@@ -5633,7 +5633,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "في النصّ: he had eighteen months to live."
     },
     {
       "day_number": 6,
@@ -5646,7 +5646,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: He gave up his job, sold his house, spent his savings."
     },
     {
       "day_number": 6,
@@ -5665,7 +5665,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "في النصّ: the results had belonged to another patient with a similar name."
     },
     {
       "day_number": 6,
@@ -5697,7 +5697,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "في النصّ: he had been furious for about two weeks."
     },
     {
       "day_number": 6,
@@ -5716,7 +5716,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "في النصّ: he had spent eighteen months doing exactly what he wanted."
     },
     {
       "day_number": 6,
@@ -5729,7 +5729,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: nobody knew what to say to him."
     },
     {
       "day_number": 6,
@@ -5748,7 +5748,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "في النصّ: he wished he still had his house."
     },
     {
       "day_number": 6,
@@ -5767,7 +5767,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "في النصّ: there was no such thing as more time."
     },
     {
       "day_number": 6,
@@ -5829,12 +5829,12 @@
       "focus_ar": "القراءة: The Message That Changed",
       "points": 1,
       "type": "true_false",
-      "prompt": "The original message mentioned an injury.",
+      "prompt": "In the original message, somebody was hurt.",
       "payload": {},
       "answer": {
         "correct": false
       },
-      "explanation": "في النصّ: no injuries"
+      "explanation": "في النصّ: no injuries — لم يُصب أحد."
     },
     {
       "day_number": 7,
@@ -5847,7 +5847,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: By the eighth student, somebody had been hurt."
     },
     {
       "day_number": 7,
@@ -5873,7 +5873,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: every addition made the story more dramatic."
     },
     {
       "day_number": 7,
@@ -5886,7 +5886,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: She tried the game eleven times."
     },
     {
       "day_number": 7,
@@ -5917,7 +5917,7 @@
           "grew up"
         ]
       },
-      "explanation": null
+      "explanation": "grow up ← grew up في الماضي."
     },
     {
       "day_number": 1,
@@ -5932,10 +5932,11 @@
       },
       "answer": {
         "accepted": [
-          "turned up"
+          "turned up",
+          "showed up"
         ]
       },
-      "explanation": null
+      "explanation": "turn up = يظهر ويصل، ومثلها show up."
     },
     {
       "day_number": 1,
@@ -5950,10 +5951,12 @@
       },
       "answer": {
         "accepted": [
-          "set up"
+          "set up",
+          "started",
+          "founded"
         ]
       },
-      "explanation": null
+      "explanation": "set up = يؤسّس، والرسمي establish."
     },
     {
       "day_number": 1,
@@ -5971,7 +5974,7 @@
           "cheer up"
         ]
       },
-      "explanation": null
+      "explanation": "cheer up = ابتهج، تقال لمن هو حزين."
     },
     {
       "day_number": 1,
@@ -5986,10 +5989,11 @@
       },
       "answer": {
         "accepted": [
-          "made up"
+          "made up",
+          "invented"
         ]
       },
-      "explanation": null
+      "explanation": "make up = يختلق قصّة أو عذراً."
     },
     {
       "day_number": 1,
@@ -6004,10 +6008,12 @@
       },
       "answer": {
         "accepted": [
-          "came up with"
+          "came up with",
+          "thought of",
+          "had"
         ]
       },
-      "explanation": null
+      "explanation": "come up with + فكرة = يأتي بها."
     },
     {
       "day_number": 1,
@@ -6025,7 +6031,7 @@
           "catch up"
         ]
       },
-      "explanation": null
+      "explanation": "catch up on + ما تأخّر من عمل."
     },
     {
       "day_number": 1,
@@ -6040,10 +6046,12 @@
       },
       "answer": {
         "accepted": [
-          "bring up"
+          "bring up",
+          "mention",
+          "raise"
         ]
       },
-      "explanation": null
+      "explanation": "bring up = يذكر موضوعاً."
     },
     {
       "day_number": 1,
@@ -6061,7 +6069,7 @@
           "wake up"
         ]
       },
-      "explanation": null
+      "explanation": "wake up = يفتح عينيه؛ get up = يقوم من السرير، وهو هنا باقٍ في السرير."
     },
     {
       "day_number": 1,
@@ -6079,7 +6087,7 @@
           "fill up"
         ]
       },
-      "explanation": null
+      "explanation": "fill up = يملأ الخزّان حتى آخره."
     },
     {
       "day_number": 1,
@@ -6136,7 +6144,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "run into + شخص = يصادفه."
     },
     {
       "day_number": 1,
@@ -6174,7 +6182,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "look after = يعتني بـ."
     },
     {
       "day_number": 1,
@@ -6359,7 +6367,7 @@
           "ran out of"
         ]
       },
-      "explanation": null
+      "explanation": "run out of: ثلاث كلمات، والماضي ran."
     },
     {
       "day_number": 2,
@@ -6367,17 +6375,17 @@
       "focus_ar": "أفعال out و off — من العربية",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "They ______ the match because of the rain. (ألغوا)",
+      "prompt": "They ______ the match because of the rain. (فعل مركّب: ألغوا)",
       "payload": {
         "before": "They ",
-        "after": " the match because of the rain. (ألغوا)"
+        "after": " the match because of the rain. (فعل مركّب: ألغوا)"
       },
       "answer": {
         "accepted": [
           "called off"
         ]
       },
-      "explanation": null
+      "explanation": "المطلوب الفعل المركّب: called off. وcancelled صحيحة في الكلام، لكن التمرين يدرّب على الفعل المركّب."
     },
     {
       "day_number": 2,
@@ -6395,7 +6403,7 @@
           "took off"
         ]
       },
-      "explanation": null
+      "explanation": "take off للطائرة = تقلع."
     },
     {
       "day_number": 2,
@@ -6410,10 +6418,12 @@
       },
       "answer": {
         "accepted": [
-          "set off"
+          "set off",
+          "set out",
+          "left"
         ]
       },
-      "explanation": null
+      "explanation": "set off = ينطلق في رحلة."
     },
     {
       "day_number": 2,
@@ -6428,10 +6438,11 @@
       },
       "answer": {
         "accepted": [
-          "go off"
+          "go off",
+          "ring"
         ]
       },
-      "explanation": null
+      "explanation": "go off للمنبّه = يرنّ، وبعد didn't الفعل المجرّد go."
     },
     {
       "day_number": 2,
@@ -6446,10 +6457,13 @@
       },
       "answer": {
         "accepted": [
-          "sort out"
+          "sort out",
+          "solve",
+          "fix",
+          "deal with"
         ]
       },
-      "explanation": null
+      "explanation": "sort out = يحلّ مشكلة."
     },
     {
       "day_number": 2,
@@ -6467,7 +6481,7 @@
           "told / off"
         ]
       },
-      "explanation": null
+      "explanation": "tell off يُفصل: told him off."
     },
     {
       "day_number": 2,
@@ -6485,7 +6499,7 @@
           "turned out"
         ]
       },
-      "explanation": null
+      "explanation": "turn out + to be = يتّضح أنه."
     },
     {
       "day_number": 2,
@@ -6503,7 +6517,7 @@
           "check out"
         ]
       },
-      "explanation": null
+      "explanation": "check out of a hotel = يغادره."
     },
     {
       "day_number": 2,
@@ -6518,10 +6532,11 @@
       },
       "answer": {
         "accepted": [
-          "go out"
+          "go out",
+          "eat out"
         ]
       },
-      "explanation": null
+      "explanation": "go out = يخرج للنزهة أو العشاء."
     },
     {
       "day_number": 2,
@@ -6536,10 +6551,12 @@
       },
       "answer": {
         "accepted": [
-          "look for"
+          "look for",
+          "find",
+          "search for"
         ]
       },
-      "explanation": null
+      "explanation": "look for = يبحث عن."
     },
     {
       "day_number": 2,
@@ -6554,10 +6571,11 @@
       },
       "answer": {
         "accepted": [
-          "look after"
+          "look after",
+          "take care of"
         ]
       },
-      "explanation": null
+      "explanation": "look after = يعتني بـ."
     },
     {
       "day_number": 2,
@@ -6575,7 +6593,7 @@
           "looked / up"
         ]
       },
-      "explanation": null
+      "explanation": "look up يُفصل: looked it up."
     },
     {
       "day_number": 2,
@@ -6590,10 +6608,11 @@
       },
       "answer": {
         "accepted": [
-          "Look out"
+          "Look out",
+          "Watch out"
         ]
       },
-      "explanation": null
+      "explanation": "Look out! = احذر!"
     },
     {
       "day_number": 2,
@@ -6611,7 +6630,7 @@
           "look at"
         ]
       },
-      "explanation": null
+      "explanation": "look at = ينظر إلى."
     },
     {
       "day_number": 2,
@@ -6629,7 +6648,7 @@
           "looking forward to"
         ]
       },
-      "explanation": null
+      "explanation": "look forward to + -ing: seeing."
     },
     {
       "day_number": 2,
@@ -6663,7 +6682,7 @@
           "Please write it down."
         ]
       },
-      "explanation": null
+      "explanation": "it ضمير، فيقع في الوسط: write it down."
     },
     {
       "day_number": 2,
@@ -6715,7 +6734,7 @@
           "We have run out of milk."
         ]
       },
-      "explanation": null
+      "explanation": "run out of: لا تُسقط of."
     },
     {
       "day_number": 2,
@@ -6749,7 +6768,7 @@
           "This TV is too loud. Turn it down."
         ]
       },
-      "explanation": null
+      "explanation": "it ضمير، فيقع في الوسط: turn it down."
     },
     {
       "day_number": 2,
@@ -6856,10 +6875,11 @@
         "accepted": [
           "Carry on",
           "Go on",
-          "Keep on"
+          "Keep on",
+          "Keep"
         ]
       },
-      "explanation": null
+      "explanation": "carry on / go on / keep (on) + -ing = واصل."
     },
     {
       "day_number": 3,
@@ -6875,10 +6895,11 @@
       "answer": {
         "accepted": [
           "hold on",
-          "wait"
+          "wait",
+          "hang on"
         ]
       },
-      "explanation": null
+      "explanation": "hold on = انتظر لحظة."
     },
     {
       "day_number": 3,
@@ -6894,10 +6915,12 @@
       "answer": {
         "accepted": [
           "count on",
-          "rely on"
+          "rely on",
+          "depend on",
+          "trust"
         ]
       },
-      "explanation": null
+      "explanation": "count on + شخص = يعتمد عليه."
     },
     {
       "day_number": 3,
@@ -6912,10 +6935,12 @@
       },
       "answer": {
         "accepted": [
-          "hand in"
+          "hand in",
+          "give in",
+          "submit"
         ]
       },
-      "explanation": null
+      "explanation": "hand in = يسلّم واجباً."
     },
     {
       "day_number": 3,
@@ -6933,7 +6958,7 @@
           "broke down"
         ]
       },
-      "explanation": null
+      "explanation": "break down للسيارة = تتعطّل."
     },
     {
       "day_number": 3,
@@ -6951,7 +6976,7 @@
           "Slow down"
         ]
       },
-      "explanation": null
+      "explanation": "slow down = أبطئ، وضدّها speed up."
     },
     {
       "day_number": 3,
@@ -6969,7 +6994,7 @@
           "turned / down"
         ]
       },
-      "explanation": null
+      "explanation": "turn down يُفصل: turned it down."
     },
     {
       "day_number": 3,
@@ -6987,7 +7012,7 @@
           "let / down"
         ]
       },
-      "explanation": null
+      "explanation": "let down يُفصل: let me down."
     },
     {
       "day_number": 3,
@@ -7007,7 +7032,7 @@
           "phone / back"
         ]
       },
-      "explanation": null
+      "explanation": "call back يُفصل: call you back."
     },
     {
       "day_number": 3,
@@ -7022,10 +7047,11 @@
       },
       "answer": {
         "accepted": [
-          "get over"
+          "get over",
+          "recover from"
         ]
       },
-      "explanation": null
+      "explanation": "get over + مرض = يتعافى منه."
     },
     {
       "day_number": 3,
@@ -7043,7 +7069,7 @@
           "took over"
         ]
       },
-      "explanation": null
+      "explanation": "take over = يتولّى."
     },
     {
       "day_number": 3,
@@ -7058,10 +7084,13 @@
       },
       "answer": {
         "accepted": [
-          "go over"
+          "go over",
+          "go through",
+          "check",
+          "review"
         ]
       },
-      "explanation": null
+      "explanation": "go over = يراجع."
     },
     {
       "day_number": 3,
@@ -7069,17 +7098,17 @@
       "focus_ar": "أفعال on · in · down · back · over · into",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "The police will ______ the accident. (يحقّق في)",
+      "prompt": "The police will ______ the accident. (فعل مركّب: يحقّق في)",
       "payload": {
         "before": "The police will ",
-        "after": " the accident. (يحقّق في)"
+        "after": " the accident. (فعل مركّب: يحقّق في)"
       },
       "answer": {
         "accepted": [
           "look into"
         ]
       },
-      "explanation": null
+      "explanation": "المطلوب الفعل المركّب: look into. وinvestigate صحيحة في الكلام، لكن التمرين يدرّب على الفعل المركّب."
     },
     {
       "day_number": 3,
@@ -7097,7 +7126,7 @@
           "pay / back"
         ]
       },
-      "explanation": null
+      "explanation": "pay back يُفصل: pay you back."
     },
     {
       "day_number": 3,
@@ -7112,10 +7141,12 @@
       },
       "answer": {
         "accepted": [
-          "turned into"
+          "turned into",
+          "became",
+          "grew into"
         ]
       },
-      "explanation": null
+      "explanation": "turn into = يتحوّل إلى."
     },
     {
       "day_number": 3,
@@ -7133,7 +7164,7 @@
           "join in"
         ]
       },
-      "explanation": null
+      "explanation": "join in = يشارك في نشاط."
     },
     {
       "day_number": 3,
@@ -7152,7 +7183,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "on تشغيل و off إطفاء."
     },
     {
       "day_number": 3,
@@ -7171,7 +7202,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "put on يلبس، و take off يخلع."
     },
     {
       "day_number": 3,
@@ -7190,7 +7221,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "slow down يبطئ، و speed up يسرع."
     },
     {
       "day_number": 3,
@@ -7209,7 +7240,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "give up = يكفّ عن المحاولة. أمّا give in فيرضخ لغيره."
     },
     {
       "day_number": 3,
@@ -7228,7 +7259,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "give in = يرضخ ويوافق بعد رفض."
     },
     {
       "day_number": 4,
@@ -7303,7 +7334,7 @@
           "tell"
         ]
       },
-      "explanation": null,
+      "explanation": "tell + شخص: tell you.",
       "error_no": 20
     },
     {
@@ -7360,7 +7391,7 @@
           "said"
         ]
       },
-      "explanation": null,
+      "explanation": "say بلا شخص: They said (that)…",
       "error_no": 20
     },
     {
@@ -7379,7 +7410,7 @@
           "told"
         ]
       },
-      "explanation": null,
+      "explanation": "tell + شخص + the news.",
       "error_no": 20
     },
     {
@@ -7526,7 +7557,7 @@
           "the day after"
         ]
       },
-      "explanation": null
+      "explanation": "tomorrow ← the next day / the following day."
     },
     {
       "day_number": 4,
@@ -7545,7 +7576,7 @@
           "the previous day"
         ]
       },
-      "explanation": null
+      "explanation": "yesterday ← the day before / the previous day."
     },
     {
       "day_number": 4,
@@ -7563,7 +7594,7 @@
           "that day"
         ]
       },
-      "explanation": null
+      "explanation": "today ← that day."
     },
     {
       "day_number": 4,
@@ -7582,7 +7613,7 @@
           "earlier"
         ]
       },
-      "explanation": null
+      "explanation": "ago ← before / earlier."
     },
     {
       "day_number": 4,
@@ -7600,7 +7631,7 @@
           "there"
         ]
       },
-      "explanation": null
+      "explanation": "here ← there."
     },
     {
       "day_number": 4,
@@ -7618,7 +7649,7 @@
           "that"
         ]
       },
-      "explanation": null
+      "explanation": "this ← that."
     },
     {
       "day_number": 4,
@@ -7637,7 +7668,7 @@
           "the next"
         ]
       },
-      "explanation": null
+      "explanation": "next week ← the following week."
     },
     {
       "day_number": 4,
@@ -7656,7 +7687,7 @@
           "the previous year"
         ]
       },
-      "explanation": null
+      "explanation": "last year ← the year before."
     },
     {
       "day_number": 4,
@@ -7669,7 +7700,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "ما زال صحيحاً، فيجوز بقاء المضارع."
     },
     {
       "day_number": 4,
@@ -7682,7 +7713,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "فعل النقل في المضارع (says) فلا تراجع."
     },
     {
       "day_number": 4,
@@ -7986,10 +8017,11 @@
       },
       "answer": {
         "accepted": [
-          "where I was going"
+          "where I was going",
+          "where I'm going"
         ]
       },
-      "explanation": null
+      "explanation": "بلا قلب: where I was going لا where was I going."
     },
     {
       "day_number": 5,
@@ -8010,7 +8042,7 @@
           "whether I speak English"
         ]
       },
-      "explanation": null
+      "explanation": "سؤال نعم/لا ← if أو whether، وبلا do."
     },
     {
       "day_number": 5,
@@ -8029,7 +8061,7 @@
           "who that man is"
         ]
       },
-      "explanation": null
+      "explanation": "ترتيب الخبر: who that man was."
     },
     {
       "day_number": 5,
@@ -8045,10 +8077,12 @@
       "answer": {
         "accepted": [
           "if I could drive",
-          "whether I could drive"
+          "whether I could drive",
+          "if I can drive",
+          "whether I can drive"
         ]
       },
-      "explanation": null
+      "explanation": "can ← could، وسؤال نعم/لا ← if."
     },
     {
       "day_number": 5,
@@ -8066,7 +8100,7 @@
           "what I had done"
         ]
       },
-      "explanation": null
+      "explanation": "بلا قلب: what I had done لا what had I done."
     },
     {
       "day_number": 5,
@@ -8084,7 +8118,7 @@
           "to open the window"
         ]
       },
-      "explanation": null
+      "explanation": "الطلب ← asked me to + الفعل."
     },
     {
       "day_number": 5,
@@ -8103,7 +8137,7 @@
           "not to park here"
         ]
       },
-      "explanation": null
+      "explanation": "النهي ← not to، و here ← there."
     },
     {
       "day_number": 5,
@@ -8121,7 +8155,7 @@
           "to stop talking"
         ]
       },
-      "explanation": null
+      "explanation": "الأمر ← told us to + الفعل."
     },
     {
       "day_number": 5,
@@ -8197,7 +8231,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "من يتصل يترك الرسالة: leave a message."
     },
     {
       "day_number": 6,
@@ -8216,7 +8250,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "Hold on = لحظة، و that في الوسط: write that down."
     },
     {
       "day_number": 6,
@@ -8254,7 +8288,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "Apparently = يبدو أن، لما سمعته ولست متأكداً منه."
     },
     {
       "day_number": 6,
@@ -8273,7 +8307,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "What exactly did he say? — say بلا شخص، و exactly بعد what."
     },
     {
       "day_number": 6,
@@ -8292,7 +8326,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "Just to let you know = للعلم فقط."
     },
     {
       "day_number": 6,
@@ -8311,7 +8345,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "said بلا شخص، و will ← would."
     },
     {
       "day_number": 6,
@@ -8329,7 +8363,7 @@
           "to help"
         ]
       },
-      "explanation": null
+      "explanation": "offer + to + الفعل."
     },
     {
       "day_number": 6,
@@ -8347,7 +8381,7 @@
           "to call"
         ]
       },
-      "explanation": null
+      "explanation": "promise + to + الفعل."
     },
     {
       "day_number": 6,
@@ -8365,7 +8399,7 @@
           "to do"
         ]
       },
-      "explanation": null
+      "explanation": "refuse + to + الفعل."
     },
     {
       "day_number": 6,
@@ -8383,7 +8417,7 @@
           "to come"
         ]
       },
-      "explanation": null
+      "explanation": "agree + to + الفعل."
     },
     {
       "day_number": 6,
@@ -8403,7 +8437,7 @@
           "not to forget"
         ]
       },
-      "explanation": null
+      "explanation": "remind + شخص + to + الفعل."
     },
     {
       "day_number": 6,
@@ -8421,7 +8455,7 @@
           "not to touch"
         ]
       },
-      "explanation": null
+      "explanation": "warn + شخص + not to."
     },
     {
       "day_number": 6,
@@ -8439,7 +8473,7 @@
           "to see"
         ]
       },
-      "explanation": null
+      "explanation": "advise + شخص + to + الفعل."
     },
     {
       "day_number": 6,
@@ -8458,7 +8492,7 @@
           "to go"
         ]
       },
-      "explanation": null
+      "explanation": "invite + شخص + to + الفعل."
     },
     {
       "day_number": 6,
@@ -8544,7 +8578,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في الحوار: he was calling about the contract."
     },
     {
       "day_number": 6,
@@ -8557,7 +8591,7 @@
       "answer": {
         "correct": false
       },
-      "explanation": null
+      "explanation": "في الحوار: He tried. I didn't follow most of it."
     },
     {
       "day_number": 6,
@@ -8570,7 +8604,7 @@
       "answer": {
         "correct": false
       },
-      "explanation": null
+      "explanation": "في الحوار: he said not to email."
     },
     {
       "day_number": 6,
@@ -8583,7 +8617,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في الحوار: somebody has made a mistake."
     },
     {
       "day_number": 6,
@@ -8613,7 +8647,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "am ← So am I."
     },
     {
       "day_number": 7,
@@ -8632,7 +8666,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "بعد النفي Neither + فعل مثبت: Neither do I."
     },
     {
       "day_number": 7,
@@ -8651,7 +8685,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "went ماضٍ بسيط ← So did I."
     },
     {
       "day_number": 7,
@@ -8670,7 +8704,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "أنت مختلف، فلا So ولا Neither: I can."
     },
     {
       "day_number": 7,
@@ -8689,7 +8723,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "have ← So have I."
     },
     {
       "day_number": 7,
@@ -8875,7 +8909,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "في الحوار: I'm afraid he's in a meeting."
     },
     {
       "day_number": 7,
@@ -8894,7 +8928,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "في الحوار: Could you ask him to call me back before four?"
     },
     {
       "day_number": 7,
@@ -8913,7 +8947,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "في الحوار: The price is the same."
     },
     {
       "day_number": 7,
@@ -8932,7 +8966,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "سامي قال I hate these last-minute changes، فردّت So do I."
     },
     {
       "day_number": 7,
@@ -8951,7 +8985,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "عمر قال إنه ربما كان في السيارة طفل، ثم نقلته ليلى «أُصيب على الأرجح»."
     },
     {
       "day_number": 7,
@@ -8970,7 +9004,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "sharper هنا: أوضح وأشدّ مبالغة."
     },
     {
       "day_number": 7,
@@ -8989,7 +9023,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "طلبت منهم أن يفكّروا في آخر خبر نقلوه وهل غيّروه."
     },
     {
       "day_number": 7,
@@ -8997,12 +9031,12 @@
       "focus_ar": "القراءة: The Message That Changed",
       "points": 1,
       "type": "true_false",
-      "prompt": "In Mrs Karimi's game, the message was whispered.",
+      "prompt": "In Mrs Karimi's game, the first student heard the message from the teacher.",
       "payload": {},
       "answer": {
         "correct": false
       },
-      "explanation": "في النصّ: the first student was given ten seconds to read a short written message."
+      "explanation": "في النصّ: the first student was given ten seconds to read a short written message — قرأتها ولم تسمعها."
     },
     {
       "day_number": 7,
@@ -9013,7 +9047,7 @@
       "prompt": "Your English friend Alex wrote: \"I called your office yesterday, but you were out. Did your colleague give you my message? What did she say?\" Write an email to Alex (about 100 words). Say who told you about the call, report what Alex's message said (two things), and tell Alex what you will do next.",
       "payload": {},
       "answer": {},
-      "explanation": "Hi Alex,\n\nYes, I got your message. My colleague Mona told me that you had called while I was in a meeting. She said you were coming to Cairo next month and that you wanted to meet up. She also told me that you had lost my new phone number, so she gave it to me to pass on: it's 0100 555 2121.\n\nI'm really looking forward to seeing you! I'll call you back on Saturday morning, and we can sort out the details then. Could you let me know which hotel you're staying at?\n\nSee you soon,\nOmar"
+      "explanation": "Hi Alex,\n\nYes, I got your message. My colleague Mona told me that you had called while I was in a meeting. She said you were coming to Cairo next month and that you wanted to meet up. She also told me that you had lost my new phone number, so here it is: 0100 555 2121.\n\nI'm really looking forward to seeing you! I'll call you back on Saturday morning, and we can sort out the details then. Could you let me know which hotel you're staying at?\n\nSee you soon,\nOmar"
     },
     {
       "day_number": 7,
@@ -9024,7 +9058,7 @@
       "prompt": "Write a story of about 100 words. It must begin with this sentence: \"When I listened to the message, I couldn't believe what she had said.\" Use at least two reported sentences and two phrasal verbs.",
       "payload": {},
       "answer": {},
-      "explanation": "When I listened to the message, I couldn't believe what she had said. It was my sister, Huda. She said that she had found my old school bag in our parents' house, and that there was a letter inside it. She asked me to call her back as soon as possible.\n\nI called her that evening. She told me that the letter was from my best friend at school, Karim. We had lost touch fifteen years ago. In the letter, he had written his phone number.\n\nI didn't put it off. I called him the next day, and we ended up talking for two hours."
+      "explanation": "When I listened to the message, I couldn't believe what she had said. It was my sister, Huda. She said that she had found my old school bag in our parents' house, and that there was a letter inside it. She asked me to call her back as soon as possible.\n\nI called her that evening. She told me that the letter was from my best friend at school, Karim. We had lost touch fifteen years earlier. In the letter, he had written his phone number.\n\nI didn't put it off. I called him the next day, and we ended up talking for two hours."
     },
     {
       "day_number": 7,
@@ -9042,8 +9076,8 @@
       "type": "fill_blank",
       "prompt": "أكمل الفراغ",
       "payload": {
-        "before": "My parents are doctors.",
-        "after": "of them work at the same hospital."
+        "before": "My parents are doctors. ",
+        "after": " of them work at the same hospital."
       },
       "answer": {
         "accepted": [
@@ -9059,8 +9093,8 @@
       "type": "fill_blank",
       "prompt": "أكمل الفراغ",
       "payload": {
-        "before": "You can pay either by card",
-        "after": "in cash."
+        "before": "You can pay either by card ",
+        "after": " in cash."
       },
       "answer": {
         "accepted": [
@@ -9076,8 +9110,8 @@
       "type": "fill_blank",
       "prompt": "أكمل الفراغ",
       "payload": {
-        "before": "He eats neither meat",
-        "after": "fish."
+        "before": "He eats neither meat ",
+        "after": " fish."
       },
       "answer": {
         "accepted": [
@@ -9093,8 +9127,8 @@
       "type": "fill_blank",
       "prompt": "أكمل الفراغ",
       "payload": {
-        "before": "Both of",
-        "after": "were late, so the teacher was angry with us."
+        "before": "Both of ",
+        "after": " were late, so the teacher was angry with us."
       },
       "answer": {
         "accepted": [
@@ -9110,8 +9144,8 @@
       "type": "fill_blank",
       "prompt": "أكمل الفراغ",
       "payload": {
-        "before": "I called Ali and Omar, but neither of",
-        "after": "answered."
+        "before": "I called Ali and Omar, but neither of ",
+        "after": " answered."
       },
       "answer": {
         "accepted": [

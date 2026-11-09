@@ -121,7 +121,7 @@
         "ar": "اللغة: was وwere لا did مع فعل be، و4 تعبيرات زمن ماضٍ مختلفة على الأقل."
       }
     ],
-    "model_answer": "Last August I went to the north coast with my wife and our two children. We travelled by car and the journey took five hours because of the traffic.\n\nWhen we arrived, we were very tired. The children didn't sleep and they asked \"are we there yet\" a hundred times.\n\nWe stayed in a small flat. It wasn't big, but it was right on the beach and we heard the sea at night.\n\nEvery day we swam in the morning and ate too much in the evening. I didn't open my laptop once.\n\nOne day the car didn't start. First, we called a mechanic. Then we waited three hours.\n\nFinally, we drove home. It was the best week of the year and we would like to go again.",
+    "model_answer": "Last August I went to the north coast with my wife and our two children. We travelled by car and the journey took five hours because of the traffic.\n\nWhen we arrived, we were very tired. The children didn't sleep and they asked \"Are we there yet?\" a hundred times.\n\nWe stayed in a small flat. It wasn't big, but it was right on the beach and we heard the sea at night.\n\nEvery day we swam in the morning and ate too much in the evening. I didn't open my laptop once.\n\nOne day the car didn't start. First, we called a mechanic. Then we waited three hours.\n\nFinally, we drove home. It was the best week of the year and we would like to go again.",
     "model_words": 128
   },
   "days": [
@@ -1063,16 +1063,16 @@
     },
     {
       "group": "irregular_verbs_more",
-      "word": "sing → sang",
-      "ipa": "/sæŋ/",
-      "arabic": "غنّى",
-      "example": "The birds sang in the garden this morning.",
+      "word": "shake → shook",
+      "ipa": "/ʃʊk/",
+      "arabic": "هزّ / صافح",
+      "example": "He shook my hand and smiled.",
       "group_label_ar": "الأفعال الشاذة ٣: تكملة الثمانين",
       "group_label_en": "Irregular Verbs 3: The Rest",
-      "target": "sang",
-      "sentence": "The birds sang in the garden this morning.",
-      "sentence_ar": "غرّدت الطيور في الحديقة هذا الصباح.",
-      "usage_ar": "sang في الماضي، لا singed."
+      "target": "shook",
+      "sentence": "He shook my hand and smiled.",
+      "sentence_ar": "صافحني وابتسم.",
+      "usage_ar": "shook hands = تصافحا، ولا تقل shaked."
     },
     {
       "group": "irregular_verbs_common",
@@ -1358,7 +1358,7 @@
       "target": "ate",
       "sentence": "We ate fish for dinner.",
       "sentence_ar": "أكلنا السمك على العشاء.",
-      "usage_ar": "تُنطق /et/ في البريطانية."
+      "usage_ar": "تُنطق /et/ في البريطانية، و/eɪt/ في الأمريكية."
     },
     {
       "group": "irregular_verbs_common",
@@ -1936,13 +1936,13 @@
       "group": "travel_phrases",
       "word": "What time does it leave?",
       "ipa": null,
-      "arabic": "متى تغادر؟",
-      "example": "This train to York. What time does it leave?",
+      "arabic": "متى يغادر؟",
+      "example": "Excuse me, the train to York — what time does it leave?",
       "group_label_ar": "عبارات السفر",
       "group_label_en": "Travel Phrases",
       "target": "leave",
-      "sentence": "This train to York. What time does it leave?",
-      "sentence_ar": "هذا القطار إلى يورك. متى يغادر؟",
+      "sentence": "Excuse me, the train to York — what time does it leave?",
+      "sentence_ar": "عفواً، القطار إلى يورك: متى يغادر؟",
       "usage_ar": "تسأل بها عن موعد مغادرة القطار أو الحافلة."
     },
     {
@@ -1962,7 +1962,7 @@
       "group": "travel_phrases",
       "word": "What time does it arrive?",
       "ipa": null,
-      "arabic": "متى تصل؟",
+      "arabic": "متى يصل؟",
       "example": "What time does it arrive in Manchester?",
       "group_label_ar": "عبارات السفر",
       "group_label_en": "Travel Phrases",
@@ -2080,11 +2080,11 @@
       "word": "How long does it take?",
       "ipa": null,
       "arabic": "كم تستغرق؟",
-      "example": "How long does it take to the city centre?",
+      "example": "How long does it take to get to the city centre?",
       "group_label_ar": "عبارات السفر",
       "group_label_en": "Travel Phrases",
       "target": "take",
-      "sentence": "How long does it take to the city centre?",
+      "sentence": "How long does it take to get to the city centre?",
       "sentence_ar": "كم يستغرق الطريق إلى وسط المدينة؟",
       "usage_ar": "تسأل بها عن مدة الرحلة لا عن موعدها."
     },
@@ -2509,12 +2509,12 @@
       "word": "Here is my boarding pass.",
       "ipa": null,
       "arabic": "هذه بطاقة صعود الطائرة",
-      "example": "Here is my passport and my boarding pass.",
+      "example": "Here is my boarding pass, and here is my passport.",
       "group_label_ar": "في الفندق والمطار",
       "group_label_en": "At the Hotel and Airport",
       "target": "boarding pass",
-      "sentence": "Here is my passport and my boarding pass.",
-      "sentence_ar": "هذا جواز سفري وبطاقة صعود الطائرة.",
+      "sentence": "Here is my boarding pass, and here is my passport.",
+      "sentence_ar": "هذه بطاقة صعود الطائرة، وهذا جواز سفري.",
       "usage_ar": "boarding pass بطاقة تأخذها قبل الصعود إلى الطائرة."
     },
     {
@@ -2741,59 +2741,59 @@
   ],
   "minimal_pairs": [
     {
-      "group_label": "Weak Forms and the /ɜː/ Sound",
+      "group_label": "/ɜː/ or /ɔː/",
       "ipa": "/wɜːk/ · /wɔːk/",
       "word_a": "work",
       "word_b": "walk",
-      "group_label_ar": "الصيغ الضعيفة وصوت /ɜː/",
+      "group_label_ar": "صوت /ɜː/ أم /ɔː/",
       "hint_ar": "الأولى /ɜː/: شفتان مسترخيتان واللسان في وسط الفم. والثانية /ɔː/: شفتان مدوّرتان واللسان إلى الخلف. فإن تدوّرت شفتاك صارت work كأنها walk."
     },
     {
-      "group_label": "Weak Forms and the /ɜː/ Sound",
+      "group_label": "/ɜː/ or /ɔː/",
       "ipa": "/wɜːd/ · /wɔːd/",
       "word_a": "word",
       "word_b": "ward",
-      "group_label_ar": "الصيغ الضعيفة وصوت /ɜː/",
+      "group_label_ar": "صوت /ɜː/ أم /ɔː/",
       "hint_ar": "الأولى /ɜː/: شفتان مسترخيتان واللسان في وسط الفم. والثانية /ɔː/: شفتان مدوّرتان واللسان إلى الخلف. فإن تدوّرت شفتاك صارت work كأنها walk."
     },
     {
-      "group_label": "Weak Forms and the /ɜː/ Sound",
+      "group_label": "/ɜː/ or /ɑː/",
       "ipa": "/bɜːd/ · /bɑːd/",
       "word_a": "bird",
       "word_b": "bard",
-      "group_label_ar": "الصيغ الضعيفة وصوت /ɜː/",
+      "group_label_ar": "صوت /ɜː/ أم /ɑː/",
       "hint_ar": "الأولى /ɜː/: فم نصف مفتوح واللسان في الوسط. والثانية /ɑː/: فم مفتوح واسع كألف «باب» الطويلة."
     },
     {
-      "group_label": "Weak Forms and the /ɜː/ Sound",
+      "group_label": "/ɜː/ or /ɑː/",
       "ipa": "/fɜːst/ · /fɑːst/",
       "word_a": "first",
       "word_b": "fast",
-      "group_label_ar": "الصيغ الضعيفة وصوت /ɜː/",
+      "group_label_ar": "صوت /ɜː/ أم /ɑː/",
       "hint_ar": "الأولى /ɜː/: فم نصف مفتوح واللسان في الوسط. والثانية /ɑː/: فم مفتوح واسع كألف «باب» الطويلة."
     },
     {
-      "group_label": "Weak Forms and the /ɜː/ Sound",
+      "group_label": "/ɜː/ or /ɑː/",
       "ipa": "/hɜːd/ · /hɑːd/",
       "word_a": "heard",
       "word_b": "hard",
-      "group_label_ar": "الصيغ الضعيفة وصوت /ɜː/",
+      "group_label_ar": "صوت /ɜː/ أم /ɑː/",
       "hint_ar": "الأولى /ɜː/: فم نصف مفتوح واللسان في الوسط. والثانية /ɑː/: فم مفتوح واسع كألف «باب» الطويلة."
     },
     {
-      "group_label": "Weak Forms and the /ɜː/ Sound",
+      "group_label": "/ɜː/ or /ɔː/",
       "ipa": "/tɜːn/ · /tɔːn/",
       "word_a": "turn",
       "word_b": "torn",
-      "group_label_ar": "الصيغ الضعيفة وصوت /ɜː/",
+      "group_label_ar": "صوت /ɜː/ أم /ɔː/",
       "hint_ar": "الأولى /ɜː/: شفتان مسترخيتان واللسان في وسط الفم. والثانية /ɔː/: شفتان مدوّرتان واللسان إلى الخلف. فإن تدوّرت شفتاك صارت work كأنها walk."
     },
     {
-      "group_label": "Weak Forms and the /ɜː/ Sound",
+      "group_label": "/ɜː/ or /ɔː/",
       "ipa": "/bɜːn/ · /bɔːn/",
       "word_a": "burn",
       "word_b": "born",
-      "group_label_ar": "الصيغ الضعيفة وصوت /ɜː/",
+      "group_label_ar": "صوت /ɜː/ أم /ɔː/",
       "hint_ar": "الأولى /ɜː/: شفتان مسترخيتان واللسان في وسط الفم. والثانية /ɔː/: شفتان مدوّرتان واللسان إلى الخلف. فإن تدوّرت شفتاك صارت work كأنها walk."
     }
   ],
@@ -2841,12 +2841,12 @@
         {
           "speaker": "SAMI",
           "en": "Oh no. I didn't know. When is the next one?",
-          "ar": "لا. لم أكن أعلم. متى القطار التالي؟"
+          "ar": "يا للأسف! لم أكن أعلم. متى القطار التالي؟"
         },
         {
           "speaker": "CLERK",
           "en": "At eleven forty. But it isn't direct — you change at Tanta.",
-          "ar": "الحادية عشرة وأربعون دقيقة. لكنه ليس مباشراً — تغيّر في طنطا."
+          "ar": "في الحادية عشرة وأربعين دقيقة. لكنه ليس مباشراً — عليك أن تغيّر القطار في طنطا."
         },
         {
           "speaker": "SAMI",
@@ -2889,7 +2889,7 @@
       "number": 2,
       "title": "How Was Your Holiday?",
       "situation_en": "Sami is back from a holiday, and Lina asks him about it.",
-      "situation_ar": "عودة من عطلة: كيف كانت؟ وماذا فعل فيها؟",
+      "situation_ar": "عاد سامي من عطلة، وتسأله لينا عنها.",
       "speaker_genders": {
         "LINA": "f",
         "SAMI": "m"
@@ -2898,7 +2898,7 @@
         {
           "speaker": "LINA",
           "en": "You look brown! Where did you go?",
-          "ar": "تبدو مسمرّاً! أين ذهبت؟"
+          "ar": "لوّحتك الشمس! أين ذهبت؟"
         },
         {
           "speaker": "SAMI",
@@ -2913,7 +2913,7 @@
         {
           "speaker": "SAMI",
           "en": "We drove. It took five hours because of the traffic.",
-          "ar": "قدنا السيارة. استغرقت خمس ساعات بسبب الزحام."
+          "ar": "ذهبنا بالسيارة. استغرق الطريق خمس ساعات بسبب الزحام."
         },
         {
           "speaker": "LINA",
@@ -2933,7 +2933,7 @@
         {
           "speaker": "SAMI",
           "en": "It was worth it. The flat was small but it was right on the beach.",
-          "ar": "كان يستحق. الشقة كانت صغيرة لكنها على الشاطئ مباشرة."
+          "ar": "كان الأمر يستحقّ العناء. الشقة كانت صغيرة لكنها على الشاطئ مباشرة."
         },
         {
           "speaker": "LINA",
@@ -3192,12 +3192,12 @@
                   "mean",
                   "meant",
                   "/ment/",
-                  "What did you mean?"
+                  "Sorry, I meant Tuesday."
                 ],
                 [
                   "eat",
                   "ate",
-                  "/et/",
+                  "/et/ · /eɪt/",
                   "We ate fish for dinner."
                 ]
               ]
@@ -3651,7 +3651,7 @@
         "checklist_ar": [
           "الجواب هو الفاعل ← لا did: Who called you?",
           "الجواب هو المفعول ← did: Who did you call?",
-          "What happened? دائماً بلا did",
+          "What happened? بلا did: What هي الفاعل",
           "بعد did فعل مجرّد، وبلا did فعل ماضٍ"
         ],
         "lessons": [
@@ -4002,7 +4002,7 @@
           },
           {
             "en": "It took her one hundred and forty-six days. She slept on the ground and under picnic tables. She found some of her food in the forest, and strangers gave her meals. She wore out more than five pairs of shoes. She fell, she got lost, and she broke her glasses.",
-            "ar": "استغرقها ذلك مئة وستّة وأربعين يوماً. نامت على الأرض وتحت طاولات النزهات. ووجدت بعض طعامها في الغابة، وأعطاها الغرباء وجبات. وأبلت أكثر من خمسة أزواج من الأحذية. وسقطت، وتاهت، وكسرت نظّارتها."
+            "ar": "استغرق ذلك منها مئة وستّة وأربعين يوماً. نامت على الأرض وتحت طاولات النزهات. ووجدت بعض طعامها في الغابة، وأعطاها الغرباء وجبات. وأبلت أكثر من خمسة أزواج من الأحذية. وسقطت، وتاهت، وكسرت نظّارتها."
           },
           {
             "en": "Journalists asked her, \"Why did you do it?\" She gave a very short answer: \"I thought it would be a nice lark.\"",
@@ -4223,7 +4223,7 @@
         "title_en": "Tell the Story of a Trip",
         "intro_ar": "احكِ القصة لشخص يسمعك: رتّب أحداثها، واذكر مشكلة واحدة، واختم بسؤال له.",
         "cover_ar": null,
-        "model_en": "Last August we went to the north coast for a week. // We drove, and the journey took five hours because the traffic was terrible. The children didn't sleep and they asked \"are we there yet\" about ninety times. //\nWhen we arrived, I was exhausted. But the flat was right on the beach, so it was worth it. // It was small — one bedroom, a tiny kitchen — but we heard the sea every night. //\nWe didn't do very much. We swam in the morning, we ate too much in the evening, we slept in the afternoon. I didn't open my laptop once in seven days. //\nOne morning the car didn't start. First we called a mechanic, then we waited three hours. My wife was angry, but I wasn't — I sat in the shade and read a book. //\nIt was the best week of the year. Next time we want to leave at five in the morning. //",
+        "model_en": "Last August we went to the north coast for a week. // We drove, and the journey took five hours because the traffic was terrible. The children didn't sleep and they asked \"Are we there yet?\" about ninety times. //\nWhen we arrived, I was exhausted. But the flat was right on the beach, so it was worth it. // It was small — one bedroom, a tiny kitchen — but we heard the sea every night. //\nWe didn't do very much. We swam in the morning, we ate too much in the evening, we slept in the afternoon. I didn't open my laptop once in seven days. //\nOne morning the car didn't start. First we called a mechanic, then we waited three hours. My wife was angry, but I wasn't — I sat in the shade and read a book. //\nIt was the best week of the year. Next time we want to leave at five in the morning. //",
         "outline": [
           {
             "part_en": "Where and when",
@@ -4324,7 +4324,7 @@
             "title_ar": "سجّل ثم قيّم نفسك",
             "title_en": "Record and Score",
             "text_en": [
-              "Record 2 minutes from memory. Save as Week08. Remember: three recordings a week now, not one."
+              "Record 2 minutes from memory. Save as Week08."
             ]
           }
         ],
@@ -5176,7 +5176,8 @@
       },
       "answer": {
         "accepted": [
-          "Who"
+          "Who",
+          "Whom"
         ]
       },
       "explanation": "Who للشخص."
@@ -5662,7 +5663,8 @@
       },
       "answer": {
         "accepted": [
-          "drank"
+          "drank",
+          "have drunk"
         ]
       },
       "explanation": "drink ← drank",
@@ -6287,7 +6289,9 @@
       "answer": {
         "accepted": [
           "Yes, I did.",
-          "Did you like it? Yes, I did."
+          "Did you like it? Yes, I did.",
+          "Yes, I liked it.",
+          "Did you like it? Yes, I liked it."
         ]
       },
       "explanation": "الجواب القصير بـ did."
@@ -6863,7 +6867,8 @@
       },
       "answer": {
         "accepted": [
-          "didn't eat"
+          "didn't eat",
+          "hasn't eaten"
         ]
       },
       "explanation": "didn’t + eat",
@@ -7348,7 +7353,13 @@
       },
       "answer": {
         "accepted": [
-          "ticket"
+          "ticket",
+          "single",
+          "return",
+          "train ticket",
+          "bus ticket",
+          "single ticket",
+          "return ticket"
         ]
       },
       "explanation": "a ticket to + المكان.",
@@ -7514,7 +7525,8 @@
       },
       "answer": {
         "accepted": [
-          "on"
+          "on",
+          "onto"
         ]
       },
       "explanation": "get on = يصعد.",
@@ -7701,7 +7713,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": "What happened? دائماً بلا did.",
+      "explanation": "What هنا هي الفاعل، فالسؤال بلا did: What happened?",
       "points": 1
     },
     {
@@ -8039,7 +8051,8 @@
       },
       "answer": {
         "accepted": [
-          "First"
+          "First",
+          "First of all"
         ]
       },
       "explanation": "First للحدث الأول.",
@@ -8058,7 +8071,8 @@
       "answer": {
         "accepted": [
           "Then",
-          "After that"
+          "After that",
+          "Next"
         ]
       },
       "explanation": "Then للحدث التالي.",
@@ -8095,7 +8109,11 @@
       "answer": {
         "accepted": [
           "Finally",
-          "In the end"
+          "In the end",
+          "Then",
+          "After that",
+          "At last",
+          "Eventually"
         ]
       },
       "explanation": "Finally للحدث الأخير.",
@@ -8113,7 +8131,9 @@
       "answer": {
         "accepted": [
           "First we arrived at the airport and then we went to the gate.",
-          "First, we arrived at the airport and then we went to the gate."
+          "First, we arrived at the airport and then we went to the gate.",
+          "First we arrived at the airport and then went to the gate.",
+          "First we arrived at the airport, then we went to the gate."
         ]
       },
       "explanation": "لا ترجع إلى المضارع في وسط القصة.",
@@ -8273,7 +8293,8 @@
       },
       "answer": {
         "accepted": [
-          "How do I get to the station?"
+          "How do I get to the station?",
+          "How can I get to the station?"
         ]
       },
       "explanation": "السؤال يحتاج do.",
@@ -8511,7 +8532,8 @@
       },
       "answer": {
         "accepted": [
-          "didn't arrive"
+          "didn't arrive",
+          "hasn't arrived"
         ]
       },
       "explanation": "didn’t + arrive",
@@ -8530,7 +8552,8 @@
       },
       "answer": {
         "accepted": [
-          "booked"
+          "booked",
+          "have booked"
         ]
       },
       "explanation": "book فعل قياسي: booked.",

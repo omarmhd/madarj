@@ -1,1 +1,0 @@
-import{t as e}from"./app-DoLG-tR4.js";var t=e();function n({children:e}){return(0,t.jsx)(`bdi`,{children:e})}export{n as t};

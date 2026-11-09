@@ -32,7 +32,7 @@
     },
     {
       "en": "Hear the difference between ship and sheep, full and fool",
-      "ar": "تسمع الفرق بين ship و sheep"
+      "ar": "تسمع الفرق بين ship و sheep، و full و fool"
     },
     {
       "en": "Ask for help in English when I do not understand",
@@ -446,7 +446,7 @@
         },
         {
           "order": 3,
-          "label": "إنتاج الحركات + الشادوينج",
+          "label": "إنتاج الحركات",
           "minutes": 10,
           "ref": "pron:production"
         },
@@ -640,7 +640,7 @@
       "word": "husband",
       "ipa": "/ˈhʌzbənd/",
       "arabic": "زوج",
-      "example": "Her husband works in a bank.",
+      "example": "Her husband is an engineer.",
       "group_label_ar": "العائلة",
       "group_label_en": "Family",
       "target": "husband",
@@ -653,7 +653,7 @@
       "word": "uncle",
       "ipa": "/ˈʌŋkl/",
       "arabic": "عم / خال",
-      "example": "My uncle lives in Dubai.",
+      "example": "My uncle is in Dubai.",
       "group_label_ar": "العائلة",
       "group_label_en": "Family",
       "target": "uncle",
@@ -705,7 +705,7 @@
       "word": "grandmother",
       "ipa": "/ˈɡrænmʌðə(r)/",
       "arabic": "جدة",
-      "example": "My grandmother cooks very well.",
+      "example": "My grandmother is at home.",
       "group_label_ar": "العائلة",
       "group_label_en": "Family",
       "target": "grandmother",
@@ -1212,7 +1212,7 @@
       "word": "Wednesday",
       "ipa": "/ˈwenzdeɪ/",
       "arabic": "الأربعاء",
-      "example": "The d is silent.",
+      "example": "Today is Wednesday.",
       "group_label_ar": "الأيام والشهور",
       "group_label_en": "Days and Months",
       "target": "Wednesday",
@@ -1498,7 +1498,7 @@
       "word": "work",
       "ipa": "/wɜːk/",
       "arabic": "عمل / يعمل",
-      "example": "I work in an office.",
+      "example": "My work is near my house.",
       "group_label_ar": "كلمات أساسية",
       "group_label_en": "Core Words",
       "target": "work",
@@ -1634,13 +1634,13 @@
       "target": "good",
       "sentence": "The food is good.",
       "sentence_ar": "الطعام جيد.",
-      "usage_ar": "صفة للاسم: a good teacher؛ ولا نقول She sings good."
+      "usage_ar": "صفة للاسم: a good teacher؛ ولا نقول She drives good."
     },
     {
       "group": "core",
       "word": "bad",
       "ipa": "/bæd/",
-      "arabic": "سيء",
+      "arabic": "سيّئ",
       "example": "The weather is bad today.",
       "group_label_ar": "كلمات أساسية",
       "group_label_en": "Core Words",
@@ -1836,12 +1836,12 @@
       "word": "yesterday",
       "ipa": "/ˈjestədeɪ/",
       "arabic": "أمس",
-      "example": "Yesterday was Sunday.",
+      "example": "Yesterday, today and tomorrow.",
       "group_label_ar": "كلمات أساسية",
       "group_label_en": "Core Words",
       "target": "yesterday",
-      "sentence": "Yesterday is not today.",
-      "sentence_ar": "الأمس ليس اليوم.",
+      "sentence": "Yesterday, today and tomorrow.",
+      "sentence_ar": "أمس واليوم وغداً.",
       "usage_ar": "بلا the: yesterday فقط."
     },
     {
@@ -1855,7 +1855,7 @@
       "target": "here",
       "sentence": "I am here.",
       "sentence_ar": "أنا هنا.",
-      "usage_ar": "لا نضع in قبلها: I am here، لا in here."
+      "usage_ar": "بلا حرف جرّ قبلها: I am here، لا I am at here."
     },
     {
       "group": "core",
@@ -2079,7 +2079,7 @@
         {
           "speaker": "SAMI",
           "en": "Yes, I am. My name is Sami.",
-          "ar": "نعم، أنا هو. اسمي سامي."
+          "ar": "نعم، أنا المهندس الجديد. اسمي سامي."
         },
         {
           "speaker": "LINA",
@@ -2195,13 +2195,13 @@
         },
         {
           "speaker": "LINA",
-          "en": "Do you miss them?",
-          "ar": "هل تشتاق إليهما؟"
+          "en": "Are you sad?",
+          "ar": "هل أنت حزين؟"
         },
         {
           "speaker": "SAMI",
-          "en": "Yes, very much. But we speak every day.",
-          "ar": "نعم، كثيراً جداً. لكننا نتحدث كل يوم."
+          "en": "Yes, a little. But they're happy there.",
+          "ar": "نعم، قليلاً. لكنهما سعيدان هناك."
         }
       ]
     }
@@ -2664,9 +2664,9 @@
             },
             "errors": [
               {
-                "wrong": "You are a student?",
+                "wrong": "Is you a student?",
                 "right": "Are you a student?",
-                "why_ar": "السؤال بتقديم الفعل — لا برفع الصوت وحده"
+                "why_ar": "you تأخذ are في السؤال أيضاً"
               },
               {
                 "wrong": "Where you are from?",
@@ -2926,7 +2926,7 @@
                 "why_ar": "الصفة لا تُجمع أبداً"
               }
             ],
-            "tip_ar": "تُنطق s الجمع كما تُنطق s الفعل في الأسبوع الثاني: books بـ/s/ · friends بـ/z/ · buses بـ/ɪz/ — وفي الحالة الأخيرة وحدها يزيد مقطع: BUS-iz. واستثناءان لـ o يُحفظان: photo ← photos و piano ← pianos."
+            "tip_ar": "تُنطق s الجمع كما تُنطق s الفعل في الأسبوع الثاني: books بـ/s/ · friends بـ/z/ · buses بـ/ɪz/ — وفي الحالة الأخيرة وحدها يزيد مقطع: BUS-iz. واستثناءان لـ o يُحفظان: photo ← photos و kilo ← kilos."
           },
           {
             "title_ar": "الجمع الشاذّ — يُحفظ ولا يُقاس",
@@ -2943,7 +2943,7 @@
                 [
                   "man",
                   "men",
-                  "Two men work here.",
+                  "Two men are here.",
                   "رجل ← رجال"
                 ],
                 [
@@ -2973,13 +2973,13 @@
                 [
                   "tooth",
                   "teeth",
-                  "Brush your teeth.",
+                  "My teeth are white.",
                   "سنّ ← أسنان"
                 ],
                 [
                   "mouse",
                   "mice",
-                  "There are mice in the kitchen!",
+                  "The mice are in the kitchen!",
                   "فأر ← فئران"
                 ],
                 [
@@ -2991,7 +2991,7 @@
                 [
                   "sheep",
                   "sheep",
-                  "The farmer has ten sheep.",
+                  "The sheep are white.",
                   "خروف ← خراف — بلا تغيير"
                 ]
               ],
@@ -3163,7 +3163,7 @@
           {
             "title_ar": "الأرقام حتى الألف",
             "title_en": "Numbers to 1,000",
-            "explain_ar": "العربية تقول «واحد وعشرون» والإنجليزية بالعكس: twenty-one — العشرات أولاً وبينهما شرطة. وبعد المئة تأتي and: a hundred and five. ولا تُجمع hundred ولا thousand بعد رقم: two hundred لا two hundreds. والنبرة تفرّق 13 عن 30: thirTEEN و THIRty.",
+            "explain_ar": "العربية تقول «واحد وعشرون» والإنجليزية بالعكس: twenty-one — العشرات أولاً وبينهما شرطة. وبعد المئة تأتي and في البريطانية: a hundred and five، والأمريكية قد تحذفها. ولا تُجمع hundred ولا thousand بعد رقم: two hundred لا two hundreds. والنبرة تفرّق 13 عن 30: thirTEEN و THIRty.",
             "table": {
               "columns_ar": [
                 "الرقم",
@@ -3416,16 +3416,16 @@
             "ar": "كيف حالك؟ أنا بخير. أنا في لندن الآن! إنها مدينة كبيرة جداً وقديمة جداً. المباني جميلة لكن الطقس ليس جيداً. الجو بارد ورمادي اليوم."
           },
           {
-            "en": "I am a student here. I am at a language school near the city centre. My teacher is called Mr Brown. He is from Scotland and he is very funny. My classmates are from many countries — Ali is from Morocco, Yuki is from Japan and Ana is from Brazil. We are good friends now.",
-            "ar": "أنا طالب هنا. أدرس في مدرسة لغات قريبة من وسط المدينة. مدرّسي يُدعى السيد براون. هو من اسكتلندا وطريف جداً. زملائي من بلدان كثيرة — علي من المغرب، ويوكي من اليابان، وآنا من البرازيل. صرنا أصدقاء جيدين."
+            "en": "I am a student here. I am at a language school near the city centre. My teacher's name is Mr Brown. He is from Scotland and he is very funny. My classmates are from many countries — Ali is from Morocco, Yuki is from Japan and Ana is from Brazil. We are good friends now.",
+            "ar": "أنا طالب هنا. أدرس في مدرسة لغات قريبة من وسط المدينة. اسم مدرّسي السيد براون. هو من اسكتلندا وطريف جداً. زملائي من بلدان كثيرة — علي من المغرب، ويوكي من اليابان، وآنا من البرازيل. صرنا أصدقاء جيدين."
           },
           {
             "en": "My flat is small but it is comfortable. My neighbour is an old lady. She is very kind and she is always happy.",
             "ar": "شقتي صغيرة لكنها مريحة. جارتي سيدة مسنّة. هي طيّبة جداً وسعيدة دائماً."
           },
           {
-            "en": "I am a little homesick. My family is far away and I miss them. But I am happy here.",
-            "ar": "أشتاق إلى وطني قليلاً. عائلتي بعيدة وأفتقدهم. لكنني سعيد هنا."
+            "en": "I am a little homesick. My family is far away. But I am happy here.",
+            "ar": "أشتاق إلى وطني قليلاً. عائلتي بعيدة. لكنني سعيد هنا."
           },
           {
             "en": "Write to me soon! How is your new job? Are your colleagues nice?",
@@ -3637,7 +3637,7 @@
           },
           {
             "label_en": "to be",
-            "label_ar": null,
+            "label_ar": "فعل to be",
             "levels": [
               "Often missing",
               "A few errors",
@@ -3646,7 +3646,7 @@
           },
           {
             "label_en": "Vowel length",
-            "label_ar": null,
+            "label_ar": "طول الحركات",
             "levels": [
               "No difference audible",
               "Sometimes clear",
@@ -4371,7 +4371,13 @@
       "answer": {
         "accepted": [
           "He is 25 years old.",
-          "He's 25 years old."
+          "He's 25 years old.",
+          "He is twenty-five years old.",
+          "He's twenty-five years old.",
+          "He is 25.",
+          "He's 25.",
+          "He is twenty-five.",
+          "He's twenty-five."
         ]
       },
       "explanation": "الإنجليزية تستخدم be للعمر لا have",
@@ -4422,12 +4428,12 @@
       "exercise_no": 3,
       "type": "true_false",
       "focus_ar": "فهم الحوار الثاني — Talking About Family",
-      "prompt": "Lina has two brothers.",
+      "prompt": "Sami has a son and a daughter.",
       "payload": {},
       "answer": {
-        "correct": false
+        "correct": true
       },
-      "explanation": "راجع الحوار الثاني — انتبه لعدد الأشخاص الذي ذكرته لينا.",
+      "explanation": "في الحوار الثاني: This is my son, Adam… Her name is Salma — ابن وابنة.",
       "points": 1
     },
     {
@@ -4443,7 +4449,11 @@
       "answer": {
         "accepted": [
           "My sister is 19 years old.",
-          "My sister is nineteen years old."
+          "My sister is nineteen years old.",
+          "My sister's 19 years old.",
+          "My sister's nineteen years old.",
+          "My sister is 19.",
+          "My sister is nineteen."
         ]
       },
       "explanation": "العربية تقول «عمرها ١٩ سنة»، والإنجليزية تستخدم be لا have.",
@@ -4493,12 +4503,12 @@
       "exercise_no": 4,
       "type": "true_false",
       "focus_ar": "فهم نص الاستماع",
-      "prompt": "Sami lives in Cairo.",
+      "prompt": "Sami's parents are in Cairo.",
       "payload": {},
       "answer": {
         "correct": false
       },
-      "explanation": "النص يقول He lives in Alexandria — الإسكندرية لا القاهرة.",
+      "explanation": "النص يقول They are in Alexandria — والداه في الإسكندرية لا القاهرة.",
       "points": 1
     },
     {
@@ -4506,7 +4516,7 @@
       "exercise_no": 4,
       "type": "multiple_choice",
       "focus_ar": "فهم نص الاستماع — التقاط التفاصيل",
-      "prompt": "ما مهنة والد سامي في النص؟",
+      "prompt": "ما مهنة زوجة سامي في النص؟",
       "payload": {
         "options": [
           "engineer",
@@ -4518,7 +4528,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": "His father is a teacher and his mother is a doctor.",
+      "explanation": "My wife's name is Mona and she is a teacher — زوجته معلّمة.",
       "points": 1
     },
     {
@@ -4549,15 +4559,19 @@
       "error_no": 2,
       "prompt": "صحّح الخطأ في هذه الجملة",
       "payload": {
-        "sentence": "Sami have 28 years."
+        "sentence": "Sami have 32 years."
       },
       "answer": {
         "accepted": [
-          "Sami is 28 years old.",
-          "Sami is twenty-eight years old."
+          "Sami is 32 years old.",
+          "Sami is thirty-two years old.",
+          "Sami's 32 years old.",
+          "Sami's thirty-two years old.",
+          "Sami is 32.",
+          "Sami is thirty-two."
         ]
       },
-      "explanation": "النص يقول He is twenty-eight years old — بـ is لا have.",
+      "explanation": "النص يقول I am thirty-two years old — العمر بـ is لا have.",
       "points": 1
     },
     {
@@ -4823,7 +4837,7 @@
       "prompt": "كيف تقول 105؟",
       "payload": {
         "options": [
-          "one hundred five",
+          "five hundred",
           "a hundred and five",
           "five and hundred",
           "a hundreds and five"
@@ -4832,7 +4846,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": "بعد المئة تأتي and، و hundred لا تُجمع.",
+      "explanation": "بعد المئة تأتي and في البريطانية: a hundred and five. و hundred لا تُجمع، و five hundred = 500.",
       "focus_ar": "الأرقام والترتيب",
       "error_no": null,
       "points": 1
@@ -4841,9 +4855,9 @@
       "day_number": 6,
       "exercise_no": 7,
       "type": "fill_blank",
-      "prompt": "He lives on the ______ floor. (3)",
+      "prompt": "His office is on the ______ floor. (3)",
       "payload": {
-        "before": "He lives on the",
+        "before": "His office is on the",
         "after": "floor. (3)"
       },
       "answer": {
@@ -4938,7 +4952,7 @@
       "day_number": 5,
       "exercise_no": 13,
       "type": "multiple_choice",
-      "prompt": "ما جمع person؟",
+      "prompt": "ما جمع person في الكلام اليومي؟",
       "payload": {
         "options": [
           "persons",
@@ -4981,7 +4995,7 @@
       "payload": {
         "options": [
           "fishs",
-          "fishes",
+          "fishen",
           "fish",
           "fishies"
         ]
@@ -5058,16 +5072,16 @@
       "day_number": 4,
       "exercise_no": 16,
       "type": "correct_error",
-      "prompt": "صحّح الخطأ في هذه الجملة",
+      "prompt": "اكتب الجملة سؤالاً جوابه نعم أو لا",
       "payload": {
-        "sentence": "You are from Jordan?"
+        "sentence": "You are from Jordan."
       },
       "answer": {
         "accepted": [
           "Are you from Jordan?"
         ]
       },
-      "explanation": "السؤال بتقديم الفعل على الفاعل: Are you…?",
+      "explanation": "السؤال بتقديم الفعل على الفاعل: You are… ← Are you…?",
       "focus_ar": "to be — النفي والسؤال",
       "error_no": null,
       "points": 1
@@ -5121,7 +5135,8 @@
       "answer": {
         "accepted": [
           "isn't",
-          "is not"
+          "is not",
+          "'s not"
         ]
       },
       "explanation": "الجواب القصير المنفي: No, she isn't.",
@@ -5135,7 +5150,7 @@
       "type": "correct_error",
       "prompt": "صحّح الخطأ في هذه الجملة",
       "payload": {
-        "sentence": "I amn't tired."
+        "sentence": "I not tired."
       },
       "answer": {
         "accepted": [
@@ -5143,7 +5158,7 @@
           "I am not tired."
         ]
       },
-      "explanation": "لا توجد amn't في الإنجليزية: I'm not.",
+      "explanation": "الفعل لا يُحذف في النفي أيضاً: I am not ← I'm not. ولا توجد amn't.",
       "focus_ar": "to be — النفي والسؤال",
       "error_no": null,
       "points": 1
@@ -5234,15 +5249,19 @@
       "type": "correct_error",
       "prompt": "صحّح الخطأ في هذه الجملة",
       "payload": {
-        "sentence": "We are from saudi arabia."
+        "sentence": "We are from Saudi Arabian."
       },
       "answer": {
         "accepted": [
           "We are from Saudi Arabia.",
-          "We're from Saudi Arabia."
+          "We're from Saudi Arabia.",
+          "We are Saudi.",
+          "We're Saudi.",
+          "We are Saudi Arabian.",
+          "We're Saudi Arabian."
         ]
       },
-      "explanation": "البلدان بحرف كبير في كل كلمة: Saudi Arabia.",
+      "explanation": "from مع البلد (Saudi Arabia)، وبلا from مع الجنسية (Saudi). والبلد بحرف كبير في كل كلمة.",
       "focus_ar": "البلد والجنسية",
       "error_no": null,
       "points": 1
@@ -5292,18 +5311,18 @@
       "day_number": 1,
       "exercise_no": 3,
       "type": "multiple_choice",
-      "prompt": "Which letter has the same sound as A?",
+      "prompt": "أي حرف يُنطق اسمه على قافية A؟",
       "payload": {
         "options": [
           "E",
-          "H",
+          "K",
           "I"
         ]
       },
       "answer": {
         "correct": 1
       },
-      "explanation": "A وH على قافية واحدة: /eɪ/ و/eɪtʃ/. والفخّ أن تظنّ A «آ» فتقرنها بغيرها — وE صوته /iː/ لا /eɪ/.",
+      "explanation": "A وK على قافية واحدة: /eɪ/ و/keɪ/. والفخّ أن تظنّ A «آ» — وE صوته /iː/ لا /eɪ/، وI صوته /aɪ/.",
       "focus_ar": "الحروف والتهجئة",
       "error_no": null,
       "points": 1
@@ -5312,7 +5331,7 @@
       "day_number": 1,
       "exercise_no": 4,
       "type": "multiple_choice",
-      "prompt": "How do you say the letter I?",
+      "prompt": "كيف يُنطق اسم الحرف I؟",
       "payload": {
         "options": [
           "/iː/",
@@ -5332,7 +5351,7 @@
       "day_number": 1,
       "exercise_no": 5,
       "type": "multiple_choice",
-      "prompt": "How do you say the letter G?",
+      "prompt": "كيف يُنطق اسم الحرف G؟",
       "payload": {
         "options": [
           "/dʒiː/",
@@ -5352,7 +5371,7 @@
       "day_number": 1,
       "exercise_no": 6,
       "type": "multiple_choice",
-      "prompt": "Hassan spells his name: H – A – … – A – N.",
+      "prompt": "حسن يتهجّى اسمه: H – A – … – A – N. ماذا يقول مكان النقاط؟",
       "payload": {
         "options": [
           "two S",
@@ -5372,17 +5391,17 @@
       "day_number": 1,
       "exercise_no": 7,
       "type": "fill_blank",
-      "prompt": "How do you ______ your name?",
+      "prompt": "How do you ______ your name? — S-A-M-I. (s…)",
       "payload": {
         "before": "How do you",
-        "after": "your name?"
+        "after": "your name? — S-A-M-I. (s…)"
       },
       "answer": {
         "accepted": [
           "spell"
         ]
       },
-      "explanation": "How do you spell your name? تطلب بها حروف الاسم. والفخّ أن تقول How do you write your name? — المقصود الحروف واحداً واحداً، والفعل spell.",
+      "explanation": "How do you spell your name? تطلب بها حروف الاسم واحداً واحداً، والفعل لذلك spell.",
       "focus_ar": "الحروف والتهجئة",
       "error_no": null,
       "points": 1

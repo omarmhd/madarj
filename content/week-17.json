@@ -138,7 +138,7 @@
         "ar": "هل المجموع بين 150 و170 كلمة؟"
       }
     ],
-    "model_answer": "In my opinion, working from home is better than working in an office, at least for people who do focused work.\n\nThe main reason is time. A colleague who lives in my area spends two hours a day commuting, which is ten hours a week — more than a working day. Those hours are not paid and not counted, but they are gone.\n\nIn addition, most offices are designed badly for the work people actually do. The open office that my company uses is noisy, and the tasks which need concentration are the ones that suffer most.\n\nOn the other hand, I take the point that teams which never meet lose trust. New employees in particular learn a great deal from simply sitting near experienced colleagues, and that is very hard to replace.\n\nOverall, I would say the answer is not five days at home or five days in the office. Three days is probably right, which is what most companies have already discovered.",
+    "model_answer": "In my opinion, working from home is better than working in an office, at least for people who do focused work.\n\nThe main reason is time. A colleague who lives in my area spends two hours a day commuting, which is ten hours a week — more than a working day. Nobody pays for those hours or counts them, but they are gone.\n\nIn addition, most offices do not suit the work people actually do. The open office that my company uses is noisy, and the tasks which need concentration are the ones that suffer most.\n\nOn the other hand, I take the point that teams which never meet lose trust. New employees in particular learn a great deal from simply sitting near experienced colleagues, and that is very hard to replace.\n\nOverall, I would say the answer is not five days at home or five days in the office. Three days is probably right, which is what most companies have already discovered.",
     "model_words": 163,
     "target_errors": [
       {
@@ -612,18 +612,12 @@
         },
         {
           "order": 9,
-          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record:baseline"
-        },
-        {
-          "order": 10,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
         },
         {
-          "order": 11,
+          "order": 10,
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework"
@@ -818,7 +812,7 @@
       "group": "giving_an_opinion",
       "word": "The way I see it…",
       "ipa": null,
-      "arabic": "كما أراها…",
+      "arabic": "كما أرى الأمر…",
       "example": "The way I see it, we need more buses, not more cars.",
       "group_label_ar": "إبداء الرأي",
       "group_label_en": "Giving an Opinion",
@@ -1026,7 +1020,7 @@
       "group": "agreeing_and_disagreeing",
       "word": "I see it differently.",
       "ipa": null,
-      "arabic": "أراها بشكل مختلف",
+      "arabic": "أرى الأمر بشكل مختلف",
       "example": "I see it differently. For me, the village is better.",
       "group_label_ar": "الموافقة والمخالفة",
       "group_label_en": "Agreeing and Disagreeing",
@@ -1078,7 +1072,7 @@
       "group": "agreeing_and_disagreeing",
       "word": "That's one way of looking at it.",
       "ipa": null,
-      "arabic": "هذه طريقة للنظر إليها",
+      "arabic": "هذه إحدى طرق النظر إلى الأمر",
       "example": "That's one way of looking at it, but there are other ways too.",
       "group_label_ar": "الموافقة والمخالفة",
       "group_label_en": "Agreeing and Disagreeing",
@@ -1091,7 +1085,7 @@
       "group": "agreeing_and_disagreeing",
       "word": "I couldn't agree more.",
       "ipa": null,
-      "arabic": "لا يمكنني أن أوافق أكثر",
+      "arabic": "أوافقك تماماً",
       "example": "I couldn't agree more. Children need to play outside.",
       "group_label_ar": "الموافقة والمخالفة",
       "group_label_en": "Agreeing and Disagreeing",
@@ -1143,7 +1137,7 @@
       "group": "agreeing_and_disagreeing",
       "word": "I feel the same way.",
       "ipa": null,
-      "arabic": "أشعر بنفس الشيء",
+      "arabic": "أشعر بالشيء نفسه",
       "example": "I feel the same way about social media.",
       "group_label_ar": "الموافقة والمخالفة",
       "group_label_en": "Agreeing and Disagreeing",
@@ -1338,7 +1332,7 @@
       "group": "structuring_an_argument",
       "word": "drawback",
       "ipa": "/ˈdrɔːbæk/",
-      "arabic": "مساوئ",
+      "arabic": "سلبيّة",
       "example": "The only drawback is the price.",
       "group_label_ar": "بناء الحجّة",
       "group_label_en": "Structuring an Argument",
@@ -1676,7 +1670,7 @@
       "group": "topics_you_can_discuss",
       "word": "traffic",
       "ipa": "/ˈtræfɪk/",
-      "arabic": "مرور",
+      "arabic": "حركة المرور",
       "example": "The traffic was terrible this morning.",
       "group_label_ar": "موضوعات للنقاش",
       "group_label_en": "Topics You Can Discuss",
@@ -2299,7 +2293,7 @@
         {
           "speaker": "LINA",
           "en": "They want everyone back in the office five days a week.",
-          "ar": "يريدون الجميع في المكتب خمسة أيام أسبوعياً."
+          "ar": "يريدون عودة الجميع إلى المكتب خمسة أيام في الأسبوع."
         },
         {
           "speaker": "SAMI",
@@ -2309,7 +2303,7 @@
         {
           "speaker": "LINA",
           "en": "Really? I see it completely differently.",
-          "ar": "حقاً؟ أنا أراها بشكل مختلف تماماً."
+          "ar": "حقاً؟ أنا أرى الأمر بشكل مختلف تماماً."
         },
         {
           "speaker": "SAMI",
@@ -2334,7 +2328,7 @@
         {
           "speaker": "SAMI",
           "en": "People who work alone finish more. But teams that never meet stop trusting each other.",
-          "ar": "من يعمل وحده ينجز أكثر. لكن الفرق التي لا تلتقي أبداً تفقد الثقة."
+          "ar": "من يعمل وحده ينجز أكثر. لكن الفرق التي لا تلتقي أبداً يفقد أفرادها الثقة بعضهم ببعض."
         },
         {
           "speaker": "LINA",
@@ -2358,8 +2352,8 @@
         },
         {
           "speaker": "LINA",
-          "en": "So what would you do?",
-          "ar": "إذن ماذا كنت ستفعل؟"
+          "en": "So what do you suggest?",
+          "ar": "إذن ماذا تقترح؟"
         },
         {
           "speaker": "SAMI",
@@ -2385,8 +2379,8 @@
       "lines": [
         {
           "speaker": "KHALED",
-          "en": "I've been asked to summarise both sides, so I'll try to be fair.",
-          "ar": "طُلب مني تلخيص الجانبين، فسأحاول أن أكون منصفاً."
+          "en": "You asked me to summarise both sides, so I'll try to be fair.",
+          "ar": "طلبتَ مني تلخيص الجانبين، فسأحاول أن أكون منصفاً."
         },
         {
           "speaker": "MANAGER",
@@ -2410,8 +2404,8 @@
         },
         {
           "speaker": "MANAGER",
-          "en": "And the other hand?",
-          "ar": "والناحية الأخرى؟"
+          "en": "And on the other hand?",
+          "ar": "ومن الناحية الأخرى؟"
         },
         {
           "speaker": "KHALED",
@@ -2426,7 +2420,7 @@
         {
           "speaker": "KHALED",
           "en": "It is. However, they hated the last system too, for about six months.",
-          "ar": "كذلك هو. لكنهم كرهوا النظام السابق أيضاً، لنحو ستة أشهر."
+          "ar": "نعم. لكنهم كرهوا النظام السابق أيضاً، نحو ستة أشهر."
         },
         {
           "speaker": "MANAGER",
@@ -2440,13 +2434,13 @@
         },
         {
           "speaker": "MANAGER",
-          "en": "What would you recommend?",
+          "en": "What do you recommend?",
           "ar": "بماذا توصي؟"
         },
         {
           "speaker": "KHALED",
-          "en": "Overall, I'd wait six months. The cost is the problem, not the software.",
-          "ar": "إجمالاً، أنتظر ستة أشهر. التكلفة هي المشكلة لا البرنامج."
+          "en": "Overall, I think we should wait six months. The cost is the problem, not the software.",
+          "ar": "إجمالاً، أرى أن ننتظر ستة أشهر. التكلفة هي المشكلة لا البرنامج."
         },
         {
           "speaker": "MANAGER",
@@ -2482,13 +2476,13 @@
               "which",
               "الأشياء والحيوانات",
               "The flat which we saw was too small.",
-              "الشقة التي رأيناها كانت صغيرة جداً."
+              "الشقة التي رأيناها كانت أصغر من اللازم."
             ],
             [
               "that",
               "الأشخاص والأشياء — أشيع في الكلام",
               "The flat that we saw was too small.",
-              "الشقة التي رأيناها كانت صغيرة جداً."
+              "الشقة التي رأيناها كانت أصغر من اللازم."
             ],
             [
               "where",
@@ -2539,7 +2533,7 @@
             "wrong": "The woman which lives next door is nice.",
             "right": "The woman who lives next door is nice.",
             "arabic": "المرأة التي تسكن بجوارنا لطيفة",
-            "why_ar": "who للأشخاص، و which للأشياء — لا للمؤنث"
+            "why_ar": "who للأشخاص، و which للأشياء — ولا علاقة لهما بالتذكير والتأنيث كـ«الذي» و«التي»"
           }
         ],
         "checklist_ar": [
@@ -2597,7 +2591,7 @@
       "title_ar": "القواعد — متى يُحذف الضمير؟ والفاصلتان",
       "title_en": "Grammar — Dropping the pronoun; defining and non-defining",
       "payload": {
-        "rule_ar": "إن كان الضمير الموصول هو الفاعل — هو الذي يفعل — وجب بقاؤه: The man who called me was angry. وإن كان مفعولاً — وبعده فاعل آخر — جاز حذفه تماماً: The film (that) we saw was terrible، فالفاعل we. لهذا ترى which بين قوسين: قلها أو اتركها. والاختبار السريع: إن جاء بعد الضمير اسم أو ضمير (I · we · she · my brother) فاحذفه إن شئت، وإن جاء بعده فعل (lives · called · changed) فأبقِه. والمتحدّثون الأصليون يحذفونه دائماً: the film we saw · the man I met · the flat we visited.",
+        "rule_ar": "إن كان الضمير الموصول هو الفاعل — هو الذي يفعل — وجب بقاؤه: The man who called me was angry. وإن كان مفعولاً — وبعده فاعل آخر — جاز حذفه تماماً: The film (that) we saw was terrible، فالفاعل we. لهذا ترى الضمير بين قوسين: قلها أو اتركها. والاختبار السريع: إن جاء بعد الضمير اسم أو ضمير (I · we · she · my brother) فاحذفه إن شئت، وإن جاء بعده فعل (lives · called · changed) فأبقِه. والمتحدّثون الأصليون يحذفونه كثيراً في الكلام: the film we saw · the man I met · the flat we visited.",
         "table": {
           "columns_ar": [
             "الجملة",
@@ -2662,7 +2656,7 @@
           {
             "title_ar": "الجملة المحدِّدة وغير المحدِّدة: الفاصلتان تغيّران المعنى",
             "title_en": "Defining and non-defining clauses",
-            "explain_ar": "الجملة المحدِّدة تخبرك أيّ واحد تقصد، فلا فواصل حولها، ويجوز فيها that وحذف الضمير المفعول: The colleague who works at night is called Peter. أما غير المحدِّدة فتضيف معلومة زائدة عن شخص أو شيء معروف أصلاً، فتوضع بين فاصلتين، ولا تأتي فيها that أبداً — who للأشخاص و which للأشياء — ولا يُحذف ضميرها: Peter, who works at night, is my colleague. والفاصلتان تغيّران المعنى: بلا فواصل لك إخوة كثيرون والمقصود الذي في القاهرة، وبالفاصلتين لك أخ واحد يسكن القاهرة. وفي الكلام تُسمع الفاصلتان وقفتين قصيرتين.",
+            "explain_ar": "الجملة المحدِّدة تخبرك أيّ واحد تقصد، فلا فواصل حولها، ويجوز فيها that وحذف الضمير المفعول: The colleague who works at night is called Peter. أما غير المحدِّدة فتضيف معلومة زائدة عن شخص أو شيء معروف أصلاً، فتوضع بين فاصلتين، ولا تأتي فيها that أبداً — who للأشخاص و which للأشياء — ولا يُحذف ضميرها: Peter, who works at night, is my colleague. والفاصلتان تغيّران المعنى: بلا فواصل لك أكثر من أخ والمقصود الذي في القاهرة، وبالفاصلتين لك أخ واحد يسكن القاهرة. وفي الكلام تُسمع الفاصلتان وقفتين قصيرتين.",
             "examples": [
               {
                 "en": "The colleague who works at night is called Peter.",
@@ -2717,8 +2711,8 @@
                 "ar": "A2: جملتان."
               },
               {
-                "en": "He works at the hospital near my house, which I visit sometimes.",
-                "ar": "B1: which بعد فاصلة تعود على المستشفى."
+                "en": "The hospital, which I visit sometimes, is near my house.",
+                "ar": "B1: which بين فاصلتين تعود على المستشفى."
               }
             ],
             "tip_ar": "اقرأ ما كتبت: إن بدأت ثلاث جمل متتالية بـ He أو It فاجمع اثنتين منها بـ who أو which."
@@ -2788,7 +2782,7 @@
               "hope",
               "to",
               "I hope to finish by Friday.",
-              "آمل أن أنتهي قبل الجمعة."
+              "آمل أن أنتهي بحلول الجمعة."
             ],
             [
               "agree",
@@ -2850,13 +2844,13 @@
             "error_no": 9,
             "wrong": "I am good at play football.",
             "right": "I am good at playing football.",
-            "arabic": "أنا جيّد في لعب الكرة",
+            "arabic": "أُجيد لعب الكرة",
             "why_ar": "الخطأ التاسع: بعد at يأتي -ing"
           },
           {
             "wrong": "I am agree with you.",
             "right": "I agree with you.",
-            "arabic": "أنا موافق معك",
+            "arabic": "أنا موافق على رأيك",
             "why_ar": "agree فعل لا صفة — بلا am"
           }
         ],
@@ -2888,7 +2882,7 @@
               },
               {
                 "en": "She agrees with her sister.",
-                "ar": "هي توافق أختها."
+                "ar": "هي توافق أختها الرأي."
               },
               {
                 "en": "I'm not convinced.",
@@ -3165,35 +3159,35 @@
         "transcript": [
           {
             "en": "Two years ago I had an argument with my sister that I have thought about ever since, mainly because I lost it and she was right.",
-            "ar": "قبل سنتين جرى بيني وبين أختي جدال ما زلت أفكّر فيه منذ ذلك الحين، لأنني خسرته أساساً ولأنها كانت محقّة."
+            "ar": "قبل سنتين جرى بيني وبين أختي جدال ما زلت أفكّر فيه منذ ذلك الحين، وذلك أساساً لأنني خسرته وكانت هي على حق."
           },
           {
-            "en": "She said I should stop telling my son what to study. I said I wasn't telling him anything; I was advising him. She said advice that you repeat every week is not advice.",
-            "ar": "قالت إنه ينبغي أن أتوقّف عن إخبار ابني بماذا يدرس. فقلت إنني لا أخبره بشيء، بل أنصحه. فقالت إن النصيحة التي تعيدها كل أسبوع ليست نصيحة."
+            "en": "She said, \"You should stop telling your son what to study.\" I said, \"I'm not telling him anything. I'm advising him.\" She said, \"Advice that you repeat every week is not advice.\"",
+            "ar": "قالت: «ينبغي أن تكفّ عن أن تقول لابنك ماذا يدرس». فقلت: «أنا لا أقول له شيئاً، بل أنصحه». فقالت: «النصيحة التي تعيدها كل أسبوع ليست نصيحة»."
           },
           {
-            "en": "I said I had experience which he doesn't have. She agreed. Then she asked me a question I couldn't answer: \"Who advised you at eighteen?\"",
-            "ar": "قلت إن لي خبرة ليست له. فوافقتني. ثم سألتني سؤالاً لم أستطع الإجابة عنه: «ومن نصحك أنت في الثامنة عشرة؟»"
+            "en": "I said, \"I have experience which he doesn't have.\" She agreed. Then she asked me a question I couldn't answer: \"Who advised you at eighteen?\"",
+            "ar": "فقلت: «عندي خبرة ليست عنده». فوافقتني. ثم سألتني سؤالاً لم أستطع الإجابة عنه: «ومن نصحك أنت في الثامنة عشرة؟»"
           },
           {
             "en": "Nobody did. I chose engineering because my mother wanted it, and I spent eleven years in a job I didn't like before I found one I did. That was the whole point of my advice — I wanted to save him from what happened to me.",
-            "ar": "لم ينصحني أحد. اخترت الهندسة لأن أمّي أرادتها، وأنفقت أحد عشر عاماً في عمل لا أحبّه قبل أن أجد عملاً أحبّه. وكان ذلك كل مقصد نصيحتي — أردت أن أنجيه من الذي حدث لي."
+            "ar": "لم ينصحني أحد. اخترت الهندسة لأن أمّي أرادتها، وقضيت أحد عشر عاماً في عمل لا أحبّه قبل أن أجد عملاً أحبّه. وكان ذلك كل مقصد نصيحتي — أردت أن أجنّبه ما حدث لي."
           },
           {
             "en": "She said, \"So the thing that damaged you was a parent who was certain. And your plan is to be a parent who is certain.\"",
-            "ar": "فقالت: «إذن الذي أضرّ بك أبٌ كان واثقاً. وخطّتك أن تكون أباً واثقاً»."
+            "ar": "فقالت: «إذن ما أضرّ بك أمٌّ كانت واثقة من رأيها. وخطّتك أن تكون أباً واثقاً من رأيه»."
           },
           {
             "en": "I remember being very annoyed, which is usually the sign that somebody has said something true.",
             "ar": "أتذكّر أنني انزعجت كثيراً، وهذه عادةً علامة أن أحدهم قال شيئاً صحيحاً."
           },
           {
-            "en": "I still think experience is worth something. But I have changed how I use it. Now I tell him what happened to me and what I would do differently, and then I stop talking, which is by far the hardest part.",
-            "ar": "وما زلت أرى أن للخبرة قيمة. لكنني غيّرت طريقة استخدامها. أُخبره الآن بما حدث لي وبما كنت سأفعله بشكل مختلف، ثم أتوقّف عن الكلام — وهذا أصعب الأمر بكثير."
+            "en": "I still think experience is worth something. But I have changed how I use it. Now I tell him what happened to me and what I learned from it, and then I stop talking, which is by far the hardest part.",
+            "ar": "وما زلت أرى أن للخبرة قيمة. لكنني غيّرت طريقة استخدامها. أُخبره الآن بما حدث لي وبما تعلّمته منه، ثم أتوقّف عن الكلام — وهذا أصعب ما في الأمر بكثير."
           },
           {
-            "en": "He chose something I would not have chosen. He seems happy. I am trying not to say anything, and my sister finds this extremely funny.",
-            "ar": "اختار شيئاً لم أكن سأختاره. ويبدو سعيداً. وأنا أحاول ألّا أقول شيئاً، وأختي تجد هذا مضحكاً للغاية."
+            "en": "He chose a subject that I did not want for him. He seems happy. I am trying not to say anything, and my sister finds this extremely funny.",
+            "ar": "اختار تخصّصاً لم أكن أريده له. ويبدو سعيداً. وأنا أحاول ألّا أقول شيئاً، وأختي تجد هذا مضحكاً للغاية."
           }
         ],
         "questions": [
@@ -3223,7 +3217,7 @@
           },
           {
             "q_ar": "ما أقوى نقطة عند أخته؟",
-            "a_ar": "أن الذي أضرّ به كان والداً واثقاً من رأيه، وخطّته الآن أن يكون هو والداً واثقاً مثله."
+            "a_ar": "أن الذي أضرّ به أمٌّ كانت واثقة من رأيها، وخطّته الآن أن يكون أباً واثقاً مثلها."
           },
           {
             "q_ar": "بماذا شعر، وماذا يعني ذلك عنده؟",
@@ -3231,7 +3225,7 @@
           },
           {
             "q_ar": "ماذا يفعل الآن بشكل مختلف؟",
-            "a_ar": "يحكي لابنه ما حدث له وما كان سيفعله بشكل مختلف، ثم يتوقّف عن الكلام."
+            "a_ar": "يحكي لابنه ما حدث له وما تعلّمه منه، ثم يتوقّف عن الكلام."
           },
           {
             "q_ar": "ما أصعب جزء؟",
@@ -3249,28 +3243,28 @@
         "method_ar": "اقرأ مرتين. الأولى بلا توقّف، والثانية مع المسرد.",
         "story": [
           {
-            "en": "A researcher who studies negotiation spent ten years recording arguments — in workplaces, in homes, in political debates. She was looking for the moment an argument goes wrong.",
-            "ar": "باحثة تدرس التفاوض أنفقت عشر سنوات تسجّل الجدالات — في أماكن العمل، وفي البيوت، وفي المناظرات السياسية. كانت تبحث عن اللحظة التي يسوء فيها الجدال."
+            "en": "This is an invented story, but the advice in it is useful. A researcher who studies negotiation spent ten years recording arguments — in workplaces, in homes, in political debates. She was looking for the moment an argument goes wrong.",
+            "ar": "هذه قصة متخيَّلة، لكن النصيحة التي فيها نافعة. باحثة تدرس التفاوض أنفقت عشر سنوات تسجّل الجدالات — في أماكن العمل، وفي البيوت، وفي المناظرات السياسية. كانت تبحث عن اللحظة التي يسوء فيها الجدال."
           },
           {
             "en": "She found that it is almost always in the first two minutes, and almost always the same mistake.",
-            "ar": "ووجدت أنها في الدقيقتين الأولى دائماً تقريباً، وأنها الخطأ نفسه دائماً تقريباً."
+            "ar": "ووجدت أنها في الدقيقتين الأوليين دائماً تقريباً، وأنها الخطأ نفسه دائماً تقريباً."
           },
           {
             "en": "The mistake is this: one person states a position, and the other person immediately states the opposite. Nobody asks a question. From that moment, both sides spend the rest of the conversation defending something instead of thinking about it.",
             "ar": "والخطأ هو هذا: يقول أحدهم موقفاً، فيقول الآخر عكسه في الحال. ولا يسأل أحد سؤالاً. ومن تلك اللحظة يقضي الطرفان بقية الحديث في الدفاع عن شيء بدل التفكير فيه."
           },
           {
-            "en": "The people who negotiated successfully did one thing differently. Before responding, they asked a question — usually a simple one. \"What makes you say that?\" \"How long have you thought this?\" \"What would change your mind?\"",
-            "ar": "أما من تفاوضوا بنجاح ففعلوا شيئاً واحداً مختلفاً: قبل أن يجيبوا سألوا سؤالاً، بسيطاً في الغالب. «ما الذي يجعلك تقول ذلك؟» «منذ متى تفكّر هكذا؟» «ما الذي يغيّر رأيك؟»"
+            "en": "The people who negotiated successfully did one thing differently. Before responding, they asked a question — usually a simple one. \"What makes you say that?\" \"How long have you believed that?\" \"What could change your mind?\"",
+            "ar": "أما من تفاوضوا بنجاح ففعلوا شيئاً واحداً مختلفاً: قبل أن يجيبوا سألوا سؤالاً، بسيطاً في الغالب. «ما الذي يجعلك تقول ذلك؟» «منذ متى تعتقد ذلك؟» «ما الذي قد يغيّر رأيك؟»"
           },
           {
             "en": "This does two things. It gives you information you did not have. And, less obviously, it makes the other person explain their reasoning, which is the moment most people discover the weak part of their own argument themselves.",
             "ar": "وهذا يفعل شيئين: يعطيك معلومة لم تكن عندك، ثم — وهذا أقلّ وضوحاً — يجعل الآخر يشرح استدلاله، وهي اللحظة التي يكتشف فيها معظم الناس الموضع الضعيف في حجّتهم بأنفسهم."
           },
           {
-            "en": "The researcher was asked whether this is a technique for winning. She said it is the opposite. \"People who use it win less often,\" she said. \"They change their minds more, which most people count as losing. I count it as the only thing worth doing in a conversation.\"",
-            "ar": "سُئلت الباحثة هل هذه تقنية للفوز، فقالت إنها العكس. وقالت: «من يستخدمها يفوز أقلّ. ويغيّرون رأيهم أكثر، وهذا ما يعدّه معظم الناس خسارة. أما أنا فأعدّه الشيء الوحيد الذي يستحقّ أن يُفعل في محادثة»."
+            "en": "Someone asked the researcher, \"Is this a technique for winning?\" She said, \"No. It is the opposite. People who use it win less often. They change their minds more, which most people count as losing. I count it as the only thing worth doing in a conversation.\"",
+            "ar": "سألها أحدهم: «هل هذه تقنية للفوز؟» فقالت: «لا، بل العكس. من يستخدمونها يفوزون أقلّ، فهم يغيّرون آراءهم أكثر، وهذا ما يعدّه معظم الناس خسارة. أما أنا فأعدّه الشيء الوحيد الذي يستحقّ أن يُفعل في محادثة»."
           },
           {
             "en": "Her advice, which she says works in every language she has studied, is one sentence: ask one question before you answer.",
@@ -3400,7 +3394,7 @@
           {
             "can_ar": "أعطي رأياً مع سبب ومثال بلا أن يُطلب مني",
             "can_en": "Give an opinion with a reason and an example, unprompted?",
-            "proof_ar": "تمارين اليوم 1"
+            "proof_ar": "تمارين اليوم 2"
           },
           {
             "can_ar": "أخالف بأدب بخمس عبارات مختلفة",
@@ -3425,7 +3419,7 @@
           {
             "can_ar": "أعرف متى يجوز حذف الضمير وأحذفه",
             "can_en": "Say when the pronoun can be dropped, and drop it?",
-            "proof_ar": "تمارين اليوم 3"
+            "proof_ar": "تمارين اليوم 2"
           },
           {
             "can_ar": "أقول جملة واحدة بسبع نبرات فأنتج سبعة معانٍ",
@@ -3433,8 +3427,8 @@
             "proof_ar": "قسم النطق"
           },
           {
-            "can_ar": "أتذكّر 80 من 100 كلمة من العربية",
-            "can_en": "Recall 80 of the 100 words from the Arabic?",
+            "can_ar": "أتذكّر 80% من كلمات الأسبوع من العربية",
+            "can_en": "Recall 80% of the week's words from the Arabic?",
             "proof_ar": "جلسة المراجعة المتباعدة — تقول لك الرقم"
           },
           {
@@ -3558,7 +3552,7 @@
         "title_en": "Discussing a Topic",
         "intro_ar": "دقيقتان عن موضوع واحد: موقفك وسببه ومثاله، ثم الرأي الآخر بإنصاف، ثم خلاصتك. سجّل على جوالك.",
         "cover_ar": null,
-        "model_en": "I want to talk about working from home, and I'll try to give both sides. //\nPersonally, I think it's better — at least for people who do focused work. // The main reason is time. A colleague who lives near me spends two hours a day commuting. That's ten hours a week, which is more than a working day, and nobody pays for those hours. //\nIn addition, most offices are badly designed for the work people actually do. The open office my company uses is extremely noisy, and the tasks that need real concentration are the ones that suffer. //\nOn the other hand, I take the point that teams which never meet lose trust. New employees especially learn a lot from just sitting near people who have done the job for years. That's genuinely hard to replace. //\nSo overall — I'd say it isn't five days at home or five days in the office. Three days is probably right. // Which is what most companies have worked out already, so I'm not claiming this is an original opinion. //",
+        "model_en": "I want to talk about working from home, and I'll try to give both sides. //\nPersonally, I think it's better — at least for people who do focused work. // The main reason is time. A colleague who lives near me spends two hours a day commuting. That's ten hours a week, which is more than a working day, and nobody pays for those hours. //\nIn addition, most offices don't suit the work people actually do. The open office my company uses is extremely noisy, and the tasks that need real concentration are the ones that suffer. //\nOn the other hand, I take the point that teams which never meet lose trust. New employees especially learn a lot from just sitting near people who have done the job for years. That's genuinely hard to replace. //\nSo overall — I'd say it isn't five days at home or five days in the office. Three days is probably right. // Which is what most companies have worked out already, so I'm not claiming this is an original opinion. //",
         "outline": [
           {
             "part_en": "Frame and state your position",
@@ -3764,11 +3758,11 @@
             "model": [
               {
                 "en": "My brother says that children shouldn't have phones.",
-                "ar": "يقول أخي إن الأطفال لا ينبغي أن يملكوا هواتف."
+                "ar": "يقول أخي إنه ينبغي ألّا يملك الأطفال هواتف."
               },
               {
                 "en": "I agree that phones can waste a lot of time.",
-                "ar": "أوافق أن الهواتف قد تضيّع وقتاً كثيراً."
+                "ar": "أوافق على أن الهواتف قد تضيّع وقتاً كثيراً."
               },
               {
                 "en": "But I see it differently.",
@@ -3973,7 +3967,7 @@
           "that"
         ]
       },
-      "explanation": null
+      "explanation": "شخص هو الفاعل (هي التي تسكن) ← who أو that."
     },
     {
       "day_number": 1,
@@ -3992,7 +3986,7 @@
           "that"
         ]
       },
-      "explanation": null
+      "explanation": "شيء، وبعده فاعل (I) ← which أو that."
     },
     {
       "day_number": 1,
@@ -4010,7 +4004,7 @@
           "where"
         ]
       },
-      "explanation": null
+      "explanation": "مكان وقع فيه اللقاء ← where."
     },
     {
       "day_number": 1,
@@ -4028,7 +4022,7 @@
           "whose"
         ]
       },
-      "explanation": null
+      "explanation": "أخوه هو ← whose للملكية."
     },
     {
       "day_number": 1,
@@ -4047,7 +4041,7 @@
           "that"
         ]
       },
-      "explanation": null
+      "explanation": "شيء هو الفاعل (فاز) ← which أو that."
     },
     {
       "day_number": 1,
@@ -4067,7 +4061,7 @@
           "whom"
         ]
       },
-      "explanation": null
+      "explanation": "شخص ← who أو that، ويجوز whom لأنه مفعول."
     },
     {
       "day_number": 1,
@@ -4085,7 +4079,7 @@
           "where"
         ]
       },
-      "explanation": null
+      "explanation": "مكان نشأت فيه ← where، ولا in في الآخر."
     },
     {
       "day_number": 1,
@@ -4104,7 +4098,7 @@
           "that"
         ]
       },
-      "explanation": null
+      "explanation": "الشركة شيء وهي الفاعل ← which أو that."
     },
     {
       "day_number": 1,
@@ -4122,7 +4116,7 @@
           "whose"
         ]
       },
-      "explanation": null
+      "explanation": "أبوه هو ← whose."
     },
     {
       "day_number": 1,
@@ -4141,7 +4135,7 @@
           "that"
         ]
       },
-      "explanation": null
+      "explanation": "شيء، وبعده فاعل (she) ← which أو that."
     },
     {
       "day_number": 1,
@@ -4160,7 +4154,7 @@
           "that"
         ]
       },
-      "explanation": null
+      "explanation": "أشخاص هم الفاعل ← who أو that."
     },
     {
       "day_number": 1,
@@ -4179,7 +4173,7 @@
           "that"
         ]
       },
-      "explanation": null
+      "explanation": "زمن ← when (أو that)."
     },
     {
       "day_number": 2,
@@ -4197,7 +4191,7 @@
           "I have a colleague that works at night."
         ]
       },
-      "explanation": null,
+      "explanation": "He هو الفاعل، فلا يُحذف الضمير: who works.",
       "error_no": 19
     },
     {
@@ -4234,10 +4228,13 @@
           "That's the restaurant where we ate.",
           "That's the restaurant which we ate in.",
           "That's the restaurant that we ate in.",
-          "That's the restaurant we ate in."
+          "That's the restaurant we ate in.",
+          "That's the restaurant which we ate at.",
+          "That's the restaurant that we ate at.",
+          "That's the restaurant we ate at."
         ]
       },
-      "explanation": null
+      "explanation": "there = where، أو which … in في الآخر."
     },
     {
       "day_number": 2,
@@ -4254,7 +4251,7 @@
           "I met a woman whose son studies with my daughter."
         ]
       },
-      "explanation": null
+      "explanation": "Her son ← whose son."
     },
     {
       "day_number": 2,
@@ -4273,7 +4270,7 @@
           "The film I watched last night was boring."
         ]
       },
-      "explanation": null
+      "explanation": "it مفعول، فيجوز حذف الضمير: The film I watched."
     },
     {
       "day_number": 2,
@@ -4291,7 +4288,7 @@
           "He gave me a book that changed my mind completely."
         ]
       },
-      "explanation": null
+      "explanation": "It فاعل ← which أو that changed، ولا it بعده."
     },
     {
       "day_number": 2,
@@ -4309,7 +4306,7 @@
           "I work with a man that never says anything."
         ]
       },
-      "explanation": null
+      "explanation": "He فاعل ← who أو that."
     },
     {
       "day_number": 2,
@@ -4324,10 +4321,13 @@
       "answer": {
         "accepted": [
           "This is the hospital where my son was born.",
-          "This is the hospital in which my son was born."
+          "This is the hospital in which my son was born.",
+          "This is the hospital that my son was born in.",
+          "This is the hospital which my son was born in.",
+          "This is the hospital my son was born in."
         ]
       },
-      "explanation": null
+      "explanation": "there ← where."
     },
     {
       "day_number": 2,
@@ -4346,7 +4346,7 @@
           "The bag she bought is very expensive."
         ]
       },
-      "explanation": null
+      "explanation": "it مفعول ← which أو that أو بلا ضمير، ولا it في الآخر."
     },
     {
       "day_number": 2,
@@ -4356,7 +4356,7 @@
       "type": "correct_error",
       "prompt": "اربط الجملتين في جملة واحدة: who · which · that · where · whose · when.",
       "payload": {
-        "sentence": "I remember the day. We arrived in this city then."
+        "sentence": "I remember the day. We arrived in this city on that day."
       },
       "answer": {
         "accepted": [
@@ -4365,7 +4365,7 @@
           "I remember the day that we arrived in this city."
         ]
       },
-      "explanation": null
+      "explanation": "للزمن ← when أو that أو بلا ضمير."
     },
     {
       "day_number": 2,
@@ -4563,7 +4563,7 @@
           "The man that called me was angry."
         ]
       },
-      "explanation": null,
+      "explanation": "who هي الفاعل، فلا he بعدها — الخطأ التاسع عشر.",
       "error_no": 19
     },
     {
@@ -4583,7 +4583,7 @@
           "The film we saw was boring."
         ]
       },
-      "explanation": null,
+      "explanation": "لا it في الآخر: which تقوم مقامه.",
       "error_no": 19
     },
     {
@@ -4602,10 +4602,13 @@
           "The café which we met in is closed.",
           "The café that we met in is closed.",
           "The café we met in is closed.",
-          "The cafe where we met is closed."
+          "The cafe where we met is closed.",
+          "The cafe which we met in is closed.",
+          "The cafe that we met in is closed.",
+          "The cafe we met in is closed."
         ]
       },
-      "explanation": null,
+      "explanation": "where تعني «فيه»، فلا in it.",
       "error_no": 19
     },
     {
@@ -4623,7 +4626,7 @@
           "I know a man whose brother is a pilot."
         ]
       },
-      "explanation": null
+      "explanation": "who his ← whose."
     },
     {
       "day_number": 3,
@@ -4640,7 +4643,7 @@
           "My mother, who lives in Cairo, is a teacher."
         ]
       },
-      "explanation": null
+      "explanation": "بين فاصلتين: who لا that."
     },
     {
       "day_number": 3,
@@ -4658,7 +4661,7 @@
           "The woman that lives next door is nice."
         ]
       },
-      "explanation": null
+      "explanation": "للأشخاص who أو that، لا which."
     },
     {
       "day_number": 3,
@@ -4678,7 +4681,7 @@
           "This is the town that I grew up in."
         ]
       },
-      "explanation": null
+      "explanation": "where فيها «في»، فلا in."
     },
     {
       "day_number": 3,
@@ -4696,7 +4699,7 @@
           "The people that live upstairs are noisy."
         ]
       },
-      "explanation": null,
+      "explanation": "people جمع ← live بلا s.",
       "error_no": 3
     },
     {
@@ -4717,7 +4720,7 @@
           "That's the colleague I told you about."
         ]
       },
-      "explanation": null,
+      "explanation": "لا him في الآخر: who تقوم مقامه.",
       "error_no": 19
     },
     {
@@ -4737,7 +4740,7 @@
           "The book I read was excellent."
         ]
       },
-      "explanation": null
+      "explanation": "الكتاب شيء ← which أو that، لا who."
     },
     {
       "day_number": 4,
@@ -4879,7 +4882,7 @@
       "prompt": "In Dialogue 2, Khaled follows five steps: 1 frame it as balanced, 2 side one with evidence, 3 side two with evidence, 4 admit uncertainty, 5 recommend. Write the line that does each step.",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: 1. I've been asked to summarise both sides, so I'll try to be fair. 2. On the one hand, the new system is faster… about forty per cent, according to the tests which we ran in March. 3. It costs three times more, and the people who use it every day hate it. 4. I could be wrong, but I'd say half of it is, and half is real. 5. Overall, I'd wait six months."
+      "explanation": "الجواب النموذجي: 1. You asked me to summarise both sides, so I'll try to be fair. 2. On the one hand, the new system is faster… about forty per cent, according to the tests which we ran in March. 3. It costs three times more, and the people who use it every day hate it. 4. I could be wrong, but I'd say half of it is, and half is real. 5. Overall, I think we should wait six months."
     },
     {
       "day_number": 5,
@@ -4906,7 +4909,7 @@
       "exercise_no": 5,
       "type": "multiple_choice",
       "focus_ar": "معاني مفردات اليوم — من العربية إلى الإنجليزية",
-      "prompt": "مساوئ",
+      "prompt": "سلبيّة",
       "payload": {
         "options": [
           "benefit",
@@ -5029,9 +5032,9 @@
       "prompt": "What was his position?",
       "payload": {
         "options": [
-          "That his son should choose alone.",
-          "That he was advising his son, not telling him.",
-          "That his sister was right."
+          "His son should choose alone.",
+          "He was only advising his son, not telling him.",
+          "His sister was right."
         ]
       },
       "answer": {
@@ -5124,7 +5127,7 @@
       "prompt": "What was his sister's strongest point?",
       "payload": {
         "options": [
-          "A certain parent damaged him — and now he plans to be a certain parent.",
+          "A parent who was certain damaged him — and now he plans to be a parent who is certain.",
           "Experience is worth nothing.",
           "His son is too young to choose."
         ]
@@ -5197,10 +5200,10 @@
       "focus_ar": "تعقّب الجمل الوصلية",
       "points": 1,
       "type": "free_text",
-      "prompt": "The listening text has nine relative clauses. Write them all and mark which pronouns could be dropped.",
+      "prompt": "The listening text has twelve relative clauses. Write them all and mark which pronouns could be dropped.",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: an argument that I have thought about (يُحذف) · advice that you repeat every week (يُحذف) · experience which he doesn't have (يُحذف) · a question (that) I couldn't answer (يُحذف) · a job (that) I didn't like (يُحذف) · one (that) I did (يُحذف) · the thing that damaged you (لا) · a parent who was certain (لا) · which is usually the sign (غير محدِّدة، لا)."
+      "explanation": "الجواب النموذجي: an argument … that I have thought about (يُحذف) · advice that you repeat every week (يُحذف) · experience which he doesn't have (يُحذف) · a question (that) I couldn't answer (يُحذف) · a job (that) I didn't like (يُحذف) · one (that) I did (يُحذف) · the thing that damaged you (لا) · a parent who was certain (لا) · a parent who is certain (لا) · which is usually the sign (غير محدِّدة، لا) · which is by far the hardest part (غير محدِّدة، لا) · a subject that I did not want for him (يُحذف)."
     },
     {
       "day_number": 7,
@@ -5265,7 +5268,7 @@
       "answer": {
         "correct": false
       },
-      "explanation": "في النصّ: it also makes the other person examine their own reasoning"
+      "explanation": "في النصّ: it makes the other person explain their reasoning — فيكتشف الضعف في حجّته."
     },
     {
       "day_number": 7,
@@ -5496,7 +5499,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": "الفاصلتان معلومة زائدة: لها أخت واحدة."
+      "explanation": "الفاصلتان معلومة زائدة: للمتكلّم أخت واحدة."
     },
     {
       "day_number": 2,
@@ -5514,7 +5517,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": "بلا فواصل تحدّد أيّ أخت: لها أكثر من أخت."
+      "explanation": "بلا فواصل تحدّد أيّ أخت: للمتكلّم أكثر من أخت."
     },
     {
       "day_number": 2,
@@ -5667,7 +5670,9 @@
       },
       "answer": {
         "accepted": [
-          "meeting"
+          "meeting",
+          "we meet",
+          "that we meet"
         ]
       },
       "explanation": "suggest + -ing"
@@ -6030,7 +6035,8 @@
         "accepted": [
           "although",
           "but",
-          "though"
+          "though",
+          "even though"
         ]
       },
       "explanation": "although أو but بين جملتين."
@@ -6049,7 +6055,8 @@
       "answer": {
         "accepted": [
           "However",
-          "Nevertheless"
+          "Nevertheless",
+          "On the other hand"
         ]
       },
       "explanation": "however بعد نقطة وبعدها فاصلة."
@@ -6069,7 +6076,8 @@
           "Although it is cheap, I don't like it.",
           "It is cheap, but I don't like it.",
           "It is cheap. However, I don't like it.",
-          "Though it is cheap, I don't like it."
+          "Though it is cheap, I don't like it.",
+          "Even though it is cheap, I don't like it."
         ]
       },
       "explanation": "however لا تربط جملتين داخل جملة واحدة."
@@ -6167,7 +6175,7 @@
       "answer": {
         "correct": false
       },
-      "explanation": "في النصّ: He chose something I would not have chosen."
+      "explanation": "في النصّ: He chose a subject that I did not want for him."
     },
     {
       "day_number": 6,
@@ -6376,7 +6384,7 @@
       "payload": {
         "options": [
           "what the person thinks",
-          "where the person stands",
+          "the place where the person is standing",
           "the person's job"
         ]
       },
@@ -6472,10 +6480,11 @@
       "answer": {
         "accepted": [
           "from",
-          "to"
+          "to",
+          "than"
         ]
       },
-      "explanation": "different from (وفي بريطانيا to أيضاً) — لا of ولا than."
+      "explanation": "different from — ويقال to في بريطانيا و than في أمريكا أيضاً — لا of."
     },
     {
       "day_number": 7,
@@ -6555,7 +6564,7 @@
       "focus_ar": "اسأل قبل أن تجيب",
       "points": 1,
       "type": "free_text",
-      "prompt": "For each statement, write one real question you would ask before answering — a question, not an objection. 1 Learning grammar is a waste of time. 2 You should never work for a family business. 3 Everyone will speak English in fifty years. 4 It is better to be paid less and enjoy your job.",
+      "prompt": "For each statement, write one real question to ask before answering — a question, not an objection. 1 Learning grammar is a waste of time. 2 You should never work for a family business. 3 Everyone will speak English in fifty years. 4 It is better to be paid less and enjoy your job.",
       "payload": {},
       "answer": {},
       "explanation": "نموذج: 1. What makes you say that? 2. What happened in your family business? 3. Why do you think so? 4. Do you enjoy your job now?"
@@ -6572,7 +6581,8 @@
       },
       "answer": {
         "accepted": [
-          "Cairo, which is very big, is my favourite city."
+          "Cairo, which is very big, is my favourite city.",
+          "Cairo, which is very big, is my favorite city."
         ]
       },
       "explanation": "بين فاصلتين: which لا that."

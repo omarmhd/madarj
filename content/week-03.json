@@ -688,7 +688,7 @@
       "word": "milk",
       "ipa": "/mɪlk/",
       "arabic": "حليب",
-      "example": "There isn't any milk.",
+      "example": "We don't have any milk.",
       "group_label_ar": "الطعام والشراب",
       "group_label_en": "Food and Drink",
       "target": "milk",
@@ -1142,7 +1142,7 @@
       "group": "shopping_and_money",
       "word": "expensive",
       "ipa": "/ɪkˈspensɪv/",
-      "arabic": "غالي",
+      "arabic": "غالٍ",
       "example": "That restaurant is expensive.",
       "group_label_ar": "التسوّق والمال",
       "group_label_en": "Shopping and Money",
@@ -1442,7 +1442,7 @@
       "word": "free",
       "ipa": "/friː/",
       "arabic": "مجاني",
-      "example": "Delivery is free.",
+      "example": "Water is free here.",
       "group_label_ar": "التسوّق والمال",
       "group_label_en": "Shopping and Money",
       "target": "free",
@@ -2170,7 +2170,7 @@
       "group": "in_a_shop",
       "word": "It's two pounds fifty.",
       "ipa": null,
-      "arabic": "بجنيهين وخمسين قرشاً",
+      "arabic": "بجنيهين ونصف",
       "example": "How much is the milk? — It's two pounds fifty."
     },
     {
@@ -2482,7 +2482,7 @@
         {
           "speaker": "SAMI",
           "en": "All right, I'll take one kilo. How much is that in total?",
-          "ar": "حسناً، سآخذ كيلو واحد. كم المجموع؟"
+          "ar": "حسناً، سآخذ كيلو واحداً. كم المجموع؟"
         },
         {
           "speaker": "SELLER",
@@ -2614,7 +2614,7 @@
             "why_ar": "الـ s تنتقل إلى does فيبقى الفعل مجرّداً"
           },
           {
-            "error_no": 3,
+            "error_no": 4,
             "wrong": "Does he works here?",
             "right": "Does he work here?",
             "why_ar": "الشيء نفسه في السؤال"
@@ -2808,10 +2808,10 @@
           {
             "title_ar": "a أم the؟",
             "title_en": "a / an or the",
-            "explain_ar": "a و an لشيء يُذكر أول مرة أو لأيّ واحد من نوعه: I have a son. و the لشيء معروف للطرفين أو ذُكر قبل: The son is ten. والعربية تعرّف بـ«الـ» أكثر من الإنجليزية: «أحبّ القهوة» = I like coffee بلا the، لأنك تقصد القهوة عموماً لا قهوة بعينها.",
+            "explain_ar": "a و an لشيء يُذكر أول مرة أو لأيّ واحد من نوعه: I buy a shirt. و the لشيء معروف للطرفين أو ذُكر قبل: The shirt is blue. والعربية تعرّف بـ«الـ» أكثر من الإنجليزية: «أحبّ القهوة» = I like coffee بلا the، لأنك تقصد القهوة عموماً لا قهوة بعينها.",
             "examples": [
               {
-                "en": "I have a son and a daughter. The son is ten.",
+                "en": "I buy a shirt and a jacket. The shirt is blue.",
                 "ar": "أول مرة a، ثم the لأنه صار معروفاً."
               },
               {
@@ -2977,8 +2977,8 @@
               },
               {
                 "wrong": "many moneys",
-                "right": "a lot of money · much money",
-                "why_ar": "money لا تُجمع، وتأخذ much لا many"
+                "right": "a lot of money",
+                "why_ar": "money لا تُجمع. وفي الإثبات a lot of money، وفي النفي much: I don't have much money."
               },
               {
                 "wrong": "The news are good.",
@@ -3134,7 +3134,7 @@
                 "why_ar": "a few للمعدود الجمع"
               }
             ],
-            "tip_ar": "fruit غالباً غير معدودة: I eat a lot of fruit — لا a lot of fruits."
+            "tip_ar": "fruit في الغالب غير معدودة: I eat a lot of fruit."
           },
           {
             "title_ar": "الكمية: a few · a little · a lot of",
@@ -3319,7 +3319,7 @@
                 [
                   "£2.50",
                   "two pounds fifty",
-                  "جنيهان وخمسون قرشاً"
+                  "جنيهان ونصف"
                 ],
                 [
                   "two kilos of",
@@ -3423,7 +3423,7 @@
           },
           {
             "ipa": "sp-",
-            "arabic_hint": "سين ثم باء بلا فاصل",
+            "arabic_hint": "سين ثم /p/ بلا فاصل — وp ليست باءً",
             "examples": [
               "spoon",
               "spicy",
@@ -3496,7 +3496,7 @@
         "transcript": [
           {
             "en": "Every Friday morning my wife and I go shopping together. We don't go to the supermarket. We go to the old market in the city centre. It is cheap and the food is very fresh.",
-            "ar": "كل صباح جمعة أذهب أنا وزوجتي للتسوّق معاً. لا نذهب إلى السوبرماركت. نذهب إلى السوق القديم في وسط المدينة. هو رخيص والطعام فيه طازج جداً."
+            "ar": "كل صباح جمعة أذهب أنا وزوجتي للتسوّق معاً. لا نذهب إلى السوبرماركت. نذهب إلى السوق القديم في وسط المدينة. إنه رخيص والطعام فيه طازج جداً."
           },
           {
             "en": "We always start at the vegetable stall. My wife buys two kilos of tomatoes, some onions and a lot of green vegetables. She doesn't buy potatoes there because they are expensive.",
@@ -3612,73 +3612,73 @@
             "en": "narrow",
             "ipa": "/ˈnærəʊ/",
             "ar": "ضيّق",
-            "note_ar": "Opposite: wide"
+            "note_ar": "عكسها wide = واسع"
           },
           {
             "en": "tourist",
             "ipa": "/ˈtʊərɪst/",
             "ar": "سائح",
-            "note_ar": "Note the -st cluster"
+            "note_ar": "لاحظ -st في آخرها بلا حركة"
           },
           {
             "en": "owner",
             "ipa": "/ˈəʊnə(r)/",
             "ar": "مالك",
-            "note_ar": "From the verb to own"
+            "note_ar": "من الفعل own = يملك"
           },
           {
             "en": "in advance",
             "ipa": "/ɪn ədˈvɑːns/",
             "ar": "مسبقاً",
-            "note_ar": "A fixed phrase"
+            "note_ar": "عبارة ثابتة"
           },
           {
             "en": "decide",
             "ipa": "/dɪˈsaɪd/",
             "ar": "يقرّر",
-            "note_ar": "Noun: decision"
+            "note_ar": "والاسم منها decision = قرار"
           },
           {
             "en": "dish",
             "ipa": "/dɪʃ/",
             "ar": "طبق (أكلة)",
-            "note_ar": "Also means the plate itself"
+            "note_ar": "وتعني الصحن نفسه أيضاً"
           },
           {
             "en": "choose",
             "ipa": "/tʃuːz/",
             "ar": "يختار",
-            "note_ar": "Past: chose"
+            "note_ar": "والاسم منها choice = اختيار"
           },
           {
             "en": "board",
             "ipa": "/bɔːd/",
             "ar": "لوحة",
-            "note_ar": "A board on the wall"
+            "note_ar": "لوحة على الحائط"
           },
           {
             "en": "worry",
             "ipa": "/ˈwʌri/",
             "ar": "يقلق",
-            "note_ar": "Don't worry!"
+            "note_ar": "Don't worry! = لا تقلق!"
           },
           {
             "en": "full",
             "ipa": "/fʊl/",
             "ar": "ممتلئ",
-            "note_ar": "Also: I am full = I ate enough"
+            "note_ar": "و I am full = شبعت"
           },
           {
             "en": "wait",
             "ipa": "/weɪt/",
             "ar": "ينتظر",
-            "note_ar": "Wait a moment."
+            "note_ar": "Wait a moment. = انتظر لحظة."
           },
           {
             "en": "customer",
             "ipa": "/ˈkʌstəmə(r)/",
             "ar": "زبون",
-            "note_ar": "Already seen in Week 2"
+            "note_ar": "الجمع customers = الزبائن"
           }
         ],
         "questions": [
@@ -3734,7 +3734,7 @@
           },
           {
             "can_ar": "تُكوّن النفي بلا s بعد doesn’t — 9 من 10 صحيحة",
-            "proof_ar": "تمارين اليوم الرابع",
+            "proof_ar": "تمارين اليوم الثالث",
             "can_en": "Make negatives with no -s after doesn't, 9 out of 10 correct?"
           },
           {
@@ -3744,7 +3744,7 @@
           },
           {
             "can_ar": "تستخدم a/an/some/any — 8 من 10 صحيحة",
-            "proof_ar": "تمارين اليوم الثاني",
+            "proof_ar": "تمارين اليوم الرابع",
             "can_en": "Use a/an/some/any with 8 out of 10 correct?"
           },
           {
@@ -3758,9 +3758,9 @@
             "can_en": "Perform the whole restaurant script from memory?"
           },
           {
-            "can_ar": "تتذكّر 80 من 100 كلمة عند عرض العربية",
+            "can_ar": "تتذكّر 80% من كلمات الأسبوع عند عرض العربية",
             "proof_ar": "جلسة المراجعة المتباعدة",
-            "can_en": "Recall 80 of the 100 words from the Arabic?"
+            "can_en": "Recall 80% of the week's words from the Arabic?"
           },
           {
             "can_ar": "تجيب 8 من 10 أسئلة الاستماع صحيحة",
@@ -4300,7 +4300,8 @@
       },
       "answer": {
         "accepted": [
-          "some"
+          "some",
+          "the"
         ]
       },
       "explanation": "some مع الإثبات وغير المعدود: some bread.",
@@ -4318,10 +4319,12 @@
       },
       "answer": {
         "accepted": [
-          "any"
+          "any",
+          "much",
+          "the"
         ]
       },
-      "explanation": "any مع النفي والسؤال، و some مع الإثبات.",
+      "explanation": "any مع النفي والسؤال، و some مع الإثبات. و much تصحّ هنا أيضاً: I don't have much money.",
       "points": 1
     },
     {
@@ -4427,7 +4430,8 @@
       },
       "answer": {
         "accepted": [
-          "What do you want to drink?"
+          "What do you want to drink?",
+          "What would you like to drink?"
         ]
       },
       "explanation": "السؤال في المضارع البسيط يحتاج do بعد أداة الاستفهام.",
@@ -4612,10 +4616,11 @@
       },
       "answer": {
         "accepted": [
-          "any"
+          "any",
+          "some"
         ]
       },
-      "explanation": "any في السؤال والنفي.",
+      "explanation": "any هي المعتادة في السؤال: Do you have any eggs? و some تصحّ في الطلب حين تتوقّع أن الشيء موجود.",
       "points": 1
     },
     {
@@ -4705,7 +4710,7 @@
           "much"
         ]
       },
-      "explanation": "الكلفة غير معدودة فتأخذ how much.",
+      "explanation": "للسعر نسأل دائماً بـ how much: How much does it cost?",
       "points": 1
     },
     {
@@ -4907,10 +4912,11 @@
       },
       "answer": {
         "accepted": [
-          "like"
+          "like",
+          "love"
         ]
       },
-      "explanation": "I'd like = I would like، الطلب المؤدّب.",
+      "explanation": "I'd like = I would like، الطلب المؤدّب. و I'd love أقوى منها وصحيحة أيضاً.",
       "focus_ar": "الطلب المؤدّب — I'd like",
       "error_no": null,
       "points": 1
@@ -5036,7 +5042,8 @@
       },
       "answer": {
         "accepted": [
-          "I need some information."
+          "I need some information.",
+          "I need information."
         ]
       },
       "explanation": "information لا تُجمع في الإنجليزية — ولو كانت «معلومات» جمعاً في العربية.",
@@ -5060,7 +5067,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": "money لا تُجمع ولا تأخذ a: a lot of money أو much money.",
+      "explanation": "money لا تُجمع ولا تأخذ a. وفي الإثبات a lot of money، أمّا much ففي النفي والسؤال: I don't have much money.",
       "focus_ar": "كلمات لا تُجمع",
       "error_no": null,
       "points": 1
@@ -5155,7 +5162,9 @@
       },
       "answer": {
         "accepted": [
-          "Yes, she does."
+          "Yes, she does.",
+          "Does she cook? — Yes, she does.",
+          "Yes she does."
         ]
       },
       "explanation": "she تأخذ does في السؤال والجواب.",
@@ -5188,7 +5197,7 @@
       "day_number": 5,
       "exercise_no": 5,
       "type": "multiple_choice",
-      "prompt": "I have a son. ___ son is ten.",
+      "prompt": "I buy a shirt and a jacket. ___ shirt is blue.",
       "payload": {
         "options": [
           "A",
@@ -5200,7 +5209,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": "ذُكر الابن قبلُ فصار معروفاً: the.",
+      "explanation": "ذُكر القميص قبلُ فصار معروفاً: The shirt.",
       "focus_ar": "a أم the",
       "error_no": null,
       "points": 1
@@ -5256,7 +5265,9 @@
       },
       "answer": {
         "accepted": [
-          "These trousers are cheap."
+          "These trousers are cheap.",
+          "Those trousers are cheap.",
+          "This pair of trousers is cheap."
         ]
       },
       "explanation": "trousers جمع دائماً، فتأخذ these وare: These trousers are cheap. والعربية «هذا البنطلون» مفرد — وهنا الفخّ.",
@@ -6296,7 +6307,7 @@
           "some"
         ]
       },
-      "explanation": "السؤال بـ any.",
+      "explanation": "any هي المعتادة في السؤال، و some تصحّ في الطلب حين تتوقّع أن الشيء موجود.",
       "points": 1,
       "exercise_no": 4
     },
@@ -6395,10 +6406,11 @@
       },
       "answer": {
         "accepted": [
-          "any"
+          "any",
+          "some"
         ]
       },
-      "explanation": "السؤال بـ any.",
+      "explanation": "any هي المعتادة في السؤال: Do we have any water? و some تصحّ في الطلب حين تتوقّع أن الشيء موجود.",
       "points": 1,
       "exercise_no": 4
     },
@@ -6903,7 +6915,7 @@
     {
       "day_number": 5,
       "type": "multiple_choice",
-      "prompt": "We have a dog. ___ dog is very small.",
+      "prompt": "I see a cat and a dog in the street. ___ dog is very small.",
       "payload": {
         "options": [
           "A",
@@ -7545,7 +7557,8 @@
       },
       "answer": {
         "accepted": [
-          "He doesn't like fish."
+          "He doesn't like fish.",
+          "He does not like fish."
         ]
       },
       "explanation": "لا s بعد doesn't.",
@@ -7579,7 +7592,8 @@
       },
       "answer": {
         "accepted": [
-          "She doesn't eat breakfast."
+          "She doesn't eat breakfast.",
+          "She does not eat breakfast."
         ]
       },
       "explanation": "النفي بـ doesn't، ولا تكفي not.",
@@ -7670,7 +7684,8 @@
       },
       "answer": {
         "accepted": [
-          "We don't have any money."
+          "We don't have any money.",
+          "We do not have any money."
         ]
       },
       "explanation": "النفي بـ any.",

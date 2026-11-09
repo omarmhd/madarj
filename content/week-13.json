@@ -739,7 +739,7 @@
       "group": "past_participles",
       "word": "catch → caught",
       "ipa": null,
-      "arabic": "يلتقط / يلحق بـ",
+      "arabic": "يمسك / يصطاد / يلحق بـ",
       "example": "Have you ever caught a fish?",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
@@ -1090,7 +1090,7 @@
       "group": "past_participles",
       "word": "fly → flew → flown",
       "ipa": null,
-      "arabic": "يطير",
+      "arabic": "يطير / يسافر بالطائرة",
       "example": "Have you ever flown in a small plane?",
       "group_label_ar": "أسماء المفعول",
       "group_label_en": "Past Participles",
@@ -1532,7 +1532,7 @@
       "group": "experience_questions_and_answers",
       "word": "Yes, I have.",
       "ipa": null,
-      "arabic": "نعم",
+      "arabic": "نعم، فعلت.",
       "example": "Have you seen this film? Yes, I have.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
@@ -1545,7 +1545,7 @@
       "group": "experience_questions_and_answers",
       "word": "No, I haven't.",
       "ipa": null,
-      "arabic": "لا",
+      "arabic": "لا، لم أفعل.",
       "example": "Have you met him? No, I haven't.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
@@ -1832,7 +1832,7 @@
       "word": "The best thing I've done",
       "ipa": null,
       "arabic": "أفضل شيء فعلته",
-      "example": "The best thing I've done is learning to swim.",
+      "example": "The best thing I've done is learn to swim.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
       "target": null,
@@ -1896,7 +1896,7 @@
       "group": "experience_questions_and_answers",
       "word": "Not that I remember.",
       "ipa": null,
-      "arabic": "لا أتذكّر ذلك",
+      "arabic": "لا، على ما أذكر.",
       "example": "Have we met before? Not that I remember.",
       "group_label_ar": "أسئلة التجربة وأجوبتها",
       "group_label_en": "Experience Questions and Answers",
@@ -2500,7 +2500,7 @@
         {
           "speaker": "KHALED",
           "en": "Two of them are still there and doing well. One left after a month.",
-          "ar": "اثنان منهم ما زالا هناك ويبليان حسناً. واحد غادر بعد شهر."
+          "ar": "اثنان منهما ما زالا هناك ويؤدّيان عملهما جيداً. وواحد غادر بعد شهر."
         },
         {
           "speaker": "MANAGER",
@@ -3076,7 +3076,7 @@
             1
           ]
         },
-        "arabic_contrast_ar": "العربية تقول «ذهب إلى القاهرة» في الحالتين، فلا يفرّق المتعلّم بين من رجع ومن لم يرجع. والإنجليزية تفرّق باسم المفعول: gone لمن ما زال غائباً، وbeen لمن زار ورجع. ولهذا يكون سؤال التجربة دائماً بـ been: Have you ever been to…? — فأنت هنا تجيب، لا هناك.",
+        "arabic_contrast_ar": "العربية تقول «ذهب إلى القاهرة» في الحالتين، فلا يفرّق المتعلّم بين من رجع ومن لم يرجع. والإنجليزية تفرّق باسم المفعول: gone لمن ما زال غائباً، وbeen لمن زار ورجع. ولهذا يكون سؤال التجربة بـ been: Have you ever been to…? — فأنت هنا تجيب، لا هناك.",
         "contrast_table": [
           {
             "ar": "هو ذهب إلى القاهرة (وما زال هناك).",
@@ -3093,16 +3093,16 @@
             "why_ar": "gone = ما زال غائباً"
           },
           {
-            "wrong": "I have gone to Turkey twice.",
-            "right": "I have been to Turkey twice.",
-            "arabic": "ذهبت إلى تركيا مرّتين.",
-            "why_ar": "أنت هنا تتكلّم، إذن رجعت: been"
+            "wrong": "Where's Ali? — He's been to the shop.",
+            "right": "Where's Ali? — He's gone to the shop.",
+            "arabic": "أين علي؟ — ذهب إلى المحلّ.",
+            "why_ar": "هو في المحلّ الآن ولم يرجع: gone"
           },
           {
-            "wrong": "Have you ever gone to Jordan?",
-            "right": "Have you ever been to Jordan?",
-            "arabic": "هل سبق أن ذهبت إلى الأردن؟",
-            "why_ar": "سؤال التجربة بـ been"
+            "wrong": "I have went to Jordan twice.",
+            "right": "I have been to Jordan twice.",
+            "arabic": "ذهبت إلى الأردن مرّتين.",
+            "why_ar": "بعد have اسم المفعول لا الماضي went، وللزيارة been"
           }
         ],
         "negation_ar": "النفي: I have never been to Europe = لم أزرها قطّ. وHe hasn't gone yet = لم يغادر بعد، ما زال هنا.",
@@ -3110,7 +3110,25 @@
         "checklist_ar": [
           "have been to = ذهب وعاد",
           "have gone to = ذهب ولم يعد",
-          "سؤال التجربة دائماً بـ been"
+          "سؤال التجربة بـ been — صحيحة في كل مكان"
+        ],
+        "lessons": [
+          {
+            "title_ar": "gone للتجربة في الأمريكية",
+            "title_en": "gone for experience in American English",
+            "explain_ar": "في الإنجليزية الأمريكية ستسمع أحياناً gone بمعنى been للتجربة: Have you ever gone to Florida? · I have gone there twice. وهذا ليس خطأً هناك. أمّا been فصحيحة في البريطانية والأمريكية معاً، فتعلّمها أولاً. لكن لمن ما زال غائباً لا تصلح إلا gone في كل مكان: Where is Ali? — He has gone to the shop.",
+            "examples": [
+              {
+                "en": "Have you ever been to Jordan? — Yes, twice.",
+                "ar": "هل سبق أن ذهبت إلى الأردن؟ — نعم، مرّتين."
+              },
+              {
+                "en": "Where's Sara? — She's gone to the bank.",
+                "ar": "أين سارة؟ — ذهبت إلى البنك (وهي هناك الآن)."
+              }
+            ],
+            "tip_ar": "اسأل: أين هو الآن؟ هناك ← gone. هنا ← been."
+          }
         ]
       }
     },
@@ -3171,10 +3189,10 @@
             3
           ]
         },
-        "arabic_contrast_ar": "هنا يقع الخطأ: العربية تفرّق بين «ملول» و«مملّ» و«متعَب» و«مُتعِب» بالحركات، والمتعلّم لا يرى هذا الفرق في الإنجليزية فيقول I am boring وهو يقصد «أشعر بالملل» — لكنها تعني «أنا شخص مملّ»! والسؤال الذي يحسمها: هل أصف ما أشعر به؟ ← -ed. هل أصف ما سبّب الشعور؟ ← -ing.",
+        "arabic_contrast_ar": "هنا يقع الخطأ: العربية تفرّق بين «أشعر بالملل» و«مملّ»، وبين «متعَب» و«مُتعِب» بالحركة، والمتعلّم لا يرى هذا الفرق في الإنجليزية فيقول I am boring وهو يقصد «أشعر بالملل» — لكنها تعني «أنا شخص مملّ»! والسؤال الذي يحسمها: هل أصف ما أشعر به؟ ← -ed. هل أصف ما سبّب الشعور؟ ← -ing.",
         "contrast_table": [
           {
-            "ar": "أنا ملول في هذا الدرس.",
+            "ar": "أشعر بالملل في هذا الدرس.",
             "literal": "I am boring in this lesson.",
             "right": "I am bored in this lesson.",
             "rule_ar": "شعورك أنت: -ed"
@@ -3436,7 +3454,7 @@
               "I've always wanted to",
               "Have you ever been"
             ],
-            "note_ar": "I've always wanted to ← «I-va-vall-ways-wan-ted-to»، وHave you ever been ← «Ha-vyou-we-ver-been»."
+            "note_ar": "I've always wanted to ← «I-vall-ways-wan-ted-to»، وHave you ever been ← «Ha-vyou-we-ver-been»."
           }
         ],
         "tip_ar": "لا تحاول نطقها كاملة ثم تسريعها. الطريقة الأسرع: اسمع الجملة عشر مرات ثم قلّدها كتلةً واحدة. وقل كل سطر خمس مرات بلا توقّف بين الكلمات: I've always wanted to visit Egypt · Have you ever eaten it? · She has arrived at the airport · We have another hour."
@@ -3552,11 +3570,11 @@
           },
           {
             "en": "\"Armrests are the enemy,\" he says. \"A bench without armrests is a bed. A bench with them is a puzzle.\"",
-            "ar": "يقول: «المساند هي العدوّ. المقعد الطويل بلا مساند سرير. وبها ألغاز»."
+            "ar": "يقول: «المساند هي العدوّ. المقعد الطويل بلا مساند سرير. والمقعد الذي فيه مساند لغز»."
           },
           {
-            "en": "It started by accident in 1996. He missed a connection in Singapore and had to wait eleven hours. He expected a terrible night. Instead he found a quiet garden inside the terminal, and he slept better than he had slept in his own bed that month.",
-            "ar": "بدأ الأمر بالمصادفة سنة 1996. فاتته رحلة موصّلة في سنغافورة فاضطرّ إلى الانتظار إحدى عشرة ساعة. وكان يتوقّع ليلة فظيعة، فوجد بدلاً من ذلك حديقة هادئة داخل الصالة، ونام نوماً أفضل ممّا نامه في سريره ذلك الشهر."
+            "en": "It started by accident in 1996. He missed a connection in Singapore and had to wait eleven hours. He expected a terrible night. Instead he found a quiet garden inside the terminal, and he slept better than in his own bed at home.",
+            "ar": "بدأ الأمر بالمصادفة سنة 1996. فاتته رحلة موصّلة في سنغافورة فاضطرّ إلى الانتظار إحدى عشرة ساعة. وكان يتوقّع ليلة فظيعة، فوجد بدلاً من ذلك حديقة هادئة داخل الصالة، ونام أفضل ممّا ينام في سريره في البيت."
           },
           {
             "en": "He wrote about it online. Other travellers replied with their own experiences. Thirty years later the site has millions of readers and covers most of the world.",
@@ -3568,7 +3586,7 @@
           },
           {
             "en": "His favourite is still Singapore. His worst, he says, was an airport in Europe that he refuses to name, \"because I have been rude enough about it in print already.\"",
-            "ar": "ما زالت سنغافورة مطاره المفضّل. وأسوأها، كما يقول، مطار في أوروبا يرفض أن يسمّيه، «لأنني كنت وقحاً معه في الكتابة بما يكفي»."
+            "ar": "ما زالت سنغافورة مطاره المفضّل. وأسوأها، كما يقول، مطار في أوروبا يرفض أن يسمّيه، «لأنني قسوت عليه بما يكفي فيما نشرته»."
           }
         ],
         "glossary": [
@@ -3684,7 +3702,7 @@
             "a_ar": "لا جواب واحد. نموذج: The strangest place I have ever slept is a bus station. I slept there in 2018 when I missed the last bus."
           },
           {
-            "q_ar": "للنقاش: هل لك هواية يراها الناس غريبة؟ What hobby have you had that other people found strange?",
+            "q_ar": "للنقاش: هل لك هواية يراها الناس غريبة؟ Do you have a hobby that other people think is strange?",
             "a_ar": "لا جواب واحد. نموذج: I have collected old keys for ten years. My friends think it is strange, but every key has a story."
           }
         ]
@@ -4506,7 +4524,7 @@
           "have seen"
         ]
       },
-      "explanation": null
+      "explanation": "have + اسم المفعول: I have seen"
     },
     {
       "day_number": 2,
@@ -4524,7 +4542,7 @@
           "has never been"
         ]
       },
-      "explanation": null
+      "explanation": "she تأخذ has، وnever قبل اسم المفعول: has never been"
     },
     {
       "day_number": 2,
@@ -4543,7 +4561,7 @@
           "have / eaten"
         ]
       },
-      "explanation": null
+      "explanation": "السؤال: Have + الفاعل + ever + اسم المفعول: Have you ever eaten"
     },
     {
       "day_number": 2,
@@ -4561,7 +4579,7 @@
           "haven't finished"
         ]
       },
-      "explanation": null
+      "explanation": "النفي: haven't + اسم المفعول: haven't finished"
     },
     {
       "day_number": 2,
@@ -4579,7 +4597,7 @@
           "has lost"
         ]
       },
-      "explanation": null
+      "explanation": "he تأخذ has: lose → lost → lost"
     },
     {
       "day_number": 2,
@@ -4597,7 +4615,7 @@
           "have known"
         ]
       },
-      "explanation": null
+      "explanation": "بدأ قبلُ وما زال مع for: have known (الخطأ 16)"
     },
     {
       "day_number": 2,
@@ -4616,7 +4634,7 @@
           "has / written"
         ]
       },
-      "explanation": null
+      "explanation": "السؤال مع she: Has she written…? (write → wrote → written)"
     },
     {
       "day_number": 2,
@@ -4634,7 +4652,7 @@
           "have visited"
         ]
       },
-      "explanation": null
+      "explanation": "parents = they، فتأخذ have: have visited"
     },
     {
       "day_number": 2,
@@ -4652,7 +4670,7 @@
           "have never driven"
         ]
       },
-      "explanation": null
+      "explanation": "never بين have واسم المفعول: drive → drove → driven"
     },
     {
       "day_number": 2,
@@ -4670,7 +4688,7 @@
           "have broken"
         ]
       },
-      "explanation": null
+      "explanation": "children = they: break → broke → broken"
     },
     {
       "day_number": 2,
@@ -4689,7 +4707,7 @@
           "have / met"
         ]
       },
-      "explanation": null
+      "explanation": "السؤال: Have you met…? (meet → met → met)"
     },
     {
       "day_number": 2,
@@ -4707,7 +4725,7 @@
           "has forgotten"
         ]
       },
-      "explanation": null
+      "explanation": "he تأخذ has: forget → forgot → forgotten"
     },
     {
       "day_number": 4,
@@ -4725,7 +4743,7 @@
           "gone"
         ]
       },
-      "explanation": null
+      "explanation": "أين أحمد؟ في المطار الآن، لم يرجع: gone"
     },
     {
       "day_number": 4,
@@ -4740,10 +4758,11 @@
       },
       "answer": {
         "accepted": [
-          "been"
+          "been",
+          "gone"
         ]
       },
-      "explanation": null
+      "explanation": "ذهبتَ ورجعت وأنت تحكي: been. (وفي الأمريكية تُسمع gone هنا أيضاً)"
     },
     {
       "day_number": 4,
@@ -4761,7 +4780,7 @@
           "gone"
         ]
       },
-      "explanation": null
+      "explanation": "هي في البيت الآن، لا هنا: gone"
     },
     {
       "day_number": 4,
@@ -4776,10 +4795,11 @@
       },
       "answer": {
         "accepted": [
-          "been"
+          "been",
+          "gone"
         ]
       },
-      "explanation": null
+      "explanation": "سؤال التجربة بـ been: صحيحة في كل مكان. (وفي الأمريكية تُسمع gone أيضاً)"
     },
     {
       "day_number": 4,
@@ -4794,10 +4814,11 @@
       },
       "answer": {
         "accepted": [
-          "been"
+          "been",
+          "gone"
         ]
       },
-      "explanation": null
+      "explanation": "زاروها ورجعوا ثلاث مرّات: been. (وفي الأمريكية تُسمع gone أيضاً)"
     },
     {
       "day_number": 4,
@@ -4815,7 +4836,7 @@
           "gone"
         ]
       },
-      "explanation": null
+      "explanation": "المدير خارج المكتب الآن: gone out"
     },
     {
       "day_number": 4,
@@ -4830,10 +4851,11 @@
       },
       "answer": {
         "accepted": [
-          "been"
+          "been",
+          "gone"
         ]
       },
-      "explanation": null
+      "explanation": "تجربة لم تحدث قطّ: never been. (وفي الأمريكية تُسمع gone أيضاً)"
     },
     {
       "day_number": 4,
@@ -4851,7 +4873,7 @@
           "gone"
         ]
       },
-      "explanation": null
+      "explanation": "ما زال غائباً وسيرجع بعد عشر دقائق: gone"
     },
     {
       "day_number": 3,
@@ -4859,14 +4881,14 @@
       "focus_ar": "صياغة السؤال بـever",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "كوّن سؤالاً بـ Have you ever…؟",
+      "prompt": "كوّن سؤالاً بـ Have you ever…؟ — اكتب اسم المفعول",
       "payload": {
-        "before": "(fly / in a helicopter) → ",
-        "after": ""
+        "before": "(fly / in a helicopter) → Have you ever ",
+        "after": " in a helicopter?"
       },
       "answer": {
         "accepted": [
-          "Have you ever flown in a helicopter?"
+          "flown"
         ]
       },
       "explanation": "Have you ever + اسم المفعول: Have you ever flown in a helicopter?"
@@ -4877,17 +4899,18 @@
       "focus_ar": "صياغة السؤال بـever",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "كوّن سؤالاً بـ Have you ever…؟",
+      "prompt": "كوّن سؤالاً بـ Have you ever…؟ — اكتب اسم المفعول",
       "payload": {
-        "before": "(be / to Europe) → ",
-        "after": ""
+        "before": "(be / to Europe) → Have you ever ",
+        "after": " to Europe?"
       },
       "answer": {
         "accepted": [
-          "Have you ever been to Europe?"
+          "been",
+          "gone"
         ]
       },
-      "explanation": "Have you ever + اسم المفعول: Have you ever been to Europe?"
+      "explanation": "Have you ever + اسم المفعول: Have you ever been to Europe? (been صحيحة في كل مكان، وgone أمريكية)"
     },
     {
       "day_number": 3,
@@ -4895,14 +4918,14 @@
       "focus_ar": "صياغة السؤال بـever",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "كوّن سؤالاً بـ Have you ever…؟",
+      "prompt": "كوّن سؤالاً بـ Have you ever…؟ — اكتب اسم المفعول",
       "payload": {
-        "before": "(eat / Japanese food) → ",
-        "after": ""
+        "before": "(eat / Japanese food) → Have you ever ",
+        "after": " Japanese food?"
       },
       "answer": {
         "accepted": [
-          "Have you ever eaten Japanese food?"
+          "eaten"
         ]
       },
       "explanation": "Have you ever + اسم المفعول: Have you ever eaten Japanese food?"
@@ -4913,14 +4936,14 @@
       "focus_ar": "صياغة السؤال بـever",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "كوّن سؤالاً بـ Have you ever…؟",
+      "prompt": "كوّن سؤالاً بـ Have you ever…؟ — اكتب اسم المفعول",
       "payload": {
-        "before": "(lose / your phone) → ",
-        "after": ""
+        "before": "(lose / your phone) → Have you ever ",
+        "after": " your phone?"
       },
       "answer": {
         "accepted": [
-          "Have you ever lost your phone?"
+          "lost"
         ]
       },
       "explanation": "Have you ever + اسم المفعول: Have you ever lost your phone?"
@@ -4931,14 +4954,14 @@
       "focus_ar": "صياغة السؤال بـever",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "كوّن سؤالاً بـ Have you ever…؟",
+      "prompt": "كوّن سؤالاً بـ Have you ever…؟ — اكتب اسم المفعول",
       "payload": {
-        "before": "(meet / a famous person) → ",
-        "after": ""
+        "before": "(meet / a famous person) → Have you ever ",
+        "after": " a famous person?"
       },
       "answer": {
         "accepted": [
-          "Have you ever met a famous person?"
+          "met"
         ]
       },
       "explanation": "Have you ever + اسم المفعول: Have you ever met a famous person?"
@@ -4949,14 +4972,14 @@
       "focus_ar": "صياغة السؤال بـever",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "كوّن سؤالاً بـ Have you ever…؟",
+      "prompt": "كوّن سؤالاً بـ Have you ever…؟ — اكتب اسم المفعول",
       "payload": {
-        "before": "(break / a bone) → ",
-        "after": ""
+        "before": "(break / a bone) → Have you ever ",
+        "after": " a bone?"
       },
       "answer": {
         "accepted": [
-          "Have you ever broken a bone?"
+          "broken"
         ]
       },
       "explanation": "Have you ever + اسم المفعول: Have you ever broken a bone?"
@@ -4967,14 +4990,14 @@
       "focus_ar": "صياغة السؤال بـever",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "كوّن سؤالاً بـ Have you ever…؟",
+      "prompt": "كوّن سؤالاً بـ Have you ever…؟ — اكتب اسم المفعول",
       "payload": {
-        "before": "(drive / a motorbike) → ",
-        "after": ""
+        "before": "(drive / a motorbike) → Have you ever ",
+        "after": " a motorbike?"
       },
       "answer": {
         "accepted": [
-          "Have you ever driven a motorbike?"
+          "driven"
         ]
       },
       "explanation": "Have you ever + اسم المفعول: Have you ever driven a motorbike?"
@@ -4985,14 +5008,14 @@
       "focus_ar": "صياغة السؤال بـever",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "كوّن سؤالاً بـ Have you ever…؟",
+      "prompt": "كوّن سؤالاً بـ Have you ever…؟ — اكتب اسم المفعول",
       "payload": {
-        "before": "(swim / in the sea at night) → ",
-        "after": ""
+        "before": "(swim / in the sea at night) → Have you ever ",
+        "after": " in the sea at night?"
       },
       "answer": {
         "accepted": [
-          "Have you ever swum in the sea at night?"
+          "swum"
         ]
       },
       "explanation": "Have you ever + اسم المفعول: Have you ever swum in the sea at night?"
@@ -5003,14 +5026,14 @@
       "focus_ar": "صياغة السؤال بـever",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "كوّن سؤالاً بـ Have you ever…؟",
+      "prompt": "كوّن سؤالاً بـ Have you ever…؟ — اكتب اسم المفعول",
       "payload": {
-        "before": "(forget / an important birthday) → ",
-        "after": ""
+        "before": "(forget / an important birthday) → Have you ever ",
+        "after": " an important birthday?"
       },
       "answer": {
         "accepted": [
-          "Have you ever forgotten an important birthday?"
+          "forgotten"
         ]
       },
       "explanation": "Have you ever + اسم المفعول: Have you ever forgotten an important birthday?"
@@ -5044,7 +5067,8 @@
       },
       "answer": {
         "accepted": [
-          "I have seen that film."
+          "I have seen that film.",
+          "I saw that film."
         ]
       },
       "explanation": "بعد have اسم المفعول: seen"
@@ -5079,10 +5103,13 @@
       },
       "answer": {
         "accepted": [
-          "Have you ever been to Turkey?"
+          "Have you ever been to Turkey?",
+          "Have you ever gone to Turkey?",
+          "Have you ever visited Turkey?",
+          "Did you ever go to Turkey?"
         ]
       },
-      "explanation": "بعد have اسم المفعول، وللزيارة been"
+      "explanation": "بعد have اسم المفعول لا الماضي went: been (أو gone في الأمريكية)"
     },
     {
       "day_number": 4,
@@ -5092,16 +5119,15 @@
       "type": "correct_error",
       "prompt": "تصحيح الخطأ",
       "payload": {
-        "sentence": "He has gone to Cairo twice and he is here now."
+        "sentence": "Ahmed has been to Dubai, and he is still there."
       },
       "answer": {
         "accepted": [
-          "He has been to Cairo twice.",
-          "He has been to Cairo twice and he is here now.",
-          "He has been to Cairo twice, and he is here now."
+          "Ahmed has gone to Dubai, and he is still there.",
+          "Ahmed's gone to Dubai, and he is still there."
         ]
       },
-      "explanation": "رجع وهو هنا الآن: been لا gone"
+      "explanation": "ما زال هناك ولم يرجع: gone لا been"
     },
     {
       "day_number": 4,
@@ -5184,7 +5210,8 @@
       },
       "answer": {
         "accepted": [
-          "She has broken her arm."
+          "She has broken her arm.",
+          "She broke her arm."
         ]
       },
       "explanation": "break → broke → broken"
@@ -5329,7 +5356,7 @@
           "11 countries"
         ]
       },
-      "explanation": null
+      "explanation": "I have travelled to eleven countries."
     },
     {
       "day_number": 6,
@@ -5346,10 +5373,12 @@
         "accepted": [
           "twice",
           "two times",
-          "2 times"
+          "2 times",
+          "two",
+          "2"
         ]
       },
-      "explanation": null
+      "explanation": "I have changed career twice."
     },
     {
       "day_number": 6,
@@ -5426,7 +5455,7 @@
       "prompt": "How did he feel afterwards, and why?",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: Stupid — because he had avoided it for twenty years for no reason."
+      "explanation": "الجواب النموذجي: Stupid — not because he went, but because he has avoided it for twenty years for no reason."
     },
     {
       "day_number": 6,
@@ -5496,7 +5525,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "He has slept in more than a hundred of them."
     },
     {
       "day_number": 7,
@@ -5522,7 +5551,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "He missed a connection in Singapore."
     },
     {
       "day_number": 7,
@@ -5561,7 +5590,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "His favourite is still Singapore."
     },
     {
       "day_number": 7,
@@ -5988,7 +6017,8 @@
       },
       "answer": {
         "accepted": [
-          "How many times have you been there?"
+          "How many times have you been there?",
+          "How many times have you gone there?"
         ]
       },
       "explanation": "في السؤال تتقدّم have على الفاعل"
@@ -6053,7 +6083,7 @@
       "prompt": "Ali has been to Dubai. Where is Ali now?",
       "payload": {
         "options": [
-          "Back home — he went and came back.",
+          "Not in Dubai — he went and came back.",
           "In Dubai."
         ]
       },

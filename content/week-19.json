@@ -609,18 +609,12 @@
         },
         {
           "order": 9,
-          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record:baseline"
-        },
-        {
-          "order": 10,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
         },
         {
-          "order": 11,
+          "order": 10,
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework"
@@ -1218,7 +1212,7 @@
       "group": "materials_and_measurements",
       "word": "amount",
       "ipa": "/əˈmaʊnt/",
-      "arabic": "كمية",
+      "arabic": "مقدار",
       "example": "A large amount of water is used.",
       "group_label_ar": "الموادّ والمقاييس",
       "group_label_en": "Materials and Measurements",
@@ -1790,7 +1784,7 @@
       "group": "listening_strategy_words",
       "word": "I lost you at…",
       "ipa": null,
-      "arabic": "ضِعت عند…",
+      "arabic": "لم أعد أتابعك عند…",
       "example": "I lost you at the third step.",
       "group_label_ar": "كلمات استراتيجية الاستماع",
       "group_label_en": "Listening Strategy Words",
@@ -1985,7 +1979,7 @@
       "group": "passive_chunks",
       "word": "be born",
       "ipa": null,
-      "arabic": "يولد",
+      "arabic": "يُولَد",
       "example": "My son was born in March.",
       "group_label_ar": "تعابير المجهول الشائعة",
       "group_label_en": "Common Passive Chunks",
@@ -2284,7 +2278,7 @@
       "group": "giving_news",
       "word": "What a relief!",
       "ipa": null,
-      "arabic": "يا للراحة!",
+      "arabic": "يا له من ارتياح!",
       "example": "Nobody was hurt? What a relief!",
       "group_label_ar": "نقل الأخبار والتفاعل معها",
       "group_label_en": "Giving and Reacting to News",
@@ -2666,7 +2660,7 @@
         {
           "speaker": "SAMI",
           "en": "Hacked? By whom?",
-          "ar": "اختُرق؟ من قبل من؟"
+          "ar": "اختُرق؟ ومَن اخترقه؟"
         },
         {
           "speaker": "LINA",
@@ -4211,7 +4205,7 @@
             "ipa": "have to → hafta",
             "arabic_hint": "v تصير f قبل to: «هافتا».",
             "examples": [
-              "It has to be done today.",
+              "We have to leave now.",
               "I have to go."
             ]
           },
@@ -4701,7 +4695,8 @@
       },
       "answer": {
         "accepted": [
-          "The meeting has been cancelled."
+          "The meeting has been cancelled.",
+          "The meeting has been canceled."
         ]
       },
       "explanation": "التامّ بالمجهول: has been + cancelled."
@@ -4839,7 +4834,8 @@
       },
       "answer": {
         "accepted": [
-          "This book was written by a fourteen-year-old."
+          "This book was written by a fourteen-year-old.",
+          "This book was written by a 14-year-old."
         ]
       },
       "explanation": "الفاعل هو المدهش هنا، فيبقى بـ by."
@@ -4857,7 +4853,8 @@
       },
       "answer": {
         "accepted": [
-          "is made"
+          "is made",
+          "was made"
         ]
       },
       "explanation": "الجواب: is made."
@@ -4875,7 +4872,8 @@
       },
       "answer": {
         "accepted": [
-          "are delivered"
+          "are delivered",
+          "were delivered"
         ]
       },
       "explanation": "الجواب: are delivered."
@@ -4929,10 +4927,11 @@
       },
       "answer": {
         "accepted": [
-          "hasn't been finished"
+          "hasn't been finished",
+          "isn't finished"
         ]
       },
-      "explanation": "الجواب: hasn't been finished."
+      "explanation": "الجواب: hasn't been finished — المضارع التام المبني للمجهول، وهو المقصود هنا. وisn't finished صحيحة أيضاً: تصف حال التقرير الآن."
     },
     {
       "day_number": 4,
@@ -4947,7 +4946,8 @@
       },
       "answer": {
         "accepted": [
-          "will be sent"
+          "will be sent",
+          "is going to be sent"
         ]
       },
       "explanation": "الجواب: will be sent."
@@ -4965,7 +4965,8 @@
       },
       "answer": {
         "accepted": [
-          "aren't allowed"
+          "aren't allowed",
+          "weren't allowed"
         ]
       },
       "explanation": "الجواب: aren't allowed."
@@ -5001,7 +5002,9 @@
       },
       "answer": {
         "accepted": [
-          "are exported"
+          "are exported",
+          "were exported",
+          "have been exported"
         ]
       },
       "explanation": "الجواب: are exported."
@@ -5055,7 +5058,8 @@
       },
       "answer": {
         "accepted": [
-          "has been translated"
+          "has been translated",
+          "was translated"
         ]
       },
       "explanation": "الجواب: has been translated."
@@ -5216,7 +5220,8 @@
       "answer": {
         "accepted": [
           "It is made in Egypt.",
-          "It's made in Egypt."
+          "It's made in Egypt.",
+          "It was made in Egypt."
         ]
       },
       "explanation": "is + made."
@@ -5233,7 +5238,8 @@
       },
       "answer": {
         "accepted": [
-          "The flight has been cancelled."
+          "The flight has been cancelled.",
+          "The flight has been canceled."
         ]
       },
       "explanation": "been مطلوبة."
@@ -5391,7 +5397,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "في النصّ: It was installed by a company that no longer exists."
     },
     {
       "day_number": 6,
@@ -5410,7 +5416,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "في النصّ: nobody could promise that nothing depended on it."
     },
     {
       "day_number": 6,
@@ -5429,7 +5435,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "في النصّ: three dates have been chosen to switch it off."
     },
     {
       "day_number": 6,
@@ -5448,7 +5454,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "في النصّ: the electricity … was cut … and the machine went off for four hours."
     },
     {
       "day_number": 6,
@@ -5480,7 +5486,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "في النصّ: \"Do not switch off. We do not know why.\""
     },
     {
       "day_number": 6,
@@ -5499,7 +5505,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "في النصّ: The sign was written by an engineer who retired eight years ago."
     },
     {
       "day_number": 6,
@@ -5544,7 +5550,8 @@
       },
       "answer": {
         "accepted": [
-          "is delivered"
+          "is delivered",
+          "was delivered"
         ]
       },
       "explanation": "في الحوار: The cotton is delivered every Monday."
@@ -5562,10 +5569,11 @@
       },
       "answer": {
         "accepted": [
-          "is grown"
+          "is grown",
+          "was grown"
         ]
       },
-      "explanation": "في الحوار: It is grown about forty kilometres from here."
+      "explanation": "في الحوار: Most of it is grown about forty kilometres from here."
     },
     {
       "day_number": 4,
@@ -5580,10 +5588,11 @@
       },
       "answer": {
         "accepted": [
-          "is cleaned"
+          "is cleaned",
+          "was cleaned"
         ]
       },
-      "explanation": "في الحوار: First it is cleaned."
+      "explanation": "في الحوار: It's cleaned first. والعملية بالمضارع: is cleaned."
     },
     {
       "day_number": 4,
@@ -5598,7 +5607,8 @@
       },
       "answer": {
         "accepted": [
-          "is prepared"
+          "is prepared",
+          "was prepared"
         ]
       },
       "explanation": "في الحوار: Meanwhile the dye is prepared next door."
@@ -5616,7 +5626,8 @@
       },
       "answer": {
         "accepted": [
-          "is spun"
+          "is spun",
+          "was spun"
         ]
       },
       "explanation": "في الحوار: Then it is spun into thread."
@@ -5635,7 +5646,9 @@
       "answer": {
         "accepted": [
           "is dried / checked / packed",
-          "is dried / is checked / is packed"
+          "is dried / is checked / is packed",
+          "was dried / checked / packed",
+          "was dried / was checked / was packed"
         ]
       },
       "explanation": "be واحدة تكفي: It is dried, checked and packed."
@@ -5646,9 +5659,9 @@
       "focus_ar": "خطوات العملية في الحوار الأول",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "Seventy per cent ______ (export).",
+      "prompt": "Seventy per cent of the cloth ______ (export).",
       "payload": {
-        "before": "Seventy per cent ",
+        "before": "Seventy per cent of the cloth ",
         "after": " (export)."
       },
       "answer": {
@@ -5656,7 +5669,7 @@
           "is exported"
         ]
       },
-      "explanation": "per cent مع شيء غير معدود يأخذ is."
+      "explanation": "per cent of + شيء غير معدود (the cloth) يأخذ is: is exported."
     },
     {
       "day_number": 5,
@@ -5667,7 +5680,7 @@
       "prompt": "There are ten passives in Dialogue 2. Find them, and for each say why the doer is not named.",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: was hacked (الفاعل مجهول) · was discovered (لا يهمّ من اكتشفه) · was anything taken (مجهول) · were copied (مجهول) · was moved (مجهول) · have the clients been told (بديهي: الشركة) · is being prepared (لا يهمّ) · are usually mentioned (بديهي) · have to be changed (القارئ هو الفاعل) · must not be discussed (تعليمات عامّة)."
+      "explanation": "الجواب النموذجي: was hacked (الفاعل مجهول) · was discovered (لا يهمّ من اكتشفه) · was anything taken (مجهول) · were copied (مجهول) · was moved (مجهول) · have the clients been told (بديهي: الشركة) · is being prepared (لا يهمّ) · are usually mentioned (بديهي) · have to be changed (بديهي: كل الموظّفين) · must not be discussed (تعليمات عامّة)."
     },
     {
       "day_number": 5,
@@ -5806,7 +5819,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "First of all لأوّل خطوة، و Finally لآخرها، و As a result للنتيجة."
     },
     {
       "day_number": 6,
@@ -5841,7 +5854,8 @@
       "answer": {
         "accepted": [
           "Once",
-          "After"
+          "After",
+          "When"
         ]
       },
       "explanation": "Once أو After + has been لخطوة اكتملت."
@@ -5852,10 +5866,10 @@
       "focus_ar": "وصف عملية: كلمات الترتيب",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "It is ______ cut into small pieces.",
+      "prompt": "First the meat is washed. It is ______ cut into small pieces. (= بعد ذلك)",
       "payload": {
-        "before": "It is ",
-        "after": " cut into small pieces."
+        "before": "First the meat is washed. It is ",
+        "after": " cut into small pieces. (= بعد ذلك)"
       },
       "answer": {
         "accepted": [
@@ -5877,7 +5891,8 @@
       },
       "answer": {
         "accepted": [
-          "takes"
+          "takes",
+          "lasts"
         ]
       },
       "explanation": "takes + المدّة، لا needs."
@@ -6099,15 +6114,15 @@
       "prompt": "\"Rice is grown here.\" — \"is grown\" means…",
       "payload": {
         "options": [
-          "يزرع",
-          "يُزرع",
-          "زرع"
+          "يَزرَع",
+          "يُزرَع",
+          "زَرَع"
         ]
       },
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "يُزرَع بضمّ الياء مبنيّ للمجهول مثل is grown؛ ويَزرَع معلوم، وزَرَع ماضٍ معلوم."
     },
     {
       "day_number": 1,
@@ -6218,7 +6233,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "بعد was اسم المفعول: stolen، لا الماضي stole."
     },
     {
       "day_number": 1,
@@ -6237,7 +6252,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "بعد is اسم المفعول: spoken."
     },
     {
       "day_number": 1,
@@ -6255,7 +6270,7 @@
           "written"
         ]
       },
-      "explanation": null
+      "explanation": "اسم المفعول من write هو written."
     },
     {
       "day_number": 1,
@@ -6273,7 +6288,7 @@
           "sold"
         ]
       },
-      "explanation": null
+      "explanation": "اسم المفعول من sell هو sold."
     },
     {
       "day_number": 1,
@@ -6291,7 +6306,7 @@
           "taken"
         ]
       },
-      "explanation": null
+      "explanation": "اسم المفعول من take هو taken."
     },
     {
       "day_number": 1,
@@ -6309,7 +6324,7 @@
           "kept"
         ]
       },
-      "explanation": null
+      "explanation": "اسم المفعول من keep هو kept."
     },
     {
       "day_number": 1,
@@ -6343,7 +6358,8 @@
       },
       "answer": {
         "accepted": [
-          "Are"
+          "Are",
+          "Were"
         ]
       },
       "explanation": "السؤال: be أولاً."
@@ -6364,7 +6380,7 @@
           "was"
         ]
       },
-      "explanation": null
+      "explanation": "السؤال: was قبل الفاعل، والمفرد في الماضي was."
     },
     {
       "day_number": 1,
@@ -6382,7 +6398,7 @@
           "is"
         ]
       },
-      "explanation": null
+      "explanation": "السؤال: is قبل الفاعل، و rice غير معدود فيأخذ is."
     },
     {
       "day_number": 1,
@@ -6401,7 +6417,7 @@
           "aren't"
         ]
       },
-      "explanation": null
+      "explanation": "النفي: aren't + اسم المفعول، و cups جمع."
     },
     {
       "day_number": 1,
@@ -6436,7 +6452,7 @@
           "When was this bridge built?"
         ]
       },
-      "explanation": null
+      "explanation": "السؤال بالمجهول: When + was + الفاعل + built."
     },
     {
       "day_number": 1,
@@ -6485,7 +6501,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "السارق مجهول، فلا يُذكر."
     },
     {
       "day_number": 2,
@@ -6504,7 +6520,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "من يعتقل؟ الشرطة طبعاً — الفاعل بديهي."
     },
     {
       "day_number": 2,
@@ -6523,7 +6539,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "من ينظّف الشوارع لا يهمّ السامع."
     },
     {
       "day_number": 2,
@@ -6542,7 +6558,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "الموضوع الأهرام، فتبدأ بها الجملة."
     },
     {
       "day_number": 2,
@@ -6615,7 +6631,7 @@
           "with"
         ]
       },
-      "explanation": null
+      "explanation": "المفتاح أداة، فيأتي بـ with."
     },
     {
       "day_number": 2,
@@ -6685,7 +6701,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "rain لا مفعول له، فلا مجهول له: It rained."
     },
     {
       "day_number": 2,
@@ -6734,7 +6750,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "must be signed = يجب أن يُوقَّع، أي عليك أن توقّعه."
     },
     {
       "day_number": 3,
@@ -6753,7 +6769,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "can be recycled = يمكن إعادة تدويره."
     },
     {
       "day_number": 3,
@@ -6772,7 +6788,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "will be delivered = سيُوصَّل في المستقبل."
     },
     {
       "day_number": 3,
@@ -6791,7 +6807,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "must + be + اسم المفعول: must be kept."
     },
     {
       "day_number": 3,
@@ -6810,7 +6826,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "can + be + اسم المفعول: can be recycled."
     },
     {
       "day_number": 3,
@@ -6829,7 +6845,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "will + be + اسم المفعول: will be sent."
     },
     {
       "day_number": 3,
@@ -6866,7 +6882,7 @@
           "be checked"
         ]
       },
-      "explanation": null
+      "explanation": "must + be + checked."
     },
     {
       "day_number": 3,
@@ -6884,7 +6900,7 @@
           "be eaten"
         ]
       },
-      "explanation": null
+      "explanation": "can + be + eaten."
     },
     {
       "day_number": 3,
@@ -6902,7 +6918,7 @@
           "be shown"
         ]
       },
-      "explanation": null
+      "explanation": "must + be + shown."
     },
     {
       "day_number": 3,
@@ -6920,7 +6936,7 @@
           "be opened"
         ]
       },
-      "explanation": null
+      "explanation": "will + be + opened."
     },
     {
       "day_number": 3,
@@ -6940,7 +6956,7 @@
           "can not be used"
         ]
       },
-      "explanation": null
+      "explanation": "النفي بعد can: can't be used."
     },
     {
       "day_number": 3,
@@ -6959,7 +6975,7 @@
           "mustn't be brought"
         ]
       },
-      "explanation": null
+      "explanation": "النفي بعد must: must not be brought — و brought اسم المفعول من bring."
     },
     {
       "day_number": 3,
@@ -6993,7 +7009,7 @@
           "Paper can be recycled."
         ]
       },
-      "explanation": null
+      "explanation": "بعد be اسم المفعول: recycled لا recycle."
     },
     {
       "day_number": 3,
@@ -7010,7 +7026,7 @@
           "The letter will be sent tomorrow."
         ]
       },
-      "explanation": null
+      "explanation": "will + be + sent: لا تسقط be."
     },
     {
       "day_number": 3,
@@ -7045,7 +7061,7 @@
           "Milk should be kept in the fridge."
         ]
       },
-      "explanation": null
+      "explanation": "should + be + kept، ويُحذف you لأنه عامّ."
     },
     {
       "day_number": 3,
@@ -7059,10 +7075,11 @@
       },
       "answer": {
         "accepted": [
-          "Your phone can be repaired in one hour."
+          "Your phone can be repaired in one hour.",
+          "Your phone can be repaired in an hour."
         ]
       },
-      "explanation": null
+      "explanation": "can + be + repaired، ويُحذف we لأن الزبون لا يهمّه من يصلح."
     },
     {
       "day_number": 3,
@@ -7081,7 +7098,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "must be left = يجب أن تُترك: اترك حقيبتك عند المكتب."
     },
     {
       "day_number": 3,
@@ -7100,7 +7117,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "cannot be changed after payment = لا تُغيَّر بعد الدفع."
     },
     {
       "day_number": 3,
@@ -7119,7 +7136,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "are not allowed = ممنوعة."
     },
     {
       "day_number": 3,
@@ -7138,7 +7155,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "الجسر والأشجار والرجلان في المطار، ثم الطقس."
     },
     {
       "day_number": 3,
@@ -7157,7 +7174,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "في النشرة: after it was hit by a lorry."
     },
     {
       "day_number": 3,
@@ -7208,7 +7225,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "في النشرة: Forty phones were found in their bags."
     },
     {
       "day_number": 3,
@@ -7227,7 +7244,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "في النشرة: heavy rain is expected in the north."
     },
     {
       "day_number": 3,
@@ -7246,7 +7263,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "Sorry, I missed that = عذراً، فاتني ذلك."
     },
     {
       "day_number": 3,
@@ -7265,7 +7282,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "A bit slower, please = أبطأ قليلاً من فضلك."
     },
     {
       "day_number": 3,
@@ -7284,7 +7301,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "Did you say … or …? لتتأكّد من رقمين متشابهين."
     },
     {
       "day_number": 3,
@@ -7318,10 +7335,11 @@
       },
       "answer": {
         "accepted": [
-          "of"
+          "of",
+          "from"
         ]
       },
-      "explanation": null
+      "explanation": "made of أفضل هنا لأن الخشب ظاهر في الطاولة. وmade from مقبولة في الكلام، والأصل أنها للمادة التي تغيّرت (الورق من الخشب)."
     },
     {
       "day_number": 4,
@@ -7357,7 +7375,7 @@
           "in"
         ]
       },
-      "explanation": null
+      "explanation": "المكان: made in."
     },
     {
       "day_number": 4,
@@ -7365,17 +7383,17 @@
       "focus_ar": "made of · from · in · by · with",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "This bag was made ______ my aunt.",
+      "prompt": "This bag was made ______ my aunt. She made it last winter.",
       "payload": {
         "before": "This bag was made ",
-        "after": " my aunt."
+        "after": " my aunt. She made it last winter."
       },
       "answer": {
         "accepted": [
           "by"
         ]
       },
-      "explanation": null
+      "explanation": "صنعتها عمّتي، فهي الصانع: made by."
     },
     {
       "day_number": 4,
@@ -7393,7 +7411,7 @@
           "from"
         ]
       },
-      "explanation": null
+      "explanation": "الخشب تغيّر فلا يُرى في الورق: made from."
     },
     {
       "day_number": 4,
@@ -7412,7 +7430,7 @@
           "from"
         ]
       },
-      "explanation": null
+      "explanation": "مكوّنات الطعام: made with، و from مقبولة أيضاً."
     },
     {
       "day_number": 4,
@@ -7462,7 +7480,8 @@
       "answer": {
         "accepted": [
           "It is made in Egypt.",
-          "It's made in Egypt."
+          "It's made in Egypt.",
+          "This is made in Egypt."
         ]
       },
       "explanation": "الفاعل لا يُحذف."
@@ -7484,7 +7503,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "المادة: made of gold or silver."
     },
     {
       "day_number": 4,
@@ -7497,7 +7516,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في الحوار: Most of it is grown about forty kilometres from here."
     },
     {
       "day_number": 4,
@@ -7566,7 +7585,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "is being repaired = يجري الآن."
     },
     {
       "day_number": 5,
@@ -7585,7 +7604,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "has been repaired = انتهى، والنتيجة ظاهرة الآن."
     },
     {
       "day_number": 5,
@@ -7604,7 +7623,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "الرحلة لا تُلغي شيئاً، بل أُلغيت: has been cancelled."
     },
     {
       "day_number": 5,
@@ -7623,7 +7642,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "at the moment + مجهول: is being built."
     },
     {
       "day_number": 5,
@@ -7658,10 +7677,13 @@
       },
       "answer": {
         "accepted": [
-          "has been cancelled"
+          "has been cancelled",
+          "has been canceled",
+          "was cancelled",
+          "was canceled"
         ]
       },
-      "explanation": null
+      "explanation": "النتيجة الآن (Nobody is coming): has been cancelled."
     },
     {
       "day_number": 5,
@@ -7679,7 +7701,7 @@
           "is being washed"
         ]
       },
-      "explanation": null
+      "explanation": "now: is being washed."
     },
     {
       "day_number": 5,
@@ -7694,10 +7716,11 @@
       },
       "answer": {
         "accepted": [
-          "have been sold"
+          "have been sold",
+          "were sold"
         ]
       },
-      "explanation": null
+      "explanation": "النتيجة الآن (none left)، و tickets جمع: have been sold."
     },
     {
       "day_number": 5,
@@ -7716,7 +7739,7 @@
           "has not been repaired"
         ]
       },
-      "explanation": null
+      "explanation": "النفي مع yet: hasn't been repaired."
     },
     {
       "day_number": 5,
@@ -7769,7 +7792,7 @@
           "Two schools are being built."
         ]
       },
-      "explanation": null
+      "explanation": "schools جمع: are being built."
     },
     {
       "day_number": 5,
@@ -7801,10 +7824,11 @@
       "answer": {
         "accepted": [
           "The road has been closed after an accident.",
-          "A road has been closed after an accident."
+          "A road has been closed after an accident.",
+          "The road has been closed after the accident."
         ]
       },
-      "explanation": null
+      "explanation": "أعد has been و the و an المحذوفة."
     },
     {
       "day_number": 5,
@@ -7822,7 +7846,7 @@
           "The new bridge has been opened in Westford."
         ]
       },
-      "explanation": null
+      "explanation": "أعد has been و a المحذوفة."
     },
     {
       "day_number": 5,
@@ -7841,7 +7865,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "Have you heard? تفتتح بها خبراً."
     },
     {
       "day_number": 5,
@@ -7860,7 +7884,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "خبر سيّئ: That's terrible!"
     },
     {
       "day_number": 5,
@@ -7879,7 +7903,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "hurt شاذّ: hurt · hurt · hurt، والسؤال بالمجهول Was anyone hurt?"
     },
     {
       "day_number": 5,
@@ -7898,7 +7922,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "Apparently = على ما يبدو، لخبر لست متأكّداً منه."
     },
     {
       "day_number": 5,
@@ -7917,7 +7941,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "خبر مريح: What a relief!"
     },
     {
       "day_number": 5,
@@ -7946,7 +7970,7 @@
           "1993"
         ]
       },
-      "explanation": null
+      "explanation": "في النصّ: a computer that has been running since 1993."
     },
     {
       "day_number": 6,
@@ -7964,7 +7988,7 @@
           "2004"
         ]
       },
-      "explanation": null
+      "explanation": "في النصّ: a system that was replaced in 2004."
     },
     {
       "day_number": 6,
@@ -7983,7 +8007,7 @@
           "4"
         ]
       },
-      "explanation": null
+      "explanation": "في النصّ: the machine went off for four hours."
     },
     {
       "day_number": 6,
@@ -8002,7 +8026,7 @@
           "8"
         ]
       },
-      "explanation": null
+      "explanation": "في النصّ: an engineer who retired eight years ago."
     },
     {
       "day_number": 7,
@@ -8021,7 +8045,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "في النصّ: It is made of graphite … mixed with clay. والقلب ليس رصاصاً."
     },
     {
       "day_number": 7,
@@ -8032,7 +8056,7 @@
       "prompt": "\"At first this sounds silly.\" — silly means…",
       "payload": {
         "options": [
-          "not serious, hard to believe",
+          "foolish, not sensible",
           "very old",
           "very expensive"
         ]
@@ -8040,7 +8064,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "silly = سخيف لا يُعقل."
     },
     {
       "day_number": 7,
@@ -8059,7 +8083,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "never written down = لم تُكتب أسماؤهم، فلا أحد يعرفهم."
     },
     {
       "day_number": 7,
@@ -8078,7 +8102,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "الهاتف والكهرباء أمثلة أخرى على الفكرة نفسها."
     },
     {
       "day_number": 7,
@@ -8096,7 +8120,7 @@
           "invention"
         ]
       },
-      "explanation": null
+      "explanation": "invent ← invention (اختراع)."
     },
     {
       "day_number": 7,
@@ -8114,7 +8138,7 @@
           "discovery"
         ]
       },
-      "explanation": null
+      "explanation": "discover ← discovery (اكتشاف)."
     },
     {
       "day_number": 7,
@@ -8132,7 +8156,7 @@
           "Delivery"
         ]
       },
-      "explanation": null
+      "explanation": "deliver ← delivery (توصيل)."
     },
     {
       "day_number": 7,
@@ -8150,7 +8174,7 @@
           "translator"
         ]
       },
-      "explanation": null
+      "explanation": "translate ← translator (مترجم: الشخص)."
     },
     {
       "day_number": 7,
@@ -8168,7 +8192,7 @@
           "production"
         ]
       },
-      "explanation": null
+      "explanation": "produce ← production (إنتاج)."
     },
     {
       "day_number": 7,
@@ -8186,7 +8210,7 @@
           "protection"
         ]
       },
-      "explanation": null
+      "explanation": "protect ← protection (حماية)."
     },
     {
       "day_number": 7,

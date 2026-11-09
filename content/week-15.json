@@ -40,7 +40,7 @@
     },
     {
       "en": "I can say what is necessary and not necessary with need to and don't need to.",
-      "ar": "أستطيع أن أقول ما هو لازم وما ليس لازماً بـneed to وdon’t need to."
+      "ar": "أستطيع أن أقول ما هو ضروريّ وما ليس ضرورياً بـneed to وdon’t need to."
     },
     {
       "en": "I can give a strong warning with you'd better.",
@@ -68,8 +68,8 @@
     "max_words": 150,
     "templates": [
       {
-        "en": "Welcome! Here are a few things you should know before you arrive.",
-        "ar": "أهلاً بك! إليك بعض ما ينبغي أن تعرفه قبل وصولك."
+        "en": "Welcome! Here is some advice before you arrive.",
+        "ar": "أهلاً بك! إليك بعض النصائح قبل وصولك."
       },
       {
         "en": "First, you have to ____________ , and you also have to ____________ .",
@@ -104,8 +104,8 @@
         "note_ar": "so = لذلك: بعدها النتيجة."
       },
       {
-        "en": "And one thing nobody writes down: ____________ .",
-        "ar": "وشيء واحد لا يكتبه أحد: ___.",
+        "en": "And one unwritten rule: ____________ .",
+        "ar": "وقاعدة واحدة غير مكتوبة: ___.",
         "note_ar": "And في أول الجملة الأخيرة تقول للقارئ: هذه الأخيرة."
       }
     ],
@@ -126,8 +126,8 @@
         "ar": "الطول: بين 130 و150 كلمة."
       }
     ],
-    "model_answer": "Welcome! Here are a few things you should know before you arrive. First, you have to register at the local office in the first month, and you have to bring three copies of everything, because they will lose one. You mustn't take photographs near government buildings. That one is serious and people forget it. You don't have to speak Arabic to live here, although your life will be much easier if you learn a hundred words. I think you should live near your work rather than in a nicer area far away. The traffic here will take two hours of your day and you shouldn't underestimate what that does to you after a year. And one thing nobody writes down: if a shopkeeper offers you tea, you should accept it, even if you are in a hurry.",
-    "model_words": 137
+    "model_answer": "Welcome! Here is some advice before you arrive. First, you have to register at the local office in the first month, and you have to bring three copies of everything, because they will lose one. You mustn't take photographs near government buildings. That one is serious and people forget it. You don't have to speak Arabic to live here, although a hundred words will make your life much easier. You should also talk to your neighbours, because people here like to help. I think you should live near your work, not in a nicer area far away. The traffic here will take two hours of your day, and you shouldn't forget what that does to you after a year. And one unwritten rule: when a shopkeeper offers you tea, you should accept it, even when you are in a hurry.",
+    "model_words": 140
   },
   "days": [
     {
@@ -604,18 +604,12 @@
         },
         {
           "order": 9,
-          "label": "تسجيل الأسبوع — 60–90 ثانية عن موضوع اليوم",
-          "minutes": 5,
-          "ref": "record:baseline"
-        },
-        {
-          "order": 10,
           "label": "تحدّي اليوم",
           "minutes": 3,
           "ref": "play:match_race"
         },
         {
-          "order": 11,
+          "order": 10,
           "label": "مغامرة اليوم",
           "minutes": 10,
           "ref": "homework"
@@ -1590,7 +1584,7 @@
       "group": "advice_phrases",
       "word": "It depends.",
       "ipa": null,
-      "arabic": "يعتمد",
+      "arabic": "الأمر يتوقّف على الظروف",
       "example": "Is it expensive? It depends.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
@@ -1603,7 +1597,7 @@
       "group": "advice_phrases",
       "word": "It's up to you.",
       "ipa": null,
-      "arabic": "الأمر عائد لك",
+      "arabic": "الأمر إليك",
       "example": "We can stay or go. It's up to you.",
       "group_label_ar": "عبارات النصح",
       "group_label_en": "Advice Phrases",
@@ -1967,7 +1961,7 @@
       "group": "permission_and_requests",
       "word": "Is it OK if I…?",
       "ipa": null,
-      "arabic": "هل لا بأس إن…؟",
+      "arabic": "هل يناسبك أن…؟",
       "example": "Is it OK if I open the window?",
       "group_label_ar": "الإذن والطلب بلطف",
       "group_label_en": "Permission and Polite Requests",
@@ -2110,7 +2104,7 @@
       "group": "permission_and_requests",
       "word": "Not at all.",
       "ipa": null,
-      "arabic": "إطلاقاً (أي تفضّل)",
+      "arabic": "لا، أبداً (أي: تفضّل)",
       "example": "Do you mind if I sit here? — Not at all.",
       "group_label_ar": "الإذن والطلب بلطف",
       "group_label_en": "Permission and Polite Requests",
@@ -2253,7 +2247,7 @@
       "group": "make_do_take_have",
       "word": "do a course",
       "ipa": null,
-      "arabic": "يدرس دورة",
+      "arabic": "يلتحق بدورة",
       "example": "You could do an evening course.",
       "group_label_ar": "make و do و take و have",
       "group_label_en": "Collocations: make, do, take, have",
@@ -2403,8 +2397,8 @@
     {
       "number": 1,
       "title": "Asking for Advice",
-      "situation_en": "Khaled has been offered a job in another city.",
-      "situation_ar": "خالد عُرضت عليه وظيفة في مدينة أخرى، ويطلب النصيحة.",
+      "situation_en": "A company in another city has offered Khaled a job.",
+      "situation_ar": "عرضت شركة في مدينة أخرى وظيفة على خالد، وهو يطلب النصيحة.",
       "speaker_genders": {
         "KHALED": "m",
         "LINA": "f"
@@ -2422,8 +2416,8 @@
         },
         {
           "speaker": "KHALED",
-          "en": "I've been offered a job in Alexandria. Better salary, better title.",
-          "ar": "عُرضت عليّ وظيفة في الإسكندرية. راتب أفضل ومنصب أفضل."
+          "en": "A company in Alexandria has offered me a job. Better salary, better title.",
+          "ar": "عرضت عليّ شركة في الإسكندرية وظيفة. راتب أفضل ومنصب أفضل."
         },
         {
           "speaker": "LINA",
@@ -2443,7 +2437,7 @@
         {
           "speaker": "KHALED",
           "en": "Not properly. I don't want to worry her before I decide.",
-          "ar": "ليس بشكل جدي. لا أريد إقلاقها قبل أن أقرّر."
+          "ar": "ليس كما ينبغي. لا أريد أن أقلقها قبل أن أقرّر."
         },
         {
           "speaker": "LINA",
@@ -2453,7 +2447,7 @@
         {
           "speaker": "KHALED",
           "en": "You're probably right.",
-          "ar": "ربما أنت محقة."
+          "ar": "لعلّكِ محقّة."
         },
         {
           "speaker": "LINA",
@@ -2488,7 +2482,7 @@
         {
           "speaker": "LINA",
           "en": "Both. If I were you, I'd go and look, and decide on a Tuesday.",
-          "ar": "كلاهما. لو كنت مكانك، لذهبت ونظرت، وقرّرت يوم ثلاثاء."
+          "ar": "كلاهما. لو كنت مكانك لذهبتُ لأرى المدينة، وقرّرتُ يوم ثلاثاء."
         }
       ]
     },
@@ -2496,7 +2490,7 @@
       "number": 2,
       "title": "Explaining the Rules",
       "situation_en": "Sami is showing a new colleague around on her first day.",
-      "situation_ar": "سامي يجول بزميلة جديدة في يومها الأول ويشرح لها القواعد.",
+      "situation_ar": "سامي يعرّف زميلة جديدة بمكان العمل في يومها الأوّل ويشرح لها القواعد.",
       "speaker_genders": {
         "SAMI": "m",
         "LEILA": "f"
@@ -2535,7 +2529,7 @@
         {
           "speaker": "SAMI",
           "en": "Not really. You don't have to wear anything formal. But you shouldn't wear shorts.",
-          "ar": "ليس تماماً. لست مضطرة لارتداء شيء رسمي. لكن لا ينبغي ارتداء شورت."
+          "ar": "ليس تماماً. لست مضطرّة إلى ارتداء شيء رسمي. لكن لا ينبغي أن ترتدي سروالاً قصيراً."
         },
         {
           "speaker": "LEILA",
@@ -2565,7 +2559,7 @@
         {
           "speaker": "SAMI",
           "en": "No. But you mustn't miss the ten o'clock. That one is serious.",
-          "ar": "لا. لكن يجب ألا تفوّتي اجتماع العاشرة. ذلك جاد."
+          "ar": "لا. لكن يُمنع أن تفوّتي اجتماع العاشرة. ذلك أمر جادّ."
         },
         {
           "speaker": "LEILA",
@@ -3004,7 +2998,7 @@
             ],
             [
               "You mustn't come tomorrow.",
-              "لا تأتِ غداً. غير مرحَّب بك."
+              "لا تأتِ غداً — ممنوع."
             ],
             [
               "You don't have to come tomorrow.",
@@ -3154,7 +3148,7 @@
             "tip_ar": "«لا داعي لأن» لها في الإنجليزية جملتان صحيحتان: don’t have to وdon’t need to. أما mustn’t فليست منهما."
           }
         ],
-        "arabic_contrast_ar": "هنا أخطر خطأ في الفصل. «لا يجب أن تدفع» تحتمل في العربية معنيين متعاكسين: «ممنوع أن تدفع» أو «لست مضطراً أن تدفع». والإنجليزية تفصل بينهما تماماً: You mustn't pay = ممنوع، وYou don't have to pay = مجّاني واختياري. فإن ترجمت «لا يجب» بـmustn't وأنت تقصد «لا داعي لأن» قلبت المعنى — وقولك لزميل You mustn't come to the meeting يعني أنه غير مرحَّب به. قل لنفسك: «ممنوع» ← mustn't، و«لا داعي لأن» ← don't have to.",
+        "arabic_contrast_ar": "هنا أخطر خطأ في الفصل. «لا يجب أن تدفع» تحتمل في العربية معنيين متعاكسين: «ممنوع أن تدفع» أو «لست مضطراً أن تدفع». والإنجليزية تفصل بينهما تماماً: You mustn't pay = ممنوع، وYou don't have to pay = مجّاني واختياري. فإن ترجمت «لا يجب» بـmustn't وأنت تقصد «لا داعي لأن» قلبت المعنى — وقولك لزميل You mustn't come to the meeting يعني أن حضوره ممنوع. قل لنفسك: «ممنوع» ← mustn't، و«لا داعي لأن» ← don't have to.",
         "negation_ar": "mustn't = ممنوع (لا تفعل). don't / doesn't have to = غير مطلوب (افعل إن شئت). وdon't need to بمعنى don't have to تماماً.",
         "question_ar": "للسؤال عن الإلزام: Do I have to…? · Do I need to…? والجواب: Yes, you do / No, you don't."
       }
@@ -3286,9 +3280,9 @@
             "why_ar": "too وحدها قبل الصفة"
           },
           {
-            "wrong": "I love you too much.",
-            "right": "I love you very much.",
-            "why_ar": "too فيها مشكلة — والحبّ ليس مشكلة"
+            "wrong": "There is too many traffic.",
+            "right": "There is too much traffic.",
+            "why_ar": "traffic غير معدود ← too much"
           }
         ],
         "checklist_ar": [
@@ -3480,28 +3474,28 @@
         ],
         "transcript": [
           {
-            "en": "When I moved to a new country for work, they gave me a document with all the rules. Forty pages. I read it twice. It was completely useless, because it did not contain a single one of the rules that actually mattered.",
-            "ar": "حين انتقلت إلى بلد جديد للعمل أعطوني وثيقة فيها القواعد كلها. أربعون صفحة. قرأتها مرّتين. وكانت بلا فائدة تماماً، لأنها لم تحتوِ قاعدة واحدة من القواعد التي تهمّ فعلاً."
+            "en": "When I moved to a new country for work, they gave me a document with all the rules. Forty pages. I read it twice. It was completely useless: not one of the really important rules was in it.",
+            "ar": "حين انتقلت إلى بلد جديد للعمل أعطوني وثيقة فيها القواعد كلّها. أربعون صفحة. قرأتها مرّتين. وكانت بلا فائدة تماماً: لم تكن فيها قاعدة واحدة من القواعد المهمّة حقّاً."
           },
           {
-            "en": "The document told me I had to register with the local office within thirty days. Fine. It did not tell me that if you arrive at that office after eleven, you must expect to wait four hours, and that everybody local knows this and arrives at eight.",
-            "ar": "قالت الوثيقة إن عليّ أن أُسجّل في المكتب المحلّي خلال ثلاثين يوماً. حسناً. لكنها لم تقل لي إنك إن وصلت ذلك المكتب بعد الحادية عشرة فيجب أن تتوقّع انتظار أربع ساعات، وأن كل أهل البلد يعرفون هذا فيصلون في الثامنة."
+            "en": "According to the document, I had to register with the local office within thirty days. Fine. But it did not mention the important part: after eleven, you must expect to wait four hours at that office. Everybody local knows this and arrives at eight.",
+            "ar": "بحسب الوثيقة كان عليّ أن أسجّل في المكتب المحلّي خلال ثلاثين يوماً. حسناً. لكنها لم تذكر الجزء المهمّ: بعد الحادية عشرة يجب أن تتوقّع انتظار أربع ساعات في ذلك المكتب. وكل أهل البلد يعرفون هذا، فيصلون في الثامنة."
           },
           {
-            "en": "It told me I mustn't park in certain streets on Tuesdays. It did not tell me that you should never take the last seat on a bus if an older person is standing, and that people will look at you for a very long time if you do.",
-            "ar": "قالت إنه يُمنع أن أوقف سيارتي في شوارع معيّنة أيام الثلاثاء. لكنها لم تقل إنه ينبغي ألّا تأخذ آخر مقعد في الحافلة إن كان مسنّ واقفاً، وأن الناس سينظرون إليك طويلاً جداً إن فعلت."
+            "en": "It also said, \"You mustn't park in certain streets on Tuesdays.\" It did not mention this: you should never take the last seat on a bus when an older person is standing. People will look at you for a very long time.",
+            "ar": "وقالت أيضاً: «يُمنع الوقوف في شوارع معيّنة أيام الثلاثاء». ولم تذكر هذا: ينبغي ألّا تأخذ أبداً آخر مقعد في الحافلة حين يكون شخص مسنّ واقفاً، وإلّا نظر إليك الناس طويلاً جدّاً."
           },
           {
-            "en": "It said I didn't have to tip in restaurants. Technically true. What it should have said is that you don't have to, but everybody does, and the waiter will remember your face.",
-            "ar": "قالت إنني غير مضطرّ إلى دفع البقشيش في المطاعم. وهذا صحيح تقنياً. وكان الأصحّ أن تقول: أنت غير مضطرّ، لكن الجميع يدفع، والنادل سيتذكّر وجهك."
+            "en": "The document was also clear about tipping: I didn't have to tip in restaurants. Technically true. But here is the full truth: you don't have to, but everybody does, and the waiter will remember your face.",
+            "ar": "وكانت الوثيقة واضحة في البقشيش أيضاً: لم أكن مضطرّاً إلى دفعه في المطاعم. وهذا صحيح من الناحية الشكلية. لكن إليك الحقيقة كاملة: لست مضطرّاً، لكن الجميع يدفعه، والنادل سيتذكّر وجهك."
           },
           {
             "en": "My colleague explained the real rules in about ten minutes over coffee. You should always say hello when you enter a small shop. You mustn't ask people how much they earn. You don't have to arrive on time for a dinner invitation — in fact you shouldn't.",
-            "ar": "شرح لي زميلي القواعد الحقيقية في عشر دقائق على فنجان قهوة. ينبغي أن تقول «مرحباً» دائماً حين تدخل محلّاً صغيراً. ويُمنع أن تسأل الناس عن رواتبهم. وأنت غير مضطرّ إلى الحضور في الوقت لدعوة عشاء — بل ينبغي ألّا تفعل."
+            "ar": "شرح لي زميلي القواعد الحقيقية في عشر دقائق على فنجان قهوة. ينبغي أن تقول «مرحباً» دائماً حين تدخل محلّاً صغيراً. ويُمنع أن تسأل الناس عن رواتبهم. وأنت غير مضطرّ إلى الحضور في الموعد تماماً لدعوة عشاء — بل ينبغي ألّا تفعل."
           },
           {
             "en": "I have lived there for six years now. I still find new rules. Last month I learned that you should never be the first person to leave a party, and that this rule is so strong that parties sometimes last until four in the morning because nobody wants to be that person.",
-            "ar": "أسكن هناك ستّ سنوات الآن. وما زلت أجد قواعد جديدة. في الشهر الماضي تعلّمت أنه ينبغي ألّا تكون أول من يترك حفلة، وأن هذه القاعدة قويّة إلى حدّ أن الحفلات تمتدّ أحياناً إلى الرابعة صباحاً لأن لا أحد يريد أن يكون ذلك الشخص."
+            "ar": "أسكن هناك منذ ستّ سنوات. وما زلت أجد قواعد جديدة. في الشهر الماضي تعلّمت أنه ينبغي ألّا تكون أول من يترك حفلة، وأن هذه القاعدة قويّة إلى حدّ أن الحفلات تمتدّ أحياناً إلى الرابعة صباحاً لأن لا أحد يريد أن يكون ذلك الشخص."
           }
         ],
         "questions": [
@@ -3522,12 +3516,12 @@
           },
           {
             "q_ar": "ماذا لم تقل عن المكتب؟",
-            "a_ar": "أن من يصل بعد الحادية عشرة ينتظر أربع ساعات، وأن أهل البلد يصلون في الثامنة.",
+            "a_ar": "أن الانتظار بعد الحادية عشرة أربع ساعات، ولذلك يصل أهل البلد في الثامنة.",
             "hint_ar": "الفقرة الثانية"
           },
           {
             "q_ar": "ما القاعدة في مقاعد الحافلة؟",
-            "a_ar": "لا ينبغي أن تأخذ آخر مقعد إن كان مسنّ واقفاً.",
+            "a_ar": "ينبغي ألّا تأخذ آخر مقعد حين يكون شخص مسنّ واقفاً.",
             "hint_ar": "الفقرة الثالثة"
           },
           {
@@ -3567,24 +3561,24 @@
         "method_ar": "اقرأ مرتين. الأولى بلا توقّف، والثانية مع المسرد.",
         "story": [
           {
-            "en": "In Japan there is a word, jikan wo mamoru, which means roughly \"to protect the time\". Trains do not arrive approximately on time. They arrive on time.",
-            "ar": "في اليابان كلمة «جيكان وو مامورو»، ومعناها تقريباً «أن تحمي الوقت». والقطارات هناك لا تصل في وقتها تقريباً، بل تصل في وقتها."
+            "en": "In Japan people say jikan wo mamoru. It means roughly \"to protect the time\". Trains do not arrive approximately on time. They arrive on time.",
+            "ar": "في اليابان يقول الناس «جيكان وو مامورو»، ومعناها تقريباً «أن تحمي الوقت». والقطارات هناك لا تصل في وقتها تقريباً، بل تصل في وقتها تماماً."
           },
           {
-            "en": "In 2017 a train company issued a public apology. A train had left a station twenty seconds early. Twenty seconds. The apology explained that the staff had not checked the departure time properly and said the company deeply regretted the inconvenience.",
-            "ar": "في سنة 2017 أصدرت شركة قطارات اعتذاراً علنياً. كان قطار قد غادر محطة قبل موعده بعشرين ثانية. عشرين ثانية. وشرح الاعتذار أن الطاقم لم يتحقّق من وقت المغادرة كما ينبغي، وقال إن الشركة تأسف بشدّة للإزعاج."
+            "en": "In 2017 a train company issued a public apology. One of its trains left a station twenty seconds early. Twenty seconds. The company explained that the staff did not check the departure time properly. \"We deeply regret the inconvenience,\" it said.",
+            "ar": "في سنة 2017 أصدرت شركة قطارات اعتذاراً علنياً. فقد غادر أحد قطاراتها محطةً قبل موعده بعشرين ثانية. عشرون ثانية فقط. وشرحت الشركة أن الطاقم لم يتحقّق من وقت المغادرة كما ينبغي، وقالت: «نأسف بشدّة للإزعاج»."
           },
           {
-            "en": "Foreigners found this hilarious. Japanese commuters did not, and their reason is practical rather than cultural. If a train leaves early, somebody standing on the platform misses it. If that person misses a connection, they are late for work. The apology was not about pride. It was about the twenty people who arrived at the platform on time and found nothing there.",
-            "ar": "وجد الأجانب ذلك مضحكاً جداً. أما ركّاب طوكيو فلم يجدوه كذلك، وسببهم عمليّ لا ثقافيّ: إن غادر القطار قبل موعده فات أحدَهم واقفاً على الرصيف. وإن فات ذلك الشخص قطاره الموصّل تأخّر عن عمله. فالاعتذار لم يكن عن كبرياء، بل عن العشرين شخصاً الذين وصلوا الرصيف في وقتهم فلم يجدوا شيئاً."
+            "en": "Foreigners found this hilarious. Japanese commuters did not, and their reason is practical rather than cultural. When a train leaves early, somebody on the platform misses it. When that person misses a connection, they are late for work. The apology was not about pride. It was about passengers like this: they arrive at the platform on time and find no train.",
+            "ar": "وجد الأجانب ذلك مضحكاً جداً. أما الركّاب اليابانيون فلم يجدوه كذلك، وسببهم عمليّ لا ثقافيّ: حين يغادر القطار قبل موعده يفوت مَن ينتظره على الرصيف. وحين يفوت ذلك الشخصَ قطارُه الموصِل يتأخّر عن عمله. فالاعتذار لم يكن عن كبرياء، بل عن ركّاب كهؤلاء: يصلون إلى الرصيف في موعدهم فلا يجدون القطار."
           },
           {
-            "en": "The average delay on the Tokyo–Osaka line is under one minute per year. When a train is more than five minutes late, the company issues a delay certificate, which passengers must show to their employer as proof.",
-            "ar": "متوسّط التأخير على خطّ طوكيو–أوساكا أقلّ من دقيقة في السنة. وحين يتأخّر قطار أكثر من خمس دقائق تصدر الشركة شهادة تأخير، يجب على الراكب أن يعرضها على صاحب عمله دليلاً."
+            "en": "On the high-speed line between Tokyo and Osaka, the average delay of a train is about one minute. When a train is five minutes late or more, the company issues a delay certificate. Passengers can show it to their employer as proof.",
+            "ar": "على الخطّ السريع بين طوكيو وأوساكا يبلغ متوسّط تأخّر القطار نحو دقيقة واحدة. وحين يتأخّر قطار خمس دقائق أو أكثر تُصدر الشركة شهادة تأخير، ويستطيع الركّاب أن يعرضوها على أصحاب عملهم دليلاً."
           },
           {
-            "en": "Visitors are often told they should arrive early for everything. That is not quite right. You shouldn't arrive early either — arriving fifteen minutes before a meeting can be as awkward as arriving five minutes late, because your host has to stop what they are doing.",
-            "ar": "يُقال للزوّار كثيراً إنه ينبغي أن يصلوا مبكّرين إلى كل شيء. وهذا ليس دقيقاً. فينبغي ألّا تصل مبكّراً أيضاً — الوصول قبل الاجتماع بربع ساعة قد يكون محرجاً كالوصول متأخّراً خمس دقائق، لأن مستضيفك سيضطرّ إلى ترك ما بيده."
+            "en": "People often tell visitors that they should arrive early for everything. That is not quite right. You shouldn't arrive too early either — arriving fifteen minutes before a meeting can be as awkward as arriving five minutes late, because your host has to stop what they are doing.",
+            "ar": "كثيراً ما يقول الناس للزوّار إنه ينبغي أن يصلوا مبكّرين إلى كل شيء. وهذا ليس دقيقاً. فلا ينبغي أيضاً أن تصل مبكّراً أكثر من اللازم — الوصول قبل الاجتماع بربع ساعة قد يكون محرجاً كالوصول متأخّراً خمس دقائق، لأن مستضيفك سيضطرّ إلى ترك ما بيده."
           },
           {
             "en": "The rule, as one businessman explained it, is simple. \"You must not waste your own time. But you must never, ever waste somebody else's.\"",
@@ -3702,17 +3696,17 @@
           },
           {
             "q_ar": "ما السبب العمليّ للاعتذار؟",
-            "a_ar": "من وصل الرصيف في وقته فاته القطار، فقد يفوته القطار التالي ويتأخّر عن عمله.",
+            "a_ar": "من يصل إلى الرصيف في موعده يفوته القطار، فيفوته القطار الموصِل ويتأخّر عن عمله.",
             "hint_ar": "الفقرة الثالثة"
           },
           {
-            "q_ar": "كم متوسّط التأخير على خطّ طوكيو–أوساكا؟",
-            "a_ar": "أقلّ من دقيقة في السنة.",
+            "q_ar": "كم متوسّط تأخّر القطار على الخطّ السريع بين طوكيو وأوساكا؟",
+            "a_ar": "نحو دقيقة واحدة.",
             "hint_ar": "الفقرة الرابعة"
           },
           {
             "q_ar": "متى تصدر الشركة شهادة تأخير، وماذا يفعل بها الراكب؟",
-            "a_ar": "حين يتأخّر القطار أكثر من خمس دقائق، والراكب يجب أن يعرضها على صاحب عمله دليلاً.",
+            "a_ar": "حين يتأخّر القطار خمس دقائق أو أكثر، ويستطيع الراكب أن يعرضها على صاحب عمله دليلاً.",
             "hint_ar": "الفقرة الرابعة"
           },
           {
@@ -3747,7 +3741,7 @@
           },
           {
             "can_ar": "أحصل على 9 من 10 في التمييز بين mustn’t و don’t have to",
-            "can_en": "Score 9/10 on Exercise 2 (mustn't vs don't have to)?",
+            "can_en": "Score 9/10 on the day 3 exercises (mustn't vs don't have to)?",
             "proof_ar": "تمارين اليوم 3"
           },
           {
@@ -3802,11 +3796,11 @@
         "title_en": "Advice for Someone Like Me",
         "intro_ar": null,
         "cover_ar": null,
-        "model_en": "Imagine someone who is exactly where I was two years ago: thirty-two, an engineer, no English, and unhappy at work. // Here is what I'd tell them. //\nFirst, the rules. You have to accept that this takes two years, not two months. Everyone who told you six months was selling something. // And you have to do something every single day. Not two hours on Saturday — twenty minutes every day. //\nYou mustn't compare yourself to people who learned as children. That comparison will stop you and it is not a fair one. //\nYou don't have to be perfect before you speak. I waited a year for that feeling and it never arrived. // I should have started talking in month two. //\nI think you should record yourself every week, even though you will hate it. It is the only honest evidence you will have. // And you shouldn't study alone the whole time. Book a lesson with a real person early. //\nOne last thing nobody says: some weeks you will feel worse than the week before. That is normal and it is not failure. //",
+        "model_en": "Imagine someone exactly where I was two years ago: thirty-two, an engineer, no English, and unhappy at work. // Here is my advice for them. //\nFirst, the rules. You have to accept that this takes two years, not two months. Somebody promised you six months? They were selling something. // And you have to do something every single day. Not two hours on Saturday — twenty minutes every day. //\nYou mustn't compare yourself to native speakers. They learned as children. That comparison will stop you, and it is not a fair one. //\nYou don't have to be perfect before you speak. I waited a year for that feeling and it never arrived. // Start talking in month two, not month twelve. //\nI think you should record yourself every week, even though you will hate it. It is the most honest evidence of your progress. // And you shouldn't study alone the whole time. Book a lesson with a real person early. //\nOne last thing, and nobody says it: some weeks you will feel worse than the week before. That is normal and it is not failure. //",
         "outline": [
           {
             "part_en": "Who you are advising",
-            "say_en": "Imagine someone who…",
+            "say_en": "Imagine someone in my situation…",
             "seconds": 15
           },
           {
@@ -4224,10 +4218,16 @@
       },
       "answer": {
         "accepted": [
-          "should"
+          "should",
+          "must",
+          "ought to",
+          "need to",
+          "have to",
+          "had better",
+          "'d better"
         ]
       },
-      "explanation": null
+      "explanation": "نصيحة: should + فعل مجرّد."
     },
     {
       "day_number": 1,
@@ -4242,10 +4242,14 @@
       },
       "answer": {
         "accepted": [
-          "shouldn't"
+          "shouldn't",
+          "mustn't",
+          "ought not to",
+          "had better not",
+          "'d better not"
         ]
       },
-      "explanation": null
+      "explanation": "نصيحة بالنفي: shouldn't + فعل مجرّد."
     },
     {
       "day_number": 1,
@@ -4260,10 +4264,13 @@
       },
       "answer": {
         "accepted": [
-          "should"
+          "should",
+          "must",
+          "ought to",
+          "has to"
         ]
       },
-      "explanation": null
+      "explanation": "نصيحة: هو مناسب للوظيفة، فينبغي أن يتقدّم."
     },
     {
       "day_number": 1,
@@ -4278,10 +4285,13 @@
       },
       "answer": {
         "accepted": [
-          "shouldn't"
+          "shouldn't",
+          "mustn't",
+          "ought not to",
+          "can't"
         ]
       },
-      "explanation": null
+      "explanation": "لا ينبغي أن تكلّمه هكذا: shouldn't."
     },
     {
       "day_number": 1,
@@ -4296,10 +4306,16 @@
       },
       "answer": {
         "accepted": [
-          "should"
+          "should",
+          "must",
+          "have to",
+          "need to",
+          "ought to",
+          "had better",
+          "'d better"
         ]
       },
-      "explanation": null
+      "explanation": "الزحام شديد، فالنصيحة should."
     },
     {
       "day_number": 1,
@@ -4314,10 +4330,13 @@
       },
       "answer": {
         "accepted": [
-          "shouldn't"
+          "shouldn't",
+          "mustn't",
+          "can't",
+          "ought not to"
         ]
       },
-      "explanation": null
+      "explanation": "نصيحة بالنفي: shouldn't."
     },
     {
       "day_number": 1,
@@ -4325,17 +4344,21 @@
       "focus_ar": "should أم shouldn’t؟",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "If you want to improve, you ______ practise every day.",
+      "prompt": "You want to improve? Then you ______ practise every day.",
       "payload": {
-        "before": "If you want to improve, you ",
+        "before": "You want to improve? Then you ",
         "after": " practise every day."
       },
       "answer": {
         "accepted": [
-          "should"
+          "should",
+          "must",
+          "have to",
+          "need to",
+          "ought to"
         ]
       },
-      "explanation": null
+      "explanation": "نصيحة: should + فعل مجرّد."
     },
     {
       "day_number": 1,
@@ -4350,10 +4373,13 @@
       },
       "answer": {
         "accepted": [
-          "should"
+          "should",
+          "must",
+          "have to",
+          "ought to"
         ]
       },
-      "explanation": null
+      "explanation": "من حقّه أن يعرف، فينبغي أن تخبره: should."
     },
     {
       "day_number": 1,
@@ -4386,10 +4412,13 @@
       },
       "answer": {
         "accepted": [
-          "shouldn't"
+          "shouldn't",
+          "don't need to",
+          "don't have to",
+          "ought not to"
         ]
       },
-      "explanation": null
+      "explanation": "لا ينبغي أن يقلقوا كثيراً: shouldn't."
     },
     {
       "day_number": 3,
@@ -4404,7 +4433,9 @@
       },
       "answer": {
         "accepted": [
-          "don't have to"
+          "don't have to",
+          "don't need to",
+          "needn't"
         ]
       },
       "explanation": "اختياري: لا عمل يوم الأحد، فلست مضطراً."
@@ -4422,7 +4453,9 @@
       },
       "answer": {
         "accepted": [
-          "mustn't"
+          "mustn't",
+          "can't",
+          "aren't allowed to"
         ]
       },
       "explanation": "ممنوع في المستشفى."
@@ -4440,7 +4473,9 @@
       },
       "answer": {
         "accepted": [
-          "don't have to"
+          "don't have to",
+          "don't need to",
+          "needn't"
         ]
       },
       "explanation": "الوجبة مجّانية: لست مضطراً للدفع."
@@ -4458,7 +4493,9 @@
       },
       "answer": {
         "accepted": [
-          "mustn't"
+          "mustn't",
+          "can't",
+          "shouldn't"
         ]
       },
       "explanation": "مفاجأة: ممنوع أن تخبر أحداً."
@@ -4476,7 +4513,9 @@
       },
       "answer": {
         "accepted": [
-          "don't have to"
+          "don't have to",
+          "don't need to",
+          "needn't"
         ]
       },
       "explanation": "المكتب غير رسميّ: ربطة العنق اختيارية."
@@ -4494,7 +4533,9 @@
       },
       "answer": {
         "accepted": [
-          "mustn't"
+          "mustn't",
+          "can't",
+          "aren't allowed to"
         ]
       },
       "explanation": "ممنوع في الامتحان."
@@ -4512,7 +4553,9 @@
       },
       "answer": {
         "accepted": [
-          "don't have to"
+          "don't have to",
+          "don't need to",
+          "needn't"
         ]
       },
       "explanation": "الوقت كافٍ: لسنا مضطرّين للاستعجال."
@@ -4530,7 +4573,9 @@
       },
       "answer": {
         "accepted": [
-          "mustn't"
+          "mustn't",
+          "can't",
+          "aren't allowed to"
         ]
       },
       "explanation": "ممنوع وخطِر."
@@ -4548,7 +4593,9 @@
       },
       "answer": {
         "accepted": [
-          "don't have to"
+          "don't have to",
+          "don't need to",
+          "needn't"
         ]
       },
       "explanation": "يوجد مصعد: لست مضطراً لحملها."
@@ -4566,7 +4613,9 @@
       },
       "answer": {
         "accepted": [
-          "mustn't"
+          "mustn't",
+          "can't",
+          "shouldn't"
         ]
       },
       "explanation": "بلا جواز لا سفر: ممنوع أن تنساه."
@@ -4584,10 +4633,12 @@
       },
       "answer": {
         "accepted": [
-          "have to"
+          "have to",
+          "must",
+          "need to"
         ]
       },
-      "explanation": null
+      "explanation": "قانون من الخارج: have to."
     },
     {
       "day_number": 2,
@@ -4602,10 +4653,11 @@
       },
       "answer": {
         "accepted": [
-          "had to"
+          "had to",
+          "needed to"
         ]
       },
-      "explanation": null
+      "explanation": "إلزام في الماضي: had to — لا ماضي لـmust."
     },
     {
       "day_number": 2,
@@ -4620,10 +4672,12 @@
       },
       "answer": {
         "accepted": [
-          "must"
+          "must",
+          "have to",
+          "need to"
         ]
       },
-      "explanation": null
+      "explanation": "قرار من داخلك: must."
     },
     {
       "day_number": 2,
@@ -4638,10 +4692,11 @@
       },
       "answer": {
         "accepted": [
-          "Do / have to"
+          "Do / have to",
+          "Do / need to"
         ]
       },
-      "explanation": null
+      "explanation": "have to فعل عادي: Do you have to…?"
     },
     {
       "day_number": 2,
@@ -4659,7 +4714,7 @@
           "had to"
         ]
       },
-      "explanation": null
+      "explanation": "إلزام في الماضي: had to."
     },
     {
       "day_number": 2,
@@ -4674,10 +4729,12 @@
       },
       "answer": {
         "accepted": [
-          "don't have to"
+          "don't have to",
+          "don't need to",
+          "needn't"
         ]
       },
-      "explanation": null
+      "explanation": "اختياري لا ممنوع: don't have to."
     },
     {
       "day_number": 2,
@@ -4693,10 +4750,11 @@
       "answer": {
         "accepted": [
           "must",
-          "have to"
+          "have to",
+          "need to"
         ]
       },
-      "explanation": null
+      "explanation": "قاعدة على الجميع: must أو have to."
     },
     {
       "day_number": 2,
@@ -4711,10 +4769,11 @@
       },
       "answer": {
         "accepted": [
-          "had to"
+          "had to",
+          "needed to"
         ]
       },
-      "explanation": null
+      "explanation": "إلزام في الماضي: had to."
     },
     {
       "day_number": 2,
@@ -4729,10 +4788,12 @@
       },
       "answer": {
         "accepted": [
-          "must"
+          "must",
+          "should",
+          "have to"
         ]
       },
-      "explanation": null
+      "explanation": "توصية قويّة: You must see this film!"
     },
     {
       "day_number": 2,
@@ -4747,10 +4808,12 @@
       },
       "answer": {
         "accepted": [
-          "don't have to"
+          "don't have to",
+          "don't need to",
+          "needn't"
         ]
       },
-      "explanation": null
+      "explanation": "الطاولات متوفّرة دائماً، فالحجز غير مطلوب: don't have to."
     },
     {
       "day_number": 4,
@@ -4791,7 +4854,7 @@
       "focus_ar": "أعطِ نصيحة",
       "points": 1,
       "type": "free_text",
-      "prompt": "Give advice with a different phrase each time. Your friend says: \"I've been offered a job in another city.\"",
+      "prompt": "Give advice with a different phrase each time. Your friend says: \"A company in another city has offered me a job.\"",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: You should visit the city before you decide."
@@ -4874,10 +4937,11 @@
       },
       "answer": {
         "accepted": [
-          "He must finish today."
+          "He must finish today.",
+          "He has to finish today."
         ]
       },
-      "explanation": null
+      "explanation": "الناقص لا يأخذ s."
     },
     {
       "day_number": 5,
@@ -4891,10 +4955,11 @@
       },
       "answer": {
         "accepted": [
-          "You should see a doctor."
+          "You should see a doctor.",
+          "You ought to see a doctor."
         ]
       },
-      "explanation": null
+      "explanation": "لا to بعد الناقص."
     },
     {
       "day_number": 5,
@@ -4908,10 +4973,12 @@
       },
       "answer": {
         "accepted": [
-          "Should I bring my passport?"
+          "Should I bring my passport?",
+          "Do I have to bring my passport?",
+          "Do I need to bring my passport?"
         ]
       },
-      "explanation": null
+      "explanation": "السؤال بقلب الناقص بلا do."
     },
     {
       "day_number": 5,
@@ -4929,7 +4996,7 @@
           "I had to work late yesterday."
         ]
       },
-      "explanation": null
+      "explanation": "must بلا ماضٍ: had to."
     },
     {
       "day_number": 5,
@@ -4946,7 +5013,7 @@
           "She has to work on Saturday."
         ]
       },
-      "explanation": null
+      "explanation": "فعل مجرّد بعد have to."
     },
     {
       "day_number": 5,
@@ -4965,7 +5032,7 @@
           "Can you give me advice?"
         ]
       },
-      "explanation": null
+      "explanation": "advice غير معدودة: لا an."
     },
     {
       "day_number": 5,
@@ -4979,7 +5046,9 @@
       },
       "answer": {
         "accepted": [
-          "The dinner is free, so you don't have to pay."
+          "The dinner is free, so you don't have to pay.",
+          "The dinner is free, so you don't need to pay.",
+          "The dinner is free, so you needn't pay."
         ]
       },
       "explanation": "المقصود «لست مضطراً» لا «ممنوع»: don’t have to."
@@ -4996,10 +5065,11 @@
       },
       "answer": {
         "accepted": [
-          "He shouldn't say that."
+          "He shouldn't say that.",
+          "He shouldn't have said that."
         ]
       },
-      "explanation": null
+      "explanation": "لا do مع الناقص."
     },
     {
       "day_number": 5,
@@ -5013,10 +5083,11 @@
       },
       "answer": {
         "accepted": [
-          "We must leave now."
+          "We must leave now.",
+          "We have to leave now."
         ]
       },
-      "explanation": null
+      "explanation": "لا to بعد must."
     },
     {
       "day_number": 5,
@@ -5030,10 +5101,12 @@
       },
       "answer": {
         "accepted": [
-          "You don't have to come if you're busy."
+          "You don't have to come if you're busy.",
+          "You don't need to come if you're busy.",
+          "You needn't come if you're busy."
         ]
       },
-      "explanation": null
+      "explanation": "have to تُنفى بـdon't: لا haven't to."
     },
     {
       "day_number": 5,
@@ -5044,7 +5117,7 @@
       "prompt": "Complete with a true sentence about where you live or work: In my country you have to …… .",
       "payload": {},
       "answer": {},
-      "explanation": null
+      "explanation": "الجواب النموذجي: In my country you have to carry an identity card."
     },
     {
       "day_number": 5,
@@ -5055,7 +5128,7 @@
       "prompt": "Complete with a true sentence about where you live or work: In my country you mustn't …… .",
       "payload": {},
       "answer": {},
-      "explanation": null
+      "explanation": "الجواب النموذجي: In my country you mustn't drive without a licence."
     },
     {
       "day_number": 5,
@@ -5066,7 +5139,7 @@
       "prompt": "Complete with a true sentence about where you live or work: At my work we have to …… .",
       "payload": {},
       "answer": {},
-      "explanation": null
+      "explanation": "الجواب النموذجي: At my work we have to wear a uniform."
     },
     {
       "day_number": 5,
@@ -5077,7 +5150,7 @@
       "prompt": "Complete with a true sentence about where you live or work: At my work we don't have to …… .",
       "payload": {},
       "answer": {},
-      "explanation": null
+      "explanation": "الجواب النموذجي: At my work we don't have to work on Fridays."
     },
     {
       "day_number": 5,
@@ -5088,7 +5161,7 @@
       "prompt": "Complete with a true sentence about where you live or work: When I was at school we had to …… .",
       "payload": {},
       "answer": {},
-      "explanation": null
+      "explanation": "الجواب النموذجي: When I was at school we had to stand up when the teacher came in."
     },
     {
       "day_number": 5,
@@ -5099,7 +5172,7 @@
       "prompt": "Complete with a true sentence about where you live or work: In this building you mustn't …… .",
       "payload": {},
       "answer": {},
-      "explanation": null
+      "explanation": "الجواب النموذجي: In this building you mustn't smoke."
     },
     {
       "day_number": 5,
@@ -5110,7 +5183,7 @@
       "prompt": "Complete with a true sentence about where you live or work: Visitors must …… .",
       "payload": {},
       "answer": {},
-      "explanation": null
+      "explanation": "الجواب النموذجي: Visitors must sign in at reception."
     },
     {
       "day_number": 5,
@@ -5118,10 +5191,10 @@
       "focus_ar": "القواعد في مكانك",
       "points": 1,
       "type": "free_text",
-      "prompt": "Complete with a true sentence about where you live or work: You should …… if you visit my city.",
+      "prompt": "Complete with a true sentence about where you live or work: Visitors to my city should …… .",
       "payload": {},
       "answer": {},
-      "explanation": null
+      "explanation": "الجواب النموذجي: Visitors to my city should try the street food."
     },
     {
       "day_number": 4,
@@ -5129,10 +5202,10 @@
       "focus_ar": "فهم الحوار الأول",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "Khaled has been offered a job in ______.",
+      "prompt": "A company in ______ has offered Khaled a job.",
       "payload": {
-        "before": "Khaled has been offered a job in ",
-        "after": "."
+        "before": "A company in ",
+        "after": " has offered Khaled a job."
       },
       "answer": {
         "accepted": [
@@ -5197,10 +5270,13 @@
         "accepted": [
           "visit",
           "go to",
-          "see"
+          "see",
+          "explore",
+          "should visit",
+          "go and see"
         ]
       },
-      "explanation": null
+      "explanation": "اقتراح ليلى: Why don't you visit the city together?"
     },
     {
       "day_number": 4,
@@ -5241,7 +5317,7 @@
           "40"
         ]
       },
-      "explanation": null
+      "explanation": "الفقرة الأولى: Forty pages."
     },
     {
       "day_number": 6,
@@ -5252,7 +5328,7 @@
       "prompt": "Listening: why does the writer say the document was useless?",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: It did not contain a single one of the rules that actually mattered."
+      "explanation": "الجواب النموذجي: Not one of the really important rules was in it."
     },
     {
       "day_number": 6,
@@ -5260,9 +5336,9 @@
       "focus_ar": "فهم المسموع",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "The document said he had to register within ______ days.",
+      "prompt": "According to the document, he had to register within ______ days.",
       "payload": {
-        "before": "The document said he had to register within ",
+        "before": "According to the document, he had to register within ",
         "after": " days."
       },
       "answer": {
@@ -5271,7 +5347,7 @@
           "30"
         ]
       },
-      "explanation": null
+      "explanation": "الفقرة الثانية: within thirty days."
     },
     {
       "day_number": 6,
@@ -5279,10 +5355,10 @@
       "focus_ar": "فهم المسموع",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "If you arrive at the office after eleven, you must expect to wait ______ hours.",
+      "prompt": "After eleven, you must expect to wait ______ hours at the office.",
       "payload": {
-        "before": "If you arrive at the office after eleven, you must expect to wait ",
-        "after": " hours."
+        "before": "After eleven, you must expect to wait ",
+        "after": " hours at the office."
       },
       "answer": {
         "accepted": [
@@ -5290,7 +5366,7 @@
           "4"
         ]
       },
-      "explanation": null
+      "explanation": "الفقرة الثانية: four hours."
     },
     {
       "day_number": 6,
@@ -5301,7 +5377,7 @@
       "prompt": "Listening: what is the rule about seats on the bus?",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: You shouldn't take the last seat if an older person is standing."
+      "explanation": "الجواب النموذجي: You should never take the last seat on a bus when an older person is standing."
     },
     {
       "day_number": 6,
@@ -5330,7 +5406,7 @@
           "colleague"
         ]
       },
-      "explanation": "In about ten minutes, over coffee."
+      "explanation": "الفقرة الخامسة: زميله شرحها له على فنجان قهوة في نحو عشر دقائق."
     },
     {
       "day_number": 6,
@@ -5338,7 +5414,7 @@
       "focus_ar": "فهم المسموع",
       "points": 1,
       "type": "free_text",
-      "prompt": "Listening: name two rules his colleague told him.",
+      "prompt": "Listening: name two rules from his colleague.",
       "payload": {},
       "answer": {},
       "explanation": "الجواب النموذجي: Any two: say hello when you enter a small shop · don't ask people how much they earn · you don't have to arrive on time for a dinner invitation."
@@ -5360,7 +5436,7 @@
           "6"
         ]
       },
-      "explanation": null
+      "explanation": "الفقرة الأخيرة: I have lived there for six years."
     },
     {
       "day_number": 6,
@@ -5390,14 +5466,15 @@
       "focus_ar": "تعقّب الأفعال الناقصة",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "The document told me I ______ register with the local office within thirty days.",
+      "prompt": "According to the document, I ______ register with the local office within thirty days.",
       "payload": {
-        "before": "The document told me I ",
+        "before": "According to the document, I ",
         "after": " register with the local office within thirty days."
       },
       "answer": {
         "accepted": [
-          "had to"
+          "had to",
+          "needed to"
         ]
       },
       "explanation": "إلزام في الماضي: had to."
@@ -5408,14 +5485,16 @@
       "focus_ar": "تعقّب الأفعال الناقصة",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "It told me I ______ park in certain streets on Tuesdays.",
+      "prompt": "It also said, \"You ______ park in certain streets on Tuesdays.\"",
       "payload": {
-        "before": "It told me I ",
-        "after": " park in certain streets on Tuesdays."
+        "before": "It also said, \"You ",
+        "after": " park in certain streets on Tuesdays.\""
       },
       "answer": {
         "accepted": [
-          "mustn't"
+          "mustn't",
+          "can't",
+          "aren't allowed to"
         ]
       },
       "explanation": "منع: mustn’t."
@@ -5426,14 +5505,15 @@
       "focus_ar": "تعقّب الأفعال الناقصة",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "It said I ______ tip in restaurants.",
+      "prompt": "The document was also clear about tipping: I ______ tip in restaurants.",
       "payload": {
-        "before": "It said I ",
+        "before": "The document was also clear about tipping: I ",
         "after": " tip in restaurants."
       },
       "answer": {
         "accepted": [
-          "didn't have to"
+          "didn't have to",
+          "didn't need to"
         ]
       },
       "explanation": "لا إلزام في الماضي: didn’t have to."
@@ -5451,7 +5531,9 @@
       },
       "answer": {
         "accepted": [
-          "should"
+          "should",
+          "must",
+          "have to"
         ]
       },
       "explanation": "نصيحة: should."
@@ -5480,7 +5562,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: a train company issued a public apology."
     },
     {
       "day_number": 7,
@@ -5506,7 +5588,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: their reason is practical rather than cultural."
     },
     {
       "day_number": 7,
@@ -5514,12 +5596,12 @@
       "focus_ar": "صحّ أم خطأ",
       "points": 1,
       "type": "true_false",
-      "prompt": "A delay certificate is given after a five-minute delay.",
+      "prompt": "The company gives a delay certificate when a train is five minutes late or more.",
       "payload": {},
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: five minutes late or more … issues a delay certificate."
     },
     {
       "day_number": 7,
@@ -5545,7 +5627,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: can be as awkward as arriving five minutes late."
     },
     {
       "day_number": 7,
@@ -5558,7 +5640,7 @@
       "answer": {
         "correct": true
       },
-      "explanation": null
+      "explanation": "في النصّ: never, ever waste somebody else's."
     },
     {
       "day_number": 5,
@@ -5566,10 +5648,10 @@
       "focus_ar": "too و enough",
       "points": 1,
       "type": "fill_blank",
-      "prompt": "I can’t sleep. It’s ______ hot in here.",
+      "prompt": "It's ______ hot in here to sleep.",
       "payload": {
-        "before": "I can’t sleep. It’s ",
-        "after": " hot in here."
+        "before": "It's ",
+        "after": " hot in here to sleep."
       },
       "answer": {
         "accepted": [
@@ -5685,7 +5767,8 @@
       },
       "answer": {
         "accepted": [
-          "The tea is too hot."
+          "The tea is too hot.",
+          "The tea is very hot."
         ]
       },
       "explanation": "too وحدها قبل الصفة"
@@ -5796,10 +5879,10 @@
       "focus_ar": "نقاش",
       "points": 1,
       "type": "free_text",
-      "prompt": "Write three unwritten rules you would explain to a visitor to your country. Use should, mustn't and don't have to.",
+      "prompt": "Write three unwritten rules for a visitor to your country. Use should, mustn't and don't have to.",
       "payload": {},
       "answer": {},
-      "explanation": "الجواب النموذجي: You should accept tea if someone offers it. You mustn't eat in the street during Ramadan. You don't have to arrive on time for a family dinner."
+      "explanation": "الجواب النموذجي: You should accept tea when someone offers it. You mustn't eat in the street during the day in Ramadan. You don't have to arrive on time for a family dinner."
     },
     {
       "day_number": 1,
@@ -5897,7 +5980,7 @@
           "can"
         ]
       },
-      "explanation": null
+      "explanation": "لطلب النصيحة: What should I do?"
     },
     {
       "day_number": 1,
@@ -5996,7 +6079,8 @@
       },
       "answer": {
         "accepted": [
-          "has"
+          "has",
+          "needs"
         ]
       },
       "explanation": "مع she: has to."
@@ -6032,7 +6116,8 @@
       },
       "answer": {
         "accepted": [
-          "had"
+          "had",
+          "needed"
         ]
       },
       "explanation": "الماضي: had to."
@@ -6190,7 +6275,9 @@
       },
       "answer": {
         "accepted": [
-          "mustn't"
+          "mustn't",
+          "can't",
+          "aren't allowed to"
         ]
       },
       "explanation": "أمر بالمنع = mustn’t."
@@ -6209,10 +6296,11 @@
       "answer": {
         "accepted": [
           "don't have to",
-          "don't need to"
+          "don't need to",
+          "needn't"
         ]
       },
-      "explanation": null
+      "explanation": "غير ضروري = don't have to أو don't need to."
     },
     {
       "day_number": 3,
@@ -6258,7 +6346,8 @@
       "answer": {
         "accepted": [
           "needs",
-          "has"
+          "has",
+          "ought"
         ]
       },
       "explanation": "need فعل عادي: he needs to."
@@ -6276,10 +6365,11 @@
       },
       "answer": {
         "accepted": [
-          "don't"
+          "don't",
+          "won't"
         ]
       },
-      "explanation": null
+      "explanation": "don't need to = لا داعي لأن."
     },
     {
       "day_number": 3,
@@ -6315,7 +6405,7 @@
           "didn't"
         ]
       },
-      "explanation": null
+      "explanation": "نفي الماضي: didn't need to."
     },
     {
       "day_number": 3,
@@ -6333,7 +6423,7 @@
           "need"
         ]
       },
-      "explanation": null
+      "explanation": "don't need to بمعنى don't have to."
     },
     {
       "day_number": 3,
@@ -6455,7 +6545,7 @@
           "better"
         ]
       },
-      "explanation": null
+      "explanation": "had better: نصيحة فيها تحذير."
     },
     {
       "day_number": 4,
@@ -6473,7 +6563,7 @@
           "tell"
         ]
       },
-      "explanation": null
+      "explanation": "بعد 'd better فعل مجرّد بلا to."
     },
     {
       "day_number": 4,
@@ -6505,7 +6595,8 @@
       },
       "answer": {
         "accepted": [
-          "You had better call her."
+          "You had better call her.",
+          "You'd better call her."
         ]
       },
       "explanation": "لا to بعد had better."
@@ -6522,7 +6613,8 @@
       },
       "answer": {
         "accepted": [
-          "You'd better not forget your passport."
+          "You'd better not forget your passport.",
+          "You had better not forget your passport."
         ]
       },
       "explanation": "not بعد better."
@@ -6572,7 +6664,7 @@
           "too"
         ]
       },
-      "explanation": null
+      "explanation": "too + صفة + to: أكثر من أن أقود."
     },
     {
       "day_number": 5,
@@ -6621,7 +6713,7 @@
       "answer": {
         "correct": 1
       },
-      "explanation": null
+      "explanation": "تستأذن لنفسك بلطف: Is it OK if I…?"
     },
     {
       "day_number": 6,
@@ -6661,7 +6753,7 @@
       "answer": {
         "correct": 3
       },
-      "explanation": null
+      "explanation": "المقعد فارغ، فتوافق: Sure, go ahead."
     },
     {
       "day_number": 6,
@@ -6681,7 +6773,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "مدخل المستشفى للإسعاف، فترفض بأدب: I'm afraid not."
     },
     {
       "day_number": 6,
@@ -6712,7 +6804,7 @@
       "prompt": "You are in a museum. You want to know the rule about photos. You ask…",
       "payload": {
         "options": [
-          "Is it allowed to take photos here?",
+          "Am I allow to take photos here?",
           "Do I allowed to take photos here?",
           "Am I allowed to take photos here?",
           "Must I take photos here?"
@@ -6721,7 +6813,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "للسؤال عن القاعدة: Am I allowed to…? — allowed بـ-ed دائماً بعد am/is/are، فـ allow وحدها خطأ."
     },
     {
       "day_number": 6,
@@ -6741,7 +6833,7 @@
           "May"
         ]
       },
-      "explanation": null
+      "explanation": "تستأذن لنفسك: Can I · Could I · May I."
     },
     {
       "day_number": 6,
@@ -6756,10 +6848,11 @@
       },
       "answer": {
         "accepted": [
-          "allowed"
+          "allowed",
+          "permitted"
         ]
       },
-      "explanation": null
+      "explanation": "be allowed to + فعل: مسموح."
     },
     {
       "day_number": 6,
@@ -6775,7 +6868,8 @@
       "answer": {
         "accepted": [
           "Can",
-          "Could"
+          "Could",
+          "Would"
         ]
       },
       "explanation": "تطلب من غيرك: Can you / Could you."
@@ -6806,7 +6900,7 @@
       "type": "correct_error",
       "prompt": "تصحيح الخطأ",
       "payload": {
-        "sentence": "Is it allowed to smoke here?"
+        "sentence": "Am I allow to smoke here?"
       },
       "answer": {
         "accepted": [
@@ -6815,10 +6909,14 @@
           "Are we allowed to smoke here?",
           "Can I smoke here?",
           "Can we smoke here?",
-          "Is it OK if I smoke here?"
+          "Is it OK if I smoke here?",
+          "May I smoke here?",
+          "Could I smoke here?",
+          "Is it OK to smoke here?",
+          "Is smoking permitted here?"
         ]
       },
-      "explanation": null
+      "explanation": "بعد am/is/are تأتي allowed بـ-ed: Am I allowed to smoke here? أو Is smoking allowed here?"
     },
     {
       "day_number": 6,
@@ -6877,7 +6975,7 @@
           "The writer hated his new job.",
           "Tipping is always necessary in that country.",
           "Parties in that country are boring.",
-          "The rules that really matter in a new country are often not written down."
+          "In a new country, nobody writes down the really important rules."
         ]
       },
       "answer": {
@@ -6903,7 +7001,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "الفقرة الثانية: بعد الحادية عشرة ينتظر المرء أربع ساعات."
     },
     {
       "day_number": 7,
@@ -6921,7 +7019,7 @@
           "do"
         ]
       },
-      "explanation": null
+      "explanation": "do your best: ابذل قصارى جهدك."
     },
     {
       "day_number": 7,
@@ -6940,7 +7038,7 @@
           "have"
         ]
       },
-      "explanation": null
+      "explanation": "take a break أو have a break: خذ استراحة."
     },
     {
       "day_number": 7,
@@ -6958,7 +7056,7 @@
           "makes"
         ]
       },
-      "explanation": null
+      "explanation": "make a mistake لا do a mistake."
     },
     {
       "day_number": 7,
@@ -6973,10 +7071,12 @@
       },
       "answer": {
         "accepted": [
-          "have"
+          "have",
+          "'ve got",
+          "have got"
         ]
       },
-      "explanation": null
+      "explanation": "have a problem with: عندي مشكلة في."
     },
     {
       "day_number": 7,
@@ -6994,7 +7094,7 @@
           "took"
         ]
       },
-      "explanation": null
+      "explanation": "take a risk: يخاطر — وماضيها took."
     },
     {
       "day_number": 7,
@@ -7012,7 +7112,7 @@
           "make"
         ]
       },
-      "explanation": null
+      "explanation": "make a suggestion: يقدّم اقتراحاً."
     },
     {
       "day_number": 7,
@@ -7027,10 +7127,11 @@
       },
       "answer": {
         "accepted": [
-          "doing"
+          "doing",
+          "taking"
         ]
       },
-      "explanation": null
+      "explanation": "do a course: يدرس دورة."
     },
     {
       "day_number": 7,
@@ -7078,13 +7179,13 @@
       "focus_ar": "فهم المقروء",
       "points": 1,
       "type": "multiple_choice",
-      "prompt": "Reading: why did the company say sorry for a train that left only twenty seconds early?",
+      "prompt": "Reading: a train left only twenty seconds early. Why did the company say sorry?",
       "payload": {
         "options": [
           "The train was dangerous.",
           "Foreigners complained.",
           "The driver was proud.",
-          "Some passengers who arrived on time missed it."
+          "Passengers could arrive on time and still miss it."
         ]
       },
       "answer": {
@@ -7110,7 +7211,7 @@
       "answer": {
         "correct": 0
       },
-      "explanation": null
+      "explanation": "في النصّ: because your host has to stop what they are doing."
     },
     {
       "day_number": 7,
@@ -7150,7 +7251,7 @@
       "answer": {
         "correct": 2
       },
-      "explanation": null
+      "explanation": "hilarious = مضحك جداً."
     },
     {
       "day_number": 7,
@@ -7170,7 +7271,7 @@
       "answer": {
         "correct": 3
       },
-      "explanation": null
+      "explanation": "awkward = محرج."
     }
   ]
 }

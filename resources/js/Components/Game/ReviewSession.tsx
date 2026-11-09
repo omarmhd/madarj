@@ -17,7 +17,7 @@ import { useMySpeech } from '@/hooks/useSpeech';
 import { checkSpelling, type SpellResult } from '@/lib/spelling';
 import { useT } from '@/lib/i18n';
 import { reportMiss } from '@/lib/wordMisses';
-import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS } from '@/lib/autoAdvance';
+import { useAutoAdvance, Countdown, AUTO_RIGHT_MS, AUTO_REVEAL_MS, MissNext } from '@/lib/autoAdvance';
 
 /**
  * مراجعة المفردات بالتكرار المتباعد — داخل المنصة.
@@ -253,8 +253,7 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
   };
 
   // A typed answer grades and moves on by itself: right in 3s, else 5s
-  useAutoAdvance(revealed && !!result, result?.verdict === 'right' ? AUTO_RIGHT_MS : AUTO_REVEAL_MS, () =>
-    result && grade(result.verdict === 'right' ? Rating.Good : result.verdict === 'close' ? Rating.Hard : Rating.Again));
+  useAutoAdvance(revealed && result?.verdict === 'right', AUTO_RIGHT_MS, () => grade(Rating.Good));
 
   /* ---------- الحالات ---------- */
 
@@ -448,10 +447,16 @@ export default function ReviewSession({ weekNumber, dayNumber, onFinished, onPro
                   {(result.note || result.hint) && <p className="mt-1">{result.note ?? result.hint}</p>}
                 </div>
 
-                <div key={index}>
-                  <Countdown ms={result.verdict === 'right' ? AUTO_RIGHT_MS : AUTO_REVEAL_MS}
-                    tone={result.verdict === 'right' ? 'emerald' : 'rose'} />
-                </div>
+                {result.verdict === 'right' ? (
+                  <div key={index}>
+                    <Countdown ms={AUTO_RIGHT_MS} tone="emerald" />
+                  </div>
+                ) : (
+                  <MissNext
+                    label={tr('التالي')}
+                    onClick={() => grade(result.verdict === 'close' ? Rating.Hard : Rating.Again)}
+                  />
+                )}
               </>
             ) : (
               /* زرّان لا أكثر — نفس حركة بطاقات المفردات */
