@@ -29,14 +29,29 @@
         "His daughter was brought back to life, and she was laughing again.",
         "From that day on, Midas said that a warm hand was worth more than all the gold in the world."
       ],
-      "moral_en": "Some wishes are dangerous because they come true.",
-      "moral_ar": "بعض الأمنيات خطيرة لأنّها تتحقّق فعلاً.",
+      "moral_en": "A warm hand is worth more than all the gold in the world.",
+      "moral_ar": "يدٌ دافئة أثمنُ من ذهب الدنيا كلّه.",
       "words": [
-        { "en": "touch", "ar": "يلمس" },
-        { "en": "statue", "ar": "تمثال" },
-        { "en": "lips", "ar": "الشفتان" },
-        { "en": "disappear", "ar": "يختفي" },
-        { "en": "worth", "ar": "يساوي، قيمته" }
+        {
+          "en": "touch",
+          "ar": "يلمس"
+        },
+        {
+          "en": "statue",
+          "ar": "تمثال"
+        },
+        {
+          "en": "lips",
+          "ar": "الشفتان"
+        },
+        {
+          "en": "disappear",
+          "ar": "يختفي"
+        },
+        {
+          "en": "worth",
+          "ar": "يساوي، قيمته"
+        }
       ]
     },
     {
@@ -48,8 +63,8 @@
       "source_ar": "حكاية شعبيّة أوروبيّة",
       "source_en": "A European folk tale",
       "minutes": 3,
-      "why_ar": "مليئة بالكلام المنقول: قال لهم، طلب منهم، سألهم — وهي من دروس الأسبوع 22.",
-      "why_en": "Full of reported speech: he told them, he asked them to, he asked them — from the lessons of week 22.",
+      "why_ar": "مليئة بالكلام المنقول: told him that… وasked him what… وsaid that… — وهي من دروس الأسبوع 22.",
+      "why_en": "Full of reported speech: told him that…, asked him what…, said that… — from the lessons of week 22.",
       "lines": [
         "A tired traveller arrived in a small village late one cold evening.",
         "He had walked all day and had not eaten anything since the morning.",
@@ -71,12 +86,30 @@
       "moral_en": "When everyone gives a little, there is enough for all.",
       "moral_ar": "حين يعطي كلّ واحدٍ قليلاً، يكفي الجميع.",
       "words": [
-        { "en": "traveller", "ar": "مسافر" },
-        { "en": "knock", "ar": "يطرق الباب" },
-        { "en": "pot", "ar": "قِدر" },
-        { "en": "smooth", "ar": "أملس" },
-        { "en": "curious", "ar": "فضوليّ" },
-        { "en": "delicious", "ar": "لذيذ" }
+        {
+          "en": "traveller",
+          "ar": "مسافر"
+        },
+        {
+          "en": "knock",
+          "ar": "يطرق الباب"
+        },
+        {
+          "en": "pot",
+          "ar": "قِدر"
+        },
+        {
+          "en": "smooth",
+          "ar": "أملس"
+        },
+        {
+          "en": "curious",
+          "ar": "فضوليّ"
+        },
+        {
+          "en": "delicious",
+          "ar": "لذيذ"
+        }
       ]
     },
     {
@@ -88,8 +121,8 @@
       "source_ar": "هانس كريستيان أندرسن — أُعيدت كتابتها",
       "source_en": "Hans Christian Andersen — retold",
       "minutes": 3,
-      "why_ar": "قصّة عن الخوف من قول الحقيقة، وفيها المبني للمجهول في كلّ مكان: was made, was seen, was told.",
-      "why_en": "A story about the fear of telling the truth, with the passive everywhere: was made, was seen, was told.",
+      "why_ar": "قصّة عن الخوف من قول الحقيقة، وفيها الكلام المنقول والمبني للمجهول: said that… وwas dressed وwere repeated.",
+      "why_en": "A story about the fear of telling the truth, with reported speech and the passive: said that…, was dressed, were repeated.",
       "lines": [
         "There was once an emperor who loved new clothes more than anything else.",
         "One day, two men came to the palace and said that they were the best weavers in the world.",
@@ -111,12 +144,30 @@
       "moral_en": "The truth does not need everyone's permission to be true.",
       "moral_ar": "الحقيقة لا تحتاج إلى موافقة الجميع لتكون حقيقة.",
       "words": [
-        { "en": "emperor", "ar": "إمبراطور" },
-        { "en": "weaver", "ar": "حائك، نسّاج" },
-        { "en": "cloth", "ar": "قماش" },
-        { "en": "thief", "ar": "لصّ" },
-        { "en": "minister", "ar": "وزير" },
-        { "en": "crowd", "ar": "حشد من الناس" }
+        {
+          "en": "emperor",
+          "ar": "إمبراطور"
+        },
+        {
+          "en": "weaver",
+          "ar": "حائك، نسّاج"
+        },
+        {
+          "en": "cloth",
+          "ar": "قماش"
+        },
+        {
+          "en": "thief",
+          "ar": "لصّ"
+        },
+        {
+          "en": "minister",
+          "ar": "وزير"
+        },
+        {
+          "en": "crowd",
+          "ar": "حشد من الناس"
+        }
       ]
     },
     {
@@ -151,12 +202,30 @@
       "moral_en": "Judge people by who they are, not by what they wear.",
       "moral_ar": "احكم على الناس بما هم عليه، لا بما يلبسون.",
       "words": [
-        { "en": "merchant", "ar": "تاجر" },
-        { "en": "servant", "ar": "خادم" },
-        { "en": "sleeve", "ar": "كُمّ" },
-        { "en": "pour", "ar": "يصبّ" },
-        { "en": "stare", "ar": "يحدّق" },
-        { "en": "treat", "ar": "يعامل" }
+        {
+          "en": "merchant",
+          "ar": "تاجر"
+        },
+        {
+          "en": "servant",
+          "ar": "خادم"
+        },
+        {
+          "en": "sleeve",
+          "ar": "كُمّ"
+        },
+        {
+          "en": "pour",
+          "ar": "يصبّ"
+        },
+        {
+          "en": "stare",
+          "ar": "يحدّق"
+        },
+        {
+          "en": "treat",
+          "ar": "يعامل"
+        }
       ]
     },
     {
@@ -188,15 +257,33 @@
         "\"Go home,\" said the fish quietly. \"She is back in her old hut.\"",
         "And there they still live, if they have not died, in the same small hut by the sea."
       ],
-      "moral_en": "The person who always wants more is never satisfied.",
-      "moral_ar": "مَن يريد المزيد دائماً لا يشبع أبداً.",
+      "moral_en": "Whoever asks for everything ends up with nothing.",
+      "moral_ar": "مَن طلب كلّ شيء عاد بلا شيء.",
       "words": [
-        { "en": "hut", "ar": "كوخ" },
-        { "en": "spell", "ar": "سِحر، تعويذة" },
-        { "en": "cottage", "ar": "بيت ريفيّ صغير" },
-        { "en": "replace", "ar": "يحلّ محلّ" },
-        { "en": "wave", "ar": "موجة" },
-        { "en": "satisfied", "ar": "راضٍ، قانع" }
+        {
+          "en": "hut",
+          "ar": "كوخ"
+        },
+        {
+          "en": "spell",
+          "ar": "سِحر، تعويذة"
+        },
+        {
+          "en": "cottage",
+          "ar": "بيت ريفيّ صغير"
+        },
+        {
+          "en": "replace",
+          "ar": "يحلّ محلّ"
+        },
+        {
+          "en": "wave",
+          "ar": "موجة"
+        },
+        {
+          "en": "satisfied",
+          "ar": "راضٍ، قانع"
+        }
       ]
     },
     {
@@ -228,21 +315,39 @@
         "\"Oh, my poor Mathilde,\" she said. \"Mine was not real. It was worth almost nothing.\"",
         "If Mathilde had told the truth ten years earlier, everything would have been different."
       ],
-      "moral_en": "Pride can cost more than the truth.",
-      "moral_ar": "الكِبر قد يكلّف أكثر من قول الحقيقة.",
+      "moral_en": "Hiding one mistake can cost you years of your life.",
+      "moral_ar": "إخفاء خطأٍ واحد قد يكلّفك سنواتٍ من عمرك.",
       "words": [
-        { "en": "necklace", "ar": "عِقد، قلادة" },
-        { "en": "jewellery", "ar": "مجوهرات" },
-        { "en": "lend", "ar": "يُعير" },
-        { "en": "borrow", "ar": "يستعير، يقترض" },
-        { "en": "admire", "ar": "يُعجَب بـ" },
-        { "en": "rough", "ar": "خشن" }
+        {
+          "en": "necklace",
+          "ar": "عِقد، قلادة"
+        },
+        {
+          "en": "jewellery",
+          "ar": "مجوهرات"
+        },
+        {
+          "en": "lend",
+          "ar": "يُعير"
+        },
+        {
+          "en": "borrow",
+          "ar": "يستعير، يقترض"
+        },
+        {
+          "en": "admire",
+          "ar": "يُعجَب بـ"
+        },
+        {
+          "en": "rough",
+          "ar": "خشن"
+        }
       ]
     },
     {
       "slug": "the-pied-piper",
-      "title_en": "The Piper of Hamelin",
-      "title_ar": "زمّار هاملن",
+      "title_en": "The Stranger of Hamelin",
+      "title_ar": "غريب هاملن",
       "level": "B1+",
       "narrator": "m",
       "source_ar": "أسطورة ألمانيّة",
@@ -254,16 +359,16 @@
         "Many years ago, the town of Hamelin was full of rats.",
         "They were found in every kitchen, every bed and every shoe.",
         "The people were desperate, and they begged the mayor to do something.",
-        "One morning, a strange man in a red and yellow coat arrived with a small pipe.",
+        "One morning, a strange man in a red and yellow coat arrived with a long silver stick.",
         "He told the mayor that he could remove every rat if the town paid him a thousand gold coins.",
         "The mayor agreed immediately, because he was sure that it was impossible.",
-        "The man began to play a sweet, strange tune as he walked through the streets.",
+        "The man began to tap the ground with his stick as he walked slowly through the streets.",
         "Rats came out of every house and followed him down to the river, where they were all drowned.",
-        "But when the piper asked for his money, the mayor only laughed.",
+        "But when the stranger asked for his money, the mayor only laughed.",
         "He said that the rats were already dead, so the job had been too easy to be worth a thousand coins.",
-        "The piper did not argue. He just smiled and lifted his pipe again.",
-        "This time, a different tune was heard, and it was the children who came out of the houses.",
-        "They followed him, dancing and singing, out of the town and towards the mountains.",
+        "The stranger did not argue. He just smiled and lifted his stick again.",
+        "This time, a different sound was heard, and it was the children who came out of the houses.",
+        "They followed him, laughing and running, out of the town and towards the mountains.",
         "Their parents tried to stop them, but it was as if they could not move.",
         "The children were never seen in Hamelin again.",
         "People say that the mayor wished, for the rest of his life, that he had kept his promise."
@@ -271,12 +376,30 @@
       "moral_en": "A promise has to be kept, even when it seems too easy.",
       "moral_ar": "الوعد يُوفى به، حتى حين يبدو العمل سهلاً.",
       "words": [
-        { "en": "rat", "ar": "جُرذ" },
-        { "en": "desperate", "ar": "يائس" },
-        { "en": "mayor", "ar": "عُمدة المدينة" },
-        { "en": "pipe", "ar": "مِزمار" },
-        { "en": "tune", "ar": "لحن" },
-        { "en": "drown", "ar": "يغرق" }
+        {
+          "en": "rat",
+          "ar": "جُرذ"
+        },
+        {
+          "en": "desperate",
+          "ar": "يائس"
+        },
+        {
+          "en": "mayor",
+          "ar": "عُمدة المدينة"
+        },
+        {
+          "en": "drown",
+          "ar": "يغرق"
+        },
+        {
+          "en": "stick",
+          "ar": "عصا"
+        },
+        {
+          "en": "tap",
+          "ar": "ينقر، يطرق برفق"
+        }
       ]
     },
     {
@@ -311,12 +434,30 @@
       "moral_en": "The best gift is what you are willing to give up.",
       "moral_ar": "أجمل هديّة هي ما تتخلّى عنه من أجل مَن تحبّ.",
       "words": [
-        { "en": "treasure", "ar": "كنز" },
-        { "en": "belong", "ar": "يخصّ، مِلك لـ" },
-        { "en": "mirror", "ar": "مرآة" },
-        { "en": "chain", "ar": "سلسلة" },
-        { "en": "comb", "ar": "مُشط" },
-        { "en": "useless", "ar": "بلا فائدة" }
+        {
+          "en": "treasure",
+          "ar": "كنز"
+        },
+        {
+          "en": "belong",
+          "ar": "يخصّ، مِلك لـ"
+        },
+        {
+          "en": "mirror",
+          "ar": "مرآة"
+        },
+        {
+          "en": "chain",
+          "ar": "سلسلة"
+        },
+        {
+          "en": "comb",
+          "ar": "مُشط"
+        },
+        {
+          "en": "useless",
+          "ar": "بلا فائدة"
+        }
       ]
     },
     {
@@ -351,12 +492,30 @@
       "moral_en": "Time does not wait for anyone.",
       "moral_ar": "الوقت لا ينتظر أحداً.",
       "words": [
-        { "en": "escape", "ar": "يهرب" },
-        { "en": "rust", "ar": "صدأ" },
-        { "en": "beard", "ar": "لحية" },
-        { "en": "stiff", "ar": "متيبّس" },
-        { "en": "recognise", "ar": "يتعرّف على" },
-        { "en": "roof", "ar": "سقف" }
+        {
+          "en": "escape",
+          "ar": "يهرب"
+        },
+        {
+          "en": "rust",
+          "ar": "صدأ"
+        },
+        {
+          "en": "beard",
+          "ar": "لحية"
+        },
+        {
+          "en": "stiff",
+          "ar": "متيبّس"
+        },
+        {
+          "en": "recognise",
+          "ar": "يتعرّف على"
+        },
+        {
+          "en": "roof",
+          "ar": "سقف"
+        }
       ]
     },
     {
@@ -388,15 +547,33 @@
         "But the broken heart would not melt, so it was thrown away with the dead bird.",
         "It is said that these were the two most precious things that were ever found in that city."
       ],
-      "moral_en": "Real beauty is in what we give, not in what we wear.",
-      "moral_ar": "الجمال الحقيقيّ فيما نعطي، لا فيما نلبس.",
+      "moral_en": "What people throw away can be the most precious thing of all.",
+      "moral_ar": "ما يرميه الناس قد يكون أثمنَ ما في الدنيا.",
       "words": [
-        { "en": "jewel", "ar": "جوهرة" },
-        { "en": "ruby", "ar": "ياقوت أحمر" },
-        { "en": "sword", "ar": "سيف" },
-        { "en": "misery", "ar": "بؤس، شقاء" },
-        { "en": "melt", "ar": "يذوب، يُصهَر" },
-        { "en": "precious", "ar": "ثمين" }
+        {
+          "en": "jewel",
+          "ar": "جوهرة"
+        },
+        {
+          "en": "ruby",
+          "ar": "ياقوت أحمر"
+        },
+        {
+          "en": "sword",
+          "ar": "سيف"
+        },
+        {
+          "en": "misery",
+          "ar": "بؤس، شقاء"
+        },
+        {
+          "en": "melt",
+          "ar": "يذوب، يُصهَر"
+        },
+        {
+          "en": "precious",
+          "ar": "ثمين"
+        }
       ]
     }
   ]

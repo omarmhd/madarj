@@ -880,7 +880,7 @@
             },
             {
               "type": "multiple_choice",
-              "prompt": "I like ___ .",
+              "prompt": "I like animals. I like ___ and dogs.",
               "payload": {
                 "options": [
                   "cat",
@@ -1025,7 +1025,8 @@
               "answer": {
                 "accepted": [
                   "aunt",
-                  "auntie"
+                  "auntie",
+                  "aunty"
                 ]
               },
               "points": 1
@@ -1373,7 +1374,8 @@
               "answer": {
                 "accepted": [
                   "lives",
-                  "stays"
+                  "stays",
+                  "is"
                 ]
               },
               "points": 1

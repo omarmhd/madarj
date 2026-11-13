@@ -5,6 +5,7 @@
   "title_en": "A2+ Level Test",
   "minutes": 50,
   "pass_percent": 60,
+  "section_min_percent": 40,
   "modeled_on": "Cambridge A2 Key / B1 Preliminary, CEFR A2–B1",
   "tips_ar": [
     "اقرأ السؤال قبل أن تستمع، لتعرف ما تبحث عنه.",
@@ -21,7 +22,7 @@
       "instructions_ar": "استمع إلى كل حوار، ثم اختر الإجابة الصحيحة.",
       "advice_ar": [
         "استمع إلى حواري كل أسبوع مرة كل يوم دون أن تنظر إلى النص.",
-        "جرّب الشادوينج: كرّر الجملة بعد المتحدث مباشرة.",
+        "شاهد حلقة اليوم، واكتب جملة سمعتها كما سمعتها.",
         "استمع إلى القصص بصوت الراوي ثم اقرأها."
       ],
       "parts": [
@@ -86,7 +87,7 @@
             },
             {
               "type": "true_false",
-              "prompt": "Sam was very tired after the mountain.",
+              "prompt": "Sam got very tired on the mountain.",
               "payload": {},
               "answer": {
                 "correct": true
@@ -774,7 +775,9 @@
               },
               "answer": {
                 "accepted": [
-                  "increased"
+                  "increased",
+                  "risen",
+                  "gone up"
                 ]
               },
               "points": 1
@@ -851,12 +854,10 @@
                 "accepted": [
                   "If it rains tomorrow, we will stay home.",
                   "If it rains tomorrow we will stay home.",
-                  "If it rains tomorrow, we 'll stay home.",
-                  "If it rains tomorrow we 'll stay home.",
                   "If it rains tomorrow, we will stay at home.",
                   "If it rains tomorrow we will stay at home.",
-                  "If it rains tomorrow, we 'll stay at home.",
-                  "If it rains tomorrow we 'll stay at home."
+                  "We will stay home if it rains tomorrow.",
+                  "We will stay at home if it rains tomorrow."
                 ]
               },
               "points": 1
@@ -886,7 +887,8 @@
               "answer": {
                 "accepted": [
                   "You must show your passport.",
-                  "You have to show your passport."
+                  "You have to show your passport.",
+                  "You need to show your passport."
                 ]
               },
               "points": 1

@@ -5,6 +5,7 @@
   "title_en": "A2 Level Test",
   "minutes": 45,
   "pass_percent": 60,
+  "section_min_percent": 40,
   "modeled_on": "Cambridge A2 Key (KET) task styles, CEFR A2 can-do descriptors",
   "tips_ar": [
     "اقرأ السؤال قبل أن تسمع أو تقرأ النصّ.",
@@ -209,7 +210,11 @@
                   "5 p.m.",
                   "5pm",
                   "five pm",
-                  "five p.m."
+                  "five p.m.",
+                  "17:00",
+                  "5:00 pm",
+                  "5:00pm",
+                  "5:00 p.m."
                 ]
               },
               "points": 1
@@ -267,7 +272,7 @@
               "payload": {
                 "options": [
                   "The coffee",
-                  "The music",
+                  "The food",
                   "The tables"
                 ]
               },

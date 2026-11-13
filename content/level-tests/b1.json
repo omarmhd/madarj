@@ -5,6 +5,7 @@
   "title_en": "B1 Level Test",
   "minutes": 75,
   "pass_percent": 60,
+  "section_min_percent": 40,
   "modeled_on": "Cambridge A2 Key / B1 Preliminary, CEFR A2–B1",
   "tips_ar": [
     "اقرأ الأسئلة قبل أن تستمع أو تقرأ النص.",
@@ -93,7 +94,7 @@
               "type": "fill_blank",
               "prompt": "Complete the note:",
               "payload": {
-                "before": "Bus ticket:",
+                "before": "Bus ticket: ",
                 "after": " pounds."
               },
               "answer": {
@@ -224,7 +225,7 @@
           ]
         },
         {
-          "instructions_ar": "مكالمة هاتفية في عمل.",
+          "instructions_ar": "مكالمة هاتفية في العمل.",
           "audio": [
             {
               "g": "f",
@@ -337,7 +338,7 @@
                 "options": [
                   "Ali is already at the meeting.",
                   "Ali has cancelled the meeting.",
-                  "Ali will arrive after the start."
+                  "Ali will arrive after the meeting starts."
                 ]
               },
               "answer": {
@@ -1090,7 +1091,7 @@
     ],
     "min_words": 100,
     "max_words": 140,
-    "model_en": "Hi Alex,\n\nThanks for your email — it was great to hear from you!\n\nI've been working here for three months now, and I'm really enjoying it. The job is harder than my old one, but my colleagues are friendly and I've learned a lot. Last week my manager asked me to lead a small project, so I'm a bit nervous!\n\nThe best thing about the city is the old market. I go there every Saturday morning, and I've already tried about ten kinds of bread.\n\nYou should definitely come next month. You could stay at my flat — it isn't big, but there's a spare bed. If the weather is good, we could take a boat along the river and have lunch in the market.\n\nLet me know which days suit you.\n\nBest wishes,\nKarim",
+    "model_en": "Hi Alex,\n\nThanks for your email — it was great to hear from you!\n\nI've been working here for three months now, and I'm really enjoying it. The job is harder than my old one, but my colleagues are friendly and I've learned a lot. Last week my manager asked me to lead a small project, so I'm a bit nervous!\n\nThe best thing about the city is the old market. I go there every Saturday morning, and I've already tried about ten kinds of bread.\n\nYou should definitely come next month. You could stay at my flat — it isn't big, but there's a spare bed. If the weather is good, we could take a boat trip on the river and have lunch in the market.\n\nLet me know which days suit you.\n\nBest wishes,\nKarim",
     "model_notes_ar": [
       "كل نقطة في فقرة: العمل، ثم السوق، ثم الدعوة.",
       "I've been working · I've learned · I've already tried — التامّ لما بدأ وما زال، أو لما حدث بلا وقت محدّد.",
@@ -1100,7 +1101,7 @@
     ],
     "before_rating_ar": [
       "اقرأ رسالتك مرة بصوت مرتفع قبل أن تقيّمها.",
-      "ابحث فيها عن الأخطاء العشرين: He work · since three years · He said me · I am agree.",
+      "ابحث فيها عن الأخطاء العشرين: He work · I live here since 2020 · If it will rain · He said me.",
       "قارنها بالنموذج نقطةً نقطة، لا كلمةً كلمة: رسالتك لا يجب أن تشبهه.",
       "كن صادقاً: التقييم لك وحدك، ولا يراه أحد غيرك."
     ],

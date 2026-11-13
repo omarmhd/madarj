@@ -418,7 +418,7 @@
               "payload": {
                 "options": [
                   "Have",
-                  "It is",
+                  "It has",
                   "There is",
                   "Has"
                 ]
@@ -548,13 +548,13 @@
             {
               "type": "multiple_choice",
               "band": "B1",
-              "prompt": "He told me that he ___ tired.",
+              "prompt": "He said, \"I am tired.\" → He told me that he ___ tired.",
               "payload": {
                 "options": [
-                  "is",
+                  "am",
                   "was",
-                  "has been",
-                  "be"
+                  "be",
+                  "were"
                 ]
               },
               "answer": {
@@ -947,7 +947,8 @@
               },
               "answer": {
                 "accepted": [
-                  "He bought a new car."
+                  "He bought a new car.",
+                  "He has bought a new car."
                 ]
               },
               "points": 1
